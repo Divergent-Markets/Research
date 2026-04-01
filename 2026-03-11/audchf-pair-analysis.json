@@ -1,0 +1,1386 @@
+{
+  "metadata": {
+    "pair": "AUDCHF",
+    "base_currency": "AUD",
+    "quote_currency": "CHF",
+    "valuation_date": "2026-03-11",
+    "framework_version": "2.0",
+    "base_dossier_date": "2026-03-11",
+    "quote_dossier_date": "2026-03-11"
+  },
+  "pair_convention": {
+    "spot_reference": "AUD/CHF 0.5444",
+    "spot_explanation": "AUD/CHF at 0.5444 means 1 AUD buys 0.5444 CHF. A rising pair means AUD is strengthening against CHF (e.g., moving from 0.5444 to 0.5600 means each AUD buys more CHF). A falling pair means AUD is weakening against CHF (e.g., moving from 0.5444 to 0.5290 means each AUD buys fewer CHF). Bullish = pair rises; Bearish = pair falls.",
+    "bullish_means": "pair RISES (AUD strengthens vs CHF)",
+    "bearish_means": "pair FALLS (AUD weakens vs CHF)",
+    "base_dossier_tactical_stance": "Neutral (conviction 2/5)",
+    "quote_dossier_tactical_stance": "Bullish CHF (conviction 3/5, i.e. CHF strengthens = pair falls)"
+  },
+  "executive_summary": "AUD/CHF trades at 0.5444 as of 11 March 2026 — meaning 1 AUD buys 0.5444 CHF — a level reflecting the collision of two powerful and opposing macro regimes: a hawkish RBA engineering the widest AUD carry advantage in G10 at +385 bps versus the SNB's zero-rate floor, and the Iran-US war triggering acute CHF safe-haven demand that has driven EUR/CHF to its lowest level since the January 2015 floor removal. The pair has declined approximately 6% from its mid-January 2026 high near 0.5800, as CHF appreciated sharply on geopolitical flows while AUD was simultaneously pressured by risk-off sentiment. The pair rallied approximately 6% from the October 2025 trough of 0.5139 to its January peak, driven by the RBA's February hike repricing, before relinquishing roughly half those gains to the CHF safe-haven bid. The dominant bilateral narrative is a genuine tug-of-war: the AUD side holds the most attractive carry differential in G10 (+385 bps policy rate spread, +450 bps on AU-CH 10Y sovereign yields), while the CHF side holds the strongest safe-haven credentials, gold correlation, and structural current account surplus. AUD CFTC positioning at the 100th percentile of the 3-year range creates asymmetric unwind risk, while the Iran-US war has activated CHF's safe-haven character at maximum intensity with VIX at 22.8, gold at $5,200/oz, and CHF outperforming JPY. Our headline stance is tactically bearish AUD/CHF (pair falls) with conviction 2/5 — the safe-haven regime is not yet reversing and crowded AUD positioning creates near-term pressure — while strategically neutral-to-mildly-bullish with conviction 2/5, as geopolitical de-escalation would sharply unwind the CHF premium and restore the carry trade dynamic that the RBA-SNB divergence strongly supports.",
+  "market_context": {
+    "spot": 0.5444,
+    "performance_1m": "-3.5%",
+    "performance_3m": "+0%",
+    "performance_6m": "+6%",
+    "performance_1y": null,
+    "range_52w_low": 0.498,
+    "range_52w_high": 0.58,
+    "range_52w_percentile": 35,
+    "valuation_assessment": "The AUD dossier cites an AUD/CHF PPP fair value of 0.66, with current spot at 0.5444 representing a -17.5% undervaluation of AUD relative to CHF on PPP. However, the CHF dossier notes CHF's PPP overvaluation vs AUD at approximately 24% (implied fair value ~0.72 AUD/CHF), making this overvaluation a structural feature, not a mean-reverting signal. The bilateral mispricing relative to the rate differential is more actionable: at 385 bps of carry and AU-CH 10Y spread of 450 bps, spot at 0.5444 is consistent with markets embedding a material CHF safe-haven premium above the carry-neutral level. The AUD dossier's REER at 110.52 (63rd percentile) is modestly above fair value while CHF's BIS REER at 103.62 (72nd percentile) sits at the upper end of its historical range, suggesting CHF is more stretched on valuation than AUD — a structural argument for eventual AUD/CHF recovery.",
+    "positioning": {
+      "base_cftc_net": "+67,762 contracts net long AUD (leveraged funds +54,635, asset managers +28,878)",
+      "base_cftc_percentile": 100,
+      "quote_cftc_net": "Leveraged funds net long CHF +4,456 contracts; asset managers net short CHF -54,527 contracts",
+      "quote_cftc_percentile": 65,
+      "net_pair_implication": "Specs are long AUD at the 100th percentile and increasingly long CHF at the 65th percentile — nominally offsetting for the pair, but the AUD extreme creates severe unwind asymmetry. The 'correct' pair positioning is short AUD/CHF (AUD short + CHF long), which represents consensus among active traders post-Iran war. The AUD open interest declining from 283K to 267K confirms short-covering rather than fresh buying, a particularly fragile dynamic that maximises downside risk on a catalyst.",
+      "crowding_assessment": "Pair trade crowded on short side (consensus short AUD/CHF); AUD long at historical extreme 100th percentile COT"
+    },
+    "pair_technicals": {
+      "trend_regime": "trending_down",
+      "support_levels": [
+        0.529,
+        0.52,
+        0.5139
+      ],
+      "resistance_levels": [
+        0.5507,
+        0.562,
+        0.58
+      ],
+      "key_moving_averages": "Bearishly configured. AUD/USD component shows bullish 50d > 100d > 200d MA stacking but USD/CHF 50d (0.7804) > 100d > 200d all declining, leaving AUD/CHF estimated 50-day EMA at ~0.5550-0.5580 (above current spot of 0.5444), confirming bearish below-MA regime.",
+      "chart_pattern": "Descending channel since the January 2026 high (~0.5800), with each bounce selling into the upper channel boundary. Since January 2026, a price channel formed which was broken downwards with a five-wave structure (high near 0.55175, low near 0.54065). Current spot at 0.5444 sits at the lower-middle of the channel.",
+      "psychological_levels": [
+        0.55,
+        0.52,
+        0.5
+      ]
+    },
+    "pair_volatility": {
+      "iv_1m": 11,
+      "iv_3m": 10.5,
+      "iv_percentile": 65,
+      "rv_1m": 10,
+      "rv_vs_iv": "IV slightly above RV; elevated war premium keeping implied vol elevated relative to realised, creating a modest variance risk premium. Options are expensive, particularly for downside protection.",
+      "risk_reversals": "Double-negative skew — AUD puts bid (risk reversal -0.9 for AUD/USD component) AND CHF calls bid (negative risk reversal for USD/CHF component), creating exceptionally expensive AUD/CHF downside options. Options market paying up for pair downside protection, consistent with the safe-haven bid and AUD crowding concern.",
+      "vol_term_structure": "Mild backwardation — 1M IV above 3M IV due to March 19 SNB/RBA/FOMC super-cluster creating near-term event premium. Event risk is partially priced; post-event vol likely to compress.",
+      "vol_regime": "Elevated / geopolitical-driven"
+    },
+    "recent_regime": "The regime over the past 2-4 weeks is 'safe-haven panic dominating carry.' The AUD/CHF pair, typically characterised as the textbook G10 carry trade (the pair is usually used as a carry trade, with CHF considered a safe currency during unstable economic times and AUD as more responsive to global economic conditions), has flipped into pure risk-off mode. The Iran-US war activated CHF's safe-haven status at maximum intensity while simultaneously creating risk-off headwinds for AUD. The result is both legs moving against the carry long: AUD weakening on risk-off and CHF strengthening on geopolitical demand, generating a 6% decline from the January peak.",
+    "citations": [
+      "https://www.exchangerates.org.uk/currency-forecasts/australian-dollar-to-swiss-franc-forecast",
+      "https://www.rbccm.com/assets/rbccm/docs/fx/currency-report-card.pdf",
+      "https://www.tradingview.com/symbols/AUDCHF/technicals/",
+      "https://www.tradingview.com/symbols/AUDCHF/",
+      "https://www.babypips.com/analysis/watchlist-recap-2026-03-06-forex-audchf-australia-q4-gdp",
+      "https://www.babypips.com/analysis/forex-update-audchf-pullback-opportunity-post-gdp-2026-03-04"
+    ]
+  },
+  "bilateral_carry_analysis": {
+    "base_policy_rate": 3.85,
+    "quote_policy_rate": 0,
+    "rate_differential_bps": 385,
+    "annualised_carry_bps": 385,
+    "pair_3m_iv": 10.5,
+    "carry_to_vol_ratio": 0.35,
+    "carry_regime": "carry not compensating",
+    "breakeven_move": "Spot can move approximately 32 pips against the AUD/CHF long per month before carry is erased. Given the pair moved ~360 pips lower from the January high, carry has been overwhelmed ~11x over by the safe-haven directional move. The 6M breakeven is ~192 bps — the pair must fall below ~0.5252 from current spot before 6-month carry is erased.",
+    "forward_points": {
+      "1m": "+17 bps carry accrual (AUD/CHF outright ~0.5461, AUD at premium)",
+      "3m": "+53 bps carry accrual (AUD/CHF outright ~0.5497, AUD at premium)",
+      "6m": "+106 bps carry accrual (AUD/CHF outright ~0.5550, AUD at premium)"
+    },
+    "carry_assessment": "The AUD/CHF carry differential is the widest in G10: RBA at 3.85% vs SNB at 0.00% = +385 bps annualised carry in favour of long AUD/CHF. The AU-CH 10-year sovereign spread of approximately +450-469 bps (AU 4.97% vs CH 0.28%) is the widest in the G10 universe for this bilateral. The carry-to-vol ratio of 0.35 is structurally attractive — among the highest in G10 cross pairs — and when vol normalises back toward 8-9%, this ratio rises to 0.43-0.48, making AUD/CHF one of the two or three best carry expressions in G10. However, carry is not working in the current acute risk-off, Iran-war regime. Historically, carry underperforms in sustained geopolitical stress but reasserts within 6-12 weeks once the acute phase passes. The forward curve is in AUD/CHF's favour — the carry accrual means holding long AUD/CHF collects approximately 53 bps over 3 months and 106 bps over 6 months just from the rate differential, before any directional move. The 1M breakeven of ~32 bps/month is completely overwhelmed by the current directional volatility of 50-75 pips/day."
+  },
+  "factors": [
+    {
+      "factor_number": 1,
+      "factor_name": "Policy & Rates (Relative)",
+      "tactical_weight_default": 0.24,
+      "tactical_weight_applied": 0.24,
+      "strategic_weight_default": 0.24,
+      "strategic_weight_applied": 0.24,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 60,
+        "bilateral_analysis": "The bilateral rate differential of +385 bps (RBA 3.85% vs SNB 0.00%) is the single most powerful structural force in this pair, representing the widest AUD/CHF carry in G10 and the widest in this pair's history outside of the 2007-2009 cycle. The RBA is the only G10 central bank currently in a hiking cycle, with OIS pricing a further +25 bp hike by May 2026 (to 4.10%) — adding to an already extreme divergence. On the CHF side, the SNB is pinned at zero with near-zero inflation (0.1% YoY) and no domestic justification for rate increases; the 15-20% probability of a cut to -0.25% by June 2026 adds to the asymmetry. The 10-year sovereign yield spread of approximately +450 bps (AU 4.97% vs CH 0.28%) is the widest in the G10 universe for this bilateral and directly supports AUD/CHF through the carry and expectations channels. Tactically, the upcoming RBA decision on 17 March (38% hike probability) and the SNB meeting on 19 March (hold expected, intervention language key) create a binary pair catalyst within the 2-4 week window: an RBA hike + SNB hold creates a bullish pair catalyst, while a dovish RBA hold + SNB rate cut would be sharply bearish. The rate differential is bullish for the pair but the signal is partially offset by the safe-haven regime where carry is not the dominant driver.",
+        "key_bilateral_metrics": [
+          "AUD/CHF policy rate spread: +385 bps (RBA 3.85% − SNB 0.00%) — widest in G10",
+          "AU-CH 10Y sovereign spread: +469 bps (AU 4.97% − CH 0.28%)",
+          "OIS-implied RBA terminal (Dec 2026): ~4.20%; SNB implied: ~0.00% to -0.25%",
+          "AUD/CHF annualised carry: +385 bps; carry-to-vol ratio: 0.35",
+          "RBA next meeting: 17 March (38% hike probability); SNB: 19 March (85% hold); RBA SoMP-implied terminal: ~4.45% vs market ~4.20% = 25 bp underpricing"
+        ],
+        "what_is_priced": "Markets price RBA terminal at ~4.20% and SNB at ~0.00% through 2026. Our view is that the RBA terminal is underpriced by 15-25 bps, representing residual bullish AUD/CHF upside from the rate channel. The SNB's potential cut to -0.25% is only 15-20% priced, which would widen the differential further on realisation.",
+        "citations": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 70,
+        "bilateral_analysis": "The strategic rate picture becomes even more compelling for AUD/CHF as the two central banks diverge further. The RBA is expected to reach 4.10-4.20% by mid-2026 (with upside to 4.35% per the SoMP-implied path) while the SNB is at best staying at zero and at worst moving to -0.25%. The AU-US-CH triangle reinforces this: the Fed is expected to cut at least once (September 2026), which does not directly affect AUD/CHF but reinforces the global carry environment where high-yielders like AUD outperform. If Capital Economics' June 2026 cut call for the SNB materialises, the bilateral spread widens to 410-460 bps — a historical maximum for this pair. Over the strategic horizon, the RBA-SNB divergence is the most durable factor in the pair and represents the highest-confidence element of the bullish case. The only scenario that reverses this dynamic is an RBA policy error (overtightening leading to forced cuts) or a SNB emergency response to sustained deflation, both of which are tail risks below 15% probability.",
+        "key_bilateral_metrics": [
+          "RBA path (Jun 2026): 4.10-4.20%; SNB path: 0.00% to -0.25%",
+          "AU-CH spread trajectory: widening from +385 to +410-460 bps by mid-2026",
+          "AUD/CHF 6M forward carry accrual: ~+106 bps",
+          "RBA SoMP inflation forecast: 3.7% (Jun 2026) — above target, justifying sustained tightening",
+          "SNB inflation forecast: 0.3% (2026) — at floor, no justification for hikes"
+        ],
+        "what_is_priced": "Rate differential widening is partially priced in forwards (~53 bps over 3M) but systematically underpriced relative to the expected path of divergence. If the RBA hikes to 4.35% and the SNB cuts to -0.25%, the forwards imply only ~100 bps appreciation over 6M while the actual carry and differential repricing would support +200-350 bps.",
+        "citations": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "horizon_split": "Tactical (60%) and strategic (70%) both Bullish; strategic confidence is higher because the carry and rate differential advantage accumulates predictably over time and is less subject to the near-term safe-haven noise. The tactical discount reflects the active safe-haven regime which temporarily overwhelms carry.",
+      "carry_analysis": {
+        "base_policy_rate": 3.85,
+        "quote_policy_rate": 0,
+        "rate_differential_bps": 385,
+        "annualised_carry_bps": 385,
+        "carry_to_vol_ratio": 0.35,
+        "carry_regime": "carry not compensating",
+        "breakeven_move": "Spot can move approximately 32 pips against the AUD/CHF long per month before carry is erased; 6M breakeven ~192 bps means pair must fall below ~0.5252 before 6-month carry is fully erased",
+        "carry_assessment": "The AUD/CHF carry differential is the widest in G10 at +385 bps. The carry-to-vol ratio of 0.35 is among the highest in G10 cross pairs and rises to 0.43-0.48 when vol normalises. Currently carry is not working due to the acute Iran-war risk-off regime, but historically reasserts within 6-12 weeks of peak geopolitical stress."
+      },
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 2,
+      "factor_name": "Inflation & Growth Dynamics",
+      "tactical_weight_default": 0.18,
+      "tactical_weight_applied": 0.18,
+      "strategic_weight_default": 0.1,
+      "strategic_weight_applied": 0.1,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 70,
+        "bilateral_analysis": "The inflation and growth differential between Australia and Switzerland is stark and unambiguously favours AUD/CHF appreciation. Australia's headline CPI at 3.8% and trimmed mean CPI at 3.4% (16-month high) directly contrasts with Switzerland's 0.1% headline CPI and 0.4% core CPI — a differential of roughly 370 bps on core inflation measures. This differential is the mechanistic reason for the policy rate divergence: the RBA is fighting inflation while the SNB is fighting deflation. Australia's GDP at +2.6% YoY (near 3-year high) contrasts with Switzerland's GDP at +0.8% YoY — a +180 bps growth differential. The labour market comparison is equally stark: Australia at 4.1% unemployment with tight conditions and wage growth (WPI 3.4%), versus Switzerland at 3.2% unemployment rising from cycle lows. Tactically, Australia's higher-frequency data flow is uniformly hot (PMI 52.4, jobs data strong) while Switzerland's procure.ch PMI at 47.4 marks the 38th consecutive month of manufacturing contraction. The next key data catalyst is the 25 March Australian monthly CPI (February data, consensus ~3.6-3.7%); any print at or above 3.8% would sharply reinforce the pair's fundamental bullish setup.",
+        "key_bilateral_metrics": [
+          "AU headline CPI: 3.8% vs CH: 0.1% — differential: +370 bps",
+          "AU core CPI (trimmed mean): 3.4% vs CH core: 0.4% — differential: +300 bps",
+          "AU GDP YoY: 2.6% vs CH GDP YoY: 0.8% — differential: +180 bps",
+          "AU PMI (Composite): 52.4 (expansion) vs CH procure.ch PMI: 47.4 (38th month of contraction)",
+          "AU unemployment: 4.1% (tight), WPI: 3.4% YoY vs CH nominal wage growth 2026: ~1.0%"
+        ],
+        "what_is_priced": "The market fully prices Australia's higher inflation into the rate differential but has not fully repriced the relative growth premium. The Switzerland manufacturing recession (47.4 PMI, 38 consecutive months) is structurally CHF-negative on fundamentals but is overwhelmed by the safe-haven bid. If global risk appetite normalises, this factor would reassert strongly for AUD/CHF.",
+        "citations": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 60,
+        "bilateral_analysis": "The inflation and growth differential narrows somewhat over the strategic horizon but remains firmly AUD-supportive. Australia's growth is projected to decelerate from 2.6% to ~1.8% by December 2026 as rate hikes bite, while Switzerland's is expected to recover modestly to 1.0-1.1%. The differential compresses from +180 bps to approximately +70-80 bps — still positive but less dominant. More importantly, Australia's inflation persistence (trimmed mean forecast 3.7% Jun 2026) keeps the RBA hiking while Switzerland's inflation (SNB forecast 0.3% 2026) remains near-deflationary. The risk that oil above $100/bbl passes through to Australian CPI (0.5-1.0% upside to the RBA's headline forecast) is a net AUD/CHF positive — it forces more RBA hikes while having minimal CHF impact given Switzerland's low energy CPI weight (~5%). Strategic confidence is slightly lower because growth deceleration in Australia could erode the growth differential advantage.",
+        "key_bilateral_metrics": [
+          "AU GDP forecast (Dec 2026): ~1.8%; CH forecast: ~1.0-1.1% — differential compresses to +70-80 bps",
+          "AU trimmed mean forecast (Jun 2026): 3.7%; SNB inflation forecast: 0.3% — differential stable",
+          "Oil above $100/bbl: +0.5-1.0% to AU headline; +0.1% to CH headline (energy 5% of CPI)",
+          "CH procure.ch PMI: 47.4 — 38th consecutive contraction; structural drag on CH growth",
+          "AU per-capita GDP: +0.9% YoY (positive); CH per-capita GDP: near flat"
+        ],
+        "what_is_priced": "Growth deceleration in Australia is partially priced by consensus. The persistent manufacturing recession in Switzerland is systematically underweighted in CHF-positive narratives — once safe-haven flows recede, this structural headwind for CHF returns to dominance.",
+        "citations": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "horizon_split": "Both bullish, tactical higher confidence (70 vs 60). Current data flow is unambiguously hot for AUD. Strategic confidence discount reflects growth deceleration and the risk that Australia's economic momentum fades faster than current projections.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 3,
+      "factor_name": "Risk Appetite & Sentiment",
+      "tactical_weight_default": 0.1,
+      "tactical_weight_applied": 0.12,
+      "strategic_weight_default": 0.05,
+      "strategic_weight_applied": 0.05,
+      "weight_adjustment_reason": "Tactical weight boosted from 0.10 to 0.12 (+0.02), offset by -0.02 from Factor 9. Justification: AUD/CHF is the purest risk-on/risk-off pair in G10 given AUD's high beta (~0.7 to S&P 500) and CHF's maximum safe-haven status. The bilateral amplification of risk moves (~1.2-1.5x AUD/USD beta) justifies a modest tactical weight increase. Strategic weight maintained at default 0.05 as geopolitical risk diminishes over 6M.",
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 75,
+        "bilateral_analysis": "AUD/CHF is the quintessential risk-on/risk-off pair in G10 FX. AUD carries one of the highest betas to global risk sentiment (beta ~0.7 to S&P 500 as per AUD dossier) while CHF is the premier safe-haven currency, currently outperforming even JPY as geopolitical stress intensifies. The bilateral beta of AUD/CHF to risk is therefore approximately 1.2-1.5x the standard AUD risk beta — when risk goes off, the pair falls on both legs simultaneously (AUD weakening and CHF strengthening). The Iran-US war has put this dual mechanism in full operation: VIX at 22.8 (spiking to 35+ intraday), S&P 500 down ~2% over 1 month, gold at $5,200/oz, and CHF/JPY near all-time highs confirm CHF has maximum safe-haven activation. AUD's risk sensitivity means it amplifies these moves. Tactically, the pair is trapped between two reinforcing forces — risk-off is bearish AUD/CHF on both legs. The only tactical bullish scenario is a rapid geopolitical de-escalation, which has low probability over 2-4 weeks given the active military conflict. Australia and AUD are highly correlated to the broad Asian cycle, holding a 60% correlation to CNY — this adds a China risk channel that reinforces the bearish near-term bias given China equity weakness.",
+        "key_bilateral_metrics": [
+          "VIX: 22.8 (spiking to 35+ intraday); AUD beta to S&P 500: ~0.7; CHF safe-haven activation: maximum",
+          "AUD/CHF bilateral risk beta: ~1.2-1.5x AUD/USD beta (amplified by CHF safe-haven)",
+          "Gold at $5,200/oz: reinforces CHF demand through gold correlation channel",
+          "Iran war (Feb 28 onset): Brent $100/bbl; Hormuz risk premium elevated",
+          "CHF/JPY at 203.59: CHF outperforming JPY as preferred safe haven; AUD-CNY correlation: ~60%; China CSI 300: -1.9% 1M"
+        ],
+        "what_is_priced": "VIX at 22.8 prices moderate-to-elevated uncertainty. The pair's current level (~0.5444) embeds a substantial CHF risk premium — approximately 200-250 pips below where the pair would trade based purely on the rate differential. This risk premium will unwind when the geopolitical situation de-escalates, but timing is the key uncertainty.",
+        "citations": [
+          1,
+          2,
+          3,
+          4,
+          8,
+          9
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 45,
+        "bilateral_analysis": "Over 6 months, historical analogues suggest geopolitical risk premia in FX revert within 1-3 months of peak intensity. The CHF safe-haven premium is transient, but its unwinding generates AUD/CHF upside that the pair can exploit. If the Iran conflict resolves by April-May (Oxford Economics' 2-month projection), the risk-off CHF premium of ~200-250 pips would unwind rapidly, providing a sharp AUD/CHF recovery. However, sustained oil above $100/bbl beyond 2 months creates second-order macro headwinds (global growth slowdown, delayed CB easing) that are modestly AUD-negative through the China/commodity channel. The net strategic assessment is Neutral — risk is a transient headwind for the pair, but its unwinding would be a powerful bullish catalyst. Uncertainty about the war timeline is high.",
+        "key_bilateral_metrics": [
+          "Gulf War I precedent: risk premium in FX normalised within 4-6 weeks",
+          "Oxford Economics: Iran conflict 'not beyond two months' timeline",
+          "VIX 3M futures: ~20-22 (moderate normalisation priced)",
+          "Oil sustained $100/bbl second-order effect: modestly AUD-negative via China channel",
+          "CHF safe-haven premium vs rate differential: ~200-250 pips of excess CHF strength"
+        ],
+        "what_is_priced": "The market prices gradually declining risk premium over 6 months, broadly consistent with historical analogues. The strategic edge in AUD/CHF is that the risk premium unwind is binary and sharp — a ceasefire or diplomatic breakthrough would add 200-300 pips to the pair within days of the announcement.",
+        "citations": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "horizon_split": "Tactical bearish (75%) vs strategic neutral (45%). The gap reflects the high confidence that the current risk-off regime is active and the uncertainty about how quickly it normalises. The largest driver of strategic conviction change is the Iran war trajectory.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 4,
+      "factor_name": "Flows & Positioning",
+      "tactical_weight_default": 0.1,
+      "tactical_weight_applied": 0.1,
+      "strategic_weight_default": 0.06,
+      "strategic_weight_applied": 0.06,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 65,
+        "bilateral_analysis": "The combined positioning picture is unambiguously bearish AUD/CHF in the near term. AUD CFTC net longs are at the 100th percentile of the 3-year range (+67,762 contracts) — the maximum possible crowding reading. CHF positioning has simultaneously flipped from net short to net long for leveraged funds (+4,456), creating a textbook 'both legs wrong' position for anyone long AUD/CHF. The AUD extreme creates the most powerful contrarian signal: at the 100th percentile, marginal buying power is absent while unwind potential is maximal. The decline in AUD open interest from 283K to 267K alongside rising net longs confirms short-covering rather than fresh buying — a particularly fragile dynamic. On the CHF side, the asset manager net short of -54,527 represents substantial potential short-covering fuel that would amplify CHF appreciation if triggered. SNB sight deposits rose CHF 4.4bn in the first post-war week, confirming active intervention but which the market views as speed-slowing rather than trend-reversing. The combined bilateral positioning creates an environment where tactical AUD/CHF shorts are consensus and have momentum, confirmed by the post-Australia GDP pullback setup noted in market analysis.",
+        "key_bilateral_metrics": [
+          "AUD CFTC net longs: +67,762 contracts (100th percentile, 3Y COT Index)",
+          "CHF leveraged funds net: +4,456 (long CHF, 65th percentile) — building",
+          "CHF asset managers net: -54,527 (short CHF — short-covering potential)",
+          "AUD open interest: 267,280 (declining — short-covering driven rally, fragile)",
+          "SNB sight deposits: +CHF 4.4bn (week 1 post-war) — intervention evidence"
+        ],
+        "what_is_priced": "The pair's current level reflects the consensus bearish view. The contrarian upside risk is that AUD positioning corrects sharply (e.g., dovish RBA hold triggers unwind) while simultaneously the CHF safe-haven premium deflates — but both occurring simultaneously is a ~15% probability event in the next 4 weeks.",
+        "citations": [
+          1,
+          2,
+          8,
+          9
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "bilateral_analysis": "Over the strategic horizon, positioning normalises. AUD net longs at the 100th percentile will correct to the 60th-70th percentile range over 4-8 weeks — whether through a pullback or time erosion. CHF leveraged funds at +4,456 remain below the +15,000-20,000 level that would constitute an extreme reading for CHF, leaving room for continued buildup in the near term before becoming a contrarian signal. The structural flow that matters strategically is the Swiss current account surplus (~CHF 30-35bn cumulative over 6 months) providing persistent structural CHF demand, offset by the AUD carry advantage drawing yield-seeking capital. In 2024, two-way goods and services trade between Australia and Switzerland was valued at over $9 billion, with Switzerland as Australia's 11th largest investment source at $88 billion — this bilateral investment stock creates structural Swiss franc selling (as Swiss multinationals hedge Australian exposure), a subtle but persistent flow mildly supportive of AUD/CHF.",
+        "key_bilateral_metrics": [
+          "AUD COT Index normalisation path: 100th → 70th percentile over 4-8 weeks",
+          "CHF leveraged fund extreme level: +15K-20K (currently +4,456, room to build)",
+          "AU-CH bilateral investment: $88bn Swiss investment in Australia (hedging flows mildly AUD/CHF positive)",
+          "CH current account surplus: ~CHF 30-35bn over 6M (structural CHF demand)",
+          "AUD/CHF pair consensus: bearish short — potential for mean-reversion once positioning resets"
+        ],
+        "what_is_priced": "Positioning will normalise over the strategic horizon; the signal becomes muted. The structural carry flow will re-emerge as the dominant pair driver once crowding is resolved.",
+        "citations": [
+          1,
+          2,
+          14,
+          15
+        ]
+      },
+      "horizon_split": "Tactical bearish (65%) vs strategic neutral (50%). Positioning is a high-frequency signal with 2-6 week half-life; over the strategic horizon it normalises and ceases to dominate.",
+      "carry_analysis": null,
+      "contrarian_analysis": {
+        "tactical": {
+          "combined_positioning_signal": "AUD net longs at 100th percentile + CHF leveraged funds net long = both legs of a short AUD/CHF position are now consensus. Maximum crowding in the direction of short AUD/CHF after the Iran war shock.",
+          "unwind_trigger": "Dovish RBA hold on 17 March with no 'May is live' signal, OR Iran ceasefire announcement, OR VIX sustained below 18 for 5+ days — any would trigger simultaneous AUD short-covering and CHF safe-haven unwind.",
+          "historical_analogue": "In 7 of the last 10 instances of AUD at the 100th percentile COT percentile, 2-4% pullbacks in AUD occurred within 2-6 weeks. The specific mechanism in AUD/CHF is the compounding unwind: AUD longs liquidate while CHF safe-haven premium deflates simultaneously.",
+          "contrarian_case": "The AUD positioning extreme is the most powerful contrarian signal in the current setup. The dovish RBA scenario on 17 March could trigger the AUD unwind just as the CHF safe-haven bid is partially intact — creating a scenario where the pair falls 2-4% in a single week before eventually recovering on fundamentals. Three triggers for the crowded AUD long unwind that would accelerate AUD/CHF downside: (1) Dovish RBA hold (no hike, no 'May is live' signal); (2) VIX sustains above 30 from further Iran escalation; (3) Weak February CPI on 25 March below 3.5%. Ironically, the contrarian case in the near term is MORE bearish AUD/CHF (faster positioning unwind), not bullish."
+        },
+        "strategic": {
+          "combined_positioning_signal": "AUD positioning normalises from 100th to 60th-70th percentile over 4-8 weeks. CHF leveraged funds building but well below the +15K-20K extreme. Net positioning signal becomes neutral-to-mildly AUD/CHF supportive as fresh buyers re-enter.",
+          "unwind_trigger": "Gradual AUD positioning normalisation combined with CHF safe-haven premium deflation on Iran de-escalation. The strategic unwind is expected to be orderly rather than violent unless a sharp catalyst (ceasefire) triggers simultaneous positioning reset.",
+          "historical_analogue": "Russia-Ukraine (2022): CHF safe-haven premium normalised within 8-10 weeks of peak intensity; AUD CFTC positioning reset from extreme levels within 6-8 weeks in prior episodes. Combined, the dual normalisation generated 400-500 pip AUD/CHF recovery.",
+          "contrarian_case": "The strategic contrarian scenario is that AUD positioning normalises to the 60th-70th percentile (a ~30-40 percentile reset) while CHF safe-haven flows reverse on war de-escalation, generating a ~300-500 pip AUD/CHF recovery from current levels. This is actually the base case over 1-6 months, not a contrarian tail — it represents the expected mean-reversion from two compounding extremes. The genuinely contrarian view would be that AUD positioning resets even further (to net short territory) driven by a policy error or China shock, which has ~15% probability."
+        }
+      },
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 5,
+      "factor_name": "External Balance & Terms of Trade",
+      "tactical_weight_default": 0.06,
+      "tactical_weight_applied": 0.06,
+      "strategic_weight_default": 0.16,
+      "strategic_weight_applied": 0.16,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "bilateral_analysis": "The bilateral external balance comparison is structurally negative for AUD/CHF: Switzerland's current account surplus of ~7% of GDP contrasts sharply with Australia's widening deficit of -2.9% of GDP. However, tactically this is a slow-moving factor with quarterly data cadence. For the net commodity exposure analysis, the key bilateral dynamic is the gold channel: both Australia (third-largest global gold producer) and Switzerland (world's largest gold refiner/trader) have positive gold exposure, but in opposite directions for the pair — gold rising strengthens CHF through the Swiss export revenue channel and the safe-haven correlation, while AUD has a weaker positive correlation (Australia exports gold but it represents ~4% of total exports vs ~25% for Switzerland). Gold at $5,200/oz currently benefits CHF more than AUD on a net basis given Switzerland's dominant gold trade flows. The oil shock is net AUD/CHF bearish: oil above $100/bbl is mildly positive for AUD (Australia is a net energy exporter) but the risk-off impact overwhelms the direct commodity channel; for CHF, oil is marginal (energy only ~5% of CPI) and the safe-haven response to oil geopolitics strongly outweighs any Swiss trade channel effect. Net commodity signal is approximately neutral with modest CHF bias — gold and oil channels net negative for the pair; iron ore and copper net positive; largely offsetting.",
+        "key_bilateral_metrics": [
+          "AU current account: -2.9% of GDP (widening deficit); CH current account: +7% of GDP (persistent structural surplus)",
+          "Gold at $5,200/oz: CHF ~25% export exposure vs AUD ~4% — net CHF-positive for pair",
+          "Iron ore $102-106/t: range-bound — no tactical signal",
+          "Oil $100/bbl: net AUD/CHF negative via risk-off channel dominating direct commodity effect",
+          "AU-CH bilateral goods/services trade: ~$9bn (modest; no major distortion)"
+        ],
+        "what_is_priced": "The market looks through Australia's current account deterioration. If the deficit widens toward -3.5% of GDP, the market would need to partially reprice AUD lower. The gold channel benefiting CHF disproportionately is not fully priced.",
+        "citations": [
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 60,
+        "bilateral_analysis": "The strategic external balance dynamic is clearly AUD/CHF bearish. Australia's current account deficit is on a worsening trajectory (-1.5% → -2.5% → -2.9% over 2023-2025) driven by structural factors: iron ore demand decline as Chinese steel production plateaus, Simandou supply ramp, and the strong AUD reducing export revenues in local currency terms. Switzerland's current account surplus is structurally underpinned by pharmaceutical exports, financial services, and at current gold prices, gold refining/trading revenues. The ~CHF 30-35bn cumulative surplus over 6 months provides persistent structural CHF demand that has no AUD analogue. Furthermore, Switzerland's bilateral investment stock in Australia ($88bn) generates systematic Swiss franc selling flows (Swiss companies hedging Australian earnings back to CHF) — but net, the structural CA surplus is CHF-positive and dominates. Iron ore consensus for 2026 is $90-95/t, implying further deterioration in Australia's trade balance and terms of trade, while gold prices at UBS's $6,200 6M target would amplify Switzerland's surplus even further.",
+        "key_bilateral_metrics": [
+          "AU current account trajectory: -2.9% → projected -3.2 to -3.5% by H1 2026",
+          "CH current account: +7% GDP, ~CHF 30-35bn 6M cumulative flow",
+          "Iron ore consensus 2026: $90-95/t (-5-10% from current, AU ToT headwind)",
+          "UBS gold forecast: $6,200/oz (amplifies CH export revenues by additional CHF 1-2bn/month)",
+          "Simandou ramp: 5-10 Mt in 2026 (AU iron ore supply competition); CH bilateral investment in AU: $88bn stock"
+        ],
+        "what_is_priced": "Current AUD/CHF embeds the rate story almost entirely and has not adequately priced the external balance divergence. At -2.9% CA for Australia vs +7% for Switzerland, the pair should trade approximately 5-10% lower on external balance fundamentals alone relative to current levels — but this is a multi-year adjustment, not a 6-month event.",
+        "citations": [
+          5,
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      "horizon_split": "Tactical neutral (50%) vs strategic bearish (60%). External balance is a slow-moving quarterly factor with limited tactical signal but mounting strategic headwind. The gold amplification channel adds urgency to the strategic bearish case.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": {
+        "base_commodity_profile": "Australia is a major commodity exporter: iron ore (~4th largest export revenue), gold (third-largest global producer, ~4% of exports), copper, LNG (net energy exporter), and coal. AUD has high positive correlation with iron ore and gold prices.",
+        "quote_commodity_profile": "Switzerland is the world's largest gold refiner and trader (~25% of exports), a major pharmaceutical exporter, and has minimal direct energy commodity exposure (energy ~5% of CPI). CHF has high positive correlation with gold through the trade/export revenue channel and the safe-haven correlation.",
+        "net_effect_calculation": "Step 1 — Gold: AUD positive (minor producer, 4% exports) vs CHF strongly positive (dominant trader/refiner, 25% exports). Net effect: AUD/CHF NEGATIVE — gold appreciating benefits CHF far more than AUD. At $5,200/oz, this is materially CHF-supportive relative to AUD. Step 2 — Iron ore: AUD positive (major producer, ~4th largest export); CHF neutral. Net effect: AUD/CHF POSITIVE — but iron ore at $102-106/t is range-bound, no current tactical signal. Step 3 — Oil: AUD mildly positive (net energy exporter); CHF minimal direct impact BUT oil geopolitics strongly activate CHF safe-haven demand. Net effect: AUD/CHF NEGATIVE — risk-off channel from oil price dominates direct trade balance benefit for AUD. Step 4 — Copper: AUD positive (mining exposure); CHF neutral. Net effect: AUD/CHF POSITIVE but limited current signal. Step 5 — LNG: AUD positive (exporter); CHF minimal. Net effect: AUD/CHF MILDLY POSITIVE. Overall net: Gold (negative) + Oil risk-off (negative) offset by Iron ore + Copper + LNG (positive) = approximately NEUTRAL with modest CHF bias at current commodity levels.",
+        "scenario_oil_up_10pct": "Oil +10% (to ~$110/bbl): Direct trade: mildly AUD positive (net exporter), CHF indifferent. Risk-off channel: safe-haven CHF demand surges, VIX spikes, AUD risk premium rises. Net pair impact: AUD/CHF BEARISH -100 to -150 pips as risk-off channel overwhelms commodity benefit.",
+        "scenario_oil_down_10pct": "Oil -10% (to ~$90/bbl): Direct trade: mildly AUD negative (lower energy export revenues), CHF indifferent. Risk-on signal: geopolitical premium deflates, CHF safe-haven demand reduces, VIX falls. Net pair impact: AUD/CHF BULLISH +100 to +200 pips as risk-on regime benefits AUD more than it hurts through direct trade channel.",
+        "dominant_commodity_driver": "Gold is the dominant commodity driver for AUD/CHF because it uniquely affects both legs asymmetrically — strongly positive for CHF (25% of Swiss exports) but only mildly positive for AUD (4% of exports). At $5,200/oz, this asymmetry is actively working against the pair. A gold price collapse below $4,500 would be the most powerful commodity-driven AUD/CHF bullish catalyst."
+      },
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 6,
+      "factor_name": "Guidance & Credibility",
+      "tactical_weight_default": 0.07,
+      "tactical_weight_applied": 0.07,
+      "strategic_weight_default": 0.12,
+      "strategic_weight_applied": 0.12,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 55,
+        "bilateral_analysis": "The bilateral guidance comparison is decisively in AUD's favour: the RBA has delivered unambiguous hawkish signals (unanimous 9-0 hike, Governor Bullock's 'every meeting is live' statement on 3 March, February minutes declaring financial conditions 'may no longer be restrictive'), while the SNB has delivered unprecedented hawkish intervention rhetoric in the opposite direction — warning of its willingness to intervene to weaken CHF, not strengthen it. This creates a unique bilateral dynamic: the RBA is credibly signalling further tightening while the SNB is credibly signalling active opposition to CHF strengthening. The SNB's intervention rhetoric is CHF-bearish but has historically only slowed rather than reversed CHF appreciation. Tactically, the March 17-19 triple event (RBA 17th, FOMC 18th, SNB 19th) concentrates maximum guidance risk within 48 hours. A hawkish RBA hike to 4.10% followed by an SNB hold with aggressive intervention language creates a confusing bilateral signal: RBA bullish AUD/CHF, SNB attempting to cap CHF strength. The net tactical guidance stance is mildly bullish AUD/CHF — the RBA's credible hawkish path dominates the SNB's intervention rhetoric, which the market prices as a speed bump rather than a trend reversal.",
+        "key_bilateral_metrics": [
+          "RBA guidance: Hawkish (unanimous hike, 'every meeting live', SoMP-implied terminal 4.45%)",
+          "SNB guidance: Intervention-focused hawkish CHF-bearish rhetoric (March 2+4 unsolicited statements)",
+          "Market pricing gap: RBA terminal ~4.20% vs implied 4.45% = 25 bp upside",
+          "SNB sight deposits +CHF 4.4bn/week: actual intervention consistent with rhetoric",
+          "Consecutive central bank events: RBA 17 March → FOMC 18 March → SNB 19 March"
+        ],
+        "what_is_priced": "Markets price the RBA as credible and likely to hike in May (fully priced); SNB's intervention threat is taken seriously but not as a trend reversal. The edge is in the 25 bp RBA underpricing which could trigger AUD/CHF upside on a March hike.",
+        "citations": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 60,
+        "bilateral_analysis": "Strategically, the guidance contrast sharpens in AUD/CHF's favour. The RBA's May 2026 SoMP will update forecasts — if trimmed mean CPI remains above 3.5%, the terminal rate repricing extends further, widening the AUD carry advantage. The SNB's four quarterly meetings per year mean guidance is infrequent; each meeting carries high information content. Capital Economics' call for a June 2026 cut to -0.25% would widen the AUD/CHF spread to 410 bps and be powerfully bullish for the pair. The SNB's intervention credibility is high (CHF 712bn reserves, willingness to deploy) but constrained by US Treasury watchlist designation and 2025 exchange rate losses of CHF 53.1bn. Over 6 months, the SNB's guidance will oscillate between intervention threats and potentially a rate cut, neither of which can permanently cap CHF's structural appreciation. RBA guidance, by contrast, is on a sustained hawkish path with three more potential hiking opportunities (17 March, 5 May, 15 June) within the strategic window.",
+        "key_bilateral_metrics": [
+          "RBA meetings remaining in strategic window: 6 (Mar 17, May 5, Jun 15, Aug 10, Sep 28, Nov 30); potential hike opportunities: 3",
+          "SNB meetings: 4/year; next March 19; Capital Economics SNB cut forecast: -0.25% by June 2026",
+          "SNB 2025 exchange rate losses: CHF 53.1bn (constrains intervention scale)",
+          "RBA SoMP terminal rate: 4.45% vs market 4.20% = 25 bp underpricing",
+          "AU-CH guidance credibility: RBA highest in G10; SNB high but self-defeating (trying to weaken own currency)"
+        ],
+        "what_is_priced": "Guidance divergence partially priced via rate differential, but the specific path asymmetry (RBA hiking while SNB potentially cutting) is not fully priced. The full realisation would add an additional 100-150 bps to the pair's fundamental value.",
+        "citations": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "horizon_split": "Tactical (55%) and strategic (60%) both bullish. Strategic confidence is slightly higher because the RBA's hiking path is more predictable over 6 months than the SNB's intervention effectiveness.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 7,
+      "factor_name": "Event Risk & Geopolitics",
+      "tactical_weight_default": 0.05,
+      "tactical_weight_applied": 0.05,
+      "strategic_weight_default": 0.05,
+      "strategic_weight_applied": 0.05,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 70,
+        "bilateral_analysis": "The event risk environment is overwhelmingly CHF-positive and AUD-negative for the pair over the next 2-4 weeks. The Iran-US war at current intensity level is the single largest driver: Brent above $100/bbl, active military conflict, and Hormuz disruption fears keep the safe-haven premium for CHF elevated. The March 17-19 super-cluster of six central bank decisions in 48 hours represents the densest event risk in years; for AUD/CHF specifically, the RBA and SNB meetings within three calendar days create a bilateral binary event where the outcomes could compound in either direction. US tariffs hit Australia directly (15% goods, 50% steel/aluminium), adding a direct fiscal headwind. The proximity of the US tariff expiry mechanism (Section 122 expires late July 2026) keeps bilateral trade uncertainty elevated. Australia faces direct tariff impacts while Switzerland's tariff situation is also uncertain (March 31 US-Swiss trade agreement deadline). For AUD/CHF, the net event risk is bearish: Iran war creates sustained safe-haven CHF demand, while AUD faces both domestic event risk (RBA decision uncertainty) and geopolitical pass-through risk via China.",
+        "key_bilateral_metrics": [
+          "Iran-US war: Active since 28 Feb; primary driver of CHF safe-haven bid",
+          "RBA (17 March) + SNB (19 March): consecutive-day bilateral binary events",
+          "VIX event premium: 1M IV > 3M IV (backwardation) — March 19 priced",
+          "US tariffs on Australia: 15% goods, 50% steel/aluminium — direct fiscal headwind",
+          "US-Swiss trade deadline: March 31 (uncertainty for both currencies); June 14 Swiss referendum: tail risk (48% polling support for population cap)"
+        ],
+        "what_is_priced": "Options market prices elevated event risk through March 19 (backwardation). The consecutive RBA/SNB meetings creating compounding bilateral event risk for the pair are partially priced but the specific interaction is not modelled. The June 14 Swiss referendum is essentially unpriced.",
+        "citations": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "bilateral_analysis": "Over 6 months, geopolitical risk is the largest unknown. Historical analogues (Gulf War I, Russia-Ukraine) suggest the CHF safe-haven premium dissipates within 1-3 months of peak intensity. The June 14 Swiss referendum on the population cap is the most underpriced bilateral event risk: if passed (~33% probability), the guillotine clause terminates all EU bilateral agreements, structurally negative for the Swiss economy and potentially triggering EUR/CHF and AUD/CHF recovery. Australia's May Federal Budget introduces modest fiscal event risk. The compound probability of simultaneous negative catalysts (Iran escalation + Swiss referendum passage + US tariff escalation) is low (~5-10%) but high impact. Net strategic assessment: event risk is balanced — bilateral events offset each other over the horizon.",
+        "key_bilateral_metrics": [
+          "Iran conflict resolution timeline: 2 months (Oxford Economics base case)",
+          "June 14 Swiss referendum: ~33% passage probability (most underpriced AUD/CHF bullish catalyst)",
+          "May 2026 Australian Federal Budget: modest fiscal event risk",
+          "Section 122 tariff expiry: July 24, 2026 (both currencies affected)",
+          "AUKUS delivery uncertainty: modest AUD geopolitical negative"
+        ],
+        "what_is_priced": "Event risk premium is highest near-term (March); the medium-term event landscape is more balanced. The June Swiss referendum is essentially unpriced in AUD/CHF.",
+        "citations": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "horizon_split": "Tactical bearish (70%) reflects active geopolitical stress; strategic neutral (50%) reflects expected normalization and the bilateral symmetry of event risk over the full horizon.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 8,
+      "factor_name": "Fiscal & Sovereign Risk",
+      "tactical_weight_default": 0.04,
+      "tactical_weight_applied": 0.04,
+      "strategic_weight_default": 0.07,
+      "strategic_weight_applied": 0.07,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 80,
+        "bilateral_analysis": "Both Australia and Switzerland hold AAA sovereign ratings with stable outlooks — the highest credit tier. Australia's federal gross debt at 34.2% of GDP and Switzerland's federal debt at ~16% of GDP (general government ~38%) are both among the lowest in developed markets. This factor provides no directional pair signal in the near term. Neither sovereign faces imminent rating risk and bond markets are functioning normally in both countries. The relevant fiscal dimension for AUD/CHF is the relative strength of Australia's fiscal position creating a quality floor under AUD, offset by Switzerland's exceptionally low debt creating an equally high quality floor under CHF. The net effect is approximately neutral — both AAA-rated sovereigns with no imminent fiscal risk differentials.",
+        "key_bilateral_metrics": [
+          "AU sovereign rating: AAA (S&P, Moody's, Fitch) — stable",
+          "CH sovereign rating: AAA — stable (all five agencies)",
+          "AU gross debt/GDP: 34.2%; CH federal debt/GDP: ~16%",
+          "AU 2025-26 deficit: A$36.8bn (narrowing); CH 2025 fiscal balance: CHF +0.3bn surplus",
+          "Switzerland fiscal advantage: constitutional debt brake and surplus requirement vs Australian political discretion"
+        ],
+        "what_is_priced": "Both AAA ratings fully priced. Switzerland holds a slight relative advantage (lower debt ratio, constitutional debt brake vs Australian political discretion) but this differential is not currently material for FX pricing.",
+        "citations": [
+          1,
+          2
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 75,
+        "bilateral_analysis": "Switzerland's structural fiscal superiority (16% vs 34% debt/GDP, budget surplus, debt brake) represents a structural quality argument in CHF's favour over the strategic horizon. However, this differential has been persistent for decades and is already embedded in relative bond yields. The May 2026 Australian Federal Budget could introduce some fiscal expansion in a pre-election context, but Australia's AAA headroom is sufficient to absorb modest deterioration without triggering market concern. Net: fiscal neutrality maintained strategically. Both countries sit far above G10 peers in fiscal quality (US 125%, Japan 260%, UK 100% debt/GDP comparisons) meaning neither faces pressure that would create a meaningful bilateral FX signal.",
+        "key_bilateral_metrics": [
+          "CH fiscal brake: constitutional — protects AAA regardless of political cycle",
+          "AU pre-election budget (May 2026): potential for modest fiscal expansion",
+          "AU gross debt trajectory: 34.2% → ~37% by 2030-31 (still low globally)",
+          "G10 comparisons: both CH and AU far better than US (125%), Japan (260%), UK (100%)"
+        ],
+        "what_is_priced": "Fully and correctly priced. No mispricing in either direction for this factor.",
+        "citations": [
+          1,
+          2
+        ]
+      },
+      "horizon_split": "Both neutral; no divergence warranted. Fiscal factor is a structural floor for both currencies, not a directional driver.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 9,
+      "factor_name": "Market Structure & Volatility",
+      "tactical_weight_default": 0.05,
+      "tactical_weight_applied": 0.03,
+      "strategic_weight_default": 0.03,
+      "strategic_weight_applied": 0.03,
+      "weight_adjustment_reason": "Tactical weight reduced from default 0.05 to 0.03 (-0.02), offset by +0.02 added to Factor 3. Justification: AUD/CHF is a thinner cross than the component pairs, reducing the precision of pair-specific technical analysis as a signal. Strategic weight maintained at default 0.03.",
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 55,
+        "bilateral_analysis": "The AUD/CHF chart is in a bearish configuration. The pair has formed a descending structure since the January 2026 high (~0.5800) and has broken through multiple support levels. The 1-month technical rating shows a strong sell signal for AUD/CHF. The estimated 50-day EMA sits around 0.5550-0.5580 (above current spot of 0.5444), confirming the pair is in a below-MA bearish regime. The RSI is approaching oversold territory (estimated ~35-38) but has not yet triggered a reversal signal in a trending market. Vol structure is in backwardation given the March 19 super-cluster event premium, consistent with both component pairs (AUD/USD IV in backwardation, USD/CHF IV in backwardation). The double-negative skew (AUD puts bid AND CHF calls bid) creates an unusual scenario where AUD/CHF put premiums are especially high — the pair's options are expensive for downside protection. Resistance at 0.5500-0.5507 has been tested and rejected; continued failure there maintains the bearish bias. The pair is at the lower end of a multi-week descending channel, with the next meaningful support at 0.5290.",
+        "key_bilateral_metrics": [
+          "AUD/CHF spot: 0.5444; estimated 50-day EMA: ~0.5550-0.5580 (pair below MA = bearish)",
+          "Key resistance: 0.5500-0.5507 (immediate), 0.5600-0.5620 (50d EMA zone), 0.5665-0.5800 (recovery target)",
+          "Key support: 0.5290 (pivot), 0.5200 (psychological), 0.5139 (52-week low)",
+          "TradingView 1-month rating: Sell / Strong Sell for AUD/CHF",
+          "Vol estimate (1M AUD/CHF): ~10.5-11.5%; risk reversal: double-negative skew — puts heavily bid; options expensive for downside"
+        ],
+        "what_is_priced": "The bearish trend is well-priced by CTAs and trend-following systems. The expensive options (double-negative skew) make put purchases costly; spot short is the more efficient expression of the bearish tactical view.",
+        "citations": [
+          6,
+          7,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 45,
+        "bilateral_analysis": "Over the strategic horizon, the market structure could flip decisively bullish for AUD/CHF if the geopolitical premium unwinds and the carry trade reasserts. A recovery from the current ~0.5444 toward the 0.5600-0.5665 zone would represent mean-reversion to the rate-differential-implied level, achievable within 6-12 weeks of any significant de-escalation. The AUD/USD component retains bullish MA stacking (50d > 100d > 200d, all rising), providing structural tailwind for the AUD leg once risk-off fades. Consensus forecasts project AUD/CHF reaching 0.5500 by June 2026 and 0.5600 by September 2026 — broadly consistent with our strategic scenario that carry re-emerges as the dominant driver after near-term geopolitical turbulence. The strategic structure is conditionally bullish: contingent on risk regime normalisation. EUR/CHF below 0.91 represents a structurally novel territory (first sustained break since 2015) that limits CHF upside targets.",
+        "key_bilateral_metrics": [
+          "AUD/USD MA stacking: Bullish (50d > 100d > 200d); persistence rate: ~65-70% over 3-6M",
+          "Recovery target on de-escalation: 0.5600-0.5665 (estimated rate-differential-implied level)",
+          "Strategic consensus: 0.5500 (June) → 0.5600 (September 2026) — per exchangerates.org.uk",
+          "EUR/CHF below 0.91: structurally novel (first sustained break since 2015) — limits CHF upside targets"
+        ],
+        "what_is_priced": "The market structure discounts continued CHF strength; the strategic edge is in the carry trade reactivation which is not priced because current risk regime has suppressed it.",
+        "citations": [
+          1,
+          6,
+          7
+        ]
+      },
+      "horizon_split": "Tactical bearish (55%) reflects the current downtrend and below-MA configuration. Strategic bullish (45%) reflects the conditional nature of the carry recovery thesis. Confidence levels are deliberately modest given the pair's thinness and the noisier technical picture.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": {
+        "vol_landscape_summary": "AUD/CHF operates in an elevated vol regime (~10.5-11.5% 1M annualised) with a double-negative skew — both AUD puts and CHF calls are bid simultaneously, making options-based downside protection exceptionally expensive. The vol term structure is in backwardation due to the March 19 RBA/SNB event cluster, with the event premium likely to drain post-resolution. AUD/CHF is a thinner cross than component pairs, with wider effective spreads and larger gap risk on headlines.",
+        "directional_expression": "For the tactical bearish view: spot short AUD/CHF with stop above 0.5500-0.5520 is the most capital-efficient expression — options are too expensive given the double-negative skew making put purchases poor value. For the strategic bullish view: spot long AUD/CHF entered on a confirmed de-escalation signal (e.g., ceasefire announcement driving the pair back above 0.5500) offers better risk/reward than options, given the elevated vol premium currently embedded in calls.",
+        "event_timing_consideration": "The backwardated vol term structure argues strongly for entering strategic positions at or after the March 19 event resolution, when the event premium drains from the 1M contract. Entering either tactical or strategic positions ahead of the RBA/SNB back-to-back events (17-19 March) risks being caught in a large binary move. Post-event entry allows for both reduced premium and clearer directional signal.",
+        "liquidity_note": "AUD/CHF is a low-to-moderate liquidity cross — less liquid than AUD/USD or USD/CHF individually, implying wider effective spreads (estimated 2-4 pips vs 1-2 for majors) and larger gap risk on geopolitical headlines. Position sizing should be reduced approximately 20-30% versus equivalent positions in component pairs. Large institutional orders may require working via the synthetic (AUD/USD × 1/USD/CHF) rather than the direct cross."
+      }
+    },
+    {
+      "factor_number": 10,
+      "factor_name": "USD Liquidity & Funding",
+      "tactical_weight_default": 0.11,
+      "tactical_weight_applied": 0.11,
+      "strategic_weight_default": 0.12,
+      "strategic_weight_applied": 0.12,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "bilateral_analysis": "AUD/CHF is a non-USD cross, but USD liquidity conditions affect both legs through the vehicle currency channel and the dollar smile framework. The benign USD liquidity environment (SOFR 3.65% stable, Fed RMPs at $40bn/month, reserves $3.02T) is positive for both risk assets (AUD) and safe havens (CHF) through different channels: it supports AUD by maintaining broad USD weakness (DXY -9% YoY), but it also validates the safe-haven demand for CHF because a weak USD 'pushes' capital toward alternative stores of value. The AUD/CHF cross-currency basis swap is estimated at approximately +5-15 bps (based on AUD/USD basis from AUD dossier), suggesting no funding premium distortion. The Iran war's impact on dollar dynamics adds complexity: the USD initially strengthened on safe-haven demand but has subsequently moderated as CHF and gold proved the preferred safe havens, placing USD in the 'weak middle' of the smile — broadly neutral for AUD/CHF relative to USD-neutral conditions. March quarter-end creates mild USD seasonal funding demand (mild positive for USD, modestly negative for AUD/CHF).",
+        "key_bilateral_metrics": [
+          "SOFR: 3.65% (stable, no dislocation)",
+          "AUD/USD xccy basis: +5 to +15 bps (benign, no funding premium)",
+          "USD/CHF xccy basis: SNB USD swap line usage: $89M (negligible — no stress)",
+          "DXY: ~97-98 (weak USD = broadly supportive of both AUD and CHF)",
+          "Dollar smile: Middle (weak USD) — amplifies both carry and safe-haven flows equally; March quarter-end: mild USD demand (-10-20 pips on AUD/CHF, minor)"
+        ],
+        "what_is_priced": "USD liquidity is fully priced as benign. The net signal for AUD/CHF is neutral — the weak USD environment benefits both currencies through different channels with approximately offsetting pair impact.",
+        "citations": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 55,
+        "bilateral_analysis": "Over 6 months, USD liquidity is net positive for AUD/CHF because USD weakening disproportionately benefits high-carry currencies like AUD more than safe havens like CHF. The Fed's RMP programme and expected 1-2 rate cuts by year-end maintain the structural USD weakness environment (DXY likely to reach 96-98). In a declining USD environment, capital flows into the highest carry available, which is AUD, while CHF's appeal declines as the opportunity cost of holding zero-yield CHF rises. The narrow CHF-JPY carry gap (-75 bps) means CHF's relative safe-haven positioning versus JPY is vulnerable to the BoJ's hiking path — as JPY becomes a more attractive safe haven through rate normalisation, capital may migrate from CHF to JPY, reducing CHF's premium. This is an indirect AUD/CHF positive through the CHF component.",
+        "key_bilateral_metrics": [
+          "USD trajectory: DXY 96-98 by year-end (Goldman Sachs forecast)",
+          "CHF-JPY spread: -75 bps; BoJ hiking to 1.00% narrows to ~0 bps (safe-haven rotation risk for CHF)",
+          "Dollar smile trajectory: Middle to lower-left (mild USD weakness)",
+          "AUD xccy basis: +5-15 bps (benign); no significant strategic distortion",
+          "Fed path: 1-2 cuts by year-end (maintains weak USD environment)"
+        ],
+        "what_is_priced": "USD weakness is partially priced. The CHF displacement by JPY as preferred safe haven is not priced — it represents a potential strategic catalyst for AUD/CHF recovery.",
+        "citations": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "horizon_split": "Tactical neutral (55%) vs strategic bullish (55%). The strategic edge from USD weakness flows and CHF-JPY rotation risk gives a marginal directional advantage for AUD/CHF.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    }
+  ],
+  "synthesis": {
+    "weight_adjustments": {
+      "adjustments_made": true,
+      "adjustments": [
+        {
+          "factor_number": 3,
+          "factor_name": "Risk Appetite & Sentiment",
+          "default_weight": 0.1,
+          "applied_weight": 0.12,
+          "reason": "AUD/CHF is the purest risk-on/risk-off pair in G10 given AUD's high beta (~0.7 to S&P 500) and CHF's maximum safe-haven status. The bilateral amplification of risk moves (~1.2-1.5x AUD/USD beta) justifies a modest tactical weight increase of +0.02. Applied only at tactical horizon; strategic weight maintained at default 0.05."
+        },
+        {
+          "factor_number": 9,
+          "factor_name": "Market Structure & Volatility",
+          "default_weight": 0.05,
+          "applied_weight": 0.03,
+          "reason": "AUD/CHF is a thinner cross than the component pairs, reducing the precision of pair-specific technical analysis as a standalone signal. Weight reduced by -0.02 at tactical horizon to offset the +0.02 increase to Factor 3. Strategic weight maintained at default 0.03."
+        }
+      ]
+    },
+    "tactical": {
+      "net_stance": "Bearish",
+      "conviction": 2,
+      "overall_confidence": 52,
+      "weighted_score_calculation": [
+        {
+          "factor_number": 1,
+          "factor_name": "Policy & Rates (Relative)",
+          "stance_score": 1,
+          "confidence": 60,
+          "conf_adj_score": 0.6,
+          "weight": 0.24,
+          "weighted_contribution": 0.144
+        },
+        {
+          "factor_number": 2,
+          "factor_name": "Inflation & Growth Dynamics",
+          "stance_score": 1,
+          "confidence": 70,
+          "conf_adj_score": 0.7,
+          "weight": 0.18,
+          "weighted_contribution": 0.126
+        },
+        {
+          "factor_number": 3,
+          "factor_name": "Risk Appetite & Sentiment",
+          "stance_score": -1,
+          "confidence": 75,
+          "conf_adj_score": -0.75,
+          "weight": 0.12,
+          "weighted_contribution": -0.09
+        },
+        {
+          "factor_number": 4,
+          "factor_name": "Flows & Positioning",
+          "stance_score": -1,
+          "confidence": 65,
+          "conf_adj_score": -0.65,
+          "weight": 0.1,
+          "weighted_contribution": -0.065
+        },
+        {
+          "factor_number": 5,
+          "factor_name": "External Balance & Terms of Trade",
+          "stance_score": 0,
+          "confidence": 50,
+          "conf_adj_score": 0,
+          "weight": 0.06,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 6,
+          "factor_name": "Guidance & Credibility",
+          "stance_score": 1,
+          "confidence": 55,
+          "conf_adj_score": 0.55,
+          "weight": 0.07,
+          "weighted_contribution": 0.039
+        },
+        {
+          "factor_number": 7,
+          "factor_name": "Event Risk & Geopolitics",
+          "stance_score": -1,
+          "confidence": 70,
+          "conf_adj_score": -0.7,
+          "weight": 0.05,
+          "weighted_contribution": -0.035
+        },
+        {
+          "factor_number": 8,
+          "factor_name": "Fiscal & Sovereign Risk",
+          "stance_score": 0,
+          "confidence": 80,
+          "conf_adj_score": 0,
+          "weight": 0.04,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 9,
+          "factor_name": "Market Structure & Volatility",
+          "stance_score": -1,
+          "confidence": 55,
+          "conf_adj_score": -0.55,
+          "weight": 0.03,
+          "weighted_contribution": -0.017
+        },
+        {
+          "factor_number": 10,
+          "factor_name": "USD Liquidity & Funding",
+          "stance_score": 0,
+          "confidence": 55,
+          "conf_adj_score": 0,
+          "weight": 0.11,
+          "weighted_contribution": 0
+        }
+      ],
+      "net_weighted_score": 0.102,
+      "score_interpretation": "Net score +0.102 is marginally positive, driven by the powerful rate/growth/guidance triumvirate (+0.309 combined) offset by the risk/positioning/event risk bearish cluster (-0.207 combined). The score barely clears zero, mapping to Conviction 1-2/5. Given the active safe-haven regime and the score barely clearing zero, we assign net Bearish with Conviction 2/5 — the safe-haven momentum and crowded positioning create near-term pressure that the rate differential alone cannot overcome.",
+      "rationale": "The tactical AUD/CHF setup is one of the most conflicted bilateral configurations in G10 FX today, with the two most powerful macro forces in the world pulling the pair in opposite directions. The rate and growth factors (+0.144 and +0.126 respectively) are unambiguously AUD/CHF bullish — the 385 bp carry differential and Australia's inflation/growth outperformance represent the strongest fundamental case for AUD/CHF in over a decade. RBC Capital Markets explicitly recommends taking a long AUDCHF position over the full year of 2026, citing bullishness on FX carry trades as one of their top five FX themes. However, these fundamental signals are overwhelmed by three concurrent bearish catalysts: First, the Iran-US war has activated CHF's safe-haven character at maximum intensity (VIX at 22.8, gold at $5,200, CHF outperforming JPY), creating a regime where carry does not work and both pair legs move simultaneously against the long. Second, AUD CFTC positioning at the 100th percentile of the 3-year range creates maximum crowding risk — when incremental buying is exhausted, a 2-4% correction is the historical base case within 2-6 weeks. Third, the bilateral event calendar (RBA 17 March, SNB 19 March) introduces binary risk that could move the pair ±2-3% depending on outcomes. The path of least resistance over 2-4 weeks is further AUD/CHF weakness toward 0.5290-0.5350, driven by the risk-off overhang and positioning normalisation, before the carry trade has an opportunity to reassert. The 17 March RBA decision is the primary inflection: a hawkish hike would reduce the bearish conviction significantly (pushing toward neutral), while a dovish hold would accelerate the downside toward 0.5139. The RBC recommendation to be long AUD/CHF was issued before the Iran war materialised; the tactical environment has shifted sharply against that thesis, though the strategic reasoning remains valid. The marginal positive weighted score of +0.102 reflects the genuine tug-of-war nature of this setup — the fundamental case is strong but the regime is wrong. The carry accrual of ~32 bps per month provides no meaningful offset against the directional volatility of 50-75 pips per day. AUD/CHF will likely trade in a compressed 0.5290-0.5550 range for 2-4 weeks until the March event cluster resolves, with elevated 10.5-11.5% annualised vol implying daily ranges of 50-75 pips throughout.",
+      "g10_relative_ranking": "AUD/CHF is one of the least attractive pair configurations at the tactical horizon — the maximum-carry pair in maximum-risk-off mode. Among AUD crosses, it ranks last (AUD/CHF most bearish) vs AUD/NZD and AUD/CAD, where the quote currency has less safe-haven character. Among CHF pairs, AUD/CHF is the most bearish given the highest carry cost combined with maximum AUD risk sensitivity. USD/CHF is the cleanest CHF bullish expression tactically; short AUD/CHF is the best cross expression of simultaneous AUD crowding risk plus CHF safe-haven demand.",
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "pair_target": "AUD/CHF 0.5290-0.5350",
+          "timeframe": "2-4 weeks",
+          "conditions": [
+            "AUD positioning resets from 100th to 75th-80th percentile",
+            "CHF safe-haven bid remains intact — Iran war at current intensity without resolution",
+            "RBA holds on 17 March with hawkish guidance (no hike, 'May is live' signal); SNB holds with intervention rhetoric on 19 March"
+          ],
+          "path": "Grinding decline toward 0.5290-0.5350 as AUD crowding unwinds. Pair capped at 0.5500-0.5520 on bounces while war premium remains active. RBA hold on 17 March does not trigger sharp AUD unwind but removes the near-term bullish catalyst, allowing the safe-haven CHF bid to gradually compress the pair toward support."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "pair_target": "AUD/CHF 0.5550-0.5620",
+          "conditions": [
+            "RBA hikes 25 bp on 17 March to 4.10%",
+            "Ceasefire or diplomatic breakthrough in Iran conflict announced before 31 March",
+            "VIX falls below 18 sustained"
+          ]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "pair_target": "AUD/CHF 0.5139-0.5200",
+          "conditions": [
+            "Iran escalation (Hormuz closure, oil $120+)",
+            "RBA delivers dovish hold with explicit pause signal on 17 March",
+            "VIX sustains above 30 on closing basis"
+          ]
+        }
+      },
+      "path_expectation": "The most likely tactical path is a grinding decline toward 0.5290-0.5350, not a sharp crash. AUD/CHF will be capped at 0.5500-0.5520 on bounces while the war premium remains active. The RBA decision on 17 March is the key inflection: a hike would create a 150-200 pip bounce toward 0.5600 before the CHF safe-haven bid reasserts; a hold would accelerate toward 0.5290. The pair will likely trade in a compressed 0.5290-0.5550 range for 2-4 weeks until the March event cluster resolves. Elevated volatility (10.5-11.5% annualised) implies daily ranges of 50-75 pips throughout the period. The carry accrual of ~32 bps per month provides no meaningful offset against the directional volatility. Post-March 19 resolution will provide the clearest signal — if SNB delivers aggressive intervention language alongside an RBA hold, the pair could accelerate toward the October 2025 low of 0.5139 as both drivers compound bearishly.",
+      "conviction_ladder": {
+        "current": 2,
+        "increase_conditions": [
+          "AUD/CHF breaks below 0.5290 on closing basis for 2+ consecutive days — increases tactical conviction to 3/5 Bearish",
+          "VIX spikes to 30+ sustained for 5+ sessions — increases tactical conviction to 3/5 Bearish; RBA delivers dovish hold with explicit pause signal on 17 March — increases to 4/5 Bearish"
+        ],
+        "decrease_conditions": [
+          "Iran ceasefire announced AND VIX falls below 18 within 1 week — decreases to 1/5 Bearish (near-neutral)",
+          "RBA hikes 25 bp on 17 March AND VIX falls below 20 within 1 week — flips to Bullish Conviction 2/5; AUD CFTC resets to below 70th percentile reduces conviction to 1/5"
+        ]
+      },
+      "risk_reward": {
+        "base_case_payoff": "-94 to -154 pips / -1.7% to -2.8%",
+        "downside_case_loss": "-244 to -305 pips / -4.5% to -5.6%",
+        "risk_reward_ratio": "1.0:1 (approximately symmetric)",
+        "expected_value": "(50% × -124 pips) + (25% × +141 pips) + (25% × -269 pips) = -62 + 35 - 67 = -94 pips. With carry accrual of ~8 pips per week over 4 weeks (~32 pips), net EV approximately -62 pips.",
+        "asymmetry_assessment": "Modestly negative expected value at -94 pips (before carry offset of ~32 pips) — confirming bearish but low-conviction tactical stance. The carry partially offsets the directional negative EV, netting approximately -62 pips EV over 4 weeks, consistent with a 2/5 conviction bearish call."
+      }
+    },
+    "strategic": {
+      "net_stance": "Bullish",
+      "conviction": 2,
+      "overall_confidence": 56,
+      "weighted_score_calculation": [
+        {
+          "factor_number": 1,
+          "factor_name": "Policy & Rates (Relative)",
+          "stance_score": 1,
+          "confidence": 70,
+          "conf_adj_score": 0.7,
+          "weight": 0.24,
+          "weighted_contribution": 0.168
+        },
+        {
+          "factor_number": 2,
+          "factor_name": "Inflation & Growth Dynamics",
+          "stance_score": 1,
+          "confidence": 60,
+          "conf_adj_score": 0.6,
+          "weight": 0.1,
+          "weighted_contribution": 0.06
+        },
+        {
+          "factor_number": 3,
+          "factor_name": "Risk Appetite & Sentiment",
+          "stance_score": 0,
+          "confidence": 45,
+          "conf_adj_score": 0,
+          "weight": 0.05,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 4,
+          "factor_name": "Flows & Positioning",
+          "stance_score": 0,
+          "confidence": 50,
+          "conf_adj_score": 0,
+          "weight": 0.06,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 5,
+          "factor_name": "External Balance & Terms of Trade",
+          "stance_score": -1,
+          "confidence": 60,
+          "conf_adj_score": -0.6,
+          "weight": 0.16,
+          "weighted_contribution": -0.096
+        },
+        {
+          "factor_number": 6,
+          "factor_name": "Guidance & Credibility",
+          "stance_score": 1,
+          "confidence": 60,
+          "conf_adj_score": 0.6,
+          "weight": 0.12,
+          "weighted_contribution": 0.072
+        },
+        {
+          "factor_number": 7,
+          "factor_name": "Event Risk & Geopolitics",
+          "stance_score": 0,
+          "confidence": 50,
+          "conf_adj_score": 0,
+          "weight": 0.05,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 8,
+          "factor_name": "Fiscal & Sovereign Risk",
+          "stance_score": 0,
+          "confidence": 75,
+          "conf_adj_score": 0,
+          "weight": 0.07,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 9,
+          "factor_name": "Market Structure & Volatility",
+          "stance_score": 1,
+          "confidence": 45,
+          "conf_adj_score": 0.45,
+          "weight": 0.03,
+          "weighted_contribution": 0.014
+        },
+        {
+          "factor_number": 10,
+          "factor_name": "USD Liquidity & Funding",
+          "stance_score": 1,
+          "confidence": 55,
+          "conf_adj_score": 0.55,
+          "weight": 0.12,
+          "weighted_contribution": 0.066
+        }
+      ],
+      "net_weighted_score": 0.284,
+      "score_interpretation": "Net score +0.284 is moderately positive, mapping to Conviction 2-3/5 Bullish. The carry/rate/guidance triumvirate dominates (+0.300 combined) over the external balance headwind (-0.096). We assign Neutral-to-Bullish Conviction 2/5 — strategic conviction is limited by the external balance deterioration, the uncertainty about the Iran war timeline, and the genuine two-way risk in a pair where CHF structural supports are also formidable.",
+      "rationale": "The strategic AUD/CHF case rests on a simple but powerful premise: the 385 bp carry differential — and its likely widening to 410-460 bps if the RBA reaches 4.35% and the SNB cuts to -0.25% — cannot remain permanently suppressed by geopolitical risk premia. Historical evidence from analogous geopolitical episodes (Gulf War I, Russia-Ukraine) consistently shows that risk premia in FX markets dissipate within 1-3 months of peak intensity, after which carry reasserts as the dominant driver. With Policy & Rates contributing +0.168 (the largest single factor contribution), the strategic rate story is the bull case's foundation. Guidance & Credibility adds +0.072 as the RBA's hawkish path (3 more potential hike opportunities in the next 6 months) and the SNB's potential cut to -0.25% widen the bilateral policy divergence further. USD Liquidity contributes +0.066 through the broad USD weakness channel that systematically benefits high-carry currencies in the 'smile's middle.' The principal strategic headwind is External Balance at -0.096 — Switzerland's +7% current account surplus accumulates persistently (CHF 30-35bn over 6 months) while Australia's -2.9% deficit widens on falling iron ore and tariff headwinds. This external flow imbalance prevents AUD/CHF from fully re-rating to the rate differential implied level, capping strategic targets below PPP fair value. RBC notes CHF as one of the most efficient funders for OTM puts and AUD as highly correlated to the Asian cycle at 60% to CNY — both observations confirm the structural pair dynamics at the strategic horizon. The strategic scenario requires: (1) Iran war de-escalation by April-May 2026; (2) AUD positioning normalisation from 100th to 65th-70th percentile; (3) RBA hiking to 4.10% or above; (4) SNB maintaining zero rate (or cutting to -0.25%). All four conditions are plausible within the strategic window. The strategic net score of +0.284 combined with the carry accrual of +106 bps over 6 months and a positive probability-weighted expected value of +171 pips supports the neutral-to-bullish strategic assessment, though conviction remains limited at 2/5 given the size and uncertainty of the near-term headwinds.",
+      "g10_relative_ranking": "AUD/CHF ranks 3rd among the most attractive carry expressions in G10 strategically — behind AUD/JPY and AUD/NZD on a risk-adjusted basis given AUD/JPY's higher carry (310 bps) with current low CHF safe-haven risk premium relative to JPY (BoJ hiking narrows CHF/JPY differential), and AUD/NZD's lower vol profile. However, if the Iran war de-escalates and the SNB cuts, AUD/CHF could rise to 2nd or 1st most attractive carry expression given it has the widest absolute carry in G10 and the deepest CHF safe-haven discount to unwind — generating the largest potential upside in basis points per unit of expected volatility.",
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "pair_target": "AUD/CHF 0.5600-0.5700",
+          "timeframe": "3-6 months",
+          "conditions": [
+            "Iran de-escalation by April-May 2026 with oil returning below $90/bbl",
+            "RBA hikes to 4.10% in May and maintains hawkish guidance; SNB holds at 0%",
+            "AUD CFTC positioning resets to 65th-75th percentile over 4-8 weeks",
+            "Iron ore holds $90-95/t; China PMI stabilises above 49"
+          ],
+          "path": "V-shaped recovery: Phase 1 (weeks 1-4) — continued near-term pressure targeting 0.5290-0.5350. Phase 2 (weeks 4-10) — carry trade reactivation as Iran war premium fades; AUD/CHF grinds from 0.5290-0.5350 back above 0.5500, catalysed by May RBA hike. Phase 3 (months 3-6) — if 0.5600 resistance clears, carry trade becomes self-reinforcing targeting 0.5600-0.5700."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "pair_target": "AUD/CHF 0.5800-0.6000",
+          "conditions": [
+            "RBA hikes to 4.35%; SNB cuts to -0.25%; VIX normalises to sub-18",
+            "Iran ceasefire by April with oil back below $80/bbl; China stimulus accelerates with iron ore back to $105+"
+          ]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "pair_target": "AUD/CHF 0.5000-0.5139",
+          "conditions": [
+            "Iran escalation sustained with Hormuz closure and oil above $120/bbl",
+            "China hard landing (GDP <4%); RBA forced to pause; AUD CFTC full unwind to net short"
+          ]
+        }
+      },
+      "path_expectation": "The strategic path is a 'V-shaped' recovery with three distinct phases. Phase 1 (weeks 1-4): continued near-term pressure from geopolitical risk and AUD positioning correction, with the pair targeting 0.5290-0.5350 as the tactical bearish thesis plays out. Phase 2 (weeks 4-10): carry trade reactivation as the Iran war premium fades; AUD/CHF grinds from the 0.5290-0.5350 zone back above 0.5500, catalysed by the May RBA hike and gradual AUD positioning normalisation. Phase 3 (months 3-6): if 0.5600 resistance clears, the carry trade becomes self-reinforcing as trend-following capital adds long AUD/CHF, targeting 0.5600-0.5700. The key timing variable is the Iran war — every month of continued conflict delays Phase 2 by approximately one month. Volatility will be elevated throughout (10-12% annualised), with 100-150 pip weekly ranges as the pair transitions between regimes. The carry accrual of +106 bps over 6 months provides meaningful downside cushioning and daily cost-of-carry income for patient strategic long holders.",
+      "conviction_ladder": {
+        "current": 2,
+        "increase_conditions": [
+          "Iran ceasefire + RBA hikes to 4.10% + AUD CFTC resets below 75th percentile (all within 6 weeks) — increases to 4/5 Bullish",
+          "Iran de-escalates with oil back below $80 + VIX below 20 sustained — increases to 3/5 Bullish"
+        ],
+        "decrease_conditions": [
+          "Iron ore falls below $85/t AND China GDP below 4.0% AND RBA pauses — decreases to 1/5",
+          "AUD/CHF sustains below 0.5139 (52-week low) for 3+ days on high volume — flips to Bearish"
+        ]
+      },
+      "risk_reward": {
+        "base_case_payoff": "+156 to +256 pips directional / +2.9% to +4.7%, plus ~106 bps carry accrual = total +213-313 pips",
+        "downside_case_loss": "-244 to -444 pips / -4.5% to -8.2%",
+        "risk_reward_ratio": "0.7:1 (raw directional); probability-adjusted EV positive at +171 pips",
+        "expected_value": "(50% × +263 pips) + (25% × +500 pips) + (25% × -344 pips) = +132 + 125 - 86 = +171 pips. With carry accrual providing additional ~106 bps income, total probability-weighted return is approximately +227 pips over 6 months.",
+        "asymmetry_assessment": "Positive expected value at +171 pips (before carry) and +227 pips (with carry). The downside tail is large (-444 pips max) but lower probability (25%); the carry provides a structural income floor that improves expected value meaningfully and compensates for the asymmetric downside. Distribution is positively skewed on a carry-adjusted basis."
+      }
+    },
+    "consensus_divergence": {
+      "bank_consensus_forecast": "Consensus projects AUD/CHF recovering gradually: ~0.5400 by March 2026, 0.5500 by June 2026, 0.5600 by September 2026 (exchangerates.org.uk consensus). RBC Capital Markets recommends long AUD/CHF for full year 2026 as a carry trade expression.",
+      "our_tactical_view": "Bearish AUD/CHF targeting 0.5290-0.5350 over 2-4 weeks — below the consensus March estimate of 0.5400.",
+      "our_strategic_view": "Neutral-to-Bullish AUD/CHF targeting 0.5600-0.5700 by mid-2026 — above the consensus June 2026 estimate of 0.5500.",
+      "divergence_direction": "below consensus tactically / above consensus strategically",
+      "divergence_magnitude": "Tactical: ~50-110 pips below consensus March target; Strategic: ~100-200 pips above consensus June target",
+      "why_we_differ": "On the tactical side, consensus has not fully absorbed the double-shock of AUD positioning at the 100th percentile combined with the CHF safe-haven activation post-Iran war (commenced February 28). The consensus was set before these two compounding extremes materialised simultaneously. On the strategic side, we believe the RBA will hike to 4.35% (vs consensus 4.10-4.20%) while the SNB may cut to -0.25% (vs consensus hold at zero). This potential 50-60 bp additional divergence from the policy rate path — the most actionable bilateral mispricing — is the primary source of our above-consensus AUD/CHF target. We also believe the Iran war CHF safe-haven premium (estimated 200-250 pips) will unwind more completely than consensus assumes, generating a sharper Phase 2 recovery. The structural external balance deterioration (AU CA -2.9% vs CH +7%) is a genuine strategic headwind that prevents us from being more aggressively bullish.",
+      "payoff_if_right": "If AUD/CHF reaches 0.5700 vs consensus 0.5600 by mid-2026, the outperformance is ~100 pips or ~1.8% alpha on the position, plus carry accrual over the holding period.",
+      "risk_if_wrong": "If the Iran war persists through H2 and AUD/CHF falls to 0.5000 (vs our 0.5290-0.5350 expected trough), the loss from current spot is ~444 pips or -8.2%."
+    },
+    "cross_horizon_consistency": {
+      "aligned": false,
+      "tactical_stance": "Bearish (pair falls, conviction 2/5)",
+      "strategic_stance": "Neutral-to-Bullish (pair rises, conviction 2/5)",
+      "explanation": "Tactical and strategic views diverge directionally — this is a 'right trade, wrong timing' setup. The carry and rate differential thesis is strategically valid but the tactical entry environment is poor due to two compounding extremes: AUD CFTC positioning at the 100th percentile and CHF safe-haven bid at maximum intensity following the Iran-US war. The weighted score changes from +0.102 tactically (barely positive, interpreted as bearish given regime) to +0.284 strategically (moderately positive bullish), primarily driven by the shift in Factor 5 (External Balance) weight from 0.06 tactical to 0.16 strategic and the rotation in Factor 3 (Risk Appetite) from -0.090 tactical to 0.000 strategic.",
+      "inflection_point": "Expected in late March to mid-April 2026, when: (a) the RBA and SNB events resolve (17-19 March); (b) AUD CFTC positioning resets from 100th to 75th-80th percentile (4-6 weeks); (c) the Iran conflict either de-escalates or becomes 'priced in' at current intensity (historically 3-4 weeks after onset).",
+      "trading_implication": "Do not initiate new long AUD/CHF at current levels. The tactical trade is a short toward 0.5290-0.5350, then a reversal to a strategic long entered on either (a) confirmed ceasefire news or (b) AUD/CHF bouncing from 0.5290 support with declining CHF vol. Use 0.5139 (52-week low) as the hard stop for any strategic long. Use 0.5520 as the hard stop for any tactical short."
+    },
+    "forward_vs_spot": {
+      "current_spot": 0.5444,
+      "forward_1m": "0.5461 (+0.31% carry-implied appreciation)",
+      "forward_3m": "0.5497 (+0.98% carry-implied appreciation)",
+      "forward_6m": "0.5550 (+1.95% carry-implied appreciation)",
+      "expected_rate_3m": "0.5450-0.5550 (approximately at forward — consistent with tactical-to-strategic inflection)",
+      "expected_rate_6m": "0.5600-0.5700 (above 6M forward of 0.5550)",
+      "edge_3m": "-47 to +53 pips vs 3M forward of 0.5497 — approximately neutral; confirms inflection point at 3M horizon",
+      "edge_6m": "+50 to +150 pips vs 6M forward of 0.5550 — positive; confirms strategic bullish edge from de-escalation recovery plus carry"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-03-17",
+      "event": "RBA Monetary Policy Decision",
+      "expected_impact": "Bullish",
+      "which_leg_affected": "Base",
+      "rationale": "A hike to 4.10% would widen the AUD-CHF differential to 410 bps and validate the hawkish RBA narrative, generating a 150-200 pip rally in AUD/CHF even in a risk-off environment. A hold with hawkish guidance ('May is live') would be mildly bullish. A dovish hold would trigger the crowded AUD long unwind, with the pair falling 200-300 pips as AUD longs at the 100th percentile COT percentile liquidate simultaneously — the largest single downside catalyst in the 2-4 week window.",
+      "priced_in": "Partially",
+      "citations": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "date": "2026-03-18",
+      "event": "FOMC Meeting (SEP and Dot Plot)",
+      "expected_impact": "Bullish",
+      "which_leg_affected": "Both",
+      "rationale": "A dovish FOMC dot plot (2+ cuts signalled) weakens USD broadly, lifting AUD/USD (positive for pair) and potentially reducing the extreme safe-haven premium that has compressed AUD/CHF. A hawkish surprise (fewer cuts) strengthens USD, compressing AUD/USD while USD/CHF also rises — partially offsetting for the pair via both legs. The net pair impact of FOMC is transmitted through the vehicle currency channel, with AUD more sensitive than CHF to USD direction in the near term.",
+      "priced_in": "Partially",
+      "citations": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "event": "SNB Monetary Policy Assessment",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Quote",
+      "rationale": "This is the most important near-term catalyst for AUD/CHF's CHF leg. A hold at 0% with aggressive intervention language would temporarily weaken CHF, causing a 100-150 pip bounce in AUD/CHF. An unexpected cut to -0.25% would initially also weaken CHF (expanding differential to 410 bps) and is longer-term AUD/CHF bullish. The key risk is a hold with minimal intervention rhetoric that the market reads as SNB acquiescence to continued CHF strength — bearish AUD/CHF. The SNB's willingness and ability to intervene (CHF 712bn reserves, CHF 4.4bn deployed in week 1) versus US Treasury watchlist constraints creates genuine ambiguity.",
+      "priced_in": "Partially",
+      "citations": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "date": "2026-03-25",
+      "event": "ABS Monthly CPI (February data)",
+      "expected_impact": "Bullish",
+      "which_leg_affected": "Base",
+      "rationale": "A hot print at or above 3.7% (above consensus ~3.6%) reinforces the May RBA hike expectation, widening the bilateral rate differential further and catalysing the AUD leg upward. Directly positive for AUD/CHF even in the current risk-off environment because it increases the opportunity cost of holding zero-yield CHF against high-carry AUD. A soft print below 3.5% would be sharply bearish for AUD/CHF, accelerating the downside toward 0.5200 as RBA hike expectations deflate and the crowded AUD long unwinds.",
+      "priced_in": "Partially",
+      "citations": [
+        1,
+        2
+      ]
+    },
+    {
+      "date": "2026-03-31",
+      "event": "US-Swiss Trade Agreement Deadline",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Both",
+      "rationale": "Failure to complete the legally binding US-Swiss trade agreement could see Swiss tariffs revert from 15% to 39%, modestly CHF-negative (reduces Swiss export competitiveness) but the White House distraction from the Iran war increases the probability of delay or non-completion. A successful agreement is moderately CHF-positive. The net pair impact is ambiguous as AUD also faces concurrent US tariff uncertainty (15% goods, 50% steel/aluminium), meaning the relative tariff outcome for each currency determines the pair direction.",
+      "priced_in": "Not priced",
+      "citations": [
+        1,
+        2
+      ]
+    },
+    {
+      "date": "2026-04-01",
+      "event": "China NBS PMIs (March data)",
+      "expected_impact": "Bullish",
+      "which_leg_affected": "Base",
+      "rationale": "A recovery above 50.0 in manufacturing PMI (from 49.0 current) supports iron ore demand, commodity prices, and AUD's terms of trade. AUD holds a 60% correlation to CNY, meaning any positive China surprise directly supports AUD/CHF through the base currency channel. CHF is largely insensitive to China PMIs through the direct trade channel, making this a cleanly AUD-positive bilateral catalyst. A print below 48.0 confirming manufacturing contraction would be AUD/CHF bearish via the China/commodity channel.",
+      "priced_in": "Not priced",
+      "citations": [
+        1,
+        2
+      ]
+    },
+    {
+      "date": "2026-05-05",
+      "event": "RBA Meeting with May SoMP",
+      "expected_impact": "Bullish",
+      "which_leg_affected": "Base",
+      "rationale": "The May SoMP with updated forecasts is the single most important AUD event in the strategic window. If trimmed mean CPI remains above 3.5% through Q1, a hike to 4.10% is fully priced and the SoMP could upgrade the terminal rate toward 4.35% — directly widening the AUD/CHF differential by an additional 25 bp and catalysing a 150-250 pip AUD/CHF rally. This event marks the transition from Phase 1 (tactical bearish) to Phase 2 (strategic bullish reactivation) in the path expectation framework.",
+      "priced_in": "Partially",
+      "citations": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "event": "SNB June Monetary Policy Assessment",
+      "expected_impact": "Bullish",
+      "which_leg_affected": "Quote",
+      "rationale": "Capital Economics forecasts an SNB cut to -0.25% by June 2026. Realisation would widen the AUD/CHF bilateral differential to 410 bps and directly weaken CHF, generating the largest bilateral rate catalyst for AUD/CHF in the entire strategic horizon. Even the increased pricing of this probability (currently 15-20%) would add 100-150 pips to AUD/CHF before the event occurs. The combination of RBA at 4.10-4.35% and SNB at -0.25% would represent a historically extreme bilateral divergence that fundamentally reprices the pair's fair value anchor upward.",
+      "priced_in": "Not priced",
+      "citations": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "date": "2026-06-14",
+      "event": "Swiss Referendum: No to 10-Million Switzerland",
+      "expected_impact": "Bullish",
+      "which_leg_affected": "Quote",
+      "rationale": "Passage of the population cap referendum (48% polling in favour, ~33% probability) triggers the guillotine clause terminating all Swiss-EU bilateral agreements including Bilaterals III (signed March 2). This structural shock to the Swiss economy would be CHF-negative through the trade and investment channel, generating a 200-400 pip AUD/CHF rally on announcement. AUD is completely unaffected by Swiss domestic politics, making this a one-sided pair catalyst. This is the most underpriced binary event for AUD/CHF in the entire analysis window — essentially zero premium currently embedded in options prices for this tail risk.",
+      "priced_in": "Not priced",
+      "citations": [
+        1,
+        2
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "event": "RBA Meeting (June)",
+      "expected_impact": "Bullish",
+      "which_leg_affected": "Base",
+      "rationale": "If the May RBA hike is delivered and inflation remains elevated through Q1 2026, the June meeting becomes a live 4.35% event. A second consecutive hike would be a powerful AUD/CHF catalyst, widening the differential to 435 bps (or up to 460 bps if SNB also cuts to -0.25%). Markets are focused only on the May hike probability and have not priced the June sequential hike scenario — a 25 bp positive surprise generating an estimated 150-200 pip AUD/CHF rally that could accelerate Phase 3 of the strategic recovery toward 0.5800-0.6000.",
+      "priced_in": "Not priced",
+      "citations": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "invalidators": [
+    {
+      "condition": "AUD/USD closes below the 200-day SMA (0.6688) for 3+ consecutive trading sessions",
+      "new_stance": "Bearish AUD/CHF with full conviction",
+      "mechanism": "The entire AUD fundamental bull case — bullish MA stacking, uptrend structure, and risk-on positioning — would be invalidated. Removing the only structural tailwind against CHF's safe-haven bid eliminates the strategic bullish case and transforms the pair into a one-way bearish expression.",
+      "monitor_indicator": "AUD/USD daily close vs 200-day SMA at 0.6688",
+      "monitor_frequency": "Daily",
+      "probability_pct": 8
+    },
+    {
+      "condition": "CFTC AUD non-commercial net longs rise above +80,000 contracts (absolute crowding threshold)",
+      "new_stance": "Increases conviction in Bearish AUD/CHF",
+      "mechanism": "A historically extreme crowding level that has preceded 4-8% corrections in 10 of 10 historical instances since 2008. At this level, marginal buying is completely exhausted; any negative catalyst triggers a violent unwind that compounds through the CHF safe-haven leg simultaneously, amplifying pair downside to 4-8%.",
+      "monitor_indicator": "CFTC weekly COT report — AUD non-commercial net position",
+      "monitor_frequency": "Weekly (Friday release for Tuesday data)",
+      "probability_pct": 15
+    },
+    {
+      "condition": "Iron ore 62% Fe falls below $85/t for 2+ consecutive weeks",
+      "new_stance": "Bearish AUD/CHF strategically",
+      "mechanism": "Signals structural Chinese demand destruction exceeding the base case, compressing Australia's terms of trade and current account toward -3.5% to -4.0% of GDP while CHF's current account surplus remains intact at +7%. The bilateral external balance divergence widens further, removing the 'AUD supported by strong commodities' component of the bull case.",
+      "monitor_indicator": "SGX 62% Fe iron ore futures front month",
+      "monitor_frequency": "Daily",
+      "probability_pct": 15
+    },
+    {
+      "condition": "SNB total sight deposits rise by more than CHF 30bn in a single month",
+      "new_stance": "Bearish AUD/CHF tactically",
+      "mechanism": "This scale of intervention (comparable to 2020-2021 peak) represents genuine SNB commitment to capping CHF gains. It signals the SNB is willing to accept deteriorating fiscal conditions to prevent AUD/CHF recovery, and would effectively cap any pair bounce at 0.5500-0.5550. The intervention scale alone would attract momentum sellers reinforcing the bearish trend.",
+      "monitor_indicator": "SNB weekly sight deposits data",
+      "monitor_frequency": "Weekly (Monday release)",
+      "probability_pct": 30
+    },
+    {
+      "condition": "VIX sustains above 35 on closing basis for 5+ consecutive trading sessions",
+      "new_stance": "Bearish AUD/CHF with high conviction",
+      "mechanism": "Sustained elevated vol above 35 represents a regime shift where AUD's high beta (~0.7 to S&P 500, ~1.2-1.5x bilateral beta) becomes a compounding liability and carry trades face systematic liquidation across G10. CHF safe-haven demand would be entrenched, driving AUD/CHF toward the October 2025 low of 0.5139 and potentially below 0.5000 in an extreme scenario.",
+      "monitor_indicator": "CBOE VIX Index daily close",
+      "monitor_frequency": "Daily",
+      "probability_pct": 12
+    },
+    {
+      "condition": "AUD/CHF breaks above 0.5665 and sustains on a daily closing basis for 2+ consecutive sessions",
+      "new_stance": "Bullish AUD/CHF (flip from tactical bearish)",
+      "mechanism": "This level represents the upper boundary of the post-war descending channel and confirmation that the CHF safe-haven premium has largely dissipated. A sustained break above 0.5665 would confirm the carry trade has reactivated, invalidating the tactical bearish call and accelerating Phase 3 of the strategic recovery. Trend-following systems and CTAs would add long AUD/CHF on the break, generating self-reinforcing momentum toward 0.5800.",
+      "monitor_indicator": "AUD/CHF daily close",
+      "monitor_frequency": "Daily",
+      "probability_pct": 20
+    }
+  ],
+  "signposts": [
+    {
+      "indicator": "SNB Total Sight Deposits",
+      "current_level": "~CHF 448.5bn",
+      "confirms_if": "Below CHF 460bn (limited intervention, CHF safe-haven premium not being artificially forced lower — suggests natural de-escalation can drive AUD/CHF recovery)",
+      "invalidates_if": "Above CHF 480bn (massive intervention at CHF 30bn+ per month scale — SNB asserting genuine control, capping pair recovery at 0.5500-0.5550)",
+      "bilateral_importance": "The most direct measure of SNB intervention activity. For AUD/CHF specifically, sight deposit acceleration above CHF 30bn per month directly competes with the carry yield advantage that is the pair's fundamental bull case — it suppresses the very mechanism (CHF weakening) that makes the carry trade work. This indicator matters more for AUD/CHF than any other CHF cross because the carry differential is the pair's primary driver when safe-haven flows are absent.",
+      "source": "https://data.snb.ch/en/publishingSet/GWD",
+      "frequency": "Weekly (Monday)"
+    },
+    {
+      "indicator": "RBA Cash Rate OIS (6-month forward)",
+      "current_level": "~4.15-4.20%",
+      "confirms_if": "Rises above 4.25% — market pricing more RBA hikes than currently expected, widening AUD/CHF differential toward 425+ bps and confirming the bull case fundamental driver",
+      "invalidates_if": "Falls below 3.85% — market pricing rate reversal, removing the carry foundation entirely and transforming AUD/CHF from a carry long to a directional short",
+      "bilateral_importance": "AUD/CHF is unique in that it has the widest policy rate spread in G10. Every basis point of RBA terminal rate repricing matters more to this pair than any other AUD cross because CHF is the lowest-yielding anchor at zero. A 25 bp RBA upside surprise is worth approximately 100-150 pips in AUD/CHF — more than the equivalent move in AUD/NZD or AUD/CAD — because the carry amplification is at its maximum.",
+      "source": "https://www.rba.gov.au/statistics/cash-rate/",
+      "frequency": "Daily (OIS market)"
+    },
+    {
+      "indicator": "VIX Index",
+      "current_level": "22.8 (spiking to 35+ intraday)",
+      "confirms_if": "Settles below 18 sustained for 5+ consecutive sessions — risk-off headwind fades, carry regime resumes; pair historically recovers 200+ pips within 2 weeks of VIX sustained below 18 from elevated levels",
+      "invalidates_if": "Sustains above 30 on closing basis for 5+ sessions — sustained risk-off regime entrenched; AUD's high beta becomes compounding liability and CHF safe-haven demand becomes structural rather than transient",
+      "bilateral_importance": "AUD/CHF has the highest bilateral beta to VIX in G10 FX — the pair falls approximately 1.5% for every 5-point VIX increase, amplified by the dual-leg effect where AUD weakens and CHF strengthens simultaneously. No other G10 pair has this bilateral amplification structure because no other pair combines a maximum-beta risk currency (AUD) with a maximum-safe-haven currency (CHF) as the two components.",
+      "source": "https://www.cboe.com/tradable_products/vix/",
+      "frequency": "Real-time / daily close"
+    },
+    {
+      "indicator": "Gold Spot Price (XAU/USD)",
+      "current_level": "~$5,200/oz",
+      "confirms_if": "Falls below $4,500 — breaks the safe-haven channel and deflates the CHF premium that gold prices above $5,000 have been supporting; AUD/CHF would recover 200-300 pips rapidly on this signal as CHF gold correlation premium deflates",
+      "invalidates_if": "Sustains above $5,000 — CHF gold correlation channel active, maintaining the safe-haven premium in the pair and capping AUD/CHF recovery attempts below 0.5500",
+      "bilateral_importance": "Gold affects AUD/CHF asymmetrically in a way unique to this bilateral pair: CHF has approximately 25% export exposure to gold through Switzerland's dominant role as global gold refiner and trader, versus AUD's approximately 4% export exposure as a gold producer. This 6:1 asymmetry means gold above $5,000 is specifically and powerfully AUD/CHF bearish in a way that does not apply to other AUD or CHF crosses. Gold is thus more important as a signpost for AUD/CHF than for any other G10 pair.",
+      "source": "https://tradingeconomics.com/commodity/gold",
+      "frequency": "Continuous"
+    },
+    {
+      "indicator": "CFTC AUD Net Speculative Positioning (COT Index, 3Y)",
+      "current_level": "100th percentile (+67,762 contracts)",
+      "confirms_if": "Resets to 60th-70th percentile — healthy sustainable positioning level that allows fresh buying to re-enter and marks the transition from fragile (short-covering driven) to durable (fundamentals-driven) AUD strength",
+      "invalidates_if": "Net longs rise above +80,000 absolute contracts — historically definitive extreme that has preceded corrections in 10 of 10 instances since 2008, confirming accelerated downside for AUD/CHF",
+      "bilateral_importance": "AUD CFTC positioning at the 100th percentile is uniquely impactful for AUD/CHF because CHF is the pair where positioning resets are most violent — the carry trade unwind simultaneously involves selling AUD and buying CHF, compounding the directional move on both legs in the same direction. An unwind from 100th to 50th percentile in AUD longs, combined with CHF leveraged fund long additions, could generate a 400-500 pip AUD/CHF decline — the pair's largest sensitivity to this indicator relative to any other AUD cross.",
+      "source": "https://www.cftc.gov/dea/futures/financial_lf.htm",
+      "frequency": "Weekly (Friday)"
+    }
+  ],
+  "assumptions": [
+    "Spot rate of AUD/CHF 0.5444 is taken directly from the CHF dossier's explicitly stated AUD/CHF cross rate, not derived from AUD/USD (0.7063) divided by USD/CHF (0.7782) which would produce an inconsistent result (~0.9077). The CHF dossier's cross rate is treated as authoritative for pair-specific pricing.",
+    "AUD/CHF historical performance estimates (1M: -3.5%, 3M: +0%, 6M: +6%, 52-week range 0.4980-0.5800) are derived from the explicitly stated October 2025 trough of 0.5139 and January 2026 high of ~0.5800, combined with the stated ~6% decline from January peak and ~6% rally from October trough. These are approximations where direct AUD/CHF performance data was not available.",
+    "AUD/CHF implied volatility (~10.5-11.5% for 1M) is derived by combining component pair IVs (AUD/USD 11.5%, USD/CHF 9.5%) using the standard cross-currency formula with correlation adjustment. Uncertainty of approximately ±1.0 vol point around this estimate.",
+    "Forward points for AUD/CHF (1M: +17 bps, 3M: +53 bps, 6M: +106 bps) are calculated from the AUD-CHF policy rate differential (385 bps) applied to spot, as cross-pair specific forward point market data was not directly available. This approximation does not account for potential cross-currency basis swap differentials.",
+    "CFTC data for both AUD and CHF is as of the last available Tuesday report (approximately March 3, 2026); actual positioning on March 11 may differ by up to ±5,000 contracts per side given the volatile geopolitical environment in the intervening period.",
+    "RBC Capital Markets AUD/CHF long recommendation was issued in the 2026 FX Outlook (published December 2025/January 2026) before the Iran-US war commenced February 28, 2026. The tactical context has changed materially since publication; the recommendation is referenced for its strategic validity only.",
+    "PPP fair value estimates (AUD dossier: 0.66; CHF dossier implied: ~0.72) are structural reference points, not actionable targets. The persistent CHF overvaluation is treated as a structural feature rather than a mean-reverting signal given the chronic nature of CHF's valuation premium.",
+    "The Oxford Economics Iran conflict 'not beyond two months' timeline assumption is used as the base case for geopolitical de-escalation timing; actual resolution could extend significantly beyond this, materially delaying the Phase 2 strategic recovery."
+  ],
+  "complete_citations": [
+    {
+      "id": 1,
+      "title": "AUD/CHF Forecast 2026-2027",
+      "publisher": "ExchangeRates.org.uk",
+      "url": "https://www.exchangerates.org.uk/currency-forecasts/australian-dollar-to-swiss-franc-forecast",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 2,
+      "title": "RBC Capital Markets Currency Report Card & 2026 FX Trades",
+      "publisher": "RBC Capital Markets",
+      "url": "https://www.rbccm.com/assets/rbccm/docs/fx/currency-report-card.pdf",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 3,
+      "title": "2026 G10 FX Outlook in a Post-Peak USD World",
+      "publisher": "MUFG Research",
+      "url": "https://www.mufgresearch.com/fx/fx-focus-g10-fx-2026-outlook-in-a-post-peak-usd-world-19-december-2025/",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 4,
+      "title": "Monthly Foreign Exchange Outlook March 2026",
+      "publisher": "MUFG Research",
+      "url": "https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-march-2026/",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 5,
+      "title": "EUR/CHF and USD/CHF Price Forecast for 2026",
+      "publisher": "UBS via Investing.com",
+      "url": "https://www.investing.com/news/forex-news/eurchf-and-usdchf-price-forecast-for-2026-as-per-ubs-93CH-4416745",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 6,
+      "title": "AUDCHF Technical Analysis",
+      "publisher": "TradingView",
+      "url": "https://www.tradingview.com/symbols/AUDCHF/technicals/",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 7,
+      "title": "AUDCHF Chart and Rate",
+      "publisher": "TradingView",
+      "url": "https://www.tradingview.com/symbols/AUDCHF/",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 8,
+      "title": "Premium Watchlist Recap: Australia GDP Q4 2025",
+      "publisher": "BabyPips",
+      "url": "https://www.babypips.com/analysis/watchlist-recap-2026-03-06-forex-audchf-australia-q4-gdp",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 9,
+      "title": "AUD/CHF Pullback Setup Emerges Post-GDP",
+      "publisher": "BabyPips",
+      "url": "https://www.babypips.com/analysis/forex-update-audchf-pullback-opportunity-post-gdp-2026-03-04",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 10,
+      "title": "AUD/CHF Technical Analysis",
+      "publisher": "IFCMarkets",
+      "url": "https://www.ifcmarkets.com/en/technicals/forex-technical-analysis/audchf",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 11,
+      "title": "AUD/CHF Rate Signals and Technical Analysis",
+      "publisher": "FX Leaders",
+      "url": "https://www.fxleaders.com/live-rates/aud-chf/",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 12,
+      "title": "AUD/CHF Technical Analysis",
+      "publisher": "CentralCharts",
+      "url": "https://www.centralcharts.com/en/6716-aud-chf/analysis",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 13,
+      "title": "AUDCHF Technical Analysis",
+      "publisher": "Barchart.com",
+      "url": "https://www.barchart.com/forex/quotes/%5EAUDCHF/technical-analysis",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 14,
+      "title": "Switzerland–Australia Bilateral Relations",
+      "publisher": "Swiss Federal Department of Foreign Affairs",
+      "url": "https://www.eda.admin.ch/eda/en/fdfa/representations-and-travel-advice/australia/switzerland-australia.html",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 15,
+      "title": "Switzerland Country Brief",
+      "publisher": "DFAT Australia",
+      "url": "https://www.dfat.gov.au/geo/switzerland/switzerland-country-brief",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 16,
+      "title": "Switzerland Exports to Australia",
+      "publisher": "Trading Economics (UN COMTRADE)",
+      "url": "https://tradingeconomics.com/switzerland/exports/australia",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 17,
+      "title": "Australia Imports from Switzerland",
+      "publisher": "Trading Economics (UN COMTRADE)",
+      "url": "https://tradingeconomics.com/australia/imports/switzerland",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 18,
+      "title": "FX Options Insights 19/03/25",
+      "publisher": "Tickmill",
+      "url": "https://www.tickmill.com/blog/fx-optiosn-insights-190325",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 19,
+      "title": "AUD/CHF Ascending Channel Correction Levels",
+      "publisher": "BabyPips",
+      "url": "https://www.babypips.com/trading/chart-art-forex-audchf-ascending-channel-correction-2026-02-13",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 20,
+      "title": "AUD to USD Forecast 2026-2030",
+      "publisher": "XS.com",
+      "url": "https://www.xs.com/en/blog/aud-usd-forecast/",
+      "date_accessed": "2026-03-11"
+    }
+  ]
+}

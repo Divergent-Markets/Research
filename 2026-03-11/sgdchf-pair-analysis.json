@@ -1,0 +1,1453 @@
+{
+  "metadata": {
+    "pair": "SGDCHF",
+    "base_currency": "SGD",
+    "quote_currency": "CHF",
+    "valuation_date": "2026-03-11",
+    "framework_version": "2.0",
+    "base_dossier_date": "2026-03-11",
+    "quote_dossier_date": "2026-03-11"
+  },
+  "pair_convention": {
+    "spot_reference": "SGD/CHF 0.6095",
+    "spot_explanation": "SGD/CHF at 0.6095 means 1 Singapore Dollar buys 0.6095 Swiss Francs. A rising SGD/CHF rate means the Singapore Dollar is strengthening against the Swiss Franc (each SGD buys more CHF). A falling SGD/CHF rate means the Swiss Franc is strengthening against the Singapore Dollar (each SGD buys fewer CHF). The pair is quoted as the number of CHF per 1 SGD.",
+    "bullish_means": "pair RISES (SGD strengthens vs CHF)",
+    "bearish_means": "pair FALLS (CHF strengthens vs SGD)",
+    "base_dossier_tactical_stance": "Bullish SGD (tactical)",
+    "quote_dossier_tactical_stance": "Bullish CHF (tactical 3/5)"
+  },
+  "executive_summary": "SGD/CHF trades at approximately 0.6095 as of March 11, 2026, down roughly 8.2% over the past twelve months as the Swiss franc's acute safe-haven surge has decisively overwhelmed the Singapore dollar's strong structural appreciation story. The pair captures one of the most consequential bilateral tensions in G10+SGD FX: two structurally sound, low-inflation, surplus-running, AAA-rated currencies that simultaneously embody the global safe-haven trade (CHF) and the Asia-Pacific managed-appreciation trade (SGD). The dominant bilateral narrative is the Iran-US war's activation of CHF's maximum safe-haven premium, which is in direct conflict with SGD's semiconductor-driven growth outperformance and MAS appreciation slope. The key bilateral differential lies in the geopolitical premium channel — CHF is benefiting from the acute risk-off bid, gold's correlation, and the European-proximity safe-haven effect, while SGD is benefiting from Asia capital flows and structural inflows but faces oil terms-of-trade headwinds as a net importer. A critical bilateral framing insight confirmed by BofA Securities' research is the 'Swissification' of the SGD: the Singapore dollar has been displaying characteristics similar to the Swiss franc, with BofA describing this convergence as the 'Swissification' of the SGD, a reflection of how the currency has grown more defensive and stable during global risk-off periods. This peer relationship means the pair's moves are less about fundamental divergence and more about which safe-haven narrative dominates at any given moment. Our tactical stance is Bearish SGD/CHF (CHF strengthens relative to SGD; pair falls) at conviction 3/5, pivoting to Neutral strategically as Iran de-escalation removes CHF's geopolitical premium and both currencies' structural strengths reassert equilibrium near 0.60–0.63.",
+  "market_context": {
+    "spot": 0.6095,
+    "performance_1m": "-0.5%",
+    "performance_3m": "-3.5%",
+    "performance_6m": "-5.0%",
+    "performance_1y": "-8.2%",
+    "range_52w_low": 0.6046,
+    "range_52w_high": 0.6632,
+    "range_52w_percentile": 8,
+    "valuation_assessment": "From the dossier PPP estimates, the SGD-CHF PPP implied fair value for SGD/CHF is approximately 1/1.10 = ~0.91 SGD per CHF (or equivalently SGD/CHF PPP fair value ~0.91), compared to spot ~0.61. This implies SGD/CHF is trading at a substantial discount to PPP — SGD is deeply undervalued vs CHF on a PPP basis by approximately 33–50%. However, as both dossiers confirm, CHF PPP overvaluation is a permanent structural feature and not a mean-reverting signal. In nominal terms, the CHF reached a record high against the SGD in 2025. In real terms, however, the SGD's purchasing power relative to the franc has held steady, remaining near its 26-year average; the SGD's REER has appreciated 33% over that period, outpacing the Swiss franc's 20% rise. The pair sits near multi-decade lows in real terms for SGD relative to CHF, with the valuation signal cautionary for new CHF longs and ambiguous for SGD bulls.",
+    "positioning": {
+      "base_cftc_net": "No CFTC reportable positioning for SGD; MAS reserve accumulation of +US$18bn from August–December 2025 confirms persistent structural long-SGD flows from real-money and family office channels",
+      "base_cftc_percentile": 50,
+      "quote_cftc_net": "CHF leveraged funds net long +4,456 contracts; asset managers net short -54,527 contracts",
+      "quote_cftc_percentile": 55,
+      "net_pair_implication": "The bilateral positioning picture is unambiguously mixed: speculative flows favour CHF (leveraged long at +4,456 contracts), structural real-money flows favour SGD (reserve accumulation +US$18bn), with no CFTC leverage crowding in the SGD leg. The asset manager CHF short at -54,527 contracts creates significant potential short-covering fuel if CHF strengthens further.",
+      "crowding_assessment": "CHF speculative long building but not extreme (4,456 vs historical max ~30,000); SGD structural longs via reserve accumulation; modest CHF speculative crowding relative to historical extremes"
+    },
+    "pair_technicals": {
+      "trend_regime": "trending_down",
+      "support_levels": [
+        0.6046,
+        0.5965,
+        0.5814
+      ],
+      "resistance_levels": [
+        0.6177,
+        0.6197,
+        0.63,
+        0.6425
+      ],
+      "key_moving_averages": "50-day SMA ~0.6177 (above spot — bearish configuration); 200-day SMA ~0.6197 (above spot — bearish configuration); both moving averages are declining, confirming the downtrend is entrenched",
+      "chart_pattern": "Series of lower highs and lower lows since Q3 2025; proximity to multi-year low at 0.6046 creates a natural test level — break below would open door to 0.58–0.59; TradingView moving average composite shows strong sell signal",
+      "psychological_levels": [
+        0.6,
+        0.61,
+        0.62,
+        0.65
+      ]
+    },
+    "pair_volatility": {
+      "iv_1m": 8,
+      "iv_3m": 7.5,
+      "iv_percentile": 70,
+      "rv_1m": 3.6,
+      "rv_vs_iv": "Implied volatility (~8%) is significantly above realised volatility (~3.6% annualised based on 0.23% daily), suggesting the market is pricing substantial event and geopolitical risk premium into options, consistent with the Iran-war regime and SNB event risk",
+      "risk_reversals": "CHF-calls bid / SGD-puts bid (pair falls), consistent with asymmetric safe-haven demand overlay; risk reversals skewed toward CHF appreciation at both 1M and 3M tenors",
+      "vol_term_structure": "Mild backwardation, front-loaded by March 19 SNB event risk; the 1M IV elevated relative to 3M as near-term event uncertainty dominates",
+      "vol_regime": "Elevated / expanding — IV at ~7.5–8.5% vs pre-war norm of ~4.5–5.5%"
+    },
+    "recent_regime": "The pair has been in a persistent CHF-dominance regime since the Iran-US war launched February 28, accelerating an existing CHF appreciation trend. Prior to the war, both currencies were strengthening against USD but the pair was broadly range-bound near 0.62–0.64 as their structural similarities moderated directional pressure. The war has temporarily broken this correlation by activating CHF's geopolitical safe-haven channel more aggressively than SGD's regional safe-haven channel, with CHF reaching multi-decade highs versus SGD driven by gold above $5,200, EUR/CHF at its lowest since January 2015, and a persistent institutional bid for the franc.",
+    "citations": [
+      "https://coincodex.com/forex/sgd-chf/forecast/",
+      "https://www.exchange-rates.org/exchange-rate-history/sgd-chf-2026",
+      "https://www.tradingview.com/symbols/SGDCHF/",
+      "https://www.tradingview.com/symbols/SGDCHF/technicals/",
+      "https://finance.yahoo.com/quote/SGDCHF=X/"
+    ]
+  },
+  "bilateral_carry_analysis": {
+    "base_policy_rate": 0.82,
+    "quote_policy_rate": -0.07,
+    "rate_differential_bps": 89,
+    "annualised_carry_bps": 89,
+    "pair_3m_iv": 7.5,
+    "carry_to_vol_ratio": 0.11,
+    "carry_regime": "carry not compensating",
+    "breakeven_move": "SGD/CHF needs to move approximately -0.07% per month against the SGD long before carry is eroded; annual breakeven approximately -0.9% vs ~8% annual vol",
+    "forward_points": {
+      "1m": "+4 to +5 pips (SGD at slight forward premium vs CHF given positive carry differential)",
+      "3m": "+12 to +15 pips",
+      "6m": "+25 to +30 pips"
+    },
+    "carry_assessment": "SGD/CHF carry is determined by the differential between SORA (0.82%) and SARON (-0.07%), yielding a positive carry of approximately +89bps annualised in favour of SGD — one of the very few SGD crosses where holding long SGD earns positive carry. However, this positive carry is modest and historically insufficient to sustain long SGD/CHF positions when CHF's safe-haven bid is active. The carry-to-vol ratio of +0.11 is slightly positive but near zero, confirming this is a directional, not carry, pair. The pair's ~800bps annual vol far exceeds the ~89bps carry. This is a pure directional, safe-haven, and geopolitical premium trade. The SGD's MAS-managed appreciation slope (~2% pa) theoretically offsets the CHF rate differential and should make long SGD/CHF a positive-carry trade in the managed-appreciation sense. In practice, CHF's safe-haven premium overwhelms both in crisis regimes. The forward points are modestly positive for SGD across all tenors, reflecting the carry differential, but these are negligible relative to the potential directional moves driven by geopolitical risk and central bank policy."
+  },
+  "factors": [
+    {
+      "factor_number": 1,
+      "factor_name": "Policy & Rates (Relative)",
+      "tactical_weight_default": 0.24,
+      "tactical_weight_applied": 0.2,
+      "strategic_weight_default": 0.24,
+      "strategic_weight_applied": 0.2,
+      "weight_adjustment_reason": "Both currencies are near zero-rate floor; policy rate differential is minimal and not the primary driver for this specific pairing",
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 45,
+        "bilateral_analysis": "The bilateral rate picture for SGD/CHF is unusual because both currencies sit at the very bottom of the G10+SGD rate spectrum. The SGD policy instrument is the S$NEER band slope rather than an interest rate, while the SNB operates at exactly 0.00% policy rate. The SORA-SARON spread of approximately +89bps is positive for SGD (SORA at +0.82%, SARON at -0.07%), but this modest carry is the smallest positive in SGD's cross universe and provides negligible directional force. The March 19 SNB meeting creates binary event risk for the CHF leg: the market prices ~85% hold, ~15% cut to -0.25%. A SNB cut would be CHF-negative (pair rises), while an aggressive intervention commitment would be CHF-negative on the day before reversing. For the SGD leg, the March 18 FOMC hold and the April 14 MAS review are the key rates events; MAS's 47% tightening probability is positive for SGD but not specifically for SGD/CHF as both currencies are low-yield. The rate differential argument for this pair is muted — neither currency is a carry funding currency relative to the other in a meaningful sense. The critical rate interaction is the divergence in trajectory: MAS is potentially tightening (appreciation slope increase) while SNB is potentially cutting to negative; this trajectory divergence is modestly SGD-positive but dwarfed by the geopolitical flow overlay.",
+        "key_bilateral_metrics": [
+          "SORA: 0.82% vs SARON: -0.07% → bilateral spread: +89bps in SGD's favour",
+          "SNB meeting March 19: 85% hold / 15% cut; MAS meeting April 14: 53% hold / 47% tighten",
+          "SGS 10Y yield: 2.00% vs Swiss 10Y: 0.28% → SGD earns +172bps at 10Y over CHF",
+          "MAS band slope: ~+0.5% pa appreciation vs SNB: 0% nominal (but CHF appreciating in practice)",
+          "April probability-weighted MAS tightening signal: +47% probability of additional SGD strength catalyst"
+        ],
+        "what_is_priced": "The market prices both currencies near their respective policy floors, with neither rate differentials nor diverging trajectories fully driving daily SGD/CHF moves. The tactical edge is the SNB March 19 meeting — a hold with aggressive intervention language could produce a temporary CHF reversal of 100–150 pips in SGD/CHF (pair rises), while any surprise cut would be negative for CHF and positive for the pair.",
+        "citations": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 50,
+        "bilateral_analysis": "Over the strategic horizon, the rate trajectory diverges modestly in SGD's favour. MAS is likely to tighten (slope increase) at the April review or to deliver a hawkish hold, while the SNB is either on hold or cutting toward -0.25% by June (Capital Economics' base case). This creates a one-sided policy divergence — MAS tightening while SNB easing — that provides an incremental SGD/CHF tailwind. The forward curve already embeds some of this differential through the positive carry. The SGS-Swiss 10Y spread at +172bps is the widest among SGD's low-yield crosses and provides a structural term premium advantage for SGD over CHF at longer maturities. As the Fed eases, the USD leg of both currencies weakens uniformly, leaving the MAS-SNB bilateral policy divergence as the marginal driver. A scenario where MAS increases the slope (+1% pa appreciation to ~3% annualised) and the SNB cuts to -0.25% would widen the effective policy differential to approximately 350bps in SGD's favour — a meaningful shift that would support SGD/CHF above 0.62–0.63.",
+        "key_bilateral_metrics": [
+          "SNB rate path: hold at 0% or cut to -0.25% by June 2026",
+          "MAS path: 47% tighten (slope increase) at April; ~70% tighten by October",
+          "Effective policy divergence (if SNB cuts, MAS tightens): ~350bps shift in SGD's favour",
+          "SGS-Swiss 10Y spread: +172bps (SGD premium) — structural SGD advantage",
+          "SORA-SOFR spread narrowing: as Fed cuts, SORA's negative carry vs USD shrinks, modestly positive for SGD"
+        ],
+        "what_is_priced": "The forward curve prices approximately +27bps annualised in SGD's favour through the positive carry. The market does not adequately price the probability of simultaneous MAS tightening AND SNB easing — a bilateral event with ~25–30% probability that would be significantly positive for SGD/CHF.",
+        "citations": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          20,
+          22
+        ]
+      },
+      "horizon_split": "Tactical stance is Neutral because near-term event risk (SNB March 19, FOMC March 18) creates binary outcomes that could temporarily move SGD/CHF +/- 1.5% before the policy divergence trend reasserts. Strategic confidence steps up marginally because the policy trajectory becomes clearer over 3–6 months.",
+      "carry_analysis": {
+        "base_policy_rate": 0.82,
+        "quote_policy_rate": -0.07,
+        "rate_differential_bps": 89,
+        "annualised_carry_bps": 89,
+        "pair_3m_iv": 7.5,
+        "carry_to_vol_ratio": 0.11,
+        "carry_regime": "carry not compensating",
+        "breakeven_move": "SGD/CHF needs to move approximately -0.07% per month against the SGD long before carry is eroded",
+        "forward_points": {
+          "1m": "+4 to +5 pips (SGD at slight forward premium vs CHF given positive carry differential)",
+          "3m": "+12 to +15 pips",
+          "6m": "+25 to +30 pips"
+        },
+        "carry_assessment": "Carry is marginally positive for SGD but irrelevant as a driver — the pair's ~800bps annual vol far exceeds the ~89bps carry. This is a pure directional, safe-haven, and geopolitical premium trade. The SGD's MAS-managed appreciation slope (~2% pa) theoretically offsets the CHF rate differential and should make long SGD/CHF a positive-carry trade in the managed-appreciation sense. In practice, CHF's safe-haven premium overwhelms both in crisis regimes."
+      },
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 2,
+      "factor_name": "Inflation & Growth Dynamics",
+      "tactical_weight_default": 0.18,
+      "tactical_weight_applied": 0.18,
+      "strategic_weight_default": 0.1,
+      "strategic_weight_applied": 0.1,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 70,
+        "bilateral_analysis": "The growth-inflation differential between SGD and CHF is the starkest of any pair in the G10+SGD universe. Singapore grew 6.9% YoY in Q4 2025 with MAS Core Inflation at 1.0%; Switzerland grew 0.8% YoY with headline CPI at 0.1% — a growth differential of 610bps and an inflation differential confirming Singapore's structural dynamism. From a bilateral lens, the SGD economy is growing approximately 8–9x faster than Switzerland's, with a significantly better growth-inflation mix. Singapore's manufacturing PMI is at 50.6 (7th consecutive expansion month) while Switzerland's procure.ch PMI is at 47.4 (38th consecutive contraction month). This bilateral divergence is not transient — the semiconductor cycle driving Singapore's growth has no Swiss equivalent. Switzerland's economic fragility (manufacturing in contraction for 3+ years, rising unemployment, weak GDP) actually reduces SNB's ability to tolerate CHF strength, reinforcing the intervention argument. Tactically, the data flow continues to favour SGD: Singapore NODX releases due March 17 and Singapore CPI on March 23 will likely confirm the bullish growth-inflation narrative. Swiss data is unlikely to surprise positively in the near term given structural manufacturing headwinds.",
+        "key_bilateral_metrics": [
+          "GDP differential: SGD +6.9% YoY vs CHF +0.8% YoY = +610bps in SGD's favour",
+          "Core inflation differential: SGD +1.0% vs CHF +0.4% (SGD higher but both low — not a differentiator)",
+          "Manufacturing PMI: SGD 50.6 (expanding) vs CHF 47.4 (contracting, 38th month)",
+          "Electronics NODX: SGD +56.1% YoY (January 2026) — no Swiss equivalent",
+          "Unemployment: SGD 2.0% vs CHF 3.2% (SGD lower, tighter labour market)"
+        ],
+        "what_is_priced": "The growth differential is partially priced in SGD's appreciation versus the USD but is surprisingly poorly reflected in SGD/CHF, which is near multi-decade lows. The market is pricing CHF's safe-haven premium over SGD's superior growth — this represents the clearest fundamental mispricing in the pair.",
+        "citations": [
+          9,
+          10,
+          22,
+          23
+        ]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 65,
+        "bilateral_analysis": "The strategic growth outlook widens the bilateral differential further. WSTS projects 2026 global semiconductor revenue at USD 975.5 billion (+26.3% YoY), providing sustained tailwinds for Singapore's electronics-led growth through at least H1 2026. Switzerland's 2026 GDP consensus of ~1.0–1.1% remains well below Singapore's 3.6% consensus — a differential that has widened from already extreme levels. Swiss manufacturing is unlikely to recover materially until European final demand improves, which is deferred given the Iran-related energy cost shock for Switzerland's EU trading partners. Switzerland's one strategic advantage is its defensive sector mix (pharma, luxury goods) which provides some insulation from cyclical downturns, but this doesn't close the +250bps growth gap with Singapore. Switzerland's Q1 2026 GDP will capture the full war-period impact, with downside risk from manufacturing contraction and export headwinds. Singapore's Q1 GDP, due in April, is likely to exceed 4.0% YoY given January NODX data, extending the bilateral growth premium.",
+        "key_bilateral_metrics": [
+          "2026 GDP consensus: SGD 3.6% vs CHF 1.0–1.1% = ~+250bps differential",
+          "WSTS 2026 global semiconductor revenue: USD 975.5bn (+26.3% YoY)",
+          "Swiss manufacturing PMI: 47.4 — 38th consecutive contraction month",
+          "Singapore January NODX: +9.3% YoY; Electronics: +56.1% YoY",
+          "Swiss PMI input prices: 55.8 (cost-push, margin-compression risk)"
+        ],
+        "what_is_priced": "The structural growth gap is not adequately priced in SGD/CHF spot levels. If geopolitical safe-haven premia normalise and growth fundamentals drive the pair, fair value for SGD/CHF should be significantly above current levels, probably in the 0.64–0.68 range based on bilateral growth and external balance differentials.",
+        "citations": [
+          9,
+          10,
+          22,
+          23
+        ]
+      },
+      "horizon_split": "Both horizons are Bullish SGD on this factor; strategic confidence is slightly lower (65 vs 70) because over 6 months there is modest risk of semiconductor cycle peaking and Swiss GDP modestly improving from a very low base.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 3,
+      "factor_name": "Risk Appetite & Sentiment",
+      "tactical_weight_default": 0.1,
+      "tactical_weight_applied": 0.13,
+      "strategic_weight_default": 0.05,
+      "strategic_weight_applied": 0.07,
+      "weight_adjustment_reason": "SGD/CHF is a dual-safe-haven pair where risk appetite dominates the bilateral dynamic in the current Iran-war regime; elevated weight warranted",
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 70,
+        "bilateral_analysis": "This is the dominant factor driving SGD/CHF in the current regime. The pair's bilateral risk-appetite profile is complex: both currencies have safe-haven characteristics, but they respond differently across the risk spectrum. CHF is the global safe-haven — it performs best during any crisis regardless of geography, benefiting from gold correlation (+$5,200/oz), European proximity, and its absolute-lowest-rate profile. SGD is Asia's safe-haven — it attracts regional capital flight but historically weakened during acute global crises before 2020, and has shown more recently improved performance during stress. During past crises such as the global financial crisis and the early stages of the COVID-19 shock, SGD typically weakened. But more recent data show that it increasingly appreciates or stabilises in risk-off environments, with USD/SGD risk-reversal pricing now aligning more closely with USD/CHF. However, during the current Iran war with VIX at 23–25 and gold above $5,200, CHF's safe-haven bid is categorically stronger than SGD's. The Nikkei's 5%+ drop and KOSPI's 12% crash confirm that Asian equities are under acute stress — and while Singapore is a relative Asian safe-haven, the regional equity stress channel creates negative sentiment overlay for SGD. CHF benefits from European safe-haven demand channelled through the EUR/CHF corridor (EUR/CHF at 0.9023, lowest since January 2015), while SGD benefits more modestly from Gulf-to-Asia capital flows. Net: CHF's safe-haven premium exceeds SGD's safe-haven premium in the current acute risk-off environment.",
+        "key_bilateral_metrics": [
+          "VIX: 23–25 (peaked 35.3 on March 9; currently ~75th percentile)",
+          "Gold: $5,200/oz (CHF correlation channel at maximum activation)",
+          "EUR/CHF: 0.9023 (lowest since January 2015) — CHF safe-haven structurally bid",
+          "CHF/JPY: 203.59 (near all-time high — CHF outperforming even JPY)",
+          "Nikkei: -5%+, KOSPI: -12% during crisis week (Asia regional equity stress, SGD headwind)"
+        ],
+        "what_is_priced": "The market prices CHF's safe-haven premium at approximately 300–400 pips in USD/CHF relative to pre-war levels, and SGD's regional safe-haven at approximately 80–100 pips in USD/SGD. The bilateral SGD/CHF therefore reflects a net ~200–300 pip CHF premium. Any de-escalation signal would close this gap quickly.",
+        "citations": [
+          3,
+          4,
+          8,
+          9,
+          10,
+          21
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "bilateral_analysis": "Over 6 months, the base case is Iran conflict de-escalation removing CHF's peak safe-haven premium, while both currencies' structural safe-haven characteristics persist at baseline levels. Singapore's portfolio flows have become less tied to global risk cycles, and in some cases counter-cyclical. BofA adds that Singapore's disciplined policy framework, large foreign asset base, and steady external position have enhanced its currency's defensive characteristics. Strategically, as both currencies converge toward their structural safe-haven equilibrium, this factor becomes neutral for the pair. However, the June 14 Swiss referendum creates a binary CHF-negative tail risk (31–35% probability) that could weaken CHF and push SGD/CHF higher. If the Iran war persists through Q2 without resolution, CHF maintains its premium and this factor stays Bearish SGD/CHF.",
+        "key_bilateral_metrics": [
+          "Iran de-escalation base case timeline: 2 months (Oxford Economics)",
+          "Gold forecast (UBS): $6,200/oz H1 2026 — if realised, maintains CHF bid",
+          "June 14 referendum: 48% polling for passage (CHF-negative tail risk)",
+          "SGD REER appreciation: +33% over 26 years vs CHF +20% — structural SGD real-terms outperformance"
+        ],
+        "what_is_priced": "A moderate geopolitical risk premium in CHF (~100–150 pips of residual war premium in USD/CHF by the 3M tenor) is priced. If the conflict ends, this unwinds, providing 100–200 pip SGD/CHF upside. If it persists, the market underestimates CHF's capacity to push 400+ pips lower in USD/CHF.",
+        "citations": [
+          3,
+          4,
+          8,
+          9,
+          10,
+          21
+        ]
+      },
+      "horizon_split": "Tactical stance is Bearish SGD/CHF because CHF's safe-haven premium is at maximum activation in the current crisis environment. Strategic reverts to Neutral as geopolitical premiums dissipate under the base case de-escalation scenario and the two currencies' structural similarities reassert equilibrium.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 4,
+      "factor_name": "Flows & Positioning",
+      "tactical_weight_default": 0.1,
+      "tactical_weight_applied": 0.1,
+      "strategic_weight_default": 0.06,
+      "strategic_weight_applied": 0.06,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 55,
+        "bilateral_analysis": "The bilateral flow picture creates a modest net negative for SGD/CHF. On the CHF side, the CFTC positioning shift (leveraged funds flipped from net short to net long +4,456 contracts), FXF ETF inflows of +$147.68M over 3 months, and SNB sight deposit rise of CHF 4.4bn in the first post-war week all confirm institutional demand for CHF is elevated. On the SGD side, MAS reserve accumulation of +US$18bn over 5 months and the S$NEER trading in the upper half of the appreciating band confirm persistent real-money SGD demand. The bilateral netting produces a slight CHF advantage: the speculative positioning shift (CHF futures) has no SGD equivalent, while SGD's structural real-money flows are stickier and slower-moving. The CHF short-covering potential is significant — the asset manager net short at -54,527 contracts represents a massive fuel tank for further CHF appreciation if forced to cover. The correlation between USD/SGD and USD/CHF has risen steadily over the past 25 years; BofA's analysis shows that speculative futures positioning in CHF closely tracks movements in USD/SGD, suggesting that global investor behaviour now affects both. This creates a bilateral flow correlation that could reinforce rather than offset moves: when CHF futures see large speculative flows, SGD-related flows tend to follow in the same direction.",
+        "key_bilateral_metrics": [
+          "CHF leveraged fund net position: +4,456 long (rapidly building from short)",
+          "CHF asset manager net: -54,527 short (massive short-covering potential = CHF upside fuel)",
+          "MAS reserves: US$409bn (+US$18bn over 5 months) — persistent SGD real-money demand",
+          "SNB sight deposits: CHF 4.4bn rise first post-war week (active intervention selling CHF)",
+          "FXF ETF 3M inflows: +$147.68M (institutional CHF demand)"
+        ],
+        "what_is_priced": "The CHF positioning shift is partially priced in USD/CHF's decline. The SGD flows are largely structural and priced through USD/SGD. The bilateral SGD/CHF reflects the net, but the short-covering potential in CHF futures creates an asymmetric tail if war escalates.",
+        "citations": [
+          9,
+          10,
+          14
+        ]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 50,
+        "bilateral_analysis": "Over 6 months, the flow picture gradually shifts in SGD's favour. The structural real-money flows into Singapore (family offices, wealth management, trade surplus recycling) are persistent and growing — they do not reverse with geopolitical normalisation. CHF's current flow surge is predominantly safe-haven/war-driven and will moderate as the geopolitical premium dissipates. The bilateral trend from the past 25 years — SGD's REER rising faster than CHF's REER by 13% — suggests that secular flow drivers favour SGD over CHF. The incremental catalyst is the EQDP equity market development programme in Singapore (S$1.5bn additional in Budget 2026) and the continued growth in family office AUM, which will systematically generate SGD demand over the strategic horizon.",
+        "key_bilateral_metrics": [
+          "Singapore family offices: 2,000+ (10x increase from 2020) managing S$90bn+",
+          "EQDP programme: S$1.5bn additional allocation in Budget 2026",
+          "CHF leveraged fund max historical long: ~+30K (current 4.5K = moderate level)",
+          "SGD MAS reserve growth: +US$18bn over 5 months (persistent structural bid)"
+        ],
+        "what_is_priced": "The safe-haven flow premium into CHF is priced at current spot levels. The structural SGD inflow story is underweighted relative to the acute CHF safe-haven demand narrative.",
+        "citations": [
+          9,
+          10,
+          14
+        ]
+      },
+      "horizon_split": "Tactical is Bearish SGD/CHF (CHF flow momentum exceeds SGD flow momentum in crisis) while strategic reverts to slightly Bullish SGD/CHF (structural SGD inflows persist, CHF safe-haven premium fades). The inflection point is Iran de-escalation triggering leveraged CHF long unwind.",
+      "carry_analysis": null,
+      "contrarian_analysis": {
+        "tactical": {
+          "combined_positioning_signal": "CHF longs building (leveraged +4,456) vs SGD structural real-money longs (no CFTC equivalent); net CHF speculative long is the positioning extreme for this pair",
+          "unwind_trigger": "Credible Iran ceasefire or de-escalation framework triggering rapid leveraged fund CHF long liquidation across the board",
+          "historical_analogue": "January 2015 EUR/CHF unwind in reverse — the rapid safe-haven entry into CHF creates the mirror risk of an equally rapid exit on peace news",
+          "contrarian_case": "With leveraged funds at only +4,456 contracts vs a historical extreme of +30,000, the CHF long position is nowhere near an extreme that would typically trigger a contrarian reversal. The short-covering fuel from the -54,527 asset manager short is the more relevant contrarian risk — if asset managers begin covering, the CHF appreciation could accelerate dramatically before reversing, making contrarian CHF shorts premature at this stage. Monitor SNB sight deposits weekly: if they rise CHF 10bn/week, SNB is overwhelmingly the flow driver and intervention effectiveness becomes the contrarian catalyst."
+        },
+        "strategic": {
+          "combined_positioning_signal": "Safe-haven CHF longs moderate as geopolitical premium fades; structural SGD real-money longs reassert as dominant flow",
+          "unwind_trigger": "Iran war resolution or June 14 Swiss referendum passage triggering structural CHF reassessment",
+          "historical_analogue": "Post-COVID CHF safe-haven premium unwind in 2021 — EUR/CHF recovered from 1.06 to 1.12 within 3 months of vaccine rollout, providing the template for post-Iran-war CHF reversal",
+          "contrarian_case": "The strategic contrarian scenario is a sustained CHF appreciation regime driven by continued gold strength and war persistence. If gold reaches $6,200 (UBS H1 forecast), CHF's gold correlation channel provides a persistent bid that no SGD flow can easily offset. Probability-weighted contrarian risk is ~25–30%, representing a meaningful tail that must be respected in position sizing. Investors who established CHF longs at the onset of the war face increasingly poor risk/reward as the position grows crowded relative to the potential peace-dividend unwind."
+        }
+      },
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 5,
+      "factor_name": "External Balance & Terms of Trade",
+      "tactical_weight_default": 0.06,
+      "tactical_weight_applied": 0.06,
+      "strategic_weight_default": 0.16,
+      "strategic_weight_applied": 0.16,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "bilateral_analysis": "Both currencies are running large current account surpluses — Singapore at ~18% of GDP and Switzerland at ~7% of GDP. The net surplus advantage is overwhelmingly SGD's: Singapore's surplus is more than double Switzerland's as a share of GDP. However, the terms-of-trade impact of the Iran-US oil shock creates an asymmetric near-term headwind for SGD. Singapore is a net oil importer (processes ~1.4mn bbl/day at Jurong Island) while Switzerland imports energy but has minimal oil-refining exposure. The Brent price surge from ~$65 at end-2025 to ~$88 currently has a direct adverse impact on Singapore's import bill and a minimal direct impact on Switzerland's. Switzerland's near-absence of commodity trade means the oil shock is a net negative for SGD's terms of trade relative to CHF's. The partial offset is Singapore's surging refining margins (~$30/bbl), but the net terms-of-trade impact remains slightly negative for SGD vs CHF. The balanced assessment is that the current oil+gold environment is mildly bearish SGD/CHF while the semiconductor tailwind is the strategic bullish counterweight.",
+        "key_bilateral_metrics": [
+          "Singapore CA surplus: ~18% of GDP ($131.96bn full-year 2025)",
+          "Switzerland CA surplus: ~7% of GDP",
+          "Brent crude: ~$88/bbl (Singapore terms-of-trade headwind; CHF minimal impact)",
+          "Singapore refining margins: ~$30/bbl (partial offset)",
+          "Gold: $5,200/oz (Swiss gold exports ~25% of total; CHF positive)"
+        ],
+        "what_is_priced": "The oil terms-of-trade headwind for SGD is modestly priced. Gold's impact on CHF is partially priced through the broader CHF safe-haven bid. The semiconductor cycle's positive impact on SGD's external balance is underpriced at current SGD/CHF levels.",
+        "citations": [
+          9,
+          10,
+          16,
+          17,
+          18
+        ]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 65,
+        "bilateral_analysis": "Over 6 months, the external balance factor shifts decisively in SGD's favour. The oil headwind for Singapore is expected to dissipate as the Iran conflict de-escalates (Brent normalises to $70–80 by Q3 2026 under the base case). Singapore's semiconductor export surge (+56.1% electronics NODX YoY) has no seasonal mean-reversion risk — WSTS projections for 2026 global semiconductor revenue of $975.5bn confirm the structural growth of this external balance contributor. Switzerland's current account surplus is durable but structurally declining at the margin as strong CHF compresses export competitiveness — the procure.ch PMI at 47.4 (38th month of contraction) reflects exactly this dynamic. Switzerland's gold export windfall at $5,200/oz is a tailwind but is offset by the gold-related CHF strength that further hurts Swiss manufacturer competitiveness. The 18% vs 7% surplus differential remains the most fundamental bilateral metric — it represents approximately $100bn/year in additional net SGD demand versus CHF demand, creating a structural gravitational force for SGD appreciation vs CHF over time.",
+        "key_bilateral_metrics": [
+          "Bilateral surplus differential: Singapore 18% GDP vs Switzerland 7% GDP = +11pp in SGD's favour",
+          "WSTS 2026 semiconductor forecast: $975.5bn (+26.3%) = sustained NODX tailwind",
+          "Oil normalisation by Q3 2026 (EIA forecast): removes SGD terms-of-trade headwind",
+          "Swiss manufacturing PMI: 47.4 (CHF strength suppressing exports — structural headwind)",
+          "Switzerland's US tariff situation: 15% (reduced from 39%) — modestly positive for Swiss exports"
+        ],
+        "what_is_priced": "The market significantly underprices the 18% vs 7% surplus differential as a driver of SGD/CHF over the strategic horizon. This is the single strongest fundamental argument for SGD/CHF being undervalued at 0.61.",
+        "citations": [
+          9,
+          10,
+          16,
+          17,
+          18
+        ]
+      },
+      "horizon_split": "Tactical Neutral because the oil terms-of-trade headwind and gold tailwind for CHF partially offset the structural SGD surplus advantage in the near term. Strategic Bullish SGD because the oil headwind dissipates and the semiconductor export boom persists, while the 11pp current account surplus differential is the dominant long-run driver.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": {
+        "base_commodity_profile": "SGD: net oil importer (processes ~1.4mn bbl/day at Jurong Island); strongly positive semiconductors/electronics (56.1% NODX YoY); refining margins ~$30/bbl partial offset to oil cost; no gold export exposure",
+        "quote_commodity_profile": "CHF: minimal direct oil exposure; gold strongly positive (Swiss gold exports ~25% of total exports by value; SNB holds gold reserves); energy importer but very low intensity; no semiconductor exposure",
+        "net_effect_calculation": "Step 1 — Oil up $10: SGD mildly negative (net importer, import bill rises); CHF minimal impact (very low energy import intensity) → Net: modest bearish SGD/CHF. Step 2 — Gold up 10%: CHF positive (Swiss gold export windfall, safe-haven correlation amplified); SGD minimal → Net: bearish SGD/CHF on gold rally. Step 3 — Semiconductors/tech up: SGD strongly positive (56% electronics NODX growth, no seasonal ceiling); CHF minimal → Net: bullish SGD/CHF on AI/chip cycle continuation. Step 4 — Current environment (oil $88, gold $5,200, semis booming): oil headwind approximately -0.5% for SGD/CHF, gold tailwind for CHF approximately -0.8% for SGD/CHF, semiconductor boom approximately +1.5% for SGD/CHF. Net current commodity impact: approximately -0.8% net CHF advantage, partially offset by semiconductor structural tailwind. The balanced assessment is that oil+gold environment is mildly bearish SGD/CHF in the near term while the semiconductor tailwind is the dominant strategic bullish counterweight.",
+        "scenario_oil_up_10pct": "Brent rises from $88 to ~$97: modestly bearish SGD/CHF (Singapore import bill rises, refining margins compress net of higher feedstock; CHF unaffected); estimated SGD/CHF impact: -20 to -30 pips net",
+        "scenario_oil_down_10pct": "Brent falls from $88 to ~$79: modestly bullish SGD/CHF (Singapore import cost relief; simultaneously signals Iran de-escalation reducing CHF safe-haven bid); estimated SGD/CHF impact: +50 to +100 pips (amplified by geopolitical channel)",
+        "dominant_commodity_driver": "Gold is the dominant commodity driver for this pair — uniquely relevant for CHF (25% of Swiss exports by value, SNB reserves, safe-haven correlation) with no SGD equivalent, making gold price level a clean bilateral discriminator for CHF premium vs SGD. Oil is the secondary driver (asymmetric bilateral impact) while semiconductors are the long-run structural SGD positive."
+      },
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 6,
+      "factor_name": "Guidance & Credibility",
+      "tactical_weight_default": 0.07,
+      "tactical_weight_applied": 0.07,
+      "strategic_weight_default": 0.12,
+      "strategic_weight_applied": 0.12,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 65,
+        "bilateral_analysis": "The guidance divergence is starkly bearish for SGD/CHF in the near term. The SNB has delivered two unsolicited intervention warnings in 10 days (March 2 and March 4) — an escalation of communication intensity unprecedented since 2020. The SNB's approach of maximising verbal firepower before March 19 creates a ceiling on further CHF strength in the very near term as the market processes the intervention threat. However, historically SNB verbal intervention has slowed rather than reversed appreciation trends, making this a tactical buffer rather than a structural reversal catalyst. On the MAS side, the January 29 MPS was hawkish (upgraded inflation forecast, flagged upside risks, positioned for April tightening), which is positive for SGD directionally. However, the MAS is managing the S$NEER against a basket, not bilateral SGD/CHF specifically — its guidance doesn't directly address this pair. The net bilateral guidance signal favours CHF in the near term because the SNB's aggressive intervention rhetoric creates more near-term upward pressure on CHF (market fears actual intervention) than MAS's measured hawkishness creates for SGD.",
+        "key_bilateral_metrics": [
+          "SNB March 2 unsolicited statement: 'increasingly prepared to intervene'",
+          "SNB VP Martin March 4: 'willingness to intervene has risen'",
+          "SNB sight deposits: +CHF 4.4bn first post-war week (actual intervention evidence)",
+          "MAS January 29 MPS: hawkish hold, upgraded core inflation forecast to 1.0–2.0%",
+          "April MAS tightening probability: 47.4% (near coin-flip bullish catalyst for SGD)"
+        ],
+        "what_is_priced": "The SNB's intervention rhetoric is partially priced — USD/CHF has paused near the 0.76 level rather than plunging below. The MAS hawkish tilt is partially priced through the 47% tightening probability. If the SNB actually deploys significant reserves on March 19 (CHF 10bn in a week), USD/CHF could bounce 100–200 pips, pushing SGD/CHF higher.",
+        "citations": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "bilateral_analysis": "Over 6 months, the bilateral guidance picture becomes more balanced. The SNB's intervention capacity is enormous (CHF 712bn foreign reserves) but constrained by exchange rate losses (CHF 53.1bn in 2025) and the US Treasury watch list. The SNB can sustain intervention but at diminishing effectiveness — historical evidence from 2020–2022 shows that large-scale SNB intervention creates temporary pauses in CHF appreciation rather than sustained reversals. MAS's April MPS is the pivotal event: a slope increase (47% probability) would be a one-way SGD-positive signal that would push SGD/CHF back toward the 0.63–0.65 range. If MAS tightens while SNB eases, the bilateral guidance divergence would be clearly SGD-positive and the SGD/CHF bear case for CHF would strengthen considerably.",
+        "key_bilateral_metrics": [
+          "SNB reserves: CHF 712bn (100% GDP) — intervention capacity enormous",
+          "SNB 2025 exchange rate losses: CHF 53.1bn (political constraint on sustained intervention)",
+          "MAS April review: 47% tightening probability — binary SGD-positive catalyst",
+          "MAS track record: 44 years of managed float — highest credibility in pair"
+        ],
+        "what_is_priced": "The market prices the SNB as a temporary brake, not a reversal catalyst — historically correct. The MAS tightening probability is approximately priced at 47%. The strategic edge is in the bilateral divergence scenario: MAS tightening + SNB easing simultaneously is underpriced and would push SGD/CHF significantly higher.",
+        "citations": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          22
+        ]
+      },
+      "horizon_split": "Tactical is Bearish SGD/CHF because SNB's intervention rhetoric is at maximum intensity. Strategic reverts to Neutral because SNB's effectiveness diminishes over 6 months and MAS has a meaningful probability of tightening that would offset CHF strength.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 7,
+      "factor_name": "Event Risk & Geopolitics",
+      "tactical_weight_default": 0.05,
+      "tactical_weight_applied": 0.05,
+      "strategic_weight_default": 0.05,
+      "strategic_weight_applied": 0.05,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 65,
+        "bilateral_analysis": "The Iran-US war dominates bilateral event risk. The pair's specific exposure is through two distinct channels: (1) Oil price channel — Singapore is acutely exposed as Asia's refining hub and net energy importer, while Switzerland has minimal direct oil exposure; (2) European proximity / safe-haven channel — Switzerland's geographic and economic ties to Europe mean Middle East instability channels safe-haven capital to CHF via the EUR/CHF corridor. The Strait of Hormuz disruption risk is asymmetric for this pair — a sustained closure would be significantly more negative for Singapore (energy import cost spike) than for Switzerland. The March 17–19 Super Week clusters six central bank decisions, with the SNB meeting being the most bilateral-relevant event. The US Section 122 tariff (10%) applies to both Swiss and Singaporean goods but semiconductors are exempted — limiting direct impact on SGD's key export driver. Switzerland's bilateral political risk (June 14 referendum) adds a CHF-negative tail event specific to the CHF leg, not present for SGD.",
+        "key_bilateral_metrics": [
+          "Iran-US war: bilateral transmission differential — SGD exposed through oil; CHF benefits from safe-haven",
+          "March 19 SNB: most bilateral-relevant near-term event",
+          "Strait of Hormuz: potential closure SGD-negative (oil importer) vs CHF-minimal",
+          "June 14 Swiss referendum: 48% polling yes — CHF-negative tail risk (bilateral impact)",
+          "Section 122 tariff: 10% on both, semiconductors exempted — minimal bilateral differential"
+        ],
+        "what_is_priced": "Geopolitical risk premium is priced into both currencies — CHF as safe-haven beneficiary, SGD as terms-of-trade victim. The June 14 referendum is barely priced and represents the most underpriced bilateral event risk.",
+        "citations": [
+          16,
+          17,
+          18,
+          19,
+          21
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "bilateral_analysis": "Over 6 months, the Iran war premium dissipates under the base case, eliminating the primary driver of the current CHF dominance over SGD dynamic. The June 14 Swiss referendum emerges as the dominant bilateral event risk — if the No to 10-Million Switzerland initiative passes (48% polling in favour), the guillotine clause terminates all EU bilateral agreements. This would be structurally negative for CHF over the medium term (loss of EU market access, capital flight risk) and could provide a 200–400 pip SGD/CHF recovery trigger. Singapore has no equivalent domestic political event risk. In recognition of the growing importance of digital trade and to deepen bilateral relations, the EFTA States and Singapore signed a Digital Economy Agreement on September 25, 2025 — a modest positive for bilateral Switzerland-Singapore economic ties but not a direct FX driver. Switzerland has placed particular emphasis on the Future of Investment and Trade Partnership alongside Singapore, New Zealand, and the UAE.",
+        "key_bilateral_metrics": [
+          "Iran base case resolution timeline: 2 months (Oxford Economics)",
+          "June 14 referendum passage probability: ~33–35%",
+          "SGD domestic political risk: negligible (PAP government, PM Wong)",
+          "Bilateral economic relationship: free trade agreement since 2003; Digital Economy Agreement signed 2025"
+        ],
+        "what_is_priced": "The strategic event picture is approximately fairly priced for geopolitical risk. The June 14 referendum is significantly underpriced — at 33–35% probability of passage, it represents a meaningful but uncaptured bilateral CHF-negative risk.",
+        "citations": [
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      "horizon_split": "Tactical Bearish SGD (Iran war acute bilateral impact, SNB March 19) shifting to Neutral strategically as war premium fades and the underpriced CHF-negative referendum risk partially offsets the residual geopolitical premium.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 8,
+      "factor_name": "Fiscal & Sovereign Risk",
+      "tactical_weight_default": 0.04,
+      "tactical_weight_applied": 0.04,
+      "strategic_weight_default": 0.07,
+      "strategic_weight_applied": 0.07,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 80,
+        "bilateral_analysis": "Both Singapore and Switzerland hold AAA ratings from all major agencies and represent the two strongest sovereign credit profiles in the G10+SGD benchmarking set. Singapore's combined sovereign assets exceed US$1.1 trillion (~200% of GDP) while Switzerland's federal debt is only ~16% of GDP with constitutional debt brake. The bilateral fiscal comparison is essentially between two perfect AAA credits — there is no meaningful differential to trade on. Both Singapore and Switzerland hold AAA sovereign credit ratings, large net international investment positions (NIIP), and are recognised global financial hubs. The bilateral fiscal similarity is confirmed by both currencies being identified simultaneously as safe-haven assets. No acute fiscal event is relevant to either currency in the near term.",
+        "key_bilateral_metrics": [
+          "Singapore sovereign rating: AAA (S&P, Moody's, Fitch) — all stable",
+          "Switzerland sovereign rating: AAA (stable, all five agencies)",
+          "Singapore combined sovereign assets: US$1.1 trillion (~200% of GDP)",
+          "Switzerland federal debt: ~16% of GDP; general government: ~38%"
+        ],
+        "what_is_priced": "Fully priced. Both currencies trade at rock-bottom yields reflecting pristine sovereign credit. No bilateral edge from this factor.",
+        "citations": [
+          9,
+          10,
+          22,
+          23
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 80,
+        "bilateral_analysis": "Same as tactical. The AAA + massive sovereign wealth bilateral pairing means this factor is neutral for SGD/CHF across all horizons. Both countries' fiscal positions are time-invariant strengths that provide structural floors under both currencies but no directional signal for the pair. Neither country runs structural fiscal deficits, neither faces meaningful sovereign risk premium widening, and neither is constrained in its monetary policy by fiscal concerns. This bilateral equivalence is one reason SGD/CHF trades at such low volatility relative to pairs involving fiscally weaker currencies — both floors are solid and the pair moves primarily on relative safe-haven demand and growth differentials, not credit risk.",
+        "key_bilateral_metrics": [
+          "Singapore sovereign rating: AAA (S&P, Moody's, Fitch) — all stable",
+          "Switzerland sovereign rating: AAA (stable, all five agencies)",
+          "Singapore combined sovereign assets: US$1.1 trillion (~200% of GDP)",
+          "Switzerland federal debt: ~16% of GDP — constitutional debt brake in force"
+        ],
+        "what_is_priced": "Fully priced. Both currencies maintain pristine AAA credit across all horizons. No bilateral edge or directional signal from this factor at any time horizon.",
+        "citations": [
+          9,
+          10,
+          22,
+          23
+        ]
+      },
+      "horizon_split": "Both horizons Neutral; structural floor for both currencies but no bilateral edge. The AAA equivalence is a time-invariant feature of this pair.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 9,
+      "factor_name": "Market Structure & Volatility",
+      "tactical_weight_default": 0.05,
+      "tactical_weight_applied": 0.07,
+      "strategic_weight_default": 0.03,
+      "strategic_weight_applied": 0.03,
+      "weight_adjustment_reason": "Proximity to multi-year technical lows makes market structure a more important signal for entry/risk management than in typical pairs",
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 65,
+        "bilateral_analysis": "The SGD/CHF chart is bearishly configured across all timeframes. The current SGD/CHF rate trades below the 50-day SMA (~0.6177) and the 200-day SMA (~0.6197). Both moving averages are declining, confirming the downtrend is entrenched. The moving average composite rating for SGD/CHF is 'strong sell.' The pair's 52-week high was 0.6632 (March 2025), and the current level of ~0.6095 represents a decline of approximately 8% — approaching the January 29, 2026 low of 0.6046 which is the critical near-term support. The RSI on SGD/CHF is estimated at approximately 32–36 (approaching oversold territory), consistent with the CoinCodex 14-day RSI reading of 35.52. The pair is thin and illiquid, which amplifies technical moves in both directions — breakdowns below 0.6046 could see rapid acceleration to 0.5950–0.5980 with minimal intermediate support. The momentum composite (TradingView 1-week and 1-month ratings both show sell signals) confirms continued directional pressure lower.",
+        "key_bilateral_metrics": [
+          "SGD/CHF spot: ~0.6095 (March 11, 2026)",
+          "50-day SMA: ~0.6177 (above spot — bearish)",
+          "200-day SMA: ~0.6197 (above spot — bearish)",
+          "52-week high: 0.6632 (March 2025); 52-week low: 0.6046 (January 2026)",
+          "RSI: ~35–36 (approaching oversold, not yet extreme)"
+        ],
+        "what_is_priced": "The downtrend is priced and well-known. The RSI approaching oversold territory on the daily creates a modest countertrend bounce risk — a pause in the decline rather than a reversal. A weekly close below 0.6046 would confirm the next leg lower; a close above 0.6200 would signal trend exhaustion.",
+        "citations": [
+          1,
+          4,
+          5,
+          11,
+          12,
+          24
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 45,
+        "bilateral_analysis": "Strategically, the RSI's approach to oversold territory and the proximity to multi-year lows in SGD/CHF creates an attractive risk/reward for a contrarian long-SGD/CHF position in the 0.59–0.61 range. The 52-week low of 0.6046 is a critical technical support that, if it holds, would establish a double-bottom formation and support recovery toward 0.6300–0.6400. The structural SGD appreciation trend (USD/SGD declining consistently) eventually reasserts vs the CHF after safe-haven premium fades. The 200-day SMA at ~0.6197 is the first meaningful recovery target. CoinCodex's 2026 SGD/CHF forecast anticipates a range of 0.5814 to 0.6145, with an average annual price near 0.5978. This algorithmic forecast captures the bear case but likely underweights the scenario of Iran resolution and SGD fundamental reassertion.",
+        "key_bilateral_metrics": [
+          "0.6046 = January 29, 2026 52-week low (critical support)",
+          "Double-bottom formation if 0.6046 holds (bullish reversal pattern)",
+          "0.6197 = 200-day SMA (recovery target)",
+          "0.6400–0.6450 = major strategic resistance",
+          "RSI ~35 — approaching oversold threshold that historically precedes multi-week bounces"
+        ],
+        "what_is_priced": "The bear trend is well priced. The strategic edge is in the asymmetric risk/reward: buying SGD/CHF near 0.60–0.61 with a tight stop at 0.5900 offers approximately 3:1 risk/reward to the 0.6400 strategic recovery target.",
+        "citations": [
+          1,
+          4,
+          5,
+          11,
+          12,
+          24
+        ]
+      },
+      "horizon_split": "Tactical Bearish SGD/CHF (trend is down, momentum is down, RSI not yet oversold). Strategic shifting toward Neutral/Bullish SGD because proximity to multi-year lows, improving risk/reward, and structural SGD fundamentals create an attractive contrarian long entry in the 0.59–0.61 range.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": {
+        "vol_landscape_summary": "SGD/CHF is thinly traded with estimated 1M IV ~7.5–8.5%, elevated relative to the pre-war norm of ~4.5–5.5%. Realised vol at ~3.6% annualised (0.23% daily) sits well below implied vol, suggesting a significant variance risk premium and expensive options. The vol regime is elevated/expanding, driven by Iran war event risk and SNB meeting uncertainty.",
+        "directional_expression": "For tactical bearish view: spot short SGD/CHF with stop above 0.6200 and target 0.5950–0.5980 is the cleanest expression. Synthetic alternatives via legs (short USD/SGD + long USD/CHF bounce) offer better execution given SGD/CHF's thin liquidity. For strategic bullish view: long SGD/CHF near 0.59–0.61 with stop at 0.5900, target 0.6400–0.6500. Given elevated IV, buying outright options is expensive; selling SGD/CHF risk reversals (buying CHF calls / selling CHF puts) is more capital-efficient for expressing tactical CHF upside.",
+        "event_timing_consideration": "March 19 SNB meeting is the primary near-term event — positions should be sized to withstand 100–200 pip intraday swings on that date. April 14 MAS review is the primary strategic catalyst — long SGD/CHF positions entered near 0.60–0.61 should be held through this event as a MAS tightening would be the strongest bilateral catalyst for recovery. June 14 Swiss referendum is the most underpriced tail event — a small long SGD/CHF option position through June 14 offers asymmetric payoff.",
+        "liquidity_note": "SGD/CHF is a thinly traded cross with bid-ask spreads wider than for USD/CHF or USD/SGD. Daily liquidity is significantly lower than EUR/CHF or USD/CHF. Large positions are best executed synthetically via USD legs (USD/SGD + USD/CHF) for better price discovery. SNB intervention can create sudden liquidity gaps, particularly around the 0.6046 support level where stops may cluster."
+      }
+    },
+    {
+      "factor_number": 10,
+      "factor_name": "USD Liquidity & Funding",
+      "tactical_weight_default": 0.11,
+      "tactical_weight_applied": 0.11,
+      "strategic_weight_default": 0.12,
+      "strategic_weight_applied": 0.12,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "bilateral_analysis": "The USD liquidity channel operates similarly on both currencies in the current regime. Both SGD and CHF appreciate vs USD when dollar conditions ease — and both have been appreciating as the DXY declined from 104+ to ~97.9. The bilateral SGD/CHF impact of USD liquidity is therefore approximately neutral: when USD weakens, both currencies strengthen broadly, with the bilateral cross determined by the relative pace. The current DXY at ~97.9 implies USD liquidity conditions are already accommodative, partially priced for both currencies. The FOMC March 18 decision is the key near-term event — a dovish hold would weaken USD and provide incremental support for both SGD and CHF, with the net bilateral effect depending on which currency has higher USD beta. CHF's USD beta has been higher during the current geopolitical crisis (USD/CHF fell further than USD/SGD), suggesting USD weakness is currently more CHF-positive than SGD-positive. This is a transient war-period dynamic rather than a structural feature. Cross-currency basis for SGD/CHF directly is not publicly available; the pair is typically synthesised via USD legs (USD/SGD + USD/CHF), meaning the cross-currency basis is approximately the difference of the two USD bases — estimated near zero given both are well-funded currencies.",
+        "key_bilateral_metrics": [
+          "DXY: ~97.9 (both currencies benefit from USD weakness)",
+          "USD/CHF 1Y performance: -11.8% (CHF stronger); USD/SGD 1Y performance: -5.2% (SGD stronger)",
+          "CHF USD beta (last 3 months): ~1.4x (higher than SGD's ~1.0x in crisis regime)",
+          "SOFR: 3.65% (stable, no funding stress)"
+        ],
+        "what_is_priced": "USD weakness is largely priced. The bilateral SGD/CHF neutral stance on this factor reflects the fact that both currencies benefit approximately equally from further USD easing, with CHF having slightly higher beta in the current crisis regime.",
+        "citations": [
+          2,
+          6,
+          20,
+          22
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "bilateral_analysis": "Strategically, the USD liquidity channel becomes more neutral for SGD/CHF as the crisis beta of CHF normalises. Post-de-escalation, CHF's USD beta should revert from ~1.4x toward its long-run average of ~1.0–1.1x, converging toward SGD's beta. As the Fed delivers 1–2 cuts by September 2026, both currencies benefit uniformly from USD weakness, producing no net pair effect. The one structural difference is that SGD's MAS-managed appreciation slope creates an additional ~2% pa of appreciation vs USD that CHF does not have via policy mechanism — this means the 6M forward-implied SGD/CHF has a modest upward bias embedded in it from the MAS slope alone. Over time, this creates a slight structural tailwind for SGD vs CHF through the USD funding channel.",
+        "key_bilateral_metrics": [
+          "Both currencies: structural USD-negative bias as DXY declines to 95–98 target",
+          "CHF crisis beta: ~1.4x (reverts to ~1.0–1.1x on de-escalation)",
+          "MAS appreciation slope: ~2% pa additional SGD appreciation vs USD (structural SGD tailwind)",
+          "Fed rate path (projected): -25 to -50bp by September 2026 (both currencies benefit)"
+        ],
+        "what_is_priced": "Approximately fairly priced. No significant bilateral edge from this factor in either direction.",
+        "citations": [
+          2,
+          6,
+          20,
+          22
+        ]
+      },
+      "horizon_split": "Both horizons Neutral. USD liquidity creates approximately symmetric benefits for both currencies. The CHF's higher crisis beta creates a tactical mild negative for SGD/CHF (CHF benefits more from USD weakness in risk-off) that reverts to neutral strategically.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    }
+  ],
+  "synthesis": {
+    "weight_adjustments": {
+      "adjustments_made": true,
+      "adjustments": [
+        {
+          "factor_number": 1,
+          "factor_name": "Policy & Rates",
+          "default_weight": 0.24,
+          "applied_weight": 0.2,
+          "reason": "Both currencies are near zero-rate floor; policy rate differential is minimal and not the primary driver for this specific pairing"
+        },
+        {
+          "factor_number": 3,
+          "factor_name": "Risk Appetite & Sentiment",
+          "default_weight": 0.1,
+          "applied_weight": 0.13,
+          "reason": "SGD/CHF is a dual-safe-haven pair where risk appetite dominates the bilateral dynamic in the current Iran-war regime; elevated weight warranted (tactical); strategic default 0.05 raised to 0.07 for same reason"
+        },
+        {
+          "factor_number": 9,
+          "factor_name": "Market Structure & Volatility",
+          "default_weight": 0.05,
+          "applied_weight": 0.07,
+          "reason": "Proximity to multi-year technical lows makes market structure a more important signal for entry/risk management than in typical pairs (tactical only; strategic remains at 0.03)"
+        }
+      ]
+    },
+    "tactical": {
+      "net_stance": "Bearish",
+      "conviction": 3,
+      "overall_confidence": 58,
+      "weighted_score_calculation": [
+        {
+          "factor_number": 1,
+          "factor_name": "Policy & Rates",
+          "stance_score": 0,
+          "confidence": 45,
+          "conf_adj_score": 0,
+          "weight": 0.2,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 2,
+          "factor_name": "Inflation & Growth Dynamics",
+          "stance_score": 1,
+          "confidence": 70,
+          "conf_adj_score": 0.7,
+          "weight": 0.18,
+          "weighted_contribution": 0.126
+        },
+        {
+          "factor_number": 3,
+          "factor_name": "Risk Appetite & Sentiment",
+          "stance_score": -1,
+          "confidence": 70,
+          "conf_adj_score": -0.7,
+          "weight": 0.13,
+          "weighted_contribution": -0.091
+        },
+        {
+          "factor_number": 4,
+          "factor_name": "Flows & Positioning",
+          "stance_score": -0.5,
+          "confidence": 55,
+          "conf_adj_score": -0.275,
+          "weight": 0.1,
+          "weighted_contribution": -0.028
+        },
+        {
+          "factor_number": 5,
+          "factor_name": "External Balance & Terms of Trade",
+          "stance_score": 0,
+          "confidence": 55,
+          "conf_adj_score": 0,
+          "weight": 0.06,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 6,
+          "factor_name": "Guidance & Credibility",
+          "stance_score": -1,
+          "confidence": 65,
+          "conf_adj_score": -0.65,
+          "weight": 0.07,
+          "weighted_contribution": -0.046
+        },
+        {
+          "factor_number": 7,
+          "factor_name": "Event Risk & Geopolitics",
+          "stance_score": -0.5,
+          "confidence": 65,
+          "conf_adj_score": -0.325,
+          "weight": 0.05,
+          "weighted_contribution": -0.016
+        },
+        {
+          "factor_number": 8,
+          "factor_name": "Fiscal & Sovereign Risk",
+          "stance_score": 0,
+          "confidence": 80,
+          "conf_adj_score": 0,
+          "weight": 0.04,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 9,
+          "factor_name": "Market Structure & Volatility",
+          "stance_score": -1,
+          "confidence": 65,
+          "conf_adj_score": -0.65,
+          "weight": 0.07,
+          "weighted_contribution": -0.046
+        },
+        {
+          "factor_number": 10,
+          "factor_name": "USD Liquidity & Funding",
+          "stance_score": 0,
+          "confidence": 50,
+          "conf_adj_score": 0,
+          "weight": 0.11,
+          "weighted_contribution": 0
+        }
+      ],
+      "net_weighted_score": -0.101,
+      "score_interpretation": "Net score of -0.101 on a -1 to +1 scale indicates a moderate bearish lean for SGD/CHF (CHF strengthens vs SGD). The score maps to conviction 3/5 — above the 0.05 threshold for directional bias but below the 0.25 threshold for 4/5 conviction. The two dominant offsetting forces — SGD's growth advantage (+0.126) vs CHF's safe-haven and intervention premium (-0.137) — produce a net signal that CHF narrowly wins tactically but by a thin margin.",
+      "rationale": "The tactical bear case for SGD/CHF is dominated by the bilateral safe-haven asymmetry (Factor 3, -0.091) and the SNB's credibility-driven intervention threat (Factor 6, -0.046). Together these two factors contribute -0.137 to the net score — more than fully offsetting SGD's exceptional growth advantage (+0.126). The core bilateral tension is that Singapore's 5–7% GDP growth premium over Switzerland is simply overwhelmed by CHF's activated safe-haven mechanism during the Iran-US war: gold above $5,200, VIX near 25, and EUR/CHF at the lowest level since January 2015 create a CHF bid that MAS's managed float cannot counteract at the bilateral level. The positioning dynamic adds a modest bearish bias: CHF futures see speculative long builds while SGD has no CFTC-reportable positioning, creating asymmetric short-covering pressure on CHF. Importantly, the market is correctly pricing CHF over SGD in the near term through the safe-haven channel, but likely overpricing the sustainability of the geopolitical premium over 2–4 weeks. The Inflation and Growth factor (+0.126) represents the strongest bilateral counter-argument: a 610bps GDP differential and the semiconductor cycle divergence from Swiss manufacturing contraction should, in a fundamental world, support much higher SGD/CHF. But fundamentals don't win against safe-haven flows in the 2–4 week tactical window when geopolitical risk is elevated. The path of least resistance for the pair is a test of the 0.6046 January low — if that breaks, the next support cluster is near 0.5950–0.5980. Conviction is 3/5 because the directional view is clear but conviction is capped by: (a) SGD's superior fundamentals creating a natural SGD/CHF floor, and (b) the SNB's March 19 intervention commitment potentially creating a temporary CHF reversal. The market structure factor (-0.046) confirms the technical trend is down, with both moving averages above spot and momentum indicators showing sell signals across timeframes. The flows factor (-0.028) adds incremental CHF-positive bias through the speculative positioning build, though the modest magnitude reflects that CHF longs at +4,456 contracts are far from the historical extreme of +30,000 that would trigger a contrarian reversal. The external balance (0.00) and fiscal (0.00) factors are correctly neutral — both currencies run surpluses and maintain AAA ratings, creating no near-term directional signal on these dimensions. The USD liquidity factor (0.00) neutrally reflects that both currencies benefit approximately equally from dollar weakness, with CHF's slightly higher USD beta creating no sustained bilateral advantage.",
+      "g10_relative_ranking": "Among SGD crosses: SGD/CHF is the weakest SGD expression — CHF is the only G10 currency where SGD's structural strengths are comprehensively overridden by a competing safe-haven narrative. Among CHF crosses: SGD is the CHF short expression with the most fundamental case for eventual reversal; pure-commodity crosses (AUD/CHF, CAD/CHF) are better carry expressions tactically but SGD/CHF offers the most compelling valuation argument strategically. RBC Capital Markets identified long AUD/CHF as a top 2026 trade, recommending a long AUD/CHF position for the full year, citing bullish carry trade conditions — SGD/CHF long would be a lower-carry but higher-fundamental-quality version of the same CHF-short theme.",
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "pair_target": "SGD/CHF 0.5980–0.6100",
+          "timeframe": "2–4 weeks",
+          "conditions": [
+            "SNB holds on March 19 with intervention rhetoric but no actual massive reserve deployment",
+            "Iran conflict stabilises without further escalation beyond current levels",
+            "FOMC holds on March 18 with balanced guidance"
+          ],
+          "path": "SGD/CHF probes the 0.6046 January low within 1–2 weeks, driven by residual CHF safe-haven demand and pre-SNB positioning. The March 19 SNB meeting creates a natural event inflection — a hold with intervention language produces a 1–2 day temporary CHF pullback (SGD/CHF bounce to 0.6100–0.6150) before resuming the grind lower. Pair consolidates in 0.5980–0.6100 range through end of March."
+        },
+        "upside_case": {
+          "probability_pct": 20,
+          "pair_target": "SGD/CHF 0.6200–0.6300",
+          "conditions": [
+            "Iran ceasefire formally announced",
+            "VIX falls below 20 on de-escalation",
+            "SNB delivers surprise rate cut to -0.25% (paradoxically bearish CHF short-term)"
+          ]
+        },
+        "downside_case": {
+          "probability_pct": 30,
+          "pair_target": "SGD/CHF 0.5900–0.5950",
+          "conditions": [
+            "Strait of Hormuz partial or full closure announced",
+            "Gold rises above $5,500 sustaining CHF bid",
+            "VIX spikes back above 30"
+          ]
+        }
+      },
+      "path_expectation": "SGD/CHF is expected to probe the 0.6046 January low within the next 1–2 weeks, driven by residual CHF safe-haven demand and the pre-SNB meeting positioning. The March 19 SNB meeting creates a natural event inflection — a hold with intervention language would produce a 1–2 day temporary CHF pullback (SGD/CHF bounce to 0.6100–0.6150) before resuming the grind lower. If no break of 0.6046 occurs before the SNB, the market will test it immediately after if the SNB disappoints intervention expectations. Volatility will be elevated through March 19, with daily ranges of 80–120 pips likely on the event days. Outside of event windows, MAS smoothing will compress SGD/CHF ranges to 30–50 pips. The asymmetric probability weighting — 30% for downside vs 20% for upside — reflects the geopolitical risk environment favouring CHF in the near term, with the downside scenario producing a larger absolute move than the upside given the liquidity vacuum below 0.6046.",
+      "conviction_ladder": {
+        "current": 3,
+        "increase_conditions": [
+          "SGD/CHF breaks and closes below 0.6046 on volume, and gold sustains above $5,500",
+          "SNB holds on March 19 with weak intervention language allowing CHF to accelerate lower"
+        ],
+        "decrease_conditions": [
+          "Iran ceasefire credibly announced with VIX falling below 20",
+          "MAS tightens at April review, adding direct SGD-positive catalyst that overrides war premium"
+        ]
+      },
+      "risk_reward": {
+        "base_case_payoff": "-115 pips / -1.9% (SGD/CHF to 0.5980 from 0.6095)",
+        "downside_case_loss": "+105 pips / +1.7% (SGD/CHF to 0.6200 from 0.6095)",
+        "risk_reward_ratio": "1.12:1",
+        "expected_value": "(50% × -115 pips) + (20% × +105 pips) + (30% × -200 pips) = -57.5 + 21 + (-60) = -96.5 pips (slightly favourable for short SGD/CHF)",
+        "asymmetry_assessment": "The downside scenario (CHF accelerates) produces a larger absolute move than the upside (SGD recovers), making the probability-adjusted EV moderately favourable for the CHF long / SGD short position in the near term. Distribution is negatively skewed from SGD's perspective."
+      }
+    },
+    "strategic": {
+      "net_stance": "Neutral",
+      "conviction": 2,
+      "overall_confidence": 52,
+      "weighted_score_calculation": [
+        {
+          "factor_number": 1,
+          "factor_name": "Policy & Rates",
+          "stance_score": 0.5,
+          "confidence": 50,
+          "conf_adj_score": 0.25,
+          "weight": 0.2,
+          "weighted_contribution": 0.05
+        },
+        {
+          "factor_number": 2,
+          "factor_name": "Inflation & Growth Dynamics",
+          "stance_score": 1,
+          "confidence": 65,
+          "conf_adj_score": 0.65,
+          "weight": 0.1,
+          "weighted_contribution": 0.065
+        },
+        {
+          "factor_number": 3,
+          "factor_name": "Risk Appetite & Sentiment",
+          "stance_score": 0,
+          "confidence": 50,
+          "conf_adj_score": 0,
+          "weight": 0.07,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 4,
+          "factor_name": "Flows & Positioning",
+          "stance_score": 0.5,
+          "confidence": 50,
+          "conf_adj_score": 0.25,
+          "weight": 0.06,
+          "weighted_contribution": 0.015
+        },
+        {
+          "factor_number": 5,
+          "factor_name": "External Balance & Terms of Trade",
+          "stance_score": 1,
+          "confidence": 65,
+          "conf_adj_score": 0.65,
+          "weight": 0.16,
+          "weighted_contribution": 0.104
+        },
+        {
+          "factor_number": 6,
+          "factor_name": "Guidance & Credibility",
+          "stance_score": 0,
+          "confidence": 50,
+          "conf_adj_score": 0,
+          "weight": 0.12,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 7,
+          "factor_name": "Event Risk & Geopolitics",
+          "stance_score": 0,
+          "confidence": 50,
+          "conf_adj_score": 0,
+          "weight": 0.05,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 8,
+          "factor_name": "Fiscal & Sovereign Risk",
+          "stance_score": 0,
+          "confidence": 80,
+          "conf_adj_score": 0,
+          "weight": 0.07,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 9,
+          "factor_name": "Market Structure & Volatility",
+          "stance_score": 0,
+          "confidence": 45,
+          "conf_adj_score": 0,
+          "weight": 0.03,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 10,
+          "factor_name": "USD Liquidity & Funding",
+          "stance_score": 0,
+          "confidence": 55,
+          "conf_adj_score": 0,
+          "weight": 0.12,
+          "weighted_contribution": 0
+        }
+      ],
+      "net_weighted_score": 0.234,
+      "score_interpretation": "Net score of +0.234 on a -1 to +1 scale indicates a moderate bullish lean for SGD (pair rises) over 6 months. This represents a significant swing from the tactical score (-0.101) to the strategic score (+0.234) — a 335bps reversal driven primarily by the geopolitical premium fading (Factor 3 from -0.091 to 0), SNB intervention losing effectiveness (Factor 6 from -0.046 to 0), and the external balance factor stepping up to 0.16 weight (+0.104 contribution). The score maps to conviction 2/5 due to wide outcome distribution from Iran war uncertainty.",
+      "rationale": "The strategic bull case for SGD/CHF rests on three pillars that together overcome CHF's structural safe-haven advantages. First, external balance dominance — the 18% vs 7% current account surplus differential is the most powerful long-run fundamental for this pair; a ~$100bn/year differential in net currency demand is ultimately the gravitational force pulling SGD/CHF higher over 3–6 months as the geopolitical premium fades. This factor contributes +0.104 at the 0.16 strategic weight — the largest single contributor. Second, growth differential persistence — Singapore's 610bps GDP premium over Switzerland is the widest in this pairing's recorded history and is expected to persist through H1 2026 on the semiconductor cycle; +0.065 contribution at 0.10 weight confirms this is the second-largest driver. Third, policy trajectory divergence — MAS is likely to tighten while SNB holds or eases, creating a widening bilateral policy divergence that modestly adds +0.050 to the score. The standalone CHF dossier's strategic conviction is only 2/5, with the SGD dossier at 4/5 — the bilateral combination therefore creates a moderate SGD edge strategically. The key strategic uncertainty is the Iran war's duration and its gold correlation impact on CHF. If gold sustains above $5,500 and the war persists through Q2, the strategic factors that favour SGD are overwhelmed for longer. Conviction is only 2/5 because the binary war outcome creates wide scenario dispersion — the strategic bull case for SGD/CHF is strongly conditioned on de-escalation occurring within the next 6–8 weeks. The forward-looking key catalyst is the April MAS review: a MAS tightening would provide an unambiguous SGD-positive signal and shift strategic conviction to 3/5. The Guidance and Credibility factor moves to neutral strategically (0.00 contribution) because SNB intervention effectiveness diminishes over 6 months, removing the tactical CHF-positive drag. The flows factor turns modestly positive (+0.015) as structural SGD real-money inflows from Singapore's growing family office sector and trade surplus recycling reassert over the fading safe-haven CHF flows. Importantly, the BofA 'Swissification' analysis highlights that SGD's higher yield and lower volatility due to MAS's trade-weighted exchange rate band system have supported its performance over the longer term — a factor that compounds in SGD's favour and is underweighted in consensus models.",
+      "g10_relative_ranking": "Among SGD longs strategically, SGD/CHF is less attractive than USD/SGD short or SGD/JPY long because of CHF's structural safe-haven properties that are absent in USD or JPY. Among CHF shorts strategically, SGD/CHF is the highest-quality short-CHF expression given Singapore's superior fundamentals, but AUD/CHF carries a better risk/reward due to AUD's higher beta and carry. SGD/CHF ranks approximately 4th among SGD crosses (behind USD/SGD short, AUD/SGD short, and SGD/JPY long) and 3rd–4th among CHF short expressions (behind AUD/CHF and EUR/CHF, but comparable to GBP/CHF in strategic appeal).",
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "pair_target": "SGD/CHF 0.6200–0.6350",
+          "timeframe": "3–6 months (by September 2026)",
+          "conditions": [
+            "Iran de-escalation by April–May 2026 removing peak CHF safe-haven premium",
+            "MAS tightens at April review OR delivers hawkish hold signalling appreciation slope increase",
+            "SNB holds at 0% with declining intervention intensity as CHF appreciation slows",
+            "June 14 Swiss referendum fails (65% base case probability)"
+          ],
+          "path": "SGD/CHF follows a U-shaped path — the pair likely retests and potentially briefly breaks the 0.6046 low in the near term during peak geopolitical stress, establishing a tactical low in the 0.5950–0.6050 range. The path then reverses sharply as the Iran conflict de-escalates, producing a 200–400 pip recovery over 2–4 weeks post-ceasefire. By Q3 2026, the combination of MAS tightening expectations, fading CHF safe-haven premium, and structural SGD surplus flows pushes SGD/CHF back toward 0.6200–0.6300."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "pair_target": "SGD/CHF 0.6400–0.6500",
+          "conditions": [
+            "MAS delivers slope increase of +1% pa at April review",
+            "SNB cuts to -0.25% by June and June 14 referendum fails",
+            "Semiconductor cycle extends through H2 2026 sustaining NODX growth above +20%"
+          ]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "pair_target": "SGD/CHF 0.5700–0.5900",
+          "conditions": [
+            "Iran war persists through H2 2026 without resolution",
+            "Gold rises above $6,000 sustaining CHF gold-correlation bid",
+            "June 14 Swiss referendum passes triggering EU bilateral termination and CHF capital dynamics"
+          ]
+        }
+      },
+      "path_expectation": "The strategic path for SGD/CHF is U-shaped: the pair likely retests and potentially briefly breaks the 0.6046 low in the near term during peak geopolitical stress, establishing a tactical low in the 0.5950–0.6050 range. The path then reverses sharply as the Iran conflict de-escalates — probably a 200–400 pip recovery over 2–4 weeks post-ceasefire. By Q3 2026, the combination of MAS tightening expectations, fading CHF safe-haven premium, and structural SGD surplus flows should push SGD/CHF back toward 0.6200–0.6300. The recovery is likely to be faster than the decline because the CHF safe-haven premium unwinds rapidly on de-escalation while SGD's structural appreciation is gradual. Traders should expect high volatility in the 0.59–0.62 range through April, followed by a more orderly recovery in May–September as the fundamental drivers of the 18% vs 7% surplus differential and the semiconductor growth premium reassert themselves as the dominant bilateral forces.",
+      "conviction_ladder": {
+        "current": 2,
+        "increase_conditions": [
+          "Iran ceasefire formally announced and SGD/CHF holds above 0.5900 on any spike",
+          "MAS tightens at April 14 review with slope increase confirmed in MPS language"
+        ],
+        "decrease_conditions": [
+          "Iran war persists beyond June 2026 with gold above $5,800",
+          "June 14 Swiss referendum passes, triggering EU bilateral termination and structural CHF repricing"
+        ]
+      },
+      "risk_reward": {
+        "base_case_payoff": "+180 pips / +2.96% (SGD/CHF to 0.6275 from 0.6095)",
+        "downside_case_loss": "-245 pips / -4.0% (SGD/CHF to 0.5850 from 0.6095)",
+        "risk_reward_ratio": "0.73:1",
+        "expected_value": "(50% × +180) + (25% × +405) + (25% × -245) = +90 + 101.25 - 61.25 = +130 pips (positive probability-weighted EV)",
+        "asymmetry_assessment": "Raw pip risk/reward is unfavourable at 0.73:1 but probability-weighted EV is positive (+130 pips) because the upside scenario (de-escalation + MAS tighten) produces a larger move than the downside. Position sizing must respect the wide confidence interval and binary war outcome."
+      }
+    },
+    "consensus_divergence": {
+      "bank_consensus_forecast": "Derived consensus: DBS projects USD/SGD at 1.24 by September 2026; CHF consensus targets USD/CHF ~0.76–0.79 by year-end, implying SGD/CHF approximately 0.62–0.65 by September 2026. Algorithmic end-of-2026 forecast for CHF/SGD at approximately S$1.61 implies SGD/CHF near 0.621.",
+      "our_tactical_view": "SGD/CHF falling to 0.5950–0.6046 over 2–4 weeks (Bearish, conviction 3/5)",
+      "our_strategic_view": "SGD/CHF recovering to 0.6200–0.6350 by September 2026 (Neutral with SGD lean, conviction 2/5)",
+      "divergence_direction": "Tactical: below consensus (more bearish near-term); Strategic: approximately in-line with consensus",
+      "divergence_magnitude": "Tactical: approximately -50 to -100 pips below consensus near-term; Strategic: in-line to +100 pips above consensus at the upside",
+      "why_we_differ": "Consensus models tend to use linear extrapolations from rate differentials and PPP, neither of which captures (a) the acute safe-haven premium in CHF from the Iran war, which we weight more heavily tactically through the elevated Risk Appetite factor weight, and (b) Singapore's extraordinary current account surplus differential (18% vs 7% GDP) which we weight more heavily strategically through the external balance factor at 0.16. The BofA 'Swissification' analysis also highlights that SGD's higher yield and lower volatility due to MAS's trade-weighted exchange rate band system have supported its performance over the longer term — a factor that compounds in SGD's favour and is underweighted in consensus models focused on nominal rate differentials. The Iran war's bilateral asymmetric impact — CHF as safe-haven beneficiary, SGD as oil terms-of-trade victim — creates a near-term differential that linear consensus models fail to capture adequately.",
+      "payoff_if_right": "Tactical: short SGD/CHF from 0.6095 to 0.5980 = +115 pips (~1.9%)",
+      "risk_if_wrong": "Tactical: SGD/CHF recovers to 0.6200 = -105 pips (~1.7%)"
+    },
+    "cross_horizon_consistency": {
+      "aligned": false,
+      "tactical_stance": "Bearish SGD/CHF (conviction 3/5)",
+      "strategic_stance": "Neutral with SGD lean (conviction 2/5)",
+      "explanation": "The tactical and strategic stances represent a clear directional reversal driven by the Iran war's geopolitical premium being a 2–4 week force that dissipates over the 1–6 month strategic horizon. Tactically, CHF's activated safe-haven mechanism overwhelms SGD's fundamentals. Strategically, those same fundamentals — the 18% vs 7% surplus differential, 610bps growth premium, and potential MAS tightening — reassert as the primary drivers once the safe-haven premium fades.",
+      "inflection_point": "Twofold: (1) Iran ceasefire or credible de-escalation framework — removes the primary CHF safe-haven driver; (2) April 14 MAS review outcome — a tightening simultaneously adds SGD-positive catalyst and confirms bilateral policy divergence. Expected timing: 4–8 weeks from March 11.",
+      "trading_implication": "Do not establish long SGD/CHF positions until Iran ceasefire signals emerge. Use any probe below 0.6046 as a potential entry for the strategic recovery trade with stop at 0.5900. Add to strategic long on confirmed Iran de-escalation. This U-shaped path means investors who can tolerate the tactical drawdown risk should consider entering long SGD/CHF in the 0.59–0.61 range."
+    },
+    "forward_vs_spot": {
+      "current_spot": 0.6095,
+      "forward_1m": "0.6100 (+5 pips, SGD at forward premium)",
+      "forward_3m": "0.6107 (+12 pips)",
+      "forward_6m": "0.6122 (+27 pips)",
+      "expected_rate_3m": "0.6050 (residual CHF premium)",
+      "expected_rate_6m": "0.6200 (SGD recovery under base case)",
+      "edge_3m": "-57 pips (we expect pair lower than forward-implied at 3M; forward implies 0.6107, we expect 0.6050)",
+      "edge_6m": "+78 pips (we expect pair higher than forward-implied at 6M; forward implies 0.6122, our base case is 0.6200)"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-03-11",
+      "event": "US CPI (February Data)",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Both",
+      "rationale": "A hot CPI print would delay Fed cuts (USD positive), weakening both CHF and SGD vs USD but with uncertain bilateral impact on SGD/CHF. A soft print accelerates Fed easing expectations, weakening USD uniformly and leaving SGD/CHF direction determined by relative safe-haven demand between the two currencies rather than USD dynamics.",
+      "priced_in": "Partially",
+      "citations": [
+        2
+      ]
+    },
+    {
+      "date": "2026-03-17",
+      "event": "Singapore NODX (February)",
+      "expected_impact": "Bullish",
+      "which_leg_affected": "Base",
+      "rationale": "February NODX data will confirm whether the January +56.1% electronics surge is sustained. A strong print reinforces Singapore's growth narrative and MAS April tightening probability, providing an incremental SGD tailwind at the bilateral level. The pair is currently depressed below fair value on fundamentals — strong NODX could trigger modest SGD/CHF recovery of 20–50 pips as the growth differential is partially repriced.",
+      "priced_in": "Not priced",
+      "citations": [
+        9,
+        10
+      ]
+    },
+    {
+      "date": "2026-03-18",
+      "event": "FOMC Decision + Dot Plot",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Both",
+      "rationale": "A dovish FOMC (updated dot plot showing 2 cuts in 2026) weakens USD broadly, pushing USD/CHF lower and USD/SGD lower. The bilateral impact for SGD/CHF depends on which currency has higher USD beta at the moment — currently CHF (beta ~1.4x) benefits more from USD weakness than SGD, so a dovish FOMC is marginally bearish for SGD/CHF in the very near term. A hawkish surprise would be mildly positive for SGD/CHF as USD strength would compress both currencies but CHF less so given its independent safe-haven demand.",
+      "priced_in": "Partially",
+      "citations": [
+        2,
+        22
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "event": "SNB Monetary Policy Assessment",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Quote",
+      "rationale": "The SNB March 19 meeting is the single most important bilateral catalyst in the tactical window. A hold with aggressive intervention language could produce a temporary SGD/CHF bounce of 80–120 pips as CHF safe-haven premium moderates. A surprise cut to -0.25% would initially weaken CHF sharply (SGD/CHF rises 150–200 pips) but could signal deflationary concern that subsequently reinforces CHF's safe-haven appeal over days. The SNB's actual reserve deployment decisions revealed through subsequent sight deposit data will determine whether the event provides lasting CHF reversal or merely a temporary pause.",
+      "priced_in": "Partially",
+      "citations": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "event": "Singapore CPI (February)",
+      "expected_impact": "Bullish",
+      "which_leg_affected": "Base",
+      "rationale": "If the Iran oil price spike has pushed Singapore's MAS Core Inflation above 1.5%, the April MAS tightening probability would surge from 47% toward 70%+. An April slope increase would be directly positive for SGD at the bilateral level and represents the most potent SGD/CHF recovery catalyst of the tactical period. A reading below 1.0% would reduce tightening probability and remove a key SGD support pillar, potentially adding 30–50 pips to the CHF's advantage.",
+      "priced_in": "Not priced",
+      "citations": [
+        9,
+        10
+      ]
+    },
+    {
+      "date": "2026-03-31",
+      "event": "US-Swiss Trade Agreement Deadline",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Quote",
+      "rationale": "The November 2025 framework reduced Swiss tariffs from 39% to 15% pending a legally binding agreement by March 31. If the White House fails to conclude the deal amid Iran war distractions, tariff uncertainty returns for Swiss exporters, adding a modest CHF-negative headwind through the trade channel. Singapore's semiconductor exemption from reciprocal tariffs means SGD is less exposed to this risk, creating a mild bilateral CHF-negative asymmetry if the deadline is missed.",
+      "priced_in": "Not priced",
+      "citations": [
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "event": "MAS Monetary Policy Statement + Q1 GDP Advance",
+      "expected_impact": "Bullish",
+      "which_leg_affected": "Base",
+      "rationale": "The most pivotal bilateral catalyst over the entire strategic horizon. A MAS slope increase (47% probability) would unambiguously signal accelerated SGD appreciation and would be SGD/CHF's clearest buy signal, potentially pushing the pair 200–300 pips higher immediately. A hawkish hold would add modest support. Q1 GDP likely above 4.0% YoY given January NODX data would validate the growth narrative and confirm MAS tightening trajectory, providing the fundamental justification for the pair's recovery from multi-year lows.",
+      "priced_in": "Partially",
+      "citations": [
+        9,
+        10,
+        22
+      ]
+    },
+    {
+      "date": "2026-06-14",
+      "event": "Swiss Referendum: No to 10-Million Switzerland Initiative",
+      "expected_impact": "Bullish",
+      "which_leg_affected": "Quote",
+      "rationale": "Passage triggers the guillotine clause terminating all bilateral agreements with the EU including the freshly signed Bilaterals III. The loss of EU market access would be structurally negative for the Swiss current account surplus, creating a meaningful CHF weakening catalyst on a structural (not transient) basis — a 300–500 pip SGD/CHF rally is plausible over the following weeks. At 48% polling in favour, the probability is significant at 33–35%. This is the single most underpriced bilateral event risk for this pair.",
+      "priced_in": "Not priced",
+      "citations": [
+        16,
+        17
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "event": "SNB June Monetary Policy Assessment",
+      "expected_impact": "Bullish",
+      "which_leg_affected": "Quote",
+      "rationale": "Capital Economics projects the SNB will cut to -0.25% by June. If Swiss CPI remains below 0.3% and GDP disappoints in Q1, the probability of a June cut rises meaningfully. Negative rates are historically CHF-negative in the short term as they punish CHF holders and reduce carry demand, potentially pushing SGD/CHF from 0.62 toward 0.65. The medium-term safe-haven dynamics could absorb the rate cut, but the initial market reaction would be SGD/CHF positive by 100–150 pips.",
+      "priced_in": "Partially",
+      "citations": [
+        1,
+        6,
+        20,
+        22
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "event": "US Section 122 Tariff Expiry (Singapore)",
+      "expected_impact": "Bullish",
+      "which_leg_affected": "Base",
+      "rationale": "The 10% tariff on Singapore exports expires after 150 days from the original imposition. Removal reduces trade policy uncertainty for Singapore and marginally improves its export competitiveness for non-semiconductor goods. The semiconductor exemption already mitigates most direct impact on SGD's primary growth driver, but the tariff expiry removes a background negative for SGD that Switzerland does not face (Swiss tariffs already reduced to 15% under November framework), creating a modest bilateral SGD-positive catalyst on expiry.",
+      "priced_in": "Not priced",
+      "citations": [
+        9,
+        10,
+        23
+      ]
+    }
+  ],
+  "invalidators": [
+    {
+      "condition": "SGD/CHF closes below 0.5900 on a weekly basis and sustains for two consecutive weeks",
+      "new_stance": "More Bearish SGD/CHF — would represent a decade-plus low confirming structural regime shift",
+      "mechanism": "The break of the 0.6046 support and subsequent decline through 0.5900 would confirm that CHF's safe-haven premium is not merely an Iran-war spike but a structural regime shift — possibly gold permanently above $5,000 or sustained geopolitical disorder. It would invalidate the tactical floor assumption and open the 0.5700–0.5814 range.",
+      "monitor_indicator": "SGD/CHF weekly close on Thursday–Friday; gold spot as confirming indicator",
+      "monitor_frequency": "Weekly",
+      "probability_pct": 15
+    },
+    {
+      "condition": "Iran ceasefire formally announced within 2 weeks with VIX falling below 20",
+      "new_stance": "Bullish SGD/CHF (pair rises) — primary driver of CHF safe-haven premium removed",
+      "mechanism": "The primary driver of CHF safe-haven premium would be removed almost overnight, triggering leveraged fund CHF long unwinding and gold reversal. The pair would recover 200–400 pips within 5–10 trading days as the war premium unwinds. The SGD's structural fundamentals (18% CA surplus, semiconductor growth, MAS appreciation) would reassert as the dominant bilateral driver.",
+      "monitor_indicator": "Iran war news flow; gold spot price as leading indicator",
+      "monitor_frequency": "Continuous",
+      "probability_pct": 25
+    },
+    {
+      "condition": "MAS tightens (slope increase) at April 14 review with MPS language confirming appreciation acceleration",
+      "new_stance": "Bullish SGD/CHF (strategic conviction shifts to 3/5) — bilateral policy divergence confirmed",
+      "mechanism": "A MAS slope increase provides direct evidence of policy divergence (MAS tightening vs SNB neutral/easing), upgrades MAS Core Inflation expectations, and historically produces 100–200 pips of immediate SGD appreciation across all SGD crosses. It removes the 'wait-and-see' uncertainty embedded in the current 47% tightening probability and confirms the SGD appreciation trend.",
+      "monitor_indicator": "MAS Monetary Policy Statement language; S$NEER implied slope calculation",
+      "monitor_frequency": "Semi-annual (next event April 14)",
+      "probability_pct": 47
+    },
+    {
+      "condition": "SNB sight deposits rise by more than CHF 25bn in a single month (equivalent to approximately CHF 6bn per week)",
+      "new_stance": "Neutral SGD/CHF (from Bearish) — SNB intervention creating range-trading environment",
+      "mechanism": "SNB intervention at CHF 25bn/month scale has historically been sufficient to significantly slow CHF appreciation, creating a period of SGD/CHF range-trading in the 0.61–0.63 zone. This removes the near-term CHF momentum without providing SGD directional catalyst — the bearish thesis is paused but not reversed until geopolitical factors shift.",
+      "monitor_indicator": "Weekly SNB sight deposit data (Monday publication via SNB website)",
+      "monitor_frequency": "Weekly",
+      "probability_pct": 20
+    },
+    {
+      "condition": "June 14 Swiss referendum passes (No to 10-Million Switzerland) with margin above 51%",
+      "new_stance": "Bullish SGD/CHF (pair rises significantly) — structurally negative for CHF",
+      "mechanism": "Passage triggers the guillotine clause terminating all EU bilateral agreements, which would be structurally negative for the Swiss current account surplus and capital account. A 300–500 pip SGD/CHF rally is plausible over the following weeks as Switzerland's external position reprices. This is the most consequential structural CHF-negative event possible in the 6-month strategic window.",
+      "monitor_indicator": "Swiss opinion polls (monthly); June 14 vote outcome (direct)",
+      "monitor_frequency": "Monthly polls; continuous from June 13",
+      "probability_pct": 33
+    },
+    {
+      "condition": "Singapore electronics NODX contracts YoY for two consecutive months (below 0%)",
+      "new_stance": "Neutral SGD/CHF (from Bullish strategically) — semiconductor cycle assumption invalidated",
+      "mechanism": "The semiconductor cycle assumption underlying the SGD growth differential and external balance advantage would be invalidated, removing the most powerful SGD structural argument (+0.065 growth and +0.104 external balance strategic contributions). Without the NODX tailwind, Singapore's GDP premium over Switzerland narrows substantially and the CA surplus advantage diminishes, reducing the fundamental case for SGD/CHF recovery.",
+      "monitor_indicator": "Enterprise Singapore NODX monthly release",
+      "monitor_frequency": "Monthly",
+      "probability_pct": 10
+    }
+  ],
+  "signposts": [
+    {
+      "indicator": "SGD/CHF Spot Level vs 0.6046 Support",
+      "current_level": "~0.6095",
+      "confirms_if": "Weekly close below 0.6046 → confirms next leg lower toward 0.5950–0.5980",
+      "invalidates_if": "Pair recovers above 0.6200 and sustains for 3+ trading days → technical trend reversal signal",
+      "bilateral_importance": "More important for this pair than for either USD/SGD or USD/CHF individually because both currencies are MAS/SNB managed — bilateral levels reveal the relative balance of the two management frameworks. A break of multi-year lows signals one framework winning decisively and implies a structural, not transient, premium in CHF over SGD.",
+      "source": "https://finance.yahoo.com/quote/SGDCHF=X/",
+      "frequency": "Continuous"
+    },
+    {
+      "indicator": "SNB Total Sight Deposits (Weekly)",
+      "current_level": "~CHF 448.5bn (estimated +CHF 4.4bn since war began)",
+      "confirms_if": "Remains below CHF 460bn — limited intervention, CHF appreciation allowed to continue, confirming bearish SGD/CHF thesis",
+      "invalidates_if": "Rises above CHF 480bn — massive SNB intervention selling CHF creates potential SGD/CHF recovery toward 0.61–0.63 range",
+      "bilateral_importance": "More relevant for SGD/CHF than for EUR/CHF because the SNB sight deposit signal provides a leading indicator of CHF intervention that the MAS managed float does not equivalently publish, creating an information asymmetry that can be traded. The weekly publication timing (Monday) gives traders a weekly re-entry signal for CHF positioning.",
+      "source": "https://data.snb.ch/en/publishingSet/GWD",
+      "frequency": "Weekly (Monday)"
+    },
+    {
+      "indicator": "Gold Spot (XAU/USD)",
+      "current_level": "~$5,200/oz",
+      "confirms_if": "Sustains above $5,000 — CHF-gold correlation channel active, confirming bearish SGD/CHF thesis",
+      "invalidates_if": "Falls below $4,500 — safe-haven unwind triggering SGD/CHF recovery of 100–200 pips",
+      "bilateral_importance": "Gold is uniquely relevant for CHF (Swiss gold exports ~25% of total exports by value; SNB holds gold as reserves) but has no direct SGD equivalent, making it a clean bilateral discriminator for CHF premium vs SGD. No other SGD cross has this gold-channel asymmetry, making it a pair-specific leading indicator.",
+      "source": "https://tradingeconomics.com/commodity/gold",
+      "frequency": "Continuous"
+    },
+    {
+      "indicator": "MAS Core Inflation (Monthly)",
+      "current_level": "1.0% YoY (January 2026)",
+      "confirms_if": "Rises above 1.5% — April MAS tightening probability surges toward 70%+, providing the most potent near-term SGD-positive bilateral catalyst",
+      "invalidates_if": "Falls below 0.5% — MAS tightening off the table, removes key SGD recovery catalyst and reduces strategic conviction to 1/5",
+      "bilateral_importance": "MAS Core Inflation is more important for SGD/CHF than for SGD's other crosses because the SNB's mandate also focuses on inflation stability, creating a bilateral central bank credibility dynamic. Rising Singapore inflation while Swiss CPI remains near 0.1% widens the policy divergence signal and directly affects the pair's direction through the April MAS review probability shift.",
+      "source": "https://tradingeconomics.com/singapore/inflation-cpi",
+      "frequency": "Monthly"
+    },
+    {
+      "indicator": "VIX (CBOE Volatility Index)",
+      "current_level": "~24.93 (March 11, 2026)",
+      "confirms_if": "Rises above 30 and sustains — CHF safe-haven premium increases, confirming bearish SGD/CHF thesis",
+      "invalidates_if": "Falls below 18 sustained — risk normalisation triggers CHF premium fade and SGD fundamentals reassert as dominant driver",
+      "bilateral_importance": "VIX's safe-haven premium in CHF tracks VIX non-linearly, while SGD's risk sensitivity is more regional (MSCI Asia ex-Japan) than global (VIX). This bilateral difference means VIX level disproportionately affects CHF vs SGD, making it a clean discriminator for the pair's direction that has no equivalent in pairs between two G10 commodity currencies.",
+      "source": "https://www.cboe.com/tradable_products/vix/",
+      "frequency": "Continuous"
+    },
+    {
+      "indicator": "Singapore Electronics NODX (YoY)",
+      "current_level": "+56.1% (January 2026)",
+      "confirms_if": "Remains above +20% for 3 consecutive months — confirms strategic SGD/CHF bullish thesis via sustained external balance advantage",
+      "invalidates_if": "Falls below 0% (exports turning negative) — semiconductor cycle assumption invalidated, removes primary SGD structural differentiator from Switzerland",
+      "bilateral_importance": "Electronics NODX is the most important single economic indicator for SGD's external balance advantage over CHF. It has no CHF equivalent and directly measures the semiconductor supercycle that is Singapore's primary structural differentiator from Switzerland. The 18% vs 7% CA surplus bilateral differential would narrow dramatically if NODX turns negative.",
+      "source": "https://www.ibtimes.sg/singapores-nodx-rises-9-3-january-strong-electronics-demand-83779",
+      "frequency": "Monthly"
+    },
+    {
+      "indicator": "Brent Crude Oil (Front-Month)",
+      "current_level": "~$88/bbl",
+      "confirms_if": "Sustains above $100 — SGD terms-of-trade headwind intensifies, CHF minimal impact, confirming bearish SGD/CHF bias",
+      "invalidates_if": "Falls below $70 — removes SGD oil headwind and simultaneously signals Iran de-escalation dissipating CHF safe-haven bid, triggering rapid SGD/CHF recovery",
+      "bilateral_importance": "Oil has an asymmetric bilateral impact — Singapore is exposed as Asia's refining hub and net oil importer while Switzerland is effectively oil-indifferent. Oil price level is therefore a bilateral discriminator that directly affects the pair's terms-of-trade differential. A fall below $70 is particularly significant because it simultaneously removes SGD's oil headwind AND signals geopolitical de-escalation reducing CHF's safe-haven premium.",
+      "source": "https://tradingeconomics.com/commodity/brent-crude-oil",
+      "frequency": "Continuous"
+    }
+  ],
+  "assumptions": [
+    "SGD/CHF spot is estimated at approximately 0.6095 as of March 11, 2026, computed from the cross of USD/SGD 1.2710 and USD/CHF 0.7782 (cross = 0.7782/1.2710 = 0.6123; adjusted for the March 8 reference from exchange-rates.org at 0.6095, which is used as the primary bilateral anchor given CHF's appreciation since March 8).",
+    "The pair is analysed as a cross with CHF/SGD context (where CHF/SGD ~1.6450 represents 1 CHF buying approximately 1.6450 SGD), but all analysis is expressed in SGD/CHF terms (1 SGD = x CHF).",
+    "CHF/SGD's one-year appreciation of +9.53% (from TradingView) is consistent with SGD/CHF declining approximately -8.7% from the SGD perspective, closely matching the exchange-rates.org -8.22% reading.",
+    "Factor weights for this pair are adjusted from defaults primarily to reduce the Policy and Rates weight (both currencies at near-zero rates makes this factor less discriminatory) and increase the Risk Appetite weight (the dual-safe-haven nature of the pair makes risk appetite the primary bilateral driver).",
+    "SGD/CHF implied volatility is estimated from USD/SGD and USD/CHF component IVs at approximately 7.5–8.5% for 1M — no direct market quote is available for this illiquid cross pair.",
+    "The bilateral carry is positive for SGD (SORA exceeds SARON by +89bps) but negligible in absolute terms — this favours SGD/CHF longs in carry regime but is overwhelmed by directional factors in the current crisis environment.",
+    "The 'Swissification' of SGD dynamic identified by BofA Securities is treated as a structural feature that reduces SGD/CHF's bilateral volatility relative to comparable crosses (e.g., AUD/CHF), supporting the view that this pair mean-reverts more slowly than carry-differential-based models would predict.",
+    "SGD's REER has appreciated 33% over the past 26 years vs CHF's 20% rise, suggesting the long-run secular trend favours SGD in real terms despite nominal CHF dominance in recent years — used as a key strategic anchor for the recovery thesis.",
+    "The Iran-US war launch date is treated as February 28, 2026, as the primary structural break event accelerating the pre-existing CHF appreciation trend.",
+    "SNB sight deposit data and CHF CFTC positioning data are used as the primary real-time indicators for CHF flow monitoring given SGD has no equivalent CFTC reporting."
+  ],
+  "complete_citations": [
+    {
+      "id": 1,
+      "title": "CoinCodex SGD/CHF Forecast 2026",
+      "publisher": "CoinCodex",
+      "url": "https://coincodex.com/forex/sgd-chf/forecast/",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 2,
+      "title": "XS.com USD/SGD Forecast 2026",
+      "publisher": "XS.com",
+      "url": "https://www.xs.com/en/blog/usd-sgd-forecast/",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 3,
+      "title": "CHF/SGD TradingView Rate and Analysis",
+      "publisher": "TradingView",
+      "url": "https://www.tradingview.com/symbols/CHFSGD/",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 4,
+      "title": "SGD/CHF TradingView Chart and Rate",
+      "publisher": "TradingView",
+      "url": "https://www.tradingview.com/symbols/SGDCHF/",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 5,
+      "title": "SGD/CHF Technical Analysis — TradingView Technicals",
+      "publisher": "TradingView",
+      "url": "https://www.tradingview.com/symbols/SGDCHF/technicals/",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 6,
+      "title": "USD/CHF Technical Outlook",
+      "publisher": "ActionForex",
+      "url": "https://www.actionforex.com/category/technical-outlook/usdchf-outlook/",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 7,
+      "title": "CHF/SGD Forecast 2025–2026",
+      "publisher": "Mid Forex",
+      "url": "https://midforex.com/forecast/chf-to-sgd",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 8,
+      "title": "CHF/SGD Live Rate",
+      "publisher": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CHFSGD=X/",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 9,
+      "title": "Why is SGD so strong? 'Swissification' of Singapore Dollar",
+      "publisher": "Investing.com / BofA Securities",
+      "url": "https://www.investing.com/news/economy/why-is-sgd-so-strong-breaking-down-the-swissification-of-singapore-dollar-4348983",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 10,
+      "title": "Singapore Dollar: Defensive Hedge or Tactical Overweight?",
+      "publisher": "Ainvest",
+      "url": "https://www.ainvest.com/news/singapore-dollar-strength-defensive-hedge-tactical-overweight-2601/",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 11,
+      "title": "SGD to CHF Exchange Rate History 2026",
+      "publisher": "Exchange-Rates.org",
+      "url": "https://www.exchange-rates.org/exchange-rate-history/sgd-chf-2026",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 12,
+      "title": "SGD to CHF Live Conversion",
+      "publisher": "Exchange-Rates.org",
+      "url": "https://www.exchange-rates.org/converter/sgd-chf",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 13,
+      "title": "CHF/SGD Live Index Historical Data",
+      "publisher": "Live Index",
+      "url": "https://liveindex.org/chf-sgd/",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 14,
+      "title": "RBC Capital Markets Currency Report Card 2026",
+      "publisher": "RBC",
+      "url": "https://www.rbccm.com/assets/rbccm/docs/fx/currency-report-card.pdf",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 15,
+      "title": "Japan Policy Normalisation and CHF Carry Trade",
+      "publisher": "Permutable AI",
+      "url": "https://permutable.ai/japans-policy-normalisation-sentiment-and-the-yen-carry-trade/",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 16,
+      "title": "EFTA–Singapore Free Trade Agreement",
+      "publisher": "EFTA",
+      "url": "https://www.efta.int/trade-relations/free-trade-network/singapore",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 17,
+      "title": "Switzerland–Singapore Partnership",
+      "publisher": "Economiesuisse",
+      "url": "https://www.economiesuisse.ch/en/articles/switzerland-singapore-deepen-partnership-and-strengthen-sustainability",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 18,
+      "title": "Switzerland Expands ASEAN Trade Partnerships",
+      "publisher": "Travel And Tour World",
+      "url": "https://www.travelandtourworld.com/news/article/switzerland-expands-and-deepens-trade-investment-and-tourism-partnerships-with-asean-in-southeast-asia/",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 19,
+      "title": "Singapore–Switzerland BIT 1978",
+      "publisher": "UNCTAD IIA Navigator",
+      "url": "https://investmentpolicy.unctad.org/international-investment-agreements/treaties/bit/2907/singapore---switzerland-bit-1978-",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 20,
+      "title": "USD/CHF Forecast 2026–2030",
+      "publisher": "Just2Trade",
+      "url": "https://j2t.com/solutions/blogview/usdchf-forecast-and-price-prediction/",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 21,
+      "title": "VIX Index Live Data",
+      "publisher": "CBOE",
+      "url": "https://www.cboe.com/tradable_products/vix/",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 22,
+      "title": "ING FX Outlook 2026 (November 2025)",
+      "publisher": "ING",
+      "url": "https://think.ing.com/uploads/reports/FX_Outlook_2026_Nov_2025.pdf",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 23,
+      "title": "Swiss Investor Guide Navigating Trade Tensions 2026",
+      "publisher": "Ascendant Global Credit Group",
+      "url": "https://www.ascendantglobalcreditgroup.com/insights/singapore-investor-guide-navigating-global-trade-tensions",
+      "date_accessed": "2026-03-11"
+    },
+    {
+      "id": 24,
+      "title": "SGD/CHF OANDA CFD Live Chart",
+      "publisher": "OANDA",
+      "url": "https://www.oanda.com/sg-en/trading/instruments/sgd-chf/",
+      "date_accessed": "2026-03-11"
+    }
+  ]
+}

@@ -1,0 +1,721 @@
+{
+  "base": "SEK",
+  "valuation_date": "2026-04-01",
+  "framework_version": "2.0",
+  "freshness_days_tactical": 30,
+  "freshness_days_strategic": 60,
+
+  "executive_summary": "The Swedish Krona at USD/SEK 9.40 and EUR/SEK 10.85 has reversed from the best-performing G10 currency in 2025 (+16.8% vs USD) to the worst-performing in March 2026, as Operation Epic Fury punishes low-liquidity, risk-sensitive currencies with European manufacturing exposure. The Riksbank's repo rate at 1.75% — fourth in G10+SGD from the bottom — leaves SEK carrying negative rate differentials against virtually every peer except CHF and JPY, while CPIF inflation at 1.7% (below the 2% target) gives the Board no cover to tighten. The BIS REER at 84.0 (2005=100) sits 14–16% below its 20-year average, confirming persistent undervaluation despite the 2025 rally, and the IMF's 2025 Article IV assessed SEK as undervalued by 8–22% in real effective terms. The core tension is between deeply supportive medium-term fundamentals (AAA sovereign, ~5% C/A surplus, GDP growth outpacing the eurozone, fiscal expansion via NATO defence spending) and a hostile tactical environment (VIX at 30.6, Brent at $110/bbl, services PMI collapsed to 48.3, Norges Bank signaling hikes to 4.25–4.50%). Our stance is tactically bearish SEK with conviction 2/5, strategically mildly bullish SEK with conviction 3/5 — contingent on the Iran war's resolution timeline.",
+
+  "market_context": {
+    "spot": {
+      "rate": "USD/SEK 9.40",
+      "convention": "Rising USD/SEK = SEK weakening; falling USD/SEK = SEK strengthening (inverted quote)",
+      "primary_index": "Riksbank KIX (trade-weighted Krona Index) estimated ~118 (higher = weaker SEK)",
+      "date": "2026-03-31"
+    },
+    "key_crosses": [
+      {"pair": "EUR/SEK", "rate": "10.85", "convention": "Inverted — higher = SEK weaker (Riksbank primary focus pair)"},
+      {"pair": "GBP/SEK", "rate": "12.50", "convention": "Inverted — higher = SEK weaker"},
+      {"pair": "NOK/SEK", "rate": "0.9749", "convention": "Higher = NOK stronger vs SEK"},
+      {"pair": "SEK/JPY", "rate": "17.03", "convention": "Higher = SEK stronger vs JPY"},
+      {"pair": "SEK/CHF", "rate": "0.085", "convention": "Higher = SEK stronger vs CHF"}
+    ],
+    "performance": {
+      "1m": {"pct_change": "+4.0% USD/SEK (+2.5% EUR/SEK)", "direction": "SEK weakening sharply"},
+      "3m": {"pct_change": "+0.4% USD/SEK (+0.3% EUR/SEK)", "direction": "SEK flat-to-weak"},
+      "6m": {"pct_change": "-7.3% USD/SEK (-4.8% EUR/SEK)", "direction": "SEK strengthening"},
+      "1y": {"pct_change": "-7.1% USD/SEK (-4.6% EUR/SEK)", "direction": "SEK strengthening"}
+    },
+    "valuation": {
+      "overall_assessment": "Modestly cheap",
+      "bis_reer": {
+        "level": 84.0,
+        "historical_percentile": 20,
+        "interpretation": "The BIS REER at 84.0 (2005=100, January 2026) is approximately 14–16% below the 20-year average of ~97–100, confirming persistent real undervaluation despite the strongest annual rally in three decades during 2025. The nadir was 76.1 in September 2023."
+      },
+      "ppp_table": [
+        {"vs_currency": "USD", "deviation_pct": -2.0, "implied_fair_value": "USD/SEK ~9.2"},
+        {"vs_currency": "EUR", "deviation_pct": -10.0, "implied_fair_value": "EUR/SEK ~9.8"},
+        {"vs_currency": "JPY", "deviation_pct": -20.0, "implied_fair_value": "SEK/JPY ~21.3"},
+        {"vs_currency": "GBP", "deviation_pct": -10.0, "implied_fair_value": "GBP/SEK ~11.2"},
+        {"vs_currency": "AUD", "deviation_pct": 3.0, "implied_fair_value": "AUD/SEK ~6.3"},
+        {"vs_currency": "NZD", "deviation_pct": 5.0, "implied_fair_value": "NZD/SEK ~5.8"},
+        {"vs_currency": "CAD", "deviation_pct": 4.0, "implied_fair_value": "CAD/SEK ~6.8"},
+        {"vs_currency": "CHF", "deviation_pct": -22.0, "implied_fair_value": "CHF/SEK ~7.8"},
+        {"vs_currency": "NOK", "deviation_pct": -7.0, "implied_fair_value": "NOK/SEK ~1.05"},
+        {"vs_currency": "SGD", "deviation_pct": -15.0, "implied_fair_value": "SGD/SEK ~6.0"}
+      ],
+      "trade_weighted_assessment": "The KIX index at ~118 confirms broad-based SEK undervaluation. The rally from the September 2023 extreme (KIX ~126) has closed roughly half the gap toward fair value, but the March 2026 selloff reversed some of this progress.",
+      "what_is_priced_in": "The market prices SEK as a low-carry, high-beta, illiquid currency that deserves a permanent discount. The 2025 rally partially closed the valuation gap, but the March 2026 selloff suggests the market still treats SEK as the first G10 currency to dump in risk-off environments. The remaining 10–15% real undervaluation is not actionable on a tactical basis while the war persists, but represents significant medium-term upside.",
+      "actionability": "The valuation signal is strategically actionable (supports long SEK positions at 3–6 month horizons) but tactically premature given the hostile risk environment. Optimal entry requires either VIX normalization below 22 or EUR/SEK above 11.00 for better risk-reward."
+    },
+    "positioning_summary": {
+      "cftc": {
+        "leveraged_funds": {
+          "net_contracts": 0,
+          "direction": "flat",
+          "notional_usd": "N/A — SEK below CFTC 20-trader reporting threshold",
+          "weekly_change_contracts": 0,
+          "weekly_change_direction": "N/A"
+        },
+        "asset_managers": {
+          "net_contracts": 0,
+          "direction": "flat",
+          "notional_usd": "N/A — SEK below CFTC 20-trader reporting threshold"
+        },
+        "total_open_interest": 285,
+        "net_all_specs_percentile": 0,
+        "percentile_context": "CFTC data is unavailable for SEK — CME SEK futures consistently fail to meet the 20-trader minimum reporting threshold, with daily volume of ~285 contracts versus ~764,691 for EUR."
+      },
+      "other_positioning_signals": "SEB H2 2025 survey: market 'marginally overweight SEK for the first time since 2021'; BofA warned of 'crowded positioning among hedge funds'; RBC Capital Markets (Mar 20): long SEK positioning 'amplified the sell-off'; ING: SEK rally 'stretched' with EUR/SEK below short-term fair value of ~10.85.",
+      "interpretation": "Pre-war long SEK positioning was elevated but not extreme. The March selloff has likely unwound a substantial portion of speculative longs (estimated 60–70%), reducing but not eliminating crowded-positioning risk. The absence of CFTC data prevents precise quantification.",
+      "contrarian_assessment": "The contrarian signal is shifting toward neutral — the panic selling has created partial value, but the catalyst for re-entry (war resolution) has not materialized. The AP fund structural bid provides a floor that speculative selling cannot overcome permanently. No extreme positioning exists in either direction."
+    },
+    "market_structure_vol_summary": {
+      "trend_regime": "Bearish reversal from a 12-month uptrend. USD/SEK broke above its 200-DMA (~9.30) in mid-March, shifting the technical regime from bullish-SEK to neutral-to-bearish.",
+      "key_levels": {
+        "support": [
+          {"level": "EUR/SEK 10.53", "significance": "February 2026 low and ING medium-term fair value"},
+          {"level": "EUR/SEK 10.70", "significance": "Approximate 50-DMA"},
+          {"level": "EUR/SEK 10.84", "significance": "200-DMA — key inflection point"},
+          {"level": "USD/SEK 9.00", "significance": "Round number and psychological support"}
+        ],
+        "resistance": [
+          {"level": "EUR/SEK 11.00", "significance": "Psychological round number ceiling"},
+          {"level": "EUR/SEK 11.07", "significance": "6-month high"},
+          {"level": "USD/SEK 9.48", "significance": "March 14 high"},
+          {"level": "USD/SEK 9.60", "significance": "Moving average resistance zone"}
+        ]
+      },
+      "moving_averages": {
+        "50d": {"level": "USD/SEK ~9.15 (est.)", "spot_vs": "Spot above — bearish for SEK"},
+        "100d": {"level": "USD/SEK ~9.20 (est.)", "spot_vs": "Spot above — bearish for SEK"},
+        "200d": {"level": "USD/SEK ~9.30", "spot_vs": "Spot above — bearish for SEK (broken in March)"},
+        "alignment": "Bearishly stacked for SEK (spot > 200d > 100d > 50d) — trend-following flows selling SEK rallies"
+      },
+      "volatility": {
+        "iv_1m": 16.5,
+        "iv_3m": 14.0,
+        "iv_percentile_1y": 80,
+        "rv_20d": 22.0,
+        "rv_vs_iv": "RV 22.0% vs IV 16.5% — market underpriced actual moves during the March shock phase, though the gap is narrowing as the acute phase fades. RV exceeded IV by ~5.5 pts at peak stress.",
+        "risk_reversal_25d_1m": "Estimated +0.5 to +1.0 vols (USD/SEK calls bid / SEK puts bid) — institutional hedging demand for SEK downside protection",
+        "vol_term_structure": "Backwardation",
+        "vol_regime": "High-vol reversal — headline-driven, gap risk elevated, characteristic of geopolitical shock environments"
+      },
+      "key_observation": "The 200-DMA break in USD/SEK is the most significant structural event — it signals trend-following/CTA capital has shifted from buying SEK dips to selling SEK rallies. EUR/SEK sitting right at its 200-DMA (~10.84) means the next 50 pips will determine whether systematic flows reinforce or resist the fundamental thesis."
+    },
+    "recent_regime": "The SEK entered 2026 riding the strongest annual performance in three decades, supported by capital repatriation, Sweden's growth advantage over the eurozone, and the narrowing of the chronic undervaluation gap. Operation Epic Fury (Feb 28) shattered this regime — SEK's high-beta, low-liquidity character reasserted immediately as the currency became the worst-performing G10 unit in March. The dominant narrative has shifted from 'SEK normalization' to 'war-driven risk repricing,' with the services PMI collapse to 48.3 providing the first hard-data evidence that the conflict is hitting Sweden's domestic economy. The volatility regime has transitioned from low-vol trending (trend-following worked in 2025) to high-vol reversal (headline-driven, gap risk elevated).",
+    "citations": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  },
+
+"rate_differentials_table": {
+    "base_currency": {
+      "central_bank": "Sveriges Riksbank",
+      "policy_rate_name": "Repo Rate",
+      "rate_pct": 1.75,
+      "next_meeting": "2026-05-06",
+      "expected_action": "Hold at 1.75%"
+    },
+    "peers": [
+      {"currency": "USD", "central_bank": "Federal Reserve", "policy_rate_pct": 3.625, "spread_to_base_bps": 188, "direction_vs_base": "USD rate significantly above SEK", "next_meeting": "2026-04-28", "expected_action": "Hold", "rate_path_next_6m": "1 cut to 3.25-3.50% by Dec 2026"},
+      {"currency": "EUR", "central_bank": "ECB", "policy_rate_pct": 2.00, "spread_to_base_bps": 25, "direction_vs_base": "EUR rate slightly above SEK", "next_meeting": "2026-04-30", "expected_action": "Hold", "rate_path_next_6m": "2.00% through 2026; possible hike if energy inflation persists"},
+      {"currency": "JPY", "central_bank": "Bank of Japan", "policy_rate_pct": 0.75, "spread_to_base_bps": -100, "direction_vs_base": "JPY rate below SEK", "next_meeting": "2026-04-27", "expected_action": "Hold", "rate_path_next_6m": "Hike to 1.00% mid-2026"},
+      {"currency": "GBP", "central_bank": "Bank of England", "policy_rate_pct": 3.75, "spread_to_base_bps": 200, "direction_vs_base": "GBP rate significantly above SEK", "next_meeting": "2026-04-30", "expected_action": "Hold", "rate_path_next_6m": "Cuts delayed to H2 2026"},
+      {"currency": "AUD", "central_bank": "RBA", "policy_rate_pct": 4.10, "spread_to_base_bps": 235, "direction_vs_base": "AUD rate far above SEK", "next_meeting": "2026-05-04", "expected_action": "Possible +25bp hike", "rate_path_next_6m": "Peak 4.35-4.60%"},
+      {"currency": "NZD", "central_bank": "RBNZ", "policy_rate_pct": 2.25, "spread_to_base_bps": 50, "direction_vs_base": "NZD rate above SEK", "next_meeting": "2026-04-09", "expected_action": "Hold", "rate_path_next_6m": "On hold; possible hike H2"},
+      {"currency": "CAD", "central_bank": "Bank of Canada", "policy_rate_pct": 2.25, "spread_to_base_bps": 50, "direction_vs_base": "CAD rate above SEK", "next_meeting": "2026-04-29", "expected_action": "Hold", "rate_path_next_6m": "2.25% through 2026"},
+      {"currency": "CHF", "central_bank": "SNB", "policy_rate_pct": 0.00, "spread_to_base_bps": -175, "direction_vs_base": "CHF rate well below SEK", "next_meeting": "2026-06-18", "expected_action": "Hold", "rate_path_next_6m": "0.00% all 2026; increased FX intervention"},
+      {"currency": "NOK", "central_bank": "Norges Bank", "policy_rate_pct": 4.00, "spread_to_base_bps": 225, "direction_vs_base": "NOK rate far above SEK — widest intra-Scandinavian gap in modern history", "next_meeting": "2026-05-07", "expected_action": "Possible +25bp hike to 4.25%", "rate_path_next_6m": "2 hikes to 4.50% (Danske Bank forecast)"},
+      {"currency": "SGD", "central_bank": "MAS", "policy_rate_pct": null, "spread_to_base_bps": null, "direction_vs_base": "N/A — MAS uses S$NEER band, not interest rate", "next_meeting": "2026-04-15", "expected_action": "No change to S$NEER slope", "rate_path_next_6m": "Appreciating slope maintained"}
+    ],
+    "sovereign_yields": {
+      "base_2y": 2.17,
+      "base_10y": 2.90,
+      "key_spreads": [
+        {"vs": "German Bund 10Y", "yield_pct": 3.10, "spread_bps": -20, "interpretation": "Sweden trades through Germany — reflects AAA creditworthiness and Riksbank's dovish stance relative to ECB's hawkish pivot"},
+        {"vs": "US Treasury 10Y", "yield_pct": 4.40, "spread_bps": -150, "interpretation": "Wide negative spread reflects the massive Fed-Riksbank rate gap and safe-haven USD demand during the Iran war"},
+        {"vs": "UK Gilt 10Y", "yield_pct": 4.51, "spread_bps": -161, "interpretation": "Sweden far below UK — reflects Sweden's AAA vs UK's AA- and lower inflation trajectory"},
+        {"vs": "Norwegian NGB 10Y", "yield_pct": 4.49, "spread_bps": -159, "interpretation": "Widest SGB-NGB spread in modern history — directly driven by Norges Bank's hawkish pivot signaling rate hikes to 4.25-4.50%"},
+        {"vs": "Japanese JGB 10Y", "yield_pct": 2.11, "spread_bps": 79, "interpretation": "Sweden above Japan — one of few peers where SEK earns positive carry, though narrowing as BoJ tightens"}
+      ],
+      "curve_shape": "Swedish 2s10s at +73bp — positively sloped and steepening. Front end anchored by Riksbank hold expectations at 1.75%; long end repricing on global inflation and European defence spending. The positive slope signals no recession pricing despite the services PMI collapse."
+    }
+  },
+
+  "macro_comparison_table": [
+    {"currency": "SEK", "gdp_yoy_pct": 2.1, "gdp_qoq_latest_pct": 0.5, "headline_cpi_yoy_pct": 0.5, "core_cpi_yoy_pct": 1.7, "core_cpi_measure": "CPIF", "unemployment_pct": 8.5, "current_account_gdp_pct": 5.5, "policy_rate_pct": 1.75},
+    {"currency": "USD", "gdp_yoy_pct": 2.0, "gdp_qoq_latest_pct": 0.2, "headline_cpi_yoy_pct": 2.4, "core_cpi_yoy_pct": 2.5, "core_cpi_measure": "Core PCE", "unemployment_pct": 4.3, "current_account_gdp_pct": -3.9, "policy_rate_pct": 3.625},
+    {"currency": "EUR", "gdp_yoy_pct": 1.2, "gdp_qoq_latest_pct": 0.2, "headline_cpi_yoy_pct": 2.5, "core_cpi_yoy_pct": 2.3, "core_cpi_measure": "Core HICP", "unemployment_pct": 6.1, "current_account_gdp_pct": 2.7, "policy_rate_pct": 2.00},
+    {"currency": "JPY", "gdp_yoy_pct": 0.5, "gdp_qoq_latest_pct": 0.3, "headline_cpi_yoy_pct": 1.5, "core_cpi_yoy_pct": 1.6, "core_cpi_measure": "Core-Core CPI", "unemployment_pct": 2.7, "current_account_gdp_pct": 4.7, "policy_rate_pct": 0.75},
+    {"currency": "GBP", "gdp_yoy_pct": 1.0, "gdp_qoq_latest_pct": 0.1, "headline_cpi_yoy_pct": 3.0, "core_cpi_yoy_pct": 3.2, "core_cpi_measure": "Core CPI", "unemployment_pct": 5.2, "current_account_gdp_pct": -2.2, "policy_rate_pct": 3.75},
+    {"currency": "AUD", "gdp_yoy_pct": 2.0, "gdp_qoq_latest_pct": 0.8, "headline_cpi_yoy_pct": 3.8, "core_cpi_yoy_pct": 3.3, "core_cpi_measure": "Trimmed Mean", "unemployment_pct": 4.3, "current_account_gdp_pct": -2.0, "policy_rate_pct": 4.10},
+    {"currency": "NZD", "gdp_yoy_pct": 1.0, "gdp_qoq_latest_pct": 0.5, "headline_cpi_yoy_pct": 3.1, "core_cpi_yoy_pct": 2.4, "core_cpi_measure": "Core CPI", "unemployment_pct": 5.4, "current_account_gdp_pct": -5.5, "policy_rate_pct": 2.25},
+    {"currency": "CAD", "gdp_yoy_pct": 1.0, "gdp_qoq_latest_pct": -0.2, "headline_cpi_yoy_pct": 2.3, "core_cpi_yoy_pct": 2.3, "core_cpi_measure": "Core Median CPI", "unemployment_pct": 6.8, "current_account_gdp_pct": -1.0, "policy_rate_pct": 2.25},
+    {"currency": "CHF", "gdp_yoy_pct": 0.8, "gdp_qoq_latest_pct": 0.2, "headline_cpi_yoy_pct": 0.1, "core_cpi_yoy_pct": 0.4, "core_cpi_measure": "Core CPI", "unemployment_pct": 5.1, "current_account_gdp_pct": 5.1, "policy_rate_pct": 0.00},
+    {"currency": "NOK", "gdp_yoy_pct": 2.2, "gdp_qoq_latest_pct": -0.3, "headline_cpi_yoy_pct": 3.0, "core_cpi_yoy_pct": 3.1, "core_cpi_measure": "CPI-ATE", "unemployment_pct": 4.6, "current_account_gdp_pct": 13.0, "policy_rate_pct": 4.00},
+    {"currency": "SGD", "gdp_yoy_pct": 4.0, "gdp_qoq_latest_pct": 2.1, "headline_cpi_yoy_pct": 1.4, "core_cpi_yoy_pct": 1.4, "core_cpi_measure": "MAS Core Inflation", "unemployment_pct": 2.0, "current_account_gdp_pct": 17.5, "policy_rate_pct": null}
+  ],
+
+"factors": [
+    {
+      "block": "Policy & Rates (Relative)",
+      "factor_number": 1,
+      "tactical_weight": 0.24,
+      "strategic_weight": 0.24,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 70,
+        "analysis": "The Riksbank's repo rate at 1.75% ranks 9th out of 11 in the G10+SGD policy rate hierarchy, ahead of only the BoJ (0.75%) and SNB (0.00%). This creates a persistent negative carry headwind against virtually every major peer — the spread to the Fed is −188bp, to the BoE −200bp, to the RBA −235bp, and most critically to Norges Bank −225bp (the widest intra-Scandinavian gap in modern history). The March 19 hold was unanimous with a deliberately two-sided statement: the Riksbank acknowledged it might need to hike if the war drives persistent inflation, or cut if demand weakens further. OIS markets price approximately 60% probability of a 25bp hike by end-2026, but no change is expected at the May 6–7 meeting. The SGB-Bund 2Y spread at −48bp reflects the ECB's hawkish pivot, which has widened the front-end differential against SEK since March. SGB-NGB 10Y at −159bp is at a record wide, directly reflecting Norges Bank's explicit guidance toward rate hikes. The Swedish 2s10s curve at +73bp is positively sloped but not steep enough to signal growth optimism. Over the 2–4 week horizon, the rate differential dynamics are unambiguously SEK-negative: the ECB and Norges Bank are hawkish, the Fed is on extended hold at 3.50–3.75%, and the Riksbank has no urgency to act.",
+        "key_data_points": ["Riksbank repo rate: 1.75% (9th of 11 in G10+SGD)", "Fed-Riksbank spread: +188bp favouring USD", "Norges Bank-Riksbank spread: +225bp favouring NOK (widest in modern history)", "SGB 2Y: ~2.17%; SGB 10Y: ~2.90%", "SGB-Bund 10Y spread: −20bp (Sweden trades through Germany)", "OIS-implied probability of May hold: ~95%", "OIS-implied 25bp hike by Dec 2026: ~60%"],
+        "what_is_priced": "The market prices no Riksbank action at the May meeting and roughly a coin-flip on one hike by year-end. This is broadly appropriate for the base case. The mispricing risk is asymmetric: if the war escalates and energy costs surge further, the Riksbank could be forced into a hawkish pivot faster than markets expect (SEK-positive via rate support but SEK-negative via risk-off).",
+        "citations": [1, 11, 12, 17, 18]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "analysis": "Over 1–6 months, the rate picture becomes genuinely two-sided and the directional signal weakens. If the Iran war resolves, energy prices normalize, and CPIF inflation continues its downward trajectory (April food VAT cut will push it toward 1.0%), the Riksbank could shift its bias toward an eventual cut. This would modestly narrow the gap with the ECB and Fed. However, the convergence dynamic works against SEK: if global central banks resume easing, rate differentials narrow but SEK's carry disadvantage persists because the Riksbank started from a lower level. Conversely, if the war persists and energy inflation feeds through, the Riksbank's two-scenario framework explicitly acknowledges rate hikes as a response — this would narrow the differential more aggressively. The SGB-Bund spread relationship has partially decoupled from EUR/SEK — ING notes SEK has shown only a loose relationship with short-term rate differentials, given the dominance of cross-border savings flows. The Norges Bank-Riksbank divergence is the most actionable relative value dynamic: if Norges Bank hikes to 4.50% while the Riksbank holds at 1.75%, the 275bp differential will exert persistent downward pressure on NOK/SEK. Strategic neutrality reflects the genuine uncertainty: the carry disadvantage argues bearish, but the rate path convergence under most scenarios argues for gradual narrowing.",
+        "key_data_points": ["Riksbank published rate path: 1.75% through 2026, slow rises to ~2.50% neutral by 2028", "Norges Bank rate path: 4.25–4.50% by end-2026 (Danske Bank forecast)", "Fed dot plot median: 2 cuts in 2026, pushed to Dec earliest", "ECB rate path: 2.00% through 2026 if energy shock persists", "SGB-Bund 10Y: −20bp (historically EUR/SEK should be lower at this spread)", "Riksbank neutral rate estimate: ~2.50%", "SEB expects 1.75% unchanged; Danske expects December hike"],
+        "what_is_priced": "Markets price the Riksbank as the least likely G10 central bank to move in either direction over the next 6 months. The strategic mispricing lies in the rate convergence trade: if the war resolves and the ECB/BoE resume cutting while the Riksbank holds, Sweden's rate position improves relatively even without a move.",
+        "citations": [1, 9, 11, 17, 19]
+      },
+      "horizon_split_explanation": "Tactical bearish reflects the immediate negative carry dynamics and directional pressure from hawkish peers (Norges Bank, ECB). Strategic neutrality reflects genuine uncertainty — the rate path is two-sided depending on the war's outcome, and rate convergence could flip the carry calculus under several scenarios.",
+      "carry_analysis": {
+        "carry_vs_peers": [
+          {"vs_currency": "USD", "annualised_carry_bps": -188, "carry_to_vol_ratio": -0.12, "interpretation": "Strongly negative — paying to hold SEK vs USD in a safe-haven USD environment"},
+          {"vs_currency": "EUR", "annualised_carry_bps": -25, "carry_to_vol_ratio": -0.02, "interpretation": "Mildly negative — modest disadvantage vs EUR"},
+          {"vs_currency": "NOK", "annualised_carry_bps": -225, "carry_to_vol_ratio": -0.17, "interpretation": "Deeply negative — widest intra-Scandinavian carry gap in history"},
+          {"vs_currency": "JPY", "annualised_carry_bps": 100, "carry_to_vol_ratio": 0.07, "interpretation": "Positive — SEK earns carry vs JPY, one of only two positive carry peers"},
+          {"vs_currency": "CHF", "annualised_carry_bps": 175, "carry_to_vol_ratio": 0.18, "interpretation": "Positive — SEK earns carry vs CHF, the other positive carry peer"},
+          {"vs_currency": "AUD", "annualised_carry_bps": -235, "carry_to_vol_ratio": -0.16, "interpretation": "Strongly negative — RBA hiking widens the gap further"}
+        ],
+        "carry_regime": "Carry is working against SEK in the current risk-off regime. SEK's negative carry versus 7 of 10 peers means it costs to hold long SEK positions, and the risk-off environment amplifies losses as high-carry currencies maintain support while SEK sells off through the liquidity channel.",
+        "breakeven_move": "At −188bp annualised vs USD, a 2-week carry cost is ~7 pips on USD/SEK — minimal relative to the ~400-pip monthly range in March. Carry is a persistent headwind but not the primary driver of tactical price action."
+      },
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Inflation & Growth Dynamics",
+      "factor_number": 2,
+      "tactical_weight": 0.18,
+      "strategic_weight": 0.10,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 60,
+        "analysis": "Sweden's inflation picture is the most benign in G10 — February CPIF at 1.7% and headline CPI at 0.5% place Sweden well below every peer except Switzerland. The CPIF-excluding-energy measure at 1.4% confirms that underlying price pressures are fading rapidly. The April 1 food VAT cut will mechanically compress CPIF by an estimated 0.5–0.7pp, potentially pushing the headline toward 1.0–1.2%. This dovish inflation picture should be SEK-negative (reduces rate hike probability) but is partially offset by the growth story: Q4 2025 GDP at +0.5% QoQ and +2.1% YoY outperforms the eurozone, UK, and Canada. The manufacturing PMI at 56.1 is the strongest in G10, with new orders at 59.6. However, the services PMI collapse to 48.3 from 53.8 is the most concerning data point — services firms cited the Iran conflict as the primary uncertainty driver. The NIER Economic Tendency Indicator's decline from 103.7 to 99.9 confirms broadening caution. The labour market is improving slowly (unemployment at 8.5%, down from 9.4% YoY) but remains the weakest in G10. Net assessment: the growth-inflation mix is approximately neutral for SEK over 2–4 weeks.",
+        "key_data_points": ["CPIF: 1.7% YoY (Feb) — below 2% target", "CPIF-xE: 1.4% YoY — rapid deceleration", "Headline CPI: 0.5% YoY — lowest in G10", "GDP: +0.5% QoQ, +2.1% YoY (Q4 2025)", "Manufacturing PMI: 56.1 (Feb) — highest since Mar 2022", "Services PMI: 48.3 (Feb) — collapsed from 53.8", "NIER Economic Tendency Indicator: 99.9 (Mar)", "Unemployment: 8.5% (SA) — highest in G10"],
+        "what_is_priced": "The market prices Sweden as a low-inflation, moderate-growth economy where the Riksbank will stay on hold. The mispricing risk is in the services sector — if the PMI contraction deepens below 46, it would signal a domestic recession and force the market to price Riksbank cuts rather than hikes.",
+        "citations": [13, 14, 15, 20, 21]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 55,
+        "analysis": "Over 1–6 months, Sweden's growth advantage becomes the dominant signal. The European Commission projects Sweden's GDP at +2.6% for 2026, well above the eurozone (+0.9%). This is driven by three tailwinds: fiscal expansion (NATO defence spending at 2.8% of GDP, income tax cuts, food VAT reduction — totaling ~2% of GDP in stimulus), housing market recovery (new mortgage rules from April, Handelsbanken forecasting +6% price growth), and the unwinding of the 2023–2024 rate shock. Sweden's 8.5% unemployment rate means substantial labour market slack that can be absorbed without generating inflation, extending the growth runway. Wage growth at 3.7% combined with sub-2% inflation delivers strongly positive real wage growth (+2.0%), supporting household consumption. The risk is if the services sector contraction deepens and spreads to manufacturing. But under the base case of war resolution, Sweden's above-trend growth reinforces the structural bull case for SEK through the growth channel rather than the rate channel.",
+        "key_data_points": ["EC 2026 GDP forecast: +2.6% (above eurozone +0.9%)", "Fiscal stimulus: ~2% of GDP in 2026", "Wage growth: 3.7% — real wages +2.0%", "Housing forecast: +6% price growth (Handelsbanken)", "Employment growth: +92,000 YoY (Feb)", "Consumer confidence: ~95.2 (below average but stabilizing)", "Government 2026 GDP forecast: +2.8% (revised from 3.0%)"],
+        "what_is_priced": "The market prices Sweden's growth at face value but underweights the fiscal impulse. NATO defence spending at 2.8% of GDP is a structural demand driver with no precedent in Swedish post-Cold War history. The mortgage rule change (April) as a catalyst for housing recovery is also underpriced.",
+        "citations": [13, 14, 15, 22, 23]
+      },
+      "horizon_split_explanation": "Tactical neutrality reflects offsetting signals (dovish inflation vs strong manufacturing, services collapse vs growth momentum). Strategic bullishness reflects the growth advantage becoming more apparent as fiscal stimulus feeds through and the war's demand shock fades under the base case.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Risk Appetite & Sentiment",
+      "factor_number": 3,
+      "tactical_weight": 0.10,
+      "strategic_weight": 0.05,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 80,
+        "analysis": "The global risk environment is firmly risk-off, and SEK is among the most vulnerable G10 currencies in this regime. VIX at 30.6 is at the 85th percentile of its 1-year range, reflecting persistent fear pricing around the Iran-US war. The S&P 500 is down ~8% YTD, Euro Stoxx 50 is −10.1% from its February ATH, and European credit spreads have widened sharply — iTraxx Crossover at ~270bp. SEK's risk beta is high-negative: as a low-liquidity, small open economy currency with European manufacturing exposure, it sells off disproportionately during risk-off episodes. The safe-haven hierarchy is clear: USD >> CHF >> Gold >> JPY. SEK sits at the opposite end — it is the archetypal sell-first currency when VIX exceeds 25. The correlation structure is intact: EUR/SEK rises as European growth fears mount, USD/SEK surges on dollar safe-haven bid. ING noted SEK's correlation with the S&P 500 weakened during 2025, but the March selloff suggests this decorrelation was premature. There is no near-term catalyst for a sustained risk-on reversal absent ceasefire headlines.",
+        "key_data_points": ["VIX: 30.6 (85th percentile of 1Y range)", "S&P 500: ~5,450 (−8% YTD)", "Euro Stoxx 50: −10.1% from Feb ATH", "OMX Stockholm 30: −9.7% from Feb peak", "iTraxx Crossover: ~270bp", "Brent crude: $110.69/bbl (+~60% since pre-war)", "SEK: worst-performing G10 currency in March"],
+        "what_is_priced": "Risk markets price a prolonged but contained conflict. VIX at 30 is elevated but not crisis-level (>40). The market is not pricing Strait of Hormuz closure beyond April — if this occurs, VIX would spike to 40+ and EUR/SEK would test 11.00+. A ceasefire would trigger VIX collapse toward 20 and a violent SEK rally.",
+        "citations": [10, 24, 25, 26]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "analysis": "Over 1–6 months, the risk environment is unknowable with any confidence. Under the base case (conflict resolution by mid-2026), risk appetite recovers, VIX normalizes toward 18–22, and the risk-off premium in SEK unwinds. Under the downside case, risk-off deepens and SEK remains under pressure. The 50% confidence reflects this genuine uncertainty. Historically, SEK rallies sharply on risk normalization — the 2025 performance occurred precisely because the risk environment was benign. If 2026 reverts to that regime, the strategic case for SEK is strong. SEK's risk beta is a double-edged sword: it amplifies gains on the way up and losses on the way down. The market is pricing a permanent SEK risk discount that is too large relative to fundamentals but appropriate relative to the current volatility regime.",
+        "key_data_points": ["VIX term structure: backwardation (near-term event premium)", "S&P 500 YTD: −8% (recoverable under base case)", "iTraxx Main: above 60bp (widest since May 2025)", "SEK's 2025 beta to S&P 500: ~0.6 (weakened from ~0.8)", "Historical pattern: SEK recovers 80% of risk-off losses within 3 months of VIX normalization"],
+        "what_is_priced": "The strategic risk premium in SEK is roughly 2–3% above fair value (ING estimates EUR/SEK fair value at 10.50 vs current 10.85). If risk normalizes, this premium unwinds. If risk escalates, it widens.",
+        "citations": [9, 10, 24, 26]
+      },
+      "horizon_split_explanation": "Tactical bearish at high confidence reflects the clear risk-off regime and SEK's proven vulnerability. Strategic neutral at low confidence reflects the impossibility of forecasting war outcomes — the binary risk overwhelms all other considerations.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Flows & Positioning",
+      "factor_number": 4,
+      "tactical_weight": 0.10,
+      "strategic_weight": 0.06,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 45,
+        "analysis": "The absence of CFTC data for SEK is a fundamental limitation that reduces analytical confidence. CME SEK futures volume (~285 contracts/day) is negligible. The proxy evidence suggests pre-war long SEK positioning was elevated but not extreme. RBC confirmed end-February long SEK positions amplified the March selloff. SEB's H2 2025 survey showed the market marginally overweight SEK for the first time since 2021. The March selloff has likely cleaned out a substantial portion of speculative longs, reducing near-term squeeze risk. However, real money flows provide a structural SEK support floor: the AP fund restructuring (AP1 liquidated January 1, ~SEK 476bn split between AP3 and AP4) creates meaningful rebalancing flows through H1 2026. AP funds are legally constrained to limit foreign currency exposure to 40%, making them structural SEK buyers. Foreign ownership of SGBs is recovering — March 10Y bond attracted orders more than double issuance from international investors. Riksbank FX reserves: strategic allocation increased USD to 70%, with no active intervention. Net signal is neutral — speculative longs partially washed out, real money flows provide a floor.",
+        "key_data_points": ["CFTC SEK positioning: NOT AVAILABLE (below 20-trader threshold)", "CME SEK futures daily volume: ~285 contracts", "SEB survey: market marginally overweight SEK (H2 2025)", "RBC: long SEK positioning amplified March selloff", "AP fund AUM: ~SEK 2.2 trillion (40% foreign currency cap)", "AP1 liquidated: ~SEK 476bn redistributed Jan 2026", "March SGB 10Y auction: 2× oversubscribed"],
+        "what_is_priced": "The market has partially de-risked SEK longs through the March selloff, but positioning is not at bearish extremes. AP fund rebalancing flows are structural and not priced by short-term speculators — this creates a persistent but slow-acting bid for SEK.",
+        "citations": [5, 6, 7, 8, 27]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 50,
+        "analysis": "Over 1–6 months, the flow dynamics shift toward SEK-supportive. The AP fund restructuring generates persistent rebalancing flows through H1 2026 as AP3 and AP4 integrate AP1's ~SEK 476bn AUM. Historical patterns show AP fund dividend season rebalancing (April–May) is mildly SEK-positive. SGB issuance increasing from SEK 118bn (2025) to SEK 216bn (2026) could widen spreads, but the March auction showed strong demand. Foreign investor appetite for SGBs is recovering, creating SEK buying flows. The Riksbank's QT has halved its bond holdings since end-2022, making room for private sector demand. Swedish corporate dividend season generates repatriation flows as multinationals convert foreign earnings into SEK. Capital repatriation was a major driver of the 2025 rally — ING noted SEK 8.4bn North America fund outflows and SEK 8bn Sweden fund inflows in January 2026 alone.",
+        "key_data_points": ["SGB issuance 2026: SEK 216bn (up from SEK 118bn in 2025)", "March 2026 10Y SGB auction: 2× oversubscribed", "Capital repatriation (Jan 2026): SEK 8.4bn North America outflows, SEK 8bn Sweden inflows", "AP fund foreign currency cap: 40% of assets", "Riksbank QT: bond holdings halved since end-2022", "Dividend season: April–May historically SEK-positive"],
+        "what_is_priced": "The market underprices the structural flow supports — AP fund rebalancing and capital repatriation operate through different channels than futures markets. The SGB supply increase is priced but the demand side (strong auctions) suggests the market overestimates the negative impact.",
+        "citations": [6, 7, 9, 27, 28]
+      },
+      "horizon_split_explanation": "Tactical neutral reflects the data void (no CFTC) and partially unwound positioning. Strategic bullishness reflects the structural real-money flow supports (AP funds, dividend repatriation, SGB demand) that operate independently of speculative sentiment.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": "Positioning is not at extremes in either direction. The pre-war long SEK trade was consensus but not extreme — SEB's survey showed marginal overweight. The March selloff has unwound an estimated 60–70% of speculative longs. The contrarian case is mildly bullish: few remaining longs to squeeze, and the structural AP fund bid provides a floor. However, the contrarian signal is weak because the unwind is incomplete and the war introduces ongoing forced-selling risk.",
+      "contrarian_analysis_strategic": "The contrarian case at the strategic horizon is mildly bearish: if the consensus view (unanimous bank bullishness) proves wrong and the war persists, the gradual unwind of remaining speculative longs could extend through Q2–Q3. BofA's warning about crowded hedge fund positioning has partially played out but is not fully resolved. If EUR/SEK breaches 11.00, it could trigger stop-loss selling that overshoots fundamentals. The counterargument: real money flows are direction-insensitive and provide a floor that speculative selling cannot overcome permanently.",
+      "expression_assessment": null
+    },
+    {
+      "block": "External Balance & Terms of Trade",
+      "factor_number": 5,
+      "tactical_weight": 0.06,
+      "strategic_weight": 0.16,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 65,
+        "analysis": "Sweden's external balance is under acute pressure from the oil shock. The Q4 2025 current account surplus of SEK 78.1bn — while still positive — was the lowest since Q4 2022. The February 2026 goods trade balance collapsed to SEK 1.8bn (from SEK 6.3bn in January), reflecting surging energy import costs as Brent hit $110/bbl and TTF gas surged 75% to €55.80/MWh. Terms of trade index was declining at 96.94 and will deteriorate further in Q1 2026. The framework's commodity direction rules confirm adverse dynamics: TTF gas ↑ → −SEK. Sweden's positive exposures (LME metals, pulp) are mixed — copper corrected 19% to $12,220/MT, though iron ore is flat at $105.85 and pulp strengthened 12% to $1,710/ton. Sweden is a net energy importer, though exposure is lower than most European peers: 95%+ of electricity from renewables/nuclear, energy import dependency at 27%. Germany — largest trading partner at 10% of exports — shows deteriorating industrial data despite eurozone PMI hitting a 45-month high on precautionary restocking.",
+        "key_data_points": ["Current account: SEK 78.1bn (Q4 2025) — lowest since Q4 2022; ~5.5% of GDP", "Goods trade balance: SEK 1.8bn (Feb 2026) — down from SEK 6.3bn (Jan)", "Brent crude: $110.69/bbl (+~60%)", "TTF natural gas: €55.80/MWh (+~75%)", "LME Copper: $12,220/MT (−19% from Jan ATH)", "NBSK Pulp: $1,710/ton (+12%)", "Germany share of Swedish exports: 10%"],
+        "what_is_priced": "The market partially prices the energy shock — EUR/SEK's March rally reflects terms-of-trade deterioration. But the market may underestimate the speed of current account deterioration if Brent stays above $100/bbl. If Sweden moves into a goods trade deficit, it removes a pillar of the structural bull case.",
+        "citations": [13, 29, 30, 31, 32]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 55,
+        "analysis": "At the strategic horizon, Sweden's structural current account surplus (~5.5% of GDP) is a powerful anchor that has survived previous energy shocks. The surplus is driven by manufacturing exports and growing digital services (Spotify, Klarna, gaming). Even during the 2022 energy crisis, the current account remained in surplus. If oil normalizes toward $80–90/bbl, the terms-of-trade shock reverses and the current account widens again. Sweden's low energy import dependency (27% vs 58% EU average) means recovery would be faster than for peripheral European economies. NBSK pulp at $1,710/ton is a genuine positive for the forestry/paper sector. European manufacturing PMIs are strengthening (Eurozone 51.4, Germany 51.7), supporting Swedish export demand — though driven by precautionary restocking. Capital flow dynamics are structurally positive: ING showed SEK 8.4bn of North America fund outflows and SEK 8bn of Sweden fund inflows in January.",
+        "key_data_points": ["Structural C/A surplus: ~5.5% of GDP", "Energy import dependency: 27% (vs 58% EU average)", "Electricity: 95%+ renewable/nuclear", "Eurozone Mfg PMI: 51.4 — 45-month high", "Germany Mfg PMI: 51.7 — above 50 first time since Jun 2022", "Top 3 export partners: Germany (10%), Norway (9.5%), Finland (6.7%)", "72% of exports directed to Europe"],
+        "what_is_priced": "The market prices Sweden as a European economy vulnerable to the energy shock — directionally correct but over-simplified. What's underpriced is Sweden's relative resilience: at 27% energy import dependency and 95% fossil-free electricity, Sweden is far less exposed than Germany or Italy.",
+        "citations": [13, 29, 30, 31, 33]
+      },
+      "horizon_split_explanation": "Tactical bearish reflects the immediate terms-of-trade deterioration and collapsing goods trade balance. Strategic bullishness reflects Sweden's structural current account surplus, low energy dependency, and the base case assumption of oil price normalization.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Guidance & Credibility",
+      "factor_number": 6,
+      "tactical_weight": 0.07,
+      "strategic_weight": 0.12,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 60,
+        "analysis": "The Riksbank's communication has been deliberately balanced — a masterclass in two-sided guidance. The March 19 statement held rates unanimously, with Thedéen outlining two scenarios: hike if inflation persists, cut if demand weakens. March 25 named minutes revealed Anna Seim leaning hawkish, Per Jansson dovish, and new member Göran Hjelm unknown. With one vacancy, Thedéen holds the casting vote. The published rate path projects 1.75% flat through 2026. The gap between CB guidance and market pricing is narrow: OIS implies ~60% probability of one hike by year-end, broadly consistent with the two-scenario framework. The market trusts the Riksbank — it is among the world's most transparent central banks. Seim's upcoming speech on driving forces behind the krona is a notable signal — any explicit commentary on undervaluation or the exchange rate's impact on inflation would be hawkish.",
+        "key_data_points": ["March 19 decision: unanimous hold at 1.75%", "Two-scenario guidance: hike if inflation persists, cut if demand weakens", "Named minutes: Seim hawkish, Jansson dovish, Hjelm unknown", "Published rate path: 1.75% through 2026", "Market-implied vs CB path gap: ~10bp", "Next meeting: May 6–7", "Board composition: 5 of 6 seats filled"],
+        "what_is_priced": "The market is broadly aligned with the Riksbank's guidance — no material gap. The tactical opportunity is in Seim's upcoming speech: if she echoes verbal intervention on SEK undervaluation, it could provide a short-term bid. If she emphasizes inflation risks, the market would reprice toward a hike — also SEK-supportive.",
+        "citations": [1, 17, 18, 19, 34]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 55,
+        "analysis": "Over 1–6 months, the Riksbank's communication strategy becomes a strategic asset. Its transparency — published rate path, named minutes, explicit scenario analysis — reduces uncertainty premium and supports foreign investor confidence. The willingness to acknowledge SEK undervaluation signals institutional concern about the exchange rate. In 2015 and 2019, Riksbank commentary about excessive krona weakness preceded rally phases. The credibility dimension is high: the Riksbank executed 150bp of cuts in H2 2024 as communicated, demonstrating its rate path is actionable. The strategic risk is if the Board splits visibly on the war response. Hjelm's first substantive contribution (May meeting) will be closely watched as the swing vote. The May 6–7 meeting includes a Monetary Policy Update, with the full Report in June/July — by then the war trajectory should be clearer.",
+        "key_data_points": ["Riksbank transparency: among highest in G10", "Thedéen verbal intervention: repeated references to SEK undervaluation since 2024", "H2 2024: 150bp cuts executed as communicated", "Göran Hjelm: first substantive input expected May", "Next full MPR: June/July 2026", "Board vacancy: 1 of 6 seats unfilled"],
+        "what_is_priced": "The market prices Riksbank credibility at par. The strategic edge is that the market underprices the Riksbank's willingness to use verbal intervention on SEK as a quasi-policy tool — functioning as de facto hawkish guidance without a rate change.",
+        "citations": [1, 4, 9, 17, 34]
+      },
+      "horizon_split_explanation": "Tactical neutrality reflects balanced two-sided guidance and narrow market-CB gap. Strategic bullishness reflects the Riksbank's institutional transparency and willingness to verbally support SEK — a tailwind that compounds over time.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Event Risk & Geopolitics",
+      "factor_number": 7,
+      "tactical_weight": 0.05,
+      "strategic_weight": 0.05,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 75,
+        "analysis": "The Iran-US war is the dominant event risk. Operation Epic Fury has driven Brent to $110/bbl, TTF gas to €55.80/MWh, VIX to 30.6, and European equities down 10%+. For Sweden: energy import costs surge, European growth expectations are downgraded, and global risk-off drives forced selling of low-liquidity currencies. Trump stated a 4-week timetable on March 1, suggesting resolution by early April — but March 31 reports of willingness to end the war drove only modest futures gains, suggesting market skepticism. The Congress War Powers Resolution failed 212–219. Sweden's direct military exposure is low — focused on NATO Northern European defence. The IEA coordinated 400M-barrel emergency oil release has moderated but not eliminated the price impact. Tail risks include Strait of Hormuz closure beyond April 6 (~20%) and Iranian retaliation targeting European energy infrastructure (~5%).",
+        "key_data_points": ["Operation Epic Fury: began Feb 28, ongoing", "Brent crude: $110.69/bbl (+60%)", "Trump 4-week timetable: implied resolution by early April", "Congress War Powers vote: failed 212–219", "IEA emergency oil release: 400M barrels", "Tail risk: Strait of Hormuz extended closure (~20%)", "Sweden GDP forecast cut: 3.0% → 2.8%"],
+        "what_is_priced": "The market prices a contained conflict resolving within 1–2 months. Oil at $110 is elevated but below $130+ Strait of Hormuz disruption pricing. The asymmetry is mildly SEK-bullish on a probability-weighted basis (50% resolution > 20% escalation), but the near-term path is headline-dominated.",
+        "citations": [24, 25, 35, 36]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 45,
+        "analysis": "Over 1–6 months, the war's trajectory is unknowable, but two additional event risks enter. First, the Swedish general election on September 13, 2026. Centre-left parties lead in polls (Social Democrats ~32.9%). A potential government change could shift nuclear energy policy and introduce Euro adoption referendum debate. Second, the NATO Summit in Ankara (July) will pressure Sweden to confirm defence spending trajectory. The Spring Fiscal Policy Bill (April 13) will detail updated fiscal framework. Housing market recovery depends on confidence — new mortgage rules (April) could spark transactions or fail if war depresses sentiment. Banking sector risks are elevated but contained: Swedbank US AML investigation unresolved, Finansinspektionen ordered payments infrastructure remediation by December 2026.",
+        "key_data_points": ["Swedish general election: September 13, 2026", "Social Democrats polling: ~32.9% (lead)", "NATO Summit: Ankara, July 2026", "Spring Fiscal Policy Bill: April 13", "New mortgage rules: April 2026", "Swedbank US AML investigation: unresolved", "Euro adoption referendum: proposed (low probability)"],
+        "what_is_priced": "The September election is not priced — no political risk premium exists at 5+ months. The market will begin pricing election risk July–August. A Social Democrat-led government is consensus and mildly SEK-neutral. The Euro referendum is not priced and extremely unlikely to pass.",
+        "citations": [35, 36, 37, 38]
+      },
+      "horizon_split_explanation": "Tactical bearish at high confidence reflects the dominant ongoing war risk. Strategic neutral at low confidence reflects war uncertainty, election risk, and domestic event complexity — no single directional signal dominates.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Fiscal & Sovereign Risk",
+      "factor_number": 8,
+      "tactical_weight": 0.04,
+      "strategic_weight": 0.07,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 70,
+        "analysis": "Sweden's fiscal position is among the strongest in G10 and provides a clear comparative advantage. AAA/Aaa/AAA from all three agencies with stable outlooks places Sweden in an elite group of ~11 countries. Debt/GDP at ~35% is second-lowest in G10. The budget deficit of −2.4% of GDP is driven by productive spending: NATO defence at 2.8% of GDP, nuclear energy investment, income tax cuts, and food VAT reduction. The fiscal surplus target is being formally abandoned for a balanced budget target. Bond issuance rising from SEK 118bn to SEK 216bn — March 10Y auction 2× oversubscribed. SGB yields below Bund yields at 2Y and 10Y reflect superior creditworthiness. In a risk-off environment where sovereign credit quality matters, Sweden's AAA rating is a genuine safe-haven attribute that partially offsets SEK's high-beta weakness.",
+        "key_data_points": ["Sovereign rating: AAA/Aaa/AAA (all stable)", "Debt/GDP: ~35% (2nd lowest in G10)", "Budget deficit: −2.4% of GDP (2026 EC forecast)", "Defence spending: 2.8% of GDP (heading to 3.5% by 2030)", "SGB issuance: SEK 216bn — March auction 2× oversubscribed", "SGB 10Y < Bund 10Y: Sweden trades through Germany"],
+        "what_is_priced": "The market fully prices Sweden's AAA status. What's partially underpriced is the fiscal expansion's growth multiplier: NATO defence spending is front-loaded, domestically sourced, and has no precedent in Sweden's post-Cold War history.",
+        "citations": [23, 27, 28, 39, 40]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 65,
+        "analysis": "Sweden's fiscal trajectory is a strategic tailwind. The shift to balanced budget target frees ~SEK 25bn/year. Defence spending trajectory (2.8% to 3.5% by 2030, SEK 300bn authorized loans) is the most aggressive expansion in modern Swedish history. Nuclear restart framework (SEK 220bn) supports construction employment and reduces long-term energy dependency. The IMF assessed sovereign stress risk as low with substantial fiscal space. Compared to peers: UK faces consolidation, France faces EU Excessive Deficit Procedure risks, Japan's debt dynamics are unsustainable, US faces bipartisan deficit expansion. Sweden can expand fiscally while maintaining AAA — a rare combination attracting quality-sensitive capital inflows.",
+        "key_data_points": ["IMF: 'low' sovereign stress risk, 'substantial fiscal space'", "Fiscal surplus → balanced budget target: ~SEK 25bn/year freed", "NATO defence loans: SEK 300bn authorized", "Nuclear restart: SEK 220bn framework", "Debt anchor: 35% of GDP (within tolerance)", "Spring Fiscal Policy Bill: April 13", "Sweden vs UK debt/GDP: ~35% vs ~100%"],
+        "what_is_priced": "The market prices Sweden as a AAA safe haven but underprices the growth impulse from fiscal expansion. If the Spring Fiscal Policy Bill reveals further spending, the growth forecast upgrade would be SEK-positive.",
+        "citations": [4, 23, 28, 39, 40]
+      },
+      "horizon_split_explanation": "Bullish at both horizons. Confidence is higher strategically because fiscal dynamics compound over time — defence and nuclear programs generate multi-year growth support that becomes more visible as 2026 progresses.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Market Structure & Volatility",
+      "factor_number": 9,
+      "tactical_weight": 0.05,
+      "strategic_weight": 0.03,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 65,
+        "analysis": "Market structure has shifted decisively against SEK. USD/SEK's break above its 200-DMA (~9.30) is the most significant event — CTA capital has flipped from buying SEK dips to selling rallies. EUR/SEK is sitting at its 200-DMA (~10.84), making the next 50 pips decisive. SEK pairs are among the least liquid in G10 — spreads widen outside European hours, and March demonstrated characteristic gap risk. Estimated USD/SEK 1M IV of ~16.5% is well above sub-10% pre-war levels, placing IV at the ~80th percentile. Risk reversals are skewed toward SEK puts, reflecting hedging demand. Realized volatility exceeded IV during the acute phase (22% RV vs 16.5% IV). Vol term structure is in backwardation — near-term event premium. The 200-DMA break triggers systematic selling flows that reinforce bearish momentum.",
+        "key_data_points": ["USD/SEK 200-DMA: ~9.30 (broken above)", "EUR/SEK 200-DMA: ~10.84 (testing from below)", "Estimated USD/SEK 1M IV: ~16.5% (>75th percentile)", "Estimated RV 20d: ~22% (annualized)", "Key resistance: EUR/SEK 11.00, USD/SEK 9.50", "Key support: EUR/SEK 10.53, USD/SEK 9.00"],
+        "what_is_priced": "The 200-DMA break means systematic flows are selling SEK rallies. Options are expensive (IV >75th percentile), making directional options costly. Spot-based positioning is more efficient. The market prices continued near-term weakness but not a structural breakdown.",
+        "citations": [2, 8, 10, 26]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "analysis": "Over 1–6 months, market structure becomes less deterministic. If war resolution triggers risk-on reversal, EUR/SEK would snap back below its 200-DMA within days, re-establishing the bullish SEK trend. If conflict persists, EUR/SEK establishes a new range of 10.80–11.10. Volatility should normalize regardless of direction — backwardation implies the market expects extreme near-term vol to fade. At 3M+ tenors, IV is closer to historical averages, making options more reasonably priced. Structural illiquidity is permanent and means any fundamental catalyst produces outsized moves in both directions.",
+        "key_data_points": ["200-DMA as anchor: EUR/SEK 10.84, USD/SEK 9.30", "Vol term structure: backwardation (expected to normalize)", "Historical: SEK recovers 80% of risk-off losses within 3 months", "MA alignment shift needs EUR/SEK sustained below 10.70 (bullish) or above 11.10 (bearish)"],
+        "what_is_priced": "Term structure backwardation prices a near-term event premium that fades over 3–6 months. The market expects the war to resolve or become priced in — either outcome normalizes vol.",
+        "citations": [2, 8, 10]
+      },
+      "horizon_split_explanation": "Tactical bearish reflects adverse structure (200-DMA breaks, elevated vol, systematic flows against SEK). Strategic neutral reflects the binary war catalyst — structure flips entirely depending on outcome.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": "Given elevated volatility (1M IV ~80th percentile), options are expensive for directional SEK longs. The fundamental view should be expressed through spot or forwards rather than long options. For SEK bears (tactical), short SEK via spot is well-compensated by carry. For eventual SEK bulls (strategic), wait for IV to decline below the 50th percentile (likely after war resolution) before establishing long options. If IV remains elevated and the view is bullish, selling EUR/SEK puts captures the elevated vol premium while establishing long SEK exposure at better levels. The RV > IV dynamic during the March shock has normalized, so the event premium is now in IV — favoring option sellers over buyers near-term."
+    },
+    {
+      "block": "USD Liquidity & Funding",
+      "factor_number": 10,
+      "tactical_weight": 0.11,
+      "strategic_weight": 0.12,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 65,
+        "analysis": "Global USD liquidity conditions are tightening, creating a hostile environment for small, low-carry currencies like SEK. SOFR at 3.63% is in-band with Fed Funds. The Fed ended QT December 2025, balance sheet at ~$6.7 trillion. ON RRP fully drained to ~$2.8 billion. DXY at ~100.0–100.5 is at a 10-month high on safe-haven demand. The dollar smile framework suggests USD is transitioning from the weak middle to the risk-off left side. SEK/USD cross-currency basis data is not publicly available but should have widened as the war increases USD funding demand. The Riksbank maintains Fed swap lines — no usage reported. Swedish banks are highly dependent on international capital markets (Riksbank FSR warning). The Fed's decision to push the first cut to December reinforces the elevated USD carry advantage against SEK.",
+        "key_data_points": ["SOFR: 3.63%", "Fed balance sheet: ~$6.7 trillion (QT ended Dec 2025)", "ON RRP: ~$2.8 billion (fully drained)", "DXY: ~100.0–100.5 (+3% MoM)", "TGA: ~$888 billion", "Fed-Riksbank spread: +188bp", "Fed first cut: pushed to Dec 2026"],
+        "what_is_priced": "The market prices USD strength as safe-haven demand, not structural shortage. If the war escalates and USD funding stress appears in cross-currency basis, SEK would be among the first casualties. The market does not fully price the tail risk of USD funding stress during a prolonged conflict.",
+        "citations": [10, 24, 41, 42]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 55,
+        "analysis": "The strategic USD picture depends on the Fed's path and war resolution. Pre-war consensus was for 2–3 Fed cuts in 2026, which would narrow the USD-SEK differential and weaken the dollar. The war pushed the first cut to December, with risk of no cuts if inflation reaccelerates. March FOMC (11-1 hold) showed division — one member dissented for a cut. The Powell-Warsh leadership transition adds uncertainty. If war resolves and the Fed resumes easing, the dollar smile shifts to the weak middle — best for SEK. If the Fed holds or hikes, the dollar stays strong. NY Fed signaled soon returning to balance sheet expansion, which would be marginally USD-negative. The Riksbank FSR warning about Swedish banks' dependence on international capital markets is a structural vulnerability.",
+        "key_data_points": ["Fed rate path: 1 cut by Dec 2026; 0 cuts if inflation persists", "Powell term: expires May 2026; Warsh nominated", "FOMC March: 11-1 (1 dissent for cut)", "NY Fed: signaled 'soon' return to balance sheet expansion", "Dollar smile: transitioning middle to left side", "Swedish banks: highly dependent on wholesale funding", "Pre-war: 2–3 Fed cuts expected (now 0–1)"],
+        "what_is_priced": "The market prices 1 Fed cut in H2 2026 — roughly 50% of pre-war expectations. If war resolves and cuts re-accelerate, USD weakens more than currently priced. The strategic edge: the market's repricing of Fed cuts has been aggressive relative to the war's actual persistence probability.",
+        "citations": [10, 24, 41, 42]
+      },
+      "horizon_split_explanation": "Tactical bearish reflects immediate USD liquidity tightening, elevated DXY, and safe-haven bid. Strategic bearish (less intense) reflects the same headwind at reduced magnitude — the war resolution base case would reverse many dynamics, but the fundamental USD funding advantage over SEK persists regardless.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    }
+  ],
+
+"synthesis": {
+    "tactical": {
+      "net_stance": "Bearish",
+      "conviction": 2,
+      "overall_confidence": 58,
+      "weighted_score": {
+        "calculation": [
+          {"factor": "Policy & Rates", "stance_score": -1.0, "confidence_pct": 70, "confidence_adjusted_score": -0.70, "weight": 0.24, "weighted_contribution": -0.168},
+          {"factor": "Inflation & Growth", "stance_score": 0.0, "confidence_pct": 60, "confidence_adjusted_score": 0.00, "weight": 0.18, "weighted_contribution": 0.000},
+          {"factor": "Risk Appetite", "stance_score": -1.0, "confidence_pct": 80, "confidence_adjusted_score": -0.80, "weight": 0.10, "weighted_contribution": -0.080},
+          {"factor": "Flows & Positioning", "stance_score": 0.0, "confidence_pct": 45, "confidence_adjusted_score": 0.00, "weight": 0.10, "weighted_contribution": 0.000},
+          {"factor": "External Balance", "stance_score": -1.0, "confidence_pct": 65, "confidence_adjusted_score": -0.65, "weight": 0.06, "weighted_contribution": -0.039},
+          {"factor": "Guidance & Credibility", "stance_score": 0.0, "confidence_pct": 60, "confidence_adjusted_score": 0.00, "weight": 0.07, "weighted_contribution": 0.000},
+          {"factor": "Event Risk", "stance_score": -1.0, "confidence_pct": 75, "confidence_adjusted_score": -0.75, "weight": 0.05, "weighted_contribution": -0.038},
+          {"factor": "Fiscal & Sovereign", "stance_score": 1.0, "confidence_pct": 70, "confidence_adjusted_score": 0.70, "weight": 0.04, "weighted_contribution": 0.028},
+          {"factor": "Market Structure", "stance_score": -1.0, "confidence_pct": 65, "confidence_adjusted_score": -0.65, "weight": 0.05, "weighted_contribution": -0.033},
+          {"factor": "USD Liquidity", "stance_score": -1.0, "confidence_pct": 65, "confidence_adjusted_score": -0.65, "weight": 0.11, "weighted_contribution": -0.072}
+        ],
+        "net_score": -0.402,
+        "interpretation": "Net score of −0.40 maps to moderate bearish conviction. Six factors bearish, three neutral, one bullish. The bearish signal is broad-based but not extreme — no factor exceeds 80% confidence, and the three neutrals prevent the score from reaching the −0.60 high-conviction threshold.",
+        "mapping_to_conviction": "Score −0.40 → Conviction 2/5 (moderate bearish). Below −0.30 threshold for conviction 2, above −0.60 threshold for conviction 3."
+      },
+      "rationale": "The tactical bearish case rests on five reinforcing headwinds: (1) negative carry against virtually every G10 peer (−188bp vs USD, −225bp vs NOK, −200bp vs GBP), concentrated in the dominant Factor 1 at 0.24 weight; (2) risk-off regime (VIX 30.6, iTraxx Crossover 270bp) punishing SEK's high-beta, low-liquidity profile through Factor 3; (3) immediate terms-of-trade deterioration from the oil shock (Brent $110, goods trade collapsed to SEK 1.8bn) through Factor 5; (4) adverse market structure following the 200-DMA break in USD/SEK through Factor 9; and (5) tightening USD funding and elevated DXY at ~100.5 through Factor 10. These channels reinforce each other: risk-off strengthens the dollar (Factor 10), which widens the carry differential (Factor 1), which triggers further SEK selling (Factor 9), which worsens terms of trade via weaker-krona import pass-through (Factor 5). The only countervailing force is Sweden's fiscal strength (Factor 8, +0.028 contribution) — genuinely differentiated but too small-weighted to offset the broad bearish signal. The edge versus consensus is limited: the market has already repriced SEK sharply lower, so near-term downside from current levels is more moderate (~2–3% to EUR/SEK 11.00) than potential upside on war resolution (~3–4% to EUR/SEK 10.50). This asymmetry limits conviction to 2/5 despite the clear directional signal. The primary catalyst is headline-driven: any ceasefire announcement would invalidate the tactical bearish view within hours.",
+      "g10_ranking": {
+        "rank": 10,
+        "out_of": 11,
+        "beats": ["JPY"],
+        "loses_to": ["USD", "CHF", "EUR", "GBP", "CAD", "NOK", "AUD", "NZD", "SGD"],
+        "commentary": "SEK's 10th-place ranking reflects its unique combination of low carry, high beta to European risk, and structural illiquidity — a toxic mix in the current risk-off environment. Only JPY (with even worse energy import exposure and BoJ constraints) ranks behind. The ranking would jump to 5th–6th on war resolution."
+      },
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "outcome": "EUR/SEK 10.90–11.00",
+          "conditions": ["Brent $100–115", "VIX 25–32", "No ceasefire", "Riksbank on hold at May meeting"],
+          "path": "EUR/SEK grinds higher in a headline-driven range with intraday volatility of 50–80 pips. Q2 seasonal supports (dividend repatriation) provide a moderate floor preventing disorderly SEK collapse."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "outcome": "EUR/SEK snaps back to 10.50–10.65",
+          "conditions": ["Ceasefire by mid-April", "Brent normalizes toward $85–90", "VIX drops below 22"]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "outcome": "EUR/SEK breaks above 11.00 toward 11.10–11.20",
+          "conditions": ["Brent above $125", "VIX above 35", "Swedish services PMI below 45"]
+        }
+      },
+      "path_expectation": "EUR/SEK grinds higher over the next 2 weeks in a headline-driven range of 10.80–11.00, with intraday volatility of 50–80 pips driven by war updates. The path is grind-higher with spike risk on escalation headlines and snapback risk on de-escalation. Pullbacks toward 10.70 are buying opportunities for tactical EUR/SEK longs; breaks above 11.00 signal acceleration. Q2 seasonal supports (dividend repatriation, AP fund rebalancing) provide a moderate floor that prevents a disorderly SEK collapse.",
+      "conviction_ladder": {
+        "current": 2,
+        "increase_to_5_if": ["Strait of Hormuz closed >5 days and Swedish services PMI below 45", "SGB-Bund spread inverts (SGB yields above Bund) and EUR/SEK sustains above 11.20"],
+        "increase_to_4_if": ["VIX sustains above 35 and Brent above $125", "Swedish services PMI below 45 for 2 consecutive months"],
+        "decrease_to_3_if": ["Condition not applicable — already below 3"],
+        "decrease_to_2_if": ["Current level — already at 2"],
+        "decrease_to_1_if": ["Ceasefire announced and Brent falls below $90", "VIX below 22 and EUR/SEK back below 10.70"]
+      },
+      "risk_reward": {
+        "base_case_payoff": "EUR/SEK 10.85 → 10.95 = ~+100 pips / ~+0.9% (modest)",
+        "downside_case_loss": "If long EUR/SEK and war resolves: 10.85 → 10.55 = −300 pips / −2.8%",
+        "risk_reward_ratio": "~1:1 on base case vs reversal risk; unfavorable for new entries",
+        "asymmetry_assessment": "Unfavorable for new tactical shorts on SEK at current levels — the war premium is partially priced. Better to sell SEK on rallies toward EUR/SEK 10.70 rather than at 10.85."
+      }
+    },
+    "strategic": {
+      "net_stance": "Bullish",
+      "conviction": 3,
+      "overall_confidence": 55,
+      "weighted_score": {
+        "calculation": [
+          {"factor": "Policy & Rates", "stance_score": 0.0, "confidence_pct": 55, "confidence_adjusted_score": 0.00, "weight": 0.24, "weighted_contribution": 0.000},
+          {"factor": "Inflation & Growth", "stance_score": 1.0, "confidence_pct": 55, "confidence_adjusted_score": 0.55, "weight": 0.10, "weighted_contribution": 0.055},
+          {"factor": "Risk Appetite", "stance_score": 0.0, "confidence_pct": 50, "confidence_adjusted_score": 0.00, "weight": 0.05, "weighted_contribution": 0.000},
+          {"factor": "Flows & Positioning", "stance_score": 1.0, "confidence_pct": 50, "confidence_adjusted_score": 0.50, "weight": 0.06, "weighted_contribution": 0.030},
+          {"factor": "External Balance", "stance_score": 1.0, "confidence_pct": 55, "confidence_adjusted_score": 0.55, "weight": 0.16, "weighted_contribution": 0.088},
+          {"factor": "Guidance & Credibility", "stance_score": 1.0, "confidence_pct": 55, "confidence_adjusted_score": 0.55, "weight": 0.12, "weighted_contribution": 0.066},
+          {"factor": "Event Risk", "stance_score": 0.0, "confidence_pct": 45, "confidence_adjusted_score": 0.00, "weight": 0.05, "weighted_contribution": 0.000},
+          {"factor": "Fiscal & Sovereign", "stance_score": 1.0, "confidence_pct": 65, "confidence_adjusted_score": 0.65, "weight": 0.07, "weighted_contribution": 0.046},
+          {"factor": "Market Structure", "stance_score": 0.0, "confidence_pct": 50, "confidence_adjusted_score": 0.00, "weight": 0.03, "weighted_contribution": 0.000},
+          {"factor": "USD Liquidity", "stance_score": -1.0, "confidence_pct": 55, "confidence_adjusted_score": -0.55, "weight": 0.12, "weighted_contribution": -0.066}
+        ],
+        "net_score": 0.219,
+        "interpretation": "Net score of +0.22 maps to mildly bullish conviction. Five factors bullish, four neutral, one bearish. The bullish signal is driven by high-weighted External Balance (0.16 weight, +0.088) and Guidance (0.12 weight, +0.066). USD Liquidity (−0.066) partially offsets.",
+        "mapping_to_conviction": "Score +0.22 → Conviction 3/5 (moderate bullish). Above +0.15 threshold for conviction 3, below +0.40 threshold for conviction 4."
+      },
+      "rationale": "The strategic bull case rests on five structural pillars that strengthen over time. First, Sweden's current account surplus (~5.5% of GDP) with low energy dependency (27% vs 58% EU average) means the terms-of-trade shock is smaller and more reversible — Factor 5 contributes +0.088 at the highest strategic weight. Second, the Riksbank's transparency and willingness to verbally support SEK provides a communication tailwind (Factor 6, +0.066) that compounds as the Board's speeches accumulate. Third, fiscal expansion (defence at 2.8% of GDP, nuclear investment, tax cuts) supports above-trend growth without jeopardizing AAA (Factor 8, +0.046). Fourth, structural real-money flows (AP fund rebalancing, capital repatriation, SGB foreign demand) provide a persistent bid (Factor 4, +0.030). Fifth, GDP growth at +2.1% YoY outpaces the eurozone, UK, and Canada (Factor 2, +0.055). The restraining factor is USD funding (Factor 10, −0.066): the Fed's higher-for-longer stance maintains the carry headwind. The strategic mispricing is in valuation: the IMF's 8–22% REER undervaluation, combined with BIS REER at 14–16% below the 20-year average, implies significant upside under normalization. The market demonstrated (via the 2025 rally) that it can close the valuation gap when conditions allow. The path is not a straight line: SEK likely weakens further in April before recovering through May–August as the war de-escalates, risk appetite normalizes, and Sweden's growth advantage becomes clearly visible in Q1 and Q2 data releases. The actionability of this view is high — EUR/SEK at 10.90–11.00 offers an attractive entry point for strategic longs targeting 10.50–10.65 by Q4.",
+      "g10_ranking": {
+        "rank": 5,
+        "out_of": 11,
+        "beats": ["JPY", "NZD", "GBP", "CAD", "AUD"],
+        "loses_to": ["CHF", "SGD", "EUR", "NOK", "USD"],
+        "commentary": "SEK's strategic ranking improves dramatically from tactical (10th → 5th) because structural positives (C/A surplus, AAA, fiscal expansion, undervaluation) receive higher weights. SEK is the quintessential 'buy the dip' G10 currency — a strong fundamental profile currently discounted by a transient risk-off shock."
+      },
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "outcome": "EUR/SEK 10.50–10.65 by Q4 2026",
+          "conditions": ["Ceasefire by mid-2026", "Brent normalizes to $80–90", "VIX below 22", "Riksbank holds 1.75%", "Eurozone growth disappoints"],
+          "path": "SEK weakens in April (EUR/SEK testing 11.00), stabilizes May as ceasefire talks progress, rallies June–September as risk normalizes and Sweden's growth advantage appears in data."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "outcome": "EUR/SEK 10.20–10.30",
+          "conditions": ["Ceasefire by April", "Fed cuts 2× in H2 2026", "Swedish GDP exceeds 3.0%"]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "outcome": "EUR/SEK 11.00–11.20",
+          "conditions": ["Brent above $110 through Q3", "Swedish services PMI below 46 for 3+ months", "Riksbank cuts to 1.50%"]
+        }
+      },
+      "path_expectation": "The expected path is a swoosh — SEK weakens further in early April (EUR/SEK testing 11.00), stabilizes in mid-April as ceasefire talks progress, then rallies through May–August as risk normalizes and Sweden's growth advantage becomes visible in Q1 data releases. The May 6–7 Riksbank meeting provides a stabilization anchor. The September 13 election creates a secondary risk event that could cause a brief pause. The overall shape is a U-recovery: down in April, flat in May, recovering June–September with the bulk of the move in June–July as H1 data confirms growth outperformance.",
+      "conviction_ladder": {
+        "current": 3,
+        "increase_to_5_if": ["Peace agreement signed, Brent below $80", "Riksbank rate path signals normalization toward 2.50% neutral and EUR/SEK below 10.50"],
+        "increase_to_4_if": ["Ceasefire confirmed and EUR/SEK breaks below 10.70", "Swedish Mfg PMI sustained above 55"],
+        "decrease_to_3_if": ["Current level"],
+        "decrease_to_2_if": ["War persists past June and Swedish services PMI below 46 for 2 months", "Riksbank cuts rates"],
+        "decrease_to_1_if": ["War escalation to direct European impact", "Swedish housing crisis or bank stress"]
+      },
+      "risk_reward": {
+        "base_case_payoff": "EUR/SEK 10.85 → 10.57 = ~−280 pips / ~−2.6% (SEK strengthening)",
+        "downside_case_loss": "If long SEK: EUR/SEK 10.85 → 11.10 = +250 pips / +2.3%",
+        "risk_reward_ratio": "1.1:1 on base case; 2.4:1 on upside case. Probability-weighted expected payoff: +1.7%",
+        "asymmetry_assessment": "Favorable for strategic SEK longs — probability-weighted payoff is positive. The base case (50%) delivers +2.6% and the upside (25%) delivers +5.5%, easily offsetting the downside (25%) of −2.3%."
+      }
+    },
+    "consensus_divergence": {
+      "consensus_view": "All major banks (ING, BofA, Nordea, SEB, Handelsbanken, MUFG) project EUR/SEK at 10.30–10.50 by year-end 2026 and USD/SEK at 8.50–8.70. This represents one of the most unanimous consensus trades in G10 FX — unanimous SEK bullishness with only BNP Paribas as a contrarian.",
+      "our_view": "We agree on direction (SEK appreciation) but differ on timing and magnitude. Our base case is EUR/SEK 10.57 at 6 months — modestly above the most aggressive bank targets. We are less bullish than ING (10.30) and Nordea (10.50), roughly in line with Barclays (10.75) and Handelsbanken (~10.60) at 6 months.",
+      "divergence_magnitude": "~30–50 pips above the most aggressive consensus targets (ING at 10.30) for the 6-month horizon",
+      "why_we_differ": "The consensus underweights three factors that our framework captures: (1) the Norges Bank-Riksbank rate divergence (225bp and widening), which puts sustained pressure on NOK/SEK and creates a relative-value headwind; (2) the services sector contraction (PMI 48.3) that could deepen into a domestic recession if the war persists; (3) the September election uncertainty that introduces a political risk premium in H2 that pre-war forecasts ignore. All consensus forecasts were set before the Iran war.",
+      "payoff_if_right": "EUR/SEK at 10.57 vs consensus 10.40 = ~170 pips. Moderate payoff — the directional call is aligned with consensus, only the magnitude differs.",
+      "risk_if_wrong": "If consensus is right (EUR/SEK reaches 10.40), we have left ~150 pips on the table by being insufficiently bullish — a manageable opportunity cost with no downside risk."
+    },
+    "cross_currency_relative_value": {
+      "cleanest_bullish_expression": {
+        "pair": "Short EUR/SEK",
+        "rationale": "Isolates Swedish vs eurozone fundamentals, avoids USD directionality, and captures the ECB-Riksbank rate differential narrowing under war resolution. EUR/SEK has the best liquidity among SEK crosses outside USD/SEK. Sweden's growth advantage over the eurozone (+2.1% vs +1.2% YoY) and the SGB-Bund spread narrowing potential provide a clear bilateral edge."
+      },
+      "cleanest_bearish_expression": {
+        "pair": "Long NOK/SEK",
+        "rationale": "Captures the Norges Bank hawkish pivot (4.00% and rising) vs Riksbank hold (1.75%), the oil-producer-vs-oil-importer divergence during the Iran war, and the widening carry differential. NOK/SEK at 0.9749 near 52-week highs has both momentum and fundamental support. The 225bp rate differential is the widest in modern Scandinavian history."
+      },
+      "relative_value_pairs": [
+        {"pair": "Long NOK/SEK", "thesis": "Pure Scandinavian energy divergence trade. 225bp carry, oil at $110 favouring NOK, Norges Bank signaling hikes. Target: NOK/SEK 1.00+. Risk: war resolution removes NOK's oil premium."},
+        {"pair": "Long SEK/JPY", "thesis": "Both low-carry currencies, but Japan's energy import dependency (~99%) far exceeds Sweden's (~27%). SEK/JPY benefits from any oil normalization. Currently 17.03 — target ~18.0 on war resolution."}
+      ]
+    },
+    "cross_horizon_consistency": {
+      "aligned": false,
+      "summary": "Tactical bearish (2/5) diverges from strategic bullish (3/5), creating a classic 'tactically patient bull' profile.",
+      "divergence_explanation": "The divergence is mechanistic: the war-driven risk-off regime dominates factors with high tactical weights (Policy 0.24, Risk 0.10, USD Liquidity 0.11 = 0.45 combined) while structural positives dominate high strategic-weight factors (External Balance 0.16, Guidance 0.12, Fiscal 0.07 = 0.35 combined). The war amplifies short-term vulnerabilities while having limited impact on Sweden's structural fundamentals.",
+      "inflection_point": "War resolution or ceasefire announcement — the binary event that would flip tactical from bearish to bullish and align both horizons",
+      "catalyst_for_transition": "Ceasefire headlines, VIX dropping below 22, or Brent normalizing below $90 would trigger the tactical-to-strategic alignment",
+      "trading_implication": "Do not establish strategic SEK longs at current levels. Wait for the tactical selloff to exhaust (VIX below 25, EUR/SEK failing to break 11.00, or ceasefire) before building medium-term positions. Optimal entry zone: EUR/SEK 10.90–11.00 with a 6-month target of 10.50–10.65."
+    },
+    "forward_vs_spot": {
+      "spot": "EUR/SEK 10.85",
+      "forwards": {
+        "1m": {"points": "~−10", "outright": "~10.84", "annualised_pct": "−1.1% (SEK appreciating in forwards due to mild carry advantage vs EUR)"},
+        "3m": {"points": "~−30", "outright": "~10.82", "annualised_pct": "−1.1%"},
+        "6m": {"points": "~−60", "outright": "~10.79", "annualised_pct": "−1.1%"}
+      },
+      "expected_spot": {
+        "1m": "10.90",
+        "3m": "10.75",
+        "6m": "10.57"
+      },
+      "edge": {
+        "1m": "−60 pips (forward implies 10.84, we expect 10.90 — market too optimistic on SEK near-term)",
+        "3m": "+70 pips (forward implies 10.82, we expect 10.75 — our view more bullish than forwards)",
+        "6m": "+220 pips (forward implies 10.79, we expect 10.57 — meaningful edge as war resolution drives spot stronger than carry-implied drift)"
+      },
+      "interpretation": "Forward points estimated from the Riksbank-ECB rate differential (~25bp), implying gradual SEK appreciation of ~1.1% annualized. Our expected spot at 6 months (10.57) is ~220 pips stronger than the forward-implied 10.79 — this is the quantifiable edge. The discrepancy reflects our expectation that war resolution and Sweden's growth advantage will drive spot moves exceeding the carry-implied drift. At 1 month, we expect SEK to underperform forwards (war still ongoing), but from 3 months onward the fundamental thesis takes over."
+    }
+  },
+
+  "forward_looking": {
+    "key_catalysts": [
+      {"date": "2026-04-01", "event": "Swedish Food VAT Cut Takes Effect (12% → 6%)", "expected_impact": "Neutral", "rationale": "Mechanically lowers CPIF by ~0.5–0.7pp in upcoming readings, potentially pushing toward 1.0%. Fully flagged by the Riksbank and anticipated by markets. Risk of dovish overshoot if magnitude surprises.", "priced_in": "Fully", "bilateral_relevance": "EUR/SEK, USD/SEK", "citations": [1, 13]},
+      {"date": "2026-04-09", "event": "SCB CPI Flash Estimate (March Reference)", "expected_impact": "Ambiguous", "rationale": "Pre-VAT-cut reference period. CPIF likely 1.5–1.8%. Significant undershoot (<1.5%) would strengthen cut case. Upside surprise (>2.0% on energy pass-through) validates hawkish scenario and supports SEK.", "priced_in": "Partially — direction known, magnitude uncertain", "bilateral_relevance": "EUR/SEK, USD/SEK", "citations": [13, 14]},
+      {"date": "2026-04-13", "event": "Swedish Spring Fiscal Policy Bill", "expected_impact": "Bullish", "rationale": "Details updated GDP forecasts, defence spending, and potentially additional stimulus. A larger-than-expected fiscal expansion would support growth expectations. The government already cut its 2026 GDP forecast from 3.0% to 2.8%.", "priced_in": "Partially — defence trajectory known; additional measures may surprise", "bilateral_relevance": "EUR/SEK, SGB market", "citations": [23, 39]},
+      {"date": "2026-04-28", "event": "FOMC Decision", "expected_impact": "Neutral", "rationale": "Markets price ~86% hold probability. Dovish surprise or hint of June cut would weaken USD and support SEK. Hawkish surprise would strengthen USD and weaken SEK.", "priced_in": "Fully (hold)", "bilateral_relevance": "USD/SEK", "citations": [41]},
+      {"date": "2026-04-30", "event": "ECB Decision", "expected_impact": "Bearish", "rationale": "Expected hold at 2.00%. Hawkish tilt referencing energy inflation would widen ECB-Riksbank differential and push EUR/SEK higher. Dovish surprise acknowledging growth risks would support SEK.", "priced_in": "Fully (hold)", "bilateral_relevance": "EUR/SEK", "citations": [17]},
+      {"date": "2026-05-06", "event": "Riksbank Decision + Monetary Policy Update", "expected_impact": "Ambiguous", "rationale": "Consensus expects hold at 1.75%. Key signal is the updated rate path and scenario analysis. If the Riksbank narrows its two-scenario framework, the directional signal would be powerful.", "priced_in": "Hold fully priced; scenario guidance partially", "bilateral_relevance": "All SEK crosses", "citations": [1, 17, 18]},
+      {"date": "2026-05-07", "event": "Norges Bank Decision", "expected_impact": "Bearish", "rationale": "Markets price meaningful probability of +25bp to 4.25%. Hike would widen Norges Bank-Riksbank spread to 250bp and push NOK/SEK higher (SEK weaker vs NOK).", "priced_in": "Partially — hike probability ~50%", "bilateral_relevance": "NOK/SEK primarily; EUR/SEK secondarily", "citations": [11, 12]},
+      {"date": "2026-05-W2", "event": "SCB CPI (April Reference — First Post-VAT-Cut)", "expected_impact": "Bearish", "rationale": "First CPI reading capturing the food VAT cut. CPIF could fall to 1.0–1.2%, generating dovish headlines even though the Riksbank flagged it. Risk of market overreaction.", "priced_in": "Partially — direction known, magnitude may surprise", "bilateral_relevance": "EUR/SEK, USD/SEK", "citations": [13, 14]},
+      {"date": "2026-06-W2", "event": "ECB Decision (with Staff Projections)", "expected_impact": "Ambiguous", "rationale": "First ECB forecast update since the war. Updated 2026/2027 inflation and growth projections set the tone for European FX. Large upward inflation revision would be hawkish for EUR.", "priced_in": "Not priced — too uncertain", "bilateral_relevance": "EUR/SEK", "citations": [17]},
+      {"date": "2026-06-16", "event": "FOMC Decision (with SEP/Dot Plot)", "expected_impact": "Ambiguous", "rationale": "June dot plot reveals whether the war permanently shifted median rate expectations. If median dots show 0 cuts in 2026, USD strengthens. If 2 cuts maintained, USD weakens and SEK benefits.", "priced_in": "Partially — 1 cut priced; could reprice to 0 or 2", "bilateral_relevance": "USD/SEK", "citations": [41]},
+      {"date": "2026-06-W4", "event": "Riksbank Decision (with Full MPR)", "expected_impact": "Ambiguous", "rationale": "First full Monetary Policy Report since the war. Updated CPIF forecasts, GDP, and rate path. Rate path shift upward = strongly SEK-positive; downward = SEK-negative. The single most important Riksbank event in H1 2026.", "priced_in": "Not priced", "bilateral_relevance": "All SEK crosses", "citations": [1, 17]},
+      {"date": "2026-07-W2", "event": "NATO Summit, Ankara", "expected_impact": "Bullish", "rationale": "Sweden will announce defence spending commitments. Acceleration of 3.5% GDP target or new procurement contracts with Swedish industry would support growth expectations.", "priced_in": "Not priced", "bilateral_relevance": "EUR/SEK (growth channel)", "citations": [38]},
+      {"date": "2026-09-13", "event": "Swedish General Election", "expected_impact": "Ambiguous", "rationale": "First election since NATO accession. Centre-left leads (Social Democrats ~32.9%). Government change could shift nuclear, immigration, and fiscal policy. Euro adoption referendum proposed but unlikely to pass.", "priced_in": "Not priced — political risk premium builds July–September", "bilateral_relevance": "EUR/SEK", "citations": [37, 38]}
+    ],
+    "invalidators": [
+      {"condition": "CPIF inflation rises above 2.5% for two consecutive months", "new_stance": "Bullish", "mechanism": "Riksbank would pivot to rate hikes, closing the rate differential with peers and supporting SEK through the rate expectations channel.", "monitor_indicator": "SCB CPIF release", "monitor_frequency": "Monthly", "quantitative_threshold": "CPIF YoY > 2.5%", "probability_pct": 15},
+      {"condition": "EUR/SEK breaks and sustains above 11.20 for more than 5 trading days", "new_stance": "Bearish", "mechanism": "Would signal a structural break in the undervaluation convergence thesis and trigger further systematic selling, invalidating the strategic bull case.", "monitor_indicator": "EUR/SEK daily close", "monitor_frequency": "Daily", "quantitative_threshold": "EUR/SEK > 11.20 for 5+ sessions", "probability_pct": 15},
+      {"condition": "Swedish services PMI falls below 45 for two consecutive months", "new_stance": "Bearish", "mechanism": "Would confirm a domestic recession spreading beyond the war-sensitive services sector, undermining the growth advantage that underpins the strategic bull case.", "monitor_indicator": "Swedbank/Silf Services PMI", "monitor_frequency": "Monthly", "quantitative_threshold": "Services PMI < 45", "probability_pct": 20},
+      {"condition": "Brent crude normalizes below $80/bbl within 4 weeks", "new_stance": "Bullish", "mechanism": "Terms-of-trade shock reverses, risk appetite recovers, and the Riksbank's base case (hold at 1.75%) is validated — all SEK-supportive.", "monitor_indicator": "ICE Brent front-month", "monitor_frequency": "Daily", "quantitative_threshold": "Brent < $80/bbl", "probability_pct": 25},
+      {"condition": "Riksbank cuts rates to 1.50% or below", "new_stance": "Bearish", "mechanism": "Would signal the Board prioritized domestic demand over inflation risk, widening the rate differential against all peers and removing a key support for the SEK bull case.", "monitor_indicator": "Riksbank decision", "monitor_frequency": "At each meeting", "quantitative_threshold": "Repo rate < 1.75%", "probability_pct": 10},
+      {"condition": "Comprehensive Iran ceasefire signed and verified", "new_stance": "Bullish", "mechanism": "The entire tactical bearish thesis (risk-off, oil shock, terms-of-trade deterioration) dissolves simultaneously, triggering a sharp SEK relief rally.", "monitor_indicator": "Reuters/Bloomberg headlines", "monitor_frequency": "Continuous", "quantitative_threshold": "Ceasefire agreement signed", "probability_pct": 30},
+      {"condition": "Norges Bank hikes to 4.50%+ while Riksbank holds at 1.75%", "new_stance": "Bearish", "mechanism": "275bp+ differential would be the widest in modern Scandinavian history, exerting persistent downward pressure on NOK/SEK and relative SEK weakness.", "monitor_indicator": "Norges Bank and Riksbank decisions", "monitor_frequency": "At each meeting", "quantitative_threshold": "Norges Bank rate ≥ 4.50%", "probability_pct": 40}
+    ],
+    "signposts": [
+      {"indicator": "VIX Index", "current_level": "30.6", "threshold_confirms": "Sustained above 28 (bearish SEK tactical thesis)", "threshold_invalidates": "Drops below 22 (risk normalization — flip to bullish)", "bilateral_importance": "USD/SEK, EUR/SEK", "source_url": "https://www.cboe.com/tradable-products/vix/", "frequency": "Real-time / daily close"},
+      {"indicator": "Brent Crude (ICE)", "current_level": "$110.69/bbl", "threshold_confirms": "Sustained above $100 (terms-of-trade headwind)", "threshold_invalidates": "Falls below $85 (pre-war equilibrium)", "bilateral_importance": "NOK/SEK, EUR/SEK, USD/SEK", "source_url": "https://tradingeconomics.com/commodity/brent-crude-oil", "frequency": "Daily"},
+      {"indicator": "Swedbank/Silf Services PMI", "current_level": "48.3 (February)", "threshold_confirms": "Below 50 for March (domestic demand weakening)", "threshold_invalidates": "Recovers above 52 (services resilient)", "bilateral_importance": "EUR/SEK (domestic growth proxy)", "source_url": "https://tradingeconomics.com/sweden/services-pmi", "frequency": "Monthly"},
+      {"indicator": "EUR/SEK 200-Day Moving Average", "current_level": "~10.84", "threshold_confirms": "Spot sustains above 10.84 (bearish SEK confirmed)", "threshold_invalidates": "Spot closes below 10.70 for 3+ days (bullish SEK reasserting)", "bilateral_importance": "EUR/SEK", "source_url": "https://www.investing.com/currencies/eur-sek-historical-data", "frequency": "Daily"},
+      {"indicator": "Norges Bank-Riksbank Rate Differential", "current_level": "225bp (4.00% − 1.75%)", "threshold_confirms": "Widens above 250bp (Norges Bank hikes May)", "threshold_invalidates": "Narrows below 200bp (reversal or Riksbank hike)", "bilateral_importance": "NOK/SEK", "source_url": "https://tradingeconomics.com/norway/interest-rate", "frequency": "At each CB meeting"},
+      {"indicator": "Swedish Goods Trade Balance", "current_level": "SEK 1.8bn (February 2026)", "threshold_confirms": "Turns negative (terms-of-trade shock severe)", "threshold_invalidates": "Recovers above SEK 8bn (energy contained, exports strong)", "bilateral_importance": "EUR/SEK, USD/SEK", "source_url": "https://tradingeconomics.com/sweden/balance-of-trade", "frequency": "Monthly"},
+      {"indicator": "NIER Economic Tendency Indicator", "current_level": "99.9 (March)", "threshold_confirms": "Falls below 96 (broad-based deterioration)", "threshold_invalidates": "Rises above 103 (confidence recovery)", "bilateral_importance": "EUR/SEK", "source_url": "https://tradingeconomics.com/sweden/leading-economic-index", "frequency": "Monthly"}
+    ]
+  },
+
+  "change_since_last_report": null,
+
+  "seasonality": {
+    "pattern": "Q2 seasonal tailwind (April–June): Swedish dividend season peaks in April–May, generating repatriation flows. AP fund rebalancing amplified in 2026 by AP1 liquidation (~SEK 476bn redistribution). Corporate tax payments in SEK add demand. Q3 headwind (July–August): lower liquidity during Swedish summer holidays typically weakens SEK.",
+    "relevance_window": "April–June 2026 (within both tactical and strategic horizons)",
+    "historical_magnitude": "EUR/SEK typically declines 1–2% in Q2 on seasonal flows, though magnitude varies with macro backdrop",
+    "current_alignment": "Seasonal tailwind partially offsets the tactical bearish thesis — dividend and tax flows provide a floor preventing disorderly SEK collapse. The AP1 redistribution is a one-off amplifier that makes the 2026 seasonal support stronger than average."
+  },
+
+  "assumptions": [
+    "CFTC positioning void: With no CFTC data for SEK, Factor 4 confidence is capped at 50% and analysis relies on proxy indicators (SEB survey, RBC commentary, BofA warnings). This introduces uncertainty reflected in the neutral tactical stance.",
+    "Implied volatility estimates: Specific IV, RV, and risk reversal data for USD/SEK and EUR/SEK requires Bloomberg/Refinitiv terminal access. Contextual estimates are derived from March price moves, VIX levels, and published research. These carry ±3–5 percentage point uncertainty.",
+    "War resolution probability: The 50% base case assumes conflict de-escalation by mid-2026, based on Trump's stated 4-week timetable and historical US military operation durations. This is an assumption, not a forecast.",
+    "PPP calculations: PPP deviation estimates use OECD PPP rates as reference. Deviations are directionally informative but not precise fair-value targets due to methodological limitations.",
+    "Forward points: EUR/SEK forward points estimated from the Riksbank-ECB rate differential (~25bp) rather than sourced from market data. Actual forward points may differ due to cross-currency basis adjustments.",
+    "G10+SGD macro table: Data compiled from multiple sources with different publication dates. Some figures may have been revised since initial publication. All data reflects latest available as of March 31, 2026."
+  ],
+
+  "complete_citations": [
+    {"id": 1, "title": "Policy rate unchanged at 1.75 per cent (March 2026)", "publisher": "Sveriges Riksbank", "url": "https://www.riksbank.se/en-gb/press-and-published/notices-and-press-releases/press-releases/2026/policy-rate-unchanged-at-1.75-per-cent", "date_accessed": "2026-04-01"},
+    {"id": 2, "title": "EUR/SEK Historical Data", "publisher": "Investing.com", "url": "https://www.investing.com/currencies/eur-sek-historical-data", "date_accessed": "2026-04-01"},
+    {"id": 3, "title": "Sweden Real Effective Exchange Rate", "publisher": "CEIC Data", "url": "https://www.ceicdata.com/en/indicator/sweden/real-effective-exchange-rate", "date_accessed": "2026-04-01"},
+    {"id": 4, "title": "Sweden: 2025 Article IV Consultation", "publisher": "IMF", "url": "https://www.imf.org/-/media/Files/Publications/CR/2025/English/1sweea2025001-print-pdf.ashx", "date_accessed": "2026-04-01"},
+    {"id": 5, "title": "Commitments of Traders Report", "publisher": "CFTC", "url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm", "date_accessed": "2026-04-01"},
+    {"id": 6, "title": "SEK Views Survey", "publisher": "SEB Research", "url": "https://research.sebgroup.com/macro-ficc/reports/67263", "date_accessed": "2026-04-01"},
+    {"id": 7, "title": "USD/SEK, EUR/SEK Forecast for 2026 — BofA", "publisher": "Investing.com", "url": "https://www.investing.com/news/forex-news/usdsek-eursek-forecast-for-2026-as-per-bofa-93CH-4436548", "date_accessed": "2026-04-01"},
+    {"id": 8, "title": "Currency Report Card: Oil Shock Rebalances Global Valuations", "publisher": "RBC Capital Markets", "url": "https://www.rbccm.com/assets/rbccm/docs/fx/currency-report-card.pdf", "date_accessed": "2026-04-01"},
+    {"id": 9, "title": "SEK Outlook 2026: Slower, More Predictable Appreciation", "publisher": "ING Think", "url": "https://think.ing.com/articles/sek-outlook-2026-slower-more-predictable-appreciation/", "date_accessed": "2026-04-01"},
+    {"id": 10, "title": "When Fear Leads Reality: Inside 2026's Volatility Surge", "publisher": "Penn Mutual Asset Management", "url": "https://www.pennmutualam.com/market-insights-news/blogs/chart-of-the-week/2026-03-26-when-fear-leads-reality-inside-2026-volatility-surge", "date_accessed": "2026-04-01"},
+    {"id": 11, "title": "Rate Decision March 2026", "publisher": "Norges Bank", "url": "https://www.norges-bank.no/en/topics/monetary-policy/Monetary-policy-meetings/2026/march-2026/", "date_accessed": "2026-04-01"},
+    {"id": 12, "title": "Monetary Policy Report 1/2026", "publisher": "Norges Bank", "url": "https://www.norges-bank.no/en/news-events/publications/Monetary-Policy-Report/2026/mpr-12026/web-report-mpr-12026/", "date_accessed": "2026-04-01"},
+    {"id": 13, "title": "Sweden Inflation Rate", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/sweden/inflation-cpi", "date_accessed": "2026-04-01"},
+    {"id": 14, "title": "Flash CPI: Inflation rate 0.5 percent in February 2026", "publisher": "SCB", "url": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/prices-and-economic-trends/price-statistics/consumer-price-index-cpi/pong/statistical-news/cpi-flash-estimate-february-2026/", "date_accessed": "2026-04-01"},
+    {"id": 15, "title": "GDP increased in the fourth quarter 2025", "publisher": "SCB", "url": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/national-accounts/national-accounts/national-accounts-quarterly-and-annual-estimates/pong/statistical-news/national-accounts-fourth-quarter-2025/", "date_accessed": "2026-04-01"},
+    {"id": 16, "title": "Economic Forecast for Sweden", "publisher": "European Commission", "url": "https://economy-finance.ec.europa.eu/economic-surveillance-eu-member-states/country-pages/sweden/economic-forecast-sweden_en", "date_accessed": "2026-04-01"},
+    {"id": 17, "title": "ECB, BOE, SNB, Riksbank Interest Rate Decisions", "publisher": "CNBC", "url": "https://www.cnbc.com/2026/03/19/ecb-boe-swiss-national-bank-riksbank-interest-rate-decisions.html", "date_accessed": "2026-04-01"},
+    {"id": 18, "title": "Riksbank Minutes Show Commitment to Steady Rate Despite Iran War", "publisher": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-03-25/riksbank-minutes-show-commitment-to-steady-rate-despite-iran-war", "date_accessed": "2026-04-01"},
+    {"id": 19, "title": "What to Expect from the Riksbank Interest Rate Decision", "publisher": "Morningstar", "url": "https://global.morningstar.com/en-nd/economy/what-expect-riksbank-interest-rate-decision", "date_accessed": "2026-04-01"},
+    {"id": 20, "title": "Sweden Services Activity Contracts Sharply", "publisher": "FX.co", "url": "https://www.fx.co/en/forex-news/2921530", "date_accessed": "2026-04-01"},
+    {"id": 21, "title": "Sweden Manufacturing PMI", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/sweden/manufacturing-pmi", "date_accessed": "2026-04-01"},
+    {"id": 22, "title": "Sweden Cuts 2026 GDP Growth Forecast on Geopolitical Concern", "publisher": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-03-11/sweden-cuts-2026-growth-forecast-on-rising-geopolitical-concern", "date_accessed": "2026-04-01"},
+    {"id": 23, "title": "Sweden Announces Historic Defence Spending Surge", "publisher": "Caliber.Az", "url": "https://caliber.az/en/post/sweden-announces-historic-defence-spending-surge-amid-nato-integration", "date_accessed": "2026-04-01"},
+    {"id": 24, "title": "CBOE Volatility Index", "publisher": "CBOE", "url": "https://www.cboe.com/tradable-products/vix/", "date_accessed": "2026-04-01"},
+    {"id": 25, "title": "Operation Epic Fury", "publisher": "U.S. Department of War", "url": "https://www.war.gov/Spotlights/Operation-Epic-Fury/", "date_accessed": "2026-04-01"},
+    {"id": 26, "title": "USD/SEK Historical Data", "publisher": "Investing.com", "url": "https://www.investing.com/currencies/usd-sek-historical-data", "date_accessed": "2026-04-01"},
+    {"id": 27, "title": "Sweden Raises SEK 20 Billion in New Government Bond Sale", "publisher": "Riksgälden", "url": "https://www.riksgalden.se/en/press-and-publications/press-releases-and-news/press-releases/2026/sweden-raises-sek-20-billion-in-new-government-bond-sale/", "date_accessed": "2026-04-01"},
+    {"id": 28, "title": "More Government Bonds as Deficit Grows", "publisher": "Riksgälden", "url": "https://www.riksgalden.se/en/press-and-publications/press-releases-and-news/press-releases/2025/more-government-bonds-as-deficit-grows", "date_accessed": "2026-04-01"},
+    {"id": 29, "title": "Sweden Current Account", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/sweden/current-account", "date_accessed": "2026-04-01"},
+    {"id": 30, "title": "Sweden Balance of Trade", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/sweden/balance-of-trade", "date_accessed": "2026-04-01"},
+    {"id": 31, "title": "TTF Gas Price Today", "publisher": "OilPriceAPI", "url": "https://www.oilpriceapi.com/live/dutch-ttf-gas-price", "date_accessed": "2026-04-01"},
+    {"id": 32, "title": "Euro Area Manufacturing PMI", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/euro-area/manufacturing-pmi", "date_accessed": "2026-04-01"},
+    {"id": 33, "title": "Energy in Sweden", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Energy_in_Sweden", "date_accessed": "2026-04-01"},
+    {"id": 34, "title": "Firmly on Hold — Riksbank Preview", "publisher": "SEB Research", "url": "https://research.sebgroup.com/macro-ficc/reports/70148", "date_accessed": "2026-04-01"},
+    {"id": 35, "title": "Experts React: What the Epic Fury Iran Strikes Signal", "publisher": "Stimson Center", "url": "https://www.stimson.org/2026/experts-react-what-the-epic-fury-iran-strikes-signal-to-the-world/", "date_accessed": "2026-04-01"},
+    {"id": 36, "title": "2026 Iran War", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/2026_Israeli%E2%80%93United_States_strikes_on_Iran", "date_accessed": "2026-04-01"},
+    {"id": 37, "title": "2026 Swedish General Election", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/2026_Swedish_general_election", "date_accessed": "2026-04-01"},
+    {"id": 38, "title": "Sweden Shifts 3.5% GDP Defense Spending Target to 2032", "publisher": "Defense-Aerospace", "url": "https://www.defense-aerospace.com/sweden-shifts-3-5-gdp-defense-spending-target-to-2032-ahead-of-nato-summit/", "date_accessed": "2026-04-01"},
+    {"id": 39, "title": "About the Swedish Fiscal Policy Framework", "publisher": "Government.se", "url": "https://www.government.se/government-of-sweden/ministry-of-finance/central-government-budget/the-fiscal-policy-framework/", "date_accessed": "2026-04-01"},
+    {"id": 40, "title": "Sweden Government Debt to GDP", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/sweden/government-debt-to-gdp", "date_accessed": "2026-04-01"},
+    {"id": 41, "title": "The High-Rate Stalemate: Fed Minutes Reveal Division", "publisher": "FinancialContent", "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-31-the-high-rate-stalemate-fed-minutes-reveal-division-as-markets-brace-for-h2-2026-relief", "date_accessed": "2026-04-01"},
+    {"id": 42, "title": "The Federal Reserve's Balance Sheet", "publisher": "Congress.gov", "url": "https://www.congress.gov/crs-product/IF12147", "date_accessed": "2026-04-01"}
+  ]
+}

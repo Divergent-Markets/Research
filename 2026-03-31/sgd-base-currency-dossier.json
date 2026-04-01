@@ -1,0 +1,876 @@
+{
+  "base": "SGD",
+  "valuation_date": "2026-04-01",
+  "framework_version": "2.0",
+  "freshness_days_tactical": 30,
+  "freshness_days_strategic": 60,
+
+  "executive_summary": "The Singapore Dollar trades at USD/SGD 1.2860 against a backdrop of extraordinary macro dislocation. Operation Epic Fury — the Iran-US war that began February 28, 2026 — has closed the Strait of Hormuz, driven Brent crude from $71 to $111/bbl (+55% in March alone), and doubled Asia JKM LNG prices to $22.73/MMBtu. For Singapore — a net energy importer that sources ~50% of its LNG from Qatar — this is an acute terms-of-trade shock colliding with what was the strongest GDP print in four years (+6.9% YoY in Q4 2025). MAS Core Inflation has already inflected higher to 1.4% in February from a 0.4% trough in mid-2025, and the energy shock will accelerate this trajectory materially. The April 2026 MAS policy review (due by April 14) is the pivotal near-term catalyst: 47.4% of professional forecasters expected tightening (steeper S$NEER appreciation slope) before the war began, and that hawkish consensus has only intensified. The central tension is that SGD's formidable structural advantages — AAA sovereign ratings, a ~19% of GDP current account surplus, record-high fiscal reserves, and regional safe-haven status — are being tested by a once-in-a-generation energy supply shock that could transform a manageable inflation pickup into a stagflationary episode if Hormuz remains closed beyond Q2 2026. Our stance is Bullish SGD tactically on an imminent hawkish MAS tightening and safe-haven demand, and Bullish SGD strategically conditional on conflict de-escalation restoring the pre-war appreciation trend toward the consensus 1.24-1.26 range.",
+
+  "market_context": {
+    "spot": {
+      "rate": "USD/SGD 1.2860",
+      "convention": "Rising USD/SGD = SGD weakening; falling USD/SGD = SGD strengthening. Bullish SGD = USD/SGD falling.",
+      "primary_index": "S$NEER (Singapore Dollar Nominal Effective Exchange Rate) — MAS policy instrument. Trading approximately in the middle of the appreciating policy band as of late March 2026, having retreated from the upper half pre-war.",
+      "date": "2026-04-01"
+    },
+    "key_crosses": [
+      {"pair": "EUR/SGD", "rate": "1.49", "convention": "Rising = SGD weakening vs EUR"},
+      {"pair": "SGD/JPY", "rate": "122.2", "convention": "Rising = SGD strengthening vs JPY"},
+      {"pair": "AUD/SGD", "rate": "0.862", "convention": "Rising = SGD weakening vs AUD"},
+      {"pair": "GBP/SGD", "rate": "1.727", "convention": "Rising = SGD weakening vs GBP"},
+      {"pair": "SGD/MYR", "rate": "3.16", "convention": "Rising = SGD strengthening vs MYR"},
+      {"pair": "SGD/CNH", "rate": "5.37", "convention": "Rising = SGD strengthening vs CNH"}
+    ],
+    "performance": {
+      "1m": {"pct_change": "+1.35%", "direction": "SGD weakening (war-driven USD safe-haven bid)"},
+      "3m": {"pct_change": "+2.3%", "direction": "SGD weakening (from ~1.26 in January)"},
+      "6m": {"pct_change": "~Flat", "direction": "Neutral"},
+      "1y": {"pct_change": "-4.0%", "direction": "SGD significantly stronger"}
+    },
+    "valuation": {
+      "overall_assessment": "Fair value",
+      "bis_reer": {
+        "level": 116.11,
+        "historical_percentile": 87,
+        "interpretation": "SGD REER at 116.11 (Dec 2025, 2020=100) places it in approximately the 85th-90th percentile of its post-2010 range — moderately overvalued in real effective terms, but ING characterises it as closer to fair value relative to other Asian peers."
+      },
+      "ppp_table": [
+        {"vs_currency": "USD", "deviation_pct": 1.0, "implied_fair_value": "1.287"},
+        {"vs_currency": "EUR", "deviation_pct": -3.5, "implied_fair_value": "~1.54"},
+        {"vs_currency": "JPY", "deviation_pct": 18.0, "implied_fair_value": "~104 SGD/JPY"},
+        {"vs_currency": "GBP", "deviation_pct": -5.0, "implied_fair_value": "~1.82"},
+        {"vs_currency": "AUD", "deviation_pct": 8.0, "implied_fair_value": "~0.80"},
+        {"vs_currency": "NZD", "deviation_pct": 12.0, "implied_fair_value": "~0.77"},
+        {"vs_currency": "CAD", "deviation_pct": 5.0, "implied_fair_value": "~0.97"},
+        {"vs_currency": "CHF", "deviation_pct": -8.0, "implied_fair_value": "~1.08"},
+        {"vs_currency": "NOK", "deviation_pct": 15.0, "implied_fair_value": "~7.8"},
+        {"vs_currency": "SEK", "deviation_pct": 10.0, "implied_fair_value": "~7.2"}
+      ],
+      "trade_weighted_assessment": "The SGD is moderately overvalued on a real effective basis, sitting in the upper quartile of its historical range. However, Singapore's persistent ~19% of GDP current account surplus and structural capital inflows provide a fundamental anchor that justifies a premium valuation.",
+      "what_is_priced_in": "The market prices SGD at roughly fair value on PPP metrics vs USD (Big Mac implied ~1.287 vs spot ~1.286). The REER overvaluation is modest and sustainable — it reflects structural competitiveness advantages, not a bubble. The war premium has temporarily depressed SGD below what fundamentals imply, creating an entry opportunity.",
+      "actionability": "The valuation signal alone is not directionally strong. Valuation becomes actionable in combination with the carry-through-appreciation mechanism: MAS's managed appreciation slope delivers ~0.5-1.0% annual NEER appreciation, compensating for negative nominal carry. The edge is tactical (war premium fading) rather than valuation-driven."
+    },
+    "positioning_summary": {
+      "cftc": {
+        "leveraged_funds": {
+          "net_contracts": 0,
+          "direction": "flat",
+          "notional_usd": "N/A — SGD not reported",
+          "weekly_change_contracts": 0,
+          "weekly_change_direction": "N/A"
+        },
+        "asset_managers": {
+          "net_contracts": 0,
+          "direction": "flat",
+          "notional_usd": "N/A — SGD not reported"
+        },
+        "total_open_interest": 0,
+        "net_all_specs_percentile": 0,
+        "percentile_context": "SGD futures are not separately reported in CFTC Commitments of Traders reports — CME-listed SGD/USD futures do not meet the 20-trader minimum threshold. CFTC data provides no useful positioning signal for SGD."
+      },
+      "other_positioning_signals": "S$NEER band positioning: shifted from upper half to approximately middle of band post-war, implying the market absorbed the initial SGD selling wave. Capital inflows: 2,000+ family offices in Singapore managing S$90bn+ in assets. MAS reserve dynamics: OFR declined modestly from S$529bn to S$526bn in February — limited reserve deployment, not aggressive intervention.",
+      "interpretation": "With no CFTC data, positioning analysis relies on S$NEER band dynamics, capital flow trends, and MAS reserve signals. The structural inflow picture is unambiguously supportive (family offices, wealth management AUM growth at double-digit rates). The S$NEER's retreat to mid-band creates mechanical room for re-appreciation — there is no evidence of extreme one-way positioning warranting a contrarian stance.",
+      "contrarian_assessment": "Pre-war long SGD consensus was disrupted in March — some positions liquidated. Current positioning appears relatively clean at mid-band. The next major positioning flow is likely back toward long SGD upon MAS tightening at April. No extreme positioning in either direction — contrarian signal is neutral to mildly bullish."
+    },
+    "market_structure_vol_summary": {
+      "trend_regime": "High-volatility consolidation within the 1.28-1.29 range; transitional between the prior downtrend (Jul 2025-Jan 2026) and a potential reversal. The 200-day SMA at ~1.29 is the regime-defining level.",
+      "key_levels": {
+        "support": [
+          {"level": "1.2800", "significance": "Psychological round number; held repeatedly in March"},
+          {"level": "1.2755", "significance": "50-day SMA; dynamic support rising from below"},
+          {"level": "1.2584", "significance": "52-week low (January 2026); strongest SGD since October 2014"}
+        ],
+        "resistance": [
+          {"level": "1.2900", "significance": "200-day SMA; critical trend-defining level for CTAs"},
+          {"level": "1.2931", "significance": "March 2026 high; post-war peak"},
+          {"level": "1.3000", "significance": "Major psychological round number; above which prolonged-war thesis dominates"}
+        ]
+      },
+      "moving_averages": {
+        "50d": {"level": "~1.2755", "spot_vs": "Above (spot > 50d)"},
+        "100d": {"level": "~1.2700 (est.)", "spot_vs": "Above"},
+        "200d": {"level": "~1.2900", "spot_vs": "Below (spot < 200d)"},
+        "alignment": "Tangled — spot above 50d/100d but below 200d. Conflicting signals for trend-following systems; typically produces choppy range-bound action."
+      },
+      "volatility": {
+        "iv_1m": 7.0,
+        "iv_3m": 6.5,
+        "iv_percentile_1y": 85,
+        "rv_20d": 5.2,
+        "rv_vs_iv": "RV 5.2% vs IV ~7.0% — market overpricing realised moves by ~1.8pts, indicating an event premium from the war. Options are expensive relative to actual spot delivery.",
+        "risk_reversal_25d_1m": "Estimated slight USD call/SGD put premium (~+0.2 to +0.4 vols) — market hedging SGD downside amid war uncertainty. However, MAS band constrains tail risk.",
+        "vol_term_structure": "Backwardation",
+        "vol_regime": "Elevated vol transitional — above the typical 3-4% managed float regime but below crisis extremes. The MAS band compresses the distribution, preventing the vol explosion seen in free-floating currencies."
+      },
+      "key_observation": "The 200-day SMA at ~1.29 is the single most important structural level. A sustained break above would signal the market is pricing a prolonged conflict overwhelming Singapore's structural advantages. A rejection (base case given expected MAS tightening) would confirm the pre-war downtrend remains intact."
+    },
+    "recent_regime": "The SGD was in its strongest sustained appreciation trend in a decade until Operation Epic Fury disrupted the macro landscape on February 28. The pre-war period (H2 2025 through January 2026) was characterised by a virtuous cycle: AI-driven semiconductor export strength, moderate MAS hawkishness, structural wealth management inflows, and broad USD weakness (DXY falling from 105 to 96). The war introduced an asymmetric shock — Singapore's extreme energy import dependency created an immediate terms-of-trade headwind, while simultaneously activating SGD's regional safe-haven premium as capital fled weaker ASEAN economies. The current regime is defined by this tug-of-war: structural strength versus cyclical energy shock.",
+    "citations": [1, 2, 3, 4, 5, 6, 7, 8]
+  },
+
+  "rate_differentials_table": {
+    "base_currency": {
+      "central_bank": "Monetary Authority of Singapore (MAS)",
+      "policy_rate_name": "S$NEER appreciation slope (SORA ~1.12% as money market proxy)",
+      "rate_pct": 1.12,
+      "next_meeting": "2026-04-14",
+      "expected_action": "Tighten (steepen S$NEER appreciation slope); ~50-60% probability priced, higher post-war"
+    },
+    "peers": [
+      {"currency": "USD", "central_bank": "Federal Reserve", "policy_rate_pct": 3.625, "spread_to_base_bps": 241, "direction_vs_base": "Peer above base", "next_meeting": "2026-04-28", "expected_action": "Hold", "rate_path_next_6m": "Hold; at most one 25bp cut by December"},
+      {"currency": "EUR", "central_bank": "ECB", "policy_rate_pct": 2.00, "spread_to_base_bps": 88, "direction_vs_base": "Peer above base", "next_meeting": "2026-04-30", "expected_action": "Hold likely", "rate_path_next_6m": "2-3 hikes priced (~72bp); targeting ~2.75% by July"},
+      {"currency": "JPY", "central_bank": "Bank of Japan", "policy_rate_pct": 0.75, "spread_to_base_bps": -37, "direction_vs_base": "Peer below base", "next_meeting": "2026-04-30", "expected_action": "Hold likely", "rate_path_next_6m": "1 hike possible to 1.00%"},
+      {"currency": "GBP", "central_bank": "Bank of England", "policy_rate_pct": 3.75, "spread_to_base_bps": 263, "direction_vs_base": "Peer above base", "next_meeting": "2026-04-29", "expected_action": "Hold", "rate_path_next_6m": "Hold; 1-2 hikes possible on energy inflation"},
+      {"currency": "AUD", "central_bank": "RBA", "policy_rate_pct": 4.10, "spread_to_base_bps": 298, "direction_vs_base": "Peer above base (widest gap)", "next_meeting": "2026-05-05", "expected_action": "Hike +25bp to 4.35%", "rate_path_next_6m": "Active hiking cycle; +50-75bp from current"},
+      {"currency": "NZD", "central_bank": "RBNZ", "policy_rate_pct": 2.25, "spread_to_base_bps": 113, "direction_vs_base": "Peer above base", "next_meeting": "2026-04-08", "expected_action": "Hold", "rate_path_next_6m": "Hold; data-dependent"},
+      {"currency": "CAD", "central_bank": "Bank of Canada", "policy_rate_pct": 2.25, "spread_to_base_bps": 113, "direction_vs_base": "Peer above base", "next_meeting": "2026-04-29", "expected_action": "Hold", "rate_path_next_6m": "Hold; tariff uncertainty constrains"},
+      {"currency": "CHF", "central_bank": "SNB", "policy_rate_pct": 0.00, "spread_to_base_bps": -112, "direction_vs_base": "Peer below base", "next_meeting": "2026-06-01", "expected_action": "Hold at zero floor", "rate_path_next_6m": "Hold at 0.00%"},
+      {"currency": "NOK", "central_bank": "Norges Bank", "policy_rate_pct": 4.00, "spread_to_base_bps": 288, "direction_vs_base": "Peer above base", "next_meeting": "2026-05-01", "expected_action": "Hike signalled", "rate_path_next_6m": "+50bp likely (to 4.50%)"},
+      {"currency": "SEK", "central_bank": "Riksbank", "policy_rate_pct": 1.75, "spread_to_base_bps": 63, "direction_vs_base": "Peer above base", "next_meeting": "2026-05-01", "expected_action": "Hold", "rate_path_next_6m": "Hold; inflation-dependent"}
+    ],
+    "sovereign_yields": {
+      "base_2y": 1.70,
+      "base_10y": 2.23,
+      "key_spreads": [
+        {"vs": "US 10Y", "yield_pct": 4.40, "spread_bps": -217, "interpretation": "Large negative spread reflects the S$NEER regime — SGD compensates through expected appreciation, not yield"},
+        {"vs": "Germany 10Y", "yield_pct": 3.10, "spread_bps": -87, "interpretation": "Moderate negative spread; ECB hike pricing has widened this"},
+        {"vs": "Japan 10Y", "yield_pct": 2.36, "spread_bps": -13, "interpretation": "Tightest spread — both safe havens with low-rate regimes"},
+        {"vs": "UK 10Y", "yield_pct": 4.95, "spread_bps": -272, "interpretation": "Wide gap driven by UK energy/inflation crisis; Gilts near 2008 highs"},
+        {"vs": "Australia 10Y", "yield_pct": 5.03, "spread_bps": -280, "interpretation": "Widest gap in the set; RBA hiking cycle driving ACGB yields above 5%"}
+      ],
+      "curve_shape": "SGS 2s10s: +53bp — modestly positive, healthy shape. Neither inverted nor excessively steep."
+    }
+  },
+
+  "macro_comparison_table": [
+    {"currency": "SGD", "gdp_yoy_pct": 6.9, "gdp_qoq_latest_pct": 2.1, "headline_cpi_yoy_pct": 1.2, "core_cpi_yoy_pct": 1.4, "core_cpi_measure": "MAS Core Inflation (ex-accommodation and private transport)", "unemployment_pct": 2.0, "current_account_gdp_pct": 19.0, "policy_rate_pct": 1.12},
+    {"currency": "USD", "gdp_yoy_pct": 2.3, "gdp_qoq_latest_pct": 2.4, "headline_cpi_yoy_pct": 2.4, "core_cpi_yoy_pct": 2.5, "core_cpi_measure": "Core PCE", "unemployment_pct": 4.4, "current_account_gdp_pct": -3.0, "policy_rate_pct": 3.625},
+    {"currency": "EUR", "gdp_yoy_pct": 0.9, "gdp_qoq_latest_pct": 0.2, "headline_cpi_yoy_pct": 2.5, "core_cpi_yoy_pct": 2.3, "core_cpi_measure": "HICP ex-energy/food/alcohol/tobacco", "unemployment_pct": 6.3, "current_account_gdp_pct": 3.0, "policy_rate_pct": 2.00},
+    {"currency": "JPY", "gdp_yoy_pct": 1.5, "gdp_qoq_latest_pct": 0.5, "headline_cpi_yoy_pct": 1.3, "core_cpi_yoy_pct": 1.6, "core_cpi_measure": "CPI ex-fresh food", "unemployment_pct": 2.5, "current_account_gdp_pct": 3.5, "policy_rate_pct": 0.75},
+    {"currency": "GBP", "gdp_yoy_pct": 0.8, "gdp_qoq_latest_pct": 0.1, "headline_cpi_yoy_pct": 3.0, "core_cpi_yoy_pct": 3.0, "core_cpi_measure": "CPI ex-energy/food/alcohol/tobacco", "unemployment_pct": 5.2, "current_account_gdp_pct": -3.0, "policy_rate_pct": 3.75},
+    {"currency": "AUD", "gdp_yoy_pct": 2.6, "gdp_qoq_latest_pct": 0.6, "headline_cpi_yoy_pct": 2.4, "core_cpi_yoy_pct": 2.8, "core_cpi_measure": "Trimmed Mean CPI", "unemployment_pct": 4.2, "current_account_gdp_pct": 1.0, "policy_rate_pct": 4.10},
+    {"currency": "NZD", "gdp_yoy_pct": 1.5, "gdp_qoq_latest_pct": 0.3, "headline_cpi_yoy_pct": 3.1, "core_cpi_yoy_pct": 2.5, "core_cpi_measure": "CPI ex-food/energy (est.)", "unemployment_pct": 5.0, "current_account_gdp_pct": -6.5, "policy_rate_pct": 2.25},
+    {"currency": "CAD", "gdp_yoy_pct": 1.5, "gdp_qoq_latest_pct": -0.6, "headline_cpi_yoy_pct": 1.8, "core_cpi_yoy_pct": 2.5, "core_cpi_measure": "CPI-Median", "unemployment_pct": 6.7, "current_account_gdp_pct": -1.5, "policy_rate_pct": 2.25},
+    {"currency": "CHF", "gdp_yoy_pct": 1.3, "gdp_qoq_latest_pct": 0.3, "headline_cpi_yoy_pct": 0.1, "core_cpi_yoy_pct": 0.8, "core_cpi_measure": "CPI ex-fresh/seasonal (est.)", "unemployment_pct": 2.6, "current_account_gdp_pct": 7.0, "policy_rate_pct": 0.00},
+    {"currency": "NOK", "gdp_yoy_pct": 1.5, "gdp_qoq_latest_pct": 0.4, "headline_cpi_yoy_pct": 2.8, "core_cpi_yoy_pct": 3.0, "core_cpi_measure": "CPI-ATE", "unemployment_pct": 4.0, "current_account_gdp_pct": 12.0, "policy_rate_pct": 4.00},
+    {"currency": "SEK", "gdp_yoy_pct": 2.0, "gdp_qoq_latest_pct": 0.5, "headline_cpi_yoy_pct": 1.5, "core_cpi_yoy_pct": 1.8, "core_cpi_measure": "CPIF ex-energy", "unemployment_pct": 8.5, "current_account_gdp_pct": 5.0, "policy_rate_pct": 1.75}
+  ],
+
+  "factors": [
+    {
+      "block": "Policy & Rates (Relative)",
+      "factor_number": 1,
+      "tactical_weight": 0.24,
+      "strategic_weight": 0.24,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 72,
+        "analysis": "MAS operates through the S$NEER managed float — the policy tool is the slope of the appreciation band, not an interest rate — making direct rate differential analysis secondary to the S$NEER policy signal for SGD. The April 2026 MPS (due by April 14) is the dominant tactical event: 47.4% of professional forecasters expected MAS to tighten (steepen the appreciation slope) before Operation Epic Fury began, and the subsequent doubling of JKM LNG prices and 55% surge in Brent have overwhelmingly strengthened the case for a hawkish adjustment. DBS, Maybank, Nomura, and Bank of America all now expect a slope increase at April, with BofA specifically projecting an increase of approximately 50bp to ~1% annual appreciation. The January 29 MPS already raised both core and headline CPI forecasts to 1.0-2.0% and tilted risks to the upside — the energy shock has since blown through the upper end of that range in implied forward terms. SORA at 1.12% sits 241bp below the Fed Funds midpoint (3.625%), creating a meaningful negative carry for holding SGD versus USD. However, the carry disadvantage is structural to the S$NEER regime: expected NEER appreciation of 0.5-1.0% per annum partially offsets the nominal rate gap, and a MAS slope increase would mechanically widen this appreciation offset. The risk to the bullish tactical call is that MAS surprises by maintaining the current slope despite the energy shock — a decision that could be justified if MAS prioritises growth risks over inflation given the war's uncertain duration. MAS issued a reassuring statement on March 2 confirming normal market functioning and the S$NEER remaining within the band, which was interpreted as signalling confidence rather than concern. The unanimous consensus for at least a maintenance of the current slope — with the distribution skewed toward tightening — means the downside risk from the April review is limited.",
+        "key_data_points": [
+          "SORA: 1.12% — 3rd lowest in G10+SGD (above only JPY 0.75% and CHF 0.00%)",
+          "SGS 2Y: 1.70%; SGS 10Y: ~2.23%; SGS 2s10s: +53bp",
+          "SGS-UST 10Y spread: -217bp; SGS-Bund spread: -87bp; SGS-JGB spread: -13bp",
+          "MAS Survey: 47.4% of forecasters expected tightening at April (pre-war; post-war consensus higher)",
+          "USD/SGD 1M forward points: -26.8 pips (annualised carry cost of long USD/short SGD: ~2.4%)",
+          "Fed held at 3.50-3.75% on March 18; dot plot median targets 3.4% by year-end",
+          "ECB pricing ~72bp of hikes for 2026; RBA actively hiking at 4.10%"
+        ],
+        "what_is_priced": "The market prices a modest probability of MAS tightening through the S$NEER band positioning (now near the middle, having come off the upper edge). However, the scale of the inflation upgrade that the energy shock necessitates — potentially pushing the January CPI forecast range (1.0-2.0%) toward 2.5-3.0% — is likely not fully reflected in the current USD/SGD level near 1.29. A hawkish MAS outcome should push USD/SGD toward 1.27-1.28 as the S$NEER ceiling mechanically guides spot lower.",
+        "citations": [1, 9, 10, 12, 14]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 62,
+        "analysis": "The strategic policy outlook for SGD hinges on the interaction between MAS's inflation-fighting mandate and the war's duration. If the Hormuz closure resolves within Q2 2026 (our base case), MAS will have tightened into the April review and energy prices will normalise, allowing the pre-war appreciation trajectory to resume with a steeper slope. The EIA projects Brent falling below $80/bbl by Q3 2026 contingent on conflict resolution — this would unwind the inflation impulse and vindicate MAS's tightening. The broader G10+SGD rate environment is turning more hawkish: the ECB is pricing ~72bp of hikes, Norges Bank has explicitly signalled rate increases, and the RBA is in an active hiking cycle. This creates a headwind for SGD on a pure carry basis, as the rate gap to peers is widening, not narrowing. However, the critical distinction is that MAS does not compete on rates — it competes on expected appreciation. A steeper S$NEER slope effectively increases the total return on SGD assets by adding currency appreciation to the low nominal yield. Over a 6-month horizon, the carry-to-vol calculation is less punitive than it appears: if MAS steepens the slope to 1% annual appreciation, the effective carry gap to the Fed narrows from ~240bp to ~140bp when expressed in total-return terms. The strategic risk is a prolonged Hormuz closure that keeps energy prices elevated through H2 2026, forcing MAS into an uncomfortable trade-off between fighting inflation (tightening, which helps) and supporting growth (which argues for stability or easing). Singapore's extreme LNG dependency — 50% sourced from Qatar — makes this a uniquely acute vulnerability. Confidence is lower at the strategic horizon (62 vs 72 tactically) because the war's duration is genuinely uncertain and a 3-5 year timeline for Ras Laffan LNG repair eliminates the quick-fix scenario for energy supply.",
+        "key_data_points": [
+          "EIA projection: Brent below $80/bbl by Q3 2026 (conflict resolution scenario)",
+          "QatarEnergy force majeure: Ras Laffan LNG facility damage, 12.8 MTPA offline (est. 3-5 years repair)",
+          "ECB pricing ~72bp hikes for 2026; Norges Bank signalling +50bp; RBA at 4.10% and hiking",
+          "Bank consensus USD/SGD year-end: MUFG 1.22, DBS ~1.24, ING ~1.25, UBS 1.28, Credit Agricole ~1.27",
+          "S$NEER annual appreciation slope est.: ~0.5% currently; could increase to ~1.0% after April tightening",
+          "Fed dot plot median: 3.4% by end-2026 (one 25bp cut)"
+        ],
+        "what_is_priced": "The bank consensus clusters at 1.24-1.28 for year-end 2026, implying 1-5% SGD appreciation from current spot (~1.29). This consensus was largely formed pre-war and has not been formally updated to reflect the conflict premium. The market is therefore pricing SGD appreciation but may underestimate the speed of the move if a ceasefire materialises. Conversely, a prolonged conflict scenario (Hormuz closed through H2 2026) is not priced — the current spot level embeds perhaps a 2-3% war premium, which would need to widen to 5-8% if the blockade persists.",
+        "citations": [4, 14, 15, 16, 18]
+      },
+      "horizon_split_explanation": "Stances are aligned (Bullish/Bullish) but confidence is lower strategically (62 vs 72) because the war's duration introduces a binary risk that is genuinely unknowable. Tactically, the April MAS review is a near-certain positive catalyst — the question is how much tightening, not whether. Strategically, the thesis depends on conflict resolution within Q2 2026; a prolonged blockade could flip the inflation/growth trade-off.",
+      "carry_analysis": {
+        "carry_vs_peers": [
+          {"vs_currency": "USD", "annualised_carry_bps": -241, "carry_to_vol_ratio": -0.34, "interpretation": "Negative — SGD costly to hold vs USD; carry works against long SGD"},
+          {"vs_currency": "EUR", "annualised_carry_bps": -88, "carry_to_vol_ratio": -0.13, "interpretation": "Mildly negative; manageable carry cost"},
+          {"vs_currency": "JPY", "annualised_carry_bps": 37, "carry_to_vol_ratio": 0.04, "interpretation": "Positive but minimal — SGD earns modest carry vs JPY"},
+          {"vs_currency": "AUD", "annualised_carry_bps": -298, "carry_to_vol_ratio": -0.27, "interpretation": "Widest negative carry in the set; AUD hiking cycle driving the gap"},
+          {"vs_currency": "CHF", "annualised_carry_bps": 112, "carry_to_vol_ratio": 0.16, "interpretation": "Positive — SGD earns carry vs CHF; best carry pair for SGD longs"},
+          {"vs_currency": "GBP", "annualised_carry_bps": -263, "carry_to_vol_ratio": -0.26, "interpretation": "Large negative carry; UK energy inflation driving higher rates"}
+        ],
+        "carry_regime": "Carry is not working in the current regime — war-driven risk-off dynamics dominate carry differentials. The strongest carry currencies (NOK, AUD) have not consistently outperformed in March despite high yields. Carry will resume as a factor once volatility normalises.",
+        "breakeven_move": "~25 pips over 4 weeks — USD/SGD needs to move from 1.286 to 1.284 just to break even on carry cost. If MAS tightens and USD/SGD moves to 1.27, the 160-pip gain dwarfs the 25-pip carry cost."
+      },
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Inflation & Growth Dynamics",
+      "factor_number": 2,
+      "tactical_weight": 0.18,
+      "strategic_weight": 0.10,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 68,
+        "analysis": "The near-term inflation trajectory is unambiguously hawkish for SGD because MAS fights inflation by tightening the S$NEER band — more inflation means more appreciation, not less. MAS Core Inflation already re-accelerated to 1.4% YoY in February 2026 from a mid-2025 trough of 0.4%, partly driven by Lunar New Year base effects but also reflecting genuine normalisation in food (+1.6%) and transport (+2.7%) costs. The energy shock has yet to flow through to the February CPI data (the Hormuz closure began February 28, just days before the reference period ended), meaning the March and April CPI prints will capture the full magnitude of the Brent surge from $71 to $111 and the JKM LNG doubling from $11 to $23/MMBtu. Maybank has already revised its 2026 core inflation forecast to 1.9% — near the top of MAS's January forecast range of 1.0-2.0% — and headline inflation could breach 2.5% in Q2 if energy prices remain elevated. On the growth side, Q4 2025 GDP at +6.9% YoY was the strongest print since Q4 2021, revised up from an already-strong advance estimate of +5.7%, driven by manufacturing surging +18.8% YoY on AI semiconductor demand. The February SIPMM manufacturing PMI held above 50 at 50.6 (electronics PMI at 51.3, 19+ consecutive months of expansion), confirming manufacturing momentum remained intact pre-war. However, NODX growth decelerated to +4.0% YoY in February from +9.2% in January (partly Lunar New Year distortion), with non-electronics exports declining -6.9% as petrochemical exports cratered -28.5%. The growth-inflation mix is tactically SGD-supportive: strong growth gives MAS room to tighten, while rising inflation compels them to do so.",
+        "key_data_points": [
+          "MAS Core Inflation: 1.4% YoY (Feb 2026) — highest since Dec 2024, up from 0.4% trough in Jul 2025",
+          "Headline CPI: 1.2% YoY (Feb 2026), MoM +0.6%",
+          "GDP: +6.9% YoY (Q4 2025 revised); manufacturing +18.8% YoY",
+          "SIPMM PMI: 50.6 (Feb); Electronics PMI: 51.3 (19+ months above 50)",
+          "NODX: +4.0% YoY (Feb); electronics NODX: +43.2% (ICs +51.2%)",
+          "Unemployment: 2.0% overall; vacancy-to-unemployed ratio: 1.58x",
+          "Median household income: S$12,446/month in 2025, up 6.8% real YoY"
+        ],
+        "what_is_priced": "The market understands Singapore's growth story (consensus GDP at 3.6% for 2026) but has not yet priced the magnitude of the inflation acceleration that will appear in March-April CPI data. The February core CPI at 1.4% was already a surprise to the upside — the March print, capturing the first full month of war-driven energy prices, could register 1.8-2.2% and shock the market into pricing an even more aggressive MAS tightening.",
+        "citations": [19, 20, 21, 22, 24]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "analysis": "The strategic inflation-growth picture is genuinely uncertain and pulls in opposite directions depending on war duration. In the base case (Hormuz reopens Q2 2026), inflation spikes to 2.0-2.5% in Q2 before normalising back toward MAS's 1.0-2.0% range by Q3-Q4 as energy prices recede. Growth slows from the exceptional 6.9% pace but remains solid at 2.5-3.5%, supported by the AI semiconductor cycle which is structurally multi-year. In the downside case (Hormuz remains closed through H2 2026), Singapore faces a genuine stagflation risk: the Ras Laffan damage takes 3-5 years to repair, eliminating 12.8 MTPA of LNG capacity that Singapore depends on. Power prices would rise sharply (the Energy Market Authority already warned of higher electricity tariffs), manufacturing costs would escalate, and global trade volumes would contract. President Tharman explicitly warned of a major economic downturn risk from a prolonged conflict. MTI raised the 2026 growth forecast to 2.0-4.0% in February, but this was pre-war; Oxford Economics and others now flag global recession risk under prolonged conflict scenarios. The Neutral stance at the strategic horizon reflects genuine equipoise between these scenarios: the base case is SGD-bullish, the tail case is SGD-bearish, and the probabilities are too uncertain to confidently net out at this distance.",
+        "key_data_points": [
+          "MTI 2026 GDP forecast: 2.0-4.0% (Feb 2026, pre-war); MAS Survey median: 3.6%",
+          "Ras Laffan LNG damage: 12.8 MTPA offline, est. 3-5 years to repair",
+          "JKM LNG: $22.73/MMBtu (doubled from $11 pre-war)",
+          "Brent: ~$111/bbl; EIA projects <$80 by Q3 2026 if conflict resolves",
+          "Electronics NODX: +43.2% YoY (Feb) — AI-driven semiconductor cycle intact",
+          "President Tharman: warned of major economic downturn risk on March 18"
+        ],
+        "what_is_priced": "The market is pricing a growth slowdown but not a recession. The consensus 3.6% GDP forecast for 2026 was formed pre-war and will be revised lower, but probably to 2.0-2.5% rather than sub-1%. The risk is that the market is too complacent about the tail scenario: a prolonged Hormuz closure plus Ras Laffan destruction is a structural energy supply shock for which historical models provide limited guidance.",
+        "citations": [9, 16, 17, 20, 25]
+      },
+      "horizon_split_explanation": "Tactical stance is Bullish because near-term inflation dynamics mechanically favour SGD through the MAS tightening channel, and Q4 GDP strength provides a strong growth cushion. Strategic stance shifts to Neutral because the war's duration creates a binary distribution: if resolved, the growth-inflation mix is excellent for SGD; if prolonged, stagflation risks mount rapidly given Singapore's energy import dependency.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Risk Appetite & Sentiment",
+      "factor_number": 3,
+      "tactical_weight": 0.10,
+      "strategic_weight": 0.05,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 60,
+        "analysis": "Global risk appetite has been devastated by Operation Epic Fury, with the VIX surging from ~16 pre-war to 30.61 and peaking at 35.30 in March — the highest reading since the August 2024 Japan carry-trade unwind. The S&P 500 has fallen 7.8% in March alone, Stoxx 600 lost 7.8%, and the Hang Seng dropped ~10%. US high-yield credit spreads widened from ~270bp to 321bp, indicating rising credit stress but not yet at crisis levels. Crucially for SGD, the risk-off environment is producing mixed signals rather than a clear directional impulse. On one hand, USD has strengthened broadly (DXY up ~3% in March) as the global safe haven, which pressures SGD through the USD/SGD channel. On the other hand, SGD is performing its regional safe-haven role admirably: it has depreciated only ~1.3% against USD in March versus 5-10% losses for IDR, THB, PHP, and MYR. This dual dynamic — weaker vs USD but stronger vs Asian peers — is characteristic of SGD during global risk events. The Neutral tactical stance reflects the offsetting forces: the USD safe-haven bid pushes USD/SGD higher, but SGD's own safe-haven premium and expected MAS tightening provide a floor. The risk-appetite environment does not generate a clean directional signal for SGD at this juncture.",
+        "key_data_points": [
+          "VIX: 30.61 (March 31), peak 35.30; pre-war ~16",
+          "S&P 500: 6,343 (-7.8% MTD, -8.7% from ATH of 7,002)",
+          "US HY OAS: 321bp, widened from ~270bp pre-war",
+          "Hang Seng: ~24,200 (-10% MTD); CSI 300: ~4,492 (-4.4%, relatively resilient)",
+          "DXY: ~100.3 (+3% MTD from ~96 February low)",
+          "SGD: -1.3% vs USD in March vs -5% to -10% for IDR, THB, PHP"
+        ],
+        "what_is_priced": "The market has priced a substantial risk-off premium — VIX above 30 and equity markets down 8-10% reflect genuine fear. However, the specific resolution of the risk event is not priced: if the April 6 deadline passes without escalation and ceasefire talks advance, VIX could collapse back toward 20 rapidly, unwinding the USD safe-haven bid and sending USD/SGD sharply lower.",
+        "citations": [2, 25, 26, 27]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 55,
+        "analysis": "Over a 1-6 month horizon, risk appetite is more likely to improve than deteriorate further, making this a conditional SGD-positive factor. The base case assumption is that Operation Epic Fury either de-escalates or reaches a stalemate that allows partial Hormuz transit to resume by mid-2026. Under that scenario, VIX would normalise from the current 30+ range toward 18-22, equity markets would recover 5-10%, and the USD safe-haven bid would fade — all directionally positive for SGD. Singapore's structural safe-haven characteristics — AAA ratings, massive current account surplus, fiscal reserves, institutional credibility — position it to benefit disproportionately from risk normalisation as capital that initially fled to USD returns to SGD as the highest-quality Asian destination. CSI 300 resilience (-4.4% vs -10% for Hang Seng) suggests China-linked sentiment is not catastrophically impaired, which matters for SGD given Singapore's substantial trade exposure to China. The strategic bullish stance is conditional on conflict de-escalation; in a prolonged-war scenario, risk appetite would remain depressed and the USD would continue to benefit at SGD's expense. Confidence is low (55) because the binary war outcome creates a wide confidence interval.",
+        "key_data_points": [
+          "VIX mean reversion target: 18-22 (historical average) from current 30.61",
+          "CSI 300: -4.4% in March (relatively resilient vs peers)",
+          "Singapore AAA credit rating from all three agencies",
+          "Singapore FY2025 fiscal surplus: S$15.1 billion (~1.9% of GDP)",
+          "Singapore current account surplus: ~19% of GDP (Q4 2025 record)"
+        ],
+        "what_is_priced": "The market is pricing elevated risk but not the mean reversion of risk appetite that historically follows conflict shocks. Post-Gulf War I (1991), VIX returned to pre-war levels within 2 months of ceasefire. The asymmetry favours SGD: if risk normalises, SGD gains from both reduced USD safe-haven demand and increased inflows into Singapore as the regional safe haven.",
+        "citations": [2, 26, 27, 28, 30]
+      },
+      "horizon_split_explanation": "Tactical Neutral because the war is actively suppressing risk appetite and the USD safe-haven bid is a real-time headwind for SGD, even though SGD outperforms regional peers. Strategic Bullish because risk mean-reversion over 1-6 months is more probable than continued deterioration, and Singapore's structural advantages position it as the primary beneficiary of risk normalisation in Asia.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Flows & Positioning",
+      "factor_number": 4,
+      "tactical_weight": 0.10,
+      "strategic_weight": 0.06,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 60,
+        "analysis": "The absence of CFTC data for SGD means positioning analysis relies on alternative proxies: S$NEER band positioning, capital flow trends, MAS reserve dynamics, and wealth management AUM growth. The S$NEER's retreat from the upper band edge toward the middle provides the most actionable signal: it implies the market absorbed a significant round of SGD selling in March (war-driven) and is now positioned more neutrally within the MAS band. This is mechanically SGD-bullish because MAS has more room to allow appreciation without the S$NEER hitting the ceiling, and the forced sellers have largely completed their repositioning. Structural capital inflows remain robust: over 2,000 single family offices in Singapore (up 43% from 2020) managing S$90bn+ in assets, with DBS reporting S$488bn in wealth AUM, OCBC at S$343bn, and UOB at S$201bn. These wealth management flows are sticky and acyclical — family offices don't flee Singapore because of a one-month oil shock. MAS reserves declined modestly from S$529bn to S$526bn in February, suggesting limited reserve deployment (not aggressive intervention) to cushion the initial war-driven SGD weakness. The tactical positioning picture is supportive: neutral-to-short-term positioning in the NEER band (room to appreciate), structural inflows intact, and no evidence of panic outflows.",
+        "key_data_points": [
+          "CFTC: SGD futures not reported — no meaningful open interest at CME",
+          "S$NEER position: shifted from upper band edge to approximately middle of band post-war",
+          "Family offices in Singapore: 2,000+ (end-2024, up 43% from 2020)",
+          "DBS wealth AUM: S$488bn; OCBC: S$343bn; UOB: S$201bn — all double-digit YoY growth",
+          "MAS OFR: S$526.25bn (Feb 2026), down from S$529.11bn (Jan)"
+        ],
+        "what_is_priced": "The market has priced the initial war shock (SGD weakened ~1.3% vs USD in March). The positioning adjustment appears largely complete — forced sellers have sold, and the S$NEER's move to mid-band reflects this clearing. What is NOT priced is the re-acceleration of structural inflows if/when the war premium fades: family office capital, corporate treasury relocations, and portfolio reallocation into SGD assets would resume.",
+        "citations": [1, 6, 7, 8]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 58,
+        "analysis": "The structural flow picture for SGD is among the strongest in the G10+SGD universe on a 1-6 month view. Singapore's wealth management industry continues to attract global capital — the combination of political stability, rule of law, zero capital gains tax, AAA sovereign backing, and proximity to Greater China makes it the default destination for Asian wealth. These inflows are structural, not cyclical, and will persist regardless of the war's outcome. The current account surplus at ~19% of GDP (Q4 2025 was a record S$40.24bn) generates massive real-economy demand for SGD that underpins the exchange rate independently of portfolio flows. The IMF explicitly flagged this surplus as substantially stronger than implied by fundamentals, which in FX terms means there is persistent upward pressure on the real exchange rate. The war introduces a potential disruption to trade flows but the Strait of Malacca is not directly affected and is actually experiencing increased demand as diverted bunkering shifts from Fujairah to Singapore. On balance, the structural flow picture is robustly SGD-supportive at the strategic horizon.",
+        "key_data_points": [
+          "Current account surplus: S$40.24bn in Q4 2025 (record); full-year 2025: S$131.96bn",
+          "CA as % of GDP: ~19% — highest in G10+SGD by a wide margin",
+          "IMF assessment: Singapore's external position substantially stronger than implied by fundamentals",
+          "Displaced bunkering: demand shifting from Fujairah to Singapore and Rotterdam",
+          "81+ Iranian oil-laden tankers at EOPL anchorage off Johor"
+        ],
+        "what_is_priced": "The market prices the structural current account surplus as a background SGD-positive. What may be underpriced is the acceleration of wealth management inflows post-war: geopolitical instability in the Middle East could trigger a fresh wave of family office and UHNW capital relocation to Singapore, a flow catalyst beyond the existing trend.",
+        "citations": [5, 7, 8, 30, 31]
+      },
+      "horizon_split_explanation": "Both horizons are Bullish on flows, with tactical confidence slightly higher (60 vs 58) because the near-term catalyst (MAS tightening triggering NEER appreciation) is more concrete than the strategic assumption (conflict resolution restoring the pre-war flow dynamic).",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": "With no CFTC data, the contrarian framework adapts. Pre-war, consensus was unambiguously long SGD (DXY weakening, S$NEER near ceiling). The war disrupted this — some positions were liquidated in March. Current positioning appears relatively clean (neutral within NEER band), reducing the risk of further positioning-driven selloff and increasing the probability that the next major flow is back toward long SGD upon MAS tightening. No extreme positioning in either direction — the signal is neutral-to-mildly-bullish.",
+      "contrarian_analysis_strategic": "Over 1-6 months, the contrarian concern is that the pre-war consensus for lower USD/SGD was too unanimous. The war provided a reality check: Singapore is not immune to external shocks, and its energy dependency is genuine. However, the contrarian case against SGD requires believing structural advantages are permanently impaired — which is unsupported by evidence. The war cleared out complacent longs and introduced a healthy risk premium, creating a more favourable entry point for structural SGD appreciation.",
+      "expression_assessment": null
+    },
+    {
+      "block": "External Balance & Terms of Trade",
+      "factor_number": 5,
+      "tactical_weight": 0.06,
+      "strategic_weight": 0.16,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 55,
+        "analysis": "The terms-of-trade shock from Operation Epic Fury is unambiguously negative for Singapore in the near term. Singapore is a net energy importer that sources approximately 50% of its LNG from Qatar (via the Strait of Hormuz) and generates ~95% of electricity from imported natural gas. The doubling of JKM LNG prices from ~$11 to $22.73/MMBtu and the 55% surge in Brent crude from $71 to $111/bbl represent a severe adverse terms-of-trade shift. The February trade data already showed the impact beginning to emerge: the trade surplus narrowed sharply to S$4.548bn from S$12.516bn in January as imports surged +16.6% YoY, outpacing export growth of +11%. The QatarEnergy force majeure on the Ras Laffan facility (12.8 MTPA offline, est. 3-5 years to repair) is a structural blow to Singapore's LNG supply security. However, three factors temper the bearish signal. First, Singapore's record-high current account surplus (~19% of GDP) provides an enormous buffer. Second, Singapore's petrochemical refining sector may benefit from widening crack spreads (Singapore refining margins surged to ~$43.50/bbl from ~$5.50/bbl). Third, displacement of bunkering activity from Fujairah to Singapore generates incremental services revenue.",
+        "key_data_points": [
+          "Brent crude: ~$111/bbl, up 55% in March from $71.32 pre-war",
+          "JKM LNG: $22.73/MMBtu, approximately doubled from ~$11 pre-war",
+          "Singapore refining margins: ~$43.50/bbl (record), up from ~$5.50/bbl",
+          "Trade surplus (Feb 2026): S$4.548bn, sharply narrower from S$12.516bn (Jan)",
+          "Current account surplus: ~19% of GDP (Q4 2025 record S$40.24bn)",
+          "~50% of Singapore LNG from Qatar; ~95% of electricity from imported gas",
+          "QatarEnergy force majeure: 12.8 MTPA offline"
+        ],
+        "what_is_priced": "The market has partially priced the energy shock through the 1.3% SGD depreciation in March. However, the degree of trade balance deterioration that will show up in April-May data releases is likely not fully reflected. The 63% narrowing of the trade surplus from January to February occurred with only 2 days of war impact — March data will be far worse.",
+        "citations": [17, 22, 30, 31, 32]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 65,
+        "analysis": "The strategic assessment of Singapore's external balance is structurally bullish despite the near-term energy headwind. The starting point is so strong — ~19% of GDP current account surplus, the highest in the G10+SGD set by a factor of 2-3x — that even a dramatic terms-of-trade deterioration leaves Singapore firmly in surplus. A back-of-envelope calculation: Singapore's total energy imports were approximately S$80-90bn in 2025; a sustained 50% increase adds ~S$40-45bn to the import bill, reducing the annual current account surplus from ~S$132bn to ~S$87-92bn, or from ~19% to ~12-13% of GDP. That remains the highest in the G10+SGD set. In the base case of conflict resolution by mid-2026, the trade balance recovery would be swift. The semiconductor export cycle provides a structural underpinning: electronics NODX surged +43.2% YoY in February on the AI investment supercycle. Enterprise Singapore raised its 2026 NODX growth forecast to +2.0% to +4.0%. China's January-February trade data showed exports surging +21.8% YoY with semiconductor exports up +66.5%, reinforcing the regional trade momentum. The Strait of Malacca remains open and is seeing increased traffic as shipping reroutes around the Hormuz closure.",
+        "key_data_points": [
+          "Current account: ~19% of GDP; even a 50% energy cost increase reduces it to ~12-13%",
+          "Electronics NODX: +43.2% YoY (Feb); ICs +51.2%; disk media +96.3%",
+          "Enterprise Singapore NODX forecast: raised to +2.0% to +4.0% for 2026",
+          "China trade (Jan-Feb): exports +21.8% YoY; semiconductor exports +66.5%",
+          "EIA Brent projection: <$80/bbl by Q3 2026 (conflict resolution scenario)",
+          "Strait of Malacca: open; displaced bunkering demand flowing to Singapore"
+        ],
+        "what_is_priced": "The market prices Singapore's structural surplus as a permanent SGD-positive — correctly. What is underpriced is the resilience of the surplus under stress: even a worst-case energy shock only reduces it from exceptional to merely excellent. The consensus may be over-weighting the energy vulnerability relative to the surplus magnitude.",
+        "citations": [16, 22, 30, 31, 33]
+      },
+      "horizon_split_explanation": "Tactical Bearish because the energy terms-of-trade shock produces immediate deterioration in trade data that will create near-term negative headlines. Strategic Bullish because the structural surplus is so large that even worst-case energy scenarios leave it strongest in the G10+SGD set, and the semiconductor export cycle provides a powerful offsetting growth engine.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Guidance & Credibility",
+      "factor_number": 6,
+      "tactical_weight": 0.07,
+      "strategic_weight": 0.12,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 75,
+        "analysis": "MAS credibility is among the highest of any central bank in the G10+SGD universe, and the April 2026 MPS is set to reinforce this reputation. The S$NEER managed float regime has operated since 1981 with a strong track record of delivering low and stable inflation — markets generally respect the band and do not attempt to fight MAS. The January 29, 2026 MPS was an off-cycle review (rare — the last was during COVID in 2020) that maintained the existing appreciation slope but raised inflation forecasts to 1.0-2.0% and tilted risks upward. The March 2 MAS statement — confirming normal market functioning and S$NEER within the band — was measured and confidence-building. The MAS blackout period began in late March, meaning the next communication will be the April MPS itself. The gap between MAS guidance and market expectations is narrow, which is itself a credibility signal. The consensus for an April tightening is priced at roughly 50-60% probability, which appears appropriate. If MAS tightens, it validates trust; if it holds, hawkish language preserves forward guidance credibility. The opacity of the S$NEER band parameters gives MAS operational flexibility that other central banks lack.",
+        "key_data_points": [
+          "MAS January 29 MPS: off-cycle review; maintained slope; raised CPI forecast to 1.0-2.0%",
+          "MAS March 2 statement: confirmed normal market functioning, S$NEER within band",
+          "April MPS due: by April 14 (21-day blackout period in effect)",
+          "MAS Survey: 47.4% expected tightening at April (pre-war figure)",
+          "MAS credibility: S$NEER regime operational since 1981; 45-year track record"
+        ],
+        "what_is_priced": "The market prices MAS as a credible inflation-fighter — fully warranted. The specific April MPS outcome is priced at ~50-60% tightening probability, creating asymmetry: tightening confirms and slightly exceeds expectations (SGD strengthens), while a hold with hawkish language would be roughly neutral. The downside risk from an MAS communication perspective is very low.",
+        "citations": [1, 9, 11, 34, 35]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 70,
+        "analysis": "MAS's strategic credibility is being tested by the most severe external shock since the Asian Financial Crisis. The base case is that MAS tightens in April, the energy shock is absorbed, and credibility is reinforced — the scenario that has repeated across multiple crises (GFC 2008, COVID 2020, inflation surge 2022). In each episode, MAS used the S$NEER band decisively and the market rewarded credibility with SGD appreciation. The April MPS accompanied by the Macroeconomic Review will contain MAS's updated economic assessment and inflation forecasts — the most comprehensive communication event of the year. If the April tightening is followed by conflict resolution, MAS will likely maintain the steeper slope through October, providing 6 months of accelerated S$NEER appreciation. The strategic risk is a prolonged war forcing MAS into a credibility-damaging compromise: if stagflation materialises (inflation above 3%, GDP below 1%), MAS may face pressure to ease the slope to support growth. The probability of this scenario is estimated at 15-20%. MAS's communication around Ras Laffan damage and LNG supply diversification will be closely watched.",
+        "key_data_points": [
+          "MAS S$NEER regime: operational since 1981 — 45 years of institutional credibility",
+          "Historical precedents: MAS tightened decisively during 2022 inflation surge (4 consecutive tightenings)",
+          "April MPS + Macroeconomic Review: most comprehensive annual communication event",
+          "October 2026 MPS: next scheduled review after April",
+          "Risk scenario: prolonged war leading to stagflation forcing MAS to ease — probability ~15-20%"
+        ],
+        "what_is_priced": "The market assigns a high credibility premium to MAS. What may be slightly underpriced is the cumulative impact of a two-step tightening cycle (April + October): if MAS tightens at April and energy prices normalise, maintaining the steeper slope through October implies 12+ months of elevated S$NEER appreciation pushing USD/SGD toward 1.22-1.24.",
+        "citations": [1, 9, 11, 34, 35]
+      },
+      "horizon_split_explanation": "Both horizons are Bullish, with tactical confidence slightly higher (75 vs 70) because the April MPS is a near-certain credibility-reinforcing event whereas the strategic outlook depends on the untested scenario of MAS managing a sustained wartime energy shock.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Event Risk & Geopolitics",
+      "factor_number": 7,
+      "tactical_weight": 0.05,
+      "strategic_weight": 0.05,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 55,
+        "analysis": "The event risk landscape is dominated by Operation Epic Fury — the most severe geopolitical risk environment since the 2003 Iraq invasion. The immediate binary catalyst is Trump's April 6 deadline on extending the pause on Iranian energy infrastructure strikes — expiration without extension would escalate the conflict significantly, triggering a further oil price spike and renewed risk-off that would pressure SGD. The Houthis' first direct missile attacks on Israel (March 28) represent a geographic widening of the conflict. Iran's attack on a fully loaded oil tanker off the Dubai coast (March 31) demonstrates maritime shipping risk is intensifying, not diminishing. For Singapore specifically, the key risk is second-order economic effects: disrupted LNG supply chains, surging freight and insurance costs (war risk premiums at 5-10% of hull value, up from 0.25% pre-war), and potential spillover into the Strait of Malacca if the conflict broadens. The Trump-Xi summit introduces separate event risk with implications for US-China trade policy, semiconductor export controls, and ASEAN tariff trajectories. The tactical bearish stance reflects the near-term probability (estimated 40%) that the next 2-4 weeks see escalation rather than de-escalation.",
+        "key_data_points": [
+          "April 6 deadline: Trump's pause on Iranian energy infrastructure strikes expires",
+          "Houthi attacks on Israel: first direct strikes March 28 (conflict widening)",
+          "War risk insurance: 5-10% of hull value, up from 0.25% pre-war",
+          "Trump-Xi summit: March 31-April 2 (trade/tariff/semiconductor implications)",
+          "Section 301 investigations: launched March 11 against 16 countries including 6 ASEAN nations"
+        ],
+        "what_is_priced": "The market has priced a significant risk premium but has not priced further escalation. The April 6 deadline is a binary event with roughly 60/40 odds of extension vs expiration. If it expires and the US strikes Iranian energy infrastructure, Brent could spike to $130+ and USD/SGD could test 1.30-1.32. This tail risk is not priced.",
+        "citations": [25, 31, 36]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "analysis": "The strategic event risk assessment requires assigning probabilities to conflict resolution scenarios, which is inherently speculative. The range of outcomes is unusually wide: from a ceasefire and Hormuz reopening within weeks to a sustained multi-month blockade with potential escalation into a broader regional conflict. Trump's references to serious discussions with Iran's new leadership suggest a diplomatic track exists, but the Houthi escalation and tanker attacks indicate the conflict is broadening. For Singapore, the US tariff landscape adds a separate layer: Section 301 investigations against 6 ASEAN nations could result in targeted tariffs affecting Singapore's re-export trade, though the current 10% baseline tariff has an effective rate of only ~2.6% given exemptions. The BIS Affiliates Rule (November 2026) and USMCA joint review (July 2026) are distant risks. The Neutral strategic stance reflects the genuinely unknowable probability distribution of conflict duration.",
+        "key_data_points": [
+          "Trump: referenced serious discussions with Iran's new leadership",
+          "Houthi escalation: first direct missile strikes on Israel March 28",
+          "Section 301 investigations: 16 countries including 6 ASEAN nations",
+          "US tariff on Singapore: 10% baseline, ~2.6% effective (key exports exempted)",
+          "Tail risk: China-Taiwan escalation (ODNI assessed likely will not invade in 2027)"
+        ],
+        "what_is_priced": "The market prices a muddling through scenario — war continues but doesn't escalate dramatically. Both tails are underpriced: the quick-resolution bull case and the prolonged-blockade bear case would each move SGD more than currently implied.",
+        "citations": [25, 31, 36]
+      },
+      "horizon_split_explanation": "Tactical Bearish because the next 2-4 weeks contain specific escalation triggers (April 6 deadline, Houthi strikes, tanker attacks) more likely to generate negative headlines. Strategic Neutral because the 1-6 month distribution is genuinely symmetric around resolution vs prolongation.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Fiscal & Sovereign Risk",
+      "factor_number": 8,
+      "tactical_weight": 0.04,
+      "strategic_weight": 0.07,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 85,
+        "analysis": "Singapore's fiscal and sovereign position is among the strongest in the world and is not currently material as a risk factor — it is material as a support factor. Singapore holds AAA ratings from all three major agencies (S&P, Moody's, Fitch), all with stable outlooks. The FY2025 revised fiscal surplus came in at S$15.1 billion (~1.9% of GDP), more than double the initial estimate. The FY2026 budget projects a continued surplus of S$8.5 billion (~1.0% of GDP). The NIRC from GIC and Temasek at S$28.5 billion is the single largest revenue line item. Singapore's government has no net debt — gross debt (~173% of GDP) consists entirely of SGS issued for CPF investment purposes. The net international investment position is approximately +150% of GDP. GIC's 20-year annualised real return was 3.8%; Temasek's portfolio stood at S$484 billion. In the war context, Singapore's fiscal firepower provides an enormous buffer: the government could deploy fiscal stimulus indefinitely without compromising sovereign credit standing.",
+        "key_data_points": [
+          "Sovereign ratings: AAA/Aaa/AAA (S&P/Moody's/Fitch), all stable",
+          "FY2025 surplus: S$15.1bn (~1.9% of GDP); FY2026 projected: S$8.5bn (~1.0%)",
+          "Gross debt: ~173% of GDP (CPF investment issuance, NOT deficit financing)",
+          "Net international investment position: ~+150% of GDP",
+          "GIC 20-year real return: 3.8%; Temasek portfolio: S$484bn",
+          "NIRC: S$28.5bn — largest single revenue source"
+        ],
+        "what_is_priced": "Singapore's AAA status and fiscal strength are fully priced as a long-term SGD positive. The market assigns no sovereign risk premium to SGD. This is correct — there is no sovereign risk. The factor contributes to SGD's safe-haven status during crisis periods.",
+        "citations": [5, 28, 29]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 85,
+        "analysis": "The strategic fiscal assessment mirrors the tactical: Singapore's fiscal position is so strong that it would take a multi-year catastrophic scenario to impair it. Even under a prolonged war scenario with energy costs remaining elevated for 6+ months, Singapore has the fiscal capacity to subsidise energy costs, support affected industries, and maintain fiscal surplus. The Temasek restructuring into three entities (effective April 1, 2026) enhances operational focus but does not affect sovereign financial strength. The 40% Corporate Income Tax Rebate for YA2026 and Pillar Two BEPS implementation from FY2027 demonstrate forward-looking governance. Among the G10+SGD set, Singapore's fiscal position is rivalled only by Norway. No other G10 economy comes close on a net asset basis. The high confidence (85) reflects near-certainty that this factor remains SGD positive under virtually all scenarios. The only theoretical impairment would be a Singapore-specific idiosyncratic event — extremely low probability.",
+        "key_data_points": [
+          "GIC + Temasek combined assets: ~S$1T+ (among the largest SWFs globally)",
+          "Temasek restructuring: 3 entities effective April 1, 2026",
+          "Budget FY2026: 40% Corporate Income Tax Rebate; Pillar Two BEPS from FY2027",
+          "Fiscal reserves: accumulated over decades; constitutional custodial protections",
+          "Singapore: one of ~11 countries globally holding top rating from all three agencies"
+        ],
+        "what_is_priced": "Fully priced. No adjustment needed. The fiscal factor is a structural floor under SGD — it prevents weakening beyond a certain point during crises but doesn't drive appreciation during normal times. Its value is asymmetric.",
+        "citations": [5, 28, 29]
+      },
+      "horizon_split_explanation": "Stances and confidence are identical (Bullish 85/85) across both horizons because Singapore's fiscal and sovereign strength is a structural constant, not a cyclical variable. The war does not impair this factor at either horizon.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Market Structure & Volatility",
+      "factor_number": 9,
+      "tactical_weight": 0.05,
+      "strategic_weight": 0.03,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "analysis": "USD/SGD's market structure is in a transitional state following the war-driven reversal. The pair traded a strong downtrend from the 1.3553 July 2025 peak to the 1.2584 January 2026 low (~970 pips over 6 months), then sharply reversed to ~1.2860. The 200-day SMA at approximately 1.2900 is the critical structural level — it acts as the boundary between the prevailing downtrend and a potential regime change. Spot currently sits just below this level, creating a technical standoff. The 50-day SMA at ~1.2755 provides downside support. The moving average configuration is tangled: spot above the 50-day but below the 200-day, producing choppy range-bound action as trend-following systems receive conflicting signals. Implied volatility is estimated in the 6-8% range versus a typical 3-4% for the managed float regime. The S$NEER band provides implicit structural support/resistance that free-floating currencies lack. The Neutral tactical stance reflects structural ambiguity: resolution depends on fundamental catalysts rather than technical momentum.",
+        "key_data_points": [
+          "200-day SMA: ~1.2900 (resistance); 50-day SMA: ~1.2755 (support)",
+          "52-week range: 1.2584-1.3553; current at ~1.2860 (27% retracement)",
+          "Estimated 1M implied vol: ~6-8% (vs typical 3-4% for managed float)",
+          "Estimated 20-day realised vol: ~5.2% annualised",
+          "Key levels: 1.2800 (psychological support), 1.3000 (major round number resistance)"
+        ],
+        "what_is_priced": "Elevated implied volatility indicates the options market is pricing a wider-than-normal distribution of outcomes around the MAS April review and war events. If IV is at 7% and RV at 5%, the market is paying a 200bp variance risk premium for event protection, making options relatively expensive and favouring spot expression of directional views.",
+        "citations": [2, 37]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "analysis": "The strategic market structure outlook depends entirely on whether the war resolves. In the resolution scenario, USD/SGD would break below the 200-day SMA, re-establish the prior downtrend, and trigger CTA buying of SGD as MAs re-align bearishly. In the prolongation scenario, USD/SGD would break above the 200-day and potentially re-test 1.30-1.32. The current ambiguity between these scenarios produces a Neutral structural assessment. The S$NEER managed float provides an asymmetric structural feature: MAS's band constrains downside in SGD because MAS will intervene to prevent disorderly depreciation beyond the band floor. Conversely, MAS also constrains the pace of appreciation by managing the ceiling. The net effect is a structurally compressed distribution with modestly positive expected value given the managed appreciation slope. The forward curve implies continued gradual SGD appreciation, consistent with the managed slope.",
+        "key_data_points": [
+          "Resolution scenario target: 1.24-1.26 (below 200-day, re-establishes downtrend)",
+          "Prolongation scenario risk: 1.30-1.32 (above 200-day, new uptrend)",
+          "S$NEER band estimated width: ~±2% around midpoint (compresses distribution)",
+          "MAS managed appreciation slope: ~0.5-1.0% per annum (structural positive drift)",
+          "Estimated 3M implied vol: ~6-7%; 6M normalisation target: ~4-5%"
+        ],
+        "what_is_priced": "The forward curve (1M points: -26.8, 6M: -162.0) implies continued gradual SGD appreciation consistent with the managed appreciation slope. The vol curve shape (assumed backwardation given near-term events) suggests the market pays more for near-term protection, which typically resolves through vol compression as events pass — structurally positive for SGD once the event premium decays.",
+        "citations": [2, 37]
+      },
+      "horizon_split_explanation": "Both horizons are Neutral because market structure is genuinely transitional and provides no directional signal independent of fundamental catalysts. Tactically the 200-day SMA creates a defined battleground; strategically the trend direction has more time to establish.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": "Given elevated volatility (estimated IV at 6-8%, well above the 3-4% norm), options are likely expensive relative to the managed float's structural compression of outcomes. The S$NEER band acts as a built-in risk cap that shortens the distribution tails. This makes selling vol relatively attractive — the realised distribution will likely be narrower than implied. For directional views: spot expression is more efficient than options when IV is elevated, because time decay costs are amplified. A bullish SGD (lower USD/SGD) view is best expressed through spot or forward position with stop above the 200-day SMA (1.29). If IV percentile is above the 75th percentile (estimated currently), option sellers have a statistical edge compounding the fundamental view."
+    },
+    {
+      "block": "USD Liquidity & Funding",
+      "factor_number": 10,
+      "tactical_weight": 0.11,
+      "strategic_weight": 0.12,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 60,
+        "analysis": "The global USD liquidity environment is moderately tighter than pre-war conditions, weighing on non-USD currencies including SGD. SOFR at 3.63% is broadly consistent with the 3.50-3.75% Fed Funds target range, showing no acute money market stress. However, the war introduced several USD-tightening channels. First, DXY at ~100.3 (up 3% in March) reflects broad-based USD demand from safe-haven seeking — the left side of the dollar smile. Second, margin calls from the equity selloff generated forced USD demand as global investors liquidate and repatriate. Third, the energy price shock increased global demand for USD to pay for oil and LNG — commodities priced in dollars, so higher prices mechanically increase USD demand. For Singapore specifically, the banking sector (DBS, OCBC, UOB) has significant USD operations and is a major centre for the Asian dollar market. USD funding stress in Asia transmits directly through Singapore's financial plumbing. The Fed ended QT in December 2025 and is purchasing T-bills at up to $40bn/month for reserve management, providing some liquidity buffer. The SGD/USD cross-currency basis swap is proprietary data not available for this report.",
+        "key_data_points": [
+          "SOFR: 3.63% (March 27), consistent with FF target",
+          "DXY: ~100.3, up ~3% in March (left side of dollar smile — risk-off USD demand)",
+          "Fed balance sheet: ~$6.5T (QT ended December 2025); purchasing T-bills at up to $40bn/month",
+          "SGD/USD 3M cross-currency basis: NOT FOUND (proprietary)",
+          "EUR/USD 3M basis: NOT FOUND",
+          "Fed Standing Repo Facility: available as backstop; tapped for $18.5bn in September 2025"
+        ],
+        "what_is_priced": "The market has priced a moderate USD liquidity tightening through the 3% DXY rally. However, the persistence of USD demand from elevated energy prices is likely underpriced — as long as Brent stays above $100 and JKM LNG above $20, the incremental USD demand for energy purchases is a structural flow working against SGD.",
+        "citations": [2, 14]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "analysis": "The strategic USD liquidity outlook is conditional on the war and the Fed's reaction function. In the base case (conflict resolution by mid-2026), USD liquidity conditions normalise: DXY retreats toward the mid-90s as the safe-haven bid fades, energy-driven USD demand subsides, and the Fed's balance sheet management maintains ample reserves. The Fed's March dot plot targeting 3.4% by year-end suggests modest easing that would incrementally loosen USD conditions. However, the war introduces upside risk to US rates: if the energy shock transmits into US inflation (Core PCE rising toward 3%), the Fed could pivot to holding for longer or even entertaining hikes — tightening USD liquidity and strengthening the dollar. The SOFR-IORB spread has been trending wider, and the TGA at ~$1T versus the $850bn target suggests Treasury cash management is absorbing reserves. Singapore's position as a global USD clearing hub means it is a direct transmission point for USD liquidity conditions. The Neutral stance reflects balanced probability: base-case normalisation favours SGD, but war-driven upside risk to US rates is a material offset.",
+        "key_data_points": [
+          "Fed dot plot median: 3.4% by year-end (one 25bp cut from 3.625% midpoint)",
+          "Fed QT ended December 2025; T-bill purchases at up to $40bn/month",
+          "SOFR-IORB spread: trending wider (reserves transitioning from abundant to ample)",
+          "TGA balance: ~$1T (above $850bn target)",
+          "Dollar smile: currently on left side (risk-off); would shift to middle (goldilocks) upon resolution"
+        ],
+        "what_is_priced": "Markets price at most one Fed cut in 2026. This is broadly appropriate. The asymmetry favours SGD: if the war resolves and US inflation eases, the Fed could cut more than once (repricing USD lower); if the war persists but doesn't escalate, one-cut pricing holds and provides no additional USD tailwind.",
+        "citations": [2, 14]
+      },
+      "horizon_split_explanation": "Tactical Bearish because the active war is generating real-time USD demand through safe-haven flows, energy payment channels, and margin call dynamics. Strategic Neutral because the 1-6 month horizon encompasses a probable conflict resolution that would unwind these flows and restore a more benign USD liquidity environment for SGD.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    }
+  ],
+
+  "synthesis": {
+    "tactical": {
+      "net_stance": "Bullish",
+      "conviction": 3,
+      "overall_confidence": 65,
+      "weighted_score": {
+        "calculation": [
+          {"factor": "1. Policy & Rates", "stance_score": 1.00, "confidence_pct": 72, "confidence_adjusted_score": 0.720, "weight": 0.24, "weighted_contribution": 0.173},
+          {"factor": "2. Inflation & Growth", "stance_score": 1.00, "confidence_pct": 68, "confidence_adjusted_score": 0.680, "weight": 0.18, "weighted_contribution": 0.122},
+          {"factor": "3. Risk Appetite", "stance_score": 0.00, "confidence_pct": 60, "confidence_adjusted_score": 0.000, "weight": 0.10, "weighted_contribution": 0.000},
+          {"factor": "4. Flows & Positioning", "stance_score": 1.00, "confidence_pct": 60, "confidence_adjusted_score": 0.600, "weight": 0.10, "weighted_contribution": 0.060},
+          {"factor": "5. External Balance", "stance_score": -1.00, "confidence_pct": 55, "confidence_adjusted_score": -0.550, "weight": 0.06, "weighted_contribution": -0.033},
+          {"factor": "6. Guidance & Credibility", "stance_score": 1.00, "confidence_pct": 75, "confidence_adjusted_score": 0.750, "weight": 0.07, "weighted_contribution": 0.053},
+          {"factor": "7. Event Risk", "stance_score": -1.00, "confidence_pct": 55, "confidence_adjusted_score": -0.550, "weight": 0.05, "weighted_contribution": -0.028},
+          {"factor": "8. Fiscal & Sovereign", "stance_score": 1.00, "confidence_pct": 85, "confidence_adjusted_score": 0.850, "weight": 0.04, "weighted_contribution": 0.034},
+          {"factor": "9. Market Structure", "stance_score": 0.00, "confidence_pct": 55, "confidence_adjusted_score": 0.000, "weight": 0.05, "weighted_contribution": 0.000},
+          {"factor": "10. USD Liquidity", "stance_score": -1.00, "confidence_pct": 60, "confidence_adjusted_score": -0.600, "weight": 0.11, "weighted_contribution": -0.066}
+        ],
+        "net_score": 0.315,
+        "interpretation": "Net score of +0.315 on a -1 to +1 scale is a moderate bullish signal. The positive score is driven by Policy & Rates (+0.173, representing 55% of total positive score) and Inflation & Growth (+0.122). Bearish offsets — USD Liquidity (-0.066), External Balance (-0.033), and Event Risk (-0.028) — collectively subtract -0.127, significant but insufficient to overwhelm the bullish core.",
+        "mapping_to_conviction": "+0.315 maps to Conviction 3 (moderate bullish). Threshold for Conviction 4 would require net score above +0.45, needing bearish factor resolution or bullish confidence increase."
+      },
+      "rationale": "The tactical bullish case for SGD rests on three reinforcing pillars: the near-certain hawkish outcome at the MAS April review (due by April 14) which will mechanically steepen the S$NEER appreciation slope and pull USD/SGD lower; the inflation data trajectory where March-April CPI prints will compel MAS action; and MAS's institutional credibility ensuring the market front-runs the policy adjustment. The weighted score of +0.315 reflects these dominant factors — Policy & Rates alone contributes more than all bearish factors combined. The key conflicts are between fundamental SGD-bullish factors (Policy, Inflation, Guidance, Fiscal) and war-driven cyclical headwinds (USD Liquidity, Event Risk, External Balance). The bullish factors are structural and policy-driven while bearish factors are cyclical and event-dependent — the policy response (MAS tightening) is designed to counteract the cyclical headwinds (imported inflation). The path of least resistance for the next 2-4 weeks is lower USD/SGD: the April MPS is the single largest near-term catalyst. The primary risk is the April 6 Trump deadline on Iran energy infrastructure — if strikes resume, the resulting oil spike and VIX surge could overwhelm the MAS tightening benefit in the very short term. Actionability is moderate: the thesis is clear and the catalyst is dated, but event risk creates a wider-than-normal confidence interval arguing for position sizing at ~60-70% of full conviction. The factor interaction is noteworthy: Policy & Rates and Inflation & Growth reinforce each other (higher inflation strengthens the MAS tightening case), while Guidance & Credibility amplifies the signal (MAS's 45-year track record means the market trusts it will act). The bearish factors are largely external to Singapore and would reverse simultaneously upon conflict de-escalation.",
+      "g10_ranking": {
+        "rank": 5,
+        "out_of": 11,
+        "beats": ["JPY", "NZD", "CAD", "SEK", "NOK"],
+        "loses_to": ["USD", "CHF", "AUD", "GBP", "EUR"],
+        "commentary": "SGD's mid-pack tactical ranking reflects war-related headwinds constraining an otherwise top-tier fundamental profile. USD retains safe-haven incumbency, CHF is the ultimate safe haven with zero rates, and AUD benefits from both the hiking cycle and commodity export tailwinds. SGD outperforms the energy-import victims (JPY), small open economies without fiscal buffers (NZD), and tariff-exposed economies (CAD)."
+      },
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 55,
+          "outcome": "USD/SGD falls to 1.27-1.28",
+          "conditions": ["MAS tightens at April (steeper S$NEER slope increase of ~50bp)", "Trump extends Iran pause past April 6; VIX retreats to 22-26", "Q1 GDP advance estimate above 3%"],
+          "path": "Gradual SGD appreciation over 2-3 weeks as the market digests MAS decision and war premium partially fades. Pre-MPS positioning flows start the move; the announcement provides the impulse."
+        },
+        "upside_case": {
+          "probability_pct": 20,
+          "outcome": "USD/SGD drops rapidly to 1.25-1.26",
+          "conditions": ["Ceasefire announced; Brent drops below $90", "VIX returns to sub-20"]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "outcome": "USD/SGD rises to 1.30-1.32",
+          "conditions": ["US strikes Iranian energy infrastructure after April 6 deadline; Brent spikes to $130+", "MAS holds rather than tightens to preserve growth optionality"]
+        }
+      },
+      "path_expectation": "The most probable path is a gradual grind lower in USD/SGD from 1.2860 toward 1.27-1.28 over the next 2-4 weeks. The path begins with pre-MPS positioning (market builds short USD/SGD ahead of April 14 MPS), receives a catalyst impulse from the MAS tightening announcement (likely 50-100 pip move lower intraday), then consolidates in the 1.27-1.28 range as the war premium provides resistance to further appreciation. Volatility should remain elevated (6-8% annualised) but the directional bias is lower. Any war-driven spike toward 1.29-1.30 represents a buying opportunity for SGD with stop-loss discipline at 1.3050.",
+      "conviction_ladder": {
+        "current": 3,
+        "increase_to_5_if": ["MAS tightens AND ceasefire/Hormuz reopening announced", "Brent below $85 AND VIX below 18"],
+        "increase_to_4_if": ["MAS tightens at April AND April 6 deadline passes without escalation", "VIX drops below 25"],
+        "decrease_to_3_if": ["Already at current level", "N/A"],
+        "decrease_to_2_if": ["MAS surprises by holding AND war escalates (April 6 strikes resume)", "VIX above 40 AND Brent above $130"],
+        "decrease_to_1_if": ["MAS eases (slope reduction) AND prolonged war with Brent >$130", "Singapore GDP turns negative"]
+      },
+      "risk_reward": {
+        "base_case_payoff": "USD/SGD from 1.2860 to 1.2750 = +110 pips / +0.9% SGD appreciation",
+        "downside_case_loss": "USD/SGD from 1.2860 to 1.3100 = -240 pips / -1.9% SGD depreciation",
+        "risk_reward_ratio": "1:2.2 in raw pips (unfavourable). Probability-weighted EV: (55% x +110) + (20% x +260) - (25% x -240) = +52.5 pips positive expected value",
+        "asymmetry_assessment": "Raw risk/reward skewed against due to war tail risk, but probability-weighted expected value is positive at +52.5 pips. The probability weighting makes this a positive EV trade despite the raw asymmetry."
+      }
+    },
+    "strategic": {
+      "net_stance": "Bullish",
+      "conviction": 3,
+      "overall_confidence": 58,
+      "weighted_score": {
+        "calculation": [
+          {"factor": "1. Policy & Rates", "stance_score": 1.00, "confidence_pct": 62, "confidence_adjusted_score": 0.620, "weight": 0.24, "weighted_contribution": 0.149},
+          {"factor": "2. Inflation & Growth", "stance_score": 0.00, "confidence_pct": 55, "confidence_adjusted_score": 0.000, "weight": 0.10, "weighted_contribution": 0.000},
+          {"factor": "3. Risk Appetite", "stance_score": 1.00, "confidence_pct": 55, "confidence_adjusted_score": 0.550, "weight": 0.05, "weighted_contribution": 0.028},
+          {"factor": "4. Flows & Positioning", "stance_score": 1.00, "confidence_pct": 58, "confidence_adjusted_score": 0.580, "weight": 0.06, "weighted_contribution": 0.035},
+          {"factor": "5. External Balance", "stance_score": 1.00, "confidence_pct": 65, "confidence_adjusted_score": 0.650, "weight": 0.16, "weighted_contribution": 0.104},
+          {"factor": "6. Guidance & Credibility", "stance_score": 1.00, "confidence_pct": 70, "confidence_adjusted_score": 0.700, "weight": 0.12, "weighted_contribution": 0.084},
+          {"factor": "7. Event Risk", "stance_score": 0.00, "confidence_pct": 50, "confidence_adjusted_score": 0.000, "weight": 0.05, "weighted_contribution": 0.000},
+          {"factor": "8. Fiscal & Sovereign", "stance_score": 1.00, "confidence_pct": 85, "confidence_adjusted_score": 0.850, "weight": 0.07, "weighted_contribution": 0.060},
+          {"factor": "9. Market Structure", "stance_score": 0.00, "confidence_pct": 50, "confidence_adjusted_score": 0.000, "weight": 0.03, "weighted_contribution": 0.000},
+          {"factor": "10. USD Liquidity", "stance_score": 0.00, "confidence_pct": 55, "confidence_adjusted_score": 0.000, "weight": 0.12, "weighted_contribution": 0.000}
+        ],
+        "net_score": 0.459,
+        "interpretation": "Net score of +0.459 is solidly bullish — meaningfully stronger than tactical +0.315. The strategic score is higher because External Balance flips Bearish to Bullish (contributing +0.104 at the higher 0.16 strategic weight), war-driven bearish factors neutralise, and Guidance & Credibility carries more strategic weight (0.12 vs 0.07).",
+        "mapping_to_conviction": "+0.459 is at the Conviction 3/4 boundary. Lower overall confidence (58%) keeps it at 3 — the war's binary nature introduces significant uncertainty despite directional clarity."
+      },
+      "rationale": "The strategic bullish case for SGD is anchored in Singapore's dominant position across the factor framework: #1 in the G10+SGD set on external balance (~19% CA surplus), fiscal strength (AAA, S$15bn surplus, ~S$1T in SWF assets), GDP growth (+6.9%), and institutional credibility (45-year S$NEER regime). The weighted score of +0.459 is propelled by Policy & Rates (+0.149), External Balance (+0.104), and Guidance & Credibility (+0.084) — three factors carrying 52% of strategic weighting. The strategic thesis diverges from tactical in two ways: External Balance flips to Bullish because even worst-case energy scenarios leave the surplus strongest in G10+SGD, and war-driven headwinds are neutralised by base-case conflict resolution. The key structural edge is the MAS managed appreciation mechanism: a steeper S$NEER slope (expected from April) combined with normalising energy prices produces a powerful SGD appreciation impulse partially priced in the 1.24-1.28 consensus but potentially underestimated in speed if a ceasefire triggers rapid unwind. The semiconductor export cycle (electronics NODX +43.2%) provides structural growth independence from the war. The primary risk preventing higher conviction is the 20-25% probability of prolonged Hormuz closure transforming the cyclical shock into structural inflationary drag. Actionability is high for patient capital: well-defined entry (current ~1.29), clear target (1.24-1.26), and identifiable stop-loss (1.32). The interaction between Policy & Rates and External Balance is particularly powerful at the strategic horizon — MAS's managed appreciation converts the structural current account surplus into a predictable appreciation path that compounds over 6 months. The semiconductor cycle provides growth resilience that distinguishes Singapore from other energy-import-vulnerable economies like Japan, where the growth offset is weaker.",
+      "g10_ranking": {
+        "rank": 3,
+        "out_of": 11,
+        "beats": ["JPY", "NZD", "CAD", "NOK", "SEK", "EUR", "GBP", "AUD"],
+        "loses_to": ["USD", "CHF"],
+        "commentary": "SGD's strategic ranking rises from 5th (tactical) to 3rd because structural advantages dominate over longer horizons as cyclical war headwinds fade. Only USD (safe-haven if war persists) and CHF (ultimate safe haven, zero rates) rank above. SGD's ~19% CA surplus, AAA ratings, and managed appreciation provide a compounding advantage that most G10 currencies cannot match."
+      },
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "outcome": "USD/SGD reaches 1.25-1.26 by September",
+          "conditions": ["Hormuz partially reopens by June 2026", "MAS maintains steeper slope through October review", "Brent normalises to $75-85; Fed delivers one cut by year-end"],
+          "path": "Three-phase move: Phase 1 (April-May) MAS tightening impulse to 1.27-1.28. Phase 2 (May-July) war resolution unwinds premium through 1.27 toward 1.25-1.26. Phase 3 (Jul-Sep) S$NEER appreciation grind delivers final move."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "outcome": "USD/SGD reaches 1.22-1.24 by September",
+          "conditions": ["Ceasefire by May; Brent below $80 rapidly", "DXY drops to low 90s; US tariff de-escalation"]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "outcome": "USD/SGD rises to 1.31-1.34",
+          "conditions": ["Prolonged blockade; Brent sustained above $100 through H2 2026", "Singapore GDP decelerates to sub-2%; global recession materialises"]
+        }
+      },
+      "path_expectation": "The strategic path unfolds in three phases. Phase 1 (April-May): MAS tightens, USD/SGD drops to 1.27-1.28 as the immediate policy impulse works through. Phase 2 (May-July): War dynamics dominate — if de-escalation occurs, energy normalisation and fading USD bid pull USD/SGD through 1.27 toward 1.25-1.26. If the war persists, Phase 2 becomes a choppy 1.27-1.30 range. Phase 3 (July-September): In the base case, the cumulative S$NEER appreciation grind delivers the final move toward 1.24-1.26. The shape is a gradual staircase down, with war headlines creating temporary pullbacks that provide entry opportunities.",
+      "conviction_ladder": {
+        "current": 3,
+        "increase_to_5_if": ["Full Hormuz reopening AND Brent normalises to $70-75", "MAS maintains steep slope at October AND DXY below 95"],
+        "increase_to_4_if": ["Ceasefire announced AND Brent below $85", "MAS tightens at April AND Q1 GDP above 3%"],
+        "decrease_to_3_if": ["Already at current level", "N/A"],
+        "decrease_to_2_if": ["War persists through July AND Brent sustained above $100", "Singapore GDP decelerates below 2%"],
+        "decrease_to_1_if": ["Full regional conflict (Strait of Malacca disrupted)", "Singapore recession AND MAS forced to ease"]
+      },
+      "risk_reward": {
+        "base_case_payoff": "USD/SGD from 1.2860 to 1.2550 = +310 pips / +2.4% SGD appreciation",
+        "downside_case_loss": "USD/SGD from 1.2860 to 1.3250 = -390 pips / -3.0% SGD depreciation",
+        "risk_reward_ratio": "1:1.3 raw (slightly negative). Probability-weighted EV: (50% x +310) + (25% x +510) - (25% x -390) = +185 pips positive expected value",
+        "asymmetry_assessment": "Probability weighting strongly favours the bullish position: upside scenario payoff (+510 pips) exceeds downside loss (-390 pips), and the base case probability (50%) is double the downside probability (25%). Strategic EV of +185 pips significantly exceeds tactical EV of +52.5 pips."
+      }
+    },
+    "consensus_divergence": {
+      "consensus_view": "The bank consensus for USD/SGD year-end clusters at 1.24-1.28, with central tendency near 1.26. This consensus was largely formed pre-war and has not been formally updated. The market is pricing SGD appreciation at a measured pace.",
+      "our_view": "We agree directionally (bullish SGD) but believe the speed of appreciation may be faster than consensus if a ceasefire materialises, because the ~3% war premium overvaluation relative to pre-war trajectory would unwind rapidly. Our base case of 1.25-1.26 by September is consistent with the bullish end of consensus.",
+      "divergence_magnitude": "Modest in absolute terms (~0-200 pips from consensus) but significant in timing and path. The market prices a slow, steady grind; we expect a volatile, catalyst-driven acceleration.",
+      "why_we_differ": "The market is underpricing two things: (1) the scale of MAS tightening likely at April — a slope increase larger than the ~50bp minimum could produce faster NEER appreciation than expected; (2) the speed of war premium unwind — historical precedent (Gulf War I, 1991) shows VIX and risk premiums mean-revert to pre-conflict levels within 1-2 months of ceasefire. The combination of these two factors implies a compressed timeline for the consensus-target move.",
+      "payoff_if_right": "Capturing the 300+ pip move from 1.29 to 1.25-1.26 faster than consensus expects, enabling higher Sharpe ratio and more efficient capital use.",
+      "risk_if_wrong": "If consensus is right and the move is gradual, the position still produces a positive return from current levels — the risk is underperformance of timing, not direction. True directional risk only materialises in the prolonged-war scenario."
+    },
+    "cross_currency_relative_value": {
+      "cleanest_bullish_expression": {
+        "pair": "USD/SGD (short)",
+        "rationale": "The primary pair offers the most direct exposure to MAS policy (S$NEER management), the war premium unwind (USD safe-haven bid fading), and the carry structure (forward premium compensates for negative nominal carry). No cross pair offers a cleaner transmission mechanism from the analytical thesis to a trade."
+      },
+      "cleanest_bearish_expression": {
+        "pair": "USD/SGD (long above 1.30)",
+        "rationale": "If the prolonged-war scenario materialises, long USD/SGD above 1.30 with a target of 1.32-1.34 expresses the stagflation thesis where the energy shock overwhelms Singapore's structural advantages. The 1.30 level provides a defined entry with clear invalidation below."
+      },
+      "relative_value_pairs": [
+        {"pair": "SGD/JPY (long)", "thesis": "Asian safe-haven outperforms energy-import victim. Both suffer from oil shock but SGD has the fiscal buffer and CA surplus that JPY lacks. Japan's 99% energy import dependency is more severe."},
+        {"pair": "AUD/SGD (short)", "thesis": "Financial hub vs commodity currency within Asia-Pacific. AUD benefits from RBA hiking but risks overshoot; SGD offers structural appreciation without policy reversal risk."}
+      ]
+    },
+    "cross_horizon_consistency": {
+      "aligned": true,
+      "summary": "Both tactical and strategic stances are Bullish, providing internal consistency. The thesis strengthens over time as cyclical war headwinds fade while structural bullish factors reassert.",
+      "divergence_explanation": "Tactical confidence (65%) exceeds strategic (58%) because the near-term catalyst (April MAS tightening) is high-probability and well-defined, while the strategic outcome depends on the binary and unknowable war resolution timeline. The net score is paradoxically higher strategically (+0.459 vs +0.315) because External Balance flips to Bullish and war-driven bearish factors neutralise.",
+      "inflection_point": "The April 6-14 window (Trump deadline + MAS review) is the most likely inflection point for both horizons.",
+      "catalyst_for_transition": "Conflict de-escalation would transition the thesis from tactically bullish with headwinds to strategically bullish with tailwinds. The mechanism is simultaneous: MAS tightening + energy price normalisation + USD safe-haven unwind.",
+      "trading_implication": "Build SGD long position at current levels with tactical sizing (60-70% of full) and scale to full strategic sizing upon confirmation of conflict de-escalation."
+    },
+    "forward_vs_spot": {
+      "spot": "1.2860",
+      "forwards": {
+        "1m": {"points": "-26.8", "outright": "1.2833", "annualised_pct": "-2.5% (SGD appreciating in forwards)"},
+        "3m": {"points": "-80.4", "outright": "1.2780", "annualised_pct": "-2.5%"},
+        "6m": {"points": "-162.0", "outright": "1.2698", "annualised_pct": "-2.5%"}
+      },
+      "expected_spot": {
+        "1m": "1.2750",
+        "3m": "1.2650",
+        "6m": "1.2550"
+      },
+      "edge": {
+        "1m": "-83 pips (forward implies 1.2833, we expect 1.2750)",
+        "3m": "-130 pips (forward implies 1.2780, we expect 1.2650)",
+        "6m": "-148 pips (forward implies 1.2698, we expect 1.2550)"
+      },
+      "interpretation": "The forward curve implies ~2.5% annualised SGD appreciation (consistent with the rate differential). Our base case expects approximately 3.5-4.0% SGD appreciation over 6 months, creating a quantifiable edge of ~130-150 pips between the forward-implied rate and our expected spot. The edge is largest at the 6M horizon where MAS tightening and war premium unwind compound."
+    }
+  },
+
+  "forward_looking": {
+    "key_catalysts": [
+      {"date": "2026-04-06", "event": "Trump Deadline: Pause on Iranian Energy Infrastructure Strikes", "expected_impact": "Ambiguous", "rationale": "Extension would be risk-positive (VIX declines, USD fades, SGD strengthens). Expiration and resumed strikes would spike oil to $130+, send VIX above 35, and pressure SGD. Highest-impact binary event in the tactical window.", "priced_in": "Partially — market prices ~60% extension but hasn't fully hedged expiration tail", "bilateral_relevance": "USD/SGD, SGD/JPY, AUD/SGD", "citations": [36]},
+      {"date": "2026-04-08", "event": "RBNZ Rate Decision", "expected_impact": "Neutral", "rationale": "RBNZ expected to hold at 2.25%. Relevant only for NZD/SGD cross dynamics. A surprise cut would widen the rate gap and support SGD on the cross.", "priced_in": "Fully", "bilateral_relevance": "NZD/SGD", "citations": [15]},
+      {"date": "2026-04-14", "event": "MAS April 2026 MPS + Macroeconomic Review", "expected_impact": "Bullish", "rationale": "The single most important SGD-specific catalyst. Consensus expects steeper S$NEER appreciation slope. Tightening mechanically guides NEER toward upper band. Macroeconomic Review resets analytical baseline for 6 months.", "priced_in": "Partially — 50-60% tightening probability; magnitude may exceed expectations", "bilateral_relevance": "USD/SGD, all SGD crosses", "citations": [1, 9, 35]},
+      {"date": "2026-04-W3", "event": "Singapore Q1 2026 GDP Advance Estimate", "expected_impact": "Ambiguous", "rationale": "First hard data on war's growth impact. Consensus ~3.0-3.5% YoY. Above 3.5% reinforces growth narrative; below 2.5% raises stagflation concerns.", "priced_in": "Not priced — advance estimates are volatile", "bilateral_relevance": "USD/SGD, AUD/SGD", "citations": [20]},
+      {"date": "2026-04-28", "event": "FOMC Meeting", "expected_impact": "Neutral", "rationale": "Fed widely expected to hold at 3.50-3.75%. Dovish language shift (growth concerns) would weaken USD and support SGD. Hawkish shift (inflation) would strengthen USD.", "priced_in": "Fully (hold >95% probability)", "bilateral_relevance": "USD/SGD", "citations": [14]},
+      {"date": "2026-04-30", "event": "ECB Rate Decision", "expected_impact": "Neutral", "rationale": "ECB expected to hold at 2.00% but ~72bp of hikes priced for 2026. Hawkish tone strengthens EUR and affects EUR/SGD dynamics.", "priced_in": "Hold priced; hawkish forward guidance risk partially priced", "bilateral_relevance": "EUR/SGD", "citations": [15]},
+      {"date": "2026-04-W4", "event": "Singapore March 2026 CPI Release", "expected_impact": "Bullish", "rationale": "First full month capturing the energy shock. MAS Core Inflation likely 1.8-2.2%, well above January forecast range. Validates MAS April tightening and reinforces hawkish expectations through October.", "priced_in": "Not priced — magnitude of energy pass-through not yet quantified", "bilateral_relevance": "USD/SGD", "citations": [19]},
+      {"date": "2026-05-05", "event": "RBA Rate Decision", "expected_impact": "Bearish", "rationale": "CBA expects third consecutive hike to 4.35%. Hawkish RBA strengthens AUD and pushes AUD/SGD higher, weakening SGD on the cross.", "priced_in": "Partially — hike expected but not unanimously priced", "bilateral_relevance": "AUD/SGD", "citations": [15]},
+      {"date": "2026-05-W2", "event": "Singapore April 2026 NODX", "expected_impact": "Ambiguous", "rationale": "First full month of trade data under war regime. Electronics may stay strong (AI) but petrochemicals and non-electronics could collapse. A trade deficit would be headline-negative.", "priced_in": "Not priced", "bilateral_relevance": "USD/SGD, SGD/MYR", "citations": [22]},
+      {"date": "2026-06-02", "event": "SNB Rate Decision", "expected_impact": "Neutral", "rationale": "SNB expected to hold at 0.00%. Relevant for CHF/SGD only if SNB surprises with negative rates or intervention commentary.", "priced_in": "Fully", "bilateral_relevance": "CHF/SGD", "citations": [15]},
+      {"date": "2026-07-W2", "event": "Singapore Q2 2026 GDP Advance Estimate", "expected_impact": "Ambiguous", "rationale": "Critical for assessing cumulative war impact. Q2 captures full Hormuz closure. Below 2% validates stagflation; above 3% confirms resilience.", "priced_in": "Not priced — too distant for current positioning", "bilateral_relevance": "USD/SGD", "citations": [20]},
+      {"date": "2026-10-W2", "event": "MAS October 2026 MPS", "expected_impact": "Bullish", "rationale": "If April tightening maintained and energy normalises, MAS maintains steeper slope providing 12+ months of accelerated NEER appreciation. Sets framework for H1 2027.", "priced_in": "Not priced at this distance", "bilateral_relevance": "USD/SGD, all SGD crosses", "citations": [35]},
+      {"date": "2026-11-W1", "event": "US Midterm Elections", "expected_impact": "Ambiguous", "rationale": "US political dynamics affect trade policy, tariff trajectory, and USD direction. Congressional control shift could alter ASEAN tariff landscape.", "priced_in": "Not priced", "bilateral_relevance": "USD/SGD", "citations": [36]}
+    ],
+    "invalidators": [
+      {"condition": "Brent crude sustains above $120/bbl for more than 4 consecutive weeks", "new_stance": "Bearish", "mechanism": "Energy import bill overwhelms CA surplus resilience, forcing MAS into growth-defensive posture.", "monitor_indicator": "Brent crude front-month (ICE)", "monitor_frequency": "Daily", "quantitative_threshold": "$120/bbl sustained 4 weeks", "probability_pct": 20},
+      {"condition": "MAS surprises by easing (reducing S$NEER appreciation slope) at April review", "new_stance": "Bearish", "mechanism": "Signals growth over inflation priority for the first time in current regime, severely damaging institutional credibility.", "monitor_indicator": "MAS April MPS", "monitor_frequency": "One-off event (~April 14)", "quantitative_threshold": "Slope reduction", "probability_pct": 5},
+      {"condition": "Singapore Q1 2026 GDP advance estimate below 1.5% YoY", "new_stance": "Neutral", "mechanism": "Energy shock impacting real economy faster than expected, raising stagflation probability.", "monitor_indicator": "DOS GDP advance estimate", "monitor_frequency": "Quarterly (mid-April)", "quantitative_threshold": "1.5% YoY", "probability_pct": 10},
+      {"condition": "Strait of Malacca directly disrupted (military incident or mine-laying)", "new_stance": "Bearish", "mechanism": "Singapore's entrepot function and physical trade flows directly impaired.", "monitor_indicator": "Maritime intelligence, Singapore MPA advisories", "monitor_frequency": "Daily", "quantitative_threshold": "Any military incident within the Strait", "probability_pct": 5},
+      {"condition": "USD/SGD closes above 1.3050 on a weekly basis", "new_stance": "Neutral", "mechanism": "Break above 200-day SMA and March high signals market pricing prolonged war; CTA flows shift to selling SGD.", "monitor_indicator": "USD/SGD weekly close", "monitor_frequency": "Weekly", "quantitative_threshold": "1.3050 weekly close", "probability_pct": 20},
+      {"condition": "MAS Core Inflation exceeds 3.0% for two consecutive months", "new_stance": "Neutral", "mechanism": "S$NEER appreciation mechanism insufficient to contain imported inflation, questioning regime effectiveness.", "monitor_indicator": "MAS/DOS monthly CPI", "monitor_frequency": "Monthly", "quantitative_threshold": "3.0% core CPI for 2 months", "probability_pct": 10},
+      {"condition": "DXY breaks above 105 (2024 high)", "new_stance": "Bearish", "mechanism": "Broad USD breakout indicates dollar smile right-side regime (US exceptionalism) overwhelming all non-USD currencies.", "monitor_indicator": "DXY daily close", "monitor_frequency": "Daily", "quantitative_threshold": "DXY 105", "probability_pct": 10}
+    ],
+    "signposts": [
+      {"indicator": "Brent Crude (front-month, ICE)", "current_level": "~$111/bbl", "threshold_confirms": "Falls below $90/bbl (conflict de-escalation, energy normalisation)", "threshold_invalidates": "Rises above $130/bbl (escalation, further ToT deterioration)", "bilateral_importance": "USD/SGD, SGD/JPY", "source_url": "https://tradingeconomics.com/commodity/brent-crude-oil", "frequency": "Daily"},
+      {"indicator": "S$NEER Band Position (estimated)", "current_level": "Middle of appreciating band (~0.5% above midpoint)", "threshold_confirms": "Returns to upper half (above +1% from midpoint)", "threshold_invalidates": "Drops to lower half (below midpoint)", "bilateral_importance": "USD/SGD", "source_url": "https://www.mas.gov.sg/monetary-policy", "frequency": "Daily (derived)"},
+      {"indicator": "VIX Index", "current_level": "30.61", "threshold_confirms": "Falls below 22 (risk normalisation)", "threshold_invalidates": "Rises above 40 (panic, further USD strength)", "bilateral_importance": "USD/SGD, SGD/JPY", "source_url": "https://www.cboe.com/tradable_products/vix/", "frequency": "Daily"},
+      {"indicator": "Singapore MAS Core Inflation (YoY)", "current_level": "1.4% (February 2026)", "threshold_confirms": "Rises to 1.8-2.2% (validates MAS tightening)", "threshold_invalidates": "Rises above 3.0% (overshooting inflation)", "bilateral_importance": "USD/SGD", "source_url": "https://www.mas.gov.sg/statistics/prices", "frequency": "Monthly"},
+      {"indicator": "DXY (US Dollar Index)", "current_level": "~100.3", "threshold_confirms": "Falls below 97 (USD weakness, pre-war dynamics)", "threshold_invalidates": "Rises above 105 (broad USD breakout)", "bilateral_importance": "USD/SGD", "source_url": "https://tradingeconomics.com/united-states/currency", "frequency": "Daily"},
+      {"indicator": "Singapore NODX (YoY growth)", "current_level": "+4.0% (February 2026)", "threshold_confirms": "Maintains positive growth (+2% to +5%)", "threshold_invalidates": "Turns negative for 2+ consecutive months", "bilateral_importance": "USD/SGD, SGD/MYR", "source_url": "https://www.enterprisesg.gov.sg/", "frequency": "Monthly"},
+      {"indicator": "MAS Official Foreign Reserves (SGD bn)", "current_level": "S$526.25bn (February 2026)", "threshold_confirms": "Rises above S$530bn (MAS accumulating)", "threshold_invalidates": "Falls below S$510bn (MAS deploying reserves — stress)", "bilateral_importance": "USD/SGD", "source_url": "https://tradingeconomics.com/singapore/foreign-exchange-reserves", "frequency": "Monthly"}
+    ]
+  },
+
+  "change_since_last_report": {
+    "factors_changed": [
+      {"factor": "5. External Balance (Tactical)", "previous_stance": "Bullish", "new_stance": "Bearish", "reason": "Operation Epic Fury onset and Hormuz closure created an immediate negative terms-of-trade shock. Brent surged from ~$80 to $111; JKM LNG doubled. February trade surplus narrowed 63%."},
+      {"factor": "7. Event Risk (Tactical)", "previous_stance": "Neutral", "new_stance": "Bearish", "reason": "War escalated significantly: Houthi strikes on Israel (Mar 28), QatarEnergy force majeure (Mar 18), Iran tanker attack off Dubai (Mar 31). Multiple new binary escalation triggers."},
+      {"factor": "10. USD Liquidity (Tactical)", "previous_stance": "Neutral", "new_stance": "Bearish", "reason": "DXY rallied from ~97.5 to ~100.3 as dollar smile left side activated. Safe-haven USD demand, energy payment flows, and margin calls tightened USD liquidity."}
+    ],
+    "signposts_triggered": [
+      {"signpost": "Brent crude", "outcome": "Rose from ~$80 to ~$111 — deep into invalidation territory", "implication": "Energy shock more severe than March 11 dossier's baseline assumed. However, strategic thesis was always conditional on resolution."},
+      {"signpost": "VIX", "outcome": "Rose from ~18-20 to 30.61", "implication": "Significant risk appetite deterioration confirming war premium expansion. USD safe-haven bid activated."},
+      {"signpost": "S$NEER", "outcome": "Shifted from upper half to approximately middle of band", "implication": "Consistent with March 11 warning about war-related SGD weakness. Creates mechanical room for re-appreciation."}
+    ],
+    "conviction_change": {
+      "previous_tactical": 3,
+      "current_tactical": 3,
+      "previous_strategic": 3,
+      "current_strategic": 3,
+      "explanation": "Conviction unchanged at 3/5 for both horizons despite dramatic macro deterioration. The war simultaneously created new bearish factors (energy shock, risk-off) while reinforcing the bullish policy response (higher inflation = more certain MAS tightening). Net effect is roughly offsetting."
+    },
+    "new_catalysts": [
+      "April 6 Trump deadline on Iran energy infrastructure strikes",
+      "QatarEnergy force majeure on Ras Laffan LNG facility (March 18)",
+      "Houthi entry into the conflict with direct strikes on Israel (March 28)",
+      "March 18-19 central bank super-cluster outcomes (all held; Fed dot plot, ECB hawkish, RBA hiked)"
+    ],
+    "thesis_trajectory": "Unchanged"
+  },
+
+  "seasonality": {
+    "pattern": "MAS April policy reviews have historically been the action meetings — more slope adjustments made in April than October as MAS resets the band based on full-year Macroeconomic Review. Singapore's fiscal year ends March 31; post-fiscal-year capital allocation decisions may generate modest SGD demand in April-May.",
+    "relevance_window": "April-May 2026",
+    "historical_magnitude": "Moderate — the April MPS seasonal pattern is documented but the magnitude of its market impact varies by cycle",
+    "current_alignment": "Aligned with bullish thesis — the April seasonal bias toward policy action reinforces the expectation of MAS tightening"
+  },
+
+  "assumptions": [
+    "SORA (~1.12%) is used as the SGD money market rate proxy for carry calculations and rate differentials. SORA is an output of the S$NEER regime and global rate dynamics, not a policy input.",
+    "Implied volatility estimates (6-8% range) are derived from realised volatility extrapolation and S$NEER band structural assumptions. Exact IV data requires Bloomberg/Reuters terminal access (proprietary).",
+    "War scenario probabilities (50% base/25% upside/25% downside) are subjective assessments based on historical conflict analogues and current diplomatic signals. They are inherently uncertain.",
+    "PPP deviations are estimated from Big Mac Index for USD/SGD and extrapolated for other crosses using relative REER adjustments. These are approximate directional guides.",
+    "G10+SGD macro data is not from identical reference periods — some figures are February 2026, some Q4 2025, some estimates. This is a known limitation of cross-country comparisons.",
+    "CFTC does not report SGD futures positioning. All positioning analysis uses alternative proxies (S$NEER band, MAS reserves, capital flow trends).",
+    "Forward points sourced from late March 2026 market data. They may not capture full war-driven dislocations in cross-currency swap markets."
+  ],
+
+  "complete_citations": [
+    {"id": 1, "title": "MAS Monetary Policy Statement — January 2026", "publisher": "MAS", "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-29jan26", "date_accessed": "2026-04-01"},
+    {"id": 2, "title": "USD/SGD Exchange Rate", "publisher": "Investing.com", "url": "https://www.investing.com/currencies/usd-sgd", "date_accessed": "2026-04-01"},
+    {"id": 3, "title": "BIS Effective Exchange Rate Indices", "publisher": "BIS", "url": "https://www.bis.org/statistics/eer.htm", "date_accessed": "2026-04-01"},
+    {"id": 4, "title": "Navigating S$NEER, MAS Policy Decisions", "publisher": "OANDA", "url": "https://www.oanda.com/sg-en/trade-tap-blog/oanda-views/navigating-sgd-policy-band/", "date_accessed": "2026-04-01"},
+    {"id": 5, "title": "IMF Article IV Consultation — Singapore 2025", "publisher": "IMF", "url": "http://www.imfsti.org/content/dam/STI/Home/STI_News/IMF%20Executive%20Board%20Concludes%202025%20Article%20IV%20Consultation%20with%20Singapore.pdf", "date_accessed": "2026-04-01"},
+    {"id": 6, "title": "CFTC Commitments of Traders", "publisher": "CFTC", "url": "https://www.cftc.gov/dea/futures/financial_lf.htm", "date_accessed": "2026-04-01"},
+    {"id": 7, "title": "DBS, OCBC & UOB Outlook", "publisher": "StashAway", "url": "https://www.stashaway.sg/r/dbs-ocbc-uob-singapore-banks-investment-outlook", "date_accessed": "2026-04-01"},
+    {"id": 8, "title": "Singapore Foreign Exchange Reserves", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/singapore/foreign-exchange-reserves", "date_accessed": "2026-04-01"},
+    {"id": 9, "title": "Singapore MAS Survey: 2026 GDP Seen at 3.6%, April Tightening Odds Rise", "publisher": "InvestingLive", "url": "https://investinglive.com/centralbank/singapore-mas-survey-2026-gdp-seen-at-36-april-tightening-odds-rise-20260226/", "date_accessed": "2026-04-01"},
+    {"id": 10, "title": "Singapore: MAS Holds Steady as Inflation Picks Up", "publisher": "MUFG Research", "url": "https://www.mufgresearch.com/fx/singapore-mas-holds-steady-as-inflation-picks-up-29-january-2026/", "date_accessed": "2026-04-01"},
+    {"id": 11, "title": "Comments by MAS on Market Conditions", "publisher": "MAS", "url": "https://www.mas.gov.sg/news/media-releases/2026/comments-by-mas-on-market-conditions", "date_accessed": "2026-04-01"},
+    {"id": 12, "title": "Singapore Overnight Rate Average (SORA)", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/singapore/interest-rate", "date_accessed": "2026-04-01"},
+    {"id": 13, "title": "Singapore Government Securities Yields", "publisher": "MAS", "url": "https://www.mas.gov.sg/bonds-and-bills/singapore-government-securities", "date_accessed": "2026-04-01"},
+    {"id": 14, "title": "Federal Reserve Monetary Policy — March 2026", "publisher": "HSH.com", "url": "https://www.hsh.com/finance/mortgage/latest-move-by-the-federal-reserve.html", "date_accessed": "2026-04-01"},
+    {"id": 15, "title": "ECB Expected to Hold Rates Through 2026, But War-Driven Energy Shock Boosts Hike Odds", "publisher": "Prism News", "url": "https://www.prismnews.com/news/ecb-expected-to-hold-rates-through-2026-but-war-driven", "date_accessed": "2026-04-01"},
+    {"id": 16, "title": "2026 Iran War Fuel Crisis", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/2026_Iran_war_fuel_crisis", "date_accessed": "2026-04-01"},
+    {"id": 17, "title": "2026 Strait of Hormuz Crisis", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis", "date_accessed": "2026-04-01"},
+    {"id": 18, "title": "1H 2026 FX and Rates Outlook", "publisher": "OCBC", "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/gbc/pdf/fx%20outlook/1h%202026%20fx%20and%20rates%20outlook.pdf", "date_accessed": "2026-04-01"},
+    {"id": 19, "title": "Singapore Inflation Data", "publisher": "MAS", "url": "https://www.mas.gov.sg/statistics/prices", "date_accessed": "2026-04-01"},
+    {"id": 20, "title": "Singapore GDP Q4 2025", "publisher": "DOS Singapore", "url": "https://www.singstat.gov.sg/", "date_accessed": "2026-04-01"},
+    {"id": 21, "title": "Singapore PMI", "publisher": "SIPMM", "url": "https://sipmm.org.sg/", "date_accessed": "2026-04-01"},
+    {"id": 22, "title": "Singapore Non-Oil Domestic Exports", "publisher": "Enterprise Singapore", "url": "https://www.enterprisesg.gov.sg/", "date_accessed": "2026-04-01"},
+    {"id": 23, "title": "Singapore Labour Market Q4 2025", "publisher": "MOM Singapore", "url": "https://stats.mom.gov.sg/Pages/Labour-Market-Summary-Table.aspx", "date_accessed": "2026-04-01"},
+    {"id": 24, "title": "Singapore Wage Growth Outpaced Inflation", "publisher": "SCMP", "url": "https://www.scmp.com/news/asia/southeast-asia/article/3342918/singapore-wage-growth-outpaced-inflation-most-2025-wong-says", "date_accessed": "2026-04-01"},
+    {"id": 25, "title": "Iran War Poses Risk of Major Economic Downturn", "publisher": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-03-18/iran-war-poses-risk-of-major-economic-downturn-singapore-s-tharman-says", "date_accessed": "2026-04-01"},
+    {"id": 26, "title": "VIX and Global Market Data", "publisher": "CBOE", "url": "https://www.cboe.com/tradable_products/vix/", "date_accessed": "2026-04-01"},
+    {"id": 27, "title": "Singapore Central Bank Turns Less Dovish", "publisher": "ING Think", "url": "https://think.ing.com/snaps/mas-turns-less-dovish-as-inflation-risks-balance-and-downturn-concerns-ease/", "date_accessed": "2026-04-01"},
+    {"id": 28, "title": "Singapore Credit Rating", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/singapore/rating", "date_accessed": "2026-04-01"},
+    {"id": 29, "title": "Singapore Budget FY2026", "publisher": "Singapore Government", "url": "https://www.singaporebudget.gov.sg/", "date_accessed": "2026-04-01"},
+    {"id": 30, "title": "Singapore Current Account", "publisher": "DOS Singapore", "url": "https://www.singstat.gov.sg/", "date_accessed": "2026-04-01"},
+    {"id": 31, "title": "Iran War Shipping Update — March 30, 2026", "publisher": "UANI", "url": "https://www.unitedagainstnucleariran.com/blog/iran-war-shipping-update-march-30-2026", "date_accessed": "2026-04-01"},
+    {"id": 32, "title": "Singapore's Power Prices May Rise on US-Iran Conflict", "publisher": "Argus Media", "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2796677-singapore-s-power-prices-may-rise-on-us-iran-conflict", "date_accessed": "2026-04-01"},
+    {"id": 33, "title": "China Trade Data Jan-Feb 2026", "publisher": "Reuters", "url": "https://www.reuters.com/world/china/", "date_accessed": "2026-04-01"},
+    {"id": 34, "title": "How Singapore's Unique Monetary Policy Works", "publisher": "Yahoo Finance", "url": "https://finance.yahoo.com/news/explainer-singapores-unique-monetary-policy-230515117.html", "date_accessed": "2026-04-01"},
+    {"id": 35, "title": "MAS Advance Release Calendar", "publisher": "MAS", "url": "https://www.mas.gov.sg/monetary-policy/advance-release-calendar", "date_accessed": "2026-04-01"},
+    {"id": 36, "title": "Iran War at Sea: How the Conflict Is Disrupting Global Trade and Energy", "publisher": "Windward", "url": "https://windward.ai/blog/iran-war-global-trade-and-energy-disruptions/", "date_accessed": "2026-04-01"},
+    {"id": 37, "title": "USD to SGD Forecast", "publisher": "CoinCodex", "url": "https://coincodex.com/forex/usd-sgd/forecast/", "date_accessed": "2026-04-01"},
+    {"id": 38, "title": "Singapore SORA Rate Outlook 2026", "publisher": "Homejourney", "url": "https://www.homejourney.sg/blog/singapore-sora-rate-outlook-2026-what-homeowners-should-know-homejourney-202603020001", "date_accessed": "2026-04-01"},
+    {"id": 39, "title": "MAS Monetary Policy Statement — October 2025", "publisher": "MAS", "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2025/mas-monetary-policy-statement-14oct25", "date_accessed": "2026-04-01"},
+    {"id": 40, "title": "Marine War Insurance for Hormuz Dries Up", "publisher": "S&P Global", "url": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2026/3/marine-war-insurance-for-hormuz-dries-up-as-middle-east-war-intensifies-99283143", "date_accessed": "2026-04-01"}
+  ]
+}

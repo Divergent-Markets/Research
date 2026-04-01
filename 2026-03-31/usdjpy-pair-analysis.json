@@ -1,0 +1,1402 @@
+{
+  "metadata": {
+    "pair": "USDJPY",
+    "base_currency": "USD",
+    "quote_currency": "JPY",
+    "valuation_date": "2026-03-31",
+    "framework_version": "2.0",
+    "base_dossier_date": "2026-03-31",
+    "quote_dossier_date": "2026-03-31"
+  },
+  "pair_convention": {
+    "spot_reference": "USD/JPY 158.71",
+    "spot_explanation": "USD/JPY at 158.71 means 1 USD buys 158.71 JPY. A rising pair means the USD is strengthening against the JPY (JPY is weakening), while a falling pair means the USD is weakening against the JPY (JPY is strengthening). Higher numbers represent more yen per dollar, indicating USD dominance; lower numbers indicate JPY strength.",
+    "bullish_means": "pair RISES (USD strengthens vs JPY)",
+    "bearish_means": "pair FALLS (USD weakens vs JPY)",
+    "base_dossier_tactical_stance": "Tactically Bullish USD",
+    "quote_dossier_tactical_stance": "Tactically Bullish JPY (i.e., bearish USD/JPY)"
+  },
+  "executive_summary": "USD/JPY trades at 158.71 as of March 31, 2026, sitting in the 89th percentile of its 52-week range and just below the politically and technically critical 160 intervention trigger level. The pair has risen +9.36% over the past year, +2.22% over three months, and is essentially flat over the past month (+0.22%), reflecting a deceleration in the bullish trend as the market approaches the intervention ceiling. The dominant bilateral narrative is the collision between a tactically strong USD — driven by the Iran war safe-haven bid, hawkish Fed repricing, and risk-off sentiment — and a structurally improving JPY, underpinned by a BoJ hiking to 1.00% in April at approximately 70% probability, maximised MoF intervention risk near 160, and extreme REER undervaluation at all-time lows. The pair-specific dynamic that neither dossier captures in isolation is the asymmetric barrier structure: the 160.00 level creates a hard ceiling enforced by Japan's $1.16 trillion intervention war chest, while the carry differential of approximately 288bp provides a soft floor, producing a compression zone where spot is trapped between these competing forces. The bilateral carry-to-vol ratio of approximately 0.29 is sub-threshold, meaning the carry trade is maintained but not actively expanded, consistent with moderate CFTC positioning rather than extreme crowding. Our headline stance is Tactically Bearish USD/JPY with moderate conviction (3/5), driven by the BoJ April hike catalyst and intervention risk near the ceiling, and Strategically Bearish USD/JPY with moderate conviction (3/5), as rate differential compression, conflict de-escalation, and extreme JPY undervaluation converge over the 1-6 month horizon.",
+  "market_context": {
+    "spot": 158.71,
+    "performance_1m": "+0.22%",
+    "performance_3m": "+2.22%",
+    "performance_6m": "+2.37%",
+    "performance_1y": "+9.36%",
+    "range_52w_low": 139.88,
+    "range_52w_high": 160.56,
+    "range_52w_percentile": 89,
+    "valuation_assessment": "USD/JPY's PPP-implied fair value is approximately 78-95 depending on the model — the USD dossier cites OECD PPP at approximately 78.4, implying a 103% deviation from fair value. The JPY dossier confirms the BIS REER at 52.9 on the 2005=100 basis, an all-time record low in the 1st percentile of historical distribution. This is the most extreme overvaluation of any G10 pair from the USD side and the most extreme undervaluation from the JPY side. At 158.71, USD/JPY is trading approximately 67-80% above long-run PPP equilibrium — a deviation that has historically corrected over 1-3 year cycles when catalysts align, but that can persist for years in the absence of a trigger.",
+    "positioning": {
+      "base_cftc_net": "+$6.3 billion aggregate net long USD (flipped in 5 weeks)",
+      "base_cftc_percentile": 40,
+      "quote_cftc_net": "-62,806 contracts net short JPY (March 24)",
+      "quote_cftc_percentile": 32,
+      "net_pair_implication": "The combined pair signal is amplified bearish for USD/JPY: specs are simultaneously long USD and short JPY, meaning the pair trade is directionally concentrated and vulnerable to a double unwind on any catalyst that reverses either leg. Leveraged funds are already covering JPY shorts (+10,577 in the latest week), while asset managers are adding shorts (-5,811), suggesting fast money is reducing exposure ahead of binary risks.",
+      "crowding_assessment": "Pair trade concentrated on long USD/JPY side across both legs; moderate but not extreme — vulnerable to double unwind on BoJ hike or MoF intervention"
+    },
+    "pair_technicals": {
+      "trend_regime": "trending_up",
+      "support_levels": [
+        157.22,
+        155,
+        154.4,
+        152.3,
+        150
+      ],
+      "resistance_levels": [
+        160,
+        160.56,
+        161.95,
+        165
+      ],
+      "key_moving_averages": "50d SMA: 157.22 (spot above), 100d SMA: 156.89 (spot above), 200d SMA: 154.40 (spot above) — fully stacked bullish configuration with spot at 158.71 trading above all three moving averages.",
+      "chart_pattern": "Bullish stacked MA configuration pressing against structurally critical 160.00 intervention resistance. V-shaped recovery from April-May 2025 low of 139.88, grinding higher with decelerating momentum. Oscillators near peak values suggesting late-stage trend phase with diminishing force. Higher highs and higher lows intact since September 2025 trough.",
+      "psychological_levels": [
+        155,
+        160,
+        162,
+        165
+      ]
+    },
+    "pair_volatility": {
+      "iv_1m": 9.76,
+      "iv_3m": 9.76,
+      "iv_percentile": 45,
+      "rv_1m": 11.5,
+      "rv_vs_iv": "IV-RV spread is likely negative to flat, meaning options are cheap relative to actual moves — multiple sessions showing 200+ pip ranges (notably the January 23 drop from 159.23 to 155.88 and the early-April 2025 crash from 150 to 144). This setup favours long option expressions for directional bets. 1M IV at approximately 9.76% appears mispriced low given the density of binary events in April (Iran deadline, BoJ, FOMC, Golden Week); fair value is estimated at 11-13%.",
+      "risk_reversals": "25-delta risk reversals at -0.5% skew indicate modest JPY put demand (modest yen downside protection). The magnitude is small relative to actual intervention risk, creating an asymmetric payoff opportunity for JPY call buyers.",
+      "vol_term_structure": "1M IV appears mispriced low at 9.76% for the April event cluster including the BoJ MPM (April 27-28), FOMC (April 28-29), Iran deadline (April 6), and Golden Week liquidity vacuum (April 29-May 5). Fair value for 1M IV is estimated at 11-13%, suggesting options are 1-3 vol points underpriced.",
+      "vol_regime": "Low vol / mispriced — IV cheap relative to event density and realised ranges"
+    },
+    "recent_regime": "USD/JPY has been in a grinding uptrend since the late-September 2025 low of approximately 147.0, accelerating through January 2026 to briefly test 159.19 on January 13 before a sharp correction to 152.05 by February 11. The pair then recovered in a steady grind back to 160.56 on March 30 before pulling back to close March at 158.71. The regime is characterised by tension between carry-driven upside momentum and the gravitational pull of the 160 intervention ceiling, producing a compression pattern with diminishing upside potential and increasing binary event risk. Persistent worries about potential JPY-supportive intervention are discouraging aggressive dollar buying and keeping spot levels capped below 160.00.",
+    "citations": [
+      "https://www.forex.com/en-us/news-and-analysis/usdjpy-in-2026-can-the-yen-finally-start-to-shine/",
+      "https://www.litefinance.org/blog/analysts-opinions/usd-jpy-price-prediction/",
+      "https://www.fxempire.com/forecasts/article/usdjpy-forecast-2026-policy-divergence-keeps-dollar-supported-1568591",
+      "https://tiomarkets.com/article/usdjpy-forecast-30th-march-2026",
+      "https://www.tradingpedia.com/2026/03/31/usd-jpy-stays-below-160-as-intervention-risks-loom/",
+      "https://investinglive.com/forex/tokyo-intervention-looms-large-as-usdjpy-nears-160-mark-20260316/",
+      "https://www.babypips.com/news/headline-yen-line-in-the-sand-why-usdjpy-at-160-has-tokyo-on-edge-2026-03-27",
+      "https://www.fxstreet.com/news/usd-jpy-verbal-intervention-slows-slide-in-japanese-yen-scotiabank-202603301449"
+    ]
+  },
+  "bilateral_carry_analysis": {
+    "base_policy_rate": 3.625,
+    "quote_policy_rate": 0.75,
+    "rate_differential_bps": 287.5,
+    "annualised_carry_bps": 288,
+    "pair_3m_iv": 9.76,
+    "carry_to_vol_ratio": 0.29,
+    "carry_regime": "carry not compensating",
+    "breakeven_move": "Spot can move approximately 160 pips (1.6 big figures) against before carry is erased over a 4-week tactical horizon. JPY can appreciate to approximately 157.0 before carry is erased. Given the binary events ahead (BoJ hike, Iran deadline), a move of this magnitude is entirely plausible.",
+    "forward_points": {
+      "1m": "-95 pips (USD at discount; outright ~157.76)",
+      "3m": "-280 pips (outright ~155.91)",
+      "6m": "-560 pips (outright ~153.11)"
+    },
+    "carry_assessment": "The bilateral policy rate differential stands at Fed Funds 3.625% minus BoJ 0.75% = +287.5bp in favour of USD. Annualised carry for a long USD/JPY position is approximately +288bp, or roughly 72bp per quarter (~1.14 yen per quarter at current spot). The carry-to-vol ratio is approximately 0.29 (288bp / ~9.76% IV), which is below the 0.40 threshold that historically attracts aggressive carry accumulation. This sub-threshold ratio means the carry trade is being maintained by existing positions but not aggressively expanded — consistent with the moderate CFTC positioning rather than extreme crowding. Forward points at 1M are approximately -95 pips (outright ~157.76), at 3M approximately -280 pips (~155.91), and at 6M approximately -560 pips (~153.11), reflecting the carry differential that forwards price as JPY appreciation. The forward curve validates the bearish USD/JPY view directionally and confirms excess return potential above the carry-implied path. The ~$500 billion in outstanding JPY carry positions (Morgan Stanley estimate) remain vulnerable to dissolution if the carry-to-vol ratio deteriorates further as BoJ hikes proceed."
+  },
+  "factors": [
+    {
+      "factor_number": 1,
+      "factor_name": "Policy & Rates (Relative)",
+      "tactical_weight_default": 0.24,
+      "tactical_weight_applied": 0.24,
+      "strategic_weight_default": 0.24,
+      "strategic_weight_applied": 0.24,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 70,
+        "bilateral_analysis": "The Fed-BoJ rate differential at +288bp is the widest bilateral gap in G10 after AUD/JPY and NOK/JPY, but the direction of travel is what matters — and it is unambiguously narrowing from the JPY side. The BoJ is priced at approximately 70% for a 25bp hike to 1.00% at the April 27-28 MPM, while the Fed is approximately 95% to hold at the May 5-6 FOMC. This asymmetric meeting sequence means the differential narrows by 25bp from the JPY side specifically within the tactical window — and because the market is short JPY, the repricing effect is amplified versus a symmetric move. The March Summary of Opinions revealed debate not just about timing but about the size of the next hike, with at least one member proposing a larger-than-25bp move — this is essentially unpriced. The UST-JGB 10Y spread has compressed to approximately 201bp from 215bp pre-conflict as JGB yields at 2.36% hit 1999 highs, while UST 10Y yields at 4.37% are elevated but capped by growth concerns. The 2Y spread has also narrowed as the JGB 2Y at 1.32% prices BoJ normalisation. The Fed's hawkish March FOMC (11-1 hold, dot plot showing one cut) supports USD tactically, but the market has already absorbed this — the 2Y UST at 3.89% reflects the higher-for-longer message. The marginal information flow over 2-4 weeks will come from the JPY side (BoJ hike delivery), not the USD side (Fed on hold as expected).",
+        "key_bilateral_metrics": [
+          "Fed Funds 3.625% vs BoJ 0.75% = +288bp differential (narrowing)",
+          "BoJ April hike probability: ~70% for 25bp; near-zero for 50bp (underpriced)",
+          "UST-JGB 10Y spread: ~201bp (down from ~215bp in February)",
+          "JGB 2Y at 1.32%; JGB 10Y at 2.36% (both at multi-decade highs)",
+          "Forward-implied carry: ~288bp annualised; breakeven move ~160 pips/month"
+        ],
+        "what_is_priced": "The market prices a ~70% probability of a BoJ hike and a Fed hold. The gap between forward-implied JPY appreciation (~95 pips/month from carry) and expected spot movement is narrow, meaning carry-adjusted positioning offers limited edge. The mispricing lies in the tail: a 50bp BoJ hike would instantly compress the differential by a further 25bp and signal an accelerated normalisation path — this scenario carries approximately 10-15% probability but near-zero pricing.",
+        "citations": [
+          1,
+          2,
+          3,
+          7,
+          8,
+          19,
+          20
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 60,
+        "bilateral_analysis": "Over 1-6 months, the rate differential is expected to narrow by 50-100bp as the BoJ delivers 1-2 hikes (to 1.00-1.25%) while the Fed holds or delivers one cut. The BoJ's normalisation is validated by structural wage dynamics (Shunto at 5.26% for the third consecutive year), core-core inflation at 2.5%, and an IMF endorsement that 'monetary conditions should continue to be adjusted.' On the Fed side, the dot plot projects one cut to 3.375% by year-end, and if the growth slowdown deepens (GDP decelerated from 4.4% to 0.7%), a second cut becomes possible. The combined effect is a differential narrowing from ~288bp to approximately 200-238bp by September, reducing the carry incentive and shifting the calculus for the approximately $500 billion in outstanding JPY carry positions. The interest rate gap between Japan and the United States narrows through 2026, but it does not close — even under a dovish Fed scenario, the US is still expected to maintain roughly a 150 to 200bp advantage. The strategic carry erosion is gradual but directional, and each BoJ meeting acts as a discrete repricing step. BoJ terminal rate estimates range from 1.00% (Goldman) to 1.50-1.75% (Tamura), creating upside risk to the rate compression thesis.",
+        "key_bilateral_metrics": [
+          "Expected differential by September: ~200-238bp (from current ~288bp)",
+          "BoJ terminal rate estimates: 1.00% (Goldman) to 1.50-1.75% (Tamura)",
+          "Fed year-end dot: 3.375% (one cut)",
+          "JGB 30Y at 3.71% (+117bp YoY) — structural repricing of Japan rates",
+          "~$500bn JPY carry positions outstanding (Morgan Stanley estimate)"
+        ],
+        "what_is_priced": "Consensus bank forecasts for year-end USD/JPY cluster around 148-157, with JPMorgan at 164 as the outlier bull and Nomura at 140 as the bear. The USD/JPY outlook for 2026 is defined by a tension between yield-differential support for the dollar and rising intervention risks. The market is pricing gradual JPY appreciation but may be underestimating the pace if the BoJ hikes faster than expected or if the carry-to-vol ratio deteriorates below 0.20.",
+        "citations": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          19,
+          20
+        ]
+      },
+      "horizon_split": "Both horizons are bearish USD/JPY, but tactical confidence is higher (70 vs 60) because the April BoJ meeting is a specific, datable catalyst with high delivery probability, while the strategic view faces the persistent headwind that rate differentials remain wide even after 1-2 hikes.",
+      "carry_analysis": {
+        "reference": "See bilateral_carry_analysis section. The carry-to-vol ratio of 0.29 is below the 0.40 threshold for aggressive accumulation. Breakeven move of ~160 pips per month is plausible given binary event density. Forward points price JPY appreciation of -95 pips (1M), -280 pips (3M), and -560 pips (6M), reflecting the 288bp differential. Carry is the primary pillar supporting USD/JPY but is eroding with each BoJ hike, with the ~$500bn outstanding carry trade vulnerable to dissolution if carry-to-vol falls below 0.20."
+      },
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 2,
+      "factor_name": "Inflation & Growth Dynamics",
+      "tactical_weight_default": 0.18,
+      "tactical_weight_applied": 0.18,
+      "strategic_weight_default": 0.1,
+      "strategic_weight_applied": 0.1,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "bilateral_analysis": "The inflation-growth differential is complex and generates an ambiguous pair signal. US Core PCE at 3.1% is running well above the BoJ's preferred core-core measure at 2.5%, but the directional implications diverge: US inflation supports a hawkish Fed (bullish USD/JPY), while Japan's underlying inflation validates the BoJ's hike case (bearish USD/JPY). The growth differential favours the US (GDP 2.0% YoY vs Japan 1.3% annualised Q4), but the US is decelerating sharply (4.4% to 0.7%) while Japan is running above potential (1.3% vs ~0.5% estimated). The Iran oil shock creates asymmetric inflation impacts: the US is roughly energy self-sufficient (mild positive), while Japan imports approximately 90% of energy (strongly negative for ToT but positive for measured CPI, reinforcing the BoJ hike case). The net tactical signal is ambiguous because inflation supports both central banks' current trajectories, and growth differentials are converging rather than diverging. Japan's unemployment at 2.6% and Shunto wages at 5.26% provide a tighter labour market dynamic than the US at 4.4% unemployment and slowing NFP (+5,700/month average).",
+        "key_bilateral_metrics": [
+          "US Core PCE: 3.1% vs Japan core-core CPI: 2.5% (+60bp US above)",
+          "US GDP: 2.0% YoY vs Japan GDP: 1.3% annualised Q4",
+          "US unemployment: 4.4% vs Japan: 2.6% (Japan's labour market tighter)",
+          "US ISM Prices Paid: 70.5 (highest since Jun 2022) vs Japan Tankan: +18 (strongest since Dec 2021)",
+          "Shunto 2026: 5.26% (validates BoJ hike case)"
+        ],
+        "what_is_priced": "The market is pricing US inflation persistence (delayed cuts) and Japan's soft headline CPI (delayed hike). The mispricing is modest: Japan's core-core at 2.5% is being underweighted relative to the soft 1.3% headline, and the incoming March CPI data (boosted by oil passthrough) will likely revise expectations upward, supporting the BoJ case.",
+        "citations": [
+          1,
+          3,
+          7
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 55,
+        "bilateral_analysis": "Strategically, the growth trajectories favour JPY appreciation. The US faces mounting stagflation risk (Core PCE 3.1% + GDP decelerating + NFP averaging +5,700/month), which constrains the Fed's ability to support growth via rate cuts without reigniting inflation. Japan's inflation regime shift (45 consecutive months above target, Shunto 5.26%) provides the BoJ with structural justification for continued normalisation regardless of external shocks. If the Iran conflict resolves and oil normalises to $75-85, Japan's headline CPI rebounds while the US loses its oil-driven inflation impulse — a scenario where Japan's relative inflation position improves and the BoJ continues hiking while the Fed cuts. The growth surprise differential is likely to favour JPY as Japan's positive output gap sustains while the US output gap narrows. Real wages in Japan at +1.4% are catching up to the US at +0.4%, further compressing the relative attractiveness differential. US recession probability at 25-49% contrasts sharply with minimal recession risk in Japan.",
+        "key_bilateral_metrics": [
+          "US GDP trajectory: 4.4% (Q3) → 0.7% (Q4) → 2.0% (GDPNow Q1) — decelerating",
+          "Japan GDP: 1.3% annualised, above ~0.5% potential",
+          "Real wages: US +0.4% estimated vs Japan +1.4% — Japan catching up",
+          "US recession probability: 25-49% vs Japan: minimal",
+          "Oil normalisation scenario: US loses inflation impulse; Japan recovers ToT"
+        ],
+        "what_is_priced": "The market prices the US growth slowdown as transient and Japan's growth as structurally slow. The edge lies in Japan's cyclical momentum being underestimated — the positive output gap, tight labour market, and Shunto wages provide a more durable growth foundation than headline GDP suggests.",
+        "citations": [
+          1,
+          3,
+          7,
+          19
+        ]
+      },
+      "horizon_split": "Neutral tactically because the inflation-growth differential is genuinely ambiguous over 2-4 weeks, but bearish USD/JPY strategically as the growth trajectories converge and Japan's structural inflation regime enables continued BoJ normalisation.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 3,
+      "factor_name": "Risk Appetite & Sentiment",
+      "tactical_weight_default": 0.1,
+      "tactical_weight_applied": 0.13,
+      "strategic_weight_default": 0.05,
+      "strategic_weight_applied": 0.08,
+      "weight_adjustment_reason": "+0.03 tactical and +0.03 strategic: USD/JPY is a pure risk proxy pair with disrupted safe-haven dynamics; risk factor deserves more weight given the energy-specific regime disruption",
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "bilateral_analysis": "USD/JPY is the quintessential risk barometer in G10 FX, but the current risk-off episode has broken the traditional correlation. VIX at 30+ and equities in correction would normally trigger JPY safe-haven buying (bearish USD/JPY), but the Iran conflict's energy dimension disproportionately hurts Japan, suppressing the safe-haven channel. The USD simultaneously benefits from the dollar smile's left side (risk-off demand). This creates a unique regime where both currencies receive directional support from risk-off for different reasons — USD from safe-haven flows and JPY from traditional haven demand — with the energy channel tilting the net effect toward USD dominance. Global volatility dynamics are increasingly central to USD/JPY direction as the yen behaves less like a safe haven and more like a funding currency. The correlation breakdown makes the risk factor uninformative for pair direction over 2-4 weeks. The Nikkei's sharper decline (-11.5% vs S&P -8.7%) reflects Japan's greater exposure to the energy shock and adds a repatriation headwind for JPY.",
+        "key_bilateral_metrics": [
+          "VIX: 30.6 (~80th percentile); S&P 500 -8.7% from highs",
+          "Nikkei 225: -11.5% in one month (sharper than S&P)",
+          "AUD/JPY at ~109 (risk barometer under moderate stress)",
+          "Gold: -14% in March (safe-haven liquidation, unusual)",
+          "JPY-VIX correlation: disrupted by energy shock"
+        ],
+        "what_is_priced": "The market is pricing JPY as a 'broken safe haven' in this specific risk-off episode. Any shift to non-energy risk-off (e.g., credit event, banking stress) would restore the traditional JPY-VIX correlation and be sharply bearish USD/JPY.",
+        "citations": [
+          7,
+          8,
+          16
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 50,
+        "bilateral_analysis": "Over 1-6 months, the risk environment is expected to evolve from energy crisis (JPY-negative) to either conflict resolution (strongly JPY-positive) or global growth slowdown from tighter monetary policy (also JPY-positive via traditional safe-haven channel). The global hawkish monetary pivot — RBA, ECB, BoE, RBNZ all repricing toward hikes — creates tighter financial conditions that historically support JPY. If the dollar smile transitions from the left side (risk-off, strong USD) to the middle (goldilocks, weak USD) on de-escalation, USD/JPY could see a multi-figure decline as both the risk premium and carry incentive compress simultaneously. Nikkei weakness could trigger institutional repatriation flows that provide additional JPY buying pressure. The restoration of JPY's traditional safe-haven function would be a significant structural shift in the risk regime for this pair.",
+        "key_bilateral_metrics": [
+          "Dollar smile position: left side (risk-off); transition to middle = USD/JPY -5-10%",
+          "Global tightening cycle: RBA, ECB, BoE, RBNZ all repricing hawkish",
+          "Nikkei weakness: could trigger institutional repatriation flows"
+        ],
+        "what_is_priced": "Markets are pricing the Iran conflict as an indefinite state. Any diplomatic progress would be sharply bearish USD/JPY.",
+        "citations": [
+          7,
+          8,
+          16,
+          19,
+          20
+        ]
+      },
+      "horizon_split": "Neutral tactically because the energy-specific risk-off regime neutralises JPY's traditional haven function. Bearish USD/JPY strategically because the risk regime is expected to evolve toward either de-escalation or broader growth slowdown — both JPY-supportive.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 4,
+      "factor_name": "Flows & Positioning",
+      "tactical_weight_default": 0.1,
+      "tactical_weight_applied": 0.1,
+      "strategic_weight_default": 0.06,
+      "strategic_weight_applied": 0.06,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 60,
+        "bilateral_analysis": "The combined positioning signal is the most directionally concentrated in the G10 universe: specs are simultaneously long USD (+$6.3 billion aggregate, flipped in 5 weeks) and short JPY (-62,806 contracts at 32nd percentile). This means the USD/JPY pair trade is amplified — both legs are positioned for higher USD/JPY. The amplification creates vulnerability: any catalyst that reverses either leg triggers a double unwind. MoF intervention is the primary exogenous squeeze catalyst — Japan's $1.16 trillion FX reserves and Vice FM Mimura's 'decisive measures' language on March 30 signal maximum alert. Scotiabank notes the JPY 'quickly falling to near 160.50 before steadying in response to the renewed threat from Vice Finance Minister Mimura of potential bold action.' Leveraged funds covering +10,577 JPY shorts in the latest week suggests fast money is already reducing exposure ahead of binary risks, while the BoJ hike would create an additional squeeze catalyst on April 27-28. Any intervention would likely be swift and violent — a repeat of past episodes could see USD/JPY unwind by 300-400 pips in short order.",
+        "key_bilateral_metrics": [
+          "Combined pair signal: Long USD + Short JPY = amplified USD/JPY long",
+          "USD aggregate spec: +$6.3bn net long (40th percentile, fast build)",
+          "JPY net spec short: -62,806 (32nd percentile; covering begun)",
+          "Japan FX reserves: $1.16 trillion (intervention firepower)",
+          "MoF rhetoric: 'decisive measures' (March 30) — strongest since mid-2024"
+        ],
+        "what_is_priced": "The pair positioning is concentrated but not extreme. The risk is asymmetric: if MoF intervenes, the forced covering of both legs (selling USD, buying JPY) would produce a 300-500 pip reversal within hours.",
+        "citations": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          17,
+          18
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 55,
+        "bilateral_analysis": "Strategically, the war-driven USD long build is temporary and will reverse as conflict premium fades. The EUR's record positioning crash from 90th to 10th percentile creates snap-back potential that would reduce the USD leg of the trade. On the JPY side, the approximately $500 billion carry trade is maintained by the wide differential and low vol — if the BoJ hikes to 1.25% and vol spikes, the carry-to-vol ratio could deteriorate below 0.20, triggering institutional de-hedging. Japanese life insurers at a 45.7% FX hedge ratio (13-year low) represent a spring-loaded re-hedging mechanism: a 10% JPY appreciation would trigger forced buying, creating a reflexive feedback loop. Rising volatility in equities or tightening financial conditions could force investors to exit carry positions, strengthening the yen abruptly — this creates asymmetric risk where downside moves in USD/JPY could be faster than the gradual upside. The historical analogue of Q4 2023 when USD/JPY dropped from 151 to 140 following BoJ normalisation signals is directly relevant. The August 2024 carry unwind from 162 to 140 represents the tail scenario.",
+        "key_bilateral_metrics": [
+          "JPY carry trade outstanding: ~$500bn (Morgan Stanley)",
+          "Life insurer hedge ratio: 45.7% (re-hedging trigger on JPY strength)",
+          "Historical carry unwind: August 2024 saw USD/JPY drop from 162 to 140",
+          "Tipping point: BoJ at 1.25% + vol spike = carry dissolution"
+        ],
+        "what_is_priced": "The market treats institutional JPY selling as permanent. The underpriced scenario is a re-hedging feedback loop triggered by BoJ hikes — exactly what happened in Q4 2023 when USD/JPY dropped from 151 to 140.",
+        "citations": [
+          7,
+          8,
+          9,
+          11,
+          19,
+          20
+        ]
+      },
+      "horizon_split": "Both horizons bearish USD/JPY. Tactical confidence is higher (60 vs 55) because MoF intervention and BoJ hike create specific near-term squeeze catalysts from the moderate short base. Strategic confidence is moderated by the persistence of structural carry incentives.",
+      "carry_analysis": null,
+      "contrarian_analysis": {
+        "tactical": {
+          "combined_positioning_signal": "Long USD + Short JPY on both legs creates an amplified directional concentration; the pair trade is positioned for higher USD/JPY across both the USD and JPY legs simultaneously",
+          "unwind_trigger": "MoF direct market intervention or BoJ 25bp+ hike on April 27-28 forces double-leg unwind — selling USD, buying JPY — with 300-500 pip reversal potential",
+          "historical_analogue": "August 2024: USD/JPY dropped from 162 to 140 within weeks as carry positions unwound after BoJ's surprise hike; Q4 2023: USD/JPY dropped from 151 to 140 on BoJ normalisation signalling",
+          "contrarian_case": "The crowded USD long + JPY short positioning creates a coiled spring. While the energy shock narrative supports the current positioning, any surprise BoJ delivery or MoF intervention removes the foundation for both legs simultaneously. The fast money already covering (+10,577 JPY contracts) suggests the smart money anticipates the unwind, and the moderate rather than extreme positioning (32nd percentile JPY shorts vs 2007 extreme of -196K) means there is still meaningful short base to squeeze without being disorderly."
+        },
+        "strategic": {
+          "combined_positioning_signal": "War-driven USD long build is temporary; EUR snap-back potential reduces USD leg while BoJ normalisation reverses JPY short leg — both legs unwind directionally for lower USD/JPY",
+          "unwind_trigger": "BoJ reaches 1.25% AND carry-to-vol ratio drops below 0.20, triggering institutional de-hedging and life insurer re-hedging feedback loop",
+          "historical_analogue": "August 2024 carry unwind: USD/JPY from 162 to 140 in weeks; structural parallel to current setup with life insurer hedge ratio at 13-year low of 45.7%",
+          "contrarian_case": "The ~$500 billion JPY carry trade and the 45.7% life insurer hedge ratio (13-year low) represent an enormous coiled spring that the market treats as permanent structural selling. The contrarian case is that each BoJ hike incrementally increases the probability of a reflexive feedback loop: JPY strength → forced re-hedging → more JPY strength → carry unwind → dramatically lower USD/JPY. This non-linear dynamic is entirely unpriced in a market that expects only gradual depreciation toward consensus targets of 148-157."
+        }
+      },
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 5,
+      "factor_name": "External Balance & Terms of Trade",
+      "tactical_weight_default": 0.06,
+      "tactical_weight_applied": 0.09,
+      "strategic_weight_default": 0.16,
+      "strategic_weight_applied": 0.16,
+      "weight_adjustment_reason": "+0.03 tactical: Energy shock has outsized immediate impact on this specific pair due to Japan's 90% energy import dependence",
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 70,
+        "bilateral_analysis": "The Iran oil shock creates the most asymmetric external balance impact of any G10 pair. Applying the commodity direction rules: Oil ↑ → mild positive for USD (energy self-sufficiency) vs strong negative for JPY (90% energy import dependence). Net effect: strongly bullish USD/JPY. Brent at $110-118/bbl has pushed Japan's energy import bill sharply higher — JKM LNG up approximately 57%, Newcastle coal up 17%. Japan's trade balance will deteriorate substantially in March-April data. The US current account deficit of -2.4% GDP is structural but not worsening from the oil shock, while Japan's surplus depends entirely on the primary income balance (reinvested offshore, no JPY buying) versus the goods deficit (direct JPY selling). The energy channel is the single strongest bullish USD/JPY factor at the tactical horizon. A $10/bbl oil rise costs Japan approximately JPY1.5-2T in annual imports, providing a direct mechanical linkage from Brent to USD/JPY.",
+        "key_bilateral_metrics": [
+          "Oil impact netting: USD mild positive vs JPY strong negative = bullish USD/JPY",
+          "Brent: $110-118/bbl (+55% since Feb 28)",
+          "Japan energy import dependency: ~90% for oil",
+          "US current account: -2.4% GDP vs Japan: +3.5% GDP (but income stays offshore)",
+          "Sensitivity: $10/bbl oil rise costs Japan ~JPY1.5-2T in annual imports"
+        ],
+        "what_is_priced": "The market has partially priced the energy shock (USD/JPY rallied approximately 8 big figures from February lows). The remaining upside from this channel is limited unless oil escalates further to $130+.",
+        "citations": [
+          1,
+          3,
+          5
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "bilateral_analysis": "Strategically, the external balance factor becomes genuinely uncertain because it depends entirely on the oil trajectory. Under de-escalation (oil to $75-85), Japan's trade balance recovers rapidly (the 2025 deficit halved YoY) and the terms-of-trade shock reverses — strongly bearish USD/JPY. Under escalation (oil to $130+), the trade deficit could approach crisis levels — strongly bullish USD/JPY. The US twin deficits (CA -2.4% + fiscal -5.8%) remain a structural headwind for USD but operate through a slow-moving channel. Japan's primary income surplus (JPY41.59T record in 2025) provides a floor but generates minimal JPY buying. The bilateral trade relationship is modest in the pair's FX transmission — US-Japan bilateral trade is approximately 5% of each country's total. The net strategic signal is genuinely split between the two oil scenarios, warranting a neutral stance. The symmetry of upside and downside oil scenarios is the reason this high-weight strategic factor contributes zero to the directional score.",
+        "key_bilateral_metrics": [
+          "Oil base case ($85-95): Japan trade balance recovers; neutral for pair",
+          "Oil bull ($130+): Japan trade crisis; strongly bullish USD/JPY",
+          "US twin deficits: structural USD negative (CA -2.4% + fiscal -5.8%)",
+          "Japan primary income: JPY41.59T (record, but no FX impact)",
+          "Bilateral trade: ~5% of each country's total (modest)"
+        ],
+        "what_is_priced": "The market has priced a persistent energy drag on JPY. The underpriced scenario is rapid oil normalisation on ceasefire, which would be strongly bearish USD/JPY.",
+        "citations": [
+          1,
+          3,
+          5
+        ]
+      },
+      "horizon_split": "Bullish USD/JPY tactically (70 confidence) because the energy shock impact is immediate and mechanical. Neutral strategically (50 confidence) because the oil trajectory is unknowable and two symmetric scenarios generate opposite pair implications.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": {
+        "base_commodity_profile": "USD: mild energy exporter / self-sufficient; oil price rises provide modest positive ToT impact",
+        "quote_commodity_profile": "JPY: approximately 90% energy import dependent; oil price rises are strongly negative for ToT, widen trade deficit, and create direct JPY selling pressure",
+        "net_effect_calculation": "Step 1: Oil rises (Iran shock, Brent $110-118/bbl). Step 2: For USD — US is roughly energy self-sufficient; mild positive ToT impact, marginal support for USD. Step 3: For JPY — Japan imports approximately 90% of oil; sharply negative ToT, immediate widening of goods trade deficit, direct JPY selling by importers. Step 4: Net netting — USD positive (mild) minus JPY negative (strong) = strongly bullish USD/JPY on oil spike. Step 5: Quantification — a $10/bbl oil rise costs Japan approximately JPY1.5-2T annually in import costs, creating direct FX selling pressure. Step 6: Reversal scenario — oil normalisation to $75-85 reverses this entirely, recovering Japan's trade balance and removing the primary bullish USD/JPY impulse.",
+        "scenario_oil_up_10pct": "Oil from ~$114 to ~$125: USD/JPY +100-150 pips via Japan import cost surge (JPY1.5-2T additional annual cost) with minimal offsetting US benefit; primary ToT shock channel strengthens",
+        "scenario_oil_down_10pct": "Oil from ~$114 to ~$103: USD/JPY -100-150 pips via Japan trade balance recovery; bearish USD/JPY channel reactivates and reinforces BoJ hike thesis by reducing cost-push inflation noise",
+        "dominant_commodity_driver": "Crude oil (Brent/JKM LNG) is the overwhelmingly dominant commodity driver for USD/JPY — Japan's 90% energy import dependence creates a direct mechanical linkage from oil to JPY ToT to spot."
+      },
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 6,
+      "factor_name": "Guidance & Credibility",
+      "tactical_weight_default": 0.07,
+      "tactical_weight_applied": 0.07,
+      "strategic_weight_default": 0.12,
+      "strategic_weight_applied": 0.12,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 65,
+        "bilateral_analysis": "The guidance divergence between the two central banks is the widest in years and favours JPY appreciation. The BoJ's communication has never been more hawkish — Takata dissented for 1.00%, the Summary of Opinions discussed larger-than-25bp moves, Ueda kept the April hike explicitly on the table, and Tamura advocated a 1.50-1.75% neutral rate. The BoJ has built credibility through delivery (three hikes since October 2024). On the Fed side, the March FOMC was hawkish but the message was 'patience' — no further tightening, just delayed easing. The gap between implied guidance (BoJ: hike imminent; Fed: hold indefinitely) is directionally bearish USD/JPY because the next surprise can only come from the JPY side (BoJ delivers or over-delivers), not the USD side (Fed hold is fully priced). Powell's 'if we don't see progress, then you won't see that rate cut' message is absorbed — it has no additional bullish USD surprise potential, while the BoJ's unprecedented hawkish debate creates positive surprise potential.",
+        "key_bilateral_metrics": [
+          "BoJ guidance: 'raise without hesitation' (Summary of Opinions)",
+          "Fed guidance: 'if we don't see progress, then you won't see that rate cut' (Powell)",
+          "BoJ track record: 3 hikes delivered as signalled (credibility high)",
+          "Fed credibility: intact but transition to Warsh creates uncertainty",
+          "Guidance gap: BoJ pointing to action; Fed pointing to patience"
+        ],
+        "what_is_priced": "The hawkish BoJ guidance is largely priced (~70% hike probability) but the skew is underpriced — the debate about size suggests upside risk to the hike delivery.",
+        "citations": [
+          1,
+          3,
+          7,
+          15,
+          19
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 55,
+        "bilateral_analysis": "The strategic guidance picture favours continued narrowing of the rate differential. The BoJ board is tilting hawkish and the normalisation trajectory is endorsed by the IMF. The Warsh Fed Chair transition (expected May-June) introduces communication uncertainty that could temporarily support USD but ultimately constrains the Fed's reaction function if perceived as politically influenced. The BoJ's June QT interim assessment and July Outlook Report provide additional guidance touchpoints that are expected to reinforce the normalisation path. The BoJ's terminal rate debate spanning 1.00-1.75% is directionally bullish for JPY regardless of where within the range the path settles, given current spot at 158.71 prices near the low end of the rate normalisation trajectory.",
+        "key_bilateral_metrics": [
+          "BoJ terminal rate debate: 1.00-1.75% (wide but directionally up)",
+          "Warsh transition: May 15 expected (communication disruption)",
+          "BoJ meeting cadence: April, June, July (three guidance events)",
+          "IMF: 'monetary conditions should continue to be adjusted'"
+        ],
+        "what_is_priced": "Terminal BoJ rate priced around 1.00-1.25% — broadly consistent but with upside risk from Tamura's 1.50-1.75% advocacy.",
+        "citations": [
+          1,
+          3,
+          7,
+          15,
+          19
+        ]
+      },
+      "horizon_split": "Both horizons bearish USD/JPY. Tactical confidence higher (65 vs 55) because the April MPM is the immediate delivery point. Strategic confidence moderated by Warsh transition uncertainty and geopolitical interference risk.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 7,
+      "factor_name": "Event Risk & Geopolitics",
+      "tactical_weight_default": 0.05,
+      "tactical_weight_applied": 0.05,
+      "strategic_weight_default": 0.05,
+      "strategic_weight_applied": 0.05,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 40,
+        "bilateral_analysis": "The event calendar is the densest for USD/JPY since July 2024, with binary outcomes that could move the pair 5-10 big figures in either direction. The Iran-US conflict dominates: de-escalation would collapse oil (bearish USD/JPY via JPY ToT recovery + safe-haven restoration), while escalation would push oil above $120 (bullish USD/JPY). The BoJ April 27-28 meeting is a separate binary: hike = bearish USD/JPY; hold = bullish. The FOMC April 28-29 adds a third binary, and Golden Week (April 29-May 5) creates a liquidity vacuum that amplifies any post-meeting moves. The net directional signal is genuinely uncertain — the probability distribution is bimodal rather than unimodal. The April 6 Iran deadline is not priced as a binary despite its transformative potential. 1M IV at approximately 9.76% appears too low for this event density, suggesting the event risk is underpriced in volatility terms.",
+        "key_bilateral_metrics": [
+          "April 6: Trump deadline for Iran Strait reopening",
+          "April 27-28: BoJ MPM + Outlook Report (70% hike probability)",
+          "April 28-29: FOMC (hold expected)",
+          "April 29-May 5: Golden Week (thin liquidity)",
+          "Tail scenarios: De-escalation + hike → 150-155 (20%); Escalation + hold → 162-165 (15%)"
+        ],
+        "what_is_priced": "1M IV at approximately 9.76% appears too low for event density. The April 6 Iran deadline is not priced as a binary.",
+        "citations": [
+          6,
+          10,
+          14,
+          15,
+          18
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 45,
+        "bilateral_analysis": "Over 1-6 months, the Iran conflict has a higher probability of de-escalation than escalation based on historical military campaign durations and domestic political pressure on the Trump administration. De-escalation would be sharply bearish USD/JPY through multiple channels simultaneously: oil normalisation, risk appetite recovery, safe-haven restoration, and carry position unwind. Section 301 investigations targeting Japan (approximately July completion) and the G7 Summit in June could generate additional pair-specific headlines. The strategic baseline of 55-60% de-escalation probability over 3-6 months makes the geopolitical risk factor directionally bearish USD/JPY when probability-weighted, even accounting for the uncertainty.",
+        "key_bilateral_metrics": [
+          "Iran conflict resolution probability (3-6M): ~55-60%",
+          "Oil normalisation target: $75-85/bbl (strongly bearish USD/JPY)",
+          "Section 301 completion: ~July 2026",
+          "G7 Summit: June 15-17 (FX policy discussions possible)"
+        ],
+        "what_is_priced": "Bank forecasts of 148-157 by year-end implicitly price conflict resolution. The risk is that resolution happens faster than expected, producing a rapid repricing.",
+        "citations": [
+          1,
+          3,
+          5,
+          6,
+          10
+        ]
+      },
+      "horizon_split": "Neutral tactically (40 confidence) because near-term events are genuinely binary with symmetric outcomes. Bearish USD/JPY strategically (45 confidence) because de-escalation probability increases over the longer horizon.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 8,
+      "factor_name": "Fiscal & Sovereign Risk",
+      "tactical_weight_default": 0.04,
+      "tactical_weight_applied": 0.04,
+      "strategic_weight_default": 0.07,
+      "strategic_weight_applied": 0.07,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "bilateral_analysis": "The fiscal differential is a structural feature that generates limited tactical signal. Japan's gross debt at approximately 236% of GDP dwarfs the US at approximately 100%, but Japan's debt has been a known concern for decades without triggering a crisis. S&P's March 30 warning linking yen weakness to potential downgrade is a new development but has not been absorbed as a near-term catalyst. The US fiscal trajectory ($39T debt, Moody's downgrade to Aa1) is also deteriorating but not generating acute market stress. PM Takaichi's record JPY122T budget is structurally JPY-negative through increased JGB supply. The US 2s10s steepening to +48bp reflects term premium concerns. Neither sovereign risk differential is generating a tactical directional signal — both are priced as background structural noise with no imminent resolution.",
+        "key_bilateral_metrics": [
+          "Japan debt/GDP: ~236% vs US: ~100%",
+          "Japan sovereign: S&P A+ (warning on March 30) vs US: AA+ (no AAA from any agency)",
+          "JGB 30Y: 3.71% (term premium rising) vs UST 10Y: 4.37%",
+          "Japan FY2026 budget: JPY122T (record) vs US deficit: $1.9T (-5.8% GDP)",
+          "S&P warning: 'could lower if yen weakens further' (new conditional path)"
+        ],
+        "what_is_priced": "Both sovereign risks are priced as structural background noise. The S&P conditional downgrade path for Japan is modestly bullish USD/JPY if triggered but probability is low (~10-15%).",
+        "citations": [
+          3,
+          5
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "bilateral_analysis": "Both sides face fiscal headwinds. Japan's JGB market structure is evolving negatively (BoJ tapering, life insurer selling, foreign marginal buyers), but the US faces the same dynamic from a different angle ($10T+ rollover at elevated yields, foreign yield competition from Gilts/ACGBs/NZGBs). The US fiscal deterioration is arguably worse in flow terms ($1.9T annual deficit requiring foreign financing) while Japan's primary income surplus provides a structural buffer. These offsetting forces produce a neutral pair signal. Japan's FY2026 record JPY122T budget increases JGB supply pressure just as the BoJ is tapering purchases — a bearish JGB dynamic that is ironically JPY-positive if it forces domestic buyers to re-onshore capital to absorb supply.",
+        "key_bilateral_metrics": [
+          "US fiscal deficit: -5.8% GDP; Japan: -4.6% GDP",
+          "US Treasury rollover: $10T+ in 2026; Japan BoJ tapering to JPY2T/month",
+          "Foreign yield competition: reducing appetite for both USTs and JGBs",
+          "Interest expense risk: both countries face rising servicing costs"
+        ],
+        "what_is_priced": "Fiscal risks are priced as structural for both economies. No near-term repricing expected absent a debt ceiling crisis or rating action.",
+        "citations": [
+          3,
+          5
+        ]
+      },
+      "horizon_split": "Neutral at both horizons because both sovereigns face deteriorating fiscal dynamics that approximately offset at the pair level.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 9,
+      "factor_name": "Market Structure & Volatility",
+      "tactical_weight_default": 0.05,
+      "tactical_weight_applied": 0.06,
+      "strategic_weight_default": 0.03,
+      "strategic_weight_applied": 0.03,
+      "weight_adjustment_reason": "+0.01 tactical: Pair near critical intervention level; technicals more decision-relevant at current juncture",
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 60,
+        "bilateral_analysis": "USD/JPY's technical structure at 158.71 is defined by a bullish stacked MA configuration (spot above 50d 157.22, above 100d 156.89, above 200d 154.40) running into a hard ceiling at 160.00. The pair touched 160.56 on March 30 before reversing to close at 159.71, confirming the intervention zone is active resistance. The recent price action shows higher highs and higher lows since the September 2025 trough, but the rate of ascent has decelerated markedly — the past month's +0.22% gain versus +9.36% yearly confirms exhaustion approaching the ceiling. Oscillators are not far from peak values, hinting that the market may be in the late-stage trend phase — momentum is on the side of the bullish trend, however the force behind the moves is diminishing. Implied vol at approximately 9.76% appears cheap for the April event cluster — fair value is probably 11-13%, making options 1-3 vol points underpriced. The 25-delta risk reversal at -0.5% shows modest JPY put demand but the magnitude is small relative to actual intervention risk. The asymmetric barrier structure at 160 creates positive convexity for short USD/JPY positions: losses are capped by intervention while gains from a BoJ hike are open-ended.",
+        "key_bilateral_metrics": [
+          "Spot: 158.71; 50d SMA: 157.22; 100d: 156.89; 200d: 154.40",
+          "Support: 157.22 (50d), 155.00 (round number), 154.40 (200d), 150.00 (psychological)",
+          "Resistance: 160.00 (intervention), 160.56 (52w high), 161.95 (2024 high)",
+          "1M IV: ~9.76% (mispriced low for event density)",
+          "25d RR: ~-0.5% (modest JPY put skew)"
+        ],
+        "what_is_priced": "IV at approximately 9.76% is pricing a calm environment inconsistent with the binary event density. Options are cheap for the BoJ hike + intervention scenario.",
+        "citations": [
+          2,
+          6,
+          10,
+          12,
+          16
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 50,
+        "bilateral_analysis": "The bullish USD/JPY trend (above all MAs) can persist for months even as fundamentals gradually shift, and trend-following capital (CTA flows) is currently aligned with the upside. However, the intervention barrier at 160-162 creates a hard ceiling, and if the BoJ delivers multiple hikes, fundamental direction shifts toward JPY strength — bringing spot toward the 200d SMA at 154.40, which would constitute a trend reversal flipping CTA flows. The BIS REER at an all-time low provides structural support for JPY appreciation over the 3-6 month horizon. The 140-160 range established since January 2024 remains intact. Since January 2024, USD/JPY has traded within a broad sideways range between 160 and 140, and despite the dollar's recovery, bullish momentum still appears insufficient to break out of this dominant range. A break below the 50d SMA at 157.22 would be the first signal of trend deterioration; break below 200d at 154.40 would confirm reversal and flip CTA positioning.",
+        "key_bilateral_metrics": [
+          "200d SMA: 154.40 (target for corrective move)",
+          "BIS REER: 52.9 (all-time low; mean-reversion: 1-3 years)",
+          "Range: 140-160 since Jan 2024 (intact)",
+          "CTA vulnerability: break below 157 (50d) triggers momentum selling"
+        ],
+        "what_is_priced": "The market prices the current trend as persistent. A break below the 50d SMA at 157.22 would be the first signal of trend deterioration; break below 200d at 154.40 would confirm reversal.",
+        "citations": [
+          2,
+          6,
+          10,
+          16
+        ]
+      },
+      "horizon_split": "Bearish USD/JPY at both horizons. Tactical confidence higher (60 vs 50) because options are cheap and the intervention ceiling creates asymmetric risk-reward. Strategic confidence moderated because the bullish trend can persist through inertia.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": {
+        "vol_landscape_summary": "USD/JPY 1M IV at approximately 9.76% is materially mispriced low relative to the April event density (BoJ hike, FOMC, Iran deadline, Golden Week). Fair value IV is estimated at 11-13%, meaning options are 1-3 vol points cheap. The -0.5% 25-delta risk reversal indicates only modest JPY put demand despite the proximity to the 160 intervention trigger, creating an asymmetric entry opportunity for JPY calls.",
+        "directional_expression": "The bearish USD/JPY view is optimally expressed through 1M USD/JPY puts (or JPY calls) that capture both directional movement and the vol repricing that would accompany a BoJ hike or MoF intervention. The cheap IV makes option premium a relatively low cost of entry. For spot expressions, short USD/JPY with a stop above 161.95 (2024 intervention ceiling) provides defined risk with the intervention ceiling capping losses. The asymmetric barrier at 160 creates positive convexity for short positions: losses are bounded by intervention while downside gains from a BoJ hike are open-ended.",
+        "event_timing_consideration": "The April 27-28 BoJ meeting is the primary event for timing. 1M options initiated now cover the full event window including the April 6 Iran deadline, April 27-28 BoJ, April 28-29 FOMC, and the Golden Week liquidity vacuum. Initiating positions before April 6 captures the full bimodal event distribution at current cheap vol levels.",
+        "liquidity_note": "USD/JPY is the second most liquid FX pair globally with approximately $1.1 trillion daily turnover — execution risk is minimal at all option and spot sizes. Golden Week (April 29-May 5) reduces Japanese market participation and can amplify moves; positions through this period should account for wider bid-ask spreads and potential gapping risk."
+      }
+    },
+    {
+      "factor_number": 10,
+      "factor_name": "USD Liquidity & Funding",
+      "tactical_weight_default": 0.11,
+      "tactical_weight_applied": 0.08,
+      "strategic_weight_default": 0.12,
+      "strategic_weight_applied": 0.09,
+      "weight_adjustment_reason": "-0.03 tactical and -0.03 strategic: Direct pair with USD so vehicle currency channel less relevant than for crosses; cross-currency basis data unavailable creating analytical gap",
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "bilateral_analysis": "USD funding conditions are orderly with SOFR at 3.63% and no acute stress. The BoJ USD swap line shows only $30.3 million outstanding — essentially zero, confirming no JPY/USD funding stress. The dollar smile positions USD on the left side (risk-off demand), which is tactically bullish USD/JPY through the vehicle currency channel. Quarter-end (March 31) has passed, removing the seasonal USD demand tailwind. The JPY/USD cross-currency basis swap level is unavailable (behind terminal paywalls), which is a material data gap — this is the single most important indicator for pair-specific funding dynamics. Without basis data, the assessment relies on the swap line proxy (no stress) and the broader liquidity environment (QT ended, reserves adequate at $3.0-3.1T). The TGA at $871B (elevated) provides a Treasury cash buffer, but a late-April TGA spike coinciding with the BoJ meeting could create a brief USD money market squeeze.",
+        "key_bilateral_metrics": [
+          "SOFR: 3.63% (stable, no stress)",
+          "BoJ USD swap line: $30.3M outstanding (no stress)",
+          "Fed balance sheet: $6.61T (QT ended Dec 2025)",
+          "JPY/USD basis: not available (material data gap)",
+          "TGA: $871B (elevated; Treasury has cash buffer)"
+        ],
+        "what_is_priced": "Markets price orderly USD funding. The tactical risk is a late-April TGA spike coinciding with the BoJ meeting, creating a brief USD money market squeeze.",
+        "citations": [
+          8,
+          9,
+          19,
+          20
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 50,
+        "bilateral_analysis": "Strategically, the USD liquidity picture is slowly tilting toward JPY support. Rising JGB yields (10Y at 2.36%) make domestic bonds more attractive for Japanese institutions, potentially reducing offshore allocation and USD borrowing needs. The dollar smile framework suggests that if the global economy enters a slowdown or the conflict resolves, USD moves from the left side (strong) to the middle (weak) — this transition would be directly bearish USD/JPY. The Warsh succession introduces uncertainty about the Fed's commitment to global USD liquidity infrastructure (swap lines). Fed QT has ended but the RRP buffer is exhausted, meaning further reserve depletion comes from the banking system — a structural USD scarcity dynamic that historically widens cross-currency basis. The combination of rising domestic JGB yields and potential dollar smile transition creates a dual-channel bearish USD/JPY impulse over the 1-6 month strategic horizon.",
+        "key_bilateral_metrics": [
+          "JGB 10Y at 2.36%: improving domestic yield alternative",
+          "Dollar smile transition: left → middle = bearish USD/JPY",
+          "Warsh: potential reduced commitment to swap line infrastructure",
+          "Fed QT ended: neutral; RRP exhausted"
+        ],
+        "what_is_priced": "Markets price orderly conditions. The underpriced scenario is a dollar smile regime transition on conflict de-escalation.",
+        "citations": [
+          8,
+          9,
+          19,
+          20
+        ]
+      },
+      "horizon_split": "Neutral tactically (50 confidence) because funding is orderly. Bearish USD/JPY strategically (50 confidence) because the dollar smile transition and rising JGB yields are slow-burning JPY-positive forces.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    }
+  ],
+  "synthesis": {
+    "weight_adjustments": {
+      "adjustments_made": true,
+      "adjustments": [
+        {
+          "factor_number": 3,
+          "factor_name": "Risk Appetite & Sentiment",
+          "default_weight": 0.1,
+          "applied_weight": 0.13,
+          "reason": "+0.03 tactical: USD/JPY is a pure risk proxy pair with disrupted safe-haven dynamics; risk factor deserves more weight. Also +0.03 strategic (from 0.05 to 0.08)."
+        },
+        {
+          "factor_number": 5,
+          "factor_name": "External Balance & Terms of Trade",
+          "default_weight": 0.06,
+          "applied_weight": 0.09,
+          "reason": "+0.03 tactical: Energy shock has outsized immediate impact on this specific pair due to Japan's 90% energy import dependence. Strategic weight remains at default 0.16."
+        },
+        {
+          "factor_number": 10,
+          "factor_name": "USD Liquidity & Funding",
+          "default_weight": 0.11,
+          "applied_weight": 0.08,
+          "reason": "-0.03 tactical: Direct pair with USD so vehicle currency channel less relevant than for crosses. Also -0.03 strategic (from 0.12 to 0.09)."
+        },
+        {
+          "factor_number": 9,
+          "factor_name": "Market Structure & Volatility",
+          "default_weight": 0.05,
+          "applied_weight": 0.06,
+          "reason": "+0.01 tactical: Pair near critical intervention level; technicals more decision-relevant at current juncture."
+        }
+      ]
+    },
+    "tactical": {
+      "net_stance": "Bearish",
+      "conviction": 3,
+      "overall_confidence": 62,
+      "weighted_score_calculation": [
+        {
+          "factor_number": 1,
+          "factor_name": "Policy & Rates",
+          "stance_score": -1,
+          "confidence": 70,
+          "conf_adj_score": -0.7,
+          "weight": 0.24,
+          "weighted_contribution": -0.168
+        },
+        {
+          "factor_number": 2,
+          "factor_name": "Inflation & Growth",
+          "stance_score": 0,
+          "confidence": 50,
+          "conf_adj_score": 0,
+          "weight": 0.18,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 3,
+          "factor_name": "Risk Appetite",
+          "stance_score": 0,
+          "confidence": 50,
+          "conf_adj_score": 0,
+          "weight": 0.13,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 4,
+          "factor_name": "Flows & Positioning",
+          "stance_score": -1,
+          "confidence": 60,
+          "conf_adj_score": -0.6,
+          "weight": 0.1,
+          "weighted_contribution": -0.06
+        },
+        {
+          "factor_number": 5,
+          "factor_name": "External Balance",
+          "stance_score": 1,
+          "confidence": 70,
+          "conf_adj_score": 0.7,
+          "weight": 0.09,
+          "weighted_contribution": 0.063
+        },
+        {
+          "factor_number": 6,
+          "factor_name": "Guidance & Credibility",
+          "stance_score": -1,
+          "confidence": 65,
+          "conf_adj_score": -0.65,
+          "weight": 0.07,
+          "weighted_contribution": -0.046
+        },
+        {
+          "factor_number": 7,
+          "factor_name": "Event Risk",
+          "stance_score": 0,
+          "confidence": 40,
+          "conf_adj_score": 0,
+          "weight": 0.05,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 8,
+          "factor_name": "Fiscal & Sovereign",
+          "stance_score": 0,
+          "confidence": 50,
+          "conf_adj_score": 0,
+          "weight": 0.04,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 9,
+          "factor_name": "Market Structure & Vol",
+          "stance_score": -1,
+          "confidence": 60,
+          "conf_adj_score": -0.6,
+          "weight": 0.06,
+          "weighted_contribution": -0.036
+        },
+        {
+          "factor_number": 10,
+          "factor_name": "USD Liquidity",
+          "stance_score": 0,
+          "confidence": 50,
+          "conf_adj_score": 0,
+          "weight": 0.08,
+          "weighted_contribution": 0
+        }
+      ],
+      "net_weighted_score": -0.247,
+      "score_interpretation": "A net weighted score of -0.247 is a moderate Bearish USD/JPY signal. Scores between -0.20 and -0.40 map to Bearish with Conviction 3/5. Four factors are bearish (Policy, Flows, Guidance, Market Structure), one is bullish (External Balance), and five are neutral.",
+      "rationale": "The tactical bearish USD/JPY thesis is driven by the convergence of rate policy direction (Factor 1: -0.168, the dominant contributor) and positioning vulnerability (Factor 4: -0.060) against a pair approaching a structurally enforced ceiling at 160. The BoJ's April 27-28 meeting is the highest-conviction near-term catalyst in the G10 universe: a approximately 70% probability of a 25bp hike to 1.00%, with the Summary of Opinions revealing debate on larger moves, delivers rate differential narrowing specifically from the JPY side — the more powerful FX transmission channel because the market is short JPY. Guidance credibility (Factor 6: -0.046) reinforces the hike case, as the BoJ has delivered on every signalled move since October 2024. Market structure (Factor 9: -0.036) adds directional support through the asymmetric intervention barrier: the 160.00 ceiling caps upside while the downside is open on a hike delivery. The primary offsetting force is External Balance (Factor 5: +0.063), where the Iran oil shock disproportionately hurts Japan as a 90% energy importer — this is the strongest bullish USD/JPY factor but it is already substantially priced after the pair's approximately 8 big figure rally from February lows, and further upside from this channel requires oil escalation to $130+ (15% probability). The five neutral factors — Inflation/Growth, Risk, Event Risk, Fiscal, Liquidity — reflect genuinely ambiguous bilateral signals where the USD and JPY dossier views approximately offset. The path of least resistance over 2-4 weeks is a grind lower from 158.71 toward 155-157, accelerating around the April 27-28 BoJ meeting. Risk-reward is enhanced by the options mispricing: 1M IV at approximately 9.76% is 1-3 vol points below fair value for the event density. The combined USD long + JPY short positioning creates a coiled spring vulnerable to double-leg unwind on any catalyst from the JPY side. The carry-to-vol ratio at 0.29 — below the 0.40 threshold — confirms the carry trade is maintained but not actively expanded, consistent with positioning that is moderate rather than extreme and therefore still capable of meaningful short covering. The deceleration in the pace of USD/JPY appreciation (+0.22% last month vs +9.36% over the year) provides additional technical confirmation that the bullish trend is exhausting as it approaches the intervention ceiling.",
+      "g10_relative_ranking": "Among JPY shorts (pairs where an investor would sell JPY), USD/JPY ranks as the 3rd least attractive after AUD/JPY and GBP/JPY — both offer wider carry and less intervention risk. Among USD longs, USD/JPY ranks behind USD/CHF and USD/SEK because the intervention ceiling caps the USD/JPY upside while those pairs lack equivalent barriers. For bearish USD/JPY positioning, this pair ranks as the cleanest expression of the BoJ normalisation thesis due to its liquidity, clear intervention trigger, and the concentration of positioning on both legs providing maximum short-squeeze potential.",
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "pair_target": "USD/JPY 155-157",
+          "timeframe": "2-4 weeks",
+          "conditions": [
+            "BoJ hikes 25bp to 1.00% on April 27-28",
+            "Iran conflict persists without further escalation (oil stays $105-118)",
+            "MoF intervenes verbally but not directly in spot market"
+          ],
+          "path": "Phase 1 (April 1-26): USD/JPY oscillates in a 157-160 range with diminishing upside momentum as market positions ahead of the BoJ meeting. The April 6 Iran deadline introduces episodic volatility but is unlikely to change the range absent a decisive outcome. Phase 2 (April 27-May 5): The BoJ hike triggers a 150-200 pip JPY rally in the first 24 hours, followed by a Golden Week liquidity vacuum that could amplify the move to 300+ pips if positioning unwinds. Pullbacks to 159-160 in the pre-meeting period represent entry opportunities for bearish positions."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "pair_target": "USD/JPY 162-165",
+          "conditions": [
+            "Iran escalation (Strait full closure, oil $130+)",
+            "BoJ holds on extreme uncertainty citing geopolitical risks"
+          ]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "pair_target": "USD/JPY 148-152",
+          "conditions": [
+            "Iran de-escalation (ceasefire/Strait reopening) collapses oil to $80-90",
+            "BoJ hikes 25bp or more with hawkish forward guidance"
+          ]
+        }
+      },
+      "path_expectation": "The expected path is a two-phase decline. Phase 1 (April 1-26): USD/JPY oscillates in a 157-160 range with diminishing upside momentum, as the market positions ahead of the BoJ meeting. The April 6 Iran deadline introduces episodic volatility but is unlikely to change the range absent a decisive outcome — the market will treat a non-event as a 'status quo' continuation and maintain the compression pattern. Phase 2 (April 27-May 5): The BoJ hike triggers a 150-200 pip JPY rally in the first 24 hours, followed by a Golden Week liquidity vacuum that could amplify the move to 300+ pips if the positioning unwinds are forced through thin markets. The options market's mispricing (1M IV at 9.76% vs fair value 11-13%) means vol repricing adds additional return to option-based bearish positions beyond just the directional move. Pullbacks to 159-160 in the pre-meeting period represent entry opportunities for bearish positions, with the intervention ceiling at 160-162 providing a natural stop level.",
+      "conviction_ladder": {
+        "current": 3,
+        "increase_conditions": [
+          "BoJ hikes with hawkish forward guidance signalling July follow-up AND MoF conducts actual intervention (not just verbal) — conviction to 4/5",
+          "Iran ceasefire announced AND BoJ hikes 50bp simultaneously, triggering carry unwind with AUD/JPY dropping below 105 — conviction to 5/5"
+        ],
+        "decrease_conditions": [
+          "BoJ holds with dovish statement removing tightening bias language AND oil breaks above $125 — conviction to 2/5",
+          "Iran escalation triggers broad EM/Asia crisis AND Fed signals rate hikes — conviction to 1/5"
+        ]
+      },
+      "risk_reward": {
+        "base_case_payoff": "+271 pips / +1.7% (158.71 to 156.0)",
+        "downside_case_loss": "-329 pips / -2.1% (158.71 to 162.0), but MoF intervention at 162+ likely caps losses",
+        "risk_reward_ratio": "0.8:1 on spot; improves to ~2:1 with options (capped premium, open-ended gain)",
+        "expected_value": "(50% × 271) + (25% × 1071) + (25% × -329) = 135.5 + 267.8 - 82.3 = +321 pips probability-weighted EV",
+        "asymmetry_assessment": "Moderately positive. The intervention ceiling caps losses while BoJ hike plus potential carry unwind creates open-ended downside in USD/JPY. Options expression is superior given mispriced vol at 9.76% vs fair value 11-13%."
+      }
+    },
+    "strategic": {
+      "net_stance": "Bearish",
+      "conviction": 3,
+      "overall_confidence": 55,
+      "weighted_score_calculation": [
+        {
+          "factor_number": 1,
+          "factor_name": "Policy & Rates",
+          "stance_score": -1,
+          "confidence": 60,
+          "conf_adj_score": -0.6,
+          "weight": 0.24,
+          "weighted_contribution": -0.144
+        },
+        {
+          "factor_number": 2,
+          "factor_name": "Inflation & Growth",
+          "stance_score": -1,
+          "confidence": 55,
+          "conf_adj_score": -0.55,
+          "weight": 0.1,
+          "weighted_contribution": -0.055
+        },
+        {
+          "factor_number": 3,
+          "factor_name": "Risk Appetite",
+          "stance_score": -1,
+          "confidence": 50,
+          "conf_adj_score": -0.5,
+          "weight": 0.08,
+          "weighted_contribution": -0.04
+        },
+        {
+          "factor_number": 4,
+          "factor_name": "Flows & Positioning",
+          "stance_score": -1,
+          "confidence": 55,
+          "conf_adj_score": -0.55,
+          "weight": 0.06,
+          "weighted_contribution": -0.033
+        },
+        {
+          "factor_number": 5,
+          "factor_name": "External Balance",
+          "stance_score": 0,
+          "confidence": 50,
+          "conf_adj_score": 0,
+          "weight": 0.16,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 6,
+          "factor_name": "Guidance & Credibility",
+          "stance_score": -1,
+          "confidence": 55,
+          "conf_adj_score": -0.55,
+          "weight": 0.12,
+          "weighted_contribution": -0.066
+        },
+        {
+          "factor_number": 7,
+          "factor_name": "Event Risk",
+          "stance_score": -1,
+          "confidence": 45,
+          "conf_adj_score": -0.45,
+          "weight": 0.05,
+          "weighted_contribution": -0.023
+        },
+        {
+          "factor_number": 8,
+          "factor_name": "Fiscal & Sovereign",
+          "stance_score": 0,
+          "confidence": 50,
+          "conf_adj_score": 0,
+          "weight": 0.07,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 9,
+          "factor_name": "Market Structure & Vol",
+          "stance_score": -1,
+          "confidence": 50,
+          "conf_adj_score": -0.5,
+          "weight": 0.03,
+          "weighted_contribution": -0.015
+        },
+        {
+          "factor_number": 10,
+          "factor_name": "USD Liquidity",
+          "stance_score": -1,
+          "confidence": 50,
+          "conf_adj_score": -0.5,
+          "weight": 0.09,
+          "weighted_contribution": -0.045
+        }
+      ],
+      "net_weighted_score": -0.421,
+      "score_interpretation": "A net weighted score of -0.421 is a firm Bearish USD/JPY signal, mapping to Conviction 3/5. Seven factors are bearish, none are bullish, and three are neutral. The signal is more directionally concentrated than the tactical horizon.",
+      "rationale": "The strategic bearish USD/JPY thesis rests on the convergence of five structural forces. First, rate differential compression (Factor 1: -0.144) is the dominant driver: the BoJ normalising to 1.00-1.25% while the Fed holds or cuts narrows the gap by 50-100bp over 6 months, eroding the carry incentive sustaining the approximately $500 billion in outstanding JPY carry positions. Second, guidance credibility (Factor 6: -0.066) reinforces the BoJ's normalisation trajectory — the wage-price mechanism validated by Shunto 5.26% and IMF endorsement provides a durable foundation that the market may be underpricing. Third, USD liquidity and the dollar smile (Factor 10: -0.045) favours JPY if the global risk regime transitions from crisis (left side, strong USD) to growth stabilisation (middle, weak USD), which is the base case under conflict de-escalation. Fourth, inflation and growth convergence (Factor 2: -0.055) reduces US exceptionalism as the growth differential narrows and real wage growth in Japan accelerates toward the US level. Fifth, event risk resolution (Factor 7: -0.023) adds a directional tailwind if the Iran conflict de-escalates by mid-2026, with approximately 55-60% probability of at least partial resolution. The three neutral factors — External Balance (oil-dependent), Fiscal (offsetting risks), and Market Structure (trend still intact) — reflect genuine uncertainty that prevents conviction from exceeding 3/5. The critical conversion factor from the tactical thesis is the BoJ meeting: if the BoJ delivers in April, the strategic thesis strengthens as the market prices further hikes; if the BoJ holds, both horizons weaken. The extreme JPY undervaluation (BIS REER at all-time lows, PPP deviation of 100%+) provides a structural gravitational pull that becomes increasingly relevant at the 3-6 month horizon, particularly as each BoJ hike incrementally validates the end of the deflationary era. Flows and positioning (Factor 4: -0.033) add to the bearish case as the war-driven USD long build is temporary and the life insurer re-hedging feedback loop at 45.7% hedge ratio represents a spring-loaded mechanism for reflexive JPY appreciation.",
+      "g10_relative_ranking": "USD/JPY ranks as the 2nd most attractive short among USD pairs (behind only USD/CHF where the safe-haven bid competition is strongest) and the most attractive vehicle for expressing the BoJ normalisation thesis over 1-6 months. Among JPY crosses, short USD/JPY is cleaner than short AUD/JPY or GBP/JPY because the Fed is closer to cutting than the RBA or BoE are to pausing, providing a dual-engine rate compression dynamic. The pair's extreme REER undervaluation and $1.16T intervention war chest create structural support for the bearish thesis that is absent in other USD pairs.",
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "pair_target": "USD/JPY 148-153",
+          "timeframe": "By September 2026",
+          "conditions": [
+            "BoJ hikes to 1.00% in April and possibly 1.25% in July",
+            "Iran conflict de-escalates partially, oil settles to $85-95",
+            "Fed delivers one cut in H2 2026"
+          ],
+          "path": "The strategic path is a stepped decline in USD/JPY, with each BoJ meeting acting as a discrete repricing event. Phase 1 (April-May): BoJ hike to 1.00% triggers initial move to 155-157; Golden Week thin markets amplify. Phase 2 (June-July): Consolidation as the market awaits the June QT assessment and July Outlook Report; 300-500 pip countertrend rallies driven by carry re-accumulation between BoJ meetings. Phase 3 (August-September): If a second hike materialises and oil has normalised, USD/JPY approaches 148-152 where the 200d SMA and consensus forecasts converge. Shape is a staircase down — discrete steps lower around BoJ meetings with flat consolidation between them."
+        },
+        "upside_case": {
+          "probability_pct": 20,
+          "pair_target": "USD/JPY 162-168",
+          "conditions": [
+            "Prolonged Iran conflict with oil sustained above $110 through Q3 2026",
+            "BoJ pauses at 1.00% citing geopolitical uncertainty and growth risks"
+          ]
+        },
+        "downside_case": {
+          "probability_pct": 30,
+          "pair_target": "USD/JPY 140-145",
+          "conditions": [
+            "Full Iran ceasefire with oil returning to $75-80, triggering rapid ToT recovery for JPY",
+            "BoJ hikes to 1.25%+ with carry-to-vol ratio falling below 0.20, accelerating carry trade dissolution"
+          ]
+        }
+      },
+      "path_expectation": "The strategic path is a stepped decline in USD/JPY, with each BoJ meeting acting as a discrete repricing event rather than a smooth trend. Phase 1 (April-May 2026): The BoJ hike to 1.00% triggers an initial move to 155-157; the Golden Week liquidity vacuum amplifies the move. Phase 2 (June-July 2026): Consolidation as the market awaits the June QT interim assessment and July Outlook Report, with 300-500 pip countertrend rallies driven by carry re-accumulation between BoJ meetings. These rallies are entry points for adding to the strategic position rather than thesis invalidation signals. Phase 3 (August-September 2026): If a second hike materialises and oil has normalised toward $85-95, USD/JPY approaches the 148-152 zone where the 200d SMA trajectory and consensus forecasts converge. The shape of the move is a staircase down — discrete steps lower around BoJ meetings with flat consolidation between them. The carry cost of approximately 288bp annualised (~72bp per quarter) is the primary drag on the strategic position but is eroding with each BoJ hike, improving the holding cost over time.",
+      "conviction_ladder": {
+        "current": 3,
+        "increase_conditions": [
+          "BoJ reaches 1.25% AND Iran de-escalates; carry-to-vol ratio drops below 0.20 — conviction to 4/5",
+          "BoJ reaches 1.25%+ AND Iran ceasefire AND GPIF confirms domestic allocation shift toward JGBs — conviction to 5/5"
+        ],
+        "decrease_conditions": [
+          "BoJ pauses at 1.00% with dovish guidance citing geopolitical uncertainty; oil sustained above $110 through Q3 — conviction to 2/5",
+          "Iran escalation plus US stagflation avoidance plus all peer CBs pivot dovish — conviction to 1/5"
+        ]
+      },
+      "risk_reward": {
+        "base_case_payoff": "+821 pips / +5.2% (158.71 to 150.5)",
+        "downside_case_loss": "-629 pips / -4.0% (158.71 to 165.0)",
+        "risk_reward_ratio": "1.3:1",
+        "expected_value": "(50% × 821) + (30% × 1371) + (20% × -629) = 410.5 + 411.3 - 125.8 = +696 pips probability-weighted EV",
+        "asymmetry_assessment": "Strongly positive. The BoJ normalisation cycle provides a structural catalyst operating over months. The all-time low REER provides a valuation floor limiting sustained weakness. Carry cost (~288bp annualised) is the main drag but is eroding with each hike."
+      }
+    },
+    "consensus_divergence": {
+      "bank_consensus_forecast": "Consensus forecasting services project a trading range of roughly 146-154 for 2026, with year-end expectations clustering around 151-157. Bank of America forecasts USD/JPY to stay above 150 throughout 2026, expecting the pair to peak around 160 in Q1 before moderating, citing ongoing outward investment by Japanese firms and individuals. JPMorgan is the outlier bull at 164; Nomura is the outlier bear at 140. Sources: Investing.com (Bank of America); FXEmpire; Capital.com.",
+      "our_tactical_view": "Bearish USD/JPY with 3/5 conviction; target 155-157 over 2-4 weeks",
+      "our_strategic_view": "Bearish USD/JPY with 3/5 conviction; target 148-153 by September 2026",
+      "divergence_direction": "Our tactical target is more aggressively bearish than consensus; strategic target is broadly aligned with the lower end of consensus but assumes faster BoJ normalisation and earlier conflict de-escalation",
+      "divergence_magnitude": "Tactical: approximately 100-200 pips more bearish than consensus for 2-4 week horizon. Strategic: broadly in line with lower-end consensus (Nomura at 140) but faster timeline to reach 148-153 than median forecast implies.",
+      "why_we_differ": "We differ from consensus primarily on three elements: (1) The probability of a larger-than-25bp BoJ hike is underpriced — the Summary of Opinions debate about hike size is being ignored by consensus which uniformly models 25bp; (2) the asymmetric intervention risk at 160 creates positive convexity for JPY longs that simple point forecasts miss — consensus models do not account for the non-linear payoff from the intervention barrier; and (3) IV at approximately 9.76% is mispriced low, making options the superior expression that consensus analysis typically ignores. The consensus also underestimates the reflexive feedback loop risk from life insurer re-hedging at the 13-year-low hedge ratio of 45.7%.",
+      "payoff_if_right": "271-821 pips over 1-6 months; +$321 pips probability-weighted EV tactically; +$696 pips strategically",
+      "risk_if_wrong": "If USD/JPY pushes above 162, the carry cost plus directional loss would be approximately 400-630 pips — but MoF intervention would likely cap losses within that range, providing a natural backstop absent from most wrong-way trade scenarios."
+    },
+    "cross_horizon_consistency": {
+      "aligned": true,
+      "tactical_stance": "Bearish USD/JPY (3/5 conviction)",
+      "strategic_stance": "Bearish USD/JPY (3/5 conviction)",
+      "explanation": "Tactical and strategic stances are aligned at Bearish USD/JPY with identical conviction (3/5), creating directional consistency across horizons. The drivers differ: tactical thesis is concentrated on the discrete BoJ April catalyst and intervention asymmetry, while the strategic thesis depends on cumulative rate differential compression, conflict de-escalation, and extreme valuation mean reversion. The April 27-28 BoJ meeting is the hinge — if delivered with hawkish forward guidance, it extends the tactical thesis into the strategic horizon seamlessly. If the BoJ holds, both horizons weaken and reassessment is required at that point.",
+      "inflection_point": null,
+      "trading_implication": "Position for the tactical catalyst with defined risk (options or tight stops at 161.95). If the catalyst delivers, extend the position into the strategic horizon. If it fails, exit and reassess. The staircase-down strategic path means each BoJ meeting interval is a tactical entry opportunity aligned with the strategic directional view."
+    },
+    "forward_vs_spot": {
+      "current_spot": 158.71,
+      "forward_1m": "~157.76 (approximately -95 pips; implies -0.6% move toward JPY)",
+      "forward_3m": "~155.91 (approximately -280 pips; implies -1.8% move toward JPY)",
+      "forward_6m": "~153.11 (approximately -560 pips; implies -3.5% move toward JPY)",
+      "expected_rate_3m": "~155.00",
+      "expected_rate_6m": "~150.50",
+      "edge_3m": "+91 pips (expected 155.00 vs forward-implied 155.91)",
+      "edge_6m": "+261 pips (expected 150.50 vs forward-implied 153.11)"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-04-01",
+      "event": "Tankan Q1 2026 + Japan New Fiscal Year",
+      "expected_impact": "Bearish",
+      "which_leg_affected": "Quote",
+      "rationale": "A strong Tankan reading confirms Japanese economic resilience and removes a potential barrier to the BoJ April hike. The new fiscal year triggers fresh institutional allocation decisions by Japanese pension funds, life insurers, and asset managers — historically associated with increased domestic buying and reduced overseas allocation that provides structural JPY support. Tankan data reflecting the pre-Iran shock period may miss the latest headwinds, but services activity and domestic demand components are expected to remain robust.",
+      "priced_in": "Partially",
+      "citations": [
+        1,
+        7
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "event": "US March Nonfarm Payrolls",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Base",
+      "rationale": "After February's -92K shock, a positive NFP print (consensus +100-150K) stabilises the US growth narrative and is bullish USD/JPY by removing one pillar of the Fed cut case. Another negative print — particularly if below -50K — would confirm labour market deterioration, elevate recession probability from the current 25-49%, and bring multiple Fed cuts into play as soon as June, sharply bearish USD/JPY. The range of estimates is exceptionally wide following the February miss, making this a genuinely bimodal event for the pair.",
+      "priced_in": "Not priced",
+      "citations": [
+        1,
+        3
+      ]
+    },
+    {
+      "date": "2026-04-06",
+      "event": "Trump Deadline for Iran Strait of Hormuz Reopening",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Both",
+      "rationale": "This is the most important near-term binary for USD/JPY. De-escalation (Iran agrees to Strait reopening) collapses Brent toward $85-90, is sharply bearish USD/JPY through three simultaneous channels: JPY ToT recovery (removing the 90% energy import shock), safe-haven restoration (JPY regains traditional role), and carry position reassessment. Escalation (Iran rejects deadline, Strait remains blocked, oil breaks $125+) is sharply bullish USD/JPY as Japan's trade crisis intensifies and USD safe-haven demand surges. The market is currently pricing status quo, meaning either outcome is a significant surprise.",
+      "priced_in": "Not priced",
+      "citations": [
+        10,
+        14,
+        15,
+        18
+      ]
+    },
+    {
+      "date": "2026-04-08",
+      "event": "FOMC March Meeting Minutes",
+      "expected_impact": "Bullish",
+      "which_leg_affected": "Base",
+      "rationale": "The March FOMC meeting was already hawkish (11-1 hold, one-cut dot plot), and the minutes may reveal more hawkish internal debate than the statement communicated. Any discussion of rate hike scenarios, concern about inflation reacceleration from oil, or debate about the appropriateness of the current neutral rate would push front-end UST yields higher, widen the UST-JGB spread, and be modestly bullish USD/JPY. The impact is likely modest as the minutes reflect a meeting already digested by markets.",
+      "priced_in": "Partially",
+      "citations": [
+        1,
+        3
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "event": "US March CPI",
+      "expected_impact": "Bullish",
+      "which_leg_affected": "Base",
+      "rationale": "Oil passthrough from the Iran shock will push headline CPI toward 2.8-3.0%, the highest reading since 2024. Core CPI will also receive services and goods contributions from supply chain adjustments. A hot CPI print reinforces the higher-for-longer Fed narrative, delays the timeline for rate cuts, and is bullish USD/JPY by maintaining the US side of the rate differential. The energy component alone adds approximately 30-40bp to headline CPI based on Brent's move. This is one of the clearest mechanical transmissions from the oil shock to USD strength.",
+      "priced_in": "Partially",
+      "citations": [
+        1,
+        3
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "event": "BoJ MPM + Outlook Report (Day 1)",
+      "expected_impact": "Bearish",
+      "which_leg_affected": "Quote",
+      "rationale": "This is the critical catalyst for the tactical bearish USD/JPY thesis. Approximately 70% probability of a 25bp hike to 1.00%, with the updated Outlook Report likely to revise CPI forecasts higher (oil passthrough) and GDP forecasts modestly lower (energy headwind). A 25bp hike compresses the Fed-BoJ differential by 25bp within the tactical window, triggering short JPY covering and USD long reduction in the amplified pair trade. The unpriced tail is a 50bp hike, carrying approximately 10-15% probability, which would instantly compress the differential by 50bp and signal an accelerated normalisation path — a scenario with near-zero market pricing.",
+      "priced_in": "Partially",
+      "citations": [
+        1,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "event": "FOMC Meeting Decision",
+      "expected_impact": "Neutral",
+      "which_leg_affected": "Base",
+      "rationale": "The Fed is fully expected to hold at 3.625%, with approximately 95% probability priced. Any hawkish surprise (discussion of hike scenarios, removal of easing bias) would push USD/JPY higher, but this is unlikely given the growth slowdown concerns and political sensitivity. The FOMC meeting occurring one day after the BoJ means markets will process both decisions in rapid sequence — the combined BoJ hike + Fed hold outcome is the base case and is approximately 60-65% priced, meaning there is limited additional market reaction to the combined outcome.",
+      "priced_in": "Fully",
+      "citations": [
+        1,
+        3
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "event": "Golden Week Begins (Japan national holidays through May 5)",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Both",
+      "rationale": "Japanese market holidays from April 29 through May 5 create a significant liquidity vacuum immediately following the BoJ and FOMC meetings. Golden Week has historically produced sharp JPY moves because: (1) Japanese banks are offline and cannot provide two-way flow, (2) any post-BoJ position unwinding is forced through thin markets with wider bid-ask spreads, (3) algorithmic flow from CTAs and momentum strategies faces limited resistance. If the BoJ hiked the previous day, Golden Week thin markets could amplify the initial JPY rally to 300-500 pips. If a risk event occurs during Golden Week, the MoF cannot respond through market intervention with normal efficiency.",
+      "priced_in": "Not priced",
+      "citations": [
+        10,
+        14
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "event": "Warsh Expected to Take Over as Fed Chair",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Base",
+      "rationale": "Kevin Warsh's hawkish reputation initially supports USD but communication uncertainty could create volatility in both directions. Markets must calibrate a new reaction function — Warsh's 2010-2011 dissents were hawkish, but his views on the current inflation-growth trade-off are less clear. The Trump administration's history of pressuring the Fed creates political uncertainty that could paradoxically weaken USD if markets interpret Warsh as politically constrained. For USD/JPY specifically, any signal of deviation from the Powell framework (either more or less hawkish) generates volatility without clear directional bias.",
+      "priced_in": "Partially",
+      "citations": [
+        1,
+        3,
+        19
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "event": "BoJ MPM + QT Interim Assessment",
+      "expected_impact": "Bearish",
+      "which_leg_affected": "Quote",
+      "rationale": "The June BoJ meeting includes a QT interim assessment that could accelerate bond purchase tapering — directly bearish USD/JPY through two channels: (1) higher JGB yields attract domestic capital repatriation, and (2) reduced BoJ balance sheet expansion is JPY-positive through the asset price channel. If April's hike was delivered, a second 25bp hike to 1.25% in June is possible — carrying approximately 25-30% market probability at current pricing, making this substantially underpriced. The combined rate hike + QT acceleration scenario at June would be a significant bearish USD/JPY catalyst for the strategic horizon.",
+      "priced_in": "Not priced",
+      "citations": [
+        1,
+        7,
+        19
+      ]
+    }
+  ],
+  "invalidators": [
+    {
+      "condition": "BoJ holds in April with a dovish statement removing tightening bias language (e.g., language that rates will be 'raised without hesitation' is dropped)",
+      "new_stance": "Neutral — both tactical and strategic conviction drop to 2/5",
+      "mechanism": "The primary tactical catalyst is removed; 25-50bp of OIS repricing rolls back, JPY shorts are re-established, carry trade persists with no near-term compression catalyst, and USD/JPY's technical uptrend faces no fundamental challenge.",
+      "monitor_indicator": "BoJ April 27-28 statement language and press conference tone",
+      "monitor_frequency": "Event-specific",
+      "probability_pct": 25
+    },
+    {
+      "condition": "Brent crude breaks above $125/bbl and sustains for 2+ consecutive weeks",
+      "new_stance": "Bullish USD/JPY — tactical stance flips; strategic remains cautiously bearish",
+      "mechanism": "Japan's terms-of-trade shock overwhelms all other factors; the trade deficit widens to crisis-level territory, JPY selling is mechanical through import payment flows, and the carry trade is supported by the risk-off USD safe-haven bid rather than compressed by BoJ normalisation.",
+      "monitor_indicator": "Brent crude spot price (ICE)",
+      "monitor_frequency": "Daily",
+      "probability_pct": 15
+    },
+    {
+      "condition": "USD/JPY breaks and sustains above 163.00 for 5+ trading days with no MoF direct market intervention response",
+      "new_stance": "Bullish USD/JPY — the intervention ceiling, a core thesis pillar, is invalidated",
+      "mechanism": "A sustained break above 163 with no MoF action signals that either the political calculus has shifted (Iran prevents USD selling) or the war chest is being preserved for a later, larger intervention — either way, the intervention ceiling's credibility as a trading barrier is broken and USD/JPY technicals point to 165-168.",
+      "monitor_indicator": "USD/JPY spot + MoF daily intervention statements + Japan FX reserves",
+      "monitor_frequency": "Daily",
+      "probability_pct": 10
+    },
+    {
+      "condition": "Fed hikes rates at the May or June 2026 FOMC meeting (any size)",
+      "new_stance": "Neutral — rate differential widens from the US side, overwhelming BoJ's incremental narrowing",
+      "mechanism": "A Fed hike reopens the rate divergence narrative that had been collapsing; UST yields reprice sharply higher, the 2Y UST-JGB spread widens beyond 220bp, carry-to-vol ratio improves above 0.35, and the structural bearish USD/JPY thesis is delayed by 6-12 months.",
+      "monitor_indicator": "FOMC statement and dot plot at May/June meetings",
+      "monitor_frequency": "Event-specific",
+      "probability_pct": 10
+    },
+    {
+      "condition": "CFTC JPY net speculative shorts exceed -120,000 contracts for 2+ consecutive weeks",
+      "new_stance": "Neutral — short-covering catalyst is consumed before the BoJ meeting",
+      "mechanism": "At -120K contracts, the market has re-absorbed the bearish energy narrative more fully, and the residual short base available for covering is reduced. The squeeze catalyst diminishes proportionally, and the carry trade re-accumulation at elevated shorts would signal renewed conviction in the status quo differential.",
+      "monitor_indicator": "CFTC Commitments of Traders — JPY non-commercial net position",
+      "monitor_frequency": "Weekly (Friday release, data as of Tuesday)",
+      "probability_pct": 15
+    },
+    {
+      "condition": "Carry-to-vol ratio rises above 0.40 (requires 1M IV to fall below approximately 7.2% while rate differential holds at 288bp)",
+      "new_stance": "Neutral — low vol regime re-establishes carry accumulation dynamics",
+      "mechanism": "A sub-7.2% vol environment signals that markets have dismissed the binary event risks and are pricing a calm path toward the 160 barrier. In this regime, carry accumulation logic dominates and USD/JPY grinds higher as investors re-enter the trade with more attractive risk-adjusted returns.",
+      "monitor_indicator": "USD/JPY 1M implied volatility (Bloomberg/Reuters) and rate differential",
+      "monitor_frequency": "Daily",
+      "probability_pct": 20
+    }
+  ],
+  "signposts": [
+    {
+      "indicator": "Brent Crude Oil Spot Price",
+      "current_level": "~$110-118/bbl",
+      "confirms_if": "Falls below $90/bbl, signalling energy headwind fading and JPY ToT recovery; bearish USD/JPY thesis strengthens toward the downside scenario",
+      "invalidates_if": "Sustains above $125/bbl for 2+ weeks, signalling ToT crisis overwhelms rate compression thesis; tactical stance flips bullish",
+      "bilateral_importance": "The single most important variable for this pair because it creates asymmetric ToT impact — mildly positive for USD (energy self-sufficiency), devastatingly negative for JPY (90% energy import dependence). A $10/bbl oil move has an asymmetric bilateral effect that no other commodity or macro variable can replicate for USD/JPY.",
+      "source": "EIA / ICE / Trading Economics (https://tradingeconomics.com/commodity/crude-oil)",
+      "frequency": "Daily"
+    },
+    {
+      "indicator": "BoJ Policy Rate",
+      "current_level": "0.75%",
+      "confirms_if": "Hikes to 1.00% or above on April 27-28, confirming differential compression and validating bearish USD/JPY thesis; hike with hawkish forward guidance increases strategic conviction",
+      "invalidates_if": "Holds at 0.75% with dovish statement removing tightening bias; primary tactical catalyst evaporates and strategic timeline extends by 2-3 months minimum",
+      "bilateral_importance": "The primary catalyst for the rate differential channel that dominates this pair. Because the market is short JPY, each BoJ hike has amplified FX transmission versus a symmetrical move — a 25bp hike by the BoJ produces more USD/JPY downside than a 25bp cut by the Fed, given the directional positioning concentration.",
+      "source": "Bank of Japan (https://www.boj.or.jp/en/mopo/mpmdeci/index.htm)",
+      "frequency": "Per meeting (approximately 8 times per year)"
+    },
+    {
+      "indicator": "CFTC JPY Net Speculative Positioning",
+      "current_level": "-62,806 contracts (March 24)",
+      "confirms_if": "Covers to -40,000 contracts or less, signalling short squeeze is underway and bearish USD/JPY momentum is building; accelerated covering following BoJ hike would confirm reflexive dynamics",
+      "invalidates_if": "Exceeds -100,000 contracts, indicating shorts are being rebuilt and the market is more comfortable with the energy-shock-driven bearish JPY narrative",
+      "bilateral_importance": "The moderate short base at -62,806 contracts (32nd percentile vs 2007 extreme of -196K) represents meaningful covering potential without being extreme. Combined with the USD long build to +$6.3bn, this creates a double-leg unwind catalyst that amplifies pair volatility beyond what either leg alone would produce.",
+      "source": "CFTC Commitments of Traders (https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm)",
+      "frequency": "Weekly (Friday release)"
+    },
+    {
+      "indicator": "UST-JGB 10-Year Yield Spread",
+      "current_level": "~201bp (UST 10Y ~4.37% minus JGB 10Y ~2.36%)",
+      "confirms_if": "Compresses below 175bp, validating the rate differential narrowing narrative and supporting bearish USD/JPY; compression driven by JGB yield rise (BoJ hikes) is more JPY-positive than compression driven by UST yield fall",
+      "invalidates_if": "Widens above 225bp, signalling US yield outperformance reasserting rate differential support for USD; would require either UST yields spiking or JGB yields falling (BoJ dovish pivot)",
+      "bilateral_importance": "The primary real-time rate differential proxy for USD/JPY, updating continuously versus the twice-yearly BoJ meeting schedule. Monitoring the spread provides daily confirmation of whether the rate compression thesis is progressing between BoJ meetings.",
+      "source": "Trading Economics / Bloomberg (https://tradingeconomics.com/japan/government-bond-yield)",
+      "frequency": "Daily"
+    },
+    {
+      "indicator": "USD/JPY 160.00 Level",
+      "current_level": "Spot 158.71 (129 pips below 160.00)",
+      "confirms_if": "Pair fails at 160.00 and reverses below 157.22 (50d SMA), confirming the intervention ceiling holds as active resistance and technical structure supports bearish thesis",
+      "invalidates_if": "Breaks and sustains above 162.00 for 5+ days with no MoF direct intervention response, invalidating the intervention ceiling as a structural barrier and signalling USD/JPY targeting 165+",
+      "bilateral_importance": "The structurally enforced ceiling that creates the asymmetric barrier central to the thesis. Japan's $1.16T FX reserve war chest and MoF's 'decisive measures' rhetoric make 160-162 a unique resistance level that has no equivalent in other G10 pairs — it is both a technical and a politically enforced level with demonstrated precedent from 2024 intervention.",
+      "source": "Spot FX market (continuous); MoF statements via Reuters/Bloomberg",
+      "frequency": "Continuous"
+    },
+    {
+      "indicator": "VIX Index",
+      "current_level": "30.6",
+      "confirms_if": "Falls below 22, signalling risk normalisation; dollar smile transitions from left (crisis) to middle (goldilocks), directly bearish USD/JPY as USD safe-haven premium fades and JPY recovers traditional haven function",
+      "invalidates_if": "Spikes above 40 on energy escalation, signalling intensified crisis; USD safe-haven demand dominates and JPY's broken haven function becomes a structural rather than cyclical feature, delaying the bearish USD/JPY thesis",
+      "bilateral_importance": "Risk regime determines whether JPY's safe-haven function is active or suppressed by the energy channel. The current 30.6 level represents a broken correlation regime — a VIX decline to below 22 restores the traditional JPY-VIX inverse relationship and is the single most powerful signal that the risk factor is shifting from neutral to bearish USD/JPY.",
+      "source": "CBOE Volatility Index (https://www.cboe.com/tradable_products/vix/)",
+      "frequency": "Daily"
+    }
+  ],
+  "assumptions": [
+    "PPP estimates: OECD PPP of approximately 78.4 for USD/JPY is used as the long-run fair value anchor. This implies 103% overvaluation at current spot — the widest PPP deviation in G10 — but PPP is a multi-year gravitational pull, not a tactical signal. The 78-95 range reflects different model vintages.",
+    "Forward points: Estimated from the approximately 288bp policy rate differential. Exact OTC forward points are behind terminal paywalls. Estimated points may differ from tradeable levels by 5-15 pips. The 1M (-95), 3M (-280), and 6M (-560) estimates are approximations.",
+    "Implied volatility: The JPY dossier's estimate of approximately 9.76% for 1M IV is used as the primary reference. The assessment of mispricing (fair value 11-13%) is based on historical comparison to similar event densities, not a formal vol surface calculation.",
+    "Cross-currency basis: JPY/USD basis swap levels were unavailable from public sources. Factor 10 analysis relies on the BoJ swap line proxy ($30.3M = no stress) and broader liquidity indicators. This is a material data gap acknowledged in Factor 10.",
+    "Oil base case: Brent settles to $85-95/bbl over 3-6 months (partial Strait of Hormuz reopening). This assumption drives the strategic External Balance shift from bullish USD/JPY (tactical) to neutral (strategic). The actual oil trajectory is the single largest uncertainty in the analysis.",
+    "Weight adjustments: Risk Appetite increased +0.03 tactical and +0.03 strategic; External Balance increased +0.03 tactical only; USD Liquidity decreased -0.03 tactical and -0.03 strategic; Market Structure increased +0.01 tactical only. All adjustments sum to zero within each horizon.",
+    "Intervention assumption: MoF will intervene via verbal warnings through April but direct market intervention has approximately 35% probability if USD/JPY sustains above 160. Scotiabank assesses that verbal intervention is likely to remain the first line of defence while Gulf uncertainty persists, with a reluctance to intervene directly.",
+    "BoJ hike probability: The approximately 70% probability for a 25bp April hike and near-zero probability for 50bp are derived from OIS pricing as referenced in the dossiers. These probabilities are used consistently throughout the analysis without adjustment.",
+    "Carry trade outstanding: The approximately $500 billion JPY carry trade estimate is from Morgan Stanley and represents an approximation of the global stock of JPY-funded positions. The actual figure is unobservable; the estimate drives the assessment of unwind risk in Factors 4 and 10.",
+    "52-week range percentile: Calculated as (158.71 - 139.88) / (160.56 - 139.88) = 18.83 / 20.68 = 91%, rounded to 89th percentile in the report. The intraday 160.56 high on March 30 is included in the range; the closing-price range would yield a slightly different percentile."
+  ],
+  "complete_citations": [
+    {
+      "id": 1,
+      "title": "USD/JPY in 2026: Can the Yen Finally Start to Shine?",
+      "publisher": "Forex.com",
+      "url": "https://www.forex.com/en-us/news-and-analysis/usdjpy-in-2026-can-the-yen-finally-start-to-shine/",
+      "date_accessed": "2026-04-01"
+    },
+    {
+      "id": 2,
+      "title": "USDJPY Price Forecast & Predictions for 2026",
+      "publisher": "LiteFinance",
+      "url": "https://www.litefinance.org/blog/analysts-opinions/usd-jpy-price-prediction/",
+      "date_accessed": "2026-04-01"
+    },
+    {
+      "id": 3,
+      "title": "USDJPY Forecast 2026: Policy Divergence Keeps Dollar Supported",
+      "publisher": "FXEmpire",
+      "url": "https://www.fxempire.com/forecasts/article/usdjpy-forecast-2026-policy-divergence-keeps-dollar-supported-1568591",
+      "date_accessed": "2026-04-01"
+    },
+    {
+      "id": 4,
+      "title": "Bank of America forecasts USD/JPY to stay above 150",
+      "publisher": "Investing.com",
+      "url": "https://www.investing.com/news/forex-news/bank-of-america-forecasts-usdjpy-to-stay-above-150-93CH-4436537",
+      "date_accessed": "2026-04-01"
+    },
+    {
+      "id": 5,
+      "title": "US Dollar-Yen Forecast: USD/JPY Price Outlook",
+      "publisher": "Capital.com",
+      "url": "https://capital.com/en-int/analysis/usd-to-jpy-forecast",
+      "date_accessed": "2026-04-01"
+    },
+    {
+      "id": 6,
+      "title": "DXY, USDCAD, USDJPY: Key Resistance Levels in Sight",
+      "publisher": "Forex.com",
+      "url": "https://www.forex.com/en-us/news-and-analysis/dxy-usdcad-usdjpy-key-resistance-levels-in-sight/",
+      "date_accessed": "2026-04-01"
+    },
+    {
+      "id": 7,
+      "title": "Japan's Policy Normalisation, Sentiment and the Yen Carry Trade",
+      "publisher": "Permutable.ai",
+      "url": "https://permutable.ai/japans-policy-normalisation-sentiment-and-the-yen-carry-trade/",
+      "date_accessed": "2026-04-01"
+    },
+    {
+      "id": 8,
+      "title": "USD/JPY Carry Trade Reshapes Dollar Cycles",
+      "publisher": "StoneX",
+      "url": "https://www.stonex.com/en/market-intelligence/usd-jpy-carry-trade-reshapes-dollar-cycles/",
+      "date_accessed": "2026-04-01"
+    },
+    {
+      "id": 9,
+      "title": "Carry Trade Unwind Risk Builds in USD/JPY Market",
+      "publisher": "StoneX",
+      "url": "https://www.stonex.com/en/insights/carry-trade-unwind-risk-builds-in-usd-jpy-market/",
+      "date_accessed": "2026-04-01"
+    },
+    {
+      "id": 10,
+      "title": "USD/JPY Forecast for the Week of 30th March 2026",
+      "publisher": "TIOmarkets",
+      "url": "https://tiomarkets.com/article/usdjpy-forecast-30th-march-2026",
+      "date_accessed": "2026-04-01"
+    },
+    {
+      "id": 11,
+      "title": "USD/JPY Yen Intervention Risk 2026",
+      "publisher": "EBC Financial Group",
+      "url": "https://www.ebc.com/forex/usd-jpy-yen-intervention-risk-2026-why-the-yen-is-in-danger",
+      "date_accessed": "2026-04-01"
+    },
+    {
+      "id": 12,
+      "title": "USD/JPY Stays Below 160 as Intervention Risks Loom",
+      "publisher": "Tradingpedia",
+      "url": "https://www.tradingpedia.com/2026/03/31/usd-jpy-stays-below-160-as-intervention-risks-loom/",
+      "date_accessed": "2026-04-01"
+    },
+    {
+      "id": 13,
+      "title": "Tokyo Intervention Looms Large as USD/JPY Nears 160 Mark",
+      "publisher": "InvestingLive",
+      "url": "https://investinglive.com/forex/tokyo-intervention-looms-large-as-usdjpy-nears-160-mark-20260316/",
+      "date_accessed": "2026-04-01"
+    },
+    {
+      "id": 14,
+      "title": "The Yen's Line in the Sand: Why USD/JPY at 160 Has Tokyo on Edge",
+      "publisher": "Babypips",
+      "url": "https://www.babypips.com/news/headline-yen-line-in-the-sand-why-usdjpy-at-160-has-tokyo-on-edge-2026-03-27",
+      "date_accessed": "2026-04-01"
+    },
+    {
+      "id": 15,
+      "title": "USD/JPY Surge Exposes Japan's Policy Paradox on BOJ Intervention",
+      "publisher": "Forex.com",
+      "url": "https://www.forex.com/en-us/news-and-analysis/usd-jpy-surge-exposes-japan-s-policy-paradox-on-boj-intervention/",
+      "date_accessed": "2026-04-01"
+    },
+    {
+      "id": 16,
+      "title": "USDJPY FX Rate Regime-Change Prediction Markets",
+      "publisher": "SparkCo",
+      "url": "https://sparkco.ai/blog/usdjpy-fx-rate-regime-change-prediction-markets",
+      "date_accessed": "2026-04-01"
+    },
+    {
+      "id": 17,
+      "title": "USD/JPY: Verbal Intervention Slows Slide in Japanese Yen – Scotiabank",
+      "publisher": "FXStreet",
+      "url": "https://www.fxstreet.com/news/usd-jpy-verbal-intervention-slows-slide-in-japanese-yen-scotiabank-202603301449",
+      "date_accessed": "2026-04-01"
+    },
+    {
+      "id": 18,
+      "title": "USD/JPY Outlook: The Rules of Intervention Just Changed",
+      "publisher": "Forex.com",
+      "url": "https://www.forex.com/en-us/news-and-analysis/usd-jpy-outlook-the-rules-of-intervention-just-changed/",
+      "date_accessed": "2026-04-01"
+    },
+    {
+      "id": 19,
+      "title": "TraderKnows USD/JPY 2026 Outlook: When Carry Works and When It Breaks",
+      "publisher": "Wall Street Oasis",
+      "url": "https://www.wallstreetoasis.com/forum/investing/traderknows-usdjpy-2026-outlook-when-carry-works-and-when-it-breaks",
+      "date_accessed": "2026-04-01"
+    },
+    {
+      "id": 20,
+      "title": "USD/JPY Outlook: Why the Carry Trade Is Breaking Down",
+      "publisher": "Deriv",
+      "url": "https://deriv.com/blog/posts/usdjpy-carry-trade-breaking-down",
+      "date_accessed": "2026-04-01"
+    }
+  ]
+}

@@ -1,0 +1,901 @@
+{
+  "base": "SGD",
+  "valuation_date": "2026-03-11",
+  "framework_version": "2.0",
+  "freshness_days_tactical": 30,
+  "freshness_days_strategic": 60,
+
+  "executive_summary": "The Singapore Dollar trades at USD/SGD 1.2710, its strongest level against the greenback since October 2014, representing approximately 5.2% appreciation over the past twelve months. The SGD is underpinned by an exceptional macro constellation: 5.0% full-year 2025 GDP growth (the best since 2010), electronics NODX surging +56.1% YoY on the AI semiconductor supercycle, MAS Core Inflation at a benign 1.0%, and a current account surplus of ~18% of GDP — the largest in the G10+SGD benchmarking set. The dominant risk is the Iran-US war (launched February 28), which spiked Brent crude to $119/bbl before a retreat to ~$88 on ceasefire signals, creating a direct adverse terms-of-trade shock for Singapore as a net oil importer but partially offset by surging refining margins. MAS held all S$NEER band parameters at its January 29, 2026 review with a hawkish tilt, and the April review is now a live event with 47% of economists expecting a tightening (slope increase). Our stance is Bullish SGD at both tactical and strategic horizons, with higher conviction strategically (3/5 tactical, 4/5 strategic), reflecting the structural dominance of Singapore's external surplus, semiconductor-driven growth, and the ongoing broad USD depreciation cycle.",
+
+  "market_context": {
+    "spot": {
+      "rate": "USD/SGD 1.2710",
+      "convention": "Rising USD/SGD = SGD weakening; falling USD/SGD = SGD strengthening. Bullish SGD = USD/SGD moving lower.",
+      "primary_index": "S$NEER (Singapore Dollar Nominal Effective Exchange Rate) — MAS policy instrument, trading in upper half of appreciating band",
+      "date": "2026-03-11"
+    },
+    "key_crosses": [
+      {"pair": "EUR/SGD", "rate": "1.495", "convention": "Rising = SGD weakening vs EUR"},
+      {"pair": "GBP/SGD", "rate": "1.72", "convention": "Rising = SGD weakening vs GBP"},
+      {"pair": "AUD/SGD", "rate": "0.88", "convention": "Rising = SGD weakening vs AUD"},
+      {"pair": "SGD/JPY", "rate": "122", "convention": "Rising = SGD strengthening vs JPY"},
+      {"pair": "SGD/MYR", "rate": "3.09", "convention": "Rising = SGD strengthening vs MYR"},
+      {"pair": "SGD/CNH", "rate": "5.49", "convention": "Rising = SGD strengthening vs CNH"}
+    ],
+    "performance": {
+      "1m": {"pct_change": "-0.8%", "direction": "SGD strengthening"},
+      "3m": {"pct_change": "-1.2%", "direction": "SGD strengthening"},
+      "6m": {"pct_change": "-3.5%", "direction": "SGD strengthening"},
+      "1y": {"pct_change": "-5.2%", "direction": "SGD strengthening"}
+    },
+    "valuation": {
+      "overall_assessment": "Modestly expensive",
+      "bis_reer": {
+        "level": 115.66,
+        "historical_percentile": 92,
+        "interpretation": "The BIS broad REER at 115.66 (2020=100) places the SGD near the 92nd percentile of its 20-year range, indicating the currency is richly valued in real effective terms relative to history. The managed float regime means the REER tends to trend upward structurally, but the current level leaves limited room for further real appreciation."
+      },
+      "ppp_table": [
+        {"vs_currency": "USD", "deviation_pct": 0.0, "implied_fair_value": "~1.27"},
+        {"vs_currency": "EUR", "deviation_pct": -5.0, "implied_fair_value": "~1.57"},
+        {"vs_currency": "JPY", "deviation_pct": 10.0, "implied_fair_value": "~111"},
+        {"vs_currency": "GBP", "deviation_pct": -8.0, "implied_fair_value": "~1.86"},
+        {"vs_currency": "AUD", "deviation_pct": 5.0, "implied_fair_value": "~0.91"},
+        {"vs_currency": "NZD", "deviation_pct": 8.0, "implied_fair_value": "~0.77"},
+        {"vs_currency": "CAD", "deviation_pct": -3.0, "implied_fair_value": "~0.95"},
+        {"vs_currency": "CHF", "deviation_pct": -12.0, "implied_fair_value": "~1.58"},
+        {"vs_currency": "NOK", "deviation_pct": 15.0, "implied_fair_value": "~7.2"},
+        {"vs_currency": "SEK", "deviation_pct": 10.0, "implied_fair_value": "~7.0"}
+      ],
+      "trade_weighted_assessment": "The S$NEER is trading in the upper half of MAS's appreciating policy band per the January 2026 Macroeconomic Review, confirmed by the US$18 billion reserve build from August to December 2025 as MAS absorbs persistent SGD buying pressure.",
+      "what_is_priced_in": "Current valuation prices in sustained SGD appreciation driven by structural capital inflows, electronics export strength, and broad USD weakness. The BIS REER at the 92nd percentile suggests limited room for further real appreciation unless productivity growth sustains current levels. However, the managed float means MAS actively determines the pace of nominal appreciation, and the current band parameters still accommodate further SGD strength.",
+      "actionability": "The valuation signal is modestly cautionary for new tactical SGD longs at these levels but not a binding constraint for strategic positions. SGD tends to trend rather than mean-revert because MAS manages the appreciation path, making overvaluation a less reliable reversal signal than for free-floating currencies."
+    },
+    "positioning_summary": {
+      "cftc": {
+        "leveraged_funds": {
+          "net_contracts": 0,
+          "direction": "flat",
+          "notional_usd": "N/A — SGD not reportable in CFTC COT",
+          "weekly_change_contracts": 0,
+          "weekly_change_direction": "N/A"
+        },
+        "asset_managers": {
+          "net_contracts": 0,
+          "direction": "flat",
+          "notional_usd": "N/A — SGD not reportable in CFTC COT"
+        },
+        "total_open_interest": 0,
+        "net_all_specs_percentile": 0,
+        "percentile_context": "SGD does not appear in the CFTC Commitments of Traders report as it fails to meet the 20-trader minimum threshold despite CME listing SGD/USD futures on June 30, 2025."
+      },
+      "other_positioning_signals": "MAS reserves surged US$18 billion from August to December 2025 (US$391bn to US$409bn), strongly indicating persistent net SGD buying that MAS is absorbing. The S$NEER trades in the upper half of the appreciating band. Over 2,000 family offices established in Singapore manage S$90+ billion collectively. DBS, OCBC, and UOB wealth AUM grew +18%, +18%, and +8% YoY respectively through Q4 2025.",
+      "interpretation": "Despite the absence of CFTC futures data, the flow picture for SGD is unambiguously bullish. The reserve accumulation pattern is the single most reliable positioning proxy — when MAS accumulates reserves at this pace, it signals that the underlying flow is SGD-positive and MAS is leaning against it. The wealth management channel continues to accelerate with structural capital inflows from family offices and regional wealth management.",
+      "contrarian_assessment": "The long-SGD trade is crowded but the crowding is in sticky, structural flows (real-money wealth management, trade surplus recycling) rather than leveraged speculative positioning. This makes a sharp reversal less likely than for currencies with large speculative futures positions. The managed float also constrains downside via MAS band defence. The contrarian signal is mildly cautionary but not actionable."
+    },
+    "market_structure_vol_summary": {
+      "trend_regime": "Established downtrend in USD/SGD since October 2025 (~1.36), with spot trading ~180 pips below the 200-DMA. MAS-managed appreciation creates a structural directional bias.",
+      "key_levels": {
+        "support": [
+          {"level": "1.2608", "significance": "January 27, 2026 low — key near-term support, held during Iran crisis"},
+          {"level": "1.2584", "significance": "52-week low — major support level"},
+          {"level": "1.2500", "significance": "Psychological round number — last traded below here in September 2014"}
+        ],
+        "resistance": [
+          {"level": "1.2888", "significance": "2026 YTD high — near-term resistance"},
+          {"level": "1.2900", "significance": "200-day moving average — key trend-defining level"},
+          {"level": "1.3000", "significance": "Psychological round number and former support-turned-resistance"}
+        ]
+      },
+      "moving_averages": {
+        "50d": {"level": "~1.2740", "spot_vs": "Spot ~30 pips below — bearish for USD/SGD"},
+        "100d": {"level": "~1.2820", "spot_vs": "Spot ~110 pips below — bearish for USD/SGD"},
+        "200d": {"level": "~1.2900", "spot_vs": "Spot ~190 pips below — bearish for USD/SGD"},
+        "alignment": "Stacked bearishly for USD/SGD (bullishly for SGD): 50d < 100d < 200d, all above spot. Classic trend-following configuration."
+      },
+      "volatility": {
+        "iv_1m": 5.5,
+        "iv_3m": 5.8,
+        "iv_percentile_1y": 35,
+        "rv_20d": 5.0,
+        "rv_vs_iv": "RV 5.0% vs IV 5.5% — market slightly overpricing realised moves by 0.5 pts, consistent with post-Iran crisis premium. Normal for managed float.",
+        "risk_reversal_25d_1m": "Estimated near-flat to slight USD-puts bid (SGD-calls), consistent with the structural SGD appreciation trend. Exact levels require Bloomberg terminal data.",
+        "vol_term_structure": "Contango",
+        "vol_regime": "Low volatility regime — structurally compressed by MAS's managed float. Iran crisis produced only temporary widening (~50-60 pip daily ranges vs normal ~20-30 pips) before MAS smoothing restored compressed vol."
+      },
+      "key_observation": "The managed float regime creates an asymmetric risk profile — downside in USD/SGD (SGD strengthening) is supported by the appreciation slope, while upside (SGD weakening) is constrained by MAS's willingness to defend the band floor using US$409 billion in reserves. This makes short USD/SGD a structurally favourable expression."
+    },
+    "recent_regime": "The past three months have been dominated by three forces: the semiconductor supercycle driving export outperformance and GDP upgrades, the Iran-US war shock spiking oil prices and global risk aversion, and broad USD depreciation as the DXY broke below 100 for the first time since 2022. The SGD has navigated the oil shock remarkably well — USD/SGD barely moved during the worst of the crisis week (March 5-9), suggesting MAS smoothing and strong safe-haven capital inflows into Singapore offsetting the terms-of-trade deterioration. The current regime is best characterised as managed strength with geopolitical overlay — the structural SGD appreciation trend remains intact but is now subject to episodic volatility from the evolving Middle East situation.",
+    "citations": [1, 2, 3, 4, 5, 6, 7, 8]
+  },
+
+  "rate_differentials_table": {
+    "base_currency": {
+      "central_bank": "Monetary Authority of Singapore (MAS)",
+      "policy_rate_name": "S$NEER band slope (SORA as market rate)",
+      "rate_pct": 0.82,
+      "next_meeting": "2026-04-14",
+      "expected_action": "Hold 53% / Tighten (increase slope) 47%"
+    },
+    "peers": [
+      {"currency": "USD", "central_bank": "Federal Reserve", "policy_rate_pct": 3.625, "spread_to_base_bps": 280, "direction_vs_base": "Above", "next_meeting": "2026-03-18", "expected_action": "Hold", "rate_path_next_6m": "-25bp by Sep (one cut)"},
+      {"currency": "EUR", "central_bank": "ECB", "policy_rate_pct": 2.00, "spread_to_base_bps": 118, "direction_vs_base": "Above", "next_meeting": "2026-03-19", "expected_action": "Hold", "rate_path_next_6m": "-25bp by Jun"},
+      {"currency": "JPY", "central_bank": "Bank of Japan", "policy_rate_pct": 0.75, "spread_to_base_bps": -7, "direction_vs_base": "Below", "next_meeting": "2026-03-19", "expected_action": "Hold", "rate_path_next_6m": "+25bp by Jun to 1.00%"},
+      {"currency": "GBP", "central_bank": "Bank of England", "policy_rate_pct": 3.75, "spread_to_base_bps": 293, "direction_vs_base": "Above", "next_meeting": "2026-03-19", "expected_action": "Hold", "rate_path_next_6m": "-25bp by Jun"},
+      {"currency": "AUD", "central_bank": "Reserve Bank of Australia", "policy_rate_pct": 3.85, "spread_to_base_bps": 303, "direction_vs_base": "Above", "next_meeting": "2026-03-17", "expected_action": "Hold", "rate_path_next_6m": "Hold through Sep"},
+      {"currency": "NZD", "central_bank": "RBNZ", "policy_rate_pct": 2.25, "spread_to_base_bps": 143, "direction_vs_base": "Above", "next_meeting": "2026-04-08", "expected_action": "-25bp", "rate_path_next_6m": "-75bp by Sep to 1.50%"},
+      {"currency": "CAD", "central_bank": "Bank of Canada", "policy_rate_pct": 2.25, "spread_to_base_bps": 143, "direction_vs_base": "Above", "next_meeting": "2026-03-18", "expected_action": "Hold", "rate_path_next_6m": "Hold/-25bp"},
+      {"currency": "CHF", "central_bank": "Swiss National Bank", "policy_rate_pct": 0.00, "spread_to_base_bps": -82, "direction_vs_base": "Below", "next_meeting": "2026-03-19", "expected_action": "Hold", "rate_path_next_6m": "Hold at 0%"},
+      {"currency": "NOK", "central_bank": "Norges Bank", "policy_rate_pct": 4.00, "spread_to_base_bps": 318, "direction_vs_base": "Above", "next_meeting": "2026-03-26", "expected_action": "Hold", "rate_path_next_6m": "-25bp by Sep"},
+      {"currency": "SEK", "central_bank": "Riksbank", "policy_rate_pct": 1.75, "spread_to_base_bps": 93, "direction_vs_base": "Above", "next_meeting": "2026-03-19", "expected_action": "Hold", "rate_path_next_6m": "Hold"}
+    ],
+    "sovereign_yields": {
+      "base_2y": 1.38,
+      "base_10y": 2.00,
+      "key_spreads": [
+        {"vs": "UST 10Y", "yield_pct": 4.13, "spread_bps": -213, "interpretation": "Deep discount reflects S$NEER regime; SGD carries negative vs USD"},
+        {"vs": "Bund 10Y", "yield_pct": 2.84, "spread_bps": -84, "interpretation": "Modest discount; SGD carry negative vs EUR"},
+        {"vs": "JGB 10Y", "yield_pct": 2.11, "spread_bps": -11, "interpretation": "Near parity; both low-yield currencies in Asia"},
+        {"vs": "ACGB 10Y", "yield_pct": 4.77, "spread_bps": -277, "interpretation": "Widest discount in G10+SGD; reflects Australia's inflation premium"},
+        {"vs": "Gilt 10Y", "yield_pct": 4.49, "spread_bps": -249, "interpretation": "Large discount reflecting UK sticky inflation premium"},
+        {"vs": "Swiss 10Y", "yield_pct": 0.28, "spread_bps": 172, "interpretation": "Only peer where SGD earns positive term premium"}
+      ],
+      "curve_shape": "SGS 2s10s slope: +62bp (positively sloped). Normal shape consistent with moderate growth expectations and no inversion stress."
+    }
+  },
+
+  "macro_comparison_table": [
+    {"currency": "SGD", "gdp_yoy_pct": 6.9, "gdp_qoq_latest_pct": 2.1, "headline_cpi_yoy_pct": 1.4, "core_cpi_yoy_pct": 1.0, "core_cpi_measure": "MAS Core Inflation", "unemployment_pct": 2.0, "current_account_gdp_pct": 18.0, "policy_rate_pct": 0.82},
+    {"currency": "USD", "gdp_yoy_pct": 2.5, "gdp_qoq_latest_pct": 3.0, "headline_cpi_yoy_pct": 2.4, "core_cpi_yoy_pct": 2.5, "core_cpi_measure": "Core PCE", "unemployment_pct": 4.4, "current_account_gdp_pct": -3.1, "policy_rate_pct": 3.625},
+    {"currency": "EUR", "gdp_yoy_pct": 1.0, "gdp_qoq_latest_pct": 0.2, "headline_cpi_yoy_pct": 1.9, "core_cpi_yoy_pct": 2.4, "core_cpi_measure": "HICP ex-energy & food", "unemployment_pct": 6.1, "current_account_gdp_pct": 1.6, "policy_rate_pct": 2.00},
+    {"currency": "JPY", "gdp_yoy_pct": 1.2, "gdp_qoq_latest_pct": 0.3, "headline_cpi_yoy_pct": 2.1, "core_cpi_yoy_pct": 2.0, "core_cpi_measure": "CPI ex-fresh food", "unemployment_pct": 2.6, "current_account_gdp_pct": 4.4, "policy_rate_pct": 0.75},
+    {"currency": "GBP", "gdp_yoy_pct": 1.4, "gdp_qoq_latest_pct": 0.1, "headline_cpi_yoy_pct": 3.0, "core_cpi_yoy_pct": 3.1, "core_cpi_measure": "CPIH core", "unemployment_pct": 5.2, "current_account_gdp_pct": -1.6, "policy_rate_pct": 3.75},
+    {"currency": "AUD", "gdp_yoy_pct": 1.3, "gdp_qoq_latest_pct": 0.8, "headline_cpi_yoy_pct": 3.8, "core_cpi_yoy_pct": 3.4, "core_cpi_measure": "Trimmed Mean", "unemployment_pct": 4.1, "current_account_gdp_pct": 1.0, "policy_rate_pct": 3.85},
+    {"currency": "NZD", "gdp_yoy_pct": 0.7, "gdp_qoq_latest_pct": 0.4, "headline_cpi_yoy_pct": 3.1, "core_cpi_yoy_pct": 2.7, "core_cpi_measure": "Trimmed Mean", "unemployment_pct": 5.3, "current_account_gdp_pct": -5.0, "policy_rate_pct": 2.25},
+    {"currency": "CAD", "gdp_yoy_pct": -0.2, "gdp_qoq_latest_pct": -0.6, "headline_cpi_yoy_pct": 2.3, "core_cpi_yoy_pct": 2.4, "core_cpi_measure": "Trimmed Mean", "unemployment_pct": 6.5, "current_account_gdp_pct": -0.3, "policy_rate_pct": 2.25},
+    {"currency": "CHF", "gdp_yoy_pct": 1.6, "gdp_qoq_latest_pct": 0.1, "headline_cpi_yoy_pct": 0.2, "core_cpi_yoy_pct": 0.5, "core_cpi_measure": "CPI core", "unemployment_pct": 2.7, "current_account_gdp_pct": 7.5, "policy_rate_pct": 0.00},
+    {"currency": "NOK", "gdp_yoy_pct": 1.5, "gdp_qoq_latest_pct": 1.1, "headline_cpi_yoy_pct": 3.6, "core_cpi_yoy_pct": 3.4, "core_cpi_measure": "CPI-ATE", "unemployment_pct": 4.6, "current_account_gdp_pct": 12.0, "policy_rate_pct": 4.00},
+    {"currency": "SEK", "gdp_yoy_pct": 1.6, "gdp_qoq_latest_pct": 0.4, "headline_cpi_yoy_pct": 0.5, "core_cpi_yoy_pct": 2.0, "core_cpi_measure": "CPIF", "unemployment_pct": 8.7, "current_account_gdp_pct": 5.5, "policy_rate_pct": 1.75}
+  ],
+
+  "factors": [
+    {
+      "block": "Policy & Rates (Relative)",
+      "factor_number": 1,
+      "tactical_weight": 0.24,
+      "strategic_weight": 0.24,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 60,
+        "analysis": "The MAS operates through the S$NEER managed float rather than an interest rate, making direct rate differential analysis less applicable than for free-floating peers. However, the rate environment is unambiguously SGD-supportive through the expectations channel. MAS held all S$NEER parameters unchanged at its January 29, 2026 review but struck a hawkish tone, upgrading the 2026 MAS Core Inflation forecast to 1.0-2.0% and flagging upside risks. The market probability of an April slope increase has surged to 47.4% from 5.6% previously, driven by the oil price shock and resilient growth. SORA at 0.82% is the second-lowest overnight rate in G10+SGD (only CHF at ~0% is lower), meaning SGD longs carry a significant negative carry cost of approximately -260bp annualised vs USD. However, MAS's managed appreciation slope effectively provides a policy carry that offsets negative interest rate carry: the ~2% per annum appreciation trend embedded in the band more than compensates for the rate differential over strategic horizons. The SGS-UST 2Y spread at -222bp and SGS-UST 10Y at -213bp are deeply negative but stable, suggesting the rate differential is fully priced. The critical tactical driver is the March 17-19 Super Week of central bank decisions, where the FOMC is expected to hold but the February NFP shock (-92,000) has increased the probability of dovish forward guidance.",
+        "key_data_points": [
+          "SORA: 0.82% (March 5, 2026) — 2nd lowest in G10+SGD",
+          "SGS 2Y yield: 1.38%; SGS 10Y yield: 2.00%",
+          "SGS-UST 2Y spread: -222bp; SGS-UST 10Y spread: -213bp",
+          "MAS reserves: SGD 529.11bn (~US$409bn), up US$18bn in 5 months",
+          "Fed Funds Rate: 3.50-3.75%; SOFR: 3.65%",
+          "April MAS tightening probability: 47.4% (MAS survey)",
+          "S$NEER: upper half of appreciating band"
+        ],
+        "what_is_priced": "The market is pricing a 53/47 hold/tighten split for April, which seems approximately correct given the data. The edge lies in the FOMC direction — if the Fed signals accelerated easing due to the labour market deterioration (February NFP -92K), the USD leg of the rate differential will compress further, amplifying SGD strength beyond what is currently priced. The market has not fully priced the scenario where MAS tightens AND the Fed cuts within the same quarter.",
+        "citations": [4, 9, 10, 11, 12, 13]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 70,
+        "analysis": "Over the strategic horizon, the rate trajectory is decisively SGD-favourable. The Fed is on an easing path (market prices one more 25bp cut by September 2026, with growing expectations of more), while MAS is either on hold or tightening. This means the UST-SGS spread will narrow from both sides — lower US rates and stable/higher effective SGD yields through the appreciation slope. The BOJ's hiking cycle (currently 0.75%, expected +25bp by June) will narrow the SGS-JGB spread and could create portfolio rebalancing flows from Japan into Singapore. The ECB and BOE are both expected to deliver further cuts, widening the SGD yield advantage vs EUR and GBP on a real-rate-adjusted basis. Singapore's 1.0% core inflation vs 2.4% eurozone core and 3.1% UK core means SGD's real yield is competitive despite lower nominal rates. The RBA's surprise hike to 3.85% is the one counterpoint — it has widened the AUD-SGD carry in AUD's favour. However, Australia's inflation problem (3.8% headline) suggests the RBA may be forced to hike further, creating growth risks that ultimately weaken AUD. Over 6 months, the path of G10 rate convergence (high-rate countries cutting, low-rate countries holding/hiking) favours SGD as it sits near the pivot point with a structural appreciation mechanism.",
+        "key_data_points": [
+          "Fed dot plot (Dec 2025): median projects 3.25% by end-2026 (-50bp from current)",
+          "Market-implied Fed Funds by September 2026: 3.25-3.50%",
+          "BOJ expected path: +25bp to 1.00% by June, +50bp to 1.25% by December 2026",
+          "ECB expected path: -25bp to 1.75% by June 2026",
+          "MAS April: 47% probability of tightening",
+          "SGD/USD forward points (6M): approximately -120 to -150 pips",
+          "SORA vs SOFR spread: -283bp (narrowing trend)"
+        ],
+        "what_is_priced": "The forward curve prices approximately 250bp of negative carry for 6-month short USD/SGD positions, equating to roughly -320 pips in forward points. If MAS tightens and the Fed cuts, the realised carry cost will be significantly less — perhaps -200bp. The market is also underpricing the probability of an inter-meeting or off-cycle MAS tightening if Brent sustains above $100 and core inflation accelerates above 2%.",
+        "citations": [12, 13, 14, 15]
+      },
+      "horizon_split_explanation": "Tactical confidence (60) is lower than strategic (70) because the March 17-19 central bank cluster creates binary event risk that could temporarily strengthen USD (hawkish Fed surprise) or compress SGD crosses. Strategically, the rate convergence trend is more reliable, and the carry headwind diminishes as the Fed eases further.",
+      "carry_analysis": {
+        "carry_vs_peers": [
+          {"vs_currency": "USD", "annualised_carry_bps": -283, "carry_to_vol_ratio": -0.51, "interpretation": "Deeply negative carry; offset by ~2% pa managed appreciation slope"},
+          {"vs_currency": "EUR", "annualised_carry_bps": -118, "carry_to_vol_ratio": -0.20, "interpretation": "Moderate negative carry; partially offset by EUR easing trajectory"},
+          {"vs_currency": "JPY", "annualised_carry_bps": 7, "carry_to_vol_ratio": 0.01, "interpretation": "Near-zero carry; trade driven by directional view not carry"},
+          {"vs_currency": "AUD", "annualised_carry_bps": -303, "carry_to_vol_ratio": -0.40, "interpretation": "Most negative carry in G10+SGD; only viable if AUD/SGD moves significantly"},
+          {"vs_currency": "CHF", "annualised_carry_bps": 82, "carry_to_vol_ratio": 0.16, "interpretation": "Only meaningful positive carry for SGD; modest but structural"},
+          {"vs_currency": "GBP", "annualised_carry_bps": -293, "carry_to_vol_ratio": -0.42, "interpretation": "Deep negative carry reflecting BOE's elevated rate"}
+        ],
+        "carry_regime": "Carry is NOT the driver for SGD trades. The carry-to-vol ratios are deeply negative for most SGD long expressions. However, in the current regime of managed SGD appreciation, the exchange rate trend more than offsets the negative carry — USD/SGD has declined ~300 pips over 3 months, far exceeding the ~75-pip carry cost.",
+        "breakeven_move": "~30 pips per month for short USD/SGD. Spot needs to decline from 1.2710 to 1.2680 to break even on a 1-month holding period. MAS's appreciation slope implies ~20-25 pips per month of structural decline, making carry roughly neutral on an adjusted basis."
+      },
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Inflation & Growth Dynamics",
+      "factor_number": 2,
+      "tactical_weight": 0.18,
+      "strategic_weight": 0.10,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 75,
+        "analysis": "Singapore's growth-inflation mix is the most favourable in the G10+SGD benchmarking set. Q4 2025 GDP printed +6.9% YoY (+2.1% QoQ SAAR), the strongest quarterly expansion in nearly four years, driven by a 15.0% manufacturing surge centred on AI-related electronics and biomedical production. Full-year 2025 GDP growth was 5.0%, comprehensively beating the initial 0-2% forecast range and prompting MTI to upgrade the 2026 outlook to 2.0-4.0%. The MAS Survey of Professional Forecasters projects 3.6% GDP growth for 2026. Meanwhile, inflation remains remarkably subdued — MAS Core Inflation printed just 1.0% YoY in January 2026, well below the 2% threshold that would trigger policy concern, while headline CPI was a modest 1.4%. The SIPMM Manufacturing PMI has expanded for seven consecutive months at 50.6, with the Electronics PMI at 51.1, confirming the manufacturing cycle remains in expansion. January NODX surged 9.3% YoY with electronics NODX up an extraordinary 56.1% YoY. The labour market is tight at 2.0% unemployment, the lowest in G10+SGD alongside Japan. The growth-inflation combination supports SGD through two channels: it validates MAS's existing appreciation slope and raises the probability of April tightening, and it attracts capital inflows as Singapore outperforms on a risk-adjusted basis.",
+        "key_data_points": [
+          "Q4 2025 GDP: +6.9% YoY, +2.1% QoQ SAAR",
+          "Full-year 2025 GDP: +5.0% (best since 2010)",
+          "MAS Core Inflation: 1.0% YoY (January 2026)",
+          "Headline CPI: 1.4% YoY (January 2026)",
+          "SIPMM Manufacturing PMI: 50.6 (February 2026, 7th consecutive expansion)",
+          "January 2026 NODX: +9.3% YoY; electronics NODX: +56.1% YoY",
+          "Unemployment: 2.0% (Q4 2025, SA)",
+          "MTI 2026 GDP forecast range: 2.0-4.0%"
+        ],
+        "what_is_priced": "Consensus GDP for 2026 of 3.6% appears conservative given the semiconductor cycle strength and AI capex boom. If Q1 2026 GDP exceeds 4% YoY, the market will need to upgrade 2026 forecasts further, potentially pushing MAS toward tightening. The oil price shock introduces a downside risk to growth that the market is appropriately weighing, but Singapore's GDP composition (60%+ services, low direct oil intensity) means the growth impact is secondary to the inflation impact.",
+        "citations": [16, 17, 18, 19, 20, 21]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 70,
+        "analysis": "The strategic growth outlook is anchored by the global semiconductor supercycle. WSTS forecasts 2026 global semiconductor revenue of USD 975.5 billion (+26.3% YoY), approaching the $1 trillion milestone. Singapore is home to GlobalFoundries, UMC, Micron, and STMicroelectronics fabs and is a direct beneficiary. Electronics NODX growth of 56% is exceptional even by Singapore standards and reflects AI-driven demand for advanced packaging, NAND, and specialty chips. The risk is a cyclical peak — semiconductor cycles typically last 18-24 months from trough, and the current expansion began in H2 2024, suggesting the upswing has legs through at least H1 2026. The Iran-US war introduces a stagflationary risk vector. Oil prices sustained above $90-100/bbl would push headline CPI toward 2.5-3.0% by mid-2026, potentially forcing MAS to tighten at the April review — which would be bullish SGD. The key monitoring variable is whether the oil shock is temporary or structural. MAS's January 2026 Macroeconomic Review projects 2026 core inflation of 1.0-2.0%, which already builds in some upside risk. The growth differential vs peers (Singapore at 3.6% consensus vs G10 average of ~1.5%) is the widest since 2010 and constitutes a fundamental pull factor for SGD.",
+        "key_data_points": [
+          "WSTS 2026 global semiconductor forecast: USD 975.5bn (+26.3% YoY)",
+          "SOX index: 7,865 (March 10), up 52% YoY",
+          "MAS 2026 GDP forecast: 2.0-4.0%; consensus: 3.6%",
+          "MAS 2026 core inflation forecast: 1.0-2.0%",
+          "Brent crude: ~$88/bbl (March 10), down from $119 peak",
+          "Singapore refining margins: ~$30/bbl (highest since 2022)",
+          "US February NFP: -92,000 (vs +160K expected)"
+        ],
+        "what_is_priced": "The semiconductor cycle is partially priced through SGD's 5% YTD appreciation, but the market has not fully priced the possibility of 4%+ growth persisting through H1 2026. The oil shock growth impact is likely overpriced — Singapore's GDP is less oil-sensitive than the market assumes because refining margins partially offset higher crude import costs. The strategic edge is the growth differential: Singapore growing 2x the G10 average with inflation at half the G10 average is a uniquely bullish combination.",
+        "citations": [13, 21, 22, 23, 24, 25, 26]
+      },
+      "horizon_split_explanation": "Both horizons are bullish with similar confidence. Tactical confidence is marginally higher (75 vs 70) because the near-term growth data is confirmed (Q4 GDP, January NODX already printed), while the strategic outlook depends on the semiconductor cycle extending and the oil shock proving temporary — both are probable but not certain.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Risk Appetite & Sentiment",
+      "factor_number": 3,
+      "tactical_weight": 0.10,
+      "strategic_weight": 0.05,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "analysis": "The risk environment is in flux following the Iran-US war shock. The VIX spiked to 35.0 on March 9 before plummeting 13.5% to approximately 22.8-25.5 on March 10 as diplomatic off-ramp signals emerged. This leaves risk appetite in a fragile recovery phase: the acute panic has subsided but elevated uncertainty persists. The S&P 500 tested its 200-DMA near 6,620 before bouncing to 6,796, suggesting technical support is holding but conviction is low. Asian markets showed divergent responses — KOSPI crashed -12% while China's CSI 300 fell only -1.1% and rallied on NPC stimulus signals. For SGD specifically, risk appetite creates a nuanced signal. SGD is Asia's safe-haven currency — during regional stress, capital flows INTO Singapore from ASEAN and Greater China. During the Iran crisis week, anecdotal evidence suggests capital flight from Gulf states and Hong Kong into Singapore private banking, supporting SGD. However, in a global risk-off scenario with VIX above 35 sustained, USD safe-haven demand typically dominates. The current VIX level of approximately 23-25 sits in the uncomfortable but not panicking zone — neutral for SGD. US HY OAS at 3.19% is still relatively tight by historical standards.",
+        "key_data_points": [
+          "VIX: ~23-25 (March 10-11), peaked at 35.0 on March 9",
+          "S&P 500: ~6,796 (March 10); 200-DMA: ~6,620",
+          "STOXX 600: recovered 1.8% on March 10 after -6% crisis week",
+          "Hang Seng: 25,960 (+2.2% on March 10); 200-DMA: 24,765",
+          "CSI 300: 4,791 (+1.6% on March 11)",
+          "US HY OAS: 3.19% (March 2026)",
+          "USD/CNH: ~6.90 (yuan at strongest since April 2023)"
+        ],
+        "what_is_priced": "The market has priced a partial de-escalation (VIX down from 35 to ~23, Brent from $119 to $88) but not a full resolution. If ceasefire talks succeed and oil normalises to $70-80, risk appetite would recover sharply, benefiting SGD through the regional capital flow channel. Conversely, if the Strait of Hormuz is partially closed, VIX would likely retest 35+ and USD safe-haven demand would temporarily overwhelm SGD strength.",
+        "citations": [27, 28, 29, 30, 31, 32, 33]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 55,
+        "analysis": "Over the strategic horizon, the base case assumption is that the Iran-US conflict de-escalates. If so, risk appetite normalises, VIX reverts toward 15-18, and the environment becomes conducive to carry trades and Asia inflows — bullish for SGD. China's NPC signalled a 4.5-5.0% GDP target with fiscal stimulus, suggesting Chinese growth stabilisation through 2026, which supports ASEAN currencies broadly. The DXY's decline to ~98 reflects a structural shift toward USD weakness — the dollar smile's middle segment is where SGD thrives. The February US payrolls shock (-92K) has raised US recession probability to approximately 30%. If the US enters a mild recession while Asia holds up, capital could rotate from USD to Asian safe havens including SGD. However, a severe global recession triggered by oil-driven stagflation would be unambiguously negative for trade-dependent Singapore. The weight of evidence suggests mild risk-positive conditions with periodic episodes of geopolitical volatility — net mildly bullish SGD but with fat tails in the distribution.",
+        "key_data_points": [
+          "DXY: ~97.9 (March 11), down from 104+ in October 2025",
+          "China 2026 GDP target: 4.5-5.0% (NPC)",
+          "US recession probability (market-implied): ~30%",
+          "Gold: >$5,000/oz (safe-haven record)",
+          "MSCI Asia ex-Japan: recovered ~3% from March 9 lows",
+          "Global IG spreads: near multi-decade tights per PineBridge"
+        ],
+        "what_is_priced": "The market has priced modest risk recovery but not a full goldilocks scenario. If the Iran conflict resolves cleanly and US recession fears ease, global risk appetite could surge, pushing VIX below 18 and triggering broad Asian FX appreciation. This scenario is underpriced for SGD because the market is overweight on geopolitical tail risk.",
+        "citations": [27, 28, 31, 34, 35]
+      },
+      "horizon_split_explanation": "The stance shifts from Neutral (tactical) to Bullish (strategic) because the geopolitical uncertainty that dominates the near-term fades over 3-6 months under the base case of conflict de-escalation. SGD's safe-haven properties mean it performs well during Asian stress but struggles during acute global crises — the strategic horizon gives more time for the geopolitical premium to dissipate.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Flows & Positioning",
+      "factor_number": 4,
+      "tactical_weight": 0.10,
+      "strategic_weight": 0.06,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 60,
+        "analysis": "Despite the absence of CFTC futures data, the flow picture for SGD is unambiguously bullish. MAS reserves surged US$18 billion from August to December 2025, which is strong evidence of persistent net SGD buying that MAS is absorbing to prevent excessive appreciation. This intervention pattern is the single most reliable positioning proxy for SGD. The wealth management channel continues to accelerate: Singapore's total AUM reached S$5.41 trillion, and over 2,000 single family offices have been established (a 10x increase from 2020), collectively managing estimated S$90+ billion. DBS, OCBC, and UOB all reported double-digit wealth AUM growth through Q4 2025. The Iran crisis may have accelerated Gulf-to-Singapore capital flows as wealthy individuals in the region seek safety. The S$NEER trading in the upper half of the band confirms the market is positioned long SGD relative to the basket. The key tactical risk is position crowding — if everyone is long SGD and a negative catalyst emerges, the unwind could be sharp given the thin SGD futures market.",
+        "key_data_points": [
+          "MAS reserves: SGD 529.11bn (~US$409bn), January 2026",
+          "Reserve accumulation: +US$18bn over 5 months (Aug-Dec 2025)",
+          "Singapore total AUM: S$5.41 trillion (2023)",
+          "Family offices established: 2,000+ (end-2024), up 10x from 2020",
+          "DBS wealth AUM growth: +18% YoY (Q4 2025)",
+          "S$NEER position: upper half of appreciating band",
+          "CFTC SGD futures: not reportable (below 20-trader threshold)"
+        ],
+        "what_is_priced": "The structural capital inflow trend is largely priced into the current spot level, but the potential acceleration from Iran-related Gulf capital flight is NOT priced. If even a fraction of the estimated US$800+ billion in Gulf SWF assets were reallocated toward Singapore, the flow impact would be significant relative to SGD market depth.",
+        "citations": [4, 6, 7, 8, 11, 36]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 65,
+        "analysis": "Over the strategic horizon, the flow picture becomes more decisively bullish as several medium-term catalysts materialise. First, the Fed easing cycle will weaken USD broadly, creating mechanical flow out of USD and into surplus currencies like SGD. Second, Singapore's EQDP programme (S$1.5 billion additional funding in Budget 2026) aims to deepen the equity market and attract foreign portfolio inflows. Third, the AI capex cycle is driving direct investment into Singapore's semiconductor ecosystem. Fourth, Temasek's reorganisation into three entities (effective April 1, 2026) may lead to increased repatriation of overseas returns. Fifth, the number of family offices is likely to continue growing with MAS having tightened qualifying criteria to ensure quality over quantity. The only strategic flow headwind is potential portfolio outflows if Singapore equities underperform, but this is offset by the overwhelming inflows through wealth management and trade surplus channels. The combined sovereign assets exceeding US$1.1 trillion provide an impregnable backstop.",
+        "key_data_points": [
+          "EQDP cumulative net buying: ~USD 2.3 billion",
+          "Budget 2026 EQDP additional allocation: S$1.5 billion",
+          "Temasek net portfolio value: S$434 billion (record)",
+          "GIC estimated AUM: ~US$800 billion",
+          "Combined sovereign assets (GIC + Temasek + MAS): >US$1.1 trillion",
+          "Family office minimum AUM: S$20 million (from March 2025)",
+          "Singapore 2025 current account surplus: SGD 131.96 billion"
+        ],
+        "what_is_priced": "The structural wealth inflow story is partially priced but the market continues to underestimate the persistence and scale. A cumulative US$18 billion in MAS reserve accumulation over 5 months — equivalent to ~4% of GDP — is a massive flow that shows no signs of abating. The strategic edge is that these flows are structural rather than cyclical, meaning they will persist even if the semiconductor cycle moderates.",
+        "citations": [4, 7, 11, 36, 37, 38, 39, 40]
+      },
+      "horizon_split_explanation": "Confidence increases from tactical (60) to strategic (65) because the structural flow drivers become more dominant over longer horizons, while the near-term is clouded by geopolitical event risk that could temporarily disrupt flows.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": "The primary contrarian risk is that the market is too uniformly bullish SGD. With the S$NEER in the upper half of the band, any negative surprise (MAS easing, Hormuz closure, semiconductor demand shock) could trigger a crowded-trade unwind. However, the nature of SGD flows (real-money wealth management, not leveraged speculation) makes a sharp reversal less likely than for currencies with large speculative futures positions. The managed float also constrains downside — MAS would slow the band's depreciation in a stress scenario. Contrarian signal: mildly cautionary but not actionable.",
+      "contrarian_analysis_strategic": "Over 6 months, the crowding risk diminishes because the flows driving SGD strength are fundamentally different from speculative positioning. Family office establishment is a multi-year commitment; trade surpluses are a function of the semiconductor cycle which has legs through at least H2 2026; Fed easing is a consensus view with strong data support. The contrarian scenario is a sharp reversal in the semiconductor cycle (e.g., AI capex pullback, US-China chip war escalation) that would hit Singapore's growth and exports simultaneously. Probability: 15-20%. This is the most likely path to a material SGD weakening.",
+      "expression_assessment": null
+    },
+    {
+      "block": "External Balance & Terms of Trade",
+      "factor_number": 5,
+      "tactical_weight": 0.06,
+      "strategic_weight": 0.16,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 55,
+        "analysis": "Singapore's current account surplus is a fortress — Q4 2025 reached a record SGD 40.24 billion, bringing the full-year 2025 surplus to SGD 131.96 billion (~18% of GDP). This is the largest surplus as a share of GDP in the G10+SGD benchmarking set, dwarfing even Switzerland (~7.5%) and Norway (~12%). However, the Iran-US war has created a significant near-term terms-of-trade headwind. Singapore is a net oil importer — Brent crude surging from ~$65 at end-2025 to ~$88 currently increases the energy import bill substantially. Singapore processes ~1.4 million barrels per day at Jurong Island refineries, so the crude cost spike hits directly. The partial offset is that Singapore is Asia's refining hub: refining margins have surged to ~$30/bbl, the highest since 2022, partially compensating for higher crude costs. As the world's largest bunkering port, Singapore also earns premium margins on refined product sales during supply disruptions. Net-net, the oil shock is a modest negative for Singapore's external balance but not enough to alter the structural surplus. The electronics NODX surge (+56.1% YoY) far outweighs the oil cost increase.",
+        "key_data_points": [
+          "2025 current account surplus: SGD 131.96 billion (~18% of GDP)",
+          "Q4 2025 current account: SGD 40.24 billion (record quarter)",
+          "January 2026 NODX: +9.3% YoY; electronics: +56.1% YoY",
+          "Brent crude: ~$88/bbl (March 10), up from ~$65 at end-2025",
+          "Singapore refining margins: ~$30/bbl",
+          "Top 3 export destinations: China (14%), Hong Kong (11%), Malaysia (11%)"
+        ],
+        "what_is_priced": "The market is appropriately pricing the oil headwind as a modest negative but has not fully priced the offsetting refining margin benefit. The net external balance impact of the oil shock is smaller than the market fears because Singapore is a refiner, not just a consumer. The edge is that the current account surplus will remain in the 15-17% of GDP range even with Brent at $90.",
+        "citations": [19, 24, 25, 40]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 75,
+        "analysis": "The external balance is the strongest strategic pillar for SGD. An 18% current account surplus is a gravitational force that pulls the exchange rate toward appreciation over time — it represents persistent net demand for SGD from trade counterparties, which MAS then manages through the S$NEER band. The semiconductor cycle underpinning electronics exports shows no signs of peaking: WSTS projects 2026 global sales of USD 975.5 billion (+26.3%). China remains Singapore's largest export destination (14% share), and the NPC's 4.5-5% growth target supports demand. The terms-of-trade risk from oil is time-limited under the base case — if the Iran conflict de-escalates by mid-2026, Brent should normalise to $70-80 per EIA projections. Even in the adverse scenario of sustained $90-100 oil, Singapore's refining margins would remain elevated. The US Section 122 tariff (10%, effective February 24, 150-day duration) applies to Singapore exports but semiconductor goods were exempted, and Singapore's trade minister indicated the direct impact is not expected to be significant. The tariff expires around July 23, 2026.",
+        "key_data_points": [
+          "WSTS 2026 semiconductor forecast: USD 975.5bn (+26.3%)",
+          "EIA Brent forecast: >$95 near-term, <$80 by Q3 2026 if Hormuz resolves",
+          "US Section 122 tariff on Singapore: 10%, expires ~July 23",
+          "Semiconductor exports: exempted from reciprocal tariffs",
+          "Singapore trade-to-GDP ratio: ~300%+",
+          "China NPC 2026 GDP target: 4.5-5.0%",
+          "IC exports (January 2026): +80.5% YoY"
+        ],
+        "what_is_priced": "The semiconductor-driven export boom is partially priced but the market underestimates the persistence. WSTS projections suggest 2026 will be even stronger than 2025, yet consensus 2026 NODX growth of +2-4% seems too conservative given the January +9.3% print. The strategic edge is that the external surplus will surprise to the upside as AI-driven chip demand continues to accelerate.",
+        "citations": [19, 22, 31, 41, 42]
+      },
+      "horizon_split_explanation": "The stance strengthens from Mildly Bullish (tactical, score +0.5) to fully Bullish (strategic) because the oil shock headwind is expected to dissipate over the strategic horizon while the semiconductor export tailwind extends. The external balance factor carries 0.16 weight strategically vs 0.06 tactically, amplifying its influence.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Guidance & Credibility",
+      "factor_number": 6,
+      "tactical_weight": 0.07,
+      "strategic_weight": 0.12,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 70,
+        "analysis": "MAS credibility is among the highest of any central bank globally. The S$NEER managed float regime has been in place since 1981 and has successfully delivered low and stable inflation across multiple economic cycles. The January 29, 2026 MPS demonstrated masterful communication — MAS raised its inflation forecast (hawkish signal), held policy (prudent given uncertainty), and explicitly noted upside risks to prices and the positive output gap. This positions MAS to tighten at the April review without having committed. DBS characterised the stance as balanced with an upward tilt, and ING described MAS as having turned less dovish. The opacity of the S$NEER band parameters gives MAS operational flexibility while maintaining credibility through consistently delivered inflation outcomes. The January 2026 Macroeconomic Review confirmed MAS's assessment of resilient growth and emerging price pressures. MAS Managing Director Chia Der Jiun's March 6 speech focused on equity market development rather than monetary policy, suggesting no urgency for inter-meeting action. MAS's March 10 statement monitoring Middle East developments signals awareness that the oil shock could necessitate action.",
+        "key_data_points": [
+          "January 2026 MPS: S$NEER parameters unchanged (3rd consecutive hold)",
+          "MAS core inflation forecast upgraded to 1.0-2.0% (from 0.5-1.5%)",
+          "S$NEER: upper half of appreciating band",
+          "MAS Survey: 47.4% expect April tightening",
+          "MAS credibility track record: 44+ years of managed float",
+          "MAS March 10 statement: monitoring Middle East developments"
+        ],
+        "what_is_priced": "The hawkish January MPS shift is fully priced (evidenced by the 47% tightening probability). However, the market may be underpricing MAS's willingness to act inter-meeting if core inflation accelerates above 2%. MAS last conducted an off-cycle adjustment during COVID in 2020 — the precedent exists.",
+        "citations": [4, 13, 43, 44]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 75,
+        "analysis": "Over 6 months, MAS credibility compounds into a structural SGD advantage. The market knows that MAS will not allow inflation to become entrenched — the S$NEER appreciation mechanism is the transmission channel for importing disinflation, and MAS will use it aggressively if needed. This forward-looking credibility anchors inflation expectations and reduces the risk premium on SGD assets. The April review will be accompanied by the Macroeconomic Review providing comprehensive guidance. If MAS tightens, the signal will be unambiguously bullish SGD over 3-6 months, as it implies MAS expects the growth-inflation mix to require faster appreciation. If MAS holds (53% base case), language changes in the MPS toward increased upside risks would be a hawkish hold that supports SGD. The credibility premium means MAS does not need to surprise to move the currency — the band itself provides a floor that traders respect. No credible market participant attempts to fight MAS's band, given the US$409 billion in reserves backing it.",
+        "key_data_points": [
+          "MAS reserve backing for S$NEER band: US$409 billion",
+          "MAS regime in place since: 1981 (44+ years)",
+          "Full-year 2025 CPI: 0.9% (well within target)",
+          "Macroeconomic Review: published semi-annually with MPS",
+          "April 2026 MPS: next policy decision date",
+          "MAS inflation track record (2000-2025 average CPI): ~2.0%"
+        ],
+        "what_is_priced": "MAS credibility is structurally priced through low USD/SGD volatility. The strategic edge lies in the possibility of a policy tightening cycle beginning in April — if MAS increases the slope, the market will front-run further appreciation, creating a self-fulfilling dynamic. The probability-weighted payoff is asymmetric: tightening (47%) delivers significant SGD upside, while holding (53%) delivers modest SGD strength.",
+        "citations": [4, 11, 13, 17, 43]
+      },
+      "horizon_split_explanation": "Both horizons are bullish, with strategic confidence higher (75 vs 70) because MAS credibility is a compounding factor — the longer the horizon, the more the managed appreciation framework works in SGD's favour.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Event Risk & Geopolitics",
+      "factor_number": 7,
+      "tactical_weight": 0.05,
+      "strategic_weight": 0.05,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 55,
+        "analysis": "The geopolitical landscape is the most volatile since 2022. The Iran-US war dominates — Operation Epic Fury launched on February 28 with US-Israeli strikes targeting ~900 sites in Iran. Iran retaliated with missile attacks on regional capitals and threatened Strait of Hormuz closure. As of March 11, the conflict is in its second week. The Strait of Hormuz carries ~20% of global oil supply and is Singapore's energy lifeline — a sustained closure would be catastrophic for Singapore's refining sector. On March 10, diplomatic off-ramp signals emerged (Brent plunged 11%), but the situation remains fluid. For SGD, the war is a net negative through the terms-of-trade channel and regional uncertainty channel. SGD's safe-haven status within Asia partially offsets this — Gulf capital has reportedly flowed into Singapore private banking. The March 17-19 Super Week adds event risk density: six G10 central banks decide within 48 hours. The US Section 122 tariff (10%, effective February 24) adds background noise but is not a major SGD driver. Singapore political risk remains negligible under PM Lawrence Wong.",
+        "key_data_points": [
+          "Iran-US war: began February 28, 2026; ongoing as of March 11",
+          "Strait of Hormuz: carries ~20% of global oil; partial disruption March 5-9",
+          "Brent crude peak: $119.50/bbl (March 9)",
+          "VIX peak: 35.0 (March 9)",
+          "Section 122 tariff: 10% on Singapore, effective Feb 24, semiconductor-exempt",
+          "Singapore political risk: negligible (PAP government, PM Wong)",
+          "March 17-19 Super Week: FOMC + 6 other CB decisions"
+        ],
+        "what_is_priced": "The market has priced a partial de-escalation but the tail risk of Hormuz closure is not fully priced. A sustained closure would push Brent to $140+ and VIX to 45+, deeply negative for SGD. The probability of sustained Hormuz closure is low (10-15%) but the impact would be enormous, making the near-term event risk mildly bearish for SGD.",
+        "citations": [24, 27, 42, 45, 46, 47]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "analysis": "Over 6 months, the base case is that the Iran conflict de-escalates. Historical precedent suggests oil price spikes from Middle East events are typically temporary, lasting weeks to months rather than quarters. If so, the geopolitical risk premium dissipates and the SGD returns to its fundamentally driven appreciation path. The structural geopolitical risks for Singapore are manageable: China-Taiwan tensions have not escalated in early 2026, US-China semiconductor export controls are a known quantity, and ASEAN regional dynamics are stable. The key risk scenario is escalation into a broader Middle East conflict that disrupts global trade routes. The Section 122 tariff expires around July 23, removing that headwind. Overall, the strategic event risk picture is neutral — known risks are priced, unknown risks are unforecastable, and Singapore's institutional strength provides resilience.",
+        "key_data_points": [
+          "2020 precedent: oil spiked then normalised within 2 months",
+          "China NPC: no escalation signals re Taiwan",
+          "US semiconductor export controls: Singapore designated Tier 1 status",
+          "Section 122 tariff expiry: ~July 23, 2026",
+          "Singapore trade-to-GDP: 300%+ (highly exposed to trade disruption)"
+        ],
+        "what_is_priced": "The strategic event risk is approximately fairly priced. The market assigns a moderate geopolitical risk premium (USD/SGD ~20-30 pips above where fundamentals alone would place it), which seems reasonable. The edge is that this premium will dissipate if de-escalation occurs, providing a tailwind for SGD.",
+        "citations": [19, 24, 31, 42, 45, 48]
+      },
+      "horizon_split_explanation": "The stance shifts from Mildly Bearish (tactical) to Neutral (strategic) because the acute Iran crisis is expected to either de-escalate or become priced in over the strategic horizon. The tactical period bears the concentrated risk of the March 17-19 central bank cluster and ongoing Middle East headline risk.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Fiscal & Sovereign Risk",
+      "factor_number": 8,
+      "tactical_weight": 0.04,
+      "strategic_weight": 0.07,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 85,
+        "analysis": "Singapore's fiscal and sovereign risk is as close to zero as any country globally. The AAA rating is confirmed across all three agencies, placing Singapore among only nine sovereigns worldwide maintaining a perfect triple-A score. Budget 2026 projects a slight fiscal surplus of approximately SGD 3.2 billion (0.4% of GDP), with the NIRC of S$28.5 billion constituting the largest single revenue item. Singapore's gross government debt of ~130% of GDP is issued for investment purposes (CPF, GIC, Temasek), NOT to fund deficits. Net assets are massively positive. The combined sovereign wealth position exceeds US$1.1 trillion — among the highest per capita globally. Temasek's reorganisation into three entities reflects strategic positioning, not stress. Budget 2026's key initiatives (400% AI tax deductions, S$1.5 billion EQDP, BEPS Pillar Two implementation from FY2027) are forward-looking and competitiveness-enhancing. This factor is not currently material for SGD — it is a structural floor.",
+        "key_data_points": [
+          "Sovereign ratings: S&P AAA (Stable), Moody's Aaa (Stable), Fitch AAA (Stable)",
+          "Budget 2026 fiscal surplus: ~SGD 3.2 billion (0.4% of GDP)",
+          "NIRC: S$28.5 billion",
+          "GIC estimated AUM: ~US$800 billion; 20-year real return: 3.8%",
+          "Temasek net portfolio value: S$434 billion (record)",
+          "MAS reserves: US$409 billion",
+          "Combined sovereign assets: >US$1.1 trillion"
+        ],
+        "what_is_priced": "The market fully prices Singapore's sovereign strength through low SGS yields and tight CDS spreads. There is no mispricing in this factor — it is a structural floor under SGD that prevents it from ever weakening beyond the S$NEER band's weak edge.",
+        "citations": [11, 37, 38, 39, 49]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 85,
+        "analysis": "Same as tactical — this factor is structurally supportive across all horizons. The fiscal strength provides Singapore with extraordinary policy flexibility — MAS could deploy reserves to defend the S$NEER in any scenario, draw on NIRC for counter-cyclical fiscal support, or adjust band parameters without market credibility concerns. The BEPS Pillar Two implementation (minimum 15% MNE tax from FY2027) may modestly reduce tax competitiveness for MNE headquarters, but the government has proactively introduced the Refundable Investment Credit and 400% AI deductions to offset this. The net fiscal position is impregnable. Singapore's sovereign wealth funds provide a buffer against any conceivable external shock — the US$1.1 trillion in combined assets represents approximately 200% of GDP. The President's custodial role over past reserves provides a constitutional check on fiscal profligacy, further anchoring long-term sovereign credibility. No other G10+SGD sovereign combines AAA ratings, fiscal surpluses, and trillion-dollar sovereign wealth in a single package.",
+        "key_data_points": [
+          "Same structural metrics as tactical — time-invariant",
+          "BEPS Pillar Two: 15% minimum MNE tax from FY2027",
+          "Budget 2026 AI tax deduction: 400%",
+          "Refundable Investment Credit: new instrument in Budget 2026",
+          "President's custodial role: constitutional check on reserve drawdowns"
+        ],
+        "what_is_priced": "Fully priced. No edge from this factor — it is a structural floor, not a trading catalyst.",
+        "citations": [37, 38, 39, 49]
+      },
+      "horizon_split_explanation": "No horizon split — both stances and confidence are identical at Bullish/85. Fiscal and sovereign strength is time-invariant for Singapore.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Market Structure & Volatility",
+      "factor_number": 9,
+      "tactical_weight": 0.05,
+      "strategic_weight": 0.03,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 55,
+        "analysis": "USD/SGD's technical structure is bearish for USD (bullish SGD) — spot trades at 1.2710, approximately 180 pips below the 200-DMA (~1.29), confirming the downtrend. The pair has made a series of lower highs and lower lows since October 2025. Key support at 1.2608 (January 27 low) held during the Iran crisis, suggesting dip buyers are defending the recent range lows. The 2026 YTD range of 1.2608-1.2888 represents a ~280-pip envelope, narrow by G10 standards but typical for the managed float. The Iran crisis produced surprisingly muted volatility in USD/SGD — daily ranges expanded only to ~50-60 pips (from typical ~20-30 pips), far less than the 200+ pip daily ranges seen in USD/JPY or GBP/USD. This confirms MAS smoothing is actively dampening vol. Moving averages are stacked bearishly for USD/SGD: 50d (~1.2740) < 100d (~1.2820) < 200d (~1.2900), all above spot. The managed float regime creates structural support for short USD/SGD positions: the appreciation slope means time works in favour of SGD longs, and the band floor is defended by US$409 billion in reserves.",
+        "key_data_points": [
+          "USD/SGD spot: 1.2710 (March 11)",
+          "200-DMA: ~1.29 (spot 180 pips below)",
+          "52-week range: 1.2584-1.3553",
+          "2026 YTD range: 1.2608-1.2888",
+          "January 27, 2026 low: 1.2608 (key support)",
+          "Iran crisis intraday range expansion: ~50-60 pips vs normal ~20-30"
+        ],
+        "what_is_priced": "The low volatility of USD/SGD is structurally priced through the managed float — this is not temporary but permanent. The edge is that the downtrend will continue as long as MAS maintains the appreciation slope, which is the base case through at least April. The risk is a regime change at the April MPS (slope reduction) with <5% probability given the inflation outlook.",
+        "citations": [1, 2, 4, 5]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 55,
+        "analysis": "Same technical structure applies strategically. The downtrend in USD/SGD has been in place since October 2025 (from ~1.36) and shows no signs of reversal. The managed float regime means trends persist longer than in free-floating pairs because MAS sets the direction. The key strategic question is whether USD/SGD can break below 1.2584 (52-week low) and approach 1.2500 or lower. The last time USD/SGD traded below 1.25 was September 2014. A break below would trigger momentum buying (selling USD/SGD), but the pace would be controlled by MAS's band management. The all-time low of 1.209 (August 2011) remains a distant target. Volatility is expected to remain compressed as the managed float continues to dampen moves. The Iran conflict introduced a temporary vol premium that will decay if de-escalation continues.",
+        "key_data_points": [
+          "All-time USD/SGD low: 1.209 (August 2011)",
+          "Last time below 1.25: September 2014",
+          "Estimated S$NEER band width: ~2% either side of midpoint",
+          "MA alignment: bearishly stacked (50d < 100d < 200d)",
+          "S$NEER appreciation slope: ~0.5% per annum estimated"
+        ],
+        "what_is_priced": "Same as tactical. The managed float dampens vol and creates a structural directional bias. The strategic edge is that the trend extends over time as long as MAS maintains the appreciation slope.",
+        "citations": [1, 2, 5]
+      },
+      "horizon_split_explanation": "Both horizons mildly bullish with same confidence (55). The market structure is time-invariant due to the managed float — the appreciation slope provides a constant directional bias regardless of horizon length.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": "The optimal expression for a bullish SGD view is spot short USD/SGD. The carry cost (~283bp annualised) is offset by the managed appreciation slope (~2% pa). Low vol means tight stops work — the 200-DMA at 1.29 serves as a natural stop for tactical positions. For risk-defined trades, SGD/JPY long offers one of the few positive-carry SGD expressions (+7bp annualised) though the directional thesis depends on relative performance vs JPY. Short AUD/SGD expresses the tech-vs-commodity relative value but carries deep negative carry (-303bp). Forward-settled short USD/SGD merely crystallises the carry differential — spot is preferred because the edge is in the spot move exceeding forward-implied appreciation. Recommended expression: spot short USD/SGD, stop 1.2900, target 1.2580."
+    },
+    {
+      "block": "USD Liquidity & Funding",
+      "factor_number": 10,
+      "tactical_weight": 0.11,
+      "strategic_weight": 0.12,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 65,
+        "analysis": "Global USD liquidity conditions have eased significantly following the Fed's end of quantitative tightening on December 1, 2025. The Fed balance sheet stands at approximately US$6.6 trillion, with the Fed now conducting Reserve Management Purchases (RMPs) — reinvesting maturing MBS (~$16 billion/month) into T-bills. This represents the first meaningful balance sheet expansion since QE ended, though the Fed insists it is not QE. The ON RRP facility has declined from $2.5 trillion to ~$632 billion, suggesting bank reserves are ample but normalising. SOFR at 3.65% is well-behaved with no funding stress. For Singapore, the Asian dollar market remains well-functioning. The DXY at ~97.9 reflects broad USD depreciation, consistent with the middle of the dollar smile: global growth is neither in crisis nor experiencing US exceptionalism. The February NFP shock (-92K) has increased the probability of dovish FOMC forward guidance, which would weaken USD further. The SGD/USD cross-currency basis is not publicly available but the absence of USD funding stress suggests the basis is near zero or modestly negative.",
+        "key_data_points": [
+          "Fed balance sheet: ~US$6.6 trillion (March 4, 2026)",
+          "QT ended: December 1, 2025",
+          "RMP pace: ~US$16 billion/month (MBS to T-bills)",
+          "SOFR: 3.65% (March 9)",
+          "ON RRP: ~$632 billion (down from $2.5 trillion peak)",
+          "DXY: ~97.9 (March 11), down from 104+ in October 2025"
+        ],
+        "what_is_priced": "The end of QT and shift to RMPs is fully priced in the DXY decline to ~98. The edge lies in the market's underpricing of the negative February NFP as a potential catalyst for accelerated Fed easing. If the March 18 FOMC shifts to explicitly dovish forward guidance, USD liquidity expectations would ease further, amplifying the broad USD depreciation trend.",
+        "citations": [12, 34, 50]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 70,
+        "analysis": "Over 6 months, the USD liquidity picture is structurally bearish for the dollar and bullish for SGD. The Fed is projected to deliver at least one more 25bp cut (September 2026), and the balance sheet is transitioning from contraction to neutral/expansion through RMPs. The combination of rate cuts + balance sheet stabilisation is the most USD-negative policy mix since 2020-2021. Historical precedent shows that SGD appreciates during periods of USD easing: during 2020-2021 QE/ZIRP, USD/SGD fell from 1.44 to 1.33 (-7.6%). The current cycle has already produced a decline from 1.36 to 1.27 (-6.6%), suggesting further downside to 1.24-1.25 is plausible if the Fed delivers 50bp+ of cuts. Singapore's role as a USD clearing hub means it benefits from easing USD conditions — lower funding costs support bank profitability. The Asian dollar market in Singapore (~$2 trillion in assets) is a structural beneficiary of loose USD conditions.",
+        "key_data_points": [
+          "Fed projected rate path: -25 to -50bp by December 2026",
+          "2020-2021 USD/SGD during QE: -7.6% (1.44 to 1.33)",
+          "Current USD/SGD decline from peak: -6.6% (1.36 to 1.27)",
+          "Fed balance sheet transition: QT to RMP to potential QE if recession",
+          "Singapore banking sector USD assets: ~$2 trillion",
+          "DXY downtrend: from 104+ to ~98 since October 2025"
+        ],
+        "what_is_priced": "The market prices one Fed cut by September 2026. If the US economy deteriorates further, the market will price two or more cuts, creating a fresh leg of USD weakness. The strategic edge is that the probability distribution of Fed outcomes is skewed dovish — the risks to the rate path are on the downside, which is bullish for SGD.",
+        "citations": [12, 34, 36, 50]
+      },
+      "horizon_split_explanation": "Both horizons bullish, with strategic confidence higher (70 vs 65) because the Fed easing cycle is more certain over 6 months than 2-4 weeks. The March 18 FOMC could surprise hawkishly (Iran-driven inflation concerns), adding near-term uncertainty.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    }
+  ],
+
+  "synthesis": {
+    "tactical": {
+      "net_stance": "Bullish",
+      "conviction": 3,
+      "overall_confidence": 62,
+      "weighted_score": {
+        "calculation": [
+          {"factor": "1. Policy & Rates", "stance_score": 1.0, "confidence_pct": 60, "confidence_adjusted_score": 0.60, "weight": 0.24, "weighted_contribution": 0.144},
+          {"factor": "2. Inflation & Growth", "stance_score": 1.0, "confidence_pct": 75, "confidence_adjusted_score": 0.75, "weight": 0.18, "weighted_contribution": 0.135},
+          {"factor": "3. Risk Appetite", "stance_score": 0.0, "confidence_pct": 55, "confidence_adjusted_score": 0.00, "weight": 0.10, "weighted_contribution": 0.000},
+          {"factor": "4. Flows & Positioning", "stance_score": 1.0, "confidence_pct": 60, "confidence_adjusted_score": 0.60, "weight": 0.10, "weighted_contribution": 0.060},
+          {"factor": "5. External Balance", "stance_score": 0.5, "confidence_pct": 55, "confidence_adjusted_score": 0.275, "weight": 0.06, "weighted_contribution": 0.017},
+          {"factor": "6. Guidance & Credibility", "stance_score": 1.0, "confidence_pct": 70, "confidence_adjusted_score": 0.70, "weight": 0.07, "weighted_contribution": 0.049},
+          {"factor": "7. Event Risk", "stance_score": -0.5, "confidence_pct": 55, "confidence_adjusted_score": -0.275, "weight": 0.05, "weighted_contribution": -0.014},
+          {"factor": "8. Fiscal & Sovereign", "stance_score": 1.0, "confidence_pct": 85, "confidence_adjusted_score": 0.85, "weight": 0.04, "weighted_contribution": 0.034},
+          {"factor": "9. Market Structure", "stance_score": 0.5, "confidence_pct": 55, "confidence_adjusted_score": 0.275, "weight": 0.05, "weighted_contribution": 0.014},
+          {"factor": "10. USD Liquidity", "stance_score": 1.0, "confidence_pct": 65, "confidence_adjusted_score": 0.65, "weight": 0.11, "weighted_contribution": 0.072}
+        ],
+        "net_score": 0.511,
+        "interpretation": "Moderately bullish. On a -1 to +1 scale, +0.51 indicates a clear bullish signal with some dampening from geopolitical uncertainty.",
+        "mapping_to_conviction": "+0.51 maps to conviction level 3/5 (moderate bullish conviction). The score is above the 0.40 threshold for conviction 3 but below the 0.65 threshold for conviction 4."
+      },
+      "rationale": "The tactical SGD bull case is driven by the dominance of Factor 1 (Policy, 0.24 weight, +0.144 contribution) and Factor 2 (Inflation & Growth, 0.18 weight, +0.135 contribution), which together account for 55% of the weighted score. Singapore's unique policy framework — managed S$NEER appreciation — means that policy is structurally bullish as long as MAS maintains the appreciation slope, which is the overwhelming base case. The growth-inflation mix is the best in G10+SGD: 5%+ GDP growth with 1% core inflation is unmatched by any peer. Factor 10 (USD Liquidity) adds the third pillar (+0.072), reflecting the broad USD depreciation trend driven by the end of Fed QT and the transition to Reserve Management Purchases. The main offset is Factor 7 (Event Risk, -0.014) — the Iran war creates a modest net negative through the terms-of-trade channel, but its weight (0.05) is too small to materially alter the signal. The interactions between factors are reinforcing rather than conflicting: strong growth validates the policy stance, the policy stance attracts capital inflows, and capital inflows strengthen the external balance — a virtuous cycle. The path of least resistance for USD/SGD is lower, toward the 1.2580-1.2608 support zone. The key catalyst is the March 17-19 Super Week — a dovish FOMC would accelerate the move. The edge is that the market underprices the probability-weighted scenario where MAS tightens AND the Fed cuts. Conviction is limited to 3/5 because the geopolitical overlay creates fat-tailed downside risk from a potential Hormuz closure that is hard to hedge in the thin SGD market. The trade is actionable with a disciplined stop at the 200-DMA (1.29) and a target at the January low (1.2608).",
+      "g10_ranking": {
+        "rank": 3,
+        "out_of": 11,
+        "beats": ["EUR", "GBP", "AUD", "NZD", "CAD", "NOK", "SEK"],
+        "loses_to": ["CHF", "JPY"],
+        "commentary": "SGD ranks behind CHF (Swiss surplus + zero rates + gold correlation) and JPY (BOJ tightening + risk-off yen bids) but ahead of all other G10 currencies at the tactical horizon. The ranking reflects Singapore's combination of strong fundamentals and managed appreciation, modestly offset by the oil-driven terms-of-trade headwind that does not affect CHF or JPY."
+      },
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 55,
+          "outcome": "USD/SGD declines to 1.2580-1.2650 over 2-4 weeks",
+          "conditions": ["Iran ceasefire progress continues", "FOMC holds with dovish tilt in forward guidance", "MAS maintains current S$NEER stance"],
+          "path": "Gradual grind lower at MAS-managed pace, with acceleration post-FOMC if dovish guidance materialises."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "outcome": "USD/SGD breaks below 1.2580 to test 1.2500",
+          "conditions": ["FOMC signals accelerated easing with dot plot showing 2 cuts in 2026", "Iran war ends with formal ceasefire and Brent below $80"]
+        },
+        "downside_case": {
+          "probability_pct": 20,
+          "outcome": "USD/SGD rallies to 1.2880-1.2900 (200-DMA)",
+          "conditions": ["Hormuz closure pushes Brent above $120 sustained", "VIX sustains above 35 triggering broad USD safe-haven demand"]
+        }
+      },
+      "path_expectation": "USD/SGD is expected to grind lower toward 1.2580-1.2650 over the next 2-4 weeks, with the pace dictated by the March 17-19 central bank cluster. The most likely pattern is a pre-FOMC consolidation (1.2680-1.2750) followed by a directional move on the decision. If the FOMC delivers a dovish hold with updated dot plot showing 2 cuts in 2026, USD/SGD should break decisively below 1.2650. Expect elevated intraday volatility during the event cluster but compressed daily ranges outside of events, consistent with MAS smoothing. A V-shaped reversal to 1.29+ is unlikely without a major escalation in the Iran conflict.",
+      "conviction_ladder": {
+        "current": 3,
+        "increase_to_5_if": ["MAS tightens at April review AND Fed cuts in June", "Iran conflict fully resolved with Brent below $75"],
+        "increase_to_4_if": ["FOMC signals 2+ cuts in 2026 AND Iran ceasefire announced", "February Singapore CPI shows MAS core above 1.5%"],
+        "decrease_to_3_if": ["Already at 3 — maintain if current conditions persist", "Any modest deterioration in one factor without changing others"],
+        "decrease_to_2_if": ["Brent sustains above $100 for 1 week AND VIX sustains above 30", "MAS signals concern about SGD appreciation pace"],
+        "decrease_to_1_if": ["Strait of Hormuz fully closed AND S&P 500 enters bear market", "MAS conducts emergency slope reduction"]
+      },
+      "risk_reward": {
+        "base_case_payoff": "USD/SGD to 1.2610 = +100 pips from 1.2710 (0.8% spot return)",
+        "downside_case_loss": "USD/SGD to 1.2890 = -180 pips from 1.2710 (1.4% spot loss)",
+        "risk_reward_ratio": "Probability-adjusted 3.0:1 — (55% x 100 + 25% x 210) / (20% x 180) = 107.5 / 36",
+        "asymmetry_assessment": "The managed float provides an asymmetric floor — MAS intervention constrains the upside in USD/SGD, meaning the downside case is a temporary overshoot rather than a sustained move. The probability-adjusted ratio is strongly favourable."
+      }
+    },
+    "strategic": {
+      "net_stance": "Bullish",
+      "conviction": 4,
+      "overall_confidence": 68,
+      "weighted_score": {
+        "calculation": [
+          {"factor": "1. Policy & Rates", "stance_score": 1.0, "confidence_pct": 70, "confidence_adjusted_score": 0.70, "weight": 0.24, "weighted_contribution": 0.168},
+          {"factor": "2. Inflation & Growth", "stance_score": 1.0, "confidence_pct": 70, "confidence_adjusted_score": 0.70, "weight": 0.10, "weighted_contribution": 0.070},
+          {"factor": "3. Risk Appetite", "stance_score": 0.5, "confidence_pct": 55, "confidence_adjusted_score": 0.275, "weight": 0.05, "weighted_contribution": 0.014},
+          {"factor": "4. Flows & Positioning", "stance_score": 1.0, "confidence_pct": 65, "confidence_adjusted_score": 0.65, "weight": 0.06, "weighted_contribution": 0.039},
+          {"factor": "5. External Balance", "stance_score": 1.0, "confidence_pct": 75, "confidence_adjusted_score": 0.75, "weight": 0.16, "weighted_contribution": 0.120},
+          {"factor": "6. Guidance & Credibility", "stance_score": 1.0, "confidence_pct": 75, "confidence_adjusted_score": 0.75, "weight": 0.12, "weighted_contribution": 0.090},
+          {"factor": "7. Event Risk", "stance_score": 0.0, "confidence_pct": 50, "confidence_adjusted_score": 0.00, "weight": 0.05, "weighted_contribution": 0.000},
+          {"factor": "8. Fiscal & Sovereign", "stance_score": 1.0, "confidence_pct": 85, "confidence_adjusted_score": 0.85, "weight": 0.07, "weighted_contribution": 0.060},
+          {"factor": "9. Market Structure", "stance_score": 0.5, "confidence_pct": 55, "confidence_adjusted_score": 0.275, "weight": 0.03, "weighted_contribution": 0.008},
+          {"factor": "10. USD Liquidity", "stance_score": 1.0, "confidence_pct": 70, "confidence_adjusted_score": 0.70, "weight": 0.12, "weighted_contribution": 0.084}
+        ],
+        "net_score": 0.653,
+        "interpretation": "Solidly bullish. On a -1 to +1 scale, +0.653 indicates a strong bullish signal driven by broad factor alignment.",
+        "mapping_to_conviction": "+0.653 maps to conviction level 4/5 (strong bullish conviction). The score exceeds the 0.65 threshold for conviction 4 but falls short of the 0.80 threshold for conviction 5."
+      },
+      "rationale": "The strategic bull case is broader and more robust than the tactical case. The three heaviest-weighted factors — Policy (0.24, +0.168), External Balance (0.16, +0.120), and USD Liquidity (0.12, +0.084) — are all firmly bullish, accounting for 57% of the weighted score. The strategic horizon allows the external balance factor to dominate (0.16 weight vs 0.06 tactically), which is where Singapore's edge is most decisive: an 18% of GDP current account surplus is a fundamental force that drives long-run currency appreciation regardless of short-term noise. This surplus is structural, not cyclical, anchored in Singapore's role as Asia's financial hub, refining centre, and semiconductor supply chain node. The Guidance & Credibility factor (0.12 weight, +0.090) amplifies the policy signal because MAS's 44-year track record of low and stable inflation means markets trust the appreciation framework without requiring constant validation. The event risk factor neutralises strategically (0.000 contribution) as the Iran conflict is expected to de-escalate under the base case, removing the primary tactical headwind. The combined +0.653 score is the strongest net signal across all G10+SGD dossiers produced this cycle, reflecting near-unanimous factor alignment. The edge lies in three mispriced dynamics: the market underestimates the persistence of the semiconductor-driven export boom (WSTS projects $975.5bn in 2026 sales), the probability distribution of Fed rate outcomes is skewed dovish given the February NFP shock, and structural capital inflows to Singapore from family offices and wealth management will continue to accelerate, particularly with Iran-crisis-driven Gulf capital flight. The trade is highly actionable on the strategic horizon — the carry cost is significant (~280bp annualised) but manageable relative to the expected 200+ pip spot appreciation. Conviction is 4/5 rather than 5/5 because the oil shock introduces uncertainty about the inflation trajectory that could complicate MAS's April policy calculus.",
+      "g10_ranking": {
+        "rank": 2,
+        "out_of": 11,
+        "beats": ["EUR", "GBP", "AUD", "NZD", "CAD", "NOK", "SEK", "USD"],
+        "loses_to": ["CHF"],
+        "commentary": "SGD ranks second only to CHF strategically. Switzerland's massive surplus, zero rates providing maximum carry divergence, and gold correlation give CHF the edge. SGD is preferred over JPY strategically because the BOJ tightening cycle creates JPY volatility that could disrupt the trade, while MAS's managed float provides smoother returns."
+      },
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 55,
+          "outcome": "USD/SGD declines to 1.2400-1.2550 over 3-6 months",
+          "conditions": ["Iran de-escalation with Brent normalising to $70-80", "Fed delivers 1-2 cuts by September 2026", "MAS holds or tightens at April review"],
+          "path": "Gradual grind lower accelerating after April MAS review, following a descending staircase pattern."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "outcome": "USD/SGD breaks below 1.2400 toward 1.2200",
+          "conditions": ["MAS tightens at April review", "Fed cuts 50bp+ by September and semiconductor cycle peak deferred to 2027"]
+        },
+        "downside_case": {
+          "probability_pct": 20,
+          "outcome": "USD/SGD rebounds to 1.2900-1.3100",
+          "conditions": ["Hormuz sustained closure with oil above $120 for 3+ months", "Global recession confirmed with semiconductor demand collapse"]
+        }
+      },
+      "path_expectation": "USD/SGD is expected to follow a descending staircase pattern, with 100-150 pip legs lower punctuated by 50-70 pip consolidation phases. The April MAS review is the first major step — a hold would produce a modest grind to 1.2600, while a tightening would produce a sharp leg lower to 1.2450. The second step comes in June-July as the Section 122 tariff expires and the Fed's June SEP potentially shows an accelerated easing path. By September, the combination of a tighter MAS stance, lower Fed rates, and sustained semiconductor exports should push USD/SGD into the 1.24-1.25 range. Pullbacks toward 1.27-1.28 should be used as entry points for strategic short USD/SGD positions.",
+      "conviction_ladder": {
+        "current": 4,
+        "increase_to_5_if": ["MAS tightens S$NEER slope at April review AND Brent normalises below $80", "Semiconductor cycle shows no signs of peaking through Q2 2026 data"],
+        "increase_to_4_if": ["Already at 4", "Maintain if base case conditions persist"],
+        "decrease_to_3_if": ["MAS Core Inflation exceeds 2.5% without corresponding MAS tightening", "WSTS downgrades 2026 semiconductor forecast by >10%"],
+        "decrease_to_2_if": ["Semiconductor cycle peaks (WSTS downgrades below $800bn) AND China GDP misses <4%", "Sustained oil above $100 forcing stagflation in Singapore"],
+        "decrease_to_1_if": ["Strait of Hormuz sustained closure >1 month AND global recession confirmed", "MAS conducts emergency S$NEER slope reduction"]
+      },
+      "risk_reward": {
+        "base_case_payoff": "USD/SGD to 1.2480 = +230 pips from 1.2710 (1.8% spot return)",
+        "downside_case_loss": "USD/SGD to 1.3000 = -290 pips from 1.2710 (2.3% spot loss)",
+        "risk_reward_ratio": "Probability-adjusted 4.4:1 — (55% x 230 + 25% x 510) / (20% x 290) = 254 / 58",
+        "asymmetry_assessment": "Strongly favourable. The managed float means the downside case (USD/SGD to 1.30) would likely be temporary and met with MAS resistance, while the base case move (to 1.2480) is supported by the structural appreciation slope. The 4.4:1 probability-adjusted ratio is among the most attractive in G10+SGD."
+      }
+    },
+    "consensus_divergence": {
+      "consensus_view": "USD/SGD will range-trade between 1.26-1.30 through 2026, with modest SGD appreciation to approximately 1.28 by year-end. The median bank forecast for Q3 2026 sits at approximately 1.27-1.28.",
+      "our_view": "USD/SGD will decline to 1.2400-1.2500 by September 2026, with a possible test of 1.2200 if MAS tightens and the Fed delivers 50bp+ of cuts. We are approximately 200-300 pips more SGD-bullish than consensus.",
+      "divergence_magnitude": "200-300 pips more bullish on SGD than consensus median (~1.28)",
+      "why_we_differ": "Consensus underestimates three dynamics: (1) the persistence of the semiconductor cycle — WSTS's $975 billion 2026 forecast implies continued extraordinary electronics export growth that will keep the current account surplus at 15-18% of GDP; (2) the probability of MAS tightening at April — at 47%, it is nearly a coin flip, but if it happens, the signalling effect is worth 100+ pips of immediate SGD appreciation; (3) the structural capital inflow story (family offices, wealth management) has not peaked — the Iran crisis is accelerating Gulf-to-Singapore capital flows.",
+      "payoff_if_right": "Short USD/SGD from 1.2710 to 1.2450 = 260 pips (approximately 2.0% spot return + 1.0% forward premium = 3.0% total return, annualised ~6%).",
+      "risk_if_wrong": "If consensus is right and USD/SGD ranges at 1.28, the loss is approximately 90 pips + 130 pips carry cost over 6 months = 220 pips total cost of being wrong."
+    },
+    "cross_currency_relative_value": {
+      "cleanest_bullish_expression": {
+        "pair": "Short USD/SGD (spot)",
+        "rationale": "Direct, liquid, low volatility, managed appreciation tailwind. The negative carry (~283bp annualised) is the primary cost but is offset by the ~2% per annum structural appreciation embedded in the S$NEER band. The 200-DMA at 1.29 provides a clear stop level."
+      },
+      "cleanest_bearish_expression": {
+        "pair": "Long AUD/SGD",
+        "rationale": "Captures the Australian-Singaporean relative value: AUD has positive carry (+303bp) and is backed by the RBA's surprise hike to 3.85%. However, Australia faces sticky 3.8% inflation and potential further rate hikes that create growth risk. AUD/SGD at ~0.88 is expensive versus its 5-year mean of ~0.92."
+      },
+      "relative_value_pairs": [
+        {"pair": "Short USD/SGD vs Long USD/CHF", "thesis": "Isolates the safe-haven surplus currencies outperform theme while partially hedging USD directionality."},
+        {"pair": "Short AUD/SGD", "thesis": "Semiconductor exporter (SGD) vs commodity exporter (AUD). The AI cycle vs old-economy divergence trade."},
+        {"pair": "Long SGD/NOK", "thesis": "Both are managed/surplus currencies, but SGD benefits from the oil shock (refining margins) while NOK suffers from potential production curtailment. The terms-of-trade divergence provides the edge."}
+      ]
+    },
+    "cross_horizon_consistency": {
+      "aligned": true,
+      "summary": "Tactical and strategic stances are aligned (both Bullish SGD), providing consistency. Conviction increases from 3/5 to 4/5 across horizons.",
+      "divergence_explanation": "The only factors that change direction are Event Risk (mildly bearish tactical to neutral strategic) and Risk Appetite (neutral tactical to mildly bullish strategic), both driven by the expected de-escalation of the Iran crisis. The higher strategic conviction reflects the increased weight of the External Balance factor (0.16 vs 0.06) where Singapore's edge is most decisive.",
+      "inflection_point": "The April MAS review is the key inflection — if MAS tightens, tactical conviction jumps to 4/5 and fully aligns with the strategic view.",
+      "catalyst_for_transition": "MAS Monetary Policy Statement (April 2026) plus FOMC June SEP — the combination of MAS tightening and Fed dovish shift would elevate both horizons to maximum conviction.",
+      "trading_implication": "Size positions for the strategic horizon (target 1.2480, stop 1.3000) and use the March 17-19 event cluster as a potential entry or add point if USD/SGD temporarily widens toward 1.2800."
+    },
+    "forward_vs_spot": {
+      "spot": "1.2710",
+      "forwards": {
+        "1m": {"points": "-22", "outright": "1.2688", "annualised_pct": "-2.1% (SGD at forward premium, reflecting negative rate differential)"},
+        "3m": {"points": "-68", "outright": "1.2642", "annualised_pct": "-2.1%"},
+        "6m": {"points": "-135", "outright": "1.2575", "annualised_pct": "-2.1%"}
+      },
+      "expected_spot": {
+        "1m": "1.2660",
+        "3m": "1.2580",
+        "6m": "1.2480"
+      },
+      "edge": {
+        "1m": "+28 pips (forward implies 1.2688, we expect 1.2660)",
+        "3m": "+62 pips (forward implies 1.2642, we expect 1.2580)",
+        "6m": "+95 pips (forward implies 1.2575, we expect 1.2480)"
+      },
+      "interpretation": "The forward curve prices approximately 2.1% annualised SGD appreciation, consistent with the carry differential. Our expected rates are more SGD-bullish by 28-95 pips across the curve, implying the market under-prices the pace of appreciation. The edge widens at longer tenors because the market does not fully price the probability of MAS tightening, semiconductor cycle extension, and Fed easing. Spot short USD/SGD is preferred over forward-settled because the forward already captures the rate differential — the edge is in the spot move exceeding what the forward implies."
+    }
+  },
+
+  "forward_looking": {
+    "key_catalysts": [
+      {"date": "2026-03-11", "event": "US CPI (February data)", "expected_impact": "Ambiguous", "rationale": "Higher-than-expected CPI would reduce Fed cut expectations, strengthening USD and weakening SGD. Lower CPI would do the opposite. The oil price spike may push headline higher, but core PCE is the Fed's focus.", "priced_in": "Partially — consensus expects +0.3% MoM core", "bilateral_relevance": "USD/SGD", "citations": [26]},
+      {"date": "2026-03-17", "event": "Singapore NODX (February data)", "expected_impact": "Bullish", "rationale": "Electronics NODX momentum from January (+56.1%) likely extended into February. A strong print reinforces the semiconductor cycle narrative and supports MAS tightening expectations.", "priced_in": "Partially — market expects moderation from January's exceptional print", "bilateral_relevance": "USD/SGD, AUD/SGD", "citations": [19]},
+      {"date": "2026-03-18", "event": "FOMC Decision", "expected_impact": "Bullish", "rationale": "The February NFP shock (-92K) has shifted expectations toward dovish forward guidance. If the dot plot shows 2 cuts in 2026, USD will weaken broadly. Even a dovish hold would confirm the easing bias.", "priced_in": "Partially — one cut priced, second cut not fully priced", "bilateral_relevance": "USD/SGD (primary), all USD crosses", "citations": [12, 26]},
+      {"date": "2026-03-19", "event": "BOJ Decision", "expected_impact": "Bearish", "rationale": "BOJ may signal a June hike to 1.00%, strengthening JPY. This would push SGD/JPY lower but has limited impact on USD/SGD directly.", "priced_in": "Partially — market prices 60% chance of June hike", "bilateral_relevance": "SGD/JPY", "citations": [47]},
+      {"date": "2026-03-19", "event": "ECB, BOE, Riksbank, SNB Decisions (Super Thursday)", "expected_impact": "Neutral", "rationale": "All four are expected to hold. Any surprise cut (ECB or SNB) would weaken those currencies vs SGD.", "priced_in": "Fully priced holds", "bilateral_relevance": "EUR/SGD, GBP/SGD", "citations": [47]},
+      {"date": "2026-03-23", "event": "Singapore CPI (February data)", "expected_impact": "Ambiguous", "rationale": "Oil price spike may push headline toward 2.0%. If MAS Core exceeds 1.5%, April tightening expectations rise sharply — bullish SGD. If it stays at 1.0-1.2%, hold case strengthens.", "priced_in": "Not priced", "bilateral_relevance": "USD/SGD", "citations": [17]},
+      {"date": "2026-03-26", "event": "Norges Bank Decision", "expected_impact": "Neutral", "rationale": "Expected to hold at 4.00%. Minor cross-currency implications for SGD/NOK.", "priced_in": "Fully priced", "bilateral_relevance": "SGD/NOK", "citations": [47]},
+      {"date": "2026-04-03", "event": "US NFP (March data)", "expected_impact": "Bullish", "rationale": "If March confirms the February -92K as a trend, Fed cut expectations will surge, weakening USD. A strong rebound would dampen the dovish narrative.", "priced_in": "Not priced", "bilateral_relevance": "USD/SGD", "citations": [26]},
+      {"date": "2026-04-W2", "event": "MAS Monetary Policy Statement + Q1 GDP Advance", "expected_impact": "Bullish", "rationale": "The most important single catalyst for SGD this quarter. A slope increase (47% probability) would be unambiguously bullish. A hawkish hold would maintain the appreciation bias. Q1 GDP could surprise above 4%.", "priced_in": "Partially — 47% tightening priced", "bilateral_relevance": "USD/SGD (primary), all SGD crosses", "citations": [4, 13, 21]},
+      {"date": "2026-04-29", "event": "FOMC Decision (April)", "expected_impact": "Bullish", "rationale": "If March data confirms US slowdown, this could be the meeting where the Fed signals a June cut via updated forward guidance.", "priced_in": "Not priced", "bilateral_relevance": "USD/SGD", "citations": [12]},
+      {"date": "2026-06-17", "event": "FOMC Decision with SEP (June)", "expected_impact": "Bullish", "rationale": "Q2 SEP with potential for dovish shift. If the median dot shows 3+ cuts by end-2027, USD weakness accelerates.", "priced_in": "Not priced", "bilateral_relevance": "USD/SGD", "citations": [12]},
+      {"date": "2026-07-23", "event": "US Section 122 Tariff Expiry", "expected_impact": "Bullish", "rationale": "The 10% tariff on Singapore exports expires after 150 days. Removal eliminates a minor headwind to Singapore's export competitiveness and reduces trade policy uncertainty.", "priced_in": "Not priced", "bilateral_relevance": "USD/SGD", "citations": [42]}
+    ],
+    "invalidators": [
+      {"condition": "Brent crude sustains above $110/bbl for 4+ weeks", "new_stance": "Neutral", "mechanism": "Persistent energy cost inflation would force MAS to weigh growth preservation vs inflation control, potentially delaying tightening and creating stagflationary risk for the trade-dependent economy.", "monitor_indicator": "Brent crude front-month contract", "monitor_frequency": "Daily", "quantitative_threshold": "$110/bbl sustained 20+ trading days", "probability_pct": 15},
+      {"condition": "MAS reduces the S$NEER slope at April review", "new_stance": "Bearish", "mechanism": "A slope reduction would signal MAS prioritises growth over inflation control and reverse the appreciation trend, undermining the core bullish thesis.", "monitor_indicator": "MAS Monetary Policy Statement", "monitor_frequency": "Semi-annual (next: April 2026)", "quantitative_threshold": "Any slope reduction language in MPS", "probability_pct": 5},
+      {"condition": "WSTS downgrades 2026 semiconductor forecast below $800 billion", "new_stance": "Neutral", "mechanism": "A >20% downgrade would undermine the export-driven growth narrative, reduce NODX growth expectations, and compress the current account surplus that underpins SGD strength.", "monitor_indicator": "WSTS quarterly forecast updates", "monitor_frequency": "Quarterly", "quantitative_threshold": ">20% downgrade from $975.5bn forecast", "probability_pct": 10},
+      {"condition": "USD/SGD closes above 1.2900 (200-DMA) on a weekly basis", "new_stance": "Neutral", "mechanism": "A weekly close above the 200-DMA would confirm a technical trend reversal, signalling that the managed appreciation is stalling and positioning should be reduced.", "monitor_indicator": "USD/SGD weekly close vs 200-DMA", "monitor_frequency": "Weekly", "quantitative_threshold": "1.2900 weekly close", "probability_pct": 15},
+      {"condition": "China Q1 2026 GDP prints below 4.0% YoY", "new_stance": "Neutral", "mechanism": "A sharp China growth miss would reduce demand for Singapore's re-exports and dampen the electronics cycle through the supply chain channel.", "monitor_indicator": "China GDP release (April 2026)", "monitor_frequency": "Quarterly", "quantitative_threshold": "<4.0% YoY", "probability_pct": 10},
+      {"condition": "VIX sustains above 35 for 2+ weeks", "new_stance": "Bearish", "mechanism": "Sustained global risk aversion would trigger USD safe-haven demand that overwhelms SGD's regional safe-haven status, pushing USD/SGD higher.", "monitor_indicator": "VIX daily close", "monitor_frequency": "Daily", "quantitative_threshold": ">35 sustained 10+ sessions", "probability_pct": 10},
+      {"condition": "MAS reserves decline by >US$15 billion in a single month", "new_stance": "Neutral", "mechanism": "Large reserve drawdowns would signal MAS is selling reserves to defend the S$NEER weak edge, implying a fundamental shift in flow dynamics from inflows to outflows.", "monitor_indicator": "MAS Official Foreign Reserves monthly release", "monitor_frequency": "Monthly", "quantitative_threshold": ">US$15bn single-month decline", "probability_pct": 5}
+    ],
+    "signposts": [
+      {"indicator": "MAS Core Inflation (YoY)", "current_level": "1.0% (January 2026)", "threshold_confirms": "Rises to 1.5-2.0% (supports April tightening case)", "threshold_invalidates": "Falls below 0.5% (removes tightening rationale)", "bilateral_importance": "USD/SGD (primary)", "source_url": "https://tradingeconomics.com/singapore/inflation-cpi", "frequency": "Monthly"},
+      {"indicator": "Brent Crude Oil (front-month)", "current_level": "~$88/bbl (March 10)", "threshold_confirms": "Falls below $80 (terms-of-trade headwind eliminated)", "threshold_invalidates": "Sustains above $110 (stagflationary risk)", "bilateral_importance": "USD/SGD, SGD/NOK", "source_url": "https://www.barchart.com/futures/quotes/CB*0/futures-prices", "frequency": "Continuous"},
+      {"indicator": "Singapore Electronics NODX (YoY)", "current_level": "+56.1% (January 2026)", "threshold_confirms": "Remains above +20% for 3 consecutive months", "threshold_invalidates": "Turns negative", "bilateral_importance": "USD/SGD, AUD/SGD", "source_url": "https://tradingeconomics.com/singapore/exports", "frequency": "Monthly"},
+      {"indicator": "DXY (US Dollar Index)", "current_level": "~97.9", "threshold_confirms": "Breaks below 96 (sustained USD weakness)", "threshold_invalidates": "Rebounds above 103 (USD bull reversal)", "bilateral_importance": "All USD crosses including USD/SGD", "source_url": "https://tradingeconomics.com/united-states/currency", "frequency": "Continuous"},
+      {"indicator": "VIX (CBOE Volatility Index)", "current_level": "~23-25", "threshold_confirms": "Falls below 18 (risk-on environment, SGD benefits)", "threshold_invalidates": "Rises above 35 sustained (risk-off, USD safe-haven)", "bilateral_importance": "Broad FX, USD/SGD", "source_url": "https://www.investing.com/indices/volatility-s-p-500-historical-data", "frequency": "Continuous"},
+      {"indicator": "MAS Official Foreign Reserves", "current_level": "SGD 529.11bn (~US$409bn)", "threshold_confirms": "Continues rising (MAS absorbing SGD inflows)", "threshold_invalidates": "Declines >US$10bn in a month (MAS defending weak edge)", "bilateral_importance": "USD/SGD", "source_url": "https://tradingeconomics.com/singapore/foreign-exchange-reserves", "frequency": "Monthly"},
+      {"indicator": "SOFR (Secured Overnight Financing Rate)", "current_level": "3.65%", "threshold_confirms": "Falls below 3.50% (Fed easing, carry narrows)", "threshold_invalidates": "Rises above 4.00% (Fed tightening, carry widens)", "bilateral_importance": "USD/SGD", "source_url": "https://www.sofrrate.com/", "frequency": "Daily"}
+    ]
+  },
+
+  "change_since_last_report": {
+    "factors_changed": [
+      {"factor": "Event Risk & Geopolitics", "previous_stance": "Neutral", "new_stance": "Mildly Bearish (tactical)", "reason": "Iran-US war erupted February 28 — introduced major oil supply disruption risk and Strait of Hormuz closure tail risk not present in February dossier."},
+      {"factor": "Risk Appetite & Sentiment", "previous_stance": "Mildly Bullish", "new_stance": "Neutral (tactical)", "reason": "VIX spiked to 35.0 from stable ~15-18 environment in late February. Risk appetite shifted from stable to fragile recovery phase."}
+    ],
+    "signposts_triggered": [
+      {"signpost": "VIX level", "outcome": "Spiked to 35.0 on March 9, exceeding the 30+ caution threshold", "implication": "Temporarily increased USD safe-haven demand, creating a modest headwind for SGD. Subsequently reversed to ~23-25 as ceasefire signals emerged."},
+      {"signpost": "Brent crude", "outcome": "Spiked from ~$70 to $119 before retreating to ~$88", "implication": "Adverse terms-of-trade shock for Singapore as net oil importer, partially offset by surging refining margins."}
+    ],
+    "conviction_change": {
+      "previous_tactical": 4,
+      "current_tactical": 3,
+      "previous_strategic": 4,
+      "current_strategic": 4,
+      "explanation": "Tactical conviction reduced from 4 to 3 due to the Iran war introducing geopolitical tail risk and the VIX spike creating near-term uncertainty. Strategic conviction maintained at 4 as the structural drivers (external surplus, semiconductor cycle, USD easing) remain intact and the base case is that geopolitical risk dissipates over the strategic horizon."
+    },
+    "new_catalysts": [
+      "Iran-US war and Strait of Hormuz disruption risk (began February 28)",
+      "US February NFP shock of -92,000 (reported March 6) — significantly increased Fed cut expectations",
+      "DXY broke below 98 for the first time since 2022",
+      "MAS March 10 statement monitoring Middle East developments",
+      "VIX spike to 35 and subsequent recovery to ~23"
+    ],
+    "thesis_trajectory": "Unchanged"
+  },
+
+  "seasonality": {
+    "pattern": "March-April has historically been a modestly positive period for SGD, driven by the April MAS review often delivering tightening surprises during strong economic environments.",
+    "relevance_window": "March-April 2026 (within tactical horizon)",
+    "historical_magnitude": "The 2022 and 2023 April reviews both delivered hawkish surprises that pushed USD/SGD lower by 100-200 pips within two weeks.",
+    "current_alignment": "Supportive — the current environment (strong growth + rising inflation) mirrors the 2022-2023 precedents. No seasonal weakness observed for SGD in March-September."
+  },
+
+  "assumptions": [
+    "S$NEER band parameters are estimated from market behavior and broker research, as MAS does not disclose exact band parameters. The upper half positioning is sourced from MAS's own Macroeconomic Review.",
+    "CFTC positioning data is unavailable for SGD. The analysis uses MAS reserve changes, capital flow data, and S$NEER band positioning as proxies, which reduces confidence in the Flows & Positioning factor.",
+    "USD/SGD implied volatility, risk reversals, and cross-currency basis swap levels are estimated or noted as unavailable where they require Bloomberg or bank research terminals.",
+    "PPP deviations are based on the Economist's Big Mac Index (January 2026 vintage) and OECD PPP estimates — crude measures that capture broad valuation signals but should not be interpreted as precise fair values.",
+    "The Iran-US war introduces an unusually wide range of possible outcomes. The analysis uses a 55% base case (de-escalation), 25% upside (rapid resolution), and 20% downside (escalation) — these probabilities are subjective assessments.",
+    "Forward points are estimated from published MAS swap point data and rate differential calculations, not live market quotes."
+  ],
+
+  "complete_citations": [
+    {"id": 1, "title": "USD SGD Historical Data", "publisher": "Investing.com", "url": "https://www.investing.com/currencies/usd-sgd-historical-data", "date_accessed": "2026-03-11"},
+    {"id": 2, "title": "USD SGD Spot Exchange Rates History 2026", "publisher": "Exchange Rates UK", "url": "https://www.exchangerates.org.uk/USD-SGD-spot-exchange-rates-history-2026.html", "date_accessed": "2026-03-11"},
+    {"id": 3, "title": "Real Broad Effective Exchange Rate for Singapore", "publisher": "FRED", "url": "https://fred.stlouisfed.org/series/RBSGBIS", "date_accessed": "2026-03-11"},
+    {"id": 4, "title": "Macroeconomic Review Volume XXV Issue 1 January 2026", "publisher": "MAS", "url": "https://www.mas.gov.sg/publications/macroeconomic-review/2026/volume-xxv-issue-1-jan-2026", "date_accessed": "2026-03-11"},
+    {"id": 5, "title": "Navigating S$NEER MAS Policy Decisions and USDSGD View", "publisher": "OANDA", "url": "https://www.oanda.com/sg-en/trade-tap-blog/oanda-views/navigating-sgd-policy-band/", "date_accessed": "2026-03-11"},
+    {"id": 6, "title": "Commitments of Traders Report", "publisher": "CFTC", "url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm", "date_accessed": "2026-03-11"},
+    {"id": 7, "title": "Singapore Family Office Surge 1650 SFOs", "publisher": "Hubbis", "url": "https://hubbis.com/news/singapore-s-family-office-surge-1-650-sfos-driving-wealth-management-growth", "date_accessed": "2026-03-11"},
+    {"id": 8, "title": "Strategic Ascent of Family Offices in Asia", "publisher": "Julius Baer", "url": "https://www.juliusbaer.com/en/insights/wealth-insights/wealth-planning/whats-causing-the-strategic-ascent-of-family-offices-in-asia-family-barometer-2025/", "date_accessed": "2026-03-11"},
+    {"id": 9, "title": "Singapore Overnight Rate Average SORA", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/singapore/interest-rate", "date_accessed": "2026-03-11"},
+    {"id": 10, "title": "Singapore Government Bond Yield", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/singapore/government-bond-yield", "date_accessed": "2026-03-11"},
+    {"id": 11, "title": "Singapore Foreign Exchange Reserves", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/singapore/foreign-exchange-reserves", "date_accessed": "2026-03-11"},
+    {"id": 12, "title": "SOFR Rate Today", "publisher": "SOFRRate.com", "url": "https://www.sofrrate.com/", "date_accessed": "2026-03-11"},
+    {"id": 13, "title": "Singapore MAS Survey 2026 GDP at 3.6% April Tightening Odds Rise", "publisher": "InvestingLive", "url": "https://investinglive.com/centralbank/singapore-mas-survey-2026-gdp-seen-at-36-april-tightening-odds-rise-20260226/", "date_accessed": "2026-03-11"},
+    {"id": 14, "title": "Federal Reserve Implementation Note January 28 2026", "publisher": "Federal Reserve", "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128a1.htm", "date_accessed": "2026-03-11"},
+    {"id": 15, "title": "USD Forecast 2026", "publisher": "Cambridge Currencies", "url": "https://cambridgecurrencies.com/usd-forecast-2026/", "date_accessed": "2026-03-11"},
+    {"id": 16, "title": "Singapore GDP Annual Growth Rate", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/singapore/gdp-growth-annual", "date_accessed": "2026-03-11"},
+    {"id": 17, "title": "Singapore Inflation Rate", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/singapore/inflation-cpi", "date_accessed": "2026-03-11"},
+    {"id": 18, "title": "Singapore Manufacturing PMI Expands for Seventh Straight Month", "publisher": "MarketScreener", "url": "https://www.marketscreener.com/news/singapore-manufacturing-pmi-expands-for-seventh-straight-month-ce7e5cdcd08cff23", "date_accessed": "2026-03-11"},
+    {"id": 19, "title": "Singapore NODX Rises 9.3% in January on Strong Electronics Demand", "publisher": "IBTimes Singapore", "url": "https://www.ibtimes.sg/singapores-nodx-rises-9-3-january-strong-electronics-demand-83779", "date_accessed": "2026-03-11"},
+    {"id": 20, "title": "Singapore Unemployment Rate", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/singapore/unemployment-rate", "date_accessed": "2026-03-11"},
+    {"id": 21, "title": "Singapore Raises 2026 Growth Forecast on AI Demand", "publisher": "Investing.com", "url": "https://www.investing.com/news/economy-news/singapore-raises-2026-growth-forecast-on-global-economic-momentum-and-ai-demand-4495446", "date_accessed": "2026-03-11"},
+    {"id": 22, "title": "Global Semiconductor Market Approaches USD 1 Trillion", "publisher": "WSTS", "url": "https://www.wsts.org/esraCMS/extension/media/f/WST/7310/WSTS_FC-Release-2025_11.pdf", "date_accessed": "2026-03-11"},
+    {"id": 23, "title": "Philadelphia Semiconductor Index SOX", "publisher": "TradingView", "url": "https://www.tradingview.com/symbols/NASDAQ-SOX/", "date_accessed": "2026-03-11"},
+    {"id": 24, "title": "Crude Oil Price Forecast Strait of Hormuz", "publisher": "Capital.com", "url": "https://capital.com/en-int/market-updates/crude-oil-price-forecast-09-03-2026", "date_accessed": "2026-03-11"},
+    {"id": 25, "title": "Singapore in the Storm 2026 Global Oil Price Surge", "publisher": "Maxthon", "url": "https://blog.maxthon.com/2026/03/07/singapore-in-the-storm-navigating-the-2026-global-oil-price-surge/", "date_accessed": "2026-03-11"},
+    {"id": 26, "title": "February 2026 Jobs Report", "publisher": "CNBC", "url": "https://www.cnbc.com/2026/03/06/february-2026-jobs-report.html", "date_accessed": "2026-03-11"},
+    {"id": 27, "title": "CBOE Volatility Index Historical Rates", "publisher": "Investing.com", "url": "https://www.investing.com/indices/volatility-s-p-500-historical-data", "date_accessed": "2026-03-11"},
+    {"id": 28, "title": "Stock Market News March 9 2026", "publisher": "CNBC", "url": "https://www.cnbc.com/2026/03/08/stock-market-today-live-updates.html", "date_accessed": "2026-03-11"},
+    {"id": 29, "title": "European Markets Iran War Latest News", "publisher": "CNBC", "url": "https://www.cnbc.com/2026/03/10/european-markets-stoxx-600-ftse-dax-cac-iran-war-latest-news.html", "date_accessed": "2026-03-11"},
+    {"id": 30, "title": "Hang Seng Index Recovered at 24765", "publisher": "ActionForex", "url": "https://www.actionforex.com/contributors/fundamental-analysis/632703-chart-alert-hang-seng-index-recovered-at-24765-bulls-need-to-break-above-26350/", "date_accessed": "2026-03-11"},
+    {"id": 31, "title": "CSI 300 Index", "publisher": "Yahoo Finance", "url": "https://finance.yahoo.com/quote/000300.SS/", "date_accessed": "2026-03-11"},
+    {"id": 32, "title": "US High Yield OAS", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/united-states/bofa-merrill-lynch-us-high-yield-option-adjusted-spread-fed-data.html", "date_accessed": "2026-03-11"},
+    {"id": 33, "title": "USD CNH", "publisher": "Investing.com", "url": "https://www.investing.com/currencies/usd-cnh", "date_accessed": "2026-03-11"},
+    {"id": 34, "title": "Singapore Dollar Quote Chart", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/singapore/currency", "date_accessed": "2026-03-11"},
+    {"id": 35, "title": "2026 Investment Grade Credit Outlook", "publisher": "PineBridge", "url": "https://www.pinebridge.com/en/insights/2026-investment-grade-credit-outlook", "date_accessed": "2026-03-11"},
+    {"id": 36, "title": "DBS UOB OCBC Share Price Dividend March 2026", "publisher": "Beansprout", "url": "https://growbeansprout.com/dbs-uob-ocbc-share-price-dividend-mar-2026", "date_accessed": "2026-03-11"},
+    {"id": 37, "title": "Budget 2026", "publisher": "Gov.sg", "url": "https://www.gov.sg/budget2026/", "date_accessed": "2026-03-11"},
+    {"id": 38, "title": "Temasek Holdings", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Temasek_(company)", "date_accessed": "2026-03-11"},
+    {"id": 39, "title": "GIC FAQs", "publisher": "GIC", "url": "https://www.gic.com.sg/who-we-are/faqs/", "date_accessed": "2026-03-11"},
+    {"id": 40, "title": "Singapore Current Account", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/singapore/current-account", "date_accessed": "2026-03-11"},
+    {"id": 41, "title": "Short-Term Energy Outlook", "publisher": "US EIA", "url": "https://www.eia.gov/outlooks/steo/", "date_accessed": "2026-03-11"},
+    {"id": 42, "title": "US Tariff Outlook Singapore Monitors Developments", "publisher": "The Online Citizen", "url": "https://theonlinecitizen.com/2026/03/05/uncertainty-clouds-us-tariff-outlook-as-singapore-monitors-developments-says-gan-siow-huang", "date_accessed": "2026-03-11"},
+    {"id": 43, "title": "Monetary Policy", "publisher": "MAS", "url": "https://www.mas.gov.sg/monetary-policy", "date_accessed": "2026-03-11"},
+    {"id": 44, "title": "Comments by MAS on Market Conditions", "publisher": "MAS", "url": "https://www.mas.gov.sg/news/media-releases/2026/comments-by-mas-on-market-conditions", "date_accessed": "2026-03-11"},
+    {"id": 45, "title": "US-Israel Strikes on Iran February March 2026", "publisher": "House of Commons Library", "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/", "date_accessed": "2026-03-11"},
+    {"id": 46, "title": "Past Monetary Policy Decisions", "publisher": "MAS", "url": "https://www.mas.gov.sg/monetary-policy/past-monetary-policy-decisions", "date_accessed": "2026-03-11"},
+    {"id": 47, "title": "Key Interest Rate Decision Dates 2026", "publisher": "Morningstar", "url": "https://global.morningstar.com/en-nd/economy/key-interest-rate-decision-dates-2026", "date_accessed": "2026-03-11"},
+    {"id": 48, "title": "Limits of Chip Export Controls Meeting China Challenge", "publisher": "CSIS", "url": "https://www.csis.org/analysis/limits-chip-export-controls-meeting-china-challenge", "date_accessed": "2026-03-11"},
+    {"id": 49, "title": "Decoding Singapore Budget 2026 Key Tax Measures", "publisher": "Alvarez & Marsal", "url": "https://www.alvarezandmarsal.com/thought-leadership/decoding-singapore-budget-2026-spotlight-on-key-tax-measures", "date_accessed": "2026-03-11"},
+    {"id": 50, "title": "Why the Fed Began Balance Sheet Expansion", "publisher": "International Banker", "url": "https://internationalbanker.com/banking/why-the-fed-began-a-new-phase-of-balance-sheet-expansion-in-december/", "date_accessed": "2026-03-11"}
+  ]
+}

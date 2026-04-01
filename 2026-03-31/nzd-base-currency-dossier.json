@@ -1,0 +1,912 @@
+{
+  "_schema_version": "2.0",
+  "base": "NZD",
+  "valuation_date": "2026-04-01",
+  "framework_version": "2.0",
+  "freshness_days_tactical": 30,
+  "freshness_days_strategic": 60,
+
+  "executive_summary": "NZD/USD trades at 0.5725, near 4-month lows and approximately 15% below OECD PPP fair value (~0.685), reflecting a confluence of hostile forces: the Iran-US military conflict has sent Brent crude above $107/bbl, crushing confidence in New Zealand — a 100% refined fuel importer since Marsden Point's closure — while the RBNZ's 2.25% OCR (2nd-lowest in G10) generates negative carry against nearly every peer. Headline CPI at 3.1% YoY has breached the top of the RBNZ's 1–3% target band just as the oil shock threatens to push it toward 4%, creating a stagflationary trap: the economy grew just +0.2% QoQ in Q4 2025 with unemployment at 5.4%, the highest since 2015. Fitch's March outlook downgrade to Negative on NZ's AA+ rating adds sovereign risk premium, and CFTC data shows leveraged funds and asset managers holding a combined net short of -41,742 contracts — a 3-year extreme. The tension: NZD is deeply cheap by every valuation metric, dairy prices have rallied 18% YTD providing structural support, and extreme short positioning creates a powerful spring for a relief rally on any geopolitical de-escalation — but the near-term trajectory is dictated by the April 6 Hormuz deadline and whether the Iran conflict escalates or resolves. Net stance: Bearish tactically (conviction 3/5), mildly Bearish strategically (conviction 2/5), with valuation and positioning providing the counterbalance that limits conviction and creates asymmetric upside risk should the geopolitical backdrop improve.",
+
+  "market_context": {
+    "spot": {
+      "rate": "NZD/USD 0.5725",
+      "convention": "Rising NZD/USD = NZD strengthening; falling NZD/USD = NZD weakening",
+      "primary_index": "RBNZ Trade-Weighted Index (TWI) ~68.4, below long-run average of ~70–73",
+      "date": "2026-03-31"
+    },
+    "key_crosses": [
+      { "pair": "AUD/NZD", "rate": "1.1987", "convention": "Rising = NZD weakening vs AUD" },
+      { "pair": "NZD/JPY", "rate": "90.50", "convention": "Rising = NZD strengthening vs JPY; risk barometer" },
+      { "pair": "EUR/NZD", "rate": "2.015", "convention": "Rising = NZD weakening vs EUR" },
+      { "pair": "GBP/NZD", "rate": "2.320", "convention": "Rising = NZD weakening vs GBP" },
+      { "pair": "NZD/CAD", "rate": "0.798", "convention": "Rising = NZD strengthening vs CAD" },
+      { "pair": "NZD/SGD", "rate": "0.737", "convention": "Rising = NZD strengthening vs SGD" }
+    ],
+    "performance": {
+      "1m": { "pct_change": "-3.6% to -4.4%", "direction": "Sharp weakening" },
+      "3m": { "pct_change": "~-5.8%", "direction": "Sustained weakening" },
+      "6m": { "pct_change": "~-3.0%", "direction": "Weakening" },
+      "1y": { "pct_change": "~flat", "direction": "Flat" }
+    },
+    "valuation": {
+      "overall_assessment": "Deeply cheap",
+      "bis_reer": {
+        "level": 102.72,
+        "historical_percentile": 35,
+        "interpretation": "BIS REER at 102.72 (2020=100) sits approximately 3–5% below the long-run average of ~105–107, indicating the NZD is modestly cheap in trade-weighted real terms. The recent nominal depreciation is not yet fully reflected in the latest February reading."
+      },
+      "ppp_table": [
+        { "vs_currency": "USD", "deviation_pct": -16.4, "implied_fair_value": "0.685" },
+        { "vs_currency": "EUR", "deviation_pct": -15.0, "implied_fair_value": "~1.72" },
+        { "vs_currency": "JPY", "deviation_pct": -14.0, "implied_fair_value": "~105" },
+        { "vs_currency": "GBP", "deviation_pct": -14.0, "implied_fair_value": "~2.00" },
+        { "vs_currency": "AUD", "deviation_pct": -10.0, "implied_fair_value": "~1.08" },
+        { "vs_currency": "CAD", "deviation_pct": -9.0, "implied_fair_value": "~0.88" },
+        { "vs_currency": "CHF", "deviation_pct": -9.0, "implied_fair_value": "~1.18" },
+        { "vs_currency": "NOK", "deviation_pct": -11.0, "implied_fair_value": "~7.80" },
+        { "vs_currency": "SEK", "deviation_pct": -11.0, "implied_fair_value": "~7.50" },
+        { "vs_currency": "SGD", "deviation_pct": -10.0, "implied_fair_value": "~0.82" }
+      ],
+      "trade_weighted_assessment": "RBNZ TWI at ~68.4 is below the RBNZ's February MPS assumption of ~68.0 for March 2027 (reached early) and below the long-run average of ~70–73, indicating broad-based NZD weakness not limited to the USD cross.",
+      "what_is_priced_in": "NZD's extreme undervaluation reflects the combined impact of NZ's structural negative NIIP (-47% of GDP), negative carry relative to most G10 peers, and an elevated geopolitical risk premium from the Iran conflict. The market is pricing a prolonged period of NZD weakness driven by the oil shock and RBNZ policy inaction.",
+      "actionability": "The valuation signal is clearly bullish over a 1–3 year horizon but not immediately actionable given the hostile near-term backdrop — PPP is a gravitational anchor, not a timing tool. The ANZ fair value model (~0.62) suggests ~8% upside should the geopolitical premium normalize."
+    },
+    "positioning_summary": {
+      "cftc": {
+        "leveraged_funds": {
+          "net_contracts": -16730,
+          "direction": "short",
+          "notional_usd": "~$960M (estimated at NZD contract size × net × NZD/USD)",
+          "weekly_change_contracts": -813,
+          "weekly_change_direction": "More short"
+        },
+        "asset_managers": {
+          "net_contracts": -25012,
+          "direction": "short",
+          "notional_usd": "~$1.4B (estimated)"
+        },
+        "total_open_interest": 65011,
+        "net_all_specs_percentile": 85,
+        "percentile_context": "Combined net short of -41,742 contracts sits in approximately the 80th–90th percentile of net short positioning over a 3-year lookback, representing one of the most extreme short-NZD configurations since the pandemic."
+      },
+      "other_positioning_signals": "Risk reversal skew estimated negative (NZD puts bid over calls), consistent with institutional demand for downside protection. No significant NZD ETFs exist. Options market sentiment is likely a better positioning proxy than CFTC for NZD given the small open interest.",
+      "interpretation": "Both leveraged funds and asset managers are heavily net short NZD, with the positioning trade still actively building (weekly additions of -813 and -2,911 contracts respectively). Dealer positioning (+39,716 net long) is the offsetting counterparty. The short trade has momentum and is not yet showing signs of exhaustion.",
+      "contrarian_assessment": "The contrarian signal is moderately bullish — this level of crowded shorts creates conditions for a sharp squeeze on any positive catalyst (ceasefire, positive data surprise), potentially generating 200–300 pips of rapid appreciation. However, NZD's small open interest means positioning extremes are reached at lower absolute levels, and in a trending bear market with active fundamentals, crowded shorts can persist for 4–8 weeks."
+    },
+    "market_structure_vol_summary": {
+      "trend_regime": "Bearish trending — lower highs, lower lows since mid-January, accelerating post-Iran conflict",
+      "key_levels": {
+        "support": [
+          { "level": "0.5591", "significance": "November 2025 low — prior cycle low, first major support" },
+          { "level": "0.5485", "significance": "52-week low — breakout trigger for systematic selling" },
+          { "level": "0.5500", "significance": "Psychological round number — option barrier concentration" }
+        ],
+        "resistance": [
+          { "level": "0.5825", "significance": "200-day SMA — key trend filter, CTA short/cover threshold" },
+          { "level": "0.5935", "significance": "~50-day SMA — secondary resistance" },
+          { "level": "0.6000", "significance": "Psychological round number — prior support turned resistance" }
+        ]
+      },
+      "moving_averages": {
+        "50d": { "level": "~0.5935", "spot_vs": "Below by ~210 pips" },
+        "100d": { "level": "~0.5880 (est.)", "spot_vs": "Below by ~155 pips" },
+        "200d": { "level": "~0.5825", "spot_vs": "Below by ~100 pips" },
+        "alignment": "Bearishly aligned — spot below all major MAs, MAs angling lower. Systematic trend-following capital positioned short."
+      },
+      "volatility": {
+        "iv_1m": 14.0,
+        "iv_3m": 13.0,
+        "iv_percentile_1y": 78,
+        "rv_20d": 11.0,
+        "rv_vs_iv": "RV ~11% vs IV ~14% — market overpricing realised moves by ~3 pts. An event premium exists (pricing Hormuz escalation possibility) that has not been fully realized in spot moves.",
+        "risk_reversal_25d_1m": "Estimated -0.5 to -0.8 vols, NZD puts bid — reflects institutional demand for downside protection and bearish skew in the options market",
+        "vol_term_structure": "Backwardation",
+        "vol_regime": "High-vol trending — elevated vol with directional bias. Momentum strategies working but position sizing must shrink."
+      },
+      "key_observation": "Spot trading 100bp below the 200-day SMA in a clear downtrend regime where rallies are sold. A daily close above 0.5825 (200d) would be the first technical signal of trend exhaustion and could trigger CTA short-covering. Until then, systematic selling persists."
+    },
+    "recent_regime": "The NZD has been caught in a vicious cycle since late February: the Iran-US conflict triggered simultaneous risk-off USD strength, a crude oil surge directly threatening NZ's energy-import-dependent economy, and a collapse in business and consumer confidence. The ANZ Business Outlook plunged from 59.2 to 32.5 in a single month — the sharpest one-month deterioration since 2024. NZD/USD has fallen ~4% in March alone, underperforming AUD/USD (which fell ~2%), widening AUD/NZD from ~1.16 to ~1.20. The market is trading NZD as the most vulnerable Antipodean currency to the oil shock, given NZ's 100% fuel import dependency and lack of a Fed swap line — a structurally defensible relative value trade.",
+    "citations": [1, 2, 3, 4, 5]
+  },
+
+  "rate_differentials_table": {
+    "base_currency": {
+      "central_bank": "Reserve Bank of New Zealand (RBNZ)",
+      "policy_rate_name": "Official Cash Rate (OCR)",
+      "rate_pct": 2.25,
+      "next_meeting": "2026-04-08",
+      "expected_action": "Hold (~100% probability)"
+    },
+    "peers": [
+      { "currency": "USD", "central_bank": "Federal Reserve", "policy_rate_pct": 3.625, "spread_to_base_bps": 138, "direction_vs_base": "Above", "next_meeting": "2026-05-06", "expected_action": "Hold", "rate_path_next_6m": "Hold; one cut or hike possible" },
+      { "currency": "EUR", "central_bank": "ECB", "policy_rate_pct": 2.00, "spread_to_base_bps": -25, "direction_vs_base": "Below", "next_meeting": "2026-04-30", "expected_action": "Hold", "rate_path_next_6m": "Hold; ~40bp hikes priced by end-2026" },
+      { "currency": "JPY", "central_bank": "Bank of Japan", "policy_rate_pct": 0.75, "spread_to_base_bps": -150, "direction_vs_base": "Below", "next_meeting": "2026-04-27", "expected_action": "Hold", "rate_path_next_6m": "+25bp likely by June; to 1.0–1.25%" },
+      { "currency": "GBP", "central_bank": "Bank of England", "policy_rate_pct": 3.75, "spread_to_base_bps": 150, "direction_vs_base": "Above", "next_meeting": "2026-04-30", "expected_action": "Hold", "rate_path_next_6m": "Hold; 65% hike probability emerging" },
+      { "currency": "AUD", "central_bank": "RBA", "policy_rate_pct": 4.10, "spread_to_base_bps": 185, "direction_vs_base": "Above", "next_meeting": "2026-05-04", "expected_action": "Hold/Hike", "rate_path_next_6m": "1–2 hikes to 4.35–4.60%" },
+      { "currency": "CAD", "central_bank": "Bank of Canada", "policy_rate_pct": 2.25, "spread_to_base_bps": 0, "direction_vs_base": "Equal", "next_meeting": "2026-04-29", "expected_action": "Hold", "rate_path_next_6m": "Hold; small hike risk by year-end" },
+      { "currency": "CHF", "central_bank": "SNB", "policy_rate_pct": 0.00, "spread_to_base_bps": -225, "direction_vs_base": "Below", "next_meeting": "2026-06-18", "expected_action": "Hold", "rate_path_next_6m": "Hold; FX intervention risk" },
+      { "currency": "NOK", "central_bank": "Norges Bank", "policy_rate_pct": 4.00, "spread_to_base_bps": 175, "direction_vs_base": "Above", "next_meeting": "2026-05-07", "expected_action": "Hold/Hike", "rate_path_next_6m": "1–2 hikes to 4.25–4.50%" },
+      { "currency": "SEK", "central_bank": "Riksbank", "policy_rate_pct": 1.75, "spread_to_base_bps": -50, "direction_vs_base": "Below", "next_meeting": "2026-05-07", "expected_action": "Hold", "rate_path_next_6m": "Hold; slight upward bias" },
+      { "currency": "SGD", "central_bank": "MAS", "policy_rate_pct": null, "spread_to_base_bps": null, "direction_vs_base": "N/A — MAS uses S$NEER band, not interest rate", "next_meeting": "2026-04-W3", "expected_action": "Hold", "rate_path_next_6m": "Hold; tightening bias via S$NEER" }
+    ],
+    "sovereign_yields": {
+      "base_2y": 3.58,
+      "base_10y": 4.78,
+      "key_spreads": [
+        { "vs": "US 10Y", "yield_pct": 4.34, "spread_bps": 44, "interpretation": "NZ premium reflects higher term premium and fiscal risk; unusual for AA-rated sovereign" },
+        { "vs": "AU 10Y", "yield_pct": 5.03, "spread_bps": -25, "interpretation": "NZ below AU — driven by RBA hawkishness; unusual given NZ's higher fiscal risk" },
+        { "vs": "AU 2Y", "yield_pct": 4.71, "spread_bps": -113, "interpretation": "Deep NZ discount at front end — directly reflects OCR (2.25%) vs RBA (4.10%) gap, widest in years" },
+        { "vs": "DE 10Y", "yield_pct": 3.05, "spread_bps": 173, "interpretation": "Significant NZ premium over Bunds; reflects divergent fiscal trajectories and NZ term premium" },
+        { "vs": "JP 10Y", "yield_pct": 1.68, "spread_bps": 310, "interpretation": "Wide spread; NZD/JPY carry trade foundation, attracting Japanese retail investors" }
+      ],
+      "curve_shape": "NZ 2s10s at +120bp — steep positive slope reflecting accommodative front-end (OCR at 2.25% anchoring short rates) against rising long-end term premium driven by global yield pressures, Fitch's negative outlook, and heavy NZGB issuance ($135B over 4 years). Bear-steepening dynamic consistent with stagflationary concerns."
+    }
+  },
+
+  "macro_comparison_table": [
+    { "currency": "USD", "gdp_yoy_pct": 2.3, "gdp_qoq_latest_pct": 0.7, "headline_cpi_yoy_pct": 2.4, "core_cpi_yoy_pct": 2.5, "core_cpi_measure": "Core PCE", "unemployment_pct": 4.4, "current_account_gdp_pct": -3.5, "policy_rate_pct": 3.625 },
+    { "currency": "EUR", "gdp_yoy_pct": 1.2, "gdp_qoq_latest_pct": 0.3, "headline_cpi_yoy_pct": 1.9, "core_cpi_yoy_pct": 2.4, "core_cpi_measure": "HICP ex-energy/food", "unemployment_pct": 6.3, "current_account_gdp_pct": 2.5, "policy_rate_pct": 2.00 },
+    { "currency": "JPY", "gdp_yoy_pct": 0.5, "gdp_qoq_latest_pct": -2.3, "headline_cpi_yoy_pct": 1.5, "core_cpi_yoy_pct": 2.0, "core_cpi_measure": "Core-core CPI", "unemployment_pct": 2.5, "current_account_gdp_pct": 3.0, "policy_rate_pct": 0.75 },
+    { "currency": "GBP", "gdp_yoy_pct": 1.0, "gdp_qoq_latest_pct": 0.2, "headline_cpi_yoy_pct": 3.0, "core_cpi_yoy_pct": 3.2, "core_cpi_measure": "Core CPI", "unemployment_pct": 5.2, "current_account_gdp_pct": -1.6, "policy_rate_pct": 3.75 },
+    { "currency": "AUD", "gdp_yoy_pct": 2.6, "gdp_qoq_latest_pct": 1.3, "headline_cpi_yoy_pct": 3.8, "core_cpi_yoy_pct": 3.4, "core_cpi_measure": "Trimmed Mean CPI", "unemployment_pct": 4.0, "current_account_gdp_pct": -1.5, "policy_rate_pct": 4.10 },
+    { "currency": "NZD", "gdp_yoy_pct": 1.3, "gdp_qoq_latest_pct": 0.2, "headline_cpi_yoy_pct": 3.1, "core_cpi_yoy_pct": 2.8, "core_cpi_measure": "Sectoral factor model (est.)", "unemployment_pct": 5.4, "current_account_gdp_pct": -3.5, "policy_rate_pct": 2.25 },
+    { "currency": "CAD", "gdp_yoy_pct": 1.5, "gdp_qoq_latest_pct": -0.2, "headline_cpi_yoy_pct": 1.8, "core_cpi_yoy_pct": 2.0, "core_cpi_measure": "Core CPI-trim/median", "unemployment_pct": 6.7, "current_account_gdp_pct": -2.0, "policy_rate_pct": 2.25 },
+    { "currency": "CHF", "gdp_yoy_pct": 1.0, "gdp_qoq_latest_pct": 0.3, "headline_cpi_yoy_pct": 0.1, "core_cpi_yoy_pct": 0.0, "core_cpi_measure": "Core CPI", "unemployment_pct": 2.4, "current_account_gdp_pct": 5.0, "policy_rate_pct": 0.00 },
+    { "currency": "NOK", "gdp_yoy_pct": 1.5, "gdp_qoq_latest_pct": 0.2, "headline_cpi_yoy_pct": 2.7, "core_cpi_yoy_pct": 3.0, "core_cpi_measure": "CPI-ATE", "unemployment_pct": 2.2, "current_account_gdp_pct": 10.0, "policy_rate_pct": 4.00 },
+    { "currency": "SEK", "gdp_yoy_pct": 2.9, "gdp_qoq_latest_pct": 0.5, "headline_cpi_yoy_pct": 2.0, "core_cpi_yoy_pct": 1.2, "core_cpi_measure": "CPIF ex-energy", "unemployment_pct": 8.5, "current_account_gdp_pct": 3.0, "policy_rate_pct": 1.75 },
+    { "currency": "SGD", "gdp_yoy_pct": 4.0, "gdp_qoq_latest_pct": 1.9, "headline_cpi_yoy_pct": 1.5, "core_cpi_yoy_pct": 1.2, "core_cpi_measure": "MAS Core Inflation", "unemployment_pct": 2.0, "current_account_gdp_pct": 18.0, "policy_rate_pct": null }
+  ],
+  "factors": [
+    {
+      "block": "Policy & Rates (Relative)",
+      "factor_number": 1,
+      "tactical_weight": 0.24,
+      "strategic_weight": 0.24,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 65,
+        "analysis": "The RBNZ's OCR at 2.25% places NZD in a structurally disadvantaged carry position, ranking 9th of 11 G10+SGD currencies and generating negative carry against all peers except JPY and CHF. The -185bp spread to the RBA is the widest Antipodean policy divergence in years and directly supports AUD/NZD appreciation. The April 8 MPR is universally expected to deliver a hold, providing no tactical catalyst for NZD support from the rates channel. Markets have moved significantly more hawkish than the RBNZ's published OCR track since the Iran conflict began, pricing at least two 25bp hikes in 2026 with the first potentially as early as September — but this hawkish repricing has not helped NZD because it reflects an adverse supply-shock-driven inflation outlook rather than growth-positive demand pressures. The 2Y NZGB yield at 3.58% sits 113bp below Australia's equivalent, a gap that directly maps to AUD/NZD's recent push above 1.19. Even the positive NZ-US 10Y spread of +44bp fails to compensate for the massive front-end differential (-138bp to the Fed). The OIS market prices the OCR unchanged at 2.25% through the April and May meetings, meaning no rate-driven catalyst exists within the tactical horizon. The global rate environment is actively hostile: the RBA hiked in March, Norges Bank signaled imminent tightening, and the BoE and ECB are pricing hike probabilities — all while the RBNZ's dovish guidance anchors the OCR at the bottom of the G10 range.",
+        "key_data_points": [
+          "OCR: 2.25% (9th of 11 G10+SGD)",
+          "NZGB 2Y: 3.58%, 10Y: 4.78%",
+          "NZ-AU 2Y spread: -113bp",
+          "NZ-US 10Y spread: +44bp",
+          "NZ-RBA policy rate spread: -185bp",
+          "OIS-implied: hold at April 8 MPR (~100% probability)",
+          "NZ 2s10s: +120bp (steep)",
+          "Market pricing: ~2.50–2.75% by end-2026"
+        ],
+        "what_is_priced": "Markets price a full hold through May with hikes beginning in H2 2026. This is more hawkish than the RBNZ's published track (which showed the OCR essentially flat at 2.25–2.26% through June) but reflects the oil shock's inflationary impulse. The mispricing risk is that markets are overpricing hikes — Governor Breman explicitly stated the RBNZ would 'look through' a temporary oil disruption. If the conflict resolves quickly, hike pricing could unwind, creating modest NZD headwinds (lower yield expectations) but potentially improving risk sentiment enough to offset.",
+        "citations": [6, 7, 8, 11, 12]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 55,
+        "analysis": "Over a 1–6 month horizon, the carry disadvantage remains the dominant NZD headwind through the rates channel, though with diminishing intensity as the year progresses. The RBNZ's published OCR track projects the first rate increase around late 2026, and market pricing has pulled this forward to September — if either materializes, the NZ-peer rate differential narrows. However, the starting position is deeply unfavorable: even with two 25bp hikes to 2.75% by December, NZD would still carry below the Fed (3.50–3.75%), BoE (3.75%), RBA (4.10–4.60%), and Norges Bank (4.00–4.50%). The relative rate trajectory matters more than levels at this horizon, and here the picture is mixed: several G10 central banks (RBA, Norges Bank, potentially BoE) are hiking or signaling hikes, meaning NZ's rate catch-up is happening against a moving target. The BNZ's most hawkish forecast envisions the OCR reaching 4.00% by end-2027 — a dramatic tightening cycle that, if realized, would meaningfully narrow carry differentials and support NZD. However, this scenario requires the oil shock to entrench inflation expectations, which conflicts with the RBNZ's base case of a temporary disruption. The NZ-AU 2Y spread of -113bp would need to narrow to approximately -50bp before the rates channel shifts from headwind to neutral for AUD/NZD. On current trajectories, this is unlikely within 6 months. The steep NZ yield curve (+120bp 2s10s) signals that long-end investors see eventual policy normalization, providing some strategic comfort that rates will eventually move in NZD's favor.",
+        "key_data_points": [
+          "OCR published track: ~2.38% by Dec 2026",
+          "Market-implied end-2026 OCR: ~2.50–2.75%",
+          "BNZ forecast: 4.00% by end-2027",
+          "ASB forecast: 2.25% (unchanged) through 2026",
+          "RBA rate path: 4.35–4.60% by H2 2026",
+          "Fed dot plot median: one 25bp cut in 2026",
+          "Carry vs JPY (annualised): ~+150bp",
+          "Carry vs AUD (annualised): ~-185bp"
+        ],
+        "what_is_priced": "The strategic edge from the rates channel is negative but smaller than tactically. Markets price a gradual hiking cycle beginning in Q3/Q4 2026 — this is reasonable given the inflation backdrop. If the oil shock proves temporary (base case), hike pricing should moderate, reducing NZD's carry penalty in forward space. The underpriced risk is a scenario where the RBNZ is forced into emergency hikes earlier and faster than expected due to entrenched inflation expectations. The overpriced risk is the market pricing hikes that the RBNZ never delivers because inflation proves transitory.",
+        "citations": [6, 11, 12, 13, 14]
+      },
+      "horizon_split_explanation": "Both horizons are bearish, but tactical confidence is higher (65 vs 55) because the near-term carry picture is unambiguously negative with no catalyst for improvement within 2–4 weeks. Strategically, the possibility of RBNZ rate hikes in H2 2026 and potential normalization of the global risk environment create paths toward carry improvement, warranting lower conviction in the bearish stance.",
+      "carry_analysis": {
+        "carry_vs_peers": [
+          { "vs_currency": "USD", "annualised_carry_bps": -138, "carry_to_vol_ratio": -0.12, "interpretation": "Deeply negative; NZD pays to hold vs USD" },
+          { "vs_currency": "JPY", "annualised_carry_bps": 150, "carry_to_vol_ratio": 0.11, "interpretation": "Positive carry but unreliable in risk-off; JPY safe-haven rally erases carry" },
+          { "vs_currency": "AUD", "annualised_carry_bps": -185, "carry_to_vol_ratio": -0.19, "interpretation": "Worst bilateral carry in G10; directly supports AUD/NZD longs" },
+          { "vs_currency": "CHF", "annualised_carry_bps": 225, "carry_to_vol_ratio": 0.20, "interpretation": "Best carry-to-vol ratio; but CHF safe-haven bid limits NZD/CHF upside" },
+          { "vs_currency": "GBP", "annualised_carry_bps": -150, "carry_to_vol_ratio": -0.14, "interpretation": "Significantly negative; GBP/NZD uptrend supported by carry" },
+          { "vs_currency": "EUR", "annualised_carry_bps": 25, "carry_to_vol_ratio": 0.03, "interpretation": "Marginally positive; insufficient to drive directional flows" },
+          { "vs_currency": "NOK", "annualised_carry_bps": -175, "carry_to_vol_ratio": -0.13, "interpretation": "Deeply negative; NOK benefits from oil AND higher rates" },
+          { "vs_currency": "SEK", "annualised_carry_bps": 50, "carry_to_vol_ratio": 0.05, "interpretation": "Modestly positive; not significant enough to attract carry flows" }
+        ],
+        "carry_regime": "Carry is 'not working' in the current risk-off environment. Even the positive carry vs JPY and CHF is unreliable because these safe-haven currencies appreciate in risk-off conditions, producing negative total returns despite the positive rate differential. NZD's carry position is the worst it has been relative to G10 peers since the RBNZ began cutting in August 2024.",
+        "breakeven_move": "Best carry pair (vs CHF): ~102 pips over 30 days — NZD/CHF can weaken from current levels to approximately 102 pips lower before carry is erased. Against the worst pair (AUD/NZD): N/A — negative carry means every day costs money."
+      },
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Inflation & Growth Dynamics",
+      "factor_number": 2,
+      "tactical_weight": 0.18,
+      "strategic_weight": 0.10,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 70,
+        "analysis": "New Zealand's macro data presents a stagflationary profile — the worst possible combination for currency performance. Headline CPI at 3.1% YoY (Q4 2025) has breached the top of the RBNZ's 1–3% target band and is trending higher: the trajectory from 2.5% (Q1) to 2.7% (Q2) to 3.0% (Q3) to 3.1% (Q4) shows persistent upward pressure even before the oil shock's full impact. The Q1 2026 CPI release (expected ~April 16) is the critical near-term data point — with Brent at $107+ and electricity prices already up 12.2% YoY, consensus expects a further acceleration toward 3.3–3.5%. Meanwhile, growth is anemic: Q4 GDP at +0.2% QoQ barely registered positive after a prolonged downturn, and per-capita GDP remains below pre-recession levels. The March ANZ Business Outlook collapse is the single most alarming data point — own activity expectations plunged from 52.6 to 39.3, and the headline confidence index dropped from 59.2 to 32.5 in one month, representing the sharpest decline since the pandemic. Consumer confidence (ANZ-Roy Morgan) fell to 91.3 from 100.1, while 2-year inflation expectations surged to 5.7% — a concerning deanchoring signal. Labour market slack continues to build with unemployment at 5.4% (highest since 2015) and the Labour Cost Index growth moderating to 2.0% YoY. The stagflationary mix paralyzes the RBNZ — they cannot hike (growth is too fragile) and cannot cut (inflation is above target) — leaving NZD without a policy support catalyst.",
+        "key_data_points": [
+          "Headline CPI: 3.1% YoY (Q4 2025), above 1–3% target band",
+          "GDP: +0.2% QoQ (Q4 2025), +1.3% YoY",
+          "Unemployment: 5.4% (Q4 2025, highest since 2015)",
+          "ANZ Business Confidence: 32.5 (Mar, from 59.2 in Feb)",
+          "ANZ Own Activity: 39.3 (Mar, from 52.6)",
+          "ANZ-Roy Morgan Consumer Confidence: 91.3 (Mar, from 100.1)",
+          "Labour Cost Index: +2.0% YoY (Q4 2025)",
+          "BNZ Manufacturing PMI: 55.0 (Feb, solidly expansionary)"
+        ],
+        "what_is_priced": "The market is pricing a stagflationary scenario — weak growth but sticky inflation. The upcoming Q1 CPI release (~April 16) is the key data risk: consensus likely expects 3.3–3.5% YoY. A print above 3.5% would amplify rate hike expectations and initially weaken NZD (policy uncertainty), while a sub-3.0% surprise (unlikely given oil) would provide relief. The manufacturing PMI at 55.0 provides some grounds for optimism, but this pre-dates the worst of the confidence shock.",
+        "citations": [15, 16, 17, 18, 19]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 60,
+        "analysis": "The strategic growth outlook has deteriorated materially since the Iran conflict began. Pre-conflict, the consensus was for a broadening recovery in 2026 with GDP growth of 2.5–3.0%. Post-conflict, bank forecasts have been slashed: ASB now projects just 1.3% growth with a 'winter downturn' scenario, while Westpac expects 1.9%. NZ Treasury's pre-conflict forecast of 1.7% for FY2025/26 appears optimistic. The oil shock operates through multiple channels: direct fuel cost inflation (+1.6ppt to CPI per Westpac for a 1-month Hormuz closure), freight surcharges ($1,500–$4,000/container), reduced consumer spending power, and depressed business investment intentions. If the Strait of Hormuz remains closed for 3 months, Westpac models a +3ppt CPI impact and -0.7ppt GDP hit. ASB warned that economic recovery is now 'unlikely until 2027.' The RBNZ's February MPS forecasts (growth broadening, inflation returning to midpoint) are already stale and will need significant downward revision at the May 27 MPS. Migration inflows have slowed sharply (annual net gain of 14,200, lowest since 2013 ex-pandemic), removing a demand source. The housing market is stagnant — REINZ HPI down 0.7% YoY — meaning the wealth channel is dormant. The strategic risk is that the oil shock transforms what was expected to be a cyclical recovery into prolonged stagnation.",
+        "key_data_points": [
+          "ASB GDP forecast 2026: 1.3% (post-conflict revision)",
+          "Westpac GDP forecast 2026: 1.9%",
+          "CPI forecast peak: ~4.0% mid-2026 (ASB)",
+          "Oil shock CPI impact: +1.6ppt (1M closure), +3ppt (3M closure)",
+          "Net migration annual gain: 14,200 (lowest since 2013 ex-pandemic)",
+          "REINZ HPI: -0.7% YoY (Jan 2026)",
+          "ANZ house price forecast revised to -2% for 2026",
+          "Consumer 2Y inflation expectations: 5.7% (Mar)"
+        ],
+        "what_is_priced": "The market is partially pricing the growth deterioration (NZD/USD down ~5.8% over 3M), but bank consensus NZD/USD forecasts (0.60–0.64 end-2026) were mostly set pre-conflict. If ASB's 1.3% growth scenario materializes, NZD/USD would likely settle in the 0.55–0.58 range rather than recovering to 0.62+. The underpriced scenario is a protracted Hormuz closure pushing NZ toward recession. The overpriced scenario is a quick resolution allowing the pre-conflict recovery to reassert itself.",
+        "citations": [15, 16, 20, 21, 22]
+      },
+      "horizon_split_explanation": "Both horizons are bearish, with higher tactical confidence (70 vs 60) because the immediate data flow (ANZ Business Outlook collapse, upcoming CPI print) presents a clear negative signal. Strategically, more uncertainty exists around conflict duration, the Q1 CPI reading's composition (temporary vs sticky), and whether the pre-conflict recovery in manufacturing (PMI 55) can reassert itself.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Risk Appetite & Sentiment",
+      "factor_number": 3,
+      "tactical_weight": 0.10,
+      "strategic_weight": 0.05,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 70,
+        "analysis": "The global risk environment is firmly in a risk-off regime driven by the Iran-US military conflict, now in its fifth week with no ceasefire in sight. The VIX at 30.6 has surged 51% in March alone, placing it well above the 80th percentile on a 1-year lookback and signaling elevated fear. The S&P 500 is down 7.3% YTD (at 6,344) and the Nasdaq has declined 9.8% — both in technical correction territory. US high-yield credit spreads have widened to approximately 3.21%, confirming that the risk-off move extends beyond equities into credit. NZD's high-beta risk-on character makes it one of the most vulnerable G10 currencies in this environment — NZD/JPY has declined significantly as JPY safe-haven demand surges alongside NZD weakness. The standard risk-on/risk-off correlation structure is fully intact: high-beta currencies (NZD, AUD, NOK) are selling off while safe havens (JPY, CHF, USD) are appreciating. NZD is underperforming AUD within the Antipodean complex (AUD/NZD rising from ~1.16 to ~1.20) due to NZ's greater energy import vulnerability and lower liquidity. The tail risks remain skewed to the downside: a Hormuz closure persisting through Q2 could push Brent to $170–200/bbl and trigger a global recession, catastrophic for high-beta currencies.",
+        "key_data_points": [
+          "VIX: 30.6 (~80th+ percentile 1Y)",
+          "S&P 500: 6,344 (-7.3% YTD)",
+          "Nasdaq: 20,948 (-9.8% YTD)",
+          "US HY OAS: ~3.21% (widening)",
+          "NZD/JPY: ~90.50 (declining — risk barometer flashing red)",
+          "AUD/NZD: 1.1987 (NZD underperforming within Antipodean complex)",
+          "China NBS Mfg PMI: 50.4 (Mar, modest recovery)"
+        ],
+        "what_is_priced": "Current risk-off conditions are well-priced in NZD levels. The unpriced risk is further escalation: if the April 6 Hormuz deadline passes without resolution and the US escalates, VIX could spike above 40 and NZD/USD could retest 0.5485 or lower. Conversely, a credible ceasefire would trigger a sharp risk-on reversal with NZD's high beta amplifying the rally — the compressed shorts would amplify the move.",
+        "citations": [23, 24, 25, 26]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "analysis": "The strategic risk appetite outlook is genuinely uncertain — the range of outcomes is wider than at any point since the pandemic. If the Iran conflict resolves (base case probability: 50%), global risk appetite would recover sharply, with high-beta currencies like NZD leading the rebound. Historical analogues suggest post-conflict risk-on rallies can be violent and sustained: after initial Gulf War disruptions resolved, risk-on currencies rallied 5–10% over 3–6 months. China's 2026 GDP target of 4.5–5.0% (lowest on record but supported by stimulus) provides a structural floor for Asian demand, flowing through to NZD via dairy exports and broader risk sentiment. However, even a quick conflict resolution leaves behind an energy-price-scarred global economy with persistent inflation and tighter central bank policy — the goldilocks environment that supported risk-on currencies in 2024–early 2025 is unlikely to return rapidly. If the conflict persists or escalates (tail probability: 20–25%), risk-off conditions would intensify and NZD could face much deeper selloff. The NZD's high beta works in both directions — it amplifies gains in risk-on and losses in risk-off — making a directional call essentially a bet on geopolitical resolution.",
+        "key_data_points": [
+          "VIX term structure: likely in backwardation (near > long-term vol)",
+          "S&P 500 forward PE: ~17x (below 5Y avg of ~19x, not yet cheap)",
+          "China GDP target: 4.5–5.0% (lowest on record)",
+          "Historical post-conflict risk-on rally: 5–10% for high-beta FX",
+          "Oil scenario: $170–200/bbl if 3M Hormuz closure (tail risk)"
+        ],
+        "what_is_priced": "Strategic risk pricing embeds a moderate conflict premium — consensus expects some form of resolution by mid-2026. If this proves optimistic and the conflict extends into Q3, strategic risk models would need resetting and NZD could face another 5–8% downside. The mispricing opportunity is if resolution comes sooner than consensus expects, generating an outsized NZD relief rally given extreme short positioning.",
+        "citations": [23, 24, 25, 27]
+      },
+      "horizon_split_explanation": "The tactical stance is confidently bearish (70) because the current risk-off regime is clearly established and self-reinforcing over 2–4 weeks. Strategically, the stance shifts to neutral (50) because the risk environment over 1–6 months depends almost entirely on the geopolitical outcome — a binary variable that cannot be directionally forecast with conviction.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Flows & Positioning",
+      "factor_number": 4,
+      "tactical_weight": 0.10,
+      "strategic_weight": 0.06,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 60,
+        "analysis": "CFTC positioning data reveals heavily net short positioning across both speculative categories: leveraged funds at -16,730 net contracts and asset managers at -25,012, for a combined -41,742 contracts. This sits in approximately the 80th–90th percentile of net short positioning over a 3-year lookback. NZD's total open interest at 65,011 contracts is one of the lowest in G10, meaning these percentile extremes are reached at lower absolute levels — but the contrarian signal is still valid because it represents the actual positioning of the speculative community. The weekly flow dynamic shows continued building of shorts (-813 leveraged, -2,911 asset managers), indicating the trend has momentum and is not yet showing signs of exhaustion. Dealer positioning is the mirror image at +39,716 net long. The risk reversal market is estimated negative (NZD puts bid), consistent with institutional demand for downside protection. Tactically, the positioning is too crowded for a clean bearish call — a short squeeze on any positive catalyst could generate a 150–200 pip rally in hours. However, in the absence of a trigger, crowded shorts in a trending market can persist for weeks. The neutral tactical stance reflects this tension: the direction of the fundamental thesis is bearish, but the magnitude of the crowded trade limits the risk/reward of adding to shorts at current levels.",
+        "key_data_points": [
+          "Leveraged funds net: -16,730 contracts (net short)",
+          "Asset managers net: -25,012 contracts (net short)",
+          "Combined net short: -41,742 contracts",
+          "Weekly change: -3,724 (positioning still building short)",
+          "Total open interest: 65,011 (+927 WoW)",
+          "Net spec positioning percentile: ~80th–90th %ile net short (3Y)",
+          "Dealer net long: +39,716 (counterparty to spec shorts)"
+        ],
+        "what_is_priced": "Positioning fully reflects the bearish narrative — the short trade is consensus. Incremental negative news has diminishing marginal impact because sellers are already positioned. Incremental positive news has amplified impact because of the short base that would need to cover. The positioning creates asymmetric risk: limited further downside from positioning-driven selling, but potentially violent upside from covering.",
+        "citations": [3, 28]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 55,
+        "analysis": "Over a 1–6 month horizon, the extreme net short positioning becomes a more clearly bullish signal. History shows that NZD positioning at the 80th–90th percentile of net shorts has, within 3–6 months, typically preceded a positioning unwind and at least a partial recovery in NZD/USD. The mechanism is straightforward: crowded shorts eventually exhaust the pool of new sellers, creating a natural flow reversal as existing shorts take profit or cover on risk management triggers. Given NZD's small open interest, even modest covering flows ($500M–$1B notional) can drive meaningful spot appreciation. The catalyst for the strategic unwind is most likely a combination of geopolitical de-escalation and data confirmation that NZ's economic cycle is not as dire as feared. If the Iran conflict shows signs of resolution by mid-year, the positioning unwind would accelerate rapidly. The asset manager positioning (-25,012 net short) is particularly notable because asset managers tend to be slower to unwind — when they begin covering, the flow is sustained over weeks rather than concentrated in days. NZD's extreme undervaluation (16% below PPP) acts as a gravitational pull over longer horizons, reinforcing the case that shorts will eventually be covered.",
+        "key_data_points": [
+          "Combined net short: -41,742 (extreme for NZD's OI)",
+          "Historical average unwind duration: 8–16 weeks from extreme",
+          "Asset manager net short: -25,012 (slow-to-unwind category)",
+          "NZD OI: 65,011 (small, amplifies position changes)",
+          "Positioning percentile: ~80th–90th net short (3Y)"
+        ],
+        "what_is_priced": "The bearish consensus is fully embedded in positioning. Over a strategic horizon, the highest-probability positioning outcome is net short reduction toward neutral (-5,000 to +5,000). If this unwind occurs alongside geopolitical improvement, it could contribute 150–300 pips of NZD/USD upside beyond what fundamentals alone would justify.",
+        "citations": [3, 28]
+      },
+      "horizon_split_explanation": "Tactical neutrality reflects the tension between extreme positioning (bullish signal) and a trending bear market with active catalyst (no trigger for reversal). Strategically, the bullish stance emerges because the 3–6 month window is long enough for mean-reversion forces to operate and for at least some of the geopolitical premium to be resolved.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": "Positioning is stretched short at the 80th–90th percentile. However, the NZD market is small enough that crowded positioning can persist for 4–8 weeks in a trending environment. The contrarian trigger would be any break in the bearish narrative — a credible ceasefire announcement, a sharp oil price decline, or a positive NZ data surprise. Historical analogues suggest a NZD short squeeze from these levels could generate 200–300 pips of rapid appreciation over 3–5 trading sessions. The contrarian case is moderately compelling but lacks an immediate catalyst — tactically, it argues against adding new shorts rather than going long.",
+      "contrarian_analysis_strategic": "At the 6-month horizon, the contrarian signal is clearer. NZD's OI is too small to sustain positioning at the 90th percentile for extended periods — the market runs out of new sellers. The base case is that positioning reverts toward neutral within 3–6 months, driven by a combination of catalysts. The other side of the trade (the shorts) are seeing: negative carry vs most peers, a war premium, and weak NZ macro data — all valid reasons to be short. The risk for the contrarian bull is that these fundamentals are strong enough to keep positioning stretched for longer than the historical average.",
+      "expression_assessment": null
+    },
+    {
+      "block": "External Balance & Terms of Trade",
+      "factor_number": 5,
+      "tactical_weight": 0.06,
+      "strategic_weight": 0.16,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "analysis": "NZ's external balance presents a mixed picture tactically, with opposing forces roughly offsetting. On the positive side, dairy prices have rallied 18% YTD with six consecutive GDT auction increases, and WMP at US$3,709/MT represents a significant improvement from late 2025 lows. Fonterra's farmgate milk price forecast of NZ$9.20–9.80/kgMS (midpoint $9.50) supports rural incomes. Beef exports reached a record NZ$12.42/kg in December 2025 and lamb prices remain elevated. Terms of trade improved +3.7% QoQ in Q4 2025. Against these positives, the oil shock is a significant terms-of-trade negative — as a 100% refined fuel importer with only 52 days of reserves, Brent at $107+ directly worsens NZ's trade balance. Freight surcharges of $1,500–$4,000/container add further cost pressure. The goods trade deficit widened to $257M in February. The current account has improved from -9.0% of GDP to -3.5%, but the oil shock risks reversing this progress. China faces its own oil-shock headwinds, creating risks for NZ dairy demand. Log prices are stable but China demand is weak.",
+        "key_data_points": [
+          "GDT Price Index: +18% YTD (6 consecutive rises)",
+          "WMP: US$3,709/MT (Mar 2026)",
+          "Fonterra milk price: NZ$9.20–9.80/kgMS (2025/26 season)",
+          "Current account: -3.5% of GDP (Sep 2025, improved from -9.0%)",
+          "Goods trade balance: -$257M deficit (Feb 2026)",
+          "Terms of trade: +3.7% QoQ (Q4 2025)",
+          "Brent crude: ~$107/bbl (NZ is 100% fuel importer)",
+          "NIIP: -47% of GDP (~-$202.5B)"
+        ],
+        "what_is_priced": "The market appears to be pricing the oil-negative channel more heavily than the dairy-positive channel — NZD's ~6% decline over 3 months exceeds what dairy alone would justify. If the next GDT auction (April 7) delivers another positive result, it could provide a modest NZD floor. The NZ-specific oil vulnerability is well-understood, so the oil channel is at least partially priced.",
+        "citations": [29, 30, 31, 32, 33]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 60,
+        "analysis": "Over the strategic horizon, the external balance picture improves materially for NZD. The dairy price rally is driven by structural supply constraints (global milk supply growth of only ~1% YoY) and recovering Chinese demand — factors likely to persist regardless of the conflict's timeline. Fonterra's lifted milk price forecast signals confidence in sustained dairy revenue. NZ's terms of trade improvement (+3.7% QoQ in Q4 before the dairy rally's full effect) positions NZ favourably. The current account deficit's dramatic improvement from -9.0% to -3.5% represents structural de-risking that the market has not fully credited to NZD. Tourism at 90% of pre-COVID levels has further recovery runway. The India-NZ FTA (concluded December 2025) opens a new export market. The oil shock is the primary offset — but its impact is assumed temporary. Once oil prices normalize, NZ's external position reverts to the improving trajectory. NZ's negative NIIP of -47% of GDP remains a structural burden, but its improvement trajectory is directionally positive. The key commodity exposure rule (dairy up = ++NZD) is active and overwhelms the oil up = -NZD channel at the strategic horizon because dairy is NZ's principal export while oil is an import cost.",
+        "key_data_points": [
+          "Dairy export share: ~25–30% of NZ merchandise exports",
+          "GDT YTD performance: +18% (6 consecutive rises)",
+          "China GDP target: 4.5–5.0% (stimulus supporting demand)",
+          "Current account improvement: -9.0% to -3.5% of GDP (18 months)",
+          "Tourism: 3.51M arrivals (90% of pre-COVID)",
+          "India-NZ FTA: concluded Dec 2025 (new market access)",
+          "Beef prices: record NZ$12.42/kg (Dec 2025)"
+        ],
+        "what_is_priced": "The dairy rally is partially priced, but the current account improvement trajectory is underappreciated — markets focus on the oil shock's near-term impact rather than the structural external rebalancing. If dairy prices sustain current levels and oil normalizes to $80–90/bbl, the external balance channel would strongly support NZD recovery toward 0.59–0.62.",
+        "citations": [29, 30, 31, 32, 34]
+      },
+      "horizon_split_explanation": "Tactical neutrality reflects the roughly balanced dairy-positive vs oil-negative forces over 2–4 weeks. Strategically, the bullish stance emerges because the dairy trend is structural while the oil shock is assumed temporary, and the current account improvement represents an underappreciated structural tailwind.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Guidance & Credibility",
+      "factor_number": 6,
+      "tactical_weight": 0.07,
+      "strategic_weight": 0.12,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 60,
+        "analysis": "The RBNZ under new Governor Anna Breman faces its first real policy challenge with the Iran-triggered oil shock. The February MPS delivered a hold at 2.25% with dovish messaging — the published OCR track projected essentially flat rates through mid-2026. Breman's March 23 speech was explicitly dovish, stating the RBNZ would 'look through' a temporary oil disruption and that hiking in response to a supply shock 'would only dampen growth without materially improving near-term inflation outcomes.' This guidance is directionally NZD-negative because it signals no carry improvement. The tactical problem is that the market doesn't fully believe the 'look through' guidance — OIS markets price hikes starting by September, significantly more hawkish than the published track. This gap creates uncertainty rather than clarity. The April 8 MPR is the immediate communication event — since it's an MPR (not MPS), there are no updated forecasts or OCR track, limiting new information. The market will parse statement language for any shift from 'look through' to 'concerned about.' The RBNZ's credibility is untested under Breman — she has chaired only one MPS. Consumer 2-year inflation expectations at 5.7% are already concerning for credibility.",
+        "key_data_points": [
+          "Feb MPS: OCR on hold at 2.25%, dovish statement",
+          "Published OCR track: flat at ~2.25% through Jun-26, first hike ~late 2026",
+          "Breman speech (Mar 23): 'look through' temporary oil disruption",
+          "Market pricing: hikes from Sep 2026 (more hawkish than RBNZ track)",
+          "Gap: market prices ~25–50bp of hikes above published track by end-2026",
+          "Next communication: 8 Apr MPR (limited info, no new forecasts)",
+          "Consumer 2Y inflation expectations: 5.7% (concerning)"
+        ],
+        "what_is_priced": "Markets partially price a Breman pivot — the OIS curve beyond September reflects hike expectations the RBNZ has not endorsed. If the April 8 MPR maintains 'look through' language, it confirms the market-RBNZ gap and likely weighs on NZD. If language shows any hawkish shift (acknowledging expectations deanchoring), it validates market hike pricing and creates a mixed NZD reaction.",
+        "citations": [11, 12, 13, 35, 36]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "analysis": "The strategic guidance picture centres on the May 27 MPS — the first full forecast update incorporating the oil shock. This is the most important single event for NZD over the next 6 months. The RBNZ will be forced to update CPI, GDP, and unemployment forecasts, revise the published OCR track, and communicate its policy reaction function. Three scenarios exist: (1) RBNZ maintains 'look through,' keeps track roughly unchanged — dovish, NZD-negative for carry but growth-positive; (2) RBNZ acknowledges inflation risk, lifts track materially — hawkish, NZD-positive for carry; (3) RBNZ introduces conditional language with wider uncertainty bands — ambiguous. The gap between track and market pricing means the May MPS will either validate or invalidate one side. Over the full 6-month horizon, RBNZ credibility will be tested by Q1 CPI (April), Q1 labour data (May), and Q1 GDP (June). Breman's communication style appears more direct and transparent than her predecessor's, supporting credibility. The RBNZ remains among the most transparent G10 central banks due to the published OCR track — a structural positive.",
+        "key_data_points": [
+          "May 27 MPS: full forecast update with new OCR track",
+          "RBNZ OCR track revision risk: +25–50bp from current track",
+          "Gap between market pricing and RBNZ track: ~25–50bp by end-2026",
+          "Q1 CPI release: ~April 16 (first test of oil shock impact)",
+          "Breman tenure: <6 months (credibility still being established)"
+        ],
+        "what_is_priced": "The market prices a more hawkish RBNZ than current guidance suggests. The May MPS will resolve this gap. If RBNZ validates market pricing (upward track revision), NZD could rally on carry expectations. If RBNZ maintains dovish guidance, the market may reprice lower. The net strategic impact is genuinely ambiguous, supporting a Neutral stance.",
+        "citations": [11, 12, 13, 35, 36]
+      },
+      "horizon_split_explanation": "Tactically bearish because the 'look through' guidance provides no carry support and the April 8 MPR is unlikely to shift the needle. Strategically neutral because the May 27 MPS represents a genuine fork in the road — the RBNZ's response to the oil shock will determine whether guidance becomes hawkish or remains dovish, and this is too uncertain to call directionally.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Event Risk & Geopolitics",
+      "factor_number": 7,
+      "tactical_weight": 0.05,
+      "strategic_weight": 0.05,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 65,
+        "analysis": "The Iran-US military conflict is the dominant event risk, now entering its fifth week with the Strait of Hormuz effectively closed since March 4. The immediate tactical risk is the April 6 deadline set by Trump for Iran to reopen the Strait — the three possible outcomes are all NZD-relevant: (1) Iran begins reopening (unlikely but would trigger massive risk-on rally and NZD squeeze), (2) deadline passes without action and is extended (continued uncertainty, modest NZD-negative), (3) US escalates military operations (sharp risk-off, NZD -2% or more). The April 8 RBNZ MPR falls just two days after the deadline, creating compounding event risk. The Q1 NZ CPI release (~April 16) is the next domestic event, with consensus expecting acceleration to 3.3–3.5%. The next GDT auction on April 7 provides a micro-catalyst. NZ-specific risk includes 100% refined fuel import dependency — with only 52 days of reserves, any supply chain disruption beyond 2 months would require rationing.",
+        "key_data_points": [
+          "April 6: Trump deadline for Iran to reopen Hormuz",
+          "April 7: GDT Auction",
+          "April 8: RBNZ MPR — OCR Decision",
+          "~April 16: NZ Q1 2026 CPI Release",
+          "Brent: $107–108/bbl (peaked $126)",
+          "NZ fuel reserves: ~52 days",
+          "Event vol premium: likely elevated (1W IV >> 1M IV around April 6–8)"
+        ],
+        "what_is_priced": "The market prices continued conflict uncertainty — NZD is near 4-month lows. However, the specific April 6 deadline outcome is NOT fully priced in either direction: a positive resolution would generate an outsized NZD rally (150–250 pips) while an escalation would push NZD toward 0.55–0.56. The asymmetry of event outcomes suggests event vol should be elevated.",
+        "citations": [23, 24, 25, 37, 38]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 60,
+        "analysis": "The strategic event calendar is exceptionally loaded. Even if the Iran conflict resolves, residual uncertainty will persist for months — oil supply chain normalization would take 4–8 weeks. The May 27–28 cluster (RBNZ MPS + NZ Budget 2026) is the most important domestic event over the next 6 months, combining the first full RBNZ forecast update with the government's pre-election fiscal statement. A dovish MPS paired with an expansionary budget could support NZD, while a hawkish MPS with fiscal consolidation sends mixed signals. The November 7 general election introduces increasing political risk — polls show an extremely tight race. A Labour-Green government would introduce a capital gains tax and increase spending. NZ First's kingmaker role adds unpredictability. Other strategic risks include the USMCA joint review (July 1), India-NZ FTA ratification risk, and NZ's natural disaster vulnerability (Alpine Fault 75% probability of M8+ by 2068). The global event calendar includes FOMC meetings with dot plots (June, September) and RBA meetings.",
+        "key_data_points": [
+          "May 27: RBNZ MPS (new OCR track, forecasts)",
+          "May 28: NZ Budget 2026 + BEFU",
+          "July 8: RBNZ MPR",
+          "September 2: RBNZ MPS",
+          "November 7: NZ General Election",
+          "Election polls: centre-right ~47–53% vs centre-left ~44–50%",
+          "Tail risk: Alpine Fault M8+ (75% probability by 2068)"
+        ],
+        "what_is_priced": "Election uncertainty is partially priced through the NZD risk premium, but specific scenarios are not yet priced. The May 27–28 cluster is the key repricing event: the RBNZ's new OCR track will force convergence between market pricing and guidance, while the budget reveals fiscal strategy.",
+        "citations": [23, 37, 38, 39, 40]
+      },
+      "horizon_split_explanation": "Both horizons are bearish, with slightly higher tactical confidence (65 vs 60) due to the immediacy of the April 6 Hormuz deadline. Strategically, the event calendar is loaded but spread over 6 months, providing more opportunities for positive outcomes.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Fiscal & Sovereign Risk",
+      "factor_number": 8,
+      "tactical_weight": 0.04,
+      "strategic_weight": 0.07,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "analysis": "Fitch's March 2026 revision of NZ's outlook to Negative on AA+ is the most significant sovereign credit development since the pandemic, citing rising debt-to-GDP (56% by FY2027), near-term deficit widening, elevated external debt (51.4% net external vs AA median net creditor of 29%), and Iran war risks. The other agencies maintain more positive stances — Moody's Aaa stable and S&P AA+ stable. Tactically, the fiscal position is not at crisis levels: gross Crown debt at 50.2% of GDP is manageable, and NZ's institutional quality provides a credibility buffer. The OBEGALx deficit at -3.0% of GDP is elevated but not unprecedented. However, the oil shock will worsen fiscal metrics through lower revenue and higher spending. Bond supply dynamics are under pressure — NZ$135B issuance over 4 years — and the Fitch downgrade could marginally widen the sovereign risk premium. Government interim financial statements showed revenues below forecast.",
+        "key_data_points": [
+          "Fitch: AA+ Negative (revised Mar 2026)",
+          "Moody's: Aaa Stable",
+          "S&P: AA+ Stable (FC); AAA (LC)",
+          "Gross Crown debt: 50.2% of GDP ($220.6B, Jan 2026)",
+          "Net core Crown debt: 41.9%, peaking 46.5% FY2027",
+          "Fiscal deficit (OBEGALx): -3.0% of GDP",
+          "Return to surplus: not expected until FY2029/30"
+        ],
+        "what_is_priced": "The Fitch downgrade is partially priced through wider NZ long-end spreads, but a potential Moody's or S&P follow-up is not priced. If the oil shock materially worsens fiscal metrics, a broader negative reassessment could add 5–10bp to NZ sovereign spreads.",
+        "citations": [38, 40, 41, 42]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 55,
+        "analysis": "The fiscal trajectory is deteriorating and pre-election dynamics will amplify the problem. The economic recovery expected to generate tax revenue has been delayed by the oil shock, while spending pressures increase. Fitch projects debt-to-GDP reaching 56% by FY2027, and the oil shock could push this toward 58–60%. The Budget 2026 (May 28) is the key event — Finance Minister Willis must balance pre-election spending with fiscal credibility. If the budget reveals a significantly wider deficit track, Fitch's negative outlook could accelerate toward an actual downgrade. NZ's negative NIIP means any deterioration in creditworthiness raises funding costs — structurally NZD-negative. The election adds fiscal risk: both centre-right tax cuts and centre-left spending increases involve near-term deficit widening. The 10Y NZGB-US spread at +44bp includes a fiscal premium that could widen if the Budget disappoints.",
+        "key_data_points": [
+          "Fitch debt-to-GDP projection: 56% by FY2027",
+          "NIIP: -47% of GDP (funding vulnerability)",
+          "Budget 2026: May 28 (pre-election fiscal statement)",
+          "Fiscal deficit forecast: -3.0% of GDP widening",
+          "Return to surplus: FY2029/30 (optimistic)",
+          "Election: Nov 7 (fiscal policy divergence between parties)",
+          "NZGB issuance: NZ$135B over 4 years"
+        ],
+        "what_is_priced": "The Fitch downgrade is priced, but the strategic trajectory of fiscal deterioration is not fully reflected — bank NZD/USD forecasts don't explicitly discount a potential full downgrade from AA+ to AA. If the Budget reveals wider deficits than expected, the fiscal channel would become more prominent.",
+        "citations": [38, 40, 41, 42, 43]
+      },
+      "horizon_split_explanation": "Tactically neutral because fiscal concerns are a background factor over 2–4 weeks — the Fitch downgrade is absorbed and no new fiscal data is imminent. Strategically bearish because the Budget (May 28) and election (Nov 7) create discrete fiscal risks, and the debt trajectory is deteriorating.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Market Structure & Volatility",
+      "factor_number": 9,
+      "tactical_weight": 0.05,
+      "strategic_weight": 0.03,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 60,
+        "analysis": "NZD/USD is in a clear bearish trend regime. Spot at 0.5725 trades below all major moving averages: the 50-day (~0.5935) and 200-day (~0.5825) are both overhead resistance, and MAs are angling lower. The MA configuration is bearish — with spot well below the 200d, CTA/systematic capital is positioned short, creating self-reinforcing selling. The key threshold is 0.5825 (200-day SMA) — a close above would be the first signal of trend exhaustion. Below, 0.5591 and 0.5485 are support. Implied volatility is estimated at 12–16% (1M ATM), with IV percentile likely in the 70th–85th range. The 25-delta risk reversal is estimated negative (NZD puts bid). Realised volatility (~10–12%) is below implied, suggesting an event premium exists that hasn't materialized in spot. The vol term structure is likely in backwardation, consistent with the April 6 deadline and April 8 RBNZ as discrete event risks. AUD/NZD at 1.1987 has broken above the 1.18 range, establishing a new higher regime. This breakout reinforces NZD-underperformance within the Antipodean complex.",
+        "key_data_points": [
+          "NZD/USD spot: 0.5725 (below 50d and 200d)",
+          "200-day SMA: ~0.5825 (key resistance/CTA threshold)",
+          "52-week range: 0.5485–0.6122",
+          "1M IV (est.): ~14%",
+          "IV percentile (est.): ~78th (1Y)",
+          "25-delta RR (est.): negative (NZD puts bid)",
+          "Support: 0.5591, 0.5485; Resistance: 0.5825, 0.5935, 0.6000"
+        ],
+        "what_is_priced": "The bearish trend is established and fully priced by systematic participants. The risk is a break of 0.5591 (November low) attracting additional selling. Conversely, a close above the 200d (0.5825) would force CTA short-covering — 100 pips from current levels, achievable on a single positive catalyst.",
+        "citations": [4, 5, 44]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "analysis": "Over 1–6 months, the technical picture becomes more balanced. NZD/USD is in the lower third of its 52-week range (0.5485–0.6122), with significant room for mean reversion if fundamentals improve. The 200-day SMA will likely flatten if the pair consolidates. Historical patterns show NZD/USD rarely sustains moves below 0.5500 — the last time was March 2020 which reversed within weeks. The distance from spot to the 52-week high is 397 pips (7%), well within normal 6-month volatility. AUD/NZD at 1.1987 is approaching the 1.20 psychological level where the pair has historically found resistance, suggesting relative NZD underperformance may be nearing exhaustion. The vol term structure would likely normalize if the conflict resolves, making options cheaper for directional positioning. The strategic view is that the bearish trend has limited additional runway — most of the move has occurred — but a catalyst is required to reverse it.",
+        "key_data_points": [
+          "52-week range: 0.5485–0.6122 (current in lower third)",
+          "Distance to 52W high: 397 pips (6.9%)",
+          "AUD/NZD: 1.1987 (approaching 1.20 resistance)",
+          "Historical NZD/USD floor: ~0.5500 (rarely sustained below)",
+          "6M NZD/USD typical range: 600–800 pips"
+        ],
+        "what_is_priced": "The bearish trend is fully priced by systematic models. The strategic question is whether the trend persists or reverses — market structure alone argues for exhaustion and mean-reversion, but structural shifts are possible if NZ's outlook deteriorates permanently.",
+        "citations": [4, 5, 44]
+      },
+      "horizon_split_explanation": "Tactically bearish because the trend is established, MAs are bearishly aligned, and systematic selling persists. Strategically neutral because the pair is in the lower third of its range with limited additional downside runway, and mean-reversion forces increase over longer horizons.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": "Given the volatility landscape, the bearish near-term view is best expressed via spot rather than options because IV is elevated (70th–85th percentile) making puts expensive, and RV < IV means the market is overpricing moves. The 200-day SMA at 0.5825 provides a natural stop-loss level. For event-specific positioning around the April 6 deadline, short-dated 1-week puts could capture an escalation scenario at lower premium than longer-dated options. For a contrarian bullish expression, NZD/JPY long or AUD/NZD short are more efficient than outright NZD/USD calls because they avoid the elevated USD vol premium. Post-event vol collapse would make options cheaper for sustained directional views — consider waiting for the April 6–8 cluster to resolve before establishing options-based positions."
+    },
+    {
+      "block": "USD Liquidity & Funding",
+      "factor_number": 10,
+      "tactical_weight": 0.11,
+      "strategic_weight": 0.12,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 65,
+        "analysis": "The USD liquidity environment has shifted from neutral-to-supportive to hostile for NZD. The Iran conflict has triggered safe-haven USD demand, pushing DXY up ~3% in March to ~100.3. SOFR remains stable at ~3.55–3.60% with tight spread to Fed Funds, indicating domestic USD markets are functioning. However, the oil shock has created significant USD demand stress for energy-importing nations — every country importing oil at $107/bbl needs more dollars, tightening global supply. The Fed's balance sheet at ~$6.7T has stabilized after QT ended in December 2025, removing one source of withdrawal, but this positive is overwhelmed by conflict-driven demand. The dollar smile places the current environment at the left side — USD strength from risk-off — the worst quadrant for high-beta currencies. Critically, NZD lacks a structural backstop: the RBNZ does NOT have a standing Fed swap line, unlike the RBA. This means in a USD liquidity crisis, NZ institutions face higher funding costs. This asymmetry directly supports AUD/NZD appreciation during stress. NZ's structural current account deficit (-3.5% of GDP) means the country requires persistent foreign capital inflows — tighter USD liquidity raises this cost.",
+        "key_data_points": [
+          "DXY: ~100.3 (+3% in March, ~-1% YTD)",
+          "SOFR: ~3.55–3.60%",
+          "Fed balance sheet: ~$6.7T (QT ended Dec 2025)",
+          "Fed funds rate: 3.50–3.75%",
+          "Dollar smile position: left side (risk-off USD strength)",
+          "RBNZ Fed swap line: NONE (vulnerability vs AUD)",
+          "NZ current account: -3.5% of GDP (requires foreign funding)"
+        ],
+        "what_is_priced": "The safe-haven USD bid is well-priced, but the specific NZD vulnerability (no Fed swap line) is underappreciated as a structural risk. If USD funding stress intensifies (oil >$130), the basis-adjusted carry penalty for NZD would widen further. This risk is not proportionally reflected in NZD vs AUD pricing.",
+        "citations": [45, 46, 47]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "analysis": "The strategic USD liquidity outlook hinges on conflict duration and resolution. If the conflict resolves within the base case timeline, USD safe-haven demand normalizes, DXY resumes its pre-conflict softening, and global conditions improve. QT's end is structurally positive. The FOMC dot plot median projects one 25bp cut in 2026, which if delivered would loosen conditions. However, the oil shock has introduced new uncertainty — rising prices are inflationary, potentially delaying the cut. Markets have repriced from two cuts to hold all year with growing hike probability. If the Fed hikes (10–15% probability), it would tighten liquidity dramatically — catastrophic for NZD. The dollar smile suggests conflict resolution would move USD from left (risk-off) to bottom (goldilocks) — the most NZD-favourable quadrant. NZ's lack of a Fed swap line is permanent but only matters during acute stress — once normality returns, NZ institutions fund through commercial markets at modestly wider spreads.",
+        "key_data_points": [
+          "Fed dot plot: one 25bp cut in 2026 (market pricing: hold)",
+          "QT status: ended Dec 2025 (neutral to positive)",
+          "DXY pre-conflict: ~101 (-1% YTD)",
+          "Dollar smile base case: shift from left to bottom (goldilocks)",
+          "Fed hike probability: growing (~10–15%)",
+          "3M EUR/USD basis (est.): -15 to -25bp (moderately wide)"
+        ],
+        "what_is_priced": "The strategic USD path is uncertain — the market is split between hold and one cut with emerging hike probability. If the conflict resolves and the Fed delivers its projected cut, DXY would weaken and NZD/USD would benefit. If conflict persists and Fed hikes, NZD faces a double headwind. The balanced probability distribution supports neutral.",
+        "citations": [45, 46, 47, 48]
+      },
+      "horizon_split_explanation": "Tactically bearish (65) because USD safe-haven demand is active, NZD lacks the Fed swap line backstop, and the dollar smile is in the risk-off quadrant. Strategically neutral (50) because conflict resolution would normalize conditions, QT has ended, and the Fed's projected cut would be NZD-supportive — but the wide range of possible outcomes makes a directional call premature.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    }
+  ],
+  "synthesis": {
+    "tactical": {
+      "net_stance": "Bearish",
+      "conviction": 3,
+      "overall_confidence": 63,
+      "weighted_score": {
+        "calculation": [
+          { "factor": "1. Policy & Rates", "stance_score": -1, "confidence_pct": 65, "confidence_adjusted_score": -0.650, "weight": 0.24, "weighted_contribution": -0.156 },
+          { "factor": "2. Inflation & Growth", "stance_score": -1, "confidence_pct": 70, "confidence_adjusted_score": -0.700, "weight": 0.18, "weighted_contribution": -0.126 },
+          { "factor": "3. Risk Appetite", "stance_score": -1, "confidence_pct": 70, "confidence_adjusted_score": -0.700, "weight": 0.10, "weighted_contribution": -0.070 },
+          { "factor": "4. Flows & Positioning", "stance_score": 0, "confidence_pct": 60, "confidence_adjusted_score": 0.000, "weight": 0.10, "weighted_contribution": 0.000 },
+          { "factor": "5. External Balance", "stance_score": 0, "confidence_pct": 55, "confidence_adjusted_score": 0.000, "weight": 0.06, "weighted_contribution": 0.000 },
+          { "factor": "6. Guidance & Credibility", "stance_score": -1, "confidence_pct": 60, "confidence_adjusted_score": -0.600, "weight": 0.07, "weighted_contribution": -0.042 },
+          { "factor": "7. Event Risk", "stance_score": -1, "confidence_pct": 65, "confidence_adjusted_score": -0.650, "weight": 0.05, "weighted_contribution": -0.033 },
+          { "factor": "8. Fiscal & Sovereign", "stance_score": 0, "confidence_pct": 55, "confidence_adjusted_score": 0.000, "weight": 0.04, "weighted_contribution": 0.000 },
+          { "factor": "9. Market Structure", "stance_score": -1, "confidence_pct": 60, "confidence_adjusted_score": -0.600, "weight": 0.05, "weighted_contribution": -0.030 },
+          { "factor": "10. USD Liquidity", "stance_score": -1, "confidence_pct": 65, "confidence_adjusted_score": -0.650, "weight": 0.11, "weighted_contribution": -0.072 }
+        ],
+        "net_score": -0.529,
+        "interpretation": "Firmly bearish reading. Scores below -0.30 indicate a bearish thesis supported by the weight of evidence; -0.529 reflects widespread bearish alignment across the highest-weighted factors.",
+        "mapping_to_conviction": "-0.529 maps to Conviction 3/5 — moderate conviction bearish, sufficient for a trade but with significant offsetting forces from positioning and external balance."
+      },
+      "rationale": "The tactical NZD bear case is driven by convergence of negative signals across the three highest-weighted factors: Policy & Rates (-0.156 contribution), Inflation & Growth (-0.126), and USD Liquidity (-0.072) — together accounting for 67% of the total bearish score. The rates channel is unambiguously negative: at 2.25%, the OCR generates negative carry against 7 of 10 G10+SGD peers, with the -185bp spread to the RBA the widest Antipodean gap in years. The stagflationary macro backdrop (3.1% CPI, +0.2% GDP, 5.4% unemployment) paralyzes the RBNZ — no hike possible (growth too fragile), no cut possible (inflation above target). The oil shock operating through NZ's 100% fuel import dependency amplifies every negative channel: inflation, growth, confidence (ANZ Business Outlook collapse from 59 to 33), and external balance. Risk appetite is firmly negative (VIX 30.6, S&P -7.3% YTD) and NZD's high-beta character means it absorbs more punishment than most peers. USD strength from safe-haven flows, combined with NZD's lack of a Fed swap line, creates a funding vulnerability not shared by AUD. The bearish thesis is tempered by three factors preventing higher conviction: extreme short positioning (combined -41,742 CFTC contracts, 80th–90th percentile) limits incremental downside; dairy prices up 18% YTD provide structural commodity support; and NZD is 16% below PPP fair value, deeply cheap on any multi-month view. The path of least resistance is lower absent a geopolitical catalyst. The April 6 Hormuz deadline and April 8 RBNZ MPR create a concentrated event risk window. Actionability is moderate: the trade is consensus, compressing risk/reward for new shorts while creating asymmetric squeeze risk.",
+      "g10_ranking": {
+        "rank": 10,
+        "out_of": 11,
+        "beats": ["JPY"],
+        "loses_to": ["USD", "CHF", "NOK", "GBP", "AUD", "CAD", "EUR", "SGD", "SEK"],
+        "commentary": "NZD ranks 10th — the G10 currency most structurally vulnerable to the Iran-oil shock: maximum energy import dependency, no Fed swap line, smallest/least liquid Antipodean currency, and the most accommodative central bank stance relative to inflation. The one argument for NZD over JPY is that Japan's oil dependency is even more extreme (99% import) with structurally weaker nominal yields."
+      },
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "outcome": "NZD/USD trades 0.5550–0.5800",
+          "conditions": ["Conflict uncertainty persists but doesn't escalate dramatically", "April 6 deadline passes with extension and continued diplomacy", "RBNZ MPR holds and maintains 'look through' language", "Q1 CPI comes in at 3.3–3.5%"],
+          "path": "NZD drifts lower on continued risk-off and carry headwinds, finding support near the November 2025 low of 0.5591. AUD/NZD pushes to 1.20+."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "outcome": "NZD/USD rebounds to 0.5900–0.6050",
+          "conditions": ["Credible ceasefire announced before or around April 6", "Oil drops below $90 rapidly", "VIX collapses below 20", "Short squeeze drives 200+ pip NZD rally"]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "outcome": "NZD/USD breaks below 0.5500 toward 0.5300",
+          "conditions": ["Hormuz deadline passes with US military escalation", "Oil spikes toward $130+", "NZD breaks 52-week low triggering systematic selling"]
+        }
+      },
+      "path_expectation": "NZD/USD is expected to trade with a downward bias through mid-April, grinding lower in a stair-step pattern (lower highs at the 200-day SMA ~0.5825, lower lows approaching 0.5591). The April 6 Hormuz deadline creates a binary window where the pair could gap ±100–200 pips depending on the outcome. Absent a positive resolution, the path of least resistance is a retest of 0.5591 within 2–3 weeks. Volatility will remain elevated, with 50–80 pip daily ranges versus the normal 30–50 pip. Any intraday spike toward 0.5825 should be treated as a selling opportunity in the base case. The pattern is a bearish grind with event-driven spikes — not a freefall.",
+      "conviction_ladder": {
+        "current": 3,
+        "increase_to_5_if": ["Iran conflict escalates to ground operations AND oil exceeds $150/bbl", "Fitch downgrades NZ from AA+ to AA AND NZ enters recession"],
+        "increase_to_4_if": ["Iran conflict escalates with oil >$130/bbl", "Q1 CPI exceeds 3.5% AND RBNZ signals hawkish pivot at April 8 MPR"],
+        "decrease_to_3_if": ["N/A — currently at 3", "N/A"],
+        "decrease_to_2_if": ["Ceasefire talks show material progress", "Oil drops below $95/bbl OR ANZ Business Outlook rebounds above 45"],
+        "decrease_to_1_if": ["Credible ceasefire signed AND oil below $85/bbl", "NZD/USD closes above 200d SMA (0.5825) for 3 consecutive sessions"]
+      },
+      "risk_reward": {
+        "base_case_payoff": "-125 pips (from 0.5725 to 0.5600)",
+        "downside_case_loss": "+175 pips (from 0.5725 to 0.5900 — adverse move for short position)",
+        "risk_reward_ratio": "0.71:1 simple base case; 3.8:1 probability-weighted expected value",
+        "asymmetry_assessment": "Simple base case entry is unfavourable (0.71:1) because the trade is consensus and NZD is already cheap. However, the probability-weighted expected value is positive (3.8:1) because the downside tail is larger than the upside tail. This argues for expressing the view through AUD/NZD long rather than NZD/USD short, or waiting for a better entry on a relief bounce."
+      }
+    },
+    "strategic": {
+      "net_stance": "Bearish",
+      "conviction": 2,
+      "overall_confidence": 53,
+      "weighted_score": {
+        "calculation": [
+          { "factor": "1. Policy & Rates", "stance_score": -1, "confidence_pct": 55, "confidence_adjusted_score": -0.550, "weight": 0.24, "weighted_contribution": -0.132 },
+          { "factor": "2. Inflation & Growth", "stance_score": -1, "confidence_pct": 60, "confidence_adjusted_score": -0.600, "weight": 0.10, "weighted_contribution": -0.060 },
+          { "factor": "3. Risk Appetite", "stance_score": 0, "confidence_pct": 50, "confidence_adjusted_score": 0.000, "weight": 0.05, "weighted_contribution": 0.000 },
+          { "factor": "4. Flows & Positioning", "stance_score": 1, "confidence_pct": 55, "confidence_adjusted_score": 0.550, "weight": 0.06, "weighted_contribution": 0.033 },
+          { "factor": "5. External Balance", "stance_score": 1, "confidence_pct": 60, "confidence_adjusted_score": 0.600, "weight": 0.16, "weighted_contribution": 0.096 },
+          { "factor": "6. Guidance & Credibility", "stance_score": 0, "confidence_pct": 50, "confidence_adjusted_score": 0.000, "weight": 0.12, "weighted_contribution": 0.000 },
+          { "factor": "7. Event Risk", "stance_score": -1, "confidence_pct": 60, "confidence_adjusted_score": -0.600, "weight": 0.05, "weighted_contribution": -0.030 },
+          { "factor": "8. Fiscal & Sovereign", "stance_score": -1, "confidence_pct": 55, "confidence_adjusted_score": -0.550, "weight": 0.07, "weighted_contribution": -0.039 },
+          { "factor": "9. Market Structure", "stance_score": 0, "confidence_pct": 50, "confidence_adjusted_score": 0.000, "weight": 0.03, "weighted_contribution": 0.000 },
+          { "factor": "10. USD Liquidity", "stance_score": 0, "confidence_pct": 50, "confidence_adjusted_score": 0.000, "weight": 0.12, "weighted_contribution": 0.000 }
+        ],
+        "net_score": -0.132,
+        "interpretation": "Mildly bearish reading, near the threshold between Neutral and Bearish. Scores between -0.10 and -0.30 indicate a lean rather than strong conviction.",
+        "mapping_to_conviction": "-0.132 maps to Conviction 2/5 — low conviction bearish, reflecting genuine uncertainty about the strategic outlook."
+      },
+      "rationale": "The strategic NZD outlook is far more contested than the tactical picture. The bearish factors concentrate in Policy & Rates (-0.132, dominant contributor) and Fiscal & Sovereign Risk (-0.039), reflecting persistent carry disadvantage and deteriorating fiscal trajectory. Even with projected hikes, NZD carry will remain negative vs most G10 peers through year-end. The oil shock's growth impact (ASB: 1.3% GDP) and election-driven fiscal uncertainty add drag. However, bullish offsets are significant from high-weighted strategic factors: External Balance (+0.096) is the second-largest contributor, reflecting the dairy rally (+18% YTD), current account improvement (-9.0% to -3.5%), and structural export recovery. Positioning (+0.033) adds contrarian support. Three factors flip from tactical bearish to strategic neutral (Risk Appetite, Market Structure, USD Liquidity), reflecting the assumption that geopolitical conditions normalize within the 6-month window. The net effect is a barely bearish score (-0.132) where conviction is low because the thesis depends heavily on conflict duration — if resolution comes by mid-year, several bearish factors flip and the score could shift positive. The RBNZ's May 27 MPS is the pivotal domestic event. The election adds a binary political risk that is underpriced. The strategic edge is that NZD's extreme cheapness (16% below PPP) and extreme positioning (80th–90th percentile short) create positive skew — the downside from here (to 0.5300, -7%) is smaller than the plausible upside (to 0.6200, +8%). This is the key finding: while the net score is mildly bearish, the risk/reward is actually NZD-positive because the currency is already very cheap.",
+      "g10_ranking": {
+        "rank": 8,
+        "out_of": 11,
+        "beats": ["JPY", "CAD", "CHF"],
+        "loses_to": ["AUD", "NOK", "USD", "GBP", "EUR", "SGD", "SEK"],
+        "commentary": "NZD improves from 10th tactically to 8th strategically as the conflict premium fades and dairy/valuation supports reassert — but remains below the G10 median due to persistent carry disadvantage, fiscal deterioration, and election uncertainty."
+      },
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "outcome": "NZD/USD recovers to 0.5850–0.6000 by September",
+          "conditions": ["Iran conflict resolves by mid-year, oil retreats to $85–95/bbl", "RBNZ lifts OCR track modestly at May MPS but holds through H1", "Budget is mildly expansionary", "Dairy prices sustain above $3,500/MT"],
+          "path": "U-shaped recovery: continued weakness through April–May (bottom 0.5550–0.5650), stabilization June–July, gradual recovery August–September toward 0.58–0.60."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "outcome": "NZD/USD reaches 0.6100–0.6300",
+          "conditions": ["Quick conflict resolution + oil below $80", "RBNZ hikes in September signaling confidence", "Dairy sustains above $3,800/MT", "Election uncertainty clears early"]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "outcome": "NZD/USD falls to 0.5200–0.5400",
+          "conditions": ["Conflict persists through Q3, oil stays above $110", "NZ enters recession (Q2 GDP contraction)", "Fitch downgrades to AA"]
+        }
+      },
+      "path_expectation": "NZD/USD is expected to follow a U-shaped recovery over 6 months: continued weakness through April–May (bottom of the U at 0.5550–0.5650), stabilization in June–July as conflict resolution unfolds and short covering begins, and gradual recovery in August–September toward 0.58–0.60. The May 27–28 cluster (RBNZ MPS + Budget) is the likely inflection point. The recovery will be choppy rather than smooth, with election-related pullbacks in September–October. By the November election, NZD/USD should trade in the 0.57–0.60 range under the base case — above current levels but below pre-conflict highs.",
+      "conviction_ladder": {
+        "current": 2,
+        "increase_to_5_if": ["Conflict persists past September with no diplomatic progress", "NZ enters a full recession with GDP contraction in two consecutive quarters"],
+        "increase_to_4_if": ["Conflict persists past June with oil consistently above $110/bbl", "Fitch downgrades NZ to AA AND RBNZ is forced into emergency rate hikes"],
+        "decrease_to_3_if": ["Conflict persists past May with no diplomatic progress", "Q1 CPI exceeds 3.5% AND RBNZ lifts OCR track >50bp"],
+        "decrease_to_2_if": ["N/A — currently at 2", "N/A"],
+        "decrease_to_1_if": ["Ceasefire signed AND oil below $90 AND RBNZ maintains accommodative guidance", "All above conditions plus Fed delivers rate cut AND dairy sustains above $3,700/MT"]
+      },
+      "risk_reward": {
+        "base_case_payoff": "+175 pips (from 0.5725 to 0.5900)",
+        "downside_case_loss": "-425 pips (from 0.5725 to 0.5300)",
+        "risk_reward_ratio": "0.41:1 simple; 1.9:1 probability-weighted",
+        "asymmetry_assessment": "The strategic distribution is positively skewed for NZD — the upside (recovery to fair value) is larger in magnitude than the downside on a probability-weighted basis. While the net score is mildly bearish, the risk/reward is actually NZD-positive because the currency is already very cheap. This supports either a flat strategic position or a small long with tight risk management."
+      }
+    },
+    "consensus_divergence": {
+      "consensus_view": "Bank consensus projects NZD/USD at ~0.61 by Q2 2026 and ~0.62 by Q4 2026, based on pre-conflict forecasts. Most banks expect a gradual NZD recovery driven by RBNZ rate normalization, dairy support, and USD weakness.",
+      "our_view": "NZD/USD will struggle to reach 0.60 before Q3 2026 and is more likely to trade in the 0.56–0.59 range through June, recovering toward 0.58–0.60 by September in the base case. The divergence is approximately 300 pips below consensus for Q2.",
+      "divergence_magnitude": "~300 pips below consensus for Q2 2026; ~200 pips below for Q4 2026",
+      "why_we_differ": "First, consensus is stale — most forecasts predate the Iran conflict and do not incorporate the oil shock, Fitch downgrade, or confidence collapse. Second, carry is worse than consensus assumes — the RBA's March hike to 4.10% widened the Antipodean spread beyond most models. Third, the stagflationary trap is underappreciated — CPI at 3.1% with +0.2% GDP growth constrains the RBNZ in ways most forecasters haven't fully modeled. Fourth, election risk is not priced — the November 7 election adds a late-year risk premium that bank forecasts typically ignore.",
+      "payoff_if_right": "NZD/USD remains below 0.60 through mid-year and consensus gradually revises lower, providing entry for eventual NZD longs at better levels (0.56–0.58). The contrarian positioning unwind when it comes would be larger.",
+      "risk_if_wrong": "NZD recovers to 0.61+ by June, meaning our bearish tactical call generates a ~300-pip opportunity cost. The risk is manageable given that consensus itself will likely revise."
+    },
+    "cross_currency_relative_value": {
+      "cleanest_bullish_expression": {
+        "pair": "NZD/JPY long",
+        "rationale": "Captures both NZD recovery and JPY safe-haven unwind on conflict resolution — double leverage on the recovery thesis. Carry-positive (~150bp NZD over JPY). High-beta trade suitable only for the upside scenario where risk appetite normalizes."
+      },
+      "cleanest_bearish_expression": {
+        "pair": "AUD/NZD long",
+        "rationale": "Captures bilateral policy divergence (RBA 4.10% vs RBNZ 2.25%), NZ's greater oil vulnerability, AUD's Fed swap line advantage, and the established uptrend. AUD/NZD at 1.1987 has broken above 1.18 resistance with room to 1.22–1.25. Lower vol than NZD/USD, carry-positive, and a cleaner expression of Antipodean divergence."
+      },
+      "relative_value_pairs": [
+        { "pair": "NZD/CAD short", "thesis": "Both share the same policy rate (2.25%), but CAD benefits from oil price strength (petro-currency) while NZD suffers (oil importer). Directly isolates the oil shock's differential impact. NZD/CAD at ~0.798 could decline to 0.76–0.78 if oil remains elevated." }
+      ]
+    },
+    "cross_horizon_consistency": {
+      "aligned": true,
+      "summary": "Both tactical and strategic stances are bearish, but conviction diverges markedly: tactical 3/5 vs strategic 2/5.",
+      "divergence_explanation": "The alignment reflects persistent structural headwinds (carry disadvantage, fiscal deterioration) operating across both horizons. The conviction divergence reflects dramatically different probability distributions: tactically, 7 of 10 factors are bearish with clear near-term catalysts. Strategically, positioning flips bullish, external balance flips bullish, and three factors shift to neutral as the geopolitical premium is assumed to partially resolve.",
+      "inflection_point": "May 27–28 cluster (RBNZ MPS + NZ Budget 2026)",
+      "catalyst_for_transition": "The RBNZ's updated OCR track and the Budget's fiscal trajectory will determine whether the tactical bear thesis transitions to a strategic recovery narrative or entrenches into a deeper downturn.",
+      "trading_implication": "Maintain tactical shorts into the May cluster, then reassess: if the inflection materializes (measured RBNZ, credible budget), cover shorts and potentially reverse to long. If it doesn't (RBNZ panic or fiscal deterioration), maintain the bearish position into the election."
+    },
+    "forward_vs_spot": {
+      "spot": "0.5725",
+      "forwards": {
+        "1m": { "points": "+8 (est.)", "outright": "0.5733", "annualised_pct": "+1.7% (NZD at premium — NZD yields above USD at short end)" },
+        "3m": { "points": "+25 (est.)", "outright": "0.5750", "annualised_pct": "+1.7%" },
+        "6m": { "points": "+50 (est.)", "outright": "0.5775", "annualised_pct": "+1.7%" }
+      },
+      "expected_spot": {
+        "1m": "0.5650",
+        "3m": "0.5700",
+        "6m": "0.5900"
+      },
+      "edge": {
+        "1m": "-83 pips (forward implies 0.5733, we expect 0.5650 — short NZD edge)",
+        "3m": "-50 pips (forward implies 0.5750, we expect 0.5700 — short NZD edge)",
+        "6m": "+125 pips (forward implies 0.5775, we expect 0.5900 — long NZD edge)"
+      },
+      "interpretation": "Forward points are positive (NZD premium) because NZD yields exceed USD yields at the short end — counterintuitively, the NZD forward is at a premium despite the bearish view. At 1M and 3M, our expected rates are below forwards, indicating a short NZD edge at those tenors. At 6M, our base case (0.5900) is above the forward (0.5775), indicating a +125 pip long NZD edge — consistent with the strategic view that NZD recovers once geopolitical conditions normalize."
+    }
+  },
+
+  "forward_looking": {
+    "key_catalysts": [
+      { "date": "2026-04-06", "event": "Iran-US Hormuz Deadline", "expected_impact": "Ambiguous", "rationale": "Trump has set April 6 as the deadline for Iran to reopen the Strait of Hormuz. Three outcomes: reopening triggers massive risk-on rally (+200–300 pips NZD); deadline extended, continued uncertainty; US escalation, oil spikes, NZD -200+ pips. Binary nature dominates all other catalysts.", "priced_in": "Partially — market embeds uncertainty but specific outcomes are not priced", "bilateral_relevance": "NZD/USD, NZD/JPY, AUD/NZD", "citations": [23, 24, 25] },
+      { "date": "2026-04-07", "event": "GDT Dairy Auction (Event 402)", "expected_impact": "Bullish", "rationale": "Dairy prices have rallied 18% YTD with 6 consecutive increases. Another positive auction reinforces the structural commodity support narrative. A sharp decline (>5%) would compound weakness. WMP above $3,700/MT is the bullish threshold.", "priced_in": "Partially — dairy rally known but next auction outcome uncertain", "bilateral_relevance": "NZD/USD, AUD/NZD", "citations": [29, 30] },
+      { "date": "2026-04-08", "event": "RBNZ Monetary Policy Review (MPR)", "expected_impact": "Neutral", "rationale": "Unanimous hold at 2.25% expected. No new forecasts or OCR track. Key signal is statement language: any shift from 'look through' would reprice hike expectations. Dovish maintenance is NZD-neutral to negative.", "priced_in": "Hold fully priced; language risk is not", "bilateral_relevance": "NZD/USD, AUD/NZD, NZD/JPY", "citations": [11, 12, 35] },
+      { "date": "2026-04-W3", "event": "NZ Q1 2026 CPI Release (~April 16)", "expected_impact": "Bearish", "rationale": "Consensus expects 3.3–3.5% YoY, up from 3.1%. A print above 3.5% amplifies stagflation fears and rate hike expectations. A sub-3.0% surprise (unlikely) would provide significant relief.", "priced_in": "Partially — markets expect higher CPI but exact level matters", "bilateral_relevance": "NZD/USD, AUD/NZD", "citations": [15, 16, 19] },
+      { "date": "2026-04-21", "event": "GDT Dairy Auction (Event 403)", "expected_impact": "Bullish", "rationale": "Continuation of the dairy rally provides an important fundamental floor. Sequential auctions give high-frequency commodity data.", "priced_in": "Not priced", "bilateral_relevance": "NZD/USD, AUD/NZD", "citations": [29, 30] },
+      { "date": "2026-04-30", "event": "FOMC, ECB, BoE Meetings Cluster (Apr 28–30)", "expected_impact": "Ambiguous", "rationale": "Three major central banks within 48 hours. Fed expected to hold. ECB and BoE language on oil-driven inflation could signal hawkish pivots widening NZD carry differentials further.", "priced_in": "Holds fully priced; hawkish rhetoric partially priced", "bilateral_relevance": "NZD/USD, EUR/NZD, GBP/NZD", "citations": [45, 46] },
+      { "date": "2026-05-W1", "event": "NZ Q1 2026 Labour Market (HLFS ~May 6)", "expected_impact": "Bearish", "rationale": "Unemployment expected at or above 5.4%, with the oil shock dampening employment. Rising unemployment alongside rising inflation deepens the stagflationary narrative.", "priced_in": "Partially — weak labour market expected but magnitude matters", "bilateral_relevance": "NZD/USD", "citations": [17, 18] },
+      { "date": "2026-05-27", "event": "RBNZ Monetary Policy Statement (MPS)", "expected_impact": "Ambiguous", "rationale": "Full forecast update with new OCR track incorporating the oil shock. The published track revision is the key signal — a materially higher track would be NZD-positive (carry improvement), an unchanged track NZD-negative. This is the pivotal domestic event.", "priced_in": "Not priced — RBNZ forecast revisions unknown in advance", "bilateral_relevance": "All NZD crosses", "citations": [11, 12, 35, 36] },
+      { "date": "2026-05-28", "event": "NZ Budget 2026 + BEFU", "expected_impact": "Ambiguous", "rationale": "Pre-election budget. Willis must balance fiscal credibility (Fitch negative) with election spending. Expansionary = NZD-negative (wider deficits). Consolidation = NZD-positive but politically risky.", "priced_in": "Not priced — budget details unknown", "bilateral_relevance": "NZD/USD, NZGB curve", "citations": [40, 41, 42, 43] },
+      { "date": "2026-06-W3", "event": "NZ Q1 2026 GDP Release (~June 18)", "expected_impact": "Bearish", "rationale": "Post-oil-shock Q1 GDP could show stagnation or contraction, confirming the stagflationary thesis. Even +0.1–0.2% would disappoint given pre-conflict optimism.", "priced_in": "Partially — weakness expected but magnitude uncertain", "bilateral_relevance": "NZD/USD", "citations": [20, 21, 22] },
+      { "date": "2026-06-17", "event": "FOMC + SEP/Dot Plot (Jun 16–17)", "expected_impact": "Ambiguous", "rationale": "New dot plot reveals Fed's updated rate path. Dots signaling hikes = DXY strength = NZD headwinds. Dots signaling cuts = DXY weakness = NZD tailwind.", "priced_in": "Partially — current lean is hold, dots unpredictable", "bilateral_relevance": "NZD/USD", "citations": [45, 46] },
+      { "date": "2026-09-02", "event": "RBNZ MPS (September)", "expected_impact": "Bullish", "rationale": "Market prices ~50% probability of a 25bp hike. If delivered, NZD rallies on carry improvement and inflation-fighting credibility. If held, NZD-negative.", "priced_in": "Partially — ~50% priced", "bilateral_relevance": "NZD/USD, AUD/NZD", "citations": [12, 13, 14] },
+      { "date": "2026-11-07", "event": "NZ General Election", "expected_impact": "Ambiguous", "rationale": "Knife-edge race. Centre-right victory = NZD-positive (policy continuity, fiscal restraint). Labour-Green = initially NZD-negative (CGT uncertainty, spending). NZ First kingmaker role adds unpredictability.", "priced_in": "Not priced — outcomes inherently unpredictable", "bilateral_relevance": "NZD/USD, NZGB curve, AUD/NZD", "citations": [39, 40] }
+    ],
+    "invalidators": [
+      { "condition": "Brent crude falls below $85/bbl sustained for 2+ weeks", "new_stance": "Neutral", "mechanism": "The oil shock channel — NZ's primary vulnerability — would be substantially defused. The carry disadvantage persists but the risk premium would compress, and NZD's 16% PPP undervaluation would become actionable.", "monitor_indicator": "ICE Brent crude front-month", "monitor_frequency": "Daily", "quantitative_threshold": "Below $85/bbl for 10+ consecutive trading days", "probability_pct": 20 },
+      { "condition": "NZD/USD closes above the 200-day SMA for 3 consecutive sessions", "new_stance": "Neutral", "mechanism": "The bearish trend structure would be broken. CTA and systematic short positions would begin covering, creating flow-driven upside.", "monitor_indicator": "NZD/USD daily close vs 200d SMA (~0.5825)", "monitor_frequency": "Daily", "quantitative_threshold": "3 consecutive daily closes above 0.5825", "probability_pct": 15 },
+      { "condition": "RBNZ hikes the OCR by 25bp or more", "new_stance": "Neutral", "mechanism": "An unexpected hike signals inflation-fighting credibility, narrows carry differential by 25bp, and likely triggers a short squeeze.", "monitor_indicator": "RBNZ OCR announcement", "monitor_frequency": "Per RBNZ meeting schedule", "quantitative_threshold": "OCR raised to 2.50% or higher", "probability_pct": 8 },
+      { "condition": "ANZ Business Outlook activity expectations recover above 50.0", "new_stance": "Neutral", "mechanism": "The confidence collapse would be revealed as temporary shock response, supporting the pre-conflict recovery narrative.", "monitor_indicator": "ANZ Business Outlook monthly release", "monitor_frequency": "Monthly", "quantitative_threshold": "Activity expectations above 50.0", "probability_pct": 15 },
+      { "condition": "NZ Q1 CPI below 2.8% YoY", "new_stance": "Neutral", "mechanism": "Below-target inflation removes the stagflationary constraint, allowing RBNZ to maintain accommodative policy without credibility risk.", "monitor_indicator": "Statistics NZ CPI quarterly release", "monitor_frequency": "Quarterly", "quantitative_threshold": "Headline CPI below 2.8% YoY", "probability_pct": 5 },
+      { "condition": "Combined CFTC net short exceeds -55,000 contracts", "new_stance": "Bearish", "mechanism": "Indicates the short trade has further to run and the contrarian signal is overwhelmed by fundamental momentum. Extreme positioning at new 3Y records.", "monitor_indicator": "CFTC COT weekly report", "monitor_frequency": "Weekly (Friday)", "quantitative_threshold": "Combined leveraged + asset manager net short > -55,000", "probability_pct": 10 },
+      { "condition": "NZD/USD breaks below 0.5485 (52-week low) on daily close", "new_stance": "Bearish", "mechanism": "Technical breakdown triggers systematic selling, removes key support, signals the market is pricing a more severe NZ economic outcome.", "monitor_indicator": "NZD/USD daily close", "monitor_frequency": "Daily", "quantitative_threshold": "Daily close below 0.5485", "probability_pct": 15 }
+    ],
+    "signposts": [
+      { "indicator": "Brent Crude Oil Price", "current_level": "~$107–108/bbl", "threshold_confirms": "Stays above $100/bbl (oil shock persists)", "threshold_invalidates": "Falls below $85/bbl (risk premium compresses)", "bilateral_importance": "NZD/USD, NZD/CAD, AUD/NZD", "source_url": "https://tradingeconomics.com/commodity/brent-crude-oil", "frequency": "Continuous / Daily" },
+      { "indicator": "ANZ Business Outlook — Activity Expectations", "current_level": "39.3 (March 2026)", "threshold_confirms": "Falls below 30 (confidence collapse deepens)", "threshold_invalidates": "Recovers above 50 (confidence rebound)", "bilateral_importance": "NZD/USD, AUD/NZD", "source_url": "https://www.anz.co.nz/about-us/economic-markets-research/economic-news/", "frequency": "Monthly" },
+      { "indicator": "GDT Dairy Price Index (WMP)", "current_level": "US$3,709/MT (March 2026)", "threshold_confirms": "Falls below $3,400/MT (dairy support breaks)", "threshold_invalidates": "Rises above $4,000/MT (dairy tailwind dominates)", "bilateral_importance": "NZD/USD, AUD/NZD", "source_url": "https://www.globaldairytrade.info/en/product-results/", "frequency": "Fortnightly" },
+      { "indicator": "NZD/USD 200-Day SMA", "current_level": "~0.5825", "threshold_confirms": "Spot remains below (bearish trend intact)", "threshold_invalidates": "3 daily closes above (trend broken)", "bilateral_importance": "NZD/USD", "source_url": "https://tradingeconomics.com/new-zealand/currency", "frequency": "Daily" },
+      { "indicator": "VIX Index", "current_level": "30.6", "threshold_confirms": "Stays above 25 (risk-off persists)", "threshold_invalidates": "Falls below 18 (risk normalizes)", "bilateral_importance": "NZD/USD, NZD/JPY", "source_url": "https://www.cboe.com/tradable_products/vix/", "frequency": "Continuous / Daily" },
+      { "indicator": "CFTC Net Speculative NZD Positioning", "current_level": "-41,742 combined net short", "threshold_confirms": "Net short reduces toward -20K without NZD rally (fundamental selling)", "threshold_invalidates": "Net short exceeds -55K (extreme preceding sharp reversal)", "bilateral_importance": "NZD/USD", "source_url": "https://www.cftc.gov/dea/futures/financial_lf.htm", "frequency": "Weekly (Friday)" },
+      { "indicator": "AUD/NZD Cross Rate", "current_level": "1.1987", "threshold_confirms": "Breaks above 1.22 (Antipodean divergence widens)", "threshold_invalidates": "Falls below 1.16 (NZD catch-up rally)", "bilateral_importance": "AUD/NZD", "source_url": "https://tradingeconomics.com/new-zealand/currency", "frequency": "Continuous / Daily" }
+    ]
+  },
+
+  "change_since_last_report": {
+    "factors_changed": [
+      { "factor": "2. Inflation & Growth", "previous_stance": "Neutral/mildly bearish", "new_stance": "Bearish (both horizons)", "reason": "March ANZ Business Outlook collapse (32.5 from 59.2) confirms the oil shock has delivered a severe real-economy confidence hit" },
+      { "factor": "7. Event Risk", "previous_stance": "Bearish", "new_stance": "Bearish (intensified)", "reason": "April 6 Hormuz deadline and Fitch downgrade add new event dimensions not in March dossier" },
+      { "factor": "8. Fiscal & Sovereign", "previous_stance": "Neutral", "new_stance": "Strategic Bearish", "reason": "Fitch's negative outlook revision adds a new sovereign risk dimension" }
+    ],
+    "signposts_triggered": [
+      { "signpost": "Brent crude oil price", "outcome": "Rose from ~$90–100 to $107–108/bbl", "implication": "Confirms bearish thesis — conflict has deepened, not resolved" },
+      { "signpost": "VIX Index", "outcome": "Rose from ~25 to 30.6", "implication": "Confirms risk-off thesis" },
+      { "signpost": "GDT dairy prices", "outcome": "Rose from ~$3,400 to $3,709/MT", "implication": "Partially offsets bearish narrative — dairy support strengthening" },
+      { "signpost": "CFTC positioning", "outcome": "Moved deeper short from ~-30K to -41.7K", "implication": "Confirms market conviction in bearish trade" }
+    ],
+    "conviction_change": {
+      "previous_tactical": 2,
+      "current_tactical": 3,
+      "previous_strategic": 2,
+      "current_strategic": 2,
+      "explanation": "Tactical conviction increased from 2 to 3 as the Iran conflict deepened, confidence collapsed, and Fitch downgraded the outlook. Strategic conviction is unchanged at 2 because the dairy rally and extreme positioning continue to provide structural offsetting support."
+    },
+    "new_catalysts": [
+      "Fitch outlook downgrade to Negative (~March 22)",
+      "Governor Breman's 'look through' speech (March 23)",
+      "ANZ Business Outlook March collapse (March 31)",
+      "April 6 Hormuz deadline set by Trump",
+      "NZ general election confirmed for November 7"
+    ],
+    "thesis_trajectory": "Strengthening"
+  },
+
+  "seasonality": {
+    "pattern": "NZD typically exhibits mild positive seasonality in April–May (post-harvest dairy export flows) and negative seasonality in September–October ahead of NZ general elections in election years.",
+    "relevance_window": "April–May seasonal pattern is within the tactical horizon; September–October election-year weakness is within the strategic horizon",
+    "historical_magnitude": "April positive effect: ~0.5–1.0% with ~55–60% hit rate. Pre-election weakness: ~1–2% in the 4–6 weeks before polling day",
+    "current_alignment": "Both seasonal patterns are overwhelmed by the geopolitical context in 2026. The April positive effect is unlikely to materialize given the Iran conflict. The pre-election weakness is likely to compound the existing bearish trend."
+  },
+
+  "assumptions": [
+    "PPP estimates use OECD 2024 purchasing power parities updated for subsequent exchange rate moves. Big Mac Index uses the Economist's January 2026 survey. BIS REER uses February 2026 data.",
+    "Implied volatility estimates are derived from the historical relationship between VIX levels and NZD/USD IV. The estimated 12–16% 1M IV range is consistent with VIX 30+ and elevated NZD-specific event risk. Exact market data was not available from free sources.",
+    "3M NZD/USD cross-currency basis data was not found. Estimates inferred from broader G10 basis trends (EUR/USD at approximately -15 to -25bp).",
+    "CFTC positioning percentiles use a 3-year lookback from the absolute combined net short of -41,742 contracts. NZD's small OI means percentile extremes are reached at lower absolute levels.",
+    "Forward points estimated from the short-term interest rate differential (NZD 2.25% vs Fed Funds midpoint 3.625%). Exact market forward points were not available.",
+    "Oil shock economic impact estimates reference Westpac (1-month Hormuz closure: +1.6ppt CPI, -0.5ppt GDP) and ASB (recovery unlikely until 2027) published in March 2026.",
+    "Election polling from various NZ media sources (Newshub-Reid Research, 1News-Verian) from March 2026. NZ polls show significant volatility; margins are within polling error."
+  ],
+
+  "complete_citations": [
+    { "id": 1, "title": "PPP Data", "publisher": "OECD", "url": "https://data.oecd.org/conversion/purchasing-power-parities-ppp.htm", "date_accessed": "2026-04-01" },
+    { "id": 2, "title": "Real Effective Exchange Rate Statistics", "publisher": "BIS", "url": "https://www.bis.org/statistics/eer.htm", "date_accessed": "2026-04-01" },
+    { "id": 3, "title": "Commitments of Traders Short Report", "publisher": "CFTC", "url": "https://www.cftc.gov/dea/futures/financial_lf.htm", "date_accessed": "2026-04-01" },
+    { "id": 4, "title": "NZD/USD Chart & Data", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/new-zealand/currency", "date_accessed": "2026-04-01" },
+    { "id": 5, "title": "NZD/USD weakens below 0.5850 as US-Iran talks remain uncertain", "publisher": "FXStreet", "url": "https://www.fxstreet.com/amp/news/nzd-usd-weakens-below-05850-as-us-iran-talks-remain-uncertain-202603250239", "date_accessed": "2026-04-01" },
+    { "id": 6, "title": "NZ 10Y Government Bond Yield", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/new-zealand/government-bond-yield", "date_accessed": "2026-04-01" },
+    { "id": 7, "title": "OCR on hold at 2.25% with inflation expected to fall", "publisher": "RBNZ", "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/02/ocr-on-hold-at-2-25-with-inflation-expected-to-fall", "date_accessed": "2026-04-01" },
+    { "id": 8, "title": "RBNZ holds OCR at 2.25%, lifts projected rate path modestly higher", "publisher": "investingLive", "url": "https://investinglive.com/centralbank/rbnz-holds-ocr-at-225-lifts-projected-rate-path-modestly-higher-20260218/", "date_accessed": "2026-04-01" },
+    { "id": 9, "title": "NZ Inflation Rate", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/new-zealand/inflation-cpi", "date_accessed": "2026-04-01" },
+    { "id": 10, "title": "NZ Unemployment Rate", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/new-zealand/unemployment-rate", "date_accessed": "2026-04-01" },
+    { "id": 11, "title": "Monetary Policy Statement February 2026", "publisher": "RBNZ", "url": "https://www.rbnz.govt.nz/monetary-policy/monetary-policy-statement/monetary-policy-statement-filtered-listing-page/2026/feb-182/monetary-policy-statement-february-2026", "date_accessed": "2026-04-01" },
+    { "id": 12, "title": "Dovish RBNZ holds OCR — monetary policy likely to remain accommodative", "publisher": "interest.co.nz", "url": "https://www.interest.co.nz/economy/137177/reserve-bank-has-held-official-cash-rate-225-and-not-forecasting-rise-until-either", "date_accessed": "2026-04-01" },
+    { "id": 13, "title": "Interest rate predictions for 2026 and 2027", "publisher": "Opes Partners", "url": "https://www.opespartners.co.nz/mortgage/interest-rates/interest-rate-predictions", "date_accessed": "2026-04-01" },
+    { "id": 14, "title": "Markets Outlook March 2026", "publisher": "BNZ", "url": "https://www.bnz.co.nz/assets/markets/research/20260309_BNZMO.pdf", "date_accessed": "2026-04-01" },
+    { "id": 15, "title": "Annual inflation at 3.1% in December 2025", "publisher": "Stats NZ", "url": "https://www.stats.govt.nz/news/annual-inflation-at-3-1-percent-in-december-2025/", "date_accessed": "2026-04-01" },
+    { "id": 16, "title": "NZ Inflation Forecast 2026", "publisher": "Kalkine", "url": "https://kalkine.co.nz/by-topic/economic-news/nz-inflation-forecast-2026-where-prices-are-heading-and-what-the-rbnz-banks-and-markets-expect", "date_accessed": "2026-04-01" },
+    { "id": 17, "title": "First Impressions: NZ Labour Market Dec Quarter 2025", "publisher": "Westpac IQ", "url": "https://www.westpaciq.com.au/economics/2026/02/first-impressions-nz-labour-market-december-quarter-2025", "date_accessed": "2026-04-01" },
+    { "id": 18, "title": "Half Year Economic and Fiscal Update 2025", "publisher": "NZ Treasury", "url": "https://www.treasury.govt.nz/publications/efu/half-year-economic-and-fiscal-update-2025", "date_accessed": "2026-04-01" },
+    { "id": 19, "title": "NZ Business Confidence", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/new-zealand/business-confidence", "date_accessed": "2026-04-01" },
+    { "id": 20, "title": "Economy grew by 0.2% in last three months of 2025", "publisher": "RNZ", "url": "https://www.rnz.co.nz/news/business/590034/economy-grew-by-0-point-2-percent-in-last-three-months-of-2025", "date_accessed": "2026-04-01" },
+    { "id": 21, "title": "ASB Quarterly Economic Forecast: Not Strait Forward", "publisher": "Livenews", "url": "https://livenews.co.nz/2026/03/31/banking-asb-quarterly-economic-forecast-not-strait-forward/", "date_accessed": "2026-04-01" },
+    { "id": 22, "title": "Winter downturn: Economic recovery unlikely until 2027", "publisher": "NZ Herald", "url": "https://www.nzherald.co.nz/business/winter-downturn-economic-recovery-now-unlikely-until-2027-asb/premium/E3HKMRUJPJBC3BHJGM5DGZKIDY/", "date_accessed": "2026-04-01" },
+    { "id": 23, "title": "2026 Iran War", "publisher": "Britannica", "url": "https://www.britannica.com/event/2026-Iran-War", "date_accessed": "2026-04-01" },
+    { "id": 24, "title": "Oil Price Today: Brent at $115, WTI at $103", "publisher": "TECHi", "url": "https://www.techi.com/oil-price-today/", "date_accessed": "2026-04-01" },
+    { "id": 25, "title": "S&P 500 closes out worst week since Iran war started", "publisher": "BNN Bloomberg", "url": "https://www.bnnbloomberg.ca/markets/2026/03/27/stocks-fall-and-oil-prices-rise-after-trumps-latest-delay-in-the-iran-war-fails-to-raise-much-hope/", "date_accessed": "2026-04-01" },
+    { "id": 26, "title": "Market at a Crossroads: Iran War Correction and S&P 500", "publisher": "FinancialContent", "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-30-market-at-a-crossroads-the-iran-war-correction-and-the-path-forward-for-the-s-and-p-500", "date_accessed": "2026-04-01" },
+    { "id": 27, "title": "Economic impact of the 2026 Iran war", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war", "date_accessed": "2026-04-01" },
+    { "id": 28, "title": "ANZ: What's Next for the New Zealand Dollar", "publisher": "Pound Sterling Live", "url": "https://www.poundsterlinglive.com/nzd/21901-anz-whats-next-for-the-new-zealand-dollar", "date_accessed": "2026-04-01" },
+    { "id": 29, "title": "GDT Auction Lifts Global Dairy Prices in 2026", "publisher": "eDairyNews", "url": "https://en.edairynews.com/gdt-auction-lifts-global-dairy-prices-in-2026/", "date_accessed": "2026-04-01" },
+    { "id": 30, "title": "Commodity Price Index", "publisher": "ANZ", "url": "https://www.anz.co.nz/about-us/economic-markets-research/commodity-price-index/", "date_accessed": "2026-04-01" },
+    { "id": 31, "title": "NZ Farmgate Beef Prices Hit Record Highs in Early 2026", "publisher": "Rural News Group", "url": "https://www.ruralnewsgroup.co.nz/rural-news/rural-general-news/farmgate-beef-prices-record-high-2026", "date_accessed": "2026-04-01" },
+    { "id": 32, "title": "Log Market — March 2026", "publisher": "PF Olsen", "url": "https://nz.pfolsen.com/InfoResources/Wood+Matters/x_post/Log-market---march-2026-01051.html", "date_accessed": "2026-04-01" },
+    { "id": 33, "title": "Net Migration Gain of 14,200", "publisher": "Mirage News", "url": "https://www.miragenews.com/net-migration-gain-of-14200-1619108/", "date_accessed": "2026-04-01" },
+    { "id": 34, "title": "REINZ January 2026 Data: Stable Market and Steady Prices", "publisher": "REINZ", "url": "https://www.reinz.co.nz/Web/Web/News/News-Articles/Market-updates/REINZ_January_2026_Data.aspx", "date_accessed": "2026-04-01" },
+    { "id": 35, "title": "Reserve Bank Governor Anna Breman warns of higher inflation, lower growth", "publisher": "RNZ", "url": "https://www.rnz.co.nz/news/business/590445/reserve-bank-governor-anna-breman-warns-of-higher-inflation-lower-growth", "date_accessed": "2026-04-01" },
+    { "id": 36, "title": "RBNZ Governor indicates will look through expected temporary inflation spike", "publisher": "interest.co.nz", "url": "https://www.interest.co.nz/economy/137761/anna-breman-says-there-risk-global-financial-stability-risks-could-emerge-and-affect", "date_accessed": "2026-04-01" },
+    { "id": 37, "title": "Iran oil crisis: why NZ's car dependence is now a strategic liability", "publisher": "The Conversation", "url": "https://theconversation.com/iran-oil-crisis-why-nzs-car-dependence-is-now-a-strategic-liability-278526", "date_accessed": "2026-04-01" },
+    { "id": 38, "title": "Fitch revises outlook on New Zealand to Negative", "publisher": "interest.co.nz", "url": "https://www.interest.co.nz/economy/137735/fitch-downgrades-its-outlook-new-zealand-because-meaningful-debt-reduction-becoming", "date_accessed": "2026-04-01" },
+    { "id": 39, "title": "New Zealand business sentiment hits lowest since 2024 recession", "publisher": "Free Malaysia Today", "url": "https://www.freemalaysiatoday.com/category/business/2026/03/31/new-zealand-business-sentiment-hits-lowest-since-2024-recession", "date_accessed": "2026-04-01" },
+    { "id": 40, "title": "Budget 2026", "publisher": "NZ Treasury", "url": "https://www.treasury.govt.nz/publications/budgets/budget-2026", "date_accessed": "2026-04-01" },
+    { "id": 41, "title": "Fiscal Outlook — Budget 2025", "publisher": "NZ Budget", "url": "https://budget.govt.nz/budget/2025/bps/fiscal-outlook.htm", "date_accessed": "2026-04-01" },
+    { "id": 42, "title": "New Zealand Credit Rating 2026", "publisher": "countryeconomy", "url": "https://countryeconomy.com/ratings/new-zealand", "date_accessed": "2026-04-01" },
+    { "id": 43, "title": "NZGB Programme Update HYEFU 2025", "publisher": "NZ Debt Management", "url": "https://debtmanagement.treasury.govt.nz/investor-resources/new-zealand-government-bond-programme-update-hyefu-2025", "date_accessed": "2026-04-01" },
+    { "id": 44, "title": "NZD/USD falls fourth day as Middle East war, weak NZ data weigh", "publisher": "FXStreet", "url": "https://www.fxstreet.com/news/nzd-usd-falls-for-fourth-day-as-middle-east-war-weak-nz-confidence-weigh-202603271727", "date_accessed": "2026-04-01" },
+    { "id": 45, "title": "US 10Y Treasury Note Yield", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/united-states/government-bond-yield", "date_accessed": "2026-04-01" },
+    { "id": 46, "title": "Term SOFR and Treasury Forward Curves", "publisher": "Chatham Financial", "url": "https://www.chathamfinancial.com/technology/us-forward-curves", "date_accessed": "2026-04-01" },
+    { "id": 47, "title": "Tracker: Federal Reserve's Balance Sheet Assets", "publisher": "American Action Forum", "url": "https://www.americanactionforum.org/insight/tracker-the-federal-reserves-balance-sheet/", "date_accessed": "2026-04-01" },
+    { "id": 48, "title": "FX Focus: G10 FX 2026 Outlook in a Post-Peak USD World", "publisher": "MUFG Research", "url": "https://www.mufgresearch.com/fx/fx-focus-g10-fx-2026-outlook-in-a-post-peak-usd-world-19-december-2025/", "date_accessed": "2026-04-01" },
+    { "id": 49, "title": "ANZ-Roy Morgan NZ Consumer Confidence March 2026", "publisher": "Roy Morgan Research", "url": "https://www.roymorgan.com/findings/10182-anz-roy-morgan-new-zealand-consumer-confidence-march-2026", "date_accessed": "2026-04-01" },
+    { "id": 50, "title": "China economic growth target set below 5%", "publisher": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/5/china-economic-growth-target-set-below-5-for-the-first-time-at-key-meeting", "date_accessed": "2026-04-01" }
+  ]
+}

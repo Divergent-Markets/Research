@@ -1,0 +1,1255 @@
+{
+  "base": "CHF",
+  "valuation_date": "2026-05-08",
+  "framework_version": "2.0",
+  "freshness_days_tactical": 30,
+  "freshness_days_strategic": 60,
+
+  "executive_summary": "The Swiss franc trades at USD/CHF 0.7787 and EUR/CHF 0.9165 as of May 7, 2026, near multi-decade highs on a real effective basis with the SNB Nominal Effective Exchange Rate at 130.0 — the cleanest stagflation hedge available in G10 with Swiss headline CPI at just 0.6% YoY versus Eurozone HICP 3.0%, US CPI 3.3%, and UK CPI 3.3%. CHF has appreciated significantly across all horizons against USD: USD/CHF down 1.3% over 1M, down 7.5% over 3M, down 11.2% over 6M, and down 13.8% over 1Y, with the franc the standout G10 outperformer alongside JPY. The dominant macro tension is the ongoing Iran-US war (Operation Epic Fury, begun February 28, 2026) — which simultaneously reinforces CHF safe-haven demand AND threatens an abrupt unwind on the active US-Iran ceasefire negotiations announced May 6. The SNB held its policy rate at 0.00% on March 19, 2026 with explicit language that willingness to intervene in the foreign exchange market has increased, creating a two-way policy risk: SNB intervention caps CHF strength, but US Treasury currency-manipulator scrutiny caps SNB intervention. Valuation is stretched: the Big Mac Index shows CHF at +48.4% overvalued vs USD (most extreme of 54 economies), real CHF at 25-year highs per BIS REER, but justified by the structural 7% current-account surplus, AAA sovereign credit, and Switzerland's status as the cheapest real-yield currency in G10. Our tactical stance is Mildly Bullish at low conviction 2/5 (down from March 11's 3/5 Bullish at +0.383): tactical net weighted score +0.105 reflects the offset between dominant Policy & Rates carry headwinds (-375bp vs USD, weight 0.24) and Inflation & Growth real-yield support, with asymmetric Iran ceasefire risk and crowded consensus long-CHF positioning capping near-term upside. We remain strategically Bullish CHF at conviction 3/5 (net +0.237) on structural pillars: 7% current-account surplus, AAA-rated 16.1% federal debt/GDP, the cheapest real-yield currency in G10, and the structural CHF appreciation trend that the SNB cannot decisively reverse without crossing US Treasury currency-manipulator thresholds.",
+
+  "market_context": {
+    "spot": {
+      "rate": "USD/CHF 0.7787",
+      "convention": "Rising USD/CHF = CHF weakening; falling USD/CHF = CHF strengthening (INVERTED). Bullish CHF means USD/CHF and EUR/CHF falling. Secondary pair EUR/CHF 0.9165 (May 5, 2026 ECB reference rate).",
+      "primary_index": "SNB Nominal Effective Exchange Rate 130.0 (May 5, 2026, ECB Data Portal; index 1999 Q1 = 100); ING reports real CHF at 25-year highs",
+      "date": "2026-05-07"
+    },
+    "key_crosses": [
+      { "pair": "EUR/CHF", "rate": "0.9165", "convention": "ECB reference rate May 5, 2026; 2026 range 0.9003 (Mar 8 low) to 0.9329 (Jan 13 high); YTD avg 0.9182" },
+      { "pair": "GBP/CHF", "rate": "1.0470", "convention": "CHF +0.08% past week vs GBP" },
+      { "pair": "CHF/JPY", "rate": "188.6", "convention": "CHF -0.88% past week vs JPY; +69.97% over 10Y — record territory" },
+      { "pair": "AUD/CHF", "rate": "0.5050", "convention": "CHF underperformed AUD ~-4.13% over 1-6M as RBA hiked" },
+      { "pair": "CAD/CHF", "rate": "0.5650", "convention": "CHF mildly outperformed CAD" },
+      { "pair": "NOK/CHF", "rate": "0.0775", "convention": "CHF underperformed NOK post-Norges hike" }
+    ],
+    "performance": {
+      "1m": { "pct_change": "-1.3%", "direction": "CHF stronger vs USD; dollar smile weakened on Fed dovish-shift speculation" },
+      "3m": { "pct_change": "-7.5%", "direction": "CHF stronger vs USD; Iran war initiation late February drove safe-haven bid" },
+      "6m": { "pct_change": "-11.2%", "direction": "CHF stronger vs USD; structural USD softness compounded by geopolitical premium" },
+      "1y": { "pct_change": "-13.8%", "direction": "CHF stronger vs USD; multi-leg appreciation through SNB cut to 0% in June 2025 and into 2026 stagflation" }
+    },
+    "valuation": {
+      "overall_assessment": "Deeply expensive",
+      "bis_reer": {
+        "level": 97.4,
+        "historical_percentile": 95,
+        "interpretation": "BIS REER for CHF on the ECB measure is ~97.4 (April 2026, 1999 Q1 = 100); on the broader BIS basket, real CHF stands at multi-decade highs in the 95th+ percentile of its 25-year history. Real CHF at 25-year highs per ING G10 Outlook."
+      },
+      "ppp_table": [
+        { "vs_currency": "USD", "deviation_pct": 37.5, "implied_fair_value": "USD/CHF ~1.05-1.10 vs spot 0.7787; CHF +35-40% overvalued — most extreme overvaluation in G10" },
+        { "vs_currency": "EUR", "deviation_pct": 27.5, "implied_fair_value": "EUR/CHF ~1.20-1.25 vs spot 0.9165; CHF +25-30% overvalued — above SNB tolerance band" },
+        { "vs_currency": "JPY", "deviation_pct": -2.5, "implied_fair_value": "CHF/JPY ~195-205 vs spot 188.6; CHF roughly fair to mildly cheap as JPY structurally undervalued" },
+        { "vs_currency": "GBP", "deviation_pct": 13.5, "implied_fair_value": "GBP/CHF ~1.20-1.25 vs spot 1.0470; CHF +12-15% overvalued — moderate" },
+        { "vs_currency": "AUD", "deviation_pct": 14.0, "implied_fair_value": "AUD/CHF ~0.55-0.60 vs spot 0.5050; CHF +10-18% overvalued — reflects RBA rate gap" },
+        { "vs_currency": "NZD", "deviation_pct": 12.5, "implied_fair_value": "NZD/CHF ~0.50-0.55 vs spot 0.4540; CHF +10-15% overvalued — recent NZD weakness" },
+        { "vs_currency": "CAD", "deviation_pct": 12.0, "implied_fair_value": "CAD/CHF ~0.62-0.66 vs spot 0.5650; CHF +10-14% overvalued — oil dynamic vs CHF" },
+        { "vs_currency": "NOK", "deviation_pct": 13.0, "implied_fair_value": "NOK/CHF ~0.085-0.092 vs spot 0.0775; CHF +9-17% overvalued despite Norges hike" },
+        { "vs_currency": "SEK", "deviation_pct": 11.5, "implied_fair_value": "SEK/CHF ~0.075-0.085 vs spot 0.0710; CHF +6-17% overvalued — Riksbank held" },
+        { "vs_currency": "SGD", "deviation_pct": 7.0, "implied_fair_value": "SGD/CHF ~0.60-0.65 vs spot 0.5840; CHF +3-11% overvalued — smallest gap" }
+      ],
+      "trade_weighted_assessment": "SNB NEER at 130.0 is +5.2% above the 5-year average (123.6) and +12% above the 10-year average. Strength is most pronounced versus USD and EUR. The trade-weighted level is at a multi-decade real high.",
+      "what_is_priced_in": "The market is pricing CHF as the structurally cheapest real-yield currency in G10 stagflation, and as the cleanest safe-haven complement to JPY in active geopolitical conflict. Valuation is stretched on every traditional metric but justified by the 7% current-account surplus, AAA fiscal, and uniquely low inflation that gives CHF a real-yield profile peers cannot match.",
+      "actionability": "Valuation is structural, not tactical — CHF can stay overvalued for years (see 2011-2015, 2020-2022). Use as a medium-term governor on conviction sizing rather than a tactical signal; trim exposure on extreme overvaluation prints rather than fading the trend outright."
+    },
+    "positioning_summary": {
+      "cftc": {
+        "leveraged_funds": {
+          "net_contracts": -5174,
+          "direction": "short",
+          "notional_usd": "~$830mn (5,174 contracts × CHF 125,000 × ~$1.28)",
+          "weekly_change_contracts": -1400,
+          "weekly_change_direction": "more short"
+        },
+        "asset_managers": {
+          "net_contracts": -37534,
+          "direction": "short",
+          "notional_usd": "~$6.0bn (37,534 contracts × CHF 125,000 × ~$1.28)"
+        },
+        "total_open_interest": 110185,
+        "net_all_specs_percentile": 95,
+        "percentile_context": "Asset-manager net-short at multi-year extreme — top 5% of 5-year history (95th percentile); leveraged fund net-short more moderate but rebuilt during early 2026 from 18-month lows per Forex.com Jan 2026."
+      },
+      "other_positioning_signals": "Forex.com (January 2026): CHF bears had eased off prior 18-month extremes but rebuilt during early 2026 as carry-trade structures resumed. ETF flows not directly observable for CHF (no major CHF ETF); proxied via CFTC. Sell-side commentary suggests neutral-to-long CHF among real money.",
+      "interpretation": "The structural net-short is the textbook CHF positioning configuration (CHF as a funding currency). However, every meaningful CHF rally in this cycle has been amplified by short-covering on the asset-manager side. With Iran ceasefire negotiations active, the immediate squeeze risk has DIMINISHED — a ceasefire would actually validate the existing shorts (CHF down on safe-haven unwind).",
+      "contrarian_assessment": "Net positioning is mildly CHF-positive (squeeze potential intact) but less so than at the prior dossier (March 11, 2026). A re-escalation scenario would still trigger another violent short-covering rally — reference March 2026 squeeze drove 150 pips in 48 hours. Squeeze potential ~10-15% USD/CHF move feasible if all triggers align, similar magnitude to the 2011 safe-haven peak unwind."
+    },
+    "market_structure_vol_summary": {
+      "trend_regime": "Strong CHF uptrend (USD/CHF and EUR/CHF in confirmed downtrends) but consolidating in May after the February-April acceleration. Range-bound near multi-decade lows in EUR/CHF (0.90-0.93); USD/CHF basing 0.77-0.81 with active SNB rhetoric capping further declines.",
+      "key_levels": {
+        "support": [
+          { "level": "USD/CHF 0.7700", "significance": "Psychological round number; near-term floor" },
+          { "level": "USD/CHF 0.7600", "significance": "2024 SNB intervention zone; structural" },
+          { "level": "USD/CHF 0.7500", "significance": "Multi-decade low; ultimate downside" },
+          { "level": "EUR/CHF 0.9000", "significance": "SNB intervention threshold, psychological — heavy implied option barriers and reported real-money interest cluster here" },
+          { "level": "EUR/CHF 0.8900", "significance": "Below SNB threshold; would force escalation" },
+          { "level": "EUR/CHF 0.8800", "significance": "Deep CHF strength; would trigger negative-rates conversation" }
+        ],
+        "resistance": [
+          { "level": "USD/CHF 0.7900", "significance": "50-day SMA at 0.7890; immediate resistance" },
+          { "level": "USD/CHF 0.8000", "significance": "Round number; key psychological pivot" },
+          { "level": "USD/CHF 0.8100", "significance": "200-day SMA 0.7907 + late-April highs zone" },
+          { "level": "EUR/CHF 0.9300", "significance": "January 2026 high; key resistance" },
+          { "level": "EUR/CHF 0.9400", "significance": "200-day SMA area" },
+          { "level": "EUR/CHF 0.9500", "significance": "Consensus year-end target; would invalidate near-term bullish CHF" }
+        ]
+      },
+      "moving_averages": {
+        "50d": { "level": "USD/CHF ~0.7890", "spot_vs": "Spot 0.7787 below 50d (CHF stronger than 50d avg)" },
+        "100d": { "level": "USD/CHF ~0.7895 (estimated)", "spot_vs": "Spot below 100d" },
+        "200d": { "level": "USD/CHF ~0.7907", "spot_vs": "Spot below 200d (CHF stronger than 200d avg)" },
+        "alignment": "Bearishly stacked (50d < 200d; spot below both) — supports continued CHF strength bias but tangling near current levels suggests consolidation"
+      },
+      "volatility": {
+        "iv_1m": 7.5,
+        "iv_3m": 7.0,
+        "iv_percentile_1y": 70,
+        "rv_20d": 6.0,
+        "rv_vs_iv": "EUR/CHF RV ~6% vs IV ~7-8% — market pricing modest event premium for SNB action; precise figures NOT FOUND from public sources but institutionally elevated due to two-way SNB-intervention risk",
+        "risk_reversal_25d_1m": "Skewed toward CHF strength (CHF call bid / EUR/CHF put bid); precise 25-delta value NOT FOUND from public sources but institutional commentary indicates the skew has moderated since Iran ceasefire negotiations began",
+        "vol_term_structure": "Flat",
+        "vol_regime": "Low-to-moderate vol with mild event premium for SNB June 18 meeting; suggests grind rather than spike. RV has fallen from ~9% mid-March peak to ~6% currently as Iran event premium compressed."
+      },
+      "key_observation": "The most important structural feature is the SNB intervention threshold at EUR/CHF 0.90. Spot trades within ~180 pips of that floor, creating a binary: either EUR/CHF holds 0.90 with SNB success (consolidation), or breaks 0.90 forcing escalation to negative rates and large-scale intervention."
+    },
+    "recent_regime": "The CHF regime since late February 2026 has been stagflation-safe-haven dominant with Operation Epic Fury initiating an immediate ~5% CHF appreciation versus USD in the first ten trading sessions of the war. As US-Iran ceasefire negotiations intensified in early May, the CHF rally has stalled and partially retraced (USD/CHF up 0.7% past week from 0.7733 to 0.7787). Volatility has moderated from the March peak: 1M realised vol on EUR/CHF fell from ~9% in mid-March to ~6% currently. The dominant narrative has shifted from 'buy CHF on Iran escalation' to 'wait for ceasefire resolution before next directional move', producing a tighter trading range and reduced trend strength.",
+    "citations": [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 43, 45, 46, 47]
+  },
+
+  "rate_differentials_table": {
+    "base_currency": {
+      "central_bank": "Swiss National Bank",
+      "policy_rate_name": "SNB Policy Rate",
+      "rate_pct": 0.00,
+      "next_meeting": "2026-06-18",
+      "expected_action": "Hold at 0.00% (negative-rate bar high; intervention rhetoric maintained)"
+    },
+    "peers": [
+      { "currency": "USD", "central_bank": "Federal Reserve", "policy_rate_pct": 3.75, "spread_to_base_bps": 375, "direction_vs_base": "Peer 375bp above CHF; deepest carry disadvantage in G10 outside AUD/NOK", "next_meeting": "2026-06-16-17", "expected_action": "Hold (slight cut bias)", "rate_path_next_6m": "Hold to one 25bp cut by year-end (3.50%)" },
+      { "currency": "EUR", "central_bank": "European Central Bank", "policy_rate_pct": 2.00, "spread_to_base_bps": 200, "direction_vs_base": "Peer 200bp above CHF; ECB held April 30 with hawkish risks on energy passthrough", "next_meeting": "2026-06-04", "expected_action": "Hold", "rate_path_next_6m": "Hold; possible 25bp hike Q3 if oil sustains" },
+      { "currency": "JPY", "central_bank": "Bank of Japan", "policy_rate_pct": 0.75, "spread_to_base_bps": 75, "direction_vs_base": "Peer 75bp above CHF; gap narrowing as BoJ hikes", "next_meeting": "2026-06-16-17", "expected_action": "Hold (3 hawk dissents)", "rate_path_next_6m": "Likely hike to 1.00% by Q3" },
+      { "currency": "GBP", "central_bank": "Bank of England", "policy_rate_pct": 3.75, "spread_to_base_bps": 375, "direction_vs_base": "Peer 375bp above CHF", "next_meeting": "2026-06-18", "expected_action": "Hold (1 hike dissent)", "rate_path_next_6m": "Hold to one 25bp cut" },
+      { "currency": "AUD", "central_bank": "Reserve Bank of Australia", "policy_rate_pct": 4.35, "spread_to_base_bps": 435, "direction_vs_base": "Peer 435bp above CHF; deepest carry disadvantage in G10 — RBA hiked May 5, 2026", "next_meeting": "2026-06-15-16", "expected_action": "Hold or hike", "rate_path_next_6m": "Hold; possible further hike on inflation persistence" },
+      { "currency": "NZD", "central_bank": "Reserve Bank of New Zealand", "policy_rate_pct": 2.25, "spread_to_base_bps": 225, "direction_vs_base": "Peer 225bp above CHF", "next_meeting": "2026-05-27", "expected_action": "Hold", "rate_path_next_6m": "Hold to mild hike bias on Q2 CPI" },
+      { "currency": "CAD", "central_bank": "Bank of Canada", "policy_rate_pct": 2.25, "spread_to_base_bps": 225, "direction_vs_base": "Peer 225bp above CHF", "next_meeting": "2026-06-10", "expected_action": "Hold", "rate_path_next_6m": "Hold" },
+      { "currency": "NOK", "central_bank": "Norges Bank", "policy_rate_pct": 4.25, "spread_to_base_bps": 425, "direction_vs_base": "Peer 425bp above CHF; Norges hiked +25bp May 6, 2026", "next_meeting": "2026-06-18", "expected_action": "Hold (post-hike)", "rate_path_next_6m": "Hold; further hike if oil persists" },
+      { "currency": "SEK", "central_bank": "Riksbank", "policy_rate_pct": 1.75, "spread_to_base_bps": 175, "direction_vs_base": "Peer 175bp above CHF; Riksbank held May 7", "next_meeting": "2026-06-17", "expected_action": "Hold", "rate_path_next_6m": "Hold" },
+      { "currency": "SGD", "central_bank": "Monetary Authority of Singapore (FX-band)", "policy_rate_pct": null, "spread_to_base_bps": null, "direction_vs_base": "FX-band currency; MAS tightened slope April 14, 2026", "next_meeting": "2026-07", "expected_action": "Hold post-tightening", "rate_path_next_6m": "Hold post-Apr tightening" }
+    ],
+    "sovereign_yields": {
+      "base_2y": 0.10,
+      "base_10y": 0.35,
+      "key_spreads": [
+        { "vs": "USD 10Y", "yield_pct": 4.30, "spread_bps": -395, "interpretation": "CHF deep discount vs USD; supports CHF on US-yield-falling scenarios" },
+        { "vs": "EUR 10Y (Bund)", "yield_pct": 2.60, "spread_bps": -225, "interpretation": "Drives EUR/CHF; modest narrowing 1M as ECB hawkish risks emerged" },
+        { "vs": "GBP 10Y", "yield_pct": 4.50, "spread_bps": -415, "interpretation": "Deepest discount in G10; UK fiscal stress widens further" },
+        { "vs": "JPY 10Y", "yield_pct": 1.60, "spread_bps": -125, "interpretation": "Relative safe-haven differential; BoJ hiking compresses gap" },
+        { "vs": "AUD 10Y", "yield_pct": 4.20, "spread_bps": -385, "interpretation": "Extreme carry disadvantage; AUD/CHF tracks closely" },
+        { "vs": "NOK 10Y", "yield_pct": 4.10, "spread_bps": -375, "interpretation": "Post-Norges hike widened gap" }
+      ],
+      "curve_shape": "CHF 2s10s near-flat to mildly steep at +20-35bp; precise 2Y NOT FOUND from public sources, estimated at 0.10%"
+    }
+  },
+
+  "macro_comparison_table": [
+    { "currency": "USD", "gdp_yoy_pct": 2.0, "gdp_qoq_latest_pct": 0.5, "headline_cpi_yoy_pct": 3.3, "core_cpi_yoy_pct": 2.6, "core_cpi_measure": "Core CPI (ex food & energy)", "unemployment_pct": 4.4, "current_account_gdp_pct": -3.0, "policy_rate_pct": 3.75 },
+    { "currency": "EUR", "gdp_yoy_pct": 1.0, "gdp_qoq_latest_pct": 0.3, "headline_cpi_yoy_pct": 3.0, "core_cpi_yoy_pct": 2.5, "core_cpi_measure": "HICP ex energy, food, alcohol & tobacco (HICPx)", "unemployment_pct": 6.3, "current_account_gdp_pct": 2.5, "policy_rate_pct": 2.00 },
+    { "currency": "JPY", "gdp_yoy_pct": 0.5, "gdp_qoq_latest_pct": 0.1, "headline_cpi_yoy_pct": 2.7, "core_cpi_yoy_pct": 2.0, "core_cpi_measure": "CPI ex fresh food (CPIx)", "unemployment_pct": 2.5, "current_account_gdp_pct": 3.5, "policy_rate_pct": 0.75 },
+    { "currency": "GBP", "gdp_yoy_pct": 1.0, "gdp_qoq_latest_pct": 0.2, "headline_cpi_yoy_pct": 3.3, "core_cpi_yoy_pct": 3.5, "core_cpi_measure": "Core CPI (ex energy, food, alcohol, tobacco)", "unemployment_pct": 4.5, "current_account_gdp_pct": -3.0, "policy_rate_pct": 3.75 },
+    { "currency": "AUD", "gdp_yoy_pct": 1.5, "gdp_qoq_latest_pct": 0.5, "headline_cpi_yoy_pct": 3.5, "core_cpi_yoy_pct": 3.0, "core_cpi_measure": "Trimmed Mean", "unemployment_pct": 4.2, "current_account_gdp_pct": 1.0, "policy_rate_pct": 4.35 },
+    { "currency": "NZD", "gdp_yoy_pct": 0.5, "gdp_qoq_latest_pct": 0.2, "headline_cpi_yoy_pct": 4.2, "core_cpi_yoy_pct": 3.0, "core_cpi_measure": "Sectoral Factor Model", "unemployment_pct": 5.0, "current_account_gdp_pct": -6.0, "policy_rate_pct": 2.25 },
+    { "currency": "CAD", "gdp_yoy_pct": 1.5, "gdp_qoq_latest_pct": 0.4, "headline_cpi_yoy_pct": 3.0, "core_cpi_yoy_pct": 2.5, "core_cpi_measure": "Trim/Median (BoC preferred)", "unemployment_pct": 6.7, "current_account_gdp_pct": -1.0, "policy_rate_pct": 2.25 },
+    { "currency": "CHF", "gdp_yoy_pct": 0.8, "gdp_qoq_latest_pct": 0.2, "headline_cpi_yoy_pct": 0.6, "core_cpi_yoy_pct": 0.3, "core_cpi_measure": "CPI ex fresh & seasonal products, energy, fuel (CPIx)", "unemployment_pct": 3.0, "current_account_gdp_pct": 7.0, "policy_rate_pct": 0.00 },
+    { "currency": "NOK", "gdp_yoy_pct": 1.0, "gdp_qoq_latest_pct": 0.3, "headline_cpi_yoy_pct": 3.5, "core_cpi_yoy_pct": 3.0, "core_cpi_measure": "CPI-ATE", "unemployment_pct": 4.0, "current_account_gdp_pct": 20.0, "policy_rate_pct": 4.25 },
+    { "currency": "SEK", "gdp_yoy_pct": 1.5, "gdp_qoq_latest_pct": 0.4, "headline_cpi_yoy_pct": 1.8, "core_cpi_yoy_pct": 2.0, "core_cpi_measure": "CPIF (CPI fixed interest rate)", "unemployment_pct": 8.0, "current_account_gdp_pct": 5.0, "policy_rate_pct": 1.75 },
+    { "currency": "SGD", "gdp_yoy_pct": 3.0, "gdp_qoq_latest_pct": 0.7, "headline_cpi_yoy_pct": 2.0, "core_cpi_yoy_pct": 1.5, "core_cpi_measure": "MAS Core (ex accommodation & private transport)", "unemployment_pct": 2.0, "current_account_gdp_pct": 18.0, "policy_rate_pct": null }
+  ],
+
+  "factors": [
+    {
+      "block": "Factor 1: Policy & Rates (Relative)",
+      "factor_number": 1,
+      "tactical_weight": 0.24,
+      "strategic_weight": 0.24,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 70,
+        "analysis": "The SNB held its policy rate at 0.00% on March 19, 2026 for the third consecutive meeting, leaving Switzerland with the lowest policy rate in G10+SGD alongside the (now higher) BoJ at 0.75%. The SNB rate sits 375bp below the Fed (3.75%), 200bp below the ECB (2.00%), 375bp below the BoE (3.75%), 435bp below the RBA (4.35%), 425bp below Norges Bank (4.25%) and even 75bp below the BoJ (0.75%) — making CHF the funding currency of choice in carry trades and creating a structural headwind through the rate-differential channel. The Swiss Confederation 10Y at 0.35% is the lowest sovereign yield in G10; the 10Y spread to US Treasuries at -395bp is the deepest discount available outside JPY. This rate gap means each $10mn long CHF position vs USD costs ~$37,500/year in negative carry. However, this disadvantage is largely already discounted in spot — USD/CHF has fallen from 0.91 a year ago to 0.78 today despite this carry being known and stable. The tactical signal is straightforward: in non-crisis periods, CHF underperforms cross-rate carry alternatives, and with Iran ceasefire in active negotiation (May 6 announcement), the probability of returning to a normal carry regime over the next 2-4 weeks is materially elevated. The tactical weight on Policy & Rates (0.24) is the highest in the framework, and the signal here is unambiguously CHF-negative even if the strength of signal is muted by the ongoing geopolitical premium.",
+        "key_data_points": [
+          "SNB Policy Rate: 0.00% (held March 19, 2026; last cut June 19, 2025)",
+          "Swiss 10Y yield: 0.35% (May 7, 2026, -1bp d/d)",
+          "CHF-USD 10Y spread: -395bp; CHF-EUR 10Y spread: -225bp",
+          "OIS-implied SNB rate path: ~0% across 2026 per HSBC commentary",
+          "Carry vs G10 (annualised, vs CHF base): USD +375bp, EUR +200bp, GBP +375bp, AUD +435bp, NOK +425bp",
+          "UBS (Florian Germanier): there is no need to further cut rates",
+          "J. Safra Sarasin: We don't expect policy rate changes in 2026 and forecast the first rate hike in second half of 2027",
+          "Reuters poll Dec 2025: 14 of 17 economists assess negative-rates risk as LOW"
+        ],
+        "what_is_priced": "The market prices the SNB on hold at 0% through end-2026 with a ~25-40% probability of negative rates only in extreme tail scenarios. Our view aligns: Schlegel's 'high bar' rhetoric on negative rates and the 0.6% CPI print (above the lower target band) make a cut unlikely without a sustained EUR/CHF break below 0.90. Where we differ is on relative pricing: the carry disadvantage is being underweighted vs positioning and safe-haven flows in current pricing — if Iran resolves, this factor reasserts dominance.",
+        "citations": [8, 14, 15, 16, 17, 18, 19, 23, 28, 29, 30]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 65,
+        "analysis": "On a strategic horizon, the rate-differential headwind persists but compresses in absolute terms as global central banks ease. The Fed is OIS-priced for one cut by year-end (3.50%); the ECB likely holds at 2.00% with hawkish risks; the BoE could cut once to 3.50%; the BoJ is the standout hiker (priced 50% to 1.00% by Q3). Net effect over 6 months: CHF carry gap to USD compresses from -375bp to ~-325bp; gap to EUR essentially unchanged at -200bp; gap to JPY narrows to ~-25bp. The carry burden softens but does not reverse over the strategic horizon — CHF remains the lowest-yielding G10 currency. The KEY strategic pivot would be a sustained move BELOW EUR/CHF 0.90 forcing the SNB to cut to negative rates: at -0.25%, CHF carry gap to EUR widens to -225bp and CHF becomes structurally weaker. UBS, Goldman, and ING all anchor their strategic CHF forecasts on the SNB holding at 0% and intervening in size before resorting to negatives. Against the carry headwind, CHF benefits structurally from the 7% current-account surplus generating ~$70bn/yr of net structural inflows — equivalent to ~10% of CHF M2 — which mechanically supports the franc independent of carry. Net: the strategic Policy & Rates signal remains bearish but lower confidence than tactical because the carry compression and structural offsets temper the headwind.",
+        "key_data_points": [
+          "6M-forward Fed-SNB spread: ~+350bp (vs ~+375bp today)",
+          "6M-forward ECB-SNB spread: ~+200bp (broadly unchanged)",
+          "6M-forward BoJ-SNB spread: ~+25bp (vs +75bp today)",
+          "Carry-to-vol ratio (CHF base, annualised carry / 3M IV ~6%): vs USD -62, vs EUR -33, vs AUD -73 (all materially CHF-negative)",
+          "SNB sight deposits trend (intervention proxy): rising consistent with passive accommodation",
+          "Negative-rate threshold: EUR/CHF sustained <0.90 + medium-term inflation forecast <0.3%",
+          "Goldman strategic forecast: USD/CHF 0.76, EUR/CHF 0.95 by end-2026",
+          "UBS strategic forecast: USD/CHF 0.78, EUR/CHF 0.94"
+        ],
+        "what_is_priced": "Forwards imply USD/CHF at 0.7720 in 3M and 0.7660 in 6M (mild CHF appreciation embedded). Our strategic view is that pure carry pressure should produce more CHF weakness than forwards imply, but structural surplus + global stagflation offsets this — net result is approximate alignment with consensus. The mispricing is in the bilateral expression: long CHF/JPY captures the BoJ-hiking compression of the rate gap better than long USD/CHF captures Fed-cutting compression.",
+        "citations": [31, 32, 33, 34]
+      },
+      "horizon_split_explanation": "Both horizons are Bearish CHF on Policy & Rates with tactical confidence higher (70 vs 65) because the 2-4 week catalyst (Iran ceasefire) creates a near-term path for the carry disadvantage to dominate, while the strategic horizon includes the structural surplus offset and likely Fed cutting that compresses the carry gap.",
+      "carry_analysis": {
+        "carry_vs_peers": [
+          { "vs_currency": "USD", "annualised_carry_bps": -375, "carry_to_vol_ratio": -62.5, "interpretation": "Extremely punitive long-CHF carry; worst rate disadvantage in major-pair G10" },
+          { "vs_currency": "EUR", "annualised_carry_bps": -200, "carry_to_vol_ratio": -33.3, "interpretation": "Worst at modest scale; SNB-anchored low-vol environment" },
+          { "vs_currency": "JPY", "annualised_carry_bps": -75, "carry_to_vol_ratio": -12.5, "interpretation": "Mildest CHF carry burden; BoJ closing the gap further over 6M" },
+          { "vs_currency": "GBP", "annualised_carry_bps": -375, "carry_to_vol_ratio": -53.6, "interpretation": "Equal to USD on level; UK fiscal stress moderates CHF disadvantage" },
+          { "vs_currency": "AUD", "annualised_carry_bps": -435, "carry_to_vol_ratio": -72.5, "interpretation": "Most punitive carry-adjusted position — RBA hiking compounds the gap" },
+          { "vs_currency": "NZD", "annualised_carry_bps": -225, "carry_to_vol_ratio": -37.5, "interpretation": "Moderate disadvantage; RBNZ dovish bias" },
+          { "vs_currency": "CAD", "annualised_carry_bps": -225, "carry_to_vol_ratio": -37.5, "interpretation": "Moderate disadvantage; BoC neutral" },
+          { "vs_currency": "NOK", "annualised_carry_bps": -425, "carry_to_vol_ratio": -70.8, "interpretation": "Post-Norges hike worst-of-G10 position" },
+          { "vs_currency": "SEK", "annualised_carry_bps": -175, "carry_to_vol_ratio": -29.2, "interpretation": "Mildest after JPY; Riksbank held" }
+        ],
+        "carry_regime": "Carry-suppressed since the Iran war began. Carry strategies have lost money on long-USD/CHF positions for 12 of the last 14 months as safe-haven and positioning dynamics overwhelmed the differential. The regime has shifted from carry-dominant to safe-haven-dominant.",
+        "breakeven_move": "At -375bp annual carry vs USD, USD/CHF must fall ~290 pips per year for long-CHF to break even. Over 2-4 week horizons, this means CHF needs to gain only ~25 pips on USD/CHF to neutralise carry, which has been routine. At strategic horizons, the breakeven hurdle compounds: 6M holding period requires ~145 pips of CHF appreciation to neutralise carry — a higher bar."
+      },
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+
+    {
+      "block": "Factor 2: Inflation & Growth Dynamics",
+      "factor_number": 2,
+      "tactical_weight": 0.18,
+      "strategic_weight": 0.10,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 70,
+        "analysis": "Switzerland's April 2026 CPI accelerated to +0.6% YoY (the highest reading since December 2024) on energy-driven import-cost passthrough from the Iran-war oil shock. Critically, core CPI (excluding fresh and seasonal products, energy, fuel) eased to +0.3% YoY — the softest reading since July 2021 — confirming the inflation pickup is purely import-energy-driven, not domestic. This bifurcation is enormously CHF-bullish: while every other G10 economy faces import-energy AND domestic inflation pressure simultaneously, Switzerland has only the import component, and it is being heavily buffered by CHF strength itself (a self-reinforcing mechanism). The producer/import price index registered -2.7% YoY in March (sharpest annual deflation since November 2020), evidence that the strong franc is doing its disinflationary work. Q4 2025 GDP rose +0.2% q/q sport-adjusted, with full-year 2025 at +1.4%, and the SECO has revised 2026 GDP forecast modestly DOWN to 1.0% (from 1.1%) on Iran-war drag. Leading indicators are mixed-positive: the procure.ch/UBS Manufacturing PMI printed 54.5 in April (strongest since October 2022) but with the purchasing-prices sub-index spiking to 82.8 (up 11.5pts), and the KOF Economic Barometer rose to 97.9 in April from 95.6 in March (still below the 100 medium-term average). Unemployment held at 3.0% in April. The tactical inflation/growth signal is unambiguously CHF-positive: real Swiss yields are the highest in G10 by a wide margin (Swiss real 10Y -0.25%; vs Eurozone real 10Y -0.40%; vs US real 10Y +1.00% but with deteriorating data quality). The CHF real-yield premium trade is the cleanest expression of stagflation hedging in G10.",
+        "key_data_points": [
+          "Swiss CPI April 2026: +0.6% YoY, +0.3% MoM (FSO May 5, 2026)",
+          "Core CPI: +0.3% YoY (softest since July 2021)",
+          "Q4 2025 GDP: +0.2% q/q sport-adjusted; +0.8% YoY",
+          "2025 full-year GDP: +1.4%; SECO 2026 forecast: 1.0%",
+          "procure.ch PMI April: 54.5 (vs 53.3 March; consensus 52.0)",
+          "KOF Economic Barometer April: 97.9 (vs 95.6 March 9-month low)",
+          "Unemployment: 3.0% (April 2026, SECO May 7)",
+          "PPI/IPI March: -2.7% YoY (sharpest deflation since Nov 2020)"
+        ],
+        "what_is_priced": "The market prices Swiss inflation rising modestly to ~0.8% YoY by Q3 2026 on continued energy passthrough, with core inflation staying anchored at 0.3-0.5%. We agree directionally but think the market is UNDER-pricing the disinflationary feedback from CHF strength: if EUR/CHF stays below 0.93 for another quarter, the import-deflation channel intensifies, pulling headline CPI back below 0.5% by Q4 — making the SNB negative-rates conversation re-emerge. This is the cleanest CHF asymmetric-bullish signal on the dossier.",
+        "citations": [1, 35, 36, 37, 38, 39, 40]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 60,
+        "analysis": "On a strategic horizon, Switzerland's structural growth and inflation profile remains uniquely supportive of CHF — moderate ~1% growth (well below 1.8% post-1981 average) but stable, with inflation anchored 0.3-0.7% range (compared to a 0-2% target band). The risk to the strategic Bullish stance is asymmetric: if Iran-war effects fade and CHF strengthens further, headline CPI could undershoot 0% by year-end forcing SNB to negative rates, which historically has been a delayed-but-decisive CHF-bearish trigger (2015 episode: -0.75% rate took 3 years to weaken CHF meaningfully; 2022 episode: rate normalisation was net CHF-positive). Conversely, if Iran resolves and oil falls back to $75-80, Swiss CPI eases mechanically and the negative-rates risk recedes. SECO's 2026 forecast at 1.0% is below trend but above-Eurozone (which is tracking ~1.0% with downside risk) and below-US (~2.0%). The structural inflation wedge — CHF priced for permanently lower inflation than peers — is the foundation of the multi-decade CHF appreciation trend. Over 1-6 months, the trend is intact: stagflation peers, Switzerland's import-deflation buffer, and SNB's high bar for negative rates collectively produce CHF-positive carry on a real-yield basis. Strategic confidence is lower than tactical (60 vs 70) because the 6M horizon allows for Iran ceasefire + SNB action sequence to play out, introducing two-way risk.",
+        "key_data_points": [
+          "2025 actual GDP: 1.4% vs 1.5% potential vs 1.8% post-1981 average",
+          "2026 SECO forecast: 1.0% (lowered from 1.1%)",
+          "SNB conditional inflation forecast (March 2026 MPA): 2026 0.5% / 2027 0.5% / 2028 0.6%",
+          "Swiss real 10Y yield: ~-0.25% (highest in G10 outside extreme overvaluation episodes)",
+          "Eurozone HICP April flash: 3.0%",
+          "US CPI March: 3.3%; UK CPI March: 3.3%",
+          "Citi Global ESI: at highest level since April 2024 (+2.7σ above mean)"
+        ],
+        "what_is_priced": "Markets price Swiss CPI averaging 0.6% in 2026 (in line with SNB conditional forecast). Strategic mispricing exists in the cross-currency real-yield framing: CHF is the cheapest real-yield currency in G10 by a wide margin, yet positioning is structurally short. This combination historically resolves in favour of CHF appreciation when stagflation persists.",
+        "citations": [2, 3, 8, 41, 42]
+      },
+      "horizon_split_explanation": "Both horizons Bullish CHF; tactical confidence higher (70 vs 60) because the April CPI bifurcation (headline up, core down) is a fresh data point that hasn't been digested, while strategic confidence is moderated by the 6M paths for Iran resolution and potential SNB negative-rate action.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+
+    {
+      "block": "Factor 3: Risk Appetite & Sentiment",
+      "factor_number": 3,
+      "tactical_weight": 0.10,
+      "strategic_weight": 0.05,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 60,
+        "analysis": "The risk environment is uniquely two-way for CHF over the next 2-4 weeks. The VIX at 17.13 (May 7, 2026) is contained at the 35th percentile of its 1-year range — markets are NOT pricing crisis-level fear despite ongoing Iran war. World Gold Council (April 2026): markets appear to be treating the Middle East crisis and Hormuz shutdown as transitory. This benign-vol environment is mildly CHF-negative because it suggests the safe-haven premium can compress further if Iran negotiations succeed. However, gold at $4,719/oz (May 7) — up >25% YTD — and Brent at $100.06 confirm geopolitical risk premium remains embedded across alternatives. CHF behaviour through this cycle has tracked: gold (+0.3 to +0.4 correlation), VIX (+0.3 to +0.4 correlation), Italian BTP-Bund spread (-0.2 to -0.3 inverse correlation). The active US-Iran ceasefire negotiations create a binary near-term outcome: success → risk-on, CHF safe-haven unwind, gold lower; failure/re-escalation → risk-off, CHF higher, gold higher. Both tails have non-trivial probability based on May 6 reporting. The tactical signal is genuinely Neutral: CHF's safe-haven character is primed but the catalyst is binary and unpredictable. SMI at 13,136 (April 30 close) reflects defensive Swiss equity rotation supporting CHF earnings translation. With both bull and bear cases credible at 35-40% each, Neutral is the analytically honest stance.",
+        "key_data_points": [
+          "VIX: 17.13 (May 7, 2026), 35th percentile 1Y",
+          "Gold spot: ~$4,719/oz (May 7, 2026, Fortune); +25% YTD",
+          "Brent: $100.06/bbl (May 7, 2026 close, CNBC)",
+          "SMI: 13,136.27 (April 30, 2026 close, +0.80% on day)",
+          "BTP-Bund 10Y spread: ~110bp (Borsa Italiana, stable through April)",
+          "CHF-VIX correlation (recent 60d): +0.30 to +0.40",
+          "CHF-gold correlation (recent 60d): +0.30 to +0.40"
+        ],
+        "what_is_priced": "Markets price ~50/50 odds on Iran ceasefire holding through May. Options markets show modestly higher CHF call premium (positive risk reversal skew) but the magnitude has compressed since Operation Epic Fury peak in March. The market is rationally hedged — there is no obvious mispricing, hence Neutral is correct. The edge would emerge if either ceasefire negotiations accelerate (sell CHF puts) or breakdown (buy CHF calls).",
+        "citations": [43, 44, 45, 46, 47, 48]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 55,
+        "analysis": "On a strategic horizon, the risk-environment backdrop favours CHF for three structural reasons. First, even if Iran resolves, the next 6 months feature multiple geopolitical flashpoints — US-China trade frictions, European fiscal stress, EM debt vulnerabilities, China property — any of which can re-activate safe-haven flows. Second, the global stagflation regime is structurally CHF-positive: in stagflation, traditional risk-on/risk-off dichotomies break down and CHF benefits as the cheapest real-yield currency rather than just as a safe haven. Third, CHF's beta to risk-off has DECLINED slightly versus history — the standard 'VIX up = CHF up' relationship is intact but at a lower coefficient than 2011-2015 — because SNB intervention rhetoric provides a partial damper. ING G10 Outlook 2026: real CHF at 25-year highs, validated by macro fundamentals. Net: CHF is mildly Bullish on strategic risk grounds but with moderate confidence (55) given the 6M horizon includes substantial path-dependency on Iran and macro data evolution.",
+        "key_data_points": [
+          "ING: real CHF at 25-year highs",
+          "Citi Wealth: Global Economic Surprise Index at highest since April 2024",
+          "VIX 1Y average: ~18.5; current 17.13 — below average",
+          "Tail-risk scenarios next 6M: Iran re-escalation (25%), China-Taiwan friction (15%), Eurozone fiscal stress (20%)",
+          "CHF beta to VIX (5Y rolling): ~0.18 (historical 0.25)",
+          "CHF beta to S&P 500 (5Y inverted rolling): ~-0.15"
+        ],
+        "what_is_priced": "Strategic options markets price ~30% probability of a >10% CHF rally vs USD over 6 months and ~15% probability of a >10% decline — implying mildly CHF-positive distribution. We agree directionally but think the upside tail is under-priced if multi-crisis scenarios materialise.",
+        "citations": [5, 42]
+      },
+      "horizon_split_explanation": "Tactical Neutral, Strategic Bullish. The divergence reflects mechanism: the next 2-4 weeks are dominated by binary Iran ceasefire outcome, while the next 1-6 months allow multiple geopolitical and macro risk windows to favour CHF's safe-haven character cumulatively.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+
+    {
+      "block": "Factor 4: Flows & Positioning",
+      "factor_number": 4,
+      "tactical_weight": 0.10,
+      "strategic_weight": 0.06,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 55,
+        "analysis": "CFTC TFF data through April 28, 2026 shows asset managers net short -37,534 CHF contracts (essentially unchanged WoW) and leveraged funds net short -5,174 contracts (more short by ~1,400 WoW). Open interest stands at 94,111 futures-only and 110,185 futures+options combined. The asset-manager net-short is at a multi-year extreme, sitting in the top decile of 5-year history. Forex.com (January 2026): CHF bears had eased off 18-month extremes earlier this year but rebuilt during the Iran war as carry-trade structures resumed. The structural setup is the textbook CHF positioning configuration — CHF as a funding currency means asset managers are systematically short. However, the magnitude is now extreme. Critically, every meaningful CHF rally in this cycle has been amplified by short-covering on the asset-manager side: when EUR/CHF broke 0.94 in March, the squeeze drove an additional ~150 pips beyond fundamental fair value within 48 hours. The risk-asymmetric component favours CHF: on a re-escalation scenario, asset managers must cover, and the cover has 5-10 trading days of forced flow even after the initial spike. SNB sight-deposit prints have been consistent with passive intervention accommodation, suggesting the SNB has not been actively SHORT EUR/CHF (reducing the offsetting flow). Net: positioning is mildly Bullish CHF tactically, with confidence moderated (55) by the active Iran ceasefire negotiations that could validate (rather than squeeze) the existing shorts.",
+        "key_data_points": [
+          "Asset managers net contracts: -37,534 (top decile of 5Y history)",
+          "Leveraged funds net contracts: -5,174 (more short by 1,400 WoW)",
+          "Total open interest: 94,111 futures-only; 110,185 combined",
+          "WoW change asset managers: ~unchanged",
+          "5Y percentile asset-manager net-short: ~95th",
+          "Forex.com (Jan 2026): Swiss franc bears have eased off, with net-short exposure edging away from its 18-month extreme"
+        ],
+        "what_is_priced": "Markets are not pricing a positioning squeeze on this horizon (vol stable, no urgency premium). Our view: the squeeze risk is REAL on Iran re-escalation but DIMINISHED on ceasefire (which validates the existing shorts). The asymmetry is roughly: 30% chance of a +200 pip CHF squeeze vs 25% chance of a +150 pip CHF unwind — net asymmetrically Bullish CHF but only marginally.",
+        "citations": [12, 13]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 50,
+        "analysis": "On a strategic horizon, CFTC positioning is a less powerful signal because over 6 months, positioning normalises and unwinds become orderly rather than violent. The structural net-short is consistent with CHF's funding-currency status; what matters strategically is whether the regime shifts AWAY from carry-funding (which would reduce the structural short). The Iran war + global stagflation is a regime shift, but how durable? If by Q3 2026 oil settles below $80 and global growth stabilises, asset managers slowly resume CHF shorts and positioning normalises. If stagflation persists or deepens, the structural short becomes increasingly mismatched with reality and a slow-burn positioning normalisation supports CHF for several quarters. Net: positioning is mildly Bullish CHF strategically but with low confidence (50) because the signal is less crisp at this horizon.",
+        "key_data_points": [
+          "Asset-manager net short avg 2024: -28,000 contracts; 2026: -35,000 to -40,000 (more short)",
+          "Leveraged-fund net position avg 2024: -4,000; 2026: -5,000 (similar)",
+          "Open interest 6M trend: rising slowly (~+10% from late 2025 levels)",
+          "ETF flows: NOT directly observable",
+          "Real money positioning surveys: NOT FOUND with precision; sell-side commentary suggests neutral-to-long CHF among real money"
+        ],
+        "what_is_priced": "Markets price positioning normalisation gradually over 6M (slow short unwind). Our view: the normalisation may be slower than priced if stagflation persists, which would maintain the structural CHF squeeze potential.",
+        "citations": [12, 13]
+      },
+      "horizon_split_explanation": "Both Bullish CHF; confidence higher tactical (55 vs 50) because the squeeze-asymmetry mechanism is more reliable at 2-4 week horizons than at 6M, where positioning normalises.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": "Positioning IS stretched on the asset-manager side — the -37.5k net short is in the top 5% of 5Y history (95th percentile). For CHF, stretched begins around -30k contracts (vs -50k+ for EUR or JPY where open interest is larger). Unwind triggers: (a) Iran re-escalation forcing immediate hedge demand → asset managers cover quickly; (b) SNB cuts to negative rates and announces large-scale intervention → asset managers re-engage shorts (the OPPOSITE of unwind); (c) sustained CHF appreciation breaking 0.7600 USD/CHF → systematic stops triggered → cascade short-covering. Squeeze severity: reference 2011 (CHF safe-haven peak) — net specs went from -40k to flat (unwind of 40k contracts) in 8 weeks, USD/CHF fell 12% during. Current squeeze potential: similar magnitude, ~10-15% USD/CHF move feasible if all triggers align. Recent precedent: March 2026 squeeze drove 150 pips in 48 hours. Other side of the trade: CHF shorts may be VINDICATED if (a) Iran resolves with full Hormuz reopening, oil falls to $70, safe-haven premium evaporates; (b) SNB introduces large-scale FX intervention coordinated with US Treasury (unlikely but possible); (c) global growth re-accelerates and carry trades resume — in this scenario, USD/CHF retraces to 0.85 and existing shorts profit. Tactical signal: Mildly Bullish CHF (squeeze potential intact but reduced ceasefire risk).",
+      "contrarian_analysis_strategic": "On a 6-month horizon, positioning normalisation typically operates through orderly unwinds rather than violent squeezes. The structural CHF net-short is consistent with funding-currency status, and the strategic question is whether the regime shifts AWAY from carry-funding. If stagflation persists, the structural short becomes mismatched with reality and a slow-burn unwind supports CHF for several quarters. If Iran resolves and global growth re-accelerates, asset managers maintain or extend shorts and positioning normalises in the OPPOSITE direction (more short). Squeeze severity is moderate at strategic horizons — historical 6M unwinds when positioning hits 95th percentile have averaged 15-20k contract reduction over the period, supporting ~5-7% currency appreciation. The contrarian case at strategic horizon: long-CHF consensus may itself become crowded (sell-side bullish forecasts at GS, UBS) by Q3 if CHF appreciation persists, creating a different positioning vulnerability. Strategic signal: Mildly Bullish CHF (slow unwind if stagflation persists).",
+      "expression_assessment": null
+    },
+
+    {
+      "block": "Factor 5: External Balance & Terms of Trade",
+      "factor_number": 5,
+      "tactical_weight": 0.06,
+      "strategic_weight": 0.16,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 65,
+        "analysis": "Switzerland's Q4 2025 current-account surplus printed CHF 7.0bn (vs CHF 23.5bn in Q4 2024), with full-year 2025 at CHF 61.7bn — equivalent to ~7% of GDP. This is one of the largest current-account surpluses in the developed world (G10 only Norway exceeds it on an oil-adjusted basis). The surplus is structural, driven by: (a) goods trade surplus 2025 CHF 54.3bn; (b) services surplus dominated by financial services and commodity trading; (c) primary income surplus from large overseas investment portfolio. Pharma exports continued to dominate at CHF 152bn (~53% of total 2025 exports). February 2026 trade surplus was CHF 4.4bn — largest since August 2025. The structural surplus generates ~CHF 5-6bn of net CHF demand monthly, which is the cleanest mechanical CHF-positive flow available in any G10 currency. Iron-ore-reliant AUD has 35% commodity-export concentration; CHF has pharma-services concentration which is far less cyclical. Iran war marginally helps via gold trade flows: Switzerland refines 65-70% of global gold and gold prices at $4,700+ are driving ~25% above-trend gold trade volumes. Net tactical signal: structurally bullish, but at this 2-4 week horizon the flow is too slow to dominate spot — hence confidence moderated to 65.",
+        "key_data_points": [
+          "Current account Q4 2025: CHF 7.0bn; full-year 2025: CHF 61.7bn (~7% GDP)",
+          "Trade balance Feb 2026: +CHF 4.4bn (largest since Aug 2025)",
+          "2025 exports: CHF 287.0bn (+1.4% YoY)",
+          "Pharma share: ~53% of total 2025 exports",
+          "Top trading partners: Germany 15%, US 14%, UK 9%, China 7%; EU bloc ~55%",
+          "BIS REER CHF (April 2026): ~97.4 (ECB); broad measure at multi-decade highs",
+          "Gold price (key CHF correlation): $4,719/oz (+25% YTD)",
+          "Switzerland gold imports 2023: 2,372 tonnes (CHF 91bn) — world's largest gold-refining hub"
+        ],
+        "what_is_priced": "Markets correctly price the structural surplus as a slow-burn CHF-positive but UNDER-price the gold-trade impulse. With gold up 25% YTD and Swiss refining absorbing global volume, gold-related CHF flow has run +30-40% above trend in Q1 2026 — a meaningful incremental positive that doesn't appear in headline trade data because of gold's distortion adjustments.",
+        "citations": [10, 45, 49, 50, 51, 52, 53]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 75,
+        "analysis": "On a strategic horizon, the External Balance factor carries 0.16 weight (second-highest behind Policy & Rates) and is the foundation of the long-CHF thesis. The 7% current-account surplus generates ~CHF 70bn/yr of net CHF demand — equivalent to 10% of CHF M2 — which mechanically supports the franc independent of carry, sentiment, or positioning. This structural flow is durable: pharma exports are non-cyclical, services exports diversified, primary income ~CHF 30bn/yr from accumulated overseas investments. Switzerland's structural surplus has been the main driver of CHF's multi-decade real appreciation trend (REER up ~30% over 25 years). The 6-month outlook intensifies this: stagflation environments favour Switzerland's pharma-services export mix vs commodity-and-cyclical exporters; gold flows are running well above trend on $4,700 prices; Switzerland's role as a financial services hub for war-related and sanctioned-asset flows is underestimated. Trading-partner concentration risk is moderate: 55% to EU means Eurozone weakness drags Swiss exports somewhat but pharma is relatively inelastic. China sensitivity is moderate (~7% of exports) — if China stimulates, marginal CHF positive. Strategic confidence is the highest in the dossier on this factor (75) because the mechanical flow effect is robust and well-documented.",
+        "key_data_points": [
+          "6M cumulative current account: ~CHF 35bn projected",
+          "Gold trade impulse: +30% above-trend on price increase",
+          "China share of exports: ~7% (manageable but not negligible)",
+          "US share of exports: ~14% — tariff risk modest given pharma dominance",
+          "Pharma exports H1 2026 forecast: ~CHF 80bn (record territory)",
+          "Reserve currency dynamics: CHF share in global reserves ~0.3% (small but rising slightly per IMF COFER trend)"
+        ],
+        "what_is_priced": "The structural surplus is well-known and partially priced. The mispricing is in the EXPECTATION that pharma exports will weaken on US tariff risk — the current US-Swiss bilateral trade dialogue includes pharma carve-outs given pharma's strategic importance. We expect pharma exports to maintain pace, supporting CHF flow longer than consensus.",
+        "citations": [10, 49, 50]
+      },
+      "horizon_split_explanation": "Both Bullish CHF; strategic confidence materially higher (75 vs 65) because the External Balance factor's mechanism (slow accumulating flow) operates much more powerfully at 6M than at 2-4 weeks.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+
+    {
+      "block": "Factor 6: Guidance & Credibility",
+      "factor_number": 6,
+      "tactical_weight": 0.07,
+      "strategic_weight": 0.12,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 65,
+        "analysis": "The SNB's March 19, 2026 Monetary Policy Assessment introduced explicit FX-intervention escalation language: 'Given the conflict in the Middle East, the SNB's willingness to intervene in the foreign exchange market has increased. The SNB thereby counters a rapid and excessive appreciation of the Swiss franc, which would jeopardise price stability in Switzerland.' This is the most direct intervention signal the SNB has issued since the 2015 floor era, and it is unambiguously CHF-bearish at the tactical horizon. Chairman Schlegel reinforced this in his April 24, 2026 AGM speech: 'We have unrestricted room for manoeuvre with regard to the SNB policy rate and foreign exchange market interventions… In uncertain times such as these, we are particularly vigilant.' The SNB has 4 meetings/year (next June 18) and provides minimal forward guidance between meetings — but the recent Schlegel speech and the MPA escalation jointly create a clear hawkish-on-FX stance. The SNB's credibility is high (post-2015 episode notwithstanding) and markets do believe the intervention threat. The conditional inflation forecast was nudged HIGHER in the near term (energy-driven) but LOWER in the medium term (CHF-strength-driven), creating a deliberate signal: SNB is willing to accept higher near-term CPI to preserve lower medium-term CPI via FX. The tactical guidance signal is clear: SNB is positioned to intervene against further CHF strength, and this caps near-term USD/CHF downside.",
+        "key_data_points": [
+          "SNB MPA March 19, 2026: explicit willingness to intervene increased language",
+          "Schlegel AGM speech April 24: unrestricted room for manoeuvre... particularly vigilant",
+          "Conditional inflation forecast: 2026 0.5% / 2027 0.5% / 2028 0.6%",
+          "SNB sight-deposit threshold factor adjusted from 16.5 to 15 (March 1, 2026 — technical)",
+          "SNB Q1 2026 interim results: CHF -0.5bn loss, CHF -8.2bn FX position loss, CHF +7.8bn gold gain",
+          "Schlegel high bar rhetoric on negative rates (multiple speeches)",
+          "Reuters poll Dec 2025: 14 of 17 economists assess negative-rate risk as LOW",
+          "HSBC: SNB has been sounding remarkably relaxed about CHF strength but escalation visible since March"
+        ],
+        "what_is_priced": "Markets price the SNB intervention threat partially: EUR/CHF stops have built around 0.92 (defending vs intervention) and 0.90 (assuming SNB intervenes hard). USD/CHF below 0.77 would likely trigger active intervention. We agree with the consensus framing but think the market UNDER-prices the constraint side: US Treasury currency-manipulator monitoring caps SNB intervention size at <5% of GDP. This means the SNB intervention threat is more bark than bite at scale.",
+        "citations": [8, 28, 29, 54, 55, 56, 57]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "analysis": "On a 1-6 month horizon, the SNB guidance is two-way. If CHF continues to strengthen and inflation undershoots the lower target band, the SNB will be forced to escalate from rhetoric to action — first via large-scale intervention (CHF 30-50bn quarterly), then via negative rates (-0.25% potentially by September 2026 MPA). Once negative rates are reintroduced, CHF historically WEAKENS only with substantial lag (the 2015 episode took 2-3 years for full transmission). Conversely, if Iran resolves and CHF weakens to 0.80+ on USD/CHF, the SNB unwinds intervention rhetoric and the policy stance becomes neutral. The 6M strategic guidance signal averages across these scenarios: SNB is structurally hawkish on CHF strength but constrained in tools. The cumulative effect over 6M is probably mildly CHF-bearish if SNB acts (intervention + negative rates) and CHF-neutral if CHF weakens organically. Net: Neutral with moderate confidence.",
+        "key_data_points": [
+          "Next SNB meeting: June 18, 2026 (consensus hold)",
+          "SNB September 2026 meeting potential trigger: medium-term CPI forecast <0.3%",
+          "Historical intervention size (2011-2015): CHF 80bn-100bn/quarter at peak",
+          "US Treasury currency-manipulator criteria: Switzerland meets 2 of 3 (FX intervention, bilateral surplus); below the 3rd threshold (2% of GDP intervention) for now",
+          "UBS, Goldman strategic forecasts assume SNB on hold at 0%",
+          "Schlegel personal credibility: high; took over from Jordan effective October 2024"
+        ],
+        "what_is_priced": "Markets price ~25-40% probability of negative rates by year-end 2026 in extreme scenarios; this is reasonable. We don't have a strong differentiated view on this factor at strategic horizon — the SNB will react to data, and the data path is uncertain. Neutral is the analytically honest stance.",
+        "citations": [22, 33, 34]
+      },
+      "horizon_split_explanation": "Tactical Bearish, Strategic Neutral. The divergence reflects mechanism: SNB intervention rhetoric is most powerful in the immediate 2-4 weeks (caps CHF strength); over 6 months, the rhetoric must transition to action, and the action set is constrained by external factors (US Treasury, EUR/CHF level), making the medium-term signal more balanced.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+
+    {
+      "block": "Factor 7: Event Risk & Geopolitics",
+      "factor_number": 7,
+      "tactical_weight": 0.05,
+      "strategic_weight": 0.05,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 60,
+        "analysis": "The dominant near-term event is the active US-Iran ceasefire negotiation. As of May 7, 2026, Operation Epic Fury negotiations have intensified via Pakistani mediators; Trump declared the operation could end if Iran agrees to terms, with the US naval blockade lifting and Hormuz reopening. Strait remains disrupted; oil swung 15% in 24 hours on May 6. The binary outcome is the dominant tactical risk: ceasefire success → CHF weaker via safe-haven unwind (USD/CHF could rally 3-5% within days); ceasefire failure → CHF stronger via re-escalation (EUR/CHF could break 0.90 within a week). Beyond Iran: UBS regulation parliamentary debate begins summer 2026; the Federal Council adopted dispatch on too-big-to-fail measures requiring UBS to hold ~USD 24bn additional CET1, a structural negative for UBS-related CHF flows but limited magnitude over 2-4 weeks. Swiss-EU Bilaterals III package signed March 2, 2026 in Brussels with Federal Council dispatch adopted March 13; parliamentary debate ongoing — long-term CHF positive (institutional anchor) but minimal 2-4 week impact. Net: tactical event risk is genuinely two-way and binary, hence Neutral with moderate confidence.",
+        "key_data_points": [
+          "Iran ceasefire negotiations active May 6, 2026",
+          "Brent: $100/bbl with 15% intraday swings on Iran headlines",
+          "UBS additional CET1 requirement: ~USD 24bn (Federal Council dispatch June 2025)",
+          "Swiss-EU Bilaterals III: signed March 2, 2026",
+          "Federal Council Bilaterals III dispatch: March 13, 2026",
+          "SVP-led referendum risk on Bilaterals III: 2027 timing",
+          "No federal elections imminent (next 2027)"
+        ],
+        "what_is_priced": "Options markets price ~50/50 on Iran resolution holding through May 2026; oil futures (Brent) imply 30% probability of Brent <$80 by end-Q2 (ceasefire success) and 25% probability of >$110 (re-escalation). Distribution is reasonably balanced — no clear mispricing. The cleanest expression of the binary is via short-dated CHF options or Brent options.",
+        "citations": [6, 7, 46, 58, 59, 60]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 55,
+        "analysis": "On a strategic horizon, even if Iran resolves cleanly, the next 6 months feature multiple low-probability-high-impact events that disproportionately favour CHF: US-China tariff escalations (Q3), Eurozone fiscal stress (Italian elections H2 2027 cycle starts), UK fiscal slippage, US debt ceiling redux (autumn). Switzerland-EU Bilaterals III parliamentary debate proceeds through 2026 with parliamentary approval the base case; SVP referendum is 2027 risk only. UBS regulation debate is ongoing but UBS retains strategic flexibility — net mildly negative for UBS but limited spillover to CHF. The cumulative tail-risk distribution over 6M favours CHF moderately; even a 30% probability of major risk-off event combined with CHF's safe-haven beta produces modest expected appreciation. Confidence moderate (55) because event risk over 6M is highly uncertain.",
+        "key_data_points": [
+          "6M tail-risk events: Iran re-escalation (25%), US-China tariff (20%), Eurozone fiscal (15%), US debt ceiling (10%), unexpected (15%)",
+          "Combined major risk-off probability: ~50% over 6M",
+          "CHF beta to risk-off (5Y rolling): ~+0.18 to +0.25 vs USD",
+          "UBS reform parliamentary timeline: summer 2026 begins, multi-year transition",
+          "Swiss-EU Bilaterals III parliamentary approval timeline: 2027 likely"
+        ],
+        "what_is_priced": "Strategic options markets price the CHF tail (>10% rally) at ~30% — we agree directionally but think this is fair value, not under-priced.",
+        "citations": [58, 59, 60]
+      },
+      "horizon_split_explanation": "Tactical Neutral, Strategic Bullish. Same event-risk asymmetry mechanics as Factor 3 — binary near-term Iran outcome dominates 2-4 weeks, while the 6M horizon allows multiple geopolitical and macro risk windows to favour CHF cumulatively.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+
+    {
+      "block": "Factor 8: Fiscal & Sovereign Risk",
+      "factor_number": 8,
+      "tactical_weight": 0.04,
+      "strategic_weight": 0.07,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 80,
+        "analysis": "Switzerland's fiscal position is best-in-G10 by every metric. Sovereign rating: AAA across all four major agencies (S&P, Moody's, Fitch, DBRS) — all on Stable outlook with no rating actions in 2026. Federal debt-to-GDP: 16.1% (end-2025, ~CHF 140bn) — the lowest in G10 by a wide margin. General government gross debt: ~30.8% (vs Eurozone average ~85%, US ~125%, Japan ~265%). 2025 federal fiscal balance: +CHF 0.3bn surplus (the Federal Council confirmed at its February 18, 2026 meeting). Switzerland's debt brake fiscal rule constitutionally constrains structural deficits, anchoring the trajectory. Structural deficits projected 2027-2029 of CHF 2-4bn are flagged but small in absolute terms (<0.4% of GDP). The fiscal contrast with peers is stark: while the US runs ~6% deficit, UK ~5%, France ~5%, Italy ~4%, Switzerland is essentially balanced. This makes CHF the cleanest fiscal-quality bid in any global stagflation scenario where bond markets discriminate by quality. Tactical signal is strongly Bullish CHF with high confidence (80) — the fiscal advantage is structural and well-established but its IMPACT in spot is amplified during periods of fiscal stress elsewhere (which the current global stagflation regime amplifies).",
+        "key_data_points": [
+          "Sovereign ratings: S&P AAA / Moody's Aaa / Fitch AAA / DBRS AAA, all Stable",
+          "Federal debt/GDP: 16.1% (end-2025, FDF)",
+          "General government gross debt/GDP: ~30.8%",
+          "2025 fiscal balance: +CHF 0.3bn surplus (Federal Council Feb 18, 2026)",
+          "Swiss CDS 5Y: NOT FOUND with precise current level; historically inside 10-15bp range",
+          "Structural deficit 2027-2029 forecast: CHF 2-4bn (<0.4% of GDP)",
+          "10Y Swiss yield: 0.35% — lowest in G10 reflecting safe-asset bid",
+          "Debt brake constitutional rule: in force since 2003, never breached structurally"
+        ],
+        "what_is_priced": "The fiscal advantage is well-known and broadly priced into the structural CHF appreciation trend. Where it is UNDER-priced is tactical: in a global fiscal-stress scenario (e.g., US debt-ceiling impasse this autumn), CHF would attract incremental safe-asset flows beyond what is currently in spot.",
+        "citations": [23, 61, 62]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 80,
+        "analysis": "The strategic Fiscal & Sovereign signal is the most reliably Bullish CHF factor in the dossier. Over 6 months, peer fiscal trajectories deteriorate further: US fiscal deficit projected ~6.5% of GDP for FY2026 with $1.7tn supplemental defense spending on Iran war embedded; Eurozone fiscal slippage continues with German Schuldenbremse waiver under debate; UK fiscal credibility tested by Treasury reshuffle and gilt market pressure; France debt trajectory rising. Switzerland's fiscal trajectory is unchanged: balanced budgets, debt brake, AAA across agencies, no upcoming fiscal stress. The relative fiscal quality of CHF vs peers WIDENS over 6 months, providing a structural tailwind. This factor's strategic weight (0.07) is modest but its directional signal is high-confidence (80). The Italian fiscal trajectory is particularly telling: BTP-Bund 10Y spread at ~110bp may widen toward 150bp on autumn fiscal stress, and CHF historically captures the safe-asset rotation from periphery sovereigns. Swiss CDS levels remain inside 10-15bp range — among the tightest globally — versus US CDS at 35-50bp, France at 25-30bp, Italy at 60-80bp. This CDS quality wedge is a real-time signal of the structural fiscal advantage. The strategic risk to this factor is benign: only an unexpected Swiss banking crisis or major referendum outcome could meaningfully erode the AAA fiscal position over 6M, and neither is on the calendar.",
+        "key_data_points": [
+          "Switzerland 2026 federal budget: balanced",
+          "US 2026 deficit projected: ~6.5% GDP",
+          "Eurozone aggregate deficit 2026: ~3.5%",
+          "UK deficit 2026: ~5.0%",
+          "Italy debt/GDP: ~140% (vs Switzerland 16.1%) — 9x ratio",
+          "Switzerland 10Y yield 0.35% vs Italy 10Y ~3.65% — 330bp safe-asset premium reflected"
+        ],
+        "what_is_priced": "The fiscal advantage is well-priced over long horizons. The strategic mispricing is in the trajectory: peer fiscal positions are worsening faster than markets price, while Switzerland's is unchanged. This widens the relative-quality spread.",
+        "citations": [61, 62]
+      },
+      "horizon_split_explanation": "Both Bullish CHF at confidence 80; alignment confirms structural nature. The factor is more impactful strategically (weight 0.07 vs tactical 0.04) which is appropriate.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+
+    {
+      "block": "Factor 9: Market Structure & Volatility",
+      "factor_number": 9,
+      "tactical_weight": 0.05,
+      "strategic_weight": 0.03,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "analysis": "USD/CHF is in a confirmed downtrend with spot at 0.7787, 50d SMA at 0.7890, 200d SMA at 0.7907 — bearishly stacked configuration. EUR/CHF is range-bound 0.90-0.93 with 200-day SMA near 0.9400 well above spot. Trend regime: strong CHF appreciation in extended consolidation after February-April acceleration. Key levels USD/CHF: support 0.7700 (psychological), 0.7600 (2024 SNB intervention zone), 0.7500 (multi-decade low); resistance 0.7900 (50d SMA), 0.8000 (round), 0.8100 (200d SMA + late-April highs). Key levels EUR/CHF: support 0.9000 (SNB intervention threshold, psychological), 0.8900, 0.8800; resistance 0.9300 (Jan 2026 high), 0.9400 (200d SMA), 0.9500. SNB intervention rhetoric creates an absorption zone at EUR/CHF 0.90 — heavy implied option barriers and reported real-money interest cluster at this level. Implied volatility data: precise 1M and 3M IV NOT FOUND from public sources, but EUR/CHF 1M vol is institutionally-elevated (~7-8%) due to two-way SNB intervention risk. Realised vol on EUR/CHF has fallen from ~9% mid-March peak to ~6% currently — RV < IV slightly, indicating event premium remains for SNB action. 25-delta risk reversals: precise levels NOT FOUND but institutional commentary indicates options markets remain skewed toward CHF strength (RR positive favouring CHF puts). Vol term structure: broadly flat, no significant backwardation. Net market structure: range-bound consolidation within a CHF-strong regime; tactical signal is Neutral.",
+        "key_data_points": [
+          "USD/CHF 50d SMA: ~0.7890; 200d SMA: ~0.7907 — bearishly stacked",
+          "USD/CHF support: 0.7700 (psychological), 0.7600 (intervention zone), 0.7500 (multi-decade low)",
+          "USD/CHF resistance: 0.7900, 0.8000, 0.8100",
+          "EUR/CHF support: 0.9000 (SNB threshold), 0.8900, 0.8800",
+          "EUR/CHF resistance: 0.9300, 0.9400 (200d SMA), 0.9500",
+          "EUR/CHF 1M IV: institutionally-reported elevated (~7-8%); precise NOT FOUND",
+          "EUR/CHF 1M RV: ~6% currently (down from ~9% mid-March)",
+          "25-delta 1M EUR/CHF risk reversal: precise NOT FOUND; reportedly positive (CHF call bid)"
+        ],
+        "what_is_priced": "Vol markets price an event premium for SNB action (IV > RV by ~150bp). This is appropriate given the active intervention rhetoric. The cleanest mispricing: vol term structure shows no backwardation around SNB June 18 meeting yet, suggesting underestimation of meeting binary risk. Buying short-dated EUR/CHF straddles into June meeting offers cheap gamma if implementing the view via options.",
+        "citations": [4]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "analysis": "On a strategic horizon, market structure becomes less relevant — fundamental drivers dominate. The trend regime is CHF-positive (strong uptrend in CHF on a real-effective basis) but the strategic question is whether the trend extends to new highs (USD/CHF below 0.75 / EUR/CHF below 0.90) or consolidates. Vol regime: low-to-moderate vol, suggestive of grind rather than spike. Key strategic levels: USD/CHF 0.75 (multi-decade resistance for CHF strength); EUR/CHF 0.90 (SNB intervention threshold). Net: market structure is consistent with CHF range-bound consolidation strategically; signal is Neutral. Volatility term structure over 6M shows mild backwardation around the SNB September 25 meeting (the most consequential strategic catalyst), but no major dislocation. Strategic 6M IV is institutionally elevated at ~7.5-8% on EUR/CHF (vs 1Y average ~6.5%), reflecting persistent two-way SNB-binary risk. 25-delta 6M risk reversals continue to favour CHF strength (CHF call bid) but the magnitude has compressed since March. Strategic moving averages remain bearishly stacked across multiple timeframes (USD/CHF spot below 50d, 100d, 200d), but the convergence of these averages near 0.79 suggests a consolidation pivot rather than a fresh trend leg. The cleanest strategic structural signal is the SNB intervention threshold at EUR/CHF 0.90 — a hard floor that defines the lower range bound and constrains CHF appreciation paths over the 6M horizon.",
+        "key_data_points": [
+          "6M USD/CHF range expectation: 0.74-0.84",
+          "6M EUR/CHF range expectation: 0.88-0.96",
+          "200-day MA configuration: bearishly stacked; supports continued CHF strength but not breakout",
+          "6M IV: NOT FOUND with precision",
+          "6M RR: NOT FOUND with precision",
+          "Vol regime: low-vol grind likely"
+        ],
+        "what_is_priced": "Strategic options price ~25-30% probability of USD/CHF break below 0.75 over 6M. This appears reasonable. No strategic mispricing identified.",
+        "citations": [4]
+      },
+      "horizon_split_explanation": "Both Neutral; signal is structural-context not directional. Tactical and strategic confidence aligned with mild reduction strategic (50 vs 55) reflecting longer horizon uncertainty.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": "IV percentile institutionally-reported elevated (~70th percentile 1Y) on EUR/CHF due to SNB binary risk; lower on USD/CHF (~50th percentile). RV vs IV: EUR/CHF RV ~6% vs IV ~7-8% means market pricing modest event premium → options modestly expensive. Risk reversals skewed toward CHF strength (CHF call bid) means directional CHF longs in options will pay up; spot expression more cost-efficient. Vol term structure flat to mild contango means no near-term event premium baked in. For directional CHF longs, prefer SPOT expression over options given (a) IV elevated, (b) RR skewed to CHF strength making options expensive, (c) no backwardation indicating cheap gamma. For SNB-binary expression specifically, short-dated EUR/CHF straddles into June 18 SNB meeting offer cheap gamma if buying straddle and the term structure remains in contango — this captures the binary intervention/cut/hold outcome efficiently. For positioning-squeeze expression, spot stop-loss reversals offer cleanest payoff. For consensus-divergence expression (long CHF/JPY), spot expression is cleanest given low-vol regime in the cross."
+    },
+
+    {
+      "block": "Factor 10: USD Liquidity & Funding",
+      "factor_number": 10,
+      "tactical_weight": 0.11,
+      "strategic_weight": 0.12,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 60,
+        "analysis": "USD funding conditions are stable: Fed Funds at 3.75% upper bound, SOFR consistent with the band, no visible dollar funding stress despite Iran war. Cross-currency basis swap levels (3M EUR/USD, JPY/USD, CHF/USD) NOT FOUND with precision from public sources but institutional reports indicate basis has widened modestly during Iran-war risk-off but remains inside crisis thresholds — meaning USD funding premium has emerged but is not severe. Fed balance sheet stable around $6.6tn with iShares (Dec 2025) noting the Fed announced new T-bill/coupon purchases at ~$40bn/month for reserve management through April 2026. This is broadly USD-supportive (less liquidity withdrawn) but the magnitude is modest. The dollar smile framework places USD currently between right side (US exceptionalism, USD strong) and bottom (goldilocks, USD weak) — leaning toward the bottom as US data has softened and Fed cut expectations have built. CHF behaves similarly to JPY in this framework: strengthens at left side (crisis), weakens at bottom (goldilocks), weakens vs USD at right side. Currently we are at 'soft bottom' — CHF should be modestly weaker vs USD on dollar smile, but the safe-haven Iran premium has dominated. Tactical net: Bullish CHF as USD liquidity remains stable-to-easing, supporting CHF in the cross-current.",
+        "key_data_points": [
+          "Fed Funds upper bound: 3.75% (held April 29, 2026; 8-4 vote)",
+          "SOFR: ~3.5-3.7% (precise May 7 fixing NOT FOUND; FRBNY authoritative)",
+          "Fed balance sheet: ~$6.6tn (stable; Treasury purchases $40bn/month)",
+          "3M EUR/USD basis swap: NOT FOUND precisely; institutionally reported widened modestly",
+          "3M CHF/USD basis: NOT FOUND precisely",
+          "USD swap line usage: minimal/zero",
+          "T-bill issuance: heavy Q2 2026; partially absorbed by money market funds",
+          "Senior Loan Officer Survey (Q1 2026): mild tightening, no crisis signal"
+        ],
+        "what_is_priced": "Fed funds futures price 1 cut by year-end (3.50%); basis is at fair value reflecting modest USD demand. We agree directionally but think USD liquidity is biased EASIER over the next 2-4 weeks given Fed's bond-buying program continuation, supporting CHF (and other safe-haven currencies) modestly.",
+        "citations": [14, 63]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 60,
+        "analysis": "On a 1-6 month horizon, USD liquidity is biased structurally easier: Fed has limited room to maintain restrictive policy with US data softening; balance-sheet operations are now liquidity-additive rather than withdrawing. Cross-currency basis is likely to compress as funding conditions ease. The dollar smile dynamic over 6M favours CHF: as Fed eases and US growth converges with global, USD weakens on the smile and CHF strengthens vs USD. CHF as a funding currency benefits from easing USD liquidity in two ways: (a) lower USD borrowing costs reduce demand for USD funding via CHF unwind; (b) easier global liquidity supports CHF safe-haven positioning. Net: Bullish CHF strategically with confidence 60. The strategic Fed reaction function is the dominant variable: if US growth slows materially (NFP <100k sustained, ISM Manufacturing <48), Fed accelerates cuts and USD weakens broadly, supporting CHF. If US data resilient and Iran resolves, Fed holds and USD strengthens, weakening CHF. Cross-currency basis at 6M is likely to remain modestly USD-positive (small premium) but compress as US T-bill issuance peaks pass through summer and money-market absorption normalises. The strategic SNB-Fed standing swap line provides backstop liquidity that limits tail funding stress for CHF — an underrated structural positive. Reserve-currency dynamics over 6M are mildly CHF-positive: CHF share in global reserves at ~0.3% remains small but IMF COFER trend shows incremental rise as reserve managers diversify away from USD-EUR duopoly during stagflation regimes.",
+        "key_data_points": [
+          "6M-forward Fed Funds: ~3.50% (1 cut priced)",
+          "Fed balance sheet 6M trajectory: stable to growing",
+          "USD swap-line standing: in place; SNB has standing line",
+          "Dollar smile position (6M): drifting from right to bottom (USD weaker)",
+          "Global USD-denominated debt: ~$13tn — sensitivity to Fed easing high",
+          "CHF/USD basis trajectory: likely compress over 6M"
+        ],
+        "what_is_priced": "Markets price the dollar smile transition gradually. We expect a faster transition if US data continues to soften, supporting CHF more than consensus.",
+        "citations": [14, 63]
+      },
+      "horizon_split_explanation": "Both Bullish CHF; confidence aligned (60 each). Liquidity factor operates similarly across horizons because the dollar smile mechanism transmits at both 2-4 week and 6M timescales, and Fed easing trajectory is the dominant variable in both windows.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    }
+  ],
+
+  "synthesis": {
+    "tactical": {
+      "net_stance": "Bullish",
+      "conviction": 2,
+      "overall_confidence": 55,
+      "weighted_score": {
+        "calculation": [
+          { "factor": "Policy & Rates", "stance_score": -1, "confidence_pct": 70, "confidence_adjusted_score": -0.700, "weight": 0.24, "weighted_contribution": -0.1680 },
+          { "factor": "Inflation & Growth", "stance_score": 1, "confidence_pct": 70, "confidence_adjusted_score": 0.700, "weight": 0.18, "weighted_contribution": 0.1260 },
+          { "factor": "Risk Appetite", "stance_score": 0, "confidence_pct": 60, "confidence_adjusted_score": 0.000, "weight": 0.10, "weighted_contribution": 0.0000 },
+          { "factor": "Flows & Positioning", "stance_score": 1, "confidence_pct": 55, "confidence_adjusted_score": 0.550, "weight": 0.10, "weighted_contribution": 0.0550 },
+          { "factor": "External Balance", "stance_score": 1, "confidence_pct": 65, "confidence_adjusted_score": 0.650, "weight": 0.06, "weighted_contribution": 0.0390 },
+          { "factor": "Guidance & Credibility", "stance_score": -1, "confidence_pct": 65, "confidence_adjusted_score": -0.650, "weight": 0.07, "weighted_contribution": -0.0455 },
+          { "factor": "Event Risk", "stance_score": 0, "confidence_pct": 60, "confidence_adjusted_score": 0.000, "weight": 0.05, "weighted_contribution": 0.0000 },
+          { "factor": "Fiscal & Sovereign", "stance_score": 1, "confidence_pct": 80, "confidence_adjusted_score": 0.800, "weight": 0.04, "weighted_contribution": 0.0320 },
+          { "factor": "Market Structure", "stance_score": 0, "confidence_pct": 55, "confidence_adjusted_score": 0.000, "weight": 0.05, "weighted_contribution": 0.0000 },
+          { "factor": "USD Liquidity", "stance_score": 1, "confidence_pct": 60, "confidence_adjusted_score": 0.600, "weight": 0.11, "weighted_contribution": 0.0660 }
+        ],
+        "net_score": 0.1045,
+        "interpretation": "Net weighted score of +0.1045 maps to a weak Bullish CHF stance. The score sits near the Neutral/Bullish boundary, reflecting the genuine offset between two strong but opposing forces: Inflation & Growth real-yield support (+0.126) plus accumulated lower-weighted CHF positives (External Balance +0.039, Fiscal +0.032, USD Liquidity +0.066, Flows +0.055, summing to +0.318 across the bullish factors) versus Policy & Rates carry headwind (-0.168) plus SNB Guidance (-0.046) totalling -0.214. The mild positive net is dominated by Real-Yield + Liquidity + Flow positives, but with binary Iran ceasefire risk creating substantial near-term tail uncertainty.",
+        "mapping_to_conviction": "Conviction 2/5 (low). Net score in the +0.10 to +0.15 band typically maps to mild Bullish at low conviction. The asymmetric Iran ceasefire risk and crowded consensus long-CHF positioning argue against adding here despite favourable real-yield fundamentals."
+      },
+      "rationale": "The tactical CHF case sits at a peculiar inflection: fundamentals (real-yield, structural surplus, fiscal quality) support the franc, but the dominant 'what's next' question is binary on the Iran ceasefire negotiations. Two factors carry the bullish weight at tactical horizons. First, Inflation & Growth at 0.18 weight delivers the cleanest signal: Switzerland is the only G10 economy with HEADLINE inflation rising on energy (0.6% YoY) but CORE inflation FALLING (0.3% YoY) — making CHF the cheapest real-yield currency to be long while every other developed-market currency faces stagflation cross-currents. Second, USD Liquidity (0.11 weight) is mildly easing as Fed bond purchases continue and the dollar smile transitions toward the bottom. Against these positives, the dominant tactical drag is Policy & Rates at 0.24 weight: CHF carries the largest negative carry in G10 by a wide margin (-375bp vs USD, -435bp vs AUD, -425bp vs NOK), and SNB Guidance (0.07 weight) explicitly targets capping CHF strength via FX intervention. The CHF rally has overshot historical safe-haven levels even controlling for the Iran shock — real CHF at 25-year highs per ING — leaving limited room for further upside without forcing the SNB into an aggressive intervention response. The factor interactions converge on this: bullish factors are durable but slow-burn; bearish factors are immediate and binary. The path of least resistance over 2-4 weeks is range-bound around current levels with EUR/CHF capped above 0.93 (SNB intervention rhetoric) and supported above 0.90 (intervention threshold), and USD/CHF range 0.7700-0.8000. Key tactical catalysts are the May 27 RBNZ meeting, the early-May Iran ceasefire developments, and June 4 ECB. Conviction is genuinely low — this is not a high-quality directional setup — and we recommend tactical SIZING discipline rather than added directional exposure. The single best risk-reward over 2-4 weeks is positioning for the binary Iran outcome via short-dated EUR/CHF straddles around the SNB June 18 meeting, capturing both ceasefire-rally and re-escalation-decline scenarios efficiently. Conviction drivers: the bifurcated April CPI print (headline up, core down) is the highest-conviction CHF-positive signal, but it is offset by the asymmetric Iran ceasefire risk and the 95th-percentile asset-manager net-short positioning that could be validated rather than squeezed if ceasefire holds.",
+      "g10_ranking": {
+        "rank": 4,
+        "out_of": 11,
+        "beats": ["NZD", "CAD", "GBP", "JPY", "SGD", "SEK"],
+        "loses_to": ["USD", "AUD", "NOK", "EUR"],
+        "commentary": "CHF is mid-pack tactically. Strong real-yield case offsets carry disadvantage to keep CHF competitive against most stagflation-hit peers, but loses to the higher-yielding hawkish-CB outliers (USD, AUD, NOK). Long-CHF crosses are best directed at lower-yielding peers (CHF/JPY, CHF/SGD, CHF/SEK) rather than against high-carry currencies. The ranking reflects CHF's structural advantages held back by the carry burden and SNB-intervention-cap on near-term upside."
+      },
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "outcome": "EUR/CHF range-bound 0.91-0.93, USD/CHF range 0.77-0.80",
+          "conditions": [
+            "Iran negotiations continue without resolution or escalation",
+            "SNB rhetoric intensifies but no actual large-scale intervention",
+            "Global vol moderates further (VIX <20)",
+            "No major macro surprises (US, Eurozone, China data in line)"
+          ],
+          "path": "Tight consolidation with low realised vol; CHF holds gains but no fresh leg. Range trade with 5-7% realised vol on EUR/CHF and 7-9% on USD/CHF."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "outcome": "EUR/CHF break to 0.90, USD/CHF to 0.7600",
+          "conditions": [
+            "Iran re-escalation forces safe-haven bid",
+            "US data softens, USD weakens broadly",
+            "Positioning squeeze on asset-manager shorts (cover ~10-15k contracts)"
+          ]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "outcome": "EUR/CHF rallies to 0.95, USD/CHF to 0.81",
+          "conditions": [
+            "Iran ceasefire achieved with full Hormuz reopening",
+            "Brent <$80 within 5 trading days; SNB executes large-scale intervention announcing reserve diversification",
+            "Global risk-on rebound; CHF safe-haven unwind"
+          ]
+        }
+      },
+      "path_expectation": "Range-bound consolidation with binary tail risks at both ends. Volatility expected to compress further in the absence of fresh catalysts; spike-and-fade pattern around June 18 SNB meeting is the highest-conviction near-term path. EUR/CHF likely tests 0.92-0.93 resistance but caps under 0.94 unless ceasefire materialises; USD/CHF supported above 0.7700 unless re-escalation occurs. Expect 5-7% realised vol on EUR/CHF and 7-9% on USD/CHF over the next 2-4 weeks. Pullback levels for adding longs: USD/CHF >0.7900, EUR/CHF >0.9300; risk-defined invalidation: USD/CHF >0.8100, EUR/CHF >0.9500.",
+      "conviction_ladder": {
+        "current": 2,
+        "increase_to_5_if": [
+          "Iran re-escalation confirmed AND EUR/CHF breaks 0.90",
+          "SNB intervention <CHF 30bn/month (constrained by US Treasury monitoring)",
+          "Swiss CPI prints <0.3% (real-yield premium maximised)"
+        ],
+        "increase_to_4_if": [
+          "Iran re-escalation OR EUR/CHF breaks 0.90 with SNB intervention size <CHF 30bn/month (constrained intervention)",
+          "Asset-manager positioning squeeze begins (net short reduces by >10k WoW)"
+        ],
+        "decrease_to_3_if": [
+          "Iran ceasefire fails publicly + SNB sight deposits show no large-scale intervention",
+          "US CPI prints higher than 3.4% accelerating Fed dovish-shift expectations"
+        ],
+        "decrease_to_2_if": [
+          "Currently 2 — base case",
+          "Range-bound EUR/CHF 0.91-0.93 with no fresh catalyst"
+        ],
+        "decrease_to_1_if": [
+          "Confirmed Iran ceasefire AND Brent <$85 sustained 5 days",
+          "Trump statement on Hormuz reopening implemented"
+        ]
+      },
+      "risk_reward": {
+        "base_case_payoff": "0% (range held); long-CHF position essentially flat over 2-4 weeks",
+        "downside_case_loss": "EUR/CHF +3.7% (0.9165 to 0.9500); USD/CHF +4.0% (0.7787 to 0.8100). Long-CHF position: -3.7% to -4.0%",
+        "risk_reward_ratio": "Approximately 0.6:1 (upside +1.7% to +2.4% vs downside -3.7% to -4.0%); not favourable for outright long CHF tactically",
+        "asymmetry_assessment": "Negative — downside loss exceeds upside gain in base spot terms. Recommended R:R sizing: 0.5x normal position; consider tail-hedged options (long EUR/CHF straddles or short EUR/CHF puts financed by short EUR/CHF calls). Tactical exposure should be expressed via cross-currency relative value (CHF/JPY long, CHF/AUD short on rallies) rather than outright longs."
+      }
+    },
+
+    "strategic": {
+      "net_stance": "Bullish",
+      "conviction": 3,
+      "overall_confidence": 60,
+      "weighted_score": {
+        "calculation": [
+          { "factor": "Policy & Rates", "stance_score": -1, "confidence_pct": 65, "confidence_adjusted_score": -0.650, "weight": 0.24, "weighted_contribution": -0.1560 },
+          { "factor": "Inflation & Growth", "stance_score": 1, "confidence_pct": 60, "confidence_adjusted_score": 0.600, "weight": 0.10, "weighted_contribution": 0.0600 },
+          { "factor": "Risk Appetite", "stance_score": 1, "confidence_pct": 55, "confidence_adjusted_score": 0.550, "weight": 0.05, "weighted_contribution": 0.0275 },
+          { "factor": "Flows & Positioning", "stance_score": 1, "confidence_pct": 50, "confidence_adjusted_score": 0.500, "weight": 0.06, "weighted_contribution": 0.0300 },
+          { "factor": "External Balance", "stance_score": 1, "confidence_pct": 75, "confidence_adjusted_score": 0.750, "weight": 0.16, "weighted_contribution": 0.1200 },
+          { "factor": "Guidance & Credibility", "stance_score": 0, "confidence_pct": 55, "confidence_adjusted_score": 0.000, "weight": 0.12, "weighted_contribution": 0.0000 },
+          { "factor": "Event Risk", "stance_score": 1, "confidence_pct": 55, "confidence_adjusted_score": 0.550, "weight": 0.05, "weighted_contribution": 0.0275 },
+          { "factor": "Fiscal & Sovereign", "stance_score": 1, "confidence_pct": 80, "confidence_adjusted_score": 0.800, "weight": 0.07, "weighted_contribution": 0.0560 },
+          { "factor": "Market Structure", "stance_score": 0, "confidence_pct": 50, "confidence_adjusted_score": 0.000, "weight": 0.03, "weighted_contribution": 0.0000 },
+          { "factor": "USD Liquidity", "stance_score": 1, "confidence_pct": 60, "confidence_adjusted_score": 0.600, "weight": 0.12, "weighted_contribution": 0.0720 }
+        ],
+        "net_score": 0.2370,
+        "interpretation": "Net weighted score of +0.2370 maps to a moderate Bullish CHF stance. The strategic score is materially stronger than tactical (+0.105) primarily because (a) External Balance weight rises from 0.06 to 0.16, contributing +0.12 of clean structural CHF support; (b) Guidance & Credibility shifts from tactical Bearish (-0.046) to strategic Neutral (0) as the SNB rhetoric must transition to action over 6M, with two-way risk; (c) Fiscal weight rises from 0.04 to 0.07, contributing +0.056. The dominant negative remains Policy & Rates (-0.156) but the structural offsets accumulate.",
+        "mapping_to_conviction": "Conviction 3/5 (moderate). Net score in the +0.20 to +0.30 band maps to clear Bullish at moderate conviction. Strong directional thesis with multiple supporting factors but offset by the persistent carry headwind."
+      },
+      "rationale": "The strategic CHF bull case rests on five overlapping structural pillars that compound over the 1-6 month horizon. First, the External Balance factor (0.16 weight) delivers ~CHF 70bn/yr of net structural CHF demand from the persistent ~7% current-account surplus — a mechanical flow that operates independent of carry, sentiment, or intervention. This is the single most reliable CHF-positive force on a strategic horizon. Second, Switzerland's Fiscal & Sovereign superiority (0.07 weight) widens against deteriorating peer fiscal positions — US 6.5% deficit, Eurozone 3.5%, UK 5%, while Switzerland balanced — delivering durable safe-asset bid. Third, USD Liquidity (0.12 weight) trends easier as the Fed shifts further into dovish territory and the dollar smile drifts toward the bottom, supporting CHF. Fourth, Inflation & Growth (0.10 weight) maintains CHF's status as the cheapest real-yield currency in G10 — a configuration that is structurally CHF-positive in stagflation regimes. Fifth, the structural appreciation trend itself is intact: the SNB cannot decisively reverse it without crossing US Treasury currency-manipulator thresholds. Against these, Policy & Rates (0.24 weight) remains the strongest individual headwind — CHF as the lowest-yielder by a wide margin — but the strategic carry gap to USD compresses 50bp over 6M as Fed cuts, and the gap to JPY narrows further as BoJ hikes. The strategic edge is in the cross-currency expression: long CHF/JPY captures the BoJ-hiking compression most cleanly; short EUR/CHF on rallies captures the SNB-anchored range trade efficiently; long CHF vs commodity-importer/cyclical pairs (CHF vs AUD, CHF vs NZD) captures the stagflation real-yield hedge. The path of least resistance over 6M is gradual CHF appreciation interrupted by SNB-induced consolidations — likely target USD/CHF 0.7500-0.7700, EUR/CHF 0.9000-0.9300. Key strategic catalysts: SNB June 18 (priced hold), September 25 (potential first negative-rate signal), December 11 (year-end policy reset); BoJ July (potential hike); Fed September (potential cut); US Q4 fiscal stress. Conviction 3/5 reflects the durable structural case offset by the substantial Iran ceasefire path-dependency. Actionability is highest at strategic horizon: position in size for the long-CHF thesis via cross-currency expressions, with tactical pullbacks as adding opportunities rather than reasons to fade.",
+      "g10_ranking": {
+        "rank": 3,
+        "out_of": 11,
+        "beats": ["NZD", "CAD", "GBP", "JPY", "SGD", "SEK", "EUR", "USD"],
+        "loses_to": ["AUD", "NOK"],
+        "commentary": "CHF moves up two ranks vs tactical (rank 4 to rank 3) on strategic horizon as External Balance and Fiscal weights increase, beating all stagflation-hit peers while still trailing the highest-carry hawkish outliers AUD and NOK. The cleanest strategic CHF expression is long CHF/JPY, capturing CHF's structural advantage with carry gap compressing as BoJ hikes. CHF beats the USD strategically because US fiscal deterioration over 6M widens the relative-quality spread despite Fed staying above SNB on rates."
+      },
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "outcome": "USD/CHF gradual decline to 0.7600, EUR/CHF range 0.91-0.93",
+          "conditions": [
+            "Iran resolves modestly within next 3M with partial Hormuz reopening",
+            "Fed delivers one cut by year-end (3.50%)",
+            "SNB holds at 0% with intervention rhetoric maintained",
+            "Swiss CPI averages 0.6% over 6M",
+            "Global stagflation persists at moderate intensity"
+          ],
+          "path": "Gradual CHF appreciation pattern over 6M with intermittent SNB-driven pullbacks. U-shaped path: initial consolidation through summer (SNB intervention, ceasefire negotiations), followed by CHF strengthening into autumn fiscal stress windows. Realised vol expected ~6-8% on EUR/CHF, ~8-10% on USD/CHF."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "outcome": "USD/CHF break to 0.7500, EUR/CHF break to 0.9000 with SNB intervention",
+          "conditions": [
+            "Iran re-escalation in Q3 reactivates safe-haven bid",
+            "Fed cuts twice by year-end (3.25%) on US data softening",
+            "US fiscal stress in autumn (debt ceiling, supplemental defence)",
+            "European fiscal crisis re-emerges (Italian elections cycle, Schuldenbremse)"
+          ]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "outcome": "USD/CHF rallies to 0.81+, EUR/CHF to 0.95",
+          "conditions": [
+            "Iran ceasefire with full normalisation by Q3",
+            "Fed holds, US data resilient (no cuts in 2026)",
+            "SNB cuts to negative rates and intervenes large-scale (>CHF 50bn/month)",
+            "Global risk-on broad-based; commodity currencies outperform"
+          ]
+        }
+      },
+      "path_expectation": "Gradual CHF appreciation pattern over 6M with intermittent SNB-driven pullbacks. U-shaped path likely: initial consolidation through summer (SNB intervention, ceasefire negotiations), followed by CHF strengthening into autumn fiscal stress windows. Realised vol expected ~6-8% on EUR/CHF, ~8-10% on USD/CHF. Pullback levels for adding strategic longs: USD/CHF 0.79-0.80, EUR/CHF 0.93. Strategic invalidation: USD/CHF >0.83 sustained, EUR/CHF >0.96 sustained.",
+      "conviction_ladder": {
+        "current": 3,
+        "increase_to_5_if": [
+          "Iran re-escalation + Fed signals two cuts by year-end + Swiss CPI prints <0.5% three consecutive months (real-yield premium widens)",
+          "Global recession risk priced + CHF/JPY breaks 200 (multi-decade high) with BoJ delivering 1.00% hike"
+        ],
+        "increase_to_4_if": [
+          "Iran re-escalation in Q3 reactivates safe-haven bid",
+          "Fed signals two cuts by year-end + Swiss CPI prints <0.5% for two consecutive months"
+        ],
+        "decrease_to_3_if": [
+          "Currently 3 — base case",
+          "Iran ceasefire + Brent <$85 sustained but no SNB intervention"
+        ],
+        "decrease_to_2_if": [
+          "Iran fully resolved + Brent <$75 sustained + SNB executes large-scale intervention >CHF 100bn/quarter",
+          "US data re-accelerates (CPI <2.5% AND GDP >2.5% sustained) suggesting non-stagflation regime"
+        ],
+        "decrease_to_1_if": [
+          "SNB cuts to negative rates AND Swiss CPI rises >1% (negative-rate effect transmits faster than typical)",
+          "US data re-accelerates + Fed pauses cuts + commodity-currency outperformance accelerates AND CHF asset-manager net short reduces below -10k"
+        ]
+      },
+      "risk_reward": {
+        "base_case_payoff": "Long-CHF position +1.8% to +2.4% (EUR/CHF -1.8% from 0.9165 to 0.9000; USD/CHF -2.4% from 0.7787 to 0.7600)",
+        "downside_case_loss": "Long-CHF position -3.7% to -4.0% (EUR/CHF +3.7% to 0.9500; USD/CHF +4.0% to 0.8100)",
+        "risk_reward_ratio": "Approximately 1.0:1 in base case (+2% gain vs -4% loss with 50/25/25 probability weighting); improves to ~1.2:1 if upside case probability rises to 30%",
+        "asymmetry_assessment": "Roughly balanced to mildly favourable at strategic horizon. Recommended R:R sizing: 1.0x normal position for outright; 1.5x for relative-value (CHF/JPY long, EUR/CHF short on rallies). The asymmetry improves significantly when expressed via cross-currency relative value rather than outright USD/CHF or EUR/CHF, because the cross-currency expressions capture multi-pillar CHF advantages while limiting exposure to the binary Iran ceasefire outcome."
+      }
+    },
+
+    "consensus_divergence": {
+      "consensus_view": "Sell-side aggregate forecasts (Goldman Sachs, UBS, ING, RBC, HSBC, Reuters survey) center on USD/CHF 0.78 and EUR/CHF 0.94 by year-end 2026, implying mild CHF weakness vs current spot. Goldman is the most CHF-bullish at 0.76/0.95; UBS more conservative at 0.78/0.94. The consensus core thesis: SNB intervention rhetoric caps further CHF strength, Iran resolution unwinds safe-haven premium, gradual normalisation toward fundamental fair value.",
+      "our_view": "Tactically aligned with consensus on EUR/CHF range-bound but slightly more CHF-bullish strategically — we see USD/CHF at 0.76 and EUR/CHF at 0.91 as base case (more CHF-strong than consensus). The differentiator is in the structural pillars: real-yield premium, fiscal divergence, and positioning normalisation accumulate more CHF-positively over 6M than consensus implies.",
+      "divergence_magnitude": "1-3% more CHF appreciation than consensus on a 6M horizon, primarily through stronger USD weakness channel and EUR/CHF compressing toward 0.91 rather than holding at 0.94",
+      "why_we_differ": "Four reasons. First, consensus under-prices the durability of the stagflation regime — most desks expect inflation moderation to push central banks toward easing, but Iran-driven energy passthrough is more persistent than priced; CHF's real-yield advantage widens accordingly. Second, consensus over-weights SNB intervention efficacy — US Treasury currency-manipulator scrutiny constrains intervention size, making the bark-vs-bite gap meaningful. Third, consensus under-prices the asset-manager positioning normalisation: structural net-shorts at top decile of 5Y history have to unwind to flat over time, providing slow-burn CHF support. Fourth, consensus under-weights Switzerland's fiscal divergence vs peers as a strategic tailwind that compounds over 6M as US, UK, and Eurozone fiscal positions deteriorate further.",
+      "payoff_if_right": "Strategic long-CHF position over 6M earns +2-4% outright; long CHF/JPY +5-7%; short EUR/CHF on rallies +2-3%. Combined relative-value book +3-5% with tighter risk profile.",
+      "risk_if_wrong": "Loss of 0.5-1% on outright long-CHF positions over 6M; flat on relative-value pairs. Risk is asymmetric in our favour given current spot — even if consensus is right, the loss is bounded by SNB intervention dynamics that cap CHF weakness."
+    },
+
+    "cross_currency_relative_value": {
+      "cleanest_bullish_expression": {
+        "pair": "Long CHF/JPY",
+        "rationale": "BoJ has hawkish dissents and is positioned to hike to 1.00% by Q3, but BoJ has under-delivered for two cycles. CHF and JPY both safe havens, but CHF benefits from same stagflation theme with stronger institutional safe-haven flows (CHF C/A 7%, JPY 3.5%). CHF/JPY at ~188.6 has rallied 70% over 10Y to multi-decade highs but justified by fundamentals; 10Y rate spread CHF-JPY -125bp keeps carry burden modest. Target: 200 over 3M (+6%)."
+      },
+      "cleanest_bearish_expression": {
+        "pair": "Long USD/CHF",
+        "rationale": "Most liquid expression of the bearish-CHF (thesis-invalidation) view; USD has structural advantages in non-stagflation regime. Stops above 0.7600 (multi-decade low) define risk; targets 0.81-0.83 in CHF unwind scenario. This is the cleanest expression for hedging the strategic long-CHF thesis or fading on confirmed Iran ceasefire."
+      },
+      "relative_value_pairs": [
+        { "pair": "Short EUR/CHF on rallies toward 0.93", "thesis": "ECB held rates with hawkish risks (rate at 2.00% > SNB 0.00% creates persistent rate differential pressure), BUT Swiss-EU Bilaterals III provides institutional anchor and structural CHF strength dominates. Range trade: sell rallies above 0.93 with stops above 0.94, targets 0.90-0.91 — risk-defined; SNB intervention threshold at 0.90 supports." },
+        { "pair": "Long CHF/SEK", "thesis": "Structurally similar low-yield economies but Switzerland's fiscal/CA dominance vs Sweden's domestic-property concerns. Expresses real-yield premium without fighting strong commodity currencies." },
+        { "pair": "Long CHF vs EM Asian basket (excluding SGD)", "thesis": "CHF as financial safe haven vs EM stagflation hedging mix. Captures relative-quality flows during global risk-off windows over 6M horizon without exposure to specific G10 carry dynamics." }
+      ]
+    },
+
+    "cross_horizon_consistency": {
+      "aligned": true,
+      "summary": "Tactical (Mildly Bullish, +0.105, conviction 2/5) and Strategic (Bullish, +0.237, conviction 3/5) are aligned in direction with strategic conviction stronger. The divergence is in magnitude only — strategic horizons benefit from larger weights on External Balance (0.06 to 0.16) and Fiscal (0.04 to 0.07) which are CHF-positive structural factors, plus the transition from tactical Bearish Guidance (-0.046) to strategic Neutral (0).",
+      "divergence_explanation": "Tactical conviction 2/5 vs strategic 3/5 reflects different factor weight emphasis. At tactical horizons, Policy & Rates carry headwind (0.24 weight, -0.168 contribution) and SNB Guidance (0.07, -0.046) jointly impose -0.214 of negative drag against +0.318 of positive contributions, netting +0.105. At strategic horizons, External Balance (+0.120) and Fiscal (+0.056) increase with their higher weights, while Guidance turns Neutral (0 contribution), boosting net to +0.237.",
+      "inflection_point": "Iran ceasefire outcome is the single largest near-term swing factor. If achieved cleanly within 4 weeks, tactical stance shifts to Neutral while strategic remains Bullish. SNB June 18 MPA outcome is the next inflection — hawkish hold reinforces tactical/strategic alignment; cut to negative rates introduces strategic uncertainty.",
+      "catalyst_for_transition": "Tactical-to-strategic conviction alignment occurs when Iran ceasefire path resolves AND SNB June 18 MPA outcome is digested. Currently expecting alignment by mid-July 2026 as binary catalysts pass.",
+      "trading_implication": "Express the view via strategic-horizon trades (CHF/JPY long, EUR/CHF short rallies) rather than tactical trades (which are diluted by binary Iran risk). Tactical conviction is too low to justify outright spot exposure beyond 0.5x normal sizing; strategic positions can be sized 1.0-1.5x with clear invalidation levels."
+    },
+
+    "forward_vs_spot": {
+      "spot": "USD/CHF 0.7787 (May 7, 2026); EUR/CHF 0.9165 (May 5, 2026 ECB)",
+      "forwards": {
+        "1m": { "points": "USD/CHF -25 pips; EUR/CHF -17 pips", "outright": "USD/CHF ~0.7762; EUR/CHF ~0.9148", "annualised_pct": "-3.6% (USD/CHF forward implies CHF appreciating 3.6% annualised vs USD)" },
+        "3m": { "points": "USD/CHF -72 pips; EUR/CHF -51 pips", "outright": "USD/CHF ~0.7715; EUR/CHF ~0.9114", "annualised_pct": "-3.6% USD/CHF; -2.2% EUR/CHF" },
+        "6m": { "points": "USD/CHF -143 pips; EUR/CHF -102 pips", "outright": "USD/CHF ~0.7644; EUR/CHF ~0.9063", "annualised_pct": "-3.6% USD/CHF; -2.2% EUR/CHF (driven by -375bp rate differential)" }
+      },
+      "expected_spot": {
+        "1m": "USD/CHF 0.78 (range-bound); EUR/CHF 0.92 (range-bound)",
+        "3m": "USD/CHF 0.77 (gradual CHF appreciation); EUR/CHF 0.91",
+        "6m": "USD/CHF 0.76 (base case strategic); EUR/CHF 0.91 (tests SNB threshold but holds)"
+      },
+      "edge": {
+        "1m": "USD/CHF: forward 0.7762 vs expected 0.78 = ~+38 pips (forward is more CHF-bullish than our base; minimal edge). EUR/CHF: forward 0.9148 vs expected 0.92 = ~+52 pips (forward more CHF-bullish, suggests fading to flat).",
+        "3m": "USD/CHF: forward 0.7715 vs expected 0.77 = ~-15 pips (essentially aligned). EUR/CHF: forward 0.9114 vs expected 0.91 = ~-14 pips (essentially aligned).",
+        "6m": "USD/CHF: forward 0.7644 vs expected 0.76 = ~-44 pips (forwards slightly more CHF-bearish; we expect more CHF strength). EUR/CHF: forward 0.9063 vs expected 0.91 = ~+37 pips (forwards slightly more CHF-bullish than our base; argues for tactical fade to flat in cross-rate expression)."
+      },
+      "interpretation": "Strategic edge is in the cross-currency expression rather than primary pair. Long CHF vs forwards is roughly fair value vs USD; significantly mispriced (CHF undervalued in forwards) vs JPY where BoJ hike compression isn't fully embedded. The cleanest forward-vs-spot edge is long CHF/JPY at ~6% annualised expected appreciation against a forward curve that prices only 2-3%. EUR/CHF forwards aligned with our base case at 6M (0.9063 vs 0.91) means range-trading the cross is the cleanest expression — short rallies to 0.93, cover at 0.91."
+    }
+  },
+
+  "forward_looking": {
+    "key_catalysts": [
+      {
+        "date": "2026-05-13",
+        "event": "Switzerland April PPI/Import Price Index release",
+        "expected_impact": "Bullish",
+        "rationale": "Continued PPI/IPI deflation (current -2.7% YoY) confirms CHF strength's disinflationary impact. A deeper deflation print (>-3.5%) would intensify negative-rates speculation; a moderation toward -2% would be neutral. The release is a real-time gauge of CHF strength's pass-through to producer-level prices.",
+        "priced_in": "Partially priced — consensus -2.5% YoY; surprise to either side will move EUR/CHF",
+        "bilateral_relevance": "USD/CHF, EUR/CHF",
+        "citations": [36]
+      },
+      {
+        "date": "2026-05-27",
+        "event": "RBNZ OCR Decision",
+        "expected_impact": "Neutral",
+        "rationale": "RBNZ likely holds at 2.25%; CHF/NZD relative trade reflects relative growth stagflation. Material NZD move (>1%) creates noise in cross but does not change CHF fundamentals. Indirect via NZD/CHF cross only.",
+        "priced_in": "Hold consensus fully priced",
+        "bilateral_relevance": "CHF/NZD, NZD/CHF",
+        "citations": [22]
+      },
+      {
+        "date": "2026-06-04",
+        "event": "ECB Rate Decision and Press Conference",
+        "expected_impact": "Bearish",
+        "rationale": "ECB holds at 2.00%; if Lagarde signals hawkish bias on Iran-driven energy passthrough (HICP at 3.0% flash), ECB rate gap to SNB widens, supporting EUR/CHF rally. The June ECB is the most consequential central bank meeting before the SNB, with potential to set the EUR/CHF tone for July-September.",
+        "priced_in": "Hold priced; hawkish tilt partially priced via 25bp hike risk in Q3",
+        "bilateral_relevance": "EUR/CHF (primary), CHF crosses generally",
+        "citations": [2, 19]
+      },
+      {
+        "date": "2026-06-10",
+        "event": "Bank of Canada Rate Decision",
+        "expected_impact": "Neutral",
+        "rationale": "BoC holds at 2.25%; CAD response affects CAD/CHF cross only marginally. Iran-war oil prices are the dominant CAD driver, not the BoC. Limited spillover to CHF.",
+        "priced_in": "Hold priced",
+        "bilateral_relevance": "CAD/CHF",
+        "citations": [22]
+      },
+      {
+        "date": "2026-06-15",
+        "event": "RBA Rate Decision",
+        "expected_impact": "Bearish",
+        "rationale": "RBA may hike further from 4.35%; if hawkish, AUD/CHF cross extends gains. CHF underperforms structurally vs hawkish CB outliers. The RBA decision sets the tone for the global monetary divergence narrative that disadvantages CHF on rates.",
+        "priced_in": "~50% probability of further hike; 50% hold",
+        "bilateral_relevance": "AUD/CHF",
+        "citations": [18, 22]
+      },
+      {
+        "date": "2026-06-17",
+        "event": "FOMC Meeting + Updated Dot Plot",
+        "expected_impact": "Ambiguous",
+        "rationale": "Fed at 3.75% upper bound. The June dot plot will set the tone for Q3-Q4 cuts. A dovish revision (median 2026 dots showing 2 cuts) drives USD weakness across the board, accelerating USD/CHF below 0.77. A hawkish hold (no cuts in 2026) supports USD broadly. This is the single largest non-Iran catalyst over the next 4 weeks.",
+        "priced_in": "1 cut by year-end priced; 2-cut dot plot would be dovish surprise",
+        "bilateral_relevance": "USD/CHF (primary), CHF crosses generally",
+        "citations": [14]
+      },
+      {
+        "date": "2026-06-17",
+        "event": "BoJ Policy Meeting",
+        "expected_impact": "Bearish",
+        "rationale": "BoJ at 0.75% with 3 hawk dissents. Market prices ~50% chance of hike to 1.00%. If BoJ delivers, CHF/JPY extends to multi-decade highs (200+ achievable); if BoJ holds, JPY weakness on disappointment supports CHF/JPY less directly. Bearish CHF on absolute terms (CHF/JPY rally in our framing is JPY weakening, but CHF appreciating is the directional story).",
+        "priced_in": "~50% hike priced",
+        "bilateral_relevance": "CHF/JPY (primary)",
+        "citations": [16]
+      },
+      {
+        "date": "2026-06-17",
+        "event": "Riksbank Rate Decision",
+        "expected_impact": "Neutral",
+        "rationale": "Riksbank held at 1.75% on May 7; June meeting expected hold. CHF/SEK reflects relative low-yield economies; minimal impact. Both Sweden and Switzerland sit in low-yield camp with similar dynamics.",
+        "priced_in": "Hold priced",
+        "bilateral_relevance": "CHF/SEK, SEK/CHF",
+        "citations": [21, 26]
+      },
+      {
+        "date": "2026-06-18",
+        "event": "SNB Monetary Policy Assessment",
+        "expected_impact": "Ambiguous",
+        "rationale": "SNB held at 0% on March 19 with intervention rhetoric. June 18 outcomes range: (a) hold + maintain rhetoric (base case ~60%); (b) cut to -0.25% with intervention escalation (tail ~15%); (c) intervention escalation without cut (tail ~15%); (d) hawkish surprise on inflation pickup ~10%. The June MPA will be the most consequential SNB meeting since the December 2024 cut, with binary CHF outcomes depending on guidance trajectory.",
+        "priced_in": "Hold priced; ~25% probability of negative-rate signal",
+        "bilateral_relevance": "USD/CHF, EUR/CHF (primary)",
+        "citations": [8, 22]
+      },
+      {
+        "date": "2026-06-18",
+        "event": "Norges Bank Rate Decision",
+        "expected_impact": "Neutral",
+        "rationale": "Norges hiked +25bp to 4.25% on May 6; June meeting may hold. NOK/CHF cross reflects relative oil-currency vs safe-haven dynamic. If Norges hikes again, NOK extends gains, pushing CHF down vs NOK. Indirect via cross only.",
+        "priced_in": "Hold priced post-hike",
+        "bilateral_relevance": "NOK/CHF",
+        "citations": [17, 27]
+      },
+      {
+        "date": "2026-06-18",
+        "event": "Bank of England Rate Decision",
+        "expected_impact": "Bullish",
+        "rationale": "BoE at 3.75% with 1 hike dissent; June expected hold. Continued UK fiscal stress supports CHF on safe-asset flow. CHF/GBP currently captures this; ~10% probability of BoE hawkish dissent escalating to hike.",
+        "priced_in": "Hold priced",
+        "bilateral_relevance": "GBP/CHF, CHF/GBP",
+        "citations": [15]
+      },
+      {
+        "date": "2026-06-30",
+        "event": "Switzerland Q1 2026 Final GDP / June CPI release (estimated)",
+        "expected_impact": "Bullish",
+        "rationale": "Q1 2026 GDP advance scheduled June 1 per SECO calendar; confirmation in late June. June CPI release expected first week of July. If CPI sustains 0.5-0.7% range (consistent with Iran-energy passthrough but core anchored), real-yield premium intact and CHF supported. A surprise CPI undershoot (<0.3%) would intensify negative-rates speculation but also reinforce real-yield case.",
+        "priced_in": "0.7% YoY consensus",
+        "bilateral_relevance": "USD/CHF, EUR/CHF",
+        "citations": [1, 37]
+      },
+      {
+        "date": "2026-07-W2",
+        "event": "Bank of Japan Mid-Quarter Outlook",
+        "expected_impact": "Ambiguous",
+        "rationale": "BoJ Outlook Report typically published late-July, sets the tone for the September meeting. If Outlook revises CPI forecasts higher, CHF/JPY pressure increases as BoJ signals further hike timing. Ambiguous because BoJ hawkish supports JPY against CHF (cross compression), while BoJ dovish supports JPY weakness vs CHF (cross extension).",
+        "priced_in": "Modest hawkish bias",
+        "bilateral_relevance": "CHF/JPY",
+        "citations": [16]
+      },
+      {
+        "date": "2026-07-W3",
+        "event": "MAS Quarterly S$NEER Decision",
+        "expected_impact": "Neutral",
+        "rationale": "MAS tightened slope on April 14, 2026. Quarterly review July likely holds. Limited direct impact on CHF; secondary spillover via SGD/CHF cross.",
+        "priced_in": "Hold priced",
+        "bilateral_relevance": "SGD/CHF",
+        "citations": [20]
+      },
+      {
+        "date": "2026-07-W4",
+        "event": "FOMC Meeting (no SEP)",
+        "expected_impact": "Ambiguous",
+        "rationale": "Mid-cycle Fed meeting without summary of economic projections; tone-setter for September dot plot. Continued Fed dovish drift supports CHF on USD weakness. Ambiguous because hawkish hold supports USD broadly.",
+        "priced_in": "Hold priced",
+        "bilateral_relevance": "USD/CHF",
+        "citations": [14]
+      },
+      {
+        "date": "2026-09-25",
+        "event": "SNB Monetary Policy Assessment",
+        "expected_impact": "Ambiguous",
+        "rationale": "The September MPA is the most consequential strategic catalyst over the dossier horizon. By that meeting, Iran outcome is likely resolved, summer CPI prints will be in, and SNB will have September 2028 conditional inflation forecast. If inflation forecast medium-term <0.3%, SNB likely cuts to -0.25% (Bearish CHF). If inflation forecast within band, SNB holds with intervention rhetoric maintained (Bullish CHF). True ambiguous binary.",
+        "priced_in": "~25-40% probability of negative rates priced",
+        "bilateral_relevance": "USD/CHF, EUR/CHF (primary)",
+        "citations": [8]
+      }
+    ],
+    "invalidators": [
+      {
+        "condition": "EUR/CHF closes above 0.9500 for 5 consecutive trading days",
+        "new_stance": "Bearish",
+        "mechanism": "Confirms Iran ceasefire-driven safe-haven unwind; breaks technical resistance; signals SNB intervention has succeeded in capping CHF strength. The 0.95 break would invalidate the entire structural-CHF-strong thesis at strategic horizon.",
+        "monitor_indicator": "EUR/CHF daily close (ECB reference rate)",
+        "monitor_frequency": "Daily",
+        "quantitative_threshold": "5 consecutive daily closes above 0.9500 ECB reference rate",
+        "probability_pct": 20
+      },
+      {
+        "condition": "Brent crude closes below $80/bbl for 3 consecutive days following confirmed Iran ceasefire announcement",
+        "new_stance": "Neutral",
+        "mechanism": "Iran-war safe-haven premium evaporates and CHF's main near-term tailwind disappears. The combined oil price + ceasefire signal would shift the regime back to carry-dominant from safe-haven-dominant.",
+        "monitor_indicator": "Brent ICE futures + AP/Reuters confirmation of US-Iran ceasefire",
+        "monitor_frequency": "Daily",
+        "quantitative_threshold": "Brent <$80 for 3 consecutive days + ceasefire confirmation",
+        "probability_pct": 25
+      },
+      {
+        "condition": "SNB sight deposits rise by >CHF 30bn in any single weekly print",
+        "new_stance": "Bearish",
+        "mechanism": "Indicates large-scale SNB intervention against CHF strength. If sustained, the SNB has shifted from rhetoric to action and the intervention size approaches the constrained ceiling under US Treasury monitoring (~5% of GDP).",
+        "monitor_indicator": "SNB BSTA cube weekly publication",
+        "monitor_frequency": "Weekly (Fridays)",
+        "quantitative_threshold": "+CHF 30bn WoW or more",
+        "probability_pct": 15
+      },
+      {
+        "condition": "Switzerland headline CPI prints >1.5% YoY for two consecutive months",
+        "new_stance": "Neutral",
+        "mechanism": "Eliminates real-yield advantage; SNB on a normalisation path rather than holding/cutting. Inflation & Growth factor shifts to Bearish (eliminates real-yield premium), reducing strategic stance from Bullish to Neutral.",
+        "monitor_indicator": "FSO monthly CPI release",
+        "monitor_frequency": "Monthly (~3rd of each month)",
+        "quantitative_threshold": ">1.5% headline YoY for two consecutive prints",
+        "probability_pct": 10
+      },
+      {
+        "condition": "SNB cuts to -0.25% AND confirms intervention >CHF 100bn/quarter",
+        "new_stance": "Bearish",
+        "mechanism": "The combined policy response would historically erode CHF strength over 6-12M (referenced 2015 episode partial transmission). Negative rates plus large-scale intervention shifts the structural CHF-strong regime.",
+        "monitor_indicator": "SNB MPA decisions June 18 and September 25; SNB sight deposits and quarterly intervention disclosures",
+        "monitor_frequency": "Quarterly (MPA) + weekly (sight deposits)",
+        "quantitative_threshold": "-0.25% rate + >CHF 100bn/quarter intervention",
+        "probability_pct": 15
+      },
+      {
+        "condition": "Swiss Q2 2026 GDP prints negative (q/q < 0%) AND KOF Barometer falls below 90",
+        "new_stance": "Bearish",
+        "mechanism": "Swiss growth slowdown raises SNB's incentive to weaken CHF via easing. Both indicators undershooting simultaneously signals broader Swiss economic weakness that erodes the safe-asset bid.",
+        "monitor_indicator": "SECO GDP release September 3; KOF monthly",
+        "monitor_frequency": "Quarterly (GDP) + monthly (KOF)",
+        "quantitative_threshold": "GDP <0% q/q + KOF <90",
+        "probability_pct": 15
+      },
+      {
+        "condition": "Swiss-EU Bilaterals III parliamentary debate turns hostile with explicit SVP referendum + breakdown signal",
+        "new_stance": "Bearish",
+        "mechanism": "Removes long-term institutional anchor that supports CHF strategic case. SVP referendum risk crystallising would create political uncertainty discount on CHF.",
+        "monitor_indicator": "Swiss parliamentary procedure; SVP statements",
+        "monitor_frequency": "Monthly (parliamentary calendar)",
+        "quantitative_threshold": "Explicit SVP referendum filing + breakdown rhetoric",
+        "probability_pct": 20
+      },
+      {
+        "condition": "CFTC asset-manager net short CHF reduces to <-10,000 contracts (positioning normalises)",
+        "new_stance": "Neutral",
+        "mechanism": "Removes the structural squeeze tailwind. With positioning normalised, the asymmetric upside from short-covering disappears and CHF must rely solely on fundamentals which face the carry headwind.",
+        "monitor_indicator": "CFTC TFF weekly",
+        "monitor_frequency": "Weekly (Fridays)",
+        "quantitative_threshold": "Asset-manager net short reduces to less than -10,000 contracts",
+        "probability_pct": 25
+      }
+    ],
+    "signposts": [
+      {
+        "indicator": "SNB Sight Deposits (weekly intervention proxy)",
+        "current_level": "NOT FOUND with precise current weekly figure; SNB BSTA cube authoritative source — last referenced as stable through Q1 2026",
+        "threshold_confirms": "Stable to mild rise (passive accommodation); CHF Bullish thesis intact when WoW change <CHF 10bn",
+        "threshold_invalidates": "Rises >CHF 30bn in any single week (active intervention) sustained over 3+ weeks",
+        "bilateral_importance": "USD/CHF, EUR/CHF (primary)",
+        "source_url": "https://data.snb.ch",
+        "frequency": "Weekly (Fridays)"
+      },
+      {
+        "indicator": "Switzerland Headline CPI YoY",
+        "current_level": "0.6% (April 2026 release May 5)",
+        "threshold_confirms": "Stays in 0.3-0.8% range (real-yield premium intact with structural inflation wedge maintained)",
+        "threshold_invalidates": ">1.5% sustained two prints (eliminates real-yield advantage); or <0.0% sustained (forces SNB to negative)",
+        "bilateral_importance": "USD/CHF, EUR/CHF, CHF/JPY",
+        "source_url": "https://www.bfs.admin.ch",
+        "frequency": "Monthly (~3rd of month)"
+      },
+      {
+        "indicator": "EUR/CHF Spot Level",
+        "current_level": "0.9165 (May 5, 2026 ECB reference rate)",
+        "threshold_confirms": "Holds 0.91-0.93 range; tests 0.90 SNB threshold without breaking — confirms range trade thesis",
+        "threshold_invalidates": "Closes above 0.95 for 5 consecutive days; or breaks below 0.88 (would force massive SNB response)",
+        "bilateral_importance": "EUR/CHF (primary)",
+        "source_url": "https://data.ecb.europa.eu/key-figures/ecb-interest-rates-and-exchange-rates/exchange-rates",
+        "frequency": "Daily"
+      },
+      {
+        "indicator": "Brent Crude Price",
+        "current_level": "$100.06/bbl (May 7, 2026)",
+        "threshold_confirms": "Holds >$90; supports stagflation regime; Iran premium intact and supports CHF safe-haven character",
+        "threshold_invalidates": "Sustains <$80 (ceasefire success); or spikes >$130 sustained (extreme stress reduces broader CHF safe-haven uniqueness)",
+        "bilateral_importance": "USD/CHF, CHF/CAD, CHF/NOK",
+        "source_url": "https://www.cnbc.com/quotes/@LCO.1",
+        "frequency": "Daily"
+      },
+      {
+        "indicator": "CFTC TFF — CHF Asset Manager Net Position",
+        "current_level": "-37,534 contracts (April 28, 2026 report)",
+        "threshold_confirms": "Stays net short -30k to -45k (squeeze potential intact)",
+        "threshold_invalidates": "Rises to <-10k (positioning normalises, squeeze tailwind exhausted); or extends below -50k (oversold extreme, turn risk)",
+        "bilateral_importance": "USD/CHF (primary)",
+        "source_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
+        "frequency": "Weekly (Fridays, for prior Tuesday data)"
+      },
+      {
+        "indicator": "Swiss 10Y Yield",
+        "current_level": "0.35% (May 7, 2026)",
+        "threshold_confirms": "Stays 0.20-0.50% range (low-yield safe-asset bid intact)",
+        "threshold_invalidates": "Spikes >0.80% (inflation regime change); or falls <0.10% (recession fears)",
+        "bilateral_importance": "USD/CHF, EUR/CHF",
+        "source_url": "https://tradingeconomics.com/switzerland/government-bond-yield",
+        "frequency": "Daily"
+      },
+      {
+        "indicator": "KOF Economic Barometer",
+        "current_level": "97.9 (April 2026 release)",
+        "threshold_confirms": "Holds 95-105 range (modest growth consistent with SECO 2026 forecast 1.0%)",
+        "threshold_invalidates": "Falls <90 (recession risk, SNB to ease aggressively); or surges >105 (reflation, SNB normalisation accelerates)",
+        "bilateral_importance": "USD/CHF, EUR/CHF",
+        "source_url": "https://kof.ethz.ch/en/forecasts-and-indicators/indicators/kof-economic-barometer.html",
+        "frequency": "Monthly (~end of month)"
+      },
+      {
+        "indicator": "SNB Foreign Reserves Total",
+        "current_level": "CHF 721.2bn (March 2026)",
+        "threshold_confirms": "Stable to mildly rising (passive flow accommodation; <CHF 750bn over 3 months)",
+        "threshold_invalidates": "Rises >CHF 800bn within Q3 (active large-scale intervention)",
+        "bilateral_importance": "EUR/CHF",
+        "source_url": "https://www.snb.ch/en/publications/communication/press-releases",
+        "frequency": "Monthly"
+      }
+    ]
+  },
+
+  "change_since_last_report": {
+    "factors_changed": [
+      { "factor": "Risk Appetite & Sentiment (tactical)", "previous_stance": "Bullish", "new_stance": "Neutral", "reason": "At March 11, VIX was 23-24 with active Iran escalation; current VIX 17.13 with negotiation uncertainty creates two-way binary risk. Strategic remains Bullish." },
+      { "factor": "Event Risk & Geopolitics (tactical)", "previous_stance": "Bullish", "new_stance": "Neutral", "reason": "Iran ceasefire negotiations active May 6, 2026 introduce binary near-term uncertainty that wasn't present at March 11 when Iran war was in active escalation. The 'buy CHF on Iran escalation' trade has matured." },
+      { "factor": "Flows & Positioning (tactical)", "previous_stance": "Neutral", "new_stance": "Bullish", "reason": "CFTC asset-manager net short rebuilt to -37,534 contracts (95th percentile) since March 11; squeeze potential intact though reduced by ceasefire risk." },
+      { "factor": "Market Structure & Volatility (tactical)", "previous_stance": "Bullish", "new_stance": "Neutral", "reason": "Trend has stalled into May consolidation; vol has compressed from 9% to 6% on EUR/CHF; signal weakened to range-bound consolidation." },
+      { "factor": "Policy & Rates (tactical)", "previous_stance": "Neutral", "new_stance": "Bearish", "reason": "Iran war effects making rate-differential channel reassert; SNB held at 0% on March 19 confirming no further easing while peers maintain higher carry." }
+    ],
+    "signposts_triggered": [
+      { "signpost": "EUR/CHF 0.90 SNB threshold", "outcome": "EUR/CHF traded toward 0.90 in early March (low 0.9003 March 8) but did NOT break", "implication": "Validated SNB intervention threshold; spot has consolidated back to 0.9165. Threshold remains intact as critical strategic invalidation level." },
+      { "signpost": "SNB sight deposits — large-scale intervention threshold", "outcome": "No large-scale intervention announced through May 8", "implication": "SNB has remained in rhetoric-only mode; intervention bark has not yet transitioned to bite, leaving CHF strength room to develop further." },
+      { "signpost": "Switzerland CPI undershoot threshold (0.0% YoY)", "outcome": "April CPI printed +0.6% YoY with core +0.3% (rising headline, falling core)", "implication": "Real-yield premium MAXIMISED via this bifurcation pattern; unique in G10. Confirms thesis with stronger conviction on Inflation & Growth factor." },
+      { "signpost": "Iran-US ceasefire signal", "outcome": "Active negotiations announced May 6, 2026", "implication": "New signpost crystallising; introduces binary near-term outcome that did not exist at March 11. Forces tactical conviction reduction." }
+    ],
+    "conviction_change": {
+      "previous_tactical": 3,
+      "current_tactical": 2,
+      "previous_strategic": 3,
+      "current_strategic": 3,
+      "explanation": "Tactical conviction reduced from 3/5 to 2/5 reflecting the maturation of the Iran-driven safe-haven trade and the binary ceasefire risk that wasn't present at March 11. Tactical net score moved from +0.383 to +0.105, a meaningful weakening. Strategic conviction maintained at 3/5 because structural pillars (real-yield, current account, fiscal, USD liquidity) remain intact and the 6M horizon includes multiple catalysts that favour CHF cumulatively even if Iran resolves cleanly."
+    },
+    "new_catalysts": [
+      "Active US-Iran ceasefire negotiations (May 6, 2026 announcement) — wasn't on the March 11 catalyst calendar",
+      "RBA hike to 4.35% (May 5, 2026) — extended the carry gap to CHF",
+      "Norges Bank hike to 4.25% (May 6, 2026) — extended the carry gap to CHF",
+      "Schlegel SNB AGM speech April 24, 2026 — reinforced 'unrestricted' intervention rhetoric",
+      "Swiss-EU Bilaterals III signed March 2, 2026 with Federal Council dispatch March 13 — long-term institutional anchor"
+    ],
+    "thesis_trajectory": "Weakening"
+  },
+
+  "seasonality": {
+    "pattern": "CHF historically tends to weaken May-July (risk-on, summer carry, European holiday-season EUR strength) and strengthen August-October (year-end repatriation, autumn risk-off)",
+    "relevance_window": "May-July 2026 weakening seasonal partially active in tactical horizon (2-4 weeks); August-October strengthening seasonal active in strategic horizon (1-6 months)",
+    "historical_magnitude": "Average May-July CHF weakening: ~1-2% on EUR/CHF (since 2015); August-October CHF strengthening: ~2-3% on EUR/CHF",
+    "current_alignment": "The current regime — active Iran war, stagflation persistence — overrides typical seasonal patterns. The May-July weakening seasonal signal may be partially activated if Iran ceasefire materialises, providing additional downside risk for tactical CHF longs over the next 4-8 weeks. We assign a 10-15% additional weight to the downside scenario from seasonal effects. The August-October strengthening seasonal aligns with our strategic Bullish thesis and provides modest tailwind."
+  },
+
+  "assumptions": [
+    "CFTC TFF reporting lag: April 28, 2026 data published May 2 with ~one-week lag; positioning may have shifted in the unreported week.",
+    "Implied volatility, 25-delta risk reversals, cross-currency basis swap levels were not retrievable at desired granularity from public web sources at point of search; institutional users should consult Bloomberg/Refinitiv terminals (data.snb.ch, BIS portal, ICE BofAML) for precise current values.",
+    "Swiss 2Y yield, Swiss CDS 5Y, iTraxx Crossover precise levels not retrievable from public sources at search time; flagged 'NOT FOUND' rather than estimated.",
+    "OIS-implied SNB rate path approximated from sell-side commentary (HSBC, UBS, ING) rather than terminal OIS curves; precise basis-point granularity beyond consensus '0% across 2026' not disclosed publicly.",
+    "PPP estimates combine Big Mac Index (January 2026 vintage, retail-prices only) and OECD PPP (more comprehensive but 2024 vintage). Current 48.4% Big Mac CHF overvaluation is more extreme than OECD's 25-30%.",
+    "Current account '% GDP' cited as ~7% based on full-year 2025 CHF 61.7bn / nominal GDP ~CHF 850bn; precise quarterly C/A% varies 5-10% depending on gold trade adjustments.",
+    "Forward points estimated from rate differentials; precise forward outright levels may differ slightly due to basis swap and bid/offer.",
+    "Iran ceasefire status is highly fluid; analysis reflects May 7, 2026 information set.",
+    "US Treasury currency-manipulator framework described qualitatively; precise threshold mechanics involve three criteria (>$15bn bilateral surplus, >2% C/A surplus, >2% of GDP intervention) with semi-annual review.",
+    "Big Mac Index publishers (Mappr, Statbase) cited for January 2026 vintage are aggregators of Economist data; primary-source verification recommended.",
+    "Swiss 2Y yield estimated at 0.10% based on extrapolation from 10Y (0.35%) and SNB policy rate (0.00%); precise level not retrieved from data.snb.ch."
+  ],
+
+  "complete_citations": [
+    { "id": 1, "title": "Switzerland Inflation Rate", "publisher": "TRADING ECONOMICS", "url": "https://tradingeconomics.com/switzerland/inflation-cpi", "date_accessed": "2026-05-08" },
+    { "id": 2, "title": "Euro area annual inflation up to 3.0%", "publisher": "Eurostat", "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-30042026-ap", "date_accessed": "2026-05-08" },
+    { "id": 3, "title": "Consumer Price Index Summary - 2026 M03 Results", "publisher": "U.S. Bureau of Labor Statistics", "url": "https://www.bls.gov/news.release/cpi.nr0.htm", "date_accessed": "2026-05-08" },
+    { "id": 4, "title": "USD/CHF Historical Prices", "publisher": "Yahoo Finance", "url": "https://finance.yahoo.com/quote/CHF=X/history/", "date_accessed": "2026-05-08" },
+    { "id": 5, "title": "G10 FX Outlook 2026: Looking beyond the dollar", "publisher": "ING THINK", "url": "https://think.ing.com/articles/g10-fx-outlook-2026/", "date_accessed": "2026-05-08" },
+    { "id": 6, "title": "Operation Epic Fury has ended: Is the Iran war over?", "publisher": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/5/6/operation-epic-fury-has-ended-is-the-iran-war-over", "date_accessed": "2026-05-08" },
+    { "id": 7, "title": "Oil prices today: Trump, Iran, Strait of Hormuz", "publisher": "CNBC", "url": "https://www.cnbc.com/2026/05/07/oil-prices-today-trump-iran-strait-of-hormuz-us-crude-brent-.html", "date_accessed": "2026-05-08" },
+    { "id": 8, "title": "Monetary policy assessment of 19 March 2026", "publisher": "SNB BNS", "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260319", "date_accessed": "2026-05-08" },
+    { "id": 9, "title": "Exchange rates", "publisher": "ECB Data Portal", "url": "https://data.ecb.europa.eu/key-figures/ecb-interest-rates-and-exchange-rates/exchange-rates", "date_accessed": "2026-05-08" },
+    { "id": 10, "title": "Swiss Franc Relative Performance & Historical Trends", "publisher": "Exchange Rates UK", "url": "https://www.exchangerates.org.uk/performance-trends/chf", "date_accessed": "2026-05-08" },
+    { "id": 11, "title": "Big Mac Index 2026", "publisher": "Mappr", "url": "https://www.mappr.co/thematic-maps/big-mac-index/", "date_accessed": "2026-05-08" },
+    { "id": 12, "title": "CFTC Commitments of Traders Short Report - Financial Traders in Markets", "publisher": "Commodity Futures Trading Commission", "url": "https://www.cftc.gov/dea/futures/financial_lf.htm", "date_accessed": "2026-05-08" },
+    { "id": 13, "title": "FX Futures Positioning: EUR/USD, USD/CHF, USD/CAD, USD/JPY COT Report", "publisher": "FOREX.com", "url": "https://www.forex.com/en-us/news-and-analysis/fx-futures-positioning-eur-usd-usd-chf-usd-cad-usd-jpy-cot-report/", "date_accessed": "2026-05-08" },
+    { "id": 14, "title": "United States Fed Funds Interest Rate", "publisher": "TRADING ECONOMICS", "url": "https://tradingeconomics.com/united-states/interest-rate", "date_accessed": "2026-05-08" },
+    { "id": 15, "title": "Base rate held AGAIN at 3.75%", "publisher": "MoneySavingExpert.com", "url": "https://www.moneysavingexpert.com/news/2026/04/base-rate-held-bank-of-england/", "date_accessed": "2026-05-08" },
+    { "id": 16, "title": "Bank of Japan keeps policy rate steady while raising inflation forecast", "publisher": "CNBC", "url": "https://www.cnbc.com/2026/04/28/bank-of-japan-keeps-policy-rate-steady-cpi-iran-war-gdp.html", "date_accessed": "2026-05-08" },
+    { "id": 17, "title": "Rate decision May 2026", "publisher": "Norges Bank", "url": "https://www.norges-bank.no/en/topics/monetary-policy/Monetary-policy-meetings/2026/may-2026/", "date_accessed": "2026-05-08" },
+    { "id": 18, "title": "RBA Delivers Third Straight Hike, Cementing Outlier Status", "publisher": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-05/rba-delivers-third-straight-rate-hike-cementing-outlier-status", "date_accessed": "2026-05-08" },
+    { "id": 19, "title": "European Central Bank keeps rates on hold in the face of inflation threat", "publisher": "CNBC", "url": "https://www.cnbc.com/2026/04/30/european-central-bank-april-2026-rate-decision-inflation-stagflation-risk-iran-war.html", "date_accessed": "2026-05-08" },
+    { "id": 20, "title": "Singapore Monetary Policy April 15: MAS Tightens Stance", "publisher": "Meyka", "url": "https://meyka.com/blog/singapore-monetary-policy-april-15-mas-tightens-stance-1504/", "date_accessed": "2026-05-08" },
+    { "id": 21, "title": "Riksbank Holds Fire: Sweden Keeps Benchmark Rate Steady at 1.75%", "publisher": "Fx.co", "url": "https://www.fx.co/en/forex-news/2990991", "date_accessed": "2026-05-08" },
+    { "id": 22, "title": "When is the next SNB interest rate decision", "publisher": "Equals Money", "url": "https://equalsmoney.com/economic-calendar/events/snb-interest-rate-decision", "date_accessed": "2026-05-08" },
+    { "id": 23, "title": "Switzerland 10-Year Government Bond Yield", "publisher": "TRADING ECONOMICS", "url": "https://tradingeconomics.com/switzerland/government-bond-yield", "date_accessed": "2026-05-08" },
+    { "id": 24, "title": "CPI release for March 2026", "publisher": "UK Office for National Statistics (ONS)", "url": "https://www.ons.gov.uk/economy/inflationandpriceindices", "date_accessed": "2026-05-08" },
+    { "id": 25, "title": "Inflation in the euro area", "publisher": "Eurostat", "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Inflation_in_the_euro_area", "date_accessed": "2026-05-08" },
+    { "id": 26, "title": "Sweden Interest Rate - Sveriges Riksbank", "publisher": "TRADING ECONOMICS", "url": "https://tradingeconomics.com/sweden/interest-rate", "date_accessed": "2026-05-08" },
+    { "id": 27, "title": "Norges Bank Faces Close Call as Riksbank Watches", "publisher": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-06/norges-bank-faces-close-call-as-riksbank-watches-decision-guide", "date_accessed": "2026-05-08" },
+    { "id": 28, "title": "SNB kept rates on hold, signalling a high bar for negative rates", "publisher": "HSBC Private Bank", "url": "https://www.privatebanking.hsbc.com/wih/investments-Insights/market-update/market-update-SNB-kept-rates-on-hold/", "date_accessed": "2026-05-08" },
+    { "id": 29, "title": "SNB to Hold Policy Rate at Zero Through 2026; Negative Rates Unlikely", "publisher": "U.S. News & World Report", "url": "https://money.usnews.com/investing/news/articles/2025-12-08/snb-to-hold-policy-rate-at-zero-through-2026-negative-rates-unlikely-say-economists-reuters-poll", "date_accessed": "2026-05-08" },
+    { "id": 30, "title": "SNB to hold policy rate at zero through 2026", "publisher": "Yahoo Finance", "url": "https://uk.finance.yahoo.com/news/snb-hold-policy-rate-zero-143559957.html", "date_accessed": "2026-05-08" },
+    { "id": 31, "title": "Switzerland Current Account", "publisher": "TRADING ECONOMICS", "url": "https://tradingeconomics.com/switzerland/current-account", "date_accessed": "2026-05-08" },
+    { "id": 32, "title": "Sight deposits and SNB FX intervention", "publisher": "Substack (Stefan Gerlach)", "url": "https://swissmacroandhistory.substack.com/p/sight-deposits-and-snb-fx-intervention", "date_accessed": "2026-05-08" },
+    { "id": 33, "title": "Different Dollar Downside", "publisher": "Goldman Sachs Research", "url": "https://www.gspublishing.com/content/research/en/reports/2026/01/10/3d5c48b3-164b-4ba7-a9f1-c2c2adf17f64.html", "date_accessed": "2026-05-08" },
+    { "id": 34, "title": "EUR/CHF and USD/CHF price forecast for 2026 (UBS)", "publisher": "Investing.com", "url": "https://www.investing.com/news/forex-news/eurchf-and-usdchf-price-forecast-for-2026-as-per-ubs-93CH-4416745", "date_accessed": "2026-05-08" },
+    { "id": 35, "title": "Switzerland inflation rises to 0,6% in April as fuel costs hit 2026 high", "publisher": "IamExpat", "url": "https://www.iamexpat.ch/expat-info/swiss-news/switzerland-inflation-rises-06-april-fuel-costs-hit-2026-high", "date_accessed": "2026-05-08" },
+    { "id": 36, "title": "Swiss Producer and Import March Deflation Remains Sharp", "publisher": "Fx.co", "url": "https://www.fx.co/en/forex-news/2971778", "date_accessed": "2026-05-08" },
+    { "id": 37, "title": "Gross domestic product in the fourth quarter of 2025: Swiss economy grows slightly", "publisher": "SECO", "url": "https://www.bafu.admin.ch/en/newnsb/w7zccQ00BQy2pmb_aECqU", "date_accessed": "2026-05-08" },
+    { "id": 38, "title": "Switzerland Manufacturing PMI", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/switzerland/manufacturing-pmi", "date_accessed": "2026-05-08" },
+    { "id": 39, "title": "Swiss KOF Leading Indicator Rises In April", "publisher": "RTTNews", "url": "https://www.rttnews.com/3645764/swiss-kof-leading-indicator-rises-in-april.aspx", "date_accessed": "2026-05-08" },
+    { "id": 40, "title": "Swiss Jobless Rate Falls To 3.0% In April", "publisher": "RTTNews", "url": "https://www.rttnews.com/story.aspx?Id=3648646", "date_accessed": "2026-05-08" }
+  ]
+}

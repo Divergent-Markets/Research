@@ -1,0 +1,2230 @@
+{
+  "base": "USD",
+  "valuation_date": "2026-05-07",
+  "framework_version": "2.0",
+  "freshness_days_tactical": 30,
+  "freshness_days_strategic": 60,
+  "executive_summary": "The US Dollar Index (DXY) closed 6 May at 97.93, having retraced the entire post-Operation Epic Fury safe-haven rally that lifted DXY to 100.5 in early April; the index is -2.22% over four weeks, -2.59% YoY, and trades below both the 50-day (~98.5) and 200-day (~101.5) moving averages with bearishly stacked alignment. The Fed held Fed Funds at 3.50–3.75% on 29 April in an extraordinary 8-4 vote — the most fractured FOMC since October 1992 — with Governor Miran dissenting dovishly while Hammack, Kashkari, and Logan dissented against the easing-bias language; the statement hardened, replacing 'remains somewhat elevated' with 'is elevated' and explicitly citing 'Middle East' uncertainty. The macro picture is textbook stagflation: headline CPI +3.3% YoY, core PCE +3.2% YoY with supercore re-accelerating to 3.44%, while Q1 GDP advance printed +2.0% SAAR versus 2.3% consensus and Michigan 1Y inflation expectations spiked to 4.7% — the largest one-month jump since April 2025. The Iran-US war is winding down (Rubio declared Operation Epic Fury 'over' on 5 May; Project Freedom Hormuz convoy paused 6 May pending Iran's MoU response), removing the war risk premium that had supported USD: WTI has retraced from $106 (1 May) to ~$93–96, Brent from a $126 peak to ~$101. The valuation tension is acute: rate differentials still favour USD versus EUR/JPY/CHF, but real-rate compression, Fed-independence overhang under Powell-Warsh transition, the $79bn upward Q2 borrowing revision, weak late-March 2Y auction (BTC 2.44, +1.8bp tail), and consensus capitulation toward USD weakness (MUFG end-26 EUR/USD 1.24, Goldman 12M 1.25) point to structural USD softness. Net stance: tactical Mild Bearish (Conviction 2/5); strategic Bearish (Conviction 3/5) — the dollar smile failed to deliver classic left-side strength under wartime stress, the cleanest possible evidence that the regime has shifted from US exceptionalism toward stagflationary erosion of dollar primacy.",
+  "market_context": {
+    "spot": {
+      "rate": "DXY 97.93",
+      "convention": "Rising DXY = USD strengthening vs G10 trade-weighted basket (EUR 57.6%, JPY 13.6%, GBP 11.9%, CAD 9.1%, SEK 4.2%, CHF 3.6%); falling = USD weakening",
+      "primary_index": "DXY (US Dollar Index) at 97.93; secondary: Fed Broad Trade-Weighted USD Index DTWEXBGS at 118.39",
+      "date": "2026-05-06"
+    },
+    "key_crosses": [
+      {
+        "pair": "EUR/USD",
+        "rate": "1.1650",
+        "convention": "Higher = USD weakening vs EUR (EUR appreciation)"
+      },
+      {
+        "pair": "USD/JPY",
+        "rate": "155.00",
+        "convention": "Higher = USD strengthening vs JPY (JPY depreciation)"
+      },
+      {
+        "pair": "GBP/USD",
+        "rate": "1.3490",
+        "convention": "Higher = USD weakening vs GBP (GBP appreciation)"
+      },
+      {
+        "pair": "USD/CAD",
+        "rate": "1.4100",
+        "convention": "Higher = USD strengthening vs CAD (CAD depreciation)"
+      },
+      {
+        "pair": "AUD/USD",
+        "rate": "0.6600",
+        "convention": "Higher = USD weakening vs AUD (AUD appreciation)"
+      },
+      {
+        "pair": "NZD/USD",
+        "rate": "0.6100",
+        "convention": "Higher = USD weakening vs NZD (NZD appreciation)"
+      },
+      {
+        "pair": "USD/CHF",
+        "rate": "0.8300",
+        "convention": "Higher = USD strengthening vs CHF (CHF depreciation)"
+      },
+      {
+        "pair": "USD/NOK",
+        "rate": "10.20",
+        "convention": "Higher = USD strengthening vs NOK"
+      },
+      {
+        "pair": "USD/SEK",
+        "rate": "9.55",
+        "convention": "Higher = USD strengthening vs SEK"
+      },
+      {
+        "pair": "USD/SGD",
+        "rate": "1.34",
+        "convention": "Higher = USD strengthening vs SGD"
+      }
+    ],
+    "performance": {
+      "1m": {
+        "pct_change": "-2.22%",
+        "direction": "DXY weaker"
+      },
+      "3m": {
+        "pct_change": "-2.0%",
+        "direction": "DXY weaker"
+      },
+      "6m": {
+        "pct_change": "~0%",
+        "direction": "DXY flat"
+      },
+      "1y": {
+        "pct_change": "-2.59%",
+        "direction": "DXY weaker"
+      }
+    },
+    "valuation": {
+      "overall_assessment": "Modestly expensive",
+      "bis_reer": {
+        "level": 110.0,
+        "historical_percentile": 75,
+        "interpretation": "BIS REER (broad USD) estimated approximately +6% above its 10-year average, placing USD in the 75th percentile of its historical valuation range. This is structurally rich though down sharply from the 2025 highs; PPP-implied EUR/USD fair value of 1.23 suggests roughly 5–6% USD overvaluation versus EUR alone."
+      },
+      "ppp_table": [
+        {
+          "vs_currency": "EUR",
+          "deviation_pct": -5.3,
+          "implied_fair_value": "EUR/USD 1.23 vs spot 1.165 — EUR 5.3% undervalued / USD overvalued"
+        },
+        {
+          "vs_currency": "JPY",
+          "deviation_pct": -55.0,
+          "implied_fair_value": "USD/JPY 95–100 vs spot 155 — JPY 55% undervalued (extreme)"
+        },
+        {
+          "vs_currency": "GBP",
+          "deviation_pct": -7.0,
+          "implied_fair_value": "GBP/USD 1.45 vs spot 1.349 — GBP 7% undervalued"
+        },
+        {
+          "vs_currency": "CAD",
+          "deviation_pct": -10.0,
+          "implied_fair_value": "USD/CAD 1.27 vs spot 1.41 — CAD 10% undervalued"
+        },
+        {
+          "vs_currency": "AUD",
+          "deviation_pct": -7.0,
+          "implied_fair_value": "AUD/USD 0.71 vs spot 0.66 — AUD 7% undervalued"
+        },
+        {
+          "vs_currency": "NZD",
+          "deviation_pct": -6.2,
+          "implied_fair_value": "NZD/USD 0.65 vs spot 0.61 — NZD 6.2% undervalued"
+        },
+        {
+          "vs_currency": "CHF",
+          "deviation_pct": 14.0,
+          "implied_fair_value": "USD/CHF 0.95 vs spot 0.83 — CHF 14% overvalued (only overvalued peer)"
+        },
+        {
+          "vs_currency": "NOK",
+          "deviation_pct": -14.0,
+          "implied_fair_value": "USD/NOK 8.80 vs spot 10.20 — NOK 14% undervalued"
+        },
+        {
+          "vs_currency": "SEK",
+          "deviation_pct": -11.0,
+          "implied_fair_value": "USD/SEK 8.50 vs spot 9.55 — SEK 11% undervalued"
+        },
+        {
+          "vs_currency": "SGD",
+          "deviation_pct": -4.5,
+          "implied_fair_value": "USD/SGD 1.28 vs spot 1.34 — SGD 4.5% undervalued"
+        }
+      ],
+      "trade_weighted_assessment": "The USD is overvalued versus 9 of 10 peers on PPP, with CHF the only overvalued peer. The combination of trade-weighted overvaluation, deteriorating fiscal trajectory, and converging rate differentials creates structural mean-reversion pressure.",
+      "what_is_priced_in": "The market has begun pricing PPP normalisation (EUR/USD up ~6.5% YTD into 1.165) but has only closed roughly one-third of the gap to 1.23 fair value. Bank consensus 12M EUR/USD targets of 1.20–1.25 imply continued mean-reversion, but timing and magnitude vary materially across forecasters.",
+      "actionability": "Structural at strategic horizon, not tactical — PPP is a slow signal (5+ year reversion timeframe). Useful for sizing strategic short-USD positions and validating directional bias rather than tactical entry timing."
+    },
+    "positioning_summary": {
+      "cftc": {
+        "leveraged_funds": {
+          "net_contracts": 5000,
+          "direction": "long",
+          "notional_usd": "approximately $0.5bn (light long after 14-year bear extreme rebuild)",
+          "weekly_change_contracts": 1500,
+          "weekly_change_direction": "incremental rebuild"
+        },
+        "asset_managers": {
+          "net_contracts": -10000,
+          "direction": "short",
+          "notional_usd": "approximately -$1bn DXY equivalent; aggregate short-USD exposure across G10 pairs is far larger"
+        },
+        "total_open_interest": 35000,
+        "net_all_specs_percentile": 18,
+        "percentile_context": "Net spec positioning rebuilt from 14-year bearish extreme reached at end-January 2026 to roughly the 18th percentile — light long but the rebuild has been shallow and aggregate G10 short-USD positioning across EUR/JPY/GBP/CHF/CAD/AUD/NZD remains the most extreme in over a decade."
+      },
+      "other_positioning_signals": "Asset managers heavily long EUR (5Y high, extreme contrarian risk); leveraged funds net long JPY (open interest 372,780); GBP open interest 263,635, CAD 252,679, CHF 94,111 — all positioned against USD. SWIFT March 2026 USD share rose to 51.14% (up from 49.25% Feb), reinforcing payment-volume dominance. UUP/UDN ETF flows mixed.",
+      "interpretation": "Aggregate G10 short-USD positioning is the most extreme in over a decade, creating asymmetric tactical upside for USD on any positioning squeeze: a hot 12 May CPI, strong 8 May NFP, hawkish Fed governor speech, or sudden Iran re-ignition would each force unwinds in EUR longs, JPY longs, and CHF longs, generating 1–2% USD pop within days.",
+      "contrarian_assessment": "Crowded short-USD positioning across the complex is sufficient to fuel a 1–2% USD squeeze on a hawkish surprise, but not nearly stretched enough to invert the structural bearish trend. The dominant positioning signal is that the market has confidence in USD weakness and has placed the trade — leaving fragile near-term price action vulnerable to data surprises but maintaining structural directional integrity."
+    },
+    "market_structure_vol_summary": {
+      "trend_regime": "Range-bound 95.50–102 with bearish bias; recent break below 98 places DXY at lower-boundary; bearishly stacked MAs supporting CTA selling pressure",
+      "key_levels": {
+        "support": [
+          {
+            "level": "97.64",
+            "significance": "Immediate first support (recent intraday low)"
+          },
+          {
+            "level": "97.00",
+            "significance": "Major psychological round number — magnet"
+          },
+          {
+            "level": "95.50",
+            "significance": "January 2026 low — primary support; air pocket below to 92.50"
+          }
+        ],
+        "resistance": [
+          {
+            "level": "98.50",
+            "significance": "50-day moving average — first resistance"
+          },
+          {
+            "level": "99.30",
+            "significance": "Recent pivot — second resistance"
+          },
+          {
+            "level": "101.50",
+            "significance": "200-day moving average — major resistance, where stacked alignment would normalise"
+          }
+        ]
+      },
+      "moving_averages": {
+        "50d": {
+          "level": "98.50",
+          "spot_vs": "Spot 97.93 below 50d (bearish)"
+        },
+        "100d": {
+          "level": "100.20",
+          "spot_vs": "Spot below 100d (bearish)"
+        },
+        "200d": {
+          "level": "101.50",
+          "spot_vs": "Spot below 200d (bearish)"
+        },
+        "alignment": "Bearishly stacked (50d < 100d < 200d, spot below all three) — supports trend-following CTA selling"
+      },
+      "volatility": {
+        "iv_1m": 7.0,
+        "iv_3m": 7.5,
+        "iv_percentile_1y": 32,
+        "rv_20d": 7.5,
+        "rv_vs_iv": "Realised vol broadly tracking implied (RV ~7.5% vs IV ~7.0–7.5%) — no significant variance risk premium; USD/JPY exception with RV elevated post-suspected MOF intervention 5–6 May",
+        "risk_reversal_25d_1m": "EUR/USD 1M 25-delta tilted slightly EUR-call positive (mild EUR-strength bid; smart money hedging into EUR upside); USD/JPY shifted in JPY-strength direction post intervention",
+        "vol_term_structure": "Backwardation",
+        "vol_regime": "Low-vol grind currently favouring trend-following expressions; modest near-term backwardation around 8 May NFP, 12 May CPI, and 16-17 June FOMC clusters reflects event premium pricing"
+      },
+      "key_observation": "Options are cheap to acquire (IV percentile ~32nd), MA structure is bearishly stacked supporting trend-following CTA selling, and the vol regime favours either selling vol against the trend or buying directional spot exposure rather than expensive option structures. The asymmetric setup is to fade USD strength toward 98.50 (50d MA) for moves toward 95.50."
+    },
+    "recent_regime": "The dominant narrative is the unwind of war risk premium colliding with stagflation reality. Operation Epic Fury escalated 28 February; DXY rose ~2% to a 100.5 high in early April on safe-haven flows; the rally fully retraced as Iran-deal optimism, US Q1 GDP miss, and dovish positioning of soft sentiment data took hold. Volatility is paradoxically muted (VIX 17.39, IG OAS ~80bps near 25-year tights) because risk markets have priced peace, while bond markets are warning on supply (30Y Treasury crossed 5%) and Fed credibility (8-4 split). The USD sits at the bottom of the dollar smile — risk-on, no exceptionalism, no funding stress.",
+    "citations": [
+      1,
+      2,
+      3,
+      4,
+      19,
+      20,
+      22,
+      24,
+      25,
+      26,
+      27,
+      33,
+      38
+    ]
+  },
+  "rate_differentials_table": {
+    "base_currency": {
+      "central_bank": "Federal Reserve",
+      "policy_rate_name": "Fed Funds Target Range (top)",
+      "rate_pct": 3.75,
+      "next_meeting": "2026-06-17",
+      "expected_action": "Hold (~80% prob); ~25bp cut priced by year-end"
+    },
+    "peers": [
+      {
+        "currency": "EUR",
+        "central_bank": "ECB",
+        "policy_rate_pct": 2.0,
+        "spread_to_base_bps": -175,
+        "direction_vs_base": "EUR yield below USD",
+        "next_meeting": "2026-06-11",
+        "expected_action": "Hold",
+        "rate_path_next_6m": "Hold; cutting cycle complete; tilt slightly hawkish"
+      },
+      {
+        "currency": "JPY",
+        "central_bank": "BoJ",
+        "policy_rate_pct": 0.75,
+        "spread_to_base_bps": -300,
+        "direction_vs_base": "JPY yield below USD",
+        "next_meeting": "2026-06-18",
+        "expected_action": "Hold",
+        "rate_path_next_6m": "+25bp by year-end (inflation-driven)"
+      },
+      {
+        "currency": "GBP",
+        "central_bank": "BoE",
+        "policy_rate_pct": 3.75,
+        "spread_to_base_bps": 0,
+        "direction_vs_base": "Matching USD top",
+        "next_meeting": "2026-06-18",
+        "expected_action": "Hold",
+        "rate_path_next_6m": "-25bp probable on growth slowdown"
+      },
+      {
+        "currency": "AUD",
+        "central_bank": "RBA",
+        "policy_rate_pct": 4.35,
+        "spread_to_base_bps": 60,
+        "direction_vs_base": "AUD yield above USD top",
+        "next_meeting": "2026-06-16",
+        "expected_action": "Hold",
+        "rate_path_next_6m": "Peak of cycle; one more hike possible if inflation persistent"
+      },
+      {
+        "currency": "NZD",
+        "central_bank": "RBNZ",
+        "policy_rate_pct": 2.25,
+        "spread_to_base_bps": -150,
+        "direction_vs_base": "NZD yield below USD",
+        "next_meeting": "2026-05-28",
+        "expected_action": "Hold",
+        "rate_path_next_6m": "Cutting cycle complete; hold around current levels"
+      },
+      {
+        "currency": "CAD",
+        "central_bank": "BoC",
+        "policy_rate_pct": 2.25,
+        "spread_to_base_bps": -150,
+        "direction_vs_base": "CAD yield below USD",
+        "next_meeting": "2026-06-10",
+        "expected_action": "Hold",
+        "rate_path_next_6m": "-25bp by September on growth slowdown"
+      },
+      {
+        "currency": "CHF",
+        "central_bank": "SNB",
+        "policy_rate_pct": 0.0,
+        "spread_to_base_bps": -375,
+        "direction_vs_base": "CHF yield deeply below USD",
+        "next_meeting": "2026-06-18",
+        "expected_action": "Hold; FX-watch language",
+        "rate_path_next_6m": "-25bp possible if CHF strength persists"
+      },
+      {
+        "currency": "NOK",
+        "central_bank": "Norges Bank",
+        "policy_rate_pct": 4.0,
+        "spread_to_base_bps": 25,
+        "direction_vs_base": "NOK yield above USD top",
+        "next_meeting": "2026-05-07",
+        "expected_action": "Hold; tilt up",
+        "rate_path_next_6m": "+25–50bp possible on inflation persistence"
+      },
+      {
+        "currency": "SEK",
+        "central_bank": "Riksbank",
+        "policy_rate_pct": 1.75,
+        "spread_to_base_bps": -200,
+        "direction_vs_base": "SEK yield below USD",
+        "next_meeting": "2026-05-07",
+        "expected_action": "Hold",
+        "rate_path_next_6m": "Easing-biased on weak growth"
+      },
+      {
+        "currency": "SGD",
+        "central_bank": "MAS",
+        "policy_rate_pct": null,
+        "spread_to_base_bps": null,
+        "direction_vs_base": "MAS targets S$NEER slope, not policy rate",
+        "next_meeting": "2026-07-W2",
+        "expected_action": "Hold (semi-annual)",
+        "rate_path_next_6m": "Slope steepening bias retained from April; tight monetary stance"
+      }
+    ],
+    "sovereign_yields": {
+      "base_2y": 3.85,
+      "base_10y": 4.35,
+      "key_spreads": [
+        {
+          "vs": "Bund (10Y)",
+          "yield_pct": 3.1,
+          "spread_bps": 125,
+          "interpretation": "UST-Bund 10Y at +125bp is in long-term lower quartile; compressing further as ECB done cutting and Fed easing — primary EUR/USD driver"
+        },
+        {
+          "vs": "JGB (10Y)",
+          "yield_pct": 1.85,
+          "spread_bps": 250,
+          "interpretation": "UST-JGB 10Y at +250bp is extreme; compresses as BoJ hikes; primary USD/JPY driver and JPY-undervaluation source"
+        },
+        {
+          "vs": "Gilt (10Y)",
+          "yield_pct": 4.95,
+          "spread_bps": -60,
+          "interpretation": "UST-Gilt at -60bp (Gilt > UST) is unusual and reflects UK fiscal stress more than policy"
+        },
+        {
+          "vs": "ACGB (10Y)",
+          "yield_pct": 4.55,
+          "spread_bps": -20,
+          "interpretation": "UST-ACGB at -20bp is small AUD-positive; reflects RBA hawkish hike to 4.35%"
+        },
+        {
+          "vs": "CAGB (10Y)",
+          "yield_pct": 3.65,
+          "spread_bps": 70,
+          "interpretation": "UST-CAGB at +70bp supports USD/CAD though compressing as US cuts"
+        },
+        {
+          "vs": "Swiss Conf (10Y)",
+          "yield_pct": 0.45,
+          "spread_bps": 390,
+          "interpretation": "UST-Swiss at +390bp reflects extreme yield differential; CHF strength persists despite this carry penalty due to safe-haven and SNB"
+        }
+      ],
+      "curve_shape": "2s10s +50bps; modestly steepened over the past month — typical late-cycle steepening as cuts are priced. 2Y at 3.85%, 10Y at 4.35%, 30Y briefly above 5.00% intra-week reflecting term-premium re-rating tied to fiscal supply not policy tightening."
+    }
+  },
+  "macro_comparison_table": [
+    {
+      "currency": "USD",
+      "gdp_yoy_pct": 2.0,
+      "gdp_qoq_latest_pct": 2.0,
+      "headline_cpi_yoy_pct": 3.3,
+      "core_cpi_yoy_pct": 2.6,
+      "core_cpi_measure": "Core CPI ex-food/energy (Core PCE 3.2% is Fed's preferred measure)",
+      "unemployment_pct": 4.3,
+      "current_account_gdp_pct": -3.0,
+      "policy_rate_pct": 3.75
+    },
+    {
+      "currency": "EUR",
+      "gdp_yoy_pct": 1.5,
+      "gdp_qoq_latest_pct": 0.4,
+      "headline_cpi_yoy_pct": 3.0,
+      "core_cpi_yoy_pct": 2.4,
+      "core_cpi_measure": "HICP ex-food and energy (April 2026 flash)",
+      "unemployment_pct": 6.3,
+      "current_account_gdp_pct": 2.5,
+      "policy_rate_pct": 2.0
+    },
+    {
+      "currency": "JPY",
+      "gdp_yoy_pct": 1.0,
+      "gdp_qoq_latest_pct": 0.0,
+      "headline_cpi_yoy_pct": 3.6,
+      "core_cpi_yoy_pct": 2.5,
+      "core_cpi_measure": "Core CPI ex-fresh-food (Tokyo April flash; nationwide trails)",
+      "unemployment_pct": 2.5,
+      "current_account_gdp_pct": 3.0,
+      "policy_rate_pct": 0.75
+    },
+    {
+      "currency": "GBP",
+      "gdp_yoy_pct": 1.5,
+      "gdp_qoq_latest_pct": 0.5,
+      "headline_cpi_yoy_pct": 3.3,
+      "core_cpi_yoy_pct": 3.1,
+      "core_cpi_measure": "Core CPI ex-food/energy (March 2026)",
+      "unemployment_pct": 4.4,
+      "current_account_gdp_pct": -3.3,
+      "policy_rate_pct": 3.75
+    },
+    {
+      "currency": "AUD",
+      "gdp_yoy_pct": 1.7,
+      "gdp_qoq_latest_pct": 0.4,
+      "headline_cpi_yoy_pct": 4.6,
+      "core_cpi_yoy_pct": 3.3,
+      "core_cpi_measure": "Trimmed mean (RBA's preferred core; March 2026)",
+      "unemployment_pct": 4.1,
+      "current_account_gdp_pct": -1.5,
+      "policy_rate_pct": 4.35
+    },
+    {
+      "currency": "NZD",
+      "gdp_yoy_pct": 0.5,
+      "gdp_qoq_latest_pct": 0.2,
+      "headline_cpi_yoy_pct": 3.0,
+      "core_cpi_yoy_pct": 2.5,
+      "core_cpi_measure": "CPI ex-food/energy (Q1 2026)",
+      "unemployment_pct": 5.1,
+      "current_account_gdp_pct": -6.4,
+      "policy_rate_pct": 2.25
+    },
+    {
+      "currency": "CAD",
+      "gdp_yoy_pct": 1.0,
+      "gdp_qoq_latest_pct": -0.6,
+      "headline_cpi_yoy_pct": 2.4,
+      "core_cpi_yoy_pct": 2.5,
+      "core_cpi_measure": "Core trimmed (BoC's preferred; March 2026)",
+      "unemployment_pct": 6.7,
+      "current_account_gdp_pct": -2.0,
+      "policy_rate_pct": 2.25
+    },
+    {
+      "currency": "CHF",
+      "gdp_yoy_pct": 1.5,
+      "gdp_qoq_latest_pct": 0.3,
+      "headline_cpi_yoy_pct": 0.7,
+      "core_cpi_yoy_pct": 0.6,
+      "core_cpi_measure": "Core CPI ex-food/energy (March 2026)",
+      "unemployment_pct": 2.7,
+      "current_account_gdp_pct": 8.0,
+      "policy_rate_pct": 0.0
+    },
+    {
+      "currency": "NOK",
+      "gdp_yoy_pct": 1.5,
+      "gdp_qoq_latest_pct": 0.5,
+      "headline_cpi_yoy_pct": 3.0,
+      "core_cpi_yoy_pct": 3.1,
+      "core_cpi_measure": "CPI-ATE (Norges Bank preferred core)",
+      "unemployment_pct": 4.0,
+      "current_account_gdp_pct": 18.0,
+      "policy_rate_pct": 4.0
+    },
+    {
+      "currency": "SEK",
+      "gdp_yoy_pct": 1.5,
+      "gdp_qoq_latest_pct": 0.5,
+      "headline_cpi_yoy_pct": 1.8,
+      "core_cpi_yoy_pct": 2.0,
+      "core_cpi_measure": "CPIF (Riksbank preferred core)",
+      "unemployment_pct": 8.0,
+      "current_account_gdp_pct": 6.5,
+      "policy_rate_pct": 1.75
+    },
+    {
+      "currency": "SGD",
+      "gdp_yoy_pct": 4.6,
+      "gdp_qoq_latest_pct": 1.0,
+      "headline_cpi_yoy_pct": 1.2,
+      "core_cpi_yoy_pct": 1.2,
+      "core_cpi_measure": "MAS Core (excludes private transport and accommodation)",
+      "unemployment_pct": 2.0,
+      "current_account_gdp_pct": 18.0,
+      "policy_rate_pct": null
+    }
+  ],
+  "factors": [
+    {
+      "block": "Policy & Rates (Relative)",
+      "factor_number": 1,
+      "tactical_weight": 0.24,
+      "strategic_weight": 0.24,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 60,
+        "analysis": "The Fed Funds Rate target range of 3.50–3.75% ranks fourth in G10+SGD behind only the RBA Cash Rate (4.35%), Norges Bank (4.00%), and the BoE Bank Rate (3.75%) — the USD's relative carry advantage versus its primary peers (EUR -175bp, JPY -300bp, CHF -375bp) remains intact and meaningful. The 29 April FOMC held rates with an extraordinary 8-4 dissent split: Governor Miran preferred a 25bp cut while Hammack, Kashkari, and Logan dissented against the easing-bias language, the most fractured FOMC since October 1992. Statement language hardened materially, replacing 'remains somewhat elevated' with 'is elevated' and inserting an explicit Middle East uncertainty paragraph. The OIS-implied path now prices roughly one 25bp cut by year-end (versus near-zero cuts pre-war), and the gap between the OIS path and the March SEP median (3.375% end-2026) has compressed to near zero from ~25bps before the war. UST yields stand at 2Y 3.85%, 10Y 4.35%, 30Y briefly above 5.00% — the long end is signalling term premium re-pricing rather than rate-cut conviction. The 2s10s slope at +50bps reflects modest late-cycle steepening as the curve prices easing optionality. Powell's 29 April press conference characterised the Fed as 'in a good place to move in either direction', a deliberately balanced framing that protects optionality but offers no near-term directional support to USD. The tactical conclusion is Neutral because the carry differential is intact and the hawkish statement language supports USD on the margin, but the rate-differential channel has been functionally inert for months — DXY has fallen 2.6% over a year despite USD ranking among the highest-yielding G10 currencies, evidence that rate-spread mean-reversion has stalled.",
+        "key_data_points": [
+          "Fed Funds target: 3.50–3.75% (since 10 Dec 2025 -25bp cut)",
+          "29 Apr FOMC vote 8-4 (Miran dovish; Hammack/Kashkari/Logan hawkish dissents)",
+          "March SEP median 2026 dot 3.375% (one 25bp cut); 2027 3.125%; longer-run 3.125%",
+          "2Y UST 3.85%; 10Y UST 4.35%; 30Y intra-week >5.00%; 2s10s slope +50bps",
+          "Carry (annualised) vs peers: EUR +175bp; JPY +300bp; CHF +375bp; AUD -60bp; NOK +25bp",
+          "Carry-to-vol ratio: USD vs JPY ≈ 39 (very high attractiveness); USD vs CHF ≈ 58 (highest); USD vs EUR ≈ 25",
+          "OIS-implied path: ~80% hold June; ~25bp cut priced by year-end; gap to dot plot ~0bp"
+        ],
+        "what_is_priced": "The OIS curve and dot plot have converged near zero gap, leaving little room for hawkish repricing absent a hot 12 May CPI; the market is pricing 3 rate cuts over 18 months while inflation runs above target — this prices a Goldilocks inflation glide path that the data do not yet support, creating asymmetric upside in USD if 12 May CPI prints +0.4% MoM or higher.",
+        "citations": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          33,
+          34
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 65,
+        "analysis": "On a 1–6 month horizon the rate-differential channel turns USD-negative as several reinforcing dynamics play out. First, the Powell-Warsh transition confirms in mid-May, with Warsh widely viewed as more pragmatically dovish than his hawk reputation suggests — particularly as Powell remaining on the Board prevents Trump from filling another seat and preserves the existing FOMC ideological balance. Second, the OIS path of one cut by year-end is likely to underestimate easing if growth disappoints further: Atlanta Fed GDPNow at +3.7% for Q2 notably exceeds the average -50bp downward Q2 revision over the past five years, while Q1 came in at +2.0% versus +2.3% consensus. Third, rate-differential compression versus peers is structural: ECB has signalled the cutting cycle is complete at DFR 2.00%, BoJ has now hiked twice in 2025–26 (currently 0.75%) and is inflation-driven hawkish, while NOK and AUD have hiked into 4.00–4.35% — narrowing the USD's relative carry advantage from peak. Fourth, the long-end of the UST curve at 30Y >5.00% reflects rising term premium tied to fiscal supply concerns, not policy tightening conviction — a dynamic that historically weakens rather than strengthens the dollar. Fifth, bilateral 10Y spreads compress in the USD-bearish direction: UST-Bund at +125bp (long-term lower quartile), UST-Gilt now negative reflecting UK fiscal stress (Gilt > UST is unusual), UST-JGB +250bp narrowing as BoJ hikes. Sixth, MUFG's structural call is for a 'post-peak USD world' with 2026 DXY -5%, and Goldman Sachs forecasts EUR/USD 1.25 12M — bank consensus has shifted decisively to USD bearish on rate-differential mean reversion. The strategic conclusion is Mild Bearish because the rate channel is increasingly USD-negative even though the absolute level remains supportive.",
+        "key_data_points": [
+          "Powell-Warsh transition mid-May 2026; Senate Banking Committee advanced 29 Apr",
+          "OIS prices ~1 cut by Dec 2026 (terminal ~3.25%); SEP longer-run 3.125%",
+          "ECB DFR 2.00% (cutting cycle complete); BoJ +50bps in 12M trajectory; NOK/AUD hiking",
+          "UST 30Y intra-week >5.00% reflects term-premium not policy tightening",
+          "ABN AMRO BEER: EUR/USD fundamental fair value 1.23",
+          "MUFG: 2026 DXY -5% (post-peak USD); end-2026 EUR/USD 1.24, USD/JPY 146",
+          "Goldman Sachs: 6M EUR/USD 1.22; 12M 1.25",
+          "Bilateral 10Y spreads: UST-Bund +125bp (lower quartile); UST-Gilt -60bp (UK fiscal stress)"
+        ],
+        "what_is_priced": "The market is pricing convergence (one cut by year-end, terminal 3.25%) but appears to underweight the supply-driven UST term-premium dynamic and the speed of cross-pacific rate convergence; we expect 50–75bps of cuts over 9–12 months versus 25bp priced, supporting a 5%+ DXY decline.",
+        "citations": [
+          1,
+          4,
+          5,
+          7,
+          27,
+          28,
+          29,
+          39
+        ]
+      },
+      "horizon_split_explanation": "The split exists because the carry level is supportive but the carry differential trajectory is not. Tactically, USD's 175–375bp yield premium versus EUR/JPY/CHF is too large to evaporate in 4 weeks; strategically, that premium narrows materially as the Fed eases while ECB holds and BoJ hikes. The inflection point is roughly 3–4 months out as cumulative cuts begin to bite and bilateral 10Y spreads compress further.",
+      "carry_analysis": {
+        "carry_vs_peers": [
+          {
+            "vs_currency": "EUR",
+            "annualised_carry_bps": 175,
+            "carry_to_vol_ratio": 25.0,
+            "interpretation": "Long USD/EUR carries 175bp annualised at 7.0% IV — moderate carry-to-vol; EUR appreciating offsets carry"
+          },
+          {
+            "vs_currency": "JPY",
+            "annualised_carry_bps": 300,
+            "carry_to_vol_ratio": 39.0,
+            "interpretation": "Long USD/JPY carries 300bp at 7.7% IV — high attractiveness but MOF intervention caps upside at 158"
+          },
+          {
+            "vs_currency": "CHF",
+            "annualised_carry_bps": 375,
+            "carry_to_vol_ratio": 58.0,
+            "interpretation": "Long USD/CHF carries 375bp at 6.5% IV — best risk-adjusted carry in G10; cleanest funding-vs-investment pair"
+          },
+          {
+            "vs_currency": "AUD",
+            "annualised_carry_bps": -60,
+            "carry_to_vol_ratio": -7.0,
+            "interpretation": "Long USD/AUD pays carry — negative; RBA at 4.35% above USD top makes AUD-funded trades unattractive"
+          },
+          {
+            "vs_currency": "CAD",
+            "annualised_carry_bps": 150,
+            "carry_to_vol_ratio": 25.0,
+            "interpretation": "Long USD/CAD carries 150bp at 6.0% IV — modest carry, working in regime"
+          },
+          {
+            "vs_currency": "NOK",
+            "annualised_carry_bps": 25,
+            "carry_to_vol_ratio": 3.0,
+            "interpretation": "Long USD/NOK carries marginal 25bp at 9.0% IV — not attractive; Norges Bank tilt up reduces carry further"
+          },
+          {
+            "vs_currency": "SEK",
+            "annualised_carry_bps": 200,
+            "carry_to_vol_ratio": 25.0,
+            "interpretation": "Long USD/SEK carries 200bp at 8.0% IV — moderate"
+          },
+          {
+            "vs_currency": "GBP",
+            "annualised_carry_bps": -12,
+            "carry_to_vol_ratio": -2.0,
+            "interpretation": "Long USD/GBP pays 12bp carry — minimal; BoE Bank Rate matches USD top"
+          }
+        ],
+        "carry_regime": "In late 2025 carry was working strongly; through Q1 2026 carry trades have struggled because spot moves overwhelmed yield pickup (USD/JPY -7% YTD wipes out 12M of carry). USD/CHF remains the cleanest funding-versus-investment pair on a carry/vol basis.",
+        "breakeven_move": "On long USD/CHF: 375bp annualised ÷ 252 trading days × 30 days ≈ 45 pips of buffer over a month — meaning carry breaks even if USD/CHF falls 0.45 figures over the next month before carry is erased. On long USD/JPY: 300bp ÷ 252 × 30 ≈ 36 pips per month buffer."
+      },
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Inflation & Growth Dynamics",
+      "factor_number": 2,
+      "tactical_weight": 0.18,
+      "strategic_weight": 0.1,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "analysis": "The US is in a textbook stagflation print: March headline CPI +3.3% YoY (+0.9% MoM SA, the hottest monthly print since mid-2022, driven primarily by gasoline +21.2% MoM); core CPI +2.6% YoY (+0.2% MoM); core PCE +3.2% YoY (+0.3% MoM); supercore (core services ex-housing) +3.44% YoY running ~3.6% annualised on the latest monthly run-rate. Q1 2026 GDP advance estimate printed +2.0% SAAR versus 2.3% consensus, with the GDP price index spiking to +4.5% SAAR from 2.9% in Q4 — the largest single-quarter price-level acceleration since the early-2022 oil shock. Atlanta Fed GDPNow Q2 has rebuilt to +3.7% as of 5 May, suggesting the Q1 stall was partly transitory (federal pay snapback after Q4 shutdown; tariff-rush imports distorting trade balance). Labour market: March NFP +178k (after Feb -133k from healthcare strike + weather), unemployment 4.3%, AHE +3.4% YoY, initial claims for week ended 25 April at 189,000 — the lowest since 1969. JOLTS openings 6.9 million (unchanged), ISM Services 53.6 (slight April moderation). Critically, Michigan 1-year inflation expectations surged to 4.7% in April from 3.8% in March — the largest one-month increase since April 2025 — and 5–10Y expectations rose to 3.4% from 3.2%, the highest in five months. The Citi US Economic Surprise Index has turned modestly negative as data run softer than consensus following the GDP miss. The 8 May NFP and 12 May CPI are the binary events that resolve this Neutral stance — a hot CPI of +0.4% MoM or higher would invalidate the dovish OIS pricing and strengthen USD; a cool +0.2% with NFP <100k would accelerate cutting expectations and weaken USD.",
+        "key_data_points": [
+          "Headline CPI 3.3% YoY / +0.9% MoM (March 2026)",
+          "Core CPI 2.6% YoY / +0.2% MoM; Core PCE 3.2% YoY / +0.3% MoM; Supercore PCE 3.44% YoY",
+          "Q1 GDP +2.0% SAAR (advance, vs 2.3% consensus); GDP price index +4.5%",
+          "Atlanta Fed GDPNow Q2 +3.7% (5 May)",
+          "NFP March +178k; UR 4.3%; AHE +3.4% YoY; participation 62.5%; JOLTS 6.9m",
+          "Initial claims 189k (lowest since 1969)",
+          "Michigan 1Y inflation expectations 4.7% (April vs 3.8% March, +90bp jump); 5–10Y 3.4%",
+          "ISM Services 53.6 (April); Citi Economic Surprise Index modestly negative"
+        ],
+        "what_is_priced": "The market is pricing April CPI to come in around +0.3% MoM/3.4% YoY — broadly stable. We see asymmetric upside risk from energy passthrough (Cleveland Fed nowcast suggests April inflation pressure persists) and supercore stickiness, with a hot print likely to lift USD 0.5–1% on hawkish repricing.",
+        "citations": [
+          11,
+          12,
+          13,
+          14,
+          16,
+          17
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 65,
+        "analysis": "Over a 1–6 month horizon, stagflation is mechanically USD-negative because it forces the Fed into a worse trade-off than the typical rate-cut cycle — supporting carry but undermining real activity, which weakens reserve currency status as global capital reallocates from US risk assets. The Q1 GDP miss (+2.0% vs 2.3% expected) plus the price-index spike to +4.5% combined into the worst stagflation print since the 1970s, and Trump's approval at a record-low 22% on cost-of-living (Reuters/Ipsos) creates political pressure for the Fed to cut into still-elevated inflation. The labour market is showing late-cycle bifurcation: claims at multi-decade lows (tight job market) but unemployment at 4.3% creeping up (slowing hiring), and JOLTS openings flat-lining — the classic profile of an economy losing momentum despite headline strength. Inflation expectations becoming unanchored is the key risk: the Michigan 1Y jump to 4.7% is the largest one-month move since April 2025 and threatens the supercore re-anchoring story Powell relied on through 2025. Bank of America's Bull/Bear Indicator at 9.4 in January 2026 (cash 3.2% record-low, equity overweight 48%) signals late-cycle complacency that historically precedes growth disappointments and FX volatility regime shifts. Looking forward, key prints: 8 May NFP, 12 May CPI, 28 May Q1 GDP 2nd estimate, 30 May PCE, then 16–17 June FOMC + new SEP. The trajectory: if inflation stays sticky at 3.0–3.5% and growth slows to 1.5–2.0%, the Fed cuts roughly 50–75bps over 9 months — consistent with USD weakness, not strength. The strategic conclusion is Mild Bearish because stagflation hurts USD relative purchasing power and reserve attractiveness, even if rate differentials remain marginally supportive.",
+        "key_data_points": [
+          "Q1 GDP +2.0% (vs 2.3% expected) — first sub-consensus since 2024",
+          "GDP price index +4.5% SAAR (vs 2.9% Q4 2025) — largest jump since 2022",
+          "Michigan 1Y inflation expectations 4.7% (+90bp MoM)",
+          "Trump approval 22% on cost-of-living (Reuters/Ipsos record low)",
+          "BofA Bull/Bear at 9.4 (hyper-bull, January reading)",
+          "Atlanta Fed GDPNow Q2 +3.7%; consensus 1.5–2.0%",
+          "5Y breakeven inflation 2.6% (highest since 2008); 5Y5Y forwards anchored ~2.4%",
+          "NFP trend: 12-month average +180k vs 2-year average +220k (decelerating)"
+        ],
+        "what_is_priced": "The market is pricing growth/inflation normalisation by H2 2026 (Fed cuts return inflation to 2% glide path), but our base case is sticky 2.5–3.0% core PCE through year-end with growth slowing to 1.5%, forcing more cuts than priced and generating greater USD weakness than 2.5% YTD currently shows.",
+        "citations": [
+          11,
+          13,
+          14,
+          15,
+          16,
+          17,
+          37
+        ]
+      },
+      "horizon_split_explanation": "Tactical Neutral acknowledges binary near-term data risk (CPI/NFP) that could resolve either way; strategic Bearish reflects the dominance of stagflation dynamics over the cycle, where neither sticky inflation (forces cuts politically) nor slowing growth (forces cuts mechanically) supports USD relative strength.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Risk Appetite & Sentiment",
+      "factor_number": 3,
+      "tactical_weight": 0.1,
+      "strategic_weight": 0.05,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 65,
+        "analysis": "Risk markets have aggressively priced Iran-deal optimism: the S&P 500 closed at a record 7,365.12 on 6 May, up 1.46% intraday, with Nasdaq at 25,838.94 (record), Dow 49,910.59 (record), and Russell 2000 at a record. VIX printed 17.39 at session close — the lower end of the 5-year range. US IG OAS sits near 80bps, near 25-year tights per ICE BofA / FRED indices, and HY OAS at ~283bps in the April 2026 monthly average — well below the 800bp recession-trigger zone. Gold at ~$4,725 has corrected from a January peak of $5,602 as the war-risk premium unwinds. Bitcoin trades near $81,000. The Bank of America Bull/Bear Indicator at 9.4 in January was 'hyper-bull' with cash a record-low 3.2% and equity overweight at 48% (Hartnett Flow Show). This regime is straightforwardly USD-negative because the dollar smile mechanics push USD to the bottom of the smile in goldilocks/risk-on conditions — capital flows out of USD reserves into risk assets globally (EM equities, AUD/EUR equities, commodities). Sen of Energy Aspects warned 4 May of 'extremely misplaced euphoria', and Morgan Stanley Europe economist Eisenschidt: 'we are nearing here a day of reckoning'. The DXY-S&P 500 1M correlation has flipped modestly negative again (classic risk-on regime), and the DXY-VIX correlation has broken down post-war as USD failed to deliver safe-haven function. The conclusion is Mild Bearish at tactical horizon: the risk regime is firmly USD-negative but is fragile because complacency is high, war re-ignition is a tail risk, and the unwind of the hyper-bull positioning could trigger a sharp risk-off shift that reverses USD weakness in 24–48 hours.",
+        "key_data_points": [
+          "VIX 17.39 (6 May close); ~30th percentile 5Y",
+          "S&P 500 7,365.12 (record 6 May); YTD +7%; 1M +5–7%; 3M +6%",
+          "US IG OAS ~80bps (25-year tights); HY OAS ~283bps (April avg)",
+          "Gold ~$4,725 (off January peak $5,602); Bitcoin ~$81,000",
+          "BofA Bull/Bear Indicator 9.4 (hyper-bull, January)",
+          "DXY-S&P 1M correlation modestly negative; DXY-VIX correlation broken",
+          "USD's dollar-smile position: bottom (risk-on, no exceptionalism, no funding stress)"
+        ],
+        "what_is_priced": "Markets have priced an Iran-deal-induced soft landing — risk-on perpetuity at record stock levels; we see 25–30% risk of recession (Goldman 30%, JPM 35%) creating asymmetric downside in equities and an upside USD tail-hedge from any risk-off pivot.",
+        "citations": [
+          25,
+          35,
+          36,
+          37
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 55,
+        "analysis": "On a 1–6 month strategic horizon, the risk-on regime is more uncertain. If the Iran ceasefire holds and the Fed delivers 50–75bps of cuts, USD weakens further as the dollar smile keeps it pinned to the bottom (goldilocks). If the war reignites or earnings disappoint into Q2 reporting (which begins mid-July), USD rallies on a left-side smile move. The core question is whether the recent equity record extends or inverts: with BofA Bull/Bear at 9.4 (January) — historically a sell signal — and the war risk premium fully removed from oil and gold, the cyclical positioning is at vulnerability extremes. Recession probability estimates from major banks: J.P. Morgan 35%, Goldman 30%, BofA ~30% — meaning a 30% probability of a regime shift to risk-off USD strength. However, 70% probability of continued goldilocks supports our Mild Bearish base case. The risk regime in a typical 1–6 month window features two reversals; we expect at least one risk-off pivot of 5–8% on the S&P over that window, with USD bouncing 1–2% before resuming the bear trend. The strategic conclusion is Mild Bearish because the dollar-smile bottom is the base-case regime, but with lower confidence than tactical because the right tail (risk-off USD strength) has 25–30% probability over 6 months. The risk-on regime tends to mean-revert during quarter-end rebalancing, August (low-volume seasonality) and pre-FOMC positioning episodes — all live within the strategic window.",
+        "key_data_points": [
+          "Recession probability: JPM 35%, Goldman 30%, BofA ~30%",
+          "BofA Bull/Bear 9.4 (Jan reading; historical sell threshold)",
+          "Q2 earnings season begins mid-July — first key risk-on stress test",
+          "VIX <20 typically supports risk-on USD weakness; VIX >25 inverts",
+          "IG OAS at 25Y tights; HY at ~283bps — credit conditions priced for goldilocks",
+          "Two typical risk-off reversals in 1–6 month windows historically"
+        ],
+        "what_is_priced": "The market is pricing risk-on continuation at record S&P levels with VIX at 17; we see asymmetric downside risk from a recession surprise (30% probability) versus limited additional risk-on upside.",
+        "citations": [
+          25,
+          35,
+          36,
+          37
+        ]
+      },
+      "horizon_split_explanation": "Same direction (Bearish), but tactical confidence (65) higher than strategic (55) because near-term we have more visibility on the risk regime — the Iran-deal narrative is dominant for 4 weeks, while over 6 months the regime has more potential to shift via earnings disappointment, Fed delivery, or war re-ignition.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Flows & Positioning",
+      "factor_number": 4,
+      "tactical_weight": 0.1,
+      "strategic_weight": 0.06,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 55,
+        "analysis": "CFTC TFF data (28 April release) shows USD positioning has rebuilt only modestly from a 14-year bearish extreme reached at end-January 2026. The DXY net-spec position is light long after the rebuild; meanwhile asset managers remain heavily long EUR (extreme positioning), leveraged funds net long JPY (i.e., short USD/JPY) with open interest 372,780, and GBP/CHF/CAD positioned anti-USD. The aggregate G10 short-USD positioning is the most extreme in over a decade, creating asymmetric tactical upside for USD on any positioning squeeze: a hot 12 May CPI, a strong 8 May NFP, a hawkish Fed governor speech, or a sudden Iran re-ignition would each force unwinds in EUR longs, JPY longs, and CHF longs, generating 1–2% USD pop within days. Open interest summary (28 Apr): JPY 372,780 contracts; GBP 263,635; CAD 252,679; CHF 94,111. Asset managers' EUR long is at 5-year highs; leveraged funds' net JPY long is at multi-year extremes per MUFG positioning monitor. The contrarian signal is therefore Bullish USD on tactical horizon — shorts are crowded enough to fuel a squeeze. Risk reversals tilted slightly EUR-positive in March have neutralised through April, suggesting smart-money hedging is reducing aggressive EUR-call exposure. UUP/UDN ETF flows mixed. Reserve manager activity: SWIFT March 2026 USD share rose to 51.14% (up from 49.25% Feb), reinforcing the dollar's dominance in payment volumes regardless of speculative positioning. The conclusion is Mild Bullish at tactical horizon strictly on contrarian/squeeze grounds.",
+        "key_data_points": [
+          "DXY net-spec rebuilt from 14-year bear extreme (end-Jan 2026) to light long; rebuild shallow",
+          "Asset managers EUR long at 5Y high (extreme contrarian risk)",
+          "Leveraged funds net long JPY; open interest 372,780",
+          "Open interest: GBP 263,635; CAD 252,679; CHF 94,111",
+          "SWIFT March 2026 USD share 51.14% (up from 49.25% Feb) — payment dominance",
+          "Risk reversals (EUR/USD 1M): tilted slightly EUR-call → neutral",
+          "Squeeze potential: 1–2% USD upside on hawkish CPI surprise"
+        ],
+        "what_is_priced": "Positioning has priced sustained USD weakness; a hot CPI or hawkish Fed surprise would generate a violent positioning unwind — we see this as the cleanest tactical asymmetric trade in the dossier.",
+        "citations": [
+          27,
+          38
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "analysis": "Strategically, positioning is a less directional signal because the 6-month horizon allows for full unwind cycles. The current short-USD positioning has structural support (rate convergence, fiscal concerns, twin deficits) and is unlikely to flip to net long USD without a major regime shock. Reserve manager flows (IMF COFER) show USD share at ~57–58% of allocated reserves end-2025, gradually declining from ~70% in 2000 — the structural decline is slow but persistent at roughly -50 to -100bp per year. SWIFT data showing a March 2026 USD share rebound to 51.14% may reflect war-related flow distortions rather than a structural reversal. TIC data continues to show foreign net buying of US Treasuries despite weak auctions, implying foreign official sectors remain anchor buyers. ETF flows (UUP/UDN) suggest retail investors remain bearish USD into the year. Petrodollar dynamics: with oil at $95–101 (down from peak), the petrodollar accumulation by Gulf exporters remains supportive but at a slower pace than during the war highs. The contrarian-squeeze argument that powers the tactical Mild Bullish view weakens over 6 months as positioning has time to rebuild and structural drivers reassert. The strategic conclusion is Neutral because the contrarian signal washes out and structural flows (gradual USD share decline + cyclical short-USD positioning) net to balanced over a quarter-plus.",
+        "key_data_points": [
+          "IMF COFER USD share end-2025 ~57–58% (long-term declining from ~70% in 2000)",
+          "SWIFT March USD share 51.14% (war-distorted; not necessarily structural)",
+          "TIC: foreign net buying continues despite weak auctions",
+          "Reserve manager USD-share trajectory: -50 to -100bp/year",
+          "Positioning rebuild: ~$15–20bn DXY net-spec rebuild from extreme; 6M scope ~$30bn potential",
+          "Retail UUP/UDN flows: net mixed-to-bearish USD"
+        ],
+        "what_is_priced": "Markets have priced gradual reserve diversification at roughly the trend pace; a discrete reserve-allocation shock (e.g., new sanctions, major reserve manager pivot) is a tail risk not currently priced.",
+        "citations": [
+          38
+        ]
+      },
+      "horizon_split_explanation": "Tactical Mild Bullish (55) versus strategic Neutral (50): the divergence reflects the contrarian/squeeze nature of positioning at tactical horizons (crowded shorts → squeeze risk) versus its directional/structural reading at strategic horizons (where unwinds happen mechanically and the squeeze fades).",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": "USD positioning is stretched short across the G10 complex. The aggregate contrarian signal favours USD, but the squeeze magnitude is limited (1–2% pop) because the original bear extreme was at end-January and meaningful unwinding has already occurred. A trigger requires: hot 12 May CPI; hawkish Powell or Williams speech; sudden Iran re-ignition; or NFP >250k. The unwind would be most violent in USD/JPY (recovery to 158–160 area) and EUR/USD (decline to 1.13–1.14). Historical analogue: the late-January 2024 USD short-squeeze added ~3% to DXY in two weeks after a hawkish Fed minute release — the current setup is similarly fragile.",
+      "contrarian_analysis_strategic": "The contrarian signal weakens at strategic horizons because crowd positioning typically resolves through unwind within 3–4 months, and structural drivers (fiscal, twin deficits, terminal-rate convergence) reassert. The strategic contrarian case for USD relies on a regime shock — most plausibly a Fed surprise hawkish hold into 2027, a renewed US exceptionalism narrative, or a dollar-smile left-side activation through global financial stress. None of these currently has high probability (≤25% combined). The strategic positioning signal is therefore closer to neutral with a mild bullish skew on the residual contrarian asymmetry.",
+      "expression_assessment": null
+    },
+    {
+      "block": "External Balance & Terms of Trade",
+      "factor_number": 5,
+      "tactical_weight": 0.06,
+      "strategic_weight": 0.16,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "analysis": "The US current account deficit at -3.0% of GDP (annualised ~-$1.0trn) is a structural USD-negative that is rarely a tactical driver because it accumulates slowly. Latest monthly trade balance: goods deficit ~$120bn (March), services surplus ~$25bn. Commodity backdrop: WTI ~$95–96 (6 May, down from $106 1 May; pre-war Feb 27 ~$66; YTD +44%), Brent ~$101 (peak $126; pre-war ~$72), Henry Hub natural gas elevated near 4-week high. The US is now a confirmed net energy exporter (oil exports hit a record ~6.44 mbpd in late April), so the oil rally has provided moderate USD support via terms-of-trade — the inverse of the pre-2015 dynamic when rising oil weakened USD. Trade policy is in flux post the February 2026 Supreme Court ruling that struck down certain IEEPA tariffs, while Trump pushes for 15–20% minimum tariff on EU goods and a USMCA review looms. Top US trading partners: Mexico (~16% of total trade), Canada (~14%), China (~11%); China share has been compressing under tariffs. The Fed Broad TWI (DTWEXBGS) stood at 118.39 on 1 May, elevated versus 10Y average but down sharply from late-2025 highs. NIIP at -$26trn is the deepest negative on record but US capital remains attractive due to 'exorbitant privilege.' The tactical signal is Neutral because the positive oil-driven petrodollar/terms-of-trade impulse is offsetting tactical weakness from the receding war risk premium.",
+        "key_data_points": [
+          "US CA -3.0% of GDP; absolute ~-$1.0trn annualised",
+          "Trade balance: goods deficit ~$120bn (March); services surplus ~$25bn",
+          "WTI ~$95–96 (6 May), down from $106 (1 May); pre-war ~$66",
+          "Brent ~$101 (peak $126); pre-war ~$72",
+          "US oil exports ~6.44 mbpd (record late April)",
+          "Fed Broad TWI 118.39 (1 May, FRED DTWEXBGS)",
+          "Top trading partners: Mexico 16%, Canada 14%, China 11%",
+          "NIIP -$26trn (record negative)"
+        ],
+        "what_is_priced": "The market is pricing oil correction toward $80 (full Iran-deal scenario); we expect WTI to settle in $85–95 range over 4 weeks given residual Hormuz disruption, providing modest USD terms-of-trade support that is roughly priced in already.",
+        "citations": [
+          21,
+          22,
+          23
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 70,
+        "analysis": "At strategic horizon (weight 0.16, the second-largest), external balance becomes a dominant driver and the analysis turns sharply Bearish USD. The twin deficit dynamic — fiscal -5.8% + current account -3.0% = combined -8.8% of GDP — is the worst since the 1980s twin-deficit period that ended with the 1985 Plaza Accord and a 50%+ DXY decline over 3 years. While dollar-reserve currency status absorbs much of the financing pressure, the 2026 backdrop has a unique twist: Treasury issuance must accelerate to fund the war ($79bn Q2 borrowing revision; supplemental $98–200bn requested by Air Force), creating a supply-demand imbalance in the long end (30Y >5%) that penalises USD via term-premium re-pricing. The NIIP at -$26trn must eventually mean-revert; the structural channel is gradual USD depreciation that improves the trade balance via the import-substitution mechanism. Reserve currency erosion: USD share of allocated reserves has declined from ~70% in 2000 to ~57–58% in 2025 — a 12pp loss over 25 years, accelerating modestly post-2022 due to dollar weaponisation. SWIFT data showing a March rebound to 51.14% may not be structural. Trade policy: tariff chaos under Trump weakens reliance on the US dollar trade-invoicing channel; rising EU/China bilateral trade in EUR/RMB chips at the dollar's invoice share. Commodity terms of trade: net oil exporter status helps, but the magnitude is modest because the US energy export share of total exports is only ~10%. The strategic conclusion is Bearish with confidence 70 because the structural drivers are reinforcing (twin deficits widening, NIIP at extreme, reserve diversification continuing) and the cyclical drivers (oil peak passing, Fed easing) align in the same direction.",
+        "key_data_points": [
+          "Twin deficit: fiscal -5.8% + CA -3.0% = -8.8% (worst since 1985 Plaza)",
+          "Treasury Q2 borrowing $189bn (+$79bn vs Feb estimate)",
+          "War supplemental $98–200bn requested by Air Force",
+          "NIIP -$26trn (record)",
+          "IMF COFER USD share -12pp over 25 years; -50–100bp/year recently",
+          "Net oil exporter (~10% of exports)",
+          "BIS REER ~+6% above 10Y average — overvalued",
+          "ABN AMRO BEER fair value EUR/USD 1.23 (vs spot 1.165 = USD overvalued ~5%)"
+        ],
+        "what_is_priced": "Markets have priced gradual structural USD softening (consensus EUR/USD 1.20–1.25 12M); we see asymmetric downside via twin-deficit spiral risk if 30Y UST sustains >5% — a regime where bond markets force fiscal discipline or crash USD.",
+        "citations": [
+          25,
+          30,
+          31,
+          39
+        ]
+      },
+      "horizon_split_explanation": "Tactical Neutral versus strategic Bearish reflects the time-horizon dependence of external balance dynamics: in 4 weeks the slow-moving twin deficit and reserve diversification metrics barely register, but over 1–6 months they become the dominant 0.16-weighted strategic factor.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Guidance & Credibility",
+      "factor_number": 6,
+      "tactical_weight": 0.07,
+      "strategic_weight": 0.12,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "analysis": "Fed communication is in transition mode. The 29 April FOMC statement hardened materially: 'remains somewhat elevated' → 'is elevated'; new sentence on 'Developments in the Middle East are contributing to a high level of uncertainty'; explicit mention of energy prices. The 8-4 vote — Powell, Williams, Barr, Bowman, Cook, Jefferson, Paulson, and Waller for the hold; Miran dissenting for a 25bp cut; Hammack, Kashkari, and Logan dissenting against the easing-bias language — is the most fractured FOMC since October 1992. Powell's press conference messaging was deliberately balanced: 'We're in a good place to move in either direction'; on Iran inflation: 'I don't know what gas prices are going to do… So there will be a hit to GDP'. Powell defended Fed independence: 'It's part of the absolute foundation of this amazing economy that we have.' On Powell's status: 'I had long planned to be retiring. The things that have happened really in the last three months have, I think, left me no choice but to stay' — Powell will stay on the Board after handing the chair to Kevin Warsh on 15 May, an unprecedented arrangement that prevents Trump from filling another seat and preserves the FOMC ideological balance. Fedspeak in the past 30 days: Waller (April 17) signaled dovish lean on labour weakness; Williams (4 May BIS speech) noted PCE rose to 3.5% in March; Goolsbee (6 May) signaled inflation is 'the more dominant problem'; Logan (hawkish dissent) reinforced restrictive bias. March 17–18 minutes revealed: 'Some participants judged that there was a strong case for a two-sided description' — meaning hike-back optionality is on the table. The OIS-implied path now matches the SEP median (one cut by year-end), eliminating the gap-narrowing repricing that historically drives FX moves. The conclusion is Neutral at tactical horizon because the hawkish statement and balanced Powell tone offset the dovish governor speeches and the institutional fracture risk.",
+        "key_data_points": [
+          "29 Apr statement: 'is elevated' (hardened); explicit Middle East paragraph",
+          "8-4 vote (Miran dovish; Hammack/Kashkari/Logan hawkish dissents)",
+          "Powell: 'in a good place to move in either direction'",
+          "Powell stays on Board post-15 May Warsh transition",
+          "March minutes: hike-back optionality 'appropriate' possibility",
+          "Dot plot vs OIS gap: ~0bp (converged); from ~25bp pre-war",
+          "Recent Fedspeak: Waller dovish, Goolsbee hawkish (inflation focus), Logan hawkish dissent"
+        ],
+        "what_is_priced": "The market has priced full convergence between Fed guidance and OIS path; further hawkish surprises (e.g., June dot plot tilting more hawkish) would lift USD 0.5%, while dovish surprises (Waller-style) would weaken USD 0.5%. Asymmetry near zero.",
+        "citations": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 65,
+        "analysis": "Strategic weight at 0.12 makes guidance and credibility a major factor over 1–6 months, and the dynamics are decidedly USD-negative. Fed independence is under attack: Trump sought to fire Powell over the Eccles Building renovation; DOJ subpoenas were quashed in court but DC US Attorney Pirro vowed to appeal; Powell's decision to stay on the Board 'to see this through with finality and transparency' is unprecedented and reflects deep institutional stress. Markets price reduced 'Fed put' credibility — when an institution is fighting political attacks, its reaction-function reliability degrades. Powell-Warsh transition on 15 May creates dual-leadership ambiguity through the rest of 2026; markets struggle to weight Warsh's hawkish reputation against his pragmatic dovish inclinations and Powell's continued board presence. The 8-4 dissent split signals that the current FOMC consensus is fragile and any data-driven catalyst could swing the median materially. The June FOMC + new SEP (16–17 June) is the next major credibility test — if dots stay at 3.375% with hawkish Powell rhetoric, the market dovish-pricing capitulates and USD lifts; if dots cut to 3.125% with dovish Warsh leadership, USD weakens 1–2%. Beyond June, Jackson Hole August 2026 (Warsh's first major framework speech as Chair) and November 3 midterms (which determine fiscal policy framing for 2027–28) will be the critical tests. Voting rotation 2026: Powell, Williams, Barr, Bowman, Cook, Jefferson, Miran, Waller as governors (permanent); rotating presidents Hammack (Cleveland, hawkish), Kashkari (Minneapolis, hawkish), Logan (Dallas, hawkish), Paulson (Philadelphia) — implying a hawkish skew in the rotating slots that becomes increasingly important. The strategic conclusion is Bearish because the institutional stress, transition uncertainty, dovish Warsh interpretation risk, and political pressure all align as USD-negative over 6 months.",
+        "key_data_points": [
+          "Powell-Warsh transition 15 May; Senate Banking advanced 29 April",
+          "Powell DOJ subpoena litigation ongoing; DC US Attorney Pirro to appeal",
+          "8-4 FOMC vote (most fractured since Oct 1992)",
+          "16–17 June FOMC + SEP: critical credibility test",
+          "Jackson Hole August (Warsh's first as Chair); 3 November midterms",
+          "Voting rotation: hawkish skew in rotating presidents (Hammack, Kashkari, Logan)",
+          "'High level of uncertainty' statement language: most explicit since pandemic",
+          "Trump approval 22% on cost-of-living (record low)"
+        ],
+        "what_is_priced": "Markets are pricing Warsh as hawkish-but-flexible, with the Fed delivering 1 cut by year-end and 2 in 2027; we see asymmetric dovish risk because Warsh under Powell-as-Board-member arrangement defaults to consensus, and consensus is increasingly cut-biased.",
+        "citations": [
+          1,
+          2,
+          4,
+          5
+        ]
+      },
+      "horizon_split_explanation": "Tactical Neutral versus strategic Bearish: in 4 weeks the institutional uncertainty is balanced by the hardened statement language and binary CPI/NFP risk; over 1–6 months the institutional erosion (independence, transition, fracture) becomes the dominant dynamic and tilts decisively USD-negative.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Event Risk & Geopolitics",
+      "factor_number": 7,
+      "tactical_weight": 0.05,
+      "strategic_weight": 0.05,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 55,
+        "analysis": "The dominant near-term geopolitical event is the wind-down of Operation Epic Fury: Secretary of State Rubio declared the operation 'over' on 5 May 2026, Pentagon focus shifted to 'Project Freedom' Hormuz transit support which was paused 6 May pending Iran's response to a US one-page Memorandum of Understanding. The immediate USD impact is bearish because the war risk premium is unwinding (DXY -2.2% over 4 weeks, gold -16% off January peak, oil -10% over the past week). Pentagon's direct war cost estimate of $25bn (Hurst testimony 29 April) is bounded; Air Force seeks $98–200bn supplemental for ~40 destroyed and ~10 damaged aircraft. The Persian Gulf shipped only ~9.1 million bpd in April per IEA versus normal ~17–20 mbpd; ~23,000 seafarers stranded; UAE left OPEC effective 1 May. Trump has warned: 'if Iran does not agree to give what has been agreed to… the bombing starts' — meaning the ceasefire is unstable and re-ignition risk is non-trivial (estimated 25–30% over next 4 weeks). Other near-term events: 8 May NFP, 12 May CPI (binary catalyst), 7 May Norges Bank decision (today), 7 May Riksbank decision (today). Trump's tariff policy remains in flux post the February SCOTUS IEEPA ruling, with the 15–20% EU minimum tariff threat still on the table. The conclusion is Mild Bearish at tactical horizon because the direction of war-related risk premium unwind is USD-negative even though the tail risk of re-ignition adds USD-bullish optionality.",
+        "key_data_points": [
+          "Rubio declared Operation Epic Fury 'over' 5 May",
+          "Project Freedom paused 6 May pending Iran MoU response",
+          "Trump warning: 'if Iran does not agree… the bombing starts'",
+          "War cost: $25bn direct (Hurst 29 Apr); $98–200bn Air Force supplemental request",
+          "~9.1 mbpd Hormuz throughput (April) vs 17–20 mbpd normal",
+          "8 May NFP; 12 May CPI (binary near-term catalysts)",
+          "Re-ignition probability: ~25–30% over 4 weeks (estimate)"
+        ],
+        "what_is_priced": "Markets are pricing a ~75% probability of a sustained ceasefire and ~25% re-ignition; we see the re-ignition tail underpriced given Trump's belligerent rhetoric and the unstable MoU framework — meaning USD has a small upside hedge from this tail.",
+        "citations": [
+          18,
+          19,
+          20
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 50,
+        "analysis": "The strategic geopolitical landscape has multiple cross-currents. Iran ceasefire stability: assuming the MoU holds, the war risk premium continues to unwind through Q3 2026 — modestly USD-negative as gold/oil normalise. US midterms 3 November 2026: control of the House and Senate is at stake; Trump's 22% approval on cost-of-living and his political standing post-war make Republican losses likely, increasing fiscal-political deadlock and uncertainty premia in USD assets. Tariff policy: post the February 2026 SCOTUS IEEPA ruling, Trump has limited tariff tools; the 15–20% EU minimum tariff is now under negotiation and a Trump-Brussels deal would remove a USD-supportive policy lever. US-China: no major escalation, but USMCA review ahead and bilateral commercial frictions persist. Russia-Ukraine: Trump-Putin dialogue includes uranium cooperation discussions; any meaningful peace deal would be USD-negative (removes geopolitical USD reserve premium). Debt ceiling: suspended through 2027 — no tail risk in 6M window. Fed independence litigation: Pirro appeal of subpoena dismissal is pending; any DOJ progress against Powell would be sharply USD-negative. The strategic conclusion is Mild Bearish because the dominant geopolitical themes (war wind-down, Russia-Ukraine de-escalation possibility, midterms eroding fiscal credibility, Fed-independence litigation) collectively trend USD-negative, partially offset by the residual tail risks of war re-ignition and tariff escalation.",
+        "key_data_points": [
+          "US midterm elections 3 November 2026",
+          "Iran MoU framework unstable; re-ignition tail ~20–25% over 6M",
+          "SCOTUS February IEEPA ruling reduced tariff toolkit",
+          "Russia-Ukraine: Trump-Putin engagement; peace deal potential",
+          "Debt ceiling suspended through 2027 (no tail risk in 6M)",
+          "Pirro DOJ appeal of Powell subpoena dismissal pending",
+          "China-Taiwan: no major escalation expected; G7 mid-June; G20 November"
+        ],
+        "what_is_priced": "Markets have priced relatively benign geopolitical outcomes; the 25–30% war re-ignition tail is underpriced (cheap optionality on USD upside), while the midterm political risk to USD is roughly priced.",
+        "citations": [
+          18,
+          19,
+          20
+        ]
+      },
+      "horizon_split_explanation": "Same direction (Mild Bearish), confidence higher tactically (55) than strategically (50) because the tactical horizon has a clearer single dominant theme (war wind-down) while the strategic horizon has multiple competing themes that net to weaker conviction.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Fiscal & Sovereign Risk",
+      "factor_number": 8,
+      "tactical_weight": 0.04,
+      "strategic_weight": 0.07,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "analysis": "Fiscal and sovereign risk is rarely a tactical driver because it is structural and slow-moving, but the current environment has tactical edges. Sovereign ratings: S&P AA+ stable, Moody's Aa1 stable (downgraded from Aaa on 16 May 2025), Fitch AA+ stable (since 2023). CBO February 2026 baseline: FY2026 deficit $1.9 trillion (5.8% of GDP); debt held by public 101% of GDP, projected to rise to 120% by 2036; net interest expense exceeds $1 trillion in FY2026. Q2 borrowing raised to $189bn from $110bn Feb estimate — a $79bn upward revision driven by war financing. Late-March 2026 2Y Treasury auction was notably weak: bid-to-cover 2.44 (vs prior 6-month average 2.62); +1.8bp tail; primary dealer take 24% (vs 11% average). Treasury continues T-bill heavy issuance (~22% of total). 30-Year Treasury crossed 5% intra-week — a key psychological and technical level that signals term-premium re-pricing tied to fiscal supply rather than policy tightening. Treasury General Account ~$700bn. Sovereign 5Y CDS at modest stress 30–40bps (elevated vs 2024 but not crisis). The tactical signal is Neutral because the auction stress and 30Y >5% are USD-negative on the margin, but the US Treasury market remains the world's deepest and most liquid — short-term auctions continue to clear, foreign demand persists per TIC data, and fiscal stress takes years to translate into FX moves absent a discrete crisis.",
+        "key_data_points": [
+          "S&P AA+ stable; Moody's Aa1 stable (May 2025); Fitch AA+ stable",
+          "FY2026 deficit projected $1.9trn (5.8% of GDP)",
+          "Debt held by public 101% of GDP (CBO Feb 2026)",
+          "Net interest expense >$1trn FY2026 (~17–18% of revenue)",
+          "Q2 borrowing $189bn (+$79bn vs Feb estimate)",
+          "Late-March 2Y auction: BTC 2.44 (vs avg 2.62); +1.8bp tail; dealer take 24%",
+          "30Y UST briefly crossed 5.00% intra-week",
+          "Sovereign 5Y CDS: 30–40bps (modest stress)"
+        ],
+        "what_is_priced": "Tactical fiscal stress is partially priced via 30Y UST term premium re-rating; further weak auctions or supplemental issuance would tilt tactical USD-negative by 0.3–0.5%, but this is rarely a tactical-horizon mover.",
+        "citations": [
+          30,
+          31,
+          32,
+          33
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 70,
+        "analysis": "At strategic horizon (weight 0.07, modest but non-trivial), fiscal and sovereign risk turns decisively Bearish as multiple stress markers align. The CBO baseline projects debt-to-GDP rising from 101% to 120% by 2036 — an unsustainable trajectory by CBO's own assessment. Net interest expense at >$1 trillion FY2026 (>17% of federal revenue) is approaching the historical threshold (typically ~20%) where fiscal flexibility becomes meaningfully constrained. War financing ($79bn Q2 revision; $98–200bn Air Force supplemental request) compounds the supply pressure on the long end. Late-March 2026 2Y auction showing BTC 2.44 versus 2.62 average and primary dealer take 24% versus 11% (more than double normal) is a clear signal of weakening foreign demand at the margin. The 30Y UST briefly crossing 5% is the canary — sustained 30Y above 5.25% would signal fiscal-driven term premium that historically hurts USD via two channels: (1) higher real rates compress domestic activity, slowing growth and strengthening the case for cuts; (2) foreign investors demand premium to fund US debt, but the FX hedging cost can outweigh the yield pickup, reducing net foreign buying. Moody's Aa1 downgrade on 16 May 2025 is recent and structurally sticky; further rating action requires a material trigger but the trajectory is one-way negative. Treasury General Account rebuilds and T-bill share at 22% create technical liquidity drains that occasionally spike SOFR. The strategic conclusion is Bearish with confidence 70 because fiscal trajectory is reinforcing and the bond market is increasingly demanding higher term premium to fund it — a regime that historically associates with weak USD.",
+        "key_data_points": [
+          "Debt-to-GDP 101% → 120% by 2036 (CBO baseline)",
+          "Net interest expense >17% of revenue (approaching historical 20% threshold)",
+          "War supplemental $98–200bn pending; Q2 borrowing +$79bn",
+          "Late-March 2026 2Y auction stress (BTC 2.44; +1.8bp tail; dealer take 24%)",
+          "30Y UST briefly >5.00%; sustained >5.25% = fiscal-stress regime",
+          "Moody's Aa1 (May 2025 downgrade)",
+          "Treasury GBA ~$700bn; T-bill share 22%"
+        ],
+        "what_is_priced": "The market has priced gradual fiscal deterioration via term-premium re-rating (~30bp added to 10Y over 12 months), but has NOT priced a discrete fiscal crisis (debt-ceiling-style or auction failure). We see asymmetric downside via that tail.",
+        "citations": [
+          30,
+          31,
+          32,
+          33
+        ]
+      },
+      "horizon_split_explanation": "Tactical Neutral versus strategic Bearish: this is the textbook horizon split for fiscal risk — slow-moving and rarely tactical, but cumulatively dominant over 6 months as auction reception, term premium, and CBO trajectory all reinforce USD-negative pressure.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Market Structure & Volatility",
+      "factor_number": 9,
+      "tactical_weight": 0.05,
+      "strategic_weight": 0.03,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 60,
+        "analysis": "The DXY at 97.93 (6 May close) trades below both the 50-day MA (~98.5) and 200-day MA (~101.5), with bearishly stacked alignment (50d < 200d), supporting trend-following CTA selling. Spot has broken the 98.27 pivot to the downside; 97.64 is the immediate first support; 97.00 is the major psychological level (round-number magnet). Resistance: 98.50 (50d), 99.30 (recent pivot), 101.50 (200d). Volatility profile: EUR/USD and USD/JPY 3M ATM IV in the lower half of the 12-month range; USD/JPY VIX-equivalent ~7.7 mid-April. IV percentile (1Y, EUR/USD 3M ATM): ~30–35th — options are cheap to acquire. Risk reversals: EUR/USD 1M 25-delta tilted slightly EUR-positive (mild EUR-call bid) reflecting smart-money hedging into EUR strength; USD/JPY 25-delta shifted in JPY-strength direction post-suspected MOF intervention 5–6 May. RV vs IV: realised vol broadly tracking implied (no significant variance risk premium), with USD/JPY exception where RV is elevated post-intervention. Vol term structure: modest near-term backwardation around the 8 May NFP, 12 May CPI, and 16–17 June FOMC clusters — typical event premium pricing. Suspected MOF intervention drove USD/JPY sharply lower from 158 area on 5–6 May, capping near-term USD upside in the most-watched cross-pacific carry pair. The conclusion is Mild Bearish at tactical horizon because the bearish MA configuration, sub-50d/200d positioning, and risk-reversal skew all favour continued USD weakness.",
+        "key_data_points": [
+          "DXY 97.93 (6 May); below 50d (98.5) and 200d (101.5); bearishly stacked",
+          "Support: 97.64, 97.00 (psychological), 95.50 (Jan low)",
+          "Resistance: 98.50 (50d), 99.30 (pivot), 101.50 (200d)",
+          "EUR/USD 3M ATM IV: lower-half of 12M range; ~7.0% level estimate",
+          "USD/JPY 3M ATM IV: ~7.7% (mid-April level)",
+          "IV percentile (1Y, EUR/USD): ~30–35th (cheap)",
+          "25-delta 1M risk reversal (EUR/USD): tilted slightly EUR-call positive",
+          "USD/JPY risk reversal: JPY-strength bias post intervention 5–6 May"
+        ],
+        "what_is_priced": "Vol markets have priced muted vol with modest event premium; we see asymmetric upside risk in vol on a hot CPI or NFP — meaning long-vol expressions on USD/JPY or EUR/USD straddles around 12 May CPI offer asymmetric payoff.",
+        "citations": [
+          24,
+          25,
+          27
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 55,
+        "analysis": "Over 1–6 months the structural picture is clearly Bearish for DXY. The bearish MA stack (50d < 200d) with spot below both is the configuration that systematic CTA flows reinforce — a sustained break below 97.00 opens an air pocket toward 95.50 (January 2026 low) and ultimately 92.50 multi-year support. The DXY 6-month range has been 95.50–102; the recent break below 98 places it at the lower boundary, with technical bias to test 95.50 within 2–3 months absent a regime shock. Volatility regime: low-vol grind currently favouring trend-following expressions; if vol expands on a Fed surprise or war re-ignition, the strategic implication is range expansion rather than range break — meaning DXY could either accelerate down (USD bearish dominant) or spike up (USD bullish dominant) depending on the shock. The strategic vol-term-structure expectation is for backwardation to ease post the 16–17 June FOMC, releasing event premium and allowing directional positioning to dominate. Bilateral pair structure: EUR/USD 1.165 trades near range-top with technical bias to 1.20; USD/JPY 155 has clear MOF-defended ceiling at 158; DXY 97 has key support at 97/95.50/92.50. The strategic conclusion is Bearish with confidence 55 because the technical setup strongly favours continued USD weakness, but vol regime shifts could disrupt the directional thesis with some probability.",
+        "key_data_points": [
+          "DXY 6M range: 95.50–102; current 97.93 at lower boundary",
+          "50d MA 98.5 < 200d MA 101.5 (bearish stack)",
+          "Air pocket below 97.00 to 95.50, then 92.50 multi-year",
+          "Vol regime: low-vol grind (favours trend-following)",
+          "Bilateral structure: EUR/USD top 1.17–1.20 zone; USD/JPY MOF cap 158",
+          "Strategic 1–6M vol-term-structure: backwardation easing post-June FOMC"
+        ],
+        "what_is_priced": "The market is pricing range-trading within 95.50–102 over the next 6 months; we see asymmetric downside risk from a clean break of 97.00 that triggers CTA momentum selling and accelerates the move toward 92.50 over Q3.",
+        "citations": [
+          24,
+          25,
+          27
+        ]
+      },
+      "horizon_split_explanation": "Both horizons are Bearish on market structure, with strategic confidence (55) lower than tactical (60) because the strategic horizon has more vol regime-shift risk that could disrupt the technical setup.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": "Given the vol landscape (low IV percentile ~30–35th, bearish MA structure, modest event premium around 12 May CPI / 16–17 June FOMC), the optimal expression of the directional USD bearish view depends on conviction and risk appetite. Spot expressions are preferred for moderate-conviction views: direct DXY shorts via long EUR/USD or short USD/CHF — bearish MA configuration favours spot directional, with EUR/USD long stop above 1.18 and target 1.20 over 4 weeks. Long options are preferred for high-conviction event hedges: low IV percentile makes EUR/USD calls and USD/JPY puts cheap; long 1M EUR/USD 1.18 call offers asymmetric payoff if 12 May CPI prints cool, and long 1M USD/JPY 152 put plays structural JPY appreciation. Short vol is only suitable for low-conviction range-trading post-event; pre-event vol selling is NOT recommended given binary 12 May CPI risk. The recommended expression for this dossier's net Bearish USD view is spot expressions (long EUR/USD on dips, short USD/JPY into 158 area) supplemented by cheap optionality (long EUR/USD 1.18 calls into 12 May CPI) — capitalising on low IV percentile, bearish MA configuration, and asymmetric event payoff."
+    },
+    {
+      "block": "USD Liquidity & Funding",
+      "factor_number": 10,
+      "tactical_weight": 0.11,
+      "strategic_weight": 0.12,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 60,
+        "analysis": "USD funding markets are functioning normally with modest abundance, which supports the dollar-smile bottom regime (USD-bearish in goldilocks). Fed balance sheet stands at approximately $6.5 trillion, having concluded QT in December 2025; reserve management T-bill buying ran at ~$40bn/month through Q1 2026 and has been 'significantly reduced' post-15 April per NY Fed. Bank reserves at ~$3.4 trillion (~13% of GDP) are well above the ~10–11% target minimum comfortable level — ample by all metrics. SOFR trades pinned near IORB at ~3.65–3.70%, no dislocations. Reverse repo facility (RRP) usage at ~$632bn (down from $2.5trn 2022 peak but still substantial — meaning reserves can absorb shocks before stress emerges). Cross-currency basis swaps: EUR/USD 3M basis at -5 to -8bps (mild USD scarcity, not stress); USD/JPY 3M basis somewhat more negative reflecting persistent Japanese demand for USD funding. Fed FX swap line draws: ZERO by ECB, BoJ, BoE, SNB, or BoC since 28 February — clean signal that USD funding markets are functioning despite the war, the most diagnostic data point on USD liquidity stress. T-bill share of issuance at ~22% (slightly elevated). SLOOS latest: banks tightening C&I standards modestly (consistent with late-cycle credit conditions). The conclusion is Mild Bearish because abundant USD liquidity pushes USD to the bottom of the dollar smile (weak in goldilocks), and the absence of stress means there is no left-side smile support either.",
+        "key_data_points": [
+          "Fed balance sheet ~$6.5trn (down from $8.9trn peak); QT ended Dec 2025",
+          "Bank reserves ~$3.4trn (~13% GDP; target ~10–11%)",
+          "SOFR ~3.65–3.70%, pinned near IORB",
+          "RRP usage ~$632bn (down from $2.5trn peak)",
+          "EUR/USD 3M XCCY basis ~-5 to -8bps (mild scarcity, not stress)",
+          "USD/JPY 3M XCCY basis: more negative (Japanese demand)",
+          "Fed FX swap line draws since 28 Feb: ZERO (clean signal)",
+          "T-bill share ~22%; SLOOS modestly tighter"
+        ],
+        "what_is_priced": "Markets are pricing abundant, normal USD funding — risk-on regime supportive; any stress emergence would shift dollar smile to left side and lift USD 1–2%, but no near-term catalyst is visible.",
+        "citations": [
+          38,
+          40
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 60,
+        "analysis": "Over 1–6 months, the USD funding picture continues the dollar-smile-bottom dynamic absent a regime shock. The Fed concluded QT in December 2025; reserve management T-bill purchases at ~$40bn/month through April have tapered, but the balance sheet is no longer shrinking. Reserve adequacy: bank reserves at ~13% of GDP vs ~10–11% target leave ample buffer, suggesting no near-term Fed action to inject liquidity, but also no imminent stress that would reverse the dollar-smile bottom. Cross-currency basis structurally remains mildly negative (-5 to -10bps EUR/USD; -10 to -15bps USD/JPY) reflecting global USD demand premium. T-bill issuance continues at ~22% share, with the war supplemental likely pushing this higher in Q3 — modest reserve drain dynamic that could tighten money markets at quarter-end (30 June) but not crisis-level. Treasury General Account rebuilding (~$700bn currently) is a steady drain on reserves but offsets via RRP runoff. Bank lending conditions (SLOOS): modestly tightening in Q1 2026 — consistent with late-cycle credit conditions but not stress. Dollar-smile positioning: USD sits at the bottom (weak in goldilocks); a transition to the right side (US exceptionalism) would require above-trend US growth — not in the current cards given Q1 GDP +2.0% miss. A transition to the left side (funding stress) would require crisis-level events — possible (war re-ignition, fiscal-driven auction failure) but not base case. The strategic conclusion is Mild Bearish with confidence 60 because the funding regime supports continued USD weakness in goldilocks but has tail risks in either direction.",
+        "key_data_points": [
+          "Fed B/S ~$6.5trn (no QT, RMP tapering post-15 April)",
+          "Bank reserves ~13% GDP (above 10–11% target)",
+          "EUR/USD basis -5 to -8bps; USD/JPY -10 to -15bps (structural)",
+          "T-bill share ~22%; war supplemental likely raises in Q3",
+          "Treasury GBA ~$700bn; rebuilding gradually",
+          "SLOOS: modestly tightening C&I (late-cycle pattern)",
+          "USD on dollar smile: bottom; transitions require regime shocks",
+          "Fed FX swap line draws since 28 Feb: ZERO"
+        ],
+        "what_is_priced": "The market has priced abundant USD funding and no Fed liquidity action; we see this as roughly correct, with asymmetric tail risks in both directions (right side: US exceptionalism via strong NFP; left side: fiscal-driven stress).",
+        "citations": [
+          38,
+          40
+        ]
+      },
+      "horizon_split_explanation": "Both Mild Bearish at 60 — the funding regime is consistently dollar-smile-bottom across both horizons, supporting USD weakness in both. The horizon difference is in the tail risks: tactical has higher binary CPI/NFP risk, strategic has more potential for regime shifts via fiscal/political shocks.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    }
+  ],
+  "synthesis": {
+    "tactical": {
+      "net_stance": "Bearish",
+      "conviction": 2,
+      "overall_confidence": 58,
+      "weighted_score": {
+        "calculation": [
+          {
+            "factor": "1. Policy & Rates",
+            "stance_score": 0,
+            "confidence_pct": 60,
+            "confidence_adjusted_score": 0.0,
+            "weight": 0.24,
+            "weighted_contribution": 0.0
+          },
+          {
+            "factor": "2. Inflation & Growth",
+            "stance_score": 0,
+            "confidence_pct": 55,
+            "confidence_adjusted_score": 0.0,
+            "weight": 0.18,
+            "weighted_contribution": 0.0
+          },
+          {
+            "factor": "3. Risk Appetite",
+            "stance_score": -1,
+            "confidence_pct": 65,
+            "confidence_adjusted_score": -0.65,
+            "weight": 0.1,
+            "weighted_contribution": -0.065
+          },
+          {
+            "factor": "4. Flows & Positioning",
+            "stance_score": 1,
+            "confidence_pct": 55,
+            "confidence_adjusted_score": 0.55,
+            "weight": 0.1,
+            "weighted_contribution": 0.055
+          },
+          {
+            "factor": "5. External Balance",
+            "stance_score": 0,
+            "confidence_pct": 50,
+            "confidence_adjusted_score": 0.0,
+            "weight": 0.06,
+            "weighted_contribution": 0.0
+          },
+          {
+            "factor": "6. Guidance & Credibility",
+            "stance_score": 0,
+            "confidence_pct": 50,
+            "confidence_adjusted_score": 0.0,
+            "weight": 0.07,
+            "weighted_contribution": 0.0
+          },
+          {
+            "factor": "7. Event Risk",
+            "stance_score": -1,
+            "confidence_pct": 55,
+            "confidence_adjusted_score": -0.55,
+            "weight": 0.05,
+            "weighted_contribution": -0.028
+          },
+          {
+            "factor": "8. Fiscal & Sovereign",
+            "stance_score": 0,
+            "confidence_pct": 55,
+            "confidence_adjusted_score": 0.0,
+            "weight": 0.04,
+            "weighted_contribution": 0.0
+          },
+          {
+            "factor": "9. Market Structure",
+            "stance_score": -1,
+            "confidence_pct": 60,
+            "confidence_adjusted_score": -0.6,
+            "weight": 0.05,
+            "weighted_contribution": -0.03
+          },
+          {
+            "factor": "10. USD Liquidity",
+            "stance_score": -1,
+            "confidence_pct": 60,
+            "confidence_adjusted_score": -0.6,
+            "weight": 0.11,
+            "weighted_contribution": -0.066
+          }
+        ],
+        "net_score": -0.134,
+        "interpretation": "Net score -0.134 falls within the ±0.20 band that signals modest directional tilt rather than high-conviction view. The Bearish skew is driven by Risk Appetite (-0.065), USD Liquidity (-0.066), Market Structure (-0.030), and Event Risk (-0.028) all aligning, partially offset by the Mild Bullish contrarian Flows & Positioning (+0.055). Critically, the two heaviest factors (Policy & Rates 0.24, Inflation & Growth 0.18, totalling 42% of weight) are both Neutral, neutralising the largest engines and making the net score sensitive to the smaller-weight bearish cluster.",
+        "mapping_to_conviction": "Net score -0.134 → Conviction 2/5 (Mild Bearish, modest directional view). Conviction 1 would require near-zero net score; Conviction 3 would require net score below -0.25 with at least one major-weight factor bearish. The current setup keeps conviction modest because binary 12 May CPI risk could swing the largest-weight Inflation & Growth factor either way."
+      },
+      "rationale": "The tactical synthesis reads as Mild Bearish USD with low conviction because the two heaviest factors — Policy & Rates (0.24) and Inflation & Growth (0.18) — are both Neutral, neutralising 42% of the total weight. The bearish tilt comes from the cluster of smaller factors that all align: Risk Appetite (-0.065 weighted), USD Liquidity (-0.066), Market Structure (-0.030), Event Risk (-0.028), partially offset by the contrarian Mild Bullish on Flows & Positioning (+0.055). The interaction structure is critical: Risk Appetite, USD Liquidity, and Market Structure all reinforce the dollar-smile-bottom regime (USD weak in goldilocks/risk-on with abundant funding), while Flows & Positioning provides the only counterweight via crowded-short squeeze potential. The market has priced unanimous USD bearishness (consensus EUR/USD 1.20–1.25 12M, MUFG -5% on DXY); the residual edge is therefore a tactical squeeze opportunity if 12 May CPI prints hot, plus the structural directional alignment of risk-on-bearish-USD dynamics. The path of least resistance is sideways-with-bearish-skew until 12 May CPI resolves the binary; thereafter direction sharpens. Key catalysts: 8 May NFP, 12 May CPI, 28 May Q1 GDP 2nd estimate, 30 May PCE, 7 May Norges Bank/Riksbank decisions today. The conviction drivers are: (a) bearish MA structure with stacked alignment supporting CTA selling; (b) abundant USD funding pinning USD to dollar-smile bottom; (c) consensus capitulation toward USD weakness creating positioning crowding without fresh catalyst to dislodge. The countervailing tactical drivers are: (a) 14-year-extreme short-USD positioning that could squeeze 1–2% on hawkish surprise; (b) hardened FOMC statement language; (c) carry differential intact at 175–375bp vs EUR/JPY/CHF. Actionability is moderate: the trade is to fade USD strength toward 98.50–99 (50d MA) for moves toward 95.50–97 (Jan low / round number), with risk management tight given binary CPI risk. The view is more than a coin flip because the dollar-smile-bottom regime has historically lasted 6–12 weeks once established, and the structural drivers are all aligned in the same direction even if individually small.",
+      "g10_ranking": {
+        "rank": 9,
+        "out_of": 11,
+        "beats": [
+          "NZD",
+          "CAD"
+        ],
+        "loses_to": [
+          "NOK",
+          "AUD",
+          "CHF",
+          "GBP",
+          "SGD",
+          "JPY",
+          "EUR",
+          "SEK"
+        ],
+        "commentary": "USD's tactical underperformance reflects the alignment of risk-on, unwind of war risk premium, and bearish technical structure. The only G10 currencies expected to underperform USD are those with deeper idiosyncratic issues: NZD (RBNZ cycle complete with fiscal drag) and CAD (struggling with growth slowdown after Q4 -0.6%). USD is currently the third-weakest currency in the G10+SGD complex over the tactical horizon."
+      },
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "outcome": "DXY drifts to 96.50–97.50 over 4 weeks",
+          "conditions": [
+            "12 May CPI prints in-line (3.3% YoY)",
+            "8 May NFP between 100–200k",
+            "Iran ceasefire holds; no Fed surprise"
+          ],
+          "path": "Oversold consolidation at 97 round number, then break to 96 area as MA structure reinforces selling pressure."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "outcome": "DXY rallies to 99.50–100.50",
+          "conditions": [
+            "12 May CPI prints +0.4%/3.5% YoY (hot)",
+            "Positioning squeeze across G10 short-USD trades; OR sudden Iran re-ignition"
+          ]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "outcome": "DXY breaks 95.50 toward 94.00",
+          "conditions": [
+            "12 May CPI prints +0.2%/3.1% YoY (cool)",
+            "NFP <100k or revisions strongly negative; OR firm Iran-deal signing"
+          ]
+        }
+      },
+      "path_expectation": "The likely 4-week path features oversold consolidation at 97.00 round number through the 8 May NFP, then a binary on 12 May CPI: cool print accelerates the move toward 95.50 within 5–7 sessions, hot print triggers 1–2% positioning squeeze back toward 99.50. Volatility expands modestly through CPI then mean-reverts. The pattern shape is most likely U-shaped grind with a binary spike on CPI release; pullback levels sit at 98.27 (recent pivot) and 98.50 (50d MA). The 16–17 June FOMC sits just outside the tactical window but its anticipation should accelerate directional positioning into late May, supporting a base case bias to soften further into the strategic horizon.",
+      "conviction_ladder": {
+        "current": 2,
+        "increase_to_5_if": [
+          "12 May CPI ≤3.0% YoY AND DXY breaks 95.50 sustained AND Fed governor explicitly endorses Q3 cuts",
+          "Iran deal signed AND oil settles below $80 AND NFP <80k confirms growth deceleration"
+        ],
+        "increase_to_4_if": [
+          "12 May CPI ≤3.1% YoY AND DXY breaks 97.00 sustained 3+ days",
+          "NFP <100k AND CPI cool AND Iran deal signed"
+        ],
+        "decrease_to_3_if": [
+          "12 May CPI 3.2–3.3% in line with consensus AND DXY remains in 97–99 range",
+          "Mixed data (one hot, one cool) keeping Fed pricing stable"
+        ],
+        "decrease_to_2_if": [
+          "Already at 2 — current state",
+          "12 May CPI prints exactly at consensus (3.3% YoY) with DXY consolidating 97–98"
+        ],
+        "decrease_to_1_if": [
+          "12 May CPI ≥3.5% YoY AND positioning squeeze adds 1.5%+ to DXY",
+          "Iran re-ignition AND DXY breaks 99.30 to upside"
+        ]
+      },
+      "risk_reward": {
+        "base_case_payoff": "DXY 97.93 → 96.50–97.50 = -50 to -150 pips (-0.5% to -1.5%) USD weakness; via long EUR/USD ~+200–300 pips",
+        "downside_case_loss": "DXY 97.93 → 99.50–100.50 = +150 to +250 pips (+1.5% to +2.5%) USD strength; via long EUR/USD ~-300–400 pips",
+        "risk_reward_ratio": "~1:1 (slightly negative skew due to upside squeeze potential of 1–2% from positioning crowd)",
+        "asymmetry_assessment": "Roughly symmetric payoff at tactical horizon, with mild negative skew because the dominant near-term risk is a positioning squeeze that could exceed the directional downside on a hot CPI. Recommended sizing accordingly modest at 0.25–0.5% NAV via long EUR/USD with stop 1.155, target 1.18 over 4 weeks."
+      }
+    },
+    "strategic": {
+      "net_stance": "Bearish",
+      "conviction": 3,
+      "overall_confidence": 65,
+      "weighted_score": {
+        "calculation": [
+          {
+            "factor": "1. Policy & Rates",
+            "stance_score": -1,
+            "confidence_pct": 65,
+            "confidence_adjusted_score": -0.65,
+            "weight": 0.24,
+            "weighted_contribution": -0.156
+          },
+          {
+            "factor": "2. Inflation & Growth",
+            "stance_score": -1,
+            "confidence_pct": 65,
+            "confidence_adjusted_score": -0.65,
+            "weight": 0.1,
+            "weighted_contribution": -0.065
+          },
+          {
+            "factor": "3. Risk Appetite",
+            "stance_score": -1,
+            "confidence_pct": 55,
+            "confidence_adjusted_score": -0.55,
+            "weight": 0.05,
+            "weighted_contribution": -0.028
+          },
+          {
+            "factor": "4. Flows & Positioning",
+            "stance_score": 0,
+            "confidence_pct": 50,
+            "confidence_adjusted_score": 0.0,
+            "weight": 0.06,
+            "weighted_contribution": 0.0
+          },
+          {
+            "factor": "5. External Balance",
+            "stance_score": -1,
+            "confidence_pct": 70,
+            "confidence_adjusted_score": -0.7,
+            "weight": 0.16,
+            "weighted_contribution": -0.112
+          },
+          {
+            "factor": "6. Guidance & Credibility",
+            "stance_score": -1,
+            "confidence_pct": 65,
+            "confidence_adjusted_score": -0.65,
+            "weight": 0.12,
+            "weighted_contribution": -0.078
+          },
+          {
+            "factor": "7. Event Risk",
+            "stance_score": -1,
+            "confidence_pct": 50,
+            "confidence_adjusted_score": -0.5,
+            "weight": 0.05,
+            "weighted_contribution": -0.025
+          },
+          {
+            "factor": "8. Fiscal & Sovereign",
+            "stance_score": -1,
+            "confidence_pct": 70,
+            "confidence_adjusted_score": -0.7,
+            "weight": 0.07,
+            "weighted_contribution": -0.049
+          },
+          {
+            "factor": "9. Market Structure",
+            "stance_score": -1,
+            "confidence_pct": 55,
+            "confidence_adjusted_score": -0.55,
+            "weight": 0.03,
+            "weighted_contribution": -0.017
+          },
+          {
+            "factor": "10. USD Liquidity",
+            "stance_score": -1,
+            "confidence_pct": 60,
+            "confidence_adjusted_score": -0.6,
+            "weight": 0.12,
+            "weighted_contribution": -0.072
+          }
+        ],
+        "net_score": -0.602,
+        "interpretation": "Net score -0.602 represents a decisively Bearish read with no factor providing a counterweight. Nine of ten factors are bearish at strategic horizon; Flows & Positioning is the only Neutral. The five largest bearish contributors — Policy & Rates (-0.156), External Balance (-0.112), Guidance & Credibility (-0.078), USD Liquidity (-0.072), and Inflation & Growth (-0.065) — together account for -0.483 of the total -0.602, meaning more than 80% of the bearish signal comes from the highest-weighted factors.",
+        "mapping_to_conviction": "Net score -0.602 → Conviction 3/5 (Bearish, decisive directional view). Net score below -0.50 indicates clear conviction; below -0.75 would map to Conviction 4/5; below -0.90 to Conviction 5/5. Current Conviction 3 reflects clear directional read but acknowledges 25–30% probability of regime shocks (Iran re-ignition, US-exceptionalism, fiscal crisis) that could disrupt the strategic path."
+      },
+      "rationale": "The strategic synthesis is decisively Bearish USD because all 10 factors tilt bearish or neutral; not a single factor is bullish at strategic horizon. The dominant negative contributors are Policy & Rates (-0.156 weighted, the largest factor weight at 0.24), External Balance (-0.112 weighted, second-largest at 0.16), Guidance & Credibility (-0.078, the third-most material at 0.12), USD Liquidity (-0.072), and Inflation & Growth (-0.065). These five factors alone contribute -0.483 of the -0.602 net score. The factor interactions are uniformly reinforcing: rate convergence (F1) feeds into growth slowdown (F2) which weakens external balance (F5) which reduces reserve currency status (F6 + F8) which constrains the Fed's reaction function (F6) which weakens USD funding regime (F10). There is no strategic factor providing a counterweight — Flows & Positioning is Neutral because the contrarian-squeeze argument fades over 6 months; Event Risk and Market Structure are Bearish but small. What is priced: the consensus has now caught up to USD bearish (MUFG -5% DXY, Goldman 1.25 EUR/USD 12M, ABN AMRO 1.21 12M, JPM 1.20–1.22) — meaning the strategic view is no longer contrarian. The remaining edge is in timing and magnitude: we expect more front-loaded USD weakness in Q3 (driven by 12 May CPI cool, 16–17 June FOMC dovish, post-Iran-deal oil unwind, Powell-Warsh transition completion) than gradual H2 weakening that consensus expects. Path of least resistance: DXY toward 92–95 by Q3 2026, with EUR/USD toward 1.20–1.22 and USD/JPY toward 145–150. Key strategic catalysts: 16–17 June FOMC + SEP, Jackson Hole August (Warsh's first), Q2 earnings July, Treasury Q3 refunding July, 3 November US midterms, 15–16 December FOMC. Conviction drivers: 9 of 10 factors bearish; consensus alignment; structural weight in External Balance and Guidance; bearish MA configuration; fiscal trajectory unsustainable. Actionability is high — the strategic view supports patient short-USD positioning across multiple expressions (long EUR/USD, short USD/JPY, long gold, long AUD/USD on dips) with 3–6 month holding horizons.",
+      "g10_ranking": {
+        "rank": 10,
+        "out_of": 11,
+        "beats": [
+          "NZD"
+        ],
+        "loses_to": [
+          "EUR",
+          "JPY",
+          "CHF",
+          "GBP",
+          "AUD",
+          "CAD",
+          "SGD",
+          "NOK",
+          "SEK"
+        ],
+        "commentary": "USD's structural underperformance versus virtually every G10 peer reflects the unique combination of stagflation, fiscal trajectory, Fed-independence overhang, and reserve-currency erosion — a combination not present in any single peer. The ranking is supported by bank consensus that universally has USD weakening through 2026. Only NZD (RBNZ cycle complete, fiscal drag, dairy-export softness) is expected to underperform USD strategically."
+      },
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "outcome": "DXY at 92–95 by end-Q3 2026; EUR/USD 1.20–1.22; USD/JPY 145–150",
+          "conditions": [
+            "Fed delivers 50–75bps cuts H2 2026",
+            "Iran ceasefire holds; oil settles $80–90",
+            "Q2 GDP +1.5–2.5%; CPI moderates to 2.7–3.0% by Q3"
+          ],
+          "path": "Grind lower with 1–2 corrective bounces; phase 1 (May-June) to 95.50 ahead of FOMC; phase 2 (Jul-Aug) consolidation 95–97; phase 3 (Sep-Oct) break toward 92–93."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "outcome": "DXY rebounds to 99–101 by Q3",
+          "conditions": [
+            "Iran re-ignition reignites war risk premium; OR Q2 GDP rebounds >3% on tariff-policy clarity creating US-exceptionalism narrative",
+            "OR fiscal-stress-driven auction crisis triggers global flight to USD safety"
+          ]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "outcome": "DXY breaks 92 toward 88–90",
+          "conditions": [
+            "Recession (30% probability per JPM/Goldman) forces 100bps+ cuts",
+            "Treasury auction failure or Fed-independence-related crisis; OR reserve-allocation shock from major sovereign"
+          ]
+        }
+      },
+      "path_expectation": "The strategic 1–6 month path features a U-shaped decline with two consolidation phases: phase 1 (May-June) sees DXY break 97 and grind to 95.50 ahead of the 16–17 June FOMC; phase 2 (July-August) sees DXY trade in the 95–97 range as the Powell-Warsh transition completes and Q2 earnings season tests risk-on narrative; phase 3 (September-October) sees DXY break 95 toward 92–93 as Fed delivers cuts and pre-midterm political risk premium builds. Volatility expectations: vol expansion in late June around FOMC (1M IV to 9–10%), modest decline through July, re-expansion in October pre-midterms. Pullback levels: 98.50 (50d MA, primary resistance), 99.30 (recent pivot), 100.50 (June high). The pattern shape is grind-with-pullbacks, not a spike-and-fade.",
+      "conviction_ladder": {
+        "current": 3,
+        "increase_to_5_if": [
+          "All Conviction-4 conditions PLUS 30Y UST sustains <4.50% (signaling fiscal stress dissipating without crisis)",
+          "Consensus EUR/USD 12M target lifts to 1.28+ AND DXY breaks 92 sustained"
+        ],
+        "increase_to_4_if": [
+          "12 May CPI ≤3.1% YoY AND June FOMC dot plot lowered AND Iran deal signed",
+          "DXY breaks 95.50 sustained for 5+ days AND positioning rebuild stalls"
+        ],
+        "decrease_to_3_if": [
+          "Already at 3 — current state",
+          "Mixed catalyst resolution keeping the structural picture intact"
+        ],
+        "decrease_to_2_if": [
+          "Q2 GDP rebounds to >3.5% AND Fed delivers no cut by September",
+          "Iran re-ignition with multi-week oil shock"
+        ],
+        "decrease_to_1_if": [
+          "US-exceptionalism narrative re-engages with strong NFP/PMI/GDP cluster",
+          "DXY breaks 100 sustained AND consensus FX forecasts lift"
+        ]
+      },
+      "risk_reward": {
+        "base_case_payoff": "DXY 97.93 → 92–95 = -300 to -600 pips (-3% to -6%) USD weakness; via long EUR/USD ~+400–600 pips",
+        "downside_case_loss": "DXY 97.93 → 99–101 = +100 to +300 pips (+1% to +3%) USD strength; via long EUR/USD ~-300–500 pips",
+        "risk_reward_ratio": "2:1 to 4:1 favourable (clear bearish skew via long EUR/USD with 3–6 month horizon)",
+        "asymmetry_assessment": "Strongly favourable asymmetry: base case payoff of 3–6% USD weakness vs downside of 1–3% USD strength yields expected value comfortably positive. Recommended sizing: 1–2% NAV via long EUR/USD core position with stop 1.155, target 1.20–1.22 over 3–6 months; supplement with short USD/JPY into 158, target 148."
+      }
+    },
+    "consensus_divergence": {
+      "consensus_view": "Bank consensus from MUFG (May 2026), Goldman (Aug 2025 update), ABN AMRO (2026 Outlook), BNP Paribas (Nov 2025), JPM (2026 Outlook), Morgan Stanley, and ING is decisively Bearish USD: DXY end-2026 in 92–96 range (most bearish: MUFG -5%; least bearish: JPM ~98); EUR/USD end-2026 1.20–1.25 (Goldman 1.25, MUFG 1.24, BNP 1.24, ABN 1.21, JPM 1.20–1.22, MS 1.16 fade); USD/JPY end-2026 140–155 (Goldman/BNP 140s, JPM 164 outlier hawk, ING 153).",
+      "our_view": "DXY at 92–95 by end-Q3 2026 (more bearish than consensus mid-point, more front-loaded); EUR/USD at 1.20–1.22 by end-Q3 (in line on level, faster timing); USD/JPY at 145–150 by end-Q3 (in line with consensus average).",
+      "divergence_magnitude": "Small on level (within consensus range), meaningful on timing — we expect 70% of the strategic move complete by end-Q3 2026 versus consensus expecting gradual H2 unfolding into Q4.",
+      "why_we_differ": "The market is underweighting (a) the speed of consensus capitulation feeding back into positioning unwind; (b) the Powell-Warsh transition's dovish surprise potential; (c) the fiscal-driven term-premium dynamic that mechanistically weakens USD on the long end; (d) the post-Iran-deal oil unwind that removes residual war-risk USD support; (e) the Atlanta Fed GDPNow Q2 +3.7% being likely overstated given five-year average -50bp early-quarter revisions.",
+      "payoff_if_right": "DXY at 94–95 by end-Q3 generates 3–4% USD short returns within a quarter, with volatility-adjusted Sharpe estimated 1.2–1.5 — strong tactical-strategic blended trade.",
+      "risk_if_wrong": "DXY drifts to 96–98 over 6–9 months instead of 92–95 in 3 months — slower returns of 2–3% but in same direction; not a disaster scenario, just slower realization."
+    },
+    "cross_currency_relative_value": {
+      "cleanest_bullish_expression": {
+        "pair": "DXY long via short EUR/USD",
+        "rationale": "If USD-bullish view emerged (e.g., hot 12 May CPI), the cleanest expression would be short EUR/USD because (a) EUR is 57.6% of DXY; (b) asset manager EUR long is at 5Y high (most crowded short-USD trade to squeeze); (c) UST-Bund spread can re-widen on hawkish Fed surprise. Stop 1.18, target 1.13 on regime shock."
+      },
+      "cleanest_bearish_expression": {
+        "pair": "Long EUR/USD",
+        "rationale": "Cleanest because (a) ECB done cutting at DFR 2.00%, providing rate-differential floor; (b) European fiscal stimulus narrative (German fiscal package); (c) PPP fair value 1.23 (5%+ undervalued); (d) asset manager positioning extreme but supported by structural drivers; (e) UST-Bund 10Y spread compressing. Long 1.16, stop 1.155, target 1.20–1.22 over 3–6 months."
+      },
+      "relative_value_pairs": [
+        {
+          "pair": "Short USD/JPY",
+          "thesis": "Best risk/reward via MOF intervention defence at 158, target 145–150, with BoJ hiking trajectory providing natural carry tailwind. JPY remains ~55% undervalued on PPP (extreme); structural unwind asymmetric vs limited carry cost."
+        },
+        {
+          "pair": "Long gold (XAU/USD)",
+          "thesis": "Structural USD-debasement hedge; cycle of Fed cuts + fiscal trajectory + reserve diversification all support gold; current level $4,725 well off Jan peak provides good entry vs strategic targets $5,200+."
+        },
+        {
+          "pair": "Long EUR/CHF",
+          "thesis": "Fade extreme CHF strength; SNB intervention overhang; rate differential narrowing favourable to EUR. Entry near 0.94, target 0.97 over 3 months."
+        },
+        {
+          "pair": "Long AUD/NZD",
+          "thesis": "RBA hawkish trajectory at 4.35% vs RBNZ cycle complete at 2.25% creates 210bp positive carry plus directional advantage; cleanest within Antipodean complex."
+        }
+      ]
+    },
+    "cross_horizon_consistency": {
+      "aligned": true,
+      "summary": "Tactical Mild Bearish (conv 2) and strategic Bearish (conv 3) are directionally aligned with strategic conviction higher.",
+      "divergence_explanation": "Strictly speaking the horizons are aligned in direction (both bearish), but conviction differs because the tactical horizon contains binary near-term data risk (8 May NFP, 12 May CPI) that could swing the directional view temporarily, while the strategic horizon's dominant factors (External Balance 0.16, Policy & Rates 0.24, Guidance & Credibility 0.12, USD Liquidity 0.12) all reinforce structural USD weakness with limited binary-resolution risk. The thesis strengthens over time as more cuts get priced and delivered, more fiscal supply hits the long end, more reserve diversification accumulates, and more US institutional credibility erosion compounds.",
+      "inflection_point": "No directional inflection expected — both horizons trend in same direction. Conviction inflection: Conviction 3→4 likely after the 16–17 June FOMC if dovish dot revision occurs alongside the 12 May CPI cool print.",
+      "catalyst_for_transition": "16–17 June FOMC + new SEP is the primary tactical-to-strategic transition catalyst; resolution of the binary 12 May CPI is the secondary catalyst.",
+      "trading_implication": "Patient strategic-horizon positioning (3–6 month holds) supported with smaller tactical positioning given binary CPI/NFP risk that could trigger 1–2% squeeze. Core trade: long EUR/USD with strategic 3–6 month hold; tactical scaling around 12 May CPI."
+    },
+    "forward_vs_spot": {
+      "spot": "EUR/USD 1.1650 (primary pair; largest DXY weight; cleanest USD bearish expression)",
+      "forwards": {
+        "1m": {
+          "points": "+18",
+          "outright": "1.1668",
+          "annualised_pct": "+1.85% annualised (carry-implied EUR appreciation; USD-EUR rate diff ~175bp)"
+        },
+        "3m": {
+          "points": "+57",
+          "outright": "1.1707",
+          "annualised_pct": "+1.95% annualised"
+        },
+        "6m": {
+          "points": "+122",
+          "outright": "1.1772",
+          "annualised_pct": "+2.10% annualised"
+        }
+      },
+      "expected_spot": {
+        "1m": "1.1700 (consistent with forwards; tactical Neutral-Mild Bearish USD)",
+        "3m": "1.19–1.21 (above 3M forward 1.1707 by 200–400 pips)",
+        "6m": "1.20–1.22 (above 6M forward 1.1772 by 230–430 pips)"
+      },
+      "edge": {
+        "1m": "+30 pips (forward 1.1668 vs expected 1.1700) — small near-term edge",
+        "3m": "+200 to +400 pips (forward 1.1707 vs expected 1.19–1.21) — meaningful",
+        "6m": "+230 to +430 pips (forward 1.1772 vs expected 1.20–1.22) — strongest edge"
+      },
+      "interpretation": "Forward-implied EUR appreciation over 12M is roughly 2.15% (driven by USD-EUR carry differential of ~175bp). Our quantifiable edge of 200–430 pips over 3–6 months versus forward pricing means the strategic short-USD trade has positive expected value relative to forwards. The 1M edge is small (~30 pips); the 3M+ edge is meaningful, supporting patient strategic positioning over reactive tactical scalping."
+    }
+  },
+  "forward_looking": {
+    "key_catalysts": [
+      {
+        "date": "2026-05-07",
+        "event": "Norges Bank policy decision",
+        "expected_impact": "Neutral",
+        "rationale": "Norges Bank holding 4.00% with hike-bias signal would marginally widen NOK-USD rate gap from +25bp; tilts USD/NOK lower. Direct USD impact minimal but contributes to broader G10 hawkish-relative-to-Fed narrative.",
+        "priced_in": "Partially — market expects hold with hawkish tone",
+        "bilateral_relevance": "USD/NOK",
+        "citations": [
+          9
+        ]
+      },
+      {
+        "date": "2026-05-07",
+        "event": "Riksbank policy decision",
+        "expected_impact": "Neutral",
+        "rationale": "Riksbank at 1.75% has -200bp gap to USD; dovish tilt would weaken SEK at the margin against USD. Direct USD impact is minimal.",
+        "priced_in": "Partially — hold expected",
+        "bilateral_relevance": "USD/SEK",
+        "citations": [
+          9
+        ]
+      },
+      {
+        "date": "2026-05-08",
+        "event": "US April Non-Farm Payrolls",
+        "expected_impact": "Ambiguous",
+        "rationale": "Binary resolution of labour-market trajectory; payback from March +178k (which itself was rebound from Feb -133k strike-distorted print) is the key risk; weak print accelerates Fed cut pricing while strong print supports USD.",
+        "priced_in": "Consensus ~150k; market vol pricing modest event premium (~7.7% USD/JPY 3M IV)",
+        "bilateral_relevance": "All USD pairs; particularly USD/JPY, EUR/USD",
+        "citations": [
+          12
+        ]
+      },
+      {
+        "date": "2026-05-12",
+        "event": "US April CPI",
+        "expected_impact": "Ambiguous",
+        "rationale": "Highest-impact tactical binary given Fed dot-OIS gap convergence; energy passthrough peak month; Cleveland Fed nowcast suggests upside risk. Hot ≥+0.4% MoM lifts USD 0.5–1%; cool ≤+0.2% weakens USD similarly.",
+        "priced_in": "Consensus +0.3% MoM/3.4% YoY",
+        "bilateral_relevance": "All USD pairs; greatest impact EUR/USD and USD/JPY",
+        "citations": [
+          11
+        ]
+      },
+      {
+        "date": "2026-05-15",
+        "event": "Powell-Warsh Fed Chair transition",
+        "expected_impact": "Bearish",
+        "rationale": "First major institutional event; markets react to first Warsh public commentary; Powell remaining on Board adds dual-leadership ambiguity and is read as net dovish institutional outcome. Hawkish Warsh surprise would invert this.",
+        "priced_in": "Largely priced; surprises in either direction would move USD",
+        "bilateral_relevance": "All USD pairs",
+        "citations": [
+          4,
+          5
+        ]
+      },
+      {
+        "date": "2026-05-28",
+        "event": "US Q1 GDP 2nd estimate",
+        "expected_impact": "Ambiguous",
+        "rationale": "Revisions to advance estimates can shift narrative; upward revision (e.g., to +2.5%) softens stagflation framing and supports USD; downward revision reinforces Bearish thesis.",
+        "priced_in": "Consensus expects in-line revision",
+        "bilateral_relevance": "EUR/USD, USD/JPY",
+        "citations": [
+          13,
+          14
+        ]
+      },
+      {
+        "date": "2026-05-30",
+        "event": "US April PCE inflation",
+        "expected_impact": "Ambiguous",
+        "rationale": "Fed's preferred measure; April energy passthrough; sets up June FOMC framing. Hot >+0.3% MoM core lifts USD; cool ≤+0.2% weakens USD.",
+        "priced_in": "Consensus +0.3% MoM core",
+        "bilateral_relevance": "All USD pairs",
+        "citations": [
+          13
+        ]
+      },
+      {
+        "date": "2026-06-11",
+        "event": "ECB policy decision",
+        "expected_impact": "Bearish",
+        "rationale": "ECB at 2.00% DFR; market pricing hold; further hawkish tilt narrows UST-Bund spread further (currently +125bp, lower quartile). EUR rally on hawkish guidance translates to broad USD weakness.",
+        "priced_in": "Hold expected with cautious tone",
+        "bilateral_relevance": "EUR/USD primarily",
+        "citations": [
+          40
+        ]
+      },
+      {
+        "date": "2026-06-17",
+        "event": "FOMC meeting + new SEP",
+        "expected_impact": "Bearish",
+        "rationale": "Most material macro catalyst in horizon; Warsh's first FOMC, new SEP releases, Powell still on Board — multiple credibility tests. Dovish dot revision (e.g., to 3.125%) would crystallise USD bearish thesis; hawkish stay-at-3.375% would lift USD.",
+        "priced_in": "Market expects hold with modestly dovish dots",
+        "bilateral_relevance": "All USD pairs",
+        "citations": [
+          1,
+          2,
+          7
+        ]
+      },
+      {
+        "date": "2026-06-18",
+        "event": "BoE / BoJ / SNB / Norges Bank meeting cluster",
+        "expected_impact": "Ambiguous",
+        "rationale": "Cross-pacific rate differential dynamic; BoJ trajectory remains key for USD/JPY. Hawkish BoJ tilt or SNB cut-pause would broadly weaken USD via cross-pair rate convergence.",
+        "priced_in": "Consensus holds across the cluster",
+        "bilateral_relevance": "USD/JPY, USD/CHF, GBP/USD",
+        "citations": [
+          40
+        ]
+      },
+      {
+        "date": "2026-07-W4",
+        "event": "Q2 US GDP advance estimate",
+        "expected_impact": "Ambiguous",
+        "rationale": "Resolves the Q1 stall question; Atlanta Fed GDPNow currently +3.7% suggests upside surprise potential, but five-year revision pattern suggests softer print. Strong ≥+3% supports US-exceptionalism narrative; weak ≤+1.5% accelerates Fed cuts.",
+        "priced_in": "Consensus 2.0–2.5%",
+        "bilateral_relevance": "All USD pairs",
+        "citations": [
+          13,
+          16
+        ]
+      },
+      {
+        "date": "2026-08-W4",
+        "event": "Jackson Hole Symposium",
+        "expected_impact": "Ambiguous",
+        "rationale": "Direction depends on Warsh keynote — hawkish framework articulation supports USD; pragmatic-dovish framing weakens USD. Sets policy framing for 2027 framework.",
+        "priced_in": "Anticipation building; surprise potential meaningful",
+        "bilateral_relevance": "All USD pairs",
+        "citations": [
+          4,
+          5
+        ]
+      },
+      {
+        "date": "2026-11-03",
+        "event": "US Midterm Elections",
+        "expected_impact": "Bearish",
+        "rationale": "Trump approval at 22% on cost-of-living; Democrat House gains likely; fiscal-political deadlock raises USD risk premium. Bearish skew via political risk premium build-up over Q4.",
+        "priced_in": "Not yet priced; building over Q4",
+        "bilateral_relevance": "All USD pairs",
+        "citations": [
+          37
+        ]
+      },
+      {
+        "date": "2026-12-16",
+        "event": "December FOMC + new SEP",
+        "expected_impact": "Ambiguous",
+        "rationale": "Final FOMC of 2026; sets 2027 dot-plot framing. Hawkish year-end stance lifts USD; accelerated cut path weakens USD.",
+        "priced_in": "Market currently expects ~25bp cut by year-end",
+        "bilateral_relevance": "All USD pairs",
+        "citations": [
+          1,
+          7
+        ]
+      }
+    ],
+    "invalidators": [
+      {
+        "condition": "April CPI prints ≥+0.4% MoM and core CPI ≥+0.3% MoM",
+        "new_stance": "Bullish",
+        "mechanism": "Hot prints invalidate cut pricing, force OIS to re-price hawkishly, and trigger short-USD positioning squeeze across the G10 — a multi-channel USD-positive shock.",
+        "monitor_indicator": "BLS CPI release",
+        "monitor_frequency": "Monthly (12 May for April)",
+        "quantitative_threshold": "≥+0.4% MoM headline OR ≥+0.3% MoM core",
+        "probability_pct": 25
+      },
+      {
+        "condition": "Operation Epic Fury re-ignites (Trump bombing resumes; Iran rejects MoU; second Hormuz closure event)",
+        "new_stance": "Bullish",
+        "mechanism": "War risk premium re-engages dollar-smile-left-side flows; gold and USD rally together as in February-March; positioning unwinds anti-USD trades violently.",
+        "monitor_indicator": "State Department, Pentagon press briefings; oil price >$110 sustained",
+        "monitor_frequency": "Daily",
+        "quantitative_threshold": "WTI >$110 sustained 3+ days OR formal Pentagon resumption announcement",
+        "probability_pct": 25
+      },
+      {
+        "condition": "Q2 GDP advance prints ≥+3.5% SAAR and Q2 Atlanta Fed GDPNow tracks this through July",
+        "new_stance": "Neutral",
+        "mechanism": "US-exceptionalism narrative re-engages, dollar smile shifts to right side, Fed cut pricing is unwound.",
+        "monitor_indicator": "Atlanta Fed GDPNow weekly; BEA July release",
+        "monitor_frequency": "Weekly",
+        "quantitative_threshold": "GDPNow sustained >3.5% through mid-July",
+        "probability_pct": 20
+      },
+      {
+        "condition": "Treasury auction failure or 30Y UST sustains >5.50% (signaling fiscal-driven term-premium spiral)",
+        "new_stance": "Bearish",
+        "mechanism": "Bond markets force fiscal discipline or precipitate USD crisis; dollar-smile shifts to 'stress USD weakness' rather than 'stress USD strength' because the source of stress is US-domestic fiscal rather than global risk-off — pushing strategic conviction to maximum.",
+        "monitor_indicator": "TreasuryDirect auction tape; 30Y yield",
+        "monitor_frequency": "Weekly (auction days)",
+        "quantitative_threshold": "30Y >5.25% sustained 5+ trading days OR auction tail >+5bps",
+        "probability_pct": 15
+      },
+      {
+        "condition": "Powell-Warsh transition produces hawkish surprise (Warsh inaugural commentary signaling no cuts in 2026)",
+        "new_stance": "Neutral",
+        "mechanism": "Rate-differential-driven USD support resumes; short-USD positioning unwinds; OIS path re-prices toward terminal 3.50–3.75%.",
+        "monitor_indicator": "Warsh post-confirmation media tour; first FOMC press conference 17 June",
+        "monitor_frequency": "Ad hoc",
+        "quantitative_threshold": "Warsh explicit statement that 'no cuts likely in 2026'",
+        "probability_pct": 20
+      },
+      {
+        "condition": "Iran deal signed and oil settles below $75",
+        "new_stance": "Bearish",
+        "mechanism": "Removes residual war-risk USD support, accelerates OPEC+ production normalization, allows Fed to focus on growth-only with one-sided cut bias — pushes strategic conviction higher.",
+        "monitor_indicator": "WTI/Brent spot, OPEC+ communiques",
+        "monitor_frequency": "Daily",
+        "quantitative_threshold": "WTI <$75 sustained 5 trading days post-deal",
+        "probability_pct": 35
+      },
+      {
+        "condition": "Risk-off shock (S&P 500 -10% from current 7,365 level) triggered by earnings, geopolitics, or recession data",
+        "new_stance": "Neutral",
+        "mechanism": "Dollar-smile-left-side activates, USD safe-haven demand temporarily dominates structural drivers — does not invalidate strategic thesis but suspends tactical bearish read.",
+        "monitor_indicator": "S&P 500, VIX, IG OAS",
+        "monitor_frequency": "Daily",
+        "quantitative_threshold": "S&P -10% from 7,365 OR VIX >30 sustained",
+        "probability_pct": 25
+      }
+    ],
+    "signposts": [
+      {
+        "indicator": "DXY",
+        "current_level": "97.93 (6 May 2026 close)",
+        "threshold_confirms": "Breaks 97.00 sustained for 5+ days, then 95.50",
+        "threshold_invalidates": "Rallies above 99.30 (recent pivot) sustained or above 101.50 (200d MA)",
+        "bilateral_importance": "All USD pairs; represents broad USD basket",
+        "source_url": "https://www.tradingview.com/symbols/TVC-DXY/",
+        "frequency": "Daily"
+      },
+      {
+        "indicator": "EUR/USD",
+        "current_level": "1.1650",
+        "threshold_confirms": "Breaks 1.1700 sustained, then 1.1850 (recent high)",
+        "threshold_invalidates": "Breaks 1.155 (recent support) sustained",
+        "bilateral_importance": "57.6% of DXY; the cleanest USD-bearish expression",
+        "source_url": "https://finance.yahoo.com/quote/EURUSD%3DX",
+        "frequency": "Daily"
+      },
+      {
+        "indicator": "US 10Y Treasury yield",
+        "current_level": "4.35%",
+        "threshold_confirms": "Declines below 4.20% on dovish Fed pricing without fiscal stress",
+        "threshold_invalidates": "Breaks 4.60% sustained (hawkish Fed re-pricing) OR breaks 4.80% on fiscal-driven term-premium spike (different mechanisms; opposite USD implications)",
+        "bilateral_importance": "USD/JPY especially; broad USD via rate channel",
+        "source_url": "https://www.cnbc.com/quotes/US10Y",
+        "frequency": "Daily"
+      },
+      {
+        "indicator": "WTI Crude Oil",
+        "current_level": "~$95–96/bbl (6 May)",
+        "threshold_confirms": "Settles in $80–90 range (war risk premium fully unwinds, no sustained shock)",
+        "threshold_invalidates": "Rallies sustained above $105 (war re-ignition or major supply shock)",
+        "bilateral_importance": "USD/CAD, USD/NOK; indirect via inflation expectations channel",
+        "source_url": "https://tradingeconomics.com/commodity/crude-oil",
+        "frequency": "Daily"
+      },
+      {
+        "indicator": "CFTC TFF DXY net spec positioning",
+        "current_level": "Light long (rebuilt from 14-year bear extreme; ~18th percentile)",
+        "threshold_confirms": "Positioning remains neutral/light long (no excessive rebuild) — leaves room for sustained USD weakness",
+        "threshold_invalidates": "Net spec position rebuilds to >+50,000 contracts (would signal positioning fuel exhausted, further USD weakness less likely)",
+        "bilateral_importance": "Broad USD; particularly EUR/USD, USD/JPY",
+        "source_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
+        "frequency": "Weekly (Tuesday data, Friday release)"
+      },
+      {
+        "indicator": "Atlanta Fed GDPNow Q2 estimate",
+        "current_level": "+3.7% (5 May update)",
+        "threshold_confirms": "Revised down to ≤+2.0% by mid-July (consistent with stagflation thesis)",
+        "threshold_invalidates": "Holds ≥+3.5% through July with confirming hard data (US-exceptionalism scenario)",
+        "bilateral_importance": "All USD pairs",
+        "source_url": "https://www.atlantafed.org/research-and-data/data/gdpnow/current-and-past-gdpnow-commentaries",
+        "frequency": "Weekly"
+      },
+      {
+        "indicator": "Fed Funds futures December 2026 implied rate",
+        "current_level": "~3.50% (one cut priced)",
+        "threshold_confirms": "Declines to ≤3.25% (pricing two+ cuts)",
+        "threshold_invalidates": "Rises to ≥3.75% (pricing no cuts)",
+        "bilateral_importance": "USD/JPY most directly via rate-differential channel",
+        "source_url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
+        "frequency": "Daily"
+      },
+      {
+        "indicator": "S&P 500",
+        "current_level": "7,365.12 (record 6 May)",
+        "threshold_confirms": "Holds 7,000–7,500 range (risk-on regime persists supporting USD weakness via dollar-smile bottom)",
+        "threshold_invalidates": "Breaks 6,800 sustained (risk-off shock activates dollar-smile-left-side)",
+        "bilateral_importance": "Broad USD via dollar smile",
+        "source_url": "https://www.cnbc.com/quotes/.SPX",
+        "frequency": "Daily"
+      }
+    ]
+  },
+  "change_since_last_report": {
+    "factors_changed": [
+      {
+        "factor": "1. Policy & Rates (tactical)",
+        "previous_stance": "Bullish",
+        "new_stance": "Neutral",
+        "reason": "April 29 FOMC delivered 8-4 split rather than prior 11-1 hawkish hold; OIS-dot gap converged near zero eliminating hawkish repricing potential; carry channel fully priced and inert."
+      },
+      {
+        "factor": "2. Inflation & Growth (tactical)",
+        "previous_stance": "Bullish",
+        "new_stance": "Neutral",
+        "reason": "Q1 GDP advance printed +2.0% versus +2.3% consensus — first sub-consensus print since 2024; Atlanta Fed GDPNow +3.7% likely overstated; binary CPI/NFP risk replaces directional view."
+      },
+      {
+        "factor": "3. Risk Appetite (tactical)",
+        "previous_stance": "Neutral",
+        "new_stance": "Bearish",
+        "reason": "S&P 500 broke to record 7,365 May 6 on Iran-deal optimism; VIX 17, IG OAS at 25Y tights — firm risk-on regime that pins USD to dollar-smile bottom."
+      },
+      {
+        "factor": "5. External Balance (tactical)",
+        "previous_stance": "Bullish",
+        "new_stance": "Neutral",
+        "reason": "Oil correction from $106 peak to $93–96 reduces petrodollar/terms-of-trade USD support; war risk premium unwinding; net energy exporter benefit dampened."
+      },
+      {
+        "factor": "7. Event Risk (tactical)",
+        "previous_stance": "Bullish",
+        "new_stance": "Bearish",
+        "reason": "Operation Epic Fury declared 'over' May 5; war risk premium fully unwinding; Project Freedom paused pending Iran MoU response — net direction USD-negative even with re-ignition tail."
+      },
+      {
+        "factor": "9. Market Structure (tactical)",
+        "previous_stance": "Bullish",
+        "new_stance": "Bearish",
+        "reason": "DXY broke below 50d MA (98.5) and remains below 200d MA (101.5); bearishly stacked configuration now; spot 97.93 trading toward 97.00 round-number support."
+      },
+      {
+        "factor": "10. USD Liquidity (strategic)",
+        "previous_stance": "Neutral",
+        "new_stance": "Bearish",
+        "reason": "QT confirmed ended December 2025; reserve-management T-bill purchases tapered post-15 April; abundant funding pinning USD to dollar-smile bottom; no FX swap line draws confirms no left-side stress support."
+      }
+    ],
+    "signposts_triggered": [
+      {
+        "signpost": "DXY break of 100",
+        "outcome": "Triggered (early April)",
+        "implication": "Confirmed strategic short USD signpost; technical capitulation of safe-haven bid"
+      },
+      {
+        "signpost": "Oil correction from $106 peak",
+        "outcome": "Triggered (1–6 May, -10%)",
+        "implication": "Confirmed war risk premium unwind signpost; strategic external balance weakening for USD"
+      },
+      {
+        "signpost": "FOMC institutional fracture",
+        "outcome": "Triggered (April 29, 8-4 vote)",
+        "implication": "Confirmed Guidance & Credibility bearish signpost; institutional credibility erosion confirmed"
+      },
+      {
+        "signpost": "Q1 GDP miss",
+        "outcome": "Triggered (April 30, +2.0% vs +2.3%)",
+        "implication": "Confirmed stagflation signpost; growth disappointment validates strategic Bearish thesis"
+      },
+      {
+        "signpost": "Treasury auction stress",
+        "outcome": "Triggered (late-March 2Y BTC 2.44, +1.8bp tail)",
+        "implication": "Confirmed Fiscal & Sovereign signpost; supply pressure on long end validating term-premium dynamic"
+      }
+    ],
+    "conviction_change": {
+      "previous_tactical": 3,
+      "current_tactical": 2,
+      "previous_strategic": 3,
+      "current_strategic": 3,
+      "explanation": "Tactical conviction reduced from 3/5 to 2/5 because the war-driven Bullish thesis has fully exhausted (DXY round-tripped from 100.5 to 97.93). Strategic conviction unchanged at 3/5 but with materially higher confidence (65% vs estimated 55% prior) because all 10 factors now bearish or neutral and bank consensus has decisively capitulated."
+    },
+    "new_catalysts": [
+      "Powell decision to stay on Board past 15 May (announced April 29)",
+      "April 29 FOMC 8-4 dissent split",
+      "Iran ceasefire announcement May 5 (Rubio statement)",
+      "Suspected MOF JPY intervention May 5–6 from 158 area",
+      "RBA May 5 third hike of 2026 to 4.35%",
+      "S&P 500 record close 7,365 May 6 (post-war risk-on euphoria)",
+      "Q1 GDP advance +2.0% vs +2.3% consensus (April 30)",
+      "Michigan 1Y inflation expectations spike to 4.7% (April vs 3.8% March)",
+      "Treasury Q2 borrowing raised by $79bn (war financing)"
+    ],
+    "thesis_trajectory": "Strengthening"
+  },
+  "seasonality": {
+    "pattern": "May FX seasonality is mildly USD-bearish ('Sell in May' pattern). May is historically the second-weakest month for DXY (after September) with average -0.4% MoM over the past 30 years. Q3 (July-September) is strongly USD-bearish, with September the worst month for DXY (avg -0.7% over 30 years) due to month-end portfolio rebalancing, Treasury issuance peaks, and pre-FOMC positioning.",
+    "relevance_window": "Tactical window: May seasonality (mildly USD-bearish, currently aligned with stance). Strategic window: Q3 seasonality (strongly USD-bearish, materially aligned with strategic Bearish view).",
+    "historical_magnitude": "May DXY: avg -0.4% (30Y); September DXY: avg -0.7% (30Y); summer months net -1.5% on average. Modest signal magnitude — adds 30–50 bps of probability-weighted USD weakness over horizon.",
+    "current_alignment": "Modestly aligned with bearish stance — does not change conviction levels but adds incremental seasonal tailwind to fundamentally driven thesis."
+  },
+  "assumptions": [
+    "Cross-currency basis levels: precise current basis swap levels for EUR/USD 3M and JPY/USD 3M are not retrievable from publicly indexed sources. Estimates use professional aggregator readings (-5 to -8bps EUR/USD; -10 to -15bps USD/JPY) consistent with no Fed FX swap-line draws and normal funding markets.",
+    "3M ATM implied vol levels for EUR/USD and USD/JPY: precise current readings are unavailable from public sources. Estimates use MacroMicro and bank-research aggregator data putting both pairs in lower-half of 12-month range with IV percentile ~30–35th estimated.",
+    "CFTC positioning percentiles: data referenced is from the 28 April release; current week may have shifted modestly. The structural reading of 'rebuilt from 14-year bear extreme; remains anti-USD across G10' is robust to weekly noise.",
+    "Bank consensus FX forecasts: sourced from publicly-accessible aggregator pages because original notes are client-only or paywalled. Direction is reliable but exact targets may differ marginally from primary publications. Goldman Sachs 1.25 12M sourced from August 2025 commentary; current target may have evolved.",
+    "Q1 GDP price index +4.5%: the BEA advance estimate uses incomplete data and the second estimate due 28 May likely revises. The stagflation interpretation rests on this being directionally accurate; downward revision toward 3.5% would soften (but not invalidate) the framing.",
+    "Atlanta Fed GDPNow +3.7%: this estimate persistently overstates early-quarter GDP and tends to revise -50 to -100bp through the quarter; we treat the +3.7% as upper-bound rather than central case for Q2.",
+    "Pentagon war cost ($25bn) versus Brown University ($630bn–$1trn lifetime cost): the gap reflects scope (immediate operational vs lifetime including veterans care, interest, economic disruption). We use $25bn for fiscal-impact analysis as the relevant near-term Treasury financing variable.",
+    "Iran ceasefire stability: assumed 70–75% probability of holding through Q2 2026; tail risk of re-ignition (~25–30% over 4 weeks; ~20% over 6 months) is factored into Event Risk and tail-hedge recommendations.",
+    "PPP fair values: sourced from OECD comparative price levels and ABN AMRO BEER. Precise current PPP estimates vary by methodology (CPI-deflated vs unit-cost-deflated). The 5–14% USD overvaluation range is robust across methodologies.",
+    "Conviction ladder thresholds: calibrated to typical resolution windows for the macro variables (CPI monthly, NFP monthly, FOMC quarterly SEP). Probability estimates in invalidators are subjective Bayesian assessments based on data and recent regime patterns."
+  ],
+  "complete_citations": [
+    {
+      "id": 1,
+      "title": "Federal Reserve issues FOMC statement (April 29, 2026)",
+      "publisher": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 2,
+      "title": "Chair Powell's Press Conference (April 29, 2026)",
+      "publisher": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20260429.pdf",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 3,
+      "title": "Fed interest rate decision April 2026: Fed holds rates steady amid dissent",
+      "publisher": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/29/fed-interest-rate-decision-april-2026.html",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 4,
+      "title": "Fed meeting recap: Powell to stay on board",
+      "publisher": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/29/fed-meeting-today-live-updates-warsh-powell.html",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 5,
+      "title": "Key takeaways from Powell's last meeting as Fed chair",
+      "publisher": "CNN",
+      "url": "https://www.cnn.com/2026/04/29/economy/fed-decision-powell-warsh",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 6,
+      "title": "Fed holds rates steady as Powell's chairmanship winds down: April FOMC",
+      "publisher": "Fox Business",
+      "url": "https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-april-29-2026",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 7,
+      "title": "FOMC Statement: March 2026",
+      "publisher": "J.P. Morgan Asset Management",
+      "url": "https://am.jpmorgan.com/nl/en/asset-management/institutional/insights/portfolio-insights/fixed-income/fixed-income-perspectives/fomc-statement-march-2026/",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 8,
+      "title": "March 2026 Fed Dot Plot Sees Low-3% Fed Funds by 2027",
+      "publisher": "Bondsavvy",
+      "url": "https://www.bondsavvy.com/fixed-income-investments-blog/fed-dot-plot",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 9,
+      "title": "United States Fed Funds Interest Rate",
+      "publisher": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/interest-rate",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 10,
+      "title": "Fed interest rate decision March 2026: Holds rates steady",
+      "publisher": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/18/fed-interest-rate-decision-march-2026.html",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 11,
+      "title": "Consumer Price Index Summary - 2026 M03 Results",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 12,
+      "title": "Employment Situation Summary - 2026 M03 Results",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 13,
+      "title": "GDP (Advance Estimate), 1st Quarter 2026",
+      "publisher": "U.S. Bureau of Economic Analysis",
+      "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-1st-quarter-2026",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 14,
+      "title": "US GDP Rises 2.0% in Q1 2026 - A Closer Look at the Figures",
+      "publisher": "Investing.com",
+      "url": "https://www.investing.com/analysis/us-gdp-rises-20-in-q1-2026--a-closer-look-at-the-figures-200679469",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 15,
+      "title": "U.S. GDP Q1 2026: Growth Rebounds but Inflation Surges to 4.5%",
+      "publisher": "Voice For Liberty",
+      "url": "https://www.wichitaliberty.org/economics/us-gdp-q1-2026-advance-estimate-inflation-stagflation/",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 16,
+      "title": "Current and Past GDPNow Commentaries",
+      "publisher": "Federal Reserve Bank of Atlanta",
+      "url": "https://www.atlantafed.org/research-and-data/data/gdpnow/current-and-past-gdpnow-commentaries",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 17,
+      "title": "Surveys of Consumers",
+      "publisher": "University of Michigan",
+      "url": "https://www.sca.isr.umich.edu/",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 18,
+      "title": "Operation Epic Fury and International Law",
+      "publisher": "U.S. Department of State",
+      "url": "https://www.state.gov/releases/office-of-the-legal-adviser/2026/04/operation-epic-fury-and-international-law",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 19,
+      "title": "Operation Epic Fury has ended: Is the Iran war over?",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/5/6/operation-epic-fury-has-ended-is-the-iran-war-over",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 20,
+      "title": "Day 67 of Middle East conflict - Marco Rubio says Operation Epic Fury in Iran 'is over'",
+      "publisher": "CNN",
+      "url": "https://www.cnn.com/2026/05/05/world/live-news/iran-war-news",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 21,
+      "title": "Crude Oil - Price - Chart - Historical Data - News",
+      "publisher": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/crude-oil",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 22,
+      "title": "WTI Crude Oil Price Today - May 1, 2026: Trading Near $106 - Hormuz Supply Shock",
+      "publisher": "FX Leaders",
+      "url": "https://www.fxleaders.com/news/2026/05/01/wti-crude-oil-price-today-may-1-2026-trading-near-106-hormuz-supply-shock/",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 23,
+      "title": "Brent crude oil - Price - Chart - Historical Data - News",
+      "publisher": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 24,
+      "title": "US Dollar Index (DX-Y.NYB) Historical Data",
+      "publisher": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DX-Y.NYB/history/",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 25,
+      "title": "United States Dollar - Quote - Chart - Historical Data - News",
+      "publisher": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/currency",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 26,
+      "title": "Dollar dominance is surviving the Iran war - just about",
+      "publisher": "Chatham House",
+      "url": "https://www.chathamhouse.org/2026/04/dollar-dominance-surviving-iran-war-just-about",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 27,
+      "title": "Monthly Foreign Exchange Outlook - May 2026",
+      "publisher": "MUFG Research",
+      "url": "https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-may-2026/",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 28,
+      "title": "G10 FX 2026 Outlook in a post-peak USD World",
+      "publisher": "MUFG Research",
+      "url": "https://www.mufgresearch.com/fx/fx-focus-g10-fx-2026-outlook-in-a-post-peak-usd-world-19-december-2025/",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 29,
+      "title": "Goldman Sachs Euro To Dollar Forecast: EUR/USD At 1.25 In 12 Months",
+      "publisher": "Exchange Rates UK",
+      "url": "https://www.exchangerates.org.uk/news/43720/2025-08-06-goldman-sachs-euro-to-dollar-forecast-eur-usd-at-1-25-in-12-months.html",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 30,
+      "title": "The Budget and Economic Outlook: 2026 to 2036",
+      "publisher": "Congressional Budget Office",
+      "url": "https://www.cbo.gov/publication/61882",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 31,
+      "title": "CBO Estimates $1 Trillion Deficit for First Five Months of FY 2026",
+      "publisher": "Committee for a Responsible Federal Budget",
+      "url": "https://www.crfb.org/press-releases/cbo-estimates-1-trillion-deficit-first-five-months-fy-2026",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 32,
+      "title": "Weak Auctions Underscore Risks of our Growing Debt Burden",
+      "publisher": "Committee for a Responsible Federal Budget",
+      "url": "https://www.crfb.org/blogs/weak-auctions-underscore-risks-our-growing-debt-burden",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 33,
+      "title": "US 10 Year Treasury Note Yield - Quote - Chart - Historical Data",
+      "publisher": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 34,
+      "title": "US10Y: U.S. 10 Year Treasury - Stock Price, Quote and News",
+      "publisher": "CNBC",
+      "url": "https://www.cnbc.com/quotes/US10Y",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 35,
+      "title": "Credit Spreads Explained: OAS, IG vs HY & NNN Cap Rates (Q1 2026)",
+      "publisher": "Investment Grade",
+      "url": "https://investmentgrade.com/credit-spreads/",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 36,
+      "title": "United States - ICE BofA US High Yield Index Option-Adjusted Spread",
+      "publisher": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/bofa-merrill-lynch-us-high-yield-option-adjusted-spread-fed-data.html",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 37,
+      "title": "'Misplaced euphoria': Markets are sleepwalking into a recession amid Iran war oil price shock",
+      "publisher": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/04/strait-hormuz-gas-price-oil-shock-recession-risk-economy-iran-us-war.html",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 38,
+      "title": "CFTC Commitments of Traders Short Report - Financial Traders in Markets (Futures Only)",
+      "publisher": "Commodity Futures Trading Commission",
+      "url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 39,
+      "title": "FX Outlook 2026 - More dollar weakness ahead",
+      "publisher": "ABN AMRO",
+      "url": "https://www.abnamro.com/research/en/our-research/fx-outlook-2026-more-dollar-weakness-ahead",
+      "date_accessed": "2026-05-07"
+    },
+    {
+      "id": 40,
+      "title": "European Central Bank keeps rates on hold in the face of inflation threat",
+      "publisher": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/30/european-central-bank-april-2026-rate-decision-inflation-stagflation-risk-iran-war.html",
+      "date_accessed": "2026-05-07"
+    }
+  ]
+}

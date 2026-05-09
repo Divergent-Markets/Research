@@ -1,0 +1,967 @@
+{
+  "base": "EUR",
+  "valuation_date": "2026-05-07",
+  "framework_version": "2.0",
+  "freshness_days_tactical": 30,
+  "freshness_days_strategic": 60,
+
+  "executive_summary": "EUR/USD trades at 1.1734 on 7 May 2026, +1.2% on the month and +3.8% YoY, having recovered from the 15 March war-stress low of 1.1435 but stalling 280 pips below the 27 January year-high of 1.2016. The dominant tension is between an ECB hawkish pivot (April 30 hold framed around 'upside risks intensified,' with OIS pricing ~81% probability of a +25 bp hike at the 4–5 June meeting and ~99 bp of cumulative hikes by year-end) versus a Fed delivering a fractured 8-4 pause at 3.50–3.75% on 29 April with one dissent for a cut and three for hawkish language. The energy-import shock has moderated — Brent at $108/bbl is off its $126 wartime peak but still +55% above the pre-Operation Epic Fury baseline, and TTF at €46.93/MWh is +34% YoY with EU storage at 33.8% (vs 55.0% five-year norm). Eurozone HICP rose to 3.0% YoY in April from 1.9% in February, while core actually softened to 2.2% — the textbook stagflation profile. Q1 GDP printed +0.1% QoQ vs +0.2% expected, services PMI collapsed to 47.4, and German IFO at 84.4 sits at COVID-2020 lows. EUR is structurally undervalued vs USD (~12% on PPP). Tactical stance: Bullish EUR (conviction 3/5) on rate-differential convergence and contained positioning; Strategic stance: Bullish EUR (conviction 3/5) targeting 1.20–1.22 by Q4 2026 if the Iran ceasefire holds. Key downside trigger: Strait of Hormuz re-escalation; key upside trigger: confirmed June ECB hike with hawkish guidance.",
+
+  "market_context": {
+    "spot": {
+      "rate": "EUR/USD 1.1734",
+      "convention": "EUR/USD rising = EUR strengthening against USD; 'Bullish EUR' = EUR/USD higher",
+      "primary_index": "ECB EER-42 nominal effective; precise May 2026 level NOT FOUND publicly; estimated modestly above 12-month average on EUR/JPY and EUR/SEK strength offsetting EUR/CHF and EUR/AUD weakness",
+      "date": "2026-05-07"
+    },
+    "key_crosses": [
+      { "pair": "EUR/USD", "rate": "1.1734", "convention": "Higher = EUR stronger" },
+      { "pair": "EUR/JPY", "rate": "184.0", "convention": "Higher = EUR stronger" },
+      { "pair": "EUR/GBP", "rate": "0.8600", "convention": "Higher = EUR stronger" },
+      { "pair": "EUR/CHF", "rate": "0.9160", "convention": "Higher = EUR stronger" },
+      { "pair": "EUR/AUD", "rate": "1.6200", "convention": "Higher = EUR stronger" },
+      { "pair": "EUR/CAD", "rate": "1.5900", "convention": "Higher = EUR stronger" },
+      { "pair": "EUR/NOK", "rate": "11.6000", "convention": "Higher = EUR stronger" },
+      { "pair": "EUR/SEK", "rate": "10.8000", "convention": "Higher = EUR stronger" },
+      { "pair": "EUR/SGD", "rate": "1.5100", "convention": "Higher = EUR stronger" }
+    ],
+    "performance": {
+      "1m": { "pct_change": "+1.2%", "direction": "EUR appreciation" },
+      "3m": { "pct_change": "~0.0%", "direction": "Range-bound (1.1435–1.1734)" },
+      "6m": { "pct_change": "+1.5%", "direction": "EUR appreciation" },
+      "1y": { "pct_change": "+3.8%", "direction": "EUR appreciation" }
+    },
+    "valuation": {
+      "overall_assessment": "Modestly cheap",
+      "bis_reer": {
+        "level": 102.0,
+        "historical_percentile": 60,
+        "interpretation": "Estimated EUR REER appreciated YTD with the spot rally, sitting ~2-4% above long-run average. Precise May 2026 BIS reading NOT FOUND."
+      },
+      "ppp_table": [
+        { "vs_currency": "USD", "deviation_pct": -12.0, "implied_fair_value": "EUR/USD ~1.33" },
+        { "vs_currency": "GBP", "deviation_pct": 10.0, "implied_fair_value": "EUR/GBP ~0.78" },
+        { "vs_currency": "JPY", "deviation_pct": 33.0, "implied_fair_value": "EUR/JPY ~138" },
+        { "vs_currency": "CHF", "deviation_pct": -17.0, "implied_fair_value": "EUR/CHF ~1.10" },
+        { "vs_currency": "AUD", "deviation_pct": 12.0, "implied_fair_value": "EUR/AUD ~1.45" },
+        { "vs_currency": "CAD", "deviation_pct": 6.0, "implied_fair_value": "EUR/CAD ~1.50" },
+        { "vs_currency": "NZD", "deviation_pct": 19.0, "implied_fair_value": "EUR/NZD ~1.65" },
+        { "vs_currency": "NOK", "deviation_pct": 10.0, "implied_fair_value": "EUR/NOK ~10.50" },
+        { "vs_currency": "SEK", "deviation_pct": 6.0, "implied_fair_value": "EUR/SEK ~10.20" },
+        { "vs_currency": "SGD", "deviation_pct": -8.0, "implied_fair_value": "EUR/SGD ~1.65" }
+      ],
+      "trade_weighted_assessment": "EUR is structurally undervalued vs USD (~12%), CHF (~17%), and SGD (~8%); structurally rich vs JPY (~33%), NZD (~19%), AUD (~12%), NOK (~10%). The EUR/USD undervaluation is consistent with bank consensus targets of 1.20–1.25.",
+      "what_is_priced_in": "Markets price EUR partially undervalued vs USD with bank targets clustering 1.20-1.25. PPP is broadly consistent with strategic-horizon view. Tactical horizon does not price valuation directly; rate-differentials dominate.",
+      "actionability": "PPP supports strategic-horizon EUR-bullish thesis but is not a tactical signal. Long EUR/USD strategic positioning is anchored by the 12% undervaluation; short EUR/JPY strategic positioning is supported by 33% overvaluation."
+    },
+    "positioning_summary": {
+      "cftc": {
+        "leveraged_funds": {
+          "net_contracts": 11594,
+          "direction": "long",
+          "notional_usd": "~$1.7 bn (light long)",
+          "weekly_change_contracts": 10808,
+          "weekly_change_direction": "Open interest building; positioning slowly rebuilding"
+        },
+        "asset_managers": {
+          "net_contracts": 290898,
+          "direction": "long",
+          "notional_usd": "~$42 bn (heavy structural long)"
+        },
+        "total_open_interest": 801430,
+        "net_all_specs_percentile": 15,
+        "percentile_context": "Net specs (lev funds + others) ~+22,639 contracts at 15th percentile of 52-week range — light, NOT crowded after March war-stress washout."
+      },
+      "other_positioning_signals": "ETF flows (FXE) and Target2 imbalances NOT FOUND for April 2026; anecdotal suggests modest EUR inflows. 25-delta 1M risk reversals positive (calls bid since April 2025 'Liberation Day' per Rabobank) — institutional hedgers positioned for upside.",
+      "interpretation": "Asset manager +290,898 looks heavy but is structural reserve-style positioning, slow-moving and rarely reverses abruptly. The leveraged funds reading is the tactical signal: near-flat with room to scale up if ECB confirms June, providing squeeze-up tailwind for EUR/USD rather than contrarian sell signal.",
+      "contrarian_assessment": "Tactical contrarian: Bullish — positioning is washed out. Strategic contrarian: Neutral to mildly bearish — asset manager extension to +290K creates strategic tail-risk on thesis-failure unwind."
+    },
+    "market_structure_vol_summary": {
+      "trend_regime": "Mildly bullish — spot above 200d MA (~1.1690) and 50d MA (~1.1680), trading in upper half of YTD range (1.1435–1.2016), consolidating after war-shock recovery. No confirmed trend break; range-bound bias with upside skew.",
+      "key_levels": {
+        "support": [
+          { "level": "1.1700", "significance": "200-day moving average; technical regime pivot" },
+          { "level": "1.1500", "significance": "Psychological round + March consolidation; key downside test" },
+          { "level": "1.1435", "significance": "15 March war-stress YTD low; deep retracement floor" }
+        ],
+        "resistance": [
+          { "level": "1.1850", "significance": "April high cluster; near-term resistance" },
+          { "level": "1.1900", "significance": "Round number; psychological barrier" },
+          { "level": "1.2016", "significance": "27 January YTD high; strategic ceiling for first attempt" }
+        ]
+      },
+      "moving_averages": {
+        "50d": { "level": "1.1680", "spot_vs": "Spot 1.1734 above (+54 pips)" },
+        "100d": { "level": "1.1700", "spot_vs": "Spot 1.1734 above (+34 pips)" },
+        "200d": { "level": "1.1690", "spot_vs": "Spot 1.1734 above (+44 pips)" },
+        "alignment": "Bullishly stacked but tightly compressed (50d > 200d, with recent or near-golden cross)"
+      },
+      "volatility": {
+        "iv_1m": 10.0,
+        "iv_3m": 10.5,
+        "iv_percentile_1y": 60,
+        "rv_20d": 9.0,
+        "rv_vs_iv": "RV 20d ~9.0% vs IV 1M ~10.0% — implied roughly aligned with realised; modest event premium for June ECB binary",
+        "risk_reversal_25d_1m": "Positive (calls bid since April 2025 Liberation Day per Rabobank); precise vols figure NOT FOUND. Bullish skew supports upside positioning",
+        "vol_term_structure": "Backwardation",
+        "vol_regime": "Mid-range vol regime; 1M ATM IV ~10% reflects normal trading conditions with event premium for ECB June 4-5 meeting"
+      },
+      "key_observation": "Implied vol mid-range, risk reversals positively skewed (calls bid), spot above MAs — market is positioned for upside but not aggressively. Room for a hawkish-ECB-driven squeeze without immediate vol-selling pressure."
+    },
+    "recent_regime": "EUR/USD has navigated three discrete phases since the 28 February 2026 outbreak of Operation Epic Fury: (1) initial war shock to 1.1435 on energy-import fears and risk-off USD bid; (2) sharp reversal toward 1.18 on the 7-8 April Iran ceasefire and ECB hawkish pivot; (3) current consolidation between 1.16-1.18 as the market digests the dual narrative of stagflation in Europe versus a fractured Fed with growing dovish minority. The dominant narrative has shifted from 'energy shock crushes EUR' to 'central bank divergence repricing favours EUR' — EUR is now trading more as the anti-dollar than as the energy importer, defying the historical playbook in which net energy importers underperform during oil shocks.",
+    "citations": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+  },
+
+  "rate_differentials_table": {
+    "base_currency": {
+      "central_bank": "European Central Bank",
+      "policy_rate_name": "Deposit Facility Rate",
+      "rate_pct": 2.00,
+      "next_meeting": "2026-06-05",
+      "expected_action": "+25 bp hike to 2.25% (~81% probability priced in OIS)"
+    },
+    "peers": [
+      { "currency": "USD", "central_bank": "Federal Reserve", "policy_rate_pct": 3.625, "spread_to_base_bps": 162, "direction_vs_base": "USD higher", "next_meeting": "2026-06-17", "expected_action": "Hold (8-4 split)", "rate_path_next_6m": "3.00–3.50% (1–2 cuts likely by year-end)" },
+      { "currency": "GBP", "central_bank": "Bank of England", "policy_rate_pct": 3.75, "spread_to_base_bps": 175, "direction_vs_base": "GBP higher", "next_meeting": "2026-06-18", "expected_action": "Hold or cut", "rate_path_next_6m": "3.25–3.50% (1–2 cuts)" },
+      { "currency": "AUD", "central_bank": "Reserve Bank of Australia", "policy_rate_pct": 4.35, "spread_to_base_bps": 235, "direction_vs_base": "AUD higher", "next_meeting": "2026-06-30", "expected_action": "Hold", "rate_path_next_6m": "3.85–4.10% (1 cut likely)" },
+      { "currency": "NZD", "central_bank": "Reserve Bank of New Zealand", "policy_rate_pct": 2.25, "spread_to_base_bps": 25, "direction_vs_base": "NZD higher", "next_meeting": "2026-05-27", "expected_action": "Hold", "rate_path_next_6m": "2.00–2.25%" },
+      { "currency": "CAD", "central_bank": "Bank of Canada", "policy_rate_pct": 2.25, "spread_to_base_bps": 25, "direction_vs_base": "CAD higher", "next_meeting": "2026-06-10", "expected_action": "Hold", "rate_path_next_6m": "2.00–2.50%" },
+      { "currency": "CHF", "central_bank": "Swiss National Bank", "policy_rate_pct": 0.00, "spread_to_base_bps": -200, "direction_vs_base": "CHF lower", "next_meeting": "2026-06-18", "expected_action": "Hold", "rate_path_next_6m": "0.00–0.25%" },
+      { "currency": "NOK", "central_bank": "Norges Bank", "policy_rate_pct": 4.00, "spread_to_base_bps": 200, "direction_vs_base": "NOK higher", "next_meeting": "2026-05-07", "expected_action": "Hold", "rate_path_next_6m": "3.50–4.00% (1 cut likely)" },
+      { "currency": "SEK", "central_bank": "Riksbank", "policy_rate_pct": 1.75, "spread_to_base_bps": -25, "direction_vs_base": "SEK lower", "next_meeting": "2026-05-13", "expected_action": "Hold", "rate_path_next_6m": "1.50–1.75%" },
+      { "currency": "JPY", "central_bank": "Bank of Japan", "policy_rate_pct": 0.75, "spread_to_base_bps": -125, "direction_vs_base": "JPY lower", "next_meeting": "2026-06-16", "expected_action": "Hold (cautious-hawkish)", "rate_path_next_6m": "0.75–1.00% (possible hike)" },
+      { "currency": "SGD", "central_bank": "Monetary Authority of Singapore", "policy_rate_pct": null, "spread_to_base_bps": null, "direction_vs_base": "S$NEER policy framework, not rate-based", "next_meeting": "2026-10-15", "expected_action": "Hold slope", "rate_path_next_6m": "Slope unchanged" }
+    ],
+    "sovereign_yields": {
+      "base_2y": 2.30,
+      "base_10y": 3.07,
+      "key_spreads": [
+        { "vs": "UST 10Y", "yield_pct": 4.43, "spread_bps": -136, "interpretation": "UST premium narrowing from +160 bp 6M average — EUR-positive via rate-differential channel" },
+        { "vs": "Gilt 10Y", "yield_pct": 4.55, "spread_bps": -148, "interpretation": "Gilt premium structurally elevated; EUR/GBP range-bound implication" },
+        { "vs": "JGB 10Y", "yield_pct": 2.51, "spread_bps": 56, "interpretation": "Bund premium maintained; EUR/JPY supported despite BoJ normalisation" },
+        { "vs": "BTP 10Y", "yield_pct": 3.85, "spread_bps": -78, "interpretation": "Italian peripheral premium contained; off March stress wides above 100 bp but elevated vs January 65 bp low" },
+        { "vs": "OAT 10Y", "yield_pct": 3.71, "spread_bps": -64, "interpretation": "French risk premium structurally elevated post-downgrades; key signpost for EUR-negative tail risk if widens past 100 bp" }
+      ],
+      "curve_shape": "Steepening — 2s10s ~+77 bp on hawkish ECB repricing"
+    }
+  },
+
+  "macro_comparison_table": [
+    { "currency": "EUR", "gdp_yoy_pct": 0.8, "gdp_qoq_latest_pct": 0.1, "headline_cpi_yoy_pct": 3.0, "core_cpi_yoy_pct": 2.2, "core_cpi_measure": "HICPX (excl. energy & food)", "unemployment_pct": 6.2, "current_account_gdp_pct": 1.6, "policy_rate_pct": 2.00 },
+    { "currency": "USD", "gdp_yoy_pct": 1.5, "gdp_qoq_latest_pct": 0.0, "headline_cpi_yoy_pct": 3.3, "core_cpi_yoy_pct": 3.5, "core_cpi_measure": "Core CPI (excl. food & energy)", "unemployment_pct": 4.3, "current_account_gdp_pct": -3.5, "policy_rate_pct": 3.625 },
+    { "currency": "GBP", "gdp_yoy_pct": 1.4, "gdp_qoq_latest_pct": 0.5, "headline_cpi_yoy_pct": 3.3, "core_cpi_yoy_pct": 4.0, "core_cpi_measure": "Core CPI (excl. food, energy, alcohol & tobacco)", "unemployment_pct": 4.9, "current_account_gdp_pct": -3.0, "policy_rate_pct": 3.75 },
+    { "currency": "AUD", "gdp_yoy_pct": 1.3, "gdp_qoq_latest_pct": 0.3, "headline_cpi_yoy_pct": 4.6, "core_cpi_yoy_pct": 3.3, "core_cpi_measure": "Trimmed mean (RBA preferred)", "unemployment_pct": 4.3, "current_account_gdp_pct": -2.0, "policy_rate_pct": 4.35 },
+    { "currency": "NZD", "gdp_yoy_pct": 0.5, "gdp_qoq_latest_pct": 0.2, "headline_cpi_yoy_pct": 3.1, "core_cpi_yoy_pct": 2.5, "core_cpi_measure": "Sectoral factor model", "unemployment_pct": 5.4, "current_account_gdp_pct": -6.5, "policy_rate_pct": 2.25 },
+    { "currency": "CAD", "gdp_yoy_pct": 1.2, "gdp_qoq_latest_pct": 0.4, "headline_cpi_yoy_pct": 2.4, "core_cpi_yoy_pct": 2.5, "core_cpi_measure": "CPI-trim (BoC preferred)", "unemployment_pct": 6.7, "current_account_gdp_pct": -1.0, "policy_rate_pct": 2.25 },
+    { "currency": "CHF", "gdp_yoy_pct": 1.0, "gdp_qoq_latest_pct": 0.3, "headline_cpi_yoy_pct": 0.6, "core_cpi_yoy_pct": 0.7, "core_cpi_measure": "Core CPI (excl. fresh food & energy)", "unemployment_pct": 2.5, "current_account_gdp_pct": 6.0, "policy_rate_pct": 0.00 },
+    { "currency": "JPY", "gdp_yoy_pct": 0.5, "gdp_qoq_latest_pct": 0.1, "headline_cpi_yoy_pct": 3.0, "core_cpi_yoy_pct": 2.5, "core_cpi_measure": "Core CPI (excl. fresh food)", "unemployment_pct": 2.5, "current_account_gdp_pct": 3.0, "policy_rate_pct": 0.75 },
+    { "currency": "NOK", "gdp_yoy_pct": 0.8, "gdp_qoq_latest_pct": 0.2, "headline_cpi_yoy_pct": 3.0, "core_cpi_yoy_pct": 3.2, "core_cpi_measure": "CPI-ATE (excl. tax & energy)", "unemployment_pct": 4.0, "current_account_gdp_pct": 14.0, "policy_rate_pct": 4.00 },
+    { "currency": "SEK", "gdp_yoy_pct": 1.5, "gdp_qoq_latest_pct": 0.3, "headline_cpi_yoy_pct": 1.8, "core_cpi_yoy_pct": 2.0, "core_cpi_measure": "CPIF (Riksbank target)", "unemployment_pct": 8.5, "current_account_gdp_pct": 5.0, "policy_rate_pct": 1.75 },
+    { "currency": "SGD", "gdp_yoy_pct": 4.6, "gdp_qoq_latest_pct": 0.5, "headline_cpi_yoy_pct": 1.2, "core_cpi_yoy_pct": 1.2, "core_cpi_measure": "MAS Core CPI", "unemployment_pct": 1.9, "current_account_gdp_pct": 18.0, "policy_rate_pct": null }
+  ],
+  "factors": [
+    {
+      "block": "Macro Drivers",
+      "factor_number": 1,
+      "tactical_weight": 0.24,
+      "strategic_weight": 0.24,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 75,
+        "analysis": "The ECB held the deposit facility rate at 2.00% on 30 April 2026 unanimously, but the framing shifted decisively hawkish: Lagarde acknowledged 'upside risks to inflation and downside risks to growth have intensified' and the Council 'made an informed decision on the basis of yet-insufficient information.' OIS markets responded by pricing approximately 81% probability of a +25 bp hike at the 4–5 June meeting and ~99 bp of cumulative tightening by year-end. This is a substantial regime shift from pre-war pricing in late February that had embedded a ~one-third probability of a cut by end-2026. The hawkish vector is reinforced by explicit messaging from Governing Council members — Kazimir on 4 May described June tightening as 'all but inevitable' given persistent broad-based price pressures, while Nagel, Holzmann, and Vasle have been similarly direct. The market-implied path now sits ~99 bp above the ECB Staff Projection baseline (which assumes 2.00% throughout 2026), creating a transparent mispricing battleground that will be resolved at the June meeting. Bund 10Y at 3.07% has risen +8 bp on the month and +56 bp YoY, reflecting the rate-repricing channel; the UST-Bund 10Y spread has narrowed to +136 bp from a 6-month average closer to +160 bp, mechanically supporting EUR/USD via the standard rate-differential channel. Front-end carry remains EUR-disadvantaged (USD +162 bp, GBP +175 bp, AUD +235 bp) but the direction of change is EUR-positive — this is the dominant tactical signal because expectational shifts dominate over carry levels at the 2–4 week horizon. The probability that markets are over-pricing the hike (i.e., June delivers no hike or a dovish hawkish framing) is the principal tactical risk: at ~81% baked-in, even a delivery-on-time hike with cautious guidance could trigger a 'buy the rumour, sell the fact' pullback to 1.16.",
+        "key_data_points": [
+          "ECB Deposit Rate: 2.00% (held since 17 Sept 2025); MRO 2.15%; Marginal Lending 2.40%",
+          "OIS-implied June hike probability: ~81% (+25 bp to 2.25%)",
+          "OIS-implied cumulative hikes by year-end 2026: ~99 bp",
+          "Bund 10Y: 3.07% (+8 bp 1M, +56 bp 1Y)",
+          "UST-Bund 10Y spread: +136 bp (narrowing from +160 bp 6M avg)",
+          "BTP-Bund 10Y spread: +78 bp (widened from 65 bp January low)",
+          "1Y carry vs USD: -162 bp (EUR disadvantage); vs JPY: +125 bp (EUR advantage)",
+          "Carry-to-vol ratio (annual carry ÷ 1M IV ~10%): EUR/USD = -0.17; EUR/JPY = +0.11"
+        ],
+        "what_is_priced": "Markets price ~81% probability of a June ECB +25 bp hike. The risk is symmetric but skewed: a delivered hike with hawkish guidance lifts EUR/USD to 1.19; a hold or dovish surprise drops it to 1.15. Our view: ECB delivers, but Lagarde's framing will be cautious given services PMI at 47.4 and IFO at COVID lows — modest EUR-positive but capped at 1.1850 in tactical horizon.",
+        "citations": [1, 2, 16, 17]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 65,
+        "analysis": "At the strategic horizon, the rate-differential trajectory is the cleanest EUR-positive driver in the framework. The Fed's 8-4 vote on 29 April with one cut dissent (Miran) and three hawkish dissents (Hammack, Kashkari, Logan) reveals an internally fractured FOMC that nonetheless retains a clear easing bias — markets price ~50–75 bp of Fed cuts by year-end. Combined with the ECB's path of ~99 bp of cumulative hikes priced, the rate-differential narrowing toward EUR is the strategic signal. If both central banks deliver as priced, the ECB-Fed deposit rate gap could compress from -150 bp currently to -50 bp by Q1 2027 — a 100 bp move that historically maps to 5–8% EUR/USD appreciation per BIS rate-differential model coefficients. The carry headwind narrows correspondingly: USD-EUR 1Y carry compresses from -162 bp to -50 bp range, reducing the cost of holding EUR-long positions and unlocking discretionary asset manager allocation. The Bund 10Y at 3.07% sits near multi-year highs, anchoring strategic EUR demand from yield-sensitive flows; the UST-Bund spread at +136 bp is in the lower quartile of its 5-year range. Peripheral spreads remain a constraint — BTP-Bund at 78 bp is contained but a French political accident or fresh war escalation could widen this past 150 bp and force the ECB into TPI debate. The strategic risk is that the ECB does not deliver the priced hike path because services PMI deterioration overrules the energy-driven inflation impulse: Lagarde's April 30 acknowledgement that 'we are certainly moving away from [the baseline]' was bidirectional, and Cipollone, Stournaras, and Centeno represent a dovish constituency that can mobilise if growth weakens further. On balance, the rate-differential trajectory is bullish EUR but with reduced confidence vs the tactical horizon.",
+        "key_data_points": [
+          "ECB Staff Projection rate path assumption: 2.00% held through 2026 (March 2026 SPP)",
+          "Market-implied path divergence vs ECB baseline: ~+99 bp by year-end",
+          "Fed Funds: 3.50–3.75%; Fed implementation note IORB 3.65% (29 April)",
+          "6M OIS: ECB 2.50–2.75% range vs Fed 3.00–3.50% range",
+          "Bund 10Y in 5Y context: top decile (range 0.20% to 3.10%)",
+          "ECB-Fed deposit rate gap: currently -150 bp; potential compression to -50 bp by Q1 2027",
+          "5-year EUR/USD correlation with UST-Bund 10Y spread: ~-0.55 (rate-differential channel)"
+        ],
+        "what_is_priced": "Strategic markets price meaningful ECB hike + Fed cut convergence. The mispricing risk is bidirectional: if ECB capitulates (50 bp of priced hikes don't deliver), EUR/USD slides to 1.15; if Fed cuts faster than priced, EUR/USD rallies to 1.22. Base case: convergence delivers as priced → 1.20–1.22 by Q4 2026.",
+        "citations": [3, 14, 17, 18]
+      },
+      "horizon_split_explanation": "Both horizons are bullish but tactical confidence (75) exceeds strategic (65) because the June ECB meeting provides a near-dated catalyst with binary outcome — if delivered, it confirms the rate-convergence thesis; if not, it triggers immediate reassessment. Strategic confidence is lower because the path requires multiple ECB hikes AND multiple Fed cuts, each of which has its own delivery risk over a 6-month horizon.",
+      "carry_analysis": {
+        "carry_vs_peers": [
+          { "vs_currency": "USD", "annualised_carry_bps": -162, "carry_to_vol_ratio": -0.17, "interpretation": "EUR pays negative carry to USD; tactical bullish thesis depends on rate convergence narrowing the deficit, not earning positive carry" },
+          { "vs_currency": "GBP", "annualised_carry_bps": -175, "carry_to_vol_ratio": -0.25, "interpretation": "EUR pays carry to GBP; BoE convergence with ECB is fully priced — range-bound" },
+          { "vs_currency": "AUD", "annualised_carry_bps": -235, "carry_to_vol_ratio": -0.26, "interpretation": "Largest carry headwind in G10; AUD also benefits from commodity strength — short EUR/AUD natural" },
+          { "vs_currency": "NOK", "annualised_carry_bps": -200, "carry_to_vol_ratio": -0.24, "interpretation": "Carry headwind compounded by NOK oil bid in war environment" },
+          { "vs_currency": "CAD", "annualised_carry_bps": -25, "carry_to_vol_ratio": -0.03, "interpretation": "Marginal carry differential; rate paths similar" },
+          { "vs_currency": "NZD", "annualised_carry_bps": -25, "carry_to_vol_ratio": -0.03, "interpretation": "Marginal carry differential" },
+          { "vs_currency": "CHF", "annualised_carry_bps": 200, "carry_to_vol_ratio": 0.31, "interpretation": "EUR earns positive carry vs CHF; SNB at 0% — but CHF safe-haven flows offset in stress" },
+          { "vs_currency": "JPY", "annualised_carry_bps": 125, "carry_to_vol_ratio": 0.11, "interpretation": "EUR earns positive carry vs JPY; cleanest carry receiver in this complex with ECB hike trajectory widening advantage" },
+          { "vs_currency": "SEK", "annualised_carry_bps": 25, "carry_to_vol_ratio": 0.03, "interpretation": "Marginal carry advantage" }
+        ],
+        "carry_regime": "EUR is structural mid-to-low carry currency. Carry is negative against USD/GBP/AUD/NOK (EUR is the funder); positive against JPY/CHF/SEK. The narrowing of EUR-USD carry deficit IS the EUR-bullish thesis — currency does not need positive carry to rally; it needs less negative carry, which is happening.",
+        "breakeven_move": "~16 pips per month — holding EUR/USD long requires absorbing -1.62% annual carry × (30/360) = -13.5 bp. Spot must move +16 pips above forward to break even at 1M horizon; for 3M horizon, breakeven is ~50 pips."
+      },
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Macro Drivers",
+      "factor_number": 2,
+      "tactical_weight": 0.18,
+      "strategic_weight": 0.10,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 60,
+        "analysis": "The eurozone inflation-growth mix is the textbook stagflation profile and on net it is a tactical EUR negative because the growth deceleration is more acute than the inflation persistence. April HICP flash printed 3.0% YoY headline (up from 2.6% March, 1.9% February), but core HICPX actually softened to 2.2% from 2.3% — energy contribution at +10.9% YoY explains essentially all of the headline acceleration, with second-round effects on core remaining contained. Services inflation, the ECB's preferred persistence gauge, fell to 3.0% from 3.2% in March, suggesting the wage-price spiral risk is moderating despite the energy shock — Lagarde explicitly noted on 30 April that 'the ECB's wage tracker and surveys on wage expectations continue to indicate easing labour costs in the course of 2026.' Q1 2026 GDP printed +0.1% QoQ (vs +0.2% expected), with annual growth at +0.8% YoY — the slowest pace since Q2 2022. Leading indicators have collapsed acutely: April Composite PMI fell to 48.6 (contraction territory) from 50.7 in March, with services PMI dropping to 47.4 — S&P Global noted 'the war is currently hitting the service sector hardest, where business activity is falling at a rate not seen since the pandemic lockdowns of early 2021.' Manufacturing PMI rose to 52.2 but this is widely interpreted as inventory hoarding ahead of perceived shortages, not real demand. The German IFO Business Climate at 84.4 is the lowest since May 2020 (COVID lockdowns), and ZEW at -17.2 is the lowest since December 2022. The country mix is starkly divergent: Spain Q1 GDP at +2.7% YoY is the outperformer, while France stalled at +0.0% QoQ. The tactical EUR-negative read flows from the growth shock — a services PMI in the mid-40s historically precedes EUR/USD weakness as the market discounts ECB capitulation, which would invalidate the rate-convergence thesis.",
+        "key_data_points": [
+          "HICP Headline April 2026: 3.0% YoY (up from 1.9% Feb)",
+          "HICPX Core: 2.2% YoY (down from 2.3%)",
+          "Services HICP: 3.0% (down from 3.2%); Energy HICP: +10.9% YoY",
+          "Q1 2026 GDP: +0.1% QoQ; +0.8% YoY (slowest since Q2 2022)",
+          "Composite PMI Apr: 48.6 (contraction); Services PMI Apr: 47.4 (multi-year low)",
+          "German IFO Apr: 84.4 (lowest since May 2020 COVID)",
+          "ZEW Sentiment Apr: -17.2 (lowest since Dec 2022)",
+          "Eurozone unemployment Mar: 6.2% (down from 6.3% Feb)"
+        ],
+        "what_is_priced": "Markets price stagflation but emphasise the rate response (Factor 1) over the growth pain. Our view: the growth collapse is genuine and will eventually constrain the ECB hike path. The current mispricing is markets discounting the services PMI warning — if April Composite PMI falls below 48 in the May reading or services PMI breaks 46, the ECB hike narrative becomes untenable.",
+        "citations": [1, 6, 19, 20, 21, 22]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "analysis": "Over the strategic horizon, the inflation-growth narrative depends on the energy trajectory and the ECB's reaction function. ECB Staff March 2026 Projections show GDP at +0.9% (2026, revised down 0.3 pp from December), +1.3% (2027), +1.4% (2028), with HICP at 2.6% (2026), 2.0% (2027), 2.1% (2028) — these forecasts assume the war effect partially fades. The severe scenario (oil $145, gas €106) projects 2026 HICP +1.8 pp higher and recession dynamics in growth. If Brent retraces to $80 by Q3 (consistent with a holding ceasefire), the inflation impulse fades and core HICPX continues toward 2.0% — supportive of EUR via real-rate stability. If Brent re-surges past $115 on Hormuz re-escalation, stagflation intensifies and EUR weakens via the energy-import channel. The growth side is more concerning: the IFO and PMI signals suggest the eurozone may contract for 1–2 quarters in mid-2026, even with German fiscal stimulus from the €500 bn infrastructure fund and €83 bn defence budget for 2026. Spain continues to outperform structurally, and the cyclical Q1 weakness across Germany/France could reverse if energy prices fall and trade policy uncertainty resolves. Net, the strategic inflation-growth read is balanced — sticky-but-fading inflation against weak-but-policy-supported growth. This factor is less directional at the strategic horizon than tactical, hence neutral. The base case is that growth bottoms in Q2-Q3 2026 and recovers into 2027 alongside fiscal expansion, which is consistent with the EUR-positive strategic synthesis driven primarily by Factors 1 and 6.",
+        "key_data_points": [
+          "ECB Staff GDP 2026: 0.9% (revised down 0.3 pp); 2027: 1.3%; 2028: 1.4%",
+          "ECB Staff HICP 2026: 2.6%; 2027: 2.0%; 2028: 2.1%",
+          "Severe scenario (Brent $145): 2026 HICP +1.8 pp higher",
+          "Germany 2026 defence budget: €83 bn (record); plus €500 bn infrastructure fund",
+          "French 2026 GDP forecast: ~+0.7% (downgraded)",
+          "Spain Q1 GDP: +2.7% YoY (outperformer)",
+          "ECB target: 2% HICP medium-term"
+        ],
+        "what_is_priced": "Strategic markets price ECB Staff baseline of 2.6% HICP/0.9% GDP roughly correctly. Our view: HICP risks are biased higher (Brent stays elevated), GDP risks are biased lower (services PMI shock is real). Net-neutral for EUR — the offsetting forces drive ECB but not the currency directly.",
+        "citations": [1, 23, 24]
+      },
+      "horizon_split_explanation": "Tactical (Bearish, 60) and Strategic (Neutral, 55) diverge because the services PMI collapse is an immediate growth signal that constrains ECB hawkishness in the next 4 weeks. At the strategic horizon, fiscal stimulus and energy-shock fade allow growth to recover, removing the EUR-negative pressure.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Macro Drivers",
+      "factor_number": 3,
+      "tactical_weight": 0.10,
+      "strategic_weight": 0.05,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 65,
+        "analysis": "The risk environment has normalised remarkably given the recent war shock. VIX has settled at ~17.4 (5 May 2026), down ~39% from its late March peak of ~31.05, and resides in the 15–20 range that historically supports EUR-bullish dollar smile dynamics — neither full risk-on (which would crowd into AUD/EM) nor risk-off (which would bid USD/CHF/JPY). Equity markets are constructive: S&P 500 at 7,259.22 (+0.81%) at record close, DAX at 24,401.70 (+1.71%) near record highs, Euro Stoxx 50 at ~5,870. The STOXX 600 Banks index at 353.43 is YTD -1.93% but well off panic lows, indicating eurozone financial-sector stress is contained. EUR's risk beta is asymmetric: it benefits from 'risk-neutral' goldilocks regimes (where USD weakens without panic flow into JPY/CHF), and EUR is increasingly behaving as the anti-dollar pure play because (a) USD is no longer the unambiguous safe haven post-Trump policy chaos, (b) the alternative reserve currencies (JPY, CHF) are the safe-haven beneficiaries instead, leaving EUR to absorb anti-USD flow without the offsetting safe-haven risk-off pressure that hurt EUR in 2022. Credit spreads have compressed from war-stress wides. The dollar smile framework places USD currently in the 'stagflation middle' — neither benefiting from US growth exceptionalism nor from global risk-off — which historically supports EUR/USD upside. Tactical risk: a Hormuz re-escalation would push VIX back above 25 and force a USD safe-haven bid that overwhelms the rate-convergence story. Probability ~25%.",
+        "key_data_points": [
+          "VIX: 17.4 (5 May), -39% from March 31.05 peak; 66th percentile of 12M range",
+          "S&P 500: 7,259.22 (record close)",
+          "DAX: 24,401.70 (near record); Euro Stoxx 50: ~5,870",
+          "STOXX 600 Banks (SX7P): 353.43; YTD -1.93%",
+          "Credit spreads: compressed from March wides (specific iTraxx Main level NOT FOUND)",
+          "EUR/USD ~1Y correlation with VIX: ~-0.45 (negative; EUR rises when VIX falls)",
+          "Dollar Index DXY: ~98.4 (off 100+ war highs)"
+        ],
+        "what_is_priced": "Markets price benign risk environment with VIX at 17. Our view: this is correct as long as Hormuz remains nominally open. The mispricing risk is options markets potentially under-pricing tail risk of war re-escalation — VIX at 17 is too low if there is a 25% probability of a $20 oil spike.",
+        "citations": [25, 26, 27]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "analysis": "Strategic risk regime is harder to call given the unstable Iran situation and Trump trade policy unpredictability. The base case is that the April 7-8 ceasefire holds with intermittent skirmishes, VIX trades in the 15–20 range, and risk appetite supports EUR via the anti-dollar channel. The bear case is a fresh war flare that pushes Brent to $130+ and triggers genuine risk-off — in this scenario EUR loses to JPY/CHF and the rate-convergence thesis stalls. The bull case is a formal ceasefire and Iran nuclear deal, releasing pent-up risk appetite and crushing USD across the board. At the strategic horizon, EUR's beta to risk has been declining over the past 18 months as the currency has decoupled from the standard 'risk-off = USD bid' structure — this is a regime change that has favoured EUR through the H2 2025 rally. Whether this regime persists depends on Trump's USD policy, Powell's leadership tenure (term ends 2026), and whether reserve managers continue diversifying out of USD. Net, the strategic risk picture is balanced and contributes a small positive to EUR, but with low conviction. The factor is also low-weighted (0.05) at the strategic horizon, reducing its synthesis impact.",
+        "key_data_points": [
+          "VIX 1Y average: ~18; current 17.4 — at long-term mean",
+          "US IG credit spread (CDX IG): NOT FOUND precise level; 5-year median ~50 bp",
+          "EUR/USD beta to risk-on (1Y): mildly positive (anti-USD channel)",
+          "Reserve manager USD diversification trend: ongoing per IMF COFER",
+          "Powell term: expires 2026 — succession risk affects USD trust regime"
+        ],
+        "what_is_priced": "Markets price benign-to-mildly-cautious risk regime over 6 months. Our view: distribution is bimodal — either ceasefire holds (risk-on for EUR) or breaks (risk-off, EUR caught between anti-USD and energy importer). Net: neutral.",
+        "citations": [25, 26, 28]
+      },
+      "horizon_split_explanation": "Tactical bullish (65) and Strategic neutral (55) — confidence and direction both shift. The tactical regime is observable (VIX at 17, equities at highs); the strategic regime depends on Iran and Trump trajectories that have wider distributions. At the strategic horizon, the risk factor's lower weight (0.05) also dilutes its impact on the synthesis.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Macro Drivers",
+      "factor_number": 4,
+      "tactical_weight": 0.10,
+      "strategic_weight": 0.06,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 70,
+        "analysis": "EUR positioning is the single most under-appreciated tactical bullish driver in the current setup. CFTC data for the week ended 28 April 2026 shows leveraged funds at a net long of just +11,594 contracts — essentially flat — after the March war-stress washout that saw speculators dump EUR longs to net short levels. Asset managers remain heavily long at +290,898 contracts (down from the +288K cited in the 31 March dossier as 95th+ percentile crowded), but this is structural reserve/strategic positioning, not discretionary speculation, and rarely unwinds abruptly in the absence of a regime change. Net specs (lev funds + others) at +22,639 contracts sit at approximately the 15th percentile of the 52-week range — a light, NOT crowded read. Open interest at 801,430 contracts is up +10,808 w/w, signalling fresh participation. The contrarian implication is bullish: the market entered the post-war recovery with positioning washed out, leaving substantial room for fresh longs to be added if the ECB confirms June. The asymmetry here is critical — at +11K leveraged longs, a hawkish ECB would trigger short-covering AND fresh long-building, plausibly pushing leveraged funds to +50K range with EUR/USD lifting to 1.19. Conversely, a dovish ECB at +11K is already net flat, so the downside positioning bleed is limited (~1.5% pullback to 1.155 absent a fresh shock). Risk reversals show calls bid since 'Liberation Day' (April 2025), confirming options market institutional hedgers are positioned for upside rather than downside.",
+        "key_data_points": [
+          "CFTC Leveraged Funds NET: +11,594 contracts (light long)",
+          "CFTC Asset Managers NET: +290,898 (heavy long, structural)",
+          "CFTC Total Open Interest: 801,430 (+10,808 w/w)",
+          "Net specs percentile (52w range): ~15th percentile (light)",
+          "Weekly change: +10,808 OI suggests fresh participation",
+          "25-delta 1M risk reversal: positive (calls bid; precise figure NOT FOUND)",
+          "vs prior dossier (31 March): leveraged funds were net short post-washout, asset managers at 95th+ percentile"
+        ],
+        "what_is_priced": "Markets price modest EUR optimism but positioning is light, NOT crowded. Our view: this is bullish set-up — squeeze potential exists if ECB delivers June hike. The mispricing is in tactical sentiment surveys that suggest EUR-bullish consensus when actual positioning is barely net long.",
+        "citations": [10, 11, 13]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "analysis": "At the strategic horizon, the asset manager net long of +290,898 becomes the dominant position and is closer to extended than light — this is the EUR-bearish risk factor at strategic horizon. Asset managers don't react to news; they react to multi-quarter shifts in macro narrative. If the rate-convergence thesis plays out (ECB hikes, Fed cuts) over 6 months, asset managers will likely add to longs, pushing the position to +350K range. If the thesis fails (Hormuz re-escalation, ECB capitulation), the unwind from +290K to +150K could trigger 4–6% EUR/USD downside. The structural positioning bias of EUR among reserve managers — IMF COFER shows EUR at ~20% of allocated reserves with secular gradual increase since 2023 dollarisation concerns — provides a slow-burning structural bid for EUR. Net, the strategic positioning factor is neutral: structurally supportive but vulnerable to thesis-failure unwind. Probability of stretched-long contrarian sell signal triggering: ~20% over 6 months. Probability of fresh long-build supporting trend: ~50%. Probability of stable range: ~30%. The factor weight (0.06) is also lower at strategic horizon, so this contributes modestly to the synthesis.",
+        "key_data_points": [
+          "Asset Manager net long: +290,898 (structural, slow-moving)",
+          "IMF COFER EUR share of allocated reserves: ~20% (latest 2024-25 data; 2026 update NOT FOUND)",
+          "Reserve diversification trend: ongoing modest EUR accumulation",
+          "Target2 balances: NOT FOUND latest April figure",
+          "Strategic positioning vulnerability: -4% to -6% on thesis-failure unwind",
+          "Cross-currency basis (EUR/USD 3M): NOT FOUND public source"
+        ],
+        "what_is_priced": "Markets price asset manager structural EUR longs as embedded baseline. Our view: this is correct in the base case but represents asymmetric strategic risk — the unwind potential is greater than the additional accumulation potential.",
+        "citations": [10, 28]
+      },
+      "horizon_split_explanation": "Tactical (Bullish, 70) and Strategic (Neutral, 55) reflect the asymmetric positioning across cohorts. Leveraged funds (the tactical signal) are light long and provide squeeze potential. Asset managers (the strategic signal) are heavy long and provide tail risk.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": "Leveraged funds at +11,594 (15th percentile of 52w range) make positioning the cleanest tactical contrarian BULLISH signal in the framework. Historical analogues from 2020 March COVID shock show post-shock leveraged positioning re-builds rapidly (12 weeks) once a catalyst arrives, mapping to 12% EUR/USD rallies. The current setup mirrors the post-shock recovery phase with the ECB June meeting acting as the trigger. Squeeze potential is meaningful: 50-100K contracts of additional leveraged longs would map to ~150-300 pips of EUR/USD upside via standard positioning impact coefficients. The contrarian bear case (EUR is set up to fail) requires Hormuz re-escalation OR ECB outright dovish surprise OR Trump escalation beyond auto tariffs — each <30% probability, leaving the bullish contrarian view dominant.",
+      "contrarian_analysis_strategic": "Asset manager net long at +290,898 is a strategic-horizon yellow flag — this position size is consistent with consensus EUR-bullish bank views (Goldman 1.25, Deutsche 1.25), meaning the consensus trade is partially in motion. If the rate-convergence thesis fails over Q3-Q4 2026, the unwind from this level would be violent. The strategic contrarian bull case is asset managers ADD to longs as ECB-Fed convergence delivers, producing a self-reinforcing rally to 1.22-1.25. The strategic contrarian bear case is the unwind catalyst arrives (likely Trump-driven recession or Powell ouster-driven USD volatility regime change) and asset managers cut to +150K, mapping to ~5% EUR/USD downside. On balance, strategic positioning is balanced — structurally supportive, vulnerable to thesis-failure tail.",
+      "expression_assessment": null
+    },
+    {
+      "block": "Flow & Sentiment",
+      "factor_number": 5,
+      "tactical_weight": 0.06,
+      "strategic_weight": 0.16,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 65,
+        "analysis": "The terms-of-trade shock from the Iran-US war is the single most acute EUR-negative force in the framework, but its tactical weight (0.06) is small, limiting its impact on the synthesis even at high confidence. The eurozone runs an energy-import deficit dominated by oil and gas, with TTF natural gas at €46.93/MWh (+34% YoY, off the €68/MWh March peak but still elevated) and Brent at $108/bbl (+55% from the $70 pre-war baseline) directly transmitted to higher import bills. The eurozone goods trade balance for February 2026 was €11.5 bn surplus (vs €23.1 bn February 2025) — already contracting, with Q2 likely to deteriorate further as war-period import bills hit the data. Eurozone current account 12-month sum at €261 bn = 1.6% of GDP, down from €377 bn / 2.5% one year earlier — a ~90 bp narrowing in 12 months, the steepest decline since 2022. EU gas storage at 33.8% (May 4) is 21.2 percentage points below the five-year seasonal norm of 55.0%, with the mandatory 80% storage by 1 November target highly stressed absent ceasefire stability. Importantly, the EU goods surplus with the US at €199.6 bn (2025) makes the bloc the primary target of Trump's 25% auto tariff (announced 1 May 2026, effective week of 8 May) — this is an additional terms-of-trade hit beyond energy. The tactical EUR-negative read is unambiguous: every $1 increase in Brent is roughly -€2 bn on the EU annual oil import bill, and the gas storage deficit means refilling stocks ahead of winter requires sustained import flow regardless of price.",
+        "key_data_points": [
+          "Brent crude: $108/bbl (5 May); +55% from $70 pre-war (27 Feb)",
+          "TTF natural gas: €46.93/MWh (5 May); +34% YoY",
+          "EU gas storage: 33.8% full (4 May), vs 55.0% 5Y norm — 21.2 pp deficit",
+          "Eurozone current account: +1.6% of GDP (12M sum, narrowing from 2.5%)",
+          "Eurozone goods balance Feb: €11.5 bn (vs €23.1 bn Feb 2025)",
+          "US goods deficit with EU 2025: €199.6 bn",
+          "Trump 25% auto tariff (1 May 2026, effective ~8 May)"
+        ],
+        "what_is_priced": "Markets price the energy shock but underweight the deepening external balance deterioration. Our view: this factor is more EUR-negative than priced, and another $10/bbl on Brent would force visible deterioration in the May-June trade data. Tactical weight is low (0.06), capping synthesis impact.",
+        "citations": [4, 5, 29, 30, 31]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 60,
+        "analysis": "At the strategic horizon, the external balance factor weighs much more heavily (0.16) and remains bearish EUR. The eurozone is structurally a net energy importer with limited ability to substitute Russian gas elimination (already done) with cheaper alternatives — the LNG buildout has plateaued, and the storage gap requires sustained import flow at elevated TTF prices. If Brent averages $95/bbl over the next 6 months (consistent with a holding ceasefire), the EU oil import bill rises by ~€60 bn vs 2025 baseline — a meaningful current account drag. If Brent averages $115 (re-escalation scenario), the bill rises by ~€110 bn and pushes the current account toward zero. Trump's 25% auto tariff specifically targets German manufacturing — the auto sector is ~10% of EU goods exports and Germany is the bloc's largest economy, so the trade shock has disproportionate EUR-negative impact via the German growth channel. EUR REER is moderately above long-run average, providing valuation cushion but not directional support. The structural offset is the gradual reserve diversification away from USD per IMF COFER trends, which provides background EUR demand from reserve managers — but the pace is glacial (~1 pp per year shift). On balance, the strategic external balance is meaningfully bearish EUR with the high factor weight (0.16) translating to a substantial synthesis drag on the Bullish strategic stance.",
+        "key_data_points": [
+          "Brent 6M scenarios: $80 (ceasefire), $95 (status quo), $115 (re-escalation)",
+          "EU oil import bill sensitivity: ~€6 bn per $10/bbl annualised",
+          "TTF storage refill cost (33.8% → 80%): ~€40 bn at current prices",
+          "EU auto sector: ~10% of EU goods exports",
+          "Germany 2025 auto exports to US: NOT FOUND precise figure but ~€50 bn order of magnitude",
+          "Eurozone current account 6M trajectory: narrowing toward 1.0% of GDP base case"
+        ],
+        "what_is_priced": "Strategic markets do NOT fully price the auto tariff hit (announced just 1 May, not yet in trade data) or the storage refill cost. Our view: the next 3 months' trade data will show acceleration of deterioration, providing cumulative EUR-negative pressure that limits upside.",
+        "citations": [4, 5, 30, 31]
+      },
+      "horizon_split_explanation": "Both horizons are bearish, but strategic confidence (60) is just below tactical (65) because the energy trajectory is uncertain over 6 months — a confirmed Iran ceasefire and Brent retracement to $80 would partially neutralise the strategic concern.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Flow & Sentiment",
+      "factor_number": 6,
+      "tactical_weight": 0.07,
+      "strategic_weight": 0.12,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 70,
+        "analysis": "ECB communication has pivoted decisively hawkish since late February and the credibility of the new framing is being market-validated through OIS pricing. Lagarde's 30 April press conference was structured to allow the June meeting to deliver a hike without breaking the 'data-dependent, meeting-by-meeting' framework — by acknowledging 'upside risks intensified' and that the Council made an 'informed decision on the basis of yet-insufficient information,' she pre-positioned for June action without pre-committing. The 18-19 March Account released 16 April explicitly noted markets were pricing 'close to two 25 basis point interest rate hikes by the end of the year, with the first of these expected around June' — and the ECB did NOT push back against this pricing, an implicit endorsement. Vocal hawks (Nagel, Holzmann, Kazimir, Müller) have been signalling June hike inevitability; doves (Cipollone, Stournaras, Centeno) have been notably quiet, reflecting consensus tilt. Kazimir on 4 May: 'policy tightening in June is all but inevitable.' The market-implied path is ~99 bp of hikes by year-end — substantial divergence from the ECB Staff Projection baseline of held rates — and the ECB has not corrected this divergence, signalling tacit endorsement. The credibility signal is strongly EUR-bullish: when the central bank pre-validates a hawkish market path via communication, the cross typically rallies into the meeting. Tactical risk: Lagarde could deliver a hawkish hike with cautious framing on growth (services PMI 47.4) that delivers 'buy the rumour, sell the fact' pullback. Probability ~30%.",
+        "key_data_points": [
+          "ECB 30 April statement: 'upside risks to inflation and downside risks to growth have intensified'",
+          "Lagarde on 30 April: 'we are certainly moving away from [the baseline]'",
+          "ECB Account 18-19 March (released 16 April): 'close to two 25 basis point hikes by the end of the year'",
+          "Kazimir 4 May: 'tightening in June is all but inevitable'",
+          "Market-implied vs ECB Staff path divergence: +99 bp by year-end",
+          "Hawk/dove split: hawks vocal (Nagel/Holzmann/Kazimir/Müller); doves quiet",
+          "Next ECB meeting: 4–5 June 2026 (binary catalyst)"
+        ],
+        "what_is_priced": "Markets price the ECB delivering on hawkish pivot. Our view: ECB will deliver June +25 bp but with cautious forward language. The tactical mispricing is in the framing — markets expect 'hawkish hike,' ECB likely delivers 'data-dependent hike' — net mildly bullish but capped at 1.1850.",
+        "citations": [1, 2, 32]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 65,
+        "analysis": "At the strategic horizon, the ECB credibility question is whether Lagarde and the Governing Council can sustain the hawkish path through Q3-Q4 2026 against deteriorating growth data. The Staff Projections framework provides the strategic anchor — March 2026 cut headline HICP forecast back below target by 2027 (2.0%) and 2028 (2.1%), suggesting the Council sees the energy shock as transitory. If actual data tracks the Staff Severe Scenario (HICP +1.8 pp higher), the Council would be forced to deliver more hikes than priced — strongly EUR-bullish. If actual data undershoots (services PMI capitulation), the Council faces a credibility test: do they hike into a recession? The ECB's track record post-2022 has been to prioritise inflation over growth concerns, suggesting they would deliver at least the priced June hike even if growth weakens further. The Governing Council consensus dynamic — 25 members, with Bundesbank hawkishness traditionally dominant in stagflation — supports continued hawkishness. The risk is a 2003-style 'two-speed Europe' tension where peripheral doves mobilise around growth concerns and the consensus fractures, but this has not happened post-COVID and seems unlikely. The strategic credibility factor at the higher 0.12 weight provides meaningful EUR-bullish push to the synthesis.",
+        "key_data_points": [
+          "ECB Staff March 2026 HICP path: 2.6% (2026) → 2.0% (2027) → 2.1% (2028) — energy treated as transitory",
+          "ECB Staff GDP path: 0.9% (2026) → 1.3% (2027) → 1.4% (2028)",
+          "Severe scenario assumptions: oil $145, gas €106 (current: $108, €47 — milder than severe)",
+          "Governing Council size: 25 members; Bundesbank traditional hawkishness intact",
+          "Communication framework: 'data-dependent, meeting-by-meeting' (no forward guidance)",
+          "Staff Projections schedule: June, September, December updates"
+        ],
+        "what_is_priced": "Strategic markets price ECB delivering ~99 bp of hikes by year-end. Our view: the credibility framework supports this path absent a recession; the mispricing is around the pace and sequencing, not the direction.",
+        "citations": [1, 23, 32]
+      },
+      "horizon_split_explanation": "Both horizons are bullish, but tactical (70) edges strategic (65) because the June meeting is a near-dated binary that resolves quickly. Strategic horizon depends on cumulative meetings each with delivery risk, hence lower confidence.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Flow & Sentiment",
+      "factor_number": 7,
+      "tactical_weight": 0.05,
+      "strategic_weight": 0.05,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 65,
+        "analysis": "The tactical event risk environment is densely populated with EUR-negative catalysts. Operation Epic Fury formally ended per Secretary Rubio's 5 May statement, but the situation remains fluid: US 'Project Freedom' naval escort in the Strait of Hormuz was suspended 5 May amid Beijing-mediated negotiations; UAE was struck by drones; Iranian FM Araghchi met Wang Yi in Beijing on 6 May seeking Chinese mediation. The April 7-8 ceasefire is fragile, with both sides conducting strikes 4-5 May. Trump's 25% auto tariff on EU vehicles announced 1 May (effective week of 8 May) is a fresh EUR-negative shock that has not yet been fully priced into trade data or EUR/USD. France faces severe political instability under PM Lecornu (October 2025 appointee), with the 2026 budget passage failing and ratings agencies (Fitch A+ Sept 2025, S&P AA- Oct 2025) on negative trajectories. The OAT-Bund spread at 64 bp is elevated and could widen sharply on a no-confidence vote. Germany's Merz coalition is stable but dependent on the new fiscal package's continued passage. The next 30 days contain three primary EUR-negative catalysts: (1) auto tariff implementation 8 May, (2) potential Iran flare-up, (3) French budget political accident. Probability-weighted, this contributes meaningful tactical bearish pressure. Mitigant: ECB June meeting could overwhelm event-risk noise.",
+        "key_data_points": [
+          "Operation Epic Fury status: 'over' per Rubio 5 May; ceasefire holds nominally",
+          "'Project Freedom' naval escort: suspended 5 May (Beijing diplomacy)",
+          "Trump auto tariff: 25%, announced 1 May, effective ~8 May",
+          "French PM: Lecornu (October 2025); 2026 budget failed",
+          "France ratings: Fitch A+ (Sept 2025); S&P AA- (Oct 2025); KBRA AA- (April 2026)",
+          "OAT-Bund 10Y spread: 64 bp (elevated)",
+          "Iran-China diplomacy: Araghchi-Wang Yi meeting 6 May"
+        ],
+        "what_is_priced": "Markets partially price Iran ceasefire and partially price tariff. Our view: tariff transmission to EUR is under-priced (markets focused on rate-convergence), Iran tail risk is appropriately priced. Tactical net bearish at low weight.",
+        "citations": [31, 33, 34, 35]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 55,
+        "analysis": "Strategic event risk centres on three multi-month vectors: (1) Iran ceasefire stability through summer driving season, (2) Trump trade policy trajectory beyond autos (steel, agriculture, retaliation), (3) French political and fiscal sustainability through autumn budget cycle. Each carries materially bearish EUR risk. Iran ceasefire holding probability over 6 months: ~55% (subjective) — if it breaks, Brent spikes to $130+ and the EUR-negative energy shock returns with full force. Trump trade escalation probability: ~40% (additional measures beyond autos) — would compound the trade balance hit on Germany. French political accident probability: ~30% (snap election or no-confidence) — would force OAT widening past 100 bp and likely trigger ECB TPI debate. Counter-risk: a formal Iran deal, Trump détente with EU, French political stabilisation — each <30% probability. Net, strategic event risk is bearish but with meaningful tail-fattening on both sides. The factor weight (0.05) is the same at both horizons, limiting synthesis impact.",
+        "key_data_points": [
+          "Iran ceasefire 6M holding probability: ~55%",
+          "Trump escalation probability (beyond autos): ~40%",
+          "French political accident probability: ~30%",
+          "Russia-Ukraine: status quo; no near-term resolution catalyst",
+          "US-EU summit cycle: G7 June, G20 November",
+          "French presidential election: 2027 (campaign begins H2 2026)"
+        ],
+        "what_is_priced": "Markets price ceasefire holds and tariff is contained. Our view: tail risks are skewed bearish for EUR. Strategic mispricing is in volatility being too low for 6-month tail risk distribution.",
+        "citations": [33, 34, 35]
+      },
+      "horizon_split_explanation": "Both horizons are bearish at similar low confidence, reflecting the inherent uncertainty of binary geopolitical events. Tactical confidence (65) edges strategic (55) because near-dated catalysts are more visible.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Flow & Sentiment",
+      "factor_number": 8,
+      "tactical_weight": 0.04,
+      "strategic_weight": 0.07,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 60,
+        "analysis": "Eurozone fiscal risk is persistent background pressure but not currently acute enough to drive tactical EUR moves absent a specific accident. The four-state composite is divergent: Germany at AAA/63.5% debt-to-GDP remains the bedrock with the Merz government's €83 bn defence budget and €500 bn infrastructure fund providing fiscal stimulus rather than concern; France at A+/115.6% debt-to-GDP is the structural vulnerability with three rating downgrades since September 2025 (Fitch Sept, S&P Oct, KBRA AA- April 2026 with stable outlook); Italy at BBB+/137.1% debt-to-GDP is on improving trajectory with S&P upgrade April 2025 and Moody's positive outlook May 2025; Spain at A-/100.7% is stable. BTP-Bund 10Y spread at ~78 bp is contained — well off the March stress peak above 100 bp but elevated vs the 65 bp January low; OAT-Bund 10Y at ~64 bp reflects France's structural premium. The ECB explicitly mentioned the Transmission Protection Instrument (TPI) in the 30 April statement as available, signalling the backstop is on the shelf but not activated. France's 2026 budget process collapsed in late 2025 forcing Lecornu's continued PM tenure under emergency procedures — but markets have largely absorbed this. The tactical fiscal factor is neutral because spreads are contained and no near-dated rating action is signalled, but with a watching brief on French political development. Probability of an OAT spread accident in next 30 days: ~15%.",
+        "key_data_points": [
+          "Germany debt/GDP Q4 2025: 63.5%; rating Aaa/AAA/AAA",
+          "France debt/GDP Q4 2025: 115.6%; rating Aa3/A+/A+ (downgrade trajectory)",
+          "Italy debt/GDP Q4 2025: 137.1%; rating Baa3 (positive)/BBB+/BBB",
+          "Spain debt/GDP Q4 2025: 100.7%; rating Baa1/A/A-",
+          "BTP-Bund 10Y: 78 bp (vs 65 bp Jan low; 100+ bp Mar peak)",
+          "OAT-Bund 10Y: ~64 bp (elevated post-downgrades)",
+          "ECB TPI: mentioned as available in 30 Apr statement; not activated"
+        ],
+        "what_is_priced": "Markets price contained peripheral risk but elevated French premium. Our view: France is the watchpoint — a no-confidence vote or budget accident could push OAT-Bund to 100 bp and force EUR-negative pressure. Tactical mispricing is benign.",
+        "citations": [1, 24, 35, 36, 37, 38]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 55,
+        "analysis": "Strategic fiscal risk concentrates on France and the cumulative deficit trajectory. France ran a 5.5% deficit in 2025 vs the 3% target, is in Excessive Deficit Procedure, and faces an autumn 2026 budget that under current political fragmentation may again fail to consolidate. The debt-to-GDP trajectory is rising, with no political coalition capable of meaningful structural reform — this is a slow-motion sovereign credit event that ratings agencies will likely continue to act on. Probability of further French ratings downgrade by year-end 2026: ~40%. Italy's improving trajectory is a partial offset — S&P at BBB+ with positive outlook suggests potential upgrade in H2 2026, which would tighten BTP-Bund and reduce eurozone aggregate sovereign stress. Germany's fiscal expansion is the largest mover: the €500 bn infrastructure fund and €83 bn defence budget are the most significant fiscal stimulus in modern German history, supporting growth and providing supply of safe-asset Bunds. Net, strategic fiscal risk is mildly bearish EUR — France is a slow-burning negative, Italy is a potential positive, Germany is fiscally accommodative. The factor weight at strategic (0.07) is meaningful but not dominant. The TPI exists as a backstop but ECB activation would be confidence-shaking, not confidence-restoring — markets would interpret TPI activation as a signal that disorderly market dynamics are present.",
+        "key_data_points": [
+          "France deficit 2025: 5.5% of GDP (vs 3% SGP target); EDP active",
+          "France 2026 budget: process collapsed; emergency procedures",
+          "Italy 2026 deficit target: 2.8% (would exit EDP)",
+          "Italy potential upgrade probability H2 2026: ~30%",
+          "France further downgrade probability YE 2026: ~40%",
+          "Germany €500 bn infrastructure fund — multi-year disbursement",
+          "Germany €83 bn 2026 defence budget — largest in modern history",
+          "TPI activation probability: <10% (only on disorderly conditions)"
+        ],
+        "what_is_priced": "Markets price France structural premium correctly but underweight the cumulative deficit trajectory through 2027-2028. Our view: France downgrade is the dominant strategic fiscal risk; Italy upgrade is the primary offset.",
+        "citations": [24, 35, 36, 37, 38]
+      },
+      "horizon_split_explanation": "Strategic (Bearish, 55) is more negative than tactical (Neutral, 60) because the cumulative French fiscal trajectory deteriorates over 6 months but is contained at near-term spreads.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Market Microstructure",
+      "factor_number": 9,
+      "tactical_weight": 0.05,
+      "strategic_weight": 0.03,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 65,
+        "analysis": "The technical and structural setup for EUR/USD is mildly constructive. Spot at 1.1734 is above the 200-day MA at ~1.1670–1.1700 and the 50-day MA at ~1.1680, with MAs in tightly-stacked bullish alignment (50d > 200d, with a recent golden cross or near it) — this is a positive flow signal for trend-following CTAs that typically allocate to the EUR long side once spot is sustainably above the 200-day. Recent range 1.1435–1.2016 defines the YTD trading band; the cross has consolidated in the upper third of the range. Key levels: resistance at 1.1850 (April high cluster), 1.1900 (round number), 1.2016 (YTD high); support at 1.1700 (200d MA), 1.1500 (March consolidation), 1.1435 (war low). Round-number magnetism at 1.1750 has been visible. Implied vol is mid-range — 1M ATM IV estimated 9–11% based on recent realised price action (precise CME CVOL May figure NOT FOUND). IV percentile estimated 55-65th — neither cheap to buy nor expensive to sell. 25-delta 1M risk reversals are positive (calls bid since 'Liberation Day' April 2025) — institutional hedgers are positioned for upside, which is bullish skew confirmation. Realised vs implied: realised likely 8–10% (slightly below implied), modest event premium for the June ECB meeting. Vol term structure: likely flat-to-mild backwardation around June. Net tactical structural read: mildly bullish — MA alignment, positive risk reversal skew, contained vol all support. Risk: a break below 1.1700 (200d) would trigger CTA selling toward 1.1500.",
+        "key_data_points": [
+          "Spot EUR/USD: 1.1734 (5 May 2026)",
+          "200d MA: ~1.1690; 50d MA: ~1.1680",
+          "Recent range: 1.1435 (15 Mar) to 1.2016 (27 Jan)",
+          "Resistance: 1.1850, 1.1900, 1.2016",
+          "Support: 1.1700, 1.1500, 1.1435",
+          "1M ATM IV: estimated 9–11%",
+          "IV percentile (1Y): estimated 55-65th",
+          "25Δ 1M risk reversal: positive (calls bid)"
+        ],
+        "what_is_priced": "Markets price moderate vol with mild upside skew. Our view: vol is appropriately priced for the June ECB binary; the tactical structural setup supports gradual EUR upside but constrained by 1.1850 resistance. Mispricing: tail risk vol may be slightly under-priced for Hormuz scenario.",
+        "citations": [7, 12, 13]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "analysis": "At the strategic horizon, the technical structure is constructive but the wide range (1.14–1.20) means the cross can spend 6 months in choppy consolidation without resolving directionally. The 200-day MA serving as support implies a bullish base case but with broad uncertainty bands. Implied vol structure suggests 1.13–1.22 range covers ~70% of 6-month outcomes — wide enough that the structural factor doesn't add directional conviction at strategic horizon. The factor weight (0.03) is the lowest in the framework at strategic, limiting synthesis impact. The expression assessment provides the actionable read. The vol term structure remains in mild backwardation around the June ECB binary, then flattens through Q3 with episodic spikes around September ECB and FOMC meetings — vol selling into these events is unattractive. The 25-delta 1Y risk reversal remains positive (calls bid), confirming the structural skew toward upside, and is consistent with bank consensus targets at 1.20-1.25. CTA flows are likely to remain neutral-to-supportive as long as spot holds the 200-day MA. Net: structural micro factors add no directional conviction at strategic horizon but support the base case via positive skew and trend-following alignment.",
+        "key_data_points": [
+          "6M implied range (~1Y IV ~10%): roughly 1.1100–1.2400",
+          "200d MA trajectory: rising; supports ~1.1700-1.1800 by Q3",
+          "Range thickness 1.14–1.20: ~600 pips",
+          "Strategic level structure: 1.20 cap, 1.14 floor, 1.17 fulcrum"
+        ],
+        "what_is_priced": "Markets price EUR/USD trending toward 1.20 over 6 months with moderate vol. Our view: directional bias is mild bullish, but range-bound dynamics are dominant.",
+        "citations": [7, 12]
+      },
+      "horizon_split_explanation": "Tactical (Bullish, 65) and Strategic (Neutral, 55) reflect the dominant near-term technical bias vs the wider range-bound strategic distribution. Mechanism: near-term MA support and skew are constructive; strategic outcomes are too dispersed for confident directional call from market structure alone.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": "Tactical (2-4 weeks): Spot expression preferred over options because (a) IV percentile is mid-range (not cheap to buy), (b) realised vol is modestly below implied (variance risk premium small), (c) the June ECB binary creates a near-dated event where spot moves likely outpace options decay. Long EUR/USD spot at 1.17 with 1.16 stop and 1.18-1.19 target offers cleanest exposure. For risk-defined expression, 1M EUR/USD calls struck at 1.18 cost ~50-70 pips (estimated) and capture upside above 1.1850-1.1870. Avoid selling vol into the June meeting because event premium is justified. Strategic (1-6 months): Options-based expression more attractive because IV percentile rises with longer dates, and the wide 1.14–1.20 range allows for cheaper structures via call spreads. A 3M EUR/USD 1.18/1.22 call spread captures the Q3 base case with limited premium. For naked spot expression, 1.17 entry with 1.13 hard stop and 1.21-1.22 target offers ~3:1 reward-risk. Risk reversal trades (long calls, short puts) take advantage of the positive 25-delta skew. Vol selling unattractive given event-rich 6M calendar. Net expression: Spot for tactical, options-structured for strategic. Vol regime supports directional positioning over volatility positioning."
+    },
+    {
+      "block": "Market Microstructure",
+      "factor_number": 10,
+      "tactical_weight": 0.11,
+      "strategic_weight": 0.12,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 70,
+        "analysis": "USD liquidity dynamics are the second-most important EUR-bullish driver after Factor 1, with combined weight of 0.35 across Factors 1 and 10 dominating the synthesis. The Fed paused at 3.50–3.75% on 29 April with an 8-4 vote — the first four-dissenter split since October 1992 — reflecting deep internal disagreement. Stephen Miran dissented for a 25 bp cut, while Beth Hammack (Cleveland), Neel Kashkari (Minneapolis), and Lorie Logan (Dallas) dissented against the easing-bias language in the statement. This fractured FOMC is markets-positive for risk assets and EUR-positive via the standard Fed dovish bias channel — the next move from the Fed is more likely a cut than a hike, with September pencilled in. SOFR at ~3.75% trades close to Fed Funds upper bound; primary credit rate 3.75%, IORB 3.65% (29 April implementation note). Fed balance sheet runoff continues at slow pace — total assets just under $7 trillion, contracting modestly. The 8-4 vote signal weakens USD via two mechanisms: (1) markets price the dovish minority gaining traction over coming meetings, (2) reserve managers continue to question USD safe-haven primacy under the perceived 'policy chaos' narrative. EUR/USD cross-currency basis 3M and 1Y are NOT FOUND in public sources but anecdotal commentary suggests basis has tightened (less negative) since April, consistent with reduced USD funding stress globally. Dollar smile: USD is in the 'stagflation middle' — neither benefiting from US growth exceptionalism nor risk-off (CHF/JPY taking that flow). DXY at ~98.4 is below 100 psychological level. Net tactical USD-liquidity is EUR-bullish — dovish Fed minority + USD safe-haven decay + benign funding conditions all support EUR/USD upside.",
+        "key_data_points": [
+          "Fed Funds Rate: 3.50–3.75% (held since 29 April 2026)",
+          "FOMC vote 29 April: 8-4 split (1 cut dissent, 3 hawkish dissents)",
+          "SOFR: ~3.75%; IORB: 3.65%; Primary Credit Rate: 3.75%",
+          "Fed balance sheet: ~$6.85 trillion (estimated)",
+          "DXY: ~98.4 (below 100)",
+          "EUR/USD cross-currency basis 3M: NOT FOUND public source",
+          "Reserve manager USD diversification: ongoing per IMF COFER trend",
+          "Dollar smile position: 'stagflation middle' (USD-bearish quadrant)"
+        ],
+        "what_is_priced": "Markets price ~50-75 bp of Fed cuts by year-end. Our view: this is broadly correct; the FOMC fracture means delivery is more likely than not. Mispricing: USD safe-haven decay is structural and may be under-priced — DXY could trade below 95 if war fully de-escalates.",
+        "citations": [3, 18, 39]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 65,
+        "analysis": "At the strategic horizon, the USD liquidity factor at 0.12 weight remains a substantial EUR-bullish contributor. The Fed's reaction function depends on US growth/inflation trajectory — if US data softens (consistent with Q1 GDP miss), the dovish minority gains, and the Fed delivers ≥1 cut over the next 6 months. If US data re-accelerates, the hawkish minority gains and cuts are pushed out — but the absolute path remains lower than current 3.50-3.75% absent fresh inflation shock. The combination with ECB Factor 1 hawkishness produces the rate-convergence trajectory that is the dominant EUR-bullish thesis. Cross-currency basis dynamics suggest USD funding conditions are well-managed by the Fed's standing repo facility and swap line infrastructure — no signs of stress. The structural EUR-positive flow from reserve diversification continues — IMF COFER showed EUR share ~20% in latest 2024-25 data with gradual increase, while USD share has slipped from 60%+ to mid-50s%. The dollar smile framework's strategic implication is that USD strength requires a return of US growth exceptionalism, which appears unlikely given Trump policy uncertainty and Powell succession risk. Net strategic USD liquidity: EUR-bullish, with the high factor weight (0.12) translating to substantial synthesis contribution.",
+        "key_data_points": [
+          "Fed cut path 6M: ~50-75 bp implied (June, September, December meetings)",
+          "FOMC composition: persistent 4-dissenter split likely",
+          "US Q1 2026 GDP: estimated 1.5-2.0% (slightly below trend)",
+          "US debt sustainability: rising trajectory; Treasury issuance heavy",
+          "EUR reserve share trajectory: gradual increase (~+0.5 pp per year)",
+          "USD reserve share: gradual decrease (~-0.5 pp per year)",
+          "Powell term: expires 2026 — succession risk volatility regime change"
+        ],
+        "what_is_priced": "Strategic markets price Fed cutting and USD weakening modestly. Our view: this is the consensus and we agree. Mispricing: structural USD reserve decay may be larger than market acknowledges, supporting EUR/USD beyond consensus 1.20–1.25 targets to potentially 1.27–1.30 by 2027.",
+        "citations": [3, 18, 28, 39]
+      },
+      "horizon_split_explanation": "Both horizons are bullish (tactical 70, strategic 65) with tactical edge reflecting near-dated visibility of FOMC dovish minority. Strategic horizon has higher uncertainty around US growth path.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    }
+  ],
+
+  "synthesis": {
+    "tactical": {
+      "net_stance": "Bullish",
+      "conviction": 3,
+      "overall_confidence": 68,
+      "weighted_score": {
+        "calculation": [
+          { "factor": "1. Policy & Rates", "stance_score": 1, "confidence_pct": 75, "confidence_adjusted_score": 0.750, "weight": 0.24, "weighted_contribution": 0.180 },
+          { "factor": "2. Inflation & Growth", "stance_score": -1, "confidence_pct": 60, "confidence_adjusted_score": -0.600, "weight": 0.18, "weighted_contribution": -0.108 },
+          { "factor": "3. Risk Appetite", "stance_score": 1, "confidence_pct": 65, "confidence_adjusted_score": 0.650, "weight": 0.10, "weighted_contribution": 0.065 },
+          { "factor": "4. Flows & Positioning", "stance_score": 1, "confidence_pct": 70, "confidence_adjusted_score": 0.700, "weight": 0.10, "weighted_contribution": 0.070 },
+          { "factor": "5. External Balance", "stance_score": -1, "confidence_pct": 65, "confidence_adjusted_score": -0.650, "weight": 0.06, "weighted_contribution": -0.039 },
+          { "factor": "6. Guidance & Credibility", "stance_score": 1, "confidence_pct": 70, "confidence_adjusted_score": 0.700, "weight": 0.07, "weighted_contribution": 0.049 },
+          { "factor": "7. Event Risk", "stance_score": -1, "confidence_pct": 65, "confidence_adjusted_score": -0.650, "weight": 0.05, "weighted_contribution": -0.033 },
+          { "factor": "8. Fiscal & Sovereign", "stance_score": 0, "confidence_pct": 60, "confidence_adjusted_score": 0.000, "weight": 0.04, "weighted_contribution": 0.000 },
+          { "factor": "9. Market Structure", "stance_score": 1, "confidence_pct": 65, "confidence_adjusted_score": 0.650, "weight": 0.05, "weighted_contribution": 0.033 },
+          { "factor": "10. USD Liquidity", "stance_score": 1, "confidence_pct": 70, "confidence_adjusted_score": 0.700, "weight": 0.11, "weighted_contribution": 0.077 }
+        ],
+        "net_score": 0.294,
+        "interpretation": "Moderately positive net score. Six factors bullish (1, 3, 4, 6, 9, 10), three bearish (2, 5, 7), one neutral (8). The two highest-weighted factors split — Policy bullish (+0.180), Inflation/Growth bearish (-0.108) — but Policy weight wins at confidence-adjusted level. USD Liquidity (+0.077) reinforces the bullish tilt.",
+        "mapping_to_conviction": "Score +0.294 maps to Bullish at Conviction 3 (out of 5) per framework: 0.20-0.45 = Conv 3 with Bullish/Bearish stance"
+      },
+      "rationale": "The tactical EUR/USD setup is structured for a moderate upside grind into and through the 4–5 June ECB meeting. The dominant signal is the rate-differential convergence channel: the ECB has pivoted hawkish with markets pricing 81% probability of a +25 bp June hike against a Fed that just paused on a fractured 8-4 vote with growing dovish dissent — this is the cleanest macro setup for EUR upside in the framework. The Inflation & Growth factor's bearishness (services PMI at 47.4, IFO at COVID lows) creates the ECB's biggest delivery risk, but Lagarde's communication on 30 April pre-positioned for a hike with cautious framing rather than no hike — the credibility factor (Bullish) reinforces the rate factor. Positioning is the second-most-important reinforcement: leveraged funds at +11,594 (15th percentile of 52w range) provide tactical squeeze potential rather than crowded-long contrarian risk. The Risk Appetite environment (VIX at 17.4) supports EUR via the anti-USD channel without USD safe-haven offset. The path of least resistance is a grind from 1.1734 toward 1.1850 over the next 2 weeks, with potential extension to 1.1900 on confirmed June hike. Conviction is 3 (medium) rather than 4 because the bearish factors are real and the binary nature of the June meeting creates sharp two-way risk. Catalysts ahead: 8 May auto tariff implementation (bearish), 30 May May HICP flash (bullish if energy-driven), 4–5 June ECB (binary, leaning bullish). What makes this more than a coin flip: the rate-differential channel has a ~-0.55 historical correlation with EUR/USD, and the implied path divergence is ~99 bp — a substantial structural force. The view is highly tradeable via spot expression at 1.1700-1.1734 with stops at 1.1620 and targets at 1.1850-1.1900. The factor interactions are reinforcing on the bullish side: Factor 1 (Policy) + Factor 6 (Guidance) + Factor 10 (USD Liquidity) form the central thesis stack at 0.42 combined weight. The bearish factors are real but carry total weight of 0.29, and the confidence-adjusted contributions confirm the bullish bias.",
+      "g10_ranking": {
+        "rank": 4,
+        "out_of": 11,
+        "beats": ["USD", "GBP", "CAD", "NZD", "SEK"],
+        "loses_to": ["NOK", "CHF", "JPY", "AUD"],
+        "commentary": "EUR sits in the upper-middle of the G10+SGD opportunity set — better than the dollar bloc (USD/CAD/GBP) but losing to safe havens and high-beta commodity currencies. The cleanest tactical EUR expression is EUR/USD long; the relative-value loser is EUR/CHF where SNB's 0% rate vs ECB's 2.00% (and rising) should support a EUR/CHF base, but safe-haven flows are overwhelming the rate signal in the near term. SGD is excluded from direct comparison given S$NEER policy framework."
+      },
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "outcome": "EUR/USD grinds higher to 1.1820–1.1880 over 2–4 weeks",
+          "conditions": [
+            "ECB confirms June hike with cautious framing",
+            "Brent stays below $115",
+            "Trump auto tariff implements but no further escalation"
+          ],
+          "path": "Gradual upside with intra-day chop around 1.1800; tests 1.1850 by end-May, breaks to 1.1880 on confirmed ECB June hike."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "outcome": "EUR/USD breaks 1.1900 toward 1.2000",
+          "conditions": [
+            "Iran ceasefire formalised with Hormuz reopening",
+            "Fed dovish minority signals September cut likely"
+          ]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "outcome": "EUR/USD slides to 1.1500",
+          "conditions": [
+            "Hormuz attack or full re-escalation",
+            "ECB June capitulates to growth concerns and holds"
+          ]
+        }
+      },
+      "path_expectation": "The path is a step-pattern grind rather than a vertical move: spot likely consolidates in the 1.1700-1.1780 range until late May, then breaks higher into the June ECB meeting if data flow remains supportive (May HICP, services PMI). The June 4-5 meeting is the inflection — a clean hawkish hike triggers an extension to 1.1850-1.1900; a hold or dovish surprise reverses to 1.1500-1.1550. Volatility is contained pre-meeting (1M ATM IV ~10%) and likely spikes to 12-13% on the meeting day. Pullback levels are 1.1700 (200d MA) and 1.1620 (50d MA region) for tactical longs. The auto tariff implementation 8 May creates intra-day risk but unlikely to break the bullish thesis if no further escalation.",
+      "conviction_ladder": {
+        "current": 3,
+        "increase_to_5_if": [
+          "ECB delivers June +25 bp WITH hawkish forward guidance",
+          "Brent retraces below $90 on formal Iran ceasefire"
+        ],
+        "increase_to_4_if": [
+          "ECB Council member explicitly endorses June hike pre-meeting",
+          "Services PMI May print stabilises >47",
+          "Brent retraces below $100"
+        ],
+        "decrease_to_3_if": [
+          "BTP-Bund widens above 100 bp on French political stress",
+          "Services PMI falls toward 46"
+        ],
+        "decrease_to_2_if": [
+          "Services PMI breaks below 46",
+          "BTP-Bund widens past 100 bp",
+          "Oil spikes above $115 on Hormuz"
+        ],
+        "decrease_to_1_if": [
+          "ECB June meeting holds rather than hikes",
+          "Hormuz energy facility hit triggering full re-escalation"
+        ]
+      },
+      "risk_reward": {
+        "base_case_payoff": "+90 to +150 pips (from 1.1734 to 1.1820-1.1880) = +0.8% to +1.3%",
+        "downside_case_loss": "-230 pips (from 1.1734 to 1.1500) = -2.0%",
+        "risk_reward_ratio": "0.4–0.7:1 raw; with stop at 1.1620 (-114 pips): 1.3:1",
+        "asymmetry_assessment": "Distribution is roughly symmetric in pip terms but probability-weighted is positive (+0.55% expected return). Use stops at 1.1620 to limit downside; this transforms the risk/reward to ~1.3:1 favourable."
+      }
+    },
+    "strategic": {
+      "net_stance": "Bullish",
+      "conviction": 3,
+      "overall_confidence": 62,
+      "weighted_score": {
+        "calculation": [
+          { "factor": "1. Policy & Rates", "stance_score": 1, "confidence_pct": 65, "confidence_adjusted_score": 0.650, "weight": 0.24, "weighted_contribution": 0.156 },
+          { "factor": "2. Inflation & Growth", "stance_score": 0, "confidence_pct": 55, "confidence_adjusted_score": 0.000, "weight": 0.10, "weighted_contribution": 0.000 },
+          { "factor": "3. Risk Appetite", "stance_score": 0, "confidence_pct": 55, "confidence_adjusted_score": 0.000, "weight": 0.05, "weighted_contribution": 0.000 },
+          { "factor": "4. Flows & Positioning", "stance_score": 0, "confidence_pct": 55, "confidence_adjusted_score": 0.000, "weight": 0.06, "weighted_contribution": 0.000 },
+          { "factor": "5. External Balance", "stance_score": -1, "confidence_pct": 60, "confidence_adjusted_score": -0.600, "weight": 0.16, "weighted_contribution": -0.096 },
+          { "factor": "6. Guidance & Credibility", "stance_score": 1, "confidence_pct": 65, "confidence_adjusted_score": 0.650, "weight": 0.12, "weighted_contribution": 0.078 },
+          { "factor": "7. Event Risk", "stance_score": -1, "confidence_pct": 55, "confidence_adjusted_score": -0.550, "weight": 0.05, "weighted_contribution": -0.028 },
+          { "factor": "8. Fiscal & Sovereign", "stance_score": -1, "confidence_pct": 55, "confidence_adjusted_score": -0.550, "weight": 0.07, "weighted_contribution": -0.039 },
+          { "factor": "9. Market Structure", "stance_score": 0, "confidence_pct": 55, "confidence_adjusted_score": 0.000, "weight": 0.03, "weighted_contribution": 0.000 },
+          { "factor": "10. USD Liquidity", "stance_score": 1, "confidence_pct": 65, "confidence_adjusted_score": 0.650, "weight": 0.12, "weighted_contribution": 0.078 }
+        ],
+        "net_score": 0.149,
+        "interpretation": "Moderately positive. Three factors bullish (1, 6, 10), three bearish (5, 7, 8), four neutral (2, 3, 4, 9). The three bullish factors collectively contribute +0.312 of weighted score; the three bearish factors contribute -0.163 — a meaningful but not dominant offset. The dominant single factor is Policy & Rates at +0.156.",
+        "mapping_to_conviction": "Score +0.149 maps to Bullish at Conviction 3 per framework: 0.10-0.20 in low-conviction bullish band; the score sits at the upper bound."
+      },
+      "rationale": "The strategic EUR/USD outlook is moderately bullish, anchored by the rate-differential convergence (ECB hikes + Fed cuts) playing out over 6 months. Three core forces support EUR appreciation toward 1.20–1.22 by Q4 2026: (1) the ECB is on a hawkish path with credible communication framework, (2) the Fed's fractured 8-4 vote with dovish minority gaining indicates ≥1 cut over 6 months, (3) USD reserve share continues structural decline per IMF COFER. The dominant strategic offset is the External Balance factor at high weight (0.16) — the eurozone's energy import vulnerability remains acute even with Brent moderating, and the storage refill cost through summer is a persistent EUR-selling pressure. Fiscal risk concentrates on France's deteriorating sovereign trajectory but is contained by ECB TPI backstop. The strategic synthesis weight stack (1+6+10 = 0.48 bullish factors, 5+8 = 0.23 bearish factors) gives the bullish thesis a 2:1 weight advantage. What makes this more than a coin flip: PPP undervaluation of ~12% (consistent with bank consensus targets 1.20–1.25), the structural USD reserve decay channel, and the ECB's demonstrated willingness to act hawkishly. Conviction is 3 (medium) rather than 4 because the path requires multiple central bank actions (each with ~80% delivery probability), the war/energy situation has wide outcome distribution, and consensus is already crowded toward 1.20–1.25 — limiting the upside vs the bearish tail risk. Actionability is moderate via 3M call spreads or spot longs with stops below 1.13. The thesis remains highly tradeable but with proper position sizing reflecting the wider strategic outcome distribution. Key catalysts: ECB June 4-5, Fed June 16-17, ECB September 10 with new Staff Projections, Iran ceasefire formalisation through Q3.",
+      "g10_ranking": {
+        "rank": 4,
+        "out_of": 11,
+        "beats": ["USD", "CAD", "NZD", "GBP", "SEK"],
+        "loses_to": ["NOK", "CHF", "JPY", "AUD", "SGD"],
+        "commentary": "Strategic ranking matches the tactical — EUR is mid-pack, beating the dollar bloc but losing to safe havens, commodity currencies, and Asian outperformers. This is the standard EUR positioning when the rate convergence trade is the primary thesis but commodity strength or safe-haven flows are competitive forces. SGD's structural strength (4.6% Q1 GDP, MAS appreciation slope) makes it a strong strategic competitor."
+      },
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "outcome": "EUR/USD reaches 1.20–1.22 by end-Q4 2026",
+          "conditions": [
+            "Iran ceasefire holds with Brent averaging $90 in H2",
+            "ECB delivers 50 bp of hikes (June + one more)",
+            "Fed delivers 50-75 bp of cuts",
+            "Trump trade escalation contained"
+          ],
+          "path": "U-shaped: May-June consolidation around ECB-Fed binary, Q3 dip into late summer driving season if energy stays elevated, Q4 rally as rate convergence delivers and reserve flows accelerate."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "outcome": "EUR/USD reaches 1.25 by end-2026",
+          "conditions": [
+            "Iran nuclear deal/formal ceasefire",
+            "Brent below $80",
+            "Powell ouster or significant Fed dovish shift"
+          ]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "outcome": "EUR/USD slides to 1.13",
+          "conditions": [
+            "Hormuz re-escalation with Brent above $130",
+            "ECB capitulates to growth concerns",
+            "French political accident widens OAT past 130 bp"
+          ]
+        }
+      },
+      "path_expectation": "The strategic path is a U-shaped recovery from current 1.1734 to 1.20+ by Q4 2026. The U-shape forms because: (1) May-June consolidation around ECB-Fed binary, (2) Q3 dip into late summer driving season if energy stays elevated, (3) Q4 rally as rate convergence delivers and reserve flows accelerate. Volatility regime is moderate (10–13% range over 6 months) with episodic spikes around central bank meetings. Pullback levels: 1.1500 (March consolidation), 1.1300 (deep retracement). The pattern differs from a straight grind because the multiple delivery checkpoints create episodic risk-off windows.",
+      "conviction_ladder": {
+        "current": 3,
+        "increase_to_5_if": [
+          "ECB-Fed deposit gap narrows below 100 bp",
+          "Iran formal ceasefire with Brent below $80 sustained"
+        ],
+        "increase_to_4_if": [
+          "ECB delivers two hikes (June + September)",
+          "Fed delivers one cut by July",
+          "Iran ceasefire formalised"
+        ],
+        "decrease_to_3_if": [
+          "Brent surges above $115 on Hormuz tension",
+          "ECB September delivers dovish hold"
+        ],
+        "decrease_to_2_if": [
+          "ECB capitulates after one hike",
+          "Hormuz re-escalates Brent above $115 sustained"
+        ],
+        "decrease_to_1_if": [
+          "ECB cuts on growth concerns",
+          "Trump triggers full trade war beyond autos"
+        ]
+      },
+      "risk_reward": {
+        "base_case_payoff": "+260 to +470 pips (from 1.1734 to 1.2000-1.2200) = +2.3% to +4.0%",
+        "downside_case_loss": "-430 pips (from 1.1734 to 1.1300) = -3.7%",
+        "risk_reward_ratio": "0.6–1.1:1 raw; probability-weighted return +1.5%",
+        "asymmetry_assessment": "Probability-weighted slightly positive but distribution is wide. Use trailing stops and partial profit-taking at 1.1900 and 1.20 to lock in convex payoff structure."
+      }
+    },
+    "consensus_divergence": {
+      "consensus_view": "Bank consensus (Goldman 1.25, Deutsche 1.25, JPMorgan 1.20-1.22, BNP 1.24, ING 1.22) targets EUR/USD at 1.20-1.25 by end-2026, anchored on Fed cuts narrowing rate gap and USD structural decay. The post-war consensus has shifted slightly bearish from pre-war but remains EUR-bullish.",
+      "our_view": "1.20–1.22 by end-Q4 2026 — broadly in line with the consensus median but at the more conservative end. We weight External Balance more heavily (-0.096 strategic contribution) and ECB delivery risk higher than the consensus.",
+      "divergence_magnitude": "Modest — our 1.20-1.22 vs consensus 1.20-1.25 represents a ~3 cent or ~2.5% lower target",
+      "why_we_differ": "Two material differences: (1) We weight External Balance more heavily — the post-war consensus has not fully priced the storage refill cost (€40 bn through summer at current TTF) and the auto tariff (€10-15 bn estimated annual GDP hit on Germany); we see EUR/USD upside capped at 1.22 unless the war fully de-escalates with Brent below $80. (2) We weight ECB delivery risk higher — consensus banks broadly expect ECB to deliver the priced ~99 bp of hikes; we see services PMI at 47.4 as a real constraint that could limit cumulative hikes to 50 bp. The market underweights the eurozone growth shock visibility on services data; consensus has been recalibrated post-war but still places primary weight on rate convergence over growth deterioration.",
+      "payoff_if_right": "EUR/USD ends 2026 in 1.20-1.22 range vs consensus 1.25; positioning targeting 1.25 unwinds modestly but avoids violent reversal. Captures bulk of base-case payoff with reduced tail-risk exposure.",
+      "risk_if_wrong": "If consensus is right (1.25), our positioning misses the upper tail; we capture base case but not full convexity. Upside risk to our view is bullish, not bearish — we miss profits, we don't take losses."
+    },
+    "cross_currency_relative_value": {
+      "cleanest_bullish_expression": {
+        "pair": "EUR/JPY (long)",
+        "rationale": "Strategic EUR-bullish factors (rate hikes, anti-USD reserve flow) align with strategic JPY-bearish factors (BoJ cautious normalisation, energy importer worse than EUR, trade balance hit from oil). Carry is favourable (+125 bp annual). Target 188 over 3M, 195 by year-end. Risk: BoJ surprise hike to >1.0% would compress."
+      },
+      "cleanest_bearish_expression": {
+        "pair": "EUR/CHF (short)",
+        "rationale": "SNB at 0% with no hike intention; CHF benefits from war-induced safe-haven flows that EUR cannot match; energy import vulnerability is comparable but Switzerland runs a current account surplus. Target 0.90 over 3M."
+      },
+      "relative_value_pairs": [
+        { "pair": "EUR/AUD short", "thesis": "AUD has positive carry (+235 bp), benefits from commodity strength, and RBA is more hawkish than ECB. Even in EUR-bullish base case, EUR/AUD likely drifts lower toward 1.55. Risk: China growth shock would invalidate." },
+        { "pair": "EUR/GBP avoid", "thesis": "BoE-ECB convergence is fully priced; range-bound 0.85-0.88. Better expressions exist." }
+      ]
+    },
+    "cross_horizon_consistency": {
+      "aligned": true,
+      "summary": "Tactical and strategic stances are aligned (both Bullish at Conviction 3, confidence 68% / 62%). The thesis strengthens or weakens together — there is no horizon-dependent regime change.",
+      "divergence_explanation": "The tactical horizon has slightly higher confidence because the binary near-dated catalyst (4-5 June ECB) provides resolution within the horizon. Strategic horizon has wider distribution because the path requires multiple central bank actions and depends on the Iran trajectory through summer.",
+      "inflection_point": "4-5 June ECB Governing Council meeting",
+      "catalyst_for_transition": "ECB June outcome resets confidence levels symmetrically — a delivered hike confirms both horizons; a hold invalidates both",
+      "trading_implication": "The same positioning works across both horizons; tactical is a faster expression with tighter stops (1.1620), strategic is a slower expression with wider stops (1.1300) and structured options. The June ECB meeting is the single biggest binary across both horizons."
+    },
+    "forward_vs_spot": {
+      "spot": "1.1734",
+      "forwards": {
+        "1m": { "points": "~+6 pips", "outright": "1.1740", "annualised_pct": "+0.5% (forward implies modest EUR appreciation reflecting -USD carry)" },
+        "3m": { "points": "~+21 pips", "outright": "1.1755", "annualised_pct": "+0.7%" },
+        "6m": { "points": "~+46 pips", "outright": "1.1780", "annualised_pct": "+0.8%" }
+      },
+      "expected_spot": {
+        "1m": "1.1750-1.1820 (range; ECB binary)",
+        "3m": "1.1800-1.1900 (post-ECB June + dovish Fed signaling)",
+        "6m": "1.1900-1.2200 (full convergence delivery)"
+      },
+      "edge": {
+        "1m": "+30 pips (forward implies 1.1740, we expect midpoint 1.1770)",
+        "3m": "+95 pips (forward implies 1.1755, we expect midpoint 1.1850)",
+        "6m": "+270 pips (forward implies 1.1780, we expect midpoint 1.2050)"
+      },
+      "interpretation": "The forward curve does not price the rate convergence aggressively enough. Our base case implies a ~230 bps annualised excess return over the forward at the 6M horizon, which is a meaningful capturable edge via spot or call spread expressions. The 3M edge of +95 pips supports the tactical bullish view; the 6M edge of +270 pips supports the strategic bullish view with cumulative central bank action."
+    }
+  },
+
+  "forward_looking": {
+    "key_catalysts": [
+      { "date": "2026-05-08", "event": "Trump 25% EU Auto Tariff Implementation", "expected_impact": "Bearish", "rationale": "25% tariff on EU autos and trucks (announced 1 May, effective ~8 May) hits Germany's largest export sector; estimated -0.3 to -0.5 pp on German 2026 GDP. Acute hit to manufacturing PMI and IFO already at COVID lows.", "priced_in": "Partially — markets price the announcement but not the data flow impact through Q2", "bilateral_relevance": "EUR/USD (primary), EUR/JPY (cross via German export channel)", "citations": [31] },
+      { "date": "2026-05-13", "event": "Riksbank Meeting", "expected_impact": "Neutral", "rationale": "Riksbank at 1.75% expected to hold; minor relative-value impact on EUR/SEK. Dovish surprise would mildly support EUR via the cross.", "priced_in": "Largely fully — market expects hold", "bilateral_relevance": "EUR/SEK (primary)", "citations": [15] },
+      { "date": "2026-05-30", "event": "Eurozone HICP Flash (May)", "expected_impact": "Ambiguous", "rationale": "If headline rises further from 3.0%, ECB hike near-certain (bullish EUR via rate channel) but stagflation concern deepens. If headline moderates, hike risk moderates (bearish EUR rate channel) but growth/inflation balance improves.", "priced_in": "Partially — markets price ~3.0-3.2% range", "bilateral_relevance": "EUR/USD, EUR/CHF (rate diff)", "citations": [6] },
+      { "date": "2026-06-05", "event": "ECB Governing Council Meeting (KEY EVENT)", "expected_impact": "Ambiguous", "rationale": "81% probability of +25 bp hike priced. A clean hawkish hike: EUR/USD breaks 1.1850, targets 1.1950. A dovish hike or hold: EUR/USD pulls back to 1.15-1.16. Single biggest binary in tactical horizon.", "priced_in": "Hike is mostly priced; the framing is the binary. Hawkish guidance NOT fully priced", "bilateral_relevance": "EUR/USD (primary), EUR/JPY, EUR/CHF", "citations": [1, 2, 17] },
+      { "date": "2026-06-10", "event": "Bank of Canada Meeting", "expected_impact": "Neutral", "rationale": "BoC at 2.25% expected to hold; minor cross impact on EUR/CAD.", "priced_in": "Hold mostly priced", "bilateral_relevance": "EUR/CAD", "citations": [15] },
+      { "date": "2026-06-16", "event": "BoJ Meeting", "expected_impact": "Bullish", "rationale": "BoJ at 0.75% may signal further normalisation. EUR/JPY upside continues if BoJ stays cautious vs ECB hawkish. Bullish for EUR via JPY weakness.", "priced_in": "Cautious BoJ broadly priced; hawkish surprise would flip cross temporarily", "bilateral_relevance": "EUR/JPY (primary)", "citations": [15] },
+      { "date": "2026-06-17", "event": "FOMC Meeting", "expected_impact": "Bullish", "rationale": "Markets price ~30-50% probability of June cut. A delivered cut (or strong signal for September) would extend EUR/USD rally on rate convergence.", "priced_in": "Cut probability around 30-50% June; September cut more priced", "bilateral_relevance": "EUR/USD (primary), all crosses", "citations": [3, 18] },
+      { "date": "2026-06-18", "event": "BoE Meeting", "expected_impact": "Neutral", "rationale": "BoE at 3.75% expected hold/cut; impacts EUR/GBP modestly.", "priced_in": "Mostly priced", "bilateral_relevance": "EUR/GBP", "citations": [15] },
+      { "date": "2026-06-30", "event": "Eurozone HICP Flash (June)", "expected_impact": "Ambiguous", "rationale": "Post-ECB June meeting print. Sticky inflation = ECB credibility maintained (bullish); cooling = ECB pause likely (bearish).", "priced_in": "Partial", "bilateral_relevance": "EUR/USD", "citations": [6] },
+      { "date": "2026-07-23", "event": "ECB Governing Council Meeting", "expected_impact": "Bullish", "rationale": "Second potential hike; if June delivered, July is the follow-through. Markets price ~30% probability of additional hike. Mild bullish lean.", "priced_in": "Partial", "bilateral_relevance": "EUR/USD", "citations": [15] },
+      { "date": "2026-07-30", "event": "Eurozone Q2 GDP Flash", "expected_impact": "Ambiguous", "rationale": "Weak print confirms stagflation concerns; strong print supports ECB hike path. Q2 is the energy shock peak quarter.", "priced_in": "Consensus ~+0.0–0.1% QoQ", "bilateral_relevance": "EUR/USD, EUR/CHF", "citations": [20] },
+      { "date": "2026-09-10", "event": "ECB Governing Council Meeting (with new Staff Projections)", "expected_impact": "Bullish", "rationale": "First post-summer meeting with new Staff Projections. Likely to validate tightening path if inflation persists; or signal pause if growth weak. Lean hawkish supports EUR.", "priced_in": "Partially — Staff Projection cycle generally market-moving", "bilateral_relevance": "EUR/USD (primary), all crosses", "citations": [23] },
+      { "date": "2026-09-16", "event": "FOMC Meeting", "expected_impact": "Bullish", "rationale": "Strongly anticipated Fed cut window. Markets price ~70% probability of September cut.", "priced_in": "Substantially", "bilateral_relevance": "EUR/USD, USD bloc", "citations": [3] },
+      { "date": "2026-Q3", "event": "Iran-US Formal Ceasefire Negotiation Window", "expected_impact": "Bullish", "rationale": "Formal ceasefire releases energy premium; Brent retraces to $80; EUR-positive via External Balance Factor 5 and Risk Appetite Factor 3.", "priced_in": "Markets price ~40% probability of formal deal in Q3", "bilateral_relevance": "EUR/USD (primary), EUR/JPY (energy-sensitive cross)", "citations": [33, 34] }
+    ],
+    "invalidators": [
+      { "condition": "ECB June 4-5 meeting holds rates at 2.00% with no hike", "new_stance": "Bearish", "mechanism": "The rate-convergence thesis is the dominant bullish driver. Non-delivery destroys credibility re-pricing and triggers immediate unwind of EUR longs.", "monitor_indicator": "ECB rate decision via official statement", "monitor_frequency": "Single event 4-5 June 2026", "quantitative_threshold": "Any decision other than +25 bp hike", "probability_pct": 19 },
+      { "condition": "Brent crude breaks above $115/bbl on a sustained basis (≥3 trading days) due to Hormuz re-escalation", "new_stance": "Bearish", "mechanism": "External Balance and Event Risk factors flip from manageable to acute. Energy-import shock returns with full force, overwhelming rate-convergence story.", "monitor_indicator": "ICE Brent front-month", "monitor_frequency": "Daily", "quantitative_threshold": "$115/bbl sustained for ≥3 trading days", "probability_pct": 25 },
+      { "condition": "Services PMI breaks below 46 for two consecutive months (May, June flash)", "new_stance": "Bearish", "mechanism": "ECB hike path becomes untenable; Council faces choice between credibility and recession; capitulation risk rises sharply.", "monitor_indicator": "S&P Global eurozone services PMI", "monitor_frequency": "Monthly", "quantitative_threshold": "<46 for 2 consecutive months", "probability_pct": 20 },
+      { "condition": "French OAT-Bund 10Y spread widens past 100 bp on political accident (no-confidence, snap election, budget collapse)", "new_stance": "Bearish", "mechanism": "Peripheral stress forces ECB into TPI debate; German Bund safe-haven bid pressures EUR; flight-to-quality dynamic re-establishes.", "monitor_indicator": "OAT 10Y spread vs Bund daily", "monitor_frequency": "Daily", "quantitative_threshold": "100 bp", "probability_pct": 15 },
+      { "condition": "Fed delivers a hawkish hold at the 16-17 June meeting (no cut signal for September)", "new_stance": "Neutral", "mechanism": "Rate-convergence trajectory stalls; the dominant bullish driver loses one of its two legs; EUR/USD upside capped.", "monitor_indicator": "FOMC statement and dot plot", "monitor_frequency": "Single event 16-17 June", "quantitative_threshold": "Any explicit hawkish guidance against September cut", "probability_pct": 25 },
+      { "condition": "CFTC leveraged funds positioning exceeds +75,000 net long contracts (sharp build-up)", "new_stance": "Neutral", "mechanism": "Contrarian unwind risk replaces squeeze potential; positioning becomes extended rather than constructive.", "monitor_indicator": "CFTC weekly COT report", "monitor_frequency": "Weekly (Friday release)", "quantitative_threshold": "+75,000 contracts", "probability_pct": 30 },
+      { "condition": "Trump escalates trade war beyond autos to broader EU goods tariffs (≥10% across-the-board)", "new_stance": "Bearish", "mechanism": "Cumulative trade shock forces material German growth downgrade; ECB capitulation risk rises; structural EUR negative.", "monitor_indicator": "White House announcements and Section 232 actions", "monitor_frequency": "News-driven", "quantitative_threshold": "Any tariff package >10% beyond autos", "probability_pct": 30 }
+    ],
+    "signposts": [
+      { "indicator": "ECB Deposit Facility Rate", "current_level": "2.00%", "threshold_confirms": "Hiked to 2.25% on 4-5 June 2026", "threshold_invalidates": "Held at 2.00% on 4-5 June", "bilateral_importance": "EUR/USD (primary), all crosses", "source_url": "https://www.ecb.europa.eu/press/pr/date/2026/html/", "frequency": "8-weekly (next meeting June 4-5)" },
+      { "indicator": "OIS-implied year-end ECB rate", "current_level": "~2.99% (~99 bp of hikes priced)", "threshold_confirms": "Stays at or above 2.85% pre-meeting (validation of priced path)", "threshold_invalidates": "Falls below 2.50% (markets pricing out hikes)", "bilateral_importance": "EUR/USD, EUR/CHF, EUR/JPY", "source_url": "https://investinglive.com/centralbank/", "frequency": "Daily" },
+      { "indicator": "Brent Crude Front-Month", "current_level": "$108/bbl", "threshold_confirms": "Trades below $100 sustained (energy shock fades)", "threshold_invalidates": "Trades above $115 sustained (energy shock intensifies)", "bilateral_importance": "EUR/USD, EUR/NOK, EUR/CAD", "source_url": "https://tradingeconomics.com/commodity/brent-crude-oil", "frequency": "Daily" },
+      { "indicator": "Eurozone Services PMI", "current_level": "47.4 (April 2026 flash)", "threshold_confirms": "Stabilises ≥48 in May/June", "threshold_invalidates": "Falls below 46 sustained", "bilateral_importance": "EUR/USD, EUR/GBP", "source_url": "https://tradingeconomics.com/euro-area/services-pmi", "frequency": "Monthly (flash mid-month, final start of month)" },
+      { "indicator": "OAT-Bund 10Y Spread", "current_level": "~64 bp", "threshold_confirms": "Stays below 80 bp (French risk contained)", "threshold_invalidates": "Widens above 100 bp (political accident)", "bilateral_importance": "EUR/USD (primary), EUR/CHF", "source_url": "https://tradingeconomics.com/france/government-bond-yield", "frequency": "Daily" },
+      { "indicator": "EUR/USD vs 200-day MA", "current_level": "spot 1.1734 vs 200d MA ~1.1690 (above)", "threshold_confirms": "Holds above 200d (technical regime intact)", "threshold_invalidates": "Closes below 200d for ≥3 consecutive days", "bilateral_importance": "EUR/USD (primary)", "source_url": "https://tradingeconomics.com/euro-area/currency", "frequency": "Daily" },
+      { "indicator": "CFTC EUR Leveraged Funds Net Position", "current_level": "+11,594 contracts (15th percentile)", "threshold_confirms": "Builds toward +50,000 (squeeze in progress)", "threshold_invalidates": "Exceeds +75,000 (extended long, contrarian risk)", "bilateral_importance": "EUR/USD", "source_url": "https://www.cftc.gov/dea/futures/financial_lf.htm", "frequency": "Weekly (Friday release for Tuesday close)" }
+    ]
+  },
+
+  "change_since_last_report": {
+    "factors_changed": [
+      { "factor": "Factor 4 (Flows & Positioning) — Tactical", "previous_stance": "Bearish", "new_stance": "Bullish", "reason": "Prior dossier flagged asset managers at 95th+ percentile as crowded long; current dossier shows leveraged funds at 15th percentile after March washout, providing squeeze potential rather than contrarian sell signal." },
+      { "factor": "Factor 3 (Risk Appetite) — Tactical", "previous_stance": "Bearish", "new_stance": "Bullish", "reason": "VIX moderated from 31 to 17, equities at highs vs panic levels in late March; benign risk environment supports EUR via anti-USD channel." },
+      { "factor": "Factor 1 (Policy & Rates) — Tactical confidence increase", "previous_stance": "Bullish (70)", "new_stance": "Bullish (75)", "reason": "ECB hawkish pivot has crystallised with 81% probability of June hike priced; clearer signal than a month ago." },
+      { "factor": "Factor 5 (External Balance) — Tactical bearish softened", "previous_stance": "Bearish (high)", "new_stance": "Bearish (65)", "reason": "Brent at $108 vs March $120+; TTF off March highs but storage still depleted. Energy shock moderating but not resolved." }
+    ],
+    "signposts_triggered": [
+      { "signpost": "VIX moderation through 25", "outcome": "TRIGGERED — VIX fell from 31 to 17", "implication": "Risk appetite supportive; tactical Factor 3 flipped bullish" },
+      { "signpost": "Brent below $115", "outcome": "TRIGGERED — Brent at $108 from $126 peak", "implication": "Energy shock moderating; Factor 5 bearishness contained" },
+      { "signpost": "Iran ceasefire achieved", "outcome": "TRIGGERED — 4 April nominal ceasefire holds", "implication": "Tail risk reduced; supports EUR-bullish tactical pivot" },
+      { "signpost": "ECB hawkish pivot delivered", "outcome": "TRIGGERED — 30 April statement and Kazimir 4 May explicit", "implication": "Factor 1 confidence raised; rate-convergence thesis strengthened" }
+    ],
+    "conviction_change": {
+      "previous_tactical": 3,
+      "current_tactical": 3,
+      "previous_strategic": 3,
+      "current_strategic": 3,
+      "explanation": "Tactical flipped direction (Bearish C3 → Bullish C3) — same conviction strength, opposite direction, driven by positioning reset and ECB pivot crystallisation. Strategic remains Bullish C3 with marginally firmer confidence (62 vs prior estimate ~58) as war stabilises and central bank divergence becomes more visible."
+    },
+    "new_catalysts": [
+      "Trump 25% auto tariff announced 1 May 2026, effective ~8 May (NEW EVENT not in prior dossier)",
+      "Fed 8-4 split vote with 4 dissenters at 29 April meeting (first since 1992)",
+      "ECB hawkish pivot at 30 April meeting with explicit 'upside risks intensified' framing",
+      "Iran-China diplomatic engagement (Araghchi-Wang Yi 6 May)"
+    ],
+    "thesis_trajectory": "Strengthening"
+  },
+
+  "seasonality": {
+    "pattern": "EUR/USD has weak seasonal patterns over the May-October window. Historical tendency: May-July modestly EUR-negative on USD repatriation flows (US tax payment cycle, foreign earnings repatriation); August relatively neutral with thin liquidity; September-October modestly EUR-positive on year-end reserve manager rebalancing flows.",
+    "relevance_window": "May–October 2026",
+    "historical_magnitude": "Weak — typically <1% directional bias from seasonality alone; macro shock dynamics overwhelm",
+    "current_alignment": "Macro forces (Iran war, ECB pivot) overwhelm seasonal patterns; seasonality should not influence the directional view. September quiet vol regime could provide a constructive backdrop for the strategic EUR-bullish thesis to play out without disruption."
+  },
+
+  "assumptions": [
+    "OIS pricing source: Market-implied ECB rate path uses InvestingLive aggregations of ESTR-OIS swaps as of 4 May 2026; precise day-by-day implied probabilities may shift with each pre-meeting communication.",
+    "Cross-currency basis swaps (Factors 4, 10): Public sources do not provide real-time EUR/USD 3M and 1Y basis. Data marked NOT FOUND. Anecdotal commentary suggests basis has tightened since April; this is consistent with EUR-bullish stance but not directly verified.",
+    "EUR/USD 1M ATM IV and 25-delta risk reversal: Precise CME CVOL May 2026 figures not retrievable from public sources. Used Rabobank Q4 2025 commentary on positive-skew RR ('calls bid since Liberation Day') as directional input. Estimated 1M IV 9-11% based on observed EUR/USD price range and standard volatility models.",
+    "BIS REER: Latest May 2026 figure NOT FOUND in public sources. Used qualitative interpretation that EUR REER appreciated YTD with the spot rally, sitting modestly above long-run average.",
+    "IMF COFER reserve allocation: Latest 2026 figures NOT FOUND. Used 2024-25 vintage data showing EUR ~20% with gradual increase trend.",
+    "Forward points (EUR/USD): Specific May 2026 forward point quotes NOT FOUND. Estimated using interest rate parity from the deposit rate differential of -162 bp.",
+    "Bank consensus EUR/USD targets: Pre-war and post-war institutional bank views differ; the post-war consensus is partially reflected via FX Empire/Capital aggregation. Goldman Sachs 1.25 view is from January 2026 GS Global Investment Research note 'Different Dollar Downside' and may have been updated.",
+    "G10+SGD macro table: Several latest data points (precise GDP, CPI, unemployment, current account) for non-EUR countries marked as estimated where not directly verified from primary national statistics offices.",
+    "ECB Staff Projections: March 2026 round used as primary input. June 2026 update will be published with the 4-5 June meeting and may revise growth/inflation paths.",
+    "Operation Epic Fury status: Multi-source reporting on 'ceasefire holding' but with observed strikes 4-5 May. Base case assumes ceasefire technically holds but with intermittent skirmishes through Q2-Q3 2026."
+  ],
+
+  "complete_citations": [
+    { "id": 1, "title": "Monetary policy decisions (30 April 2026)", "publisher": "European Central Bank", "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260430~81b7179e6f.en.html", "date_accessed": "2026-05-07" },
+    { "id": 2, "title": "ECB policymaker Kažimír says that a rate hike in June is all but inevitable", "publisher": "InvestingLive", "url": "https://investinglive.com/centralbank/ecb-policymaker-kaimr-says-that-a-rate-hike-in-june-is-all-but-inevitable-20260504/", "date_accessed": "2026-05-07" },
+    { "id": 3, "title": "European Central Bank keeps rates on hold in the face of inflation threat", "publisher": "CNBC", "url": "https://www.cnbc.com/2026/04/30/european-central-bank-april-2026-rate-decision-inflation-stagflation-risk-iran-war.html", "date_accessed": "2026-05-07" },
+    { "id": 4, "title": "EU Natural Gas", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/commodity/eu-natural-gas", "date_accessed": "2026-05-07" },
+    { "id": 5, "title": "Europe's Gas Market is under Stress During Refill Season", "publisher": "Energy News Beat", "url": "https://energynewsbeat.co/uncategorized/europes-gas-market-is-under-stress-during-refill-season/", "date_accessed": "2026-05-07" },
+    { "id": 6, "title": "Euro area annual inflation up to 3.0% (April 2026 flash)", "publisher": "Eurostat", "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-30042026-ap", "date_accessed": "2026-05-07" },
+    { "id": 7, "title": "Euro US Dollar Exchange Rate — EUR/USD", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/euro-area/currency", "date_accessed": "2026-05-07" },
+    { "id": 8, "title": "EUR/USD Forecast 2026: Outlook Points to Extended Euro Strength Ahead", "publisher": "FX Empire", "url": "https://www.fxempire.com/forecasts/article/eurusd-forecast-2026-outlook-points-to-extended-euro-strength-ahead-1568596", "date_accessed": "2026-05-07" },
+    { "id": 9, "title": "Euro Forecast: Price Outlook & Future Predictions", "publisher": "Capital.com", "url": "https://capital.com/en-int/analysis/euro-forecast", "date_accessed": "2026-05-07" },
+    { "id": 10, "title": "CFTC Commitments of Traders Short Report — Financial Traders in Markets (Futures Only)", "publisher": "CFTC", "url": "https://www.cftc.gov/dea/futures/financial_lf.htm", "date_accessed": "2026-05-07" },
+    { "id": 11, "title": "CFTC Euro Positioning 2026: COT Report & Speculative Flows", "publisher": "AhaSignals", "url": "https://ahasignals.com/cftc-euro-positioning/", "date_accessed": "2026-05-07" },
+    { "id": 12, "title": "Euro FX Options EUR/USD Quotes", "publisher": "CME Group", "url": "https://www.cmegroup.com/markets/fx/g10/euro-fx.quotes.options.html", "date_accessed": "2026-05-07" },
+    { "id": 13, "title": "Global outlook 2026: New rules, different economy", "publisher": "Rabobank", "url": "https://www.rabobank.com/knowledge/q011509552-global-outlook-2026-new-rules-different-economy", "date_accessed": "2026-05-07" },
+    { "id": 14, "title": "Germany 10-Year Bond Yield", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/germany/government-bond-yield", "date_accessed": "2026-05-07" },
+    { "id": 15, "title": "Federal Reserve Meeting Dates: Full 2026 FOMC Calendar And Policy Schedule", "publisher": "MEXC Blog", "url": "https://blog.mexc.com/finance/federal-reserve-meeting-dates-full-2026-fomc-calendar-and-policy-schedule/", "date_accessed": "2026-05-07" },
+    { "id": 16, "title": "Monetary policy statement (with Q&A) (30 April 2026)", "publisher": "European Central Bank", "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260430~f99cb123a8.en.html", "date_accessed": "2026-05-07" },
+    { "id": 17, "title": "ECB holds rates at 2% as inflation rises and eurozone growth slows", "publisher": "Euronews", "url": "https://www.euronews.com/business/2026/04/30/ecb-holds-rates-at-2-as-inflation-rises-and-eurozone-growth-slows", "date_accessed": "2026-05-07" },
+    { "id": 18, "title": "Federal Reserve Implementation Note issued April 29, 2026", "publisher": "Federal Reserve", "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a1.htm", "date_accessed": "2026-05-07" },
+    { "id": 19, "title": "Euro Area GDP Annual Growth Rate", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/euro-area/gdp-growth-annual", "date_accessed": "2026-05-07" },
+    { "id": 20, "title": "Eurozone Private Sector Contracts Most in 17 Months", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/euro-area/composite-pmi/news/544307", "date_accessed": "2026-05-07" },
+    { "id": 21, "title": "ifo Business Climate Index for Germany", "publisher": "ifo Institute", "url": "https://www.ifo.de/en/survey/ifo-business-climate-index-germany", "date_accessed": "2026-05-07" },
+    { "id": 22, "title": "Germany ZEW Economic Sentiment Index", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/germany/zew-economic-sentiment-index", "date_accessed": "2026-05-07" },
+    { "id": 23, "title": "ECB staff macroeconomic projections for the euro area, March 2026", "publisher": "European Central Bank", "url": "https://www.ecb.europa.eu/press/projections/html/ecb.projections202603_ecbstaff~ebe291cd3d.en.html", "date_accessed": "2026-05-07" },
+    { "id": 24, "title": "Germany's Historic Military Expansion: €83 Billion Defence Budget for 2026", "publisher": "Nordic Defence Review", "url": "https://nordicdefencereview.com/germanys-historic-military-expansion-e83-billion-defence-budget-for-2026/", "date_accessed": "2026-05-07" },
+    { "id": 25, "title": "The CBOE VIX Falls to 16 Level as Risk-On Trade Returns to Market", "publisher": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/05/01/the-cboe-vix-falls-to-16-level-as-risk-on-trade-returns-to-market/", "date_accessed": "2026-05-07" },
+    { "id": 26, "title": "S&P 500 INDEX Historical Data", "publisher": "Yahoo Finance", "url": "https://finance.yahoo.com/quote/%5ESPX/history/", "date_accessed": "2026-05-07" },
+    { "id": 27, "title": "STOXX Europe 600 Banks (SX7P)", "publisher": "STOXX", "url": "https://stoxx.com/index/sx7p/", "date_accessed": "2026-05-07" },
+    { "id": 28, "title": "Euro indicators", "publisher": "Eurostat", "url": "https://ec.europa.eu/eurostat/news/euro-indicators", "date_accessed": "2026-05-07" },
+    { "id": 29, "title": "Brent crude oil", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/commodity/brent-crude-oil", "date_accessed": "2026-05-07" },
+    { "id": 30, "title": "Euro area monthly balance of payments: January 2026", "publisher": "European Central Bank", "url": "https://www.ecb.europa.eu/press/stats/bop/2026/html/ecb.bp260320~7ee78cd14f.en.html", "date_accessed": "2026-05-07" },
+    { "id": 31, "title": "Trump announces 25% tariff on cars, trucks from EU", "publisher": "ABC News", "url": "https://abcnews.com/Politics/trump-announces-25-tariff-cars-trucks-eu/story?id=132576722", "date_accessed": "2026-05-07" },
+    { "id": 32, "title": "Account of the Monetary Policy Meeting of 18-19 March 2026", "publisher": "European Central Bank", "url": "https://www.ecb.europa.eu/press/accounts/2026/html/ecb.mg260416~6a27b0c258.en.html", "date_accessed": "2026-05-07" },
+    { "id": 33, "title": "Rubio Says 'Epic Fury' Is Over, as Strait of Hormuz Tests", "publisher": "Time", "url": "https://time.com/article/2026/05/05/rubio-iran-epic-fury-over-strait-hormuz/", "date_accessed": "2026-05-07" },
+    { "id": 34, "title": "US-Iran War 2026: Operation Epic Fury, the Strait of Hormuz Crisis, and the Limits of American Air Power", "publisher": "Quwa", "url": "https://quwa.org/iran/military-news-iran/us-iran-war-2026-operation-epic-fury-the-strait-of-hormuz-crisis-and-the-limits-of-american-air-power/", "date_accessed": "2026-05-07" },
+    { "id": 35, "title": "France on the brink: how political instability fuels the public debt crisis", "publisher": "European Generation", "url": "https://www.europeangeneration.eu/single-post/france-on-the-brink-how-political-instability-fuels-the-public-debt-crisis", "date_accessed": "2026-05-07" },
+    { "id": 36, "title": "Rules & Ratings: France falls in Fitch's ratings", "publisher": "The DESK", "url": "https://www.fi-desk.com/rules-ratings-france-falls-in-fitchs-ratings/", "date_accessed": "2026-05-07" },
+    { "id": 37, "title": "Public accounts, Italy promoted by Fitch", "publisher": "Il Sole 24 ORE", "url": "https://en.ilsole24ore.com/art/public-accounts-today-comes-fitch-rating-heres-how-they-went-before-AHeBfCiC", "date_accessed": "2026-05-07" },
+    { "id": 38, "title": "BTP-Bund spread rises above 100 basis points", "publisher": "FIRSTonline", "url": "https://www.firstonline.info/en/BTP-Bund-spread-rises-above-100-basis-points-due-to-strong-selling-in-international-bonds-in-view-of-monetary-restrictions./", "date_accessed": "2026-05-07" },
+    { "id": 39, "title": "Euro Area Interest Rate", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/euro-area/interest-rate", "date_accessed": "2026-05-07" },
+    { "id": 40, "title": "EUR/USD: Our latest views", "publisher": "ING THINK", "url": "https://think.ing.com/articles/eur-usd-our-latest-views/", "date_accessed": "2026-05-07" }
+  ]
+}

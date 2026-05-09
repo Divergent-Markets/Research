@@ -1,0 +1,1016 @@
+{
+  "base": "GBP",
+  "valuation_date": "2026-05-07",
+  "framework_version": "2.0",
+  "freshness_days_tactical": 30,
+  "freshness_days_strategic": 60,
+
+  "executive_summary": "Sterling enters 7 May 2026 trading at GBP/USD 1.3534 and EUR/GBP 0.8663, having gained +2.3% over the past month against the dollar but trading inside a 1.32-1.38 range that has held since January. Performance: 1M +2.3%, 3M ~flat, 6M slightly weaker (cable started 2026 near 1.36, dipped to 1.32, recovered), 1Y modestly stronger as DXY weakened from 2024 highs. The dominant macro narrative is the post-28 February Iran-US war ('Operation Epic Fury') that closed the Strait of Hormuz, lifted Brent to $112/bbl and NBP gas to 114.7p/therm, and pushed UK CPI back up to 3.3% in March (services 4.5%). The Bank of England responded on 30 April with an 8-1 hold at 3.75% - Chief Economist Huw Pill dissenting in favour of a 25bp hike - and replaced its single central forecast with three scenarios (A/B/C) ranging from CPI peaking at 3.5% to over 6%. 30Y gilts hit 5.74-5.78% on 5 May, the highest since 1998, and 10Y reached 5.10%, opening UK-Bund and UK-UST 10Y spreads to +204bp and +65bp respectively. On valuation, Sterling is cheap vs USD/EUR on PPP (-7% to -9%) but rich against commodity bloc and Scandi peers; the BoE narrow ERI at 85.05 (Jan 2026) is mid-range historically - well below pre-Brexit norms but recovered from 2022 crisis lows. The key tension defining this dossier is between near-term carry support (rate differentials widening in GBP's favour as the BoE turns hawkish-hold while Fed/ECB are flat) and the strategic shadow of a Labour government with £23.6bn fiscal headroom, a 2.4%-of-GDP current-account deficit being squeezed by energy import pass-through, and consumer confidence at -25 (lowest since October 2023). Net stance: Tactically bullish GBP at low conviction (carry + Pill-dissent hawkish positioning), strategically neutral with a bearish skew (energy-shock-driven stagflation, fiscal credibility risk reminiscent of 2022, Scenario C tail risk).",
+
+  "market_context": {
+    "spot": {
+      "rate": "GBP/USD 1.3534",
+      "convention": "Rising GBP/USD = GBP strengthening vs USD",
+      "primary_index": "BoE Sterling Effective Exchange Rate Index (narrow, ONS series BK67, Jan 2005 = 100): January 2026 monthly average 85.05 (up from 84.40 December 2025; Q4 2025 average 84.11)",
+      "date": "2026-05-05"
+    },
+    "key_crosses": [
+      {"pair": "GBP/USD", "rate": "1.3534", "convention": "GBP strengthens when rising"},
+      {"pair": "EUR/GBP", "rate": "0.8663", "convention": "GBP strengthens when falling"},
+      {"pair": "GBP/JPY", "rate": "210.0", "convention": "GBP strengthens when rising"},
+      {"pair": "GBP/CHF", "rate": "1.07", "convention": "GBP strengthens when rising"},
+      {"pair": "GBP/AUD", "rate": "2.07", "convention": "GBP strengthens when rising"},
+      {"pair": "GBP/CAD", "rate": "1.86", "convention": "GBP strengthens when rising"},
+      {"pair": "GBP/NZD", "rate": "2.27", "convention": "GBP strengthens when rising"},
+      {"pair": "GBP/NOK", "rate": "14.0", "convention": "GBP strengthens when rising"},
+      {"pair": "GBP/SEK", "rate": "13.1", "convention": "GBP strengthens when rising"},
+      {"pair": "GBP/SGD", "rate": "1.78", "convention": "GBP strengthens when rising"}
+    ],
+    "performance": {
+      "1m": {"pct_change": "+2.3%", "direction": "GBP stronger vs USD"},
+      "3m": {"pct_change": "~flat", "direction": "Range-bound 1.32-1.38"},
+      "6m": {"pct_change": "-0.5%", "direction": "Slightly weaker (started 2026 ~1.36, dipped to 1.32, recovered)"},
+      "1y": {"pct_change": "+1.5%", "direction": "Modestly stronger as DXY weakened from 2024 highs"}
+    },
+    "valuation": {
+      "overall_assessment": "Modestly cheap",
+      "bis_reer": {
+        "level": 100.5,
+        "historical_percentile": 55,
+        "interpretation": "BoE narrow ERI at 85.05 (Jan 2026) is mid-range historically - well below 95+ pre-Brexit reference levels but recovered from 78-80 lows during the 2022 mini-Budget crisis. GBP REER estimated at 50th-60th percentile of its 10-year range. Specific April 2026 BIS REER level not available in cached data."
+      },
+      "ppp_table": [
+        {"vs_currency": "USD", "deviation_pct": -7.0, "implied_fair_value": "GBP/USD ~1.46"},
+        {"vs_currency": "EUR", "deviation_pct": -9.0, "implied_fair_value": "EUR/GBP ~0.79"},
+        {"vs_currency": "JPY", "deviation_pct": 45.0, "implied_fair_value": "GBP/JPY ~145 (driven by JPY undervaluation)"},
+        {"vs_currency": "CHF", "deviation_pct": 13.0, "implied_fair_value": "GBP/CHF ~0.95"},
+        {"vs_currency": "AUD", "deviation_pct": 6.0, "implied_fair_value": "GBP/AUD ~1.95"},
+        {"vs_currency": "NZD", "deviation_pct": 11.0, "implied_fair_value": "GBP/NZD ~2.05"},
+        {"vs_currency": "CAD", "deviation_pct": 13.0, "implied_fair_value": "GBP/CAD ~1.65"},
+        {"vs_currency": "NOK", "deviation_pct": 27.0, "implied_fair_value": "GBP/NOK ~11.0"},
+        {"vs_currency": "SEK", "deviation_pct": 22.0, "implied_fair_value": "GBP/SEK ~10.7"},
+        {"vs_currency": "SGD", "deviation_pct": 11.0, "implied_fair_value": "GBP/SGD ~1.60"}
+      ],
+      "trade_weighted_assessment": "GBP is cheap against USD and EUR on PPP (post-Brexit structural discount has largely persisted) but rich against the commodity bloc and Scandi peers. The TWI ~85 sits well below pre-Brexit norms but has recovered from 2022 crisis lows - neither cheap nor expensive in real terms.",
+      "what_is_priced_in": "The market has priced the Brexit discount permanently into Cable (~5-10% structurally), priced through the Iran-war energy hit on the GBP REER (Jan ERI rose despite the war beginning 28 Feb suggests rate-differential support has dominated), and is not pricing fresh fiscal credibility risk despite the 30Y gilt yield at 1998 highs.",
+      "actionability": "Valuation alone is not actionable in the 2-4 week tactical horizon; it is structural. It does provide a soft floor at 1.30 GBP/USD and a soft ceiling near 1.45 GBP/USD that constrain extreme moves."
+    },
+    "positioning_summary": {
+      "cftc": {
+        "leveraged_funds": {
+          "net_contracts": 28882,
+          "direction": "long",
+          "notional_usd": "~$2.4bn (28,882 contracts x £62,500 per contract x 1.3534)",
+          "weekly_change_contracts": -255,
+          "weekly_change_direction": "essentially flat WoW"
+        },
+        "asset_managers": {
+          "net_contracts": -93753,
+          "direction": "short",
+          "notional_usd": "~$7.9bn short notional"
+        },
+        "total_open_interest": 263635,
+        "net_all_specs_percentile": 35,
+        "percentile_context": "Combined net spec position (lev funds + asset managers) at -64,871 is mid-range vs 1Y; asset manager short alone at -93,753 is at deep end of 1Y range, while leveraged fund long at +28,882 is in 60th-75th percentile - supportive but not extreme."
+      },
+      "other_positioning_signals": "Foreign holdings of gilts trends positive - overseas investors increased gilt holdings into Q1 2026 as yields rose. UK pension fund hedging mechanics post-2022 LDI reform are now more transparent. ETF FXB flows mixed; not a directional driver. UK pension hedge ratios remain in 70-80% range - high but stable.",
+      "interpretation": "The unusual divergence - leveraged funds long, real-money heavily short - is a textbook condition for whipsaw price action. Asset managers typically fade sharp rallies (consistent with hedging-flow mechanics), while leveraged funds chase momentum. The accumulation of asset-manager shorts as cable has rallied from 1.32 to 1.36 means that any downward move would trigger a relief rally as shorts cover, while a clean break above 1.38 would force capitulation buying.",
+      "contrarian_assessment": "Slight bullish skew - the weight of evidence (real-money short stretched at deep end of 1Y range, leveraged long not extreme) means a positioning unwind in the bullish direction is the higher-probability scenario at the 2-4 week horizon. The asset-manager short at -93,753 is just below the contrarian threshold of -80K stretch zone; further accumulation toward -120K would create extreme bullish setup."
+    },
+    "market_structure_vol_summary": {
+      "trend_regime": "Range-bound with upward bias - Cable has been trading 1.32-1.38 since January with 50d MA near 1.345 and 200d MA near 1.330. MA configuration: 50d > 200d, with spot above both - mildly bullish stack but not deeply trending.",
+      "key_levels": {
+        "support": [
+          {"level": "1.3500", "significance": "Round number; recent intraday support"},
+          {"level": "1.3450", "significance": "50d moving average"},
+          {"level": "1.3300", "significance": "200d MA / cluster of March 2026 lows - key trend signal"},
+          {"level": "1.3237", "significance": "14 March 2026 low - 2026 swing low"}
+        ],
+        "resistance": [
+          {"level": "1.3625", "significance": "Recent 2-month high"},
+          {"level": "1.3824", "significance": "28 January 2026 high - structural 2026 ceiling"},
+          {"level": "1.4000", "significance": "Psychological round number"}
+        ]
+      },
+      "moving_averages": {
+        "50d": {"level": "1.345", "spot_vs": "Spot above 50d (+0.65%)"},
+        "100d": {"level": "1.337", "spot_vs": "Spot above 100d (+1.2%)"},
+        "200d": {"level": "1.330", "spot_vs": "Spot above 200d (+1.8%)"},
+        "alignment": "Mildly bullish stack: 50d > 100d > 200d, with spot above all three; not deeply trending"
+      },
+      "volatility": {
+        "iv_1m": 8.1,
+        "iv_3m": 7.8,
+        "iv_percentile_1y": 55,
+        "rv_20d": 9.0,
+        "rv_vs_iv": "RV 9.0% vs IV 8.1% — RV slightly above IV by ~1pt; market modestly underpricing realised range-trading moves; long gamma trades not systematically rewarded",
+        "risk_reversal_25d_1m": "Direction near-zero to slight call bias per dealer commentary; specific bps not available in cached public sources",
+        "vol_term_structure": "Backwardation",
+        "vol_regime": "Mid-IV regime (~50th-60th percentile vs 1Y) with event-premium backwardation through 21 May CPI / 18 June MPC"
+      },
+      "key_observation": "The combination of range-bound regime, backwardated event vol, divergent CFTC positioning between leveraged funds and asset managers, and UK rates pricing a hawkish BoE while the long-end is screaming fiscal stress is unusual. Normally rate-differential and gilt-stress channels pull GBP in the same direction; right now they're pulling in opposite directions, compressing tactical conviction."
+    },
+    "recent_regime": "The April-May 2026 regime has been one of stagflation re-pricing: 30Y gilt yields at 1998 highs, OIS pricing 2-3 BoE hikes by year-end despite GDP growth at just +0.5% in 3m to February, and Cable supported by carry but capped by the long-end fiscal stress signal. The post-28 February Iran war re-routed the policy dilemma - the BoE shifted from a gradual cutting cycle (last 25bp cut December 2025 to 3.75%) to a hawkish hold, with Pill's dissent making it the first non-unanimous hold of this cycle. Equity volatility is elevated but contained (VIX 17.6-18.7, with intraday spikes above 20 on Hormuz headlines), and Cable is being pulled between two competing global narratives: the dollar smile (where Iran-driven risk-off would normally drive a bid USD) and the BoE hawkish surprise that has lifted the GBP-USD rate differential at the front end. The dominant near-term catalyst is the 21 May UK CPI print (first full month of post-Hormuz energy pass-through), followed by the 27 May Ofgem cap announcement and 18 June BoE MPC.",
+    "citations": [1, 2, 3, 4, 5, 6, 7, 8, 13, 14, 24, 40, 42]
+  },
+  "rate_differentials_table": {
+    "base_currency": {
+      "central_bank": "Bank of England",
+      "policy_rate_name": "Bank Rate",
+      "rate_pct": 3.75,
+      "next_meeting": "2026-06-18",
+      "expected_action": "~50% probability of 25bp hike; 2-3 hikes priced by end-26"
+    },
+    "peers": [
+      {"currency": "USD", "central_bank": "Federal Reserve", "policy_rate_pct": 3.625, "spread_to_base_bps": -12, "direction_vs_base": "Fed below BoE", "next_meeting": "2026-06-17", "expected_action": "Hold", "rate_path_next_6m": "Flat to +25bp; Warsh transition introduces hawkish tail risk"},
+      {"currency": "EUR", "central_bank": "European Central Bank", "policy_rate_pct": 2.00, "spread_to_base_bps": -175, "direction_vs_base": "ECB DFR well below BoE", "next_meeting": "2026-06-11", "expected_action": "Hold; hawks debate June hike", "rate_path_next_6m": "~3 hikes priced by year-end"},
+      {"currency": "JPY", "central_bank": "Bank of Japan", "policy_rate_pct": 0.75, "spread_to_base_bps": -300, "direction_vs_base": "BoJ deeply below BoE", "next_meeting": "2026-06-17", "expected_action": "Hold with hike risk (3 voted hike Apr 28)", "rate_path_next_6m": "+25 to +50bp"},
+      {"currency": "AUD", "central_bank": "Reserve Bank of Australia", "policy_rate_pct": 4.35, "spread_to_base_bps": 60, "direction_vs_base": "RBA above BoE post-hike", "next_meeting": "2026-06-17", "expected_action": "Hike", "rate_path_next_6m": "+25 to +50bp more"},
+      {"currency": "NZD", "central_bank": "Reserve Bank of New Zealand", "policy_rate_pct": 2.25, "spread_to_base_bps": -150, "direction_vs_base": "RBNZ well below BoE", "next_meeting": "2026-05-28", "expected_action": "Hold", "rate_path_next_6m": "+50bp by Sep+Dec"},
+      {"currency": "CAD", "central_bank": "Bank of Canada", "policy_rate_pct": 2.25, "spread_to_base_bps": -150, "direction_vs_base": "BoC well below BoE", "next_meeting": "2026-06-10", "expected_action": "Hold", "rate_path_next_6m": "Flat-to-easing"},
+      {"currency": "CHF", "central_bank": "Swiss National Bank", "policy_rate_pct": 0.00, "spread_to_base_bps": -375, "direction_vs_base": "SNB at zero bound", "next_meeting": "2026-06-25", "expected_action": "Hold", "rate_path_next_6m": "Flat"},
+      {"currency": "NOK", "central_bank": "Norges Bank", "policy_rate_pct": 4.00, "spread_to_base_bps": 25, "direction_vs_base": "Norges modestly above BoE; path raised", "next_meeting": "2026-05-07", "expected_action": "Hold", "rate_path_next_6m": "Path now 4.25-4.50%"},
+      {"currency": "SEK", "central_bank": "Riksbank", "policy_rate_pct": 1.75, "spread_to_base_bps": -200, "direction_vs_base": "Riksbank well below BoE", "next_meeting": "2026-05-13", "expected_action": "Hold (4th consecutive)", "rate_path_next_6m": "Late-26 hike risk"},
+      {"currency": "SGD", "central_bank": "Monetary Authority of Singapore", "policy_rate_pct": null, "spread_to_base_bps": null, "direction_vs_base": "MAS uses S$NEER slope; tightened 14 Apr 2026", "next_meeting": "2026-10", "expected_action": "Tighter", "rate_path_next_6m": "Tighter"}
+    ],
+    "sovereign_yields": {
+      "base_2y": 4.60,
+      "base_10y": 5.10,
+      "key_spreads": [
+        {"vs": "Germany 10Y Bund", "yield_pct": 3.05, "spread_bps": 204, "interpretation": "EUR/GBP supportive: UK yield premium near multi-year high; drives EUR/GBP lower in normal times, but long-end stress can flip this"},
+        {"vs": "US 10Y UST", "yield_pct": 4.45, "spread_bps": 65, "interpretation": "GBP/USD supportive: UK yield premium widened from -20bp in late 2025 to +65bp on hawkish BoE repricing"},
+        {"vs": "Japan 10Y JGB", "yield_pct": 1.85, "spread_bps": 325, "interpretation": "GBP/JPY supportive but stretched as JGBs have repriced to highest since 2008"},
+        {"vs": "Australia 10Y ACGB", "yield_pct": 4.70, "spread_bps": 40, "interpretation": "Tight; UK has caught up to ACGB on hawkish repricing"},
+        {"vs": "Canada 10Y", "yield_pct": 3.50, "spread_bps": 160, "interpretation": "UK premium wide; GBP/CAD supportive"}
+      ],
+      "curve_shape": "2s10s +49bp (steepened ~30bp over 1M as long-end repriced); 10s30s +65bp (extreme steepening - fiscal/term-premium signal); 30Y at 5.74-5.78% is highest since 1998"
+    }
+  },
+
+  "macro_comparison_table": [
+    {"currency": "USD", "gdp_yoy_pct": 2.0, "gdp_qoq_latest_pct": -0.1, "headline_cpi_yoy_pct": 3.4, "core_cpi_yoy_pct": 3.1, "core_cpi_measure": "Core PCE", "unemployment_pct": 4.3, "current_account_gdp_pct": -3.5, "policy_rate_pct": 3.625},
+    {"currency": "EUR", "gdp_yoy_pct": 0.9, "gdp_qoq_latest_pct": 0.1, "headline_cpi_yoy_pct": 3.0, "core_cpi_yoy_pct": 2.2, "core_cpi_measure": "Core HICP (services 3.0%)", "unemployment_pct": 6.4, "current_account_gdp_pct": 2.5, "policy_rate_pct": 2.00},
+    {"currency": "JPY", "gdp_yoy_pct": 0.5, "gdp_qoq_latest_pct": 0.1, "headline_cpi_yoy_pct": 2.5, "core_cpi_yoy_pct": 2.0, "core_cpi_measure": "Core CPI ex-fresh food", "unemployment_pct": 2.5, "current_account_gdp_pct": 3.5, "policy_rate_pct": 0.75},
+    {"currency": "GBP", "gdp_yoy_pct": 1.0, "gdp_qoq_latest_pct": 0.5, "headline_cpi_yoy_pct": 3.3, "core_cpi_yoy_pct": 3.1, "core_cpi_measure": "Core CPI (services 4.5% - BoE preferred)", "unemployment_pct": 4.9, "current_account_gdp_pct": -2.4, "policy_rate_pct": 3.75},
+    {"currency": "AUD", "gdp_yoy_pct": 1.3, "gdp_qoq_latest_pct": 0.3, "headline_cpi_yoy_pct": 3.5, "core_cpi_yoy_pct": 3.0, "core_cpi_measure": "Trimmed mean", "unemployment_pct": 4.0, "current_account_gdp_pct": 0.5, "policy_rate_pct": 4.35},
+    {"currency": "NZD", "gdp_yoy_pct": 0.8, "gdp_qoq_latest_pct": 0.2, "headline_cpi_yoy_pct": 3.1, "core_cpi_yoy_pct": 3.5, "core_cpi_measure": "Non-tradables", "unemployment_pct": 5.1, "current_account_gdp_pct": -5.0, "policy_rate_pct": 2.25},
+    {"currency": "CAD", "gdp_yoy_pct": 1.5, "gdp_qoq_latest_pct": 0.3, "headline_cpi_yoy_pct": 3.0, "core_cpi_yoy_pct": 2.7, "core_cpi_measure": "Median CPI", "unemployment_pct": 6.5, "current_account_gdp_pct": -1.0, "policy_rate_pct": 2.25},
+    {"currency": "CHF", "gdp_yoy_pct": 1.0, "gdp_qoq_latest_pct": 0.2, "headline_cpi_yoy_pct": 1.0, "core_cpi_yoy_pct": 1.0, "core_cpi_measure": "Core CPI", "unemployment_pct": 2.5, "current_account_gdp_pct": 6.0, "policy_rate_pct": 0.00},
+    {"currency": "NOK", "gdp_yoy_pct": 1.5, "gdp_qoq_latest_pct": 0.3, "headline_cpi_yoy_pct": 3.0, "core_cpi_yoy_pct": 3.0, "core_cpi_measure": "CPI-ATE", "unemployment_pct": 4.0, "current_account_gdp_pct": 15.0, "policy_rate_pct": 4.00},
+    {"currency": "SEK", "gdp_yoy_pct": 2.9, "gdp_qoq_latest_pct": 0.5, "headline_cpi_yoy_pct": 2.0, "core_cpi_yoy_pct": 2.0, "core_cpi_measure": "CPIF", "unemployment_pct": 8.0, "current_account_gdp_pct": 5.0, "policy_rate_pct": 1.75},
+    {"currency": "SGD", "gdp_yoy_pct": 3.0, "gdp_qoq_latest_pct": 0.5, "headline_cpi_yoy_pct": 2.0, "core_cpi_yoy_pct": 2.0, "core_cpi_measure": "MAS Core CPI", "unemployment_pct": 2.0, "current_account_gdp_pct": 18.0, "policy_rate_pct": null}
+  ],
+
+  "factors": [
+    {
+      "block": "Policy & Rates (Relative)",
+      "factor_number": 1,
+      "tactical_weight": 0.24,
+      "strategic_weight": 0.24,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 65,
+        "analysis": "The BoE delivered a hawkish hold on 30 April 2026 - 8-1 with Chief Economist Huw Pill dissenting in favour of a 25bp hike to 4.00%, the first non-unanimous hold of this cycle. Bank Rate at 3.75% now ranks 4th in G10+SGD, behind only the RBA (4.35% post-5 May hike), Norges Bank (4.00%), and the Fed mid-rate (3.625% - UK is 12bps higher). The market has repriced aggressively post-28 February: the 15-day OIS path through 22 April rose 55bp vs the February MPR, and post-decision pricing now embeds roughly two 25bp BoE hikes by year-end with ~50% probability of a June move. Gilt yields reflect the same: 2Y at 4.60% (near year-high), 10Y at 5.09-5.11% (highest since 2008), 30Y at 5.74-5.78% (highest since 1998). The UK-Bund 10Y spread has blown out to +204bp and UK-UST 10Y to +65bp, both highly supportive of GBP via the rate-differential channel. Bailey's 'active hold' language and his warning that 'waiting for clear evidence of inflationary pressures could risk a delayed response' removes the dovish tail and concentrates the distribution to the hawkish side. Critically, this is happening when the Fed is in a politically constrained hold (Powell's last meeting before 15 May term-end; Warsh nominated as successor; 8-4 split with hawk dissents) and the ECB is also on hold but with hawks debating a hike at the June meeting. The bilateral set-up - UK hiking pressure rising while Fed/ECB are bottoming - is the textbook configuration for Cable upside and EUR/GBP downside, a regime the OIS curve has not reflected in over a year.",
+        "key_data_points": [
+          "Bank Rate: 3.75% (held 30 Apr 2026, 8-1 vote; last cut 18 Dec 2025)",
+          "2Y gilt yield: 4.60% (vs 2Y UST 3.88% → UK +72bp)",
+          "10Y gilt yield: 5.09-5.11% (vs 10Y UST 4.45% → +65bp; vs 10Y Bund 3.05% → +204bp)",
+          "30Y gilt: 5.74-5.78% (highest since 1998)",
+          "OIS pricing post-decision: ~50% probability of 18 June hike; 2-3 hikes by year-end",
+          "Carry (Bank Rate - ECB DFR): +175bp annualised; (Bank Rate - BoJ): +300bp",
+          "UK 2s10s: +49bp (bull-flattened ~10bp over the past month)"
+        ],
+        "what_is_priced": "The market prices ~50% probability of a June BoE hike and 2-3 hikes by year-end - a regime the OIS curve hasn't reflected in over a year. We assess this as roughly fair to slightly underpriced: with Pill already dissenting and Bailey openly framing the dilemma as 'waiting risks delay,' the conditional probability of a June or August hike if the 21 May CPI prints at 3.5%+ is closer to 70%. The mispricing is in path persistence - markets price hikes then cuts; we expect hikes then hold, which is GBP-supportive on a 2-4 week view.",
+        "citations": [7, 13, 14, 18, 19, 20, 21, 22, 23]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "analysis": "Strategically the rate-differential picture is much more two-way. The April MPR replaced its single central forecast with three scenarios: A (short-lived shock; CPI peaks just over 3.5%), B (similar peak, longer persistence), and C (Hormuz remains shut, oil to $130/bbl, NBP gas to 210p/therm; CPI peaks above 6% in early 2027 and Bank Rate must be 'materially higher'). In Scenarios A/B the BoE hikes 25-50bp through 2026, then resumes cutting in late 2026 or early 2027 toward a terminal of ~3.25-3.50% - the exact regime markets price now. In Scenario C the BoE could hike 100-150bp, but at the cost of a recession that would ultimately drag Bank Rate below 3.00% within 12-18 months. Either way, the forward differential vs the Fed and ECB is unlikely to widen further from current extremes; if anything, the Fed has more capacity to surprise hawkish (Warsh) at the strategic horizon, while the ECB has hawks pushing for a June hike. The terminal-rate gap with the Fed will narrow rather than widen. UK 5Y5Y forward rates are already pricing ~3.5% - well below the recent 30Y gilt yield, indicating the market sees the long end as a fiscal/term-premium signal rather than a rate-expectations signal. Carry-to-vol ratios remain favourable (UK Bank Rate − ECB DFR = 175bp; GBP/USD 3M IV ~8% implies carry-to-vol of ~0.5 vs Eurozone - middling among G10 carry trades) but the spread is unlikely to widen materially. Strategic conclusion: rate differentials help GBP at the margin but are not the dominant driver at 1-6 month horizons; external balance and fiscal credibility take over.",
+        "key_data_points": [
+          "BoE three-scenario MPR (April 2026): A/B project CPI peak 3.5%, ~2% in 3 yrs; C projects 6%+ peak",
+          "Forward-implied terminal Bank Rate (5y5y SONIA): ~3.5%",
+          "Fed forward-implied 12M: 3.4% (one cut from current); markets price no changes in 2026 with ~15% Dec 26 hike probability",
+          "UK-US 10Y spread at +65bp is at 18-month high; further widening capped by US fiscal premium",
+          "UK-Bund 10Y at +204bp near multi-year high; ECB June hawk debate caps further widening",
+          "Carry-to-vol vs EUR: ~1.0 (175bp / ~5-6% EUR/GBP IV)",
+          "BoE QT pace: £70bn in Oct 25-Sep 26 (slowed from £100bn)",
+          "Three-cycle annualised carry vs USD: ~12bp/wk → 100+bp over 9 months if held"
+        ],
+        "what_is_priced": "Markets are pricing a 'hike-then-cut' path consistent with Scenarios A/B. The strategic edge is that this is the correct base case - i.e. the market is roughly right - leaving GBP carry-supported but with limited room for further tactical surprises. The strategic GBP risk is Scenario C, where the BoE has to 'go materially higher' and gilt term-premium spirals further, breaking the GBP-favourable correlation between rates and the currency.",
+        "citations": [24, 25, 26]
+      },
+      "horizon_split_explanation": "Tactical Bullish (65%) shifts to Strategic Neutral (50%) because the BoE hawkish cycle has limited room to widen further at strategic horizons (terminal Bank Rate priced at 4.00-4.25% already), while the Fed has more capacity to surprise hawkish (Warsh) and the ECB has hawks pushing for a June hike. The terminal-rate gap with peers narrows rather than widens over 1-6 months, exhausting the rate-differential support that drives the tactical view.",
+      "carry_analysis": {
+        "carry_vs_peers": [
+          {"vs_currency": "USD", "annualised_carry_bps": 12, "carry_to_vol_ratio": 0.02, "interpretation": "Marginal carry vs Fed mid 3.625%; tactical relevance limited"},
+          {"vs_currency": "EUR", "annualised_carry_bps": 175, "carry_to_vol_ratio": 0.32, "interpretation": "Solid carry vs ECB DFR 2.00%; clean cross-channel expression"},
+          {"vs_currency": "JPY", "annualised_carry_bps": 300, "carry_to_vol_ratio": 0.30, "interpretation": "High carry vs BoJ 0.75%; offsets by elevated GBP/JPY IV"},
+          {"vs_currency": "AUD", "annualised_carry_bps": -60, "carry_to_vol_ratio": -0.07, "interpretation": "Negative carry post-RBA hike; AUD/GBP attractive"},
+          {"vs_currency": "NZD", "annualised_carry_bps": 150, "carry_to_vol_ratio": 0.17, "interpretation": "Decent carry vs RBNZ 2.25%"},
+          {"vs_currency": "CAD", "annualised_carry_bps": 150, "carry_to_vol_ratio": 0.21, "interpretation": "Decent carry vs BoC 2.25%; oil-shock makes CAD attractive offset"},
+          {"vs_currency": "CHF", "annualised_carry_bps": 375, "carry_to_vol_ratio": 0.54, "interpretation": "Best risk-adjusted carry trade in G10; SNB at zero bound, CHF expensive"},
+          {"vs_currency": "NOK", "annualised_carry_bps": -25, "carry_to_vol_ratio": -0.03, "interpretation": "Negative carry vs Norges 4.00%; oil tailwind compounds"},
+          {"vs_currency": "SEK", "annualised_carry_bps": 200, "carry_to_vol_ratio": 0.22, "interpretation": "Solid carry vs Riksbank 1.75%"}
+        ],
+        "carry_regime": "GBP is a high-carry G10 currency vs EUR, CHF, and JPY - these are the cleanest carry trades. Currency is being driven by hawkish-BoE rate-differential channel; carry is 'working' in current regime - Cable rallied +2.3% in 1M as the rate-differential channel dominated.",
+        "breakeven_move": "~140 pips on EUR/GBP over 30 days - EUR/GBP must rally above 0.880 within a month to erase carry pickup vs current 0.8663. For Cable, breakeven move is ~50 pips/month vs USD given thin spread."
+      },
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Inflation & Growth Dynamics",
+      "factor_number": 2,
+      "tactical_weight": 0.18,
+      "strategic_weight": 0.10,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 65,
+        "analysis": "The 22 April CPI print blew through expectations: headline +3.3% YoY (up from 3.0% Feb), core 3.1%, services +4.5% (the BoE's preferred underlying-inflation measure, up from 4.3%). Heating oil +95.3% YoY; transport +4.7% YoY; motor fuels +4.9% MoM. These are first-round effects of the post-28 February Iran war hitting a UK economy that imports virtually all liquid fuel and ~50% of natural gas. Wage growth (Dec 25-Feb 26 release 21 April): regular pay +3.6% YoY; total pay +3.8%; private-sector regular pay +3.2% (slowest since 2020); public sector +5.2%. Real regular pay still positive at +0.4% YoY - services inflation has not yet been crushed by income loss. Inflation expectations have surged: Citi/YouGov 1Y rose to 5.4% in March (from 3.3% Feb) and 5-10Y to 4.5% (from 3.6% Feb) - the kind of move that historically forces a hawkish BoE response. Growth is mixed: GDP +0.5% in 3m to February, April manufacturing PMI 53.7 (highest since May 2022 - but with input prices rising at fastest rate since June 2022), April services PMI flash showed 'weakest rise in service sector output for 11 months,' and March composite revised down to 50.3. GfK consumer confidence collapsed to -25 in April (lowest since October 2023), with the future personal-finances index at -4 and the 12m-ahead general economic situation at -43. The tactical GBP read: data has been hot enough to keep the BoE hawkish, but not so hot/cold that the Bank can rule out either a stagflation hike or a recessionary cut. The 21 May CPI (April data - first full month of post-Hormuz pass-through) is the dominant near-term catalyst.",
+        "key_data_points": [
+          "March 2026 CPI: 3.3% YoY headline; 3.1% core; 4.5% services; 0.7% MoM",
+          "CPIH 3.4%; RPI 4.3%",
+          "Wages: regular pay +3.6% YoY; total +3.8%; private +3.2%, public +5.2%",
+          "Inflation expectations: Citi/YouGov 1Y 5.4%, 5-10Y 4.5% (March)",
+          "GDP: +0.5% in 3m to February; +1.0% YoY",
+          "April manufacturing PMI: 53.7 (highest since May 2022)",
+          "March composite PMI: 50.3 (revised down from flash 51.0)",
+          "GfK consumer confidence April: -25 (lowest since Oct 2023)"
+        ],
+        "what_is_priced": "Markets price ~3.4-3.5% headline CPI for April (release 21 May), reflecting Iran-war pass-through. We see modest upside risk to ~3.6-3.7% as petrol price increases of 14p/L between 27 Feb and 23 March 2026 feed through with full month effect. A 3.6%+ print is GBP-bullish via reinforcement of the BoE hawkish bias and increased June hike probability.",
+        "citations": [27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 60,
+        "analysis": "The strategic story is the second-round story. Wage settlements over the next 12 months will determine whether the energy shock becomes embedded inflation or fades back to target. The OBR's Spring Forecast 2026 (3 March) projected GDP +1.1% and CPI 2.3% average for 2026 - but this pre-dates the 28 February escalation, as OBR explicitly flagged. BoE staff near-term projection now puts Q3 CPI at 3.3% (vs Feb forecast 1.9%, a +1.4pp upward revision) and rising further in Q4. Productivity remains the deep structural problem: UK output per hour has barely grown since 2008, meaning any wage growth above ~2% is automatically inflationary at the structural level. The Iran-war second-round risk is asymmetric - if pay deals re-embed at 4-5% (vs the current +3.6% regular pay), inflation persistence forces the BoE to keep Bank Rate restrictive (above neutral) for longer, which crushes UK growth. Consumer confidence at -25 already signals a household-spending pullback that will hit retail and services in Q3. The combination - sticky inflation + weak demand - is stagflation, the regime in which currencies typically underperform even with carry support, because the fiscal-credibility risk dominates. Real GDP growth is forecast to slow further from 1.0% YoY toward 0.5-0.7% by mid-26. The Q3 Ofgem cap announcement on 27 May (forecast £1,930-£1,975, +20% vs Q2) will mechanically push CPI higher in October's print - a delayed second wave that strategically underpins inflation persistence.",
+        "key_data_points": [
+          "BoE staff CPI projections: Q2 26 3.1%; Q3 26 3.3% (vs 1.9% in Feb forecast - +1.4pp news); Q4 higher",
+          "OBR Spring Forecast: GDP 2026 +1.1% (revised down from +1.4%; pre-dates Iran shock)",
+          "Ofgem Q3 26 cap forecast: £1,930-£1,975 (+~20% vs current £1,641; effective 1 July)",
+          "Wage growth needs to fall to ~2% for sub-target inflation; currently 3.6% - gap implies 1.5pp embedded inflation",
+          "April manufacturing input prices fastest rise since June 2022 - second-round coming through goods",
+          "Productivity ~0.3% trend; gap to peers means inflation-stickiness is structural",
+          "Q3 GDP forecast risk: ~+0.2% QoQ vs February consensus +0.4%"
+        ],
+        "what_is_priced": "The market believes this is a transitory shock - most bank desks (J.P. Morgan, Goldman, Citi pre-war) had GBP/USD year-end forecasts of 1.36-1.40 with CPI returning to ~2% by mid-2027. We see modest downside risk: stagflation typically resolves worse for the currency than markets expect, because the longer the BoE has to stay restrictive, the more the credit channel and labour market deteriorate. The strategic GBP edge is in the sequencing - bullish near term on hawkish BoE, then bearish at the 3-6 month mark as growth deteriorates.",
+        "citations": [25, 37, 38]
+      },
+      "horizon_split_explanation": "Tactical Bullish (65%) flips to Strategic Bearish (60%) because the inflation shock is GBP-bullish in the short run (BoE hawkish reaction) but GBP-bearish in the longer run (growth crushed by restrictive policy + restrictive household budgets). The inflection point is roughly the August MPC: by then the BoE will have either (i) signalled it's done hiking, removing the hawkish carry support, or (ii) hiked into a slowing economy, which is bearish for GBP via fiscal-stress channel. The Q3 Ofgem cap announcement on 27 May is a key signpost - confirmed >£1,950 cap accelerates the strategic stagflation thesis.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Risk Appetite & Sentiment",
+      "factor_number": 3,
+      "tactical_weight": 0.10,
+      "strategic_weight": 0.05,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "analysis": "VIX at 17.6-18.7 closed 18.13 on 5 May, with intraday spikes above 20 on Hormuz reflare headlines. This is mid-range historically (~50th percentile vs 1Y), neither risk-off nor risk-on. The S&P 500 is at 7,209-7,230 - a stone's throw off all-time highs despite the Iran war - reflecting a market that has decided the war is contained and the energy shock manageable. FTSE 100 is choppy on Iran headlines but holds its 2026 range; Stoxx 600 broadly flat near highs. Credit spreads (CDX IG, HY) widened modestly post Hormuz reflare on 4 May but remain at low percentiles vs history. GBP behaves as a mildly risk-positive currency: it gains in moderate risk-on, sells off sharply in risk-off, and is a poor performer at left-side dollar smile (where USD is the safe haven). Currently we are in a 'risk-on with intermittent stress' regime - exactly the configuration where GBP grinds higher on rate-differential support but is exposed to sharp drawdowns on Iran/Hormuz headlines. Importantly, GBP/JPY at ~210 is the textbook risk proxy and is holding near its post-2008 highs; this confirms the underlying risk regime is more risk-on than risk-off. The risk bet is fundamentally that Hormuz remains 'open enough' for global trade to continue without a recession scare. We assess this risk regime is broadly neutral for GBP at the 2-4 week horizon - supportive on the rate-differential side, vulnerable to event-driven spikes.",
+        "key_data_points": [
+          "VIX: 18.13 (5 May close); intraday high >20 on 4 May",
+          "S&P 500: 7,209-7,230 (near ATH)",
+          "FTSE 100: choppy on Iran; FTSE 250 (more domestic) softer",
+          "GBP/JPY: ~210 (near post-2008 highs)",
+          "Brent crude: $112/bbl (5 May); +6% spike on 4 May Hormuz reflare",
+          "GBP risk beta (recent rolling 60d): ~+0.3 vs S&P (mild risk-positive)",
+          "VIX-RV spread: vol underprices realised event-driven moves"
+        ],
+        "what_is_priced": "Markets price the Iran war as 'fragile but contained' - VIX at 18 is not pricing a Hormuz blockade scenario at any meaningful probability. We see this as roughly fair: most signals indicate the war is indeed contained, but tail-risk premia in equities are too low. For GBP specifically, the risk regime is supportive unless the dollar smile activates (Hormuz reblockade → safe-haven USD bid → cable down 1.5-2%).",
+        "citations": [8, 39, 40]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "analysis": "At the strategic horizon the question is whether the global risk regime persists. Base case (Goldman Sachs raised oil forecast to $90/bbl Q4 26 from $80, implying Hormuz normalises by end-June): risk-on holds, GBP supported by carry through Q3, then fades on growth deterioration. Tail case: Hormuz reblockade → 6-8% global equity drawdown → DXY rallies 3-5% → cable trades down to 1.28-1.30. The strategic GBP risk-beta is modestly positive - about +0.3 to S&P - meaning a 5% S&P drawdown typically translates to a ~1.5% Cable drawdown. UK financial sector exposure is meaningful: London's role as a global financial centre means GBP benefits from capital-market activity, and conversely, financial-conditions tightening can disproportionately hurt GBP. The 30Y gilt at 5.74% is a structural tightening of UK financial conditions even if global risk is benign. The strategic correlation regime has shifted: in 2024-early 2026, GBP typically traded +0.4 with FTSE 250 (domestic growth proxy). Since the 28 February shock, that correlation has weakened to +0.2 because the gilt-stress channel has overwhelmed the equity channel. This breakdown is bearish for GBP - when correlations break down, the currency loses its risk-beta support.",
+        "key_data_points": [
+          "Goldman base case oil Q4 26: $90/bbl (from $80; Hormuz normalises end-June)",
+          "VIX 1Y range: 12-25; current 18 = 50th percentile",
+          "S&P 500 forecast year-end 26 consensus: ~7,500 (mild upside)",
+          "GBP/JPY-VIX correlation 60d: ~-0.4 (normal range)",
+          "FTSE 250 - Cable correlation: weakened from +0.4 to +0.2 since 28 Feb",
+          "Iran tail-risk probability (re-blockade): we estimate ~25%; market prices ~10%"
+        ],
+        "what_is_priced": "Markets price benign risk persistence at high probability. We see this as roughly fair on the central estimate but with fatter tails than implied by VIX 18. Strategic GBP is therefore neutral with a left-tail asymmetry - a Hormuz re-blockade would dominate all other GBP factors.",
+        "citations": [40, 41]
+      },
+      "horizon_split_explanation": "Tactical and strategic are both Neutral, but for different reasons. Tactically, the risk regime is benign-mid range - supportive on rate-differentials, vulnerable to event spikes. Strategically, the regime is more two-way: continued risk-on supports carry through Q3 but growth deterioration creates a self-reinforcing bearish dynamic by Q4. Confidence is slightly lower strategically (50 vs 55) because the range of outcomes widens substantially over 1-6 months.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Flows & Positioning",
+      "factor_number": 4,
+      "tactical_weight": 0.10,
+      "strategic_weight": 0.06,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 55,
+        "analysis": "The CFTC COT report (28 April 2026, released 1 May) reveals an unusual divergence that is positively asymmetric for GBP. Leveraged Funds are net long +28,882 contracts (60th-75th percentile of 1Y range - supportive but not extreme; WoW change -255, essentially flat). Asset Manager / Institutional cohort is heavily net short -93,753 (deep end of 1Y range; WoW change -10,567, more short over the past week despite Cable rallying). Open interest 263,635 contracts indicates engaged market participation. The Dealer/Intermediary cohort is net long, completing the picture. The structural set-up is bullish for two reasons: First, the asset manager short is a hedge against UK pension/insurance long-GBP balance sheets - when Cable rallies persistently, these hedges become loss-makers and create stop-loss buying pressure (similar to early 2024 short-squeeze episodes). Second, the leveraged-fund long is not extreme, leaving room for momentum-following capital to add to longs on a clean break above 1.38. The contrarian threshold the GBP currency brief notes is '+50K or below -80K' for stretched positioning - leveraged funds at +28.9K is well below the upper threshold; asset managers at -94K is just below the lower threshold. This is exactly the configuration that historically produces violent positioning unwinds in the bullish direction. Foreign holdings of gilts trends are positive - overseas investors increased gilt holdings into Q1 2026 as yields rose - providing portfolio-channel GBP support. UK pension fund hedging mechanics, post-2022 LDI reform, are now more transparent and less prone to forced unwinds.",
+        "key_data_points": [
+          "Leveraged Funds net: +28,882 (long); WoW -255",
+          "Asset Manager net: -93,753 (short); WoW -10,567 (more short)",
+          "Total open interest: 263,635 contracts",
+          "Spec net (lev funds + asset managers): -64,871 - net short market",
+          "Stretched threshold per currency brief: above +50K or below -80K",
+          "Asset Manager short crossed -80K threshold ~3 weeks ago - at 'stretched' zone",
+          "Dealer/Intermediary net: +67,869 long",
+          "25Δ risk reversal direction: indicative dealer commentary suggests near-zero/slight call bias"
+        ],
+        "what_is_priced": "The market is positioned for both directions - leveraged funds long on hawkish BoE narrative; asset managers short on stagflation/fiscal-credibility risk. This bipolar positioning means the next move depends on which catalyst wins (CPI 21 May vs Ofgem cap 27 May vs Hormuz headlines). We assess the asymmetry favours upside: the asset manager short is more stretched and more vulnerable to a squeeze than the leveraged long is to an unwind.",
+        "citations": [5, 42]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 45,
+        "analysis": "Strategic positioning is harder to read because the divergence between leveraged funds and asset managers reflects two genuinely competing macro stories - hawkish carry vs stagflation/fiscal credibility - and the resolution depends on data flow over 3-6 months. Post-Brexit positioning normalisation has largely run its course; GBP no longer carries the structural short bias it did in 2017-2022. Foreign holdings of gilts (~25-30% of outstanding) have been increasing modestly in 2026 as yields became attractive on a global basis, but this trend is fragile - any sharp 30Y gilt sell-off (above 5.85% sustained) could trigger reverse flows. ETF flows: FXB (Invesco GBP UK Pound Sterling Trust) flows have been mixed, suggesting retail allocation is not the driver. UK pension fund hedge ratios remain in the 70-80% range - high but stable, meaning marginal hedging flow is small. The strategic flow edge is mechanical: if Bank Rate stays restrictive (above neutral) for longer than markets expect, real-money allocation to GBP-denominated assets gradually increases via the carry channel. But this is offset by the strategic risk of a Truss/2022 redux, which would shock real-money out of GBP rapidly.",
+        "key_data_points": [
+          "1Y CFTC net spec range: -150K to +50K - current -65K is mid-range",
+          "Foreign gilt holdings: ~25-30% of outstanding (~£700bn)",
+          "UK pension hedge ratios: 70-80% range",
+          "ETF FXB flows: mixed; not a directional driver",
+          "BoE QT pace £70bn Oct 25-Sep 26 - supply pressure on gilts mild",
+          "Sustained 30Y gilt > 5.85% would trigger systematic reverse flows from foreign gilts",
+          "DMO 2025-26 remit £231.9bn auction issuance + £10bn green; supply is heavy"
+        ],
+        "what_is_priced": "Markets price residual Brexit discount as roughly closed (consensus desks now treat GBP as a 'normal G10 currency' without structural short bias). We agree with this assessment. The strategic flow risk is binary: fiscal credibility breaks → flows reverse hard; fiscal credibility holds → carry-driven inflows continue. The asymmetry favours the bearish tail outcome (larger magnitude) over the bullish base case (slow grind).",
+        "citations": [42, 43]
+      },
+      "horizon_split_explanation": "Tactical Bullish (55% confidence) flips to Strategic Neutral (45%) because the asset-manager-short squeeze potential is a near-term flow catalyst whose impact decays over 1-3 weeks (squeezes are sharp and short). Strategic flows depend on the macro resolution between hawkish-carry and stagflation-credibility, which is not yet resolvable. Confidence drops to 45% strategically because the dispersion in possible flow outcomes is wide.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": "Asset manager net short -93,753 is at the deep end of 1Y range. Historically, when this cohort breaches -90K and Cable starts rallying, short-covering produces 2-4% squeezes over 2-4 weeks (cf. early 2024 episode). The trigger for an unwind is a break of 1.38 GBP/USD; the trigger for further short build is a break of 1.34. The contrarian case to the bullish positioning thesis: if asset managers are short because they correctly anticipate a fiscal-stress event, the unwind doesn't come - instead the position pays off. We assess the squeeze probability above the negative scenario probability (~60/40) but acknowledge the latter is non-trivial. The other side of the trade is that real-money is correctly positioned for the Q3 stagflation unwind and the squeeze never materialises.",
+      "contrarian_analysis_strategic": "Net spec at -65K is mid-range. There is no extreme positioning at the strategic horizon - both leveraged funds and asset managers can add to their respective sides without hitting extreme thresholds. The strategic contrarian signal is therefore neutral. The flow picture only becomes contrarian-relevant if (a) asset managers go below -120K (extreme short → bullish setup) or (b) leveraged funds go above +60K (extreme long → bearish setup). Currently neither, leaving strategic flows as a coin-flip dependent on the BoE-vs-fiscal narrative resolution.",
+      "expression_assessment": null
+    },
+    {
+      "block": "External Balance & Terms of Trade",
+      "factor_number": 5,
+      "tactical_weight": 0.06,
+      "strategic_weight": 0.16,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 60,
+        "analysis": "UK Q4 2025 current account (released 31 March): underlying deficit (ex-precious metals) £8.4bn / 1.1% of GDP - narrowed from £9.0bn in Q3. Including precious metals (gold imports surged from £2.6bn to £10.1bn), deficit widened to £18.4bn / 2.4% of GDP. Annual 2025 current account deficit £74bn / 2.4% of GDP (vs 3.0% in 2024). The structure: goods deficit £243bn vs services surplus £205bn → trade balance deficit £38bn. UK has £89bn deficit with EU, £50bn surplus with non-EU. The 3-month total trade balance to February 2026 was a £0.6bn surplus per HMRC. The Iran-war energy import shock is the dominant tactical force. ONS Q4 2025 commentary explicitly flagged that 'the recent increase in international crude oil and wholesale gas prices following the escalation of the conflict in the Middle East is another headwind to UK's terms of trade in 2026'. UK is a net importer of oil and ~50% of natural gas. Brent at $112/bbl and NBP gas at 114.7p/therm represent a roughly 30% TOT shock vs late-2025 levels. The Q1 2026 current account (release 30 June 2026) will show this through; the tactical horizon will not capture the full transmission, but anticipatory positioning is already in motion.",
+        "key_data_points": [
+          "UK Q4 2025 C/A (ex-PM): £8.4bn deficit / 1.1% of GDP",
+          "UK 2025 annual C/A: £74bn deficit / 2.4% of GDP",
+          "3m to Feb 2026 trade balance: +£0.6bn (HMRC)",
+          "Brent: $112/bbl (5 May); pre-war ~$75/bbl (+~50%)",
+          "NBP gas: 114.7p/therm (5 May); pre-war ~80p/therm (+~43%)",
+          "UK net importer: oil ~1.0 mbpd net imports; gas ~50% imported",
+          "Goods deficit 2025: £243bn (annual)",
+          "Services surplus 2025: £205bn (financial services-led)"
+        ],
+        "what_is_priced": "Markets are not yet pricing the full energy-import hit on UK terms of trade - Q4 2025 C/A data was pre-shock, and Q1 2026 data won't release until 30 June. We see modest tactical downside risk to GBP via this channel as the market belatedly starts pricing the deterioration before the print.",
+        "citations": [40, 44, 45, 46]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 70,
+        "analysis": "The strategic external-balance picture is unambiguously GBP-bearish, and Factor 5 carries the second-highest strategic weight (0.16) precisely for situations like this. UK is one of the few G10 currencies with both a structural current account deficit and high commodity-import dependency. The Iran-war energy shock is therefore a direct hit to terms of trade that only deepens over 3-6 months as forward energy contracts and Ofgem pass-throughs lock in. The Q3 Ofgem cap (announcement 27 May, effective 1 July) is forecast at £1,930-£1,975 - roughly +20% on the current £1,641. This pass-through mechanism is the terms-of-trade shock crystallising into the household-spending channel. Brexit dynamics compound the picture: post-2020, UK trade openness fell ~10% structurally, and the £89bn EU goods deficit reflects accumulated friction costs. The financial-services surplus offsets some of the goods deficit but is itself fragile - any further EU-relocation of services business is structural GBP-negative. China sensitivity is moderate (UK-China bilateral trade is small as a share of total). Trade policy: UK-EU TCA review ongoing in 2026; SPS dynamic-alignment negotiations could help GBP marginally if concluded but are slow-moving. The strategic edge: at 1-6 month horizons the rate-differential channel weakens (BoE caps out) while the external-balance channel strengthens (Q1 C/A print, Q3 Ofgem cap, UK petrol/diesel pump prices). This is the channel that drives GBP weaker into Q3.",
+        "key_data_points": [
+          "BoE has 2.4%-of-GDP C/A deficit to fund; energy shock widens by ~0.5-1.0pp over 6m",
+          "Ofgem Q3 cap forecast £1,930-£1,975 (+20% vs Q2); announcement 27 May 2026",
+          "UK petrol +14p/L (10%) and diesel +29p/L (20%) Feb 27-Mar 23 (House of Commons CBP-10601)",
+          "UK NBP gas forward curve: prices remain elevated through summer",
+          "Goldman base case Brent Q4 26: $90/bbl - partial relief, but still ~20% above pre-war",
+          "Net energy importer: UK's import bill rose ~£8bn at annual rate vs Q4 25",
+          "Financial services surplus: ~£60bn annual (London hub channel)",
+          "BoE ERI weight by major partner: EUR area ~50%, USD ~20%, JPY ~5%, CHF ~3%"
+        ],
+        "what_is_priced": "Markets have priced the first leg of the shock (Q1 26 widening) but underprice the second leg (Q3 Ofgem pass-through, sustained NBP gas premium, persistent C/A deterioration through 2026). We see strategic GBP downside via this channel as the dominant bearish driver at 1-6 month horizons.",
+        "citations": [38, 40, 44, 46]
+      },
+      "horizon_split_explanation": "Tactical Bearish (60%) is consistent with Strategic Bearish (70%). The terms-of-trade channel is slow-burning - quarterly C/A prints, monthly trade data, Ofgem cap reviews - so the impact compounds over 3-6 months. Confidence rises strategically because more data points will be released to confirm the deterioration, the offsetting hawkish BoE narrative will weaken, and the Q3 Ofgem cap announcement is a hard catalyst.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Guidance & Credibility",
+      "factor_number": 6,
+      "tactical_weight": 0.07,
+      "strategic_weight": 0.12,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 60,
+        "analysis": "The 30 April 2026 BoE communication was strikingly hawkish for a hold decision. Bailey called it an 'active hold' and 'difficult judgement call,' warned that 'waiting for clear evidence of inflationary pressures could risk a delayed response,' and emphasised the policy stance is 'state-contingent' on the energy shock evolution. Pill's dissent for a 25bp hike - the first non-unanimous BoE hold of this cycle - is a powerful credibility signal because the Chief Economist holds a respected analytical perch and his vote breaks the dovish tail. The MPR's three-scenario presentation (A/B/C, no central forecast) is itself a guidance choice that signals the BoE wants markets to price a wider distribution; this increases uncertainty premium and pushes the OIS curve toward the hawkish side as risk-averse market participants under-discount the C scenario. Forward guidance: 'The Committee stands ready to act as necessary…'. Recent MPC speeches reinforce: Pill's 24 March warning on 'self-sustaining inflationary dynamics'; Mann's external-exposures speech (4 May); Taylor's recent appearances in the hawkish camp. The voting split (8-1 hold) makes the hike-pivot mechanically only 4 more dissenters away - i.e., a 4-5 split for a hike at the next meeting is plausible if April CPI prints above 3.5%. BoE credibility was severely damaged by the 2022 gilt crisis but has recovered through 2024-2025 disinflation. Currently markets believe the BoE will deliver on its hawkish state-contingent framework - a positive credibility read.",
+        "key_data_points": [
+          "30 Apr 2026 vote: 8-1 hold; Pill dissent for +25bp",
+          "Bailey 'active hold' language; 'waiting risks delay'",
+          "April MPR: three scenarios (A/B/C); no single central forecast",
+          "Pill 24 March speech: 'self-sustaining inflationary dynamics'",
+          "Mann LSE speech 4 May: UK external exposures (hawkish-leaning)",
+          "Pill scheduled NatWest roundtable week of 4 May",
+          "BoE credibility post-2022 mini-Budget largely recovered",
+          "Market-implied path within 5bp of BoE-perceived 'state-contingent' path - high credibility"
+        ],
+        "what_is_priced": "The market prices the BoE as credibly hawkish, with ~50% June hike probability. We see this as roughly fair, but with upward bias: the gap between Bailey's framing and Pill's vote is small enough that one bad CPI print could see another dissenter join Pill, swinging market pricing to ~75% June hike probability. Tactically supportive for GBP.",
+        "citations": [7, 18, 21, 24, 25, 47, 48]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "analysis": "Strategic credibility is more nuanced. The April three-scenario framework is innovative but also a tacit acknowledgment that the BoE doesn't know what's going to happen - a position that can erode credibility if the eventual outcome falls outside the A/B/C envelope. The MPC's hawkish positioning depends critically on second-round wage settlements; if pay deals re-embed at 4-5%, the BoE's hawkish framework is vindicated and credibility strengthens. If pay growth softens to 2-3% as headline inflation eases (Goldman base case), the BoE may be seen as having over-reacted, eroding credibility for the next cycle. Personnel: Bailey's term as Governor runs through July 2028 - no near-term turnover risk. Conditioned forecasts: the BoE's MPR is conditioned on market-implied rates, so the inflation projections in Scenarios A/B (peak 3.5%, return to 2% in ~3 yrs) implicitly endorse current market pricing of 2-3 hikes by end-26. This is consistent - the BoE is not pushing back against the market path, which is a credibility-positive signal. The strategic credibility risk is political: a Labour government's fiscal stance into the Autumn Budget could create the kind of MoF-CB tension that undermined credibility in 2022. Reeves's positioning has been broadly orthodox to date but municipal election losses (7 May) could shift the political dynamics.",
+        "key_data_points": [
+          "BoE MPR conditioning: market-implied rates, Scenarios A/B endorse current path",
+          "Bailey term through July 2028 - no near-term turnover",
+          "Wage settlements 2026 trough: Q3 26 prints will reveal embeddedness",
+          "Reeves polling (Britain Elects forecasts): Labour to 'lose two-thirds of councillors' 7 May",
+          "BoE communication style: transparent, voting-public, MPR-driven - high credibility format",
+          "Historic credibility damage 2022: largely repaired; market pricing tracks BoE framework",
+          "Forward-guidance language consistent across Bailey/Pill/Breeden/Lombardelli"
+        ],
+        "what_is_priced": "Markets price BoE credibility at 'trustworthy hawkish' - the view that the MPC will deliver its state-contingent framework. We see this as fair. The strategic risk is fiscal-political: if the Labour government loosens fiscal policy at the Autumn Budget, the gilt market and BoE-Treasury tension could re-emerge as 2022-redux, which would crater BoE credibility. Probability ~15%; impact large.",
+        "citations": [49]
+      },
+      "horizon_split_explanation": "Tactical Bullish (60%) flips to Strategic Neutral (50%) because BoE credibility is currently working for GBP (Bailey + Pill = hawkish anchor) but the source of credibility risk shifts strategically from internal (MPC dissent dynamics) to external (fiscal-policy interaction). Confidence drops because the political-fiscal credibility channel is harder to forecast over 1-6 months than the internal MPC dynamics over 2-4 weeks.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Event Risk & Geopolitics",
+      "factor_number": 7,
+      "tactical_weight": 0.05,
+      "strategic_weight": 0.05,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 60,
+        "analysis": "The dominant tactical event is the 7 May UK municipal elections - Britain Elects forecasts cited in the New Statesman project Labour 'may be about to lose two-thirds of its councillors,' characterised as 'the most significant setback yet for Keir Starmer's premiership'. A bad election result for Labour does not automatically mean a fiscal-policy shift, but it does put pressure on Reeves's fiscal framework - heightening the risk premium gilts demand. The next major dated event is the 21 May UK CPI print (April data - first full month of post-Hormuz energy pass-through), with materially asymmetric impact: 3.5%+ headline reinforces hawkish BoE narrative (GBP-bullish); sub-3.2% softens it (GBP-bearish). The 27 May Ofgem Q3 cap announcement is a clearer-cut catalyst - a >£1,950 print confirms ~+20% household energy bill rise effective 1 July, mechanically raising October CPI. The geopolitical backdrop remains the Iran-US war: Hormuz situation is fragile but contained; 4 May skirmishes pushed Brent +6% intraday but didn't trigger sustained risk-off. Tail risks: Hormuz reblockade (estimated 25% probability); Iran nuclear escalation (~10%); Israel-Iran direct exchange (~10%). Each would dominate all other GBP factors via the dollar smile and TOT channels. The 18 June BoE MPC sits at the boundary between tactical and strategic horizons but is the dominant near-term central-bank event. EUR-side: 11 June ECB meeting - hawks may push for hike, GBP-bearish on cross.",
+        "key_data_points": [
+          "7 May 2026: UK municipal elections (Labour 'may lose two-thirds of councillors')",
+          "21 May: UK April CPI (first full post-Hormuz month) - directional binary",
+          "27 May: Ofgem Q3 cap announcement (forecast £1,930-£1,975)",
+          "18 June: BoE MPC (no MPR; standalone decision)",
+          "16-17 June: FOMC (Warsh-era policy debut likely)",
+          "11 June: ECB meeting (hawk debate over June hike)",
+          "Hormuz reblockade probability: 25% (our estimate; market prices ~10%)",
+          "Event vol premium: backwardation in 1W/1M GBP/USD vol around 21 May CPI"
+        ],
+        "what_is_priced": "Markets price benign event-risk outcomes (election no-impact, CPI in-line, Hormuz contained). We see fatter left tails - particularly on Hormuz and election spillover into fiscal credibility. The 21 May CPI is the single most important date in the next 4 weeks.",
+        "citations": [38, 40, 49]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 55,
+        "analysis": "Strategic event risk is dominated by two clusters: (1) the August MPC + Q3 CPI / Ofgem cap interaction in July-August, and (2) the UK Autumn Budget (typically late October/November). The Autumn Budget is the tail event for sterling - it forced the 2022 mini-Budget gilt crisis and remains the single most binary GBP-negative tail risk. Fiscal headroom of £23.6bn against the stability rule sounds substantial but has already been eroded by the gilt yield surge - every 100bp persistent rise in gilt yields adds ~£10-12bn to debt-servicing costs. With 30Y gilts at 5.74% (vs OBR Spring Forecast assumption of ~4.6%), debt-service costs are running materially above forecast. Reeves will need to either tighten further or lose the headroom. UK-EU regulatory divergence is slow; SPS dynamic-alignment is pending. Scotland independence is a background factor (no near-term catalyst). The geopolitical backdrop's strategic shape: Goldman base case Brent $90/bbl Q4 26 implies Hormuz normalises by end-June. If correct, geopolitical premia fade through Q3. If wrong, the strategic shock becomes deeper (Scenario C territory). UK political stability is the binary that swings everything - if Starmer's leadership becomes unstable post-7 May, gilt term-premium spirals further and GBP suffers sharply.",
+        "key_data_points": [
+          "UK Autumn Budget: typically late October/early November - fiscal headroom under pressure",
+          "OBR Spring Forecast assumption: gilt yields ~4.6% - already +50-100bp above; fiscal slippage",
+          "Fiscal headroom £23.6bn - could compress to <£10bn at current gilt levels",
+          "Hormuz normalisation timeline: Goldman Q4 26 base case",
+          "7 May municipal elections impact on Starmer leadership stability - high uncertainty",
+          "UK general election deadline: 2029 (no near-term forced election)",
+          "BoE political-pressure risk: low currently but high if fiscal slippage"
+        ],
+        "what_is_priced": "Markets price the Autumn Budget as a 'controlled' event with Reeves remaining orthodox. We see this as roughly fair but with non-trivial left tail (~15-20% probability of fiscal credibility wobble). The strategic event-risk is materially asymmetric for GBP: the upside (orthodox budget, tax-revenue beats) is small; the downside (mini-Budget redux) is large.",
+        "citations": [41, 49, 50]
+      },
+      "horizon_split_explanation": "Tactical Neutral (60%) shifts to Strategic Bearish (55%) because the Autumn Budget tail risk dominates the strategic horizon while the tactical horizon is more event-balanced (CPI, Ofgem, MPC each could go either way). Confidence drops slightly strategically because the Autumn Budget is genuinely binary and probability-weighting is uncertain.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Fiscal & Sovereign Risk",
+      "factor_number": 8,
+      "tactical_weight": 0.04,
+      "strategic_weight": 0.07,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 60,
+        "analysis": "UK fiscal-sovereign risk is live, not background - a state typically reserved for currencies in stress regimes. The 30Y gilt yield closed 5 May at 5.74-5.78%, the highest since 1998. The 10Y gilt at 5.09-5.11% is at the highest since 2008. The 2s30s curve has steepened to over 110bp - extreme by historical standards - and the 10s30s at 65bp signals long-end term-premium repricing rather than rate-expectation steepening. This is a fiscal credibility signal: the long end is demanding higher compensation for holding UK debt. PSND was 93.8% of GDP at end-March 2026 (vs 93.2% prior year); PSNFL 83.3%. PSNB FY 2025-26 totalled £132.0bn - £0.7bn below the OBR Spring Forecast (£132.7bn) and £19.8bn below FY 2024-25 - modestly fiscally credible at the bottom-line level. But OBR's GDP and CPI forecasts pre-date the Iran shock and are likely too optimistic. Fiscal headroom of £23.6bn against the stability rule has already been eroded by the gilt-yield surge (every 100bp on gilts ≈ £10-12bn extra debt-service costs). Sovereign ratings: Moody's Aa3 stable; S&P AA stable; Fitch AA- stable; DBRS AA stable. No imminent rating action, but Fitch and S&P have flagged the gilt-yield trajectory as a watch item. UK 5Y CDS not available specific level - historically 20-30bp range. Tactically, the 30Y gilt yield being at 1998 highs is itself a 30-day-old event-risk signal that markets are pricing fiscal stress; this typically coincides with GBP underperformance in the medium term despite carry support.",
+        "key_data_points": [
+          "30Y gilt: 5.74-5.78% (highest since 1998)",
+          "10Y gilt: 5.09-5.11% (highest since 2008)",
+          "10s30s curve: +65bp (term-premium signal)",
+          "PSNB FY 25-26: £132.0bn (£0.7bn below OBR Spring Forecast)",
+          "PSND: 93.8% of GDP at end-March 2026",
+          "Fiscal headroom: £23.6bn against stability rule (eroding as gilts rise)",
+          "Ratings: Moody's Aa3/stable, S&P AA/stable, Fitch AA-/stable, DBRS AA/stable",
+          "DMO 2025-26 gilt issuance: £231.9bn auction + £10bn green"
+        ],
+        "what_is_priced": "The market is partially pricing fiscal stress (30Y yield at 1998 highs is the mechanism) but not pricing a full Truss-2022 crisis (sterling has not collapsed alongside gilts; 30Y rise has been gradual rather than disorderly). Tactical edge: any further 30Y move above 5.85% combined with sterling weakness flips the regime to 'fiscal stress' and overwhelms rate-differential support. Probability ~20% over 2-4 weeks.",
+        "citations": [13, 14, 37, 43, 51, 52]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 65,
+        "analysis": "Strategic fiscal risk is the dominant tail risk for GBP - and Factor 8 carries a higher strategic weight (0.07) than tactical (0.04) because the Autumn Budget is the binary event. The October/November fiscal event will determine whether Reeves's fiscal framework holds or fragments. Pre-conditions for fiscal credibility shock are all in place: (a) eroded headroom (£23.6bn nominally; ~£10bn after gilt-yield erosion), (b) growth softening (OBR 1.1% likely too high; Q3 GDP risk +0.2% QoQ), (c) Iran-shock revenue impact (slower growth = lower tax revenue; energy support may be reactivated), (d) political pressure post-7 May municipal losses, (e) opposition gains from Reform UK polling impact. The 2022 mini-Budget template is the template: if the budget is perceived as fiscally irresponsible, gilts repeat the 2022 crash, BoE is forced into emergency intervention, GBP collapses 5-10% over 1-2 weeks. Even without a full crisis, the Autumn Budget creates a fiscal premium in gilts that lasts until clarity is restored. UK 5Y CDS would widen sharply in either scenario. Sovereign ratings pressure: Moody's Aa3 stable could move to negative outlook; the most exposed agency is DBRS (AA stable). The strategic GBP read is that even the 'good' outcomes (orthodox budget, modest tightening) leave fiscal headroom looking thin and gilt term-premia elevated through 2026. The strategic flow consequence: foreign gilt holders (~25-30%) reduce allocations on credibility doubts, draining the portfolio-channel GBP support.",
+        "key_data_points": [
+          "Autumn Budget timing: late October/early November 2026",
+          "Fiscal headroom: £23.6bn nominal, ~£10bn after gilt-yield erosion",
+          "30Y gilt 5.74% well above OBR Spring Forecast assumption ~4.6% - fiscal slippage baked in",
+          "Reeves polling pressure: Labour municipal losses 7 May",
+          "2022 mini-Budget template: ~10% Cable drop in 5 days, 30Y gilt +120bp in 1 week",
+          "Foreign gilt holdings ~£700bn - material flow risk if credibility wobble",
+          "ICAEW Spring 2026 commentary: fiscal headroom 'fragile' against gilt-yield trajectory",
+          "2026 PSNB forecast: ~£105bn (OBR Spring Forecast) - vulnerable to slowdown"
+        ],
+        "what_is_priced": "Markets price the Autumn Budget as orthodox at high probability. Some fiscal premium is in 30Y gilts (yield at 1998 highs). We see asymmetric strategic risk: 70% probability orthodox outcome (consistent with current pricing); 30% probability of fiscal credibility wobble that mechanically delivers GBP weakness. The expected-value bias is GBP-negative.",
+        "citations": [14, 37, 42, 49, 50]
+      },
+      "horizon_split_explanation": "Tactical Bearish (60%) deepens to Strategic Bearish (65%) because the Autumn Budget tail event sits squarely in the strategic horizon (within 1-6 months) while the tactical horizon is dominated by gilt-yield watch rather than a discrete fiscal event. Confidence rises strategically because the data points (foreign holdings, headroom, gilt yields) all point in the same direction at 1-6 month horizon.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Market Structure & Volatility",
+      "factor_number": 9,
+      "tactical_weight": 0.05,
+      "strategic_weight": 0.03,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "analysis": "GBP/USD is range-bound 1.32-1.38 since January 2026, with spot at 1.3534 (mid-range, leaning to the upper half). The 50d MA is near 1.345 and 200d MA near 1.330 - bullishly stacked (50d > 200d) with spot above both, but only marginally. Key resistance: 1.3625 (recent 2-month high), 1.3824 (28 January 2026 high - the structural 2026 ceiling), 1.4000 (psychological). Key support: 1.3500 (round number; recent), 1.3450 (50d MA), 1.3300 (200d MA / cluster of March lows), 1.3237 (14 March 2026 low). EUR/GBP has tested both the 0.8800 ceiling and the 0.8623 floor in 2026 - currently 0.8663 mid-range. The technical regime is therefore range-trading with a mild upward bias, not trend-following. Implied volatility: Specific 1M/3M ATM IV not available in cached publicly-available sources for early May 2026; CME June '26 GBP/USD futures options imply ~8.1%. Saxo OTC 16-17 April snapshot showed GBP/USD 1M ATM IV in the 7.5-8.5% range. IV percentile: ~50th-60th percentile vs 1Y, indicating IV is mid-range - neither cheap to buy nor expensive. RV vs IV: 20-day realised vol approx 9.0% (1.32-1.36 range over 60d), against IV ~8.1% - RV slightly above IV, indicating spot is moving slightly more than options price. 25-delta risk reversal: dealer commentary indicates near-zero or slight call bias. Vol term structure: Backwardated through 21 May CPI / 18 June MPC, indicating event premium.",
+        "key_data_points": [
+          "Spot: 1.3534 (5 May 2026 close); 50d MA ~1.345; 200d MA ~1.330",
+          "Resistance: 1.3625 / 1.3824 / 1.4000",
+          "Support: 1.3500 / 1.3450 (50d) / 1.3300 (200d) / 1.3237",
+          "1M ATM IV (GBP/USD): ~8.1% (CME June '26 options)",
+          "IV percentile (1Y): ~50-60th percentile (mid-range)",
+          "20d RV: ~9.0% (slightly above IV)",
+          "25Δ RR (1M): direction ~flat to slightly call-biased",
+          "Vol term structure: backwardated through 21 May / 18 June"
+        ],
+        "what_is_priced": "Markets price a continuation of the range-trading regime with event premia for CPI and MPC. We assess this as fair. Tactical action implies range-trade strategies (sell range extremes) over breakout strategies; the asymmetric break risk is a dovish CPI surprise plus dovish ECB hawk delay = EUR/GBP rally → Cable cracks higher.",
+        "citations": [1, 6]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "analysis": "Strategically, the market structure question is whether Cable breaks the 1.3824 January high (bullish breakout) or the 1.3300 March low (bearish breakdown). Either move would trigger systematic flows: above 1.38, CTAs and momentum funds add longs; below 1.33, the same flows reverse. The 200d MA at 1.330 is the key trend signal - sustained breaks below historically lead to 4-6% extended moves. Vol term structure tends to flatten over 1-6 months as event premia fade; we expect 3M IV to drift toward 7-8% range absent a fresh Iran-war escalation. Implied vol seasonality: GBP/USD vol typically rises into UK Autumn Budget events; expect IV to bid into October 2026. Strategic structure is unusual because the long-end gilt market (30Y at 5.74%) is structurally signalling fiscal stress that the spot FX market hasn't yet reflected. This gap between bond market signals and FX market behaviour usually closes via FX catching down to bonds rather than bonds catching back up. The strategic signal is therefore that range-trading will eventually break, with the bias toward downside resolution as the bond market signal asserts itself.",
+        "key_data_points": [
+          "Range: 1.3237 to 1.3824 (~440 pip range) - has held since January",
+          "200d MA: ~1.330 - key strategic trend signal",
+          "3M IV: ~7.8% (estimated from term structure)",
+          "Strategic IV: trends with fiscal-event seasonality (rises into Autumn Budget)",
+          "Long-end gilt signal vs FX: divergence at extreme - gilt 30Y / Cable correlation flipped negative",
+          "Volatility regime: low-to-mid IV with backwardation premia",
+          "Realised vol 60d: ~7.5% - expected to rise as event clusters approach",
+          "CTA / momentum trigger levels: 1.38 (bullish) or 1.33 (bearish)"
+        ],
+        "what_is_priced": "Markets price range-bound regime persistence at high probability. We see asymmetric resolution risk: more probable breakdown (gilt-stress catch-down) than breakout (BoE hawkish blowout already largely priced). Strategic GBP downside skew via this channel.",
+        "citations": [1, 6]
+      },
+      "horizon_split_explanation": "Both Neutral but with different rationale: tactically, range-trading regime persistence is the base case (55% confidence); strategically, range break with downside skew (50% confidence). Confidence drops because the strategic break direction depends on multiple factors (Autumn Budget, Hormuz, US recession risk).",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": "Given the vol landscape (IV ~50th percentile, RV slightly above IV, term structure backwardated), the implied actionability is spot expression preferred over options. RV > IV slightly means options are modestly underpricing realised moves, but the variance risk premium is small - direct spot expression captures the fundamental view efficiently. For the bullish tactical view: Long Cable spot with stop below 1.3500. Risk-adjusted upside to 1.3750 over 2-4 weeks is ~150 pips against ~40 pip stop = R:R ~3.7. A 1M call option strike 1.36 costs ~50 pips premium and offers asymmetric upside if Cable breaks 1.3825 - appropriate for high-conviction long-vol expression. For the bearish strategic view: Long EUR/GBP spot 0.866 stop 0.860 target 0.890 - captures fiscal stress / external balance thesis cleanly without DXY noise. Vol structure suggests: sell expensive 1W vol around 21 May CPI date (peaks of backwardation); buy 3M vol if positioning the Autumn Budget tail risk. The cleanest tactical expression is therefore long Cable spot for short-term carry/hawkish-BoE thesis; the cleanest strategic expression is long EUR/GBP spot for fiscal/external-balance thesis."
+    },
+    {
+      "block": "USD Liquidity & Funding",
+      "factor_number": 10,
+      "tactical_weight": 0.11,
+      "strategic_weight": 0.12,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "analysis": "The USD liquidity environment is mid-cycle. SOFR is in line with the Fed funds upper bound 3.75% - no funding stress. The Fed continues QT at the slowed pace of ~$25bn UST/month from May 2024; reserve balances remain ample. RRP usage near low levels. Cross-currency basis swaps: USD/GBP 3M basis not available in publicly cached data, but consistent with low-stress regimes (typically ±5bp range). US Treasury yields: 2Y 3.88%; 10Y 4.45% (rose post-Hormuz attack on 4 May); 30Y 4.97%. The Fed held 3.50-3.75% on 29 April with an 8-4 split - three hawks (Hammack, Kashkari, Logan) opposing retention of easing bias and Miran wanting a 25bp cut. Powell's last meeting before 15 May term-end with Warsh nominated as successor (Senate Banking Committee advanced nomination 29 April) - this transition introduces a hawkish tail risk for USD. Globally, the Iran-war keeps USD as the primary safe-haven on Hormuz reflare days but the USD has not surged decisively because the rate-differential channel has been moving against it (UK and EZ rates repricing higher faster than US rates). Net USD strength has been muted - DXY ~98 - which is consistent with the dollar smile being in the middle (neither risk-off nor goldilocks). For GBP specifically, the USD positioning is a wash: stable global liquidity is GBP-supportive at the margin, but USD safe-haven activation on Hormuz tail is GBP-bearish. We assess these offset roughly.",
+        "key_data_points": [
+          "Fed funds: 3.50-3.75%; held 29 April 2026 (8-4 vote)",
+          "2Y UST: 3.88%; 10Y UST: 4.45%; 30Y UST: 4.97%",
+          "SOFR ≈ Fed funds upper bound, no dislocations",
+          "Powell term ends 15 May; Warsh successor nomination advanced 29 April",
+          "DXY: ~98.13 (5 May), rangebound 97-99",
+          "Fed balance sheet: QT continuing at $25bn/month UST pace",
+          "USD/GBP 3M cross-currency basis: typically ±5bp in normal regimes",
+          "Fed dot plot Mar 2026: median fed funds end-26 ~3.4%"
+        ],
+        "what_is_priced": "Markets price the Fed as on hold through the Warsh transition and beyond - neither cutting nor hiking. We agree with this assessment. The tactical USD liquidity factor is therefore close to neutral for GBP, with asymmetric downside on Hormuz tail risk activating dollar-smile safe-haven flows.",
+        "citations": [22, 53, 54]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "analysis": "The strategic USD picture is more nuanced because of the Powell-to-Warsh transition. Warsh has historically been more hawkish than the FOMC median, which could shift the trajectory of US rates upward at the strategic horizon. If Warsh delivers even one 25bp hike in 2026, the rate-differential channel reverses sharply - UK-US 10Y spread compresses from +65bp toward zero, removing a key tactical Cable support. The MAS tightening on 14 April (S$NEER slope steepened, first since 2022) is also a global-tightening signal that could spill into broader Asian USD demand. Conversely, if Warsh adopts a Hammack-Logan-Kashkari-style 'hold tight' stance, USD liquidity remains ample and GBP carry support persists. Strategic flow read: Fed balance sheet still in QT; reserves not yet at 'minimum comfortable' - provides 6-12 months runway before liquidity becomes a stress factor. Year-end USD demand seasonality could create a December USD bid that mechanically weakens GBP/USD by 1-2%. Cross-currency basis swaps tend to widen into year-end - expect 3M USD/GBP basis to drift to -5 to -10bp by late Q4. Net strategic USD liquidity for GBP: roughly neutral with asymmetric downside on a Warsh hawkish surprise.",
+        "key_data_points": [
+          "Warsh nomination: advanced through Senate Banking Committee 29 April 2026",
+          "Warsh historical bias: more hawkish than FOMC median",
+          "MAS tightening 14 April: first since 2022 - global tightening signal",
+          "Fed reserve balances: ample but trending down",
+          "Year-end USD demand: typical 1-2% DXY rise into December",
+          "Cross-currency basis seasonality: widens into year-end",
+          "US fiscal premium in long bonds: persistent (US debt-service trajectory)",
+          "Forward DXY consensus: range-bound 96-100 through 2026"
+        ],
+        "what_is_priced": "Markets price Warsh as roughly continuity - same Fed reaction function. We see asymmetric risk: 30% probability of a Warsh hawkish surprise that compresses UK-US spread by 30+ bp over 3-6 months. This is a strategic GBP-negative risk that is currently underpriced.",
+        "citations": [22, 55]
+      },
+      "horizon_split_explanation": "Both Neutral with similar confidence (50%). The tactical USD environment is mostly resolved (Powell + Warsh transition orderly through May); strategic uncertainty rises as Warsh's reaction function reveals itself in June and July decisions. The factor is roughly horizon-symmetric in expected impact.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    }
+  ],
+
+  "synthesis": {
+    "tactical": {
+      "net_stance": "Bullish",
+      "conviction": 2,
+      "overall_confidence": 58,
+      "weighted_score": {
+        "calculation": [
+          {"factor": "Policy & Rates", "stance_score": 1, "confidence_pct": 65, "confidence_adjusted_score": 0.65, "weight": 0.24, "weighted_contribution": 0.156},
+          {"factor": "Inflation & Growth", "stance_score": 1, "confidence_pct": 65, "confidence_adjusted_score": 0.65, "weight": 0.18, "weighted_contribution": 0.117},
+          {"factor": "Risk Appetite", "stance_score": 0, "confidence_pct": 55, "confidence_adjusted_score": 0.0, "weight": 0.10, "weighted_contribution": 0.0},
+          {"factor": "Flows & Positioning", "stance_score": 1, "confidence_pct": 55, "confidence_adjusted_score": 0.55, "weight": 0.10, "weighted_contribution": 0.055},
+          {"factor": "External Balance", "stance_score": -1, "confidence_pct": 60, "confidence_adjusted_score": -0.60, "weight": 0.06, "weighted_contribution": -0.036},
+          {"factor": "Guidance & Credibility", "stance_score": 1, "confidence_pct": 60, "confidence_adjusted_score": 0.60, "weight": 0.07, "weighted_contribution": 0.042},
+          {"factor": "Event Risk", "stance_score": 0, "confidence_pct": 60, "confidence_adjusted_score": 0.0, "weight": 0.05, "weighted_contribution": 0.0},
+          {"factor": "Fiscal & Sovereign", "stance_score": -1, "confidence_pct": 60, "confidence_adjusted_score": -0.60, "weight": 0.04, "weighted_contribution": -0.024},
+          {"factor": "Market Structure", "stance_score": 0, "confidence_pct": 55, "confidence_adjusted_score": 0.0, "weight": 0.05, "weighted_contribution": 0.0},
+          {"factor": "USD Liquidity", "stance_score": 0, "confidence_pct": 50, "confidence_adjusted_score": 0.0, "weight": 0.11, "weighted_contribution": 0.0}
+        ],
+        "net_score": 0.310,
+        "interpretation": "A net score of +0.310 maps to a Bullish stance with low-to-moderate conviction (Conviction 2/5). Four bullish factors (Policy, Inflation, Flows, Guidance) at moderate-to-high confidence outweigh two bearish (External Balance, Fiscal) and four neutral. Critically, the bullish factors include the two highest-weighted factors (Policy 0.24, Inflation 0.18), which mechanically dominates. The score does not reach the +0.40+ threshold for higher conviction because the bearish factors are non-trivial.",
+        "mapping_to_conviction": "Scores +0.20 to +0.40 = Conviction 2 (low-to-moderate Bullish). Confidence 58% reflects that the tactical thesis depends on data going one specific way (April CPI ≥3.5%, no Hormuz reblockade, Ofgem cap >£1,950). Each is more likely than not but none are certain."
+      },
+      "rationale": "The tactical GBP picture is dominated by hawkish-BoE repricing meeting an asset-manager-short squeeze potential. The two highest-weighted factors (Policy & Rates 0.24 contribution +0.156; Inflation & Growth 0.18 contribution +0.117) are both clearly bullish at moderate-high confidence: BoE delivered a hawkish 8-1 hold with Pill dissenting for a hike, gilt yields at multi-year highs, and the OIS curve pricing 50% probability of a June hike with 2-3 hikes by year-end. Inflation came in hot at 3.3% headline / 4.5% services, with first-month post-Hormuz pass-through suggesting upside risk to the 21 May April CPI print. These two factors alone deliver +0.273 of weighted contribution, sufficient to drive a Bullish call. The Flows & Positioning factor adds +0.055 via the asset-manager net short at -94K (deep end of 1Y range; squeezable if Cable breaks 1.38). Guidance & Credibility adds +0.042 via Bailey's 'active hold' framing and the BoE's three-scenario MPR. Offsetting these: External Balance (-0.036) and Fiscal Sovereign (-0.024) point to longer-term structural pressure but their tactical weight is low. The path of least resistance is therefore upward in Cable toward 1.3750-1.3825 over 2-4 weeks, but with an absolute ceiling at the January high (1.3824) absent a clean hawkish surprise. Key catalysts: 7 May municipal elections (modest GBP-negative risk if Labour collapses); 13 May labour data; 21 May April CPI (dominant); 27 May Ofgem cap; 18 June BoE MPC. Conviction is held at 2/5 because the bearish factors carry strategic weight and could flip the regime quickly - a sustained 30Y gilt move above 5.85% with sterling falling concurrently would signal regime change to fiscal stress, overwhelming the rate-differential support. Actionability is good: long Cable spot 1.3500-1.3550 with stop 1.3450, target 1.3750-1.3825, R:R ~3:1.",
+      "g10_ranking": {
+        "rank": 4,
+        "out_of": 11,
+        "beats": ["USD", "EUR", "JPY", "CAD", "NZD", "SEK", "NOK"],
+        "loses_to": ["AUD", "CHF", "SGD"],
+        "commentary": "At Rank 4, GBP sits above all major peers except the three currencies that have either hiked recently (AUD, MAS) or are structurally cheap (CHF). The opportunity set within G10+SGD favours bilateral expressions vs USD/EUR/JPY (clearly bullish GBP) over expressions vs AUD/CHF/SGD (mixed)."
+      },
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "outcome": "Cable grinds to 1.3650-1.3750 over 2-4 weeks, EUR/GBP drops to 0.860-0.864",
+          "conditions": [
+            "April CPI ≥3.4% (21 May)",
+            "Ofgem Q3 cap announced ≥£1,930 (27 May)",
+            "No Hormuz reblockade",
+            "BoE MPC delivers hawkish hold"
+          ],
+          "path": "Choppy with Iran-headline-driven dips, but underlying rate-differential support carries the rally."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "outcome": "Cable breaks 1.3825 to 1.40, EUR/GBP to 0.850",
+          "conditions": [
+            "April CPI ≥3.6% (hot print)",
+            "Second BoE MPC dissenter joins Pill in May speeches",
+            "Asset-manager short squeeze accelerates above 1.38"
+          ]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "outcome": "Cable to 1.33-1.34, EUR/GBP to 0.880+",
+          "conditions": [
+            "Hormuz reblockade (~25% probability) → DXY rallies 3-5% on safe-haven flows",
+            "OR April CPI ≤3.1% softens BoE hawkish bias",
+            "OR Labour municipal election collapse triggers fiscal credibility wobble"
+          ]
+        }
+      },
+      "path_expectation": "Cable likely sees a brief dip/consolidation around 7 May (municipal elections noise) before re-pricing higher into the 13 May labour and 21 May CPI prints. The shape is grind with Iran-headline volatility - not a clean trend. Pullbacks to 1.3500 area should hold; deeper pullbacks toward 1.3450 (50d MA) are buy zones in the bullish base case. The 21 May CPI is the dominant binary; a hot print accelerates the move toward the 1.3825 January high; a soft print sees Cable retreat to 1.34-1.35 range bottom. Volatility expected to rise into 21 May with backwardated vol term structure - long short-dated options around the print is reasonable expression. By the 18 June MPC, Cable likely consolidates at the upper end of the range or breaks higher if the BoE's hawkish framework holds.",
+      "conviction_ladder": {
+        "current": 2,
+        "increase_to_5_if": [
+          "April CPI ≥3.5% AND Ofgem cap ≥£1,950 AND no Hormuz reblockade",
+          "PLUS second BoE dissenter joining Pill in pre-MPC speeches"
+        ],
+        "increase_to_4_if": [
+          "April CPI ≥3.5% AND Ofgem cap ≥£1,950 AND no Hormuz reblockade",
+          "Asset-manager net short widens further past -100K with Cable holding above 1.36"
+        ],
+        "decrease_to_3_if": [
+          "April CPI prints in line at 3.3-3.4% (no upward surprise)",
+          "BoE June MPC delivers dovish hold (no further dissenters)"
+        ],
+        "decrease_to_2_if": [
+          "Mixed data flow (CPI in-line, Ofgem at low end of forecasts)",
+          "Iran-war noise but no escalation"
+        ],
+        "decrease_to_1_if": [
+          "April CPI prints ≤3.1%",
+          "Labour municipal collapse triggers fiscal wobble (30Y gilt > 5.85% with sterling falling)"
+        ]
+      },
+      "risk_reward": {
+        "base_case_payoff": "+200 pips (+1.5%) to 1.3750",
+        "downside_case_loss": "-200 pips (-1.5%) to 1.33 area",
+        "risk_reward_ratio": "1:1 raw, but with positive expected value due to upside fat tail (probability-weighted +1.30%)",
+        "asymmetry_assessment": "Mildly positive - the upside case (asset-manager squeeze + hawkish CPI) has +500 pip potential, while downside (Hormuz reblockade) has roughly symmetric 200-400 pip potential. The asymmetry favours longs, but is not extreme."
+      }
+    },
+    "strategic": {
+      "net_stance": "Neutral",
+      "conviction": 2,
+      "overall_confidence": 50,
+      "weighted_score": {
+        "calculation": [
+          {"factor": "Policy & Rates", "stance_score": 0, "confidence_pct": 50, "confidence_adjusted_score": 0.0, "weight": 0.24, "weighted_contribution": 0.0},
+          {"factor": "Inflation & Growth", "stance_score": -1, "confidence_pct": 60, "confidence_adjusted_score": -0.60, "weight": 0.10, "weighted_contribution": -0.060},
+          {"factor": "Risk Appetite", "stance_score": 0, "confidence_pct": 50, "confidence_adjusted_score": 0.0, "weight": 0.05, "weighted_contribution": 0.0},
+          {"factor": "Flows & Positioning", "stance_score": 0, "confidence_pct": 45, "confidence_adjusted_score": 0.0, "weight": 0.06, "weighted_contribution": 0.0},
+          {"factor": "External Balance", "stance_score": -1, "confidence_pct": 70, "confidence_adjusted_score": -0.70, "weight": 0.16, "weighted_contribution": -0.112},
+          {"factor": "Guidance & Credibility", "stance_score": 0, "confidence_pct": 50, "confidence_adjusted_score": 0.0, "weight": 0.12, "weighted_contribution": 0.0},
+          {"factor": "Event Risk", "stance_score": -1, "confidence_pct": 55, "confidence_adjusted_score": -0.55, "weight": 0.05, "weighted_contribution": -0.028},
+          {"factor": "Fiscal & Sovereign", "stance_score": -1, "confidence_pct": 65, "confidence_adjusted_score": -0.65, "weight": 0.07, "weighted_contribution": -0.046},
+          {"factor": "Market Structure", "stance_score": 0, "confidence_pct": 50, "confidence_adjusted_score": 0.0, "weight": 0.03, "weighted_contribution": 0.0},
+          {"factor": "USD Liquidity", "stance_score": 0, "confidence_pct": 50, "confidence_adjusted_score": 0.0, "weight": 0.12, "weighted_contribution": 0.0}
+        ],
+        "net_score": -0.246,
+        "interpretation": "A net score of -0.246 sits in the Conviction 2 (Bearish, low) range. Four bearish factors and six neutral. Critically, the External Balance factor at 0.16 strategic weight delivers -0.112 - by far the largest single contribution, driven by the Iran-war terms-of-trade shock crystallising in Q1/Q2 C/A data and the Q3 Ofgem cap. Fiscal & Sovereign adds -0.046 via Autumn Budget tail risk. The neutrals on Policy & Rates (0.24 weight) and USD Liquidity (0.12) prevent a stronger bearish read - the carry support is genuine but exhausted at strategic horizons, while USD liquidity is roughly balanced. Despite a modestly bearish weighted score, Net Stance set to Neutral with bearish skew given the high dispersion of strategic outcomes and the magnitude of the Policy/USD neutrals.",
+        "mapping_to_conviction": "Scores -0.15 to -0.35 = Conviction 2 (Bearish, low). Confidence 50% reflects the wide dispersion of strategic outcomes - base case is Scenarios A/B (Bearish-mild GBP); downside case is Scenario C (Bearish-severe); upside case is Hormuz quick-resolution + orthodox Autumn Budget (Bullish-modest). Forecast dispersion is wide."
+      },
+      "rationale": "The strategic GBP picture is dominated by structural fiscal-external balance vulnerabilities meeting a transient hawkish-BoE cycle. The framework's strategic factor weights re-balance the tactical picture: Policy & Rates retains its 0.24 weight but my strategic stance flips to Neutral because the BoE hawkish cycle has limited room to widen further (terminal Bank Rate priced at 4.00-4.25% already). The dominant strategic factor becomes External Balance & Terms of Trade (0.16 weight), which is unambiguously GBP-bearish: the Iran-war energy-import shock is just beginning to crystallise in C/A data, with the Q1 C/A print (release 30 June 2026) likely to show further widening, and the Q3 Ofgem cap (announcement 27 May, effective 1 July) mechanically pumping ~+20% household energy bill increases that hit retail and services through Q3. Fiscal & Sovereign Risk (0.07 weight) adds another -0.046 contribution: 30Y gilt yields at 1998 highs are signalling fiscal credibility stress that the Autumn Budget could either resolve (tighter fiscal stance) or amplify (Truss-style mini-Budget redux). Inflation & Growth at the strategic horizon is Bearish, not Bullish - the inflation shock hits growth via household-spending compression, leading to weaker GDP and ultimately forcing the BoE to cut. Event Risk is Bearish at the strategic horizon because the Autumn Budget tail dominates. The path of least resistance is therefore Cable drift lower into Q3, with EUR/GBP grinding higher toward 0.880-0.890 as the European-relative carry advantage compresses while UK fundamentals deteriorate. Conviction is held at 2/5 because the bearish thesis depends on multi-month data-flow that has not yet materialised; Cable could easily hold its 1.33-1.38 range through summer if the energy shock fades and Reeves delivers an orthodox Autumn Budget. Actionability is moderate: long EUR/GBP from 0.866 with stop 0.860 target 0.890 has 2:1 R:R; short Cable from 1.36 with stop 1.385 target 1.32 has 1.7:1 R:R. The cleaner expression is EUR/GBP because it strips out USD-side noise (Warsh transition, Iran USD safe-haven flows).",
+      "g10_ranking": {
+        "rank": 7,
+        "out_of": 11,
+        "beats": ["NZD", "SEK", "NOK"],
+        "loses_to": ["USD", "EUR", "CHF", "JPY", "AUD", "CAD", "SGD"],
+        "commentary": "The strategic environment is unfavourable for GBP versus most major peers because the Iran-war energy shock hits UK terms-of-trade harder than most other G10 economies, while UK-specific fiscal credibility risk creates left-tail exposure that other currencies don't share. EUR/GBP, USD/GBP shorts, and CHF/GBP shorts are the cleanest strategic expressions; commodity bloc strength (AUD, CAD post-oil) complements."
+      },
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "outcome": "Cable drifts to 1.32-1.34 by end-Q3, EUR/GBP to 0.880-0.890",
+          "conditions": [
+            "BoE delivers 25-50bp hike(s) through August, then holds",
+            "Iran war stabilises; Q3 Ofgem cap +20%",
+            "UK Q3 GDP softens to +0.2% QoQ; Autumn Budget orthodox but tight",
+            "Consistent with Scenarios A/B of BoE MPR"
+          ],
+          "path": "Range-bound through May-June, then break lower August-September on combined data flow; consolidation into Autumn Budget."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "outcome": "Cable holds 1.36-1.40 range, EUR/GBP to 0.84",
+          "conditions": [
+            "Hormuz fully reopens by end-June (Goldman base case)",
+            "Orthodox Autumn Budget",
+            "UK Q3 GDP holds positive at +0.4% QoQ"
+          ]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "outcome": "Cable to 1.25-1.30, EUR/GBP to 0.92-0.95",
+          "conditions": [
+            "Hormuz reblockade extends into Q3 (BoE Scenario C activates)",
+            "OR Autumn Budget triggers mini-Budget redux fiscal credibility shock",
+            "OR Reeves replaced post-municipal-election losses"
+          ]
+        }
+      },
+      "path_expectation": "The strategic path is likely grind lower with sharp negative shocks rather than a smooth trend. May-June 2026: Cable holds tactical range 1.32-1.38 supported by carry; Q3 gilt yields, Ofgem cap, and growth softening compound bearish pressure (June-August). Late August/September: Cable breaks below 1.33 200d MA; CTA flows accelerate the move; first move to 1.30 by mid-September. October/November: Autumn Budget creates either relief (Cable bounces to 1.32-1.34) or further breakdown (toward 1.28-1.30). The pattern is 'grind-then-spike' rather than 'V-bottom.' Volatility profile: low-to-mid through summer, rising materially into August MPC and October Autumn Budget. Pullback levels in the bearish path: 1.345 (50d), 1.350 (round), 1.36 if relief rallies emerge.",
+      "conviction_ladder": {
+        "current": 2,
+        "increase_to_5_if": [
+          "Q1 C/A print (30 June) shows >3% GDP deficit AND Ofgem Q3 cap >£2,000",
+          "PLUS 30Y gilt sustains above 5.85% with sterling falling (regime change to fiscal stress)"
+        ],
+        "increase_to_4_if": [
+          "Q1 C/A print shows >3% GDP deficit AND Ofgem cap >£2,000",
+          "Reeves under fiscal-credibility pressure pre-Autumn Budget"
+        ],
+        "decrease_to_3_if": [
+          "Hormuz partially reopens by end-June",
+          "Q3 GDP holds +0.3% QoQ"
+        ],
+        "decrease_to_2_if": [
+          "Mixed data: some relief on energy, some fiscal pressure",
+          "Cable holds tactical range 1.33-1.38 through summer"
+        ],
+        "decrease_to_1_if": [
+          "Hormuz fully reopens by end-June + orthodox Autumn Budget + Q3 GDP holds +0.3%+ QoQ",
+          "Sustained BoE 4.00% Bank Rate locking in carry advantage"
+        ]
+      },
+      "risk_reward": {
+        "base_case_payoff": "+200 to +400 pips (+1.5% to +3.0%) toward 1.32-1.34 (Cable shorts); EUR/GBP +200-300 pips to 0.89",
+        "downside_case_loss": "-400 to -500 pips if Cable rallies to 1.40 in upside scenario; EUR/GBP -150 to -250 pips to 0.84",
+        "risk_reward_ratio": "1:1 raw on Cable shorts, but EUR/GBP long expression delivers 2:1 R:R given asymmetric Scenario C tail (+5-8% on EUR/GBP long vs +3-4% upside risk)",
+        "asymmetry_assessment": "Modestly positive for short-GBP. The strategic risk-reward is more compelling on EUR/GBP long than Cable short because EUR/GBP strips the volatile DXY/Warsh component. Fat-tail downside in Scenario C delivers +5-8% on EUR/GBP long, while upside risk caps at +3-4%."
+      }
+    },
+
+    "consensus_divergence": {
+      "consensus_view": "GBP/USD year-end 2026 consensus: 1.36-1.40 (J.P. Morgan 1.36; Goldman 1.36; Morgan Stanley 1.47 - most bullish; range 1.33-1.47, median 1.37). EUR/GBP year-end 2026 consensus: 0.88-0.90 (MUFG, HSBC, ING/Danske); Barclays outlier at 0.85. Most banks see 'BoE cuts in late 2026 to ~3.25-3.50%, GBP/USD modestly higher on Fed cuts.'",
+      "our_view": "Tactical (4-week): GBP/USD 1.36-1.38 base case (mildly above consensus near-term). Strategic (6-month): GBP/USD 1.32-1.36 base case (below 1.36-1.40 consensus); EUR/GBP 0.880-0.890 (in line with consensus on EUR/GBP but with bearish skew to 0.92 in Scenario C).",
+      "divergence_magnitude": "Strategic: 4-6 figures below consensus on Cable; in line on EUR/GBP but with thicker left tail. Tactically: 1-2 figures above consensus.",
+      "why_we_differ": "Consensus underweights the External Balance & Terms of Trade factor - the Iran-war energy import shock is a persistent drag on UK current account and household spending that gets priced into GBP over Q3 rather than tactically. Consensus also underweights the Autumn Budget tail risk: with £23.6bn fiscal headroom eroded by gilt-yield surge, the probability of a fiscal-credibility wobble is higher than the 2022-redux distance suggests. Most banks have anchored their forecasts on the assumption that the BoE will follow the Fed in cuts late-26 - but the BoE's three-scenario MPR explicitly contemplates Scenario C where rates need to be 'materially higher.' Banks also under-price the persistence of the energy shock in UK CPI through Q4 via Ofgem pass-through.",
+      "payoff_if_right": "Long EUR/GBP from 0.866 to 0.89 over 3-6 months delivers ~+2.7%; combined with carry pickup of ~-1.0%, net total return ~+1.7%. Short Cable from 1.36 to 1.32 delivers ~+2.9%; net of ~+0.4% USD funding cost = ~+2.5% total.",
+      "risk_if_wrong": "Long EUR/GBP from 0.866 to 0.85 = -1.8%; short Cable from 1.36 to 1.40 = -2.9%. Either way, position-size discipline is critical."
+    },
+
+    "cross_currency_relative_value": {
+      "cleanest_bullish_expression": {
+        "pair": "GBP/USD (Long Cable)",
+        "rationale": "Captures the BoE-Fed rate-differential channel cleanly. Spot 1.3534, target 1.3750, stop 1.3450, R:R ~3:1. Tactical horizon: rate-differential + asset-manager-short squeeze potential."
+      },
+      "cleanest_bearish_expression": {
+        "pair": "EUR/GBP (Long EUR/GBP)",
+        "rationale": "Captures fiscal/external-balance/credibility thesis without the Warsh/USD distortion. Spot 0.866, target 0.89, stop 0.860, R:R ~4:1. Strategic horizon: external-balance and fiscal credibility deterioration."
+      },
+      "relative_value_pairs": [
+        {"pair": "Long GBP/JPY pullback", "thesis": "High carry, BoJ slowly hawking (hike risk modest), Iran-war keeps energy flows complicated for JPY. Useful as carry-overlay through May-July."},
+        {"pair": "Long GBP/CHF on rebound", "thesis": "Extreme carry-to-vol ratio (0.54), CHF expensive vs PPP, SNB at zero bound. The cross is probably the best risk-adjusted carry trade in G10."},
+        {"pair": "Short GBP/CAD if oil rallies sustained", "thesis": "Petro-currency tailwind to CAD against deteriorating UK terms of trade. R:R 2:1 if Brent >$120 sustained."}
+      ]
+    },
+
+    "cross_horizon_consistency": {
+      "aligned": false,
+      "summary": "Tactical Bullish (+0.310) flips to Strategic Neutral-Bearish (-0.246). This is a divergence, not alignment - a horizon-aligned barbell trade structure.",
+      "divergence_explanation": "Tactically (2-4 weeks), rate-differential channel dominates with carry support from hawkish BoE pricing. Strategically (1-6 months), the rate channel exhausts as BoE hits terminal while External Balance and Fiscal channels compound, and growth deteriorates. Different factors dominate at different horizons, producing genuinely opposed signals.",
+      "inflection_point": "Late July to early August 2026, around the August MPC. By that meeting: BoE will have had two more CPI prints (May 21 and June), Q1 C/A data will have released (30 June), Q3 Ofgem cap effective 1 July, Q3 GDP first month data, and Reeves's Autumn Budget signals will start to crystallise.",
+      "catalyst_for_transition": "The August BoE MPC. If the BoE delivers a 25bp hike then signals 'no more,' the rate-differential support begins to fade and the bearish strategic factors take over.",
+      "trading_implication": "Rotate the position structure between tactical and strategic horizons. Hold tactical Cable longs through May-June (target 1.3750-1.3825). Then around mid-July, rotate to strategic short Cable / long EUR/GBP. Avoid trying to capture both with a single position structure."
+    },
+
+    "forward_vs_spot": {
+      "spot": "GBP/USD 1.3534 (5 May 2026 close)",
+      "forwards": {
+        "1m": {"points": "+14 pips", "outright": "1.3548", "annualised_pct": "+1.2% (GBP appreciating in forwards)"},
+        "3m": {"points": "+42 pips", "outright": "1.3576", "annualised_pct": "+1.2% (GBP appreciating in forwards)"},
+        "6m": {"points": "+77 pips", "outright": "1.3611", "annualised_pct": "+1.1% (GBP appreciating in forwards)"}
+      },
+      "expected_spot": {
+        "1m": "1.3650",
+        "3m": "1.3500",
+        "6m": "1.3300"
+      },
+      "edge": {
+        "1m": "+102 pips (forward implies 1.3548, we expect 1.3650) - bullish edge tactical",
+        "3m": "-76 pips (forward implies 1.3576, we expect 1.3500) - bearish edge bridging tactical/strategic",
+        "6m": "-311 pips (forward implies 1.3611, we expect 1.3300) - largest available signal: forwards pricing +75 pip appreciation while we expect ~-250 pip depreciation"
+      },
+      "interpretation": "GBP/USD forwards imply ~1.1-1.2% annualised appreciation due to higher BoE rates vs Fed funds. Tactically, we have +102 pip edge long Cable spot - buy spot, the carry from forwards is additional alpha. Strategically, the 6M edge of -311 pips is the largest available signal: forwards are pricing roughly +75 pips appreciation while we expect roughly -250 pips depreciation. EUR/GBP forwards similarly: 6M EUR/GBP edge of +223 pips is the cleanest strategic expression of the bearish-GBP thesis - fade the forward depreciation, position for EUR/GBP back toward 0.88+. Net opportunity ~3% over 6 months on Cable shorts; +2.7% on EUR/GBP longs."
+    }
+  },
+
+  "forward_looking": {
+    "key_catalysts": [
+      {"date": "2026-05-07", "event": "UK Municipal Elections", "expected_impact": "Ambiguous", "rationale": "Britain Elects forecasts cited in New Statesman project Labour 'may lose two-thirds of its councillors' - characterised as 'the most significant setback yet for Keir Starmer's premiership.' A bad result puts Reeves's fiscal stance under political pressure but doesn't directly mandate fiscal policy change. Mild GBP-bearish risk if Labour collapse spills into fiscal credibility.", "priced_in": "Partially (gilt term premium reflects political-risk premium) - but spot GBP not pricing fiscal-credibility wobble", "bilateral_relevance": "GBP/USD, EUR/GBP (UK political risk premium)", "citations": [49]},
+      {"date": "2026-05-09", "event": "Halifax House Price Index April 2026", "expected_impact": "Neutral", "rationale": "Halifax HPI March print showed prices -0.5% MoM, +0.8% YoY (slowing) - a continued slowdown reinforces the demand-cooling thesis; a rebound counters it. Lower-tier datapoint with limited GBP impact unless an extreme outlier.", "priced_in": "Mostly priced", "bilateral_relevance": "GBP/USD (modest)", "citations": [59]},
+      {"date": "2026-05-13", "event": "UK Labour Market Overview (Mar-Apr earnings, Apr PAYE)", "expected_impact": "Ambiguous", "rationale": "BoE focuses on private-sector regular pay. Latest reading 3.6% YoY (Dec 25-Feb 26 print). A reacceleration above 3.7% reinforces wage-price-spiral concerns and pushes June BoE hike probability higher. Bullish for GBP if AWE regular pay ≥3.7% YoY; Bearish if ≤3.3%.", "priced_in": "~50% probability of in-line print at ~3.6%; modest reaction to surprise", "bilateral_relevance": "GBP/USD, EUR/GBP", "citations": [29]},
+      {"date": "2026-05-15", "event": "UK GDP Q1 2026 First Estimate + Monthly GDP March", "expected_impact": "Ambiguous", "rationale": "Q1 first estimate dominates; BoE-relevant on the demand-side of the stagflation dilemma. Strong Q1 reinforces BoE's 'active hold' framework; weak Q1 forces dovish reassessment. Bullish for GBP if Q1 ≥+0.4% QoQ; Bearish if ≤+0.2%.", "priced_in": "Consensus ~+0.3% QoQ", "bilateral_relevance": "GBP/USD, EUR/GBP, FTSE 250", "citations": [31]},
+      {"date": "2026-05-21", "event": "UK CPI April 2026 (DOMINANT)", "expected_impact": "Ambiguous", "rationale": "First full month of post-Hormuz energy-price pass-through. Petrol prices rose 14p/L (10%) and diesel 29p/L (20%) between 27 Feb and 23 March 2026 (House of Commons Library CBP-10601, RAC Foundation 23 March 2026); April will capture full effect. Hot print pushes June BoE hike probability above 70%. Bullish for GBP if headline ≥3.5% / services ≥4.6%; Bearish if headline ≤3.1%.", "priced_in": "~3.4-3.5% headline expected; small surprise margin in either direction", "bilateral_relevance": "GBP/USD primary; EUR/GBP secondary", "citations": [27, 36]},
+      {"date": "2026-05-22", "event": "UK Public Sector Net Borrowing April 2026", "expected_impact": "Bearish", "rationale": "PSNB FY 25-26 closed £132bn (£0.7bn below OBR forecast). Any April overshoot starts the new fiscal year on a worrying note - feeds into Autumn Budget headroom calculus. Mild Bearish risk (any large overshoot signals fiscal strain).", "priced_in": "Mostly priced", "bilateral_relevance": "GBP/USD, EUR/GBP", "citations": [51]},
+      {"date": "2026-05-23", "event": "UK Retail Sales April 2026", "expected_impact": "Bearish", "rationale": "April 2026 is the first month of post-Hormuz petrol-price pass-through hitting consumer wallets. Retail sales weakness would confirm consumer-spending crunch. Bearish for GBP if volumes ≤0% MoM.", "priced_in": "Mostly priced", "bilateral_relevance": "GBP/USD, FTSE 250", "citations": [60]},
+      {"date": "2026-05-27", "event": "Ofgem Q3 2026 Energy Price Cap Announcement", "expected_impact": "Bearish", "rationale": "Q3 cap effective 1 July 2026. Forecasts: Cornwall Insight £1,972, EDF £1,937, E.ON £1,955 - implies +£330 (+20%) on current £1,641. The mechanical CPI impact hits October print; the household-spending impact hits immediately. Bearish for GBP if cap >£1,950 (locks in ~+20% household energy bills).", "priced_in": "Forecasts widely circulated; cap >£2,000 would surprise hawkish (BoE response) but bearish for households", "bilateral_relevance": "GBP/USD, EUR/GBP, FTSE 250", "citations": [38]},
+      {"date": "2026-05-28", "event": "RBNZ May OCR Decision", "expected_impact": "Neutral", "rationale": "RBNZ on hold at 2.25% with inflation pickup risks. Hawkish signal supports NZD vs GBP marginally. Neutral for GBP directly; ambiguous via NZD cross.", "priced_in": "Held expected", "bilateral_relevance": "GBP/NZD", "citations": [9]},
+      {"date": "2026-06-11", "event": "ECB Governing Council Meeting", "expected_impact": "Bearish", "rationale": "ECB hawks reportedly debated a hike at the 30 April meeting; June is the next decision point. Lagarde said officials 'debated options including interest-rate hike.' Bearish for GBP/EUR cross if ECB hikes (delivers EUR support).", "priced_in": "~30% probability of June hike priced; full hike would be hawkish surprise", "bilateral_relevance": "EUR/GBP - directly impacts the cross", "citations": [23]},
+      {"date": "2026-06-17", "event": "FOMC Meeting (Warsh Era)", "expected_impact": "Ambiguous", "rationale": "Powell's term ends 15 May; Warsh nominated and Senate Banking Committee advanced 29 April. June FOMC is first under Warsh leadership; reaction function uncertain. Hawkish tilt = compress UK-US spread = Cable bearish. Ambiguous for GBP - Warsh hawkish surprise = USD bid = Cable down.", "priced_in": "~25% probability of hawkish hike priced; consensus is continuity hold", "bilateral_relevance": "GBP/USD primary", "citations": [22]},
+      {"date": "2026-06-18", "event": "BoE MPC Meeting (DOMINANT for GBP)", "expected_impact": "Ambiguous", "rationale": "With Pill having dissented for a hike at the April meeting, June is the moment for either (a) Pill to be joined by 4+ members for a 5-4 hike, or (b) the Bank to hold but signal August hike. Either is GBP-supportive. Bullish if 25bp hike delivered; Neutral on hawkish hold; Bearish on dovish hold.", "priced_in": "~50% probability of hike already priced; market range roughly 30-70% depending on May data", "bilateral_relevance": "GBP/USD, EUR/GBP", "citations": [7]},
+      {"date": "2026-06-30", "event": "UK Q1 2026 Balance of Payments", "expected_impact": "Bearish", "rationale": "Q1 captures only first month of Iran shock (March), but C/A is forward-looking. ONS Q4 2025 commentary already flagged Iran risk to Q1 26 terms of trade. Bearish for GBP (likely confirms terms-of-trade deterioration).", "priced_in": "Bank consensus expects modest deterioration; full extent likely surprises bearish", "bilateral_relevance": "EUR/GBP, GBP/USD", "citations": [44]},
+      {"date": "2026-08-W1", "event": "BoE August MPC + Monetary Policy Report", "expected_impact": "Ambiguous", "rationale": "First MPR after April three-scenario framework. By August, post-shock data will determine which scenario (A/B/C) is in play. Hike-then-hold path is base case; hike-then-cut path would shift narrative bearish for GBP via terminal-rate downward repricing. Pivotal - defines whether tactical bullish thesis transitions to strategic bearish.", "priced_in": "Currently aligned with Scenarios A/B", "bilateral_relevance": "GBP/USD primary; EUR/GBP secondary", "citations": [24, 25]},
+      {"date": "2026-10-W4", "event": "UK Autumn Budget 2026 (TAIL EVENT)", "expected_impact": "Ambiguous", "rationale": "Reeves's biggest fiscal-policy event of 2026. Fiscal headroom £23.6bn nominal eroded by gilt-yield surge to ~£10bn effective. Outcome determines whether 30Y gilts rally back below 5.50% (relief) or break above 6.00% (crisis). Truss-2022 template remains the bear-case path. Binary - Bullish (orthodox/tightening) or Bearish (mini-Budget redux).", "priced_in": "Markets price orthodox at ~80% probability; we see ~70%; tail probability of crisis ~15%", "bilateral_relevance": "GBP/USD, EUR/GBP - overwhelmingly dominant on tail outcome", "citations": [37, 50]}
+    ],
+    "invalidators": [
+      {"condition": "30Y gilt yield sustains above 5.85% with sterling falling for 5+ consecutive sessions", "new_stance": "Bearish", "mechanism": "Signals regime change to fiscal-credibility stress, breaking the rate-differential support thesis (Truss-2022 template). The bond market signal asserts dominance over the FX market and forces foreign holders to reduce gilt allocations.", "monitor_indicator": "30Y gilt yield daily close + GBP/USD daily close", "monitor_frequency": "Daily", "quantitative_threshold": "30Y >5.85% close + GBP/USD lower 5/5 days", "probability_pct": 20},
+      {"condition": "UK April CPI prints below 3.1% (vs 3.3% March)", "new_stance": "Neutral", "mechanism": "BoE hawkish thesis weakens - June hike probability falls below 30%, removing the carry-pricing support that drives the tactical bullish call.", "monitor_indicator": "ONS CPI release 21 May 2026", "monitor_frequency": "One-off", "quantitative_threshold": "3.1% headline", "probability_pct": 20},
+      {"condition": "Hormuz reblockaded with sustained Brent crude above $130", "new_stance": "Bearish", "mechanism": "Dollar-smile activates (USD safe-haven bid), UK terms-of-trade implodes via energy import shock, and Scenario C of BoE MPR engages. Cross-asset doom-loop activates.", "monitor_indicator": "Brent close + Hormuz transit data", "monitor_frequency": "Daily", "quantitative_threshold": "Brent ≥$130 sustained 5/5 days", "probability_pct": 25},
+      {"condition": "Reeves replaced as Chancellor following 7 May municipal-election losses", "new_stance": "Bearish", "mechanism": "Fiscal-credibility wobble takes over - gilt term-premium spirals, foreign holders reduce UK debt allocations. Cabinet reshuffle introduces direct policy uncertainty.", "monitor_indicator": "UK political news / Cabinet reshuffle announcements", "monitor_frequency": "Daily", "quantitative_threshold": "Cabinet reshuffle Reeves out", "probability_pct": 10},
+      {"condition": "UK 5Y CDS widens above 50bp (from current ~25-30bp historically)", "new_stance": "Bearish", "mechanism": "Sovereign credit-perception break signals foreign investor flight from UK debt, which mechanically drains the portfolio-channel GBP support.", "monitor_indicator": "Bloomberg 5Y CDS / sovereign credit pricing", "monitor_frequency": "Daily", "quantitative_threshold": "5Y CDS ≥50bp", "probability_pct": 15},
+      {"condition": "Ofgem Q3 2026 cap announced below £1,800", "new_stance": "Neutral", "mechanism": "Energy-shock pass-through is less severe than feared, weakening the External Balance bearish case and reducing the household-spending crunch through Q3.", "monitor_indicator": "Ofgem announcement 27 May 2026", "monitor_frequency": "One-off", "quantitative_threshold": "Q3 cap ≤£1,800", "probability_pct": 15},
+      {"condition": "Asset-manager CFTC net short flips to net long (above zero) in any single weekly print", "new_stance": "Bearish", "mechanism": "Contrarian signal - when real-money capitulates and goes long, the rally is typically near exhaustion. Indicates the squeeze has fully played through.", "monitor_indicator": "CFTC COT weekly", "monitor_frequency": "Weekly Friday", "quantitative_threshold": "Asset Manager net position positive", "probability_pct": 10}
+    ],
+    "signposts": [
+      {"indicator": "BoE OIS-Implied June Hike Probability", "current_level": "~50%", "threshold_confirms": "≥65% (tactical bullish reinforced)", "threshold_invalidates": "≤30% (tactical bullish thesis undermined)", "bilateral_importance": "GBP/USD primary; EUR/GBP secondary", "source_url": "https://www.bankofengland.co.uk/monetary-policy", "frequency": "Daily"},
+      {"indicator": "UK 30Y Gilt Yield", "current_level": "5.74-5.78% (5 May 2026)", "threshold_confirms": "Sustained ≤5.50% (fiscal stress fading; bullish tactical/strategic)", "threshold_invalidates": "Sustained ≥5.85% with sterling falling (regime change to fiscal stress)", "bilateral_importance": "GBP/USD, EUR/GBP - overwhelms all other GBP factors", "source_url": "https://tradingeconomics.com/united-kingdom/government-bond-yield", "frequency": "Daily close"},
+      {"indicator": "UK 10Y vs Bund 10Y Spread", "current_level": "+204bp (5 May 2026)", "threshold_confirms": "Sustained ≥+200bp (BoE hawkish premium intact)", "threshold_invalidates": "Compresses below +175bp (rate-differential support faded)", "bilateral_importance": "EUR/GBP - primary driver of the cross", "source_url": "https://tradingeconomics.com/germany/government-bond-yield", "frequency": "Daily close"},
+      {"indicator": "Brent Crude Spot", "current_level": "~$112/bbl (5 May 2026)", "threshold_confirms": "Sustained ≤$95 (energy shock fading; tactical bullish supported)", "threshold_invalidates": "Sustained ≥$125 (UK terms-of-trade further deterioration; strategic bearish accelerates)", "bilateral_importance": "GBP/USD, GBP/CAD, GBP/NOK", "source_url": "https://tradingeconomics.com/commodity/brent-crude-oil", "frequency": "Daily"},
+      {"indicator": "CFTC GBP Asset Manager Net Position", "current_level": "-93,753 contracts (28 April 2026 report)", "threshold_confirms": "Continues below -90K (squeeze setup intact)", "threshold_invalidates": "Closes above -60K (real-money short cover completed without GBP rally)", "bilateral_importance": "GBP/USD primary", "source_url": "https://www.cftc.gov/dea/futures/financial_lf.htm", "frequency": "Weekly (Friday)"},
+      {"indicator": "GBP/USD Spot", "current_level": "1.3534 (5 May 2026 close)", "threshold_confirms": "Sustained close above 1.3700 (tactical bullish breakout)", "threshold_invalidates": "Sustained close below 1.3450 (50d MA break; tactical thesis undermined)", "bilateral_importance": "Primary GBP expression", "source_url": "https://tradingeconomics.com/united-kingdom/currency", "frequency": "Daily close"},
+      {"indicator": "UK Composite PMI", "current_level": "50.3 (March 2026 final, revised down from 51.0 flash)", "threshold_confirms": "≥51.5 (growth resilience)", "threshold_invalidates": "≤49.0 (contraction; BoE forced dovish; strategic bearish)", "bilateral_importance": "GBP/USD, EUR/GBP", "source_url": "https://tradingeconomics.com/united-kingdom/composite-pmi", "frequency": "Monthly"}
+    ]
+  },
+
+  "change_since_last_report": {
+    "factors_changed": [
+      {"factor": "Factor 1 Policy & Rates", "previous_stance": "Neutral tactical, Neutral strategic", "new_stance": "Bullish tactical, Neutral strategic", "reason": "BoE's 30 April 8-1 hold with Pill dissenting for a hike materially shifted the rate-differential channel in GBP's favour"},
+      {"factor": "Factor 2 Inflation & Growth", "previous_stance": "Bearish tactical (stagflation concerns)", "new_stance": "Bullish tactical (Bearish strategic unchanged)", "reason": "22 April CPI of 3.3% with services 4.5% reinforces hawkish BoE, which dominates over growth concerns at the tactical horizon"},
+      {"factor": "Factor 4 Flows & Positioning", "previous_stance": "Bullish tactical (asset-manager short already extreme)", "new_stance": "Bullish tactical extended", "reason": "Asset-manager net short widened further to -94K (vs ~-85K in early April), making the squeeze setup more pronounced"},
+      {"factor": "Factor 5 External Balance", "previous_stance": "Bearish strategic", "new_stance": "Bearish strategic (unchanged)", "reason": "Q4 2025 C/A print (released 31 March 2026) confirmed the bearish thesis on its first data point"},
+      {"factor": "Factor 6 Guidance & Credibility", "previous_stance": "Neutral (pre-MPR, pre-Pill-dissent)", "new_stance": "Bullish tactical, Neutral strategic", "reason": "Following Bailey's 'active hold' framing and the three-scenario MPR, communication is now explicitly hawkish"},
+      {"factor": "Factor 7 Event Risk", "previous_stance": "Bearish tactical (Iran-war active phase)", "new_stance": "Neutral tactical, Bearish strategic", "reason": "Iran war has settled into a 'containment' regime; the dominant tactical event has shifted to UK-domestic catalysts (CPI, MPC, Ofgem)"},
+      {"factor": "Factor 8 Fiscal & Sovereign", "previous_stance": "Neutral tactical, Bearish strategic", "new_stance": "Bearish tactical, Bearish strategic", "reason": "30Y gilt at 1998 highs is itself a tactical fiscal-stress signal that has manifested over the past 30 days"}
+    ],
+    "signposts_triggered": [
+      {"signpost": "30Y gilt yield breached 5.50%", "outcome": "Activated April 14, continued higher to 5.74% by May 5", "implication": "Bearish signpost activated - fiscal stress regime emerging"},
+      {"signpost": "BoE OIS pricing of June hike", "outcome": "Rose from ~25% (April 1) to ~50% (May 7)", "implication": "Bullish signpost activated - rate-differential support strengthening"},
+      {"signpost": "April CPI print", "outcome": "3.3% headline / 4.5% services - well above April 1 dossier expectations of ~3.0%", "implication": "Inflation persistence signpost activated - tactical bullish reinforcement"},
+      {"signpost": "CFTC asset-manager short position", "outcome": "Widened from ~-85K to -94K", "implication": "Flow squeeze signpost activated - tactical bullish setup more pronounced"}
+    ],
+    "conviction_change": {
+      "previous_tactical": 2,
+      "current_tactical": 2,
+      "previous_strategic": 2,
+      "current_strategic": 2,
+      "explanation": "Tactical conviction level unchanged at 2/5 but direction has flipped from Bearish to Bullish - a meaningful regime change. Strategic conviction unchanged at 2/5 Bearish. The cross-horizon divergence is more pronounced now than in the 1 April dossier, supporting a barbell trading approach."
+    },
+    "new_catalysts": [
+      "Pill's dissent at April MPC creates the first non-unanimous hold of the cycle - sets template for further dissents",
+      "BoE MPR three-scenario framework replaced single central forecast - guidance-format innovation that increases hawkish risk-premium",
+      "7 May municipal elections becomes a near-term political-risk event",
+      "Goldman lifted oil base case to $90/bbl for Q4 26 (from $80) - partial relief but still elevated"
+    ],
+    "thesis_trajectory": "Strengthening"
+  },
+
+  "seasonality": {
+    "pattern": "GBP/USD May-October pattern: May tends to show modest positive bias (BoE May MPC effect; pre-recess positioning); June-July weakness as global risk-asset summer drift weighs on Cable; August choppy with thin liquidity around UK summer parliamentary recess. EUR/GBP summer pattern: Tends to drift higher in summer months as UK political-risk premium builds ahead of the Autumn fiscal event.",
+    "relevance_window": "May-October 2026 (covers both tactical and strategic horizons)",
+    "historical_magnitude": "Typically 1-2% Cable seasonal weakness through summer; 100-200 pip EUR/GBP seasonal lift",
+    "current_alignment": "The current setup of being bullish into May is consistent with seasonality. The strategic bearish stance into Q3 is also consistent - UK seasonal weakness through summer compounds the strategic fundamentals. Our strategic long-EUR/GBP recommendation is reinforced by this seasonal pattern."
+  },
+
+  "assumptions": [
+    "Iran-US war assumed contained: Base case assumes Hormuz remains 'fragile but open' with intermittent skirmishes. Scenario C (Hormuz fully reblockaded with Brent >$130 sustained) is treated as a 25% tail risk.",
+    "Goldman Sachs Brent base case (Q4 26 $90/bbl) used as oil baseline for strategic horizon scenarios.",
+    "OBR Spring Forecast 2026 (3 March) acknowledged as pre-Iran-shock - its 2026 GDP forecast of 1.1% and CPI 2.3% are taken as upper bounds, with our base case implying GDP ~0.8% and CPI ~3.0% for 2026 average.",
+    "Cross-currency basis swap data unavailable publicly for early May 2026 - assumed near-zero for USD/GBP 3M consistent with non-stress regime.",
+    "ATM IV and 25-delta risk reversal levels for early May 2026 inferred from CME futures options (Barchart) and dealer commentary; specific Bloomberg ICOV data not available publicly.",
+    "CFTC COT positioning data treated as primary positioning evidence - supplemented by qualitative dealer commentary on real-money flows.",
+    "Forward points estimated from rate differentials less basis adjustment; not from live OTC quotes.",
+    "G10+SGD macro dashboard data dates vary by country (mostly Q1 2026 prints with March/April 2026 inflation data).",
+    "OECD PPP estimates are 2025-vintage; treated as structural anchor not actionable spot signal.",
+    "UK municipal election outcome (7 May 2026) unknown at write-up; interpreted as Bearish-tail risk based on Britain Elects projections with caveat that actual outcome could surprise either way.",
+    "Warsh-era Fed assumed continuity through the June 16-17 FOMC; Hawkish-surprise risk treated as 30% probability over the strategic horizon.",
+    "PSND and PSNB data through end-March 2026 (FY 2025-26 close); FY 2026-27 not yet starting in earnest."
+  ],
+
+  "complete_citations": [
+    {"id": 1, "title": "GBP/USD historical price data", "publisher": "Yahoo Finance", "url": "https://finance.yahoo.com/quote/GBPUSD=X/history/", "date_accessed": "2026-05-07"},
+    {"id": 2, "title": "British Pound to US Dollar History 2026", "publisher": "Exchange Rates UK", "url": "https://www.exchangerates.org.uk/GBP-USD-spot-exchange-rates-history-2026.html", "date_accessed": "2026-05-07"},
+    {"id": 3, "title": "Sterling effective exchange rate index: Monthly average (Jan 2005=100), series BK67", "publisher": "Office for National Statistics", "url": "https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/timeseries/bk67/mret", "date_accessed": "2026-05-07"},
+    {"id": 4, "title": "Annual reweighting of the sterling exchange rate index", "publisher": "Bank of England", "url": "https://www.bankofengland.co.uk/statistics/sterling-exchange-rate-index", "date_accessed": "2026-05-07"},
+    {"id": 5, "title": "CFTC Commitments of Traders Short Report - Financial Traders in Markets (Futures Only), 28 April 2026", "publisher": "Commodity Futures Trading Commission", "url": "https://www.cftc.gov/dea/futures/financial_lf.htm", "date_accessed": "2026-05-07"},
+    {"id": 6, "title": "British Pound Jun '26 Futures Options Prices", "publisher": "Barchart", "url": "https://www.barchart.com/futures/quotes/B6*0/options", "date_accessed": "2026-05-07"},
+    {"id": 7, "title": "Bank Rate maintained at 3.75% - April 2026 Monetary Policy Summary and Minutes", "publisher": "Bank of England", "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/april-2026", "date_accessed": "2026-05-07"},
+    {"id": 8, "title": "CBOE VIX historical data and recent levels", "publisher": "Yahoo Finance", "url": "https://finance.yahoo.com/quote/%5EVIX/history/", "date_accessed": "2026-05-07"},
+    {"id": 9, "title": "OCR on hold at 2.25%", "publisher": "Reserve Bank of New Zealand", "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/04/ocr-on-hold-at-2-25", "date_accessed": "2026-05-07"},
+    {"id": 10, "title": "Reserve Bank of Australia 5 May 2026 monetary policy decision", "publisher": "Reserve Bank of Australia", "url": "https://www.rba.gov.au/", "date_accessed": "2026-05-07"},
+    {"id": 11, "title": "Norway Interest Rate - Norges Bank", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/norway/interest-rate", "date_accessed": "2026-05-07"},
+    {"id": 12, "title": "Federal Reserve issues FOMC statement (29 April 2026)", "publisher": "Federal Reserve", "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm", "date_accessed": "2026-05-07"},
+    {"id": 13, "title": "UK 10 Year Bond Yield", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/united-kingdom/government-bond-yield", "date_accessed": "2026-05-07"},
+    {"id": 14, "title": "UK 30-Year Gilt Yield Hits Highest Level Since 1998 on BOE Rate Hike Bets", "publisher": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-05/gilts-selloff-pushes-30-year-yield-to-the-highest-since-1998", "date_accessed": "2026-05-07"},
+    {"id": 15, "title": "United Kingdom Inflation Rate", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/united-kingdom/inflation-cpi", "date_accessed": "2026-05-07"},
+    {"id": 16, "title": "Inflation in the UK: Economic indicators", "publisher": "House of Commons Library", "url": "https://commonslibrary.parliament.uk/research-briefings/sn02792/", "date_accessed": "2026-05-07"},
+    {"id": 17, "title": "United Kingdom Credit Rating", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/united-kingdom/rating", "date_accessed": "2026-05-07"},
+    {"id": 18, "title": "BOE Bank Rate maintained at 3.75%", "publisher": "ActionForex", "url": "https://www.actionforex.com/central-banks/bank-of-england/638916-boe-bank-rate-maintained-at-3-75-3/", "date_accessed": "2026-05-07"},
+    {"id": 19, "title": "Bank of England forecast scenarios for April 2026", "publisher": "MarketScreener", "url": "https://www.marketscreener.com/news/bank-of-england-forecast-scenarios-for-april-2026-ce7f58dbdf81f020", "date_accessed": "2026-05-07"},
+    {"id": 20, "title": "Central banks update: Fed on hold with less easing bias, ECB on track for hike in June, BoE on hold with potential insurance hike ahead", "publisher": "Royal London Asset Management", "url": "https://www.rlam.com/uk/intermediaries/our-views/2026/central-banks-update-fed-on-hold-with-less-easing-bias-ecb-on-track-for-hike-in-june-boe-on-hold-with-potential-insurance-hike-ahead/", "date_accessed": "2026-05-07"},
+    {"id": 21, "title": "Monetary Policy Press Conference Thursday 30 April 2026", "publisher": "Bank of England", "url": "https://www.bankofengland.co.uk/-/media/boe/files/monetary-policy-report/2026/april/opening-remarks-april-2026", "date_accessed": "2026-05-07"},
+    {"id": 22, "title": "Fed interest rate decision April 2026: Fed holds rates steady amid dissent", "publisher": "CNBC", "url": "https://www.cnbc.com/2026/04/29/fed-interest-rate-decision-april-2026.html", "date_accessed": "2026-05-07"},
+    {"id": 23, "title": "Watch ECB Decision: Lagarde Says Officials Debated Options Including Interest-Rate Hike", "publisher": "Bloomberg", "url": "https://www.bloomberg.com/news/videos/2026-04-30/lagarde-says-ecb-debated-options-including-rate-hike-video", "date_accessed": "2026-05-07"},
+    {"id": 24, "title": "Monetary Policy Report - April 2026", "publisher": "Bank of England", "url": "https://www.bankofengland.co.uk/monetary-policy-report/2026/april-2026", "date_accessed": "2026-05-07"},
+    {"id": 25, "title": "Monetary Policy Summary and Minutes April 2026 (PDF)", "publisher": "Bank of England", "url": "https://www.bankofengland.co.uk/-/media/boe/files/monetary-policy-summary-and-minutes/2026/monetary-policy-summary-and-minutes-april-2026.pdf", "date_accessed": "2026-05-07"},
+    {"id": 26, "title": "Asset Purchase Facility Quarterly Report - 2025 Q4", "publisher": "Bank of England", "url": "https://www.bankofengland.co.uk/asset-purchase-facility/2025/2025-q4", "date_accessed": "2026-05-07"},
+    {"id": 27, "title": "UK CPI March 2026 (released 22 April 2026)", "publisher": "Office for National Statistics", "url": "https://www.ons.gov.uk/economy/inflationandpriceindices", "date_accessed": "2026-05-07"},
+    {"id": 28, "title": "UK Inflation Rate latest", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/united-kingdom/inflation-cpi", "date_accessed": "2026-05-07"},
+    {"id": 29, "title": "Employment in the UK: April 2026", "publisher": "Office for National Statistics", "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/employmentintheuk/april2026", "date_accessed": "2026-05-07"},
+    {"id": 30, "title": "Citi/YouGov UK Inflation Expectations Tracker", "publisher": "Citi UK / YouGov", "url": "https://www.citi.com/", "date_accessed": "2026-05-07"},
+    {"id": 31, "title": "GDP monthly estimate, UK: February 2026", "publisher": "Office for National Statistics", "url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/february2026", "date_accessed": "2026-05-07"},
+    {"id": 32, "title": "Gross Domestic Product (GDP)", "publisher": "Office for National Statistics", "url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp", "date_accessed": "2026-05-07"},
+    {"id": 33, "title": "United Kingdom Manufacturing PMI", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/united-kingdom/manufacturing-pmi", "date_accessed": "2026-05-07"},
+    {"id": 34, "title": "United Kingdom Composite PMI", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/united-kingdom/composite-pmi", "date_accessed": "2026-05-07"},
+    {"id": 35, "title": "UK consumer confidence falls to lowest level in over two years", "publisher": "ITV News", "url": "https://www.itv.com/news/2026-04-23/consumer-confidence-falls-as-rapid-price-rises-give-households-the-jitters", "date_accessed": "2026-05-07"},
+    {"id": 36, "title": "UK petrol/diesel prices Feb-Mar 2026 (CBP-10601)", "publisher": "House of Commons Library", "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10601/", "date_accessed": "2026-05-07"},
+    {"id": 37, "title": "2026 spring forecast: A summary", "publisher": "House of Commons Library", "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10495/", "date_accessed": "2026-05-07"},
+    {"id": 38, "title": "Energy Price Cap July 2026 Forecast", "publisher": "Kael Tripton", "url": "https://www.kaeltripton.com/energy-price-cap-july-2026/", "date_accessed": "2026-05-07"},
+    {"id": 39, "title": "S&P 500 historical levels", "publisher": "Yahoo Finance", "url": "https://finance.yahoo.com/quote/%5EGSPC/history/", "date_accessed": "2026-05-07"},
+    {"id": 40, "title": "You could say the ceasefire has ceased: Iran is back on Wall Street radar as oil prices spike 6%", "publisher": "Fortune", "url": "https://fortune.com/2026/05/04/iran-ceasefire-oil-brent-crude-stock-project-freedom-strait-of-hormuz/", "date_accessed": "2026-05-07"},
+    {"id": 41, "title": "Goldman Lifts Oil Forecast Again", "publisher": "Benzinga", "url": "https://www.benzinga.com/news/politics/26/04/52063713/goldman-brent-oil-wti-price-forecasts-2026-hormuz-trump", "date_accessed": "2026-05-07"},
+    {"id": 42, "title": "Quarterly economic commentary (Foreign holdings of UK gilts)", "publisher": "Office for National Statistics", "url": "https://www.ons.gov.uk/economy/nationalaccounts/uksectoraccounts/articles/quarterlyeconomiccommentary/latest", "date_accessed": "2026-05-07"},
+    {"id": 43, "title": "Revision to the DMO's Financing Remit 2025-26: Budget 2025", "publisher": "UK Debt Management Office", "url": "https://www.dmo.gov.uk/media/qh4nii4m/sa261125.pdf", "date_accessed": "2026-05-07"},
+    {"id": 44, "title": "Balance of payments, UK: October to December 2025", "publisher": "Office for National Statistics", "url": "https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/octobertodecember2025", "date_accessed": "2026-05-07"},
+    {"id": 45, "title": "Trade in goods and services: Economic indicators", "publisher": "House of Commons Library", "url": "https://commonslibrary.parliament.uk/research-briefings/sn02815/", "date_accessed": "2026-05-07"},
+    {"id": 46, "title": "UK Natural Gas", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/commodity/uk-natural-gas", "date_accessed": "2026-05-07"},
+    {"id": 47, "title": "UK MPC Member Pill Speaks", "publisher": "Forex Factory", "url": "https://www.forexfactory.com/calendar/850-uk-mpc-member-pill-speaks", "date_accessed": "2026-05-07"},
+    {"id": 48, "title": "Latest and upcoming events, publications and speeches", "publisher": "Bank of England", "url": "https://www.bankofengland.co.uk/news/latest-and-upcoming", "date_accessed": "2026-05-07"},
+    {"id": 49, "title": "Britain Elects forecast: Labour to lose two-thirds of councillors", "publisher": "New Statesman", "url": "https://www.newstatesman.com/politics/elections/2026/05", "date_accessed": "2026-05-07"},
+    {"id": 50, "title": "UK gilt yields hit multi-decade highs as political and inflation risks mount", "publisher": "Mortgage Introducer", "url": "https://www.mpamag.com/uk/news/general/uk-gilt-yields-hit-multi-decade-highs-as-political-and-inflation-risks-mount/574201", "date_accessed": "2026-05-07"},
+    {"id": 51, "title": "Public sector finances, UK: March 2026", "publisher": "Office for National Statistics", "url": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/bulletins/publicsectorfinances/march2026", "date_accessed": "2026-05-07"},
+    {"id": 52, "title": "UK government borrowing costs hit their highest level since 2008 as inflation fears hit the gilt market", "publisher": "CNBC", "url": "https://www.cnbc.com/2026/03/20/uk-gilt-market-interest-rates-boe-inflation-reeves.html", "date_accessed": "2026-05-07"},
+    {"id": 53, "title": "US 10 Year Treasury Note Yield", "publisher": "Trading Economics", "url": "https://tradingeconomics.com/united-states/government-bond-yield", "date_accessed": "2026-05-07"},
+    {"id": 54, "title": "Fed meeting recap: Powell to stay on board - Trump's legal attacks have left me no choice", "publisher": "CNBC", "url": "https://www.cnbc.com/2026/04/29/fed-meeting-today-live-updates-warsh-powell.html", "date_accessed": "2026-05-07"},
+    {"id": 55, "title": "MAS tightens monetary policy on inflation concerns", "publisher": "Reuters", "url": "https://www.reuters.com/markets/asia/mas-monetary-policy-april-2026", "date_accessed": "2026-05-07"},
+    {"id": 56, "title": "British Pound (GBP) Forecast & Price Predictions 2026, 2027-2030", "publisher": "NAGA", "url": "https://naga.com/en/news-and-analysis/articles/british-pound-gbp-price-prediction", "date_accessed": "2026-05-07"},
+    {"id": 57, "title": "GBP/USD Forecast 2026: Policy Divergence, Volatility, and Key Levels to Watch", "publisher": "FX Empire", "url": "https://www.fxempire.com/forecasts/article/gbp-usd-forecast-2026-sterling-faces-limits-but-outlook-improves-1568579", "date_accessed": "2026-05-07"},
+    {"id": 58, "title": "Morgan Stanley revises BoE call (22 January 2026)", "publisher": "Reuters", "url": "https://www.reuters.com/markets/europe/morgan-stanley-boe-rate-call-january-2026", "date_accessed": "2026-05-07"},
+    {"id": 59, "title": "Halifax UK House Price Index", "publisher": "Halifax", "url": "https://www.halifax.co.uk/media-centre/house-price-index.html", "date_accessed": "2026-05-07"},
+    {"id": 60, "title": "UK Retail Sales Analysis March 2026", "publisher": "MoneyTa", "url": "https://moneyta.co.uk/uk-retail-sales-analysis-march-2026-ons-vs-cbi-data/", "date_accessed": "2026-05-07"}
+  ]
+}

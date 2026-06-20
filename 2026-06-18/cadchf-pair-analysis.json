@@ -1,0 +1,1291 @@
+{
+  "metadata": {
+    "pair": "CADCHF",
+    "base_currency": "CAD",
+    "quote_currency": "CHF",
+    "valuation_date": "2026-06-18",
+    "framework_version": "2.0",
+    "base_dossier_date": "2026-06-18",
+    "quote_dossier_date": "2026-06-18"
+  },
+  "pair_convention": {
+    "spot_reference": "CAD/CHF 0.5690",
+    "spot_explanation": "CAD/CHF at 0.5690 means 1 CAD buys 0.5690 CHF. A rising pair means CAD is strengthening against CHF (more CHF per CAD); a falling pair means CAD is weakening against CHF (fewer CHF per CAD). The pair sits at the 20th percentile of its 52-week range (0.5595–0.6060), meaning it is historically cheap in recent context.",
+    "bullish_means": "pair RISES (CAD strengthens vs CHF)",
+    "bearish_means": "pair FALLS (CAD weakens vs CHF)",
+    "base_dossier_tactical_stance": "Bearish (vs USD); strategic Neutral",
+    "quote_dossier_tactical_stance": "Tactical Bearish; strategic Bearish (i.e. CHF weakening)"
+  },
+  "executive_summary": "CAD/CHF trades at 0.5690, sitting just 20% up its 52-week range (0.5595–0.6060) and essentially flat across recent windows: +0.05% over 1M, +0.30% over 3M, +0.27% over 6M and −0.47% over 1Y. The pair pits two currencies whose standalone dossiers are both, unusually, tactically bearish — CAD softening on negative carry and a fresh oil collapse, CHF softening on a risk-on haven unwind and zero carry. That bilateral collision is the defining feature: when both legs are bearish in isolation, the pair signal is muted, and CAD/CHF has indeed gone nowhere despite large macro moves. The bilateral edge is that the very same 15 June US-Iran deal that crushes oil (CAD-negative) also crushes the haven bid (CHF-negative) — the two shocks partly offset within this single pair, leaving rate differentials and structural balances as the residual drivers. On rates, CAD out-yields CHF by +225bps (BoC 2.25% vs SNB 0.00%), a structural CAD/CHF tailwind that has been overwhelmed by the oil giveback. Both currencies are crowded shorts, muting the positioning signal. Technically the pair sits below all three major moving averages (50d 0.5702, 100d 0.5719, 200d 0.5721) in a mild downtrend. Net: tactically Neutral with a slight bearish tilt (the oil drag marginally outweighs the carry support near term), shading to Neutral strategically as the +225bps carry and CHF's structurally rich valuation reassert once the oil shock fully prices — conviction 2 on both horizons given the genuinely offsetting forces.",
+  "market_context": {
+    "spot": 0.569,
+    "performance_1m": "+0.05%",
+    "performance_3m": "+0.30%",
+    "performance_6m": "+0.27%",
+    "performance_1y": "-0.47%",
+    "range_52w_low": 0.5595,
+    "range_52w_high": 0.606,
+    "range_52w_percentile": 20,
+    "valuation_assessment": "On a relative real-effective basis, both currencies pull in opposite directions from the pair's perspective. CAD's real broad REER is 96.58 (8th percentile) — among the cheapest G10 currencies — while CHF's REER is 102.22 (~50th percentile) and historically rich in absolute terms. The CAD dossier flags CAD as ~6% cheap vs CHF on REER, while the CHF dossier flags CHF as ~14% rich vs CAD on OECD PPP. Both readings point the same way: CAD/CHF is structurally undervalued, with cheap-CAD plus rich-CHF arguing the pair sits below fair value. This is a strategic tailwind for the pair (upside bias), but valuation alone has not been a catalyst — CAD's cheapness needs an oil floor and CHF's richness needs a haven catalyst to converge.",
+    "positioning": {
+      "base_cftc_net": "Leveraged funds -58,623; asset managers -73,639 (~6th percentile — extreme short)",
+      "base_cftc_percentile": 6,
+      "quote_cftc_net": "Leveraged funds -10,785; asset managers -36,553 (~20th percentile — moderate short)",
+      "quote_cftc_percentile": 20,
+      "net_pair_implication": "Both legs are crowded short, which mutes the net pair positioning signal. Because the market is short BOTH currencies, the contrarian squeeze signals partly cancel for the pair: a broad risk-off/short-cover event would lift CHF (pair down) AND CAD (pair up), with CHF's haven beta likely dominating. The more extreme CAD short means a CAD-specific positive catalyst could squeeze the pair higher harder.",
+      "crowding_assessment": "Both legs crowded short — net pair signal muted/cancelling; marginal pair-up bias from CAD's far more extreme short positioning"
+    },
+    "pair_technicals": {
+      "trend_regime": "trending_down",
+      "support_levels": [
+        0.566,
+        0.5595,
+        0.555
+      ],
+      "resistance_levels": [
+        0.572,
+        0.5765,
+        0.585
+      ],
+      "key_moving_averages": "50d MA at 0.5702, 100d MA at 0.5719, 200d MA at 0.5721 — all three clustered tightly in the 0.5702–0.5721 zone, acting as overhead resistance. Spot at 0.5690 sits below all three in a bearish MA stack.",
+      "chart_pattern": "Descending channel in place since April 2025; pair recently faded from a 0.5739 early-June high back toward 0.5690, rejecting the MA cluster. The bearish trend is currently very strong as long as price remains below resistance at 0.5794.",
+      "psychological_levels": [
+        0.56,
+        0.57,
+        0.58,
+        0.55
+      ]
+    },
+    "pair_volatility": {
+      "iv_1m": 6.8,
+      "iv_3m": 6.5,
+      "iv_percentile": 40,
+      "rv_1m": 6.5,
+      "rv_vs_iv": "Realised vol ~6–7% running roughly in line with the legs' ~6.8–7.1% implied vols vs USD; vol is structurally cheap-to-fair, favouring spot expression over options for the directional view",
+      "risk_reversals": "No standalone CAD/CHF risk-reversal print publicly available; inferred from legs — USD/CAD carries a +0.45 vol CAD-put skew and USD/CHF a mild CHF-call skew, which roughly offset for the cross, leaving a near-flat CAD/CHF skew with a fat left tail (sharp CHF-strength / pair-down risk on any risk-off shock)",
+      "vol_term_structure": "Low vol between shocks; dual fat tail from oil and SNB intervention risk (SNB intervention can trigger 20% intraday moves as seen in 2015; oil volatility can trigger 200-pip moves within hours). Event premium likely building around BoC 15 July MPR and Hormuz toll expiry.",
+      "vol_regime": "Low vol / structurally cheap-to-fair between shocks; dual fat tail permanent"
+    },
+    "recent_regime": "The pair's recent behaviour is dominated by the June macro de-escalation hitting both legs simultaneously. Canada's exposure to surging crude oil prices had traders flocking to the commodity-linked Loonie, while the SNB's currency intervention warnings made investors think twice about piling into safe-haven francs. That dynamic — which had pushed CAD/CHF toward the 0.5765–0.5800 resistance in March — has since reversed as the 15 June Iran deal collapsed oil (removing CAD's bid) faster than it eroded CHF's haven premium, dragging the pair back into the 0.56–0.57 range. The dominant narrative is now a stalemate: a cheap, high-carry but oil-losing CAD versus a rich, zero-carry but haven-deflating CHF.",
+    "citations": [
+      "https://tradersunion.com/currencies/forecast/cad-chf/long-term-forecast/",
+      "https://www.economies.com/forex/analysis/the-cadchf-reaches-a-strong-barrier-forecast-today-16-3-2026-125557",
+      "https://www.centralcharts.com/en/6873-cad-chf/analysis",
+      "https://www.tradingview.com/symbols/CADCHF/technicals/",
+      "https://www.babypips.com/trading/chart-art-forex-cadchf-approaches-major-resistance-near-5800-2026-03-16",
+      "https://www.babypips.com/trading/chart-art-forex-cadchf-long-term-range-resistance-2026-03-09",
+      "https://www.fxempire.com/currencies/cad-chf/technical-analysis"
+    ]
+  },
+  "bilateral_carry_analysis": {
+    "base_policy_rate": 2.25,
+    "quote_policy_rate": 0,
+    "rate_differential_bps": 225,
+    "annualised_carry_bps": 225,
+    "pair_3m_iv": 6.5,
+    "carry_to_vol_ratio": 0.35,
+    "carry_regime": "carry working",
+    "breakeven_move": "At +225bps annual carry, a long CAD/CHF earns ~+0.0011 of spot per month (~11 pips); spot must fall more than ~11 pips/month (to ~0.5679) before the carry cushion is erased",
+    "forward_points": {
+      "1m": "-11 pips (CAD at discount, outright ~0.5679)",
+      "3m": "-33 pips (outright ~0.5657)",
+      "6m": "-65 pips (outright ~0.5625)"
+    },
+    "carry_assessment": "CAD/CHF is a structurally positive-carry pair for the long side: CAD's overnight rate at 2.25% versus the SNB's 0.00% gives a +225bps annualised carry for being long CAD/CHF. This is the pair's single most durable fundamental support and the textbook rationale for the carry-trade community that uses it. At an estimated ~6.5% pair implied vol, the carry-to-vol ratio is approximately +0.35 — modestly attractive, well short of premier carry pairs like AUD/CHF (+435bps) but clearly positive, unlike CAD's deeply negative carry versus USD (−138bps). The 2Y sovereign spread reinforces this: Canada 2Y ~2.50% vs Switzerland 2Y ~−0.05% = a +255bps front-end gap favouring CAD. Carry 'works' for long CAD/CHF in a calm, low-vol environment — the current post-deal risk-on tape is exactly such a regime, which argues the +225bps should accrue. The risk is that the carry cushion (~11 pips/month) is thin relative to the pair's oil- and intervention-driven gap risk: a single oil-down day or SNB surprise can wipe out months of carry. This is why the carry tailwind, while real, supports only a low-conviction long bias rather than aggressive positioning."
+  },
+  "factors": [
+    {
+      "factor_number": 1,
+      "factor_name": "Policy & Rates (Relative)",
+      "tactical_weight_default": 0.24,
+      "tactical_weight_applied": 0.24,
+      "strategic_weight_default": 0.24,
+      "strategic_weight_applied": 0.24,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 60,
+        "bilateral_analysis": "The rate differential is unambiguously and structurally CAD/CHF-positive: the BoC at 2.25% out-yields the SNB at 0.00% by +225bps, and the front-end 2Y gap is even wider at ~+255bps (Canada ~2.50% vs Switzerland ~−0.05%). Both central banks are on hold — the BoC held on 10 June and the SNB is universally expected to hold at 0% — so the differential is stable, not widening or narrowing in the tactical window. The transmission is direct: CAD/CHF is a classic carry pair where the +225bps rewards a long position in a low-vol risk-on regime, and the current post-Iran-deal tape is precisely that environment. Critically, this rate channel runs OPPOSITE to CAD's standalone bearish rate read (where CAD pays −138bps to USD) — versus the zero-yield franc, CAD is the clear carry winner. The SNB's reluctance to go negative caps how much the gap could widen further, but it also removes any near-term CHF rate support. Net, rates are a steady tactical tailwind for the pair that the oil shock has been masking.",
+        "key_bilateral_metrics": [
+          "BoC overnight 2.25% vs SNB policy 0.00% = +225bps differential (CAD favoured)",
+          "CA-CH 2Y spread ~+255bps (Canada 2.50% vs Switzerland −0.05%)",
+          "CA-CH 10Y spread ~+311bps (Canada 3.46% vs Switzerland 0.35%)",
+          "Both banks on hold — differential stable through the window",
+          "Annualised carry to long CAD/CHF ~+225bps; carry-to-vol ~+0.35"
+        ],
+        "what_is_priced": "Spot at 0.5690 does not reflect the +225bps carry advantage — the pair sits near range lows because oil dominates. The carry is effectively under-priced in the spot, leaving a positive-carry tailwind that should accrue if oil stabilises.",
+        "citations": []
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 58,
+        "bilateral_analysis": "Strategically the +225bps gap is durable: the SNB will sit at 0% through 2026 (28 of 35 economists see no change), while the BoC holds at 2.25% with only a mild easing tail. Even if the BoC eventually trims rates modestly on soft growth, the gap to a floored SNB stays comfortably positive (a hypothetical BoC cut to 2.00% still leaves +200bps). The strategic transmission is the persistence of the carry trade: as long as global volatility stays contained, the structural rate advantage drains CHF versus CAD over months. The counterweight is that the SNB's zero floor means CHF cannot lose more carry, and the pair's positive carry is partly embedded in forwards (CAD/CHF forwards sit below spot), so the realised carry edge net of forward drift is the +225bps minus the forward-implied CAD depreciation. On balance the rate factor leans the pair higher strategically, though the conviction is tempered by the thin carry cushion relative to the pair's gap risk.",
+        "key_bilateral_metrics": [
+          "SNB at 0% through 2026 (28/35 economists); BoC at 2.25% with mild easing tail",
+          "Gap stays +200bps even on a modest BoC cut",
+          "CAD/CHF forwards below spot (~−65 pips 6M) embed part of the carry",
+          "SNB cannot widen the gap (zero floor) — caps CHF rate support",
+          "10Y gap +311bps reinforces the structural CAD yield advantage"
+        ],
+        "what_is_priced": "The market prices a stable +225bps gap. The strategic edge is that the persistent carry advantage is a slow tailwind the pair's current range-bound, oil-fixated pricing under-weights.",
+        "citations": []
+      },
+      "horizon_split": "Both horizons are Bullish on rates with near-identical confidence — the +225bps gap is the pair's most stable feature at both windows. Tactical edges strategic (60 vs 58) only because the low-vol risk-on regime actively rewards the carry now, whereas the strategic read concedes a modest BoC easing tail.",
+      "carry_analysis": {
+        "base_policy_rate": 2.25,
+        "quote_policy_rate": 0,
+        "rate_differential_bps": 225,
+        "annualised_carry_bps": 225,
+        "carry_to_vol_ratio": 0.35,
+        "carry_regime": "carry working",
+        "breakeven_move": "At +225bps annual carry, a long CAD/CHF earns ~+0.0011 of spot per month (~11 pips); spot must fall more than ~11 pips/month (to ~0.5679) before the carry cushion is erased",
+        "forward_points": {
+          "1m": "-11 pips (CAD at discount, outright ~0.5679)",
+          "3m": "-33 pips (outright ~0.5657)",
+          "6m": "-65 pips (outright ~0.5625)"
+        }
+      },
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 2,
+      "factor_name": "Inflation & Growth Dynamics",
+      "tactical_weight_default": 0.18,
+      "tactical_weight_applied": 0.18,
+      "strategic_weight_default": 0.1,
+      "strategic_weight_applied": 0.1,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "bilateral_analysis": "Both economies are running soft growth and low-to-contained inflation, so the differential is more muted than either standalone read suggests. Canada's Q1 GDP was flat (0.0%) with unemployment at 6.6% and core inflation at target (trim 2.0%/median 2.1%); Switzerland's Q1 GDP grew +0.66% QoQ with headline CPI at just +0.6% and core +0.3%. Switzerland is actually growing faster than Canada (+0.59% vs −0.05% YoY), a mild pair-negative, but Canada's higher inflation gives the BoC less reason to ease than the SNB's near-zero CPI gives the SNB to worry — a mild pair-positive. The transmission is asymmetric on data sensitivity: Canadian releases (CPI, GDP, jobs) move the pair far more than Swiss data because the BoC has live policy optionality whereas the SNB is frozen at zero. The two effects roughly cancel near term, leaving the factor Neutral. The oil collapse adds a wrinkle — it disinflates both an energy-importer Switzerland (lowering CHF CPI) and Canada (lowering headline), so it does not cleanly differentiate.",
+        "key_bilateral_metrics": [
+          "GDP YoY: Canada −0.05% vs Switzerland +0.59% (Switzerland firmer — mild pair-negative)",
+          "Headline CPI: Canada 2.8% vs Switzerland 0.6% (Canada higher)",
+          "Core CPI: Canada ~2.05% vs Switzerland 0.3%",
+          "Unemployment: Canada 6.6% vs Switzerland 3.0% (Switzerland tighter labour market)",
+          "Canadian data sensitivity > Swiss (BoC has optionality; SNB frozen)"
+        ],
+        "what_is_priced": "The market prices both as soft-growth, contained-inflation economies. No clear directional surprise is embedded; the pair trades on oil and carry rather than the growth differential.",
+        "citations": []
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 52,
+        "bilateral_analysis": "Over 1-6 months the growth-inflation picture stays broadly balanced for the pair. Canada is tethered to a resilient US cycle and could see a modest 2H pickup on tariff de-escalation, while Switzerland's defensive export mix (pharma, financials, precision engineering) delivers steady sub-trend growth. The inflation differential is structurally wide (Canada near 2%, Switzerland near zero) but it does not translate into a pair signal because both central banks are effectively on hold — the BoC anchored at neutral, the SNB at its floor. The self-correcting Swiss FX-inflation loop (CHF weakness lifts imported inflation) provides a soft floor under CHF that caps pair upside, while Canada's housing-rate sensitivity caps how much its growth can re-accelerate. The net is a stalemate: neither economy's trajectory decisively favours one leg over six months.",
+        "key_bilateral_metrics": [
+          "Canada 2H growth pickup contingent on US cycle + tariff de-escalation",
+          "Switzerland defensive growth ~1.0% (SECO 2026), low cyclicality",
+          "Inflation gap ~2.2pp (Canada higher) but neutralised by both banks on hold",
+          "Swiss FX-inflation feedback loop caps CHF downside (pair-upside cap)",
+          "Both disinflating on lower oil — no clean differentiation"
+        ],
+        "what_is_priced": "Consensus prices stable soft growth in both economies. No mispriced directional growth surprise on the horizon; the factor stays Neutral.",
+        "citations": []
+      },
+      "horizon_split": "Both horizons are Neutral — the growth-inflation differential genuinely offsets within the pair (Switzerland firmer growth vs Canada's policy optionality). Confidence eases marginally with horizon as the strategic Canadian recovery is contingent on the US cycle.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 3,
+      "factor_name": "Risk Appetite & Sentiment",
+      "tactical_weight_default": 0.1,
+      "tactical_weight_applied": 0.1,
+      "strategic_weight_default": 0.05,
+      "strategic_weight_applied": 0.05,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 58,
+        "bilateral_analysis": "This is the pair's defining bilateral interaction. CAD/CHF is a textbook risk-on/risk-off barometer — a pro-cyclical commodity currency against a safe haven — so in the current risk-on tape (VIX ~16.2, down from ~22) the pair should rise: CAD's pro-cyclical beta lifts it while CHF's haven premium deflates. CAD/CHF is a commodity-versus-safe-haven cross currency pair offering crude oil correlation and defensive positioning characteristics. Both standalone dossiers confirm the regime: the CAD dossier reads risk as mildly CAD-supportive, while the CHF dossier reads the same de-escalation as clearly CHF-negative (haven unwind). Crucially, these REINFORCE for the pair — risk-on is positive for CAD AND negative for CHF, so the risk channel is a cleaner pair-up signal than it is for either leg standalone. The complication is that the same Iran deal driving risk-on is crushing oil (CAD-negative via Factor 5), so the risk tailwind and the terms-of-trade headwind arrive together. But the risk channel itself, isolated, is unambiguously pair-bullish.",
+        "key_bilateral_metrics": [
+          "VIX ~16.2 (down from ~22) — risk-on regime",
+          "CAD/CHF is a classic risk-on/risk-off proxy (commodity vs haven)",
+          "Risk-on reinforces for the pair: +CAD AND −CHF (rare clean alignment)",
+          "CHF risk beta ~−0.3 to VIX; CAD mildly pro-cyclical",
+          "Iran deal is the shared catalyst for both legs' moves"
+        ],
+        "what_is_priced": "The market has priced the de-escalation rally. The bilateral edge: the risk-on tailwind to the pair is being masked by the simultaneous oil drop, so if risk stays firm while oil finds a floor, the pair's risk-on character could reassert and lift it.",
+        "citations": []
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "bilateral_analysis": "Strategically the risk factor is two-sided and lower-weight. The base case is a continued moderate-risk regime that mildly favours the pair (pro-cyclical CAD over haven CHF), but the strategic horizon spans multiple shock windows — the Hormuz 60-day toll expiry (~mid-August), US fiscal/political flashpoints, European stress — any of which would flip the regime risk-off and slam the pair lower (CHF haven bid + CAD risk-off selling, a double hit since the pair is high-beta to risk). Because CHF holds haven gains longer than most and is the purer haven leg, a risk-off episode would likely move the pair down more sharply than a risk-on episode moves it up — an asymmetric downside skew. The probability that at least one risk-off window materialises over six months is meaningful, so the strategic risk factor is Neutral with a fat left tail rather than a directional pair-up call.",
+        "key_bilateral_metrics": [
+          "Base case: moderate risk-on, mild pair-positive",
+          "Multiple risk-off windows: Hormuz toll expiry, US/EU stress",
+          "Pair is high-beta to risk-off (double hit: +CHF, −CAD)",
+          "Asymmetric downside: risk-off moves pair down harder than risk-on lifts it",
+          "CHF is the purer/stickier haven leg"
+        ],
+        "what_is_priced": "Consensus prices a continued risk-on glide. The market under-prices the recurrence of risk-off episodes that would sharply pull the pair down, hence Neutral with embedded downside optionality.",
+        "citations": []
+      },
+      "horizon_split": "Tactical is Bullish because the live risk-on impulse cleanly reinforces for the pair (+CAD, −CHF); strategic is Neutral because over 1-6 months the recurrence of risk-off windows gives the pair fat left-tail risk that offsets the benign base case.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 4,
+      "factor_name": "Flows & Positioning",
+      "tactical_weight_default": 0.1,
+      "tactical_weight_applied": 0.1,
+      "strategic_weight_default": 0.06,
+      "strategic_weight_applied": 0.06,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 52,
+        "bilateral_analysis": "The net pair positioning signal is muted because specs are short BOTH legs. CAD is at an extreme short (leveraged −58,623, asset managers −73,639, ~6th percentile) while CHF is moderately short (leveraged −10,785, asset managers −36,553, ~20th percentile). When the market is short both currencies, a broad short-covering event would lift both — CHF (pair down) and CAD (pair up) — and the net effect depends on which squeezes harder. CHF's higher haven beta means a risk-off-driven squeeze would likely move CHF more (pair down), but CAD's far more extreme positioning means a CAD-specific catalyst (oil floor, USMCA relief) would squeeze CAD harder (pair up). The contrarian read is therefore ambiguous and catalyst-dependent, not a clean directional signal. The pair is a recognised carry-trade vehicle, so a meaningful chunk of the implied positioning is structural long-CAD/CHF carry rather than directional speculation, which dampens the squeeze interpretation further.",
+        "key_bilateral_metrics": [
+          "CAD specs: lev −58.6k, AM −73.6k (~6th pct — extreme)",
+          "CHF specs: lev −10.8k, AM −36.6k (~20th pct — moderate)",
+          "Both legs short → net pair signal muted/cancelling",
+          "CAD-specific catalyst → pair-up squeeze; risk-off → pair-down (CHF) squeeze",
+          "Pair is a structural carry vehicle (positioning partly non-directional)"
+        ],
+        "what_is_priced": "Both currencies are positioned for weakness. The bilateral edge is that the asymmetry favours a pair-up squeeze on a CAD-specific positive (given CAD's far more extreme short) versus a pair-down squeeze on a generalised risk-off (given CHF's haven beta).",
+        "citations": []
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "bilateral_analysis": "Strategically positioning fades as a signal for both legs. CHF's short is the natural resting state of a 0% funding currency and lacks mean-reversion pull; CAD's extreme short should unwind over months as the oil shock fades, providing a mild pair-up tailwind — but this is partly offset by structural Canadian portfolio outflows (pension/cross-border) that are a steady CAD drag. The pair's carry-vehicle status means structural long-CAD/CHF positioning persists in calm regimes, supporting the pair, but unwinds violently in risk-off. With no clear extreme on the net pair basis and offsetting structural flows, positioning gives no strong strategic steer. The CAD short normalising is marginally pair-positive, but diluted.",
+        "key_bilateral_metrics": [
+          "CAD short more likely to unwind (extreme) → mild pair-up over months",
+          "CHF short is structural (0% funder) → low mean-reversion",
+          "Structural Canadian outflows offset the CAD short-cover tailwind",
+          "Carry-vehicle long positioning supports pair in calm, unwinds in stress",
+          "No net pair extreme → weak strategic signal"
+        ],
+        "what_is_priced": "The market prices persistent shorts in both. Over six months the net positioning signal is close to neutral, with a faint pair-up lean from CAD short normalisation.",
+        "citations": []
+      },
+      "horizon_split": "Both horizons are Neutral because shorts in both legs cancel on a net pair basis. Tactical confidence edges strategic only marginally; the contrarian edge is genuinely two-sided and catalyst-dependent rather than directional.",
+      "carry_analysis": null,
+      "contrarian_analysis": {
+        "tactical": {
+          "combined_positioning_signal": "Net pair positioning signal is muted — specs are short BOTH legs (CAD ~6th pct extreme; CHF ~20th pct moderate), so two crowded shorts offset each other and there is no net pair extreme",
+          "unwind_trigger": "A CAD-specific positive catalyst (oil floor, USMCA relief, soft US data) squeezes the extreme CAD short violently upward; a generalised risk-off fires the CHF haven short-cover, pushing the pair down",
+          "historical_analogue": "CAD/CHF squeezes have been violent in both directions historically given the dual oil/intervention tail; in prior oil rebounds (e.g., OPEC+ surprise cuts) the extreme CAD short covered rapidly, lifting the pair 150-200 pips in days",
+          "contrarian_case": "The asymmetry tilts toward a pair-UP squeeze if a CAD-specific positive fires — CAD's short is far more extreme (~6th pct) than CHF's (~20th pct), meaning a CAD-relief catalyst unleashes a larger covering flow for the pair than a CHF haven-cover catalyst would drag it down. The contrarian case is not a clean directional trade but an asymmetric upside option on a CAD-specific positive that the crowded short makes explosive."
+        },
+        "strategic": {
+          "combined_positioning_signal": "Neither leg's short is stretched enough on a net pair basis to be a standalone contrarian trade over 1-6 months; CAD short should normalise (mild pair-up), CHF short is structural (no pull)",
+          "unwind_trigger": "CAD short normalises gradually as oil shock fades and USMCA clarity emerges; CHF short persists as the structural 0%-funding-currency positioning resting state",
+          "historical_analogue": "Over multi-month windows, CAD short normalisation has historically been a slow, grinding pair-up driver rather than a violent squeeze, contingent on an oil/trade catalyst rather than self-correcting",
+          "contrarian_case": "The strategic contrarian case is a tail consideration, not a thesis — positioning stays Neutral. The marginal pair-up from CAD short normalisation is the only directional lean, and it is diluted by CHF's structural short being non-mean-reverting and by Canadian portfolio outflows providing a steady CAD drag."
+        }
+      },
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 5,
+      "factor_name": "External Balance & Terms of Trade",
+      "tactical_weight_default": 0.06,
+      "tactical_weight_applied": 0.06,
+      "strategic_weight_default": 0.16,
+      "strategic_weight_applied": 0.16,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 58,
+        "bilateral_analysis": "The net commodity exposure is the clearest tactical pair-negative. The oil collapse (WTI ~$95→~$75.5, −20% on the 15 June Iran deal) is a direct CAD terms-of-trade hit — using the framework's direction rules, oil ↓ is strongly negative for petro-CAD. For CHF, lower oil is a mild terms-of-trade POSITIVE (energy importer). Netting: oil ↓ → −CAD AND mildly +CHF → pair FALLS (bearish CAD/CHF). This is a reinforcing pair-negative, the opposite of the risk channel. There is a secondary commodity offset: gold. Switzerland is the world's gold-refining hub and CHF correlates positively with gold; Switzerland is a major physical gold trade hub and home to five of the most important precious metal refineries where 70% of the world's supply is refined, so changes in gold prices affect the value of the CHF. Gold has fallen sharply (−10%+ over recent months, now ~$4,165–4,316), which is mildly CHF-negative (pair-positive), partly offsetting the oil-driven pair-negative. But the oil move dominates in magnitude. On bilateral trade, the IMF DOTS data shows a modest net deficit: CAD net goods balance vs CHF is −$1.2bn, a slight structural CAD-negative but too small to drive the pair tactically.",
+        "key_bilateral_metrics": [
+          "WTI ~$75.5, down ~20% from ~$95 (oil ↓ → −−CAD, +CHF → pair down)",
+          "Gold ~$4,165–4,316, down 10% (gold ↓ → −CHF → mild pair-up offset)",
+          "Net commodity: oil drag dominates gold offset → net pair-negative",
+          "Bilateral trade (IMF DOTS): CAD net goods balance vs CHF −$1.2bn",
+          "CAD CA −0.87% GDP vs CHF CA +3.0% GDP (structural CHF support)"
+        ],
+        "what_is_priced": "The oil collapse is rapidly priced into CAD weakness. The bilateral edge: if oil finds a floor (slow deal implementation, OPEC+ defence) while gold keeps falling, the net commodity drag on the pair stabilises and the gold-CHF channel could even tip mildly pair-positive.",
+        "citations": [
+          20,
+          21,
+          22,
+          23
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 56,
+        "bilateral_analysis": "At the heaviest strategic weight (0.16), external balance is decisively pair-negative — and this is where the bilateral picture tilts most clearly bearish. Switzerland runs a large, durable current-account surplus (+3.0% GDP headline, 5-8% underlying) that is a powerful structural CHF bid, while Canada runs a modest deficit (−0.87% GDP) that lower oil only widens. This surplus differential is a persistent pair-negative force: CHF has a structural balance-of-payments floor that CAD lacks. On commodities, the strategic netting still favours pair-down: even if oil bases in the high-$70s, Canada's terms of trade are weaker than Switzerland's improving energy-importer position. The gold offset matters strategically — if gold resumes its structural uptrend (most banks see $5,400–6,000 year-end), that would be CHF-supportive (pair-negative), but if the recent gold correction extends it is mildly pair-positive. On balance, the combination of Switzerland's surplus floor and Canada's oil-exposed deficit makes external balance the strongest single pair-negative factor strategically.",
+        "key_bilateral_metrics": [
+          "CHF current account +3.0% GDP (5-8% underlying) vs CAD −0.87%",
+          "CHF structural BoP bid is a persistent pair-negative floor",
+          "Oil basing high-$70s still leaves CAD ToT weaker than CHF",
+          "Gold structural uptrend (banks $5,400-6,000 YE) = CHF-supportive/pair-negative risk",
+          "Net commodity + balance: strategic pair-negative"
+        ],
+        "what_is_priced": "The market prices lower oil and Switzerland's surplus as givens. The bilateral edge: the structural CHF surplus bid repeatedly frustrates pair-upside, and a gold recovery would add a second CHF-supportive leg — both under-weighted by carry-focused longs.",
+        "citations": [
+          20,
+          21,
+          22,
+          23
+        ]
+      },
+      "horizon_split": "Both horizons are Bearish, with strategic carrying far more weight (0.16 vs 0.06). Tactically the oil collapse dominates; strategically Switzerland's structural surplus floor plus the oil-exposed Canadian deficit make this the pair's strongest bearish factor — and the heavy strategic weight is the main reason the strategic synthesis does not turn cleanly bullish despite the carry advantage.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": {
+        "base_commodity_profile": "CAD is a petro-currency; oil (WTI/Brent) is the dominant driver. Oil ↑ = CAD positive; oil ↓ = CAD strongly negative. CAD also has modest exposure to metals/agricultural commodities but oil dominates.",
+        "quote_commodity_profile": "CHF is a gold-refining hub currency; Switzerland refines ~70% of the world's gold supply. Gold ↑ = CHF positive (demand for CHF); gold ↓ = CHF mildly negative. CHF is also an energy importer, so oil ↓ = mildly CHF positive (lower import costs).",
+        "net_effect_calculation": "Step 1 — Oil move (WTI −20% to ~$75.5): oil ↓ is strongly negative for CAD (−−) and mildly positive for CHF as an energy importer (+). Net pair effect: oil ↓ = pair DOWN (doubly reinforcing). Step 2 — Gold move (−10% to ~$4,165-4,316): gold ↓ is mildly negative for CHF (−) via the refining-hub correlation, with no direct effect on CAD. Net pair effect: gold ↓ = mild pair UP (partially offsetting). Step 3 — Netting: oil drag (strongly pair-negative) dominates gold offset (mildly pair-positive). The oil move is ~20% vs the gold move ~10%, and oil's direct CAD link is stronger than gold's indirect CHF link. Net commodity effect: pair-NEGATIVE, driven by oil with partial gold offset.",
+        "scenario_oil_up_10pct": "Oil +10% from ~$75.5 to ~$83: +CAD (terms-of-trade recovery) AND mild −CHF (energy importer cost increase) → pair-UP, doubly reinforcing. Estimated pair impact: +80–120 pips.",
+        "scenario_oil_down_10pct": "Oil −10% from ~$75.5 to ~$68: −−CAD (deepening ToT loss) AND mild +CHF (energy importer benefit) → pair-DOWN, doubly reinforcing. Estimated pair impact: −80–120 pips.",
+        "dominant_commodity_driver": "Oil (WTI) is by far the dominant commodity driver for this pair, given CAD's petro-currency identity. Gold is a secondary CHF-leg modifier that can partially offset the oil signal but rarely dominates. The pair is uniquely sensitive to oil because oil moves BOTH legs in the same pair direction (−oil = −CAD AND +CHF)."
+      },
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 6,
+      "factor_name": "Guidance & Credibility",
+      "tactical_weight_default": 0.07,
+      "tactical_weight_applied": 0.07,
+      "strategic_weight_default": 0.12,
+      "strategic_weight_applied": 0.12,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 56,
+        "bilateral_analysis": "Both central banks are highly credible and currently delivering deliberately balanced, non-directional guidance, so the differential is neutral. The BoC held on 10 June with a neutral, two-sided tone ('stand ready to respond'); the SNB is expected to hold at 0% on 18 June with an in-band inflation forecast. Neither bank is signalling a directional shift that would move the pair. The bilateral nuance is sequencing and reaction function: the SNB meets quarterly and is frozen at zero (minimal guidance signal), while the BoC's 15 July MPR is the next live guidance event that could shift the pair via the CAD leg. Both are trusted, so there is no credibility premium differential. The factor is a steady neutral hand near term.",
+        "key_bilateral_metrics": [
+          "BoC neutral hold tone (10 Jun); SNB expected 0% hold (18 Jun)",
+          "BoC next live event: 15 July MPR (CAD-leg driver)",
+          "SNB frozen at floor — minimal guidance signal",
+          "Both AAA-credible — no credibility premium differential",
+          "Neither signalling directional shift"
+        ],
+        "what_is_priced": "The market prices credible holds from both. No directional guidance surprise embedded; the factor is neutral.",
+        "citations": []
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "bilateral_analysis": "Strategically both banks are stabilising, range-keeping forces rather than directional drivers. The BoC sits at the bottom of its 2.25-3.25% neutral range (limited further easing, capping CAD downside / pair-downside); the SNB is at its floor with a latent choice between negative rates and intervention if disinflation deepens (a CHF-bearish tail / pair-positive if it materialises). Neither delivers a clean strategic steer. The SNB's intervention readiness is the one asymmetry worth noting — if the SNB leaned against CHF strength, it would cap pair downside, a mild pair-stabiliser. Both banks' credibility removes tail risk from either leg. Net Neutral.",
+        "key_bilateral_metrics": [
+          "BoC at bottom of neutral (2.25-3.25%) — caps CAD/pair downside",
+          "SNB latent negative-rate/intervention choice — CHF-bearish tail (pair-positive)",
+          "SNB intervention readiness caps pair-downside",
+          "Both credible — no tail risk from either leg",
+          "Strategic guidance events: BoC MPRs (Jul/Oct), SNB (Sep/Dec)"
+        ],
+        "what_is_priced": "Both priced as credible, predictable holds. The latent SNB policy-shift tail is the only under-priced element, a mild pair-positive risk.",
+        "citations": []
+      },
+      "horizon_split": "Both horizons Neutral — both banks telegraph credible holds. Strategic carries more weight (0.12) given the latent SNB negative-rate/intervention choice, but the direction stays balanced.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 7,
+      "factor_name": "Event Risk & Geopolitics",
+      "tactical_weight_default": 0.05,
+      "tactical_weight_applied": 0.05,
+      "strategic_weight_default": 0.05,
+      "strategic_weight_applied": 0.05,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 54,
+        "bilateral_analysis": "The dominant June event — the US-Iran deal — cuts both ways for the pair, hence Neutral. For CAD it is oil-negative (pair-down via Factor 5) but tariff/risk-positive; for CHF it is haven-negative (pair-up via Factor 3). The very same event that hurts the CAD leg via oil helps the pair via CHF haven unwind, so the net event impact is genuinely offsetting. Notably, the signing ceremony was hosted in Switzerland, underscoring the deal's direct relevance to both legs. The pair-specific event sensitivities differ: Canada-specific events (USMCA review 1 July, Section 122 expiry 24 July) move the pair via the CAD leg, while the Hormuz 60-day toll expiry moves it via both (oil + haven). With offsetting near-term events, the factor is Neutral.",
+        "key_bilateral_metrics": [
+          "Iran deal: oil-negative (−CAD) but haven-negative (−CHF) → offsetting for pair",
+          "Signing ceremony hosted in Switzerland",
+          "CAD-specific: USMCA review (1 Jul), Section 122 expiry (24 Jul)",
+          "Shared: Hormuz 60-day toll expiry (~mid-Aug, oil + haven)",
+          "Net near-term events offsetting"
+        ],
+        "what_is_priced": "The market prices durable de-escalation. The bilateral edge: a Hormuz wobble would re-arm oil (pair-up via CAD) AND the haven bid (pair-down via CHF) — another offsetting event, keeping the factor neutral.",
+        "citations": []
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 52,
+        "bilateral_analysis": "Strategically event risk is two-sided. The dominant Canada-specific event is the USMCA review (1 July trigger, multi-month process) — a clean renewal would lift CAD (pair-up), a breakdown would hit CAD (pair-down). For CHF, the recurrence of risk-off windows (Hormuz toll expiry, DM stress) would reignite the haven bid (pair-down). These offset: a benign trade/geopolitical path favours the pair (CAD relief + CHF haven fade), while a shock favours the downside (CHF haven bid). Switzerland's neutrality erosion (EU-aligned sanctions) is a slow-burn CHF-negative (mild pair-positive). The net is balanced two-sided risk.",
+        "key_bilateral_metrics": [
+          "USMCA review (multi-month) — CAD-leg binary (pair up on renewal, down on breakdown)",
+          "Risk-off windows reignite CHF haven (pair-down)",
+          "Swiss neutrality erosion — slow CHF-negative (mild pair-positive)",
+          "No Canadian election until 2029 (low CAD political risk)",
+          "Net two-sided"
+        ],
+        "what_is_priced": "Consensus prices muddle-through on trade and durable de-escalation. Roughly symmetric two-sided risk for the pair, hence Neutral.",
+        "citations": []
+      },
+      "horizon_split": "Both horizons Neutral — events cut both ways for the pair (the Iran deal and Hormuz expiry hit both legs in offsetting directions; USMCA is a CAD-leg binary). Confidence eases slightly with horizon given USMCA process uncertainty.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 8,
+      "factor_name": "Fiscal & Sovereign Risk",
+      "tactical_weight_default": 0.04,
+      "tactical_weight_applied": 0.04,
+      "strategic_weight_default": 0.07,
+      "strategic_weight_applied": 0.07,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 60,
+        "bilateral_analysis": "Both sovereigns are pristine AAA credits, so fiscal risk generates no tactical catalyst — but the differential modestly favours CHF (pair-negative). Switzerland's federal net debt is ~16% of GDP under a constitutional debt brake, among the lowest in the developed world, versus Canada's ~45-50% federal (combined ~80-85%). Both carry AAA ratings with no pending action. The slight edge to Switzerland's fiscal supremacy is a structural CHF quality anchor that marginally favours the pair lower, but the gap is not material in the tactical window — neither has an auction, rating review, or fiscal shock pending. This is a quiet, dormant pair-negative.",
+        "key_bilateral_metrics": [
+          "Switzerland federal net debt ~16% GDP (debt brake) vs Canada ~45-50%",
+          "Both AAA, stable, no pending rating action",
+          "CHF fiscal supremacy = mild structural pair-negative",
+          "No tactical catalyst either side",
+          "UBS capital-rules saga (CHF banking, not sovereign)"
+        ],
+        "what_is_priced": "Both priced as AAA fortresses correctly. No tactical mispricing; the mild CHF fiscal edge is a dormant pair-negative.",
+        "citations": []
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 58,
+        "bilateral_analysis": "Strategically Switzerland's fiscal supremacy is a durable, if low-weight, pair-negative. Its ~16% debt/GDP and debt-brake regime guarantee that in any DM stress episode capital rotates toward CHF — a structural pillar of the franc's haven appeal that CAD, despite its own strong AAA, cannot match in a crisis. Canada's larger debt load and oil-revenue sensitivity (lower oil trims Alberta/Saskatchewan provincial revenue) are mild relative negatives. Neither faces a debt-sustainability concern within the horizon. The factor reinforces the strategic external-balance pair-negative (Factor 5) — both point to CHF's structural quality anchoring the pair lower — but at a modest 0.07 weight.",
+        "key_bilateral_metrics": [
+          "Switzerland ~16% debt/GDP vs Canada ~80-85% combined",
+          "CHF the crisis-rotation destination (haven + fiscal fortress)",
+          "Lower oil trims Canadian provincial revenue (mild CAD-negative)",
+          "Both AAA, no sustainability concern",
+          "Reinforces Factor 5 strategic pair-negative"
+        ],
+        "what_is_priced": "Both fiscal fortresses fully priced. The comparative edge to CHF in any DM stress is a slow structural pair-negative the market under-weights.",
+        "citations": []
+      },
+      "horizon_split": "Both horizons mildly Bearish — CHF's fiscal supremacy modestly favours the pair lower at both windows, with strategic carrying slightly more weight as a crisis-rotation advantage.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 9,
+      "factor_name": "Market Structure & Volatility",
+      "tactical_weight_default": 0.05,
+      "tactical_weight_applied": 0.05,
+      "strategic_weight_default": 0.03,
+      "strategic_weight_applied": 0.03,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 55,
+        "bilateral_analysis": "The pair's own chart is mildly bearish. Spot 0.5690 sits below all three major moving averages (50d 0.5702, 100d 0.5719, 200d 0.5721), which cluster tightly as overhead resistance, and the pair has been in a descending channel since April 2025. The overall MA rating is 'strong sell' for CAD/CHF. The recent fade from the early-June 0.5739 high back below the MA cluster confirms the bearish structure. Volatility is low-to-fair (~6-7% realised, in line with the legs' implied), but the pair carries a dual fat tail: SNB intervention risk where sudden policy shifts can trigger 20% intraday moves as seen in 2015, and oil volatility where unexpected OPEC decisions can trigger 200-pip moves within hours. The cross-skew is near-flat (CAD-put skew vs CHF-call skew roughly offset) with a fat left tail (pair-down on risk-off). Structure leans pair-bearish near term, though proximity to the 0.5595 range floor sets up bounce potential.",
+        "key_bilateral_metrics": [
+          "Spot 0.5690 below 50d/100d/200d (0.5702/0.5719/0.5721) — bearish stack",
+          "Descending channel since April 2025; 'strong sell' MA rating",
+          "Realised vol ~6-7%; dual oil + SNB-intervention fat tail",
+          "Resistance 0.5720 (MA cluster), 0.5765-0.5780; support 0.5660, 0.5595",
+          "Near-flat cross-skew with fat left tail"
+        ],
+        "what_is_priced": "The chart prices a continued mild downtrend. The bilateral edge: proximity to the 0.5595 range floor (20th percentile) means downside is increasingly hard-won, and a hold there with carry support could base the pair.",
+        "citations": [
+          6,
+          8,
+          12,
+          15
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "bilateral_analysis": "Strategically the structure is a low-weight Neutral. The pair is range-bound in roughly 0.5595-0.5800, near the lower end. The key structural question is whether it breaks the 0.5595 floor (extending the downtrend, pair-bearish) or bases there and reclaims the MA cluster / 0.5720 (turning the trend, pair-bullish on carry support). With the pair at the 20th range percentile and positive carry accruing, the risk/reward of fresh shorts at the floor is deteriorating. Vol stays structurally low between shocks but the dual fat tail is permanent. No decisive trend break either way, so Neutral.",
+        "key_bilateral_metrics": [
+          "Range ~0.5595-0.5800; spot near lower end (20th pct)",
+          "0.5595 floor break = pair-bearish; reclaim 0.5720 = pair-bullish",
+          "Positive carry deteriorates risk/reward of floor shorts",
+          "Dual fat tail permanent; low vol between shocks",
+          "No decisive trend break"
+        ],
+        "what_is_priced": "The market prices a range-bound, low-vol pair. The structural inflection is the 0.5595 floor — a break or a base there sets the strategic direction.",
+        "citations": []
+      },
+      "horizon_split": "Tactical is Bearish (bearish MA stack, descending channel); strategic is Neutral as the pair sits near a major range floor where carry support and deteriorating short risk/reward could base it.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": {
+        "vol_landscape_summary": "Pair vol is low-to-fair at ~6-7% realised with implied vols on the two legs (~6.8-7.1%) roughly in line; cross-skew is near-flat with a fat left tail (pair-down on risk-off). The pair is a low-liquidity minor cross (ranks 25th globally, ~0.58% of FX turnover), creating execution and gap-risk considerations.",
+        "directional_expression": "With pair vol low-to-fair and a near-flat cross-skew, the directional view (low-conviction) is efficiently expressed in spot rather than options. For the modest carry-long view, a small spot long CAD/CHF near the 0.5595-0.5660 support zone (capturing the +225bps carry) paired with a cheap pair-downside option hedge is the cleanest structure. Given the thin carry cushion (~11 pips/month) versus 200-pip oil-driven gap risk, sizing and the tail hedge matter more than conviction.",
+        "event_timing_consideration": "Mild backwardation/event premium clusters around the BoC 15 July MPR and Hormuz toll expiry — position before or wait for resolution. The SNB 18 June hold is fully priced and poses minimal event risk. Swiss CPI 3 July and USMCA review 1 July are the next live event risks before the BoC MPR.",
+        "liquidity_note": "CAD/CHF is a minor cross (25th most traded globally, 0.58% of FX turnover) — execution risk includes wider spreads (typically 2-5 pips), lower depth, and higher gap risk on macro shocks. The dual fat tail (oil shocks and SNB intervention, as seen in 2015 when the SNB triggered 20% intraday moves) makes this pair unsuitable for large, unhedged directional positions. Spot long is preferred over options given vol cheapness, but the pair-downside option tail hedge is attractively priced and strongly recommended."
+      }
+    },
+    {
+      "factor_number": 10,
+      "factor_name": "USD Liquidity & Funding",
+      "tactical_weight_default": 0.11,
+      "tactical_weight_applied": 0.11,
+      "strategic_weight_default": 0.12,
+      "strategic_weight_applied": 0.12,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 52,
+        "bilateral_analysis": "As a non-USD cross, USD funding affects CAD/CHF only through the vehicle-currency channel, and currently it is benign-neutral. SOFR is stable (~3.69%), the Fed balance sheet is draining at a measured pace, and there is no funding stress. The firm broad dollar (index 119.5) is a mild headwind for CAD (pair-negative) but CHF, also a low-yielder, behaves similarly to CAD as a non-USD currency in calm conditions — so the dollar-strength effect is roughly symmetric and does not cleanly differentiate. Crucially, in a USD funding squeeze, CHF is a left-tail winner (haven + carry unwind) while CAD lacks that bid — so funding stress would be pair-NEGATIVE. With funding calm now, the factor is Neutral with a fat pair-down tail. Both Canadian and Swiss banks are deeply USD-integrated, so neither faces a basis blowout.",
+        "key_bilateral_metrics": [
+          "SOFR ~3.69% stable; no funding stress",
+          "Broad USD 119.5 — mild, roughly symmetric headwind to both low-yielders",
+          "USD squeeze = CHF haven winner, CAD not → pair-down tail",
+          "Both CAD/CHF banks deeply USD-integrated (tight basis)",
+          "Non-USD cross: vehicle-channel only"
+        ],
+        "what_is_priced": "The market prices orderly USD liquidity. The bilateral edge: a funding squeeze would flip this pair-negative (CHF haven bid + carry unwind), a tail the calm pricing ignores.",
+        "citations": []
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 52,
+        "bilateral_analysis": "Strategically USD funding is Neutral with an asymmetric pair-down tail. The base case is orderly funding with a firm-to-soft dollar; if the dollar softens (consensus, Fed eventually easing), both CAD and CHF benefit roughly symmetrically as non-USD currencies, so little differentiation. The strategic asymmetry is the recurrent funding-stress window (year-end, equity/credit shocks): in any USD squeeze, CHF strengthens as the carry-unwind/haven destination while CAD weakens, making the pair fall. This convexity (capped pair-upside from funding, large pair-down tail) is another reason to keep the strategic view modest and hedged. Year-end is at the far edge of the horizon.",
+        "key_bilateral_metrics": [
+          "Base case: orderly funding, dollar firm-to-soft — symmetric for both",
+          "Funding squeeze = CHF winner, CAD loser → pair-down tail",
+          "Year-end funding window at horizon edge",
+          "CHF left-tail winner in USD liquidity seizure",
+          "Convex: capped pair-upside, large pair-down tail"
+        ],
+        "what_is_priced": "Consensus prices abundant USD liquidity. The under-priced funding-stress tail is pair-negative (CHF haven/carry unwind), hence Neutral-with-convex-downside.",
+        "citations": []
+      },
+      "horizon_split": "Both horizons Neutral — USD funding is benign and roughly symmetric for two non-USD low-yielders, with the only asymmetry being a pair-down tail in a funding squeeze (CHF the haven winner).",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    }
+  ],
+  "synthesis": {
+    "weight_adjustments": {
+      "adjustments_made": false,
+      "adjustments": []
+    },
+    "tactical": {
+      "net_stance": "Neutral",
+      "conviction": 2,
+      "overall_confidence": 55,
+      "weighted_score_calculation": [
+        {
+          "factor_number": 1,
+          "factor_name": "Policy & Rates (Relative)",
+          "stance_score": 1,
+          "confidence": 60,
+          "conf_adj_score": 0.6,
+          "weight": 0.24,
+          "weighted_contribution": 0.144
+        },
+        {
+          "factor_number": 2,
+          "factor_name": "Inflation & Growth Dynamics",
+          "stance_score": 0,
+          "confidence": 55,
+          "conf_adj_score": 0,
+          "weight": 0.18,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 3,
+          "factor_name": "Risk Appetite & Sentiment",
+          "stance_score": 1,
+          "confidence": 58,
+          "conf_adj_score": 0.58,
+          "weight": 0.1,
+          "weighted_contribution": 0.058
+        },
+        {
+          "factor_number": 4,
+          "factor_name": "Flows & Positioning",
+          "stance_score": 0,
+          "confidence": 52,
+          "conf_adj_score": 0,
+          "weight": 0.1,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 5,
+          "factor_name": "External Balance & Terms of Trade",
+          "stance_score": -1,
+          "confidence": 58,
+          "conf_adj_score": -0.58,
+          "weight": 0.06,
+          "weighted_contribution": -0.0348
+        },
+        {
+          "factor_number": 6,
+          "factor_name": "Guidance & Credibility",
+          "stance_score": 0,
+          "confidence": 56,
+          "conf_adj_score": 0,
+          "weight": 0.07,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 7,
+          "factor_name": "Event Risk & Geopolitics",
+          "stance_score": 0,
+          "confidence": 54,
+          "conf_adj_score": 0,
+          "weight": 0.05,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 8,
+          "factor_name": "Fiscal & Sovereign Risk",
+          "stance_score": -1,
+          "confidence": 60,
+          "conf_adj_score": -0.6,
+          "weight": 0.04,
+          "weighted_contribution": -0.024
+        },
+        {
+          "factor_number": 9,
+          "factor_name": "Market Structure & Volatility",
+          "stance_score": -1,
+          "confidence": 55,
+          "conf_adj_score": -0.55,
+          "weight": 0.05,
+          "weighted_contribution": -0.0275
+        },
+        {
+          "factor_number": 10,
+          "factor_name": "USD Liquidity & Funding",
+          "stance_score": 0,
+          "confidence": 52,
+          "conf_adj_score": 0,
+          "weight": 0.11,
+          "weighted_contribution": 0
+        }
+      ],
+      "net_weighted_score": 0.1157,
+      "score_interpretation": "A net tactical score of +0.116 is a mild bullish-pair reading driven by the heavily-weighted positive-carry rate factor (+0.144) and the risk-on channel (+0.058), partly offset by the oil-driven external balance (−0.035), the bearish chart (−0.028) and CHF's fiscal edge (−0.024). However, the raw arithmetic over-states the carry's near-term traction: the chart is bearish, spot sits below all MAs near range lows, and the live oil collapse is actively dragging the pair. The tactical stance is therefore resolved to Neutral with a slight bearish tilt — the score says carry should lift the pair, but the price action and oil shock say it cannot yet. This maps to conviction 2.",
+      "rationale": "The pair's tactical fate is a tug-of-war between its two defining characteristics — a +225bps carry advantage (the heaviest 0.24-weighted factor, pair-positive) and its identity as a commodity-vs-haven proxy hit by a simultaneous oil collapse (pair-negative) and risk-on haven unwind (pair-positive). The rare feature of CAD/CHF is that both standalone dossiers are tactically bearish on their own legs, which mutes the net signal: CAD is bearish on negative USD carry and oil, CHF is bearish on the haven unwind, and these partly cancel within the cross — exactly why the pair is flat (+0.05% 1M) despite huge underlying moves. The base and quote views interact most cleanly on the risk channel, where they REINFORCE (risk-on is +CAD and −CHF), and most offsettingly on the Iran deal, which is oil-negative for CAD but haven-negative for CHF. The bilateral-specific modifier that the standalone views miss is the netting: the same shock that crushes the CAD leg via oil also crushes the CHF leg via haven, so the pair barely moves. What is priced is a range-bound pair near its lows; what I expect is continued consolidation in the 0.5595-0.5780 range with the +225bps carry providing a slow floor and the bearish chart capping rallies. The path of least resistance is sideways-to-slightly-lower while oil stays soft, with the MA cluster (0.5720) as the pivot. Key dated catalysts: BoC 15 July MPR (CAD leg), Swiss CPI 3 July (CHF leg), USMCA review 1 July, and the Hormuz toll expiry (~mid-Aug, both legs). Conviction is low (2) because the forces are genuinely balanced — the carry tailwind, the oil headwind, and the offsetting risk/haven dynamics nearly cancel — and the pair's dual fat tail (oil + SNB intervention) makes any directional bet vulnerable to a violent gap.",
+      "g10_relative_ranking": "Among CAD crosses, CAD/CHF ranks as a middling long: it offers positive carry (+225bps) unlike short USD/CAD, but the oil drag caps it — it ranks behind AUD/CAD-fade and CAD/JPY for expressing CAD strength. Among CHF crosses, long CAD/CHF ranks behind the higher-carry AUD/CHF (+435bps) and NOK/CHF (+425bps) as a way to be short CHF, because CAD's oil exposure and weaker carry make it an inferior funding-vs-CHF vehicle. The pair sits mid-pack in the broader opportunity set — a balanced, low-conviction carry-vs-commodity stalemate rather than a high-conviction directional trade.",
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "pair_target": "CAD/CHF 0.5640-0.5740 (drift toward 0.5660)",
+          "timeframe": "2-4 weeks",
+          "conditions": [
+            "Oil stable mid-$70s, not falling further",
+            "Both banks hold (BoC 15 Jul, SNB 18 Jun)",
+            "Risk-on persists without a fresh shock"
+          ],
+          "path": "CAD/CHF consolidates near 0.5660-0.5700 into the July event cluster (BoC MPR, USMCA, Swiss CPI), drifting slightly lower toward 0.5660 as the bearish chart and soft oil cap rallies at the MA cluster while +225bps carry floors dips. Rallies toward the MA cluster (0.5720) are sold; dips toward 0.5595 are bought on carry support."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "pair_target": "CAD/CHF 0.5780-0.5800",
+          "conditions": [
+            "Oil finds a firm floor or rebounds (deal implementation slow, OPEC+ defence)",
+            "A USMCA-relief headline or soft US data squeezes the extreme CAD short"
+          ]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "pair_target": "CAD/CHF 0.5550-0.5595",
+          "conditions": [
+            "Oil slides further on rapid Iranian supply return",
+            "A risk-off catalyst (Hormuz wobble, equity selloff) drives the haven CHF bid"
+          ]
+        }
+      },
+      "path_expectation": "Expect a choppy, range-bound grind rather than a trend, anchored by the 0.5595 floor below and the 0.5720-0.5780 MA/resistance cluster above. The most likely shape is consolidation near 0.5660-0.5700 into the July event cluster (BoC MPR, USMCA, Swiss CPI), with the +225bps carry slowly accruing on the long side. Rallies toward the MA cluster are likely to be sold given the bearish chart; dips toward 0.5595 are likely to be bought given the carry support and proximity to range lows. The dominant risk to this path is the dual fat tail: a sharp oil move (either direction) or an SNB/risk-off shock could trigger a fast 100-200 pip gap, making a spike-and-fade more likely than a sustained directional move.",
+      "conviction_ladder": {
+        "current": 2,
+        "increase_conditions": [
+          "Increase to 4 if: oil bases decisively above $80 (CAD ToT bid returns) AND CAD/CHF reclaims and holds above 0.5720 (MA cluster), confirming carry traction; OR a clean USMCA-relief headline squeezes the extreme CAD short toward 0.5780",
+          "Increase to 3 if: oil stabilises mid-$70s while risk-on holds, letting the +225bps carry accrue with the pair basing above 0.5640"
+        ],
+        "decrease_conditions": [
+          "Decrease to 1 if: oil slides below $70 (deepening CAD ToT drag) AND CAD/CHF breaks 0.5595 on volume",
+          "Decrease to 1 if: a risk-off shock (VIX above 25) fires the CHF haven bid toward 0.5550"
+        ]
+      },
+      "risk_reward": {
+        "base_case_payoff": "+30 pips (~0.5%) — slight bearish tilt, short from 0.5690 to 0.5660",
+        "downside_case_loss": "-90 pips (~1.6%) — short loses to 0.5780 on upside case",
+        "risk_reward_ratio": "1.5:1 (downside payoff vs upside loss)",
+        "expected_value": "EV (short bias): (0.50 × +30) + (0.25 × +140) + (0.25 × −90) = +15 + 35 − 22.5 = +27.5 pips",
+        "asymmetry_assessment": "Modestly favourable for a small short bias, but the +225bps carry works AGAINST the short (paying ~11 pips/month) and the CAD short-squeeze risk is real — the edge is thin, justifying conviction 2 and tight sizing. Better expressed as range-trading than a directional position."
+      }
+    },
+    "strategic": {
+      "net_stance": "Neutral",
+      "conviction": 2,
+      "overall_confidence": 55,
+      "weighted_score_calculation": [
+        {
+          "factor_number": 1,
+          "factor_name": "Policy & Rates (Relative)",
+          "stance_score": 1,
+          "confidence": 58,
+          "conf_adj_score": 0.58,
+          "weight": 0.24,
+          "weighted_contribution": 0.1392
+        },
+        {
+          "factor_number": 2,
+          "factor_name": "Inflation & Growth Dynamics",
+          "stance_score": 0,
+          "confidence": 52,
+          "conf_adj_score": 0,
+          "weight": 0.1,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 3,
+          "factor_name": "Risk Appetite & Sentiment",
+          "stance_score": 0,
+          "confidence": 50,
+          "conf_adj_score": 0,
+          "weight": 0.05,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 4,
+          "factor_name": "Flows & Positioning",
+          "stance_score": 0,
+          "confidence": 50,
+          "conf_adj_score": 0,
+          "weight": 0.06,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 5,
+          "factor_name": "External Balance & Terms of Trade",
+          "stance_score": -1,
+          "confidence": 56,
+          "conf_adj_score": -0.56,
+          "weight": 0.16,
+          "weighted_contribution": -0.0896
+        },
+        {
+          "factor_number": 6,
+          "factor_name": "Guidance & Credibility",
+          "stance_score": 0,
+          "confidence": 55,
+          "conf_adj_score": 0,
+          "weight": 0.12,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 7,
+          "factor_name": "Event Risk & Geopolitics",
+          "stance_score": 0,
+          "confidence": 52,
+          "conf_adj_score": 0,
+          "weight": 0.05,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 8,
+          "factor_name": "Fiscal & Sovereign Risk",
+          "stance_score": -1,
+          "confidence": 58,
+          "conf_adj_score": -0.58,
+          "weight": 0.07,
+          "weighted_contribution": -0.0406
+        },
+        {
+          "factor_number": 9,
+          "factor_name": "Market Structure & Volatility",
+          "stance_score": 0,
+          "confidence": 50,
+          "conf_adj_score": 0,
+          "weight": 0.03,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 10,
+          "factor_name": "USD Liquidity & Funding",
+          "stance_score": 0,
+          "confidence": 52,
+          "conf_adj_score": 0,
+          "weight": 0.12,
+          "weighted_contribution": 0
+        }
+      ],
+      "net_weighted_score": 0.009,
+      "score_interpretation": "A net strategic score of +0.009 is essentially flat — a genuine coin-flip. The heavily-weighted positive-carry rate factor (+0.139) is almost exactly offset by the now-0.16-weighted external balance (−0.090, Switzerland's structural surplus + Canada's oil-exposed deficit) and CHF's fiscal supremacy (−0.041). This is the cleanest illustration of the pair's central tension: carry says buy CAD/CHF, structural balances say CHF stays bid. The near-zero score maps to Neutral, conviction 2.",
+      "rationale": "At strategic weights the pair becomes a precise tug-of-war that nets to flat. The 0.24-weighted rate factor is the strongest single force and stays pair-bullish (+0.139): CAD's +225bps carry over a floored SNB is durable and supports a higher pair over months as carry accrues. But the strategic re-weighting lifts external balance to 0.16, and there the bilateral picture turns decisively pair-negative (−0.090): Switzerland's large, persistent current-account surplus (+3% headline, 5-8% underlying) is a structural CHF bid that Canada's modest, oil-exposed deficit (−0.87%) cannot match, joined by CHF's fiscal fortress (−0.041, ~16% debt/GDP vs Canada's ~80-85%). The decisive bilateral interaction is this clash: the carry/yield channel says sell the franc and buy the loonie, while the balance-of-payments and sovereign-credit channels say the franc is structurally supported and chronically rich. The base and quote views reinforce here in an unhelpful way — both dossiers acknowledge CHF's structural surplus floor and CAD's oil-deficit vulnerability — leaving no dominant direction. What is priced is a range-bound pair; what I expect is the same, with the carry providing a slow floor and the CHF surplus capping upside, keeping the pair in roughly 0.5595-0.5800. The path of least resistance is sideways with a faint upward carry drift, repeatedly frustrated by the structural CHF bid. Key strategic catalysts: BoC MPRs (15 July, 28 October), SNB meetings (25 September, 11 December), the USMCA review process, the Hormuz toll expiry, and the oil/gold price trajectories. Conviction is 2 because the factors so nearly offset (+0.009) that this is genuinely a coin-flip; the edge is in the path and the carry harvest, not in a directional view. Statistical model forecasts broadly agree the pair stays near current levels — the projected average value of CAD/CHF is about 0.5803 by the end of 2026 — implying modest upside that aligns with the carry-supported, surplus-capped grind.",
+      "g10_relative_ranking": "Strategically, long CAD/CHF ranks mid-pack among carry-vs-CHF crosses: it offers positive carry but ranks behind AUD/CHF and NOK/CHF (higher carry, firmer terms of trade) and faces CHF's structural surplus headwind that those pairs also face. Among CAD crosses, it ranks behind CAD/JPY (cleaner positive-carry CAD expression versus a normalising-but-still-low-yield BoJ) for expressing CAD strength, because CHF's surplus floor is more resistant than JPY's. CAD/CHF is a balanced carry-harvest hold rather than a strategic outperformer — a coin-flip pair where the +225bps carry is the only durable edge.",
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "pair_target": "CAD/CHF 0.5640-0.5820 (drift toward 0.5780)",
+          "timeframe": "1-6 months",
+          "conditions": [
+            "SNB holds 0% / BoC holds ~2.25% (gap intact, carry accrues)",
+            "Oil bases high-$70s (CAD ToT stabilises)",
+            "Risk-on broadly persists with retraced risk-off episodes"
+          ],
+          "path": "The pair grinds slowly higher as the +225bps carry accrues, but repeatedly stalls at 0.5780-0.5800 as Switzerland's structural surplus bid frustrates rallies and the 0.5595 floor and carry support prevent a deeper break. The most likely shape is consolidation near 0.5660-0.5780 through the summer event cluster, with a faint upward carry drift overlaid with sharp retraced downside spikes on any risk-off window."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "pair_target": "CAD/CHF 0.5900-0.5950",
+          "conditions": [
+            "Clean USMCA renewal plus oil floor lifting CAD and squeezing the extreme CAD short",
+            "Sustained risk-on compressing CHF's haven premium with gold remaining soft"
+          ]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "pair_target": "CAD/CHF 0.5500-0.5550",
+          "conditions": [
+            "Oil toward $60 widening Canada's deficit and deepening CAD ToT loss",
+            "A risk-off/funding-stress shock firing the CHF haven bid plus carry unwind, or gold recovering toward $5,000+"
+          ]
+        }
+      },
+      "path_expectation": "Expect a slow, surplus-capped grind with a faint upward carry drift, overlaid with sharp retraced downside spikes on any risk-off window. The most likely shape is consolidation near 0.5660-0.5780 through the summer event cluster, with the pair frequently testing but failing to clear the 0.5780-0.5800 resistance as Switzerland's structural CHF bid frustrates rallies, while the 0.5595 floor and +225bps carry support dips. Any move toward the December-highs/0.5850 zone will be grinding and interrupted. The high probability that at least one risk-off episode (Hormuz expiry, DM stress, gold recovery) interrupts the drift over six months means the realised path is choppy rather than trending — reinforcing the low conviction. Vol stays structurally low between shocks but the dual oil/intervention tail is permanent.",
+      "conviction_ladder": {
+        "current": 2,
+        "increase_conditions": [
+          "Increase to 4 if: oil bases above $80 AND gold extends its decline (both CHF-negative/pair-positive) while the pair reclaims 0.5780, confirming the carry+commodity case; OR a clean USMCA renewal triggers a CAD value-recovery",
+          "Increase to 3 if: the BoC-SNB gap holds at +225bps with oil stable, letting the carry accrue and the pair base above 0.5700"
+        ],
+        "decrease_conditions": [
+          "Decrease to 1 if: Switzerland's surplus data surprises higher AND gold resumes its structural uptrend (double CHF-supportive), OR a DM stress episode reignites the CHF haven bid breaking 0.5550",
+          "Decrease to 1 if: oil slides toward $60 widening Canada's deficit and the BoC signals an easing cycle (narrowing carry gap)"
+        ]
+      },
+      "risk_reward": {
+        "base_case_payoff": "+155 pips total — base case spot +90 pips (0.5690 to 0.5780) plus ~+65 pips carry over 6M (+225bps annualised)",
+        "downside_case_loss": "-160 pips (~2.8%) — long loses to 0.5530, partly cushioned by carry accrued",
+        "risk_reward_ratio": "~1.5:1 (base+carry vs downside)",
+        "expected_value": "EV (long, including carry): (0.50 × +155) + (0.25 × +295) + (0.25 × −95) = +77.5 + 73.75 − 23.75 = +127.5 pips",
+        "asymmetry_assessment": "Modestly favourable for a patient, carry-supported long, but the distribution has a fat left tail (sharp CHF strength on any risk-off or gold recovery). The +225bps carry tilts expected value positive even in a flat-spot scenario, which is the core reason a small long is marginally preferable to a short strategically — but the surplus cap and tail risk keep conviction at 2 and demand a downside hedge."
+      }
+    },
+    "consensus_divergence": {
+      "bank_consensus_forecast": "Consensus for CAD/CHF is thin (a minor cross) but available statistical-model forecasts cluster near current levels with modest upside: one model suggests CAD to CHF yearly predictions imply a potential profit of 2.71% ROI if long CAD/CHF closed on Dec 09, 2026, and another model projects an average near 0.5803 by year-end (sources: Traders Union, 30rates, CoinCodex). Combining standalone dossier bank views, both legs' consensus is mildly bearish (consensus sees USD/CAD drifting to mid-1.30s = CAD recovery, and UBS sees EUR/CHF rising to 0.94-0.95 = CHF weakness), netting to a mildly bullish CAD/CHF pair-implied consensus.",
+      "our_tactical_view": "Neutral with slight bearish tilt — range-bound consolidation near 0.5640-0.5740, drifting slightly lower as oil drag and bearish chart cap rallies while carry floors dips",
+      "our_strategic_view": "Neutral — slow carry-supported grind toward 0.5780 capped by Switzerland's structural surplus bid; coin-flip pair with +225bps carry the only durable edge",
+      "divergence_direction": "In-line directionally (mild bullish) but at lower conviction",
+      "divergence_magnitude": "Within consensus range — our 6M expected 0.5780 aligns with the 0.5803 year-end model forecast; the divergence is in the conviction and path, not the direction",
+      "why_we_differ": "We differ in emphasising the pair's offsetting structure — the same de-escalation that helps CAD recover (consensus driver) also helps CHF weaken (consensus driver), but these partly cancel within the cross, muting the move compared to what each leg's standalone view implies. The consensus approach of adding two mildly-bullish CAD and CHF-bearish views overstates the pair's directionality; the bilateral netting means the realised move is smaller than the sum of the parts. We also weight Switzerland's structural current-account surplus (Factor 5 at 0.16) more heavily than simple carry consensus does, as this persistently caps pair upside even when the carry case seems compelling.",
+      "payoff_if_right": "Harvest +225bps carry while range-trading the 0.5595-0.5800 band — approximately +127.5 pips expected value over 6M on a modest long position",
+      "risk_if_wrong": "A clean risk-off shock or gold recovery drives the pair sharply lower (toward 0.5500-0.5550), against both us and the mild-bullish consensus — approximately −160 pips on the downside case"
+    },
+    "cross_horizon_consistency": {
+      "aligned": true,
+      "tactical_stance": "Neutral (slight bearish tilt)",
+      "strategic_stance": "Neutral",
+      "explanation": "Tactical and strategic are broadly aligned — both are low-conviction, range-bound views reflecting the same carry-vs-structural-balance tension. The mechanistic difference is timing: tactically the live oil collapse and bearish chart tilt the balance slightly bearish, while strategically the +225bps carry accrues and the pair's value (cheap CAD, rich CHF) supports a faint upward drift, even as Switzerland's heavily-weighted surplus caps it. Both horizons share conviction 2 and the same fundamental battleground.",
+      "inflection_point": "The inflection runs through the summer event cluster (BoC 15 July MPR, USMCA, Hormuz toll expiry) and the oil/gold trajectories: a tactical oil floor would let the strategic carry case reassert.",
+      "trading_implication": "Range-trade the pair tactically (sell rallies toward 0.5780, buy dips toward 0.5595) while building a small patient carry-long for the strategic horizon, always hedged for the dual fat tail (oil + SNB intervention)."
+    },
+    "forward_vs_spot": {
+      "current_spot": 0.569,
+      "forward_1m": "~0.5679 (−11 pips implied by +225bps CAD-CHF rate gap — CAD at forward discount)",
+      "forward_3m": "~0.5657 (−33 pips)",
+      "forward_6m": "~0.5625 (−65 pips)",
+      "expected_rate_3m": "~0.5720",
+      "expected_rate_6m": "~0.5780",
+      "edge_3m": "Our 3M expected (~0.5720) is ~63 pips ABOVE the ~0.5657 forward — the forward curve under-states where we expect the pair given carry should accrue rather than be fully given back",
+      "edge_6m": "Our 6M expected (~0.5780) is ~155 pips above the ~0.5625 forward — the strategic edge is to be long CAD/CHF versus the forward, capturing both the +225bps carry and the expected spot stability/drift higher"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-06-18",
+      "event": "SNB Monetary Policy Assessment (hold at 0%)",
+      "expected_impact": "Neutral",
+      "which_leg_affected": "Quote",
+      "rationale": "A 0% hold is universally expected, keeping the +225bps CAD/CHF carry intact and removing any near-term CHF rate support. A downward inflation-forecast revision reviving negative-rate odds would be mildly pair-positive (CHF-negative) by widening the carry gap; intervention-readiness language would cap pair downside by signalling SNB willingness to resist CHF strength. The hold itself is near-fully priced and transmits to the pair only via the CHF rate-expectation channel.",
+      "priced_in": "Fully",
+      "citations": []
+    },
+    {
+      "date": "2026-07-01",
+      "event": "USMCA joint-review trigger",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Base",
+      "rationale": "A constructive renewal lifts CAD (pair-up) by removing the dominant trade tail risk — with ~75% of Canadian exports going to the US, USMCA is the dominant CAD-leg strategic binary. Friction or new tariffs hits CAD (pair-down). The CHF leg is unaffected, so any outcome transmits cleanly and asymmetrically to the pair through the CAD channel alone, amplifying the event's pair impact relative to most bilateral catalysts.",
+      "priced_in": "Partially",
+      "citations": []
+    },
+    {
+      "date": "2026-07-03",
+      "event": "Swiss CPI (June print)",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Quote",
+      "rationale": "A print near zero or negative revives SNB negative-rate speculation (CHF-negative, pair-up) by increasing the probability the SNB eases below zero at the September meeting; an upside surprise eases those concerns (pair-down slightly). This is the key Swiss data point before the September SNB meeting, and it transmits to the pair via the CHF rate-expectation channel. The CAD leg is unaffected, so the event is a one-sided CHF-leg driver.",
+      "priced_in": "Not priced",
+      "citations": []
+    },
+    {
+      "date": "2026-07-15",
+      "event": "Bank of Canada decision + MPR",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Base",
+      "rationale": "A hold is expected; the MPR forecast revisions (especially marking down inflation on lower oil) set the tone for the carry gap. A dovish tilt narrows the +225bps differential and hits CAD (pair-down); a confident hold supports CAD and the carry (pair-up). This is the most important CAD-leg event in the tactical window and the key event for determining whether the carry story holds or narrows, directly affecting the pair's single strongest fundamental driver.",
+      "priced_in": "Partially",
+      "citations": []
+    },
+    {
+      "date": "2026-07-24",
+      "event": "Section 122 10% import-surcharge expiry",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Base",
+      "rationale": "A clean expiry removes a significant CAD headwind (pair-up) by eliminating the tariff drag on Canadian exporters and improving the trade outlook; a renewal reinstates the tariff drag (pair-down). This is a CAD-leg specific binary that transmits directly to the pair via the CAD channel with no CHF-leg offset, making the pair-impact approximately equal to the CAD standalone impact.",
+      "priced_in": "Partially",
+      "citations": []
+    },
+    {
+      "date": "2026-07-29",
+      "event": "FOMC decision (Fed, Chair Warsh)",
+      "expected_impact": "Neutral",
+      "which_leg_affected": "Both",
+      "rationale": "A hawkish Fed firms USD — a mild headwind for both CAD and CHF as non-USD low-yielders — which is roughly symmetric and does not cleanly differentiate the pair. A dovish surprise softens USD, also roughly symmetric for both legs. The indirect channel is risk sentiment: a dovish Fed could boost risk-on (mild pair-up via CHF haven fade), while a hawkish surprise could tighten global liquidity (mild pair-down via CHF haven bid). Net impact is close to neutral for the cross.",
+      "priced_in": "Fully",
+      "citations": []
+    },
+    {
+      "date": "2026-08-14",
+      "event": "Hormuz 60-day toll-free window expiry",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Both",
+      "rationale": "A dispute would spike oil (CAD-positive, pair-up via Factor 5) AND reignite the CHF haven bid (CHF-positive, pair-down via Factor 3) — an offsetting bilateral binary where the net depends on which leg dominates. A smooth extension sustains risk-on (mild pair-up via CHF haven fade). This is the purest test of the pair's dual oil/haven character — the same event moves both legs, amplifying uncertainty about the net pair direction and making it the highest-impact bilateral event risk in the strategic window.",
+      "priced_in": "Not priced",
+      "citations": []
+    },
+    {
+      "date": "2026-09-25",
+      "event": "SNB Monetary Policy Assessment (Q3)",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Quote",
+      "rationale": "If disinflation has deepened (Swiss CPI toward zero/negative), the SNB may face negative-rate or intervention pressure (CHF-negative, pair-up) — this is the pivotal strategic CHF-leg policy event. A steady hold is neutral. The event matters disproportionately for this pair because the SNB's zero floor is the structural anchor of the +225bps carry gap; any signal of going below zero would widen the carry gap and be doubly pair-positive.",
+      "priced_in": "Partially",
+      "citations": []
+    },
+    {
+      "date": "2026-10-28",
+      "event": "Bank of Canada decision + MPR",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Base",
+      "rationale": "Quarterly MPR with updated forecasts; signals whether the BoC holds or leans to ease, setting the carry-gap trajectory for the strategic horizon. A confident hold supports the pair via a wider sustained carry; a dovish lean narrows the +225bps gap and is pair-negative. This is the second major BoC event in the strategic window and the one that would most clearly confirm or deny whether the carry story persists through year-end.",
+      "priced_in": "Not priced",
+      "citations": []
+    },
+    {
+      "date": "2026-06-19",
+      "event": "Oil price trajectory (ongoing) — post-Iran-deal WTI/Brent",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Both",
+      "rationale": "Oil ↑ → +CAD (terms-of-trade recovery) AND mildly −CHF (energy importer cost increase) → pair-up doubly reinforcing; oil ↓ → −−CAD AND mildly +CHF → pair-down doubly reinforcing. This is the single most important ongoing bilateral driver given CAD/CHF's commodity-vs-haven structure. Current WTI ~$75.5 following the Iran deal collapse; the trajectory from here is the key driver of whether the tactical bearish tilt deepens or reverses.",
+      "priced_in": "Partially",
+      "citations": []
+    },
+    {
+      "date": "2026-06-19",
+      "event": "Gold price trajectory (ongoing) — XAU/USD",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Quote",
+      "rationale": "Gold ↑ → +CHF (Switzerland gold-refining-hub correlation — the country refines ~70% of the world's gold supply) → pair-down; gold ↓ → −CHF → pair-up. Recent gold weakness (~−10% to $4,165-4,316) is mildly pair-positive. A recovery toward bank year-end targets (Goldman $5,400, JPMorgan ~$6,000, Morgan Stanley $5,200, UBS $5,500) would be strongly pair-negative via the CHF leg, making it a key CHF-specific strategic risk that the carry-focused consensus systematically under-weights.",
+      "priced_in": "Partially",
+      "citations": [
+        20,
+        21,
+        22,
+        23
+      ]
+    }
+  ],
+  "invalidators": [
+    {
+      "condition": "Oil rebounds sharply with WTI sustained above $90 on a stalled Iran deal",
+      "new_stance": "Bullish CAD/CHF",
+      "mechanism": "Oil ↑ restores CAD's terms-of-trade bid (pair-up via Factor 5) while mildly hurting energy-importer CHF (pair-up) — a doubly reinforcing pair-positive specific to this commodity-vs-haven cross that removes the primary tactical bearish drag and activates the carry tailwind simultaneously",
+      "monitor_indicator": "WTI crude oil spot price",
+      "monitor_frequency": "Daily",
+      "probability_pct": 18
+    },
+    {
+      "condition": "Risk-off shock fires with VIX sustained above 25 on a Hormuz wobble or equity selloff",
+      "new_stance": "Bearish CAD/CHF",
+      "mechanism": "The pair is a high-beta risk proxy — the CHF haven bid strengthens (pair-down) while pro-cyclical CAD sells off (pair-down), a doubly reinforcing pair-negative from both the CHF leg (Factor 3 strategic) and the CAD leg simultaneously, wiping out months of carry accrual in a single session",
+      "monitor_indicator": "VIX + CAD/CHF spot",
+      "monitor_frequency": "Daily",
+      "probability_pct": 25
+    },
+    {
+      "condition": "Gold resumes its structural uptrend toward $5,000+ (toward bank year-end targets)",
+      "new_stance": "Bearish CAD/CHF",
+      "mechanism": "The gold-refining-hub correlation lifts CHF (pair-down) via the Factor 5 gold-CHF channel, with no offsetting CAD benefit — a CHF-leg-specific pair-negative that the carry case ignores and that compounds the structural CHF surplus bid to make the pair distinctly pair-down",
+      "monitor_indicator": "XAU/USD gold spot price",
+      "monitor_frequency": "Daily",
+      "probability_pct": 20
+    },
+    {
+      "condition": "BoC pivots to an explicit easing cycle — cuts below 2.25% or signals cuts in the MPR",
+      "new_stance": "Bearish CAD/CHF",
+      "mechanism": "Narrows the +225bps carry gap — the pair's core support (Factor 1, 0.24 weight) — toward the SNB's zero floor, removing the single most durable pair-bullish force and triggering structural carry-trade unwind selling of CAD/CHF positions",
+      "monitor_indicator": "BoC policy rate + MPR guidance language",
+      "monitor_frequency": "At each BoC meeting",
+      "probability_pct": 20
+    },
+    {
+      "condition": "CAD/CHF breaks and holds below the 0.5595 52-week floor on volume",
+      "new_stance": "Bearish CAD/CHF",
+      "mechanism": "Breaks the multi-month range and flips technical/CTA flow short, overwhelming carry support and establishing a new downtrend toward 0.5500, as the price action signal compounds the existing bearish MA stack and descending channel structure",
+      "monitor_indicator": "CAD/CHF spot price vs 0.5595 level",
+      "monitor_frequency": "Daily",
+      "probability_pct": 25
+    },
+    {
+      "condition": "Clean USMCA renewal announced AND oil floors above $78",
+      "new_stance": "Bullish CAD/CHF",
+      "mechanism": "Removes the CAD trade tail risk and restores terms-of-trade bid, squeezing the extreme CAD short (~6th percentile) violently upward (pair-up via Factors 4, 5, and 7 simultaneously) while the +225bps carry continues to accrue — a triple-reinforcing pair-positive that would materially exceed the base case",
+      "monitor_indicator": "USMCA headlines + WTI crude oil price",
+      "monitor_frequency": "Event-driven",
+      "probability_pct": 20
+    }
+  ],
+  "signposts": [
+    {
+      "indicator": "WTI Crude Oil price",
+      "current_level": "~$75.5/bbl",
+      "confirms_if": "Stabilises mid-$70s to low-$80s — CAD ToT stops deteriorating, carry accrues, pair consolidates above 0.5660",
+      "invalidates_if": "Sustained below $70 (pair-bearish, CAD ToT drag deepens) or above $90 (pair-bullish, CAD bid returns)",
+      "bilateral_importance": "Oil is the single biggest differentiator for this pair — it is strongly negative for petro-CAD and mildly positive for energy-importer CHF, so it moves both legs in the same (pair-down) direction when falling, amplifying its impact far beyond either currency standalone and making it the dominant short-term pair driver.",
+      "source": "https://tradingeconomics.com/commodity/crude-oil",
+      "frequency": "Daily"
+    },
+    {
+      "indicator": "CA-CH 2Y Yield Spread (carry proxy)",
+      "current_level": "~+255bps (Canada 2.50% vs Switzerland −0.05%)",
+      "confirms_if": "Holds above +225bps — carry support intact, pair floor maintained",
+      "invalidates_if": "Narrows below +180bps — BoC easing erodes the pair's core support (Factor 1, 0.24 weight)",
+      "bilateral_importance": "The +225bps carry is the pair's only durable directional edge and the rationale for the carry-trade community that uses CAD/CHF specifically; it matters more here than for either currency standalone because CHF's zero floor makes the gap unusually stable and any narrowing directly undermines the primary pair-bullish force.",
+      "source": "https://www.bankofcanada.ca/rates/interest-rates/canadian-bonds/",
+      "frequency": "Daily"
+    },
+    {
+      "indicator": "VIX (risk sentiment proxy)",
+      "current_level": "~16.2",
+      "confirms_if": "Stays 15-20 — moderate risk-on, mild pair-support via CAD bid and CHF haven fade",
+      "invalidates_if": "Sustained above 25 — risk-off fires CHF haven bid + CAD selloff simultaneously, doubly pair-negative",
+      "bilateral_importance": "CAD/CHF is a textbook commodity-vs-haven risk proxy, so VIX moves both legs in the same pair direction — risk-off is +CHF AND −CAD simultaneously, making the pair more risk-sensitive than either currency alone and the VIX a uniquely powerful bilateral signpost for this cross.",
+      "source": "https://fred.stlouisfed.org/series/VIXCLS",
+      "frequency": "Daily"
+    },
+    {
+      "indicator": "Gold (XAU/USD) spot price",
+      "current_level": "~$4,165-4,316",
+      "confirms_if": "Stays soft below $4,500 — mild CHF-negative via gold-refining-hub correlation, pair-supportive",
+      "invalidates_if": "Recovers above $5,000 toward bank year-end targets (Goldman $5,400, JPMorgan ~$6,000) — strongly CHF-supportive, pair-negative",
+      "bilateral_importance": "Gold matters far more for this pair than most because Switzerland is the world's gold-refining hub (refining ~70% of global supply) and CHF correlates positively with gold; this CHF-leg-specific channel has no CAD counterpart and can override the carry tailwind in a sustained gold rally, making it a key one-sided pair driver the carry-focused consensus under-weights.",
+      "source": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
+      "frequency": "Daily"
+    },
+    {
+      "indicator": "CAD/CHF spot vs 0.5595 floor / 0.5720 MA cluster",
+      "current_level": "0.5690 (below MA cluster at 0.5720, above floor at 0.5595)",
+      "confirms_if": "Holds 0.5595-0.5780 range — confirms range-bound thesis, carry accruing within band",
+      "invalidates_if": "Breaks 0.5595 on volume (pair-bearish trend extension, CTA flow flips short) or reclaims and holds above 0.5780 (pair-bullish carry traction confirmed)",
+      "bilateral_importance": "The 0.5595 floor is the 52-week low and major range support; a break flips technical/CTA flow short and confirms the structural balance headwinds are overwhelming the carry. The MA cluster at 0.5720 is the pivot between the bearish chart regime and a carry-driven recovery — uniquely defining for this range-bound minor cross where carry and structural-balance forces are so finely balanced.",
+      "source": "https://www.tradingview.com/symbols/CADCHF/",
+      "frequency": "Daily"
+    },
+    {
+      "indicator": "Swiss CPI (headline and core, YoY)",
+      "current_level": "Headline +0.6%, core +0.3% (May 2026)",
+      "confirms_if": "Drifts toward zero or turns negative — revives SNB negative-rate odds, CHF-negative, pair-up via widening carry gap",
+      "invalidates_if": "Rebounds above +1.0% for two consecutive months — CHF-supportive via normalisation talk and removal of SNB easing pressure, pair-down",
+      "bilateral_importance": "Swiss CPI drives the CHF-leg rate expectation uniquely — a move toward negative-rate territory is a clean pair-positive (CHF-negative via widening carry gap) that the CAD leg cannot offset, and a rebound toward 1% removes the tail risk of SNB easing below zero, stabilising CHF and capping pair upside from the carry channel simultaneously.",
+      "source": "https://www.bfs.admin.ch/bfs/en/home/statistics/prices/consumer-price-index.html",
+      "frequency": "Monthly"
+    }
+  ],
+  "assumptions": [
+    "Spot (0.5690), performance, 52-week range, and moving averages (50d 0.5702, 100d 0.5719, 200d 0.5721) are taken directly from the provided Twelve Data OHLC as the source of truth.",
+    "Support/resistance levels, chart patterns, and the descending-channel structure are synthesised from web technical sources (TradingView, Babypips, CentralCharts), as these require visual analysis not derivable from OHLC alone.",
+    "The +225bps carry and ~+255bps 2Y spread are derived from the two dossiers' rate tables (BoC 2.25%, SNB 0.00%; Canada 2Y ~2.50%, Switzerland 2Y ~−0.05%). Forward points are estimated from this differential and flagged as indicative, not live broker quotes.",
+    "No standalone CAD/CHF implied-vol or risk-reversal print is publicly available; the pair's vol/skew characteristics are inferred from the two legs' USD-pair vols (~6.8-7.1% IV each) and dossier risk-reversals, flagged as estimates.",
+    "Bilateral trade figures are taken directly from the injected IMF DOTS block (CAD net goods balance vs CHF −$1.2bn); not re-estimated.",
+    "Oil (~$75.5 WTI) and gold (~$4,165-4,316) levels use live post-Iran-deal web references, superseding any stale cache prints, consistent with both dossiers' assumptions.",
+    "The gold-CHF linkage (Switzerland as refining hub, ~70% of world gold refined) is incorporated as a secondary commodity offset to the oil-CAD dynamics in Factor 5, per web sources.",
+    "Default factor weights applied throughout — no pair-specific adjustments, as the carry-pair and risk-proxy adjustment rationales would offset each other and the pair's defining feature is the balance of opposing forces.",
+    "Stance scoring maps Bullish=+1, Neutral=0, Bearish=−1 (for the PAIR), scaled by confidence/100 and framework weights. Where the raw weighted score conflicts with live price action (tactical), the stance is resolved with explicit reasoning rather than mechanical mapping.",
+    "The CAD dossier standalone stance is Bearish (vs USD) tactically and Neutral strategically; the CHF dossier standalone stance is Bearish tactically and Bearish strategically — these are vs-USD standalones and the bilateral pair analysis represents a distinct cross-currency assessment that cannot be mechanically derived from them.",
+    "Pair implied vol (~6.5% 3M) is estimated from the two legs' USD-pair vols and is flagged as indicative; no live CAD/CHF vol surface is publicly available for this minor cross."
+  ],
+  "complete_citations": [
+    {
+      "id": 1,
+      "title": "CAD/CHF Forecast for 2025, 2026-2030",
+      "publisher": "Traders Union",
+      "url": "https://tradersunion.com/currencies/forecast/cad-chf/long-term-forecast/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 2,
+      "title": "The CADCHF reaches a strong barrier – Forecast",
+      "publisher": "Economies.com",
+      "url": "https://www.economies.com/forex/analysis/the-cadchf-reaches-a-strong-barrier-forecast-today-16-3-2026-125557",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 3,
+      "title": "The CADCHF fluctuates below the barrier – Forecast",
+      "publisher": "Economies.com",
+      "url": "https://www.economies.com/forex/analysis/the-cadchf-fluctuates-below-the-barrier-forecast-today-20-4-2026-126364",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 4,
+      "title": "CAD to CHF Today and Forecast",
+      "publisher": "30rates",
+      "url": "https://30rates.com/cad-chf",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 5,
+      "title": "CAD to CHF Forecast",
+      "publisher": "CoinCodex",
+      "url": "https://coincodex.com/forex/cad-chf/forecast",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 6,
+      "title": "CAD/CHF Technical Analysis",
+      "publisher": "CentralCharts",
+      "url": "https://www.centralcharts.com/en/6873-cad-chf/analysis",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 7,
+      "title": "CHFCAD Chart, Rate and Analysis",
+      "publisher": "TradingView",
+      "url": "https://www.tradingview.com/symbols/CHFCAD/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 8,
+      "title": "CAD/CHF Technical Analysis – Signals, Pivots & Indicators",
+      "publisher": "FXEmpire",
+      "url": "https://www.fxempire.com/currencies/cad-chf/technical-analysis",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 9,
+      "title": "CADCHF Chart, Rate and Analysis",
+      "publisher": "TradingView",
+      "url": "https://www.tradingview.com/symbols/CADCHF/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 10,
+      "title": "Chart Art: CAD/CHF Approaches Major Resistance Near .5800",
+      "publisher": "Babypips",
+      "url": "https://www.babypips.com/trading/chart-art-forex-cadchf-approaches-major-resistance-near-5800-2026-03-16",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 11,
+      "title": "CAD/CHF Trade Ideas",
+      "publisher": "TradingView",
+      "url": "https://www.tradingview.com/symbols/CADCHF/ideas/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 12,
+      "title": "Technical Analysis of CAD/CHF",
+      "publisher": "TradingView",
+      "url": "https://www.tradingview.com/symbols/CADCHF/technicals/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 13,
+      "title": "Chart Art: CAD/CHF Is About to Hit a Long-Term Range Resistance",
+      "publisher": "Babypips",
+      "url": "https://www.babypips.com/trading/chart-art-forex-cadchf-long-term-range-resistance-2026-03-09",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 14,
+      "title": "CADCHF Spreads & Trading Costs",
+      "publisher": "Afterprime",
+      "url": "https://afterprime.com/forex/cadchf",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 15,
+      "title": "CAD/CHF Trading Guide",
+      "publisher": "Plus500",
+      "url": "https://www.plus500.com/en-ae/instruments/cadchf/cad-chf-forex-pair-trading-guide~1",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 16,
+      "title": "CAD CHF Rate / Investing",
+      "publisher": "IFCM",
+      "url": "https://www.ifcmarkets.com/en/trading-conditions/forex/cadchf",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 17,
+      "title": "CADCHF Live Chart & Analysis",
+      "publisher": "LiteFinance",
+      "url": "https://www.litefinance.org/trading/trading-instruments/currency/cadchf/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 18,
+      "title": "Trade CADCHF CFD",
+      "publisher": "Axi",
+      "url": "https://www.axi.com/int/trade/cfds/forex/cadchf",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 19,
+      "title": "CAD/CHF — About (carry trade vehicle)",
+      "publisher": "TradingView",
+      "url": "https://in.tradingview.com/symbols/CADCHF",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 20,
+      "title": "Gold (XAU/USD) Price Forecast",
+      "publisher": "LiteFinance",
+      "url": "https://www.litefinance.org/blog/analysts-opinions/gold-price-prediction-forecast/daily-and-weekly/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 21,
+      "title": "Gold Price Forecast | US Payrolls Lift Rate Bets",
+      "publisher": "Capital.com",
+      "url": "https://capital.com/en-int/market-updates/gold-price-forecast-10-06-2026",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 22,
+      "title": "Gold Price Outlook June 2026",
+      "publisher": "GoldSilver",
+      "url": "https://goldsilver.com/industry-news/article/gold-price-outlook-june-2026/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 23,
+      "title": "Gold Price Predictions for 2026 and 2027",
+      "publisher": "J.P. Morgan Global Research",
+      "url": "https://www.jpmorgan.com/insights/global-research/commodities/gold-prices",
+      "date_accessed": "2026-06-18"
+    }
+  ]
+}

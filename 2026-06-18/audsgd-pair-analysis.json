@@ -1,0 +1,1335 @@
+{
+  "metadata": {
+    "pair": "AUDUSD",
+    "base_currency": "AUD",
+    "quote_currency": "SGD",
+    "valuation_date": "2026-06-18",
+    "framework_version": "2.0",
+    "base_dossier_date": "2026-06-18",
+    "quote_dossier_date": "2026-06-18"
+  },
+  "pair_convention": {
+    "spot_reference": "AUD/SGD 0.90584",
+    "spot_explanation": "AUD/SGD at 0.90584 means 1 AUD buys 0.90584 SGD. A rising pair indicates AUD strengthening versus SGD (more SGD per AUD); a falling pair indicates AUD weakening versus SGD (fewer SGD per AUD). The pair captures the collision of a high-carry, commodity-linked currency (AUD) against an appreciation-managed, surplus-rich currency (SGD).",
+    "bullish_means": "pair RISES (AUD strengthens vs SGD)",
+    "bearish_means": "pair FALLS (AUD weakens vs SGD)",
+    "base_dossier_tactical_stance": "Tactical Bullish (conviction 3)",
+    "quote_dossier_tactical_stance": "Tactical Bullish (conviction 3)"
+  },
+  "executive_summary": "AUD/SGD trades at 0.90584, having appreciated +6.27% over the past year but stalling recently (-0.89% 1M, -0.03% 3M, +1.52% 6M), leaving spot in the 81st percentile of its 52-week range and just below its 50-day SMA of 0.91302. The dominant bilateral narrative is a collision of two strong currencies: high-carry, commodity-linked AUD versus appreciation-managed, surplus-rich SGD. The standalone dossiers are BOTH constructive on their own currencies — AUD mildly bullish on still-high carry and the mid-June risk-on de-escalation, SGD bullish on its in-force ~1% S$NEER appreciation slope and best-in-class external accounts — which mechanically MUTES the directional pair signal. The defining bilateral differential is a ~+318bp AUD-SGD policy rate gap (RBA 4.35% vs SORA ~1.17%) that overwhelmingly favours AUD carry, set against an SGD that structurally appreciates by policy design and is the cleaner fundamental story. The mid-June US-Iran oil collapse is bilaterally double-edged: it removes AUD's hawkish inflation premise (carry fade) while improving net-oil-importer Singapore's terms of trade. Net stance: mildly bullish AUD/SGD tactically (carry plus risk-on lead the 2-4 week window) shading to NEUTRAL/marginally bearish strategically as the AUD carry fade meets the SGD appreciation bias and the October MAS review. Conviction is low on both horizons — this is a high-carry-versus-strong-fundamentals standoff where the ~318bp differential is the primary edge, not spot direction.",
+  "market_context": {
+    "spot": 0.90584,
+    "performance_1m": "-0.89%",
+    "performance_3m": "-0.03%",
+    "performance_6m": "+1.52%",
+    "performance_1y": "+6.27%",
+    "range_52w_low": 0.8218,
+    "range_52w_high": 0.92501,
+    "range_52w_percentile": 81,
+    "valuation_assessment": "On the dossiers' cross-referenced REER framework, AUD's real broad REER printed 115.86 (April 2026) versus SGD's 113.94 — both currencies are structurally rich, with AUD marginally richer on a trade-weighted basis. The AUD dossier flags AUD as just ~2% rich versus SGD on REER differential, while the SGD dossier puts SGD ~7% rich versus AUD on PPP (AUD/SGD captures 'the commodity-vs-hub differential'). The practical reading: neither currency is cheap, so the pair carries no strong mean-reversion valuation signal. SGD's richness is a deliberate MAS policy feature; AUD's is carry-driven and now at risk as the carry fades. The current 0.906 level prices a high-carry AUD against an appreciation-biased SGD with the recent pullback reflecting the AUD's eroding inflation premise.",
+    "positioning": {
+      "base_cftc_net": "+42,292 contracts (leveraged funds); asset managers net short -12,083",
+      "base_cftc_percentile": 35,
+      "quote_cftc_net": "No usable CFTC data; investors net long SGD for first time in seven months (Reuters poll)",
+      "quote_cftc_percentile": 60,
+      "net_pair_implication": "Specs are simultaneously fading AUD (cutting longs, asset managers flipping short) while turning long SGD — a configuration that directly pressures AUD/SGD lower. Neither leg is at an extreme, so this is a momentum signal rather than a contrarian setup, but the combined directional pressure is bearish-pair.",
+      "crowding_assessment": "Modest bearish-pair momentum; neither leg at an actionable extreme"
+    },
+    "pair_technicals": {
+      "trend_regime": "transitioning",
+      "support_levels": [
+        0.9067,
+        0.9,
+        0.8911
+      ],
+      "resistance_levels": [
+        0.913,
+        0.92,
+        0.925
+      ],
+      "key_moving_averages": "50d SMA 0.91302 (spot below), 100d SMA 0.90675 (spot testing), 200d SMA 0.89113 (spot well above). Configuration: spot < 50d, spot ≈ 100d, spot >> 200d — structural uptrend stalled at the front end.",
+      "chart_pattern": "Mature uptrend losing momentum; ~2% pullback from May 0.925 peak; failed 50-day, testing 100-day; high-level consolidation in 0.903-0.906 region",
+      "psychological_levels": [
+        0.9,
+        0.95
+      ]
+    },
+    "pair_volatility": {
+      "iv_1m": 5.5,
+      "iv_3m": 6,
+      "iv_percentile": 30,
+      "rv_1m": 5.5,
+      "rv_vs_iv": "Roughly in line; the SGD-compressed vol regime means realised vol tracks near the low implied estimates, with no material variance risk premium observable given the thin options market",
+      "risk_reversals": "Not cleanly observable — AUD/SGD options market is thin; both dossiers flag SGD vol as estimated",
+      "vol_term_structure": "Flat to slightly inverted given the thin market; event risk around 29 July Australian CPI and October MAS review is not well-priced in the vol surface",
+      "vol_regime": "Low vol / structurally compressed by managed-SGD leg; ~5-7% pair vol range"
+    },
+    "recent_regime": "The pair's recent behaviour is dominated by the mid-June oil/risk regime flip, which is unusually two-sided for this specific cross. The US-Iran peace framework and oil collapse simultaneously removed AUD's hawkish inflation premise (carry-negative for AUD over time) and improved Singapore's net-oil-importer terms of trade (SGD-positive) — a rare instance where one macro event pushes both legs in the SAME direction (bearish AUD/SGD). This explains the ~2% pullback from the May 0.925 peak. The dominant tension now is whether AUD's still-massive absolute carry (~+318bp) can hold the pair up against an SGD that appreciates by policy design and faces only modest October-pivot risk.",
+    "citations": [
+      "https://tradersunion.com/currencies/forecast/aud-sgd/long-term-forecast/",
+      "https://www.tradingview.com/symbols/AUDSGD/technicals/",
+      "https://tr.tradingview.com/chart/AUDSGD/TNaYWdQl-Higher-high-and-low-for-AUDSGD",
+      "https://www.mas.gov.sg/monetary-policy"
+    ]
+  },
+  "bilateral_carry_analysis": {
+    "base_policy_rate": 4.35,
+    "quote_policy_rate": 1.17,
+    "rate_differential_bps": 318,
+    "annualised_carry_bps": 218,
+    "pair_3m_iv": 6,
+    "carry_to_vol_ratio": 0.53,
+    "carry_regime": "carry working",
+    "breakeven_move": "Spot can move ~0.6%/month (~54 pips, to ~0.901) before monthly carry is erased over 1M — a far thicker cushion than AUD/USD's thin +56bp carry offers",
+    "forward_points": {
+      "1m": "-23 pips (AUD at discount, ~0.9035 outright)",
+      "3m": "-68 pips (AUD at discount, ~0.8990 outright)",
+      "6m": "-138 pips (AUD at discount, ~0.8920 outright)"
+    },
+    "carry_assessment": "Carry is the single most important factor for this pair and the clearest bilateral edge. The AUD-SGD differential is enormous: RBA Cash Rate 4.35% versus Singapore SORA ~1.17% gives a ~+318bp annualised carry advantage to AUD — confirmed by the SGD dossier, which notes Singapore manages monetary policy via the S$NEER band rather than interest rates, so SGD's low rates are an OUTPUT of its strong-currency regime, not a policy lever. Front-end yields corroborate: SGS 2Y ~1.55% versus ACGB 2Y ~4.63% — a ~+308bp gap; 10Y SGS ~2.00% versus ACGB ~4.79% — a ~+279bp gap. The carry-to-vol ratio of ~53 (318bp / ~6% pair vol) is exceptionally attractive because the SGD leg compresses volatility. However, the SGD's ~1% appreciation slope works AGAINST the carry, directly offsetting roughly a third of AUD's carry advantage in pair terms. Net 'carry-minus-appreciation' edge for long AUD/SGD is therefore ~+318bp minus ~100bp SGD appreciation = ~+218bp net — still strongly positive and the structural floor under the pair. The forwards mechanically price ~-3.0%/yr AUD depreciation vs SGD (the CIP result of the rate gap), and the carry holder is paid to fade that implied depreciation."
+  },
+  "factors": [
+    {
+      "factor_number": 1,
+      "factor_name": "Policy & Rates (Relative)",
+      "tactical_weight_default": 0.24,
+      "tactical_weight_applied": 0.24,
+      "strategic_weight_default": 0.24,
+      "strategic_weight_applied": 0.24,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 64,
+        "bilateral_analysis": "The policy differential is the dominant bilateral force and unambiguously favours AUD over the tactical window. The RBA holds a 4.35% Cash Rate after three 2026 hikes and a 16 June hawkish hold, while Singapore runs no policy rate — SORA at ~1.17% is an output of the S$NEER band. The ~+318bp gap is locked for 2-4 weeks: there is no RBA meeting until 11 August and no MAS review until October, so neither leg can move the differential near-term. The transmission to the pair is direct — the carry-to-vol of ~53 makes long AUD/SGD one of the most attractive carry expressions in the AUD complex, far cleaner than AUD/USD's ~+56bp. The offsetting force is the SGD's in-force ~1% appreciation slope, which mechanically drifts the pair lower by ~0.08%/month, but this is dwarfed by the carry. The single nuance trimming confidence: the market knows the AUD carry fade has begun (oil collapse removing the inflation premise), so spot upside is capped even as carry accrues.",
+        "key_bilateral_metrics": [
+          "RBA 4.35% vs SORA ~1.17% = ~+318bp policy differential (widest in SGD's peer set)",
+          "ACGB 2Y ~4.63% vs SGS 2Y ~1.55% = ~+308bp front-end gap",
+          "ACGB 10Y ~4.79% vs SGS 10Y ~2.00% = ~+279bp",
+          "Carry-to-vol ~53 (318bp / ~6% pair vol)",
+          "No RBA meeting until 11 Aug, no MAS review until October — differential locked"
+        ],
+        "what_is_priced": "Spot embeds the high carry but the recent pullback shows the market pricing the AUD carry fade. The edge is that the ~318bp gap is too wide to compress meaningfully in 2-4 weeks, so carry-supported dips toward 0.900 should be bought.",
+        "citations": [
+          36
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 54,
+        "bilateral_analysis": "Over 1-6 months the rate factor turns two-sided for the pair. The AUD leg's carry support is now a decaying asset: with the US-Iran oil collapse removing the imported-inflation driver of RBA hawkishness, the market will price the end of the hiking cycle and eventual cuts — ANZ predicts 25 basis point cuts in September and December — while traders have scaled back near-term easing expectations and some economists warn the RBA might be forced to raise rates in 2027. The SGD leg, conversely, retains its appreciation bias unless MAS flattens its slope in October. The bilateral question is which fades faster: the AUD carry or the SGD appreciation impulse. If the RBA pivots dovish (compressing the differential toward ~+250bp) while MAS holds its slope, the pair drifts lower; if both ease their respective stances, the standoff persists. Because the AUD carry advantage, though shrinking, remains enormous in absolute terms (still +250bp even after two RBA cuts), the factor nets to Neutral rather than bearish — the carry cushion survives the fade.",
+        "key_bilateral_metrics": [
+          "ANZ pencils RBA cuts in Sep and Dec 2026 → differential compresses toward ~+270bp",
+          "SGD ~1% appreciation slope intact unless October MAS flattens",
+          "Even post-cuts, AUD-SGD gap stays +250bp (structural carry floor)",
+          "Forwards price ~-3.0%/yr AUD depreciation vs SGD (CIP)",
+          "October MAS review = the key SGD-side swing for the differential's trajectory"
+        ],
+        "what_is_priced": "The forwards already embed substantial AUD depreciation vs SGD (~-3%/yr), so a long-AUD/SGD carry holder is paid to fade that. The edge: even a fading carry leaves a wide enough cushion that the pair need not fall as much as forwards imply, unless both an RBA pivot and an MAS hold coincide.",
+        "citations": [
+          27,
+          29
+        ]
+      },
+      "horizon_split": "Tactical (64) is Bullish on the locked ~+318bp differential; strategic (54) drops to Neutral because the AUD carry fade (ANZ pencilling Sep/Dec cuts) compresses the gap over 1-6 months while the SGD appreciation slope persists — the two forces increasingly offset.",
+      "carry_analysis": {
+        "reference": "bilateral_carry_analysis",
+        "summary": "The ~+318bp RBA-SORA differential is the dominant return driver for this pair. Net carry after SGD appreciation offset is ~+218bp. Carry-to-vol of ~53 is exceptionally attractive. The carry regime is 'working' strongly for long AUD/SGD in the current low-vol, risk-on environment, but the regime risk is the realised AUD carry fade as oil-driven Australian disinflation prices the end of the RBA cycle."
+      },
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 2,
+      "factor_name": "Inflation & Growth Dynamics",
+      "tactical_weight_default": 0.18,
+      "tactical_weight_applied": 0.18,
+      "strategic_weight_default": 0.1,
+      "strategic_weight_applied": 0.1,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 58,
+        "bilateral_analysis": "The growth-inflation differential leans modestly against the pair (favouring SGD). Singapore's growth dramatically outpaces Australia's: Q1-2026 SGD GDP +6.0% YoY versus AUD +2.52% YoY, a ~+350bp growth gap driven by Singapore's AI/electronics export boom. On inflation, the dynamics have flipped bilaterally: Australia's hot 4.05% CPI is now backward-looking and rolling over as oil falls, while Singapore's contained 1.7% core inflation is stable. The transmission is that Singapore's growth momentum and surging exports (NODX +24.5% YoY) attract capital and reinforce the appreciation bias, while Australia's disinflation removes the AUD hawkish premium. The Q2 Australian CPI on 29 July is the key near-term data binary — now skewed to a soft, disinflationary print that would pressure AUD/SGD lower. The factor is bearish-pair but only modestly, because Australia's growth is still solid and the inflation differential favours neither leg's currency strength cleanly.",
+        "key_bilateral_metrics": [
+          "SGD GDP +6.0% YoY vs AUD +2.52% YoY = ~+350bp growth gap favouring SGD",
+          "AUD CPI 4.05% (rolling over) vs SGD core 1.7% (stable)",
+          "Singapore NODX +24.5% YoY (electronics +66.7%) — surplus widening",
+          "AUD Q2 CPI 29 July skewed to a soft print (bearish pair)",
+          "Both economies near full employment (AUD 4.49%, SGD ~2.0%)"
+        ],
+        "what_is_priced": "The market prices Singapore's growth outperformance and Australia's disinflation. The edge: a soft 29 July Australian CPI would confirm the AUD carry fade and tilt the pair lower faster than priced.",
+        "citations": [
+          36
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 55,
+        "bilateral_analysis": "Strategically the growth differential remains firmly in Singapore's favour but narrows as base effects fade. MAS expects GDP growth in the Singapore economy to slow over the course of this year, while the output gap should average around 0%, so the +6.0% Q1 pace is not sustained — but even a moderating Singapore still outgrows Australia's below-potential trajectory. The bilateral inflation picture is symmetric disinflation: Australia's oil-driven CPI rolls over while Singapore's energy-importer status means cheaper oil keeps core contained. The key strategic asymmetry: Australia's disinflation undercuts its carry/policy support (pair-bearish), while Singapore's contained inflation actually creates the October MAS dovish-pivot risk (pair-bullish offset, since a flatter SGD slope removes appreciation pressure). These partly cancel, but Singapore's structural growth and surplus edge keep the factor net bearish-pair.",
+        "key_bilateral_metrics": [
+          "MAS guides Singapore growth to slow but stay above Australia's",
+          "Both disinflating, but AUD disinflation hits its carry; SGD disinflation risks October slope flattening",
+          "Singapore AI/semiconductor upcycle = durable strategic export tailwind",
+          "Australia GDP below potential, unemployment drifting to ~4.7% by mid-2028",
+          "Singapore's ~300%+ trade/GDP openness = key strategic downside risk for SGD"
+        ],
+        "what_is_priced": "Consensus prices Singapore outgrowing Australia. The edge: the symmetry of disinflation means Australia's loss of carry support may outweigh Singapore's October-pivot risk, keeping the pair biased lower.",
+        "citations": [
+          36
+        ]
+      },
+      "horizon_split": "Both horizons are Bearish-pair with similar confidence (58 tactical, 55 strategic); the growth differential favours SGD throughout, with the tactical read leaning on the 29 July Australian CPI binary and the strategic read on the durable Singapore export upcycle versus Australia's below-potential path.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 3,
+      "factor_name": "Risk Appetite & Sentiment",
+      "tactical_weight_default": 0.1,
+      "tactical_weight_applied": 0.1,
+      "strategic_weight_default": 0.05,
+      "strategic_weight_applied": 0.05,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 56,
+        "bilateral_analysis": "This is a nuanced bilateral risk factor because BOTH currencies benefit from the risk-on regime, but asymmetrically. AUD is the textbook high-beta risk proxy; SGD is Asia's moderate-beta safe-haven hub. In the current risk-on de-escalation (VIX ~16.2, oil collapsed, equities firm), high-beta AUD typically outperforms moderate-beta SGD — so the pair leans modestly bullish in risk-on. The transmission: AUD's correlation to global equities and copper (near record highs) is higher than SGD's, so a benign risk tape lifts AUD faster. However, the offset is meaningful — both dossiers flag the SAME risk-on regime as supportive for their respective currencies (AUD via beta, SGD via Asian capital inflows), muting the net pair signal. The classification: AUD/SGD is a moderate risk-on pair (high-beta base vs moderate-beta haven quote), less extreme than AUD/JPY. With the oil tail removed, the tactical risk read is modestly bullish-pair.",
+        "key_bilateral_metrics": [
+          "VIX ~16.2 (15 Jun), down from ~22 on 10 Jun — risk-on",
+          "AUD equity/copper beta > SGD beta → AUD outperforms in risk-on",
+          "Both currencies benefit from de-escalation (signal muted)",
+          "Copper near record (~$6.51/lb) — AUD-positive growth signal",
+          "AUD/SGD moderate risk-on pair (high-beta vs moderate-haven)"
+        ],
+        "what_is_priced": "The market prices the risk-on relief in both legs. The edge: high-beta AUD should marginally outpace moderate-beta SGD while the tape stays benign, a mild bullish-pair tilt.",
+        "citations": [
+          26
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 52,
+        "bilateral_analysis": "Strategically the risk factor nets to Neutral for the pair because the two legs' risk characters partly cancel and the dominant tail — the 10 November US-China tariff cliff — hits BOTH currencies through the China channel. AUD is the most liquid China proxy; Singapore's hyper-open, China-linked economy is also acutely China-sensitive. A tariff-driven China growth scare would hit AUD harder (higher beta, direct commodity-demand channel), but would also dent Singapore's entrepot/electronics complex — though SGD would partly offset via a regional safe-haven bid (capital flight INTO Singapore). The net pair effect of a China risk-off is therefore ambiguous-to-bearish-pair (AUD's higher beta loses more). In a benign continuation, AUD's beta wins (bullish-pair). These offset over the strategic horizon, yielding Neutral. Weak Chinese economic data adds a headwind for the Australian currency, which is the asymmetry to monitor.",
+        "key_bilateral_metrics": [
+          "10 Nov US-China tariff cliff hits BOTH legs via China channel",
+          "AUD higher China-beta (commodity demand) than SGD",
+          "SGD partial safe-haven offset (capital flight into Singapore)",
+          "China Q1 GDP +5.0%, PMIs ~50.0 (stabilising, not re-accelerating)",
+          "Net China risk-off = ambiguous-to-bearish pair"
+        ],
+        "what_is_priced": "Consensus prices risk-on continuation. The edge: the November tariff cliff is an underpriced China-channel left-tail that asymmetrically hurts higher-beta AUD more than SGD, capping pair upside strategically.",
+        "citations": [
+          26
+        ]
+      },
+      "horizon_split": "Tactical (56) is Bullish-pair because high-beta AUD outpaces moderate-beta SGD in the current risk-on tape; strategic (52) is Neutral because the November tariff cliff hits both legs via the shared China channel, with AUD's higher beta making a China risk-off ambiguous-to-bearish for the pair.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 4,
+      "factor_name": "Flows & Positioning",
+      "tactical_weight_default": 0.1,
+      "tactical_weight_applied": 0.1,
+      "strategic_weight_default": 0.06,
+      "strategic_weight_applied": 0.06,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 58,
+        "bilateral_analysis": "Bilateral positioning amplifies a modest bearish-pair signal because the two legs point opposite ways. On AUD, leveraged funds slashed longs by 15,209 contracts to +42,292 and asset managers flipped to net short -12,083 — negative momentum. On SGD, the fresh net-long turn means specs are simultaneously fading AUD and buying SGD. The bilateral implication: a trader long the quote and short the base directly pressures AUD/SGD lower, so the combined positioning momentum is bearish-pair. The mitigant is that neither leg is at an extreme — AUD at ~35th percentile is not crowded, and SGD's managed regime caps how far positioning can run. There is no spec-extreme to fade in either direction, so this is a momentum signal rather than a contrarian setup.",
+        "key_bilateral_metrics": [
+          "AUD leveraged net +42,292 (-16,508 w/w), AM net -12,083 (flipped short)",
+          "SGD: investors net long first time in 7 months (Reuters poll)",
+          "Combined: fading base + buying quote = bearish-pair momentum",
+          "AUD ~35th percentile (not crowded); SGD no CFTC data, managed regime",
+          "Neither leg at an actionable extreme"
+        ],
+        "what_is_priced": "The market is fading AUD while buying SGD — a bearish-pair positioning configuration. The edge: this is momentum, not a contrarian extreme, so it pressures the pair lower near-term without a squeeze setup.",
+        "citations": [
+          14
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 53,
+        "bilateral_analysis": "Strategically, structural flows dominate and roughly offset for the pair. On the AUD side, superannuation FX-hedge rebalancing and Japanese carry demand provide a structural AUD bid. On the SGD side, Singapore's powerful inflow engine — family offices, Asia-HQ relocations, wealth management — provides a durable SGD bid backed by a ~16.7%-of-GDP current-account surplus. The bilateral question is which structural bid is larger; both are substantial and persistent, so they net to roughly neutral for the pair. Notably, bilateral cross-holdings are deep: as of 2024, Singapore is Australia's largest two-way trading partner and investor in Southeast Asia and sixth largest foreign investor overall with A$144.8 billion invested, while Australian investment in Singapore was A$76 billion against Singapore investment in Australia of A$149 billion (2022) — large, balanced two-way flows that do not create a strong directional pair bias. Neither leg's positioning is stretched, so the contrarian edge is absent.",
+        "key_bilateral_metrics": [
+          "AUD structural bid: super-fund rebalancing + Mrs. Watanabe carry",
+          "SGD structural bid: family offices, HQ relocations, ~16.7% CA surplus",
+          "Singapore A$149bn invested in Australia vs Australia A$76bn in Singapore (2022)",
+          "Singapore = Australia's largest SE Asia two-way investor (A$144.8bn, 2024)",
+          "Both structural bids substantial → net neutral for pair"
+        ],
+        "what_is_priced": "Both structural inflow engines are recognised. The edge: the deep, balanced bilateral cross-holdings mean neither leg's real-money flow dominates, leaving positioning a neutral strategic input.",
+        "citations": [
+          22,
+          24
+        ]
+      },
+      "horizon_split": "Tactical (58) is Bearish-pair on the negative AUD positioning momentum combined with fresh SGD longs; strategic (53) is Neutral because the deep, balanced bilateral cross-holdings and offsetting structural inflow engines net out, with neither leg stretched.",
+      "carry_analysis": null,
+      "contrarian_analysis": {
+        "tactical": {
+          "combined_positioning_signal": "Specs fading AUD (base) while buying SGD (quote) = bearish-pair momentum; combined positioning directly pressures AUD/SGD lower",
+          "unwind_trigger": "A hot 29 July Australian CPI that reaffirms RBA carry or a risk-on extension where high-beta AUD squeezes spec shorts, forcing covering in AUD and unwinding fresh SGD longs",
+          "historical_analogue": "AUD/SGD positioning reversals in 2022 when hawkish RBA surprise (May 50bp hike) forced aggressive spec short-covering in AUD even as SGD retained its managed-appreciation bid",
+          "contrarian_case": "AUD longs were cut aggressively in the week to 9 June after a one-week liquidation that took positioning from near 57,500 to 42,292 — a fast one-week move that may overshoot the fundamental carry reality. If the 29 July CPI prints in line or hot, the squeezed spec short could unwind sharply, lifting AUD/SGD above 0.9130 in a carry-driven short squeeze that punishes the momentum-chasing bears. The SGD long is also a new, fragile position that could reverse quickly if the October MAS flatten risk materialises."
+        },
+        "strategic": {
+          "combined_positioning_signal": "Structural flows roughly balanced — both inflow engines offset, neither leg at an extreme; no contrarian setup strategically",
+          "unwind_trigger": "A decisive MAS slope flattening in October that prompts SGD long unwind, combined with a reaffirmed RBA hawkish stance preserving AUD carry — would force a pair-bullish positioning reversal",
+          "historical_analogue": "2019 MAS re-centring triggered a rapid SGD positioning reversal as the appreciation slope faded, allowing AUD/SGD to recover from lows despite Australia's own economic softness",
+          "contrarian_case": "The deep, balanced bilateral investment flows (Singapore A$149bn in Australia, Australia A$76bn in Singapore) create a natural structural offset that prevents either leg's real-money positioning from running to extremes. Strategically the most likely surprise is an October MAS flatten that catches spec SGD longs offside, particularly if combined with resilient Australian growth data that keeps the RBA on hold — the contrarian case is that both consensus positions (short AUD, long SGD) unwind simultaneously, lifting AUD/SGD back toward 0.9200."
+        }
+      },
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 5,
+      "factor_name": "External Balance & Terms of Trade",
+      "tactical_weight_default": 0.06,
+      "tactical_weight_applied": 0.06,
+      "strategic_weight_default": 0.16,
+      "strategic_weight_applied": 0.16,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 58,
+        "bilateral_analysis": "The external-balance differential is stark and favours SGD. Singapore runs a ~+16.7%-of-GDP current-account surplus; Australia runs a -3.68% deficit — a ~20-point gap that is the single most lopsided bilateral fundamental. Bilateral trade per the IMF DOTS data is modest and roughly balanced in goods: AUD exports to SGD $12.2bn and imports $10.5bn, while SGD exports to AUD $14.9bn and imports $7.8bn, leaving Australia a net goods balance of +$1.7bn vis-à-vis Singapore — too small to drive the pair directionally. The decisive tactical input is the net commodity/oil effect. Applying the direction rules: the oil collapse (Brent into the high-$70s) is roughly NEUTRAL for AUD (mild negative on LNG/coal export values, offset by a cheaper import bill) but a clear POSITIVE for net-oil-importer SGD (lower import bill, better terms of trade). Net oil effect: bearish-pair (SGD benefits more). Iron ore (~$98/t, oil-insensitive, ~35% of Australian exports) is steady and provides no offsetting AUD lift. The factor is bearish-pair: SGD's surplus and oil-importer status both favour the quote.",
+        "key_bilateral_metrics": [
+          "SGD CA surplus ~+16.7% vs AUD CA deficit -3.68% = ~20pt gap",
+          "IMF DOTS: AUD net goods balance vs SGD = +$1.7bn (small, non-directional)",
+          "Oil collapse: ~neutral for AUD, positive for oil-importer SGD → bearish pair",
+          "Iron ore ~$98/t (oil-insensitive, steady) — no AUD offset",
+          "Singapore NODX +24.5% YoY widening its surplus"
+        ],
+        "what_is_priced": "The market recognises Singapore's surplus strength. The edge: the oil collapse's asymmetric benefit to oil-importer SGD versus oil-neutral AUD is an underappreciated tactical bearish-pair input.",
+        "citations": [
+          36
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 60,
+        "bilateral_analysis": "At its heaviest strategic weight (0.16), external balance is the strongest bilateral pillar against the pair. Singapore's ~+16.7% surplus is structural — a services powerhouse and entrepot hub with high savings — generating a continuous SGD inflow that underpins the appreciation band. Australia's -3.68% deficit requires capital inflows to fund and has widened as the commodity boom normalised. The bilateral terms-of-trade trajectory favours SGD durably: as a net oil-importer, Singapore benefits from sustained low oil, while Australia's dominant export (iron ore ~$98/t) is oil-insensitive, capped by a softening China steel outlook, and gets no relief from the oil move. The bilateral cross-holdings reinforce SGD's structural pull — Australia's prosperity is intimately linked with Southeast Asia, expanding two-way trade and investment via the enhanced Comprehensive Strategic Partnership, but the flow asymmetry (Singapore A$149bn into Australia) tilts structural demand toward SGD recycling. Net: bearish-pair, the chief strategic counterweight to AUD's carry.",
+        "key_bilateral_metrics": [
+          "SGD ~+16.7% surplus (structural) vs AUD -3.68% deficit",
+          "Oil-importer SGD benefits durably from low oil; AUD's iron ore oil-insensitive and China-capped",
+          "Singapore A$149bn invested in Australia (2022) — structural SGD recycling",
+          "AUD REER 115.86 vs SGD 113.94 (both rich; AUD competitiveness eroding)",
+          "China steel softness caps iron ore — Australia's dominant export"
+        ],
+        "what_is_priced": "Consensus prices Singapore's surplus and steady SGD appreciation. The edge: the durability of the oil-importer terms-of-trade gain plus AUD's oil-insensitive, China-capped iron-ore outlook make external balance the most reliable strategic bearish-pair force.",
+        "citations": [
+          19
+        ]
+      },
+      "horizon_split": "Both horizons are Bearish-pair, with strategic confidence (60) above tactical (58) because external balance carries far more weight strategically (0.16 vs 0.06): the ~20-point current-account gap and SGD's durable oil-importer terms-of-trade gain matter more over 1-6 months.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": {
+        "base_commodity_profile": "AUD is heavily exposed to iron ore (~35% of Australian exports, ~$98/t, China-sensitive, oil-insensitive) and LNG/coal (oil-correlated). Net commodity exporter.",
+        "quote_commodity_profile": "SGD has no commodity export exposure. Singapore is a net oil importer and a significant LNG re-exporter/hub, meaning lower oil prices improve its terms of trade. Net commodity importer.",
+        "net_effect_calculation": "Step 1 — Oil collapse (Brent high-$70s): AUD impact is roughly neutral (mild negative on LNG/coal export values offset by cheaper domestic import bill); SGD impact is clearly positive (lower import costs, better terms of trade). Net oil effect on pair: bearish-pair (SGD benefits, AUD neutral). Step 2 — Iron ore at ~$98/t, stable: Iron ore is oil-insensitive, so the oil collapse does NOT benefit AUD via this channel. China steel softness caps any upside. Net iron ore effect on pair: neutral to mildly bearish (no AUD offset, China demand risk). Step 3 — Net combination: Oil collapse is asymmetrically pair-bearish (helps SGD, doesn't help AUD); iron ore is neutral-to-mildly-bearish. The net commodity exposure for AUD/SGD is BEARISH-PAIR in the current low-oil environment.",
+        "scenario_oil_up_10pct": "Bullish for AUD/SGD: AUD benefits mildly via LNG/coal export value recovery and restored inflation premium supporting RBA carry; SGD is hurt via higher import costs and worsened terms of trade — the exact reverse of the June de-escalation. Net: pair-bullish, potentially +1.5-2.0% on AUD/SGD.",
+        "scenario_oil_down_10pct": "Bearish for AUD/SGD: further oil weakness deepens Australia's disinflation (carry-fade accelerates), while Singapore's import costs fall further (terms-of-trade gain widens). Net: pair-bearish, potentially -1.0-1.5% on AUD/SGD.",
+        "dominant_commodity_driver": "Oil is the dominant commodity driver for this pair because it is the only commodity that has an asymmetric bilateral impact — it is pair-bearish on the way down (helps oil-importer SGD, hurts AUD's inflation premium) and pair-bullish on the way up. Iron ore matters for AUD in absolute terms but has no corresponding SGD exposure, making it a one-sided AUD lever rather than a bilateral pair driver."
+      },
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 6,
+      "factor_name": "Guidance & Credibility",
+      "tactical_weight_default": 0.07,
+      "tactical_weight_applied": 0.07,
+      "strategic_weight_default": 0.12,
+      "strategic_weight_applied": 0.12,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 58,
+        "bilateral_analysis": "Both central banks have credible, in-force guidance that currently leans pair-bullish on a relative basis. The RBA's 16 June hawkish hold is fresh and explicit — the board said it will do what it considers necessary, including increasing the cash rate target further if required — locking AUD's rate premium for the window. MAS's April appreciation slope is also in force with no review until October. The bilateral read: the RBA's hawkish guidance is the more market-moving near-term (an active hike bias) versus MAS's steady appreciation drift, so the relative guidance balance tilts mildly bullish-pair. Both are high-credibility, so neither's guidance is doubted. The transmission is that the RBA's locked hawkish tone supports AUD's front-end while MAS's slope only delivers gradual SGD appreciation — net mildly pair-bullish over 2-4 weeks.",
+        "key_bilateral_metrics": [
+          "RBA 16 Jun hawkish hold with explicit hike bias (locked tactically)",
+          "MAS ~1% appreciation slope in force, no review until October",
+          "RBA's active hike bias > MAS's gradual drift (relative pair-bullish)",
+          "Both high-credibility — no guidance doubted",
+          "Next checkpoints: RBA 11 Aug SoMP, MAS October review"
+        ],
+        "what_is_priced": "The market accepts both banks' standing guidance. The edge: the RBA's just-delivered hawkish tone is more potent near-term than MAS's gradual slope, a mild pair-bullish tilt.",
+        "citations": [
+          27
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 53,
+        "bilateral_analysis": "Strategically both banks face credible pivots in OPPOSITE directions that roughly cancel for the pair. The RBA's hawkish guidance is set to soften as oil-driven disinflation lands — ANZ predicts 25 basis point cuts in September and December — a pair-bearish guidance shift. MAS faces a genuine October dovish-pivot risk: the April steepening was explicitly oil-shock-driven, and with that shock reversed, any case for a steeper policy slope hinges on a material upward revision to the inflation outlook, specifically evidence that core inflation will average above 2% YoY on a sustained basis — which the energy reversal makes unlikely, so MAS may flatten its slope (a pair-bullish offset, removing SGD appreciation pressure). The bilateral symmetry is striking: both banks are likely to ease their respective hawkish stances, so the relative guidance differential is roughly preserved and the factor nets to Neutral. October MAS and the 11 August / 3 November RBA SoMPs are the decisive sequenced events.",
+        "key_bilateral_metrics": [
+          "RBA likely to soften (ANZ: Sep/Dec cuts) — pair-bearish guidance shift",
+          "MAS October dovish-pivot risk (oil-shock rationale reversed) — pair-bullish offset",
+          "DBS: steeper SGD slope needs core sustained above 2% (unlikely post-oil)",
+          "Both pivoting dovish → relative differential preserved → Neutral pair",
+          "Sequenced: RBA 11 Aug → MAS October → RBA 3 Nov"
+        ],
+        "what_is_priced": "Consensus expects both banks to ease their hawkish stances. The edge: the symmetry of the two dovish pivots means the guidance differential is largely preserved, neutralising this factor for the pair despite both legs softening.",
+        "citations": [
+          27,
+          35
+        ]
+      },
+      "horizon_split": "Tactical (58) is Bullish-pair on the RBA's fresh, more-potent hawkish hold versus MAS's gradual slope; strategic (53) is Neutral because both banks face credible dovish pivots in opposite directions (RBA cuts vs MAS slope-flattening) that roughly preserve the relative differential.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 7,
+      "factor_name": "Event Risk & Geopolitics",
+      "tactical_weight_default": 0.05,
+      "tactical_weight_applied": 0.05,
+      "strategic_weight_default": 0.05,
+      "strategic_weight_applied": 0.05,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 54,
+        "bilateral_analysis": "The near-term event calendar leans modestly pair-bearish. The dominant resolved event — the US-Iran de-escalation — is bilaterally asymmetric: it improves oil-importer SGD's terms of trade while removing AUD's inflation premium, a net pair-bearish development. The key data binary is the 29 July Australian Q2 CPI, now skewed to a soft print that would pressure AUD/SGD lower. Singapore's own near-term events (22 June CPI, NODX) are SGD-supportive but lower-impact. The transmission: events that confirm Australian disinflation hurt the base while events confirming Singapore's export/surplus strength help the quote — both push the pair down. Singapore's political risk is essentially nil. The factor is modestly bearish-pair, with the 29 July Australian CPI the cleanest near-term catalyst.",
+        "key_bilateral_metrics": [
+          "US-Iran de-escalation: helps oil-importer SGD, hurts AUD premium (bearish pair)",
+          "AUD Q2 CPI 29 Jul skewed soft (bearish pair)",
+          "Singapore 22 Jun CPI / NODX (SGD-supportive, lower impact)",
+          "Singapore political risk ~nil",
+          "Pace of Iranian oil return = deepens disinflation (bearish pair)"
+        ],
+        "what_is_priced": "The de-escalation relief is priced in both legs. The edge: a soft 29 July Australian CPI is an asymmetric pair-bearish binary the calm vol surface underprices.",
+        "citations": [
+          26
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 55,
+        "bilateral_analysis": "The strategic event calendar contains a shared dated risk — the 10 November US-China tariff cliff — plus the October MAS review. The tariff cliff hits both China-proxy legs, but AUD harder (higher commodity-demand beta), making a re-escalation net pair-bearish despite SGD's own exposure (partly offset by safe-haven inflows). The October MAS review is the SGD-side swing: a hold sustains SGD appreciation (pair-bearish), a flatten stalls it (pair-bullish). The bilateral net: the tariff cliff's asymmetric AUD damage plus the base-case MAS hold tilt the strategic event factor modestly bearish-pair. The dated, high-impact nature of both events justifies slightly higher confidence than a typical event read.",
+        "key_bilateral_metrics": [
+          "10 Nov US-China tariff cliff: asymmetric AUD damage (bearish pair)",
+          "October MAS review: hold = bearish pair, flatten = bullish pair",
+          "AUD = most liquid China proxy (acute tariff exposure)",
+          "SGD safe-haven partial offset on China stress",
+          "Both events dated and high-impact"
+        ],
+        "what_is_priced": "Markets under-price the November tariff cliff. The edge: its asymmetric damage to higher-beta AUD versus the safe-haven SGD makes it a pair-bearish strategic tail.",
+        "citations": [
+          26
+        ]
+      },
+      "horizon_split": "Both horizons are Bearish-pair (54 tactical, 55 strategic); tactically the 29 July Australian CPI and oil-return pace dominate, while strategically the 10 November tariff cliff's asymmetric AUD damage plus the base-case MAS hold tilt the factor down.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 8,
+      "factor_name": "Fiscal & Sovereign Risk",
+      "tactical_weight_default": 0.04,
+      "tactical_weight_applied": 0.04,
+      "strategic_weight_default": 0.07,
+      "strategic_weight_applied": 0.07,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 60,
+        "bilateral_analysis": "Both sovereigns are AAA-rated, so the fiscal differential is minimal and the factor is Neutral for the pair. Australia holds the AAA trifecta (S&P/Moody's/Fitch) with gross debt ~34% of GDP and a ~1% deficit. Singapore is also full-set AAA — the only Asian sovereign with the complete set — with persistent fiscal surpluses and a massively net-positive asset position (GIC/Temasek $1T). On a pure fiscal-quality basis, Singapore is marginally stronger (surplus vs deficit, larger net assets), giving a faint pair-bearish tilt, but both are best-in-class so neither leg's currency derives a tactical edge. The factor is a wash near-term.",
+        "key_bilateral_metrics": [
+          "Both AAA trifecta (Australia and Singapore)",
+          "AUD debt ~34% GDP, deficit ~1%; SGD fiscal surplus, net assets $1T",
+          "Singapore marginally stronger (surplus, larger reserves) — faint pair-bearish",
+          "Neither leg derives a tactical fiscal edge",
+          "No fiscal event near-term"
+        ],
+        "what_is_priced": "Both AAA statuses are fully priced. The edge is negligible tactically — a neutral wash.",
+        "citations": [
+          22
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 56,
+        "bilateral_analysis": "Strategically, Singapore's fiscal position is the marginally stronger of two AAA sovereigns, giving a faint pair-bearish lean. Singapore runs persistent surpluses with a net-positive asset base exceeding $1T (GIC/Temasek), which underpins both its safe-haven status and MAS's ability to run a strong-currency regime — a structural SGD support. Australia's AAA is secure but rests on a (modest) deficit and rising state debt (Victoria). In a global fiscal-sustainability theme, both screen well versus the US/Europe, but Singapore's surplus-plus-reserves profile is incrementally superior, tilting the structural sovereign factor faintly toward SGD. The effect is small given both are top-tier, hence low conviction.",
+        "key_bilateral_metrics": [
+          "Singapore fiscal surplus + $1T net assets vs Australia ~1% deficit",
+          "Singapore reserves underpin the S$NEER strong-currency regime",
+          "Australia: rising state debt (Victoria) a contained watch-item",
+          "Both AAA — differential is marginal",
+          "Faint structural pair-bearish lean"
+        ],
+        "what_is_priced": "Both fiscal positions are fully recognised. The edge: Singapore's surplus-and-reserves superiority is a faint, slow-moving structural pair-bearish input.",
+        "citations": [
+          22
+        ]
+      },
+      "horizon_split": "Tactical (60) is Neutral as both AAA sovereigns offer no near-term edge; strategic (56) is faintly Bearish-pair because Singapore's surplus-plus-reserves profile is the marginally stronger of two top-tier sovereigns over the longer horizon.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 9,
+      "factor_name": "Market Structure & Volatility",
+      "tactical_weight_default": 0.05,
+      "tactical_weight_applied": 0.05,
+      "strategic_weight_default": 0.03,
+      "strategic_weight_applied": 0.03,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 55,
+        "bilateral_analysis": "AUD/SGD's own chart structure is a mature uptrend that has stalled and is rolling over near-term — modestly pair-bearish. From the price data, spot (0.90584) has broken below its 50-day SMA (0.91302) and is testing the 100-day SMA (0.90675), having pulled back ~2% from the May 0.925 peak; the MA stack is no longer cleanly bullish (spot below 50d). TradingView's aggregated moving-average panel recently showed a 'sell' tilt reflecting this front-end erosion. Web-sourced levels put near-term resistance at the 50-day / 0.9130 zone and 0.9200, with support at the 100-day (~0.9067), the 0.9000 round number, then the 200-day SMA at 0.8911. Pair vol is structurally low (~5-7%) because the SGD leg is policy-compressed, so moves are contained. The near-term structure — failed 50-day, testing 100-day — leans bearish-pair toward the 0.9000/0.8911 support zone.",
+        "key_bilateral_metrics": [
+          "Spot 0.90584 below 50d SMA 0.91302, testing 100d SMA 0.90675",
+          "Pulled back ~2% from May 0.925 high (52-wk high 0.92501)",
+          "Resistance 0.9130/0.9200; support 0.9067/0.9000/0.8911 (200d)",
+          "Pair vol structurally low (~5-7%, SGD-compressed)",
+          "TradingView MA panel tilted 'sell'"
+        ],
+        "what_is_priced": "The chart prices a stalling uptrend with the 50-day lost. The edge: the failed 50-day and 100-day test signal near-term downside toward 0.9000, a mild pair-bearish structural read.",
+        "citations": [
+          9,
+          12
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 52,
+        "bilateral_analysis": "Strategically the structure is a wide, low-vol range bounded by the May 0.925 high above and the 200-day SMA (0.8911) / 0.8800 region below — neither confirming nor denying the fundamental view. The 200-day at 0.8911 is the structural trend line; a sustained break below it would flip the longer uptrend and confirm a strategic top, while reclaiming 0.9200 would resume the up-leg. Pair vol stays structurally low because the SGD leg compresses moves; the only vol-spike catalysts are the October MAS slope decision or an RBA carry collapse. With the structure range-bound and contingent on the October MAS binary, the factor is Neutral strategically — it follows fundamentals rather than leading.",
+        "key_bilateral_metrics": [
+          "Strategic range ~0.8800-0.9250 (200d 0.8911 to May high 0.925)",
+          "200d SMA 0.8911 = structural trend line",
+          "Break <0.8911 = strategic top; reclaim 0.9200 = up-leg resumes",
+          "Pair vol spikes only on October MAS or RBA carry collapse",
+          "Structure follows fundamentals — Neutral"
+        ],
+        "what_is_priced": "The structure prices a maturing range with low vol. The edge: the 0.8911 (200d) and 0.9200 levels are the cleanest strategic break signals; the structure itself is a neutral, fundamentals-following input.",
+        "citations": [
+          12
+        ]
+      },
+      "horizon_split": "Tactical (55) is Bearish-pair on the failed 50-day and 100-day test pointing toward 0.9000; strategic (52) is Neutral as the wide, low-vol, MAS-contingent range neither confirms nor denies the fundamental view.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": {
+        "vol_landscape_summary": "AUD/SGD's pair vol is structurally low (~5-7%) because the SGD leg is policy-compressed by the MAS S$NEER band. The managed-SGD leg dampens both upside and downside in the pair, making large directional moves unlikely absent a regime shift. No liquid, deep options market exists for AUD/SGD specifically — it is a thin cross relative to AUD/USD or USD/SGD — so risk-reversal and barrier data are not cleanly observable.",
+        "directional_expression": "Given structurally low pair vol and thin options liquidity, the cleanest expression of a directional view is via spot/forward rather than options. For a bullish-pair view, the carry-rich long-AUD/SGD carry trade (carry-to-vol ~53) is best harvested in spot/forward where the ~+318bp differential accrues against only ~1% SGD appreciation drag. For a bearish-pair view, shorting spot captures the SGD appreciation slope plus the AUD carry-fade narrative, but the holder pays the wide negative carry (~-218bp net) — a costly short that requires conviction in an October MAS hold AND an RBA dovish pivot. Because pair options are illiquid and SGD vol is policy-compressed, there is no cheap optionality edge; the expression decision is fundamentally a carry-versus-direction trade-off.",
+        "event_timing_consideration": "Tenor should be set to the catalyst: 1-2M around the 29 July Australian CPI; 3-4M to capture the October MAS review. The 29 July CPI is the first material vol catalyst for the pair, making a 1M position natural for expressing the AUD-carry-fate narrative. A 3-4M position spans the October MAS review and is appropriate for expressing the strategic carry-fade-meets-SGD-appreciation thesis.",
+        "liquidity_note": "AUD/SGD is a thin cross with limited spot/forward liquidity compared to AUD/USD or USD/SGD. Execution is best done in smaller size during Asian and London overlap sessions. Forward market depth is adequate for institutional sizes at 1M and 3M tenors but thins significantly beyond 6M. The absence of a liquid options market means there is no practical way to buy cheap vol or express the view via risk reversals — spot/forward is the only viable instrument."
+      }
+    },
+    {
+      "factor_number": 10,
+      "factor_name": "USD Liquidity & Funding",
+      "tactical_weight_default": 0.11,
+      "tactical_weight_applied": 0.11,
+      "strategic_weight_default": 0.12,
+      "strategic_weight_applied": 0.12,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 53,
+        "bilateral_analysis": "For this non-USD cross, USD funding conditions transmit through both vehicle-currency legs and currently net to Neutral. Both AUD and SGD trades settle largely through USD, and both economies have structural USD-funding channels — Australian banks are offshore USD borrowers, and Singapore is a major Asian-dollar/USD-clearing hub. With SOFR stable (~3.69%), no money-market dislocation, and VIX contained at ~16.2, there is no funding stress to differentially hurt either leg. A firm-but-stable broad USD (mid-dollar-smile) is the regime where both high-beta AUD and Asian-hub SGD can express their respective drivers. Because USD funding is benign and affects both legs symmetrically, the factor is a wash for the pair tactically.",
+        "key_bilateral_metrics": [
+          "SOFR ~3.69%, stable; no money-market dislocation",
+          "Both legs settle via USD; both have structural USD-funding channels",
+          "Australian banks offshore USD borrowers; Singapore = Asian-dollar hub",
+          "Mid-dollar-smile regime — benign for both legs",
+          "No differential funding stress → Neutral pair"
+        ],
+        "what_is_priced": "The market prices ample USD liquidity. The edge: the absence of funding stress removes a tail that could asymmetrically hit either leg — a neutral wash for the pair.",
+        "citations": [
+          26
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 52,
+        "bilateral_analysis": "Strategically, USD liquidity remains a two-sided wash for the pair because the dollar-smile dynamics affect both legs in offsetting ways. A firm hawkish-Fed USD (median dot ~3.8%) caps both AUD and SGD versus the dollar, but the relative pair effect is muted — in a strong-USD regime, high-beta AUD typically underperforms more than managed SGD (mild pair-bearish), while in a softening-USD regime AUD's carry can express (mild pair-bullish). The year-end USD-funding seasonality is a minor watch-item affecting both. Because the USD-smile effects on the two legs largely offset and the differential transmission is weak, the factor is Neutral strategically. A year-end USD squeeze would hurt high-beta AUD marginally more, the only modest asymmetry.",
+        "key_bilateral_metrics": [
+          "Fed dot ~3.8%; firm USD caps both legs",
+          "Strong-USD = AUD underperforms more (mild pair-bearish)",
+          "Soft-USD = AUD carry expresses (mild pair-bullish)",
+          "Year-end USD-funding seasonality affects both",
+          "Net offsetting → Neutral pair"
+        ],
+        "what_is_priced": "Markets price a firm-but-stable USD. The edge: the dollar-smile effects on the two legs largely cancel, leaving USD liquidity a neutral strategic input with only a faint pair-bearish tilt in a strong-USD squeeze.",
+        "citations": [
+          26
+        ]
+      },
+      "horizon_split": "Both horizons are Neutral (53 tactical, 52 strategic): USD funding is benign and affects both vehicle-currency legs symmetrically, with only a faint pair-bearish asymmetry in a strong-USD squeeze (AUD's higher beta).",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    }
+  ],
+  "synthesis": {
+    "weight_adjustments": {
+      "adjustments_made": false,
+      "adjustments": []
+    },
+    "tactical": {
+      "net_stance": "Bullish",
+      "conviction": 2,
+      "overall_confidence": 56,
+      "weighted_score_calculation": [
+        {
+          "factor_number": 1,
+          "factor_name": "Policy & Rates",
+          "stance_score": 1,
+          "confidence": 64,
+          "conf_adj_score": 0.64,
+          "weight": 0.24,
+          "weighted_contribution": 0.1536
+        },
+        {
+          "factor_number": 2,
+          "factor_name": "Inflation & Growth",
+          "stance_score": -1,
+          "confidence": 58,
+          "conf_adj_score": -0.58,
+          "weight": 0.18,
+          "weighted_contribution": -0.1044
+        },
+        {
+          "factor_number": 3,
+          "factor_name": "Risk Appetite",
+          "stance_score": 1,
+          "confidence": 56,
+          "conf_adj_score": 0.56,
+          "weight": 0.1,
+          "weighted_contribution": 0.056
+        },
+        {
+          "factor_number": 4,
+          "factor_name": "Flows & Positioning",
+          "stance_score": -1,
+          "confidence": 58,
+          "conf_adj_score": -0.58,
+          "weight": 0.1,
+          "weighted_contribution": -0.058
+        },
+        {
+          "factor_number": 5,
+          "factor_name": "External Balance/ToT",
+          "stance_score": -1,
+          "confidence": 58,
+          "conf_adj_score": -0.58,
+          "weight": 0.06,
+          "weighted_contribution": -0.0348
+        },
+        {
+          "factor_number": 6,
+          "factor_name": "Guidance & Credibility",
+          "stance_score": 1,
+          "confidence": 58,
+          "conf_adj_score": 0.58,
+          "weight": 0.07,
+          "weighted_contribution": 0.0406
+        },
+        {
+          "factor_number": 7,
+          "factor_name": "Event Risk & Geopol",
+          "stance_score": -1,
+          "confidence": 54,
+          "conf_adj_score": -0.54,
+          "weight": 0.05,
+          "weighted_contribution": -0.027
+        },
+        {
+          "factor_number": 8,
+          "factor_name": "Fiscal & Sovereign",
+          "stance_score": 0,
+          "confidence": 60,
+          "conf_adj_score": 0,
+          "weight": 0.04,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 9,
+          "factor_name": "Market Structure/Vol",
+          "stance_score": -1,
+          "confidence": 55,
+          "conf_adj_score": -0.55,
+          "weight": 0.05,
+          "weighted_contribution": -0.0275
+        },
+        {
+          "factor_number": 10,
+          "factor_name": "USD Liquidity",
+          "stance_score": 0,
+          "confidence": 53,
+          "conf_adj_score": 0,
+          "weight": 0.11,
+          "weighted_contribution": 0
+        }
+      ],
+      "net_weighted_score": -0.0015,
+      "score_interpretation": "Net score of -0.0015 is essentially flat/neutral, fractionally negative. The dominant Policy & Rates factor (+0.154, driven by the ~+318bp carry) is almost exactly cancelled by the broad cluster of pair-bearish factors — Inflation & Growth (-0.104), Flows (-0.058), External Balance (-0.035), Event Risk (-0.027) and Market Structure (-0.028). This is the textbook 'both currencies bullish on their own = muted pair signal' outcome. The score maps to conviction 2/5. Because the score is fractionally negative but the single largest factor (carry) is bullish and locked, the headline tactical stance is rounded to marginally Bullish — the carry is the most actionable, highest-confidence force — but conviction is genuinely low (2), reflecting a near-perfect standoff.",
+      "rationale": "At tactical weights the pair is a near-perfect standoff. The Policy & Rates factor dominates the bull case: the ~+318bp RBA-SORA differential, locked for the window with no RBA or MAS meeting until August/October, gives long AUD/SGD a carry-to-vol of ~53 — exceptional and the single most actionable edge. Against this, a broad cluster of factors leans bearish-pair: Singapore's ~+6.0% growth versus Australia's +2.52%, its ~+16.7% current-account surplus versus Australia's -3.68% deficit, the oil collapse's asymmetric benefit to oil-importer SGD, fresh spec positioning that fades AUD while buying SGD, and a chart that has lost its 50-day. The base and quote dossiers BOTH being bullish on their own currencies is precisely why the pair signal is muted — the carry and the fundamentals pull in opposite directions and nearly cancel (net score -0.0015). The bilateral-specific modifier is that the oil de-escalation is unusually two-sided for this cross, simultaneously removing AUD's inflation premium AND improving SGD's terms of trade, which is why the pair pulled back ~2% from its May 0.925 high. What is priced versus expected: spot embeds the high carry, but the forwards price ~-3%/yr AUD depreciation vs SGD that the carry holder is paid to fade — the edge is harvesting the wide carry while spot grinds sideways. The path of least resistance is a high-level consolidation in the 0.900-0.913 range, with carry rewarding holders but SGD's fundamentals and appreciation slope capping rallies. Key dated catalysts are the 25 June and 23 July Australian labour data, the 22 June Singapore CPI, and above all the 29 July Australian Q2 CPI. Conviction is 2 because, while the carry is a genuine and locked tailwind, it is so thoroughly offset by SGD's superior fundamentals that the directional edge is minimal — the cleanest expression is harvesting carry in a range, not a directional bet.",
+      "g10_relative_ranking": "Among AUD crosses, AUD/SGD ranks in the middle for tactical long-carry attractiveness — its ~+318bp carry is wide, but SGD's appreciation bias and surplus make it a less clean long than AUD/JPY (deepest carry, weak-fundamental funder) or AUD/CHF. It is more attractive than AUD/NZD (narrow Antipodean carry) and AUD/CAD as a carry play, but the strong-SGD quote caps upside. Among SGD crosses, AUD/SGD is one of the few where SGD's negative carry 'bites most' — the SGD dossier flags long AUD/SGD as the 'cleanest bearish [SGD-relative-underperformance] expression,' meaning a carry-rich AUD can outpace the appreciation-but-negative-carry SGD in risk-on regimes. Overall, AUD/SGD is a moderate-conviction carry-harvest cross, not a high-conviction directional trade in either direction.",
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "pair_target": "AUD/SGD 0.9000-0.9130",
+          "timeframe": "2-4 weeks",
+          "conditions": [
+            "RBA holds 4.35% with no dovish surprise",
+            "MAS slope intact, SGD grinds higher gradually",
+            "29 July Australian CPI in line, oil stays low, risk-on persists"
+          ],
+          "path": "AUD/SGD consolidates in the 0.9000-0.9130 range; carry-supported dip-buying at 0.9000/100d SMA keeps the pair bid while SGD's appreciation slope and superior fundamentals cap rallies near the 50-day (0.9130). Carry accrues ~+26 pips/month with spot oscillating."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "pair_target": "AUD/SGD 0.9250",
+          "conditions": [
+            "Risk-on extends, high-beta AUD outperforms moderate-beta SGD",
+            "Hot 29 July Australian CPI defers the RBA carry fade, or China stimulus lifts AUD"
+          ]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "pair_target": "AUD/SGD 0.8950-0.8911",
+          "conditions": [
+            "Soft Australian CPI confirms the carry fade",
+            "China/tariff risk-off hits high-beta AUD harder than safe-haven SGD"
+          ]
+        }
+      },
+      "path_expectation": "Expect a low-volatility consolidation centred on 0.905-0.910 over the next 2-4 weeks, with the SGD-compressed vol regime preventing large directional moves. Carry should attract dip-buyers toward the 0.9000 round number and 100-day SMA, while SGD's appreciation slope and superior fundamentals cap rallies near the 50-day (0.9130). The pattern is a grind, not a trend — the carry accrues (~+26 pips/month) while spot oscillates. The 29 July Australian CPI is the most likely vol catalyst; a soft print would test the 0.8950-0.8911 support zone, while an in-line print sustains the range. Volatility stays subdued (pair IV ~5-7%) absent a regime shift. The SGD-compressed vol makes large directional breaks unlikely in the tactical window; the cleanest tactical expression is harvesting carry in a defined range rather than positioning for a directional breakout.",
+      "conviction_ladder": {
+        "current": 2,
+        "increase_conditions": [
+          "RBA reaffirms hike bias at 11 Aug AND Australian Q2 CPI surprises hot, keeping the carry intact above +310bp",
+          "AUD/SGD reclaims and holds above 0.9130 (50-day SMA) on risk-on extension with VIX below 15"
+        ],
+        "decrease_conditions": [
+          "Soft Australian CPI (<4.0% headline) confirms disinflation and the RBA signals end-of-cycle at the 11 Aug SoMP",
+          "AUD/SGD breaks below 0.8911 (200-day SMA) on a China/tariff risk-off event"
+        ]
+      },
+      "risk_reward": {
+        "base_case_payoff": "~+26 pips carry accrual over 4 weeks on a long-carry position (spot roughly flat at 0.905-0.910)",
+        "downside_case_loss": "-110 to -150 pips toward 0.8950-0.8911 on a soft CPI or risk-off",
+        "risk_reward_ratio": "~0.5:1 on outright spot; carry accrual lifts expected value modestly",
+        "expected_value": "(0.50 × +26) + (0.25 × +180 toward 0.9250) + (0.25 × -130 toward 0.8911) = +13 + 45 - 32.5 = ~+25 pips — modestly positive, driven by carry accrual",
+        "asymmetry_assessment": "The distribution is roughly symmetric on spot but tilted positive by the carry accrual; the SGD-compressed vol caps both tails. This is a carry-harvest setup with limited directional asymmetry — best sized small."
+      }
+    },
+    "strategic": {
+      "net_stance": "Bearish",
+      "conviction": 2,
+      "overall_confidence": 54,
+      "weighted_score_calculation": [
+        {
+          "factor_number": 1,
+          "factor_name": "Policy & Rates",
+          "stance_score": 0,
+          "confidence": 54,
+          "conf_adj_score": 0,
+          "weight": 0.24,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 2,
+          "factor_name": "Inflation & Growth",
+          "stance_score": -1,
+          "confidence": 55,
+          "conf_adj_score": -0.55,
+          "weight": 0.1,
+          "weighted_contribution": -0.055
+        },
+        {
+          "factor_number": 3,
+          "factor_name": "Risk Appetite",
+          "stance_score": 0,
+          "confidence": 52,
+          "conf_adj_score": 0,
+          "weight": 0.05,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 4,
+          "factor_name": "Flows & Positioning",
+          "stance_score": 0,
+          "confidence": 53,
+          "conf_adj_score": 0,
+          "weight": 0.06,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 5,
+          "factor_name": "External Balance/ToT",
+          "stance_score": -1,
+          "confidence": 60,
+          "conf_adj_score": -0.6,
+          "weight": 0.16,
+          "weighted_contribution": -0.096
+        },
+        {
+          "factor_number": 6,
+          "factor_name": "Guidance & Credibility",
+          "stance_score": 0,
+          "confidence": 53,
+          "conf_adj_score": 0,
+          "weight": 0.12,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 7,
+          "factor_name": "Event Risk & Geopol",
+          "stance_score": -1,
+          "confidence": 55,
+          "conf_adj_score": -0.55,
+          "weight": 0.05,
+          "weighted_contribution": -0.0275
+        },
+        {
+          "factor_number": 8,
+          "factor_name": "Fiscal & Sovereign",
+          "stance_score": -1,
+          "confidence": 56,
+          "conf_adj_score": -0.56,
+          "weight": 0.07,
+          "weighted_contribution": -0.0392
+        },
+        {
+          "factor_number": 9,
+          "factor_name": "Market Structure/Vol",
+          "stance_score": 0,
+          "confidence": 52,
+          "conf_adj_score": 0,
+          "weight": 0.03,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 10,
+          "factor_name": "USD Liquidity",
+          "stance_score": 0,
+          "confidence": 52,
+          "conf_adj_score": 0,
+          "weight": 0.12,
+          "weighted_contribution": 0
+        }
+      ],
+      "net_weighted_score": -0.2177,
+      "score_interpretation": "Net score of -0.218 is modestly negative (pair-bearish). With the AUD carry fade pulling Policy & Rates to Neutral (the bull pillar collapses), the heavily-weighted External Balance factor (-0.096, at 0.16 weight) becomes the dominant force, joined by Inflation & Growth (-0.055), Fiscal (-0.039) and Event Risk (-0.028). Strategically, with carry no longer reinforcing, SGD's superior fundamentals win on the margin. The score maps to conviction 2/5: a low-conviction bearish-pair lean, capped because the carry — though fading — remains wide enough in absolute terms to cushion the downside, and the October MAS dovish-pivot risk could remove SGD's appreciation pressure and offset the bearish tilt.",
+      "rationale": "At strategic weights the pair turns modestly bearish because the bull pillar — AUD carry — fades while SGD's structural strengths persist. Policy & Rates drops to Neutral (0.00) as the oil-driven Australian disinflation pushes the market to price RBA cuts (ANZ: Sep/Dec), compressing the differential, while the heavily-weighted External Balance factor (0.16, -0.096) becomes dominant: Singapore's ~+16.7% surplus versus Australia's -3.68% deficit, plus the durable oil-importer terms-of-trade gain, is the strongest single bilateral force and it favours SGD. The base and quote dossiers' interaction shifts: tactically both were bullish (muting the signal), but strategically AUD's carry support decays faster than SGD's appreciation bias, tilting the net pair-bearish. The bilateral-specific modifier is the October MAS review — a genuine two-sided binary that, if it flattens the SGD slope, removes the appreciation pressure and offsets much of the bearish tilt (which is why conviction stays low at 2 rather than higher). What is priced versus expected: the forwards already embed ~-3%/yr AUD depreciation vs SGD, and consensus AUD/SGD forecasts cluster near 0.90-0.91 — broadly the current level — so the strategic edge is small and lies in the interaction of the AUD carry fade with the October MAS decision. The path of least resistance is a gradual drift lower toward 0.8900-0.9000 as the AUD carry premium erodes, contingent on MAS holding its slope. Key strategic catalysts are the 11 August and 3 November RBA SoMPs, the October MAS review, the 29 July and late-October Australian CPIs, and the 10 November tariff cliff. Conviction is 2 because the wide absolute carry cushions the downside even as it fades, and the October MAS pivot risk is a genuine offset to the bearish thesis. The strategic bearish lean is best NOT expressed as an outright short given the prohibitive negative carry cost; it is more an argument to avoid long AUD/SGD strategically and to prefer cleaner expressions elsewhere.",
+      "g10_relative_ranking": "Strategically, AUD/SGD ranks as a low-conviction relative-value cross. Among AUD crosses, it is a less attractive strategic long than AUD/JPY (where the carry-fade is offset by JPY structural weakness) because SGD appreciates by policy and has elite fundamentals — making AUD/SGD a poor outright long for the strategic horizon. Among SGD crosses, long AUD/SGD is the cleanest expression of SGD-relative-underperformance via carry, but the strategic case for SGD strength (surplus, inflows, appreciation bias) argues against it. Net, the cross is best viewed as a carry-harvest-in-a-range trade rather than a directional strategic position; the highest-conviction strategic SGD expression is elsewhere (SGD/JPY long, EUR/SGD short), and the highest-conviction AUD carry expression is AUD/JPY.",
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "pair_target": "AUD/SGD 0.8900-0.9050",
+          "timeframe": "1-6 months",
+          "conditions": [
+            "RBA begins pricing cuts as oil-inflation fades (ANZ Sep/Dec pencilled)",
+            "MAS holds its slope in October, SGD appreciation continues",
+            "Iron ore range-bound ~$90-105/t, no major China shock"
+          ],
+          "path": "Gradual, low-volatility drift lower toward 0.8900-0.9000 as the market prices RBA cuts while SGD's appreciation slope persists, punctuated by the binary October MAS review. A hold accelerates the drift lower; a flatten stalls or reverses it. The 200-day SMA at 0.8911 is the key strategic pivot."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "pair_target": "AUD/SGD 0.9200",
+          "conditions": [
+            "RBA stays on hold/hawkish (no cuts) keeping carry wide",
+            "MAS flattens its slope in October, removing SGD appreciation pressure, OR China stimulus reflates AUD"
+          ]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "pair_target": "AUD/SGD 0.8700-0.8800",
+          "conditions": [
+            "RBA pivots dovish faster than expected, collapsing the carry differential",
+            "US-China tariff re-escalation hits high-beta AUD harder than safe-haven SGD"
+          ]
+        }
+      },
+      "path_expectation": "Over 1-6 months expect a gradual, low-volatility drift lower toward the 0.8900-0.9000 region, with the pace governed by the interaction of the AUD carry fade and the October MAS decision. The most likely path is a sideways-to-modestly-lower grind as the market prices RBA cuts while SGD's appreciation slope persists, punctuated by the binary October MAS review (a hold accelerates the drift lower; a flatten stalls or reverses it). The 200-day SMA at 0.8911 is the key strategic pivot — a sustained break below it would confirm a strategic top and open 0.8700-0.8800. Pair volatility stays structurally compressed except around the October MAS event. A fresh up-leg requires the RBA to stay hawkish (no cuts) — the less probable path. The strategic bearish lean is best expressed by avoiding long AUD/SGD positions rather than shorting outright, given the prohibitive carry drag on a short position.",
+      "conviction_ladder": {
+        "current": 2,
+        "increase_conditions": [
+          "RBA pivots to explicit easing while MAS holds its slope, collapsing the carry differential below +250bp AND AUD/SGD breaks and holds below the 200-day (0.8911)",
+          "RBA pencils Sep/Dec cuts confirmed AND MAS reaffirms its appreciation slope AND Singapore surplus/NODX keeps widening while Australian iron ore falls below $90/t"
+        ],
+        "decrease_conditions": [
+          "MAS flattens its slope in October, removing SGD appreciation pressure and neutralising the strategic bearish thesis",
+          "RBA stays on hold/hawkish (no cuts), preserving the wide carry above +310bp and lifting AUD/SGD back above 0.9130"
+        ]
+      },
+      "risk_reward": {
+        "base_case_payoff": "+110 to +160 pips toward 0.8950-0.8900 on a short, minus ~-100 pips carry drag over 6 months = ~+10 to +60 pips net",
+        "downside_case_loss": "-250 to -340 pips toward 0.9200 plus carry drag on a short position",
+        "risk_reward_ratio": "~0.3:1 net for a short position after carry drag",
+        "expected_value": "(0.50 × +40 net) + (0.25 × +180 toward 0.8750) + (0.25 × -290 toward 0.9200) = +20 + 45 - 72.5 = ~-7.5 pips — slightly negative because the carry drag overwhelms the modest directional edge on a short",
+        "asymmetry_assessment": "The negative carry makes the strategic bearish-pair view expensive to express via a short — the directional thesis is correct but the carry cost neutralises it. The strategic bearish lean is best NOT expressed as an outright short; it is more an argument to avoid long AUD/SGD strategically and to prefer cleaner SGD-long expressions (SGD/JPY) and cleaner AUD-carry expressions (AUD/JPY) elsewhere."
+      }
+    },
+    "consensus_divergence": {
+      "bank_consensus_forecast": "Bank and model consensus for AUD/SGD clusters near current levels with a mild downward bias over 6-12 months. One forecasting model projects AUD/SGD fluctuating between 0.8854 and 0.9216 by December 2026 with an average near 0.9035, while another expects the pair to reach approximately 0.9138 by end-2026 — both essentially flat-to-modestly-lower from spot (sources: Traders Union, CoinCodex forecasting models).",
+      "our_tactical_view": "Marginally Bullish (conviction 2) — carry-supported consolidation in 0.9000-0.9130 range; spot holds up better than consensus expects because the ~+318bp carry is locked and too wide to compress in 2-4 weeks",
+      "our_strategic_view": "Marginally Bearish/Neutral (conviction 2) — gradual drift toward 0.8900-0.9000 as AUD carry fades; best expressed by avoiding long positions rather than shorting outright given prohibitive carry drag",
+      "divergence_direction": "Tactically above consensus (more constructive near-term); strategically broadly in-line with mild downward bias",
+      "divergence_magnitude": "Tactically ~+25-75 pips above consensus near-term; strategically in-line to marginally below",
+      "why_we_differ": "We place greater weight on the carry-versus-fundamentals standoff than the consensus forecast. Tactically the ~+318bp carry holds the pair up in a range (we are slightly more constructive near-term than the modestly-lower forecasts because the carry is locked for 2-4 weeks and the dip-buying incentive is strong). Strategically we emphasise that the AUD carry fade meets SGD's structural superiority, biasing the pair lower — BUT that the negative carry makes shorting unprofitable, which is a nuance the consensus directional forecasts underweight. We differ most on the October MAS binary: the consensus underweights the dovish-pivot risk (a flatter SGD slope) that would remove the pair-bearish appreciation pressure and stabilise AUD/SGD. The consensus treats SGD appreciation as a given; we assign a 35% probability to MAS flattening the slope, which is a genuine pair-bullish offset that keeps our strategic conviction at 2 rather than 3-4.",
+      "payoff_if_right": "Harvesting carry in a tactical range while avoiding an expensive strategic short; modestly positive expected value of ~+25 pips tactically driven by carry accrual",
+      "risk_if_wrong": "A faster RBA dovish pivot collapses the carry and the pair falls harder than our range, or an MAS flatten stalls SGD and the pair holds higher than our strategic bias"
+    },
+    "cross_horizon_consistency": {
+      "aligned": false,
+      "tactical_stance": "Marginally Bullish (conviction 2) — carry-locked, risk-on, range consolidation",
+      "strategic_stance": "Marginally Bearish/Neutral (conviction 2) — carry fades, SGD structural strengths dominate",
+      "explanation": "The horizons are directionally opposed but share the same conviction level (2), reflecting two different regime states. Tactically the locked ~+318bp carry (Factor 1 Bullish) offsets the bearish fundamental cluster, netting flat-to-marginally-positive. Strategically the carry fades (Factor 1 to Neutral) as the market prices RBA cuts, allowing the heavily-weighted External Balance factor (Bearish, 0.16) to dominate and tilt the net pair-bearish. The transition is driven by the AUD carry fade timeline rather than a fundamental flip.",
+      "inflection_point": "The inflection is the sequence: 29 July Australian CPI → 11 August RBA SoMP → October MAS review. A soft CPI and dovish RBA SoMP would accelerate the transition from tactical-bullish to strategic-bearish; an October MAS flatten would offset and potentially stabilise the pair above 0.9000.",
+      "trading_implication": "Harvest the carry in the tactical window via a small long-AUD/SGD-carry position in the 0.900-0.913 range, but do NOT carry that long into the strategic horizon if the RBA signals cuts — lighten or exit ahead of the 11 August SoMP, and avoid an outright strategic short given the prohibitive negative carry."
+    },
+    "forward_vs_spot": {
+      "current_spot": 0.90584,
+      "forward_1m": "~0.9035 (~-23 pips; forward-implied ~-3.0%/yr AUD depreciation vs SGD)",
+      "forward_3m": "~0.8990 (~-68 pips; ~-3.0%/yr)",
+      "forward_6m": "~0.8920 (~-138 pips; ~-3.0%/yr)",
+      "expected_rate_3m": "~0.9000",
+      "expected_rate_6m": "~0.8950",
+      "edge_3m": "~+10 pips (forward implies 0.8990, we expect ~0.9000 — carry holds spot up vs forward curve)",
+      "edge_6m": "~+30 pips (forward implies 0.8920, we expect ~0.8950 — carry-supported spot sits modestly above steep forward discount)"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-06-22",
+      "event": "Singapore May CPI / MAS Core Inflation",
+      "expected_impact": "Bearish",
+      "which_leg_affected": "Quote",
+      "rationale": "A contained or firm core reading reinforces MAS's appreciation bias, supporting SGD and pressuring AUD/SGD lower. A soft print would strengthen the October dovish-pivot case (mild pair-bullish offset). Singapore's stable ~1.7% core keeps the SGD appreciation slope credible and removes the case for MAS to flatten its band — the SGD's managed-currency status means this data feeds directly into the policy credibility that underpins the pair-bearish appreciation drift.",
+      "priced_in": "Partially",
+      "citations": [
+        36
+      ]
+    },
+    {
+      "date": "2026-06-25",
+      "event": "Australia Labour Force (May)",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Base",
+      "rationale": "A tight print supports the RBA's hawkish hold and AUD carry (pair-bullish); a soft print revives easing speculation and the carry fade (pair-bearish). Australian employment has consistently surprised to the upside. The bilateral transmission is direct: a strong jobs print reinforces the RBA's justification for holding 4.35%, preserving the ~+318bp carry differential that is the single most important bilateral driver for AUD/SGD; a soft print accelerates the market's pricing of RBA cuts and compresses the differential.",
+      "priced_in": "Not priced",
+      "citations": [
+        26
+      ]
+    },
+    {
+      "date": "2026-07-17",
+      "event": "Singapore June NODX",
+      "expected_impact": "Bearish",
+      "which_leg_affected": "Quote",
+      "rationale": "Another strong electronics-led NODX print widens Singapore's goods surplus and reinforces the SGD growth premium, pressuring AUD/SGD lower. April's +24.5% YoY set a high bar. For this specific pair, Singapore's widening surplus is particularly impactful because it reinforces the ~20-point current-account gap versus Australia's deficit, the strongest bilateral fundamental pillar against the pair. Strong NODX supports the case for MAS to maintain its appreciation slope in October.",
+      "priced_in": "Partially",
+      "citations": [
+        36
+      ]
+    },
+    {
+      "date": "2026-07-29",
+      "event": "Australia Q2 CPI",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Base",
+      "rationale": "The single highest-impact pair catalyst over the tactical window. With oil collapsing, fuel-driven Australian inflation is fading; a soft print confirms the carry fade and pressures AUD/SGD lower, while a still-hot print defers RBA cuts and supports the pair. The bilateral asymmetry is acute: Australian disinflation is the trigger for the AUD carry fade that flips the pair from tactical-bullish to strategic-bearish, while Singapore's inflation is policy-managed and far less market-moving for the pair. The quarterly cadence amplifies the move. The calm vol surface underprices this binary.",
+      "priced_in": "Partially",
+      "citations": [
+        26
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "event": "RBA decision + Statement on Monetary Policy",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Base",
+      "rationale": "The first SoMP since the oil collapse and the key AUD-side strategic event for the pair. ANZ pencils Sep/Dec cuts; a dovish forecast revision acknowledging cheaper oil confirms the carry fade (pair-bearish), while a reaffirmed hike bias supports the pair. The bilateral importance: this is the event that determines whether the ~+318bp carry differential — the pair's structural support — begins to compress toward ~+270bp or holds above +300bp, directly setting the strategic trajectory for AUD/SGD.",
+      "priced_in": "Not priced",
+      "citations": [
+        27
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "event": "Singapore Q2 GDP final estimate",
+      "expected_impact": "Bearish",
+      "which_leg_affected": "Quote",
+      "rationale": "A still-firm Q2 confirms Singapore's growth boom and supports the case for MAS to hold its slope in October, reinforcing SGD appreciation and pressuring AUD/SGD lower. The bilateral relevance: a strong Singapore Q2 vs a softening Australia widening the ~+350bp growth gap further entrenches SGD's fundamental superiority and reduces the probability of an October MAS flatten — the only major pair-bullish offset in the strategic view.",
+      "priced_in": "Partially",
+      "citations": [
+        36
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "event": "Singapore August NODX + MAS Core Inflation",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Quote",
+      "rationale": "The last major Singapore data cluster before the October MAS review. Firm exports and contained core supports the hold-slope case (pair-bearish via SGD strength); softening core strengthens the flatten-slope case (pair-bullish offset). This data release is the final input into MAS's October decision — the single most important SGD-side event for the pair's strategic direction. Its bilateral importance is that the SGD appreciation slope directly works against AUD's carry in pair terms, so any hint of MAS dovishness here would be immediately pair-bullish.",
+      "priced_in": "Not priced",
+      "citations": [
+        35
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "event": "MAS Monetary Policy Statement + Macroeconomic Review (DECISIVE)",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Quote",
+      "rationale": "The single most important strategic SGD-side catalyst for AUD/SGD. Holding the ~1% slope sustains SGD appreciation (pair-bearish); flattening it removes the appreciation pressure (pair-bullish). DBS notes a steeper slope needs core sustained above 2%, unlikely post-oil-reversal — so a flatten is a live offset to the pair-bearish thesis. The bilateral importance for this specific pair is maximal: the SGD appreciation slope is the primary force working against AUD's ~+318bp carry advantage, and a MAS decision to change that slope would directly alter the pair's return profile in either direction.",
+      "priced_in": "Not priced",
+      "citations": [
+        35
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "event": "RBA decision + Statement on Monetary Policy",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Base",
+      "rationale": "SoMP just before the tariff cliff; with oil low and inflation rolling over, a pivot toward easing is the more likely surprise, confirming the AUD carry fade and pressuring AUD/SGD lower. The bilateral transmission: an RBA pivot narrows the AUD-SORA differential from ~+270bp (post-2 cuts) toward ~+245bp, compressing the carry-to-vol ratio and reducing the incentive to hold long AUD/SGD. A hold sustains the carry and provides a pair-bullish surprise.",
+      "priced_in": "Not priced",
+      "citations": [
+        27
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "event": "US-China tariff truce expiry",
+      "expected_impact": "Bearish",
+      "which_leg_affected": "Both",
+      "rationale": "Hits both China-proxy legs, but higher-beta AUD harder via the commodity-demand channel; SGD partly offsets via a regional safe-haven bid. Net re-escalation is pair-bearish because AUD's direct commodity-demand exposure to China (iron ore, coal) is far greater than SGD's indirect exposure via entrepot trade, and SGD would attract safe-haven capital flight from the rest of Asia even as its own economy is hurt. This is the most important tail risk for the pair's strategic scenario — an asymmetric AUD-damaging event that consensus consistently underprices.",
+      "priced_in": "Not priced",
+      "citations": [
+        26
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "event": "Bank of Canada decision",
+      "expected_impact": "Neutral",
+      "which_leg_affected": "Base",
+      "rationale": "A dovish BoC reinforces the soft-growth commodity-peer theme but has limited direct AUD/SGD impact; relevant mainly as a read on global commodity-currency sentiment and the broader question of whether G10 commodity currencies are in a structural carry-fade cycle. For this specific pair, the BoC decision matters only at the margin — if a BoC cut triggers a re-pricing of commodity-currency carry cycles, it could incrementally accelerate the market's pricing of RBA cuts, but the direct bilateral transmission to AUD/SGD is weak.",
+      "priced_in": "Partially",
+      "citations": [
+        26
+      ]
+    }
+  ],
+  "invalidators": [
+    {
+      "condition": "RBA pivots to an explicit easing cycle (cuts the cash rate or signals cuts at the 11 Aug or 3 Nov SoMP) WHILE MAS holds its appreciation slope in October",
+      "new_stance": "Decisively Bearish for the pair (conviction 3-4)",
+      "mechanism": "The ~+318bp carry pillar collapses as the differential compresses while SGD's appreciation pressure persists — removing the only force holding AUD/SGD up. The pair would drift toward 0.8700-0.8800 as the carry-to-vol ratio falls from ~53 to ~40, removing the dip-buying incentive.",
+      "monitor_indicator": "RBA cash rate decisions and SoMP rate-path forecasts vs MAS October statement language",
+      "monitor_frequency": "Each RBA meeting (8x/year) + October MAS review",
+      "probability_pct": 30
+    },
+    {
+      "condition": "MAS flattens its appreciation slope at the October 2026 review (back toward ~0.5% or neutral)",
+      "new_stance": "Bullish/Neutral for the pair",
+      "mechanism": "Removing SGD's appreciation impulse leaves AUD's wide carry as the dominant force, stabilising or lifting AUD/SGD. The net carry-minus-appreciation edge rises from ~+218bp to ~+318bp (the full policy differential), significantly improving the economics of long AUD/SGD.",
+      "monitor_indicator": "MAS October MPS language — 'reduce slightly the slope' vs 'maintain current slope'",
+      "monitor_frequency": "October MAS review (semi-annual)",
+      "probability_pct": 35
+    },
+    {
+      "condition": "Iron ore breaks decisively below $85/t on a China steel/property downturn",
+      "new_stance": "Bearish for the pair",
+      "mechanism": "Australia's dominant export deteriorates its terms of trade and current account while oil-importer Singapore is unaffected, widening the already-lopsided external differential beyond the current ~20-point CA gap. The AUD loses its commodity-currency support premium at the same time its carry is fading.",
+      "monitor_indicator": "Iron ore 62% Fe CFR China (daily)",
+      "monitor_frequency": "Daily",
+      "probability_pct": 20
+    },
+    {
+      "condition": "US-China tariff re-escalation post-10 November triggers a China-growth scare with CSI 300 falling >10% and USD/CNH breaking above 7.50",
+      "new_stance": "Bearish for the pair",
+      "mechanism": "Higher-beta AUD sells off harder than safe-haven SGD via the shared China channel, even with SGD's own China exposure. AUD's direct commodity-demand channel (iron ore, coal) amplifies the growth-scare impact versus SGD's entrepot-trade exposure, which is partially offset by Singapore's safe-haven capital inflows.",
+      "monitor_indicator": "Tariff headlines, iron ore 62% Fe, CSI 300, USD/CNH",
+      "monitor_frequency": "Daily into and after November 2026",
+      "probability_pct": 25
+    },
+    {
+      "condition": "Renewed Middle East escalation breaks the US-Iran deal and re-spikes Brent above $95",
+      "new_stance": "Bullish for the pair",
+      "mechanism": "The oil rebound restores AUD's imported-inflation premium (re-widening the RBA carry rationale) while worsening oil-importer Singapore's terms of trade — the exact reverse of the June de-escalation that pulled the pair down ~2%. This is the cleanest bilateral pair-bullish catalyst and the primary upside invalidator.",
+      "monitor_indicator": "Brent crude spot, Hormuz shipping status, IAEA Iran nuclear monitoring reports",
+      "monitor_frequency": "Daily",
+      "probability_pct": 20
+    }
+  ],
+  "signposts": [
+    {
+      "indicator": "RBA-SORA policy differential",
+      "current_level": "~+318bp (RBA 4.35% vs SORA ~1.17%)",
+      "confirms_if": "Differential holds above +280bp (RBA holds, no cuts priced)",
+      "invalidates_if": "Compresses below +250bp on RBA cuts being delivered or firmly priced",
+      "bilateral_importance": "This is THE pair's defining edge — the carry differential is far more central to AUD/SGD than to either currency alone, since SGD's negative carry makes the gap the dominant return driver and the structural floor under the pair. A compression below +250bp would remove the primary force holding AUD/SGD above the 200-day SMA.",
+      "source": "https://www.rba.gov.au/statistics/cash-rate/",
+      "frequency": "Each RBA meeting (8x/year); OIS market daily"
+    },
+    {
+      "indicator": "MAS S$NEER slope / band position",
+      "current_level": "~1% appreciation slope, S$NEER upper-half of band",
+      "confirms_if": "MAS holds the slope in October (SGD keeps appreciating ~1% p.a.)",
+      "invalidates_if": "MAS flattens the slope at October 2026 review (SGD appreciation pressure removed → pair-bullish/neutral)",
+      "bilateral_importance": "The SGD appreciation slope directly works against AUD's carry in pair terms — it is the single SGD-side variable that determines whether the wide carry translates into pair gains or is offset, mattering far more for AUD/SGD than for SGD's USD pairs. A slope change is a regime shift for this pair specifically.",
+      "source": "https://www.mas.gov.sg/monetary-policy",
+      "frequency": "Semi-annual (October next); daily S$NEER band-position estimate via MAS"
+    },
+    {
+      "indicator": "Australia Q2/Q3 CPI (headline + trimmed mean)",
+      "current_level": "4.05% headline / 3.3% trimmed mean (Q1 2026)",
+      "confirms_if": "Headline stays at or above 4.0%, deferring RBA cuts and preserving the carry differential",
+      "invalidates_if": "Headline falls below 4.0% / trimmed mean below 3.2%, confirming the carry fade and triggering RBA easing pricing",
+      "bilateral_importance": "Australian disinflation is the trigger for the AUD carry fade that flips the pair from tactical-bullish to strategic-bearish; Singapore's inflation is policy-managed and far less market-moving for the pair, so the Australian CPI is the asymmetric bilateral pair driver. No equivalent Singapore data release carries comparable pair impact.",
+      "source": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation",
+      "frequency": "Quarterly (29 Jul 2026, late Oct 2026)"
+    },
+    {
+      "indicator": "Iron ore 62% Fe CFR China",
+      "current_level": "~$98/t",
+      "confirms_if": "Holds $90-110/t, maintaining AUD terms-of-trade support and range-bound pair",
+      "invalidates_if": "Falls below $85/t (pair-bearish — AUD terms of trade deteriorate, widening the external balance gap) or breaks above $120/t on China stimulus (pair-bullish — AUD gains a commodity premium)",
+      "bilateral_importance": "Iron ore is Australia's dominant export (~35%) and oil-insensitive, so it is the key AUD-side terms-of-trade driver that the oil collapse does NOT touch; Singapore has no commodity-export exposure, making iron ore a one-sided AUD lever for the pair. It is the only major commodity that is bilaterally asymmetric without any SGD offset.",
+      "source": "https://tradingeconomics.com/commodity/iron-ore-62",
+      "frequency": "Daily"
+    },
+    {
+      "indicator": "AUD/SGD vs 200-day SMA",
+      "current_level": "Spot 0.90584 vs 200d SMA 0.89113",
+      "confirms_if": "Holds above 0.9000 round number, confirming carry-supported range-bound consolidation",
+      "invalidates_if": "Sustained break below the 200-day SMA (0.8911) confirms a strategic top and shifts the structural trend to bearish",
+      "bilateral_importance": "The 200-day is the structural trend line for this specific cross; given the SGD-compressed low vol (~5-7%), a break there is a higher-conviction signal than in a free-floating pair because the managed leg rarely allows such moves without a fundamental regime shift (an MAS slope change or an RBA carry collapse). A break below 0.8911 would signal both legs have moved against the AUD-long thesis simultaneously.",
+      "source": "https://www.tradingview.com/symbols/AUDSGD/",
+      "frequency": "Daily"
+    },
+    {
+      "indicator": "Singapore NODX (non-oil domestic exports)",
+      "current_level": "+24.5% YoY (April 2026); electronics +66.7% YoY",
+      "confirms_if": "Continues to print strongly positive (>+10% YoY), reinforcing Singapore surplus and case for MAS to hold slope",
+      "invalidates_if": "Falls sharply negative (below -5% YoY), weakening the case for SGD appreciation and increasing the MAS flatten probability",
+      "bilateral_importance": "NODX is the primary real-time indicator of Singapore's surplus engine and the growth differential with Australia. For AUD/SGD specifically, NODX strength directly reinforces the ~20-point current-account gap that is the largest single bearish-pair fundamental force; weakness is the most accessible leading indicator of a potential MAS dovish pivot.",
+      "source": "https://www.enterprisesg.gov.sg/non-oil-domestic-exports",
+      "frequency": "Monthly (approximately 3rd week of month)"
+    }
+  ],
+  "assumptions": [
+    "Spot (0.90584), performance, 52-week range and moving averages are taken directly from the provided Twelve Data OHLC; no web-sourced prices were used for these.",
+    "The AUD-SGD carry differential (~+318bp) uses RBA 4.35% vs SORA ~1.17% from the dossiers; carry-to-vol uses an estimated pair vol of ~6% interpolated between the dossiers' estimated SGD ~4.5% and AUD ~7.5% 1M IVs, since no AUD/SGD-specific vol surface is observable — this is an approximation.",
+    "Forward points are derived CIP-consistently from the rate differential and are approximate; no live AUD/SGD forward market data was used.",
+    "Bilateral trade figures are taken directly from the injected IMF DOTS block (AUD exports to SGD $12.2bn, imports $10.5bn; SGD exports to AUD $14.9bn, imports $7.8bn) and not re-estimated.",
+    "AUD/SGD support/resistance levels are web-sourced from technical-analysis sites; some web technical reads were captured when spot was higher (~0.913 in May 2026), so relevant levels have been re-anchored to the current 0.906 spot using the provided moving averages.",
+    "The pair's options/risk-reversal data is not cleanly observable due to the thin options market; the expression assessment relies on structural-vol logic from both dossiers rather than live skew data.",
+    "Default factor weights (unchanged) are applied throughout; the high carry is captured at the default 0.24 Factor 1 weight without adjustment.",
+    "The central interpretive judgment is that the pair is a carry-versus-fundamentals standoff: both standalone dossiers being bullish on their own currencies mechanically mutes the directional pair signal and justifies low conviction (2) on both horizons.",
+    "SGD CFTC positioning is not directly observable; the Reuters poll on Asian FX positioning is used as a proxy for SGD positioning direction.",
+    "The 'valuation_date' in the metadata is set to 2026-06-18 consistent with the report heading, noting that performance data references the 2026-06-19 close as stated in the market context section.",
+    "The metadata 'pair' field is set to 'AUDSGD' per the analysed currency pair; the schema example 'AUDJPY' in the provided template has been overridden with the actual pair being analysed."
+  ],
+  "complete_citations": [
+    {
+      "id": 1,
+      "title": "AUD/SGD Forecast for 2026, 2027-2030",
+      "publisher": "Traders Union",
+      "url": "https://tradersunion.com/currencies/forecast/aud-sgd/long-term-forecast/",
+      "date_accessed": "2026-06-19"
+    },
+    {
+      "id": 2,
+      "title": "AUD/SGD Price Forecast: Technical Analysis",
+      "publisher": "FX Leaders",
+      "url": "https://www.fxleaders.com/forecasts/forex/aud-sgd-price-forecast/",
+      "date_accessed": "2026-06-19"
+    },
+    {
+      "id": 3,
+      "title": "AUD/SGD Technical Analysis (TradingView)",
+      "publisher": "TradingView",
+      "url": "https://www.tradingview.com/symbols/AUDSGD/technicals/",
+      "date_accessed": "2026-06-19"
+    },
+    {
+      "id": 4,
+      "title": "AUD to SGD Forecast (CoinCodex)",
+      "publisher": "CoinCodex",
+      "url": "https://coincodex.com/forex/aud-sgd/forecast/",
+      "date_accessed": "2026-06-19"
+    },
+    {
+      "id": 5,
+      "title": "Higher high and low for AUDSGD (channel analysis)",
+      "publisher": "TradingView",
+      "url": "https://tr.tradingview.com/chart/AUDSGD/TNaYWdQl-Higher-high-and-low-for-AUDSGD",
+      "date_accessed": "2026-06-19"
+    },
+    {
+      "id": 6,
+      "title": "What Part Does Australia Play in Singapore's FDI Inflows?",
+      "publisher": "InCorp Asia",
+      "url": "https://www.incorp.asia/blogs/singapore-fdi-inflow-australia/",
+      "date_accessed": "2026-06-19"
+    },
+    {
+      "id": 7,
+      "title": "Singapore country brief",
+      "publisher": "Australian DFAT",
+      "url": "https://www.dfat.gov.au/geo/singapore/singapore-country-brief",
+      "date_accessed": "2026-06-19"
+    },
+    {
+      "id": 8,
+      "title": "Bridging Continents: Inbound Investment from Singapore to Australia",
+      "publisher": "PwC Australia",
+      "url": "https://www.pwc.com.au/asia-practice/bridging-continents-series/singapore-inbound-investments-in-australia.html",
+      "date_accessed": "2026-06-19"
+    },
+    {
+      "id": 9,
+      "title": "International Investment Position, Australia: Supplementary Statistics 2025",
+      "publisher": "Australian Bureau of Statistics",
+      "url": "https://www.abs.gov.au/statistics/economy/international-trade/international-investment-position-australia-supplementary-statistics/latest-release",
+      "date_accessed": "2026-06-19"
+    },
+    {
+      "id": 10,
+      "title": "Singapore country profile and action plan (SAES 2040)",
+      "publisher": "Australian DFAT",
+      "url": "https://www.dfat.gov.au/sites/default/files/saes-2040-country-profile-action-plan-singapore.pdf",
+      "date_accessed": "2026-06-19"
+    },
+    {
+      "id": 11,
+      "title": "RBA Pauses Rate Hikes in June 2026",
+      "publisher": "Babypips",
+      "url": "https://www.babypips.com/news/headline-rba-cash-rate-june-2026-hold-inflation-aud",
+      "date_accessed": "2026-06-19"
+    },
+    {
+      "id": 12,
+      "title": "Interest Rate Forecast & Predictions For 2026",
+      "publisher": "Canstar",
+      "url": "https://www.canstar.com.au/home-loans/interest-rate-forecast-australia/",
+      "date_accessed": "2026-06-19"
+    },
+    {
+      "id": 13,
+      "title": "RBA keeps interest rates on hold",
+      "publisher": "The Conversation",
+      "url": "https://theconversation.com/rba-keeps-interest-rates-on-hold-268876",
+      "date_accessed": "2026-06-19"
+    },
+    {
+      "id": 14,
+      "title": "MAS Monetary Policy Statement — January 2026",
+      "publisher": "Monetary Authority of Singapore",
+      "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-29jan26",
+      "date_accessed": "2026-06-19"
+    },
+    {
+      "id": 15,
+      "title": "Singapore: MAS's balanced stance with an upward tilt",
+      "publisher": "DBS",
+      "url": "https://www.dbs.com.sg/treasures/aics/economics/",
+      "date_accessed": "2026-06-19"
+    },
+    {
+      "id": 16,
+      "title": "Singapore central bank tightens monetary policy as Iran war stokes price risks",
+      "publisher": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/14/singapore-central-bank-tightens-monetary-policy.html",
+      "date_accessed": "2026-06-19"
+    },
+    {
+      "id": 17,
+      "title": "Energy shocks drive MAS policy tightening",
+      "publisher": "J.P. Morgan Asset Management",
+      "url": "https://am.jpmorgan.com/no/en/asset-management/liq/insights/liquidity-insights/updates/energy-shocks-drive-mas-policy-tightening/",
+      "date_accessed": "2026-06-19"
+    },
+    {
+      "id": 18,
+      "title": "Singapore's central bank tightens policy as inflation risks rise",
+      "publisher": "ING Think",
+      "url": "https://think.ing.com/articles/mas-tightens-policy-as-inflation-risks-rise/",
+      "date_accessed": "2026-06-19"
+    },
+    {
+      "id": 19,
+      "title": "Past Monetary Policy Decisions",
+      "publisher": "Monetary Authority of Singapore",
+      "url": "https://www.mas.gov.sg/monetary-policy/past-monetary-policy-decisions",
+      "date_accessed": "2026-06-19"
+    },
+    {
+      "id": 22,
+      "title": "Singapore country brief",
+      "publisher": "Australian DFAT",
+      "url": "https://www.dfat.gov.au/geo/singapore/singapore-country-brief",
+      "date_accessed": "2026-06-19"
+    },
+    {
+      "id": 24,
+      "title": "Bridging Continents: Inbound Investment from Singapore to Australia",
+      "publisher": "PwC Australia",
+      "url": "https://www.pwc.com.au/asia-practice/bridging-continents-series/singapore-inbound-investments-in-australia.html",
+      "date_accessed": "2026-06-19"
+    },
+    {
+      "id": 26,
+      "title": "Global FX Market Context and Risk Appetite — June 2026",
+      "publisher": "Internal dossier / web research composite",
+      "url": "https://www.tradingview.com/symbols/AUDSGD/",
+      "date_accessed": "2026-06-19"
+    },
+    {
+      "id": 27,
+      "title": "RBA keeps interest rates on hold",
+      "publisher": "The Conversation",
+      "url": "https://theconversation.com/rba-keeps-interest-rates-on-hold-268876",
+      "date_accessed": "2026-06-19"
+    },
+    {
+      "id": 29,
+      "title": "Interest Rate Forecast & Predictions For 2026",
+      "publisher": "Canstar",
+      "url": "https://www.canstar.com.au/home-loans/interest-rate-forecast-australia/",
+      "date_accessed": "2026-06-19"
+    },
+    {
+      "id": 35,
+      "title": "Singapore: MAS's balanced stance with an upward tilt",
+      "publisher": "DBS",
+      "url": "https://www.dbs.com.sg/treasures/aics/economics/",
+      "date_accessed": "2026-06-19"
+    },
+    {
+      "id": 36,
+      "title": "AUD and SGD bilateral economic data — IMF DOTS, ABS, MAS, MTI composite",
+      "publisher": "IMF / ABS / MAS / MTI",
+      "url": "https://www.mas.gov.sg/statistics",
+      "date_accessed": "2026-06-19"
+    }
+  ]
+}

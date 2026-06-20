@@ -1,0 +1,1326 @@
+{
+  "metadata": {
+    "pair": "NZDUSD",
+    "base_currency": "NZD",
+    "quote_currency": "USD",
+    "valuation_date": "2026-06-18",
+    "framework_version": "2.0",
+    "base_dossier_date": "2026-06-20",
+    "quote_dossier_date": "2026-06-20"
+  },
+  "pair_convention": {
+    "spot_reference": "NZD/USD 0.5739",
+    "spot_explanation": "NZD/USD at 0.5739 means 1 NZD buys 0.5739 USD. NZD is the base currency and USD is the quote currency. A rising NZD/USD rate means the New Zealand dollar is strengthening against the US dollar (each NZD buys more USD). A falling NZD/USD rate means the New Zealand dollar is weakening against the US dollar (each NZD buys fewer USD).",
+    "bullish_means": "pair RISES (NZD strengthens vs USD)",
+    "bearish_means": "pair FALLS (NZD weakens vs USD / USD strengthens)",
+    "base_dossier_tactical_stance": "Neutral",
+    "quote_dossier_tactical_stance": "Bullish (USD)"
+  },
+  "executive_summary": "NZD/USD trades at 0.5739 (latest close 2026-06-20), having broken decisively lower over the past week to a fresh 52-week low, with the pair down 4.16% over 1M, 2.94% over 3M and 4.57% over 6M — a clean, accelerating downtrend that pierced the prior 0.5595–0.5833 base. The dominant bilateral narrative is a rare double-blow: the same 14-16 June US-Iran peace framework that collapsed oil simultaneously drained the kiwi's RBNZ rate-hike premium (NZD-negative) AND reaffirmed the hawkish-Warsh-Fed dollar (USD-positive), so both legs of the pair are pushing it in the same direction. This is the critical bilateral divergence from the standalone dossiers: the NZD dossier reads 'Neutral kiwi' and the USD dossier reads 'tactically Bullish dollar,' but for THIS pair those combine into an unambiguous bearish tactical signal because the bullish USD leg fully reinforces the soft NZD leg rather than cancelling it. The bilateral rate differential (RBNZ 2.25% vs Fed 3.625% = -138bps, with the Fed now hike-biased and the RBNZ's hawkish track at risk of a dovish mark-down) means NZD pays negative carry to be held — a structurally bearish carry configuration. Options confirm the lean: NZD/USD one-month 25-delta risk reversals trade at -1.1 in favor of put options, the lowest in over four months. Our headline stance is tactically Bearish (conviction 3) and strategically Neutral-to-mildly-bearish (conviction 2), with the key caveat that the cheap kiwi (REER 7th percentile), a net-short spec base and the binary 8 July RBNZ track decision cap downside and create squeeze risk on any hawkish RBNZ surprise.",
+  "market_context": {
+    "spot": 0.5739,
+    "performance_1m": "-4.16%",
+    "performance_3m": "-2.94%",
+    "performance_6m": "-4.57%",
+    "performance_1y": "-3.78%",
+    "range_52w_low": 0.5583,
+    "range_52w_high": 0.6066,
+    "range_52w_percentile": 1,
+    "valuation_assessment": "On a bilateral REER basis the pair is stretched: the NZD real broad REER sits at 100.27 (7th percentile of its sample) while the USD REER is 107.06 (78th percentile) — the kiwi is one of the cheapest G10 currencies and the dollar one of the richest, a combination that argues NZD/USD is structurally undervalued and has mean-reversion potential IF a catalyst emerges. OECD PPP implies NZD/USD fair value nearer 0.67, leaving spot ~14% cheap. But valuation is a structural brake, not a tactical trigger: the cheap kiwi has not prevented a fresh 52-week low against a firm, hawkish-Fed dollar. The bilateral edge is that the rich-dollar/cheap-kiwi gap caps how far and fast the pair can fall, but provides no near-term floor without a Fed or RBNZ pivot.",
+    "positioning": {
+      "base_cftc_net": "Net short ~-31.6k contracts (widening from -28.2k)",
+      "base_cftc_percentile": 22,
+      "quote_cftc_net": "Aggregate spec USD length ~60th-65th percentile, meaningfully long",
+      "quote_cftc_percentile": 63,
+      "net_pair_implication": "Specs are net short NZD AND net long USD, so the bilateral positioning signal is amplified rather than muted — both legs lean the same bearish way for NZD/USD. The combined positioning therefore reinforces the downtrend rather than acting as a contrarian buy signal, though neither leg is at a wash-out extreme so the squeeze risk is moderate rather than maximal.",
+      "crowding_assessment": "Pair trade moderately crowded on short NZD / long USD side — bearish-amplified but not at an extreme requiring a contrarian flip"
+    },
+    "pair_technicals": {
+      "trend_regime": "trending_down",
+      "support_levels": [
+        0.57,
+        0.565,
+        0.5583
+      ],
+      "resistance_levels": [
+        0.58,
+        0.5875,
+        0.592
+      ],
+      "key_moving_averages": "50d MA at 0.58699, 100d MA at 0.58465, 200d MA at 0.58627 — all three are tangled in a tight 0.5847-0.5870 cluster above spot, with spot (0.5739) decisively below all three; the configuration means systematic/CTA flows lean short and the pair must reclaim ~0.5870 to neutralise the downtrend",
+      "chart_pattern": "Bearish-continuation: below the 50-day EMA, under the descending trendline, and a bearish pennant that pointed to continuation toward 0.5800 — now broken lower. Price structure shows lower highs and lower lows since the January 0.6066 peak, confirming a downtrend regime.",
+      "psychological_levels": [
+        0.58,
+        0.575,
+        0.57,
+        0.55,
+        0.6
+      ]
+    },
+    "pair_volatility": {
+      "iv_1m": 10.5,
+      "iv_3m": 10.8,
+      "iv_percentile": 45,
+      "rv_1m": 7.2,
+      "rv_vs_iv": "20-day realised (~7.2%) sits below 1M implied (~10.5%), a normal event-premium configuration — the market is paying up for event risk into the 8 July RBNZ decision rather than reflecting unusually high realised vol",
+      "risk_reversals": "1M 25-delta risk reversals at -1.1 (lowest in 4+ months); 3M risk reversals at -1.225 (also a four-month low) — deeply put-skewed, showing hedgers paying up for further pair downside across tenors; materially more negative than the NZD dossier's estimated -0.7, a structurally bearish signal that would need to neutralise for a durable recovery",
+      "vol_term_structure": "Mild event premium into 8 July RBNZ; 1M IV above 3M suggests near-term event risk is the dominant driver; term structure is broadly flat-to-slightly-inverted, consistent with near-term binary risk",
+      "vol_regime": "Mid-range / event-premium elevated — 1M IV ~10.5% (est.) vs G10 average ~6-7%, reflecting the kiwi's structural low-liquidity vol premium; NZD/USD carries the highest vol among the dollar majors covered"
+    },
+    "recent_regime": "The pair's recent behaviour is dominated by a two-sided break lower driven by RBNZ-Fed divergence running against the kiwi. US data has remained surprisingly resilient, providing the Fed with a stronger case to delay easing; together, the two trajectories have positioned NZD/USD firmly on the defensive, with little sign of a near-term trend reversal. The dominant narrative is the Fed turning hawkish (dot to 3.8%, ~one hike) while the RBNZ's hawkish track was an oil-inflation artefact now at risk of a dovish mark-down after Brent collapsed to ~$79, meaning the -138bp rate gap is at risk of widening.",
+    "citations": [
+      "https://www.fxstreet.com/news/nzd-usd-climbs-back-closer-to-mid-06000s-amid-a-softer-usd-fed-rbnz-divergence-202602030459",
+      "https://www.vtmarkets.com/live-updates/nzd-usd-slips-as-fed-decision-looms-rbnz-hike-expectations-offer-support/",
+      "https://www.elev8.com/markets/news/view/699118/",
+      "https://www.forex.com/en/news-and-analysis/aud-usd-nzd-usd-extend-gains-though-aud-nzd-flashes-reversal-risk/"
+    ]
+  },
+  "bilateral_carry_analysis": {
+    "base_policy_rate": 2.25,
+    "quote_policy_rate": 3.625,
+    "rate_differential_bps": -138,
+    "annualised_carry_bps": -138,
+    "pair_3m_iv": 10.8,
+    "carry_to_vol_ratio": -0.131,
+    "carry_regime": "negative carry",
+    "breakeven_move": "At -138bps annualised, a long-NZD/USD position bleeds ~0.55% per quarter (~32 pips over 3 months) in carry alone before spot moves — spot can only move ~0.55% in NZD/USD's favour per quarter before carry is fully erased",
+    "forward_points": {
+      "1m": "-6 pips (NZD at forward discount, outright ~0.5733)",
+      "3m": "-18 pips (outright ~0.5721)",
+      "6m": "-37 pips (outright ~0.5702)"
+    },
+    "carry_assessment": "The carry configuration is unambiguously against NZD/USD longs. The bilateral policy differential is RBNZ 2.25% vs Fed 3.625% = -138bps, meaning a long-NZD/USD position pays ~138bps annualised in negative carry. With 1M implied vol estimated at ~10.5%, the carry-to-vol ratio is roughly -13.1 — deeply unattractive for holding the pair long, and a steady tailwind for short positions. The trajectory is the key bilateral point: the Fed is now hike-biased (dot to 3.8%) while the RBNZ's hawkish track is at risk of a dovish September mark-down, so the gap could widen toward -150/-160bps rather than narrow. The carry maths argues decisively against pressing NZD/USD longs and rewards the short — the carry 'works' for a short-NZD/USD position, reinforcing the negative spot momentum. This is the bilateral inversion of the classic kiwi-carry story: at a 2.25% OCR below the Fed, the kiwi is no longer a yield play versus the dollar; it is a negative-carry, high-beta funding currency in this specific pair."
+  },
+  "factors": [
+    {
+      "factor_number": 1,
+      "factor_name": "Policy & Rates (Relative)",
+      "tactical_weight_default": 0.24,
+      "tactical_weight_applied": 0.26,
+      "strategic_weight_default": 0.24,
+      "strategic_weight_applied": 0.24,
+      "weight_adjustment_reason": "Tactical weight boosted from 0.24 to 0.26: the -138bp differential with a hawkish-Fed/wavering-RBNZ divergence is the singular bilateral driver of the pair's recent break; the rate channel dominates this specific pair and warrants additional weight at the tactical horizon",
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 64,
+        "bilateral_analysis": "The rate differential is the dominant bilateral driver and it points the pair lower tactically. The gap is RBNZ 2.25% vs Fed 3.625% = -138bps, and crucially the direction of travel has turned against the kiwi: the Fed lifted its dot to 3.8% (~one hike) and is firmly hike-biased, while the RBNZ's hawkish track was an oil-inflation artefact now at risk of a dovish mark-down after Brent collapsed to ~$79. So the pair faces a widening-risk differential just as the front-ends diverge. The market priced an 85% probability of a Fed hike, a jump from 50% the prior week, and this growing policy divergence is critical as New Zealand's data gives the RBNZ little reason to tighten. The transmission is direct: a -138bp negative carry plus a hawkish-vs-wavering central-bank contrast pushes NZD/USD toward the bottom of its range. The offsetting bilateral nuance is that the RBNZ is still the only G10 central bank with a published hiking track, so an 8 July hike that defends the track would squeeze the pair higher against the short base — a genuine two-way binary that caps conviction.",
+        "key_bilateral_metrics": [
+          "Policy differential: RBNZ 2.25% vs Fed 3.625% = -138bps (NZD pays carry)",
+          "Fed dot median end-2026: 3.8% (hike bias) vs RBNZ track at dovish-revision risk",
+          "NZ-US 10Y spread: ~+8bps (compressed from the fading hike story)",
+          "8 July RBNZ vs 29 July FOMC sequencing — RBNZ sets the near-term tone",
+          "Carry-to-vol ratio: -13.1 (deeply unfavourable for pair longs)"
+        ],
+        "what_is_priced": "The market prices a hawkish Fed and a wavering RBNZ, so much of the -138bp story is in the price. The bilateral edge: a hawkish RBNZ track-defence on 8 July is the squeeze risk; a dovish RBNZ pivot widening the effective gap is the continuation lower.",
+        "citations": [
+          25
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 56,
+        "bilateral_analysis": "Strategically the rate factor is more balanced and lands Neutral. The bull-for-the-pair vector is the consensus that the Fed eventually eases into 2027 as US disinflation resumes (helped by cheaper oil), narrowing the -138bp gap from the top, while the RBNZ retains the most hawkish published guidance in G10 — even partial hike delivery would widen NZD's relative carry. The bear vector is that the RBNZ's track is most likely marked lower at the 2 September MPS as oil-inflation fades, eroding the kiwi's last carry prop just as the Fed holds high. These offset. ANZ forecasts the OCR rising towards 3.0% but says markets appear too hawkish on the scale of tightening, while still expecting the NZD to outperform most majors against the USD over the medium term. The bilateral question is timing: the gap likely stays wide and dollar-favourable through Q3 before narrowing into Q4/2027.",
+        "key_bilateral_metrics": [
+          "Consensus: Fed eases 2027, narrowing -138bp gap from the top (pair-supportive)",
+          "RBNZ track peak ~3.0-3.28% — most hawkish G10 guidance (pair-supportive if delivered)",
+          "Risk: 2 Sep MPS marks track lower toward 3.0% (pair-negative)",
+          "NZ out-yields USD on neither policy nor front-end — structural pair headwind near-term"
+        ],
+        "what_is_priced": "Consensus prices a gradual gap-narrowing that lifts NZD/USD toward 0.60-0.64. The edge: that requires both Fed easing AND RBNZ delivery — if either fails, the pair stalls below consensus targets.",
+        "citations": [
+          1
+        ]
+      },
+      "horizon_split": "Tactical is Bearish (the live -138bp gap with a hawkish Fed vs a wavering RBNZ pushes the pair lower now) while strategic is Neutral (over 1-6 months the consensus Fed-easing gap-narrowing offsets the risk of a dovish RBNZ track mark-down). The inflection is whether the RBNZ defends its track on 8 July / 2 September.",
+      "carry_analysis": {
+        "rate_differential_bps": -138,
+        "carry_to_vol_ratio": -0.131,
+        "carry_regime": "negative carry",
+        "breakeven_move": "~0.55% per quarter (~32 pips) before carry is erased; firmly against pair longs",
+        "trajectory": "Gap at risk of widening toward -150/-160bps if RBNZ marks track lower at September MPS while Fed holds"
+      },
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 2,
+      "factor_name": "Inflation & Growth Dynamics",
+      "tactical_weight_default": 0.18,
+      "tactical_weight_applied": 0.18,
+      "strategic_weight_default": 0.1,
+      "strategic_weight_applied": 0.1,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 58,
+        "bilateral_analysis": "The growth-inflation differential leans mildly against the pair tactically. US inflation is running hot (headline CPI 4.2%, core PCE 3.3%) and growth resilient (GDPNow ~3%), giving the Fed a hawkish mandate, while NZ inflation is cooling (headline 3.1%, core sectoral 2.7%, trimmed mean 2.3%) — the inflation differential favours the dollar leg and the relative hawkishness it justifies. The offsetting bilateral data point is NZ's firm Q1 GDP (+0.8% QoQ / +1.5% YoY, released 18 June), which is stronger than the comparable US quarterly momentum and supports the RBNZ hike case. But the asymmetry of data sensitivity matters: NZ Q2 CPI (16 July) and US core PCE/CPI prints are the swing, and the kiwi is more exposed to a downside-inflation surprise that validates a dovish RBNZ track. Net, hotter-and-stickier US inflation versus cooling NZ inflation tilts the pair mildly lower.",
+        "key_bilateral_metrics": [
+          "Headline CPI: NZ 3.1% vs US 4.2% — US inflation hotter, more hawkish Fed",
+          "Core: NZ trimmed mean 2.3% vs US core PCE 3.3% — wide differential favouring USD",
+          "Growth: NZ Q1 GDP +0.8% QoQ vs US GDPNow ~3% annualised",
+          "NZ Q2 CPI (16 Jul) the key kiwi-leg swing; US core PCE (25 Jun) the dollar-leg swing"
+        ],
+        "what_is_priced": "The market prices sticky US inflation and cooling NZ inflation. The edge: a soft NZ Q2 CPI confirms a dovish RBNZ (pair-negative); a soft US PCE that cracks the hawkish-Fed thesis is the pair-positive risk.",
+        "citations": []
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 54,
+        "bilateral_analysis": "Strategically both economies are disinflating on cheaper oil, so the differential narrows and the factor is Neutral. NZ headline should fall back through the 1-3% band while US headline rolls over from 4.2% — the relative-inflation gap compresses, removing a dollar-favourable wedge. Growth diverges modestly: US exceptionalism (GDPNow ~3%) outpaces NZ, but NZ's firm Q1 print plus the lagged effect of 325bp of RBNZ cuts supports a 2H recovery. China demand is the bilateral swing unique to the kiwi leg — a structural weakening (formula imports ~-16%) caps NZ's growth engine in a way the US is insulated from. Net, converging disinflation and offsetting growth leave the factor balanced.",
+        "key_bilateral_metrics": [
+          "Both disinflating on oil — inflation differential narrows strategically",
+          "US growth exceptionalism (~3%) vs NZ stabilising (+0.8% Q1)",
+          "China demand erosion a kiwi-specific drag with no US parallel",
+          "325bp of lagged RBNZ cuts support NZ 2H demand"
+        ],
+        "what_is_priced": "Consensus prices converging disinflation with US growth outperforming. The edge: if NZ disinflation runs faster than the RBNZ track, the pair loses its rate prop faster than priced.",
+        "citations": []
+      },
+      "horizon_split": "Tactical Bearish (hotter US inflation justifies a hawkish Fed vs cooling NZ core) shifts to strategic Neutral (converging oil-driven disinflation compresses the differential while growth offsets).",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 3,
+      "factor_name": "Risk Appetite & Sentiment",
+      "tactical_weight_default": 0.1,
+      "tactical_weight_applied": 0.08,
+      "strategic_weight_default": 0.05,
+      "strategic_weight_applied": 0.05,
+      "weight_adjustment_reason": "Tactical weight reduced from 0.10 to 0.08: NZD/USD is only moderately risk-sensitive (not a pure risk-proxy like NZD/JPY); the risk-on channels conflict for this pair (kiwi high-beta vs kiwi rate-drag), reducing the factor's directional cleanliness",
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 52,
+        "bilateral_analysis": "NZD/USD is a moderately risk-sensitive pair — the kiwi is among the highest-beta G10 currencies and the dollar a haven, so a risk-on tape 'should' lift the pair via two channels. But the current episode is the unusual case where the bilateral risk signal is muddied: the post-ceasefire risk-on (VIX 16.4, equities at records) is itself the cause of the oil collapse that drained the kiwi's rate story, while the same de-escalation removed the dollar's haven bid. So the two risk channels partially cancel for THIS pair — the kiwi's high-beta tailwind is offset by the loss of its rate prop, and the dollar's haven-unwind is offset by the hawkish-Fed right side of the smile. Wall Street reached fresh highs, crude oil fell more than 7%, and the dollar tracked lower in a risk-on session, providing a tailwind for the Australian and New Zealand dollars — yet the kiwi has since underperformed, showing the rate-drag overwhelmed the risk-beta. Net Neutral: the risk-on that should help NZD/USD is double-edged because it simultaneously hollowed the kiwi's fundamentals.",
+        "key_bilateral_metrics": [
+          "VIX 16.4 — risk-on, 'should' favour high-beta NZD over haven USD",
+          "NZD high-beta vs USD haven = classic risk-on-positive pair structure",
+          "But risk-on driver (oil collapse) drained the kiwi rate story — channel conflict",
+          "Dollar haven-unwind offset by hawkish-Fed right side of smile"
+        ],
+        "what_is_priced": "The market has priced the post-deal risk-on. The edge: a 'clean' risk-on (firm equities + dairy floor) where the rate-drag stabilises would let the kiwi's high beta reassert and squeeze the pair higher — currently underweighted.",
+        "citations": [
+          26
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "bilateral_analysis": "Strategically the risk factor is a lower-weight, two-sided input. In a benign goldilocks regime the dollar softens and the high-beta kiwi benefits most — the pair rises. But through the dollar-smile lens, NZD/USD is among the worst-positioned pairs at both extremes: in risk-off the haven dollar firms and the swap-line-less, CA-deficit kiwi is hit hardest (pair falls sharply), and in a US-exceptionalism melt-up the dollar also firms (pair falls). The pair performs best only in the benign middle. With VIX at 16 and equities at records, the risk regime has more room to deteriorate than improve, so the bilateral asymmetry is mildly pair-negative.",
+        "key_bilateral_metrics": [
+          "Goldilocks middle = pair-positive (soft USD + high-beta NZD)",
+          "Both smile extremes = pair-negative (haven USD beats high-beta NZD)",
+          "VIX 16 — asymmetric downside risk to the risk regime",
+          "NZD no Fed swap line — more exposed than AUD at risk-off extreme"
+        ],
+        "what_is_priced": "Consensus prices a benign regime (pair-supportive). The edge: the cheap VIX underprices the convex pair-downside if risk-off hits the high-beta kiwi against the haven dollar.",
+        "citations": []
+      },
+      "horizon_split": "Both horizons Neutral. Tactically the risk-on channels conflict (kiwi high-beta vs kiwi rate-drag); strategically the dollar-smile asymmetry makes the pair vulnerable at both extremes despite a benign base case.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 4,
+      "factor_name": "Flows & Positioning",
+      "tactical_weight_default": 0.1,
+      "tactical_weight_applied": 0.1,
+      "strategic_weight_default": 0.06,
+      "strategic_weight_applied": 0.06,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 54,
+        "bilateral_analysis": "The bilateral positioning signal is amplified-bearish but contrarian. Specs are net short NZD (~-31.6k, low-20s percentile) AND net long USD (~60th-65th percentile) — both legs lean the pair the same bearish way, so the combined signal is not muted (the dangerous combination would be long-both, which mutes; here it amplifies). However, neither leg is at a wash-out extreme, so the bearish positioning is real but not a textbook squeeze setup. The contrarian read is the key bilateral nuance: a short-NZD/long-USD book into a cheap kiwi (REER 7th pct) and a still-hawkish-published RBNZ track is squeeze fuel — a hawkish 8 July RBNZ or a soft US CPI could force both legs to unwind simultaneously, snapping the pair higher. Risk reversals confirm the lean: the -1.1 1M put skew shows hedgers are positioned for further pair downside, which both reinforces the bearish momentum and deepens the squeeze potential if it reverses.",
+        "key_bilateral_metrics": [
+          "NZD specs net short ~-31.6k; USD specs ~60th-65th pct long — both legs bearish for pair",
+          "Combined positioning amplifies (not mutes) the bearish signal",
+          "1M risk reversal -1.1 (put-skewed) — most bearish in 4+ months",
+          "Neither leg at extreme — moderate, not maximal, squeeze risk"
+        ],
+        "what_is_priced": "The pair is positioned short via both legs, so soft news is partly priced. The edge: the dual-short base is contrarian squeeze fuel on a hawkish RBNZ or soft US data, but not extreme enough to be a standalone buy signal.",
+        "citations": [
+          28
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "bilateral_analysis": "Strategically positioning decays as a signal. The dual-short base (short NZD, long USD) is a mild asset for any pair-recovery — marginal flow is more likely short-covering than fresh selling if the Fed eases and the RBNZ delivers. But NZ's structural CA deficit (-3.6% of GDP) requires continual foreign funding, a persistent pair headwind, while the dollar's reserve-diversification drag is a slow pair-positive. On small kiwi OI the speculative signal is easily overwhelmed. Net Neutral.",
+        "key_bilateral_metrics": [
+          "Dual-short base leaves room to cover over 6m (mild pair-positive)",
+          "NZ CA deficit -3.6% GDP — structural pair headwind",
+          "USD reserve share ~58%, slow decline — slow pair-positive",
+          "Small NZD OI (~52k) dilutes the speculative signal"
+        ],
+        "what_is_priced": "Consensus implicitly needs short-covering for the 0.60-0.64 recovery. The edge: the unwind could front-run fundamentals if the RBNZ hikes, but CA-deficit funding caps it.",
+        "citations": [
+          28
+        ]
+      },
+      "horizon_split": "Both Neutral. Tactical confidence marginally higher because the dual-short base and the -1.1 risk reversal are live contrarian assets now; strategically the signal decays and CA-deficit outflows dilute it.",
+      "carry_analysis": null,
+      "contrarian_analysis": {
+        "tactical": {
+          "combined_positioning_signal": "Dual-short (NZD net short ~-31.6k + USD net long ~60th-65th pct) — both legs lean bearish for NZD/USD, amplifying rather than muting the signal, but neither leg is at a wash-out extreme",
+          "unwind_trigger": "A hawkish 8 July RBNZ track-defence, a soft US core PCE/CPI, or a dairy floor — any catalyst that revives the kiwi's relative-carry story or softens the dollar leg forces both sides to unwind simultaneously",
+          "historical_analogue": "Post-RBNZ hawkish-surprise squeezes (e.g., early 2022 cycle) — a delivered hike into a net-short kiwi base forced 100-200 pip squeezes in NZD/USD within 24 hours",
+          "contrarian_case": "A cheap (REER 7th percentile), dual-shorted pair where one hawkish RBNZ delivery flips the carry narrative from -138bp headwind to narrowing-gap story — the put-skewed options surface and dual-short base create convex upside if the RBNZ defends its track, potentially squeezing NZD/USD ~100-150 pips toward 0.5850 quickly. The signal is mildly bullish-for-the-pair on a catalyst, but not a strong standalone long given neither leg is washed out."
+        },
+        "strategic": {
+          "combined_positioning_signal": "Dual-short relevance decays over 6m as fundamentals reassert; mild pair-positive from room to cover if Fed eases and RBNZ delivers, offset by CA-deficit structural outflows",
+          "unwind_trigger": "RBNZ hike delivery + Fed easing confirmation + dairy/China stabilisation reviving value/carry inflows over Q3-Q4",
+          "historical_analogue": "Gradual NZD/USD recovery from cheap-REER extremes (e.g., 2015-16, 2020) — historically a grind toward fair value rather than a single squeeze, contingent on the rate/commodity backdrop",
+          "contrarian_case": "The dual-short base is a mild strategic asset: if the RBNZ honours its hawkish track and the dollar enters a consensus-soft path, the covering of both legs provides incremental pair-positive flow toward 0.60. However, the CA-deficit funding requirement and dollar-smile risk cap the upside, making the contrarian case a gradual grind (to 0.60) rather than a violent reversal. Signal is mildly bullish-for-the-pair, low conviction."
+        }
+      },
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 5,
+      "factor_name": "External Balance & Terms of Trade",
+      "tactical_weight_default": 0.06,
+      "tactical_weight_applied": 0.06,
+      "strategic_weight_default": 0.16,
+      "strategic_weight_applied": 0.16,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 58,
+        "bilateral_analysis": "The terms-of-trade differential is clearly pair-negative tactically, driven by the net commodity exposure. Applying the direction rules: dairy (GDT) is the kiwi's dominant commodity, and it is falling — the GDT index dropped -2.8% at the 16 June auction (WMP -3.1% to $3,589/MT), the second consecutive decline on a supply glut, a direct hit to NZ export revenue (NZD-negative). On the dollar side, the US is a net energy exporter, so the oil collapse is a mild ToT negative for USD but a consumer/inflation positive — broadly a wash for the dollar leg. Net commodity exposure: falling dairy is strongly NZD-negative while the oil collapse is only mildly USD-negative, so the net effect is the pair falls (bearish NZD/USD) — the dairy drag on the kiwi dominates the modest oil drag on the dollar. On bilateral trade (IMF DOTS), the relationship is roughly balanced: NZD exports to USD $5.5bn vs imports from USD $4.9bn, a net goods surplus of $0.5bn — small enough that direct bilateral trade is not a material flow driver versus the commodity channel.",
+        "key_bilateral_metrics": [
+          "GDT dairy -2.8% (16 Jun), WMP -3.1% to $3,589/MT — 2nd straight fall (NZD-negative)",
+          "Net commodity: falling dairy (NZD--) > oil-collapse mild USD- = pair falls",
+          "NZ terms of trade -2.0% QoQ (March quarter)",
+          "Bilateral trade roughly balanced (NZ net +$0.5bn goods vs US) — not a material driver"
+        ],
+        "what_is_priced": "Falling dairy is priced into the soft spot. The edge: a GDT floor (Fonterra's farmgate still elevated at $9.70/kgMS) would remove a key pair headwind — the consecutive declines may be over-extrapolated.",
+        "citations": []
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 55,
+        "bilateral_analysis": "At the heaviest strategic weight (0.16), external balance tilts the pair bearish strategically — a sharper read than the standalone NZD dossier's Neutral, because the bilateral comparison adds the US's much stronger external/structural position relative to NZ's. NZ runs a CA deficit of -3.6% of GDP with a structurally weakening China dairy market (formula imports -16%, record-low birth rate) eroding its core export franchise, while the US, despite its own twin deficit, retains reserve-currency funding privilege and a deeper capital-attraction capacity. The kiwi's external vulnerability — dependence on continual foreign funding with no Fed swap line — is a structural pair headwind that the dollar does not share. The offset is Fonterra's robust farmgate forecast ($9.70/kgMS, $9.75 opening 2026/27) signalling aggregate dairy revenue holds, and a narrowing NZ CA deficit. But on balance the bilateral external comparison favours the dollar.",
+        "key_bilateral_metrics": [
+          "NZ CA deficit -3.6% GDP (funding-dependent) vs US reserve-currency privilege",
+          "China dairy demand erosion — kiwi-specific structural drag",
+          "NZ no Fed swap line — funding vulnerability the USD lacks",
+          "Offset: Fonterra farmgate $9.70/kgMS robust; CA deficit narrowing"
+        ],
+        "what_is_priced": "Consensus prices softening dairy and a narrowing NZ deficit. The edge: if dairy bases on Fonterra's elevated forecast, a key structural pair headwind eases faster than priced — but China erosion caps it.",
+        "citations": []
+      },
+      "horizon_split": "Both Bearish. Tactically dairy is actively falling (the proximate pair driver); strategically NZ's funding-dependent external position versus the dollar's reserve privilege keeps the heavily-weighted factor pair-negative even with the Fonterra offset.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": {
+        "base_commodity_profile": "NZD: dominant exposure is dairy (GDT/WMP) — NZ export revenue ~35% dairy-dependent; secondary agricultural commodities (beef, lamb, logs). Dairy is falling: GDT -2.8% at 16 June auction, WMP -3.1% to $3,589/MT, second consecutive decline on supply glut. Net dairy direction: negative for NZD.",
+        "quote_commodity_profile": "USD: net energy exporter; oil collapse (~Brent to $79) is a mild terms-of-trade negative for the US but a consumer/inflation positive. Oil direction effect on USD: marginally negative for ToT, but offset by consumer/inflation channel making it broadly a wash for the dollar leg.",
+        "net_effect_calculation": "Step 1 — identify dominant NZD commodity: dairy (GDT/WMP), currently falling (-2.8% at June 16 auction). Direction rule: falling dairy = NZD-negative, pairs lower. Step 2 — identify dominant USD commodity: oil (net exporter), currently falling (~$79 Brent). Direction rule: falling oil = mild USD-negative on ToT, but positive for US consumer/inflation. Net USD impact: approximately neutral, not directionally dominant. Step 3 — net bilateral exposure: NZD faces a strongly negative commodity shock (falling dairy); USD faces a roughly neutral commodity shock (oil decline washes out via consumer positive). Step 4 — pair direction: the dairy drag on the kiwi leg dominates the modest, offsetting oil drag on the dollar leg, so net commodity exposure is pair-bearish (NZD/USD falls). The differential is not a close call — dairy is NZ's core export franchise while oil is one input among many for the US.",
+        "scenario_oil_up_10pct": "Oil +10% (Brent ~$87): mild USD-positive on ToT (net exporter benefit), mild NZD-negative (higher input costs, risk-off risk if driven by supply shock); net pair impact slightly negative for NZD/USD, but small — oil is not a primary NZD driver",
+        "scenario_oil_down_10pct": "Oil -10% (Brent ~$71): mild USD-negative on ToT; mild NZD-positive (risk-on, but also removes RBNZ hike inflation premium); net pair impact ambiguous — the dairy channel dominates the oil channel for NZD/USD",
+        "dominant_commodity_driver": "Dairy (GDT/WMP) — it is NZ's primary export commodity with a direct, unhedged impact on NZ terms of trade and RBNZ inflation forecasts, with no comparable counterpart on the USD leg, making it the purest bilateral pair-direction signal in the commodity space"
+      },
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 6,
+      "factor_name": "Guidance & Credibility",
+      "tactical_weight_default": 0.07,
+      "tactical_weight_applied": 0.07,
+      "strategic_weight_default": 0.12,
+      "strategic_weight_applied": 0.12,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "bilateral_analysis": "This is a genuine bilateral standoff. The RBNZ is uniquely transparent — the only G10 central bank publishing its own OCR track, still pointing to hikes (peak ~3.0-3.28%) with the explicit line that 'OCR increases will be required this year' — a hawkish guidance prop for the kiwi leg. But the Warsh Fed simultaneously delivered the strongest dollar-side guidance shift: removing forward guidance and lifting the dot to 3.8%, a 12-0 hawkish signal. So both central banks are signalling hawkishness, which mutes the bilateral guidance differential. The tactical swing is sequencing: the 8 July RBNZ decides whether the kiwi's published track survives the oil collapse. If they hold rates but issue a dovish statement, NZD/USD could flush rapidly; a hawkish hold could act as a slingshot for the Kiwi, putting pressure on the USD. Net Neutral — two credible hawkish banks roughly offset, with the 8 July binary the tiebreaker.",
+        "key_bilateral_metrics": [
+          "RBNZ publishes OCR track (peak ~3.0-3.28%) — strongest G10 guidance",
+          "Warsh Fed: removed guidance, dot to 3.8%, 12-0 — strongest dollar-side shift",
+          "Both hawkish-signalling — guidance differential muted",
+          "8 July RBNZ track reaffirm/soften = the binary swing"
+        ],
+        "what_is_priced": "Both banks priced as hawkish-but-data-dependent. The edge: an 8 July RBNZ track-defence is a pair-positive surprise vs a fading-hike narrative; a dovish pivot removes the kiwi's prop and the pair falls.",
+        "citations": [
+          19
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 54,
+        "bilateral_analysis": "Strategically the guidance differential is two-sided. The RBNZ's credibility is a quality anchor for the kiwi leg, but the most likely strategic path is a dovish track mark-down at the 2 September MPS as oil-inflation fades — pair-negative. On the dollar side, the asymmetric risk runs the other way: the Fed-independence tail (a politicised Warsh cut under Trump pressure) is a credibility risk that would be dollar-negative and pair-positive. So each central bank carries an opposing credibility tail — a dovish RBNZ revision (pair-negative) versus a politicised-Fed risk (pair-positive) — which nets to Neutral. The bilateral edge is that these tails are unusually large and could break the pair sharply in either direction.",
+        "key_bilateral_metrics": [
+          "RBNZ dovish track mark-down risk (2 Sep) — pair-negative tail",
+          "Fed-independence/politicised-cut risk — pair-positive tail",
+          "Both banks credible today; opposing tails net Neutral",
+          "2 Sep RBNZ MPS + Sep FOMC SEP are the key checkpoints"
+        ],
+        "what_is_priced": "Consensus prices both banks as credible. The edge: the opposing credibility tails (dovish RBNZ vs politicised Fed) are large and underpriced — either could move the pair sharply.",
+        "citations": []
+      },
+      "horizon_split": "Both Neutral. Tactically two hawkish-signalling banks offset with 8 July as tiebreaker; strategically opposing credibility tails (dovish RBNZ vs politicised Fed) balance.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 7,
+      "factor_name": "Event Risk & Geopolitics",
+      "tactical_weight_default": 0.05,
+      "tactical_weight_applied": 0.05,
+      "strategic_weight_default": 0.05,
+      "strategic_weight_applied": 0.05,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 53,
+        "bilateral_analysis": "The bilateral event slate leans mildly pair-negative tactically. The 8 July RBNZ is the single most important pair-specific binary, and it arrives before the 29 July FOMC, so the kiwi leg sets the near-term tone. The early-July GDT auction is a pair-specific commodity event with no dollar parallel — a third consecutive dairy drop would press NZD/USD lower. The RBNZ is often the 'canary in the coal mine' for global liquidity, highly sensitive to commodity prices and risk sentiment, and sets the tone for the carry trade. The dollar-side events (core PCE 25 Jun, NFP 2 Jul, CPI 14 Jul) all test whether the hawkish-Fed thesis holds — sticky prints reinforce the pair's downside. Net, the clustering of a wavering-RBNZ binary, falling dairy and hawkish-Fed-confirming US data leans the pair lower.",
+        "key_bilateral_metrics": [
+          "8 July RBNZ (before 29 Jul FOMC) — kiwi leg sets the tone",
+          "Early-July GDT auction — pair-specific dairy event",
+          "US core PCE (25 Jun), NFP (2 Jul), CPI (14 Jul) — dollar-leg hawkish tests",
+          "China data — kiwi-specific overlay with no US parallel"
+        ],
+        "what_is_priced": "A resolved Middle East and a wavering RBNZ are priced. The edge: the 8 July RBNZ is the cleanest near-term binary — a track-defence is a pair-positive surprise into the dual-short base.",
+        "citations": [
+          19
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 52,
+        "bilateral_analysis": "Strategically the event calendar is two-sided. China-NZ dairy trade is the dominant kiwi-specific geopolitical exposure — a China stimulus surprise lifts the pair, an accelerated demand decline sinks it. The dollar-side adds US-specific binaries: the mid-August Iran deadline, the 1 October funding cliff and the 3 November midterms, several of which (deal breakdown, shutdown) are dollar-positive/pair-negative haven catalysts. The RBNZ MPS cadence (2 Sep, 9 Dec) and FOMC meetings define the rate trajectory. Because the slate mixes pair-positive (China recovery, durable peace) and pair-negative (China erosion, US risk-off binaries) events, it nets Neutral.",
+        "key_bilateral_metrics": [
+          "China-NZ dairy trade — dominant kiwi-specific strategic exposure",
+          "US binaries (Iran deadline, shutdown, midterms) — mostly pair-negative haven risks",
+          "RBNZ MPS (2 Sep, 9 Dec) + FOMC define rate path",
+          "Two-sided slate nets Neutral"
+        ],
+        "what_is_priced": "A benign backdrop is priced. The edge: China dairy demand is the key kiwi-specific binary the market treats as stable.",
+        "citations": []
+      },
+      "horizon_split": "Tactical Bearish (clustered wavering-RBNZ binary + falling dairy + hawkish-Fed data) shifts to strategic Neutral (two-sided China and US event tails balance).",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 8,
+      "factor_name": "Fiscal & Sovereign Risk",
+      "tactical_weight_default": 0.04,
+      "tactical_weight_applied": 0.04,
+      "strategic_weight_default": 0.07,
+      "strategic_weight_applied": 0.07,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 66,
+        "bilateral_analysis": "Fiscal risk is not a current pair driver. NZ retains a top-tier profile (Moody's Aaa, S&P AA+, Fitch AA+, debt/GDP ~45-50%) while the US carries Moody's Aa1 (last AAA lost May 2025), a higher deficit (~5.8% of GDP) and debt/GDP ~101%. On paper NZ's stronger fiscal position is a quality anchor that mildly favours the kiwi leg, but neither has a dated catalyst in the tactical window, so the factor is directionless. The high confidence reflects clarity of the 'not currently material' read.",
+        "key_bilateral_metrics": [
+          "NZ: Aaa/AA+, debt/GDP ~45-50% vs US: Aa1, debt/GDP ~101%",
+          "US deficit ~5.8% GDP vs NZ modest deficit",
+          "No dated fiscal catalyst in tactical window for either leg"
+        ],
+        "what_is_priced": "Both sovereigns priced correctly — NZ as high-grade, US as financeable. No tactical edge.",
+        "citations": []
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 58,
+        "bilateral_analysis": "Strategically NZ's stronger fiscal position is a mild structural pair-positive — the kiwi carries no fiscal-premium baggage while the US twin deficit and lost AAA are a slow dollar drag. But the US fiscal story is chronically financeable and rarely a near-term mover, and NZ's housing/earthquake tails are offsetting kiwi-specific risks. The bilateral differential modestly favours the kiwi over a 1-6 month horizon but is not a directional catalyst. The 1 October US funding cliff is the one dated dollar-negative item.",
+        "key_bilateral_metrics": [
+          "NZ Aaa/AA+ quality anchor vs US Aa1/twin deficit — mild pair-positive",
+          "US FY2027 funding cliff (1 Oct) — dollar-negative event",
+          "NZ housing/earthquake tails — offsetting kiwi-specific risks"
+        ],
+        "what_is_priced": "NZ's strong position and US financeability are priced. The edge: the US funding cliff is a modest pair-positive catalyst the market ignores until it nears.",
+        "citations": []
+      },
+      "horizon_split": "Both Neutral. NZ's superior fiscal position is a quiet quality-positive for the kiwi leg at both horizons but never a directional driver.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 9,
+      "factor_name": "Market Structure & Volatility",
+      "tactical_weight_default": 0.05,
+      "tactical_weight_applied": 0.05,
+      "strategic_weight_default": 0.03,
+      "strategic_weight_applied": 0.03,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 60,
+        "bilateral_analysis": "The pair's own structure is decisively bearish. Spot (0.5739) has broken below the entire MA cluster (50d 0.58699, 100d 0.58465, 200d 0.58627) and through the 0.5800 round number and 0.5783 prior pivot to a fresh 52-week low, so CTA/trend flows lean firmly short. The web-confirmed pattern reinforces this: below the 50-day EMA, under the descending trendline, and a bearish pennant pointing to continuation toward 0.5800 — now broken lower. The volatility tell is the most decisive bilateral signal: 1M 25-delta risk reversals at -1.1 (lowest in 4+ months) and 3M at -1.225 show hedgers paying up for further pair downside across tenors. 1M implied (~10.5% est.) sits above 20d realised (~7.2%), a normal event premium into 8 July. Net: spot below all MAs, a broken bearish pattern and a deep put skew all lean the pair lower.",
+        "key_bilateral_metrics": [
+          "Spot 0.5739 below 50d/100d/200d (all ~0.585-0.587) — fresh 52-week low",
+          "1M RR -1.1 (4-month low), 3M RR -1.225 — deep put skew",
+          "Support 0.5700/0.5650/0.5583; resistance 0.5800/0.5850-0.5900/0.5920",
+          "1M IV ~10.5% (est.) vs RV ~7.2% — event premium into 8 Jul"
+        ],
+        "what_is_priced": "The put-skewed surface prices continued pair downside with an 8 July event premium. The edge: the deep put skew plus the dual-short base means a hawkish RBNZ could trigger a fast reversal back through the MA cluster.",
+        "citations": [
+          6,
+          28
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 52,
+        "bilateral_analysis": "Strategically structure is a low-weight Neutral providing context. The downtrend is established but the pair is now at major support (the spring base near 0.5700 and the 0.5583 52-week low), so the strategic question is whether it breaks 0.5583 (fresh downtrend, CTAs firmly short) or reclaims 0.5850-0.5900 (reviving the path toward consensus 0.60). With the pair at multi-month lows and a deep put skew, a break in either direction would redefine the trend. Mid-range implied vol leaves no strong options-mispricing argument.",
+        "key_bilateral_metrics": [
+          "0.5583 52-week low vs 0.5850-0.5900 MA cluster = strategic pivots",
+          "Deep 3M put skew (-1.225) — structural sentiment headwind",
+          "Reclaiming 0.5900 revives path to consensus 0.60-0.64",
+          "3M IV ~10.8% (est.) — mid-range, room to rise"
+        ],
+        "what_is_priced": "A soft, range-to-lower pair with hedgers leaning downside. The edge: the 0.5583 break vs 0.5900 reclaim is the strategic inflection, which the bearish skew underweights given the cheap REER.",
+        "citations": [
+          28
+        ]
+      },
+      "horizon_split": "Tactical Bearish (spot below all MAs at a fresh low, deep put skew); strategic Neutral (the pair sits at major support where a break either way redefines the trend).",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": {
+        "vol_landscape_summary": "1M IV ~10.5% (est., ~45th pct) — mid-range for NZD/USD but elevated vs other G10 majors; 1M RR at -1.1 (put-skewed, 4-month low) and 3M RR at -1.225 indicate NZD puts are relatively rich across tenors; 20d RV ~7.2% below IV signals an event premium into 8 July RBNZ rather than realised vol justifying the skew",
+        "directional_expression": "With NZD puts rich (deep -1.1 skew), the cleanest expression of the bearish-pair view is selling NZD put/buying put-spread structures to harvest the rich skew rather than chasing spot at a 52-week low. For the contrarian squeeze case, long NZD calls are relatively expensive but offer convex payoff if the RBNZ defends its track. Long AUD/NZD is the preferred relative-value expression of kiwi weakness that isolates the Antipodean divergence from the dollar story and avoids the dollar-smile risk on outright NZD/USD shorts.",
+        "event_timing_consideration": "The 8 July RBNZ is a near-term binary that warrants positioning before the decision to own the event risk or waiting post-decision before adding spot risk; mild backwardation into 8 July argues for structuring the trade around the event rather than relying on spot drift. The 2 September MPS is the key strategic binary for resetting positioning if July resolves ambiguously.",
+        "liquidity_note": "NZD/USD is the least liquid major among G10 dollar pairs — thin Asian-session liquidity raises gap-risk on kiwi-specific events (RBNZ, GDT), and bid-offer spreads widen materially around the 8 July decision. Execution should be sized conservatively relative to AUD/USD or EUR/USD equivalents, and limit orders are preferred to market orders around RBNZ announcements."
+      }
+    },
+    {
+      "factor_number": 10,
+      "factor_name": "USD Liquidity & Funding",
+      "tactical_weight_default": 0.11,
+      "tactical_weight_applied": 0.11,
+      "strategic_weight_default": 0.12,
+      "strategic_weight_applied": 0.12,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 56,
+        "bilateral_analysis": "For NZD/USD this is a direct dollar-leg factor and it leans the pair lower. The broad USD index is firm at 119.5 and the hawkish Fed has pushed the 2Y to a 15-month high, a steady headwind for the high-beta, lower-liquidity kiwi. SOFR (3.63-3.69%) is calm with no funding stress, but the high level of US rates relative to NZ keeps the -138bp funding-cost differential against the pair. Critically, the kiwi is more exposed to dollar-funding stress than most: NZ's CA deficit means reliance on continual foreign USD funding, and the RBNZ has no Fed swap line (unlike the RBA), so the pair has less of a backstop in any squeeze. The end of QT slightly eases dollar scarcity (marginally pair-positive), but a firm, well-funded, hawkish-Fed dollar is the steady pair headwind.",
+        "key_bilateral_metrics": [
+          "Broad USD index 119.5 — firm, steady pair headwind",
+          "SOFR 3.63-3.69%, calm; -138bp funding-cost differential vs NZ",
+          "RBNZ no Fed swap line — kiwi-specific funding vulnerability",
+          "QT ended — marginal dollar-scarcity easing (mild pair-positive)"
+        ],
+        "what_is_priced": "A firm, well-funded dollar is priced. The edge: with funding calm, the bigger swing is the dollar's direction — a soft US data run that turns the dollar lower flips this pair-supportive fast, given NZD's high beta and the dual-short base.",
+        "citations": []
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 54,
+        "bilateral_analysis": "Strategically this is a Neutral-to-mildly-pair-positive swing hinging on the dollar's path. The consensus soft-dollar path (Fed eventually eases, US disinflation resumes on cheaper oil) would relieve the funding/dollar-strength headwind and lift the high-beta kiwi — consistent with bank forecasts for NZD/USD toward 0.60-0.64. But the dollar-smile asymmetry cuts against the pair: in a US melt-up or risk-off the dollar firms and the swap-line-less, CA-deficit kiwi underperforms most. QT being over removes a structural dollar support (mild pair-positive). Net Neutral.",
+        "key_bilateral_metrics": [
+          "Consensus soft-dollar path = pair-positive (relieves funding headwind)",
+          "Dollar-smile asymmetry — kiwi most exposed if USD firms",
+          "QT ended — mild pair-positive (less dollar scarcity)",
+          "NZ funding vulnerability (no swap line) caps the upside"
+        ],
+        "what_is_priced": "A gradually softening dollar is priced. The edge: the funding factor turns pair-supportive only if the soft-dollar path materialises; the dollar-smile risk caps NZD/USD regardless of the RBNZ story.",
+        "citations": []
+      },
+      "horizon_split": "Tactical Bearish (firm hawkish-Fed dollar is a live pair headwind now); strategic Neutral (consensus soft-dollar path relieves it, but dollar-smile asymmetry and NZ funding vulnerability cap the upside).",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    }
+  ],
+  "synthesis": {
+    "weight_adjustments": {
+      "adjustments_made": true,
+      "adjustments": [
+        {
+          "factor_number": 3,
+          "factor_name": "Risk Appetite & Sentiment",
+          "default_weight": 0.1,
+          "applied_weight": 0.08,
+          "reason": "NZD/USD is only moderately risk-sensitive (not a pure risk-proxy like NZD/JPY); the risk-on channels conflict for this pair (kiwi high-beta vs kiwi rate-drag), reducing the factor's directional cleanliness"
+        },
+        {
+          "factor_number": 1,
+          "factor_name": "Policy & Rates (Relative)",
+          "default_weight": 0.24,
+          "applied_weight": 0.26,
+          "reason": "The -138bp differential with a hawkish-Fed/wavering-RBNZ divergence is the singular bilateral driver of the pair's recent break; the rate channel dominates this specific pair and warrants additional weight at the tactical horizon"
+        }
+      ]
+    },
+    "tactical": {
+      "net_stance": "Bearish",
+      "conviction": 3,
+      "overall_confidence": 60,
+      "weighted_score_calculation": [
+        {
+          "factor_number": 1,
+          "factor_name": "Policy & Rates",
+          "stance_score": -1,
+          "confidence": 64,
+          "conf_adj_score": -0.64,
+          "weight": 0.26,
+          "weighted_contribution": -0.1664
+        },
+        {
+          "factor_number": 2,
+          "factor_name": "Inflation & Growth",
+          "stance_score": -1,
+          "confidence": 58,
+          "conf_adj_score": -0.58,
+          "weight": 0.18,
+          "weighted_contribution": -0.1044
+        },
+        {
+          "factor_number": 3,
+          "factor_name": "Risk Appetite",
+          "stance_score": 0,
+          "confidence": 52,
+          "conf_adj_score": 0,
+          "weight": 0.08,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 4,
+          "factor_name": "Flows & Positioning",
+          "stance_score": 0,
+          "confidence": 54,
+          "conf_adj_score": 0,
+          "weight": 0.1,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 5,
+          "factor_name": "External Balance & ToT",
+          "stance_score": -1,
+          "confidence": 58,
+          "conf_adj_score": -0.58,
+          "weight": 0.06,
+          "weighted_contribution": -0.0348
+        },
+        {
+          "factor_number": 6,
+          "factor_name": "Guidance & Credibility",
+          "stance_score": 0,
+          "confidence": 55,
+          "conf_adj_score": 0,
+          "weight": 0.07,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 7,
+          "factor_name": "Event Risk & Geopolitics",
+          "stance_score": -1,
+          "confidence": 53,
+          "conf_adj_score": -0.53,
+          "weight": 0.05,
+          "weighted_contribution": -0.0265
+        },
+        {
+          "factor_number": 8,
+          "factor_name": "Fiscal & Sovereign",
+          "stance_score": 0,
+          "confidence": 66,
+          "conf_adj_score": 0,
+          "weight": 0.04,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 9,
+          "factor_name": "Market Structure & Vol",
+          "stance_score": -1,
+          "confidence": 60,
+          "conf_adj_score": -0.6,
+          "weight": 0.05,
+          "weighted_contribution": -0.03
+        },
+        {
+          "factor_number": 10,
+          "factor_name": "USD Liquidity & Funding",
+          "stance_score": -1,
+          "confidence": 56,
+          "conf_adj_score": -0.56,
+          "weight": 0.11,
+          "weighted_contribution": -0.0616
+        }
+      ],
+      "net_weighted_score": -0.4237,
+      "score_interpretation": "A clearly Bearish tactical reading (-0.42). Six of ten factors are Bearish-for-the-pair (rates, inflation, external, event, structure, funding) and none is Bullish, with the remaining four Neutral. The bilateral story: the standalone NZD dossier is 'Neutral' and the USD dossier is 'Bullish dollar,' but combining them for THIS pair produces a one-directional bearish signal because the bullish-USD leg reinforces rather than offsets the soft-NZD leg. The -0.42 maps to conviction 3 — directional but capped by the genuine two-way risk at the heaviest factor (the 8 July RBNZ binary).",
+      "rationale": "At the tactical horizon the -0.42 weighted score is driven by the two heaviest factors, Policy & Rates (-0.166) and Inflation & Growth (-0.104), which together contribute -0.27 — the bulk of the bearish tilt. The mechanism is the rare bilateral alignment: the same 14-16 June US-Iran peace simultaneously drained the kiwi's RBNZ hike premium (collapsing oil to ~$79) and reaffirmed the hawkish-Warsh-Fed dollar, so both legs push NZD/USD lower. US data has remained resilient, giving the Fed a stronger case to delay easing, and together the two trajectories have positioned NZD/USD firmly on the defensive with little sign of near-term reversal. This is how the standalone views interact: a 'Neutral kiwi' plus a 'Bullish dollar' net to a Bearish pair because the dollar's hawkish strength is the kiwi's headwind, not a cancelling force. Bilateral-specific factors deepen the lean — the -138bp negative carry, falling dairy (the kiwi's dominant commodity with no dollar parallel), a fresh-52-week-low chart structure, and a -1.1 risk reversal showing hedgers paying up for further downside. What is priced: a hawkish Fed and a wavering RBNZ are largely in the price; what we expect is the 8 July RBNZ track decision to be the binary that either confirms the slide (dovish pivot) or sparks a squeeze (hawkish defence). The path of least resistance is a continued drift lower toward 0.5650-0.5700, capped by the cheap REER and the dual-short base. Key catalysts: 8 July RBNZ, early-July GDT auction, 25 June US core PCE, 2 July NFP, 14 July CPI, 29 July FOMC. Conviction is 3 (not higher) because the dominant rate factor is a genuine coin-flip into 8 July — a hawkish RBNZ surprise into a put-skewed, dual-short market is a fast squeeze risk that prevents pressing the short aggressively.",
+      "g10_relative_ranking": "Among USD pairs, NZD/USD ranks as one of the more attractive dollar-longs (i.e. pair-shorts) tactically — the kiwi sits near the bottom of the USD dossier's G10 ranking (the USD beats NZD), and NZD/USD is a cleaner short than USD/CAD given the dairy drag, but a less clean short than chasing the dollar via the funders. Among NZD crosses, NZD/USD is the weakest expression of the kiwi tactically (the firm dollar adds a headwind that NZD/JPY avoids), so a bearish-kiwi view is better expressed via long AUD/NZD (the RBA's +210bp carry advantage isolates the Antipodean divergence from the dollar). Relative to AUD/USD, NZD/USD underperforms — AUD has broken out while NZD lags, confirming NZD/USD as the softer Antipodean-dollar pair tactically.",
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "pair_target": "NZD/USD 0.5650-0.5700",
+          "timeframe": "2-4 weeks",
+          "conditions": [
+            "RBNZ holds on 8 July or hikes without strongly reaffirming the OCR track",
+            "GDT dairy stays soft with no recovery (WMP remains in the low $3,500s or falls further)",
+            "US data confirms the hawkish-Fed thesis (sticky core PCE/CPI above 3.0%)"
+          ],
+          "path": "NZD/USD drifts lower toward 0.5650-0.5700, biased toward fresh lows as the firm dollar and falling dairy dominate, cushioned by the cheap REER and dual-short base; the 8 July RBNZ is the pivot where failure to defend the track opens the 0.5583 support"
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "pair_target": "NZD/USD 0.5850-0.5900",
+          "conditions": [
+            "RBNZ hikes 25bp on 8 July and reaffirms the OCR track toward ~3.0%",
+            "A soft US core PCE/CPI print turns the dollar lower and forces front-end repricing"
+          ]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "pair_target": "NZD/USD 0.5500-0.5583",
+          "conditions": [
+            "RBNZ holds on 8 July and softens its published OCR track",
+            "A sharp further GDT drop (5%+) or a risk-off spike that hits the high-beta kiwi against the haven dollar"
+          ]
+        }
+      },
+      "path_expectation": "Expect a continued grind lower into early July, pivoting on the 8 July RBNZ. The most likely shape is a drift toward 0.5650-0.5700 on dairy softness and dollar firmness in the days before the RBNZ decision, then a binary reaction: a hawkish RBNZ track-defence triggers a fast squeeze back through the 0.5800 round number toward the 0.5850-0.5900 MA cluster (given the put skew and dual-short base), while a dovish pivot opens 0.5583 then 0.5500. Volatility should stay elevated (1M IV ~10.5% est.) with an event premium into 8 July, and the kiwi's low liquidity raises gap risk in either direction on the announcement. Beyond the RBNZ decision, the dollar's response to US data (core PCE 25 June, NFP 2 July, CPI 14 July) and the next GDT auction are the follow-on pair swings that define whether the post-RBNZ direction extends or reverses.",
+      "conviction_ladder": {
+        "current": 3,
+        "increase_conditions": [
+          "Increase to 5 if RBNZ holds and softens its track AND dairy keeps falling AND the dollar firms (broad index 121) — all aligning pair-bearish; OR a decisive break below 0.5583 with momentum/stop flows accelerating toward 0.5500",
+          "Increase to 4 if RBNZ holds with a dovish lean while US core PCE confirms above 3.2%; OR NZD/USD breaks and holds below 0.5700 on continued dollar strength"
+        ],
+        "decrease_conditions": [
+          "Decrease to 2 if RBNZ hikes 25bp and reaffirms the track (carry prop revived); OR a soft US core PCE/CPI turns the dollar lower and the pair reclaims 0.5800",
+          "Decrease to 1 if RBNZ defends its track AND a soft US data run turns the dollar decisively lower AND dairy floors — all aligning pair-bullish; OR NZD/USD reclaims and holds 0.5900"
+        ]
+      },
+      "risk_reward": {
+        "base_case_payoff": "-64 pips / -1.1% (pair-short: NZD/USD to ~0.5675 vs spot 0.5739)",
+        "downside_case_loss": "+136 pips / +2.4% against a short (squeeze to 0.5875)",
+        "risk_reward_ratio": "0.47:1 (base-case gain vs squeeze loss)",
+        "expected_value": "(0.50 × +64) + (0.25 × +164 toward 0.5575) + (0.25 × -136) = +32 + 41 - 34 = +39 pips expected for a pair-short, modestly positive",
+        "asymmetry_assessment": "The distribution is skewed against pressing the short at a fresh 52-week low — the cheap REER, dual-short base and deep put skew create convex squeeze risk on a hawkish RBNZ. The cleaner expression is selling NZD-put structures (harvesting the rich -1.1 skew) or long AUD/NZD rather than an outright NZD/USD short at the lows."
+      }
+    },
+    "strategic": {
+      "net_stance": "Neutral",
+      "conviction": 2,
+      "overall_confidence": 55,
+      "weighted_score_calculation": [
+        {
+          "factor_number": 1,
+          "factor_name": "Policy & Rates",
+          "stance_score": 0,
+          "confidence": 56,
+          "conf_adj_score": 0,
+          "weight": 0.24,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 2,
+          "factor_name": "Inflation & Growth",
+          "stance_score": 0,
+          "confidence": 54,
+          "conf_adj_score": 0,
+          "weight": 0.1,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 3,
+          "factor_name": "Risk Appetite",
+          "stance_score": 0,
+          "confidence": 50,
+          "conf_adj_score": 0,
+          "weight": 0.05,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 4,
+          "factor_name": "Flows & Positioning",
+          "stance_score": 0,
+          "confidence": 50,
+          "conf_adj_score": 0,
+          "weight": 0.06,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 5,
+          "factor_name": "External Balance & ToT",
+          "stance_score": -1,
+          "confidence": 55,
+          "conf_adj_score": -0.55,
+          "weight": 0.16,
+          "weighted_contribution": -0.088
+        },
+        {
+          "factor_number": 6,
+          "factor_name": "Guidance & Credibility",
+          "stance_score": 0,
+          "confidence": 54,
+          "conf_adj_score": 0,
+          "weight": 0.12,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 7,
+          "factor_name": "Event Risk & Geopolitics",
+          "stance_score": 0,
+          "confidence": 52,
+          "conf_adj_score": 0,
+          "weight": 0.05,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 8,
+          "factor_name": "Fiscal & Sovereign",
+          "stance_score": 0,
+          "confidence": 58,
+          "conf_adj_score": 0,
+          "weight": 0.07,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 9,
+          "factor_name": "Market Structure & Vol",
+          "stance_score": 0,
+          "confidence": 52,
+          "conf_adj_score": 0,
+          "weight": 0.03,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 10,
+          "factor_name": "USD Liquidity & Funding",
+          "stance_score": 0,
+          "confidence": 54,
+          "conf_adj_score": 0,
+          "weight": 0.12,
+          "weighted_contribution": 0
+        }
+      ],
+      "net_weighted_score": -0.088,
+      "score_interpretation": "A Neutral reading with a bearish tilt (-0.09). At strategic weights the rate factor neutralises (consensus Fed-easing gap-narrowing offsets the dovish-RBNZ-track risk), so the score is carried almost entirely by External Balance (0.16 weight, -0.088), where NZ's funding-dependent CA deficit and China dairy erosion contrast unfavourably with the dollar's reserve privilege. No factor is Bullish-for-the-pair. The -0.09 sits firmly in the Neutral band but leans bearish, mapping to conviction 2 — a low-conviction lean toward continued pair softness rather than a directional short.",
+      "rationale": "At the strategic 1-6 month horizon the -0.09 score reflects a pair that is broadly balanced with a mild bearish tilt. Policy & Rates (0.24) neutralises because the consensus that the Fed eventually eases and narrows the -138bp gap offsets the high likelihood of a dovish RBNZ track mark-down at the 2 September MPS — the two rate vectors cancel. With rates neutralised, External Balance (0.16, the second-heaviest weight) dominates and is pair-bearish: NZ's -3.6% CA deficit, no Fed swap line, and structurally weakening China dairy demand contrast with the dollar's reserve-currency funding privilege, a bilateral structural gap that favours the dollar even though the US runs its own twin deficit. Guidance (0.12) and USD Liquidity (0.12) are Neutral two-sided swings — opposing credibility tails (dovish RBNZ vs politicised Fed) and the consensus-soft-dollar-vs-dollar-smile-asymmetry both balance. How the dossiers interact: the NZD dossier's strategic Neutral and the USD dossier's strategic Neutral-with-bearish-tilt combine into a pair that is Neutral with a mild bearish lean — the dollar's structural softness (twin deficit, rich REER) partially offsets the kiwi's structural softness (CA deficit, dairy erosion), leaving no dominant direction. What is priced vs what we expect: consensus is constructive on the pair (ANZ 0.64, ING above 0.60, cluster 0.60-0.63 by end-2026) on a softer dollar and partial RBNZ hikes; we are more cautious, expecting the pair to hold in the high-0.55s/low-0.58s through Q3 before a modest recovery, because the oil collapse undercuts the RBNZ track and the kiwi's funding vulnerability caps any dollar-driven rally. The path of least resistance is a range-bound-to-soft pair that bases near the 52-week lows and grinds only slowly higher if both the Fed eases and the RBNZ delivers. Key catalysts: 8 July, 2 September, 28 October RBNZ; 29 July, 16 September, 28 October FOMC; fortnightly GDT auctions; NZ Q2/Q3 CPI. Conviction is 2 because the offsetting structural forces are genuinely balanced and our view is close to a slightly-less-constructive version of consensus.",
+      "g10_relative_ranking": "Strategically NZD/USD ranks mid-table among USD pairs as a value-recovery candidate rather than a leader — the cheap kiwi REER and the rich dollar REER argue for eventual mean-reversion (pair-positive), but the kiwi's funding vulnerability keeps it behind the higher-carry commodity dollars. Among NZD crosses, NZD/USD remains a weaker strategic expression of any constructive kiwi view than NZD/JPY (which harvests positive carry and avoids the dollar headwind) — so a strategically bullish-kiwi view is best expressed elsewhere. Relative to AUD/USD, NZD/USD lags structurally given the RBA's 210bp carry advantage over the RBNZ; the main headwind for NZD is the relatively unattractive interest rate, particularly compared to Australia, arguing for a cautious upward profile for NZD/USD and against any sustained reversal in AUD/NZD strength.",
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "pair_target": "NZD/USD 0.5850-0.5950",
+          "timeframe": "1-6 months",
+          "conditions": [
+            "RBNZ delivers one hike but marks the September track modestly lower",
+            "Dairy stabilises in the high-$3,000s WMP (no further structural decline)",
+            "Fed holds then signals eventual easing for a gradual softer-dollar drift"
+          ],
+          "path": "NZD/USD bases near 0.5600-0.5700 then grinds slowly higher toward 0.5850-0.5950 over 1-6 months as the dollar softens modestly and the RBNZ delivers at least one hike, but capped below 0.60 by dairy softness and the CA deficit"
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "pair_target": "NZD/USD 0.60-0.62",
+          "conditions": [
+            "RBNZ delivers multiple hikes toward ~3.0% and honours its hawkish track through September",
+            "A clear softer-dollar regime materialises plus a dairy/China demand recovery"
+          ]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "pair_target": "NZD/USD 0.5400-0.5500",
+          "conditions": [
+            "September MPS marks the RBNZ track sharply lower or RBNZ abandons hikes entirely",
+            "A deeper China slowdown or a dollar-smile risk-off that hits the swap-line-less kiwi hardest"
+          ]
+        }
+      },
+      "path_expectation": "Expect a U-shaped basing rather than a clean trend: soft into the July/September RBNZ track decisions near the 52-week lows, then a gradual recovery if the RBNZ honours its bias and the dollar eases into Q4. The high-beta kiwi will amplify whatever the dollar and risk tape do, so a benign goldilocks regime lifts the pair toward 0.5950-0.60 while any risk-off or US-exceptionalism dollar surge sends it back toward 0.5500. Each RBNZ meeting (8 July, 2 September, 28 October) is a binary on the track, and the fortnightly GDT auctions inject regular dairy-driven volatility into the pair without a dollar-leg parallel. The dominant strategic expression of kiwi weakness remains long AUD/NZD rather than outright NZD/USD shorts against dollar-smile risk, and any constructive position-adding should wait for the RBNZ track decisions to resolve.",
+      "conviction_ladder": {
+        "current": 2,
+        "increase_conditions": [
+          "Increase to 5 if RBNZ abandons hikes entirely AND a China-led dairy collapse hits terms of trade AND the dollar firms decisively — all aligning pair-bearish; OR NZD/USD breaks and holds below 0.5500",
+          "Increase to 4 if September MPS marks the RBNZ track materially lower removing the carry edge; OR dairy and China demand deteriorate further widening the CA deficit"
+        ],
+        "decrease_conditions": [
+          "Decrease to 1 if RBNZ delivers a clear hiking cycle toward 3.0% AND the dollar enters a decisive downtrend AND dairy/China recover — all aligning pair-bullish; OR NZD/USD breaks and holds above 0.60",
+          "Decrease to current 2 (already at this level) if balanced offsetting forces keep the pair rangebound near consensus between 0.56 and 0.59 with RBNZ delivering a single hike but the dollar and dairy paths staying mixed"
+        ]
+      },
+      "risk_reward": {
+        "base_case_payoff": "+161 pips / +2.8% (pair-long value recovery: NZD/USD to ~0.5900 vs spot 0.5739)",
+        "downside_case_loss": "-289 pips / -5.0% (pair-long: move to 0.5450)",
+        "risk_reward_ratio": "0.56:1 (upside payoff vs downside loss), modestly unfavourable",
+        "expected_value": "(0.50 × +161) + (0.25 × +361 toward 0.61) + (0.25 × -289) = +81 + 90 - 72 = +99 pips expected for a pair-long, mildly positive but contingent on RBNZ and dollar cooperation",
+        "asymmetry_assessment": "The 52-week low (0.5583) sits closer than the consensus high (0.62), so the absolute-pip distribution is slightly downside-skewed, but the cheap REER and dual-short base provide a cushion. Any constructive strategic view is better expressed via AUD/NZD or positive-carry NZD/JPY than an outright NZD/USD long against dollar-smile risk."
+      }
+    },
+    "consensus_divergence": {
+      "bank_consensus_forecast": "ANZ 0.64 by year-end and 0.67 by end-2027; ING above 0.60 by late 2026 driven by weakening USD and shifting monetary policy; broader cluster 0.60-0.63 for end-2026 (Exchange Rates UK, InvestingCube, Levrata)",
+      "our_tactical_view": "Bearish — NZD/USD drifts lower toward 0.5650-0.5700 over 2-4 weeks as the hawkish Fed, falling dairy and a fresh-52-week-low chart structure dominate",
+      "our_strategic_view": "Neutral (bearish tilt, conviction 2) — NZD/USD holds in the high-0.55s/low-0.58s through Q3 before a modest recovery toward 0.5850-0.5950, well below consensus targets",
+      "divergence_direction": "below consensus",
+      "divergence_magnitude": "~400-800 pips below consensus 1-6 month forecasts (our base case 0.5850-0.5950 vs consensus 0.60-0.64)",
+      "why_we_differ": "Most bank forecasts were set before the June 2026 regime change and rest on a central pillar of broad USD weakness as Fed rate cuts seep through. The Warsh Fed has flipped from cuts to a likely hike, removing that pillar. We also weight the dovish-RBNZ-track risk (oil collapse undercuts the RBNZ's inflation case) and the kiwi's no-swap-line funding vulnerability more heavily than consensus. ANZ's constructive 0.64 target requires both a delivered RBNZ hiking cycle and Fed easing — we assign a lower probability of both materialising simultaneously, particularly given the 14-16 June oil-and-rate regime change that most pre-June forecasts do not incorporate.",
+      "payoff_if_right": "NZD/USD stalls below 0.60 and AUD/NZD grinds higher, rewarding a long-AUD/NZD relative-value position over outright kiwi longs; a tactical pair-short captures the drift toward 0.5650-0.5700",
+      "risk_if_wrong": "If the RBNZ defends its track and the dollar softens on the consensus path, NZD/USD squeezes the dual-short base toward 0.61-0.62 and our cautious view underperforms by 400-650 pips vs consensus targets"
+    },
+    "cross_horizon_consistency": {
+      "aligned": false,
+      "tactical_stance": "Bearish (conviction 3, score -0.42)",
+      "strategic_stance": "Neutral with bearish tilt (conviction 2, score -0.09)",
+      "explanation": "The horizons are partially divergent: tactical Bearish rests on the heavy rate and inflation factors that turned pair-negative at the June regime change (hawkish Fed vs wavering RBNZ, falling dairy, fresh-low structure), while strategically the rate factor neutralises (consensus Fed-easing narrows the gap, offsetting the dovish-RBNZ risk) and the structural External Balance factor takes over with a milder bearish read. The divergence is mechanistic and not contradictory — the same pair, different dominant drivers at different time horizons.",
+      "inflection_point": "8 July RBNZ and 2 September MPS: whether the RBNZ defends or abandons its hawkish track determines if the tactical slide extends or the pair bases for the strategic recovery",
+      "trading_implication": "Run the tactical pair-short with a tight leash and a defined exit around the 8 July RBNZ, then rotate toward a more balanced strategic stance — expressed via AUD/NZD relative value rather than outright NZD/USD — as the pair bases near the 52-week lows. Wait for the RBNZ track decisions to break the standoff before adding strategic directional risk."
+    },
+    "forward_vs_spot": {
+      "current_spot": 0.5739,
+      "forward_1m": "~0.5733 (-6 pips; NZD forward discount ~-1.3% annualised)",
+      "forward_3m": "~0.5721 (-18 pips)",
+      "forward_6m": "~0.5702 (-37 pips)",
+      "expected_rate_3m": "0.5700-0.5850 (binary on RBNZ track)",
+      "expected_rate_6m": "0.5850-0.5950 (consensus-lite recovery)",
+      "edge_3m": "+30 to +50 pips positive edge vs forward if RBNZ delivers; 0 to -50 pips if RBNZ pivots dovish",
+      "edge_6m": "~+150 pips positive edge from cheap-REER value recovery, contingent on Fed easing + RBNZ delivery"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-06-25",
+      "event": "US Core PCE (May) & Q1 GDP third estimate",
+      "expected_impact": "Bearish",
+      "which_leg_affected": "Quote",
+      "rationale": "The Fed's preferred inflation gauge; a sticky ~3.3% print validates the hawkish dot and reinforces the dollar leg, pressing NZD/USD lower. A soft print is the first crack in the hike thesis and would be the pair-positive risk, potentially softening the dollar and relieving the -138bp headwind on the kiwi. Transmission is direct via the Fed-pricing channel: the dollar firms on hot PCE and the negative-carry pair falls accordingly.",
+      "priced_in": "Partially",
+      "citations": [
+        25
+      ]
+    },
+    {
+      "date": "2026-07-01",
+      "event": "GDT Dairy Auction (Event 407, early July)",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Base",
+      "rationale": "The fortnightly dairy auction is the most frequent pair-specific commodity event with no dollar parallel. After two consecutive declines (-0.6%, -2.8%), a third drop pressures NZD/USD intraday via the NZ terms-of-trade and RBNZ-credibility channels; a stabilisation relieves the kiwi-leg headwind that has been a steady pair-negative. With WMP at $3,589/MT and supply glut persisting, the direction of the next print is a direct kiwi-specific driver that the USD leg has no corresponding offset to.",
+      "priced_in": "Partially",
+      "citations": [
+        19
+      ]
+    },
+    {
+      "date": "2026-07-02",
+      "event": "US Nonfarm Payrolls (June)",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Quote",
+      "rationale": "A firm print (after +172k in May) keeps the Fed hawkish and the dollar bid, pressing NZD/USD lower via the -138bp carry-widening channel and reinforcing the hawkish dot. A soft print reopens the cut narrative and softens the dollar, relieving the dominant pair headwind. The kiwi's high beta to US risk-data means the transmission is amplified relative to other USD pairs — a soft NFP could trigger a fast squeeze through the 0.5800 resistance.",
+      "priced_in": "Not priced",
+      "citations": [
+        25
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "event": "RBNZ Official Cash Rate Decision (Monetary Policy Review)",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Base",
+      "rationale": "The single most important near-term pair event. A dovish statement or track mark-down could see NZD/USD flush rapidly lower through 0.5583 toward 0.5500, while a hawkish hold with track reaffirmation could act as a slingshot for the Kiwi, squeezing the dual-short base back through the 0.5800-0.5900 MA cluster. The sequencing matters: this RBNZ sets the tone before the 29 July FOMC, so the kiwi leg is the first mover in what will be a binary two-day window determining the near-term pair direction.",
+      "priced_in": "Partially",
+      "citations": [
+        19
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "event": "US CPI (June)",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Quote",
+      "rationale": "With headline at 4.2%, this tests whether cheaper oil is cooling US inflation. A still-hot core keeps the Fed hawkish and the dollar firm, pressing NZD/USD lower via both the rate-differential and dollar-strength channels simultaneously. Clear deceleration in core CPI cracks the hawkish-Fed thesis and weakens the dollar, which — combined with the kiwi's high beta — could trigger a fast reversal back through the MA cluster.",
+      "priced_in": "Partially",
+      "citations": [
+        25
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "event": "NZ Q2 2026 CPI (Stats NZ)",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Base",
+      "rationale": "The RBNZ projected a Q2 CPI spike toward 4.2-4.3%, but the June oil collapse likely undershoots that projection. A soft print validates a dovish RBNZ track mark-down and removes the kiwi's last carry prop, pressing NZD/USD lower; a hot print defends the hikes and is pair-positive. This print directly informs the 2 September MPS track review — the market's reaction will pre-price the September outcome.",
+      "priced_in": "Partially",
+      "citations": [
+        25
+      ]
+    },
+    {
+      "date": "2026-07-29",
+      "event": "FOMC Rate Decision",
+      "expected_impact": "Bearish",
+      "which_leg_affected": "Quote",
+      "rationale": "The first meeting where the June dot-plot hike could materialise. The market priced an 85% probability of a Fed hike following the June FOMC, up from 50% the prior week — even a hawkish hold sustains the dollar and keeps the -138bp differential against the kiwi; a delivered hike widens it toward -150bp and pushes NZD/USD lower. The transmission is direct: higher Fed funds rate extends the funding-cost headwind for the kiwi leg and reinforces the hawkish-dollar dynamic that has driven the recent break lower.",
+      "priced_in": "Partially",
+      "citations": [
+        25
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "event": "GDT Auction (mid-August)",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Base",
+      "rationale": "Whether the dairy supply glut persists or eases between the July and September RBNZ meetings sets the kiwi's terms-of-trade trajectory into the 2 September MPS. A further decline confirms the bearish dairy channel and pre-prices a dovish RBNZ track mark-down (pair-negative); a stabilisation or recovery removes a key structural pair headwind and could trigger covering of the short kiwi base ahead of September.",
+      "priced_in": "Not priced",
+      "citations": [
+        19
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "event": "RBNZ OCR Decision with full Monetary Policy Statement",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Base",
+      "rationale": "The full MPS publishes an updated OCR track — the strategic binary for the kiwi. ANZ forecasts the OCR rising towards 3.0% but warns markets over-anticipate tightening and will correct lower once it begins. A dovish track mark-down removes the kiwi's carry prop and press NZD/USD lower toward the 0.5400-0.5500 strategic downside case; a defended or upgraded track is pair-positive and consistent with the 0.60+ consensus recovery. This is the most important strategic event for the pair over the 1-6 month horizon.",
+      "priced_in": "Partially",
+      "citations": [
+        1
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "event": "FOMC Rate Decision + Summary of Economic Projections",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Quote",
+      "rationale": "A fresh dot plot that will reflect whether oil-driven US disinflation has appeared by September. This is the meeting most likely to flip the dollar from firm to soft if cheaper oil has brought core PCE back toward 2.5-2.8%, signalling a rate hold or cut pivot — which would be the pair-positive dollar-softening catalyst that underlies consensus NZD/USD targets. Conversely, another hawkish dot sustains the -138bp+ gap and presses the pair lower.",
+      "priced_in": "Partially",
+      "citations": [
+        25
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "event": "NZ Q3 2026 CPI (Stats NZ)",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Base",
+      "rationale": "Covers the RBNZ's projected 4.3% CPI peak quarter. A clear undershoot (likely post-oil-collapse) confirms a lower OCR path and is pair-negative, potentially removing the last pillar of the constructive NZD/USD consensus view; a stickier-than-expected print defends the hike case and is pair-positive. This print will be the key input to the 28 October RBNZ decision and defines whether the kiwi's carry story re-emerges or collapses in 2027.",
+      "priced_in": "Not priced",
+      "citations": [
+        1
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "event": "Iran 60-Day Nuclear Deadline (~mid-August)",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Both",
+      "rationale": "A durable deal cements the post-June risk-on regime (pair-positive via kiwi high-beta + soft dollar haven-unwind); a breakdown re-spikes oil toward $90+ and restores the dollar haven bid while simultaneously reviving the RBNZ inflation-overshoot story that could flip the central bank back to hawkish — an unusual case where a geopolitical reversal could be pair-positive via the RBNZ channel. Currently the market prices a durable outcome; the breakdown tail is underpriced and would be the most disruptive bilateral catalyst because it affects both legs simultaneously through the risk/oil/RBNZ channel.",
+      "priced_in": "Not priced",
+      "citations": [
+        26
+      ]
+    }
+  ],
+  "invalidators": [
+    {
+      "condition": "RBNZ hikes to 2.50% on 8 July AND reaffirms its OCR track toward ~3.0% (published track defended)",
+      "new_stance": "Bullish (pair higher) — tactical Bearish thesis invalidated, pair squeeze toward 0.5850-0.5900",
+      "mechanism": "A delivered hike with a defended track restores NZD's relative carry into the -138bp gap and forces the dual-short base (NZD net short -31.6k + USD long ~65th pct) to cover simultaneously, squeezing NZD/USD back through the 0.5800-0.5900 MA cluster and reclassifying the recent low as a false break rather than a trend continuation",
+      "monitor_indicator": "RBNZ OCR decision and published OCR track; NZ OIS forward curve post-decision",
+      "monitor_frequency": "At each RBNZ meeting (next: 8 July 2026)",
+      "probability_pct": 30
+    },
+    {
+      "condition": "US core PCE falls below 2.8% YoY on cheaper oil within the next 2-3 months",
+      "new_stance": "Bullish (pair higher) — the hawkish-Fed dollar leg of the thesis collapses",
+      "mechanism": "The hawkish-Fed thesis underpinning the dollar leg evaporates; the front-end reprices toward holds/cuts removing the -138bp differential's widening trajectory, the dollar softens against the high-beta kiwi, and the tactical pair-short is caught in a squeeze with no carry support",
+      "monitor_indicator": "Monthly US core PCE (BEA, released ~25th of each month); US 2Y yield and Fed funds futures",
+      "monitor_frequency": "Monthly (next: 25 June 2026)",
+      "probability_pct": 30
+    },
+    {
+      "condition": "GDT dairy WMP falls below ~$3,250/MT on continued consecutive fortnightly declines",
+      "new_stance": "Deeper Bearish (pair lower) — External Balance factor turns more decisively pair-negative",
+      "mechanism": "A sustained dairy collapse below $3,250/MT hits NZ's core export franchise and terms of trade with no offsetting dollar-leg effect, widening the CA funding need, pressuring NZ Q2/Q3 CPI well below RBNZ projections and pre-pricing a dovish RBNZ track mark-down — removing the kiwi's last positive carry narrative and opening downside toward 0.5500",
+      "monitor_indicator": "GDT Price Index and Whole Milk Powder price (globaldairytrade.info); Fonterra farmgate guidance",
+      "monitor_frequency": "Fortnightly (next: ~1 July 2026)",
+      "probability_pct": 30
+    },
+    {
+      "condition": "Global risk-off spike with VIX rising above 25 and equities correcting 8% or more",
+      "new_stance": "Deeper Bearish (pair sharply lower) — the high-beta kiwi vs haven dollar dynamic dominates",
+      "mechanism": "NZD/USD pairs the highest-beta, no-swap-line G10 currency against the global reserve haven currency — in a risk-off spike both legs move the pair sharply down on thin kiwi liquidity. The RBNZ has no Fed swap line (unlike the RBA) so there is no funding backstop, and the CA-deficit kiwi becomes a funding-vacuum target. Historical analogue: March 2020 NZD/USD fell 15% in two weeks",
+      "monitor_indicator": "VIX daily close; S&P 500; NZD/JPY as a risk-proxy canary; NZD/USD bid-ask spreads",
+      "monitor_frequency": "Daily",
+      "probability_pct": 25
+    },
+    {
+      "condition": "Broad USD index falls below 116 as the Fed signals easing at a FOMC meeting or in Warsh communications",
+      "new_stance": "Bullish (pair higher) — dominant dollar-leg headwind reverses",
+      "mechanism": "A decisive softer-dollar regime relieves the dominant pair headwind and the high-beta kiwi benefits most via the dollar-strength-channel reversal; the -138bp carry gap begins to narrow from the top; the dual-short base (long USD, short NZD) unwinds both legs simultaneously creating a fast, amplified pair-recovery",
+      "monitor_indicator": "Broad USD index (DTWEXBGS daily); Fed funds futures 1Y forward; Warsh speeches and Fed communications",
+      "monitor_frequency": "Daily / at each FOMC meeting",
+      "probability_pct": 25
+    },
+    {
+      "condition": "NZD/USD breaks and holds below the 0.5583 52-week low on a daily closing basis with sustained momentum",
+      "new_stance": "Confirmed Bearish continuation — conviction increases to 4-5 with CTA flows targeting 0.5500",
+      "mechanism": "The break flips systematic/CTA strategies firmly short, triggers stop-loss flows from residual long positions and momentum-selling from trend-followers, potentially accelerating the decline toward 0.5500 and below. Once 0.5583 breaks on a closing basis, the prior support becomes resistance and the technical structure argues for a re-test of the 2015-2016 bear-market lows over the strategic horizon",
+      "monitor_indicator": "NZD/USD daily closing price vs 0.5583; NZD/USD momentum indicators (RSI, MACD); options gamma levels",
+      "monitor_frequency": "Daily",
+      "probability_pct": 30
+    }
+  ],
+  "signposts": [
+    {
+      "indicator": "RBNZ OCR / Published Track",
+      "current_level": "OCR 2.25% (held 27 May); track peak ~3.0-3.28%",
+      "confirms_if": "RBNZ holds on 8 July AND track is marked down toward 2.5% or below — bearish thesis confirmed as the carry prop erodes",
+      "invalidates_if": "RBNZ hikes 25bp on 8 July AND track is held at or above 3.0% — thesis invalidated, squeeze to 0.5850-0.5900",
+      "bilateral_importance": "This is the kiwi-leg driver of the -138bp gap's trajectory — it matters more for NZD/USD than for any other NZD cross because the dollar leg is simultaneously hawkish, so an RBNZ dovish pivot widens the effective rate differential decisively and removes the pair's only remaining carry support, whereas an RBNZ hawkish defence creates a rare scenario of both legs being carry-positive for the kiwi simultaneously",
+      "source": "https://www.rbnz.govt.nz/monetary-policy/monetary-policy-decisions",
+      "frequency": "7x per year (next: 8 July 2026)"
+    },
+    {
+      "indicator": "Fed Funds Futures Hike Odds (2026)",
+      "current_level": "~66% odds of at least one hike in 2026",
+      "confirms_if": "Rises above 75% — dollar leg stays hawkish, -138bp differential widens, NZD/USD pair remains under pressure",
+      "invalidates_if": "Falls below 40% — front-end repricing toward holds/cuts softens the dollar leg, the dominant pair headwind reverses",
+      "bilateral_importance": "The dollar-leg driver that caused the pair's recent break lower — because the NZD/USD move was triggered by the hawkish-Fed repricing at the June FOMC, this gauge is the most direct read on whether the dollar headwind persists or fades. A 40% threshold represents a material shift in the policy outlook that would flip the bilateral rate story from dollar-favourable to balanced",
+      "source": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
+      "frequency": "Daily"
+    },
+    {
+      "indicator": "NZD/USD 1M 25-Delta Risk Reversal",
+      "current_level": "-1.1 (put-skewed, 4-month low)",
+      "confirms_if": "Stays at or below -1.0 — hedgers paying for downside confirms the bearish pair thesis and the options market is pricing the same direction as our view",
+      "invalidates_if": "Rises toward -0.3 or turns positive — skew neutralises as the market re-prices a hawkish RBNZ or dollar-softening scenario, signalling a positioning shift that typically precedes a spot recovery",
+      "bilateral_importance": "The cleanest direct read of pair-specific options sentiment for NZD/USD; the deep put skew is both the bearish confirmation and the squeeze-fuel gauge — more informative than CFTC data given small NZD open interest (~52k contracts). The -1.1 reading is at a 4-month extreme and is the decisive bilateral signal differentiating NZD/USD from other USD pairs that have more neutral skews",
+      "source": "Options market data (Elev8/FX dealer feeds: https://www.elev8.com/markets/news/view/699118/)",
+      "frequency": "Daily"
+    },
+    {
+      "indicator": "GDT Price Index / Whole Milk Powder (WMP)",
+      "current_level": "GDT -2.8% (16 June, Event 406); WMP $3,589/MT",
+      "confirms_if": "WMP falls below $3,250/MT on continued fortnightly declines — dairy drag deepens, NZ terms-of-trade deteriorate, RBNZ dovish track mark-down probability rises",
+      "invalidates_if": "WMP stabilises or rises above $3,700/MT — the key structural pair headwind eases, Fonterra's farmgate forecast is validated, and the external balance pressure on the kiwi reduces",
+      "bilateral_importance": "The kiwi's dominant commodity export with no corresponding dollar-side parallel — GDT movements affect NZD/USD through a channel that is pure kiwi-specific, making each fortnightly print a pair-direction signal without noise from the dollar leg. Falling dairy hits the kiwi twice: directly via NZ export revenue and indirectly via RBNZ inflation forecasts that determine the OCR track",
+      "source": "https://www.globaldairytrade.info/en/product-results/",
+      "frequency": "Fortnightly"
+    },
+    {
+      "indicator": "NZD/USD Spot vs MA Cluster (50d/100d/200d) and 52-Week Low",
+      "current_level": "0.5739 — below 50d 0.587 / 100d 0.585 / 200d 0.586; at 52-week low",
+      "confirms_if": "Daily close below 0.5583 (52-week low) — technical break confirms the bearish trend extension and triggers CTA/systematic selling flows",
+      "invalidates_if": "Daily close above 0.5870 (reclaims the MA cluster) — the downtrend is neutralised and the pair structure reverts from trending to ranging",
+      "bilateral_importance": "The pair's own chart structure that drives CTA and systematic flows; the 52-week-low break vs MA-cluster reclaim is the binary that defines whether the bilateral downtrend extends or reverses. With spot below all three MAs simultaneously — a rare configuration for NZD/USD — the technical confirmation is unambiguous and systematic flows are a sustained directional amplifier that makes the threshold levels more important than in a ranging regime",
+      "source": "https://www.tradingview.com/symbols/NZDUSD/",
+      "frequency": "Daily"
+    }
+  ],
+  "assumptions": [
+    "Spot (0.5739) and all performance, MA, range and trend-regime figures are taken from the provided Twelve Data daily OHLC (latest close 2026-06-20). The April 29 high52w of 1.71632 is a clear data artefact (inverted USD/NZD print) and is disregarded; the genuine 52-week range is ~0.5583-0.6066.",
+    "Support/resistance levels are from web-sourced visual chart analysis (TradingView, FXStreet, forex.com); the 0.5700 spring base and 0.5850-0.5900 MA-cluster resistance are corroborated by the price-data MAs.",
+    "NZD/USD risk reversals (-1.1 1M, -1.225 3M) are web-sourced (Elev8) and supersede the NZD dossier's estimated -0.7; NZD 1M/3M implied vol (~10.5%/~10.8%) remains estimated given the free vol-surface gap and is flagged throughout as 'est.'",
+    "Bilateral trade is taken directly from the injected IMF DOTS block (NZ net +$0.5bn goods vs US) and not re-estimated.",
+    "Carry and forward-point figures are derived from the -138bp policy differential; outright forwards are indicative estimates based on the annualised carry rate and are not sourced from a live forward curve.",
+    "Tactical weight adjustments: Factor 1 boosted +0.02 (rate divergence is the singular pair driver) offset by Factor 3 reduced -0.02 (conflicting risk channels reduce directional cleanliness); strategic weights are default as no pair-specific tactical adjustments are warranted at the strategic horizon.",
+    "Where a factor's analysis relies on dossier data without an incremental web source, citations are omitted per the instruction not to re-cite dossier material.",
+    "The citation ID '28' referenced in the markdown (CFTC/positioning data) does not appear in the formal citation list provided; it is preserved in factor citations as referenced in the original analysis but cannot be fully validated against the 27 provided sources.",
+    "CFTC NZD net positioning (-31.6k contracts) and USD aggregate positioning percentile (~60th-65th) are sourced from dossier data and are not independently verified against live CFTC releases.",
+    "The RBNZ OCR track peak range of ~3.0-3.28% reflects the pre-June-regime-change published guidance; the 14-16 June oil collapse may have rendered this stale and the 8 July RBNZ review is assumed to update it."
+  ],
+  "complete_citations": [
+    {
+      "id": 1,
+      "title": "New Zealand Dollar Forecast 2026: ANZ Sees NZD/USD Rising To 0.64 By Year-End",
+      "publisher": "Exchange Rates UK",
+      "url": "https://www.exchangerates.org.uk/news/45929/2026-05-17-new-zealand-dollar-forecast-2026-anz-sees-nzd-usd-rising-to-0-64-by-year-end.html",
+      "date_accessed": "2026-06-20"
+    },
+    {
+      "id": 2,
+      "title": "New Zealand Dollar Outlook: NZD/USD To Rise Later In 2026, Say Rabobank",
+      "publisher": "Exchange Rates UK",
+      "url": "https://www.exchangerates.org.uk/news/45754/2026-04-24-new-zealand-dollar-outlook-nzd-usd-to-rise-later-in-2026-say-rabobank.html",
+      "date_accessed": "2026-06-20"
+    },
+    {
+      "id": 3,
+      "title": "New Zealand Dollar Forecast: ING Sees NZD/USD Above 0.60 By Late 2026",
+      "publisher": "Bitcoinworld",
+      "url": "https://bitcoinworld.co.in/new-zealand-dollar-forecast-ing-nzd-usd-060-2026/",
+      "date_accessed": "2026-06-20"
+    },
+    {
+      "id": 4,
+      "title": "New Zealand Dollar to Dollar Forecast 2026",
+      "publisher": "Exchange Rates UK",
+      "url": "https://www.exchangerates.org.uk/currency-forecasts/new-zealand-dollar-to-us-dollar-forecast",
+      "date_accessed": "2026-06-20"
+    },
+    {
+      "id": 5,
+      "title": "NZD/USD Forecast: 2026, 2030, 2040 Price Predictions & Analysis",
+      "publisher": "InvestingCube",
+      "url": "https://www.investingcube.net/forex/nzd-usd-forecast/",
+      "date_accessed": "2026-06-20"
+    },
+    {
+      "id": 6,
+      "title": "NZD/USD forecast: sits at a core level ahead of the RBNZ rate decision",
+      "publisher": "Invezz",
+      "url": "https://invezz.com/news/2026/05/25/nzd-usd-forecast-sits-at-a-core-level-ahead-of-the-rbnz-rate-decision/",
+      "date_accessed": "2026-06-20"
+    },
+    {
+      "id": 7,
+      "title": "USD/NZD Price Prediction: 2026, 2027 & Long-Term AI Forecast",
+      "publisher": "MidForex",
+      "url": "https://midforex.com/forex/usd-to-nzd-forecast",
+      "date_accessed": "2026-06-20"
+    },
+    {
+      "id": 8,
+      "title": "NZD/USD Strategy Outlook 2026",
+      "publisher": "Levrata",
+      "url": "https://www.levrata.com/market-analysis/macro-analysis/forex/nzd-usd-strategy-outlook-2026/",
+      "date_accessed": "2026-06-20"
+    },
+    {
+      "id": 9,
+      "title": "NZD/USD Rate, Signals, Charts & Technical Analysis",
+      "publisher": "FX Leaders",
+      "url": "https://www.fxleaders.com/live-rates/nzd-usd/",
+      "date_accessed": "2026-06-20"
+    },
+    {
+      "id": 10,
+      "title": "NZD USD Analysis | Kiwi Analysis",
+      "publisher": "Economies.com",
+      "url": "https://www.economies.com/forex/nzd-usd-analysis",
+      "date_accessed": "2026-06-20"
+    },
+    {
+      "id": 11,
+      "title": "NZD/USD Trade Ideas",
+      "publisher": "TradingView",
+      "url": "https://www.tradingview.com/symbols/NZDUSD/ideas/",
+      "date_accessed": "2026-06-20"
+    },
+    {
+      "id": 12,
+      "title": "NZDUSD Technicals: support/resistance levels",
+      "publisher": "investingLive",
+      "url": "https://investinglive.com/technical-analysis/nzdusd-technicals",
+      "date_accessed": "2026-06-20"
+    },
+    {
+      "id": 13,
+      "title": "NZD/USD Pivot Points",
+      "publisher": "ActionForex",
+      "url": "https://www.actionforex.com/markets/pivot-points/nzdusd/",
+      "date_accessed": "2026-06-20"
+    },
+    {
+      "id": 14,
+      "title": "NZD USD Technical Analysis",
+      "publisher": "IFCM UK",
+      "url": "https://www.ifcm.co.uk/technicals/forex-technical-analysis/nzdusd",
+      "date_accessed": "2026-06-20"
+    },
+    {
+      "id": 15,
+      "title": "NZDUSD Chart",
+      "publisher": "TradingView",
+      "url": "https://www.tradingview.com/symbols/NZDUSD/",
+      "date_accessed": "2026-06-20"
+    },
+    {
+      "id": 16,
+      "title": "NZDUSD Technical Outlook and Forecasts",
+      "publisher": "ForexFunctions",
+      "url": "https://www.forexfunction.com/currency-analysis/nzdusd",
+      "date_accessed": "2026-06-20"
+    },
+    {
+      "id": 17,
+      "title": "AUD and NZD as Strategic Bets in a Fed Rate Cut Cycle",
+      "publisher": "AInvest",
+      "url": "https://www.ainvest.com/news/aud-nzd-strategic-bets-fed-rate-cut-cycle-leveraging-divergence-trade-tailwinds-2508/",
+      "date_accessed": "2026-06-20"
+    },
+    {
+      "id": 18,
+      "title": "Top Economic Events to Watch (RBNZ as carry-trade tone-setter)",
+      "publisher": "Naga",
+      "url": "https://naga.com/en/news-and-analysis/articles/top-3-economic-events-usd-fomc-rbnz-feb-16-2026",
+      "date_accessed": "2026-06-20"
+    },
+    {
+      "id": 19,
+      "title": "NZD/USD climbs amid softer USD, Fed-RBNZ divergence",
+      "publisher": "FXStreet",
+      "url": "https://www.fxstreet.com/news/nzd-usd-climbs-back-closer-to-mid-06000s-amid-a-softer-usd-fed-rbnz-divergence-202602030459",
+      "date_accessed": "2026-06-20"
+    },
+    {
+      "id": 20,
+      "title": "NZD Slides to Seven-Month Low as RBNZ-Fed Policy Divergence Widens",
+      "publisher": "FastBull",
+      "url": "https://www.fastbull.com/analyst-article/nzd-slides-to-sevenmonth-low-as-rbnzfed-policy-4355877_0",
+      "date_accessed": "2026-06-20"
+    },
+    {
+      "id": 21,
+      "title": "NZD/USD Slips as Fed Decision Looms, RBNZ Hike Expectations Offer Support",
+      "publisher": "VT Markets",
+      "url": "https://www.vtmarkets.com/live-updates/nzd-usd-slips-as-fed-decision-looms-rbnz-hike-expectations-offer-support/",
+      "date_accessed": "2026-06-20"
+    },
+    {
+      "id": 22,
+      "title": "NZD/USD Steadies Near 0.5815 as US Inflation Firms and Fed-RBNZ Policy Gap Widens",
+      "publisher": "VT Markets",
+      "url": "https://www.vtmarkets.com/ph/live-updates/nzd-usd-steadies-near-0-5815/",
+      "date_accessed": "2026-06-20"
+    },
+    {
+      "id": 23,
+      "title": "New Zealand's Kiwi is promising the most hikes and shown the least respect",
+      "publisher": "FXStreet",
+      "url": "https://www.fxstreet.com/news/new-zealands-kiwi-is-promising-the-most-hikes-and-shown-the-least-respect-202606102317",
+      "date_accessed": "2026-06-20"
+    },
+    {
+      "id": 24,
+      "title": "AUD/USD, NZD/USD Extend Gains, Though AUD/NZD Flashes Reversal Risk",
+      "publisher": "Forex.com",
+      "url": "https://www.forex.com/en-us/news-and-analysis/aud-usd-nzd-usd-extend-gains-though-aud-nzd-flashes-reversal-risk/",
+      "date_accessed": "2026-06-20"
+    },
+    {
+      "id": 25,
+      "title": "NZD/USD, NZD/JPY price action setups: Kiwi traders eye BOJ and Fed risk",
+      "publisher": "Forex.com",
+      "url": "https://www.forex.com/en/news-and-analysis/nzd-usd-nzd-jpy-price-action-setups-kiwi-traders-eye-boj-and-fed-risk/",
+      "date_accessed": "2026-06-20"
+    },
+    {
+      "id": 26,
+      "title": "NZD/USD risk reversals hit lowest since Jan. 4 on Put demand",
+      "publisher": "Elev8",
+      "url": "https://www.elev8.com/markets/news/view/699118/",
+      "date_accessed": "2026-06-20"
+    },
+    {
+      "id": 27,
+      "title": "G10 FX Outlook 2026: Looking beyond the dollar",
+      "publisher": "ING THINK",
+      "url": "https://think.ing.com/articles/g10-fx-outlook-2026/",
+      "date_accessed": "2026-06-20"
+    }
+  ]
+}

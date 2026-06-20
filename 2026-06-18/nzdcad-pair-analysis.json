@@ -1,0 +1,1326 @@
+{
+  "metadata": {
+    "pair": "NZDCAD",
+    "base_currency": "NZD",
+    "quote_currency": "CAD",
+    "valuation_date": "2026-06-18",
+    "framework_version": "2.0",
+    "base_dossier_date": "2026-06-18",
+    "quote_dossier_date": "2026-06-18"
+  },
+  "pair_convention": {
+    "spot_reference": "NZD/CAD 0.8131",
+    "spot_explanation": "NZD/CAD at 0.8131 means 1 NZD buys 0.8131 CAD. A rising pair means the NZD is strengthening against the CAD — each NZD purchases more Canadian dollars. A falling pair means the NZD is weakening against the CAD — each NZD purchases fewer Canadian dollars. NZD is the base currency and CAD is the quote currency throughout this report.",
+    "bullish_means": "pair RISES (NZD strengthens vs CAD)",
+    "bearish_means": "pair FALLS (NZD weakens vs CAD)",
+    "base_dossier_tactical_stance": "Neutral",
+    "quote_dossier_tactical_stance": "Bearish (CAD)"
+  },
+  "executive_summary": "NZD/CAD trades at 0.8131, sitting at the 58th percentile of its 52-week range (0.7852–0.8330), with both legs having weakened against the USD over the past quarter but the pair itself ending essentially flat (+0.06% over 3M, -1.58% over 1M, -1.14% over 6M, -0.97% over 1Y). The dominant bilateral narrative is a rare convergence of symmetry: both the RBNZ and the BoC sit at an identical 2.25% policy rate, both economies were hit by the same June oil collapse, and both currencies carry cheap REERs and net-short speculative bases — yet the critical divergence is monetary-policy direction. The RBNZ is the only G10 central bank with an active hiking bias, with its May OCR track implying hikes to ~3.0–3.28%, while the BoC is on a confirmed long hold with markets pricing only a ~60% hike chance by October and no hike expected until 2027 per major bank consensus. That asymmetric rate trajectory is the single bilateral edge that tilts the pair, marginally, in NZD's favour, even as the dairy-vs-oil terms-of-trade netting is roughly neutral because the June oil collapse hurt CAD while the dairy supply-glut hurt NZD. Both standalone dossiers are Neutral on their respective currencies, producing a muted, low-conviction pair signal. Our headline stance is tactically Neutral with a faint bullish-NZD/CAD lean (the RBNZ hiking-bias differential plus a CAD-heavier short base lifting the tactical weighted score to +0.35) and strategically Neutral (score +0.13, dominated by a single surviving rate-path edge), with the central caveat that the 8 July RBNZ decision and 15 July BoC MPR — eight days apart — form a clustered binary that could break the pair out of its 0.80–0.82 range in either direction and are the key near-term catalysts for reassessing conviction.",
+  "market_context": {
+    "spot": 0.8131,
+    "performance_1m": "-1.58%",
+    "performance_3m": "+0.06%",
+    "performance_6m": "-1.14%",
+    "performance_1y": "-0.97%",
+    "range_52w_low": 0.7852,
+    "range_52w_high": 0.833,
+    "range_52w_percentile": 58,
+    "valuation_assessment": "On REER, the two currencies are close to fair value against each other: the NZD dossier marks NZD as mildly rich versus CAD (NZD REER 100.27 vs CA REER 96.58), implying NZD/CAD at 0.8131 is modestly above bilateral REER-fair-value. The CAD dossier mirrors this, marking CAD as approximately 4% cheap versus NZD. Both currencies are individually cheap on a trade-weighted basis (NZD 7th percentile, CAD 8th percentile of their respective samples), so the pair captures two undervalued currencies where neither leg offers a decisive valuation edge over the other. The mild NZD richness argues against pressing NZD/CAD longs aggressively from current levels.",
+    "positioning": {
+      "base_cftc_net": "~-31,600 (net short NZD)",
+      "base_cftc_percentile": 22,
+      "quote_cftc_net": "~-132,200 combined leveraged + asset manager (net short CAD)",
+      "quote_cftc_percentile": 6,
+      "net_pair_implication": "Both legs carry net-short speculative bases which mutes the directional pair signal. However, the magnitude differs materially: the more-crowded CAD short (combined ~-132k, 6th percentile, OI 383,773) carries greater squeeze potential than the NZD short (~-31.6k, low-20s percentile on thin ~52k OI). A CAD-positive catalyst could pressure NZD/CAD lower more violently than an NZD catalyst could push it higher — an asymmetry favouring the downside in a squeeze scenario.",
+      "crowding_assessment": "CAD short highly crowded (6th percentile); NZD short moderate (low-20s percentile) — asymmetric crowding with heavier CAD short representing the dominant squeeze risk for the cross"
+    },
+    "pair_technicals": {
+      "trend_regime": "ranging",
+      "support_levels": [
+        0.807,
+        0.796,
+        0.7852
+      ],
+      "resistance_levels": [
+        0.82,
+        0.8273,
+        0.833
+      ],
+      "key_moving_averages": "50-day SMA 0.8118, 100-day SMA 0.8068, 200-day SMA 0.8070 — mildly bullish-stacked configuration with spot (0.8131) above all three clustered MAs; 50d > 100d ≈ 200d",
+      "chart_pattern": "Range-bound with mild bullish lean; pair fell from July 2025 peak near 0.8330 to November 2025 trough at 0.7852, ground back to retest 0.82+ through January-February 2026, then spiked to 0.8273 on 29 May 2026 before fading to current levels — visual signature of two currencies whose drivers largely offset",
+      "psychological_levels": [
+        0.8,
+        0.81,
+        0.82,
+        0.83
+      ]
+    },
+    "pair_volatility": {
+      "iv_1m": null,
+      "iv_3m": null,
+      "iv_percentile": null,
+      "rv_1m": 6.5,
+      "rv_vs_iv": "NZD/CAD pair-specific IV not freely available for this thin cross; realised vol estimated at ~6-7% from daily price data, consistent with the range-bound regime. Data gap flagged.",
+      "risk_reversals": "No clean pair-specific risk-reversal surface freely available for this thin cross; given both NZD and CAD carry NZD-put/CAD-put skews against USD individually, the cross skew is likely close to neutral",
+      "vol_term_structure": "Vol regime should bias toward an event premium into the clustered 8 July RBNZ / 15 July BoC window; ATR at 0.0079 indicates moderate volatility; ADX at 13.78 reflects a weak trend",
+      "vol_regime": "Moderate / ranging with event premium building"
+    },
+    "recent_regime": "The pair's recent behaviour is dominated by mutual offset: the June oil collapse simultaneously hurt CAD (petro-currency losing its bid) and undercut NZD (draining the RBNZ's oil-inflation hike narrative), so the two shocks largely cancelled in the cross. The late-May spike to 0.8273 and subsequent fade to 0.8131 reflect NZD briefly outperforming on its still-hawkish RBNZ track before retreating as July-hike conviction drained. The dominant narrative now is a waiting game into the 8 July RBNZ and 15 July BoC decisions, with the pair pinned in a 0.80–0.82 range by the balance of offsetting commodity and rate forces.",
+    "citations": [
+      "https://stockinvest.us/stock/NZDCAD",
+      "https://longforecast.com/nzd-cad",
+      "https://www.fxleaders.com/forecasts/forex/nzd-cad-price-forecast/",
+      "https://www.fxleaders.com/live-rates/nzd-cad/",
+      "https://www.tradingview.com/symbols/NZDCAD/ideas/",
+      "https://www.tradingview.com/symbols/NZDCAD/technicals/",
+      "https://www.babypips.com/trading/chart-art-forex-nzdcad-near-range-support-as-downtrend-pressures-build-2026-04-07",
+      "https://www.centralcharts.com/en/7758-nzd-cad/analysis"
+    ]
+  },
+  "bilateral_carry_analysis": {
+    "base_policy_rate": 2.25,
+    "quote_policy_rate": 2.25,
+    "rate_differential_bps": 0,
+    "annualised_carry_bps": 0,
+    "pair_3m_iv": null,
+    "carry_to_vol_ratio": 0,
+    "carry_regime": "carry not compensating",
+    "breakeven_move": "With near-zero carry, there is no carry drag or cushion on either side; spot direction is everything and the pair must be traded on the differential trajectory rather than held for yield. There is no breakeven move calculation applicable — the entire expected return is spot-driven.",
+    "forward_points": {
+      "1m": "~0 pips (flat; 0bps policy-rate differential)",
+      "3m": "~0 pips (negligible given parity short rates)",
+      "6m": "~+0.2 pips (negligible; forwards sit very close to spot)"
+    },
+    "carry_assessment": "The defining feature of NZD/CAD carry is that it is a zero-carry pair: the RBNZ and BoC both sit at exactly 2.25%, so the policy-rate differential is 0bps and the annualised carry is approximately flat. This is unusual and important — it means NZD/CAD is driven almost entirely by expected rate-path divergence and terms of trade rather than by a standing carry cushion. On the longer end, NZD modestly out-yields CAD: the NZ 10Y (~4.55%) versus the Canada 10Y (~3.46%) gives an NZ-CA 10Y spread of roughly +109bps, a mild structural NZD/CAD support via the term-premium channel. The carry-to-vol ratio is effectively zero given ~6-7% realised vol against nil carry. The bilateral edge in carry is therefore entirely prospective: if the RBNZ hikes (widening its 2.25% above the BoC's static 2.25%), NZD/CAD gains a positive carry it does not currently have — the single cleanest bullish-NZD/CAD carry catalyst available in the cross."
+  },
+  "factors": [
+    {
+      "factor_number": 1,
+      "factor_name": "Policy & Rates (Relative)",
+      "tactical_weight_default": 0.24,
+      "tactical_weight_applied": 0.24,
+      "strategic_weight_default": 0.24,
+      "strategic_weight_applied": 0.24,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 56,
+        "bilateral_analysis": "The policy-rate level differential is zero — both central banks sit at 2.25% — but the directional differential is the strongest bilateral signal in the entire pair. The RBNZ is the only G10 central bank with an active hiking bias, having published a May OCR track implying hikes to ~3.0–3.28%, while the BoC is firmly on hold with a neutral, look-through-the-oil-shock stance. Against that, the BoC outlook is explicitly a long hold: RBC does not expect the Bank of Canada to hike rates in response to the oil price shock in 2026, with a gradual pivot to rate hikes not expected until 2027, and only if the economic recovery strengthens materially. The transmission to NZD/CAD is direct: if the RBNZ delivers even one hike while the BoC stands pat, NZD's policy rate rises above CAD's for the first time, converting the zero-carry pair into a positive-carry NZD/CAD and squeezing both net-short bases. The complication is that the RBNZ's July hike has lost conviction as the oil collapse drained the inflation impulse — but even a held-but-hawkish RBNZ track contrasts favourably with a BoC that markets only price to hike by October at ~60% odds. The NZ-CA 10Y spread of +109bps already gives NZD/CAD a mild term-yield support that the parity policy rate does not yet provide.",
+        "key_bilateral_metrics": [
+          "RBNZ 2.25% = BoC 2.25%: policy-rate differential 0bps (parity)",
+          "RBNZ track implies hikes to ~3.0-3.28%; BoC consensus on hold through 2026 (hike not expected until 2027 per RBC)",
+          "NZ-CA 10Y spread ~+109bps (NZ 4.55% vs CA 3.46%) — NZD out-yields CAD on the long end",
+          "RBNZ next decision 8 July; BoC next decision 15 July (with MPR) — eight days apart",
+          "Markets price ~60% BoC hike by October vs RBNZ July hike likely but no longer certain"
+        ],
+        "what_is_priced": "The market prices both banks on hold near-term but with the RBNZ retaining a directional hiking bias the BoC lacks. The bilateral edge: an RBNZ July hike against a BoC hold would re-open a positive NZD/CAD rate path that the parity-rate spot level does not yet reflect.",
+        "citations": [
+          16,
+          17,
+          20
+        ]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 52,
+        "bilateral_analysis": "Strategically the directional divergence is the pair's core thesis but with materially lower conviction because both banks' paths are uncertain. The bull-NZD/CAD case is that the RBNZ delivers at least one or two hikes over the strategic window while the BoC stays anchored at the bottom of its 2.25–3.25% neutral range — a path that widens NZD's yield advantage. The bear-NZD/CAD risk is symmetric in an under-appreciated way: the RBNZ's hawkish track was an oil-inflation artefact likely to be marked down at the 2 September MPS, while the BoC, having looked through the oil shock, has a more stable (if lower) trajectory. Desjardins expects the BoC to hold its policy rate through 2026, with a hike in Q3 2027, and Capital Economics predicts a BoC policy rate of 2.25% to hold through 2026. If both banks converge on a long hold (RBNZ marking its track down toward the BoC's static stance), the rate-path edge erodes and the pair returns to terms-of-trade and risk drivers. The NZ-CA 10Y spread should remain a mild structural NZD/CAD support regardless of whether the RBNZ hikes or not, providing the lone durable yield anchor for the pair over the strategic horizon.",
+        "key_bilateral_metrics": [
+          "RBNZ strategic risk: 2 Sep MPS likely marks track lower (ANZ flags peak toward 3.0%)",
+          "BoC at bottom of 2.25-3.25% neutral range — limited further easing, caps CAD downside",
+          "Consensus: BoC hold through 2026, first hike not until Q3 2027 (Desjardins/Capital Economics)",
+          "NZ-CA 10Y +109bps structural NZD support persists across the horizon",
+          "Both banks' meeting cadence: RBNZ 8 Jul / 2 Sep / 28 Oct; BoC 15 Jul / 28 Oct"
+        ],
+        "what_is_priced": "Consensus prices both banks broadly on hold with the RBNZ retaining a faint hiking lean. The edge: if the RBNZ honours even partial hikes while the BoC stays static, NZD/CAD grinds higher; if the RBNZ capitulates to a dovish track in September, the pair's last directional support converges away.",
+        "citations": [
+          16,
+          18,
+          21,
+          22,
+          23
+        ]
+      },
+      "horizon_split": "Both horizons are Bullish-NZD/CAD on the directional rate divergence, but tactical confidence (56) exceeds strategic (52) because the 8 July RBNZ decision is a live, near-dated binary that could deliver an immediate hike differential, whereas over 1-6 months the high probability of an RBNZ dovish track mark-down at the September MPS narrows the prospective NZD advantage.",
+      "carry_analysis": {
+        "policy_rate_differential_bps": 0,
+        "annualised_carry_bps": 0,
+        "carry_to_vol_ratio": 0,
+        "carry_regime": "carry not compensating",
+        "term_spread_bps": 109,
+        "breakeven_note": "Zero carry means no carry drag or cushion; the entire expected return is spot-driven. The bilateral edge is prospective: an RBNZ hike converts the zero-carry pair into a positive-carry NZD/CAD for the first time.",
+        "forward_points_1m": "~0 pips (flat)",
+        "forward_points_3m": "~0 pips (negligible)",
+        "forward_points_6m": "~+0.2 pips (negligible)"
+      },
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 2,
+      "factor_name": "Inflation & Growth Dynamics",
+      "tactical_weight_default": 0.18,
+      "tactical_weight_applied": 0.18,
+      "strategic_weight_default": 0.1,
+      "strategic_weight_applied": 0.1,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 55,
+        "bilateral_analysis": "The growth differential favours NZD/CAD rising. New Zealand posted a firm Q1 2026 GDP at +0.8% QoQ / +1.5% YoY, signalling more underlying momentum than expected, while Canada was flat: Q1 GDP at 0.0% with monthly March GDP at -0.1% and unemployment at an elevated 6.6% versus NZ's 5.3%. After two consecutive quarters of negative GDP growth — Q4 2025 and Q1 2026 — recession talk has intensified in Canada, whereas New Zealand's economy is stabilising-to-firming. On inflation, NZ runs hotter (headline 3.1% vs Canada 2.8%) but both have decelerating cores (NZ sectoral 2.7%/trimmed mean 2.3%; Canada CPI-trim 2.0%/median 2.1%). The bilateral transmission: NZ's firmer growth gives the RBNZ more room to hike, while Canada's stall-speed activity reinforces the BoC's dovish-hold — a growth-and-policy combination that favours NZD over CAD. The asymmetry is that NZ data (especially the late-July Q2 CPI) carries more pair-moving potential currently because it directly feeds the RBNZ hike question.",
+        "key_bilateral_metrics": [
+          "NZ Q1 GDP +0.8% QoQ / +1.5% YoY vs Canada Q1 0.0% (flat), March monthly -0.1%",
+          "Unemployment: NZ 5.3% vs Canada 6.6% — 130bps gap favouring NZ",
+          "Headline CPI: NZ 3.1% vs Canada 2.8%; cores both decelerating near target",
+          "NZ core: sectoral 2.7%/trimmed 2.3%; Canada CPI-trim 2.0%/median 2.1%",
+          "Growth differential: NZ firming vs Canada stall-speed/per-capita-only growth"
+        ],
+        "what_is_priced": "The market prices NZ as the firmer of the two economies, which is mildly in the pair already. The edge: a strong NZ Q2 CPI (late July) that defends the RBNZ hike against soft Canadian data would extend the growth-policy divergence in NZD/CAD's favour.",
+        "citations": [
+          9,
+          24
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 51,
+        "bilateral_analysis": "Strategically the growth-inflation differential narrows toward neutral. Both economies face durable disinflation post-oil-collapse, and both are tethered to external demand — NZ to China (dairy), Canada to the US (tariffs/trade). Canada's tight US linkage is a strategic offset: a resilient US cycle supports Canadian trade-sector recovery in 2H, while NZ faces structural China dairy-demand erosion. The Bank of Canada's April forecast projects GDP growth of 1.2% in 2026, rising to 1.6% in 2027 — a modest recovery path. NZ's firmer current momentum is offset by its China-demand vulnerability, while Canada's weaker starting point is offset by US-linked recovery potential. The net strategic growth differential is roughly balanced, with both economies expected to grind through a soft patch toward stabilisation, and neither side offering a decisive growth edge over the 1-6 month horizon.",
+        "key_bilateral_metrics": [
+          "BoC projects GDP 1.2% (2026) rising to 1.6% (2027) — US-linked recovery",
+          "NZ 2H supported by 325bp of lagged RBNZ cuts but capped by China dairy-demand erosion",
+          "Both economies face durable post-oil disinflation",
+          "Canada's US export linkage (~75%) vs NZ's China linkage — different external anchors",
+          "Per-capita growth positive in both; aggregate growth soft in both"
+        ],
+        "what_is_priced": "Consensus prices both economies stabilising through 2H. The edge: the pair-relevant swing is whether NZ's firmer momentum persists against Canada's US-linked recovery — a near-balanced contest that keeps the strategic growth factor neutral for the cross.",
+        "citations": [
+          9,
+          24
+        ]
+      },
+      "horizon_split": "Tactical is Bullish-NZD/CAD because NZ's firm Q1 GDP and lower unemployment contrast sharply with Canada's flat growth and 6.6% unemployment right now. Strategic is Neutral because over 1-6 months Canada's US-linked recovery potential and NZ's China-demand erosion converge the growth differential toward balance.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 3,
+      "factor_name": "Risk Appetite & Sentiment",
+      "tactical_weight_default": 0.1,
+      "tactical_weight_applied": 0.1,
+      "strategic_weight_default": 0.05,
+      "strategic_weight_applied": 0.05,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 52,
+        "bilateral_analysis": "NZD/CAD is a moderate risk-on pair, but with a key bilateral nuance: NZD carries a higher risk beta than CAD because CAD's tight US economic linkage dampens its swings, while NZD's lower liquidity amplifies them. In a calming risk regime (VIX ~16.4, equities at records), the higher-beta NZD outperforms the more US-anchored CAD, lifting NZD/CAD. The NZD/CAD exchange rate is positively correlated with the Australian dollar and the New Zealand stock market, meaning that when the Australian dollar or the New Zealand stock market rises, the NZD/CAD exchange rate is likely to rise as well. The current de-escalation-driven risk-on tape (US-Iran peace, falling VIX) is therefore a mild NZD/CAD tailwind. The offsetting consideration is that the same de-escalation crushed oil — but in the cross, oil's CAD-negativity is a support for NZD/CAD, reinforcing the risk-on lift. The transmission is cleanest via the relative equity-beta channel, and the present tape is unambiguously risk-on.",
+        "key_bilateral_metrics": [
+          "VIX 16.4 (calming), S&P 500 ~7,511 (record territory) — risk-on tape",
+          "NZD risk beta > CAD risk beta (NZD lower liquidity, CAD US-anchored)",
+          "NZD/CAD positively correlated with AUD and NZ equity market",
+          "De-escalation risk-on lifts higher-beta NZD over US-anchored CAD",
+          "Oil collapse simultaneously risk-positive and CAD-negative — double support for NZD/CAD"
+        ],
+        "what_is_priced": "The market has priced the post-deal relief rally. The edge: NZD's higher risk-beta over CAD is underweighted given the soft pair spot — a sustained firm-risk tape would let NZD's beta advantage reassert and lift NZD/CAD.",
+        "citations": [
+          11
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 49,
+        "bilateral_analysis": "Strategically the risk-beta differential cuts both ways and the factor is low-weight. In a benign goldilocks regime the higher-beta NZD outperforms CAD (NZD/CAD up), but in a risk-off shock NZD's higher beta and lack of a Fed swap line make it the bigger loser — NZD/CAD would fall as the more US-anchored CAD proves more resilient at the risk-off extreme. With the VIX at 16 and equities at records, the risk regime has more room to deteriorate than improve, creating a mildly NZD/CAD-negative asymmetry that offsets the benign-base-case positive. The dollar-smile dynamic means both currencies weaken at the risk-off extreme, but NZD weakens more due to its higher beta and absence of Fed swap-line protection. The net strategic risk read is neutral: the positive (benign tape lets NZD's beta advantage show) and the negative (risk-off hits NZD harder) broadly cancel over a 1-6 month horizon where the risk regime direction is genuinely uncertain.",
+        "key_bilateral_metrics": [
+          "NZD higher risk-beta: outperforms CAD in risk-on, underperforms in risk-off",
+          "VIX 16 — asymmetric downside (more room to rise than fall)",
+          "NZD no Fed swap line; CAD benefits from deep US financial integration in stress",
+          "Dollar-smile: both currencies weak at extremes, but NZD weaker in risk-off",
+          "Risk a swing amplifier on the rate/ToT story, not a primary cross driver"
+        ],
+        "what_is_priced": "Consensus prices a benign-to-moderate risk regime. The edge: the risk factor is a low-conviction swing for the cross — a dollar-smile risk-off regime would hit NZD/CAD harder than a benign tape would help it.",
+        "citations": [
+          11
+        ]
+      },
+      "horizon_split": "Tactical is Bullish-NZD/CAD because the live falling-VIX, record-equity tape favours the higher-beta NZD over the US-anchored CAD. Strategic is Neutral because the risk-beta asymmetry (NZD the bigger loser in a risk-off shock from record-low VIX) offsets the benign base case.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 4,
+      "factor_name": "Flows & Positioning",
+      "tactical_weight_default": 0.1,
+      "tactical_weight_applied": 0.1,
+      "strategic_weight_default": 0.06,
+      "strategic_weight_applied": 0.06,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 53,
+        "bilateral_analysis": "Both legs are net short, which mutes the directional pair signal — but the degree of crowding differs and creates a contrarian asymmetry. CAD's short is far more extreme (combined leveraged + asset manager ~-132k, 6th percentile, OI at a multi-month high of 383,773) than NZD's (~-31.6k on small OI of ~52k, low-20s percentile). Currency speculators raised US Dollar Index and Peso bets while cutting CAD, GBP and NZD bets, indicating both legs remain under selling pressure. The bilateral implication is two-sided: because both are short, a generalised commodity-currency short-cover (e.g. on a broad soft-USD turn) would lift both legs and have an ambiguous net effect on the cross. But the more-crowded CAD short means a CAD-specific positive catalyst (oil floor, BoC confidence) could squeeze CAD harder than NZD, pulling NZD/CAD lower. Conversely, an RBNZ-specific catalyst (July hike) would squeeze the NZD short and lift NZD/CAD. The net positioning signal is genuinely two-way, hence Neutral.",
+        "key_bilateral_metrics": [
+          "CAD specs: leveraged ~-58.6k + asset managers ~-73.6k (combined ~-132k, 6th percentile)",
+          "NZD specs: ~-31.6k on small OI (~52k), low-20s percentile",
+          "CAD short far more crowded than NZD short — greater CAD squeeze potential",
+          "Both legs net short = muted directional cross signal",
+          "CAD OI at multi-month high (383,773) vs NZD thin OI"
+        ],
+        "what_is_priced": "Both currencies are positioned short, so soft news on each is partly priced. The edge: the more-extreme CAD short means a CAD-positive surprise could pull NZD/CAD down faster than an NZD-positive surprise lifts it — a contrarian downside risk to the bullish-NZD/CAD thesis.",
+        "citations": [
+          13,
+          14,
+          15
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "bilateral_analysis": "Strategically the positioning signal decays and both short bases should normalise over months, leaving a roughly neutral net cross effect. The bilateral nuance is that CAD's heavier short has more room to unwind (a CAD tailwind that would weigh on NZD/CAD), while NZD's milder short offers less squeeze fuel. Both currencies face structural outflow drags — NZ via its -3.6% current-account deficit, Canada via persistent portfolio outflows into US assets — that cap any recovery in either leg. Over the strategic window the positioning unwinds are likely to roughly cancel in the cross, with the heavier CAD short marginally favouring CAD-side normalisation (mildly NZD/CAD-negative) but not sufficient to tip the factor away from neutral. The structural outflow dynamics on both legs limit any sustained positioning-driven rally in either currency.",
+        "key_bilateral_metrics": [
+          "CAD heavier short = more unwind room = potential CAD tailwind (NZD/CAD-negative)",
+          "NZD milder short = less squeeze fuel",
+          "Both face structural outflows: NZ CA deficit -3.6%, Canada portfolio outflows",
+          "Consensus forecasts imply short-covering in both legs over 2026",
+          "Net cross positioning effect roughly neutral as both unwind"
+        ],
+        "what_is_priced": "Consensus implies short-covering in both currencies. The edge: the asymmetric crowding (heavier CAD short) marginally favours CAD normalisation, a mild contrarian cap on NZD/CAD upside.",
+        "citations": [
+          13,
+          14,
+          15
+        ]
+      },
+      "horizon_split": "Both horizons are Neutral. The dual net-short bases offset directionally at both horizons; the only nuance is the heavier CAD short's greater squeeze potential, which is a two-way risk rather than a directional signal.",
+      "carry_analysis": null,
+      "contrarian_analysis": {
+        "tactical": {
+          "combined_positioning_signal": "Both NZD and CAD are net short, producing a muted directional pair signal; the more-crowded CAD short (6th percentile combined, ~-132k) creates an asymmetric squeeze risk where a CAD-positive catalyst compresses NZD/CAD faster than any NZD catalyst can lift it",
+          "unwind_trigger": "A CAD-specific positive catalyst — oil finding a floor above $80, a confident BoC hold, or a clean USMCA renewal — would trigger the heavily-crowded CAD short to cover; for NZD, the RBNZ delivering a 25bp hike would be the NZD-short unwind trigger",
+          "historical_analogue": "The mid-2025 episode where commodity-currency shorts were simultaneously squeezed on USD softness saw both legs rally, leaving NZD/CAD little changed — illustrating how generalised short-covers cancel in the cross",
+          "contrarian_case": "The contrarian case is that the heavier CAD short (6th percentile combined, far more extreme than NZD's low-20s) makes NZD/CAD vulnerable to a downside squeeze despite the bullish-rate-path lean: if any CAD-positive catalyst fires, the more crowded short unwinds faster and harder, pulling the pair lower even as the fundamental RBNZ-over-BoC rate thesis remains intact. The crowd is short both, but more aggressively short CAD — the contrarian trade is thus to be wary of the long NZD/CAD rather than to fade it outright."
+        },
+        "strategic": {
+          "combined_positioning_signal": "Over 1-6 months both short bases normalise; the heavier CAD short unwinds more (a mild CAD tailwind, NZD/CAD-negative), while NZD's lighter short offers less re-rating fuel — the net strategic positioning effect is marginally CAD-favourable (NZD/CAD slightly capped)",
+          "unwind_trigger": "Sustained oil recovery above $85 (CAD squeeze), USMCA clean renewal (CAD relief), or RBNZ dovish convergence releasing NZD shorts in a disorderly fashion",
+          "historical_analogue": "Canada's 2021-2022 period saw a heavily net-short CAD positioning normalise sharply on oil recovery, delivering a multi-month CAD outperformance even as NZD also recovered — the asymmetric positioning unwind is a historical pattern for this pair",
+          "contrarian_case": "Strategically the contrarian case centres on the heavier CAD short: as both short bases normalise over months, CAD's larger unwind provides more fuel for CAD appreciation than NZD's smaller unwind does for NZD appreciation. The rate-path edge (RBNZ hiking bias) is likely to converge away at the September MPS, leaving the positioning asymmetry as the marginal strategic cap on NZD/CAD upside. Any standing NZD/CAD long should be sized accordingly — the crowd is collectively more offside on CAD, and the normalisation of that imbalance is a persistent mild headwind for the pair."
+        }
+      },
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 5,
+      "factor_name": "External Balance & Terms of Trade",
+      "tactical_weight_default": 0.06,
+      "tactical_weight_applied": 0.06,
+      "strategic_weight_default": 0.16,
+      "strategic_weight_applied": 0.16,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 56,
+        "bilateral_analysis": "This is the pair's most interesting bilateral factor because the June commodity shock hit both legs through different channels, producing near-cancellation. Applying the commodity direction rules: the oil collapse (WTI ~$95→$75.5) is strongly CAD-negative but only mildly NZD-relevant; meanwhile falling dairy (GDT -2.8% on 16 June, second consecutive decline, WMP to $3,589/MT) is strongly NZD-negative. The net effect: the two terms-of-trade shocks roughly offset in NZD/CAD. Oil down helps NZD/CAD rise (CAD hurt more), while dairy down helps NZD/CAD fall (NZD hurt more) — the rare case where a single global event (US-Iran peace / oil collapse) simultaneously damages both legs' export franchises. On bilateral trade, the IMF DOTS data shows a small NZ surplus: NZD exports to CAD $0.7bn, NZD imports from CAD $0.4bn, NZD net goods balance vs CAD +$0.2bn — a modest structural NZD support but immaterial relative to the dairy-vs-oil commodity netting. The current-account differential favours Canada (-0.87% of GDP vs NZ -3.6%), a mild structural CAD edge.",
+        "key_bilateral_metrics": [
+          "Oil collapse (WTI $95→$75.5): --CAD; mildly NZD-relevant → NZD/CAD up",
+          "Dairy fall (GDT -2.8%, WMP $3,589/MT): --NZD → NZD/CAD down → net offset",
+          "Bilateral trade (IMF DOTS): NZ net goods balance vs CAD +$0.2bn (mild NZD support)",
+          "Current account: NZ -3.6% of GDP vs Canada -0.87% (CAD structurally stronger)",
+          "WCS-WTI discount ~$11.80 (contained); Fonterra farmgate $9.70/kgMS (elevated)"
+        ],
+        "what_is_priced": "The market has priced both commodity shocks roughly symmetrically into the cross, leaving NZD/CAD range-bound. The edge: whichever commodity finds a floor first (oil basing vs dairy basing) tips the near-balanced terms-of-trade netting — currently both are soft, so the factor is neutral.",
+        "citations": [
+          11,
+          12
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 53,
+        "bilateral_analysis": "Strategically this is the heaviest-weighted factor (0.16) and the dairy-vs-oil netting remains the core dynamic. Both currencies' core export franchises face structural pressure: NZ dairy from China's structural demand erosion (record-low birth rate, formula imports ~-16%), Canada oil from a post-shock price likely basing in the $70s-low-$80s. The RBNZ's monetary policy stance, New Zealand's dairy exports, and agricultural commodity prices drive the NZD separately, while interest rate decisions from both central banks, risk appetite among investors, and broader USD strength or weakness also shift this pair materially. The structural offsets: Canada's stronger current-account position (-0.87% vs NZ -3.6%) and Trans Mountain pipeline capacity favour CAD, while NZ's Fonterra farmgate forecast ($9.70/kgMS) keeps aggregate dairy revenue robust. The net strategic terms-of-trade differential is balanced — both franchises soft, both with offsetting supports — leaving the heavily-weighted factor neutral for the cross.",
+        "key_bilateral_metrics": [
+          "NZ dairy: structural China demand erosion (birth rate, formula imports -16%)",
+          "Canada oil: post-shock basing in $70s-low-$80s, Trans Mountain monetisation",
+          "Current account: Canada -0.87% structurally stronger than NZ -3.6%",
+          "Fonterra farmgate $9.70/kgMS keeps NZ dairy revenue robust despite spot softness",
+          "Both export franchises face structural headwinds — net balanced for the cross"
+        ],
+        "what_is_priced": "Consensus prices both commodity complexes soft. The edge: the strategic cross tilt depends on which franchise stabilises first — Canada's stronger CA position and pipeline capacity vs NZ's elevated farmgate floor leave the heavily-weighted factor genuinely balanced.",
+        "citations": [
+          11,
+          12
+        ]
+      },
+      "horizon_split": "Both horizons are Neutral. The dairy-vs-oil netting produces near-cancellation at both horizons; the strategic horizon adds Canada's structurally stronger current-account position as a mild CAD offset to NZ's higher dairy-revenue floor, keeping the heavily-weighted factor balanced.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": {
+        "base_commodity_profile": "NZD: dairy-positive (primary export ~$21bn/year, Fonterra farmgate $9.70/kgMS). Rising dairy prices support NZD; falling dairy prices weigh on NZD. GDT down -2.8% in June (second consecutive decline), WMP at $3,589/MT — currently NZD-negative.",
+        "quote_commodity_profile": "CAD: oil-positive (energy ~25% of exports, petro-currency). Rising WTI/WCS supports CAD; falling crude weighs on CAD. WTI collapsed from ~$95 to $75.5 on US-Iran peace deal — currently strongly CAD-negative. WCS-WTI discount ~$11.80 (contained); Trans Mountain adds capacity tailwind.",
+        "net_effect_calculation": "Step 1 — identify commodity directions: Oil DOWN (WTI $95→$75.5, strongly CAD-negative) and Dairy DOWN (GDT -2.8%, WMP $3,589, NZD-negative). Step 2 — apply pair direction rules: Oil down = CAD weakens = NZD/CAD rises; Dairy down = NZD weakens = NZD/CAD falls. Step 3 — net the effects: Oil-down impact on NZD/CAD is bullish (CAD hurt more by energy decline); Dairy-down impact on NZD/CAD is bearish (NZD hurt by dairy decline). The two commodity shocks move the cross in opposite directions with roughly comparable magnitudes given oil's importance to CAD and dairy's importance to NZD — producing near-cancellation. Net effect: approximately zero for NZD/CAD; the pair is a textbook commodity-offset cross where the key swing is the *relative* move between dairy and oil, not either in isolation.",
+        "scenario_oil_up_10pct": "WTI +10% (to ~$83): CAD strongly supported, NZD mildly positive via risk-on; net NZD/CAD falls as CAD's petro-bid strengthens more than NZD's mild risk beta. Estimated NZD/CAD -0.8% to -1.2%.",
+        "scenario_oil_down_10pct": "WTI -10% (to ~$68): CAD strongly weakened, NZD mildly hurt via reduced global risk appetite; net NZD/CAD rises as CAD's petro-drag dominates. Estimated NZD/CAD +0.7% to +1.0%.",
+        "dominant_commodity_driver": "Oil is the dominant commodity driver for NZD/CAD because (1) oil's CAD impact is more direct and larger in absolute magnitude than dairy's NZD impact, (2) oil prices are more volatile in the near term and create larger CAD swings, and (3) the oil-CAD correlation is structurally well-established, whereas the dairy-NZD link operates with longer lags through the Fonterra payout cycle. The relative dairy-vs-oil move is the critical ratio to monitor."
+      },
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 6,
+      "factor_name": "Guidance & Credibility",
+      "tactical_weight_default": 0.07,
+      "tactical_weight_applied": 0.07,
+      "strategic_weight_default": 0.12,
+      "strategic_weight_applied": 0.12,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 54,
+        "bilateral_analysis": "The guidance differential favours NZD/CAD rising because the RBNZ provides explicit hawkish forward guidance while the BoC is deliberately non-committal. The RBNZ is the only G10 central bank publishing its own projected OCR track — the strongest form of forward guidance — and that track still implies hikes. The RBNZ stated: 'On balance, the OCR will most likely need to increase sooner and by more than envisaged in the February Monetary Policy Statement.' By contrast, the BoC's 10 June guidance was explicitly balanced — look through the oil shock, two-sided risks, stand ready to respond. The bilateral transmission: the RBNZ's published hawkish track is a near-term carry/rate prop for NZD that the BoC's neutral hand does not offer CAD, supporting NZD/CAD. The tactical swing is the clustered 8 July RBNZ / 15 July BoC sequence — the RBNZ meets first and sets the tone. Both central banks are highly credible, so neither carries a credibility risk premium; the differential is purely in guidance direction.",
+        "key_bilateral_metrics": [
+          "RBNZ publishes OCR track (strongest G10 guidance); BoC deliberately neutral",
+          "RBNZ: 'OCR increases will be required this year'; BoC: 'stand ready to respond'",
+          "Sequence: RBNZ 8 July sets tone before BoC 15 July MPR",
+          "Both banks highly credible — no credibility-premium differential",
+          "RBNZ hawkish track is a directional NZD prop CAD lacks"
+        ],
+        "what_is_priced": "The market prices a hawkish-but-wavering RBNZ against a neutral BoC. The edge: an RBNZ that reaffirms its hawkish track on 8 July — before the BoC's neutral hold on 15 July — would be a directional NZD/CAD-positive surprise.",
+        "citations": [
+          19,
+          20
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 52,
+        "bilateral_analysis": "Strategically the guidance differential narrows because the RBNZ's hawkish track is the most likely to be marked down. The probable strategic path is that the 2 September RBNZ MPS revises the OCR track lower as oil-inflation fades, converging RBNZ guidance toward the BoC's already-neutral stance — which erodes the NZD/CAD guidance edge. Both banks sit at the bottom of their neutral ranges (RBNZ 2.25%, BoC 2.25–3.25%) with high credibility and strong communication architectures (RBNZ's published track and MPS; BoC's MPR and Summary of Deliberations). The net strategic guidance read is neutral: the RBNZ's current hawkish edge is real but likely transient, converging toward the BoC's stable neutrality over the horizon as the oil-inflation narrative that originally generated the hawkish track fades from the data.",
+        "key_bilateral_metrics": [
+          "RBNZ 2 Sep MPS likely marks track lower → guidance convergence toward BoC neutral",
+          "BoC quarterly MPRs (15 Jul, 28 Oct) stable neutral guidance",
+          "Both at bottom of neutral ranges, both highly credible",
+          "RBNZ hawkish-track edge likely transient as oil-inflation fades",
+          "No structural credibility differential between the two"
+        ],
+        "what_is_priced": "Consensus prices the RBNZ track being marked down toward the BoC's neutral stance. The edge: if the RBNZ defends its hawkish track in September against a neutral BoC, the guidance differential persists as a quiet NZD/CAD support; the more likely convergence is neutral for the cross.",
+        "citations": [
+          19,
+          20,
+          23
+        ]
+      },
+      "horizon_split": "Tactical is Bullish-NZD/CAD because the RBNZ's live hawkish published track contrasts directly with the BoC's neutral hold, and the RBNZ meets first. Strategic is Neutral because the high probability of an RBNZ dovish track mark-down in September converges its guidance toward the BoC's, eroding the cross edge.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 7,
+      "factor_name": "Event Risk & Geopolitics",
+      "tactical_weight_default": 0.05,
+      "tactical_weight_applied": 0.05,
+      "strategic_weight_default": 0.05,
+      "strategic_weight_applied": 0.05,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 53,
+        "bilateral_analysis": "The tactical event calendar is dense and two-sided for the cross, centred on the clustered 8 July RBNZ and 15 July BoC decisions. The RBNZ decision is the cleaner binary (track reaffirmation = NZD/CAD up; dovish pivot = NZD/CAD down), while the BoC's 15 July MPR — with forecast revisions on lower oil — is a CAD-side swing. The shared US-Iran peace / oil-collapse event is ambiguous for the cross because it hit both legs (CAD via oil, NZD via the rate-narrative drain). Pair-specific event clustering matters: with the two central banks meeting eight days apart, the sequence could amplify or cancel — an RBNZ hike followed by a dovish BoC MPR would be a powerful NZD/CAD-up combination, while an RBNZ hold followed by a confident BoC would push the cross down. The fortnightly GDT dairy auctions (early July) are an NZD-specific event with no CAD analogue at that frequency, making dairy a recurring NZD/CAD swing that operates independently of the central-bank sequence.",
+        "key_bilateral_metrics": [
+          "8 July RBNZ + 15 July BoC MPR: clustered binary, 8 days apart",
+          "RBNZ track decision = cleaner NZD/CAD binary; BoC MPR = CAD-side swing",
+          "Early-July GDT auction: NZD-specific recurring event (no CAD analogue)",
+          "Canada CPI 20-22 July; NZ Q2 CPI ~16 July — dual inflation reads",
+          "USMCA review (1 July) is CAD-specific event risk with no NZD analogue"
+        ],
+        "what_is_priced": "The market prices a wavering RBNZ and a neutral BoC. The edge: the 8-15 July central-bank cluster is the cleanest near-term binary for the cross — an RBNZ-hike-then-dovish-BoC sequence is an underweighted NZD/CAD-up scenario.",
+        "citations": [
+          9,
+          10,
+          19
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 51,
+        "bilateral_analysis": "Strategically the event landscape is balanced with different idiosyncratic tails on each leg. Canada carries the USMCA-review process (1 July trigger, ~75% export exposure to the US) as a major CAD-specific tail — a clean renewal is CAD-positive (NZD/CAD-negative), a breakdown CAD-negative (NZD/CAD-positive). NZ carries China dairy-demand dynamics as its equivalent idiosyncratic tail — a China stimulus surprise is NZD-positive (NZD/CAD-up), a sharper demand decline NZD-negative. These two distinct geopolitical exposures (Canada-US trade, NZ-China dairy) are largely uncorrelated, so they add idiosyncratic two-way risk to the cross without a clear directional tilt. The US-Iran deal durability feeds both legs through oil (for CAD) and risk appetite (for NZD). The net strategic event read is neutral, with a clean USMCA renewal (NZD/CAD-negative) and a China dairy-demand surprise (NZD/CAD-positive) as the key idiosyncratic tail risks.",
+        "key_bilateral_metrics": [
+          "Canada: USMCA review tail (~75% export exposure to US) — CAD-specific binary",
+          "NZ: China dairy-demand tail — NZD-specific binary",
+          "The two tails largely uncorrelated → idiosyncratic two-way cross risk",
+          "US-Iran deal durability feeds both legs (oil for CAD, risk for NZD)",
+          "No clear directional tilt from the offsetting idiosyncratic exposures"
+        ],
+        "what_is_priced": "Consensus prices benign muddle-through on both trade and China. The edge: a clean USMCA renewal would be NZD/CAD-negative (CAD relief), while a China dairy-demand surprise would be NZD/CAD-positive — the two tails are the key idiosyncratic swings.",
+        "citations": [
+          9,
+          10,
+          19
+        ]
+      },
+      "horizon_split": "Both horizons are Neutral. Tactically the clustered July central-bank decisions are live two-way binaries; strategically the distinct USMCA (CAD) and China-dairy (NZD) tails add uncorrelated idiosyncratic risk without a directional tilt.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 8,
+      "factor_name": "Fiscal & Sovereign Risk",
+      "tactical_weight_default": 0.04,
+      "tactical_weight_applied": 0.04,
+      "strategic_weight_default": 0.07,
+      "strategic_weight_applied": 0.07,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 66,
+        "bilateral_analysis": "Fiscal and sovereign risk is a clean Neutral for the cross — both are top-tier sovereigns with no differential of consequence. New Zealand holds Moody's Aaa / S&P AA+ / Fitch AA+; Canada holds S&P AAA / Moody's Aaa / DBRS AAA / Fitch AA+. Both carry moderate debt/GDP (NZ ~45-50%, Canada federal ~45-50%), conservative fiscal traditions, and no near-term rating catalyst. Neither currency carries a credit risk premium, so this factor neither helps nor hurts NZD/CAD in the tactical window. The high confidence reflects the clarity of the not-material, no-differential assessment rather than a directional view — the analysis is unambiguous in its conclusion that fiscal and sovereign risk is simply not a pair driver at the tactical horizon.",
+        "key_bilateral_metrics": [
+          "NZ ratings: Moody's Aaa / S&P AA+ / Fitch AA+ (stable)",
+          "Canada ratings: S&P AAA / Moody's Aaa / DBRS AAA / Fitch AA+ (stable)",
+          "Debt/GDP: NZ ~45-50% vs Canada federal ~45-50% — comparable",
+          "No rating catalyst pending on either sovereign"
+        ],
+        "what_is_priced": "The market prices both as high-quality sovereigns with no premium — correctly. The edge: essentially no tactical mispricing or differential here.",
+        "citations": []
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 62,
+        "bilateral_analysis": "Strategically the factor remains a neutral, low-salience differential. Both sovereigns are quality anchors. The only slow-burn differentials are idiosyncratic: NZ's housing-market and earthquake-risk linkages, and Canada's provincial fiscal divergence (lower oil eroding Alberta/Saskatchewan resource revenue). Neither rises to a pair driver over six months. Canada's marginally stronger top-tier rating (AAA from some agencies vs NZ's AA+) is a faint structural CAD quality edge but immaterial to the cross. The slight reduction in strategic confidence (62 vs tactical 66) reflects the slow-burn idiosyncratic tails introducing minor uncertainty over the longer horizon rather than any material differential emerging. Net strategic read remains neutral: fiscal risk is a quiet quality wash between two strong sovereigns.",
+        "key_bilateral_metrics": [
+          "Both AAA/Aaa-tier quality anchors; no differential pair driver",
+          "NZ idiosyncratic: housing-market and earthquake tails",
+          "Canada idiosyncratic: provincial fiscal divergence (oil-revenue sensitive)",
+          "Canada's marginally higher AAA rating a faint CAD quality edge (immaterial)"
+        ],
+        "what_is_priced": "Consensus prices both as pristine. The edge: none of consequence for the cross; fiscal risk is a quiet quality wash between two strong sovereigns.",
+        "citations": []
+      },
+      "horizon_split": "Both horizons are Neutral with no meaningful differential. Tactical confidence (66) marginally exceeds strategic (62) because the slow-burn idiosyncratic tails (NZ housing/quakes, Canada provincial revenue) introduce minor strategic considerations absent at the tactical horizon.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 9,
+      "factor_name": "Market Structure & Volatility",
+      "tactical_weight_default": 0.05,
+      "tactical_weight_applied": 0.05,
+      "strategic_weight_default": 0.03,
+      "strategic_weight_applied": 0.03,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 52,
+        "bilateral_analysis": "The pair's own chart structure is mildly bullish-NZD/CAD: spot at 0.8131 sits above its clustered moving averages (50d 0.8118, 100d 0.8068, 200d 0.8070), a configuration where systematic flows lean marginally long the cross. TradingView oscillator analysis shows the overall rating as buy, while the MA rating is neutral. The pair is at the 58th percentile of its 52-week range with a recent recovery from the November 0.7852 low. The structure favours a mild bullish lean while spot holds above the 0.8070 MA cluster, but the recent fade from the late-May 0.8273 high and the mild NZD-richness on REER temper conviction. Vol is moderate with a likely event premium into the clustered July central-bank decisions. Pair liquidity is thinner than majors (two lower-liquidity legs), raising gap risk around the 8-15 July event cluster.",
+        "key_bilateral_metrics": [
+          "Spot 0.8131 above 50d (0.8118), 100d (0.8068), 200d (0.8070) — mild bullish lean",
+          "58th percentile of 0.7852-0.8330 52-week range",
+          "TradingView oscillator rating 'buy', MA rating 'neutral'",
+          "Support 0.8070/0.7960/0.7852; resistance 0.8200/0.8273/0.8330",
+          "Thinner cross liquidity → elevated gap risk into July central-bank cluster"
+        ],
+        "what_is_priced": "The structure prices a mildly recovering cross holding above its MAs. The edge: a hold above the 0.8070 MA cluster keeps the systematic lean bullish-NZD/CAD, with a break above 0.8273 reviving the constructive trend.",
+        "citations": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "bilateral_analysis": "Strategically the structure is a low-weight neutral input. The MAs are clustered and flattish, indicating a range regime (0.7852–0.8330) rather than a strong trend. The key strategic structural pivots are the 0.8070 MA cluster / 0.7960 support below and the 0.8273 / 0.8330 resistance above. A sustained break of either bracket — driven by the rate-path and dairy-vs-oil dynamics — would redefine the trend, but absent a catalyst the pair is structurally range-bound, leaving the factor neutral. Vol is moderate with room to rise around the central-bank and commodity events across the horizon.",
+        "key_bilateral_metrics": [
+          "Clustered, flattish MAs = range regime (0.7852-0.8330)",
+          "Strategic pivots: 0.8070/0.7960 support vs 0.8273/0.8330 resistance",
+          "Break of either bracket redefines trend; absent catalyst, range-bound",
+          "Moderate vol, room to rise on RBNZ/BoC/dairy/oil events",
+          "No structural mispricing of the cross view"
+        ],
+        "what_is_priced": "The structure prices a range-bound cross. The edge: the strategic inflection is whether the rate-path divergence breaks the pair above 0.8273 or the dairy-vs-oil netting drags it below 0.7960.",
+        "citations": [
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "horizon_split": "Tactical is Bullish-NZD/CAD because spot holds above its clustered MAs with a mild systematic long lean. Strategic is Neutral because the flat, clustered MAs define a range regime where a break in either direction would quickly redefine the trend.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": {
+        "vol_landscape_summary": "NZD/CAD is a relatively thin cross with moderate realised vol (~6-7%) and no freely-available pair-specific implied vol or risk-reversal surface. The current vol regime is range-bound with an event premium expected to build into the clustered 8-15 July central-bank window. ATR at 0.0079 and ADX at 13.78 confirm moderate volatility and a weak directional trend.",
+        "directional_expression": "The cleanest expression of a bullish-NZD/CAD rate-divergence view is a spot long with a stop below the 0.8070 MA cluster (approximately 61 pips of risk), targeting the 0.8273 late-May high. For those wishing to own the binary, positioning ahead of the RBNZ decision (which sets the tone before the BoC) offers asymmetric exposure to a hike-driven squeeze of both net-short bases. Given the thin cross liquidity and gap risk, an options expression would be preferable around the events if a clean vol surface were available, but the data gap argues for spot with tight risk control.",
+        "event_timing_consideration": "The critical event window is 8-15 July: RBNZ decision on 8 July (hike or track reaffirmation = bullish trigger) followed by BoC MPR on 15 July (dovish = confirmation). The NZ Q2 CPI on ~16 July and Canada CPI on 20-22 July provide follow-on confirmation. The 2 September RBNZ MPS is the key strategic event where the rate-path edge either survives or converges away. Entry before 8 July to own the RBNZ binary is the preferred timing for any long expression.",
+        "liquidity_note": "NZD/CAD is a thinner cross combining two lower-liquidity G10 legs, resulting in structurally wider bid-offer spreads than majors and elevated gap risk around central-bank decisions and commodity events. Execution should account for reduced depth and the absence of a freely-available NZD/CAD vol surface for options hedging. Position sizing should be conservative relative to a major-pair expression of equivalent conviction, and stops should be placed at meaningful technical levels (0.8070 MA cluster) rather than arbitrary pip distances."
+      }
+    },
+    {
+      "factor_number": 10,
+      "factor_name": "USD Liquidity & Funding",
+      "tactical_weight_default": 0.11,
+      "tactical_weight_applied": 0.11,
+      "strategic_weight_default": 0.12,
+      "strategic_weight_applied": 0.12,
+      "weight_adjustment_reason": null,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 54,
+        "bilateral_analysis": "This is a non-USD cross, so the dollar channel affects both legs as the vehicle currency rather than directly tilting the pair — and here the bilateral nuance matters. A firm broad USD (index 119.5) is a headwind for both NZD and CAD, but the impact is asymmetric: NZD is more USD-funding-vulnerable than CAD because the RBNZ has no Fed swap line while Canadian banks are deeply integrated with the US financial system and CAD's basis stays tight. The transmission: in a firm-dollar / tight-funding regime, NZD suffers marginally more than CAD, which is mildly NZD/CAD-negative. Both currencies are funded via USD in most trades, so the vehicle-currency channel partly cancels, but CAD's superior funding resilience (US bank integration, no swap-line gap) tilts the funding factor slightly toward CAD. Funding plumbing is currently calm (SOFR 3.69%, no dislocations), so this is a low-intensity factor now — the pair is insulated from funding stress at current conditions.",
+        "key_bilateral_metrics": [
+          "Broad USD index 119.5 — firm, headwind for both legs",
+          "NZD more funding-vulnerable: no RBNZ Fed swap line",
+          "CAD funding-resilient: deep US bank integration, tight CAD basis",
+          "SOFR 3.69%, no dislocations — calm funding plumbing",
+          "Vehicle-currency channel partly cancels; CAD edge mildly NZD/CAD-negative"
+        ],
+        "what_is_priced": "The market prices a firm, well-funded dollar. The edge: in a funding-stress scenario CAD's swap-line-equivalent resilience would outperform the swap-line-less NZD, a mild NZD/CAD-negative tail; in calm conditions the factor is near-neutral.",
+        "citations": []
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 52,
+        "bilateral_analysis": "Strategically the funding factor is a neutral swing for the cross. The consensus soft-dollar path (Fed eventually easing as US disinflation resumes) would relieve the USD headwind on both legs roughly equally, with the higher-beta NZD benefiting marginally more in a benign goldilocks regime (NZD/CAD-up) but suffering more in a risk-off dollar-smile scenario (NZD/CAD-down). CAD's structural funding resilience (no swap-line gap, tight basis) is a persistent mild CAD edge at the funding-stress extreme. The Federal Reserve's ongoing QT is slow, well-anticipated, and affects both legs without providing a decisive cross signal. Net strategic read is neutral, with the dollar-smile asymmetry creating two-way risk that broadly cancels over the horizon.",
+        "key_bilateral_metrics": [
+          "Consensus soft-dollar path relieves both legs roughly equally",
+          "Benign goldilocks: higher-beta NZD benefits more (NZD/CAD-up)",
+          "Risk-off dollar-smile: NZD suffers more (NZD/CAD-down)",
+          "CAD persistent funding-resilience edge at the stress extreme",
+          "Fed QT ongoing — slow, well-anticipated, affects both legs"
+        ],
+        "what_is_priced": "Consensus prices a gradually softening dollar. The edge: the funding factor is near-neutral for the cross; the dollar-smile asymmetry (NZD higher-beta both ways) is the key two-way swing.",
+        "citations": []
+      },
+      "horizon_split": "Both horizons are Neutral. The USD vehicle-currency channel affects both legs and largely cancels in the cross; CAD's marginal funding-resilience edge (no swap-line gap) is a persistent but low-intensity mild NZD/CAD-negative at both horizons.",
+      "carry_analysis": null,
+      "contrarian_analysis": null,
+      "net_commodity_exposure": null,
+      "expression_assessment": null
+    }
+  ],
+  "synthesis": {
+    "weight_adjustments": {
+      "adjustments_made": false,
+      "adjustments": []
+    },
+    "tactical": {
+      "net_stance": "Neutral",
+      "conviction": 2,
+      "overall_confidence": 54,
+      "weighted_score_calculation": [
+        {
+          "factor_number": 1,
+          "factor_name": "Policy & Rates (Relative)",
+          "stance_score": 1,
+          "confidence": 56,
+          "conf_adj_score": 0.56,
+          "weight": 0.24,
+          "weighted_contribution": 0.1344
+        },
+        {
+          "factor_number": 2,
+          "factor_name": "Inflation & Growth Dynamics",
+          "stance_score": 1,
+          "confidence": 55,
+          "conf_adj_score": 0.55,
+          "weight": 0.18,
+          "weighted_contribution": 0.099
+        },
+        {
+          "factor_number": 3,
+          "factor_name": "Risk Appetite & Sentiment",
+          "stance_score": 1,
+          "confidence": 52,
+          "conf_adj_score": 0.52,
+          "weight": 0.1,
+          "weighted_contribution": 0.052
+        },
+        {
+          "factor_number": 4,
+          "factor_name": "Flows & Positioning",
+          "stance_score": 0,
+          "confidence": 53,
+          "conf_adj_score": 0,
+          "weight": 0.1,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 5,
+          "factor_name": "External Balance & Terms of Trade",
+          "stance_score": 0,
+          "confidence": 56,
+          "conf_adj_score": 0,
+          "weight": 0.06,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 6,
+          "factor_name": "Guidance & Credibility",
+          "stance_score": 1,
+          "confidence": 54,
+          "conf_adj_score": 0.54,
+          "weight": 0.07,
+          "weighted_contribution": 0.0378
+        },
+        {
+          "factor_number": 7,
+          "factor_name": "Event Risk & Geopolitics",
+          "stance_score": 0,
+          "confidence": 53,
+          "conf_adj_score": 0,
+          "weight": 0.05,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 8,
+          "factor_name": "Fiscal & Sovereign Risk",
+          "stance_score": 0,
+          "confidence": 66,
+          "conf_adj_score": 0,
+          "weight": 0.04,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 9,
+          "factor_name": "Market Structure & Volatility",
+          "stance_score": 1,
+          "confidence": 52,
+          "conf_adj_score": 0.52,
+          "weight": 0.05,
+          "weighted_contribution": 0.026
+        },
+        {
+          "factor_number": 10,
+          "factor_name": "USD Liquidity & Funding",
+          "stance_score": 0,
+          "confidence": 54,
+          "conf_adj_score": 0,
+          "weight": 0.11,
+          "weighted_contribution": 0
+        }
+      ],
+      "net_weighted_score": 0.349,
+      "score_interpretation": "A net weighted score of +0.35 places NZD/CAD in mildly-bullish territory tactically — the pair leans toward rising. The signal is driven almost entirely by the dominant Policy & Rates factor (+0.134, the heaviest 0.24 weight), reinforced by Inflation & Growth (+0.099), Guidance (+0.038), Risk Appetite (+0.052) and a mild technical lean (+0.026). Critically, the largest factors that do not contribute — Flows (both short), External Balance (dairy-vs-oil offset), Event Risk and USD Funding — all net to zero, reflecting the genuine symmetry of this pair. The +0.35 maps to a Neutral-with-bullish-lean rather than a clean directional read because the bullish factors are all built on the same underlying differential (the RBNZ hiking bias vs BoC hold), which is itself a coin-flip into the 8 July decision.",
+      "rationale": "At the tactical horizon the +0.35 weighted score reflects a pair whose only meaningful directional signal is the monetary-policy direction differential, since virtually every other factor nets to zero. The dominant Policy & Rates factor (0.24 weight) is bullish-NZD/CAD because, although both banks sit at an identical 2.25%, the RBNZ alone carries an active hiking bias while the BoC is on a confirmed long hold — markets see an RBNZ July hike as likely versus a BoC first hike not expected until 2027. This is the rare pair where the base and quote dossiers' Neutral standalone views combine into a faint directional cross signal because of the policy-path asymmetry rather than despite it. The bilateral interactions that would normally dominate a commodity cross — terms of trade and positioning — cancel: the June oil collapse hit CAD (--CAD) while the dairy supply-glut hit NZD (--NZD), netting roughly flat in Factor 5, and both legs carry net-short speculative bases that mute the positioning signal in Factor 4. What is priced is a wavering RBNZ and a neutral BoC; what we expect is that the clustered 8 July RBNZ / 15 July BoC sequence resolves the standoff — an RBNZ hike (or firmly reaffirmed track) ahead of a neutral BoC MPR would squeeze both shorts and lift NZD/CAD toward 0.8273. The path of least resistance is a mild grind higher while spot holds above the 0.8070 MA cluster, but with limited conviction given the pair's mild NZD-richness on REER and the heavier CAD short's latent squeeze risk to the downside. The growth differential (Factor 2, +0.099) provides tactical reinforcement: NZ's Q1 GDP +0.8% QoQ against Canada's 0.0% flat, with NZ unemployment 130bps lower, gives the RBNZ's hiking narrative real-economy underpinning that the BoC's hold does not enjoy. Guidance (Factor 6, +0.038) adds to the bullish lean through the RBNZ's unique published OCR track, the strongest form of G10 forward guidance, which meets eight days before the BoC and therefore sets the cross's near-term tone. The mild technical lean (Factor 9, +0.026) from spot above its clustered MAs is a low-conviction systematic confirmation. Key dated catalysts are the early-July GDT auction, the 8 July RBNZ decision, the ~16 July NZ Q2 CPI, the 15 July BoC MPR and the 20-22 July Canada CPI. Conviction is held at 2 because the entire bullish lean rests on a single coin-flip binary (the RBNZ track) rather than a diversified set of differentials, and because the heavier CAD short's potential squeeze to the downside caps the asymmetry.",
+      "g10_relative_ranking": "Among NZD crosses, NZD/CAD ranks in the upper-middle as a long candidate — more attractive than NZD/USD (which fights a firm broad dollar) and NZD/AUD (where the RBA out-yields the RBNZ by 210bps), but less attractive than NZD/JPY (the cleanest positive-carry kiwi long). Among CAD crosses, being long NZD/CAD (short CAD) ranks behind AUD/CAD as a CAD-funding short (AUD out-yields CAD by 210bps vs NZD's parity), but ahead of USD/CAD shorts given the dollar-funding headwind. NZD/CAD is best understood as a low-conviction relative-policy-direction expression: the cleanest way to trade RBNZ-hawkish-vs-BoC-hold without USD noise, but a thin, range-bound cross with limited carry reward.",
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "pair_target": "NZD/CAD 0.815-0.820",
+          "timeframe": "2-4 weeks",
+          "conditions": [
+            "RBNZ holds-or-hikes-without-strongly-reaffirming on 8 July",
+            "BoC holds neutral on 15 July",
+            "Dairy and oil both stay soft without a decisive break in either"
+          ],
+          "path": "NZD/CAD chops in a 0.805-0.825 range, biased mildly higher toward 0.815-0.820 as the RBNZ's directional rate-path edge provides a faint lift, but capped by the dairy-vs-oil offset and mild NZD-richness."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "pair_target": "NZD/CAD 0.828-0.833",
+          "conditions": [
+            "RBNZ delivers a 25bp hike on 8 July",
+            "Dovish BoC MPR or a dairy floor while oil stays soft"
+          ]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "pair_target": "NZD/CAD 0.795-0.790",
+          "conditions": [
+            "RBNZ holds and softens its track on 8 July",
+            "Oil floor/rebound or BoC confidence triggers the crowded CAD short to cover"
+          ]
+        }
+      },
+      "path_expectation": "Expect a choppy, mild grind higher rather than a clean trend, pivoting on the clustered 8-15 July central-bank sequence. The most likely shape is range-bound drift in the 0.808-0.818 band into early July, then a binary reaction to the RBNZ (which meets first and sets the tone): a hawkish RBNZ track-defence squeezes the pair toward 0.825-0.828, while a dovish pivot opens 0.800-0.795. The BoC's 15 July MPR then either confirms or counters the RBNZ move — the cleanest bullish-NZD/CAD path is RBNZ-hike-then-neutral-BoC. Volatility should rise around the event cluster with elevated gap risk given the thin cross. Beyond mid-July, the dairy-vs-oil netting and the September RBNZ MPS track decision are the follow-on swings, with the early-July GDT auction providing the first NZD-specific read ahead of the central-bank sequence.",
+      "conviction_ladder": {
+        "current": 2,
+        "increase_conditions": [
+          "Increase to 4 if RBNZ hikes 25bp on 8 July AND reaffirms its track toward 3.0%+ while the BoC holds neutral on 15 July (clean positive rate-path divergence opens), OR a decisive break above 0.8273 on RBNZ delivery with both shorts squeezing",
+          "Increase to 3 if RBNZ holds but firmly reaffirms its hawkish track while the BoC MPR leans dovish, OR dairy floors while oil stays soft (terms-of-trade netting tips NZD-favourable)"
+        ],
+        "decrease_conditions": [
+          "Decrease to 1 if RBNZ pivots dovish (abandons hawkish track) on 8 July while a CAD short-squeeze fires on an oil floor — both legs aligning NZD/CAD-bearish simultaneously",
+          "Decrease to 1 if spot breaks and holds below 0.7960 on a closing basis"
+        ]
+      },
+      "risk_reward": {
+        "base_case_payoff": "+49 pips / +0.6% (spot to ~0.818 vs entry 0.8131)",
+        "downside_case_loss": "-213 pips / -2.6% (spot to ~0.792 vs entry 0.8131)",
+        "risk_reward_ratio": "0.23:1 (unfavourable)",
+        "expected_value": "(0.50 × +49) + (0.25 × +137 to 0.827 upside) + (0.25 × -213 downside) = +24.5 + 34.3 - 53.3 = +5.5 pips — marginally positive but thin",
+        "asymmetry_assessment": "The distribution is slightly skewed against pressing longs given the heavier CAD short's squeeze risk to the downside and the mild NZD-richness on REER. Better expressed as a small, catalyst-gated position into the 8 July RBNZ than a standing directional bet."
+      }
+    },
+    "strategic": {
+      "net_stance": "Neutral",
+      "conviction": 2,
+      "overall_confidence": 51,
+      "weighted_score_calculation": [
+        {
+          "factor_number": 1,
+          "factor_name": "Policy & Rates (Relative)",
+          "stance_score": 1,
+          "confidence": 52,
+          "conf_adj_score": 0.52,
+          "weight": 0.24,
+          "weighted_contribution": 0.1248
+        },
+        {
+          "factor_number": 2,
+          "factor_name": "Inflation & Growth Dynamics",
+          "stance_score": 0,
+          "confidence": 51,
+          "conf_adj_score": 0,
+          "weight": 0.1,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 3,
+          "factor_name": "Risk Appetite & Sentiment",
+          "stance_score": 0,
+          "confidence": 49,
+          "conf_adj_score": 0,
+          "weight": 0.05,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 4,
+          "factor_name": "Flows & Positioning",
+          "stance_score": 0,
+          "confidence": 50,
+          "conf_adj_score": 0,
+          "weight": 0.06,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 5,
+          "factor_name": "External Balance & Terms of Trade",
+          "stance_score": 0,
+          "confidence": 53,
+          "conf_adj_score": 0,
+          "weight": 0.16,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 6,
+          "factor_name": "Guidance & Credibility",
+          "stance_score": 0,
+          "confidence": 52,
+          "conf_adj_score": 0,
+          "weight": 0.12,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 7,
+          "factor_name": "Event Risk & Geopolitics",
+          "stance_score": 0,
+          "confidence": 51,
+          "conf_adj_score": 0,
+          "weight": 0.05,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 8,
+          "factor_name": "Fiscal & Sovereign Risk",
+          "stance_score": 0,
+          "confidence": 62,
+          "conf_adj_score": 0,
+          "weight": 0.07,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 9,
+          "factor_name": "Market Structure & Volatility",
+          "stance_score": 0,
+          "confidence": 50,
+          "conf_adj_score": 0,
+          "weight": 0.03,
+          "weighted_contribution": 0
+        },
+        {
+          "factor_number": 10,
+          "factor_name": "USD Liquidity & Funding",
+          "stance_score": 0,
+          "confidence": 52,
+          "conf_adj_score": 0,
+          "weight": 0.12,
+          "weighted_contribution": 0
+        }
+      ],
+      "net_weighted_score": 0.125,
+      "score_interpretation": "A net weighted score of +0.13 is essentially Neutral strategically, with a faint bullish-NZD/CAD residue driven solely by the Policy & Rates factor (+0.125). Every other factor lands Neutral over the 1-6 month horizon as the pair's bull and bear forces genuinely offset: the dairy-vs-oil terms-of-trade netting (heaviest strategic weight 0.16) cancels, Guidance converges as the RBNZ likely marks its track down toward the BoC's neutral stance, and growth/positioning/funding all balance. The lone positive is the residual RBNZ directional rate-path edge, but at lower strategic confidence (52) given the high probability of an RBNZ dovish mark-down at the September MPS. The +0.13 maps to a low-conviction Neutral.",
+      "rationale": "At the strategic horizon the +0.13 score reflects a genuinely balanced cross where the only surviving directional signal is the prospective rate-path divergence. Policy & Rates (0.24 weight) remains the sole positive contributor: if the RBNZ honours even partial hikes while the BoC holds at the bottom of its 2.25–3.25% neutral range through 2026 (the RBC/Desjardins/Capital Economics consensus), NZD/CAD gains a positive carry and yield advantage it does not currently have. But this edge is fragile — the high-probability path is that the 2 September RBNZ MPS marks the oil-inflation-driven track lower, converging RBNZ guidance toward the BoC's neutrality and eroding the cross edge. The heaviest strategic factor, External Balance (0.16), nets to zero because both export franchises face structural headwinds (NZ dairy via China demand erosion, Canada oil via a post-shock basing), with offsetting supports (Canada's stronger -0.87% current account vs NZ's -3.6%; NZ's elevated Fonterra farmgate floor). Guidance (0.12) and USD Funding (0.12) both land neutral as the RBNZ-BoC convergence and the dollar-smile symmetry cancel. Inflation & Growth (0.10) converges to neutral strategically as Canada's US-linked recovery potential offsets NZ's firmer current momentum, and Canada's stronger recovery trajectory via US trade linkage provides a structural counterweight to NZ's China-dairy vulnerability. What is priced is a range-bound cross with a faint RBNZ-hawkish tilt; what we expect is essentially the same, which is why the strategic stance is a low-conviction Neutral rather than a directional call — the edge is in the path and the binary asymmetry (the RBNZ track decisions) rather than in disagreeing with the range-bound consensus. Key strategic catalysts are the 8 July and 28 October RBNZ Reviews, the 2 September RBNZ MPS (track decision), the 15 July and 28 October BoC MPRs, the fortnightly GDT auctions, and the USMCA-review process. Conviction is 2 because the offsetting forces are genuinely balanced and the lone directional edge (rate path) is itself likely to converge away at the September MPS, leaving the pair in a pure dairy-vs-oil range without a yield anchor to differentiate the two commodity-currency legs.",
+      "g10_relative_ranking": "Strategically, NZD/CAD ranks mid-pack among both currencies' crosses. As an NZD long it sits behind NZD/JPY (positive carry, risk-beta) but ahead of NZD/USD (dollar headwind). As a CAD short it ranks behind AUD/CAD (210bps carry advantage to AUD) but is a cleaner relative-policy-direction expression than USD/CAD. Both currencies are strategic value-recovery candidates rather than leaders, ranking 6th in their respective G10 sets per the dossiers — so NZD/CAD is a low-conviction pairing of two mid-ranked currencies where the marginal edge is NZD's unique hiking bias, which itself is likely to narrow over the strategic horizon as the September MPS converges RBNZ guidance toward the BoC's neutral hold.",
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "pair_target": "NZD/CAD 0.815-0.820",
+          "timeframe": "1-6 months",
+          "conditions": [
+            "RBNZ delivers one hike but marks the September track modestly lower",
+            "BoC holds through 2026 per consensus (RBC/Desjardins/Capital Economics)",
+            "Dairy and oil both base without a decisive relative move"
+          ],
+          "path": "NZD/CAD grinds in a 0.800-0.825 range, biased mildly higher toward 0.815-0.820 if the RBNZ delivers at least one hike while the BoC stays static, but capped below 0.83 by the dairy-vs-oil offset and NZD-richness."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "pair_target": "NZD/CAD 0.830-0.840",
+          "conditions": [
+            "RBNZ delivers multiple hikes toward 3.0%",
+            "Dairy/China recovery while oil stays soft (terms-of-trade tips NZD-favourable)"
+          ]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "pair_target": "NZD/CAD 0.785-0.780",
+          "conditions": [
+            "September MPS marks the RBNZ track sharply lower toward BoC's neutral hold",
+            "Oil floor/rebound reviving CAD while dairy keeps falling, or a clean USMCA renewal lifting CAD"
+          ]
+        }
+      },
+      "path_expectation": "Expect a slow, two-way grind rather than a clean trend, shaped by the RBNZ track trajectory against a static BoC. The base case is a gradual drift toward 0.815–0.820 if the RBNZ delivers partial hikes, but the path is choppy and capped: each RBNZ meeting (8 July, 2 September, 28 October) is a binary on whether the hawkish track survives, and the fortnightly GDT auctions inject regular dairy-driven volatility on the NZD leg. The most likely shape is range-bound consolidation with a faint upward bias that fades if the September MPS converges the RBNZ toward the BoC's neutral hold — at which point the pair returns to a pure dairy-vs-oil terms-of-trade range without a yield anchor. The thin cross liquidity amplifies moves around the central-bank and commodity events, meaning each RBNZ binary and each GDT print will register disproportionately on the pair. Over the full 1-6 month horizon the strategic path is shaped by three main inflection points: the July central-bank cluster (does NZD gain a positive rate edge?), the September RBNZ MPS (does that edge survive?), and the relative dairy-vs-oil commodity trajectory (which franchise stabilises first?).",
+      "conviction_ladder": {
+        "current": 2,
+        "increase_conditions": [
+          "Increase to 4 if RBNZ delivers a clear multi-hike cycle toward 3.0% while the BoC holds static through 2026, opening a durable positive NZD/CAD rate path, OR NZD/CAD breaks and holds above 0.8330",
+          "Increase to 3 if RBNZ delivers at least one hike and defends its track at the September MPS while the BoC stays neutral"
+        ],
+        "decrease_conditions": [
+          "Decrease to 1 if September RBNZ MPS converges the track to the BoC's hold AND a CAD-positive catalyst (oil floor, clean USMCA renewal) fires simultaneously",
+          "Decrease to 1 if NZD/CAD breaks and holds below 0.7852 (52-week low violated)"
+        ]
+      },
+      "risk_reward": {
+        "base_case_payoff": "+49 pips / +0.6% (spot to ~0.818 vs entry 0.8131)",
+        "downside_case_loss": "-281 pips / -3.5% (spot to ~0.785 vs entry 0.8131)",
+        "risk_reward_ratio": "0.17:1 (unfavourable)",
+        "expected_value": "(0.50 × +49) + (0.25 × +204 to 0.834 upside) + (0.25 × -281 downside) = +24.5 + 51.0 - 70.3 = +5.2 pips — marginally positive but thin",
+        "asymmetry_assessment": "The distribution is skewed modestly to the downside in absolute pips (the 52-week low at 0.7852 is closer than the high at 0.8330) and the strategic rate-path edge is likely to converge away at the September MPS — arguing for expressing any constructive view tactically around the RBNZ binaries rather than as a standing strategic position."
+      }
+    },
+    "consensus_divergence": {
+      "bank_consensus_forecast": "Third-party model-based forecasts for NZD/CAD cluster modestly lower over 2026: Long Forecast projects the pair drifting from ~0.788 (June) toward ~0.772 (September) before a year-end recovery toward ~0.785, while another model sees a year-ahead level around 0.8115 — broadly flat-to-mildly-lower. No major bank publishes a dedicated NZD/CAD target; the pair is traded as a derived cross.",
+      "our_tactical_view": "Neutral with faint bullish-NZD/CAD lean (net score +0.35, conviction 2); target 0.815-0.820 base case over 2-4 weeks",
+      "our_strategic_view": "Neutral (net score +0.13, conviction 2); target 0.815-0.820 over 1-6 months if RBNZ honours partial hikes",
+      "divergence_direction": "above consensus",
+      "divergence_magnitude": "Approximately +100 to +300 pips above the consensus mildly-bearish model paths (our ~0.817 expected vs model range 0.772-0.788)",
+      "why_we_differ": "We weight the directional policy-path divergence more heavily than backward-looking momentum models that extrapolate the recent fade. The RBNZ is the only G10 central bank actively signalling hikes (track to 3.0-3.28%) versus a BoC not expected to move until 2027 — this forward-looking policy-direction differential is invisible to models that project from recent price momentum and does not appear in the mildly-bearish algorithmic forecasts. Our divergence is modest (~1-3 cents) and explicitly conditional on the RBNZ honouring its hawkish track; we are not making a bold directional call but rather assigning slightly higher probability to the RBNZ-hike scenario than the models' backward-looking methodology allows.",
+      "payoff_if_right": "NZD/CAD holds and grinds toward 0.82 rather than sliding to 0.77-0.79, rewarding a catalyst-gated long around the 8 July RBNZ by approximately 50-70 pips vs current levels",
+      "risk_if_wrong": "If the RBNZ converges dovish in September and the models' downtrend plays out, NZD/CAD drifts toward 0.79-0.78 and the rate-path edge evaporates, producing a ~200-300 pip loss on any long position"
+    },
+    "cross_horizon_consistency": {
+      "aligned": true,
+      "tactical_stance": "Neutral with faint bullish-NZD/CAD lean (net score +0.35, conviction 2)",
+      "strategic_stance": "Neutral (net score +0.13, conviction 2)",
+      "explanation": "Tactical and strategic stances are aligned — both are low-conviction Neutral with the same single directional edge (RBNZ hiking bias vs BoC hold) as the only force preventing a clean Neutral at either horizon. The minor difference is composition and confidence: tactically the live factors are sharper (firm NZ growth, the live RBNZ hawkish track, a mild technical lean all add to the rate-path edge, lifting the score to +0.35), while strategically the re-weighting toward structural factors (External Balance 0.16, Guidance 0.12) — which all net to zero — dilutes the score to +0.13 as the rate-path edge is the lone survivor.",
+      "inflection_point": "The 8 July RBNZ decision and the 2 September RBNZ MPS: whether the RBNZ defends or abandons its hawkish track determines if the pair's faint bullish lean persists or converges to a pure dairy-vs-oil range.",
+      "trading_implication": "With both horizons low-conviction Neutral, the actionable expression is a small, catalyst-gated NZD/CAD long around the 8 July RBNZ (owning the hike binary) rather than a standing directional position; wait for the September MPS to confirm whether the rate-path edge survives before adding strategic risk."
+    },
+    "forward_vs_spot": {
+      "current_spot": 0.8131,
+      "forward_1m": "~0.8131 (forward points ~flat; 0bps policy-rate differential implies no appreciation/depreciation bias)",
+      "forward_3m": "~0.8132 (negligible forward points given parity short rates)",
+      "forward_6m": "~0.8133 (negligible forward points; near-pure spot expression)",
+      "expected_rate_3m": "~0.8150-0.8200 (if RBNZ delivers partial hikes)",
+      "expected_rate_6m": "~0.8150-0.8200 (capped by track convergence and dairy-vs-oil offset)",
+      "edge_3m": "~+10 to +50 pips (our expected ~0.817 mid vs ~flat forward ~0.8132) — thin positive edge entirely contingent on RBNZ honouring even part of its hawkish track",
+      "edge_6m": "~+10 to +50 pips (same driver; near-zero forward points mean no carry to capture — entire expected return is spot-driven)"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-07-01",
+      "event": "GDT Dairy Auction (early July, fortnightly)",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Base",
+      "rationale": "After two consecutive GDT declines (-0.6%, -2.8%), a third drop pressures NZD and pulls NZD/CAD lower, while a stabilisation relieves the NZD leg and supports the cross. This is an NZD-specific recurring event with no CAD analogue at this frequency, making dairy a distinct NZD/CAD swing factor that operates independently of the central-bank sequence. The direction of the next print determines whether the dairy-vs-oil netting tips further against NZD or begins to rebalance.",
+      "priced_in": "Partially",
+      "citations": [
+        5,
+        6
+      ]
+    },
+    {
+      "date": "2026-07-01",
+      "event": "USMCA Joint-Review Trigger",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Quote",
+      "rationale": "A constructive review or clean renewal lifts CAD (NZD/CAD-negative) because it removes Canada's major trade tail risk and signals durable US-market access for ~75% of Canadian exports. Friction or new sector tariffs hurt CAD (NZD/CAD-positive) as trade uncertainty weighs on the Canadian economy and investment flows. This is a CAD-specific tail with no NZD analogue and can deliver a large, discontinuous cross move depending on the outcome.",
+      "priced_in": "Partially",
+      "citations": [
+        9,
+        10
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "event": "RBNZ Official Cash Rate Decision (Monetary Policy Review)",
+      "expected_impact": "Bullish",
+      "which_leg_affected": "Base",
+      "rationale": "The pivotal pair catalyst, meeting eight days before the BoC. A 25bp hike to 2.50% would open a positive NZD/CAD rate path — NZD above CAD's static 2.25% — and squeeze both the net-short NZD and net-short CAD positions; a dovish pivot removes the pair's lone directional edge and converges toward the BoC's neutral stance. The RBNZ sets the tone for the cross before the BoC responds, making this the cleanest near-term binary for NZD/CAD direction. The RBNZ is currently the only G10 central bank with an active hiking bias, so the outcome is uniquely pair-relevant.",
+      "priced_in": "Partially",
+      "citations": [
+        19,
+        20
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "event": "NZ Q2 2026 CPI (Stats NZ)",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Base",
+      "rationale": "The RBNZ projected a Q2 spike toward 4.3%, but the oil collapse likely undershoots that forecast. A hot print defends the RBNZ hikes and NZD/CAD-positive narrative; a soft print validates a dovish track mark-down and weighs on NZD/CAD. This release falls one day before the BoC MPR, making the sequencing critical — a soft NZ CPI into a neutral BoC would be a double negative for NZD/CAD in a single week.",
+      "priced_in": "Partially",
+      "citations": [
+        19,
+        21
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "event": "Bank of Canada Decision + MPR",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Quote",
+      "rationale": "A hold at 2.25% is expected, but the MPR forecast revisions and tone are the swing for CAD. A dovish BoC (NZD/CAD-positive) following an RBNZ hike the prior week would be the cleanest bullish-cross combination, opening a positive NZD/CAD rate gap and squeezing both shorts. A confident BoC hold or hawkish surprise counters the RBNZ move and limits CAD weakness. The MPR revisions on lower oil and potential growth downgrades are the key variables, as these directly feed the BoC's tone.",
+      "priced_in": "Partially",
+      "citations": [
+        9,
+        10,
+        24
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "event": "Canada CPI (June 2026)",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Quote",
+      "rationale": "Post-BoC inflation read that provides the first data confirmation of the MPR's lower-oil assumption. Lower oil should pull headline CPI down materially; a soft core cements BoC dovishness and supports NZD/CAD via further CAD weakness. A sticky core — perhaps from services or housing — would support CAD and cap NZD/CAD upside by raising the probability of eventual BoC action. This print gives traders the first post-MPR validation of the BoC's narrative.",
+      "priced_in": "Not priced",
+      "citations": [
+        9
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "event": "RBNZ OCR Decision with full Monetary Policy Statement",
+      "expected_impact": "Bearish",
+      "which_leg_affected": "Base",
+      "rationale": "The most important strategic pair event — the MPS publishes an updated OCR track that will reveal whether the RBNZ maintains its hawkish stance or marks it down in response to the oil-inflation fade. A dovish mark-down (peak toward 2.5% or no further hikes) converges RBNZ guidance toward the BoC's neutral hold, erasing the pair's lone directional edge and returning it to a pure dairy-vs-oil range with mild NZD-richness as a drag (NZD/CAD-negative). A defended track sustains the rate-path differential and supports NZD/CAD. ANZ flags the peak toward 3.0%, suggesting any MPS revision is likely to bring the track modestly lower even in a bullish scenario.",
+      "priced_in": "Partially",
+      "citations": [
+        19,
+        23
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "event": "NZ Q3 2026 CPI (Stats NZ)",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Base",
+      "rationale": "Covers the RBNZ's projected 4.3% peak inflation quarter. A clear undershoot — likely given the oil-price collapse that dominates the Q3 energy basket — confirms a lower OCR path and converges the rate-path edge (NZD/CAD-negative) by validating the September MPS track mark-down. A stickier-than-expected print — perhaps from non-tradables or housing — defends the hikes and supports NZD/CAD by giving the RBNZ cover to maintain its track at the October review.",
+      "priced_in": "Not priced",
+      "citations": [
+        19,
+        21
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "event": "RBNZ Review + BoC Decision + MPR (clustered week)",
+      "expected_impact": "Ambiguous",
+      "which_leg_affected": "Both",
+      "rationale": "A rare clustered week where both central banks decide in close proximity. The RBNZ Review confirms whether hikes are still being delivered following the September MPS track update, while the BoC MPR sets CAD's autumn trajectory with updated forecasts on oil, growth and inflation. Together they define the NZ-CA rate path into year-end and could definitively break the pair's range — an RBNZ hike with a dovish BoC MPR would be the cleanest bullish-NZD/CAD outcome, while an RBNZ hold with a hawkish BoC would push the cross decisively lower. The thin liquidity of the cross amplifies the gap risk around this concentrated event week.",
+      "priced_in": "Not priced",
+      "citations": [
+        19,
+        9
+      ]
+    }
+  ],
+  "invalidators": [
+    {
+      "condition": "RBNZ hikes to 2.50% on 8 July while the BoC holds neutral on 15 July, opening a +25bps NZD/CAD policy-rate gap",
+      "new_stance": "Bullish NZD/CAD (conviction rising to 4)",
+      "mechanism": "The parity-rate pair gains a positive carry and yield advantage for the first time, squeezing both net-short bases simultaneously and confirming the directional rate-path thesis that underpins the entire bullish lean. The zero-carry pair becomes a positive-carry NZD/CAD long with a structural yield anchor.",
+      "monitor_indicator": "RBNZ OCR decision statement and BoC press conference tone",
+      "monitor_frequency": "At each meeting (RBNZ 8 July, BoC 15 July)",
+      "probability_pct": 30
+    },
+    {
+      "condition": "2 September RBNZ MPS marks the OCR track materially lower (peak toward 2.5% or no further hikes signalled) while the BoC stays static at 2.25%",
+      "new_stance": "Bearish NZD/CAD (conviction falling to 1)",
+      "mechanism": "The RBNZ converges to the BoC's neutral hold, erasing the pair's lone directional edge and returning it to a pure dairy-vs-oil terms-of-trade range. With mild NZD-richness on REER and a more crowded CAD short than NZD short, the pair drifts lower toward the lower half of its 52-week range as the rate-path premium unwinds.",
+      "monitor_indicator": "RBNZ MPS OCR track (September and December publications)",
+      "monitor_frequency": "At each MPS (2 September, 9 December)",
+      "probability_pct": 35
+    },
+    {
+      "condition": "WTI crude finds a firm floor and rebounds above $85/bbl while GDT dairy prices keep falling (third consecutive decline or worse)",
+      "new_stance": "Bearish NZD/CAD (conviction falling to 1)",
+      "mechanism": "The dairy-vs-oil netting tips decisively CAD-favourable — CAD's petro-bid returns and squeezes its heavier short while NZD's export franchise keeps deteriorating, breaking the near-cancellation that currently holds the pair range-bound. The asymmetric positioning (heavier CAD short) means this move is amplified: the CAD short covers violently while the smaller NZD short provides less offset.",
+      "monitor_indicator": "WTI crude daily close and GDT Global Dairy Trade Index fortnightly print",
+      "monitor_frequency": "Daily (oil) / fortnightly (dairy auction)",
+      "probability_pct": 25
+    },
+    {
+      "condition": "Clean USMCA renewal removes Canada's tariff tail and triggers value-based CAD inflows, with CFTC CAD net short covering toward -80k or less",
+      "new_stance": "Bearish NZD/CAD (conviction falling to 1)",
+      "mechanism": "The more-crowded CAD short covers violently into improving Canadian fundamentals, lifting CAD faster than any NZD catalyst can lift the cross — the asymmetric positioning crowding (6th percentile CAD short vs low-20s NZD) favours a disorderly downside move in NZD/CAD as the CAD squeeze dominates.",
+      "monitor_indicator": "USMCA-review headlines, USTR statements, and weekly CFTC commitment-of-traders data for CAD net positioning",
+      "monitor_frequency": "Event-driven (USMCA) / weekly (CFTC Friday release)",
+      "probability_pct": 25
+    },
+    {
+      "condition": "Global risk-off shock spikes VIX above 25 while S&P 500 falls more than 10% from current levels",
+      "new_stance": "Bearish NZD/CAD (conviction falling to 1)",
+      "mechanism": "The higher-beta, swap-line-less NZD underperforms the more US-anchored, funding-resilient CAD at the risk-off extreme — the pair's risk-beta differential reverses to NZD's disadvantage (NZD suffers more) and the cross gaps lower on thin liquidity. The dollar-smile regime hits NZD hardest among the commodity bloc given the absence of a Fed swap line backstop.",
+      "monitor_indicator": "VIX daily close, S&P 500 level, NZD/JPY as a real-time risk-beta proxy",
+      "monitor_frequency": "Daily",
+      "probability_pct": 20
+    }
+  ],
+  "signposts": [
+    {
+      "indicator": "RBNZ vs BoC Policy-Rate Path (relative OCR trajectory)",
+      "current_level": "Both 2.25% (parity); RBNZ hiking bias (track to ~3.0-3.28%) vs BoC long hold (no hike until 2027 per consensus)",
+      "confirms_if": "RBNZ hikes while BoC holds, opening a positive NZD/CAD rate gap; or RBNZ reaffirms hawkish track at the September MPS",
+      "invalidates_if": "RBNZ converges to BoC's hold at the September MPS (dovish track mark-down to peak ~2.5% or below)",
+      "bilateral_importance": "This is THE pair driver — the zero-carry NZD/CAD is a pure rate-path expression, so the relative policy trajectory matters more for this pair than for any cross with a standing carry. Changes in the RBNZ-BoC rate path differential are directly transmitted to fair value with no carry buffer to absorb them.",
+      "source": "rbnz.govt.nz/monetary-policy/monetary-policy-decisions; bankofcanada.ca/core-functions/monetary-policy/key-interest-rate",
+      "frequency": "7x/year (RBNZ), 8x/year (BoC)"
+    },
+    {
+      "indicator": "GDT Dairy Index / WMP price vs WTI Crude (terms-of-trade netting ratio)",
+      "current_level": "GDT -2.8% (WMP $3,589/MT); WTI ~$75.5/bbl — both soft",
+      "confirms_if": "Dairy floors or rises while oil stays soft (NZD-favourable netting tips the pair higher); GDT stabilises above $3,600/MT while WTI holds below $80",
+      "invalidates_if": "Oil rebounds above $85/bbl while dairy keeps falling below $3,400/MT (CAD-favourable netting tips the pair lower)",
+      "bilateral_importance": "The dairy-vs-oil offset is what makes NZD/CAD's terms-of-trade factor net to zero — the relative move between the two commodities, not either in isolation, drives the cross. This is a pair-specific monitoring requirement invisible in either standalone currency view, making it uniquely important for NZD/CAD positioning.",
+      "source": "globaldairytrade.info (fortnightly auction results); tradingeconomics.com/commodity/crude-oil (daily)",
+      "frequency": "Fortnightly (dairy) / daily (oil)"
+    },
+    {
+      "indicator": "NZ-CA 10-Year Government Bond Yield Spread",
+      "current_level": "~+109bps (NZ 10Y ~4.55% vs Canada 10Y ~3.46%)",
+      "confirms_if": "Spread widens above +130bps as RBNZ hike cycle widens term yields (NZD term-yield edge improves, structural NZD/CAD support strengthens)",
+      "invalidates_if": "Spread narrows below +80bps as RBNZ track mark-down converges NZ yields toward Canada's (NZD yield edge erodes, structural support weakens)",
+      "bilateral_importance": "With policy rates at parity, the 10Y spread is the only standing yield differential currently supporting NZD/CAD — a cleaner and more actionable read of the NZD/CAD yield story than the policy rate for as long as both banks stay at 2.25%. Changes in this spread have an amplified pair impact because there is no carry buffer to absorb them.",
+      "source": "worldgovernmentbonds.com (NZ and Canada 10Y pages)",
+      "frequency": "Daily"
+    },
+    {
+      "indicator": "CFTC NZD vs CAD Net Speculative Positioning (relative crowding)",
+      "current_level": "NZD ~-31,600 (low-20s percentile, ~52k OI); CAD ~-132,200 combined leveraged + asset manager (6th percentile, OI 383,773)",
+      "confirms_if": "NZD short covers faster than CAD (RBNZ catalyst squeezes NZD leg disproportionately, NZD/CAD-up); NZD net position moves toward flat or positive",
+      "invalidates_if": "CAD short covers faster (oil floor/USMCA squeezes the heavier CAD short, NZD/CAD-down); CAD net position moves sharply toward flat while NZD stays short",
+      "bilateral_importance": "The asymmetric crowding (heavier CAD short at the 6th percentile vs NZD's low-20s) means a CAD-side squeeze threatens the cross more violently than an NZD-side squeeze helps it — a pair-specific risk invisible in either standalone currency view. Weekly monitoring of the relative positioning shift is essential for managing cross-direction risk.",
+      "source": "investing.com/economic-calendar/cftc-nzd-speculative-positions-1616; investing.com/economic-calendar/cftc-cad-speculative-positions-1613; cftc.gov",
+      "frequency": "Weekly (Friday COT release, covers positions through Tuesday)"
+    },
+    {
+      "indicator": "NZD/CAD Spot vs 0.8070 MA Cluster (50d/100d/200d)",
+      "current_level": "0.8131 (above 50d 0.8118 / 100d 0.8068 / 200d 0.8070)",
+      "confirms_if": "Daily close holds above 0.8070 cluster then breaks 0.8273 on a closing basis (bullish trend confirmed, systematic flows re-extend NZD/CAD longs)",
+      "invalidates_if": "Daily close below 0.7960 then below 0.7852 52-week low (downtrend confirmed, systematic flows extend NZD/CAD shorts)",
+      "bilateral_importance": "The clustered MAs at 0.8068-0.8070 define the structural boundary between the pair's mild bullish lean and a return to the lower range. The pair's own chart — not either leg's USD chart — is the relevant structure for cross positioning, and the 50d/100d/200d cluster is the key level that systematic and momentum traders will reference for directional alignment.",
+      "source": "tradingview.com/symbols/NZDCAD (daily chart with MA overlay)",
+      "frequency": "Daily"
+    }
+  ],
+  "assumptions": [
+    "Spot (0.8131) and all price-derived metrics (52-week range, performance, moving averages) are taken from the provided Twelve Data daily OHLC as the source of truth; the spotDate is 2026-06-20 (latest close) against the 2026-06-18 valuation date — a two-day gap within normal noise.",
+    "The NZD/CAD cross rate of 0.8131 is consistent with the NZD dossier's quoted NZD/CAD 0.8163 (valuation-date reference) within normal intra-cycle drift; the price-data close is used as the authoritative spot.",
+    "NZD/CAD implied volatility, risk reversals and a clean vol surface are not freely available for this thin cross (flagged as a data gap); realised vol is estimated at ~6-7% from the daily price data and cross skew is inferred as roughly neutral given both legs carry put skews vs USD individually.",
+    "Forward points are derived from the parity 2.25% policy-rate differential (implying near-flat forwards) rather than a live forward feed; they are directional approximations and actual market forwards may differ by a few basis points depending on funding and basis conditions.",
+    "Bilateral trade figures are taken directly from the injected IMF DOTS block (NZ net goods balance vs CAD +$0.2bn) and not re-estimated from web sources.",
+    "Peer rates, yields, positioning and commodity levels are drawn from the two dossiers (shared engine cache) plus the bilateral web research; CFTC NZD (~-31.6k) and CAD (~-132k combined) positioning are as of the 9-12 June reporting weeks and may have shifted marginally by the valuation date.",
+    "Default factor weights are applied throughout; the zero-carry, dairy-vs-oil-netting nature of the pair means no weight adjustment is warranted despite the commodity-vs-commodity classification, as the terms-of-trade factor produces near-cancellation rather than a dominant signal and the rate-path divergence is captured in the stance rather than the weight.",
+    "Stance scoring maps Bullish (pair rises) = +1, Neutral = 0, Bearish (pair falls) = -1, scaled by confidence/100 and the framework horizon weights.",
+    "The BoC's CAD dossier tactical stance is Bearish (CAD) rather than Neutral, which in pair convention translates to a mild pre-existing bullish-NZD/CAD lean from the CAD leg. This reinforces but does not change the pair-level assessment which is determined by the bilateral factor analysis.",
+    "RBNZ meeting dates (8 July, 2 September, 28 October) and BoC meeting dates (15 July, 28 October) are taken from official central bank calendars as referenced in the dossiers; all are approximate pending official confirmation."
+  ],
+  "complete_citations": [
+    {
+      "id": 1,
+      "title": "NZD/CAD Currency Pair Price Forecast",
+      "publisher": "StockInvest.us",
+      "url": "https://stockinvest.us/stock/NZDCAD",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 2,
+      "title": "NZD to CAD Forecast",
+      "publisher": "Long Forecast",
+      "url": "https://longforecast.com/nzd-cad",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 3,
+      "title": "NZD/CAD Price Forecast: In-Depth Technical Analysis",
+      "publisher": "FX Leaders",
+      "url": "https://www.fxleaders.com/forecasts/forex/nzd-cad-price-forecast/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 4,
+      "title": "NZD/CAD Rate, Signals, Charts & Technical Analysis",
+      "publisher": "FX Leaders",
+      "url": "https://www.fxleaders.com/live-rates/nzd-cad/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 5,
+      "title": "NZD/CAD Trade Ideas",
+      "publisher": "TradingView",
+      "url": "https://www.tradingview.com/symbols/NZDCAD/ideas/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 6,
+      "title": "Technical Analysis of NZD/CAD",
+      "publisher": "TradingView",
+      "url": "https://www.tradingview.com/symbols/NZDCAD/technicals/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 7,
+      "title": "NZD/CAD Near Range Support as Downtrend Pressures Build",
+      "publisher": "Babypips",
+      "url": "https://www.babypips.com/trading/chart-art-forex-nzdcad-near-range-support-as-downtrend-pressures-build-2026-04-07",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 8,
+      "title": "NZD/CAD Technical Analyses",
+      "publisher": "CentralCharts",
+      "url": "https://www.centralcharts.com/en/7758-nzd-cad/analysis",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 9,
+      "title": "Monetary Policy Report—April 2026",
+      "publisher": "Bank of Canada",
+      "url": "https://www.bankofcanada.ca/publications/mpr/mpr-2026-04-29/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 10,
+      "title": "Bank of Canada maintains policy rate at 2¼%",
+      "publisher": "Bank of Canada",
+      "url": "https://www.bankofcanada.ca/2026/04/fad-press-release-2026-04-29/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 11,
+      "title": "Commodity Currencies: AUD, CAD, NZD Playbook",
+      "publisher": "FXNX",
+      "url": "https://fxnx.com/en/blog/trading-commodity-currencies-mastering-aud-cad-and-nzd",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 12,
+      "title": "Canadian Dollar to New Zealand Dollar Exchange Rate Today",
+      "publisher": "ExchangeRates.com",
+      "url": "https://exchangerates.com/pairs/cad-to-nzd/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 13,
+      "title": "CFTC NZD speculative net positions",
+      "publisher": "Investing.com",
+      "url": "https://www.investing.com/economic-calendar/cftc-nzd-speculative-positions-1616",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 14,
+      "title": "CFTC CAD speculative net positions",
+      "publisher": "Investing.com",
+      "url": "https://www.investing.com/economic-calendar/cftc-cad-speculative-positions-1613",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 15,
+      "title": "USD Positioning Hints At Sentiment Extreme: COT report",
+      "publisher": "Forex.com",
+      "url": "https://www.forex.com/en-sg/news-and-analysis/usd-positioning-hints-at-sentiment-extreme-cot-report/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 16,
+      "title": "Bank of Canada rate outlook 2026 points to a long hold, says RBC",
+      "publisher": "Canadian Mortgage Professional (mpamag.com)",
+      "url": "https://www.mpamag.com/ca/news/general/bank-of-canada-rate-outlook-2026-points-to-a-long-hold-says-rbc/579002",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 17,
+      "title": "Four developed market central banks are now hiking rates",
+      "publisher": "Reuters via Investing.com",
+      "url": "https://m.investing.com/news/economy-news/four-developed-market-central-banks-are-now-hiking-rates-4737832",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 18,
+      "title": "Mortgage Rate Forecast (2026-2030)",
+      "publisher": "True North Mortgage",
+      "url": "https://www.truenorthmortgage.ca/blog/mortgage-rate-forecast",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 19,
+      "title": "BNZ Markets Outlook",
+      "publisher": "Bank of New Zealand",
+      "url": "https://www.bnz.co.nz/institutional-banking/research/publications/markets-outlook",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 20,
+      "title": "NZ central bank holds rates steady in tight vote, warns hikes to come sooner",
+      "publisher": "Reuters via Investing.com",
+      "url": "https://www.investing.com/news/economy-news/nz-central-bank-holds-rates-steady-in-tight-vote-warns-hikes-to-come-sooner-4711117",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 21,
+      "title": "Interest Rate Predictions 2026 & 2027",
+      "publisher": "MoneyHub NZ",
+      "url": "https://www.moneyhub.co.nz/interest-rate-predictions.html",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 22,
+      "title": "When will interest rates go down?",
+      "publisher": "Canstar NZ",
+      "url": "https://www.canstar.co.nz/home-loans/when-will-interest-rates-go-down/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 23,
+      "title": "ANZ Data Wrap",
+      "publisher": "ANZ New Zealand",
+      "url": "https://www.anz.co.nz/about-us/economic-markets-research/data-wrap/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 24,
+      "title": "Bank of Canada April 2026 MPR — Canadian Outlook",
+      "publisher": "Bank of Canada",
+      "url": "https://www.bankofcanada.ca/publications/mpr/mpr-2026-04-29/canadian-outlook/",
+      "date_accessed": "2026-06-18"
+    }
+  ]
+}

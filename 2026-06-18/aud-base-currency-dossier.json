@@ -1,0 +1,2124 @@
+{
+  "base": "AUD",
+  "valuation_date": "2026-06-18",
+  "framework_version": "2.0",
+  "freshness_days_tactical": 30,
+  "freshness_days_strategic": 60,
+  "executive_summary": "AUD/USD trades at 0.70695 as of the 2026-06-18 valuation date (latest available close 2026-06-17; RBA TWI elevated alongside it), having risen +7.10% over 12 months but eased recently: -1.01% 1M, -1.41% 3M, -0.85% 6M. The dominant macro event of the cycle is the DE-ESCALATION of the 2026 Middle East crisis: a US-Iran peace framework was signed around 14-15 June 2026, with the Strait of Hormuz set to reopen toll-free and Iran cleared to resume oil exports immediately on sanctions relief. Oil has COLLAPSED in response - Brent ~$83.82 and WTI ~$80 on 15 June, Brent falling below $80 on 16 June and toward the high-$70s into 17-18 June (down roughly 40% from its conflict peak) - and risk sentiment has turned RISK-ON, with VIX easing to ~16.2 by 15 June from ~22 on 10 June. This reverses the prior narrative: the oil-supply shock that earlier pushed the RBA to hike three times (Feb/Mar/May) to a 4.35% Cash Rate and deliver a hawkish hold on 16 June is now fading, so the imported-inflation driver of that hawkishness is being removed and the market will begin pricing the end of the hiking cycle and eventual easing - the strategic carry fade is now a realized, live event rather than a future risk. Two channels pull in opposite directions for AUD: risk-on de-escalation is supportive for high-beta AUD near-term, while cheaper oil is disinflationary and erodes the carry tailwind over time. Absolute carry is still high (AU-US 2Y ~+56bp, AU-DE 10Y ~+180bp, RBA-BoJ ~335bp, RBA-SNB ~435bp), but valuation is stretched - the real broad REER printed 115.86 in April 2026, the firmest in the G10 ex-SGD - while iron ore 62% Fe (largely unaffected by oil) sits range-bound near $98/t and the current account deficit is -3.68% of GDP. Positioning has turned: CFTC leveraged funds cut AUD longs by 15,209 contracts in the week to 9 June to a net +42,292, and asset managers flipped to net short -12,083. Net: mildly Bullish AUD tactically (still-high carry plus risk-on de-escalation lead the 2-4 week window) shading to a lower-conviction, valuation-and-carry-fade-capped Bullish strategically - high absolute carry still rewards holders but the disinflationary oil collapse caps medium-term upside, with the China growth channel and the 10 November US-China tariff cliff the key downside vectors.",
+  "market_context": {
+    "spot": {
+      "rate": "AUD/USD 0.70695",
+      "convention": "Rising AUD/USD = AUD strengthening; falling = AUD weakening. AUD is the base, USD the quote.",
+      "primary_index": "RBA Trade-Weighted Index elevated, consistent with a 28-month-high real broad REER of 115.86 (Apr-2026)",
+      "date": "2026-06-18"
+    },
+    "key_crosses": [
+      {
+        "pair": "AUD/NZD",
+        "rate": "1.2119",
+        "convention": "Rising = AUD outperforming NZD (Antipodean relative value)"
+      },
+      {
+        "pair": "AUD/JPY",
+        "rate": "113.40",
+        "convention": "Rising = AUD strengthening vs JPY; classic carry/risk barometer"
+      },
+      {
+        "pair": "EUR/AUD",
+        "rate": "1.6429",
+        "convention": "Rising = AUD weakening vs EUR (EUR is base)"
+      },
+      {
+        "pair": "GBP/AUD",
+        "rate": "1.8997",
+        "convention": "Rising = AUD weakening vs GBP (GBP is base)"
+      },
+      {
+        "pair": "AUD/CAD",
+        "rate": "0.9893",
+        "convention": "Rising = AUD outperforming the commodity-G10 peer CAD"
+      },
+      {
+        "pair": "AUD/SGD",
+        "rate": "0.9064",
+        "convention": "Rising = AUD strengthening vs SGD (Asia-Pacific peer)"
+      }
+    ],
+    "performance": {
+      "1m": {
+        "pct_change": "-1.01%",
+        "direction": "depreciating"
+      },
+      "3m": {
+        "pct_change": "-1.41%",
+        "direction": "depreciating"
+      },
+      "6m": {
+        "pct_change": "-0.85%",
+        "direction": "broadly flat / mildly depreciating"
+      },
+      "1y": {
+        "pct_change": "+7.10%",
+        "direction": "appreciating"
+      }
+    },
+    "valuation": {
+      "overall_assessment": "Modestly expensive",
+      "bis_reer": {
+        "level": 115.86,
+        "historical_percentile": 95,
+        "interpretation": "AUD real broad REER = 115.86 (Apr-2026), the highest in the cached 28-month sample and the firmest REER among G10 ex-SGD; it has risen ~9 points since Nov-2025. On a trade-weighted, inflation-adjusted basis AUD is rich versus its own recent history - much of which reflects broad USD weakness rather than AUD strength alone."
+      },
+      "ppp_table": [
+        {
+          "vs_currency": "USD",
+          "deviation_pct": -3.0,
+          "implied_fair_value": "OECD PPP ~0.73 AUD/USD; spot 0.707 is roughly fair to ~3% cheap vs USD-PPP"
+        },
+        {
+          "vs_currency": "EUR",
+          "deviation_pct": 4.0,
+          "implied_fair_value": "AUD modestly rich vs EUR on REER differential (AU REER 115.86 vs EA 103.97)"
+        },
+        {
+          "vs_currency": "JPY",
+          "deviation_pct": 42.0,
+          "implied_fair_value": "AUD very rich vs deeply undervalued JPY (JP REER 65.70)"
+        },
+        {
+          "vs_currency": "GBP",
+          "deviation_pct": 3.0,
+          "implied_fair_value": "AUD modestly rich vs GBP (GB REER 111.49)"
+        },
+        {
+          "vs_currency": "NZD",
+          "deviation_pct": 13.0,
+          "implied_fair_value": "AUD rich vs NZD (NZ REER 100.27); AUD/NZD 1.2119 historically elevated"
+        },
+        {
+          "vs_currency": "CAD",
+          "deviation_pct": 17.0,
+          "implied_fair_value": "AUD rich vs CAD on REER (CA REER 96.58)"
+        },
+        {
+          "vs_currency": "CHF",
+          "deviation_pct": 12.0,
+          "implied_fair_value": "AUD rich vs CHF on REER (CH REER 102.22)"
+        },
+        {
+          "vs_currency": "NOK",
+          "deviation_pct": 13.0,
+          "implied_fair_value": "AUD rich vs NOK on REER (NO REER 101.07)"
+        },
+        {
+          "vs_currency": "SEK",
+          "deviation_pct": 17.0,
+          "implied_fair_value": "AUD rich vs SEK on REER (SE REER 96.78)"
+        },
+        {
+          "vs_currency": "SGD",
+          "deviation_pct": 2.0,
+          "implied_fair_value": "AUD marginally rich vs SGD on REER (SG REER 113.94) - closest peer"
+        }
+      ],
+      "trade_weighted_assessment": "The RBA TWI is elevated, consistent with the 28-month-high REER. AUD is the strongest G10 currency on a real trade-weighted basis ex-SGD, leaving limited room for further real appreciation without a fresh carry or terms-of-trade impulse.",
+      "what_is_priced_in": "The market is pricing AUD as a restored high-carry currency in a hawkish-RBA world, with the strong REER reflecting both the rate premium and broad USD softness. It is not pricing a meaningful terms-of-trade boost - iron ore near $98/t is unremarkable. The rich REER means a great deal of good news is already in the price.",
+      "actionability": "The valuation signal is structural rather than a tactical sell trigger: rich REER caps medium-term upside and argues for AUD outperformance via crosses (vs low-carry EUR/JPY) rather than aggressive AUD/USD longs. Not an actionable short on its own given the carry support."
+    },
+    "positioning_summary": {
+      "cftc": {
+        "leveraged_funds": {
+          "net_contracts": 42292,
+          "direction": "long",
+          "notional_usd": "~USD 3.0bn (42,292 contracts x A$100k x 0.707)",
+          "weekly_change_contracts": -16508,
+          "weekly_change_direction": "net long reduced sharply (lev longs -15,209, shorts +1,299 in week to 9 Jun)"
+        },
+        "asset_managers": {
+          "net_contracts": -12083,
+          "direction": "short",
+          "notional_usd": "~USD 0.85bn net short"
+        },
+        "total_open_interest": 314177,
+        "net_all_specs_percentile": 35,
+        "percentile_context": "Leveraged net +42,292 sits around the 35th percentile of the cached ~6-month (25-week) window after a sharp one-week unwind from +58,800; not a stretched extreme by the brief's +/-80k threshold."
+      },
+      "other_positioning_signals": "Australian superannuation funds (~A$4.3T AUM) provide a mechanical AUD-supportive bid when global equities fall (FX-hedge rebalancing); the reverse in rallies. Japanese retail (Mrs. Watanabe) carry interest in AUD/JPY is a structural flow given the ~335bp RBA-BoJ gap.",
+      "interpretation": "Positioning is mid-range and actively de-risking: leveraged funds slashed longs by 15,209 contracts in a single week while asset managers flipped from +856 to net short -12,083, even as open interest rose to 314,177 - new shorts entering. The speculative community is no longer one-sided long, which removes a key reversal risk but also signals waning directional conviction.",
+      "contrarian_assessment": "With leveraged net only ~35th percentile and asset managers already short, the contrarian squeeze risk is now to the upside, not downside: a hawkish RBA surprise or China stimulus could force short-covering. The recent long liquidation has cleared crowded positioning, making the setup cleaner for renewed AUD strength than it was a month ago."
+    },
+    "market_structure_vol_summary": {
+      "trend_regime": "Range-bound/consolidating after a 1-year uptrend; spot 0.70695 sits near the upper end of a multi-month 0.66-0.71 range, with momentum stalling (negative 1M/3M returns).",
+      "key_levels": {
+        "support": [
+          {
+            "level": "0.7000",
+            "significance": "Major psychological round number and recent breakout pivot; first line of defence"
+          },
+          {
+            "level": "0.6850",
+            "significance": "Approx 100-day MA region and prior consolidation shelf"
+          },
+          {
+            "level": "0.6700",
+            "significance": "200-day MA zone and major CTA trend trigger; loss would flip trend-followers short"
+          }
+        ],
+        "resistance": [
+          {
+            "level": "0.7100",
+            "significance": "Recent cycle high / range cap; option-barrier interest at the round number"
+          },
+          {
+            "level": "0.7200",
+            "significance": "Next psychological level; aligns with bank top-of-range forecasts (CBA ~0.73)"
+          },
+          {
+            "level": "0.7350",
+            "significance": "Multi-year resistance / 2025 swing zone"
+          }
+        ]
+      },
+      "moving_averages": {
+        "50d": {
+          "level": "~0.7080",
+          "spot_vs": "spot marginally below - flat near-term trend"
+        },
+        "100d": {
+          "level": "~0.6950",
+          "spot_vs": "spot above - intermediate uptrend intact"
+        },
+        "200d": {
+          "level": "~0.6700",
+          "spot_vs": "spot well above - structural uptrend, trend-followers long"
+        },
+        "alignment": "Broadly stacked bullishly (50>100>200 approx) but flattening at the front - trend intact yet losing momentum"
+      },
+      "volatility": {
+        "iv_1m": 7.5,
+        "iv_3m": 7.81,
+        "iv_percentile_1y": 35,
+        "rv_20d": 6.8,
+        "rv_vs_iv": "RV 6.8% vs 1M IV 7.50% - IV ~0.7 pt above realised, a modest event/vol premium; market is not underpricing realised moves",
+        "risk_reversal_25d_1m": "-0.71 vols, puts bid - market pays up for AUD downside protection (textbook high-beta skew); skew steepens to -1.10 at 1Y",
+        "vol_term_structure": "Contango",
+        "vol_regime": "Low-to-moderate vol grind; 1M IV ~7.5% in the lower third of AUD's long-run ~9-11% range, consistent with a calm carry regime now that the mid-June de-escalation has removed the oil-shock tail, with the 10 November tariff cliff the remaining downside tail"
+      },
+      "key_observation": "The vol surface is calm and cheap (1M IV ~35th percentile) but the persistent -0.71 risk-reversal shows the market still hedges AUD downside - cheap optionality is available to express directional views, and the skew makes AUD puts the market's preferred tail hedge."
+    },
+    "recent_regime": "Price action is dominated by the mid-June de-escalation of the 2026 Middle East crisis: a US-Iran peace framework was signed around 14-15 June (Strait of Hormuz to reopen toll-free, Iran cleared to resume oil exports), collapsing Brent from its conflict peak to ~$83.82 on 15 June and into the high-$70s by 17-18 June, and turning risk sentiment risk-on (VIX ~16.2, down from ~22 on 10 June). The RBA's 16 June hawkish hold at 4.35% now looks backward-looking: with the oil-driven inflation impulse fading, the market is beginning to price the end of the hiking cycle and eventual easing, so the carry tailwind that has supported AUD is starting to erode. AUD/USD has consolidated near 0.707 as risk-on support is offset by a firmer USD (broad index 119.51), range-bound iron ore (~$98/t, largely unaffected by oil) and the dawning carry-fade. Volatility is low (1M IV ~7.5%, VIX 16.2) but the risk-reversal skew and the 10 November US-China tariff cliff keep a downside tail alive. The dominant tension is now still-high absolute carry versus a disinflationary, lower-oil world that undercuts the rationale for that carry.",
+    "citations": [
+      1,
+      5,
+      7,
+      11,
+      26,
+      34,
+      35
+    ]
+  },
+  "rate_differentials_table": {
+    "base_currency": {
+      "central_bank": "Reserve Bank of Australia (RBA)",
+      "policy_rate_name": "Cash Rate Target",
+      "rate_pct": 4.35,
+      "next_meeting": "2026-08-11",
+      "expected_action": "Hold at 4.35% with hawkish bias; residual hike risk (Westpac sees Aug+Sep hikes)"
+    },
+    "peers": [
+      {
+        "currency": "USD",
+        "central_bank": "Federal Reserve",
+        "policy_rate_pct": 3.625,
+        "spread_to_base_bps": -72,
+        "direction_vs_base": "base 72bp above peer (AUD earns carry vs USD)",
+        "next_meeting": "2026-06-17",
+        "expected_action": "Hold (target range 3.50-3.75%; ~97% no change on FedWatch)",
+        "rate_path_next_6m": "On hold; first cut under Chair Warsh not firmly priced"
+      },
+      {
+        "currency": "EUR",
+        "central_bank": "European Central Bank",
+        "policy_rate_pct": 2.25,
+        "spread_to_base_bps": -210,
+        "direction_vs_base": "base 210bp above peer",
+        "next_meeting": "2026-07-23",
+        "expected_action": "Hold (depo 2.25% after a 25bp hike 11 Jun, first in 3y)",
+        "rate_path_next_6m": "Hiking bias paused, data-dependent"
+      },
+      {
+        "currency": "JPY",
+        "central_bank": "Bank of Japan",
+        "policy_rate_pct": 1.0,
+        "spread_to_base_bps": -335,
+        "direction_vs_base": "base 335bp above peer (key carry funder)",
+        "next_meeting": "2026-07-31",
+        "expected_action": "Hold then gradual hikes (rate 1.00% after 25bp hike 16 Jun)",
+        "rate_path_next_6m": "Gradual normalisation/hiking bias"
+      },
+      {
+        "currency": "GBP",
+        "central_bank": "Bank of England",
+        "policy_rate_pct": 3.75,
+        "spread_to_base_bps": -60,
+        "direction_vs_base": "base 60bp above peer",
+        "next_meeting": "2026-06-18",
+        "expected_action": "Hold (Bank Rate 3.75%, prior 8-1 hold)",
+        "rate_path_next_6m": "Mild hiking bias toward 4.00% later"
+      },
+      {
+        "currency": "NZD",
+        "central_bank": "Reserve Bank of New Zealand",
+        "policy_rate_pct": 2.25,
+        "spread_to_base_bps": -210,
+        "direction_vs_base": "base 210bp above peer",
+        "next_meeting": "2026-09-02",
+        "expected_action": "Hold (OCR 2.25%, casting-vote hold in June)",
+        "rate_path_next_6m": "Hiking later 2026, peak ~4.0% by May-2027"
+      },
+      {
+        "currency": "CAD",
+        "central_bank": "Bank of Canada",
+        "policy_rate_pct": 2.25,
+        "spread_to_base_bps": -210,
+        "direction_vs_base": "base 210bp above peer",
+        "next_meeting": "2026-07-15",
+        "expected_action": "Hold (overnight 2.25%, 5th consecutive hold)",
+        "rate_path_next_6m": "On hold; possible 2.50% by mid-2027"
+      },
+      {
+        "currency": "CHF",
+        "central_bank": "Swiss National Bank",
+        "policy_rate_pct": 0.0,
+        "spread_to_base_bps": -435,
+        "direction_vs_base": "base 435bp above peer (deepest carry vs G10)",
+        "next_meeting": "2026-06-18",
+        "expected_action": "Hold (policy rate 0.00%)",
+        "rate_path_next_6m": "On hold; FX-intervention readiness"
+      },
+      {
+        "currency": "NOK",
+        "central_bank": "Norges Bank",
+        "policy_rate_pct": 4.25,
+        "spread_to_base_bps": -10,
+        "direction_vs_base": "base 10bp above peer (near parity)",
+        "next_meeting": "2026-06-18",
+        "expected_action": "Hold (policy rate 4.25% after 25bp hike 6 May)",
+        "rate_path_next_6m": "Hawkish hold / residual hike risk"
+      },
+      {
+        "currency": "SEK",
+        "central_bank": "Sveriges Riksbank",
+        "policy_rate_pct": 1.75,
+        "spread_to_base_bps": -260,
+        "direction_vs_base": "base 260bp above peer",
+        "next_meeting": "2026-06-18",
+        "expected_action": "Hold (policy rate 1.75%)",
+        "rate_path_next_6m": "Steady; eventual hike watched"
+      },
+      {
+        "currency": "SGD",
+        "central_bank": "Monetary Authority of Singapore",
+        "policy_rate_pct": null,
+        "spread_to_base_bps": null,
+        "direction_vs_base": "MAS runs a S$NEER appreciation band, not a policy rate",
+        "next_meeting": "2026-07-W3",
+        "expected_action": "Semi-annual review; April slightly increased band slope",
+        "rate_path_next_6m": "Mild appreciating/tightening tilt"
+      }
+    ],
+    "sovereign_yields": {
+      "base_2y": 4.63,
+      "base_10y": 4.79,
+      "key_spreads": [
+        {
+          "vs": "US 10Y",
+          "yield_pct": 4.47,
+          "spread_bps": 32,
+          "interpretation": "AU 10Y ~+32bp over US - the historically most important AUD driver; modestly AUD-supportive but compressed from prior wide levels"
+        },
+        {
+          "vs": "US 2Y",
+          "yield_pct": 4.07,
+          "spread_bps": 56,
+          "interpretation": "AU front-end ~+56bp over US (RBA 4.35% vs Fed 3.50-3.75%) - clear carry advantage, the core of the bull case"
+        },
+        {
+          "vs": "NZ 10Y",
+          "yield_pct": 4.64,
+          "spread_bps": 15,
+          "interpretation": "AU ~+15bp over NZ - narrow Antipodean spread; AUD/NZD rich at 1.2119 leaves limited further widening room"
+        },
+        {
+          "vs": "DE 10Y",
+          "yield_pct": 2.99,
+          "spread_bps": 180,
+          "interpretation": "AU ~+180bp over Germany - large premium over the euro-area anchor, supports AUD vs EUR"
+        },
+        {
+          "vs": "JP 10Y",
+          "yield_pct": 1.65,
+          "spread_bps": 314,
+          "interpretation": "AU ~+314bp over Japan - the deepest 10Y carry channel, underpins AUD/JPY carry demand"
+        },
+        {
+          "vs": "CA 10Y",
+          "yield_pct": 3.45,
+          "spread_bps": 134,
+          "interpretation": "AU ~+134bp over Canada - AUD-favourable within the commodity-G10 complex"
+        }
+      ],
+      "curve_shape": "AU 2s10s ~+16bp (4.79 - 4.63), mildly positive/flattish - consistent with a hawkish-hold RBA anchoring the front end while term premium stays contained; US 2s10s +0.38"
+    }
+  },
+  "macro_comparison_table": [
+    {
+      "currency": "AUD",
+      "gdp_yoy_pct": 2.52,
+      "gdp_qoq_latest_pct": 0.27,
+      "headline_cpi_yoy_pct": 4.05,
+      "core_cpi_yoy_pct": 3.3,
+      "core_cpi_measure": "RBA Trimmed Mean (Q1-2026)",
+      "unemployment_pct": 4.49,
+      "current_account_gdp_pct": -3.68,
+      "policy_rate_pct": 4.35
+    },
+    {
+      "currency": "USD",
+      "gdp_yoy_pct": 2.57,
+      "gdp_qoq_latest_pct": 0.4,
+      "headline_cpi_yoy_pct": 2.69,
+      "core_cpi_yoy_pct": 3.3,
+      "core_cpi_measure": "Core PCE (Apr-2026)",
+      "unemployment_pct": 4.3,
+      "current_account_gdp_pct": -2.43,
+      "policy_rate_pct": 3.625
+    },
+    {
+      "currency": "EUR",
+      "gdp_yoy_pct": 1.3,
+      "gdp_qoq_latest_pct": 0.2,
+      "headline_cpi_yoy_pct": 2.06,
+      "core_cpi_yoy_pct": 2.0,
+      "core_cpi_measure": "Core HICP (May flash)",
+      "unemployment_pct": 6.3,
+      "current_account_gdp_pct": 1.15,
+      "policy_rate_pct": 2.25
+    },
+    {
+      "currency": "JPY",
+      "gdp_yoy_pct": 0.32,
+      "gdp_qoq_latest_pct": 0.45,
+      "headline_cpi_yoy_pct": 3.6,
+      "core_cpi_yoy_pct": 1.4,
+      "core_cpi_measure": "Core CPI ex-fresh-food (Apr-2026)",
+      "unemployment_pct": 2.5,
+      "current_account_gdp_pct": 5.77,
+      "policy_rate_pct": 1.0
+    },
+    {
+      "currency": "GBP",
+      "gdp_yoy_pct": 1.09,
+      "gdp_qoq_latest_pct": 0.63,
+      "headline_cpi_yoy_pct": 3.3,
+      "core_cpi_yoy_pct": 2.5,
+      "core_cpi_measure": "Core CPI (Apr-2026)",
+      "unemployment_pct": 4.9,
+      "current_account_gdp_pct": -2.39,
+      "policy_rate_pct": 3.75
+    },
+    {
+      "currency": "NZD",
+      "gdp_yoy_pct": 1.34,
+      "gdp_qoq_latest_pct": 0.25,
+      "headline_cpi_yoy_pct": 3.08,
+      "core_cpi_yoy_pct": 2.7,
+      "core_cpi_measure": "RBNZ sectoral factor model (Q1-2026)",
+      "unemployment_pct": 5.3,
+      "current_account_gdp_pct": -4.1,
+      "policy_rate_pct": 2.25
+    },
+    {
+      "currency": "CAD",
+      "gdp_yoy_pct": -0.05,
+      "gdp_qoq_latest_pct": -0.04,
+      "headline_cpi_yoy_pct": 2.15,
+      "core_cpi_yoy_pct": 2.0,
+      "core_cpi_measure": "CPI-trim (Apr-2026)",
+      "unemployment_pct": 6.6,
+      "current_account_gdp_pct": -0.87,
+      "policy_rate_pct": 2.25
+    },
+    {
+      "currency": "CHF",
+      "gdp_yoy_pct": 0.59,
+      "gdp_qoq_latest_pct": 0.66,
+      "headline_cpi_yoy_pct": 0.06,
+      "core_cpi_yoy_pct": 0.5,
+      "core_cpi_measure": "SNB core (Q4-2025)",
+      "unemployment_pct": 5.07,
+      "current_account_gdp_pct": 3.02,
+      "policy_rate_pct": 0.0
+    },
+    {
+      "currency": "NOK",
+      "gdp_yoy_pct": 2.0,
+      "gdp_qoq_latest_pct": 0.36,
+      "headline_cpi_yoy_pct": 3.09,
+      "core_cpi_yoy_pct": 3.0,
+      "core_cpi_measure": "CPI-ATE underlying (Q4-2025)",
+      "unemployment_pct": 4.6,
+      "current_account_gdp_pct": 12.38,
+      "policy_rate_pct": 4.25
+    },
+    {
+      "currency": "SEK",
+      "gdp_yoy_pct": 2.19,
+      "gdp_qoq_latest_pct": -0.15,
+      "headline_cpi_yoy_pct": 0.49,
+      "core_cpi_yoy_pct": 1.8,
+      "core_cpi_measure": "CPIF ex-energy (Q4-2025)",
+      "unemployment_pct": 8.5,
+      "current_account_gdp_pct": 5.55,
+      "policy_rate_pct": 1.75
+    },
+    {
+      "currency": "SGD",
+      "gdp_yoy_pct": 6.0,
+      "gdp_qoq_latest_pct": 1.0,
+      "headline_cpi_yoy_pct": 1.8,
+      "core_cpi_yoy_pct": 1.4,
+      "core_cpi_measure": "MAS Core CPI (Apr-2026)",
+      "unemployment_pct": 2.1,
+      "current_account_gdp_pct": 16.7,
+      "policy_rate_pct": null
+    }
+  ],
+  "factors": [
+    {
+      "block": "Policy & Rates (Relative)",
+      "factor_number": 1,
+      "tactical_weight": 0.24,
+      "strategic_weight": 0.24,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 64,
+        "analysis": "The RBA Cash Rate Target sits at 4.35% after three 2026 hikes (Feb/Mar/May) and a unanimous hawkish hold on 16 June, placing AUD near the top of the G10 rate ladder - only Norges Bank (4.25%) is comparable. Against the US, the front-end gap is the cleanest signal: AU 2Y ~4.63% vs US 2Y 4.07% gives AUD a ~+56bp carry advantage, while the AU-US 10Y spread is ~+32bp (AU 4.79% vs US 4.47%). Versus the major funding currencies the differential is enormous - RBA-BoJ ~335bp and RBA-SNB ~435bp - so AUD's absolute carry remains compelling and, for the next 2-4 weeks, the 4.35% rate is locked. The critical change this cycle is that the imported-inflation driver behind the RBA's hawkishness is being removed: the US-Iran peace framework (signed ~14-15 June) and the resulting oil collapse (Brent into the high-$70s from ~$83.82 on 15 June) take away the fuel-price impulse that pushed the cash rate to 4.35%. The market will therefore start pricing the END of the hiking cycle and eventual easing rather than the further tightening the May SoMP path (~4.70% by end-2026) had embedded - the strategic carry fade is now being realized. For the tactical window the front-end is still anchored high and carry-to-vol is exceptional (~335bp vs JPY over 3M IV of 7.81% gives ~43; ~435bp vs CHF gives ~56), so rates stay net AUD-supportive. But confidence is trimmed to 64 because the OIS path is set to flatten as disinflation comes into view, and a soft 29 July CPI - now more likely with fuel prices falling - could compress the front-end quickly. The AU-NZ 10Y spread is narrow at ~+15bp, so the Antipodean rate edge is modest and AUD/NZD at 1.2119 already prices much of it.",
+        "key_data_points": [
+          "RBA Cash Rate Target 4.35% (hawkish hold 16 Jun 2026)",
+          "AU 2Y ~4.63% vs US 2Y 4.07% = AU-US 2Y +56bp",
+          "AU 10Y ~4.79% vs US 10Y 4.47% = AU-US 10Y +32bp",
+          "RBA-BoJ spread ~335bp; RBA-SNB ~435bp (deepest carry funders)",
+          "Oil collapse removes the imported-inflation driver of the 4.35% rate",
+          "Carry-to-vol vs JPY ~43, vs CHF ~56 (3M IV 7.81%)",
+          "AU 2s10s ~+16bp (mildly positive curve)"
+        ],
+        "what_is_priced": "The market still prices AUD as a high-carry currency, but with oil collapsing and inflation set to roll over it is beginning to price OUT the further RBA tightening it previously embedded and to price IN the eventual end of the cycle. Our edge is that the absolute carry-to-vol ranking (43-56 vs JPY/CHF) remains a genuine tactical support that cushions AUD on dips even as the forward rate path flattens and spot upside is capped.",
+        "citations": [
+          1,
+          2,
+          5,
+          11,
+          12
+        ]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 55,
+        "analysis": "Over 1-6 months the rate factor stays AUD-supportive in absolute terms but its dominance fades materially now that the oil shock has resolved. With the US-Iran framework signed (~14-15 June), the Strait of Hormuz reopening and Iran's oil returning, the fuel-price spike that drove the RBA to 4.35% is unwinding; headline inflation, which the SoMP had forecast peaking ~4.8% in the June quarter, will roll over faster than that baseline assumed. As a result the market will move from pricing the May SoMP path to ~4.70% toward pricing the end of the hiking cycle and, later in the horizon, the first cuts - so the AU-US front-end gap (~+56bp) is more likely to compress toward neutral than to widen. This is the strategic carry fade being realized rather than merely flagged. The carry is not gone: as long as the RBA holds at or above 4.35% while funders sit near 0-1%, AUD/JPY and AUD/CHF carry retains a structural bid, and the 10Y spreads vs the US (~+32bp) and Germany (~+180bp) provide a term-premium cushion that supports AUD on crosses even as the front-end narrows. Peers are mixed: the Fed is on hold (3.50-3.75%), the ECB and BoJ have just begun hiking from low bases, and the RBNZ pencils a climb toward ~4.0% by May-2027, which would erode AUD's Antipodean edge over time. Forwards put AUD at a ~0.7%/yr discount (CIP-consistent), so holders are paid to be long spot but face mild roll-down. The strategic stance stays Bullish but at lower conviction (55) than before because the rate support is now a decaying, not a self-reinforcing, asset.",
+        "key_data_points": [
+          "RBA cash rate 4.35%; market to price end-of-cycle as oil falls",
+          "Oil collapse (Brent high-$70s) removes the SoMP inflation impulse",
+          "AU-US 10Y +32bp, AU-DE 10Y +180bp (structural term cushion)",
+          "RBNZ path toward ~4.0% by May-2027 (erodes AU-NZ edge)",
+          "Fed on hold 3.50-3.75%; ECB 2.25%, BoJ 1.00% (low funders)",
+          "AUD forward discount ~-0.74%/yr (CIP-consistent)"
+        ],
+        "what_is_priced": "Markets had priced the RBA staying restrictive with a hawkish skew; post-deal they will re-price toward an earlier end-of-cycle and eventual cuts as oil-driven inflation fades. Our edge: the strategic carry cushion is more durable on crosses (AUD/JPY, AUD/CHF) than on AUD/USD, where a Fed-on-hold USD limits the realised differential payoff and where the front-end compression bites first.",
+        "citations": [
+          1,
+          5,
+          15,
+          16,
+          17,
+          23,
+          35
+        ]
+      },
+      "horizon_split_explanation": "Both horizons are Bullish but tactical confidence (64) exceeds strategic (55): the 4.35% rate and ~+56bp front-end gap are locked for the next 2-4 weeks, whereas over 1-6 months the post-deal oil collapse is disinflationary and the market will price the end of the hiking cycle and eventual easing, actively eroding the carry tailwind.",
+      "carry_analysis": {
+        "carry_vs_peers": [
+          {
+            "vs_currency": "JPY",
+            "annualised_carry_bps": 335,
+            "carry_to_vol_ratio": 42.9,
+            "interpretation": "Deepest liquid carry channel; AUD/JPY at 113.4 underpinned by ~335bp gap and Mrs. Watanabe demand"
+          },
+          {
+            "vs_currency": "CHF",
+            "annualised_carry_bps": 435,
+            "carry_to_vol_ratio": 55.7,
+            "interpretation": "Largest G10 carry vs zero-rate SNB; AUD/CHF 0.5606 attractive for funded longs"
+          },
+          {
+            "vs_currency": "EUR",
+            "annualised_carry_bps": 210,
+            "carry_to_vol_ratio": 26.9,
+            "interpretation": "Solid carry vs post-hike ECB at 2.25%; supports short EUR/AUD"
+          },
+          {
+            "vs_currency": "NZD",
+            "annualised_carry_bps": 210,
+            "carry_to_vol_ratio": 26.9,
+            "interpretation": "Antipodean carry vs RBNZ 2.25%, but narrowing as RBNZ pencils hikes; AUD/NZD rich at 1.2119"
+          },
+          {
+            "vs_currency": "USD",
+            "annualised_carry_bps": 72,
+            "carry_to_vol_ratio": 9.2,
+            "interpretation": "Modest carry vs Fed 3.50-3.75%; the AUD/USD carry is thin - crosses are the cleaner carry expression"
+          }
+        ],
+        "carry_regime": "Carry is 'working' in the current hawkish-RBA, moderate-vol regime: 1M IV ~7.5% is low and AUD sits atop the G10 ex-NOK rate ladder, so carry-to-vol ratios of 27-56 vs funders are highly attractive. The risk to the regime is no longer the (now-resolved) oil shock but the realized carry fade as cheaper oil drives disinflation and the market prices the end of the RBA hiking cycle, plus a possible China/tariff-driven risk-off that historically punishes AUD carry.",
+        "breakeven_move": "Carry vs JPY ~335bp/yr is ~0.92 pips/day on AUD/JPY equivalent; over a 30-day tactical window AUD/USD can weaken ~0.6% (~42 pips from 0.7070 to ~0.7028) before the ~+56bp AU-US carry is erased - a thin USD cushion, underscoring that AUD carry is best harvested vs JPY/CHF, not USD."
+      },
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Inflation & Growth Dynamics",
+      "factor_number": 2,
+      "tactical_weight": 0.18,
+      "strategic_weight": 0.1,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 58,
+        "analysis": "The growth-inflation signal nets to Neutral now that the oil shock has reversed. The hot inflation that previously made this factor AUD-supportive is backward-looking: the OECD-harmonised headline CPI is 4.05% YoY for Q1-2026 and the authoritative ABS print is 4.6% YoY to March 2026 (fuel-driven, automotive fuel +32.8% on the earlier oil spike), both above the RBA's 2-3% band, and trimmed mean CPI is 3.3% YoY (+0.8% QoQ). But the forward impulse has flipped: with the US-Iran peace framework signed (~14-15 June), the Strait of Hormuz reopening and Brent collapsing from ~$83.82 on 15 June into the high-$70s by 17-18 June (down ~40% from the conflict peak), the fuel-price driver of that inflation is being removed and the SoMP's forecast June-quarter headline peak near 4.8% now looks too high. Cheaper energy is disinflationary, so the inflation channel no longer clearly supports the hawkish RBA path that underpinned AUD; it is becoming a two-sided-to-softening input. Growth is solid but unspectacular - GDP +2.52% YoY and +0.27% QoQ in Q1-2026, ahead of the US (+0.40% QoQ) year-over-year - and the labour market is resilient (unemployment 4.49% in April, WPI 3.3% YoY), keeping services inflation sticky enough to prevent an outright Bearish read. The single highest-impact tactical event is the Q2 CPI on 29 July 2026; with fuel prices now falling, the risk on that print has shifted toward a downside (disinflationary) surprise that would unwind the hawkish premium - the cleanest near-term bear catalyst. On balance the hot-but-fading inflation and firm-but-unspectacular growth offset, leaving the factor Neutral rather than the prior Bullish.",
+        "key_data_points": [
+          "Headline CPI 4.05% YoY Q1 (OECD); ABS 4.6% YoY Mar-2026 (backward-looking)",
+          "Trimmed mean CPI 3.3% YoY Q1-2026 (above 2-3% band)",
+          "Oil collapse (Brent high-$70s) now disinflationary - fuel impulse fading",
+          "GDP +2.52% YoY, +0.27% QoQ; unemployment 4.49%; WPI 3.3% YoY",
+          "SoMP June-qtr headline peak ~4.8% now looks too high post-deal",
+          "Q2 CPI due 29 July 2026 - risk skewed to a downside surprise"
+        ],
+        "what_is_priced": "The market still partly anticipates sticky-high Australian inflation, but the oil collapse makes a cooler Q2 CPI increasingly likely. Our edge: the fuel-driven component is cost-push and is now unwinding fast, so the inflation surprise risk has flipped from upside to downside, which is why the tactical factor is Neutral rather than Bullish.",
+        "citations": [
+          3,
+          5,
+          7,
+          8,
+          37,
+          38
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "analysis": "Over 1-6 months the inflation impulse rolls over decisively now that the oil shock has resolved, keeping the growth-inflation factor Neutral for AUD. The RBA SoMP already projected headline CPI troughing near 2.25% by mid-late 2027 and trimmed mean easing to 2.5% by early 2028; with the US-Iran deal collapsing oil into the high-$70s, that disinflation arrives sooner and more certainly than the SoMP assumed, removing the fuel base-effect that had propped up the inflation path. Crucially the prior 'oil-contingent' binary is now resolved to the dovish side - the shock has ended - so the strategic question is no longer whether inflation stays high but how fast it falls and when the RBA starts easing. Growth is forecast below potential across the horizon, with unemployment drifting up to ~4.7% by mid-2028, a soft-landing profile that argues against sustained AUD strength from the growth channel; Australia's per-capita GDP remains a structural soft spot behind the population-driven headline. Relative to peers, Australia's growth (+2.52% YoY) screens well versus Canada (-0.05%), the euro area (+1.3%) and the UK (+1.09%) but lags Singapore (+6.0%). The factor stays Neutral rather than turning Bearish because firm growth and a tight labour market keep underlying inflation near the top of the band even as headline falls, and because a Neutral inflation reading is the correct strategic input when disinflation is the realized base case but the level of activity is still solid. Wage growth at 3.3% is consistent with inflation settling near 2.5-3%.",
+        "key_data_points": [
+          "Oil collapse accelerates disinflation vs SoMP baseline",
+          "RBA SoMP: headline CPI trough ~2.25% by mid-late 2027",
+          "Trimmed mean projected to 2.5% by early 2028",
+          "Unemployment forecast rising to ~4.7% by mid-2028",
+          "GDP +2.52% YoY beats CAD -0.05%, EUR 1.3%, GBP 1.09%",
+          "Wage growth 3.3% YoY consistent with 2.5-3% inflation"
+        ],
+        "what_is_priced": "Consensus prices a gradual Australian disinflation and soft landing; the oil collapse pulls that path forward. Our edge: the previously two-sided oil-contingent inflation binary has resolved to the dovish side, so the strategic factor is a clean Neutral - disinflation is realized, but solid activity prevents an outright Bearish read.",
+        "citations": [
+          5,
+          7,
+          8,
+          23,
+          37
+        ]
+      },
+      "horizon_split_explanation": "Tactical is now Neutral (58) because the hot inflation that supported the factor is backward-looking while the oil collapse turns the forward impulse disinflationary and skews the 29 July CPI to a downside surprise; strategic is Neutral (55) because disinflation is the realized base case post-deal yet solid growth and a tight labour market keep underlying inflation off an outright Bearish reading.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Risk Appetite & Sentiment",
+      "factor_number": 3,
+      "tactical_weight": 0.1,
+      "strategic_weight": 0.05,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 60,
+        "analysis": "AUD is the textbook high-beta risk-on currency, and the prevailing backdrop has just turned risk-on, making this a net tactical tailwind. The US-Iran peace framework signed around 14-15 June - with the Strait of Hormuz set to reopen toll-free and Iran cleared to resume oil exports - has removed the dominant geopolitical tail of the cycle. VIX has eased to ~16.2 by 15 June from ~22 on 10 June, Brent has collapsed from its conflict peak to ~$83.82 on 15 June and into the high-$70s by 17-18 June (down roughly 40%), and global equities have rallied on the de-escalation - a classic growth-positive, risk-on impulse that historically benefits pro-cyclical currencies like AUD. Cheaper oil also eases the global inflation/stagflation fear that had been a drag on risk assets. AUD's correlation to global equities and copper means this improvement transmits quickly; copper near record highs (~$6.51/lb) reinforces a firm global-growth/electrification signal. The one caveat is that the options market has not fully caught up: the AUD/USD 25-delta risk reversal at -0.71 vols still shows residual demand for downside protection, a lagging hedge from the prior risk-off regime that is likely to flatten as calm persists. The superannuation hedging mechanism remains a stabiliser. With the oil tail removed and VIX falling, the tactical risk-appetite signal flips to modestly Bullish - AUD is positioned to benefit from the de-escalation rather than exposed to an oil-driven risk-off, the reverse of the prior cycle. The residual risk is the 10 November tariff cliff, but that is a strategic-horizon event.",
+        "key_data_points": [
+          "VIX ~16.2 (15 Jun), down from ~22 on 10 Jun - risk-on",
+          "US-Iran peace framework (~14-15 Jun) removes the geopolitical tail",
+          "Brent collapsed to high-$70s (down ~40% from conflict peak) - risk-positive",
+          "Global equities rallied on the de-escalation",
+          "Copper ~$6.51/lb near record - firm growth signal",
+          "AUD/USD 25d 1M risk reversal -0.71 vols (lagging downside hedge)"
+        ],
+        "what_is_priced": "Equities and VIX (16.2) have repriced to the risk-on de-escalation, but the AUD risk-reversal skew (-0.71) still carries a lagging downside hedge from the prior regime. Our edge: high-beta AUD is a direct beneficiary of the Hormuz de-escalation and falling oil, and the stale put skew means the options market has not fully repriced the improved risk backdrop - a modest bullish tilt.",
+        "citations": [
+          37,
+          38,
+          39
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 52,
+        "analysis": "Strategically the risk-appetite factor is now Neutral, weighted lower (0.05) but still relevant given AUD's beta. The single largest risk-regime threat of the cycle - the Hormuz oil shock - has been resolved by the mid-June US-Iran framework, removing the stagflationary, risk-off tail that previously made this factor Bearish. What remains is a genuinely two-sided strategic picture: on the supportive side, oil is cheaper, VIX is low (~16.2), equities are near highs and the geopolitical overhang has lifted; on the cautionary side, the 10 November expiry of the US-China tariff truce is a dated event that could trigger a China-channel risk-off, and AUD as the most liquid China proxy is acutely exposed. China growth is stabilising rather than re-accelerating (Q1 GDP +5.0%, PMIs ~50.0). Copper near record highs and firm lithium argue the global growth/electrification narrative is intact. With the dominant oil tail gone but the tariff tail still live, the bullish de-escalation impulse and the residual tariff risk roughly offset over 1-6 months, so the factor is Neutral rather than Bearish - a clear improvement from the prior risk-off read. Confidence is low (52) because the risk regime hinges on the binary 10 November tariff outcome, which is not yet known.",
+        "key_data_points": [
+          "Hormuz oil shock resolved (US-Iran deal) - risk-off tail removed",
+          "US-China tariff truce expires 10 Nov 2026 (residual risk event)",
+          "China Q1-2026 GDP +5.0% YoY (stabilising)",
+          "Copper near record / lithium spodumene >$2,000/t (growth offset)",
+          "VIX ~16.2; equities near highs - risk-on base case",
+          "Super fund (~A$4.3T) rebalancing as strategic stabiliser"
+        ],
+        "what_is_priced": "Markets price a risk-on continuation after the de-escalation but carry little premium for the November tariff cliff. Our edge: with the oil tail removed the strategic risk factor is balanced rather than negative, but the tariff cliff remains an underpriced China-channel left-tail for a currency with AUD's beta - hence Neutral, not Bullish.",
+        "citations": [
+          30,
+          37,
+          39
+        ]
+      },
+      "horizon_split_explanation": "Tactical is Bullish (60) because the mid-June de-escalation and falling oil are a direct risk-on tailwind for high-beta AUD, while strategic is Neutral (52) because the dominant oil tail is removed but the dated 10 November tariff cliff keeps a residual China-channel risk that offsets the de-escalation bid over 1-6 months.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Flows & Positioning",
+      "factor_number": 4,
+      "tactical_weight": 0.1,
+      "strategic_weight": 0.06,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 60,
+        "analysis": "CFTC positioning has turned decisively softer in the latest week, a tactical headwind for AUD momentum. In the week to 9 June 2026, leveraged-money accounts cut AUD net longs to +42,292 contracts (long 71,653 / short 29,361), a sharp drop driven by 15,209 contracts of long liquidation plus 1,299 new shorts. Asset managers flipped from roughly flat (+856) the prior week to a net short of -12,083 (long 61,743 / short 73,826), an outright bearish positioning shift. Total open interest actually rose to 314,177, indicating fresh shorts are entering rather than longs simply closing - a more bearish signal than a pure long unwind. The leveraged net now sits around the 35th percentile of the cached ~6-month window, no longer crowded long but with negative weekly momentum. This week-over-week deterioration (leveraged net down ~16,500 from +58,800) suggests the speculative community is fading the AUD rally near 0.707. The flow signal is therefore tactically bearish: positioning momentum is negative and asset managers have moved net short into the strong REER. The mitigant is that the unwind clears prior crowding, reducing the risk of a disorderly long liquidation.",
+        "key_data_points": [
+          "Leveraged funds net +42,292 (L71,653/S29,361), -16,508 w/w",
+          "Leveraged longs -15,209, shorts +1,299 in week to 9 Jun",
+          "Asset managers net -12,083 (flipped from +856)",
+          "Open interest 314,177, up - new shorts entering",
+          "Leveraged net ~35th percentile of cached window",
+          "Net spec well inside +/-80k historical extreme threshold"
+        ],
+        "what_is_priced": "The market has begun fading AUD via fresh short positions as spot stalls near the top of its range. Our edge: this is not yet a stretched short, so the bearish positioning momentum is a tactical signal rather than a contrarian buy - but it is close to clearing, after which positioning ceases to be a drag.",
+        "citations": [
+          1,
+          7
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "analysis": "Over the strategic horizon positioning is neutral - neither stretched long nor short enough to be a contrarian signal. Leveraged net at +42,292 and the ~35th-percentile reading sit comfortably inside the brief's +/-80k extreme thresholds, so there is no positioning-driven reversal pressure in either direction. The asset-manager net short (-12,083) reflects partly a structural use of AUD as a funding/hedge currency rather than a pure directional bet, which the framework flags as a common AUD divergence between leveraged and real-money books. Open interest of 314,177 is healthy, indicating an engaged, liquid market with two-way flow. Strategically, the dominant flows are structural: superannuation FX-hedge rebalancing (~A$4.3T pool) that buys AUD in equity selloffs, and Japanese carry demand into AUD/JPY given the ~335bp rate gap. These offset the modest speculative bearishness. Because current positioning is mid-range and the structural flows are balanced, the factor generates no clear strategic directional signal. It would turn bullish (contrarian) only if specs pushed toward a net short extreme, or bearish if a renewed crowded long built above +80k.",
+        "key_data_points": [
+          "Leveraged net +42,292 (~35th pct) - mid-range, no extreme",
+          "Asset mgr net -12,083 - partly structural funding short",
+          "Open interest 314,177 - liquid, engaged market",
+          "+/-80k = historical AUD positioning extreme (brief)",
+          "Super fund ~A$4.3T hedge rebalancing - structural AUD bid in selloffs",
+          "Mrs. Watanabe AUD/JPY carry demand structural"
+        ],
+        "what_is_priced": "Positioning is balanced and prices no strong directional conviction. Our edge: the absence of a crowded long removes a key strategic downside risk that existed a month ago, making the flow backdrop cleaner for a carry-supported AUD than the price action alone suggests.",
+        "citations": [
+          1,
+          7
+        ]
+      },
+      "horizon_split_explanation": "Tactical is Bearish (60) on negative weekly positioning momentum (longs cut, AM flipping short, OI rising on new shorts), while strategic is Neutral (55) because the resulting mid-range positioning is well inside historical extremes and offset by structural super-fund and carry flows.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": "Positioning is not stretched - leveraged net +42,292 (~35th percentile) is far from the +/-80k extreme, so there is no imminent squeeze setup. The unwind trigger this week was the stalling rally near 0.707 and the rich REER prompting profit-taking; further triggers would be a soft 29 July CPI or a China growth scare. A squeeze, if it came, would more likely be a short-covering rally (asset managers are already net short) than a long capitulation. The other side of the trade sees AUD's record carry-to-vol and AAA fiscal status as reasons to fade the speculative shorts.",
+      "contrarian_analysis_strategic": "Strategically positioning offers no contrarian edge: the net spec is mid-range and the asset-manager short is partly structural funding rather than a directional bet that must unwind. With specs neither crowded long nor short, there is no asymmetric squeeze to harvest. The contrarian case only activates if leveraged net pushes beyond +80k (crowded long - fade) or flips to a deep aggregate net short (washed out - buy); neither holds today, so the factor stays a neutral input to the strategic score.",
+      "expression_assessment": null
+    },
+    {
+      "block": "External Balance & Terms of Trade",
+      "factor_number": 5,
+      "tactical_weight": 0.06,
+      "strategic_weight": 0.16,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 58,
+        "analysis": "The terms-of-trade picture is mixed in the tactical window, netting to Neutral. Iron ore 62% Fe - Australia's single most important export (~35% of revenue) - is range-bound near $98/t and, importantly, is largely unaffected by the oil move, so the bulk-commodity anchor is steady, neither a tailwind nor a clear drag. Coal is firmer: Newcastle thermal jumped to ~$147.55/t (an 11-week high, +41% YoY) after a deadly Shanxi mine explosion triggered China-wide safety suspensions, and premium hard coking coal sits ~$239/t. Lithium has turned sharply higher, with spodumene above US$2,000/t for the first time since October 2023, a clear positive for Australia's dominant spodumene exporters. The big change this cycle is energy: with the US-Iran peace framework signed and oil collapsing (Brent into the high-$70s from ~$83.82 on 15 June), the earlier oil-driven boost to LNG and coal export values is reversing, a modest negative for the energy slice of the export basket - but Australia is a net importer of refined fuels, so cheaper oil simultaneously lowers the import bill, and the two effects broadly offset. Australia's current account deficit at -3.68% of GDP (Q1-2026) is a structural drag but moves slowly and is not a tactical driver. Net, steady iron ore plus firm coal/lithium against a roughly neutral oil swing leaves the tactical terms-of-trade signal balanced. The factor's low tactical weight (0.06) reflects that flows take time to transmit to spot.",
+        "key_data_points": [
+          "Iron ore 62% Fe ~$98/t - range-bound, oil-insensitive (35% of exports)",
+          "Newcastle thermal coal ~$147.55/t, 11-week high (+41% YoY)",
+          "Premium hard coking coal ~$239/t",
+          "Lithium spodumene >US$2,000/t (first since Oct-2023)",
+          "Oil collapse: lower LNG/coal values but lower import bill (net ~flat)",
+          "Current account -3.68% of GDP Q1-2026"
+        ],
+        "what_is_priced": "The market treats Australia's terms of trade as stable, underweighting coal and lithium strength. Our edge: iron ore is oil-insensitive and steady, and the oil collapse is roughly neutral for Australia's net trade (lower export energy values offset by a cheaper import bill), so the terms-of-trade backdrop limits AUD downside even as iron ore caps the upside.",
+        "citations": [
+          25,
+          26,
+          27,
+          28,
+          30,
+          37
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 56,
+        "analysis": "At the strategic horizon, where this factor carries its heaviest weight (0.16), the external picture leans modestly Bearish for AUD. The current account deficit at -3.68% of GDP is a persistent structural drain that requires capital inflows to fund, and it has widened back out as the commodity boom normalised. Iron ore near $98/t is well below boom-era levels and faces a structurally softening China steel outlook as the property sector remains weak despite stimulus, capping Australia's largest export earner; critically, iron ore is unaffected by the oil move, so the de-escalation does nothing to help the dominant export. China - ~30-35% of Australian exports - is the swing variable: Q1 GDP at +5.0% and PMIs at the 50.0 threshold point to stabilisation, not re-acceleration, limiting upside to bulk-commodity demand. Coal and lithium strength is a genuine offset but smaller in revenue terms than iron ore. The post-deal oil collapse is mildly negative for the energy export slice (lower LNG/coal-linked values) but is offset by a lower refined-fuel import bill, so it is roughly neutral for the trade balance rather than the prior modest positive. The strong REER (115.86) compounds the external drag by eroding competitiveness over time. Net, the structural balance-of-payments backdrop is a strategic headwind that the rate factor must work against, justifying a modest Bearish stance.",
+        "key_data_points": [
+          "Current account -3.68% of GDP (structural deficit)",
+          "Iron ore ~$98/t, below boom levels, oil-insensitive; China steel soft",
+          "China ~30-35% of AU exports; Q1 GDP +5.0% (stabilising)",
+          "China mfg PMI 50.0 (at threshold) - no re-acceleration",
+          "Oil collapse ~neutral for trade balance (export vs import offset)",
+          "REER 115.86 erodes competitiveness over time"
+        ],
+        "what_is_priced": "Consensus prices Australia's terms of trade as stable with China stabilising, broadly fair. Our edge: a -3.68% current account, a rich REER and a structurally capped, oil-insensitive iron-ore outlook are an underappreciated strategic drag, and the oil collapse offers no terms-of-trade relief since it is roughly neutral for the trade balance - making external balance the main counterweight to the bullish rate factor.",
+        "citations": [
+          15,
+          26,
+          28,
+          31,
+          32,
+          37
+        ]
+      },
+      "horizon_split_explanation": "Tactical is Neutral (58) because steady oil-insensitive iron ore plus firm coal/lithium net against a roughly neutral oil swing and transmit slowly, while strategic is Bearish (56) because the structural current-account deficit, rich REER and capped iron-ore/China outlook dominate at the 0.16 strategic weight, with the oil collapse offering no offsetting terms-of-trade help.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Guidance & Credibility",
+      "factor_number": 6,
+      "tactical_weight": 0.07,
+      "strategic_weight": 0.12,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 62,
+        "analysis": "RBA communication is currently hawkish and high-credibility, an AUD-supportive guidance backdrop for the tactical window - though one whose underlying justification is now eroding. The 16 June decision was a unanimous hold at 4.35% with an explicit tightening bias: the Board said it 'will do what it considers necessary... including increasing the cash rate target further if required', and Governor Bullock reinforced this ('if we need to increase rates again, we will'), with no member reportedly considering a cut. Having delivered three hikes in 2026, the RBA has demonstrably acted on its hawkish guidance, bolstering credibility. The complication is timing: the 16 June hold and the May SoMP path to ~4.70% were framed against an oil-supply shock that has since reversed - the US-Iran peace framework (~14-15 June) and the oil collapse into the high-$70s remove the imported-inflation premise of that hawkishness. For the next 2-4 weeks the just-delivered guidance still anchors the front-end and supports AUD, since the RBA has not yet had a meeting at which to soften it. But the market knows the data has moved, so the credibility tailwind is live but decaying: the June minutes and especially the 11 August SoMP are the checkpoints at which the RBA is likely to acknowledge the changed oil/inflation backdrop and dial back the hawkish tone. Net, tactically Bullish on the still-fresh hawkish guidance, with the caveat that its premise has weakened.",
+        "key_data_points": [
+          "16 Jun: unanimous hold 4.35% with explicit hike bias",
+          "Bullock: 'if we need to increase rates again, we will'",
+          "Three RBA hikes delivered in 2026 (acted on guidance)",
+          "Hawkish guidance predates the oil collapse - premise now eroding",
+          "Small RBA-vs-market guidance gap (high credibility)",
+          "Next: June minutes, 11 Aug SoMP (likely tone softening)"
+        ],
+        "what_is_priced": "The market accepts the RBA's just-delivered hawkish-hold guidance, so the tactical credibility premium is largely priced. Our edge: the guidance was set before the oil collapse, so its hawkish premise is weakening - a dovish-leaning 11 August SoMP that acknowledges falling oil would move AUD more than a typical statement, and the tactical support is the lagging strength of pre-deal guidance.",
+        "citations": [
+          1,
+          5,
+          6,
+          37
+        ]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 56,
+        "analysis": "Over 1-6 months RBA credibility remains a structural AUD support carrying its heaviest weight (0.12), but its strength is conditioned on an inflation backdrop that has just changed. The RBA's transparent, data-dependent framework and its 2026 track record of acting on a hawkish bias give its forecasts high market trust. The strategic question - whether the RBA can sustain hawkish guidance as oil base-effects fade - has now been answered by events: with the US-Iran deal collapsing oil, the RBA's own forecasts have inflation rolling over faster, which will justify a less hawkish tone and, later, easing. Because Bullock has been willing to acknowledge two-way risks, a pivot will be communicated clearly rather than shocking the market - credibility-preserving but AUD-negative as it signals the carry fade. Relative to peers the RBA's guidance is still more hawkish than the on-hold Fed and the just-pivoting ECB/BoJ, a relative-credibility advantage that supports AUD on crosses even as the absolute hawkish bias softens. The post-2024 communication reforms (fewer meetings, press conferences, structured SoMP) raise the information content per event, amplifying guidance-driven AUD moves - which now cuts both ways. Net, credibility remains a durable strategic tailwind on a relative basis, but confidence is trimmed to 56 because the hawkish guidance that drove the AUD-positive read is now likely to be walked back as the oil-inflation premise unwinds.",
+        "key_data_points": [
+          "RBA data-dependent, high-trust framework; 2026 hikes delivered",
+          "Oil collapse undercuts the premise of the hawkish SoMP path",
+          "Bullock acknowledges two-way risks (credible, clear pivot if needed)",
+          "RBA still more hawkish than Fed (hold), ECB/BoJ (low base)",
+          "Post-2024 reforms raise info content per event (cuts both ways)",
+          "Inflation roll-over likely to justify a softer tone this horizon"
+        ],
+        "what_is_priced": "Markets price the RBA as credibly hawkish but now expect an earlier normalisation as oil falls. Our edge: the RBA's strong relative-credibility versus the pivoting Fed/ECB/BoJ still supports AUD on crosses, but the absolute hawkish guidance is set to be walked back, so the strategic credibility tailwind is real yet fading - hence the trimmed confidence.",
+        "citations": [
+          1,
+          5,
+          6,
+          15,
+          16,
+          37
+        ]
+      },
+      "horizon_split_explanation": "Both horizons are Bullish; tactical confidence (62) edges strategic (56) because the just-delivered hawkish hold locks guidance for the near term, while over 1-6 months the post-deal oil collapse undercuts the hawkish premise and the RBA is likely to communicate a credibly-softer tone, tempering the strategic support.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Event Risk & Geopolitics",
+      "factor_number": 7,
+      "tactical_weight": 0.05,
+      "strategic_weight": 0.05,
+      "tactical": {
+        "stance": "Bearish",
+        "confidence": 55,
+        "analysis": "The near-term event calendar still leans modestly AUD-negative, but the composition has changed with the oil shock now resolved. The dominant prior tail - a Hormuz escalation - is gone: the US-Iran peace framework was signed (~14-15 June) and the Strait is set to reopen toll-free with Iranian oil returning, an event that has already played out as risk-on. What now dominates the tactical event risk is the data: the Q2 CPI on 29 July is a binary, and with fuel prices collapsing the skew has shifted to a downside (disinflationary) surprise that would unwind the hawkish RBA premium and pressure AUD - the cleanest near-term bear catalyst. The 25 June and 23 July labour-force releases are smaller swing events. Australia's quarterly CPI cadence concentrates risk into single prints, amplifying event-driven moves. The actual reopening of Hormuz and the pace of Iranian barrels returning are themselves events to watch - a faster-than-expected supply return would deepen the oil decline and the disinflation. The AUD/USD risk-reversal skew (-0.71, puts bid) shows the options market still hedging downside, a lagging stance from the prior regime. China policy events (a July Politburo meeting on stimulus) are two-sided but lean supportive. Net, with the soft-CPI risk now the leading identifiable catalyst and the oil-supply-return process disinflationary, the tactical event factor stays modestly Bearish. The low 0.05 weight reflects that these are tail/timing events, not the base case.",
+        "key_data_points": [
+          "US-Iran deal signed (~14-15 Jun); Hormuz reopening - escalation tail removed",
+          "Q2 CPI 29 Jul 2026 - now skewed to a soft/disinflationary surprise",
+          "Pace of Iranian oil return = watch event, deepens disinflation",
+          "Labour force 25 Jun, 23 Jul (smaller swing events)",
+          "AUD/USD 25d RR -0.71 (lagging downside hedge)",
+          "China Politburo (Jul) - two-sided, lean supportive"
+        ],
+        "what_is_priced": "With the Hormuz escalation tail removed, the options market's -0.71 skew is a lagging hedge. Our edge: the 29 July CPI is now the leading binary and, with oil collapsing, its risk is skewed to a soft print that unwinds the hawkish premium - an asymmetric AUD downside the calm-vol surface underprices.",
+        "citations": [
+          37,
+          39
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 58,
+        "analysis": "The strategic event calendar contains a clear, dated downside catalyst: the US-China tariff truce expires on 10 November 2026. As the most liquid China proxy in G10, AUD is acutely exposed to a tariff re-escalation that would hit Chinese growth and Australian bulk-commodity demand through the same channel - and, unlike the oil shock, this is a risk the de-escalation does nothing to remove. The prior second tail, the persistence of the Hormuz oil shock, has now been resolved by the mid-June US-Iran framework, so the stagflationary geopolitical overhang is gone; what remains on the energy side is the disinflationary consequence of cheaper oil, which feeds the carry-fade rather than an event tail. Domestically, the political backdrop is stable (next federal election due by May 2028, AAA-rated sovereign), so domestic event risk is low, and the December MYEFO is unlikely to move markets given strong public finances. China's NPC follow-through and any 2026 stimulus deployment are the main two-sided strategic events. Net, the November tariff cliff is now the single dominant dated strategic risk, tilting the event factor modestly Bearish, with confidence (58) slightly above tactical because the tariff date is fixed and high-impact. A tariff re-escalation is the event most likely to invalidate a bullish AUD thesis over the strategic window.",
+        "key_data_points": [
+          "US-China tariff truce expires 10 Nov 2026 (dated, high-impact)",
+          "AUD = most liquid China proxy (acute tariff exposure)",
+          "Hormuz oil-shock tail resolved by US-Iran deal (removed)",
+          "Cheaper oil now feeds the carry-fade, not an event tail",
+          "Domestic politics stable; election due by May 2028",
+          "China NPC/stimulus follow-through two-sided"
+        ],
+        "what_is_priced": "Markets under-price the 10 November tariff cliff, treating the truce as likely to roll. Our edge: with the oil-shock tail removed, the tariff cliff is now the single largest dated strategic risk for a China-proxy currency, and its asymmetric downside is not reflected in calm vol - justifying a Bearish event lean.",
+        "citations": [
+          34,
+          39,
+          1
+        ]
+      },
+      "horizon_split_explanation": "Both horizons are Bearish; strategic confidence (58) slightly exceeds tactical (55) because the dated 10 November tariff cliff is a concrete high-impact catalyst the de-escalation does not remove, whereas tactical downside now hinges on the soft-CPI binary and the disinflationary pace of Iranian oil returning rather than the (now-resolved) oil escalation.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Fiscal & Sovereign Risk",
+      "factor_number": 8,
+      "tactical_weight": 0.04,
+      "strategic_weight": 0.07,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 60,
+        "analysis": "Australia's fiscal and sovereign profile is among the strongest in G10, a quietly AUD-supportive factor. All three major agencies rate Australia at the top with stable outlooks: S&P AAA/A-1+, Moody's Aaa, Fitch AAA (Fitch affirmed Oct 2025). Gross government debt is $1,051.0bn, just 34.0% of GDP per the May 2026 Budget - low by G10 standards and a fraction of US, UK or euro-area ratios. The underlying cash deficit is a modest $31.5bn (~1% of GDP), leaving substantial fiscal headroom. In the current high-rate, risk-aware environment, this AAA balance sheet is a tactical safe-harbour attribute that supports AUD relative to more indebted peers. Sovereign CDS is structurally tight (low-teens to ~20bp, consistent with AAA), implying negligible credit risk premium (best available, flagged). The one watch-item is state debt - Victoria has been downgraded and state borrowing is rising - but this is not a sovereign-level tactical concern. Net, the fiscal factor is a small but reliable AUD positive.",
+        "key_data_points": [
+          "Ratings: S&P AAA, Moody's Aaa, Fitch AAA (all Stable)",
+          "Gross debt $1,051.0bn = 34.0% of GDP (2026-27 Budget)",
+          "Underlying cash deficit $31.5bn (~1% of GDP)",
+          "Sovereign CDS structurally tight ~low-teens-20bp (flagged)",
+          "Net debt ~$616bn rising to ~21.9% GDP by 2029-30",
+          "Victoria state downgrade a contained sub-sovereign watch-item"
+        ],
+        "what_is_priced": "Australia's AAA status is well-known and largely in the price, contributing little tactical alpha on its own. Our edge: even after the oil-shock de-escalation, in a still-uncertain regime facing the November tariff cliff the fiscal safe-harbour attribute retains marginal relative value versus heavily-indebted peers (US, UK), modestly supporting AUD on crosses.",
+        "citations": [
+          1
+        ]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 62,
+        "analysis": "Strategically, Australia's fiscal strength is a durable AUD support carrying a 0.07 weight. With gross debt at 34.0% of GDP and a deficit near 1%, Australia has genuine fiscal space to respond to a downturn without threatening its AAA ratings - a structural advantage over the US (deficit ~6%+ of GDP) and most of Europe. The deficit is projected to widen only modestly to ~$34.4bn (~1.0% of GDP) by FY2028-29, a benign trajectory. This balance-sheet strength underpins foreign-investor confidence in ACGBs and helps fund the -3.68% current-account deficit at low risk premia. The principal strategic watch-item is rising state debt, particularly Victoria (net debt heading toward ~$194bn by mid-2029, S&P flagging AA- risk), but states are sub-sovereign and do not impair the Commonwealth rating. Bond auctions remain well-received and there is no rollover stress. Relative to peers, Australia's fiscal headroom and AAA trifecta are a clear strategic differentiator that supports AUD's structural appeal. Confidence (62) is the highest among the factors precisely because the fiscal data is hard, stable and unambiguous.",
+        "key_data_points": [
+          "Gross debt 34.0% of GDP - genuine fiscal headroom",
+          "Deficit widening only to ~1.0% GDP by FY2028-29",
+          "AAA trifecta supports low-risk ACGB funding of CA deficit",
+          "US deficit ~6%+ GDP - large AU relative advantage [context]",
+          "Victoria net debt ~$194bn by mid-2029 (sub-sovereign risk)",
+          "Well-received bond auctions, no rollover stress"
+        ],
+        "what_is_priced": "The market takes Australia's fiscal strength for granted, pricing little risk premium. Our edge: as fiscal sustainability becomes a larger global theme (US deficits, European debt), Australia's AAA headroom is an underappreciated strategic anchor that supports AUD versus fiscally-stretched majors.",
+        "citations": [
+          1
+        ]
+      },
+      "horizon_split_explanation": "Both horizons are Bullish; strategic confidence (62) exceeds tactical (60) because fiscal strength is a slow-moving structural attribute whose relative value compounds over the 1-6 month horizon as global fiscal-sustainability concerns build, while its tactical impact is marginal.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    },
+    {
+      "block": "Market Structure & Volatility",
+      "factor_number": 9,
+      "tactical_weight": 0.05,
+      "strategic_weight": 0.03,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "analysis": "AUD/USD market structure is range-bound and the vol surface calm, netting to a neutral structural signal. Spot at 0.70695 sits near the top of a multi-month 0.66-0.71 range, with momentum stalling (1M -1.01%, 3M -1.41%) after a year-long uptrend. The moving-average configuration is broadly stacked bullishly (50d ~0.708 > 100d ~0.695 > 200d ~0.670) but flattening at the front, so the structural uptrend is intact yet losing thrust (estimate). Key resistance clusters at 0.7100 (range cap, option-barrier interest) and 0.7200; support sits at the 0.7000 round number, ~0.6850, and the 0.6700 200-day MA / CTA trigger. On vol, 1M ATM implied is ~7.50% and 3M ~7.81%, both in the lower third of AUD's long-run ~9-11% range (IV percentile ~35) - options are relatively cheap. The variance risk premium is modest: 1M IV 7.50% sits ~0.7pt above 20-day realised of 6.8%, so the market is not underpricing realised moves. The 25-delta 1M risk reversal at -0.71 (puts bid) shows persistent downside-hedging demand, and the contango term structure signals no acute near-term event premium. Net, structure is neutral - a consolidating range with cheap, slightly downside-skewed options.",
+        "key_data_points": [
+          "Spot 0.70695 near top of 0.66-0.71 range; momentum stalling",
+          "1M IV 7.50%, 3M IV 7.81% (~35th percentile, cheap)",
+          "RV20 6.8% vs 1M IV 7.5% - modest ~0.7pt vol premium",
+          "25d 1M risk reversal -0.71 vols (puts bid)",
+          "Resistance 0.7100/0.7200; support 0.7000/0.6850/0.6700 (200d) (estimate)",
+          "Vol term structure contango - no acute event premium"
+        ],
+        "what_is_priced": "The vol surface prices calm consolidation with a persistent downside skew, and IV near the 35th percentile signals cheap optionality. Our edge: with RV running just below IV and the skew tilted to puts, cheap AUD downside protection is available to hedge the tariff/oil tails without overpaying.",
+        "citations": [
+          35,
+          1,
+          5
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 52,
+        "analysis": "Strategically (0.03 weight) the structural backdrop is neutral and provides context rather than direction. The year-long uptrend that lifted AUD/USD +7.10% has matured into a high-level range, with the 200-day MA near 0.6700 marking the structural trend line that systematic funds watch. A sustained break above 0.7200 would signal a fresh up-leg and pull in trend-following flows; a break below 0.6700 would flip CTAs short and confirm a strategic top - the two scenarios that would resolve the range. Vol term structure in contango with 6M IV ~8.36% implies the market expects only a gradual broadening of ranges, not a regime shift. The risk-reversal skew steepens to -1.10 at 1Y, showing structural demand for longer-dated AUD downside protection consistent with its high-beta character. There is no acute strategic vol event priced, so the surface offers cheap exposure to express a directional view either way. Net, market structure is a neutral strategic input - the range and the cheap-but-skewed vol surface neither confirm nor deny the fundamental view. Confidence (52) is low because structure follows fundamentals over this horizon rather than leading them.",
+        "key_data_points": [
+          "AUD/USD +7.10% over 1Y, now ranging at high level",
+          "200d MA ~0.6700 = structural trend/CTA line (estimate)",
+          "Break >0.7200 = up-leg; <0.6700 = strategic top (estimate)",
+          "6M IV ~8.36%, contango - gradual range broadening",
+          "1Y 25d risk reversal -1.10 (structural downside skew)",
+          "No acute strategic vol event priced"
+        ],
+        "what_is_priced": "The surface prices a maturing range with no strategic event premium and structural downside skew. Our edge: cheap longer-dated vol lets a directional AUD view be expressed asymmetrically, and the 0.7200/0.6700 break levels are the cleanest structural signposts for the strategic thesis.",
+        "citations": [
+          35,
+          1
+        ]
+      },
+      "horizon_split_explanation": "Both horizons are Neutral; tactical confidence (55) slightly exceeds strategic (52) because near-term range boundaries and the cheap-vol read are concrete and observable, whereas strategically market structure is a follower of fundamentals and offers less standalone signal.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": "With 1M IV ~7.5% near the 35th percentile and a -0.71 put-skewed risk reversal, AUD optionality is cheap and downside protection modestly favoured - a directional bull view is best expressed partly through long calls or call spreads to exploit cheap vol, while bears can buy puts cheaply to harvest the skew and hedge the tariff/oil tail. Because realised (6.8%) runs just below implied (7.5%), there is no strong case to prefer spot over options on a variance basis; the slight IV premium and cheap absolute level tilt toward options expression. The contango term structure means there is no near-term event to position around, so structures can be set at the tenor matching the catalyst (e.g. 1M-2M around the 29 July CPI). For carry-oriented bulls, the deep AUD/JPY and AUD/CHF carry (carry-to-vol 43-56) argues for spot/forward expression on those crosses rather than paying option premium."
+    },
+    {
+      "block": "USD Liquidity & Funding",
+      "factor_number": 10,
+      "tactical_weight": 0.11,
+      "strategic_weight": 0.12,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "analysis": "USD funding conditions are benign in the tactical window, a neutral input for AUD. SOFR is stable at 3.69%, just above effective fed funds at 3.63%, with no money-market dislocation evident. The Fed balance sheet stands at $6.725T, with QT having slowed; reserve balances remain ample, so there is no acute USD scarcity squeezing offshore borrowers. The broad USD index at 119.51 is firm but not spiking, consistent with a 'middle-of-the-dollar-smile' regime rather than a crisis-driven dollar squeeze. Cross-currency basis data is terminal-gated and not freely available for June 2026, but the typical configuration has all bases negative (USD funding premium), with AUD/USD 3M mildly negative to near-flat - less stressed than EUR or JPY (best available, flagged). Australian banks are structural offshore USD borrowers, so a sharp basis widening would pressure AUD, but no such stress is signalled by stable SOFR and a contained VIX (16.2). Net, USD liquidity is neither a tailwind nor a headwind tactically - it is a quiet, neutral backdrop. The factor's 0.11 weight makes it material, so the absence of funding stress is itself modestly reassuring for AUD.",
+        "key_data_points": [
+          "SOFR 3.69% vs EFFR 3.63% - stable, no dislocation",
+          "Fed balance sheet $6.725T; QT slowed, reserves ample",
+          "Broad USD index 119.51 - firm, mid-dollar-smile",
+          "AUD/USD 3M basis mildly negative/near-flat (flagged gap)",
+          "VIX 16.2 - no funding-stress signal",
+          "Australian banks structural offshore USD borrowers"
+        ],
+        "what_is_priced": "The market prices ample USD liquidity and no funding stress, which is correct. Our edge: with the basis not freely observable, the key tactical insight is the absence of stress - stable SOFR and contained VIX mean USD funding is not a transmission channel for AUD weakness right now, removing a tail that often bites high-beta currencies.",
+        "citations": [
+          34,
+          39,
+          40
+        ]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 54,
+        "analysis": "Strategically, USD liquidity conditions lean mildly AUD-supportive over 1-6 months, weighted 0.12. The Fed is on hold at 3.50-3.75% and the balance sheet at $6.725T with QT decelerating, which points to a stable-to-easing global USD liquidity backdrop rather than a tightening one - supportive for non-USD high-beta currencies like AUD. A firm-but-not-spiking broad USD (119.51) sitting in the middle of the dollar smile is the regime where AUD historically outperforms - it underperforms only at the smile's extremes (US-exceptionalism strength or crisis-driven strength). If the Fed eventually shifts toward cuts while the RBA holds at 4.35%, the widening AU-US differential plus easier USD liquidity would be a double tailwind for AUD. The main strategic risk is a year-end/quarter-end USD funding squeeze or a tariff-driven flight to dollars that would widen the basis and pressure AUD via the structural offshore-borrowing channel. Cross-currency basis remains a flagged data gap, lowering confidence. Net, the strategic USD-liquidity factor is modestly bullish AUD on the dollar-smile logic and a non-tightening Fed, contingent on no funding-stress event. Confidence (54) reflects the data gap and the two-sided risk around the November tariff event.",
+        "key_data_points": [
+          "Fed on hold 3.50-3.75%; balance sheet $6.725T, QT slowing",
+          "Broad USD 119.51 = mid-dollar-smile (AUD-favourable)",
+          "Fed-cut + RBA-hold = double AUD tailwind scenario [analysis]",
+          "Risk: year-end USD squeeze widens basis, hits AUD",
+          "3M EUR/USD & JPY/USD basis = USD-funding benchmarks (gap)",
+          "AUD underperforms only at dollar-smile extremes"
+        ],
+        "what_is_priced": "Markets price stable USD liquidity and a Fed firmly on hold. Our edge: the dollar-smile positioning is underappreciated - a non-tightening Fed with a firm-but-stable USD is precisely the regime in which AUD's carry advantage is allowed to express, a structural strategic support as long as no funding-squeeze tail fires.",
+        "citations": [
+          15,
+          34,
+          39,
+          40
+        ]
+      },
+      "horizon_split_explanation": "Tactical is Neutral (55) because USD funding shows no current stress in either direction, while strategic is Bullish (54) because a Fed-on-hold, mid-dollar-smile regime with decelerating QT is the backdrop in which AUD's carry advantage can express over 1-6 months - a directional lean that the calm tactical snapshot does not yet show.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null
+    }
+  ],
+  "synthesis": {
+    "tactical": {
+      "net_stance": "Bullish",
+      "conviction": 3,
+      "overall_confidence": 61,
+      "weighted_score": {
+        "calculation": [
+          {
+            "factor": "1: Policy & Rates",
+            "stance_score": 1,
+            "confidence_pct": 64,
+            "confidence_adjusted_score": 0.64,
+            "weight": 0.24,
+            "weighted_contribution": 0.1536
+          },
+          {
+            "factor": "2: Inflation & Growth",
+            "stance_score": 0,
+            "confidence_pct": 58,
+            "confidence_adjusted_score": 0.0,
+            "weight": 0.18,
+            "weighted_contribution": 0.0
+          },
+          {
+            "factor": "3: Risk Appetite",
+            "stance_score": 1,
+            "confidence_pct": 60,
+            "confidence_adjusted_score": 0.6,
+            "weight": 0.1,
+            "weighted_contribution": 0.06
+          },
+          {
+            "factor": "4: Flows & Positioning",
+            "stance_score": -1,
+            "confidence_pct": 60,
+            "confidence_adjusted_score": -0.6,
+            "weight": 0.1,
+            "weighted_contribution": -0.06
+          },
+          {
+            "factor": "5: External Balance/ToT",
+            "stance_score": 0,
+            "confidence_pct": 58,
+            "confidence_adjusted_score": 0.0,
+            "weight": 0.06,
+            "weighted_contribution": 0.0
+          },
+          {
+            "factor": "6: Guidance & Credibility",
+            "stance_score": 1,
+            "confidence_pct": 62,
+            "confidence_adjusted_score": 0.62,
+            "weight": 0.07,
+            "weighted_contribution": 0.0434
+          },
+          {
+            "factor": "7: Event Risk & Geopol",
+            "stance_score": -1,
+            "confidence_pct": 55,
+            "confidence_adjusted_score": -0.55,
+            "weight": 0.05,
+            "weighted_contribution": -0.0275
+          },
+          {
+            "factor": "8: Fiscal & Sovereign",
+            "stance_score": 1,
+            "confidence_pct": 60,
+            "confidence_adjusted_score": 0.6,
+            "weight": 0.04,
+            "weighted_contribution": 0.024
+          },
+          {
+            "factor": "9: Market Structure/Vol",
+            "stance_score": 0,
+            "confidence_pct": 55,
+            "confidence_adjusted_score": 0.0,
+            "weight": 0.05,
+            "weighted_contribution": 0.0
+          },
+          {
+            "factor": "10: USD Liquidity",
+            "stance_score": 0,
+            "confidence_pct": 55,
+            "confidence_adjusted_score": 0.0,
+            "weight": 0.11,
+            "weighted_contribution": 0.0
+          }
+        ],
+        "net_score": 0.1935,
+        "interpretation": "Net weighted score of +0.194 is mildly positive, led by Policy & Rates (+0.154) and supported by the now risk-on Risk Appetite factor (+0.060) following the mid-June de-escalation, against the Flows drag (-0.060) and Event Risk (-0.028). Inflation & Growth has fallen to Neutral (0.000) as the oil collapse turns the forward inflation impulse disinflationary. The score sits in the modestly-bullish band - a measured directional lean, not a high-conviction signal.",
+        "mapping_to_conviction": "A net score of +0.194 maps to conviction 3/5 - a real but measured directional lean where still-high carry and a risk-on de-escalation lead, but the realized carry fade, rich valuation and negative flow momentum prevent a stronger reading."
+      },
+      "rationale": "At tactical weights the score is led by Policy & Rates (0.24, +0.154) on AUD's still-high absolute carry - a 4.35% RBA rate locked for the window and a ~+56bp AU-US front-end gap - now reinforced by the Risk Appetite factor (+0.060), which has flipped Bullish as the mid-June US-Iran peace framework collapsed oil into the high-$70s and eased VIX to ~16.2, a clean risk-on tailwind for high-beta AUD. Guidance & Credibility (+0.043) adds the lagging strength of the RBA's 16 June hawkish hold. The decisive change this cycle is that Inflation & Growth has fallen from Bullish to Neutral (0.000): with the oil shock resolved, the hot inflation that justified the hawkish RBA is backward-looking and the forward impulse is now disinflationary, so the imported-inflation pillar of the bull case is gone and the market will begin pricing the end of the hiking cycle - the strategic carry fade is now a realized event. Against the bulls, Flows (-0.060) reflects the sharp one-week positioning unwind (leveraged longs -15,209, asset managers flipping to -12,083) and Event Risk (-0.028) now flags the 29 July CPI as skewed to a soft, disinflationary surprise rather than an oil-escalation tail. The neutral factors - External Balance, Market Structure, USD Liquidity - net to roughly zero. What is priced: the market still embeds high carry but is starting to price out further RBA tightening as oil falls, so the edge is the carry-to-vol ranking (43-56 vs JPY/CHF) and the risk-on de-escalation rather than the rate level. The path of least resistance is a high-level consolidation near 0.70-0.71, with carry and risk-on rewarding holders but the rich REER (115.86) and the dawning carry fade capping upside. Key dated catalysts are the RBA June minutes, the 25 June and 23 July labour-force prints, the pace of Iranian oil returning, and above all the 29 July Q2 CPI. Conviction drivers are the size of the absolute carry advantage, the risk-on de-escalation and the AAA fiscal backdrop; the limiters are stretched valuation, negative positioning momentum and the now-realized carry fade. Actionability is moderate: the cleanest tactical expression is via carry-rich crosses (JPY/CHF-funded AUD longs, short EUR/AUD) rather than outright AUD/USD, where the thin ~+56bp carry offers only a ~42-pip breakeven cushion. The view is a measured tactical long-carry-plus-risk-on-AUD bias, not a high-conviction directional call, justifying conviction 3.",
+      "g10_ranking": {
+        "rank": 4,
+        "out_of": 11,
+        "beats": [
+          "JPY",
+          "EUR",
+          "CHF",
+          "SEK",
+          "CAD",
+          "NZD"
+        ],
+        "loses_to": [
+          "NOK",
+          "SGD",
+          "USD"
+        ],
+        "commentary": "AUD ranks 4th tactically: its top-tier carry and AAA fiscal status beat the low-yield funders (JPY, CHF, EUR, SEK) and the soft-growth commodity peer CAD, and edge the narrowly-trailing NZD on the Antipodean rate gap. It loses to fellow high-yielder NOK (similar rate, stronger external surplus), the resilient SGD (6% growth, appreciating NEER), and a firm USD in the current mid-smile regime."
+      },
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "outcome": "AUD/USD consolidates 0.6950-0.7150; carry-supported high-level range",
+          "conditions": [
+            "RBA holds at 4.35% but market starts pricing out further hikes as oil falls",
+            "Iron ore holds ~$95-105/t; oil stays low (Brent high-$70s) post-deal, risk-on persists",
+            "29 July CPI prints in line to slightly soft as fuel inflation fades"
+          ],
+          "path": "Choppy sideways grind near 0.70-0.71 as still-high carry and risk-on de-escalation reward holders while the rich REER and the dawning carry fade cap rallies; pullbacks toward 0.6950 bought on carry."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "outcome": "AUD/USD breaks 0.7150 toward 0.7250",
+          "conditions": [
+            "Risk-on de-escalation extends; equities rally and VIX stays <16",
+            "Fresh China stimulus lifts iron ore and AUD/JPY carry demand"
+          ]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "outcome": "AUD/USD falls toward 0.6850",
+          "conditions": [
+            "Soft Q2 CPI (fuel-driven) unwinds the hawkish-RBA premium / carry",
+            "China growth scare or a renewed risk-off episode hits high-beta AUD"
+          ]
+        }
+      },
+      "path_expectation": "Expect a high-level consolidation centred on 0.70-0.71 over the next 2-4 weeks, shaped more by external catalysts than domestic momentum. Still-high absolute carry, the risk-on de-escalation and the AAA backdrop should attract dip-buyers toward 0.6950, while the rich REER and the market's dawning recognition of the carry fade (as oil-driven inflation rolls over) cap rallies near 0.7100-0.7150. Volatility should stay subdued (1M IV ~7.5%, VIX ~16.2) given the geopolitical de-escalation, with the 29 July CPI the most likely vol catalyst and the pace of Iranian oil returning a secondary one. The pattern is a grind rather than a trend, and the AUD/JPY and AUD/CHF carry crosses should outperform AUD/USD.",
+      "conviction_ladder": {
+        "current": 3,
+        "increase_to_5_if": [
+          "RBA reaffirms its hike bias at 11 Aug AND Q2 CPI surprises hot despite falling oil",
+          "Risk-on extends with iron ore breaking above $120/t on fresh China stimulus while VIX stays <16"
+        ],
+        "increase_to_4_if": [
+          "Q2 CPI prints in line or hot, deferring the market's end-of-cycle pricing",
+          "Leveraged-fund net positioning rebuilds above +60k confirming renewed bullish flow"
+        ],
+        "decrease_to_3_if": [
+          "Already at 3 - maintained while carry leads but valuation/flows cap upside"
+        ],
+        "decrease_to_2_if": [
+          "Soft Q2 CPI (<4.0% headline) confirms the disinflation and compresses AU-US front-end below +40bp",
+          "Risk-off episode pushes VIX above 22 and AUD/USD below 0.6900"
+        ],
+        "decrease_to_1_if": [
+          "RBA signals an explicit pivot toward cuts at 11 Aug SoMP as oil-inflation fades",
+          "US-China tariff escalation or a fresh risk-off shock drives AUD/USD below 0.6700 (200d MA)"
+        ]
+      },
+      "risk_reward": {
+        "base_case_payoff": "+50 to +80 pips on carry-supported grind toward 0.7150 (plus ~+25bp/month carry vs USD)",
+        "downside_case_loss": "-120 to -170 pips toward 0.6850 on soft CPI or risk-off",
+        "risk_reward_ratio": "~0.6:1 outright AUD/USD (base +65 vs downside -150), improving to ~1.5:1 expressed as long-carry crosses (AUD/JPY, AUD/CHF)",
+        "asymmetry_assessment": "Outright AUD/USD risk/reward is unattractive given rich valuation, the dawning carry fade and the downside skew; the asymmetry improves materially when the carry view is expressed via JPY/CHF-funded crosses, where the still-high absolute rate cushion offsets the high-beta downside and benefits from the risk-on de-escalation."
+      }
+    },
+    "strategic": {
+      "net_stance": "Bullish",
+      "conviction": 2,
+      "overall_confidence": 56,
+      "weighted_score": {
+        "calculation": [
+          {
+            "factor": "1: Policy & Rates",
+            "stance_score": 1,
+            "confidence_pct": 55,
+            "confidence_adjusted_score": 0.55,
+            "weight": 0.24,
+            "weighted_contribution": 0.132
+          },
+          {
+            "factor": "2: Inflation & Growth",
+            "stance_score": 0,
+            "confidence_pct": 55,
+            "confidence_adjusted_score": 0.0,
+            "weight": 0.1,
+            "weighted_contribution": 0.0
+          },
+          {
+            "factor": "3: Risk Appetite",
+            "stance_score": 0,
+            "confidence_pct": 52,
+            "confidence_adjusted_score": 0.0,
+            "weight": 0.05,
+            "weighted_contribution": 0.0
+          },
+          {
+            "factor": "4: Flows & Positioning",
+            "stance_score": 0,
+            "confidence_pct": 55,
+            "confidence_adjusted_score": 0.0,
+            "weight": 0.06,
+            "weighted_contribution": 0.0
+          },
+          {
+            "factor": "5: External Balance/ToT",
+            "stance_score": -1,
+            "confidence_pct": 56,
+            "confidence_adjusted_score": -0.56,
+            "weight": 0.16,
+            "weighted_contribution": -0.0896
+          },
+          {
+            "factor": "6: Guidance & Credibility",
+            "stance_score": 1,
+            "confidence_pct": 56,
+            "confidence_adjusted_score": 0.56,
+            "weight": 0.12,
+            "weighted_contribution": 0.0672
+          },
+          {
+            "factor": "7: Event Risk & Geopol",
+            "stance_score": -1,
+            "confidence_pct": 58,
+            "confidence_adjusted_score": -0.58,
+            "weight": 0.05,
+            "weighted_contribution": -0.029
+          },
+          {
+            "factor": "8: Fiscal & Sovereign",
+            "stance_score": 1,
+            "confidence_pct": 62,
+            "confidence_adjusted_score": 0.62,
+            "weight": 0.07,
+            "weighted_contribution": 0.0434
+          },
+          {
+            "factor": "9: Market Structure/Vol",
+            "stance_score": 0,
+            "confidence_pct": 52,
+            "confidence_adjusted_score": 0.0,
+            "weight": 0.03,
+            "weighted_contribution": 0.0
+          },
+          {
+            "factor": "10: USD Liquidity",
+            "stance_score": 1,
+            "confidence_pct": 54,
+            "confidence_adjusted_score": 0.54,
+            "weight": 0.12,
+            "weighted_contribution": 0.0648
+          }
+        ],
+        "net_score": 0.1888,
+        "interpretation": "Net weighted score of +0.189 is mildly positive: Policy & Rates (+0.132), Guidance (+0.067) and USD Liquidity (+0.065) outweigh the heavier strategic External Balance drag (-0.090) and the Event-risk headwind (-0.029). Risk Appetite has improved to Neutral (0.000) now the oil tail is removed. The rate-and-credibility complex still wins, but the carry support is now decaying as the post-deal oil collapse pulls the disinflation/easing path forward.",
+        "mapping_to_conviction": "A net score of +0.189 with the strategic External Balance factor (0.16 weight) actively opposing and the rate support now fading maps to conviction 2/5 - a low-conviction bullish lean where structural valuation and current-account drags, plus the realized carry fade, nearly offset the still-elevated absolute carry."
+      },
+      "rationale": "At strategic weights the External Balance factor jumps to 0.16, remaining the chief counterweight (-0.090) to the still-dominant Policy & Rates factor (0.24, +0.132). The bull case rests on Australia's still-high absolute carry, RBA credibility (+0.067) and a supportive mid-dollar-smile USD-liquidity regime (+0.065). But the central strategic shift this cycle is that the mid-June US-Iran peace framework and the oil collapse into the high-$70s have removed the imported-inflation driver of the RBA's hawkishness: the market will now price the end of the hiking cycle and eventual easing, so the carry fade that was previously a future risk is being realized, which is why Policy & Rates confidence is trimmed and the factor is a decaying rather than self-reinforcing support. The bear case is structural and intact: a -3.68% current account, the richest REER in the G10 ex-SGD (115.86), a capped, oil-insensitive iron-ore/China outlook, and the dated 10 November US-China tariff cliff. Offsetting the downgrade, Risk Appetite improves to Neutral as the oil-shock risk-off tail is removed by the de-escalation, which is why the net score (+0.189) actually firms marginally versus the prior +0.177 even as the rate support weakens - the removal of the risk-off oil tail roughly compensates for the fading carry. These forces nearly cancel, so the net sits only marginally above neutral and conviction is 2. What is priced: consensus has AUD/USD range-bound near 0.69-0.73 (median ~0.71), essentially our base case, so the strategic edge is small and lies in relative-value crosses. The path of least resistance is a wide, carry-anchored range with a modest downward bias building as the RBA's easing path comes into view and as the November tariff cliff approaches. Key strategic catalysts are the 11 August and 3 November SoMP meetings, the 29 July and late-October CPIs, the pace of Iranian oil returning, and the 10 November tariff expiry. Conviction drivers are the still-elevated absolute carry and the AAA fiscal anchor; the limiters are valuation, the current account, the now-realized carry fade and the China/tariff tail. Actionability is low for outright AUD/USD and higher for relative-value expressions (long AUD/JPY, short EUR/AUD, tactical AUD/NZD). Net, a low-conviction strategic Bullish lean best harvested through carry crosses, with the disinflation/easing path and the tariff channel the variables most likely to flip the view.",
+      "g10_ranking": {
+        "rank": 5,
+        "out_of": 11,
+        "beats": [
+          "JPY",
+          "EUR",
+          "CHF",
+          "SEK",
+          "CAD",
+          "NZD"
+        ],
+        "loses_to": [
+          "NOK",
+          "SGD",
+          "USD",
+          "GBP"
+        ],
+        "commentary": "AUD slips to 5th strategically as its rich REER and current-account deficit weigh more at longer horizons. It still beats the low-yield funders and soft-growth CAD/NZD, but loses to surplus high-yielder NOK, structurally strong SGD, a firm USD, and edges below GBP given the UK's mild hiking bias and less stretched valuation. AUD's strategic appeal is carry-driven and relative-value, not outright."
+      },
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "outcome": "AUD/USD ranges 0.6800-0.7250, mild upward carry bias; ends near 0.71",
+          "conditions": [
+            "RBA holds near 4.35% through Q3 but the market prices an earlier end-of-cycle as oil-inflation fades",
+            "Iron ore averages $90-105/t; China growth stabilises near 5%",
+            "No tariff-driven risk-off; oil stays low post-deal without a fresh shock"
+          ],
+          "path": "A wide, carry-anchored range with AUD capped by the dawning easing path and rich REER, then by the November tariff event; modest two-way drift around 0.70-0.71."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "outcome": "AUD/USD toward 0.7400",
+          "conditions": [
+            "Fed shifts to cuts faster than the RBA, keeping the AU-US differential wide",
+            "China stimulus reflates iron ore above $120/t and lifts risk appetite"
+          ]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "outcome": "AUD/USD toward 0.6600",
+          "conditions": [
+            "US-China tariff re-escalation post-10 Nov hits China growth and AUD",
+            "RBA pivots dovish as the post-deal oil collapse pulls disinflation forward, collapsing the carry support"
+          ]
+        }
+      },
+      "path_expectation": "Over 1-6 months expect a wide carry-anchored range, 0.68-0.725, with the outcome hinging on how fast the post-deal disinflation pulls the RBA toward easing and on the China/tariff channel. The most likely path is a sideways-to-modestly-lower drift as the market prices the end of the hiking cycle while the Fed holds, with elevated volatility around the 10 November tariff cliff. A fresh up-leg requires the Fed to cut faster than the RBA; the more probable profile is carry accrual offset by a gradually fading rate premium. Pullbacks toward the 0.6700-0.6800 200-day MA region would be the strategic accumulation zone for carry-oriented bulls, while a sustained break below 0.6700 would confirm a strategic top.",
+      "conviction_ladder": {
+        "current": 2,
+        "increase_to_5_if": [
+          "Fed pivots to cuts faster than the RBA, widening AU-US 2Y above +100bp",
+          "China delivers large reflationary stimulus lifting iron ore above $130/t"
+        ],
+        "increase_to_4_if": [
+          "US-China tariff truce is extended past 10 Nov, removing the key China-proxy tail",
+          "RBA reaffirms 4.35%+ without signalling cuts despite falling oil"
+        ],
+        "decrease_to_3_if": [
+          "RBA explicitly flags the end of the hiking cycle as oil-inflation fades",
+          "Current account deteriorates beyond -4.5% of GDP on softer terms of trade"
+        ],
+        "decrease_to_2_if": [
+          "Already at 2 - maintained while carry and external forces remain near balance"
+        ],
+        "decrease_to_1_if": [
+          "RBA pivots to an explicit easing cycle as the post-deal disinflation lands",
+          "Tariff re-escalation post-10 Nov drives a China-growth scare and AUD/USD below 0.6600"
+        ]
+      },
+      "risk_reward": {
+        "base_case_payoff": "+40 to +130 pips toward 0.71-0.72 over 1-6 months, plus ~75-100bp of accrued AU-US carry",
+        "downside_case_loss": "-400 to -470 pips toward 0.6600 on tariff/dovish-pivot scenario",
+        "risk_reward_ratio": "~0.3:1 outright (base +85 vs downside -450), but the 50% base case plus carry accrual makes the expected value positive; cross expressions (AUD/JPY) improve realised risk/reward",
+        "asymmetry_assessment": "The distribution is negatively skewed for outright AUD/USD - a large left tail from the tariff/dovish-pivot scenario versus a capped upside from rich valuation - so the strategic bull view is only attractive when expressed via carry crosses or paired with cheap downside hedges."
+      }
+    },
+    "consensus_divergence": {
+      "consensus_view": "Bank consensus has AUD/USD range-bound near spot into year-end 2026, with forecasts spanning ~0.69-0.73 and a median near 0.71 (CBA ~0.73, NAB/Westpac ~0.71, ING/MUFG/DBS ~0.69). The market treats the hawkish RBA as supportive but the rich valuation and China risk as offsetting, hence a flat-to-mildly-positive view.",
+      "our_view": "We agree directionally with the range but place greater emphasis on the carry channel as a cushion and on relative-value crosses over outright AUD/USD. We are mildly Bullish on carry/fiscal grounds while flagging that the strategic risk/reward on AUD/USD itself is unattractively skewed.",
+      "divergence_magnitude": "Small on level (we are within the 0.69-0.73 consensus band) but meaningful on expression and risk-framing - we are more bearish on outright AUD/USD risk/reward and more constructive on AUD/JPY and short EUR/AUD.",
+      "why_we_differ": "The consensus underweights two things: first, the exceptional carry-to-vol ranking (43-56 vs JPY/CHF) that rewards holders even in a flat-spot regime, which favours cross expressions; second, the asymmetry created by the rich REER (115.86), the now-realized carry fade as the post-deal oil collapse drives disinflation, and the 10 November tariff cliff, which skews outright AUD/USD risk/reward negatively. We also flag that the RBA's hawkishness has lost its oil-inflation premise, so the market's repricing toward an earlier end-of-cycle is a live, not a tail, risk the consensus has been slow to embed.",
+      "payoff_if_right": "If correct, long-carry AUD crosses (AUD/JPY, AUD/CHF) and short EUR/AUD deliver positive carry plus modest spot gains while outright AUD/USD longs underperform - a relative-value win even in a flat market.",
+      "risk_if_wrong": "If the post-deal disinflation flips the RBA dovish faster than expected, the carry support collapses and AUD falls across the board, hurting the carry-cross longs; conversely, if the risk-on de-escalation extends and China stimulus reflates iron ore, plain AUD/USD longs could outperform our cross-focused stance."
+    },
+    "cross_currency_relative_value": {
+      "cleanest_bullish_expression": {
+        "pair": "AUD/JPY",
+        "rationale": "The ~335bp RBA-BoJ rate gap and ~314bp 10Y spread give AUD/JPY (113.40) the deepest, most liquid carry in the complex, with a carry-to-vol ratio of ~43. It expresses the AUD rate advantage against the cleanest funder and benefits from structural Mrs. Watanabe demand, though it carries risk-off beta."
+      },
+      "cleanest_bearish_expression": {
+        "pair": "EUR/AUD",
+        "rationale": "Short EUR/AUD (i.e. long AUD vs EUR, spot 1.6429) captures the ~210bp RBA-ECB carry and AUD's stronger growth (+2.52% vs ~1.3% YoY), while avoiding the direct USD and China-proxy risk embedded in AUD/USD. For an outright AUD bear, long EUR/AUD would express USD-independent AUD weakness."
+      },
+      "relative_value_pairs": [
+        {
+          "pair": "AUD/NZD",
+          "thesis": "At 1.2119 AUD/NZD is historically rich with only a ~+15bp 10Y Antipodean spread, and the RBNZ pencils hikes toward ~4.0% by mid-2027 that would erode AUD's edge - a mean-reversion short candidate within the Antipodean complex."
+        },
+        {
+          "pair": "AUD/CAD",
+          "thesis": "At 0.9893, long AUD/CAD expresses Australia's superior growth (+2.52% vs CAD -0.05% YoY) and firmer carry (RBA 4.35% vs BoC 2.25%) against a soft-growth commodity peer, a cleaner relative-value play than either vs USD."
+        }
+      ]
+    },
+    "cross_horizon_consistency": {
+      "aligned": true,
+      "summary": "Both horizons are Bullish AUD but with declining conviction (tactical 3, strategic 2): tactically still-high carry plus the risk-on de-escalation lead, while strategically the post-deal oil collapse turns the carry support into a decaying asset and the structural External Balance drag gains weight.",
+      "divergence_explanation": "The stances align in direction but conviction falls from tactical to strategic because the External Balance factor's weight rises from 0.06 to 0.16, activating the current-account and REER drags, while the Policy & Rates support fades (confidence trimmed) as the oil collapse removes the imported-inflation driver and the market prices the end of the hiking cycle.",
+      "inflection_point": "The 29 July Q2 CPI and the 11 August SoMP are the near-term inflection points - the first prints/communications that will confirm how fast the post-deal disinflation feeds the RBA path; the 10 November tariff cliff is the strategic inflection.",
+      "catalyst_for_transition": "A soft CPI that confirms the disinflation and pulls the RBA toward easing, or a tariff re-escalation that activates the China-proxy channel, would transition AUD from carry-supported Bullish to Neutral/Bearish.",
+      "trading_implication": "Hold a carry-AUD bias expressed via crosses (AUD/JPY, short EUR/AUD) in the tactical window; lighten conviction and add downside hedges (cheap AUD puts) ahead of the November tariff event for the strategic horizon."
+    },
+    "forward_vs_spot": {
+      "spot": "AUD/USD 0.70695",
+      "forwards": {
+        "1m": {
+          "points": "~-4.25 pips",
+          "outright": "~0.7065",
+          "annualised_pct": "-0.72% (AUD at a forward discount; CIP-consistent given AU>US short rates)"
+        },
+        "3m": {
+          "points": "~-13.3 pips",
+          "outright": "~0.7056",
+          "annualised_pct": "-0.75%"
+        },
+        "6m": {
+          "points": "~-26 pips",
+          "outright": "~0.7044",
+          "annualised_pct": "-0.74%"
+        }
+      },
+      "expected_spot": {
+        "1m": "0.7080",
+        "3m": "0.7100",
+        "6m": "0.7150"
+      },
+      "edge": {
+        "1m": "+15 pips (forward implies ~0.7065, we expect ~0.7080)",
+        "3m": "+44 pips (forward implies ~0.7056, we expect ~0.7100)",
+        "6m": "+106 pips (forward implies ~0.7044, we expect ~0.7150)"
+      },
+      "interpretation": "AUD trades at a forward discount of ~0.7%/yr, the mechanical result of AU short rates exceeding US under covered interest parity. Our expected spot path sits modestly above the forward curve at each horizon, implying a positive edge to being long AUD versus the forwards - holders earn the carry and we expect spot to drift slightly higher than the discounted forwards imply. The edge widens with tenor (+106 pips at 6M) but is contingent on the carry-supported base case holding and is asymmetric given the negative downside skew."
+    }
+  },
+  "forward_looking": {
+    "key_catalysts": [
+      {
+        "date": "2026-06-17",
+        "event": "FOMC decision",
+        "expected_impact": "Ambiguous",
+        "rationale": "Fed expected to hold at 3.50-3.75% (~97% on FedWatch). A hawkish hold firms USD and pressures AUD; any dovish tilt would widen the AU-US gap and help AUD via the dollar-smile channel.",
+        "priced_in": "Fully - hold is ~97% priced",
+        "bilateral_relevance": "AUD/USD",
+        "citations": [
+          15
+        ]
+      },
+      {
+        "date": "2026-06-18",
+        "event": "RBA June Board minutes",
+        "expected_impact": "Bullish",
+        "rationale": "Minutes from the 16 June hawkish hold should confirm the tightening bias and that no member considered a cut. Reinforcement of the hike-if-needed language supports the AUD rate premium.",
+        "priced_in": "Partially - hawkish hold known, but tone detail can move the front-end",
+        "bilateral_relevance": "AUD/USD, AUD/JPY",
+        "citations": [
+          1,
+          6
+        ]
+      },
+      {
+        "date": "2026-06-19",
+        "event": "US-Iran peace framework signing (Switzerland) / Strait of Hormuz reopening",
+        "expected_impact": "Bullish",
+        "rationale": "Formal signing of the interim deal (scheduled for the Friday) confirms the Strait reopens toll-free and Iran resumes oil exports immediately. Cements the risk-on de-escalation that supports high-beta AUD near-term, while reinforcing the disinflationary oil collapse that erodes the carry tailwind over time.",
+        "priced_in": "Largely - framework announced ~14-15 Jun; signing confirms it",
+        "bilateral_relevance": "AUD/USD, AUD/JPY",
+        "citations": [
+          37,
+          39
+        ]
+      },
+      {
+        "date": "2026-06-25",
+        "event": "ABS Labour Force (May)",
+        "expected_impact": "Ambiguous",
+        "rationale": "Unemployment was 4.49% in April; a tight print supports the hawkish RBA path and AUD, a soft print revives easing speculation. Australia's employment has consistently surprised up.",
+        "priced_in": "Not priced - data-dependent",
+        "bilateral_relevance": "AUD/USD",
+        "citations": [
+          9
+        ]
+      },
+      {
+        "date": "2026-07-15",
+        "event": "Bank of Canada decision",
+        "expected_impact": "Neutral",
+        "rationale": "BoC expected to hold at 2.25%. Relevant for AUD/CAD relative value - a dovish BoC widens AUD's carry edge over CAD.",
+        "priced_in": "Partially - hold expected",
+        "bilateral_relevance": "AUD/CAD",
+        "citations": [
+          19
+        ]
+      },
+      {
+        "date": "2026-07-23",
+        "event": "ECB decision",
+        "expected_impact": "Ambiguous",
+        "rationale": "ECB expected to hold at 2.25% after its June hike. A hawkish ECB narrows AUD's carry edge over EUR (short EUR/AUD thesis); a dovish hold supports it.",
+        "priced_in": "Partially - hold ~82% expected",
+        "bilateral_relevance": "EUR/AUD",
+        "citations": [
+          16
+        ]
+      },
+      {
+        "date": "2026-07-29",
+        "event": "ABS Q2 CPI (headline + trimmed mean)",
+        "expected_impact": "Ambiguous",
+        "rationale": "The single highest-impact AUD event. With the US-Iran deal collapsing oil, fuel-driven inflation is fading and the SoMP's forecast June-quarter headline peak ~4.8% now looks too high. A still-hot print would defer the market's end-of-cycle pricing (Bullish AUD); a soft, disinflationary miss would confirm the carry fade (Bearish). Quarterly cadence amplifies the move.",
+        "priced_in": "Partially - market shifting from sticky-inflation toward disinflation post-deal",
+        "bilateral_relevance": "AUD/USD, AUD/JPY, AUD/NZD",
+        "citations": [
+          7,
+          8,
+          5
+        ]
+      },
+      {
+        "date": "2026-07-W1",
+        "event": "Iranian oil exports resume / Hormuz transit normalises",
+        "expected_impact": "Ambiguous",
+        "rationale": "Pace at which Iranian barrels return and Hormuz traffic normalises (estimated 2-3 months to clear the backlog) drives the depth of the oil decline. Faster supply return deepens disinflation (accelerates the carry fade, Bearish medium-term) but extends risk-on (mildly Bullish near-term).",
+        "priced_in": "Not priced - depends on execution",
+        "bilateral_relevance": "AUD/USD",
+        "citations": [
+          37,
+          40
+        ]
+      },
+      {
+        "date": "2026-08-11",
+        "event": "RBA decision + Statement on Monetary Policy",
+        "expected_impact": "Ambiguous",
+        "rationale": "Highest-signal RBA communication with updated forecasts - the first SoMP since the oil collapse. A reaffirmed hike bias is Bullish AUD; a dovish forecast revision acknowledging cheaper oil and faster disinflation is Bearish and confirms the carry fade.",
+        "priced_in": "Not priced - genuine two-way risk, now leaning toward a softer tone",
+        "bilateral_relevance": "AUD/USD, AUD/JPY",
+        "citations": [
+          4,
+          5
+        ]
+      },
+      {
+        "date": "2026-08-20",
+        "event": "ABS Labour Force (July)",
+        "expected_impact": "Ambiguous",
+        "rationale": "Labour resilience is central to the RBA's reaction function. A tight print post-CPI would compound a hawkish signal for AUD.",
+        "priced_in": "Not priced - data-dependent",
+        "bilateral_relevance": "AUD/USD",
+        "citations": [
+          10
+        ]
+      },
+      {
+        "date": "2026-09-02",
+        "event": "RBNZ OCR decision",
+        "expected_impact": "Bearish",
+        "rationale": "RBNZ pencils hikes toward ~4.0% by mid-2027. A hawkish RBNZ narrows the AU-NZ spread and pressures the rich AUD/NZD (1.2119) - a relative-value short catalyst.",
+        "priced_in": "Partially - hiking path expected",
+        "bilateral_relevance": "AUD/NZD",
+        "citations": [
+          23,
+          24
+        ]
+      },
+      {
+        "date": "2026-09-29",
+        "event": "RBA decision",
+        "expected_impact": "Ambiguous",
+        "rationale": "Second-half-2026 meeting where the RBA path is more likely to stabilise or soften than extend, given the post-deal oil collapse and fading fuel inflation. Outcome depends on the Q2/Q3 inflation trajectory.",
+        "priced_in": "Not priced",
+        "bilateral_relevance": "AUD/USD",
+        "citations": [
+          4
+        ]
+      },
+      {
+        "date": "2026-10-W4",
+        "event": "ABS Q3 CPI",
+        "expected_impact": "Ambiguous",
+        "rationale": "Next quarterly inflation print; confirms how fast post-deal lower oil is dragging inflation toward the RBA's disinflation path. A clear roll-over would cement the end-of-cycle/easing pricing and soften AUD support into year-end.",
+        "priced_in": "Not priced",
+        "bilateral_relevance": "AUD/USD",
+        "citations": [
+          7,
+          5
+        ]
+      },
+      {
+        "date": "2026-11-03",
+        "event": "RBA decision + Statement on Monetary Policy",
+        "expected_impact": "Ambiguous",
+        "rationale": "SoMP with updated forecasts just before the tariff cliff. Sets the rate path into 2027; with oil low and inflation rolling over, a pivot signal toward easing is the more likely surprise and is Bearish.",
+        "priced_in": "Not priced",
+        "bilateral_relevance": "AUD/USD, AUD/JPY",
+        "citations": [
+          4,
+          5
+        ]
+      },
+      {
+        "date": "2026-11-10",
+        "event": "US-China tariff truce expiry",
+        "expected_impact": "Bearish",
+        "rationale": "The largest dated strategic risk for AUD as the most liquid China proxy. Re-escalation would hit Chinese growth and Australian bulk-commodity demand, pressuring AUD; an extension removes a key tail.",
+        "priced_in": "Not priced - market assumes roll",
+        "bilateral_relevance": "AUD/USD, AUD/JPY, AUD/NZD",
+        "citations": [
+          39
+        ]
+      },
+      {
+        "date": "2026-12-08",
+        "event": "RBA decision",
+        "expected_impact": "Ambiguous",
+        "rationale": "Final 2026 meeting; sets the tone into 2027. By then the cumulative post-deal disinflation determines whether the hawkish bias has been fully unwound toward an easing stance.",
+        "priced_in": "Not priced",
+        "bilateral_relevance": "AUD/USD",
+        "citations": [
+          4
+        ]
+      },
+      {
+        "date": "2026-12-W3",
+        "event": "MYEFO (Mid-Year Economic and Fiscal Outlook)",
+        "expected_impact": "Neutral",
+        "rationale": "Fiscal update; low market impact given Australia's AAA status and 34% debt/GDP, but watched for state-debt commentary (Victoria).",
+        "priced_in": "Not priced - typically low impact",
+        "bilateral_relevance": "AUD/USD",
+        "citations": [
+          1
+        ]
+      }
+    ],
+    "invalidators": [
+      {
+        "condition": "RBA pivots to an explicit easing cycle (cuts the cash rate or signals cuts at the 11 Aug or 3 Nov SoMP)",
+        "new_stance": "Bearish",
+        "mechanism": "The bull thesis rests on still-high carry; with the post-deal oil collapse removing the imported-inflation driver, a dovish RBA pivot that collapses the ~+56bp AU-US front-end gap removes AUD's core support - now a live rather than tail risk.",
+        "monitor_indicator": "RBA cash rate decision and SoMP rate-path forecasts",
+        "monitor_frequency": "Each RBA meeting (8x/year)",
+        "quantitative_threshold": "Any cut below 4.35% or SoMP path revised below 4.35%",
+        "probability_pct": 25
+      },
+      {
+        "condition": "Q2 or Q3 CPI prints materially soft (headline <4.0%, trimmed mean <3.2%)",
+        "new_stance": "Bearish",
+        "mechanism": "A soft inflation print removes the justification for the hawkish RBA path, flattening the OIS curve and compressing the carry that underpins AUD.",
+        "monitor_indicator": "ABS quarterly CPI (headline + trimmed mean)",
+        "monitor_frequency": "Quarterly (29 Jul, late Oct)",
+        "quantitative_threshold": "Headline <4.0% YoY or trimmed mean <3.2% YoY",
+        "probability_pct": 30
+      },
+      {
+        "condition": "US-China tariff re-escalation after 10 November triggers a China-growth scare",
+        "new_stance": "Bearish",
+        "mechanism": "As the most liquid China proxy, AUD sells off sharply when Chinese growth expectations deteriorate via the bulk-commodity demand channel.",
+        "monitor_indicator": "US-China tariff headlines; iron ore 62% Fe; CSI 300",
+        "monitor_frequency": "Daily into November",
+        "quantitative_threshold": "Tariff truce lapses AND iron ore falls below $85/t",
+        "probability_pct": 25
+      },
+      {
+        "condition": "Iron ore breaks decisively below $85/t on a China property/steel downturn",
+        "new_stance": "Bearish",
+        "mechanism": "Iron ore is ~35% of Australian export revenue; a sustained break lower deteriorates the terms of trade and the current account, undermining the structural AUD case.",
+        "monitor_indicator": "Iron ore 62% Fe CFR China (SGX/Platts)",
+        "monitor_frequency": "Daily",
+        "quantitative_threshold": "Sustained close below $85/t for >2 weeks",
+        "probability_pct": 20
+      },
+      {
+        "condition": "Risk-off shock (a renewed Middle East escalation that breaks the US-Iran deal, or an equity drawdown) spikes VIX above 25 and breaks AUD/USD below the 0.6700 200-day MA",
+        "new_stance": "Bearish",
+        "mechanism": "AUD's high-beta character means a risk-off regime shift drives outsized drawdowns; a 200-day MA break flips CTAs short, accelerating the move.",
+        "monitor_indicator": "VIX; AUD/USD vs 200d MA; Brent crude (deal-status headlines)",
+        "monitor_frequency": "Daily",
+        "quantitative_threshold": "VIX >25 AND AUD/USD <0.6700",
+        "probability_pct": 20
+      },
+      {
+        "condition": "Fed turns aggressively hawkish (resumes hikes) driving broad USD sharply higher",
+        "new_stance": "Bearish",
+        "mechanism": "A US-exceptionalism dollar squeeze pushes the USD to the strong end of the dollar smile, where AUD structurally underperforms regardless of its own carry.",
+        "monitor_indicator": "Broad USD index (DTWEXBGS); Fed communication",
+        "monitor_frequency": "Each FOMC + key US data",
+        "quantitative_threshold": "Broad USD index >125 on renewed Fed hike pricing",
+        "probability_pct": 15
+      },
+      {
+        "condition": "CFTC leveraged net positioning rebuilds to a crowded long extreme above +80k",
+        "new_stance": "Neutral",
+        "mechanism": "Positioning above the +80k historical extreme has typically preceded AUD reversals; a crowded long would turn the flow signal contrarian-bearish, neutralising the bull thesis.",
+        "monitor_indicator": "CFTC COT leveraged-fund net AUD contracts",
+        "monitor_frequency": "Weekly (Friday)",
+        "quantitative_threshold": "Leveraged net >+80,000 contracts",
+        "probability_pct": 15
+      }
+    ],
+    "signposts": [
+      {
+        "indicator": "AU-US 2Y yield spread",
+        "current_level": "~+56bp (AU 4.63% vs US 4.07%)",
+        "threshold_confirms": "Widens beyond +75bp",
+        "threshold_invalidates": "Compresses below +30bp",
+        "bilateral_importance": "AUD/USD (primary carry driver)",
+        "source_url": "https://tradingeconomics.com/australia/2-year-note-yield",
+        "frequency": "Daily"
+      },
+      {
+        "indicator": "Iron ore 62% Fe CFR China",
+        "current_level": "~$98/t",
+        "threshold_confirms": "Rises above $110/t",
+        "threshold_invalidates": "Falls below $85/t",
+        "bilateral_importance": "AUD/USD, AUD/JPY (terms of trade)",
+        "source_url": "https://tradingeconomics.com/commodity/iron-ore-62",
+        "frequency": "Daily"
+      },
+      {
+        "indicator": "RBA Cash Rate Target",
+        "current_level": "4.35%",
+        "threshold_confirms": "Holds 4.35% with intact hike bias despite falling oil",
+        "threshold_invalidates": "Cut below 4.35% or explicit end-of-cycle/easing signal",
+        "bilateral_importance": "AUD/USD, AUD/JPY, AUD/NZD",
+        "source_url": "https://www.rba.gov.au/statistics/cash-rate/",
+        "frequency": "Each RBA meeting (8x/year)"
+      },
+      {
+        "indicator": "CFTC leveraged-fund net AUD positioning",
+        "current_level": "+42,292 contracts (~35th percentile)",
+        "threshold_confirms": "Rebuilds toward +60k on renewed bullish flow",
+        "threshold_invalidates": "Flips to a deep aggregate net short, or pushes crowded above +80k",
+        "bilateral_importance": "AUD/USD (flow/positioning)",
+        "source_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
+        "frequency": "Weekly (Friday)"
+      },
+      {
+        "indicator": "AUD/USD vs 200-day moving average",
+        "current_level": "Spot 0.70695 well above 200d ~0.6700",
+        "threshold_confirms": "Holds above 0.7000 round number",
+        "threshold_invalidates": "Sustained break below 0.6700 (CTA trigger)",
+        "bilateral_importance": "AUD/USD (trend/structure)",
+        "source_url": "https://www.investing.com/currencies/aud-usd",
+        "frequency": "Daily"
+      },
+      {
+        "indicator": "China manufacturing PMI (NBS)",
+        "current_level": "50.0 (May 2026, at threshold)",
+        "threshold_confirms": "Rises above 51 on stimulus",
+        "threshold_invalidates": "Falls below 49 (contraction)",
+        "bilateral_importance": "AUD/USD, AUD/JPY (China proxy)",
+        "source_url": "https://www.stats.gov.cn/english/",
+        "frequency": "Monthly"
+      },
+      {
+        "indicator": "AUD/USD 25-delta 1M risk reversal",
+        "current_level": "-0.71 vols (puts bid)",
+        "threshold_confirms": "Skew flattens toward -0.30 (downside hedging easing)",
+        "threshold_invalidates": "Steepens beyond -1.20 (rising downside-hedge demand)",
+        "bilateral_importance": "AUD/USD (options sentiment)",
+        "source_url": "https://fxowebtools.saxobank.com/otc.html",
+        "frequency": "Daily"
+      }
+    ]
+  },
+  "change_since_last_report": {
+    "factors_changed": [
+      {
+        "factor": "2: Inflation & Growth Dynamics",
+        "previous_stance": "Bullish 60 (tac)",
+        "new_stance": "Neutral 58 (tac)",
+        "reason": "The US-Iran peace deal (~14-15 Jun) and oil collapse (Brent into the high-$70s) turn the forward inflation impulse disinflationary; the hot CPI that supported the bull case is now backward-looking, and the 29 July print is skewed to a soft surprise."
+      },
+      {
+        "factor": "3: Risk Appetite & Sentiment",
+        "previous_stance": "Bearish 58 (tac) / Bearish 52 (str)",
+        "new_stance": "Bullish 60 (tac) / Neutral 52 (str)",
+        "reason": "The mid-June de-escalation removed the oil-shock risk-off tail; VIX eased to ~16.2 (from ~22 on 10 Jun) and equities rallied - a direct risk-on tailwind for high-beta AUD tactically, and the removal of the oil tail lifts the strategic read from Bearish to Neutral (tariff cliff remains)."
+      },
+      {
+        "factor": "1: Policy & Rates",
+        "previous_stance": "Bullish 68 (tac) / Bullish 60 (str)",
+        "new_stance": "Bullish 64 (tac) / Bullish 55 (str)",
+        "reason": "Absolute carry is still high but the oil collapse removes the imported-inflation driver of RBA hawkishness; the market will price the end of the hiking cycle and eventual easing, so the carry fade is now realized and confidence is trimmed at both horizons."
+      },
+      {
+        "factor": "6: Guidance & Credibility",
+        "previous_stance": "Bullish 58 (str)",
+        "new_stance": "Bullish 56 (str)",
+        "reason": "The RBA's 16 June hawkish guidance predates the oil collapse; its premise has weakened and a credibly-communicated softer tone is likely at the 11 Aug SoMP, trimming strategic confidence."
+      }
+    ],
+    "signposts_triggered": [
+      {
+        "signpost": "Brent crude / Middle East geopolitics",
+        "outcome": "US-Iran peace framework signed (~14-15 Jun); Strait of Hormuz to reopen; Brent collapsed from ~$83.82 (15 Jun) into the high-$70s by 17-18 Jun, down ~40% from the conflict peak",
+        "implication": "The cycle's dominant oil-supply shock has resolved to the downside - the single largest re-grounding of this dossier: it flips Risk Appetite risk-on, turns Inflation Neutral, and begins realizing the strategic carry fade."
+      },
+      {
+        "signpost": "VIX",
+        "outcome": "Eased to ~16.2 by 15 Jun from ~22 on 10 Jun",
+        "implication": "Confirms the risk-on de-escalation that supports high-beta AUD tactically."
+      }
+    ],
+    "conviction_change": {
+      "previous_tactical": 3,
+      "current_tactical": 3,
+      "previous_strategic": 2,
+      "current_strategic": 2,
+      "explanation": "Both convictions are unchanged (tactical 3, strategic 2). Tactically the loss of the hot-inflation bull factor is offset by the new risk-on de-escalation, leaving the net score essentially flat (+0.1935 vs +0.1931). Strategically the firmer score (+0.1888 vs +0.1772) reflects removal of the risk-off oil tail roughly compensating for the fading carry support, so the low-conviction Bullish lean holds."
+    },
+    "new_catalysts": [
+      "US-Iran peace framework signing (Switzerland) and Strait of Hormuz reopening now the key near-term de-escalation catalyst",
+      "Pace of Iranian oil returning / Hormuz normalisation (~2-3 months) as a disinflation driver",
+      "ABS Q2 CPI 29 July 2026 reframed as a soft/disinflationary downside binary post-deal"
+    ],
+    "thesis_trajectory": "Re-grounded: stance unchanged (Bullish/Bullish) but the driver mix has shifted from oil-shock-driven hawkish carry toward risk-on de-escalation plus a realized, decaying carry fade."
+  },
+  "seasonality": {
+    "pattern": "AUD exhibits documented Q1 commodity-contract-reset effects and August earnings-season hedging flows; year-end portfolio rebalancing also affects AUD.",
+    "relevance_window": "The August earnings-season hedging window falls within both horizons; year-end rebalancing is relevant to the strategic horizon (Nov-Dec).",
+    "historical_magnitude": "Modest - typically a secondary effect of well under 1% on AUD/USD, easily overwhelmed by the rate and China drivers currently dominating.",
+    "current_alignment": "Low relevance now: the post-deal oil collapse / carry-fade narrative and the November tariff cliff dominate any seasonal pattern, so seasonality is noted but not a material input to the current stance."
+  },
+  "assumptions": [
+    "Precise market and macro numbers (AUD/USD spot 0.70695, US yields, COT positioning +42,292/-12,083, BIS REER 115.86, OECD macro, commodities) are sourced from the project DATA CACHE for 2026-06; web research supplied only what the cache lacks (RBA rate/path, AU sovereign yields, vol/risk-reversals, cross-currency basis, China/commodity specifics, peer policy rates, SGD/JPY/EA macro bridges). Each factor's data points are tagged or.",
+    "AU sovereign yields (2Y ~4.63%, 10Y ~4.79%, 3Y ~4.62%) are mid-June 2026 Trading Economics prints on mixed snapshot dates; bilateral spreads vs the cached US yields (2Y 4.07, 10Y 4.47) are therefore approximate. The cache OECD headline CPI (4.05% Q1) is used for the macro-comparison table per the cache-as-source-of-truth rule; the higher authoritative ABS print (4.6% YoY to Mar-2026) is cited in the Inflation factor narrative - the divergence reflects OECD harmonisation/timing versus the ABS series.",
+    "Free-stack data gaps were flagged, not fabricated: live 3M cross-currency basis (AUD/EUR/JPY) is terminal-gated and given by sign/typical level only; sovereign CDS is estimated from the AAA rating; AUD/USD 1M IV percentile (~35) is qualitative. AUD/USD implied vols (1M 7.50%, 3M 7.81%), the -0.71 risk reversal and forward points are from Saxo/Investing.com snapshots dated 16-17 Jun 2026.",
+    "The dominant macro development this cycle is the RESOLUTION of the 2026 Middle East oil-supply shock: a US-Iran peace framework was signed (~14-15 June 2026), the Strait of Hormuz is set to reopen toll-free and Iran is cleared to resume oil exports, collapsing Brent from ~$83.82 on 15 June into the high-$70s by 17-18 June. The pre-deal cache prints (WTI ~95.0 / Brent ~97.46, dated 2026-06-08) are SUPERSEDED and replaced with the live post-deal levels as of the 2026-06-18 valuation date. The base case assumes oil stays low and the deal holds; a renewed escalation would be a primary invalidator. Cheaper oil is disinflationary and is treated as removing the imported-inflation driver of the RBA's hawkish path.",
+    "Carry-to-vol ratios use policy-rate differentials as the carry proxy divided by 3M AUD/USD implied vol (7.81%); they are indicative rankings, not tradeable returns, and ignore basis adjustments. Weighted scores map Bullish=+1/Neutral=0/Bearish=-1 scaled by confidence and the framework's horizon weights.",
+    "Bank consensus AUD/USD forecasts (~0.69-0.73, median ~0.71 year-end 2026) are aggregated from secondary sources; individual Goldman/ANZ point forecasts were not confirmed and are excluded rather than fabricated."
+  ],
+  "complete_citations": [
+    {
+      "id": 1,
+      "title": "Monetary Policy Decision, 16 June 2026 (No. 2026-15)",
+      "publisher": "Reserve Bank of Australia",
+      "url": "https://www.rba.gov.au/media-releases/2026/mr-26-15.html",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 2,
+      "title": "Cash Rate Target statistics",
+      "publisher": "Reserve Bank of Australia",
+      "url": "https://www.rba.gov.au/statistics/cash-rate/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 3,
+      "title": "Media Release 2026-12 (5 May cash rate increase)",
+      "publisher": "Reserve Bank of Australia",
+      "url": "https://www.rba.gov.au/media-releases/2026/mr-26-12.html",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 4,
+      "title": "Board Meeting Schedules 2026-2027",
+      "publisher": "Reserve Bank of Australia",
+      "url": "https://www.rba.gov.au/schedules-events/board-meeting-schedules.html",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 5,
+      "title": "Statement on Monetary Policy, May 2026 - Outlook",
+      "publisher": "Reserve Bank of Australia",
+      "url": "https://www.rba.gov.au/publications/smp/2026/may/outlook.html",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 6,
+      "title": "Media conferences, June 2026",
+      "publisher": "Reserve Bank of Australia",
+      "url": "https://www.rba.gov.au/monetary-policy/media-conferences/2026/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 7,
+      "title": "CPI rose 4.6% in year to March 2026",
+      "publisher": "Australian Bureau of Statistics",
+      "url": "https://www.abs.gov.au/media-centre/media-releases/cpi-rose-46-year-march-2026",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 8,
+      "title": "Wage growth steady in March quarter (WPI)",
+      "publisher": "Australian Bureau of Statistics",
+      "url": "https://www.abs.gov.au/media-centre/media-releases/wage-growth-steady-march-quarter",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 9,
+      "title": "Labour Force, Australia - latest release",
+      "publisher": "Australian Bureau of Statistics",
+      "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 10,
+      "title": "Future release calendar",
+      "publisher": "Australian Bureau of Statistics",
+      "url": "https://www.abs.gov.au/release-calendar/future-releases",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 11,
+      "title": "Australia 10-Year Government Bond Yield",
+      "publisher": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/government-bond-yield",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 12,
+      "title": "Australia 2-Year Note Yield",
+      "publisher": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/2-year-note-yield",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 13,
+      "title": "New Zealand 10-Year Government Bond Yield",
+      "publisher": "Trading Economics",
+      "url": "https://tradingeconomics.com/new-zealand/government-bond-yield",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 14,
+      "title": "Germany 10-Year Government Bond Yield",
+      "publisher": "Trading Economics",
+      "url": "https://tradingeconomics.com/germany/government-bond-yield",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 15,
+      "title": "FOMC Minutes, April 28-29 2026",
+      "publisher": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260429.htm",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 16,
+      "title": "Monetary policy decisions, 11 June 2026",
+      "publisher": "European Central Bank",
+      "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260611~4d41bd5e83.en.html",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 17,
+      "title": "BoJ June rate hike expectations",
+      "publisher": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/business/2026/05/29/economy/boj-rate-hike-june-former-board-member/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 18,
+      "title": "Bank Rate maintained, April 2026 (Monetary Policy Summary)",
+      "publisher": "Bank of England",
+      "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/april-2026",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 19,
+      "title": "Interest Rate Announcement, 10 June 2026",
+      "publisher": "Bank of Canada",
+      "url": "https://www.bankofcanada.ca/2026/06/bank-of-canada-interest-rate-announcement-2026-06-10/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 20,
+      "title": "Monetary policy meeting, May 2026",
+      "publisher": "Norges Bank",
+      "url": "https://www.norges-bank.no/en/topics/monetary-policy/Monetary-policy-meetings/2026/may-2026/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 21,
+      "title": "Policy rate unchanged at 1.75 per cent",
+      "publisher": "Sveriges Riksbank",
+      "url": "https://www.riksbank.se/en-gb/press-and-published/notices-and-press-releases/press-releases/2026/policy-rate-unchanged-at-13.75-per-cent/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 22,
+      "title": "MAS Monetary Policy Statement, April 2026",
+      "publisher": "Monetary Authority of Singapore",
+      "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14apr26",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 23,
+      "title": "Monetary policy and OCR decision dates until February 2027",
+      "publisher": "Reserve Bank of New Zealand",
+      "url": "https://www.rbnz.govt.nz/news-and-events/how-we-release-information/monetary-policy-and-ocr-decision-dates-until-february-2027",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 24,
+      "title": "RBNZ leaves Official Cash Rate at 2.25 percent",
+      "publisher": "Radio New Zealand",
+      "url": "https://www.rnz.co.nz/news/business/596494/rbnz-leaves-official-cash-rate-unchanged-at-2-point-25-percent",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 25,
+      "title": "Iron Ore 62% Fe CFR China (TSI) Swap Futures",
+      "publisher": "CME Group",
+      "url": "https://www.cmegroup.com/markets/metals/ferrous/iron-ore-62pct-fe-cfr-china-tsi-swap-futures.html",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 26,
+      "title": "Iron Ore 62% Fe CFR China price",
+      "publisher": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/iron-ore-62",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 27,
+      "title": "Coal (Newcastle thermal) price",
+      "publisher": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/coal",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 28,
+      "title": "Premium Hard Coking Coal FOB Eastern Australian Ports",
+      "publisher": "Fastmarkets",
+      "url": "https://www.fastmarkets.com/commodity-prices/premium-hard-coking-coal-fob-eastern-australian-ports-dollar-per-wmt-mb-coa-0003/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 29,
+      "title": "Copper price",
+      "publisher": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/copper",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 30,
+      "title": "Lithium prices hit two-year high",
+      "publisher": "Investing News Network",
+      "url": "https://investingnews.com/lithium-prices-two-year-high/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 31,
+      "title": "Purchasing Managers' Index for May 2026",
+      "publisher": "National Bureau of Statistics of China",
+      "url": "https://www.stats.gov.cn/english/PressRelease/202606/t20260601_1963851.html",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 32,
+      "title": "National Economy Off to a Good Start in Q1 2026 (GDP)",
+      "publisher": "National Bureau of Statistics of China",
+      "url": "https://www.stats.gov.cn/english/PressRelease/202604/t20260416_1963326.html",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 33,
+      "title": "China Caixin Manufacturing PMI",
+      "publisher": "Trading Economics",
+      "url": "https://tradingeconomics.com/china/manufacturing-pmi",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 34,
+      "title": "Short-Term Energy Outlook, June 2026 (Hormuz oil disruption)",
+      "publisher": "U.S. Energy Information Administration",
+      "url": "https://www.eia.gov/outlooks/steo/",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 35,
+      "title": "FX Options Analytics (ATM vols, 25-delta risk reversals)",
+      "publisher": "Saxo Bank",
+      "url": "https://fxowebtools.saxobank.com/otc.html",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "id": 36,
+      "title": "AUD/USD Forward Rates",
+      "publisher": "Investing.com",
+      "url": "https://www.investing.com/currencies/aud-usd-forward-rates",
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "title": "US-Iran peace agreement: oil prices, tankers and Strait of Hormuz transit",
+      "publisher": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/16/us-iran-peace-agreement-oil-prices-tankers-strait-of-hormuz-transit.html",
+      "date_accessed": "2026-06-18",
+      "id": 37
+    },
+    {
+      "title": "Crude oil price today June 15 2026: Brent falls to $83.82, WTI near $80 as US-Iran peace deal lifts equities",
+      "publisher": "NewsX",
+      "url": "https://www.newsx.com/business/crude-oil-price-today-june-15-2026-brent-falls-to-8382-per-barrel-wti-near-80-as-us-iran-peace-deal-lifts-sensex-and-nifty-234531/",
+      "date_accessed": "2026-06-18",
+      "id": 38
+    },
+    {
+      "title": "2026 Strait of Hormuz crisis",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
+      "date_accessed": "2026-06-18",
+      "id": 39
+    },
+    {
+      "title": "Iran to Gain Sanctions Relief, Oil Access Under US-Backed Peace Agreement",
+      "publisher": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-17/us-hails-deal-that-defers-war-goals-and-gives-iran-relief",
+      "date_accessed": "2026-06-18",
+      "id": 40
+    }
+  ]
+}

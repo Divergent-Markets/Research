@@ -1,0 +1,1469 @@
+{
+ "$schema": "pair_analysis_v2.0",
+ "$description": "Structured extraction of bilateral FX pair analysis from two base currency dossiers plus web research",
+ "metadata": {
+  "pair": "USDCHF",
+  "base_currency": "USD",
+  "quote_currency": "CHF",
+  "valuation_date": "2026-09-01",
+  "framework_version": "2.0",
+  "base_dossier_date": "2026-09-01",
+  "quote_dossier_date": "2026-09-01"
+ },
+ "pair_convention": {
+  "spot_reference": "USD/CHF 0.80763",
+  "spot_explanation": "USD/CHF at 0.80763 means 1 USD = 0.80763 CHF. Rising = USD strengthening vs CHF. Falling = CHF appreciating vs USD. Note that the quote dossier is written from the franc's perspective, where 'Bearish CHF' is the same statement as 'Bullish USD/CHF'. All such statements have been translated into pair direction in this report.",
+  "bullish_means": "pair RISES (USD strengthens vs CHF)",
+  "bearish_means": "pair FALLS (USD weakens vs CHF; the franc appreciates)",
+  "base_dossier_tactical_stance": "USD — dossier stance: tactical Bullish, conviction 3, net score +0.3440 (ranked 1st of 11 in the G10+SGD set); strategic Neutral with a bullish tilt, conviction 2, +0.1032",
+  "quote_dossier_tactical_stance": "CHF — dossier stance: tactical Bearish, conviction 3, net score −0.2358 (ranked 9th of 11); strategic Neutral, conviction 2, −0.0499. Translated to pair direction, the franc dossier is tactically bullish USD/CHF and strategically neutral."
+ },
+ "executive_summary": "USD/CHF trades at 0.80763 as of the 2026-09-03 payload close, which is two trading days after the 2026-09-01 valuation date and is the anchor for every level, target and pip calculation in this report. The pair has gone almost nowhere over one month (+0.07%) while grinding higher over longer windows — +1.22% over three months, +3.58% over six and +2.83% over one year — and it sits at the 78th percentile of its 52-week closing range (0.76602–0.81938), a firm but not extended reading. The dominant bilateral narrative is the widest positive carry the dollar holds anywhere in the G10: a 362.5bp policy differential against a franc pinned at 0.00% by an SNB conditional forecast conditioned on that rate through 2028, with a scheduled opportunity to widen to 387.5bp on 16 September. What diverges most sharply from the standalone dossiers is that Switzerland's own fundamentals are the best in years — Q2 GDP at +1.5% quarter-on-quarter, a KOF barometer at a four-and-a-half-year high, a July trade surplus of CHF 8.1bn that is the largest since the series began in 1950, and July real retail sales at +2.3% year-on-year against an expected 1.3% — and none of it buys a rate rise, so its transmission to spot is weak while US core PCE at 3.3% transmits directly through the front end. Bilaterally the pair has also acquired a new structural driver that neither dossier captures: with low volatility sustaining carry trades, the franc is increasingly preferred over the yen as a funding currency, a CHF-funded Mexican peso carry returning roughly 4% over the past month against about 1.3% for the same trade funded in yen. The settled verdict is tactically Bullish, conviction 3, net weighted score +0.3964, and strategically Bullish, conviction 2, +0.1132 — a score clearing the Neutral boundary by only 1.3 points. The caveat is the pair's own option skew, which contradicts the direction at every tenor: 25-delta risk reversals of −0.528%, −0.506% and −0.602% mean the market pays continuously for USD/CHF downside, and with 20-day realised volatility at 8.67% against one-month implied of 6.852%, the tail is both cheap and already moving.",
+ "market_context": {
+  "spot": 0.80763,
+  "performance_1m": "+0.07%",
+  "performance_3m": "+1.22%",
+  "performance_6m": "+3.58%",
+  "performance_1y": "+2.83%",
+  "range_52w_low": 0.76602,
+  "range_52w_high": 0.81938,
+  "range_52w_percentile": 78,
+  "valuation_assessment": "Pair-level valuation is genuinely contested and both available measures are proxies rather than models. The base dossier's BIS-REER-relative table implies a USD/CHF fair value of 0.7623 — the dollar 6.05% expensive against the franc in real terms; the quote dossier's REER-momentum proxy implies 0.8028, the dollar roughly 0.82% cheap and essentially fair. The two disagree by 5.3% and neither is a purchasing-power-parity calculation, so the honest reading is that the pair is somewhere between fair and modestly rich for the dollar, with no valuation urgency in either direction. The underlying real-exchange-rate inputs are a US BIS REER of 107.84 for June 2026 against a Swiss reading of 101.69, the dollar sitting at an estimated 78th percentile of its post-2015 range and the franc at the 40th percentile of a 30-month window — both percentiles internal estimates rather than published statistics. Set against the pair's own multi-year history the picture inverts entirely: USD/CHF traded above 1.0011 in October 2022, its heaviest computed supply band at 0.91480–0.92045 carries six touches and sits 1,100 pips (13.62%) above spot, and the pair has not closed above its 200-week average in 84 consecutive weeks. What is priced at 0.80763 is a world in which the 362.5bp differential persists and no haven bid materialises — both true today, both already in the price at the 78th range percentile.",
+  "positioning": {
+   "base_cftc_net": "Dollar Index non-commercial net length +18,682 contracts (2026-08-25), down 3,817 (~17%) over four weeks from a 22,499 peak on 4 August described as a three-and-a-half-year high",
+   "base_cftc_percentile": 80,
+   "quote_cftc_net": "CHF aggregate speculative net short −19.9k contracts (28 August release, 25 August observation), having covered ~40% from −32.5k on 14 August",
+   "quote_cftc_percentile": 48,
+   "net_pair_implication": "Positioning on the two legs is configured to amplify rather than mute the pair signal — specs are net long the dollar and net short the franc, so a long USD/CHF is the crowded direction on both sides — but both positions were reduced into their catalysts rather than built into them, converting an apparently dangerous configuration into a benign one with capacity to extend.",
+   "crowding_assessment": "Moderate with capacity to extend, not extreme — roughly 10,000 contracts of room to extend the franc short before the notable ±30,000 threshold binds, against combined speculative exposure near 49,800 contracts that would have to be repurchased in a squeeze"
+  },
+  "pair_technicals": {
+   "trend_regime": "transitioning — bullish-stacked medium-term configuration (50>100>200 day SMAs) with spot sitting exactly on the short-term pivot, against a still-bearish-for-the-pair 200-week average with a near-flat downward slope",
+   "support_levels": [
+    0.79288,
+    0.80184,
+    0.77812,
+    0.76787
+   ],
+   "resistance_levels": [
+    0.81487,
+    0.8375,
+    0.89015,
+    0.9027,
+    0.9148,
+    0.9405
+   ],
+   "key_moving_averages": "50-day SMA 0.80918, 100-day 0.79934, 200-day 0.79348 — stacked 50>100>200 in pair-bullish order, but spot at 0.80763 is 15.5 pips below the 50-day, 82.9 pips above the 100-day and 141.5 pips above the 200-day, a stacked-but-tangled short-term reading. The 200-week average at 0.85954 sits 519 pips above spot with a slope of only −0.000925/week (~0.9 pips/week), so it will not converge downward within any tradeable horizon; there have been 84 consecutive weeks without a close above it.",
+   "chart_pattern": "Four-hour ascending channel established after bottoming near 0.7960 in late August, following a sharp rejection above the channel's upper boundary at 0.8160 — mapping onto the payload's 19 August low of 0.79697 and 2 September high of 0.81571. Longer-frame reads note an approximately horizontal medium-long-term trend channel, with focus on the 38.2% retracement of the 0.9200-to-0.7603 move at 0.8213, immediately above the 52-week high.",
+   "psychological_levels": [
+    0.8,
+    0.81,
+    0.82
+   ]
+  },
+  "pair_volatility": {
+   "iv_1m": 6.852,
+   "iv_3m": 7.031,
+   "iv_percentile": 30,
+   "rv_1m": 8.67,
+   "rv_vs_iv": "Negative variance risk premium: 20-day realised (8.67%) exceeds 1-month implied (6.852%) by 1.82 volatility points, the textbook signal that directional spot expression is rewarded and long optionality is unusually cheap",
+   "risk_reversals": "25-delta risk reversals negative and widening with horizon: −0.528% (1M), −0.506% (3M), −0.602% (6M) — a persistent and widening premium for USD/CHF downside. Butterflies at 0.28%/0.243%/0.273% are unremarkable.",
+   "vol_term_structure": "Clean contango (6.852% at 38.6d, 7.031% at 94.7d, 7.187% at 185.7d) with no near-dated bump through a fortnight containing US payrolls, US CPI, an FOMC with SEP, an SNB assessment and a Swiss constitutional referendum — a genuinely feared binary produces backwardation, and its absence says the September cluster is under-hedged",
+   "vol_regime": "Low vol / compressing on an absolute and IV-percentile basis, but realised already exceeding implied, meaning the compression may be beginning to break"
+  },
+  "recent_regime": "The regime since June has been a carry grind interrupted once, violently. The pair rose almost continuously from a 0.78103 close on 29 May to a 0.81938 close on 28 July and an intraday 52-week high of 0.82072 on 29 July, then lost 0.80401 on 30 July and has since traded a 0.79697–0.81571 band — a two-month consolidation at the top of a six-month advance, with a higher low (0.79697 on 19 August, well above May's 0.77955) but no new high. The interruption is the 19 August session, and its cause is bilateral rather than macro: Chris Turner at ING explains that USD/CHF's sharp drop after the US Treasury buy-back announcement was mainly position adjustment after a hawkish Fed narrative had favoured longs, recalling April 2025 when concerns over US policy credibility hit all US asset classes and both the dollar and the franc were preferred. Since then the pair has recovered steadily — 0.80944 on the Warsh day, 0.81163 on 1 September, 0.81298 on 2 September after tagging 0.81571 — before a 79-pip reversal on 3 September closed at 0.80763 in the lower half of the day's range, a rejection at the two-touch supply band that leaves the consolidation intact.",
+  "citations": [
+   "https://www.fxstreet.com/news/swiss-franc-funding-role-grows-as-volatility-stays-low-ing-202608210758",
+   "https://www.dailyforex.com/forex-technical-analysis/2026/09/usdchf-forex-signal-1-september-2026/249235",
+   "https://www.dukascopy.com/swiss/english/marketwatch/market-news/Trade-Pattern-Ideas/155781",
+   "https://www.actionforex.com/category/technical-outlook/usdchf-outlook/",
+   "https://www.investtech.com/main/market.php?CompanyID=99300074"
+  ]
+ },
+ "bilateral_carry_analysis": {
+  "base_policy_rate": 3.625,
+  "quote_policy_rate": 0,
+  "rate_differential_bps": 362.5,
+  "annualised_carry_bps": 362.5,
+  "pair_3m_iv": 7.031,
+  "pair_3m_iv_source": "CME ATM implied volatility surface, gated derived store (observed 2026-08-31), measured at 94.7 days",
+  "carry_to_vol_ratio": 0.516,
+  "carry_regime": "carry working",
+  "breakeven_move": "24.1 pips over 30 days. Spot can fall from 0.80763 to roughly 0.8052 in a month, or to 0.7930 over six months, before the carry on an unlevered spot position is erased. Against the forward the hurdle is materially higher.",
+  "forward_points": {
+   "1m": "−28.0 pips (outright 0.80483; −4.158% annualised)",
+   "3m": "−84.0 pips (outright 0.79924; −4.158% annualised)",
+   "6m": "−167.9 pips (outright 0.79084; −4.158% annualised)"
+  },
+  "carry_assessment": "The annualised carry on a long USD/CHF position is +362.5bp, the widest positive carry the dollar holds against any currency in the G10+SGD set: a 3.50–3.75% federal funds target range with a 3.625% midpoint against an SNB policy rate of 0.00%. On the June-vintage monthly series the ten-year differential is +416bp, the widest long-end gap either dossier identifies anywhere. At the 0.80763 payload spot, 3.625% is worth 292.8 pips a year, 24.1 pips over 30 days, 73.2 pips over three months and 146.4 pips over six. The carry-to-vol ratio is 0.516 (3.625/7.031% 3M ATM implied vol); against 60-day realised of 7.27% the ratio is 0.499 and against 20-day realised of 8.67% it is 0.418 — the best risk-adjusted carry available in the dollar complex, with deterioration as the volatility window shortens embedded as a warning. The carry regime is working: VIX at 14.43–14.51, tight credit spreads, and a near-zero EUR/USD cross-currency basis describe exactly the low-volatility, no-funding-stress condition in which borrowing a zero-rate currency accrues. The franc is the funding leg by construction and its role as a funding currency is growing as participants rotate away from a yen exposed to intervention risk. The regime breaks not when carry stops paying but when realised volatility rises enough to make it uneconomic, and 20-day realised at 8.67% against 6.852% implied says that process may already have begun. Forward points derive from a −415.8bp annualised futures-implied roll premium, roughly 53.3bp wider than the policy differential — a residual of basis plus money-market spread that cannot be separated without an OIS curve — meaning a rolled long must clear roughly 4.16% annualised rather than 3.62% simply to break even."
+ },
+ "factors": [
+  {
+   "factor_number": 1,
+   "factor_name": "Policy & Rates (Relative)",
+   "tactical_weight_default": 0.24,
+   "tactical_weight_applied": 0.27,
+   "strategic_weight_default": 0.24,
+   "strategic_weight_applied": 0.27,
+   "weight_adjustment_reason": "High-carry pair: the 362.5bp policy differential is the widest positive carry the dollar holds against any currency in the G10+SGD set and the widest carry deficit the franc runs against any peer bar AUD and NOK. On a pair where one leg is pinned at zero by an explicit multi-year commitment, the rate differential is not one input among ten — it is the transmission mechanism through which most of the others express themselves. Boosted +0.03 on both horizons, inside the framework's ±0.05 limit.",
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 74,
+    "evidence_type": "rates",
+    "bilateral_analysis": "The bilateral differential is 362.5bp in the dollar's favour — a 3.50-3.75% federal funds target range against an SNB policy rate of 0.00% — and on the June monthly vintage of both legs the ten-year differential is 416bp, the widest long-end gap either dossier identifies anywhere in its peer set. The direction of travel over the next four weeks is either flat or wider, never narrower, and that asymmetry is scheduled rather than speculative: the FOMC meets on 16 September with a Summary of Economic Projections attached and futures price roughly 57-66% odds of a 25bp increase to 3.75-4.00%, which would take the differential to 387.5bp, while the SNB meets eight days later on 24 September having conditioned its entire three-year conditional inflation forecast (0.6% for 2026, 0.6% for 2027, 0.7% for 2028) on the policy rate remaining at zero throughout. There is no plausible mechanism by which the quote leg moves toward the base leg inside the tactical window. The transmission to spot is the cleanest in the G10: with the franc the only zero-rate currency in the set and 100bp below the next-lowest, USD/CHF is the highest-yielding major expression of a long-dollar position, and the confirming independent evidence is the 2-year Treasury at 4.34%, which sits 71.5bp above the 3.625% policy midpoint and cannot be reconciled with a hold-then-cut path. The one genuine offset is that the carry is fully known and has been for a year, so the marginal information is the change rather than the level — and the change is what 16 September delivers.",
+    "key_bilateral_metrics": [
+     "Policy differential +362.5bp (USD 3.625% policy midpoint, as of 2026-09-01, series CBPOL_US; CHF 0.00%, series CBPOL_CH)",
+     "10-year differential +416bp (USD 4.47%, CHF 0.31%) — both legs MONTHLY as of 2026-06-01 and not live levels",
+     "Annualised carry for a long USD/CHF position +362.5bp, worth 292.8 pips a year at the 0.80763 payload spot, 24.1 pips over 30 days",
+     "Futures-implied roll premium −415.8bp annualised (13.6d to 104.7d, observed 2026-08-31), roughly 53bp wider than the policy differential — the residual is cross-currency basis plus money-market spread and cannot be separated without an OIS curve",
+     "Hike odds for 2026-09-16: roughly 57-66% in fed funds futures, roughly 48-55% in prediction markets; SNB hold on 2026-09-24 priced at effectively certainty"
+    ],
+    "what_is_priced": "The forward curve already gives away the entire 362.5bp differential plus roughly 53bp of basis, so a rolled long earns nothing for being right about the level — only about the change. The 34-43% of the September hike not in futures, and the venue gap between futures and prediction markets, is the tradeable residual.",
+    "citations": [
+     15
+    ]
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 60,
+    "evidence_type": "rates",
+    "bilateral_analysis": "Over one to six months the differential stops widening but does not close, and the asymmetry of the two legs is what keeps the stance Bullish at reduced confidence. On the base leg the Committee's own June projections carry a 2026 median of 3.8% and a 2027 median of 3.6%, which makes a September increase terminal rather than the start of a cycle — so the dollar's rate advantage plateaus near 387.5bp through the 28 October and 9 December decisions and begins to decay only in 2027. On the quote leg nothing can move at all: Swiss headline CPI is 0.4% and core 0.3%, the conditional forecast is conditioned on zero through 2028, Chairman Schlegel has repeatedly cited the undesirable side effects of negative rates, and the SNB meets only twice more inside the window, on 24 September and 10 December, at each of which a hold is the overwhelming base case. The bilateral consequence is that the pair's carry becomes a static rather than a deteriorating input — it stops generating new dollar strength and simply becomes a 3.6-3.9% annual hurdle that any franc-bullish thesis must clear. That is a materially weaker impulse than the tactical one, which is why confidence falls fourteen points, but it is still positive: at 362.5bp against a zero-rate leg with a 7.031% three-month implied volatility, the carry-to-vol ratio of 0.516 is the best risk-adjusted carry available in the dollar complex.",
+    "key_bilateral_metrics": [
+     "June 2026 SEP medians: 3.8% for end-2026, 3.6% for 2027 — the Committee's own path makes the September move terminal, so the differential plateaus rather than extends",
+     "SNB conditional inflation forecast 0.6% / 0.6% / 0.7% for 2026-2028, explicitly conditioned on a 0.00% policy rate across the whole horizon",
+     "Swiss headline CPI 0.4% year-on-year and core 0.3% (July 2026) — no domestic impulse capable of moving the quote leg inside the window",
+     "Carry-to-volatility ratio 0.516 (362.5bp annualised carry divided by 7.031% three-month ATM implied volatility from the gated store)",
+     "Six-month carry accrual 146 pips at the 0.80763 payload spot, against a futures roll that gives away 415.8bp annualised"
+    ],
+    "what_is_priced": "The roll premium of −415.8bp annualised prices the differential persisting at roughly current levels for the whole horizon, which is close to our own view. The market is not distinguishing between a hike that begins a cycle and one that ends it — the 9 December SEP is where that distinction gets made.",
+    "citations": [
+     14
+    ]
+   },
+   "horizon_split": "Both horizons are Bullish for the pair and the stance is identical, but confidence falls from 74 to 60 for a mechanical reason: inside four weeks the differential has a scheduled opportunity to widen by 25bp on 16 September with nothing on the calendar capable of narrowing it, whereas over one to six months the Fed's own 2027 median of 3.6% turns the same differential into a level that persists and then decays. The tactical horizon captures the repricing into the hike; the strategic horizon captures the plateau after it.",
+   "carry_analysis": {
+    "reference": "Bilateral carry analysis for this factor is presented in full in the dedicated Bilateral Carry Analysis section above: +362.5bp annualised carry, carry-to-vol ratio of 0.516, forward points and breakeven move of 24.1 pips over 30 days."
+   },
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 2,
+   "factor_name": "Inflation & Growth Dynamics",
+   "tactical_weight_default": 0.18,
+   "tactical_weight_applied": 0.18,
+   "strategic_weight_default": 0.1,
+   "strategic_weight_applied": 0.1,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 58,
+    "evidence_type": "macro_data",
+    "bilateral_analysis": "The inflation differential is the largest of any pair either dossier covers and it runs entirely one way: US headline CPI 3.4% and core PCE 3.3% — unmoved for three consecutive months — with headline PCE at 3.7% and a six-month annualised rate of 4.1%, against Swiss headline CPI of 0.4% and core of 0.3%. That is roughly 300bp of core inflation differential, and its importance for this pair is not the level but the asymmetry of the reaction functions attached to it: 3.3% core PCE forces the Fed toward a hike, while 0.3% Swiss core buys the SNB nothing at all. The growth differential cuts the other way and must be stated honestly, because it is the single strongest argument against the pair rising: Swiss Q2 GDP grew 1.5% quarter-on-quarter against a 0.2-0.4% consensus, the KOF barometer printed 106.7 in August (its highest since November 2021), industrial production ran +5.5% year-on-year against a -4.7% forecast, and Swiss GDP of 2.33% year-on-year on the OECD vintage exceeds the US 2.10%. Switzerland is currently the better economy and the better surprise generator. But growth that produces no inflation cannot produce a policy response, so the transmission of Swiss strength to spot is limited to equity and direct-investment flows, whereas US inflation transmits directly through the front end. The asymmetric sensitivity is therefore that US data — 4 September payrolls at +58,000 consensus after -23,000, and 11 September CPI — moves this pair several times harder than the 3 September Swiss GDP and CPI double-header, and the tactical skew is dollar-positive with a fat left tail on payrolls.",
+    "key_bilateral_metrics": [
+     "Core inflation differential roughly 300bp: US core PCE 3.3% (July, third month unchanged) versus Swiss core 0.3% (July, ex fresh and seasonal products, energy and fuel)",
+     "Headline differential 300bp: US CPI 3.4% versus Swiss CPI 0.4%; US headline PCE 3.7% with a 4.1% six-month annualised rate",
+     "Growth differential runs the OTHER way: Swiss GDP +2.33% year-on-year versus US +2.10% (OECD vintages), with Swiss Q2 at +1.5% quarter-on-quarter against a 0.2-0.4% consensus",
+     "US labour deterioration: July payrolls -23,000 against +83,000 consensus, average hourly earnings 3.2% year-on-year (five-year low), participation 61.4%",
+     "Swiss surprise run: KOF 106.7 versus 103.0 forecast, industrial production +5.5% versus -4.7% forecast, procure.ch PMI forecast 54.1"
+    ],
+    "what_is_priced": "Hike odds of 57-66% price core PCE staying near 3.3% and the Fed acting on it; nothing prices the Swiss growth beat, correctly, because it changes no policy rate. The unpriced item is the conditional path from a second negative payroll print to a hold twelve days later.",
+    "citations": [
+     15
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": "macro_data",
+    "bilateral_analysis": "Over one to six months both sides of the differential decay and the honest bilateral verdict is Neutral. On the base leg the inflation that is forcing the Fed's hand is substantially tariff-driven at an average statutory rate of 11.0%, which is a one-off price level effect that drops out of the year-on-year comparison, while the labour deterioration — payrolls at -23,000, wage growth at a five-year low, participation falling, ISM non-manufacturing employment at 47.4 — is a trend rather than an artefact. On the quote leg Switzerland's apparent strength is very likely borrowed: US Section 232 pharmaceutical tariffs of up to 15% were announced on 2 April and took effect on 31 July, chemical and pharmaceutical exports jumped 25.7% in July, and exports pulled forward ahead of a tariff are exports that will not happen in Q4 and Q1 — which is why the IMF carries 0.8% for 2026 and the SNB 'around 1%' against a 1.5% quarterly run-rate. So the pair faces a base leg whose inflation premium fades and a quote leg whose growth premium fades, roughly simultaneously and to roughly offsetting effect. The one durable asymmetry is that Swiss inflation of 0.4% mechanically produces real franc appreciation over time even with a soft nominal rate, which is the structural counterweight this factor cannot resolve at a 0.10 weight and which is properly captured in Factor 5 instead.",
+    "key_bilateral_metrics": [
+     "US average statutory tariff rate 11.0% as at 2026-08-24 — a level effect that drops out of year-on-year comparisons during H1 2027",
+     "Swiss Q2 strength concentrated in the tariff-exposed sector: chemicals and pharmaceuticals +25.7% in July, roughly two-thirds of the GDP beat attributed to industry",
+     "Official Swiss growth views far below the run-rate: IMF 0.8% for 2026 and 1.5% for 2027; SNB 'around 1%' for 2026",
+     "US Q2 GDP 1.5% annualised (second estimate) against GDPNow of 4.8% for Q3 — a nowcast that will move by construction",
+     "Swiss registered unemployment 3.1% seasonally adjusted in July from a 2.4% trough; US unemployment 4.1% on falling participation"
+    ],
+    "what_is_priced": "Consensus has accepted the official 0.8-1.0% Swiss growth path and has not marked it up for the Q2 beat, which we think is right. Neither side prices the symmetry — that the US tariff inflation impulse and the Swiss tariff front-running impulse unwind in the same quarters and largely cancel for this pair.",
+    "citations": []
+   },
+   "horizon_split": "The stance moves from Bullish to Neutral because the two legs' current data strengths have the same expiry date and opposite signs. Tactically the Fed reacts to a core PCE print of 3.3% that has not moved in three months while the SNB cannot react to Swiss growth of any magnitude, so the inflation differential dominates. Strategically the tariff component doing the work in US core PCE is a level effect with a defined life, and the pharmaceutical front-running doing the work in Swiss GDP reverses inside the same window — so the same dataset that is emphatically pair-positive over four weeks is genuinely two-sided over six months.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 3,
+   "factor_name": "Risk Appetite & Sentiment",
+   "tactical_weight_default": 0.1,
+   "tactical_weight_applied": 0.07,
+   "strategic_weight_default": 0.05,
+   "strategic_weight_applied": 0.03,
+   "weight_adjustment_reason": "Haven-versus-haven pair: both legs are bid in a risk-off episode, which mutes the pair's net risk beta relative to a haven-versus-risk-proxy cross like AUD/JPY. USD/CHF belongs in the low-to-moderate risk-sensitivity bucket and the offsetting betas mean the factor carries less bilateral information than the default weight implies. Reduced −0.03 tactically and −0.02 strategically to fund the Factor 1 increase.",
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 55,
+    "evidence_type": "cross_asset",
+    "bilateral_analysis": "This is a haven-versus-haven pair, so the standard risk-beta framing has to be replaced with a question about which haven wins at the margin — and in the current regime neither is being bid, which is not symmetric in its effect. The franc's only role in a benign tape is as the zero-rate funding leg, so calm actively works against it; the dollar loses its haven premium in calm but retains a 3.625% policy rate and live US exceptionalism, so calm costs it far less. With VIX at 14.43-14.51 after falling between 3.7 and 6.2 points on the month, investment-grade spreads at 79bp, high yield at 260-263bp and 27bp tighter, and equities near cycle highs, the funding-currency channel dominates the haven channel and the net effect is pair-positive. The confirming cross-sectional evidence is in the franc's own crosses — AUD/CHF at the 100th percentile of its 52-week range, CHF/NOK at the 2nd — which is the same rotation seen from a different angle. The dissenting signal is important and deserves stating: gold at 4,456.44 is up 8.6-9.9% on the month and 22.4% on the year, and the franc's traditional correlate being bought hard while the franc is sold is a correlation breakdown, most plausibly because a currency paying 0% with an explicit official cap on it is a poor vehicle for a debasement hedge. That reads as franc haven demand being under-bid rather than absent, which is why confidence is 55 rather than higher.",
+    "key_bilateral_metrics": [
+     "VIX 14.43-14.51 (2026-08-27/28), down from 18.21-20.66 a month earlier; US IG OAS 79bp, HY OAS 260-263bp and 21-27bp tighter on the month",
+     "Both legs are havens, so the pair's net risk beta is muted: the dollar sits on the right-hand exceptionalism slope of the smile, the franc at the bottom as the funding leg",
+     "Cross-sectional confirmation of the carry rotation: AUD/CHF at the 100th percentile of its 52-week close range, NZD/CHF 95th, CHF/NOK 0th-2nd",
+     "Gold 4,456.44, +8.6% on the month and +22.4% on the year, rallying alongside a firm dollar — the franc's correlate taking share of the haven bid",
+     "S&P 500 speculative net -68.0k contracts on 2026-08-28 from -10.6k a week earlier — a fast equity risk-reduction impulse that has not yet reached FX"
+    ],
+    "what_is_priced": "A 14.4 VIX, 79bp investment-grade spreads and a 7.031% three-month pair implied volatility all price continued calm, which is what keeps the carry rotation intact. What is not priced is that from these levels the VIX distribution is skewed almost entirely higher, and a haven-versus-haven pair resolves that skew ambiguously rather than in the dollar's favour.",
+    "citations": [
+     10
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": "cross_asset",
+    "bilateral_analysis": "Over one to six months the compression that makes this factor tactically pair-positive becomes the reason it cannot be extrapolated, and the haven-versus-haven structure makes the sign of any reversal genuinely indeterminate. At 79bp investment grade and 260-263bp high yield there is far more room for spreads to widen than to tighten, and the mean-reverting path is a risk-off episode — but in a risk-off episode both legs are bid, and which one wins depends on the character of the shock rather than its size. A pure equity or geopolitical shock historically favours the franc, which would push the pair lower; a dollar funding or liquidity shock favours the dollar decisively, which would push it sharply higher and is the specific configuration Factor 10 identifies as building into year-end. The two candidate shocks point in opposite directions for this pair, and both dossiers identify credible triggers for each — an unresolved Middle East conflict on one side, reserve balances at $2,916bn with no reverse-repo buffer on the other. Add the SNB's explicit willingness to intervene against rapid franc appreciation, which truncates the right tail of any franc haven rally, and the honest strategic verdict is Neutral: the factor will not drive the pair higher from an already-compressed starting point, and it cannot be relied on to drive it lower either.",
+    "key_bilateral_metrics": [
+     "Credit compression near its post-2022 floor: IG 79bp, HY 260-263bp — the mean-reverting path is wider spreads, but the pair's response to that is sign-ambiguous",
+     "Haven-versus-haven asymmetry: equity or geopolitical shock favours CHF (pair lower); dollar funding shock favours USD (pair higher)",
+     "SNB stated increased willingness to intervene against rapid franc appreciation (2026-06-18, reaffirmed 2026-07-08) — an official truncation of the pair's downside tail",
+     "Gold +22.4% year-on-year against a Swiss BIS real effective rate down 1.03 points over the same period — the standard franc-haven correlation is partially broken",
+     "Three-month pair implied volatility 7.031% and six-month 7.187% — no regime-shift premium priced at any tenor inside the strategic window"
+    ],
+    "what_is_priced": "The clean contango out to 185.7 days prices the benign regime persisting through the whole strategic window, including the midterms and the December decisions. We think that is right in expectation and wrong in distribution, but for a haven-versus-haven pair a fatter distribution is not a directional statement.",
+    "citations": [
+     10
+    ]
+   },
+   "horizon_split": "Both readings rest on the same compressed volatility regime, but the stance moves from Bullish to Neutral because a compressed regime is a reliable directional input over four weeks and an unreliable one over six months. Tactically the observable levels — a 14.4 VIX and 79bp spreads — mean the franc funds the carry trade and the pair is supported. Strategically the reversal is more likely than the continuation, and because both legs are havens the pair's response to that reversal depends on the character of the shock rather than its arrival, which is not something we can call.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 4,
+   "factor_name": "Flows & Positioning",
+   "tactical_weight_default": 0.1,
+   "tactical_weight_applied": 0.1,
+   "strategic_weight_default": 0.06,
+   "strategic_weight_applied": 0.06,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 55,
+    "evidence_type": "positioning",
+    "bilateral_analysis": "The two legs' positioning is configured to amplify rather than mute the pair signal — specs are net long the dollar and net short the franc, so a long USD/CHF is the crowded direction on both sides — but the critical bilateral fact is that both positions have been reduced into the catalysts rather than built into them, which converts an apparently dangerous configuration into a benign one. Dollar Index non-commercial net length is 18,682 contracts as of 25 August, down 3,817 or roughly 17% across four consecutive weeks from a 22,499 peak on 4 August described as a three-and-a-half-year high, and every tranche of that reduction predates Warsh's 28 August keynote. Franc aggregate speculative net short is -19.9k contracts at the 28 August release, having covered roughly 40% from -32.5k on 14 August — the fastest covering run of the year — which places it near the midpoint of its one-year band and inside the plus or minus 30,000 threshold that is notable for a contract with only 109,874 of open interest. Both legs therefore have capacity to be rebuilt without hitting an extreme, which historically allows a trend to extend rather than reverse, and that is a mild pair-positive. Against it, the pair's own option skew is the cleanest positioning read available and it points the other way: 25-delta risk reversals of -0.528% at one month, -0.506% at three and -0.602% at six mean the market is consistently paying more for USD/CHF downside than upside, so whoever is short the franc in futures is buying protection against the squeeze in options. Neutral is the honest net.",
+    "key_bilateral_metrics": [
+     "Base leg: DXY non-commercial net +18,682 contracts (2026-08-25), down 397 on the week and 3,817 from a 22,499 peak on 2026-08-04; estimated 80th percentile",
+     "Quote leg: CHF aggregate speculative net -19.9k contracts (2026-08-28 release, 25 August observation), from -32.5k on 2026-08-14; estimated 48th percentile",
+     "Combined configuration is amplifying, not muting — long base and short quote — but both legs were reduced BEFORE their respective catalysts",
+     "CHF internal structure at the 2026-08-11 tranche: asset managers -38,322, leveraged funds -11,432 (10.4% of open interest), dealers +62,382 long, open interest 109,874",
+     "Pair option skew contradicts the futures configuration: 25-delta risk reversals -0.528% (38.6d), -0.506% (94.7d), -0.602% (185.7d) — persistent bid for USD/CHF downside"
+    ],
+    "what_is_priced": "Both legs are priced as lightly positioned into dated catalysts, which is what four weeks of dollar reduction and three weeks of franc covering show. The squeeze that positioning would have delivered has already been monetised; what is not priced is the pair-specific skew, where downside protection is being paid for continuously.",
+    "citations": [
+     13,
+     14,
+     10
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 52,
+    "evidence_type": "positioning",
+    "bilateral_analysis": "Over one to six months the two legs stop cancelling and start reinforcing each other in the same direction - downward for the pair - which is why the stance turns Bearish. On the base leg the relevant flow ceases to be weekly futures and becomes reserve-manager allocation: the dollar's share of allocated reserves is 57.13%, some fifteen percentage points below its 2001 peak, and speculative length enters the window from a three-and-a-half-year high, so the distribution of positioning change is skewed toward reduction simply because there is more room to sell than to buy. On the quote leg the concentrated asset-manager short of -38,322 contracts against total open interest of only 109,874 is the classic funding-currency configuration - real money is the persistent structural seller and dealers are the long counterparty - and real-money shorts of that size are slow to build and slower to unwind, which makes them squeeze fuel rather than a stop-loss. The bilateral arithmetic is stark: roughly 10,000 contracts of room to extend the franc short before the notable threshold binds, against combined speculative exposure near 49,800 contracts that would have to be bought back in a squeeze. That is the raw material of every violent franc appreciation in the record, and the January 2015 floor removal is the reference for magnitude. Confidence is only 52 because the trigger is exogenous and undated, and because the SNB's stated willingness to intervene against rapid appreciation, backed by CHF 889.6bn of official reserve assets, caps the squeeze even if it cannot prevent it.",
+    "key_bilateral_metrics": [
+     "Base leg: dollar share of allocated reserves 57.13% (2026-Q1) against a 2001 peak near 72%; speculative length entering the window from a 22,499-contract three-and-a-half-year high",
+     "Quote leg: asset-manager short -38,322 contracts (observed 2026-08-11, an upper bound since the aggregate has covered 12,600 since), roughly USD 5.9bn notional against 109,874 open interest",
+     "Asymmetry: roughly 10,000 contracts of room to extend the franc short versus roughly 49,800 of combined speculative short to cover in a squeeze",
+     "Broad trade-weighted dollar -1.69% on the month against a G10-only basket down 0.37% — structural dollar exposure being reduced faster than tactical carry positions",
+     "Persistent negative pair risk reversals across all three tenors confirm the direction of the tail the option market is hedging"
+    ],
+    "what_is_priced": "Nothing in the pair price compensates for squeeze risk: three-month implied volatility of 7.031% with a clean contango to 185.7 days charges nothing for the one scenario a concentrated real-money short makes possible. That is the clearest identifiable mispricing in either dossier and it is pair-specific.",
+    "citations": [
+     16
+    ]
+   },
+   "horizon_split": "The stance moves from Neutral to Bearish because the question changes from whether positioning is stretched today to what happens to it if something goes wrong. Tactically both legs sit near the middle of their ranges having been reduced into catalysts, which is capacity rather than signal. Strategically the base leg's reserve-share erosion and multi-year-high starting point and the quote leg's concentrated -38,322-contract real-money short both point the pair in the same direction - lower - and the roughly five-to-one ratio between short to be covered and room to extend is what makes the strategic distribution skewed rather than balanced.",
+   "carry_analysis": null,
+   "contrarian_analysis": {
+    "tactical": {
+     "combined_positioning_signal": "Long base and short quote is an amplifying configuration, but both legs were cut into their catalysts — dollar length down 17% over four weeks pre-Jackson Hole, franc shorts covered 40% over three weeks — so the pair's implied positioning sits near the middle of its range and offers capacity to extend rather than a contrarian trigger.",
+     "unwind_trigger": "A hold on 16 September against 57-66% priced odds, which would strand an 18,682-contract dollar long in a market that repriced from 35.4% to 60.4% in four sessions; or a second consecutive negative payroll print on 4 September making a hike indefensible; or the SNB dropping its intervention sentence on 24 September, which would be read as tolerance of a stronger franc.",
+     "historical_analogue": "The mid-August franc covering run itself is the recent analogue and it has been spent — −32.5k to −19.9k in three weeks was the positioning-driven part of any franc rally and it has already happened, which is precisely why the tactical contrarian signal is absent rather than merely weak.",
+     "contrarian_case": "The case against a long USD/CHF here is that it is a consensus trade being added to at an unfavourable point on both legs: the dollar is being bought for a hike that prediction markets price at only 48-55%, and the franc is being sold at the weak end of its ranges against most of the G10 after a 3.3% six-month depreciation against the dollar. Meanwhile the pair's own option market pays a persistent premium for downside at every tenor, which is a well-informed constituency taking the other side."
+    },
+    "strategic": {
+     "combined_positioning_signal": "Both legs point the pair lower over one to six months: the base leg enters the window from a multi-year-high speculative length with a reserve share fifteen points below its 2001 peak, and the quote leg carries a concentrated −38,322-contract asset-manager short against only 109,874 of open interest. The squeeze asymmetry is roughly five to one.",
+     "unwind_trigger": "An exogenous risk event of the kind either dossier can name but neither can date — Middle East re-escalation reversing Brent's fall from 100.31 to 88.24, European credit stress as the ECB tightens into an energy shock, or a US labour recession confirmed by further negative payroll prints that forces the Fed to reverse a September hike.",
+     "historical_analogue": "January 2015, when the removal of the EUR/CHF floor moved that pair roughly 30% intraday from a comparably one-sided structural short. The magnitude is not the base case — the SNB now has CHF 889.6bn of reserves and a stated willingness to lean against appreciation, which did not exist in the same form then — but the mechanism is identical.",
+     "contrarian_case": "The strategic contrarian position is to own the pair's downside rather than its direction. A currency running a 9.77%-of-GDP current account, a AAA sovereign at 37.6% debt-to-GDP and a concentrated real-money short against it does not stay cheap indefinitely, and at 7.187% six-month implied volatility the option market is charging for a one-standard-deviation move of roughly 5% in a pair whose defining historical feature is the jump. The consensus long is being paid 362.5bp a year to be short that jump."
+    }
+   },
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 5,
+   "factor_name": "External Balance & Terms of Trade",
+   "tactical_weight_default": 0.06,
+   "tactical_weight_applied": 0.06,
+   "strategic_weight_default": 0.16,
+   "strategic_weight_applied": 0.16,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 55,
+    "evidence_type": "trade_balance",
+    "bilateral_analysis": "The external differential on this pair is the widest in either dossier's peer set and it runs entirely against the pair: Switzerland is running a current account of 9.77% of GDP against a US deficit of 2.85%, a gap of some 12.6 percentage points, and the bilateral relationship is a direct franc bid - IMF Direction of Trade Statistics show the US importing $63.7bn of goods from Switzerland in 2024 against $25.0bn of exports, a $38.6bn US goods deficit with a country of nine million people. The tactical relevance, despite the low 0.06 weight, is that both legs produced fresh extremes this month in opposite directions: Switzerland posted a July trade surplus of CHF 8.1bn, the largest since the series began in January 1950, on exports up 13.8% and imports down 4.5%, while the US advance goods balance came in at -$118.8bn against a -$100.8bn forecast, an $18bn single-month deterioration. The transmission over four weeks is weak - a monthly trade print does not move a G10 pair - but the direction is unambiguous, and the 17 September Swiss trade release is a dated tactical test of whether the surplus is structural or tariff front-running. On terms of trade the pair is near-symmetric and mildly pair-positive: the US is a net energy exporter and Switzerland a net energy importer, so Brent's fall from 100.31 to 88.24 is a modest terms-of-trade gain for the quote leg, which is the one commodity channel working against the pair this month.",
+    "key_bilateral_metrics": [
+     "Current account differential 12.62pp: Switzerland +9.77% of GDP (2026-Q1) versus the US -2.85%",
+     "Bilateral goods trade (IMF DOTS, 2024): US exports to Switzerland $25.0bn, US imports from Switzerland $63.7bn, US net goods balance -$38.6bn",
+     "Switzerland's July 2026 trade surplus CHF 8.1bn — the largest since the series began in January 1950 (the calendar's 8.73 figure is unverified and flagged)",
+     "US advance goods trade balance -$118.8bn (2026-08-27) against -$100.8bn forecast — an $18bn single-month deterioration",
+     "Net international investment positions: Switzerland +CHF 974bn (roughly 120% of GDP) versus the US -$21.27trn"
+    ],
+    "what_is_priced": "Neither leg's external accounts are priced over four weeks and correctly so - a quarterly current account does not move spot in September. The unpriced item is composition: a 76-year record Swiss surplus and a US primary income balance flipping to deficit arrived in the same quarter and no forecast we can source addresses either.",
+    "citations": []
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 70,
+    "evidence_type": "trade_balance",
+    "bilateral_analysis": "At a 0.16 strategic weight this is the largest single negative on the pair and the arithmetic compounds rather than mean-reverts. Switzerland's 9.77%-of-GDP current account is structural - a goods surplus in pharmaceuticals, precision engineering and watches, a services surplus in financial and commodity-trading revenue, and a primary income surplus thrown off by a net international investment position of CHF 974bn worth roughly 120% of annual GDP - and it generates a continuous, price-insensitive excess of franc receipts over franc payments that must be repatriated, hedged, or absorbed by the SNB. The mirror image on the base leg is deteriorating in exactly the way that matters: the US deficit widened to 2.9% of GDP in Q1 with the primary income balance flipping from surplus to deficit, which attacks the specific exorbitant-privilege mechanism that has allowed a -$21.27trn investment position to coexist with a stable currency. Two genuine bilateral offsets keep confidence at 70 rather than higher, and both are pair-specific rather than generic. First, US Section 232 tariffs of up to 15% on Swiss pharmaceutical imports, effective 31 July, hit close to half of Swiss goods exports to the United States, and July's 25.7% surge in chemical and pharmaceutical exports is very likely front-running that reverses inside the window. Second, Switzerland has committed to facilitate at least USD 200bn of investment into the United States over five years, USD 67bn of it in 2026 - a directly bilateral outbound capital flow, franc-sold and dollar-bought, equal to a meaningful fraction of the annual surplus and the most underdiscussed pair-positive item in either dossier. Even netting both, a 12.6-point current-account differential does not reverse over six months.",
+    "key_bilateral_metrics": [
+     "Switzerland current account +9.77% of GDP and NIIP +CHF 974bn versus US -2.85% and -$21.27trn — the widest external differential in either dossier's peer set",
+     "US primary income balance flipped from surplus to deficit in 2026-Q1, weakening the mechanism that finances the deficit on favourable terms",
+     "Offset one: US Section 232 pharmaceutical tariffs of up to 15% effective 2026-07-31 on close to half of Swiss goods exports to the US, with Roche and Novartis shielded for three years",
+     "Offset two: Swiss commitment to facilitate at least USD 200bn of US investment over five years, USD 67bn in 2026 — a bilateral franc-selling, dollar-buying flow",
+     "US goods deficit with Switzerland -$38.6bn on 2024 IMF DOTS — a structural bilateral franc bid independent of any policy decision"
+    ],
+    "what_is_priced": "The market prices the Swiss surplus as permanent wallpaper and the US deficit as a benign decades-old feature, so neither is in any forecast we can source as a currency driver. Consensus USD/CHF targets of 0.78-0.79 do implicitly lean on this channel, which is one of the few places where consensus and our strategic reading agree.",
+    "citations": [
+     17,
+     18,
+     19
+    ]
+   },
+   "horizon_split": "The stance is Bearish on both horizons but confidence rises from 55 to 70 and the weight from 0.06 to 0.16, so the factor contributes roughly three and a half times as much strategically. Balance-of-payments flows are cumulative: a record monthly surplus is a curiosity over four weeks and a binding constraint over six months, by which point a 12.6-point current-account differential and a $38.6bn bilateral goods deficit become the mechanism that limits how far the pair can travel. Tactical confidence is lower because July's Swiss surplus is partly pharmaceutical front-running and because a quarterly external release cannot move spot inside the window.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": {
+    "base_commodity_profile": "The US is now a net energy exporter, so oil higher is a mild positive for the dollar through terms of trade, though a larger negative through the inflation path — which in the current reaction function cuts in the dollar's favour anyway by reinforcing the hawkish case. Henry Hub at $2.70 is unremarkable. The dollar has no meaningful metals or agricultural exposure and its commodity beta is low.",
+    "quote_commodity_profile": "Switzerland is a net energy importer with no domestic production, so oil higher is a direct negative for the franc through terms of trade. Its dominant commodity linkage is gold: Switzerland is the world's largest refining hub, and gold at 4,456.44, up 8.6% on the month and 22.4% on the year, is the franc's principal correlate. Natural gas and LNG exposure runs through the European import channel and is franc-negative when prices rise.",
+    "net_effect_calculation": "Applying the framework's direction rules leg by leg: Oil up 10% — the base leg gets a mild positive as a net energy exporter (+) plus an indirect positive through an inflation impulse that reinforces the Fed's hawkish reaction function; the quote leg gets a clear negative as an importer with no offset (−). Base positive plus quote negative equals pair UP: oil higher is bullish USD/CHF, though modestly, since neither leg is a commodity currency and the transmission is second-order. Gold up 10% — the base leg is ambiguous, and the current episode shows gold and the dollar rising together, which the base dossier reads as a debasement hedge rather than a dollar-alternative trade; the quote leg gets a clear positive through both the refining-hub channel and the shared haven correlation (+CHF). Base neutral plus quote positive equals pair DOWN: gold higher is bearish USD/CHF, and gold is the larger and more reliable of the two channels for this pair. Natural gas up — quote leg negative via European import prices, base leg mildly positive as an LNG exporter, so pair UP. Netting all three at current trends — Brent down $12.07 on the month to 88.24 and gold up 8.6% — the live commodity impulse is bearish for the pair on both legs simultaneously, which is unusual and is one reason the external-balance factor is negative on both horizons.",
+    "scenario_oil_up_10pct": "Brent from 88.24 to roughly 97 — mildly bullish USD/CHF. The base leg gains modestly on terms of trade and more meaningfully through the inflation channel, since higher energy reinforces the case for the 16 September hike; the quote leg loses on import costs with no offset. Estimated net effect small, well under 1% on the pair, because neither leg is commodity-driven.",
+    "scenario_oil_down_10pct": "Brent from 88.24 to roughly 79 — mildly bearish USD/CHF. Switzerland's terms of trade improve as an importer while the US loses a modest export gain, and critically the disinflationary impulse undercuts the tactical case for the hike that is doing most of the work in Factor 1, so the second-order effect through the base leg's policy path is larger than the first-order terms-of-trade effect.",
+    "dominant_commodity_driver": "Gold, not oil. Gold is the franc's genuine correlate through the refining hub and the shared haven bid, and its 22.4% twelve-month rise while the dollar firmed is the single most informative commodity observation for this pair — it says the haven and debasement bid is being expressed in metal rather than in francs, which is currently pair-positive but describes under-bid franc demand rather than absent franc demand."
+   },
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 6,
+   "factor_name": "Guidance & Credibility",
+   "tactical_weight_default": 0.07,
+   "tactical_weight_applied": 0.07,
+   "strategic_weight_default": 0.12,
+   "strategic_weight_applied": 0.12,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 66,
+    "evidence_type": "policy_comms",
+    "bilateral_analysis": "This is the rare pair where both central banks' communication points the same way, and the sequencing amplifies it. On the base leg the Fed is currently more hawkish than the curve: the June Summary of Economic Projections raised the 2026 median to 3.8% from 3.4%, implying a hike outright while futures price only 57-66%, nine participants backed continued hikes, and the July meeting produced a 9-3 hold in which all three dissenters wanted a 25bp increase - the first three-dissent meeting with a unified direction since September 2016. Warsh then used the 28 August Jackson Hole keynote to recommit to the 2% PCE objective as a firm, fixed target and to say the summer's better prints do not tell him underlying trends have meaningfully improved. On the quote leg the SNB has given the market something more useful than a rate path: an explicitly one-sided reaction function to the exchange rate, stating on 18 June and reaffirming on 8 July an increased willingness to intervene to counter rapid and excessive franc appreciation, with no corresponding commitment against depreciation and no plausible level of franc weakness at which a bank forecasting 0.6% inflation would object. For this pair that is a written option: the Fed says it will tighten if inflation persists and the SNB says it will sell francs if they rally. The sequence matters because the FOMC on 16 September precedes the SNB on 24 September by eight days, so the Fed sets the level and the SNB responds to it rather than the reverse. The two-sided tactical risk is specific and dated: after a 3.3% six-month franc depreciation against the dollar, the pressure the intervention sentence was written to counter has abated, and dropping or softening it on 24 September would be read as tolerance of a stronger franc.",
+    "key_bilateral_metrics": [
+     "Base leg guidance above market pricing: June SEP 2026 median 3.8% implies a hike outright against futures at 57-66% — the central bank is more hawkish than the curve",
+     "July FOMC 9-3 hold with all three dissents for a 25bp hike — the strongest guidance signal available, stronger than statement language",
+     "Quote leg guidance explicitly asymmetric: 'increased willingness to intervene' against 'rapid and excessive appreciation' (2026-06-18, reaffirmed 2026-07-08), with no commitment against depreciation",
+     "Quote leg rate commitment: conditional inflation forecast conditioned on 0.00% across 2026-2028 from a bank that meets only four times a year",
+     "Sequencing: FOMC 2026-09-16 with SEP precedes SNB 2026-09-24 by eight days, so the base leg sets the tone and the quote leg reacts"
+    ],
+    "what_is_priced": "The market prices the SNB hold at certainty and the intervention language as a permanent feature, and it prices the Fed at 57-66% against a June median that implies a hike outright. The unpriced items are the gap between 60% and certainty on the base leg, and the removal of the intervention sentence on the quote leg.",
+    "citations": [
+     2
+    ]
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 60,
+    "evidence_type": "policy_comms",
+    "bilateral_analysis": "Over one to six months guidance nearly doubles in weight to 0.12 and remains the second-largest positive on the pair, because it is a statement about reaction functions rather than about data. On the quote leg the SNB's structural incentive to prefer a softer franc is reinforced rather than weakened inside the window: Swiss exports face a US pharmaceutical tariff of up to 15%, which raises rather than lowers the bank's sensitivity to any further loss of competitiveness through the exchange rate, and its stated tool preference is intervention rather than negative rates, backed by CHF 889.6bn of official reserve assets and the strongest FX-intervention record in the developed world. There are only two more assessments in the window, on 24 September and 10 December, and neither plausibly moves the rate. On the base leg the Fed has moved to meeting-by-meeting data dependence with decisions on 28 October and 9 December, the latter carrying a fresh SEP, and there is a reflexive dynamic the market does not price: political pressure to cut raises rather than lowers the institutional incentive to tighten when inflation justifies it, because the cost of appearing to yield exceeds the economic cost of 25bp. The strategic risks are asymmetric in severity rather than direction. On the base leg, if the market ever concludes the reaction function is politically rather than analytically determined, the dollar loses a credibility premium S&P explicitly cited in affirming AA+ on 26 June. On the quote leg, the January 2015 floor removal is the precedent that caps how far any SNB commitment can be trusted. Both are low-probability, high-severity, and both point the pair lower - which is why confidence is 60 rather than 70.",
+    "key_bilateral_metrics": [
+     "Quote leg has only two decisions in the window (2026-09-24 and 2026-12-10), both quarterly assessments, with a hold at 0.00% the overwhelming base case at each",
+     "Base leg has three (2026-09-16 SEP, 2026-10-28, 2026-12-09 SEP) under meeting-by-meeting data dependence, so per-event repricing potential is concentrated on the base leg",
+     "Base leg 2027 median 3.6% against a 2026 median of 3.8% — the Committee's own path makes September terminal, which is the ceiling on the guidance positive",
+     "Quote leg incentive reinforced by trade policy: a 15% Section 232 pharmaceutical tariff raises SNB sensitivity to franc strength",
+     "Credibility tails run the same way for the pair: a US independence question and the January 2015 SNB precedent would both push USD/CHF lower"
+    ],
+    "what_is_priced": "Consensus prices SNB tolerance of franc weakness correctly and Fed guidance as credible, but nothing prices the reflexive independence dynamic on the base leg or the conditionality of the SNB's asymmetric option - it counters appreciation and therefore offers no support to a long-pair position if the base leg's rate story stalls.",
+    "citations": [
+     14
+    ]
+   },
+   "horizon_split": "Both horizons are Bullish for the pair because both central banks' communication points the same way on both, but confidence falls from 66 to 60. Tactically the case is a quantifiable arbitrage - a 34-43 percentage point gap between the June dots and the futures curve on the base leg, plus a written one-sided intervention option on the quote leg, resolving in a dated eight-day sequence. Strategically the same structures persist but two unquantifiable credibility tails appear, one on each leg, and both would push the pair lower rather than higher, which has to be paid for in confidence rather than in stance.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 7,
+   "factor_name": "Event Risk & Geopolitics",
+   "tactical_weight_default": 0.05,
+   "tactical_weight_applied": 0.05,
+   "strategic_weight_default": 0.05,
+   "strategic_weight_applied": 0.05,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": "geopolitics",
+    "bilateral_analysis": "The four-week calendar is unusually dense for this pair and, unusually, the largest risks partly cancel rather than compound. The dominant scheduled item is the FOMC on 16 September with a Summary of Economic Projections attached - a genuine binary at 57-66% in futures against 48-55% in prediction markets - followed by the SNB assessment on 24 September and the Swiss constitutional neutrality referendum on 27 September, with US payrolls on 4 September and CPI on 11 September before all of them. The reason this factor is Neutral rather than Bullish is the haven-versus-haven structure of the geopolitical tail. Middle East escalation, which the July FOMC statement itself cited as a source of elevated uncertainty and which drove Brent from 100.31 to 88.24 in a month, is simultaneously dollar-positive on the haven and net-energy-export channels and franc-positive on the haven channel - so the largest undated risk in the window has an ambiguous sign for this specific pair, where a comparable analysis for a haven-versus-risk-proxy cross would be unambiguous. The genuinely bilateral, non-cancelling items are trade-policy items and they favour the pair: the Section 232 pharmaceutical tariff regime is a live US-Switzerland dispute rather than a generic macro risk, and the USD 200bn Swiss investment commitment is a directly bilateral capital flow. The Swiss referendum is polling 62-36 against and is most likely a non-event, though passage would force a re-examination of Switzerland's alignment with the sanctions architecture under which CHF 8.5bn of assets are frozen. Probability-weighted, the tactical event expectation is close to zero and Neutral is the honest output.",
+    "key_bilateral_metrics": [
+     "Dated calendar inside four weeks: US payrolls 2026-09-04, US CPI 2026-09-11, FOMC with SEP 2026-09-16, SNB assessment 2026-09-24, Swiss neutrality referendum 2026-09-27, US quarter-end 2026-09-30",
+     "Haven-versus-haven cancellation: Middle East escalation is bullish the base leg on haven plus net-energy-export channels and bullish the quote leg on the haven channel - ambiguous sign for the pair",
+     "Bilateral, non-cancelling and pair-positive: US Section 232 tariffs of up to 15% on Swiss pharmaceuticals effective 2026-07-31; Swiss commitment to facilitate USD 200bn of US investment over five years",
+     "Swiss referendum polling 62% against and 36% in favour (August Tamedia/20 Minuten, flagged as best available); CHF 8.5bn of Russia-regime assets frozen in Switzerland as at 2026-07-01",
+     "No event premium anywhere in the pair vol surface: 6.852% at 38.6 days, 7.031% at 94.7, 7.187% at 185.7 — clean contango through a fortnight containing four major events"
+    ],
+    "what_is_priced": "Nothing measurable. A clean contango with no near-dated bump through a window containing a binary FOMC with a dot plot, an SNB assessment and a constitutional referendum is the definition of an under-hedged calendar, and the persistent negative risk reversal is the only sign anyone is paying for a tail at all.",
+    "citations": [
+     7
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 48,
+    "evidence_type": "geopolitics",
+    "bilateral_analysis": "Over one to six months the event set broadens and the ambiguity deepens. On the base leg the dominant scheduled event is the US midterm congressional election on 3 November, whose FX implication resists a directional call: a result constraining fiscal expansion is dollar-positive through the deficit channel and negative through growth, a result enabling it is the reverse, and the second-order question of how either outcome changes political pressure on a Fed that may have just hiked over presidential objection is unknowable in advance. The US tariff architecture is a second large binary - consolidation of the Section 301 structure is inflationary and pair-positive near-term, an unwind with refunds is disinflationary and pair-negative - and it cuts both ways. On the quote leg the strategic items are Bilaterals III ratification, signed on 2 March and now working through parliaments with a Swiss referendum possible, and the concentration of the Swiss banking system in a single institution after the 2023 Credit Suisse absorption, which is undated but systemic for the franc if it ever activates. Netting a two-sided election, a two-sided tariff resolution, a slow-burning EU ratification and a haven tail whose sign is ambiguous for a haven-versus-haven pair leaves no directional signal. Confidence is slightly lower than tactical because six months contains more opportunities for a tail to realise without making its direction any more predictable.",
+    "key_bilateral_metrics": [
+     "US midterm elections 2026-11-03 - genuinely two-sided through the fiscal, growth and Fed-pressure channels",
+     "US tariff architecture unresolved: consolidation of Section 301 duties of 10-12.5% versus an unwind with refunds - opposite signs for the pair",
+     "Quote leg strategic items: Bilaterals III signed 2026-03-02 with ratification and a possible Swiss referendum outstanding; UBS as sole systemically important Swiss bank",
+     "Base leg decisions inside the window: 2026-10-28 and 2026-12-09 (SEP); quote leg: 2026-12-10 - each a genuine repricing opportunity under data-dependent guidance",
+     "Six-month implied volatility 7.187% prices no premium for a window containing five policy decisions, a congressional election and two unresolved legal questions"
+    ],
+    "what_is_priced": "No event premium exists at any tenor to 185.7 days, so neither the midterms nor the tariff resolution nor the December decisions are being charged for. We hold Neutral because we cannot honestly assign a sign to the two largest items, not because we think they will not matter.",
+    "citations": []
+   },
+   "horizon_split": "Both horizons are Neutral with confidence falling marginally from 50 to 48, and the reason is the same on each: this is a haven-versus-haven pair, so the geopolitical tail that would resolve the factor for most crosses has an ambiguous sign here. Tactically the calendar is dense and dated but the largest items either cancel across the two legs or are near-certain non-events; strategically the two largest items - a congressional election and a tariff legal resolution - are each genuinely two-sided, and averaging two ambiguous binaries produces Neutral rather than a direction.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 8,
+   "factor_name": "Fiscal & Sovereign Risk",
+   "tactical_weight_default": 0.04,
+   "tactical_weight_applied": 0.04,
+   "strategic_weight_default": 0.07,
+   "strategic_weight_applied": 0.07,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 50,
+    "evidence_type": [
+     "rates",
+     "macro_data"
+    ],
+    "bilateral_analysis": "The sovereign differential on this pair is close to the widest available in the G10 and it runs entirely against the pair, but over four weeks it is transmitting backwards, which is why the stance is Bearish at the lowest confidence in this analysis. The quote leg is AAA from every major agency, reconfirmed by Morningstar DBRS on 16 January 2026, with general government debt at 37.6% of GDP on the rating-agency measure (40.7% on the IMF's, nearer 30% on the Maastricht basis - the range is worth stating), a fiscal surplus of roughly 0.4% of GDP, a constitutional debt brake since 2003 and effectively no bond supply. The base leg is Aa1/AA+/AA+ with debt held by the public at 101% of GDP, a deficit above $2trn, projected fiscal-2026 interest costs of $1,039bn that would exceed the 1991 post-war high of 3.2% of GDP, and visibly deteriorating long-end auction reception - the 20-year stopping at 5.204% against 5.163% and the 30-year TIPS at 2.973% against 2.473%. On any measure of credit quality the quote leg wins overwhelmingly. But the tactical mechanism is inverted: on 1 September a global bond rout lifted yields, pushed gold to a ten-day low and lifted the dollar, so a deteriorating fiscal position is currently expressed as a dollar-supportive yield rise rather than a currency discount, and there is no Swiss fiscal event, rating review or Confederation auction of consequence inside the window to change that. The Bearish stance at 50 records a structural negative we do not expect to transmit over four weeks.",
+    "key_bilateral_metrics": [
+     "Ratings differential: Switzerland AAA from all major agencies (DBRS reconfirmed 2026-01-16) versus the US at Aa1/AA+/AA+",
+     "Debt differential: US debt held by the public 101% of GDP and gross debt approaching $40trn versus Switzerland at 37.6% on the rating-agency measure (IMF 40.7%, Maastricht nearer 30%)",
+     "Flow differential: US deficit above $2trn with projected FY2026 interest costs of $1,039bn versus a Swiss fiscal surplus near 0.4% of GDP under a constitutional debt brake",
+     "Supply differential: heavy US issuance with deteriorating long-end reception (20-year 5.204% versus 5.163%; 30-year TIPS 2.973% versus 2.473%) against negligible Confederation supply",
+     "Tactical transmission currently inverted: the 2026-09-01 bond rout lifted US yields and the dollar together"
+    ],
+    "what_is_priced": "US fiscal risk is priced almost entirely in the long end - a 5.22% 30-year and a 50bp jump in the 30-year TIPS stop - and not at all in the currency, while Swiss credit quality is priced permanently into a 0.31% ten-year. Over four weeks that is the right place for both.",
+    "citations": [
+     7
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 64,
+    "evidence_type": [
+     "rates",
+     "macro_data"
+    ],
+    "bilateral_analysis": "Over one to six months the weight rises to 0.07 and the character of the factor changes from absolute to relative, at which point the differential becomes a genuine drag on the pair. The mechanism that currently neutralises US fiscal deterioration - higher yields attracting capital - is the same mechanism that eventually breaks it, because interest costs compound automatically as low-coupon debt rolls into a 4.5-5.2% curve, and there is a direct and under-appreciated interaction with Factor 1: a September hike raises the front-end rollover cost, so the policy action that supports the pair tactically raises the fiscal burden that undermines it strategically. On the other leg nothing changes at all, and that is precisely the point - Switzerland's position does not improve, the alternatives deteriorate, and reserve managers and long-term allocators respond to relative rather than absolute quality. The bilateral expression problem is what caps confidence at 64: a 0.31% Swiss ten-year offers no way to express a quality preference through the bond market, so the preference has to be expressed in the currency, which is a slower and weaker channel than a bond bid. The genuine offset is that S&P's 26 June affirmation of AA+ explicitly cited credible, effective monetary policy execution, and a September hike reinforces exactly that credibility - so the base leg's rating backdrop is stable and provides no near-term catalyst in either direction.",
+    "key_bilateral_metrics": [
+     "Interaction with Factor 1: a 16 September hike raises the base leg's front-end rollover cost directly - the tactical pair support and the strategic fiscal burden share a cause",
+     "US interest costs projected at $1,039bn for FY2026, which would exceed the 1991 post-war high of 3.2% of GDP, compounding mechanically as debt rolls",
+     "Twin-deficit configuration on the base leg: a fiscal deficit above $2trn alongside a current account of -2.85% of GDP, financed by official holders whose dollar share printed 56.42% in 2025-Q4 before rebounding to 57.13%",
+     "Quote leg: IMF projects Swiss fiscal surpluses averaging around 0.2% of GDP to 2028 under the debt brake, with no rollover or auction risk",
+     "Expression constraint: a 0.31% Swiss ten-year means the relative-quality bid must be expressed in the currency rather than the bond, weakening the channel"
+    ],
+    "what_is_priced": "The market prices US fiscal risk as a term-premium problem confined to the long end and Swiss quality as a permanent given, so no forecast we can source treats the differential as a pair driver. If we are right the transmission shows up first as a failed or badly tailing long-end auction rather than as a gradual drift.",
+    "citations": [
+     16
+    ]
+   },
+   "horizon_split": "The stance is Bearish on both horizons but confidence rises sharply from 50 to 64, and the reason is mechanical. Tactically the fiscal channel is working backwards for this pair - the 1 September bond rout lifted US yields and the dollar together, so a widening deficit is currently pair-supportive - and there is no Swiss fiscal event in the window to counter it. Strategically the inversion cannot persist: US interest costs compound automatically, a September hike accelerates the rollover repricing, and the relative-quality gap against an unchanged AAA sovereign with no supply widens without Switzerland doing anything at all.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 9,
+   "factor_name": "Market Structure & Volatility",
+   "tactical_weight_default": 0.05,
+   "tactical_weight_applied": 0.05,
+   "strategic_weight_default": 0.03,
+   "strategic_weight_applied": 0.02,
+   "weight_adjustment_reason": "Strategic weight reduced −0.01 from a 0.03 default to fund part of the Factor 1 increase. Pass 1 was deliberately not supplied with the pair's trend structure, zones or realised volatility, so the factor's evidence base there was the volatility surface alone; over a six-month horizon a surface in clean contango carries almost no directional information and should not be asked to carry a weight it cannot support. Tactical weight left at default because the surface is genuinely informative about a dated September calendar.",
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 48,
+    "evidence_type": [
+     "positioning",
+     "pair_price_action"
+    ],
+    "bilateral_analysis": "The pair's trend structure, moving averages, zones and realised volatility are absent from this pass by design and have not been reconstructed, so this factor is scored on the volatility surface, which is the part of pair market structure the gated store does supply - and the surface is genuinely two-sided. On one side, the term structure is in clean contango at 6.852% for 38.6 days, 7.031% for 94.7 and 7.187% for 185.7, with no near-dated bump whatsoever fifteen days before an FOMC with a Summary of Economic Projections attached and eight days before an SNB assessment. A feared binary produces near-dated backwardation; its complete absence says the September cluster is under-hedged and that directional optionality on this pair is available close to the unconditional volatility level. That is a statement about expression, not direction. On the other side, the skew is directional and it is negative: 25-delta risk reversals of -0.528%, -0.506% and -0.602% across the three tenors mean the market pays a persistent premium for USD/CHF downside rather than upside at every horizon, which for a haven-versus-haven pair with a concentrated real-money franc short is the option market pricing the squeeze that futures positioning makes possible. Butterflies of 0.28%, 0.243% and 0.273% are unremarkable and add nothing. A cheap-vol, carry-friendly regime that argues for the pair rising, set against a persistent downside skew that argues for caution, nets to Neutral - and with the trend evidence deliberately withheld, Neutral is the honest output rather than a hedge.",
+    "key_bilateral_metrics": [
+     "Pair ATM implied volatility term structure in contango: 6.852% at 38.6 days, 7.031% at 94.7 days, 7.187% at 185.7 days (CME ATM, observed 2026-08-31, gated store)",
+     "25-delta risk reversals negative at every tenor: -0.528% (38.6d), -0.506% (94.7d), -0.602% (185.7d) - a persistent bid for pair downside protection",
+     "25-delta butterflies 0.28% / 0.243% / 0.273% - unremarkable convexity pricing, no wing distortion",
+     "No event premium priced around 2026-09-16 (FOMC with SEP), 2026-09-24 (SNB) or 2026-09-27 (Swiss referendum) despite all three falling inside 38.6 days",
+     "Absolute vol level low: a 7.031% three-month implies a one-standard-deviation quarterly move of roughly 3.5% on a pair whose defining historical feature is the jump"
+    ],
+    "what_is_priced": "The option market prices a routine September on this pair: contango with no near-dated premium through an FOMC with a dot plot and an SNB assessment. Its one directional statement is the skew, and that statement is that downside is worth paying for.",
+    "citations": [
+     6,
+     8,
+     9
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 45,
+    "evidence_type": [
+     "positioning",
+     "pair_price_action"
+    ],
+    "bilateral_analysis": "Over one to six months the surface carries even less directional information and the honest stance is Neutral at the lowest confidence in this analysis, which is why the weight has been cut to 0.02. Six-month ATM implied volatility of 7.187% is a low absolute level for a pair with this distribution: it prices a one-standard-deviation six-month move of roughly 5% for a currency relationship that has historically moved that far in a session when an official regime changed, and the contango running all the way out to 185.7 days says the market sees no event premium anywhere in a window containing three FOMC decisions, two SNB assessments, a congressional election and an unresolved tariff question. The 25-delta risk reversal is at its most negative at the longest tenor, -0.602%, which is the one internally consistent signal across the surface: the further out you look, the more the market pays for pair downside. That is informative about which tail is respected but it is not a forecast, and with the pair's own trend and level structure withheld from this pass there is no second source of structural evidence to arbitrate it. Underpriced volatility is a statement about how to express a view, not about which view to hold, and it cannot support a directional strategic stance.",
+    "key_bilateral_metrics": [
+     "Six-month ATM implied volatility 7.187% at 185.7 days - a one-standard-deviation six-month move of roughly 5% on a pair with jump-prone history",
+     "Contango persists to the longest observed tenor with no premium for a window containing FOMC decisions on 2026-10-28 and 2026-12-09, SNB assessments on 2026-09-24 and 2026-12-10, and the 2026-11-03 midterms",
+     "Skew most negative at the longest tenor (-0.602% at 185.7 days versus -0.528% at 38.6 days) - the market respects the downside tail more, not less, with horizon",
+     "Trend regime, moving-average configuration, support and resistance zones, ATR and realised volatility are absent from this pass by design and have NOT been reconstructed or estimated",
+     "Pair liquidity: USD/CHF is a liquid G10 major with continuous interbank pricing, so execution and gap risk are regime-dependent rather than structural"
+    ],
+    "what_is_priced": "No event premium at any tenor to 185.7 days, on a pair whose two central banks meet five times inside the window. That is wrong in distribution rather than in level, and it means any strategic view here is cheaper to express through options than through spot - which is the actionable content of this factor and the whole of it.",
+    "citations": [
+     15,
+     23
+    ]
+   },
+   "horizon_split": "Both horizons are Neutral and confidence falls only three points, from 48 to 45, because the evidence base is the same surface read at different tenors and it is directionally uninformative at both. The tactical reading has slightly more content because the surface makes a specific, falsifiable claim about a dated fortnight — that an FOMC with a dot plot and an SNB assessment are not being hedged — whereas the strategic reading is simply that a low absolute vol level with a persistent negative skew tells you which tail to respect and nothing about which way the pair goes. Note on the withheld evidence, added in this pass: the price payload is now visible and it is worth recording what it would have added, without disturbing the scored stance. The chart is mildly pair-positive at the medium horizon — 50-day above 100-day above 200-day, spot 1.78% above the 200-day, higher lows since March — and clearly pair-negative at the multi-year horizon, with spot 6.04% below a 200-week average that has not been closed above in 84 weeks. Those two readings offset, which is where pass 1 arrived from the surface alone. The one genuinely new fact is the slope: at −0.000925 per week the 200-week average is falling by less than a pip a week, so it will not converge on price within any tradeable horizon and the structural franc uptrend can only be broken by 519 pips of spot appreciation. That makes the long-term structure a standing obstacle rather than a resolving one, and if anything it argues for slightly lower confidence in the strategic Bullish reading than pass 1 assigned.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": {
+    "vol_landscape_summary": "Cheap in absolute terms and cheap relative to the calendar. Three-month ATM implied volatility of 7.031% with a clean contango from 6.852% at 38.6 days to 7.187% at 185.7 days prices a routine autumn on a pair whose two central banks meet five times inside the strategic window, with a Summary of Economic Projections attached to two of those meetings. The one directional statement the surface makes is the persistent negative 25-delta risk reversal, at its widest at six months, which says the market pays continuously for pair downside. The payload adds the decisive corroboration: 20-day realised volatility of 8.67% exceeds one-month implied by 1.82 points, so the market is charging less than the pair is already delivering.",
+    "directional_expression": "The tactical view is positive-carry and the carry is large — 362.5bp annualised, 24 pips a month at the payload spot, with a carry-to-vol ratio of 0.516 that is the best in the dollar complex — which normally argues for spot, and the negative variance risk premium reinforces that: realised above implied is the textbook condition in which directional spot is rewarded and selling volatility to fund it is not. But a rolled position gives away 415.8bp annualised to the forward, roughly 53bp more than the policy differential, so being right about the level earns nothing and only being right about the change pays. With near-dated volatility carrying no event premium at all, the tactical view is also available through options at close to unconditional pricing, which pays the carry hurdle once as premium rather than continuously. The coherent structure is therefore a size-limited spot expression of the tactical view, with longer-dated pair convexity owned separately for the tail rather than sold to finance the directional leg. The strategic view, at a net score barely above the Neutral boundary, does not support outright directional risk and is better held as relative value.",
+    "event_timing_consideration": "Four dated events fall inside 38.6 days and none is priced: US payrolls on 4 September, US CPI on 11 September, the FOMC with SEP on 16 September and the SNB assessment on 24 September, followed by the Swiss referendum on 27 September and US quarter-end on 30 September. Because the term structure is in contango rather than backwardation there is no premium to decay and therefore no timing argument for waiting until after the cluster resolves. The sequencing matters for expression: the Fed moves eight days before the SNB, so the 24 September assessment is a second, separately-priced binary conditioned on whatever level the first one produces — and the specific two-sided risk is the SNB softening or dropping its intervention language.",
+    "liquidity_note": "USD/CHF is a liquid G10 major with continuous interbank pricing and a deep listed option market on the CME Swiss franc contract, from which the gated surface is drawn, so execution is not a constraint. The relevant liquidity caveat is structural rather than transactional: with dealers the long counterparty at +62,382 contracts against a concentrated −38,322 asset-manager short in a contract carrying only 109,874 of open interest, the pair's gap risk in a squeeze is larger than its normal-regime volatility implies — and the 19 August session, a 159-pip range at nearly 3× ATR, is the empirical demonstration."
+   }
+  },
+  {
+   "factor_number": 10,
+   "factor_name": "USD Liquidity & Funding",
+   "tactical_weight_default": 0.11,
+   "tactical_weight_applied": 0.11,
+   "strategic_weight_default": 0.12,
+   "strategic_weight_applied": 0.12,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 55,
+    "evidence_type": "rates",
+    "bilateral_analysis": "For this pair the funding factor is first-order rather than a spillover, because the franc is the zero-rate leg that global carry positions are funded in and dollar liquidity conditions determine whether those positions stay on. Today dollars are abundant and there is no premium anywhere: SOFR is near 3.65% inside a 3.50-3.75% target range with no dislocation, the three-month EUR/USD cross-currency basis is essentially zero at -0.81bp against -40 to -80bp in historically stressed periods, quantitative tightening ended on 1 December 2025, and there is no reported swap-line usage. The pair-specific read comes from the gated funding series: the futures-implied roll premium of -415.8bp annualised against a 362.5bp policy differential leaves roughly 53bp of residual, which by covered interest parity is cross-currency basis plus money-market spread and cannot be decomposed without an OIS curve - it is consistent with a mildly elevated rather than stressed cost of holding dollars against francs. The transmission is unambiguous for the pair: abundant dollars plus compressed volatility keep franc-funded carry positions alive, and the franc is borrowed and sold, which supports the pair. Beneath that sits an asymmetry rather than a symmetry: reserve balances are $2,916bn and drifting toward the roughly $3trn minimum comfortable level, the overnight reverse repo facility is drained to $702mn from a $2.55trn peak, bill supply from a deficit above $2trn now hits bank reserves directly, and September quarter-end falls inside the tactical window. Bullish at 55 because the condition holds today, not because it is robust.",
+    "key_bilateral_metrics": [
+     "Pair funding premium -415.8bp annualised (13.6d to 104.7d, observed 2026-08-31) against a 362.5bp policy differential - roughly 53bp of residual basis and money-market spread, not separable without an OIS curve",
+     "No systemic dollar premium: three-month EUR/USD cross-currency basis -0.81bp (2026-08-28) against -40 to -80bp in stressed periods; SOFR near 3.65% with no dislocation",
+     "Reserve balances $2,916bn (H.4.1, 2026-08-27) drifting toward the roughly $3trn minimum comfortable level; ON RRP drained to $702mn from a $2.55trn December 2022 peak",
+     "The franc is the funding leg by construction - the only 0.00% rate in the G10+SGD set and 100bp below the next lowest - so dollar liquidity conditions transmit to this pair more directly than to any other major",
+     "September quarter-end (2026-09-30) falls inside the tactical window with no reverse-repo buffer left to absorb it"
+    ],
+    "what_is_priced": "Funding is priced as a solved problem and for four weeks that is right - QT is over, reserves are ample and the basis is at zero. What is not priced is the fragility of the carry position that this liquidity enables, which is stable only while volatility stays where it is.",
+    "citations": [
+     13,
+     11
+    ]
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 56,
+    "evidence_type": "rates",
+    "bilateral_analysis": "Over one to six months this becomes the pair's second-clearest positive, because the strategic window contains the specific seasonal and supply conditions under which reserve scarcity bites, and a dollar funding squeeze is the one shock that resolves the haven-versus-haven ambiguity decisively in the base leg's favour. The mechanism is documented by the immediately preceding cycle: in Q4 2025 SOFR-to-IORB spreads reached their widest since 2020, reserves fell to levels policymakers judged barely sufficient, and standing repo usage printed $25.95bn on 29 December and spiked to a record $74.6bn on 31 December before collapsing to zero in January. Every precondition is in place and several are worse - reserves drifting down at $2,916bn, the reverse repo facility empty at $702mn, bill supply from a deficit above $2trn hitting reserves directly, and a September hike repricing the whole short-rate complex upward at the same time. For this pair specifically, tighter dollar funding forces exactly the franc-funded positions Factor 4 identifies to be bought back in dollars, which is mechanically pair-positive, and the residual 53bp of basis in the pair's own roll premium means there is a premium that can widen from a low base. The countervailing force is institutional and genuine: the New York Fed rebranded the facility as standing repo operations on 10 December 2025 to reduce stigma and eliminated the aggregate limit in favour of full allotment subject to a $40bn per-proposition cap, which caps the tail of any squeeze. So the call is periodic year-end tightness rather than dislocation - which is precisely the calibration that is pair-positive without being disorderly.",
+    "key_bilateral_metrics": [
+     "Q4 2025 precedent: SOFR-IORB spreads at their widest since 2020, standing repo usage $25.95bn on 29 December and a record $74.6bn on 31 December, collapsing to zero in January",
+     "All preconditions in place and several worse: reserves $2,916bn and falling, ON RRP effectively empty at $702mn, bill supply from a deficit above $2trn hitting reserves directly",
+     "Pair-specific channel: 53bp of residual basis in the -415.8bp futures roll gives a premium that can widen from a low base, and franc-funded positions must be repurchased in dollars if it does",
+     "Backstop caps the tail: standing repo operations rebranded 2025-12-10 with the aggregate limit removed in favour of full allotment subject to a $40bn per-proposition cap",
+     "Year-end turn (2026-12-31) falls in the final month of the strategic window - both dossiers independently name it as the single most reliable seasonal source of basis widening"
+    ],
+    "what_is_priced": "The market prices dollar funding as solved at every observation this month, and a near-zero systemic basis says nobody is hedging it. We think the December 2025 episode was the new steady state of a system with $2.9trn of reserves and no buffer, and that a repeat around year-end is more likely than not.",
+    "citations": [
+     10
+    ]
+   },
+   "horizon_split": "Both horizons are Bullish for the pair and confidence is almost identical at 55 and 56, but the reasoning differs and the difference matters. Tactically the channel is passive: dollars are abundant, the basis is at zero, and that keeps franc-funded carry positions alive, which supports the pair by inaction. Strategically the channel becomes active: reserves drifting toward $3trn with an empty reverse repo facility and heavy bill supply reproduce the December 2025 configuration inside the window, and a dollar funding squeeze forces franc-funded positions to be bought back in dollars - the one shock that resolves this haven-versus-haven pair decisively upward rather than ambiguously.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  }
+ ],
+ "synthesis": {
+  "weight_adjustments": {
+   "adjustments_made": true,
+   "adjustments": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative)",
+     "default_weight": 0.24,
+     "applied_weight": 0.27,
+     "reason": "High-carry pair. The 362.5bp differential is the widest positive carry the dollar holds anywhere in the G10+SGD set and one leg is pinned at zero by a forecast conditioned through 2028, so the rate differential is the pair's dominant transmission mechanism rather than one input among ten. +0.03, inside the ±0.05 limit."
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "default_weight": 0.1,
+     "applied_weight": 0.07,
+     "reason": "Haven-versus-haven pair. Both legs are bid in a risk-off episode, so the pair's net risk beta is muted and the sign of any risk shock depends on its character rather than its size. −0.03 tactically, −0.02 strategically, to fund the Factor 1 increase."
+    },
+    {
+     "factor_number": 9,
+     "factor_name": "Market Structure & Volatility",
+     "default_weight": 0.03,
+     "applied_weight": 0.02,
+     "reason": "Pass 1 was not supplied with trend structure, zones or realised volatility, so the evidence base was the volatility surface alone; over six months a surface in clean contango carries almost no directional information. −0.01 strategically only."
+    }
+   ]
+  },
+  "tactical": {
+   "net_stance": "Bullish",
+   "conviction": 3,
+   "overall_confidence": 64,
+   "weighted_score_calculation": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative)",
+     "stance_score": 1,
+     "confidence": 74,
+     "conf_adj_score": 0.74,
+     "weight": 0.27,
+     "weighted_contribution": 0.1998
+    },
+    {
+     "factor_number": 2,
+     "factor_name": "Inflation & Growth Dynamics",
+     "stance_score": 1,
+     "confidence": 58,
+     "conf_adj_score": 0.58,
+     "weight": 0.18,
+     "weighted_contribution": 0.1044
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "stance_score": 1,
+     "confidence": 55,
+     "conf_adj_score": 0.55,
+     "weight": 0.07,
+     "weighted_contribution": 0.0385
+    },
+    {
+     "factor_number": 4,
+     "factor_name": "Flows & Positioning",
+     "stance_score": 0,
+     "confidence": 55,
+     "conf_adj_score": 0,
+     "weight": 0.1,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance & Terms of Trade",
+     "stance_score": -1,
+     "confidence": 55,
+     "conf_adj_score": -0.55,
+     "weight": 0.06,
+     "weighted_contribution": -0.033
+    },
+    {
+     "factor_number": 6,
+     "factor_name": "Guidance & Credibility",
+     "stance_score": 1,
+     "confidence": 66,
+     "conf_adj_score": 0.66,
+     "weight": 0.07,
+     "weighted_contribution": 0.0462
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk & Geopolitics",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.05,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign Risk",
+     "stance_score": -1,
+     "confidence": 50,
+     "conf_adj_score": -0.5,
+     "weight": 0.04,
+     "weighted_contribution": -0.02
+    },
+    {
+     "factor_number": 9,
+     "factor_name": "Market Structure & Volatility",
+     "stance_score": 0,
+     "confidence": 48,
+     "conf_adj_score": 0,
+     "weight": 0.05,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "stance_score": 1,
+     "confidence": 55,
+     "conf_adj_score": 0.55,
+     "weight": 0.11,
+     "weighted_contribution": 0.0605
+    }
+   ],
+   "net_weighted_score": 0.3964,
+   "score_interpretation": "A net score of +0.3964 is a strong Bullish reading for the pair, comfortably beyond the +0.10 threshold, and it is the highest-scoring bilateral in either dossier's opportunity set on a tactical view — which is unsurprising, since it pairs the currency ranked first of eleven on the base dossier's tactical weights with the currency ranked ninth. The structure is concentrated rather than broad: Factor 1 contributes +0.1998 and Factor 2 a further +0.1044, so 77% of the positive score comes from two factors, and both resolve on the same two dates — 4 September payrolls and 16 September FOMC. Five factors contribute positively (+0.4494 gross), two negatively (−0.0530 gross), and three contribute nothing because they are honestly Neutral: Flows because both legs' positioning was reduced into their catalysts, Event Risk because the largest geopolitical tail has an ambiguous sign for a haven-versus-haven pair, and Market Structure because pass 1 was not shown the chart and the volatility surface alone is directionally uninformative. The negatives are small tactically but they are the two structural facts that dominate the strategic reading, which is the whole story of the horizon split. Mapping to conviction: +0.30 to +0.45 maps to conviction 3, not 4, because the score is concentrated rather than corroborated across independent channels.",
+   "rationale": "At tactical weights this pair is dominated by two factors carrying 45% of the weight between them, and for once they point the same way. Policy and Rates at an adjusted 0.27 contributes +0.1998 on a 362.5bp differential that is the widest positive carry the dollar holds anywhere and that has a scheduled opportunity to widen to 387.5bp on 16 September, against a quote leg pinned at 0.00% by a conditional forecast conditioned on that rate through 2028. Inflation and Growth at 0.18 adds +0.1044 on a roughly 300bp core inflation differential — US core PCE stuck at 3.3% for three months against Swiss core of 0.3% — where the asymmetry that matters is not the level but the reaction functions attached to it: 3.3% forces the Fed's hand while 0.3% buys the SNB nothing. Guidance reinforces at +0.0462 because both central banks are talking in the same direction for this pair, the Fed sitting more hawkish than its own curve with a June median of 3.8% against futures at 57-66%, and the SNB holding an explicitly one-sided commitment to counter franc appreciation with no matching commitment against depreciation. Funding adds +0.0605: abundant dollars and a near-zero basis keep franc-funded carry positions alive, and the franc is the funding leg by construction — a role that is actively growing, since the yen's intervention risk has prompted the start of a rotation to the Swiss franc, a trend analysts expect to continue. Where the base and quote dossiers conflict, they conflict on Switzerland's own fundamentals, which are the best in years, and the bilateral resolution is that none of it buys a rate rise, so its transmission to spot is weak while US inflation transmits directly through the front end. The bilateral facts that genuinely modify the standalone views are the two negatives: a 12.6-point current-account differential with a $38.6bn US goods deficit with Switzerland on 2024 IMF DOTS, and a sovereign quality gap between AAA at 37.6% debt-to-GDP and Aa1/AA+ at 101% — both real, both pair-negative, and both currently transmitting weakly or backwards, since the 1 September bond rout lifted US yields and the dollar together. What is priced is the hike at 57-66% in futures against 48-55% in prediction markets and a June dot median that implies it outright; the edge is that residual gap plus the fact that the pair's volatility surface is in clean contango fifteen days before an FOMC with a dot plot, so the event is available at close to unconditional pricing. The path of least resistance over four weeks is a carry-supported grind through the two-touch 0.81487-0.81620 band toward the 0.82072 52-week high, not a break — the four-touch supply at 0.83750-0.84130 is 318 pips away and out of reach on a four-week ATR budget. Catalysts are dense and dated: payrolls 4 September, CPI 11 September, FOMC with SEP 16 September, Swiss trade 17 September, SNB 24 September, referendum 27 September, quarter-end 30 September. Conviction is 3 rather than 4 because 77% of the score rests on two factors sharing a single binary date, because the pair's own 25-delta risk reversal is negative at every tenor and therefore contradicts the direction, and because a rolled long gives away 415.8bp annualised to the forward and so earns nothing for being right about the level.",
+   "g10_relative_ranking": "Among long-dollar expressions USD/CHF ranks first or second on a tactical view. It carries the largest absolute policy differential in the dollar complex at 362.5bp and the best carry-to-implied-vol ratio at 0.516, and the base dossier independently names it the purest carry-per-unit-of-risk trade in the set; it ranks behind USD/CAD only on volatility efficiency, where 137.5bp of carry on materially lower realised volatility gives a comparable ratio with less spot risk, and ahead of USD/JPY, whose 262.5bp of carry sits on a stale and narrowing long-end spread — a comparison the market is now making explicitly, with BofA carrying a long-standing recommendation to sell the franc against the yen targeting 190 from 196. Among franc shorts it ranks behind EUR/CHF, where the differential is the one actively widening on a dated 10 September catalyst at the lowest cross volatility and where ING expects the franc rather than the yen to increasingly become the preferred funding currency and EUR/CHF to return to 0.9400, and behind AUD/CHF and CHF/NOK on absolute carry — though both of those sit at the extremes of their ranges with the entire differential already in the price. Against GBP/USD it is the cleaner expression of the same hawkish-Fed thesis, since sterling's differential merely changes sign while the franc's stays 362.5bp wide either way.",
+   "scenarios": {
+    "base_case": {
+     "probability_pct": 50,
+     "pair_target": "0.8180",
+     "timeframe": "2-4 weeks",
+     "conditions": [
+      "The FOMC delivers a 25bp increase on 16 September taking the differential to 387.5bp",
+      "The SNB holds at 0.00% on 24 September with the intervention language intact",
+      "VIX stays below 18 and US high-yield inside 300bp, keeping the franc-funded carry regime alive",
+      "August payrolls on 4 September print at or above zero, avoiding a second consecutive contraction",
+      "The 27 September referendum is rejected in line with 62-36 polling"
+     ],
+     "path": "The pair clears the two-touch 0.81487-0.81620 band and works toward but does not decisively break the 0.82072 52-week high."
+    },
+    "upside_case": {
+     "probability_pct": 25,
+     "pair_target": "0.8290",
+     "conditions": [
+      "Payrolls beat convincingly above +100,000, removing the labour-market objection",
+      "The dot plot signals September is not terminal",
+      "Leveraged funds rebuild franc shorts past −30k contracts, confirming trend participation"
+     ]
+    },
+    "downside_case": {
+     "probability_pct": 25,
+     "pair_target": "0.7960",
+     "conditions": [
+      "Payrolls negative for a second month",
+      "Core CPI on 11 September below 2.4%, giving the doves a disinflation narrative",
+      "The SNB drops the intervention sentence on 24 September, which is worth an estimated 100-150 pips on its own"
+     ]
+    }
+   },
+   "path_expectation": "The shape should be a compression followed by a step, not a trend. The first stage, through 4 and 11 September, is pinning: spot has already rejected 0.81571 and closed at 0.80763 inside the four-touch 0.80184-0.80831 band, and with the two largest factors both resolving on 16 September nobody wants to carry size into payrolls and CPI, so expect 40-60 pip two-way sessions around 0.8050-0.8120 with realised volatility staying above implied. The second stage is the 16 September repricing, and it should be a gap-and-extend rather than a gap-and-fade, because the 50-day at 0.80918, the 100-day at 0.79934 and the 200-day at 0.79348 are only 1.98% apart top to bottom and a 1.5% move resolves the tangle, turning systematic trend-following capital from neutral into an amplifier. The natural first destination is the 0.81487-0.81620 two-touch band, then the 0.82072 high, and the ActionForex-identified 38.2% retracement at 0.8213 sits immediately above it — a genuine confluence that argues for the base case stalling rather than extending on the first attempt. Expect a pullback of 50-70 pips at some point between 17 and 23 September as positioning squares ahead of the SNB, most likely toward the top of the 0.80184-0.80831 band, before the final resolution. If the thesis fails it will fail fast: with ATR at 55 pips and the 19 August precedent of a 159-pip session, a hold on 16 September would take the pair back inside the six-touch support band within two sessions rather than over two weeks, and the persistent negative risk reversal says the option market expects exactly that shape of failure.",
+   "conviction_ladder": {
+    "current": 3,
+    "increase_conditions": [
+     "Futures-implied hike probability rises above 75% before the meeting, converging toward the June dot plot rather than toward prediction markets",
+     "The pair closes above 0.81620, clearing the two-touch band, on three consecutive sessions",
+     "August core CPI on 11 September prints at or above 2.7% year-on-year",
+     "The FOMC hikes AND lifts the 2027 median dot above 3.6%, converting a terminal hike into a cycle (increase to 5)",
+     "The pair closes above the 0.82072 52-week high on a weekly basis (increase to 5)",
+     "The 25-delta one-month risk reversal turns positive, removing the option market's contradiction of the direction (increase to 5)"
+    ],
+    "decrease_conditions": [
+     "August payrolls print negative for a second consecutive month",
+     "The pair closes below 0.80001, the upper bound of the six-touch support band",
+     "20-day realised volatility rises above 11%, making the franc-funded carry trade uneconomic",
+     "The Committee holds on 16 September and revises the 2026 median dot down from 3.8% (decrease to 1)",
+     "The pair closes below the 200-day at 0.79348 on a weekly basis (decrease to 1)",
+     "The SNB removes the intervention language on 24 September and the pair closes below 0.7990 (decrease to 1)"
+    ]
+   },
+   "risk_reward": {
+    "base_case_payoff": "+104 pips (+1.29%) on spot, plus roughly 24 pips of carry over 30 days, so +128 pips total",
+    "downside_case_loss": "−116 pips (−1.44%), partly offset by 24 pips of carry, so −92 pips net",
+    "risk_reward_ratio": "0.90:1 base against downside on spot alone, improving to 1.84:1 on the upside case against downside",
+    "expected_value": "(0.50 × 104) + (0.25 × 214) + (0.25 × −116) = +76.5 pips (+0.95%) on spot alone; adding 24 pips of carry across all scenarios lifts it to +100.5 pips",
+    "asymmetry_assessment": "The magnitudes are close to balanced and only mildly in favour, because the near-field structure is asymmetric in quality — the only resistance inside 3% is a two-touch band while the support 116 pips below is the six-touch band containing the 200-day, so an adverse move runs into better structure than a favourable one. The asymmetry that makes this trade work is in the probabilities and the carry, not the price geometry."
+   }
+  },
+  "strategic": {
+   "net_stance": "Bullish",
+   "conviction": 2,
+   "overall_confidence": 54,
+   "weighted_score_calculation": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative)",
+     "stance_score": 1,
+     "confidence": 60,
+     "conf_adj_score": 0.6,
+     "weight": 0.27,
+     "weighted_contribution": 0.162
+    },
+    {
+     "factor_number": 2,
+     "factor_name": "Inflation & Growth Dynamics",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.1,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.03,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 4,
+     "factor_name": "Flows & Positioning",
+     "stance_score": -1,
+     "confidence": 52,
+     "conf_adj_score": -0.52,
+     "weight": 0.06,
+     "weighted_contribution": -0.0312
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance & Terms of Trade",
+     "stance_score": -1,
+     "confidence": 70,
+     "conf_adj_score": -0.7,
+     "weight": 0.16,
+     "weighted_contribution": -0.112
+    },
+    {
+     "factor_number": 6,
+     "factor_name": "Guidance & Credibility",
+     "stance_score": 1,
+     "confidence": 60,
+     "conf_adj_score": 0.6,
+     "weight": 0.12,
+     "weighted_contribution": 0.072
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk & Geopolitics",
+     "stance_score": 0,
+     "confidence": 48,
+     "conf_adj_score": 0,
+     "weight": 0.05,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign Risk",
+     "stance_score": -1,
+     "confidence": 64,
+     "conf_adj_score": -0.64,
+     "weight": 0.07,
+     "weighted_contribution": -0.0448
+    },
+    {
+     "factor_number": 9,
+     "factor_name": "Market Structure & Volatility",
+     "stance_score": 0,
+     "confidence": 45,
+     "conf_adj_score": 0,
+     "weight": 0.02,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "stance_score": 1,
+     "confidence": 56,
+     "conf_adj_score": 0.56,
+     "weight": 0.12,
+     "weighted_contribution": 0.0672
+    }
+   ],
+   "net_weighted_score": 0.1132,
+   "score_interpretation": "A net score of +0.1132 is Bullish by the mechanical rule, and it should be read for exactly what it is: a reading that clears the +0.10 threshold by 1.3 points, which is close enough to the boundary that a single confidence notch on any of the four largest factors would move it into Neutral. The rule is applied rather than relabelled, and the fragility is stated here rather than disguised. The structure is a genuinely contested book rather than a diluted version of the tactical one: gross positive of +0.3012 comes from Policy and Rates (+0.1620), Guidance (+0.0720) and USD Funding (+0.0672), while gross negative of −0.1880 comes from External Balance (−0.1120), Fiscal (−0.0448) and Flows (−0.0312). The fault line is single and clean — the dollar's rate advantage is real but terminal on the Committee's own 2027 median of 3.6%, while Switzerland's external and sovereign advantage is real and compounding. Four factors score zero and each zero is a considered two-sided assessment. Mapping to conviction: a score in the +0.10 to +0.15 band with near-cancelling blocs maps to conviction 2, not 3.",
+   "rationale": "At strategic weights the arithmetic changes character entirely. Policy and Rates keeps its adjusted 0.27 and remains the largest single contributor at +0.1620, but External Balance rises from 0.06 to 0.16 and immediately becomes the second most important factor at −0.1120, while Inflation and Growth falls from 0.18 to 0.10 and turns Neutral. The result is +0.1132 — Bullish by the rule, and only just. The two dossiers interact here in a way neither can see alone: the base dossier is strategically Neutral with a bullish tilt because its own external and fiscal arithmetic drags on a terminal rate advantage, and the quote dossier is strategically Neutral because a carry deficit of 362.5bp is very nearly fully offset by a 9.77%-of-GDP current account, a CHF 974bn net international investment position and a AAA sovereign at 37.6% debt-to-GDP. Bilaterally those two neutralities do not cancel, they compose: the pair inherits the dollar's rate advantage as its principal positive and Switzerland's balance sheet as its principal negative, and the rate advantage is marginally larger at the applied weights. The bilateral facts that modify the standalone views are specific and cut both ways. Against the pair, a $38.6bn US goods deficit with Switzerland and a 12.6-point current-account gap are a continuous, price-insensitive franc bid; a concentrated −38,322-contract asset-manager short against only 109,874 of open interest is squeeze fuel that the option market is already paying for at −0.602% in the six-month risk reversal; and the bilateral investment channel is now visibly turning, with Switzerland's largest pension fund reviewing its dollar-bond allocation on debt and hedging-cost criteria. For the pair, US Section 232 tariffs of up to 15% hit close to half of Swiss goods exports to the United States, Switzerland's commitment to facilitate USD 200bn of US investment over five years is a directly bilateral franc-selling flow, and the SNB's own reserve management is a standing dollar-asset bid. There is also a genuine interaction the market does not price: a September hike supports the pair through Factor 1 while directly raising the base leg's debt-rollover cost through Factor 8, so the tactical support and the strategic drag share a cause. What is priced is a consensus cluster at 0.78-0.79 by year-end predicated substantially on Fed easing — a premise the June dots, a 9-3 hawkish-dissent vote and a 4.34% 2-year have already falsified. The path of least resistance is a wide range with two regimes: pair-supported through the September-to-October policy window while the differential is at its widest, then contested into year-end as the surplus and the funding turn pull in opposite directions. Dated catalysts are the FOMC on 28 October and 9 December with SEP, the SNB on 10 December, the 3 November midterms and the 31 December funding turn. Conviction is 2 because both sides of the balance can be named precisely and neither can be sized, because a score 1.3 points above a threshold does not justify carrying outright directional risk for six months, and because the 200-week average at 0.85954 — 519 pips above spot and falling by less than a pip a week — is a standing structural obstacle that 84 weeks of price action have failed to overcome.",
+   "g10_relative_ranking": "USD/CHF drops materially in the strategic opportunity set, from a top-two long-dollar expression to roughly mid-table. The base dossier ranks the dollar fourth of eleven strategically, passed by SGD, NOK and SEK on external-balance strength; the quote dossier ranks the franc sixth of eleven, improved from ninth precisely because the criteria that matter over six months — a 9.77%-of-GDP current account, an AAA sovereign at 37.6% debt-to-GDP, a real effective rate at only the 40th percentile — are the ones it wins on. A pair whose base ranks fourth and whose quote ranks sixth is a mild positive, not a conviction long, and that is exactly what +0.1132 says. Among long-dollar crosses it now ranks behind USD/CAD, where the carry is smaller but the counterparty has no external offset, and behind the base dossier's preferred relative-value expressions. Among franc shorts it still beats CHF/JPY and CHF/SEK on carry but loses the strategic case against EUR/CHF once the ECB completes its cycle in late October, which is the quote dossier's own identified inflection.",
+   "scenarios": {
+    "base_case": {
+     "probability_pct": 50,
+     "pair_target": "0.8120",
+     "timeframe": "6 months",
+     "conditions": [
+      "The September hike is delivered and proves terminal, with the 2027 median held at or near 3.6%",
+      "The SNB holds at 0.00% at both the 24 September and 10 December assessments",
+      "The Swiss current account stays near 9.77% of GDP without a further deterioration in the US primary income balance",
+      "No funding dislocation — the systemic basis stays inside −20bp through year-end",
+      "The pair holds the six-touch 0.79288-0.80001 band on any pullback"
+     ],
+     "path": "A wide 0.7900-0.8250 range traded twice, ending marginally above spot — which is a materially better outcome than the 0.79084 six-month forward."
+    },
+    "upside_case": {
+     "probability_pct": 25,
+     "pair_target": "0.8390",
+     "conditions": [
+      "Reserve balances fall below $2.8trn with a persistent positive SOFR-to-IORB spread",
+      "The pair's own funding premium widens materially beyond the current 53bp residual",
+      "The December SEP removes the 2027 cut, converting a terminal hike into a plateau"
+     ]
+    },
+    "downside_case": {
+     "probability_pct": 25,
+     "pair_target": "0.7780",
+     "conditions": [
+      "Two or more further negative payroll prints with US unemployment above 4.5%",
+      "A Middle East re-escalation or European credit event forcing a franc haven bid",
+      "A badly tailing long-end Treasury auction with the 30-year clearing above 5.50%"
+     ]
+    }
+   },
+   "path_expectation": "The strategic path is a rounded double-top rather than a trend, and it is policy-dated. Phase one runs from now to late October and is the pair's strongest window: the differential is at its widest, the carry regime is intact with VIX at 14.4, and both legs' speculative positioning has room to be rebuilt. Expect the pair to test and possibly clear the 0.82072 52-week high in that phase, with the ActionForex 38.2% retracement at 0.8213 and the 0.8200 round number forming the practical ceiling on a first attempt. Phase two runs from November into January and should give part of it back as the market absorbs that the Committee's own 2027 median of 3.6% makes the September move terminal, with the 28 October FOMC — the first without a dot plot — as the specific inflection. Phase three is a renewed bid from late November into year-end driven not by rates but by funding, since reserves drifting toward $3trn with an empty reverse repo facility reproduce the December 2025 configuration, an episode that moved the dollar without moving the policy rate. Running beneath all three phases is a persistent structural franc bid from a 12.6-point current-account differential and the 146 pips of carry accruing in the pair's favour, which is why the window ends only modestly above spot but well above the forward. The pullback levels to watch on the way are the top of the six-touch band at 0.80001 and then the 200-day at 0.79348; volatility should rise through the horizon simply because 7.187% six-month implied is too low for a pair with this distribution.",
+   "conviction_ladder": {
+    "current": 2,
+    "increase_conditions": [
+     "The December SEP holds or lifts the 2027 median above 3.6%, removing the terminal-hike ceiling",
+     "The Swiss current account falls below 8% of GDP in the Q2 or Q3 balance-of-payments release",
+     "The pair sustains above the 0.81487-0.81620 band for a full month",
+     "A funding squeeze materialises with the pair's residual funding premium widening beyond 100bp while the Fed holds (increase to 4)",
+     "The Swiss surplus falls below 6% of GDP on sustained Section 232 damage (increase to 4)",
+     "The pair closes above 0.83750, entering the four-touch supply band (increase to 4)"
+    ],
+    "decrease_conditions": [
+     "The Fed cuts inside the strategic window, reversing the September hike",
+     "The pair closes below the 200-day at 0.79348 on a weekly basis, breaking the six-touch band and the trend together",
+     "The CHF asset-manager short falls below −20,000 contracts on a sustained basis, removing the squeeze fuel and the funding-flow support simultaneously",
+     "Confidence on Factor 1 falls below 56, or confidence on Factor 5 rises above 74 — either single change takes the net score below +0.10 and the stance changes to Neutral"
+    ]
+   },
+   "risk_reward": {
+    "base_case_payoff": "+44 pips on spot (+0.54%), or +190 pips (+2.35%) including 146 pips of six-month carry accrual",
+    "downside_case_loss": "−296 pips on spot (−3.67%), or −150 pips net of carry",
+    "risk_reward_ratio": "0.15:1 on spot alone base against downside; 1.27:1 on a total-return basis including carry",
+    "expected_value": "Spot alone: (0.50 × 44) + (0.25 × 313) + (0.25 × −296) = +26.25 pips (+0.33%). Including carry in all scenarios: (0.50 × 190) + (0.25 × 459) + (0.25 × −150) = +172.25 pips (+2.13%)",
+    "asymmetry_assessment": "The spot distribution is skewed against the pair — the downside case loses 296 pips into a two-touch zone while the upside gains 313 into a four-touch zone, and the six-month risk reversal at −0.602% is the option market's independent verdict on which tail is fatter. The strategic case is fundamentally a carry case, not a spot case."
+   }
+  },
+  "consensus_divergence": {
+   "bank_consensus_forecast": "MUFG Research targets 0.7800 for Q4 2026; UBS expects a rangebound market with a year-end estimate around 0.78 within a 0.77-0.81 range and separately projects EUR/CHF edging higher to 0.94 into 2026 while USD/CHF stabilises around 0.78. Aggregated forecast paths run 0.80563 in one month, 0.80132 in three, 0.79560 in six and 0.79108 in one year; a separate statistical model puts 0.8009 by end-2026. The most bearish end of the range projects 0.7606-0.7330 in 2026.",
+   "bank_consensus_forecast_source": "MUFG Research and UBS (via aggregator page https://www.investing.com/news/forex-news/eurchf-and-usdchf-price-forecast-for-2026-as-per-ubs-93CH-4416745); additional aggregated paths from LiteFinance, Traders Union, Exchange Rates UK, ibani and CoinCodex — noted with a sourcing caveat that the quote dossier's own adversarial verification found one attribution absent from the cited source, so the 0.78-0.80 cluster is corroborated while individual house numbers are best available and flagged",
+   "our_tactical_view": "0.8180 at one month against a consensus path of 0.80563 — a divergence of +124 pips",
+   "our_strategic_view": "0.8120 at six months against a consensus path of 0.79560 — a divergence of +156 pips, and against the more bearish 0.78 year-end cluster the gap is 300-400 pips",
+   "divergence_direction": "Above consensus at every horizon",
+   "divergence_magnitude": "+124 pips at 1M, +127 pips at 3M, +156 pips at 6M against the aggregated path; 300-400 pips against the more bearish 0.78 cluster",
+   "why_we_differ": "Our view differs in sign, not merely magnitude. The reason we differ is a premise, not a forecast: every bearish write-up we can source attributes the expected fall to Fed easing, and that premise has been falsified four separate ways — the June dot plot raised the 2026 median to 3.8% from 3.4%, the July meeting produced a 9-3 hold with all three dissenters wanting a hike, Warsh's 28 August keynote said underlying inflation trends have not meaningfully improved while quoting headline PCE at 3.7% and 4.1% annualised over six months, and the 2-year Treasury at 4.34% sits 71.5bp above the policy midpoint. The bilateral factor we weight differently is Factor 1, boosted to 0.27, because one leg is pinned at zero by a three-year conditional forecast while the other has a live hiking bias: consensus treats the differential as fated to compress and we treat it as fated to persist. The bilateral factor we weight no less heavily than consensus does is Factor 5 — a 12.6-point current-account differential is a genuine constraint, and it is precisely why our strategic conviction is 2 rather than 4. Consensus barely differs from the forward at one month, which means the consensus view is the carry view at short horizons and only becomes a genuine directional call further out.",
+   "payoff_if_right": "A directional move against a consensus positioned the other way, collected alongside 362.5bp of annualised carry at the best carry-to-vol ratio in the dollar complex, with the September binary available through options at close to unconditional pricing because the surface carries no near-dated premium.",
+   "risk_if_wrong": "If consensus is right and the Fed holds or eases, the pair falls while the base leg's 18,682-contract net long is stranded and the quote leg's remaining short is squeezed — the two legs' positioning amplify rather than cushion each other in that direction. The persistent negative risk reversal at every tenor says the market is already paying for exactly that outcome, and the strategic version is worse: a hike delivered and then reversed into a labour market already shedding payrolls would combine a base-leg policy mistake with a quote-leg structural bid."
+  },
+  "cross_horizon_consistency": {
+   "aligned": true,
+   "tactical_stance": "Bullish, conviction 3, net score +0.3964",
+   "strategic_stance": "Bullish, conviction 2, net score +0.1132",
+   "explanation": "Aligned on direction but sharply divergent on strength — a 71% decay between horizons, larger than either dossier shows on its own. The mechanism is the reweighting rather than a change of view: External Balance rises from 0.06 to 0.16 and turns a −0.0330 contribution into −0.1120, Inflation and Growth falls from 0.18 to 0.10 and turns Neutral as both legs' borrowed data strength unwinds, and Factor 1's confidence falls from 74 to 60 because the Committee's own 2027 median of 3.6% makes a September hike terminal rather than the start of a cycle. So the same 362.5bp differential that is a widening impulse over four weeks becomes a static cost over six months, at which point Switzerland's balance sheet is nearly large enough to offset it.",
+   "inflection_point": "Late October to early November 2026, specifically the FOMC on 28 October — the first meeting after September without a Summary of Economic Projections attached and therefore the first at which the market must judge on the Committee's silence whether the hike was terminal. A secondary, quote-side marker is Q4 Swiss data, where the pharmaceutical front-running that inflated Q2 GDP and the record July trade surplus should begin to reverse.",
+   "trading_implication": "Treat the tactical view as a position with an expiry rather than the opening leg of a strategic one. The information event that resolves the tactical trade — the 16 September dot plot — is the same release that sets the strategic path. Because the pair's volatility surface carries no event premium in either direction, there is no timing argument for waiting for the cluster to resolve. Practically: size the tactical leg on ATR with a stop below 0.7955, take the base-case profit into the 0.8207-0.8213 confluence rather than holding through it, and hold any residual strategic exposure at roughly a quarter of tactical size with the six-touch 0.79288-0.80001 band as the structural line."
+  },
+  "forward_vs_spot": {
+   "current_spot": 0.80763,
+   "forward_1m": "−28.0 pips, outright 0.80483 (implied ~4.16% annualised depreciation)",
+   "forward_3m": "−84.0 pips, outright 0.79924",
+   "forward_6m": "−167.9 pips, outright 0.79084",
+   "expected_rate_3m": "0.8140",
+   "expected_rate_6m": "0.8120",
+   "edge_3m": "+148 pips above the 3M forward outright",
+   "edge_6m": "+212 pips above the 6M forward outright"
+  }
+ },
+ "catalysts": [
+  {
+   "date": "2026-09-04",
+   "event": "US August non-farm payrolls, unemployment rate and average hourly earnings (consensus +58,000 after −23,000)",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "The largest data risk before the FOMC and the single event most capable of removing the pair's principal support. A second consecutive contraction would make a hike twelve days later very difficult to defend, collapsing Factors 1, 2 and 6 together — the three that supply the bulk of the tactical score. The quote leg has no equivalent release, so the transmission is entirely one-sided: the pair reprices on the base leg's reaction function while the SNB remains pinned at zero regardless of the outcome.",
+   "priced_in": "Partially",
+   "citations": [
+    15
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "event": "SNB foreign currency reserves for August and SECO Swiss unemployment",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Quote",
+   "rationale": "Reserves rose from CHF 759bn to CHF 768bn between June and July, but with the franc weakening and gold up 8.6% on the month that build is more consistent with valuation and income than with active intervention. A further large rise while the franc is soft would suggest the SNB is building capacity rather than defending a level, which is pair-positive at the margin; Swiss unemployment drifting above 3.1% would soften the growth story that is currently the quote leg's only support.",
+   "priced_in": "Not priced",
+   "citations": [
+    19
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "event": "ECB Governing Council decision with staff projections (third-currency event)",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Quote",
+   "rationale": "A 25bp increase to a 2.50% deposit rate is close to fully priced and would take the euro-franc policy spread from 225bp to 250bp. That matters for USD/CHF second-hand rather than directly: it pulls franc selling into EUR/CHF, which is the cleaner and better-carried expression of the same short-franc view, and a hawkish outcome would make the euro cross the preferred vehicle at this pair's expense. Conversely, an explicit signal that the euro-area cycle is complete would remove the quote leg's largest external pressure and is the most likely September source of franc strength.",
+   "priced_in": "Fully",
+   "citations": [
+    10
+   ]
+  },
+  {
+   "date": "2026-09-11",
+   "event": "US August CPI (July base 3.4% headline, 2.5% core) and monthly federal budget balance",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Base",
+   "rationale": "The last inflation print before the FOMC, and the configuration is unusual in a way that matters for the pair: core CPI at 2.5% sits 80bp below core PCE at 3.3%, an inversion of the normal relationship, so a soft core CPI print is less dovish than it appears because the Fed targets PCE and Warsh quoted headline PCE at 3.7%. Against a quote leg running 0.4% headline inflation, any print that keeps the roughly 300bp differential intact keeps the base leg's reaction function engaged and the pair supported.",
+   "priced_in": "Partially",
+   "citations": []
+  },
+  {
+   "date": "2026-09-16",
+   "event": "Federal Reserve FOMC decision with Summary of Economic Projections",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Base",
+   "rationale": "The dominant event for this pair. Futures price roughly 57-66% odds of a 25bp increase to 3.75-4.00% while the June dot median of 3.8% implies it outright and prediction markets carry 48-55%; delivery takes the bilateral differential from 362.5bp to 387.5bp against a quote leg that cannot respond. The attached dot plot simultaneously sets the strategic path, since a 2027 median held at 3.6% makes the move terminal — so this single release resolves the tactical trade and calibrates the strategic one. The pair's volatility surface carries no premium for it.",
+   "priced_in": "Partially",
+   "citations": [
+    15
+   ]
+  },
+  {
+   "date": "2026-09-17",
+   "event": "Swiss trade balance for August (July: CHF 8.1bn nominal, the largest surplus since 1950)",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Quote",
+   "rationale": "The dated test of whether Switzerland's record surplus is structural or Section 232 front-running. A second consecutive print above CHF 7bn would force the balance-of-payments story into a narrative currently dominated by carry and would strengthen the pair's largest strategic negative; a sharp fall would confirm that July's 25.7% jump in pharmaceutical exports was demand pulled forward ahead of the 31 July tariff date, which is pair-positive on a six-month view.",
+   "priced_in": "Not priced",
+   "citations": []
+  },
+  {
+   "date": "2026-09-24",
+   "event": "Swiss National Bank quarterly monetary policy assessment with refreshed conditional inflation forecast",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Quote",
+   "rationale": "A hold at 0.00% is effectively certain, so the entire tradeable content is the language. The June statement's increased willingness to intervene against rapid and excessive franc appreciation was written when the franc was under upward pressure; after a 3.58% six-month depreciation against the dollar that pressure has evidently abated, and dropping or softening the sentence would be read as tolerance of a stronger franc and would remove the one-sided option that supplies most of Factor 6. The sequencing is important: this lands eight days after the FOMC, so the SNB is responding to whatever level the Fed produces.",
+   "priced_in": "Fully",
+   "citations": [
+    2
+   ]
+  },
+  {
+   "date": "2026-09-27",
+   "event": "Swiss federal referendum on constitutionally entrenching neutrality",
+   "expected_impact": "Neutral",
+   "which_leg_affected": "Quote",
+   "rationale": "Polling at roughly 62% against and 36% in favour (August Tamedia/20 Minuten, flagged as best available), so rejection is the strong base case and the modal outcome is a non-event. Passage would bar Switzerland from joining sanctions absent a UN mandate and force a re-examination of the framework under which CHF 8.5bn of assets are frozen, cutting both ways for the franc's haven premium — arguably enhancing the neutrality claim while raising market-access friction. A roughly 20% tail is being carried for free, since no event premium appears in the pair's volatility surface.",
+   "priced_in": "Not priced",
+   "citations": []
+  },
+  {
+   "date": "2026-09-30",
+   "event": "September US dollar quarter-end funding date",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Base",
+   "rationale": "The first quarter-end since reserve balances resumed falling, at $2,916bn and heading toward the roughly $3trn minimum comfortable level with the reverse repo facility drained to $702mn. For this pair specifically, tighter dollar funding forces franc-funded carry positions to be bought back in dollars, which is the one shock that resolves a haven-versus-haven pair decisively upward rather than ambiguously. The December 2025 precedent saw standing repo usage reach a record $74.6bn.",
+   "priced_in": "Not priced",
+   "citations": [
+    13
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "event": "Federal Reserve FOMC decision, no Summary of Economic Projections attached",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "The identified inflection between the two horizons on this pair. It is the first meeting after September without a dot plot, so the market must judge on the Committee's silence whether the September move was terminal — the question on which the entire 71% decay in score between the tactical and strategic readings turns. A statement that keeps a further move live would push the strategic score well clear of the Neutral boundary; confirmation of a terminal hike leaves it where it is, at +0.1132.",
+   "priced_in": "Not priced",
+   "citations": []
+  },
+  {
+   "date": "2026-11-03",
+   "event": "US midterm congressional elections",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "The dominant scheduled event of the strategic window and genuinely two-sided for this pair. A result constraining fiscal expansion is pair-positive through the deficit channel and negative through growth; a result enabling it is the reverse. The second-order question — how either outcome changes political pressure on a Fed that may have just hiked over presidential objection, and therefore on the credibility premium the quote leg does not need — is unknowable in advance. No volatility premium exists at any tenor covering the date.",
+   "priced_in": "Not priced",
+   "citations": []
+  },
+  {
+   "date": "2026-12-09",
+   "event": "Federal Reserve FOMC decision with Summary of Economic Projections",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "The final base-leg event of the strategic window and the release at which the 2027 median dot — currently 3.6%, implying a cut back from a September hike — is either confirmed or removed. Confirmation validates the low-conviction strategic reading; removal converts the September move from terminal into a cycle and would take the pair's largest positive factor from a plateau back to a widening impulse, which is the specific trigger to upgrade the strategic stance.",
+   "priced_in": "Not priced",
+   "citations": []
+  },
+  {
+   "date": "2026-12-10",
+   "event": "Swiss National Bank quarterly monetary policy assessment with new conditional inflation forecast",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Quote",
+   "rationale": "Landing one day after the FOMC, this is the second occasion in the window on which the two banks decide inside 24 hours, and the sequencing again favours the base leg setting the tone. The rate is all but certain to remain at 0.00%; the variables are the intervention language and any revision to the 2027-2028 forecast path. A downward revision toward zero inflation would reopen the negative-rate tail that Schlegel has dismissed and would be sharply pair-positive.",
+   "priced_in": "Fully",
+   "citations": [
+    14
+   ]
+  },
+  {
+   "date": "2026-12-31",
+   "event": "Year-end US dollar funding turn",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Both",
+   "rationale": "The direct analogue of the December 2025 episode, when SOFR-to-IORB spreads reached their widest since 2020 and standing repo usage spiked to a record $74.6bn before collapsing to zero in January. Both dossiers independently identify it as the most reliable seasonal source of basis widening, and it is unusually pair-relevant: a widening basis forces the reduction of positions funded in the zero-rate leg, which is mechanically pair-positive on both sides at once. Full-allotment standing repo operations should cap it at pressure rather than crisis.",
+   "priced_in": "Not priced",
+   "citations": [
+    13
+   ]
+  },
+  {
+   "date": "2027-01-22",
+   "event": "Bank of Japan Monetary Policy Meeting with Outlook Report (third-currency event)",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Quote",
+   "rationale": "The most likely venue for the next BoJ hike, and it matters for this pair through the funding-rotation channel rather than through any direct linkage. Swiss rates are currently 0% and Japanese rates 1%; a move to 1.25% widens that gap and reinforces the franc's role as the cheaper funding leg — which is pair-positive in the short run but pair-negative in the medium run, because it deepens the concentrated short that Factor 4 identifies as squeeze fuel. Just outside the six-month window but close enough to shape year-end positioning.",
+   "priced_in": "Not priced",
+   "citations": [
+    20,
+    11
+   ]
+  }
+ ],
+ "invalidators": [
+  {
+   "condition": "The FOMC holds the target range at 3.50-3.75% on 16 September 2026 rather than hiking",
+   "new_stance": "Bearish",
+   "mechanism": "77% of the tactical score rests on Factors 1 and 2 and both resolve on that date — and for this pair specifically a hold strands an amplified configuration in which specs are long the base leg and short the quote leg simultaneously, so both sides unwind in the same direction.",
+   "monitor_indicator": "FOMC statement and implementation note; fed funds futures-implied probability in the preceding fortnight, currently 57-66%",
+   "monitor_frequency": "Daily until 16 September, then at the 2pm ET release",
+   "probability_pct": 38
+  },
+  {
+   "condition": "USD/CHF closes below 0.79288 — the lower bound of the six-touch support band and 60 pips below the 200-day at 0.79348 — on a weekly basis",
+   "new_stance": "Bearish",
+   "mechanism": "That single event breaks the pair's highest-conviction computed zone, its long-term trend average and the higher-low structure that has held since March simultaneously, converting systematic trend-following capital from a buyer into a seller and removing the flow amplifier the base case depends on.",
+   "monitor_indicator": "Weekly close versus 0.79288 and the 200-day",
+   "monitor_frequency": "Weekly",
+   "probability_pct": 20
+  },
+  {
+   "condition": "The SNB removes or materially softens the 'increased willingness to intervene' language at the 24 September or 10 December assessment",
+   "new_stance": "Neutral",
+   "mechanism": "Guidance contributes +0.0462 tactically and +0.0720 strategically and the entire contribution rests on an explicitly asymmetric commitment to lean against franc appreciation — for this pair, removing it converts a written call option against franc strength into a two-way market eight days after the Fed has set the level, and is worth an estimated 100-150 pips of downside on the day.",
+   "monitor_indicator": "SNB assessment statement text, specifically the presence of the intervention sentence",
+   "monitor_frequency": "Quarterly, at the 2026-09-24 and 2026-12-10 assessments",
+   "probability_pct": 25
+  },
+  {
+   "condition": "The pair's 25-delta one-month risk reversal moves beyond −1.00% while 20-day realised volatility rises above 11%",
+   "new_stance": "Bearish",
+   "mechanism": "That combination is the signature of the specific squeeze this pair is exposed to: a concentrated −38,322-contract asset-manager short in a contract carrying only 109,874 of open interest, with dealers the sole long counterparty at +62,382. The option market is already paying −0.528% for that tail; a doubling of the premium alongside rising realised volatility would say the carry trade has become uneconomic and that the covering has begun.",
+   "monitor_indicator": "Gated CME 25-delta risk reversal and 20-day realised volatility",
+   "monitor_frequency": "Daily",
+   "probability_pct": 15
+  },
+  {
+   "condition": "The pair's futures-implied funding premium narrows to inside −380bp — that is, the roughly 53bp residual over the 362.5bp policy differential compresses to under 20bp",
+   "new_stance": "Neutral",
+   "mechanism": "It would signal that the marginal cost of holding dollars against francs has fallen to nothing, removing the funding-squeeze asymmetry that supplies +0.0605 tactically and +0.0672 strategically and leaving the pair dependent on the rate differential alone. This is pair-specific rather than systemic: the EUR/USD basis at −0.81bp says nothing about the CHF leg.",
+   "monitor_indicator": "Gated fx_carry series (6S calendar spread)",
+   "monitor_frequency": "Daily",
+   "probability_pct": 12
+  },
+  {
+   "condition": "The Swiss August or September trade surplus falls below CHF 4bn in two consecutive prints",
+   "new_stance": "More Bullish (strategic conviction toward 3)",
+   "mechanism": "External Balance contributes −0.1120 of the strategic score at a 0.16 weight and is the largest single negative on the pair. Two sub-CHF-4bn prints would confirm that July's CHF 8.1bn record and the 25.7% pharmaceutical export jump were front-running ahead of the 31 July Section 232 date, and would remove roughly half of the pair's principal strategic drag.",
+   "monitor_indicator": "Federal Office for Customs and Border Security monthly trade release",
+   "monitor_frequency": "Monthly, next 2026-09-17",
+   "probability_pct": 20
+  },
+  {
+   "condition": "US reserve balances fall below $2.80trn with a persistent positive SOFR-to-IORB spread while the pair holds above 0.81487",
+   "new_stance": "More Bullish (tactical conviction toward 4)",
+   "mechanism": "A dollar funding squeeze is the only identified shock that resolves this haven-versus-haven pair decisively upward, forcing franc-funded carry positions to be repurchased in dollars rather than leaving the direction ambiguous.",
+   "monitor_indicator": "Federal Reserve H.4.1 reserve balances and the SOFR-IORB spread",
+   "monitor_frequency": "Weekly (H.4.1, Thursday) and daily (SOFR)",
+   "probability_pct": 22
+  }
+ ],
+ "signposts": [
+  {
+   "indicator": "USD/CHF versus the 0.81487-0.81620 two-touch resistance band and the 0.82072 52-week high",
+   "current_level": "0.80763 — 72 pips (0.90%) below the band's lower bound and 131 pips (1.62%) below the 52-week high",
+   "confirms_if": "Three consecutive daily closes above 0.81620, opening the 0.8207-0.8213 confluence of the 52-week high and the 38.2% retracement",
+   "invalidates_if": "A daily close below 0.80001, the upper bound of the six-touch support band",
+   "bilateral_importance": "This is the only near-field resistance on the pair and the gap above it is 240 pips to the next four-touch band, so a clean break has no immediate obstacle — which matters more here than for either currency alone, since the base leg's DXY expression is diluted across ten crosses while USD/CHF is a single clean level.",
+   "source": "Gated price store; pattern corroboration https://www.dukascopy.com/swiss/english/marketwatch/market-news/Trade-Pattern-Ideas/155781",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "USD/CHF 20-day realised volatility versus one-month implied",
+   "current_level": "8.67% realised against 6.852% implied — realised exceeds implied by 1.82 volatility points",
+   "confirms_if": "The gap persists or narrows from the realised side, keeping the carry regime intact and directional spot rewarded",
+   "invalidates_if": "20-day realised rises above 11% or the term structure inverts into backwardation, signalling the market has begun to price the franc squeeze",
+   "bilateral_importance": "For a pair whose entire thesis is 362.5bp of carry, realised volatility is the constraint — the carry-to-vol ratio falls from 0.516 on implied to 0.418 on 20-day realised, and above 11% the trade stops paying per unit of risk. Neither currency's standalone volatility captures this, because the ratio is a bilateral quantity.",
+   "source": "Gated price store (realisedVol, impliedVol)",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "USD/CHF 25-delta risk reversal, one and six months",
+   "current_level": "−0.528% at 38.6 days and −0.602% at 185.7 days — a persistent and horizon-widening bid for pair downside",
+   "confirms_if": "The one-month reversal narrows toward zero or turns positive, removing the option market's contradiction of the direction",
+   "invalidates_if": "The one-month reversal moves beyond −1.00%, or the six-month beyond −1.20%",
+   "bilateral_importance": "This is the single most informative pair-specific instrument and it has no single-currency equivalent — it prices which of two havens the market expects to win, and it currently says the franc. It is also the cleanest read on whether the concentrated real-money franc short is being hedged.",
+   "source": "Gated CME implied-volatility surface (Data-Cache/derived/fx_iv.csv)",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "CFTC Swiss franc all-speculator net position, with the leveraged-fund split",
+   "current_level": "−19.9k contracts aggregate at the 2026-08-28 release (25 August observation), from −32.5k on 14 August; leveraged funds −11,432 and asset managers −38,322 at the 11 August tranche",
+   "confirms_if": "The aggregate rebuilds beyond −25k on the 4 September or subsequent prints, confirming trend participation into the FOMC",
+   "invalidates_if": "Continued covering to better than −12k, signalling the market has lost conviction in the funding trade; or asset-manager net falling below −20k, removing both the squeeze fuel and the flow support",
+   "bilateral_importance": "The contract is franc-dollar, so it reads directly on this pair rather than through a cross. The internal split matters more than the headline: a leveraged-fund-driven short is a stop-loss and an asset-manager-driven short is a coiled spring, and only the pair's own contract distinguishes them.",
+   "source": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm; fresher commentary https://blog.syzgroup.com/syz-the-moment/for-decades-the-japanese-yen-has-been-the-funding-currency-of-choice-for-global-carry-trades",
+   "frequency": "Weekly, Friday release covering the prior Tuesday"
+  },
+  {
+   "indicator": "USD/CHF futures-implied funding premium versus the policy differential",
+   "current_level": "−415.8bp annualised against a 362.5bp policy differential — roughly 53bp of residual basis and money-market spread",
+   "confirms_if": "The residual widens beyond 80bp, indicating a rising cost of holding dollars against francs and the early stage of the funding squeeze the strategic case depends on",
+   "invalidates_if": "The residual compresses inside 20bp, removing the funding asymmetry entirely and leaving the pair dependent on the rate differential alone",
+   "bilateral_importance": "The systemic EUR/USD basis at −0.81bp is uninformative about the CHF leg, and no free source quotes the direct CHF/USD basis, so this derived residual is the only available read on this pair's funding cost. It is also the exact quantity a rolled long pays away, which makes it the difference between the trade's gross and net return.",
+   "source": "Gated funding store (Data-Cache/derived/fx_carry.csv, 6S calendar spread)",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "Gold (XAU/USD) against the pair",
+   "current_level": "4,456.44 at 2026-08-28, +8.6% on the month and +22.4% on the year, while USD/CHF is +0.07% on the month",
+   "confirms_if": "Gold continues higher while USD/CHF holds above 0.8050, sustaining the correlation breakdown and confirming that the haven and debasement bid is being expressed in metal rather than in francs",
+   "invalidates_if": "Gold rises further while USD/CHF falls below 0.80001, indicating the franc has reclaimed its share of the haven bid and the correlation has re-established",
+   "bilateral_importance": "Switzerland is the world's largest gold refining hub and gold is the franc's principal commodity correlate, so gold-versus-franc divergence is a pair-specific signal with no equivalent on the dollar side. It is also the netting mechanism identified in Factor 5: gold up is unambiguously pair-negative, and it has been up 22.4% while the pair rose 2.83%.",
+   "source": "https://www.tradingview.com/symbols/USDCHF/ (pair); gold levels carried from the dossiers",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "Swiss monthly trade balance",
+   "current_level": "CHF 8.1bn in July 2026, the largest since the series began in January 1950, from CHF 3.8bn in June",
+   "confirms_if": "Two consecutive prints below CHF 4bn, indicating the Section 232 pharmaceutical tariff is biting and the record was front-running",
+   "invalidates_if": "A second consecutive surplus above CHF 7bn, confirming the external bid is structural and strengthening the pair's largest strategic negative",
+   "bilateral_importance": "The bilateral relationship is the specific channel — the US runs a $38.6bn goods deficit with Switzerland on 2024 IMF DOTS, and roughly half of Swiss goods exports to the US are pharmaceutical, so this release reads directly on the pair rather than on the franc generally.",
+   "source": "IMF DOTS (injected cache, 2024) for the bilateral baseline; monthly prints via https://www.swissinfo.ch/eng/pharma-supply-chains/exports-picked-up-again-in-july/91927117",
+   "frequency": "Monthly, next 2026-09-17"
+  }
+ ],
+ "assumptions": [
+  "Price payload metadata: dataPoints 130; dateRange 2026-03-06 to 2026-09-03; spot 0.80763; spotDate 2026-09-03; computationRange 2007-11-30 to 2026-09-03 (4,894 weekday bars); weekendBarsDropped 0; pipSize 0.0001. SMAs are simple averages of trading-day closes and realised volatility is annualised on 252.",
+  "The spot date (2026-09-03) is two calendar days after the valuation date (2026-09-01), so the payload spot is fresher than the dossiers, not staler. Every level, target, pip calculation, percentage move and distance-to-average in this report is anchored to 0.80763 at 2026-09-03; the dossiers' own 0.80944 and 0.81163 appear only where quoted as dossier statements and are not used for any calculation. No web-sourced spot has been substituted anywhere.",
+  "Moving averages are simple averages of trading-day closes computed over the whole stored history, not over the 130 visible bars: 50-day 0.80918, 100-day 0.79934, 200-day 0.79348, 200-week 0.85954 with a slope of −0.000925 per week and 84 weeks since the last close above. The 200-week average is treated as a first-class structural level; its near-flat slope is the reason it is characterised as a standing obstacle rather than a converging one.",
+  "Support and resistance are the payload's computed zones only. No web-sourced level has been used. Zone distances are measured to zone midpoints. Web research was used only for named chart patterns requiring visual identification (the Dukascopy ascending channel, the horizontal medium-term channel reading, and the 38.2% retracement at 0.8213), flagged as pattern references rather than levels.",
+  "Implied volatility, risk reversals and the funding premium are taken verbatim from the gated derived store, not from web search: implied vol observed 2026-08-31 by cme_atm method at 38.6/94.7/185.7 days, and funding premium −415.8bp annualised observed 2026-08-31 by cme_calendar_spread over 13.6 to 104.7 days. The 3-month ATM figure of 7.031% is measured at 94.7 days rather than 90 because CME lists quarterly. Forward points and outrights are derived by applying the −415.8bp premium linearly across tenors and will differ from a dealer quote by the term structure of the basis. The roughly 53.3bp residual over the 362.5bp policy differential cannot be decomposed into basis versus money-market spread without an OIS curve.",
+  "Both legs' ten-year yields are MONTHLY observations dated 2026-06-01 (USD 4.47% via IRLTLT01USM156N, CHF 0.31% via IRLTLT01CHM156N), so the +416bp long-end differential is a like-for-like vintage comparison and not a live spread. The base dossier's own cross-checks found cached peer yields understating live levels by 35-47bp. Policy rates are as of 2026-09-01 (CBPOL_US 3.625% midpoint of 3.50-3.75%, CBPOL_CH 0.00%), so the 362.5bp differential is a midpoint reading; a range-based reading would give 350-375bp.",
+  "Bilateral trade is the injected IMF DOTS block for 2024 and has not been re-estimated from the web. It is goods only — no services, no FDI, no portfolio flows — which materially understates the true bilateral relationship for a pair where one leg's surplus is substantially services and primary income. The two directions differ ($63.7bn of US imports from Switzerland against $73.5bn of Swiss exports to the US) because of valuation and re-export treatment, and the US net figure of −$38.6bn is the one used.",
+  "Weight adjustments: +0.03 to Factor 1 on both horizons for the high-carry, one-leg-pinned-at-zero structure; −0.03 tactical and −0.02 strategic to Factor 3 for the haven-versus-haven muting; −0.01 strategic to Factor 9. All are within the ±0.05 limit and both horizons sum to exactly 1.00. Net stance on both horizons is derived mechanically from net_weighted_score using the framework's thresholds; the strategic score of +0.1132 clears the +0.10 threshold by 1.3 points and is stated as Bullish accordingly, with the fragility argued in the score interpretation rather than resolved by relabelling.",
+  "Factor stances, confidences, evidence types and analyses are carried verbatim from pass 1 and have not been re-scored, re-weighted or reworded. Pass 1 was scored without the price payload, deliberately, so that a stance could not be reverse-engineered from a chart. Where the now-visible payload adds material pass 1 could not use — principally the trend structure, the zones and the 200-week slope in Factor 9 — that material appears as a labelled note rather than as a change to the score.",
+  "Pair-specific data limitations: 25-delta risk reversals ARE available from the gated store (an improvement on both dossiers). Option barrier levels and dealer-known round-number interest could not be sourced and are recorded as a gap. The direct 3-month CHF/USD cross-currency basis is unquoted; only the derived residual is available. Positioning carries an observation-date caveat: the −19.9k aggregate is the 28 August release covering a 25 August observation while the internal split is from the 11 August tranche, so the −38,322 asset-manager figure is an upper bound. There is an unresolved conflict between the covering narrative and fresher research reporting hedge-fund franc shorts at a two-month high; the two are different measures on different vintages and the conflict is flagged rather than reconciled. Bank consensus targets reach this report via an aggregator page whose individual house attributions the quote dossier's own verification found partly unsupported. Referendum polling of 62-36 comes from an August poll that could not be tied to a free primary link. Swiss general government debt is 37.6% on the rating-agency measure, 40.7% on the IMF's and nearer 30% on the Maastricht basis.",
+  "Scenario probabilities, invalidator probabilities and target levels are analyst judgements calibrated to the factor analysis and the payload's zone structure, not derived from options-implied distributions. Position-sizing figures are illustrative arithmetic on stated stop distances and ATR(14) = 55 pips, not recommendations."
+ ],
+ "complete_citations": [
+  {
+   "id": 1,
+   "title": "EUR/CHF and USD/CHF price forecast for 2026, as per UBS",
+   "publisher": "Investing.com",
+   "url": "https://www.investing.com/news/forex-news/eurchf-and-usdchf-price-forecast-for-2026-as-per-ubs-93CH-4416745",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 2,
+   "title": "USD/CHF Forecast August 2026: The Dollar Breaks the 0.80 Franc Floor",
+   "publisher": "ibani",
+   "url": "https://www.ibani.com/en/guides/chf-usd-exchange-rate-forecast",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 3,
+   "title": "US Dollar/Swiss Franc Forecast 2026-2030 (USD/CHF)",
+   "publisher": "Traders Union",
+   "url": "https://tradersunion.com/currencies/forecast/usd-chf/long-term-forecast/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 4,
+   "title": "Dollar to Swiss Franc Forecast 2026: USD/CHF Expected Rates",
+   "publisher": "Exchange Rates UK",
+   "url": "https://www.exchangerates.org.uk/currency-forecasts/us-dollar-to-swiss-franc-forecast",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 5,
+   "title": "USDCHF Forecast & Price Predictions for 2026, 2027-2030",
+   "publisher": "LiteFinance",
+   "url": "https://www.litefinance.org/blog/analysts-opinions/usd-chf-price-prediction/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 6,
+   "title": "USD/CHF Technical Analysis: Ascending Channel Pattern",
+   "publisher": "Dukascopy Bank SA",
+   "url": "https://www.dukascopy.com/swiss/english/marketwatch/market-news/Trade-Pattern-Ideas/155781",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 7,
+   "title": "USD/CHF Forex Signal 01/09: US Yields Rise",
+   "publisher": "DailyForex",
+   "url": "https://www.dailyforex.com/forex-technical-analysis/2026/09/usdchf-forex-signal-1-september-2026/249235",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 8,
+   "title": "USD/CHF Technical Outlook: Expert Forex Analysis for the Swiss Pair",
+   "publisher": "ActionForex",
+   "url": "https://www.actionforex.com/category/technical-outlook/usdchf-outlook/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 9,
+   "title": "USDCHF Technical Analysis",
+   "publisher": "Investtech",
+   "url": "https://www.investtech.com/main/market.php?CompanyID=99300074",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 10,
+   "title": "Swiss Franc: Funding role grows as volatility stays low – ING",
+   "publisher": "FXStreet",
+   "url": "https://www.fxstreet.com/news/swiss-franc-funding-role-grows-as-volatility-stays-low-ing-202608210758",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 11,
+   "title": "Traders eye Swiss franc as yen intervention reshapes carry trade",
+   "publisher": "Hedgeweek",
+   "url": "https://www.hedgeweek.com/traders-eye-swiss-franc-as-yen-intervention-reshapes-carry-trade/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 12,
+   "title": "Analysis: Investors set sights on Swiss franc for popular carry trades after yen intervention",
+   "publisher": "Reuters via Investing.com",
+   "url": "https://www.investing.com/news/forex-news/analysisinvestors-set-sights-on-swiss-franc-for-popular-carry-trades-after-yen-intervention-4866417",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 13,
+   "title": "For decades, the Japanese yen has been the funding currency of choice for global carry trades",
+   "publisher": "Syz Group",
+   "url": "https://blog.syzgroup.com/syz-the-moment/for-decades-the-japanese-yen-has-been-the-funding-currency-of-choice-for-global-carry-trades",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 14,
+   "title": "Swiss Franc Under Pressure as Carry Trades Gather Pace. Forecast as of 19.08.2026",
+   "publisher": "LiteFinance",
+   "url": "https://www.litefinance.org/blog/analysts-opinions/usd-chf-price-prediction/swiss-franc-under-pressure-as-carry-trades-gather-pace-forecast-as-of-19082026/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 15,
+   "title": "Dollar Firms Against Swiss Franc Despite Robust Retail Data",
+   "publisher": "TradingPedia",
+   "url": "https://www.tradingpedia.com/2026/09/01/dollar-firms-against-swiss-franc-despite-robust-retail-data/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 16,
+   "title": "Swiss pensions curb exposure to US dollar assets amid debt, policy concerns",
+   "publisher": "IPE",
+   "url": "https://www.ipe.com/news/swiss-pensions-curb-exposure-to-us-dollar-assets-amid-debt-policy-concerns/10130452.article",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 17,
+   "title": "Foreign Portfolio Holdings of U.S. Securities as of June 30, 2025",
+   "publisher": "US Department of the Treasury (TIC)",
+   "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/shl2025r.pdf",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 18,
+   "title": "Report on Foreign Portfolio Holdings of U.S. Securities at End-June 2025",
+   "publisher": "US Department of the Treasury",
+   "url": "https://home.treasury.gov/news/press-releases/sb0482",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 19,
+   "title": "Swiss Central Bank's U.S. Equity Portfolio Hits Record",
+   "publisher": "briefs.co",
+   "url": "https://www.briefs.co/news/swiss-central-bank-s-u-s-equity-portfolio-hits-record-191-4/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 20,
+   "title": "Analysis: Investors set sights on Swiss franc for popular carry trades after yen intervention",
+   "publisher": "Reuters via AOL",
+   "url": "https://www.aol.com/articles/analysis-investors-set-sights-swiss-040226000.html",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 21,
+   "title": "USD CHF Chart — Dollar Franc Rate",
+   "publisher": "TradingView",
+   "url": "https://www.tradingview.com/symbols/USDCHF/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 22,
+   "title": "Treasury International Capital (TIC) System",
+   "publisher": "US Department of the Treasury",
+   "url": "https://home.treasury.gov/data/treasury-international-capital-tic-system",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 23,
+   "title": "USD to CHF Forecast: US dollar vs Swiss Franc 2026, 2027-2030",
+   "publisher": "CoinCodex",
+   "url": "https://coincodex.com/forex/usd-chf/forecast/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 24,
+   "title": "Switzerland — Debt securities held by nonresidents (World Bank/IMF CPIS)",
+   "publisher": "Trading Economics",
+   "url": "https://tradingeconomics.com/switzerland/14_debt-securities-held-by-nonresidents-wb-data.html",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 25,
+   "title": "USD/CHF Forecast 2026-2030: Swiss Franc Price Predictions",
+   "publisher": "Just2Trade",
+   "url": "https://j2t.com/solutions/blogview/usdchf-forecast-and-price-prediction/",
+   "date_accessed": "2026-09-04"
+  }
+ ]
+}

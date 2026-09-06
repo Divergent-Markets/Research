@@ -1,0 +1,1526 @@
+{
+ "metadata": {
+  "pair": "USDSGD",
+  "base_currency": "USD",
+  "quote_currency": "SGD",
+  "valuation_date": "2026-09-01",
+  "framework_version": "2.0",
+  "base_dossier_date": "2026-09-01",
+  "quote_dossier_date": "2026-09-01"
+ },
+ "pair_convention": {
+  "spot_reference": "USD/SGD 1.26714",
+  "spot_explanation": "USD/SGD at 1.26714 means 1 US dollar buys 1.26714 Singapore dollars. A rising quote means the US dollar is strengthening versus the Singapore dollar (pair goes up); a falling quote means the Singapore dollar is strengthening versus the US dollar (pair goes down). All levels, targets and pip calculations in this report are anchored to the payload spot of 1.26714 as of the 2026-09-03 close, two sessions after the 2026-09-01 valuation date.",
+  "bullish_means": "pair RISES (USD strengthens vs SGD)",
+  "bearish_means": "pair FALLS (USD weakens vs SGD)",
+  "base_dossier_tactical_stance": "Bullish USD, conviction 3, tactical net score +0.3440 (ranked first of eleven); strategically Neutral with a bullish tilt at +0.1032, conviction 2",
+  "quote_dossier_tactical_stance": "Bullish SGD, conviction 2 (which means USD/SGD lower); strategically Bullish SGD at conviction 3. Because the quote dossier states its stances as 'Bullish SGD', every quote-leg stance has been sign-flipped before entering this analysis."
+ },
+ "executive_summary": "USD/SGD is quoted at 1.26714 as of the 3 September close in the gated price store, two sessions after the 1 September valuation date, and every level, target and pip calculation in this report is anchored to that figure rather than to a fresher vendor quote. The pair has fallen 1.09% over one month, 1.65% over three, 0.54% over six and 0.68% over twelve — a Singapore dollar that has strengthened steadily rather than sharply, and which now sits at the 12th percentile of its 52-week closing range, 4.31% below a 200-week average that has not been closed above for 81 consecutive weeks. The dominant bilateral narrative is a collision between a Federal Reserve that has become the only G10 central bank expected to raise rates and a Monetary Authority of Singapore that has steepened its S$NEER appreciation slope at two consecutive quarterly reviews, and the crucial asymmetry is that MAS's instrument is the exchange rate itself, so the entire policy contest is expressed directly in this pair rather than transmitted through it. Two bilateral differentials diverge sharply from what either standalone dossier implies: the money-market gap of roughly 222bp is a spread against a currency with no policy rate at all, so it is not a policy differential and cannot be read as one, and the six-month forward discount of 160 points already monetises 2.5% annualised Singapore dollar appreciation against a band slope estimated at only about 1.25% — the market has already paid for more than the instrument has ever delivered. The settled verdict is tactically Bullish at conviction 2 (net score +0.2486) and strategically Bearish at conviction 3 (net score −0.3344), an inversion driven mechanically by the fact that the four-week window contains one gated FOMC with projections and no Singapore decision, while the six-month window contains a compounding band slope, a nineteen-percentage-point current-account differential and a Fed whose own dots make September terminal. Our own caveat, stated plainly rather than buried: the price payload the direction pass never saw shows a pair in a clean sequence of lower highs and lower lows into a 12th-percentile close, which sits uncomfortably beside a tactical long, and readers should size the tactical leg as a carry-supported fade of a downtrend rather than as a trend trade. The strategic call is the better one on structure but the worse one on execution, because the forward curve has already priced most of it — which is why this report's central recommendation is that the pair is the right place to state the view and one of the wrong places to express it.",
+ "market_context": {
+  "spot": 1.26714,
+  "performance_1m": "-1.09%",
+  "performance_3m": "-1.65%",
+  "performance_6m": "-0.54%",
+  "performance_1y": "-0.68%",
+  "range_52w_low": 1.26139,
+  "range_52w_high": 1.30791,
+  "range_52w_percentile": 12,
+  "valuation_assessment": "There is no clean PPP construction for this pair. The BIS real broad effective exchange rate places the Singapore dollar at 114.28 for June 2026, the second-highest reading in the G10-plus-Singapore set behind the Australian dollar, against the dollar's 107.84, which is fourth. Expressed as a REER-relative proxy, the Singapore dollar screens roughly 5.97% rich against the dollar, implying a USD/SGD near 1.3428 at real-effective parity against a 1.26714 spot — a number whose inputs are 93 days stale and which carries no mean-reversion signal for a currency whose central bank institutionalises permanent real appreciation. The Singapore dollar sits 0.15% from its own thirty-month REER mean, which is inside the noise. The more informative valuation statement is the pair-level one: at the 12th percentile of its 52-week closing range and 4.31% below its 200-week average, the current level prices a market that expects the managed appreciation to continue and is willing to sit near the strong end of the historical distribution to express it.",
+  "positioning": {
+   "base_cftc_net": "CFTC Dollar Index non-commercial net long 18,682 contracts (2026-08-25), down 397 on the week and down 3,817 (~17%) from a 22,499 peak on 2026-08-04 described as a three-and-a-half-year high; all of the reduction predates the 28 August Jackson Hole keynote",
+   "base_cftc_percentile": 85,
+   "quote_cftc_net": "No CFTC SGD line exists; the only proxy is the estimated S$NEER deviation of roughly 1.7% above the band midpoint (2026-08-12), inside a stated 1.40-1.90% expected range",
+   "quote_cftc_percentile": null,
+   "net_pair_implication": "Specs are long the base currency and the market is implicitly long the quote currency via the S$NEER band, which is the framework's cancelling configuration. The residual tilt is mildly pair-positive because the quote leg has perhaps 30bp of trade-weighted headroom left on the conventional two per cent half-width assumption, while the base leg has room to rebuild after a four-week reduction. There is no squeeze mechanism on the quote side, so any unwind grinds rather than gaps.",
+   "crowding_assessment": "Both legs crowded near their respective extremes but in offsetting directions — cancelling configuration with a small residual USD/SGD-positive tilt"
+  },
+  "pair_technicals": {
+   "trend_regime": "transitioning",
+   "support_levels": [
+    1.2628,
+    1.26139,
+    1.25883,
+    1.26,
+    1.25
+   ],
+   "resistance_levels": [
+    1.3505,
+    1.36653,
+    1.2848,
+    1.31355,
+    1.3264,
+    1.29778,
+    1.43635
+   ],
+   "key_moving_averages": "50-day 1.28385 (167 pips / 1.32% above spot), 100-day 1.28190 (148 pips / 1.16% above), 200-day 1.28077 (136 pips / 1.08% above); all three simple averages are stacked 50>100>200 — the bullish configuration for USD/SGD — while spot sits below all three within an unusually tight 0.24% cluster. The 200-week average at 1.32176 (slope -0.000669/week) sits 5,462 pips (4.31%) above spot with 81 consecutive weeks without a weekly close above it.",
+   "chart_pattern": "Descending channel structure drawn from the January low; a bearish sequence from the 1.2990 June high has been retracing the May-to-June rally, with price currently below all three daily moving averages while the average stack itself remains unrolled and bullish.",
+   "psychological_levels": [
+    1.26,
+    1.25
+   ]
+  },
+  "pair_volatility": {
+   "iv_1m": null,
+   "iv_3m": null,
+   "iv_percentile": null,
+   "rv_1m": 3.47,
+   "rv_vs_iv": "Not computable — no implied volatility surface exists for USD/SGD anywhere (no CME SGD options, no CVOL SGD entry, no SGX USD/SGD options), so the variance risk premium is permanently null rather than merely unobtained",
+   "risk_reversals": "Null — no listed USD/SGD options exist on any exchange, so no 25-delta risk reversal or skew signal can be observed",
+   "vol_term_structure": "Null — no options market exists at any tenor; realised volatility shows the 20-day (3.47%) has moved above the 60-day (3.05%), one of the few genuine tells in a managed float that a band edge or policy review is approaching",
+   "vol_regime": "Low vol / compressing base with the short realised window newly leading the long window"
+  },
+  "recent_regime": "The last thirty sessions have been a controlled, one-directional grind lower with no acceleration. From the 28 July close of 1.29237 the pair printed a clean sequence of lower highs (1.29383 on 28 July, 1.28414 on 6 August, 1.27913 on 19 August, 1.27541 on 28 August) and lower lows (1.27075 on 19 August, 1.26817 on 21 August, 1.26584 on 3 September, the lowest print of the window). The single largest daily move was the 19 August session at about 73 pips, still under two ATRs. There has been no gap, spike or volatility event: the pair has simply been sold in small increments, exactly what a managed appreciation regime produces. The post-Jackson-Hole dollar rebound failed to lift this specific pair, corroborated by the Singapore dollar's 120-day correlation with the dollar dropping to -0.94, the most inverse link since May 2024 and the most negative in Asia — meaning USD/SGD is currently the purest available regional expression of the dollar leg with almost no independent quote-leg noise.",
+  "citations": [
+   "https://www.bloomberg.com/news/articles/2026-09-03/dollar-debasement-is-favoring-singapore-s-currency-analysts-say",
+   "https://www.fxstreet.com/news/singapore-dollar-near-term-pressure-against-us-dollar-ocbc-202608311849",
+   "https://continuumeconomics.com/a/04d2501e/chart-usdsgd-update-consolidating",
+   "https://continuumeconomics.com/a/0525ff58/chart-usdsgd-update-higher-in-range",
+   "https://continuumeconomics.com/a/7d6d554a/chart-usdsgd-update-consolidating-gains-to-fresh-year-high",
+   "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-29jan26",
+   "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14apr26",
+   "https://www.ebc.com/forex/usd-sgd-technical-analysis",
+   "https://www.investing.com/currencies/usd-sgd-technical"
+  ]
+ },
+ "bilateral_carry_analysis": {
+  "base_policy_rate": 3.625,
+  "quote_policy_rate": 1.4028,
+  "rate_differential_bps": 222.2,
+  "annualised_carry_bps": 222.2,
+  "pair_3m_iv": null,
+  "pair_3m_iv_source": null,
+  "carry_to_vol_ratio": null,
+  "carry_regime": "carry working",
+  "breakeven_move": "Spot can fall about 23.5 pips (0.19%) over thirty days — from 1.26714 to roughly 1.26479 — before a long USD/SGD carry position is erased; the traded one-month forward point of -27.2 is slightly worse, a roughly four-pip residual attributable to the term spread and cross-currency basis rather than an inconsistency",
+  "forward_points": {
+   "1m": "-27.2 pips (SGD at a forward premium; 2.58% annualised SGD appreciation implied)",
+   "3m": "-78.1 pips (2.47% annualised)",
+   "6m": "-160.0 pips (2.53% annualised)"
+  },
+  "carry_assessment": "Annualised carry is +222.2bp for a long USD/SGD position, based on the US federal funds midpoint of 3.625% minus SORA at 1.4028% — a money-market spread, not a policy differential, since Singapore has no policy interest rate by construction and MAS targets the S$NEER band. A long position is paid roughly 222bp a year, about 282 pips, 23.5 pips a month, or 1.9 pips a trading day, which against a 39-pip ATR(14) means a month of carry is 0.60 of a single average day's range — real but small enough that a two-day adverse move erases it. The carry-to-vol ratio is null because there is no listed option on this pair and therefore no 3-month implied volatility; measured instead against 60-day realised volatility of 3.05% the ratio would be approximately +0.73, the strongest reading in the Singapore dollar complex, but that is a different, non-comparable statistic and is not reported as the framework's carry-to-vol figure. The carry regime is working and the funding environment supports it: the three-month EUR/USD cross-currency basis is essentially zero, Fed swap-line usage is de minimis at $121 million, and realised volatility in this pair is the lowest in the set — precisely the configuration in which carry accrues rather than being wiped out by gaps. The single most important bilateral observation is that the forward curve prices roughly 2.5% annualised Singapore dollar appreciation at every tenor, which is covered interest parity applied to a money-market gap that exists because MAS runs an exchange-rate policy instead of a rate policy, while MAS's instrument at an estimated slope of about 1.25% a year is capable of delivering only about half of it — the pair has actually fallen just 0.68% over the past twelve months, so the forward market systematically over-predicts Singapore dollar appreciation by a factor of two to three, the single largest structural fact about trading this pair."
+ },
+ "factors": [
+  {
+   "factor_number": 1,
+   "factor_name": "Policy & Rates (Relative)",
+   "tactical_weight_default": 0.24,
+   "tactical_weight_applied": 0.27,
+   "strategic_weight_default": 0.24,
+   "strategic_weight_applied": 0.27,
+   "weight_adjustment_reason": "The money-market differential of about 222bp exceeds the 200bp threshold at which the framework contemplates a boost, and more fundamentally one leg has no policy rate at all: MAS's instrument is the exchange rate, so the entire policy contest between the two economies is expressed directly in this pair rather than transmitted through it. Factor 1 is doing double duty here.",
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 58,
+    "evidence_type": [
+     "rates",
+     "policy_comms"
+    ],
+    "bilateral_analysis": "The bilateral differential is unusually awkward to state because Singapore has no policy rate: MAS sets the slope, width and centre of the S$NEER band, and SORA at 1.4028 per cent is a money-market proxy explicitly not a policy instrument. On that proxy the dollar out-yields Singapore by about 222 basis points, the second-widest positive carry the dollar runs against anything in the G10-plus-Singapore set after the franc and the yen. The trajectory over four weeks favours the dollar for a reason that is calendar rather than conceptual: the only gated policy decision inside the window is the FOMC on 2026-09-16, which carries a Summary of Economic Projections and a 57 to 68 per cent implied probability of a 25bp increase to 3.75-4.00 per cent, and there is no Singapore decision in the gated calendar at all. If the hike is delivered the money-market gap widens to roughly 247bp, and because the S$NEER is trade-weighted rather than dollar-pegged the Singapore dollar can keep appreciating against its basket while USD/SGD still rises. The transmission is the forward curve: vendor-quoted points of minus 27.2 at one month and minus 160.0 at six already embed about 2.5 per cent annualised Singapore dollar appreciation against an estimated band slope of only about 1.25 per cent, so anyone short USD/SGD is paying a hurdle that MAS's own instrument has never delivered. The offset, and the reason confidence is not higher, is that roughly two-thirds of the hike is already discounted, so the residual asymmetry on the day sits with a hold rather than a delivery.",
+    "key_bilateral_metrics": [
+     "US federal funds midpoint 3.625% against no SGD policy rate; SORA 1.4028% (2026-08-31) gives a +222.2bp dollar advantage",
+     "A 25bp hike on 2026-09-16 is carried at 57-68% in third-party FedWatch citations, would widen the gap to about +247bp; prediction markets carry it at roughly 48-55%",
+     "USD/SGD forward points -27.2 (1M), -78.1 (3M), -160.0 (6M), an annualised 2.45 to 2.57% Singapore dollar appreciation already paid for",
+     "Estimated S$NEER appreciation slope about 1.25% a year, roughly 10bp of trade-weighted appreciation a month, against a forward curve pricing more than double that",
+     "SGS 10-year 2.42% against a US 10-year of 4.73% live and 4.47% on the June monthly vintage; the front-end gap of about 265bp is wider than the long-end gap"
+    ],
+    "what_is_priced": "Two-thirds of the September hike is priced and the forward curve already prices 2.5% annualised Singapore dollar appreciation, double what the band can mechanically deliver. The unpriced item is a hawkish dot plot alongside the hike, and that is where the tactical edge for a higher USD/SGD sits.",
+    "citations": [
+     7,
+     9,
+     10,
+     12,
+     23
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 52,
+    "evidence_type": [
+     "rates",
+     "policy_comms"
+    ],
+    "bilateral_analysis": "Over one to six months the same differential stops widening and starts decaying, and the two legs move in opposite directions. On the dollar side the Committee's own June projections carry a 2026 median of 3.8 per cent and a 2027 median of 3.6 per cent, which on the Fed's own arithmetic makes a September move terminal with a cut behind it; the gated calendar then puts a decision on 2026-10-28 without projections and one on 2026-12-09 with them, and the December Summary of Economic Projections is the specific release at which a terminal hike is either confirmed or converted into a cycle. On the Singapore side the mechanism compounds rather than decays: a band slope of 1.25 to 1.50 per cent a year delivers 60 to 75 basis points of trade-weighted appreciation over six months whether or not anyone believes in it, and MAS has tightened at two consecutive quarterly reviews with core inflation now accelerating into the next one. The differential therefore peaks somewhere in the fourth quarter and narrows thereafter, which points USD/SGD lower. The transmission is covered interest parity working in reverse of the tactical read: as the dollar's front-end advantage stops growing, the forward discount stops being a hurdle and starts being a floor. Confidence is capped at 52 because the timing of the Singapore leg cannot be anchored to a gated date and because a second Fed hike into the 2026-12-09 meeting would reverse the sign of this factor outright.",
+    "key_bilateral_metrics": [
+     "June 2026 SEP medians of 3.8% for end-2026 and 3.6% for 2027 — the Committee's own path is one hike then a cut",
+     "Gated FOMC decisions at 2026-10-28 (no projections) and 2026-12-09 (SEP) are the two dated repricing opportunities on the dollar leg",
+     "Six-month compounding of a 1.25 to 1.50% S$NEER slope is 60 to 75bp of trade-weighted appreciation, delivered mechanically",
+     "Money-market gap of 222bp would need to widen past roughly 297bp — two further hikes — to overwhelm the band slope in the primary pair",
+     "Six-month forward outright 1.25114 against a 1.26714 spot: the market already pays for 1.26% of Singapore dollar appreciation over the horizon"
+    ],
+    "what_is_priced": "The strategic market prices the dollar's rate advantage to persist rather than widen, and prices Singapore dollar appreciation at roughly twice the band's mechanical rate. Our divergence is on the composition, not the sign: the differential is terminal, not growing, and the forward curve has already monetised most of the fall we expect.",
+    "citations": [
+     7,
+     9,
+     10,
+     11,
+     12
+    ]
+   },
+   "horizon_split": "The stance inverts because the two horizons contain different events. The tactical window contains one gated decision, the 2026-09-16 FOMC with projections, and no Singapore decision whatsoever, so the dollar leg is the only leg that can move. The strategic window contains the compounding of the band slope, the 2026-10-28 and 2026-12-09 FOMC decisions, and the Fed's own dot plot turning the September move terminal — so the same 222bp differential that is a tactical positive becomes a decaying asset.",
+   "carry_analysis": {
+    "annualised_carry_bps": 222.2,
+    "carry_regime": "carry working",
+    "breakeven_move": "Spot can fall about 23.5 pips over thirty days before a long USD/SGD carry position is erased",
+    "carry_to_vol_ratio": null,
+    "forward_curve_vs_band_slope": "The forward curve prices roughly 2.5% annualised Singapore dollar appreciation at every tenor, against an estimated S$NEER band slope of only about 1.25% a year — a factor-of-two-to-three over-pricing that directly informs this factor's tactical/strategic inversion",
+    "summary": "See Bilateral Carry Analysis section in full: the 222.2bp differential is a money-market spread rather than a true policy differential, and its transmission into this pair is Factor 1's central mechanism on both horizons."
+   },
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 2,
+   "factor_name": "Inflation & Growth Dynamics",
+   "tactical_weight_default": 0.18,
+   "tactical_weight_applied": 0.18,
+   "strategic_weight_default": 0.1,
+   "strategic_weight_applied": 0.1,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": [
+     "macro_data"
+    ],
+    "bilateral_analysis": "This factor is a genuine standoff and the standoff is structural rather than a failure to choose. The inflation differential favours the dollar: US core PCE has been stuck at 3.3 per cent for three months with headline PCE at 3.7 per cent, against MAS core inflation of 2.0 per cent and Singapore headline of 2.2 per cent, so the dollar leg carries the larger absolute inflation problem and the central bank most likely to react to it inside the window. The growth differential runs hard the other way and is not close: Singapore printed 5.9 per cent year on year in the second quarter with unemployment at 2.0 per cent and the Ministry of Trade and Industry lifting its full-year forecast from 2.0-4.0 per cent to 4.5-5.5 per cent, against US growth of 2.1 per cent on the OECD vintage, 1.5 per cent annualised in the second quarter on the BEA second estimate, and payrolls that fell 23,000 in July with average hourly earnings at a five-year low of 3.2 per cent. The transmission asymmetry is what produces the draw: in the US, higher inflation becomes a higher policy rate and therefore more carry, which lifts USD/SGD; in Singapore, higher inflation and a wider output gap become a steeper appreciation path, which lowers it. Both economies are running hot on prices for the same imported-energy reason, and both central banks are being pushed the same way, so the pair gets no clean signal. The asymmetric data sensitivity is that US releases move this pair far harder than Singapore's — payrolls on 2026-09-04 and CPI on 2026-09-11 both land before the FOMC, while Singapore's August CPI on 2026-09-23 has no policy meeting behind it inside the window.",
+    "key_bilateral_metrics": [
+     "US core PCE 3.3% for a third month and headline PCE 3.7%, against MAS core inflation 2.0% and Singapore headline 2.2% — roughly 130bp core gap in the dollar's favour",
+     "Growth differential 5.9% versus 2.1% year on year in Singapore's favour, the widest in the eleven-currency set, MTI's 2026 forecast lifted to 4.5-5.5% on 2026-08-11",
+     "US July payrolls -23,000 against a +83,000 consensus with average hourly earnings at 3.2%; Singapore unemployment 2.0% with a nineteenth consecutive quarterly employment gain",
+     "Singapore domestic supply price index +33.4% year on year — the imported cost shock hitting the quote leg is far larger than anything in the US price data",
+     "US ISM manufacturing prices near 71 and Atlanta Fed GDPNow at 4.8% against Singapore's manufacturing PMI at 51.4 — both economies surprising to the upside on prices simultaneously"
+    ],
+    "what_is_priced": "The market prices both legs as hot: a Fed that reacts to 3.3 per cent core PCE and a MAS that has already tightened twice. Neither is mispriced enough over four weeks to give this factor a direction, and the honest reading is that the two reaction functions cancel in the pair.",
+    "citations": [
+     10,
+     11,
+     13
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 55,
+    "evidence_type": [
+     "macro_data"
+    ],
+    "bilateral_analysis": "Over one to six months the standoff resolves toward the Singapore dollar, because the two inflation impulses have different half-lives and the growth gap does not close. The US impulse is substantially tariff-driven — an average statutory rate of 11.0 per cent is a one-off level shift that drops out of the year-on-year comparison — and it sits on top of a labour market that is deteriorating rather than tightening, with participation at 61.4 per cent and wage growth at a five-year low. The base dossier itself moves this factor to Neutral over six months for that reason. Singapore's impulse is younger and mechanically renewing: the third-quarter regulated electricity tariff only began passing through in July, lifting electricity and gas 8.7 per cent year on year, the tariff resets quarterly, and MAS's own guidance is that core steps up from July and stays elevated until moderating around mid-2027. Crucially, in Singapore that inflation is not a drag on the currency but its driver, because the exchange rate is the instrument. The growth differential also persists at an extreme: even with semiconductor output growth decelerating from 37.0 per cent in May to 8.0 per cent in July, the level of activity supports a widening positive output gap that MAS has explicitly acknowledged. The transmission is therefore that the same six months in which the US inflation impulse fades are the six months in which Singapore's forces a steeper band, and both point USD/SGD lower. The qualification, and the reason confidence is 55 rather than higher, is that Singapore's export strength has narrowed to three product lines while pharmaceuticals fell 56.7 per cent, so the growth leg is more fragile than the headline suggests.",
+    "key_bilateral_metrics": [
+     "US average statutory tariff rate 11.0% as at 2026-08-24 — a level effect that fades from the year-on-year comparison during 2027, unlike Singapore's quarterly-resetting energy tariff",
+     "MAS core inflation trajectory January to July 2026: 1.0, 1.4, 1.7, 1.4, 1.4, 1.6, 2.0% — accelerating, against US core PCE flat at 3.3% for three months",
+     "Singapore output gap now forecast to widen rather than narrow, on MAS's own July statement, against a US labour market that shed 23,000 payrolls with wage growth at 3.2%",
+     "Singapore semiconductor output growth 37.0 to 20.8 to 8.0% across May, June and July — the second derivative has rolled over even as levels hold",
+     "Singapore GDP growth forecast 4.5-5.5% for 2026 against US GDP of 2.1% year on year — a gap of roughly 300bp no forecast expects to close inside the window"
+    ],
+    "what_is_priced": "The market prices the US inflation problem as persistent and Singapore's as manageable. We think it is the reverse in terms of direction of travel, and that is the substance of the strategic bearish USD/SGD read on this factor rather than a view about either level.",
+    "citations": [
+     7,
+     11,
+     13,
+     20
+    ]
+   },
+   "horizon_split": "The stance moves from Neutral to Bearish because the tactical horizon is decided by which central bank has a meeting and the strategic horizon by which inflation impulse lasts. Over four weeks the US price data feeds a gated FOMC decision and Singapore's feeds nothing, so the transmission asymmetry cancels the growth gap. Over six months the tariff component of US core PCE fades while Singapore's energy pass-through renews quarterly, and the 300bp growth gap is doing continuous work on the band slope.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 3,
+   "factor_name": "Risk Appetite & Sentiment",
+   "tactical_weight_default": 0.1,
+   "tactical_weight_applied": 0.1,
+   "strategic_weight_default": 0.05,
+   "strategic_weight_applied": 0.05,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": [
+     "cross_asset"
+    ],
+    "bilateral_analysis": "USD/SGD belongs firmly in the framework's low risk-sensitivity bucket, and the reason is that both legs are haven currencies operating at different scales. The dollar is the global haven and benefits from any broad volatility spike; the Singapore dollar is Asia's haven, AAA-rated with a 16.7 per cent-of-GDP current-account surplus and roughly 428 billion dollars of official reserves, and it gains specifically when stress is regional. In a broad risk-off the dollar wins the pair even while the Singapore dollar outperforms every Asian peer, which is the dollar-smile asymmetry stated plainly. The current environment gives neither leg its bid: the VIX closed at 14.43 on 2026-08-28 after falling 6.23 points on the month, US investment-grade spreads are 79bp and high yield 260bp near post-crisis tights, and the Straits Times Index set an all-time high in August. Benign conditions are mildly dollar-negative through the carry-outflow channel and mildly Singapore-dollar-positive through the trade and electronics channel, and those two effects are of similar small size. The cross-asset variable that actually matters most for this pair is USD/CNH at 6.7214, firm and stable, given the normal-range 0.4 to 0.6 correlation between USD/SGD and USD/CNH — and it is currently signalling nothing. The distribution is skewed, though: from a 14.43 VIX the tail is overwhelmingly higher, and every point of that skew is USD/SGD-positive, which is a reason to prefer Neutral over Bearish.",
+    "key_bilateral_metrics": [
+     "VIX 14.43 (2026-08-28), down from 20.66 a month earlier; US investment-grade OAS 79bp and high-yield OAS 260bp near post-crisis tights",
+     "USD/CNH 6.7214 (2026-08-31), the most relevant cross-asset correlate for USD/SGD at a normal-range +0.4 to +0.6",
+     "Straits Times Index at an all-time high near 5,774 in August, up 33.65% over twelve months, rally concentrated in DBS and OCBC",
+     "Three-month EUR/USD cross-currency basis essentially zero, confirming the dollar sits on the exceptionalism side of the smile",
+     "USD/SGD 60-day realised volatility 3.05% from the payload, the lowest in the set — the pair simply does not express risk appetite with much amplitude"
+    ],
+    "what_is_priced": "Markets price calm, and calm is close to neutral for a pair with a haven on both sides. The unpriced element is variance rather than direction, and it is USD/SGD-positive in the tail because the global haven beats the regional one. The Singapore dollar's 120-day correlation with the dollar has fallen to -0.94, the most negative in Asia, which mechanically strips the quote leg of independent behaviour.",
+    "citations": [
+     2,
+     14,
+     16
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 48,
+    "evidence_type": [
+     "cross_asset"
+    ],
+    "bilateral_analysis": "Over one to six months the risk channel carries tails rather than a trend, and the tails point in opposite directions for this pair with roughly equal weight. The bullish USD/SGD tail is a broad global risk-off from spreads that have no room to tighten — 79bp investment grade and 260bp high yield leave no cushion — in which the dollar dominates as the world's haven and USD/SGD rises regardless of the Singapore dollar outperforming its region. The bearish USD/SGD tail is a synchronised expansion that keeps capital rotating into Asian growth and into Singapore's asset-management franchise, which MAS is actively institutionalising through its August package of a fund tax exemption from year of assessment 2027 and a new Hedge Fund Investment Programme framed explicitly against Hong Kong. There is a third possibility that is genuinely ambiguous: a China- or Taiwan-specific stress event drives capital into Singapore while simultaneously driving the dollar higher, so the pair's direction depends on which flow is larger and there is no way to know in advance. Notably, the broad trade-weighted dollar fell 1.69 per cent on the month while the G10-only basket fell only 0.37 per cent, which says the dollar has been losing ground to emerging markets rather than to peers — a configuration that is mildly bearish USD/SGD but not enough to call the factor. Neutral at low confidence is the honest output.",
+    "key_bilateral_metrics": [
+     "Broad trade-weighted dollar index 118.7479, down 1.69% on the month, against a G10-only basket down 0.37% — the dollar lost to EM and Asia, not to peers",
+     "Investment-grade 79bp and high-yield 260bp leave essentially no room to tighten; the mean-reverting path is wider spreads, USD/SGD-positive",
+     "MAS asset-management package of 2026-08-19 is a structural Singapore-dollar inflow channel independent of the risk cycle",
+     "Greater China takes 22.0% of Singapore's goods exports against the United States at 9.6%, so regional stress hits the quote leg's real economy while helping its currency versus Asian peers",
+     "Four dated binary events fall between 2026-11-03 and 2026-12-11 against a VIX of 14.43 — a variance mispricing rather than a directional one"
+    ],
+    "what_is_priced": "A 14.43 VIX and 260bp high-yield spreads price essentially none of a dense November and December calendar. That is a mispricing of variance, and USD/SGD is a poor instrument for monetising it because the quote leg's haven bid works against Asian peers rather than against the dollar — and because no options exist in which to buy the variance at all.",
+    "citations": [
+     14,
+     16,
+     15
+    ]
+   },
+   "horizon_split": "Both horizons are Neutral and the two-point confidence gap reflects composition, not direction. Tactically the reading is anchored on observable levels — a 14.43 VIX, 79bp spreads, a stable USD/CNH — while strategically it depends on which of three unrelated regime shifts arrives first, two of which lift the pair and one of which lowers it. The mechanism is identical on both: a global haven on one side and a regional haven on the other.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 4,
+   "factor_name": "Flows & Positioning",
+   "tactical_weight_default": 0.1,
+   "tactical_weight_applied": 0.06,
+   "strategic_weight_default": 0.06,
+   "strategic_weight_applied": 0.02,
+   "weight_adjustment_reason": "Quote-leg positioning is not weakly observed, it is structurally unobservable: no CFTC SGD line, no SGD options in any CME product family, no CVOL entry, no options on the SGX root. A factor that can only see one of its two legs should not carry a full weight, and the honest response is to reduce it rather than to fill the gap with a proxy and present it as data.",
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 42,
+    "evidence_type": [
+     "positioning"
+    ],
+    "bilateral_analysis": "The bilateral positioning read is the framework's muted case: specs are long the base and the market is implicitly long the quote, so the pair signal largely cancels. On the dollar leg, CFTC non-commercial net length in the Dollar Index contract stood at 18,682 contracts on 2026-08-25, having fallen for four consecutive weeks from a 22,499 peak on 2026-08-04 described as a three-and-a-half-year high — and critically all of that reduction predates the 28 August Jackson Hole keynote, so the dollar entered its catalyst with a lighter book. On the Singapore leg there is no positioning series at all, and the only usable proxy is the estimated S$NEER deviation of roughly 1.7 per cent above the band midpoint on 2026-08-12, inside a stated expected range of 1.40 to 1.90 per cent, with MAS itself confirming the index has stayed in the upper half of the appreciating band. On the conventional two per cent half-width assumption that leaves perhaps 30 basis points of trade-weighted headroom — the market is leaning long the quote currency with limited room. Netting the two: a reduced but still positive dollar long against a crowded-but-bounded Singapore dollar long produces no clean pair signal, though the marginal tilt is mildly USD/SGD-positive because the quote leg has less room to extend than the base leg. Confidence is 42 because the S$NEER estimates come from publisher pages that now return empty bodies and are best available rather than confirmable.",
+    "key_bilateral_metrics": [
+     "CFTC Dollar Index non-commercial net long 18,682 contracts on 2026-08-25, down 3,817 or about 17% from a 22,499 peak on 2026-08-04, with all of the reduction predating 28 August",
+     "No CFTC SGD contract exists, no SGD options in any CME product family, no SGD CVOL index and no options on the SGX USD/SGD root",
+     "Estimated S$NEER deviation about 1.7% above midpoint (2026-08-12) versus 1.68% on 2026-07-29, inside a stated 1.40 to 1.90% expected range",
+     "On the conventional two per cent half-width assumption that is roughly 85% of the way to the strong edge, leaving about 30bp of trade-weighted headroom",
+     "MAS official foreign reserves SGD 549.3bn in July from SGD 551.3bn, but USD 427.9bn from USD 426.2bn — opposite signs, a translation effect, no intervention signal"
+    ],
+    "what_is_priced": "A moderately long and shrinking dollar book against a market leaning close to the strong side of the Singapore dollar band. Those two crowdings offset in the pair, and the residual is a small USD/SGD-positive tilt from the quote leg's limited headroom.",
+    "citations": [
+     8,
+     9
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 40,
+    "evidence_type": [
+     "positioning"
+    ],
+    "bilateral_analysis": "Over one to six months the bilateral flow picture splits into two structural trends that pull the pair in opposite directions and are of comparable size. Against the dollar, the reserve-manager channel is one-way and slow: the dollar's share of allocated global reserves was 57.13 per cent in the first quarter of 2026, up from a 56.42 per cent fourth quarter that was the first sub-57 reading since 1995 but still roughly fifteen points below the 2001 peak, and speculative length enters the window from a multi-year high so the distribution of change is skewed toward reduction. For the Singapore dollar, structural inflows are persistent rather than cyclical — corporate treasury and regional headquarters relocation, family-office formation, and now an explicit MAS policy push into asset management — and they must be converted into Singapore dollars for operating purposes. Both of those point USD/SGD lower. Working the other way is the bounded nature of the quote leg's crowding: if MAS holds its slope, the estimated 1.7 per cent band deviation unwinds toward the midpoint, a move of about 1.5 per cent on the trade-weighted index and less on this pair, and there is no leveraged futures book to squeeze so the unwind would be orderly rather than violent. The net is Neutral, and the weight of 0.02 reflects that this factor is better used to bound the distribution than to point it.",
+    "key_bilateral_metrics": [
+     "Dollar share of allocated global reserves 57.13% in 2026-Q1, up from 56.42% but roughly fifteen points below the 2001 peak near 72%",
+     "Dollar Index speculative length enters the window from a three-and-a-half-year high, so the medium-term distribution of positioning change is skewed toward reduction",
+     "Singapore reserves up SGD 33.8bn year on year to SGD 549.3bn, consistent with persistent net inflow rather than intervention",
+     "No squeeze mechanism exists on the quote leg — no CFTC book, no meaningful CME open interest, no listed options — so any unwind is a grind rather than a gap",
+     "Bounded downside: an unwind of the estimated 1.7% band deviation toward midpoint is about 1.5% on the S$NEER and materially less on USD/SGD"
+    ],
+    "what_is_priced": "Neither leg's structural flow is priced as an active force, and over six months that is defensible for both. US FDI stock in Singapore totalled $424 billion in 2023, more than double the US FDI invested in any other Southeast Asian nation — an overwhelmingly one-directional, largely unhedged structural bid for Singapore dollars that no positioning series captures.",
+    "citations": [
+     19,
+     20,
+     21,
+     22
+    ]
+   },
+   "horizon_split": "Both horizons are Neutral and the two-point confidence difference is close to cosmetic. Tactically the two legs' crowding offsets with a small tilt from the quote leg's thin band headroom; strategically two persistent structural trends — de-dollarisation at the margin and Singapore's inflow franchise — both point the pair lower but neither is fast enough to be a driver over six months. In a managed float positioning is policy, and the policy resolution is not in the gated calendar.",
+   "carry_analysis": null,
+   "contrarian_analysis": {
+    "tactical": {
+     "combined_positioning_signal": "Specs long the base currency at 18,682 Dollar Index contracts and the market implicitly long the quote currency at roughly 1.7 per cent above the band midpoint — the framework's cancelling case, with a small residual favouring a higher USD/SGD because the quote leg has about 30bp of headroom while the base leg has been cutting length for four weeks",
+     "unwind_trigger": "A Fed hold on 2026-09-16 against 57-68 per cent priced, which would strand a still-positive dollar long in a market that repriced hike odds from 35 to over 60 per cent in four sessions; because Dollar Index open interest is small the unwind would transmit through bilateral pairs, including this one",
+     "historical_analogue": "The April 2020 off-cycle MAS re-centring, when the band's level moved and USD/SGD followed over days in an orderly fashion rather than gapping — with no leveraged futures book there is no stop-out cascade",
+     "contrarian_case": "The crowd is long the dollar into a two-thirds-priced event and long the Singapore dollar near a band edge its central bank defends — neither side has much room, which argues the 16 September outcome produces a smaller move than the narrative implies, and that the genuinely asymmetric trade is not the direction but the variance, which cannot be bought."
+    },
+    "strategic": {
+     "combined_positioning_signal": "Two structural flows point the pair lower — a dollar reserve share fifteen points below its 2001 peak and persistent Singapore inflows now backed by explicit fiscal incentives — against one bounded crowding pointing it higher, a market sitting close to the strong side of the S$NEER band with no policy event on the gated calendar to relieve it",
+     "unwind_trigger": "MAS holding the slope unchanged at its October review, which would convert the estimated 1.7 per cent band deviation from a policy-supported position into a reversion toward the midpoint; that review is not in the gated schedule for this pass",
+     "historical_analogue": "Prior MAS re-centrings and slope holds have produced orderly multi-week reversions rather than gaps, because the band bounds the move on both sides, with no analogue of a positioning-driven USD/SGD spike comparable to a G10 carry unwind",
+     "contrarian_case": "The genuinely contrarian strategic position is to be more hawkish on MAS than the published sell side, where the only dated post-July call expects no change through 2026 while the quote dossier assigns 55 per cent to a further steepening. That disagreement, not any positioning extreme, is where the strategic bearish USD/SGD case actually lives — and if it is wrong the loss is bounded by the band rather than open-ended."
+    }
+   },
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 5,
+   "factor_name": "External Balance & Terms of Trade",
+   "tactical_weight_default": 0.06,
+   "tactical_weight_applied": 0.06,
+   "strategic_weight_default": 0.16,
+   "strategic_weight_applied": 0.16,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 45,
+    "evidence_type": [
+     "trade_balance",
+     "cross_asset"
+    ],
+    "bilateral_analysis": "Over four weeks the external accounts are inert but the terms of trade are not, and the terms-of-trade differential currently favours the dollar. Singapore is a net crude importer and refined-product exporter whose largest single product deficit in 2025 was mineral fuels at minus 24.7 billion dollars; its terms-of-trade index fell to 97.84 in July from 98.66 and its domestic supply price index is running at plus 33.4 per cent year on year, the clearest single measure of an import-cost shock anywhere in the eleven-currency set. The United States, by contrast, is now a net energy exporter, so the same Brent price that is squeezing Singapore is a mild terms-of-trade positive for the base leg. With Brent having rebounded to roughly 93 dollars by 2026-08-31 on escalating US-Iran hostilities and the Strait of Hormuz severely constrained since late February, the near-term commodity netting is USD/SGD-positive. The bilateral trade relationship itself is not a driver: IMF Direction of Trade Statistics show US exports to Singapore of 46.0 billion dollars against imports of 43.2 billion in 2024, a small US surplus of 2.8 billion, close to balanced and tiny relative to either economy's total flows. The offsetting facts are large but slow — Singapore runs the largest current-account surplus in the set at 16.7 per cent of GDP against a US deficit of 2.9 per cent — and a quarterly current-account release does not move a currency in September. Hence a low-confidence Bullish read at a 0.06 weight.",
+    "key_bilateral_metrics": [
+     "IMF DOTS 2024: US exports to Singapore $46.0bn, US imports from Singapore $43.2bn, US net goods surplus of $2.8bn — close to balanced and immaterial as a flow driver",
+     "Singapore terms-of-trade index 97.84 in July from 98.66, with the domestic supply price index at +33.4% year on year",
+     "Brent about $88.24 on 2026-08-25 and roughly $93 on 2026-08-31, about +37% year on year, with Hormuz severely constrained since late February",
+     "Singapore mineral-fuels trade deficit -$24.7bn in 2025; the United States is a net energy exporter, so the same oil price cuts the two legs opposite ways",
+     "US advance goods trade balance -$118.8bn on 2026-08-27 against a -$100.8bn forecast — an $18bn single-month deterioration on the base leg"
+    ],
+    "what_is_priced": "The market prices Singapore's surplus as a permanent feature and largely ignores the terms-of-trade deterioration running underneath it. Over four weeks the import-cost shock is the fast-moving half and it favours a higher USD/SGD.",
+    "citations": [
+     7,
+     11
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 60,
+    "evidence_type": [
+     "trade_balance",
+     "cross_asset"
+    ],
+    "bilateral_analysis": "At a 0.16 strategic weight this becomes the second-largest factor and it is decisively bearish USD/SGD, because over quarters the cumulative balance-of-payments flow dominates the price of imports. The differential is close to the widest available anywhere in the G10-plus-Singapore set: a Singapore current-account surplus of 16.7 per cent of GDP against a US deficit of 2.9 per cent that is widening, and a Singapore net creditor position against a US net international investment position of minus 21.27 trillion dollars. The composition change on the base leg matters as much as the level: the US primary income balance flipped from surplus to deficit in the first quarter of 2026, which attacks the specific mechanism — earning more on foreign assets than is paid on foreign liabilities — that has allowed a deeply negative investment position to coexist with a stable currency for two decades. On the quote leg the surplus is absorbed partly through reserve accumulation of 33.8 billion Singapore dollars over twelve months and partly through the persistent real appreciation that the S$NEER band institutionalises, precisely the transmission channel this pair trades. The commodity netting runs the other way and is the main offset, since Brent up roughly 37 per cent year on year is a genuine drag on the quote leg — but a six-month oil drag does not outrun a structural surplus of that scale. The qualification is Singapore's export concentration: three product lines carry a 24.2 per cent headline while pharmaceuticals fell 56.7 per cent, and 22.0 per cent of goods exports go to Greater China into a tariff-truce expiry on 2026-11-10.",
+    "key_bilateral_metrics": [
+     "Singapore current account +16.7% of GDP against the United States at -2.9% — a differential of roughly 19.5 percentage points, the widest in the set",
+     "US net international investment position -$21.27tn with the primary income balance flipping from surplus to deficit in 2026-Q1; Singapore is a net creditor with GIC and Temasek near $1.34tn combined",
+     "Singapore official reserves up SGD 33.8bn year on year to SGD 549.3bn — the funding that makes an appreciating band credible",
+     "Singapore Q2 current-account surplus SGD 37.08bn, down from a record SGD 41.09bn, with the primary-income deficit widening to SGD 44.77bn from SGD 37.87bn",
+     "Greater China takes 22.0% of Singapore's goods exports against the United States at 9.6%, so the 2026-11-10 truce expiry is a direct quote-leg exposure"
+    ],
+    "what_is_priced": "The market prices the US external deficit as a permanent benign feature and Singapore's surplus as a permanent given, and prices neither as a currency driver. The unpriced item is the change in composition on the base leg — a primary income balance turning negative — and it is the strongest structural argument for a lower USD/SGD.",
+    "citations": [
+     19,
+     21,
+     22
+    ]
+   },
+   "horizon_split": "The stance flips from Bullish to Bearish because the weight and the clock both change. At a 0.06 tactical weight the surplus is a slow constant with no four-week information content, so the fast-moving oil shock decides the sign and it favours the dollar. At a 0.16 strategic weight the cumulative flow becomes the dominant channel: nearly twenty percentage points of GDP of annual current-account differential, absorbed through reserve accumulation and real appreciation, outruns a six-month energy drag.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": {
+    "base_commodity_profile": "The United States is now a net energy exporter, so rising crude is a mild terms-of-trade positive and a clear inflation positive reinforcing the hawkish policy channel. Brent fell from $100.31 to $88.24 over the month before rebounding to roughly $93; Henry Hub at $2.70 is unremarkable. Gold at $4,448.80 is rallying alongside a firm dollar, reading as a debasement hedge rather than a dollar-alternative trade.",
+    "quote_commodity_profile": "Singapore is a net crude importer and refined-product exporter with a mineral-fuels trade deficit of -$24.7bn in 2025 and processed petroleum oils as its second-largest export at $51.5bn. Rising crude and rising LNG both hit it directly: the domestic supply price index at +33.4% year on year and the terms-of-trade index at 97.84 are the observable damage.",
+    "net_effect_calculation": "Apply the framework rules leg by leg. Oil up: the United States as a net energy exporter takes a mild positive (+); Singapore is explicitly (−) on the rule set, amplified by a $24.7bn mineral-fuels deficit. Netting (+) against (−) gives base stronger than quote, so the pair RISES — oil up is bullish USD/SGD. LNG up compounds it in the same direction, since JKM up is −−SGD and neutral-to-positive for a US exporter. Gold up is broadly neutral for both legs. The complication is that Singapore's oil shock is exactly what forces MAS to steepen the appreciation band — MAS cited surging imported energy prices driven by the Middle East crisis and used a stronger currency as a buffer against imported inflation — so the terms-of-trade hit and the policy response point opposite ways, with the ToT effect faster and the policy effect larger and slower. That interaction is why this factor is Bullish tactically and Bearish strategically while Factor 1 does the reverse.",
+    "scenario_oil_up_10pct": "Brent from roughly $93 to about $102. Singapore's import bill and domestic supply prices deteriorate immediately while the US takes a mild export gain, so USD/SGD rises on a four-week view — perhaps 30 to 50 pips given the pair's 3.05% realised volatility and 39-pip ATR. Over three months the sign becomes ambiguous, because a Brent above $100 would make a further MAS slope increase close to a certainty.",
+    "scenario_oil_down_10pct": "Brent from roughly $93 to about $84. Singapore's terms of trade improve and the domestic supply price index decelerates (quote-positive), but it simultaneously removes the imported-inflation impulse that justifies a steeper band (quote-negative through the policy channel). Net effect close to neutral for the pair, with a mild bearish USD/SGD tilt tactically and a mild bullish one strategically.",
+    "dominant_commodity_driver": "Crude oil, specifically the Brent price transmitted through Singapore's quarterly regulated electricity tariff and its mineral-fuels deficit. Nothing else in the commodity complex splits these two legs as cleanly."
+   },
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 6,
+   "factor_name": "Guidance & Credibility",
+   "tactical_weight_default": 0.07,
+   "tactical_weight_applied": 0.1,
+   "strategic_weight_default": 0.12,
+   "strategic_weight_applied": 0.15,
+   "weight_adjustment_reason": "For most pairs guidance is a signal about a future rate decision; for USD/SGD one central bank's guidance IS its exchange-rate setting, because MAS communicates the slope of the band rather than a rate path. Guidance divergence therefore transmits into this pair more directly than into any other in the set.",
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 55,
+    "evidence_type": [
+     "policy_comms"
+    ],
+    "bilateral_analysis": "Both central banks are guiding hawkish, so the bilateral question is entirely about sequencing and refresh, and over four weeks that favours the dollar. On the base leg the guidance is live and unusually pointed: the June Summary of Economic Projections raised the 2026 median to 3.8 per cent from 3.4 per cent, the July meeting produced a 9-3 hold in which all three dissenters wanted a hike — the first three-dissent meeting with a unified direction since September 2016 — and Chair Warsh used the 28 August Jackson Hole keynote to say the better summer inflation readings do not tell him underlying trends have meaningfully improved, quoting headline PCE at 3.7 per cent and 4.1 per cent annualised over six months. The market repriced immediately and still sits below the dots, an unusual configuration in which the central bank is more hawkish than the curve. On the quote leg the guidance is equally hawkish in substance — MAS steepened the band at two consecutive reviews and its Managing Director said on 28 July that the stronger appreciation will lean more effectively against incoming inflationary pressures — but it is static: there has been no MAS exchange-rate communication of any kind since 28 July, and the gated calendar carries no SGD decision at all, so nothing refreshes it inside the window. The transmission is therefore asymmetric by calendar: the base leg gets a dated communication event with projections attached on 2026-09-16 and the quote leg gets silence. Credibility is high on both sides; the differential is one of timing.",
+    "key_bilateral_metrics": [
+     "June 2026 SEP median federal funds 3.8% for end-2026 against futures pricing a hike at only 57-68% — the Fed is more hawkish than the curve by 30-plus percentage points of probability",
+     "July FOMC 9-3 hold with all three dissents for a 25bp hike, the first unified three-dissent meeting since September 2016",
+     "Warsh, 2026-08-28: 2% PCE is the firm, fixed target, with headline PCE at 3.7% twelve-month and 4.1% annualised over six months cited as the preferred measure",
+     "MAS tightened the S$NEER slope on 2026-04-14 and again 2026-07-27, but no MAS exchange-rate communication since 2026-07-28",
+     "Gated calendar: FOMC on 2026-09-16 with an SEP inside the tactical window; no SGD decision on file at all"
+    ],
+    "what_is_priced": "The market prices the Fed below its own dots and prices MAS as probably finished after two moves. Both readings are challengeable, but only one of them gets a dated communication event inside the tactical window, which is why the factor tilts to a higher USD/SGD.",
+    "citations": [
+     7,
+     8,
+     9,
+     12
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 58,
+    "evidence_type": [
+     "policy_comms"
+    ],
+    "bilateral_analysis": "Over one to six months the guidance differential reverses, and it reverses for a mechanical reason. The Fed's own projections make the September move terminal — a 2026 median of 3.8 per cent followed by a 2027 median of 3.6 per cent — so the base leg's guidance, however hawkish today, is guidance toward a plateau and then an easing. The gated calendar puts the test on 2026-12-09, the meeting with a fresh Summary of Economic Projections at which the 2027 median is either held at 3.6 per cent, confirming a terminal hike, or lifted, converting it into a cycle. MAS's guidance points the other way and compounds: it tightened in April before the shock appeared in the data and again in July while the most recent core print had eased to 1.6 per cent, a central bank acting on its own projection twice in a row, and every print since has validated that projection — core to 2.0 per cent, headline to 2.2 per cent, the domestic supply price index at plus 33.4 per cent, growth revised up to 4.5-5.5 per cent and the output gap now expected to widen rather than narrow. The transmission into the pair is unusually direct because MAS's communication is its instrument: a statement containing 'increase the rate of appreciation' rather than 'maintain the prevailing rate of appreciation' moves the band and therefore the pair, without any intervening rate decision. Credibility favours the quote leg too — a regime running since 1981 with no successful market challenge, against a Fed whose main strategic risk is an institutional question about political pressure rather than an analytical one.",
+    "key_bilateral_metrics": [
+     "June 2026 SEP: 2026 median 3.8%, 2027 median 3.6% — the Committee's own path is a hike then a cut, tested at the gated 2026-12-09 decision with an SEP attached",
+     "MAS has tightened at two consecutive quarterly reviews, the first back-to-back sequence since 2022, with 2026 inflation forecasts raised to 1.5-2.5% in April and reaffirmed in July",
+     "MAS guidance that core inflation steps up from July and remains elevated, moderating only from around mid-2027 — the peak sits inside this horizon and the moderation does not",
+     "Published analyst split on the next MAS move is genuinely wide: one house expects no change through 2026, another expects a further 25bp to about 1.50%",
+     "MAS reserves the right to curb excessive volatility in the S$NEER, which functions as a soft cap on how far the market can push the quote leg in either direction"
+    ],
+    "what_is_priced": "The market prices a Fed that is hawkish now and finished soon, and a MAS that is mildly restrictive and probably done. We think the second reading is the weaker one given a revealed reaction function that has front-run its own data twice, and that disagreement is the cleanest strategic argument for a lower USD/SGD.",
+    "citations": [
+     7,
+     9,
+     10,
+     11,
+     12,
+     23
+    ]
+   },
+   "horizon_split": "The stance inverts on sequencing. Tactically the base leg has a dated, projection-bearing communication event on 2026-09-16 and the quote leg has had no exchange-rate communication since 28 July and nothing scheduled on the gated file, so hawkish-but-static loses to hawkish-and-refreshing. Strategically the Fed's own dots make its hawkishness terminal while MAS's band slope compounds and its review cycle delivers another decision point, so the same two hawkish central banks produce opposite pair signals.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 7,
+   "factor_name": "Event Risk & Geopolitics",
+   "tactical_weight_default": 0.05,
+   "tactical_weight_applied": 0.05,
+   "strategic_weight_default": 0.05,
+   "strategic_weight_applied": 0.05,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 52,
+    "evidence_type": [
+     "geopolitics"
+    ],
+    "bilateral_analysis": "The four-week calendar is asymmetric and both of its live items point the same way for this pair. The dominant event is the gated FOMC decision on 2026-09-16 with a Summary of Economic Projections attached, a genuine binary at 57-68 per cent for a hike whose delivery mechanically widens the money-market gap to about 247bp; the quote leg has no scheduled decision on the gated file to answer it. The second item is energy geopolitics, and here the asymmetry is structural rather than calendar-driven: shipping through the Strait of Hormuz has been severely constrained since late February on MAS's own account, the 60-day US-Iran memorandum expired on 17 August with no successor and no talks scheduled, and Brent rebounded toward 93 dollars on 2026-08-31. Escalation helps the base leg twice over — safe-haven demand plus a terms-of-trade gain for a net energy exporter — and hurts the quote leg twice over, through an import bill already visible in a plus 33.4 per cent domestic supply price index and through Singapore's position as the most trade-dependent large economy in the set. Trade policy adds a third, smaller tilt in the same direction: a 12.5 per cent US tariff imposed on 24 July affects roughly 9.5 billion Singapore dollars of exports, about a third of shipments to the United States. The analytical handicap is that event pricing cannot be tested, because this pair has no options market at all.",
+    "key_bilateral_metrics": [
+     "Gated FOMC 2026-09-16 with SEP: a 25bp hike at 57-68% in futures and roughly 48-55% in prediction markets, and no gated SGD decision to answer it",
+     "Strait of Hormuz severely constrained since late February 2026; the US-Iran memorandum expired 2026-08-17 with no successor, and Brent rebounded to roughly $93 on 2026-08-31",
+     "Escalation is doubly USD/SGD-positive: haven demand plus a US net-energy-exporter gain against a Singapore mineral-fuels deficit of -$24.7bn",
+     "A 12.5% US tariff from 2026-07-24 affects roughly SGD 9.5bn of Singapore exports, about a third of shipments to the United States",
+     "Event volatility premium is not measurable for this pair — no listed USD/SGD options exist anywhere"
+    ],
+    "what_is_priced": "The Fed hike is roughly two-thirds priced, so its delivery is mostly discounted and a hold is the genuine surprise. Hormuz escalation is priced nowhere in credit or equity volatility and is the tail that hits the quote leg hardest, which is why the four-week calendar tilts the pair higher.",
+    "citations": [
+     11,
+     15
+    ]
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 50,
+    "evidence_type": [
+     "geopolitics"
+    ],
+    "bilateral_analysis": "The one-to-six-month calendar is unusually dense with dated binaries and Singapore's extreme trade openness means the quote leg is exposed to nearly all of them, which is what keeps this factor bullish USD/SGD even at low confidence. The cluster runs: US midterm elections on 2026-11-03, the US-China tariff truce expiry on 2026-11-10 with China's reciprocal truce on 2026-11-19 and the tariff-exclusion process on 2026-12-31, Taiwan's local elections on 2026-11-28, and the US government funding cliff on 2026-12-11. Singapore sends 22.0 per cent of its goods exports to Greater China and 9.6 per cent to the United States, so a truce failure hits both ends of its entrepot function simultaneously, and total merchandise trade running at plus 38.6 per cent year on year is the flow that gets disrupted. Its export boom is now concentrated in integrated circuits and disk media, with Taiwan among its largest destinations, which makes the Taiwan date a specific rather than generic exposure. The base leg's own event risk is real but genuinely two-sided: the midterms cut both ways through the fiscal and growth channels, and the tariff legal question could resolve either inflationary or disinflationary. The mechanism that makes the net sign positive for the pair is the dollar smile — the same regional shock that would drive capital into Singapore against its Asian peers would drive the dollar higher against everything, so the quote leg's haven status does not protect it in this specific pair.",
+    "key_bilateral_metrics": [
+     "Dated cluster: 2026-11-03 US midterms, 2026-11-10 US-China truce expiry, 2026-11-19 China reciprocal expiry, 2026-11-28 Taiwan local elections, 2026-12-11 US funding cliff, 2026-12-31 tariff-exclusion expiry",
+     "Greater China 22.0% and the United States 9.6% of Singapore's goods exports; total merchandise trade +38.6% year on year in July",
+     "Singapore is the most trade-dependent large economy in the set, so global trade disruption transmits to the quote leg faster and harder than to the base leg",
+     "The gated FOMC decisions on 2026-10-28 and 2026-12-09 sit inside the same window, so monetary and political binaries overlap rather than alternate",
+     "US average statutory tariff rate 11.0% as at 2026-08-24, down from 16% pre-ruling — the size of the two-sided legal question on the base leg"
+    ],
+    "what_is_priced": "None of the November and December cluster is priced: credit and equity volatility sit near post-crisis tights and this pair has no options market in which event risk could be priced at all. The bilateral asymmetry is that the quote leg's real economy is more exposed while the base leg's currency benefits from the same shock.",
+    "citations": [
+     14,
+     19
+    ]
+   },
+   "horizon_split": "Both horizons are Bullish and the two-point confidence gap reflects a change in composition rather than direction. Tactically the risk is one largely-priced monetary binary plus an unpriced energy tail, both pointing the pair higher. Strategically it fragments across five dated political and trade events, all of which run through Singapore's trade channel, partly offset by the base leg's own genuinely two-sided midterm and tariff questions.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 8,
+   "factor_name": "Fiscal & Sovereign Risk",
+   "tactical_weight_default": 0.04,
+   "tactical_weight_applied": 0.04,
+   "strategic_weight_default": 0.07,
+   "strategic_weight_applied": 0.07,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 40,
+    "evidence_type": [
+     "macro_data",
+     "rates"
+    ],
+    "bilateral_analysis": "The fiscal differential in this pair is the widest of any factor in the analysis and it points one way, but over four weeks it is transmitting backwards, which is why the stance is Bearish at the lowest confidence in this analysis. The quote leg is rated Aaa by Moody's and AAA by S&P, runs a projected FY2026 surplus of about 1.0 per cent of GDP, and is a substantial net creditor: the widely misread 171.3 per cent gross debt figure is issued for investment under the Government Securities Act rather than to fund deficits, and GIC plus Temasek stand near 1.34 trillion dollars against a GDP of roughly 560 billion. The base leg is rated Aa1 and AA+, has borrowed 1.8 trillion dollars over the first ten months of fiscal 2026 with a run-rate above 2 trillion, carries debt held by the public at 101 per cent of GDP, and faces projected interest costs of 1,039 billion dollars that would exceed the post-war high of 3.2 per cent of GDP. On arithmetic alone this is a decisive quote-leg win. The tactical problem is the transmission: the bond market is charging for the US position at the long end, with the 30-year at 5.22 per cent and a 30-year TIPS auction clearing 50bp higher than the prior, and on 2026-09-01 a global bond rout lifted yields, pushed gold to a ten-day low and left the dollar firm. In the current regime a widening US deficit expressed through higher long yields is dollar-supportive, not dollar-destructive, so the factor's sign is right and its short-run mechanism is inverted. Neither sovereign has a rating catalyst inside the window.",
+    "key_bilateral_metrics": [
+     "Ratings: Singapore Aaa (Moody's) and AAA (S&P), both stable, against the United States at Aa1 and AA+",
+     "Singapore FY2026 projected surplus about 1.0% of GDP against a US deficit above $2tn and $1.8tn already borrowed over ten months",
+     "US debt held by the public 101% of GDP with projected FY2026 interest costs of $1,039bn; Singapore is a net creditor with GIC plus Temasek near $1.34tn",
+     "US 30-year at 5.22% with 2s30s at +88bp; the 20-year auction stopped at 5.204% against 5.163% prior and the 30-year TIPS at 2.973% against 2.473%",
+     "No quotable Singapore sovereign CDS level exists on any free venue — itself a signal that the quote leg's credit is not actively questioned"
+    ],
+    "what_is_priced": "US fiscal risk is priced almost entirely in the long end and not at all in the currency, and Singapore's sovereign strength is priced fully and correctly. Over four weeks higher US long yields are dollar-supportive, so the fiscal channel is temporarily working against its own arithmetic.",
+    "citations": []
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 62,
+    "evidence_type": [
+     "macro_data",
+     "rates"
+    ],
+    "bilateral_analysis": "Over one to six months the fiscal differential becomes a materially larger drag on the pair, and confidence rises twenty-two points, because the mechanism that currently neutralises it is the same mechanism that eventually breaks it. US interest costs compound automatically as low-coupon debt rolls into a 4.5 to 5.2 per cent curve, and there is a specific interaction with Factor 1 that the market does not price: a hike on 2026-09-16 raises the front-end rollover cost directly, so the policy action that supports the dollar tactically enlarges the fiscal burden that undermines it strategically. On the quote leg the sovereign balance sheet is not merely strong, it is the enabling condition for the whole exchange-rate regime — a country with a weak external balance sheet cannot credibly commit to persistent real appreciation because it cannot fund the reserve accumulation the policy requires, and Singapore's reserves rising 33.8 billion Singapore dollars year on year to 549.3 billion is exactly that funding. Singapore is also deploying fiscal capacity offensively, with a proposed fund tax exemption from year of assessment 2027 and a Hedge Fund Investment Programme designed to defend its asset-management franchise, a fiscal cost incurred to protect a capital-inflow channel and therefore quote-currency-positive. The offset is genuine: S&P's June affirmation of the US at AA+ explicitly cited credible, effective monetary policy execution, and a September hike reinforces precisely that credibility. The transmission to watch is auction reception rather than gradual drift.",
+    "key_bilateral_metrics": [
+     "US projected FY2026 interest costs $1,039bn, which would exceed the post-war high of 3.2% of GDP, compounding mechanically as debt rolls into a 4.5-5.2% curve",
+     "A hike at the gated 2026-09-16 decision raises the US front-end rollover cost directly — the tactical dollar support and the strategic fiscal burden share a single cause",
+     "Singapore reserves USD 427.9bn and rising SGD 33.8bn year on year: the balance-sheet precondition that makes an appreciating band fundable and therefore credible",
+     "US overnight reverse repo drained to $702 million, so bill supply from a deficit above $2tn now hits bank reserves directly rather than being absorbed by money funds",
+     "Singapore fiscal capacity deployed to defend inflows — fund tax exemption from YA2027 plus a Hedge Fund Investment Programme — a quote-positive structural channel with no base-leg equivalent"
+    ],
+    "what_is_priced": "The market prices the US fiscal position as a term-premium problem confined to the long end and not as a currency problem, and prices Singapore's AAA status as a given with no instrument in which to differentiate. The unpriced element is the interaction: a hike that supports the dollar while raising the rollover cost of a $40 trillion debt stock.",
+    "citations": []
+   },
+   "horizon_split": "The stance is Bearish on both horizons but confidence rises from 40 to 62, and the reason is mechanical. Tactically the channel is inverted — the 2026-09-01 bond rout lifted US yields and the dollar together, so a deteriorating deficit currently reads as dollar-supportive. Strategically that inversion cannot persist: interest costs compound, a hike at the gated 2026-09-16 decision accelerates the rollover repricing, and the quote leg's balance sheet is the precondition for the very band that drags the pair lower.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 9,
+   "factor_name": "Market Structure & Volatility",
+   "tactical_weight_default": 0.05,
+   "tactical_weight_applied": 0.03,
+   "strategic_weight_default": 0.03,
+   "strategic_weight_applied": 0.01,
+   "weight_adjustment_reason": "Half of this factor's normal content does not exist for this pair: there is no listed USD/SGD option anywhere, so implied volatility, the term structure, the variance risk premium, the risk reversal and any event premium are permanently absent rather than merely unobtained.",
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 45,
+    "evidence_type": [
+     "pair_price_action"
+    ],
+    "bilateral_analysis": "This is the one factor where the pair's own trading behaviour is the legitimate subject, and the honest reading is Neutral because the informative half of it is missing by construction. There is no listed USD/SGD option on any exchange — no SGD options in any CME product family, no SGD entry in the CVOL index family, no options on the SGX USD/SGD futures root — and the direction payload states the same and instructs that no estimate be substituted. Implied volatility, the one-year implied percentile, the variance risk premium, the vol term structure and the 25-delta risk reversal are therefore all null, and the standard test of whether the 2026-09-16 FOMC is adequately hedged in this pair cannot be run at all. What is observable is realised volatility, and it is among the lowest in the eleven-currency set: 3.47 per cent over twenty days against 3.05 per cent over sixty, which is what a managed band produces. The one genuine signal in that pair of numbers is that the short window has moved above the long one, which in a managed float is one of the few reliable tells that the trade-weighted index is approaching a band edge or that a policy review is drawing near. Both happen to be true. Adding the price-payload structure that the direction pass could not see: spot at 1.26714 sits below the 50-day (1.28385), 100-day (1.28190) and 200-day (1.28077) simple averages while the averages themselves remain stacked bullishly, and 4.31% below a 200-week average at 1.32176 that has been unbroken to the downside for 81 weeks. Spot sits inside the only five-touch zone in contact with price, 1.26280-1.27400, and 177 pips below the five-touch 1.28120-1.28840 band that contains all three daily averages. That configuration is genuinely two-sided over four weeks: price below all three daily averages is a bear signal, an unrolled bullish stack is not, and the two cancel — which is exactly why Neutral is the correct output on this factor rather than a stance borrowed from the trend.",
+    "key_bilateral_metrics": [
+     "No listed USD/SGD options exist anywhere, so implied volatility, IV percentile, variance risk premium, term structure and 25-delta risk reversal are all permanently null",
+     "USD/SGD 20-day realised volatility 3.47% against 60-day realised 3.05% — the short window leading the long one",
+     "ATR(14) 0.0039, or 39 pips: the unit for a normal day, and the reason a 1% view takes three weeks to express",
+     "Payload data-quality note: only 8 resistance and 0 support zones met the two-touch threshold for this pair",
+     "4,880 weekday bars in the gated store from 2007-12-21, of which 130 passed downstream"
+    ],
+    "what_is_priced": "Nothing can be priced, because there is no options market in which to price it. What the realised series says is that volatility is compressing into an event rather than expanding out of one, and that is a statement about expression rather than direction.",
+    "citations": [
+     3,
+     4,
+     5,
+     24,
+     25
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 42,
+    "evidence_type": [
+     "pair_price_action"
+    ],
+    "bilateral_analysis": "Over one to six months market structure carries almost no directional information for this pair and a 0.01 weight should not be asked to supply any. The structural question is whether the band's strong edge shifts, and that is a policy question rather than a technical one — it resolves on a MAS review that is not in the gated calendar, not on any configuration in the price series. Volatility over the horizon is more likely to rise than fall, because realised has already ticked up, because a band re-parameterisation is a scheduled step-change in the policy variable rather than a diffusion, and because the November and December political cluster sits inside the window. But rising volatility with no options market is a statement about implementation, not about direction: there is no term structure to read for event pricing, no skew to tell which side of the distribution is being hedged, and no convexity available to anyone with a view. A managed float also suppresses the trend-amplification that makes other pairs run; this pair grinds. The 200-week average at 1.32176 with a slope of -0.000669 a week is declining toward a spot 4.31% beneath it; on that slope and holding spot flat, convergence would take roughly 82 weeks, so it does not become a live level inside this horizon, and its role is confirmatory rather than actionable — 81 consecutive weeks without a weekly close above it is a regime statement, not a trade.",
+    "key_bilateral_metrics": [
+     "No options market at any tenor, so no term structure, no event premium, no skew and no vol-carry expression exists for this pair over the strategic horizon",
+     "Realised volatility 3.05% over 60 days and 3.47% over 20 — rising at the margin, but from the lowest base in the set",
+     "200-week SMA 1.32176, slope -0.000669/week, 81 weeks unbroken; spot 4.31% below, with mechanical convergence roughly 82 weeks away — outside the horizon",
+     "A band re-parameterisation is a step-change in the policy variable rather than a diffusion process, so strategic volatility is event-concentrated rather than continuous",
+     "Zone detection returned 0 support zones at the two-touch threshold, so the strategic level structure is asymmetric in the data itself and is disclosed as such"
+    ],
+    "what_is_priced": "The realised series prices continuation of a slow managed grind rather than a break, and there is no implied surface in which anything else could be priced. The directional content of this factor over six months is nil and it is reported as nil.",
+    "citations": [
+     4,
+     5,
+     24
+    ]
+   },
+   "horizon_split": "Both horizons are Neutral and the three-point confidence gap reflects the fall in weight from 0.03 to 0.01 and the fact that the strategic structural question — whether the band's strong edge moves — is a policy question that no price series can answer. The same missing volatility surface binds both horizons identically and is the primary reason confidence sits below 50 on each.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": {
+    "vol_landscape_summary": "There is no volatility landscape to characterise, and that is the dominant structural fact. No listed USD/SGD option exists on any exchange, so implied volatility, term structure, skew and the variance risk premium are all null rather than unobtained. The only measurable regime is realised: 3.47% over twenty days against 3.05% over sixty, among the lowest in the set, with the short window newly above the long one, which in a managed band is a tell that the trade-weighted index is nearing an edge or a review.",
+    "directional_expression": "Options expression is unavailable, so the choice collapses to spot or forward and the standard cheap-vol-versus-rich-vol framework does not apply. A long USD/SGD position is paid roughly 222bp a year, about 23.5 pips a month, so spot or a rolled forward both carry favourably for the tactical view — and given the pair's 39-pip ATR, that carry is a meaningful fraction of the expected move rather than a rounding error. The strategic bearish view faces the mirror image: a short position pays away 27 pips at one month and 160 points at six, and the six-month forward outright of 1.25114 already embeds 1.26% of the appreciation we expect, so the forward is the inferior instrument for that horizon and the low-carry Singapore dollar crosses are the efficient venue rather than the primary pair. No convexity is purchasable at any tenor, which means the tails identified in Factors 3, 7 and 10 cannot be bought.",
+    "event_timing_consideration": "The gated calendar puts FOMC decisions on 2026-09-16 with an SEP, 2026-10-28 without, and 2026-12-09 with. Any tactical expression should be sized to survive the first and should not be assumed to survive the third, since the December projections are where a terminal hike is confirmed or overturned. The quote leg's own decision date is not in the gated file and must be treated as unverified, which argues against building an expression whose timing depends on it.",
+    "liquidity_note": "USD/SGD is a liquid managed cross rather than a free major: spreads are tight in normal conditions and realised volatility of 3.05% is the lowest in the set, but liquidity is provided into a band whose parameters are undisclosed, so gap risk is concentrated around policy dates rather than distributed. With a 39-pip average daily range, position sizing rather than instrument selection is the binding practical constraint, and stop placement inside that range is unusually demanding — a stop one ATR from entry is a 0.31% stop, which is tight enough to be noise-triggered and loose enough to represent a third of the tactical base case."
+   }
+  },
+  {
+   "factor_number": 10,
+   "factor_name": "USD Liquidity & Funding",
+   "tactical_weight_default": 0.11,
+   "tactical_weight_applied": 0.11,
+   "strategic_weight_default": 0.12,
+   "strategic_weight_applied": 0.12,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": [
+     "rates"
+    ],
+    "bilateral_analysis": "For this pair the dollar funding channel is unusually important on both sides, because Singapore is a major centre for the Asian dollar market and its banks run large dollar books, so a squeeze transmits to the quote leg faster than to most. Today there is no squeeze to transmit. The three-month EUR/USD cross-currency basis — the benchmark for global dollar funding stress — sat between minus 0.81 and plus 0.71 basis points through August and printed plus 0.05 on 2026-09-01, as close to a statement of no stress as the instrument can make against minus 40 to minus 80 in historically stressed periods. Central bank liquidity swaps outstanding were 121 million dollars in the week to 26 August, standing-facility noise rather than usage, and SOFR printed 3.68 per cent on 31 August with no month-end dislocation. Covered interest parity holds cleanly in this specific pair: three-month SOFR of about 3.64 per cent against three-month compounded SORA of 1.1805 per cent gives 2.4595 percentage points against a forward-implied 2.4547, agreement to half a basis point, which says there is no funding premium embedded in USD/SGD forwards to arbitrage. Abundant dollars are mildly bearish for the pair through the carry-outflow channel, but the asymmetry underneath is the other way: reserve balances are drifting down toward the roughly 3 trillion dollar comfortable minimum with the reverse repo facility drained to 702 million, September quarter-end falls inside the window, and from a zero basis the distribution can only widen. Neutral is the honest net.",
+    "key_bilateral_metrics": [
+     "Three-month EUR/USD cross-currency basis +0.05bp on 2026-09-01, August range -0.81 to +0.71, against -40 to -80bp in historically stressed periods",
+     "Fed central bank liquidity swaps outstanding $121 million in the week to 2026-08-26, down from $378 million in late July — no usage",
+     "Covered interest parity holds in this pair to half a basis point: 3M SOFR about 3.64% minus 3M compounded SORA 1.1805% equals 2.4595pp against a forward-implied 2.4547pp",
+     "Reserve balances $2.92tn and falling about $20bn a week, with the overnight reverse repo facility drained to $702 million — 2026-09-30 quarter-end is inside the window",
+     "Singapore is a major Asian dollar centre with USD 427.9bn of official reserves — the buffer that insulates the quote leg from exactly this channel"
+    ],
+    "what_is_priced": "Funding markets price abundance and they are right to: a basis at zero, negligible swap usage and a stable SOFR leave no stress to fade in either leg. The unpriced item is the fragility of that condition into quarter-end, and any move from zero is USD/SGD-positive.",
+    "citations": []
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 52,
+    "evidence_type": [
+     "rates"
+    ],
+    "bilateral_analysis": "Over one to six months the funding channel turns directional and it favours a higher USD/SGD, because the window contains the specific seasonal and supply conditions under which reserve scarcity bites and because Singapore's role as a dollar-clearing centre makes the quote leg a high-beta recipient of any tightening. The precedent is one cycle old and precise: in the fourth quarter of 2025 SOFR-to-IORB spreads reached their widest since 2020, reserve balances fell to levels policymakers judged barely sufficient, and standing repo usage printed 25.95 billion dollars on 29 December and a record 74.6 billion on 31 December before collapsing to zero in January. Every precondition is in place and several are worse: reserves at 2.92 trillion and draining about 20 billion a week, the reverse repo facility empty at roughly a billion, and bill supply from a deficit above 2 trillion now hitting bank reserves directly rather than being intermediated by money funds. A hike at the gated 2026-09-16 decision reprices the whole short-rate complex upward at the same time, and the 2026-12-11 US funding cliff coincides with year-end balance-sheet compression in exactly the Asian dollar market Singapore intermediates. The transmission is the dollar smile: tighter dollar funding pushes the base currency to the left-hand stress side, which lifts this pair for reasons unrelated to the rate differential. The countervailing force is institutional and real — standing repo operations now run at full allotment subject to a 40 billion per-proposition cap, which caps the tail — so the call is for periodic pressure rather than dislocation, and that is why confidence is 52.",
+    "key_bilateral_metrics": [
+     "Q4 2025 precedent: SOFR-IORB spreads widest since 2020, standing repo usage $25.95bn on 2025-12-29 and a record $74.6bn on 2025-12-31, collapsing to zero in January",
+     "Reserve balances $2.92tn falling about $20bn a week; overnight reverse repo drained to $702 million",
+     "A hike at the gated 2026-09-16 decision reprices the short-rate complex upward at the same time as the 2026-12-11 funding cliff and year-end balance-sheet compression build",
+     "Cross-currency basis at +0.05bp means there is no premium to erode from — any move toward stress is a move from zero",
+     "Singapore's banks run large dollar books and Singapore is a major Asian dollar centre, so a squeeze transmits to the quote leg harder than to most G10 quotes"
+    ],
+    "what_is_priced": "The market prices dollar funding as a solved problem and a basis at zero says nobody is hedging otherwise, which for a pair whose quote leg intermediates Asian dollar funding is a genuine omission. We expect pressure rather than crisis, and pressure is enough to make this factor the clearest strategic positive for USD/SGD.",
+    "citations": []
+   },
+   "horizon_split": "The stance moves from Neutral to Bullish because the tactical reading is a level and the strategic reading is a rate of change. Today dollars are abundant, the basis is zero and covered interest parity holds in this pair to half a basis point, which is mildly bearish for the pair through carry outflow. Over six months reserves draining $20bn a week, an empty reverse repo facility, a hike at the gated 2026-09-16 decision and the 2026-12-11 funding cliff reproduce the December 2025 configuration, and tighter dollar funding lifts this pair through the quote leg's dollar-centre exposure.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  }
+ ],
+ "synthesis": {
+  "weight_adjustments": {
+   "adjustments_made": true,
+   "adjustments": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative) — Tactical",
+     "default_weight": 0.24,
+     "applied_weight": 0.27,
+     "reason": "Money-market differential of ~222bp exceeds the 200bp high-carry threshold, and one leg has no policy rate at all — MAS's instrument is the exchange rate, so the whole policy contest is expressed in this pair rather than transmitted through it"
+    },
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative) — Strategic",
+     "default_weight": 0.24,
+     "applied_weight": 0.27,
+     "reason": "Same rationale as tactical — MAS's exchange-rate instrument means the policy contest is expressed directly in the pair on both horizons"
+    },
+    {
+     "factor_number": 4,
+     "factor_name": "Flows & Positioning — Tactical",
+     "default_weight": 0.1,
+     "applied_weight": 0.06,
+     "reason": "Quote-leg positioning is structurally unobservable — no CFTC SGD line, no CME SGD options, no CVOL entry, no SGX options. A factor that can see only one leg should carry less weight than one filled with a proxy"
+    },
+    {
+     "factor_number": 4,
+     "factor_name": "Flows & Positioning — Strategic",
+     "default_weight": 0.06,
+     "applied_weight": 0.02,
+     "reason": "Same structural-unobservability rationale, applied at the strategic horizon"
+    },
+    {
+     "factor_number": 6,
+     "factor_name": "Guidance & Credibility — Tactical",
+     "default_weight": 0.07,
+     "applied_weight": 0.1,
+     "reason": "MAS's guidance IS its policy setting: a change of wording moves the band and therefore the pair directly, with no intervening rate decision. Uniquely direct transmission"
+    },
+    {
+     "factor_number": 6,
+     "factor_name": "Guidance & Credibility — Strategic",
+     "default_weight": 0.12,
+     "applied_weight": 0.15,
+     "reason": "Same uniquely direct transmission rationale, applied at the strategic horizon"
+    },
+    {
+     "factor_number": 9,
+     "factor_name": "Market Structure & Volatility — Tactical",
+     "default_weight": 0.05,
+     "applied_weight": 0.03,
+     "reason": "No listed USD/SGD option exists anywhere, so IV, term structure, skew, event premium and the variance risk premium are permanently absent. Half the factor's content cannot exist"
+    },
+    {
+     "factor_number": 9,
+     "factor_name": "Market Structure & Volatility — Strategic",
+     "default_weight": 0.03,
+     "applied_weight": 0.01,
+     "reason": "Same missing-options-market rationale, applied at the strategic horizon"
+    }
+   ]
+  },
+  "tactical": {
+   "net_stance": "Bullish",
+   "conviction": 2,
+   "overall_confidence": 54,
+   "weighted_score_calculation": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative)",
+     "stance_score": 1,
+     "confidence": 58,
+     "conf_adj_score": 0.58,
+     "weight": 0.27,
+     "weighted_contribution": 0.1566
+    },
+    {
+     "factor_number": 2,
+     "factor_name": "Inflation & Growth Dynamics",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.18,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.1,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 4,
+     "factor_name": "Flows & Positioning",
+     "stance_score": 0,
+     "confidence": 42,
+     "conf_adj_score": 0,
+     "weight": 0.06,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance & Terms of Trade",
+     "stance_score": 1,
+     "confidence": 45,
+     "conf_adj_score": 0.45,
+     "weight": 0.06,
+     "weighted_contribution": 0.027
+    },
+    {
+     "factor_number": 6,
+     "factor_name": "Guidance & Credibility",
+     "stance_score": 1,
+     "confidence": 55,
+     "conf_adj_score": 0.55,
+     "weight": 0.1,
+     "weighted_contribution": 0.055
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk & Geopolitics",
+     "stance_score": 1,
+     "confidence": 52,
+     "conf_adj_score": 0.52,
+     "weight": 0.05,
+     "weighted_contribution": 0.026
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign Risk",
+     "stance_score": -1,
+     "confidence": 40,
+     "conf_adj_score": -0.4,
+     "weight": 0.04,
+     "weighted_contribution": -0.016
+    },
+    {
+     "factor_number": 9,
+     "factor_name": "Market Structure & Volatility",
+     "stance_score": 0,
+     "confidence": 45,
+     "conf_adj_score": 0,
+     "weight": 0.03,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.11,
+     "weighted_contribution": 0
+    }
+   ],
+   "net_weighted_score": 0.2486,
+   "score_interpretation": "A net score of +0.2486 is Bullish USD/SGD by the mechanical rule (≥ +0.10), but the structure behind it is narrow rather than broad: Factor 1 alone supplies +0.1566, or 63% of the gross positive, and five of ten factors score exactly zero at a combined weight of 0.48. Only one factor contributes negatively, Fiscal at -0.0160, and it does so at the lowest confidence in the analysis because its transmission is currently inverted. The score is best read as saying the four-week calendar and the carry both point the pair higher while everything structural about the two economies points it lower — and the calendar wins over four weeks because MAS has no decision in the window and the Fed has one with projections attached. A score of +0.2486 maps to conviction 2 on this framework: a directional call, not a position to size aggressively.",
+   "rationale": "At tactical weights the analysis is dominated by Policy and Rates at 0.27 and Inflation and Growth at 0.18, and those two split in a way specific to this pair's institutional asymmetry. Policy and Rates is Bullish because the dollar out-yields Singapore's money-market rate by about 222 basis points, because the only gated decision in the window is the FOMC on 2026-09-16 with a Summary of Economic Projections attached and a 57 to 68 per cent implied hike, and because there is no SGD decision on the gated calendar at all — the quote leg cannot answer inside four weeks. Inflation and Growth is Neutral because the two reaction functions genuinely cancel: US core PCE stuck at 3.3 per cent becomes a higher policy rate and more carry, which lifts the pair, while Singapore core at 2.0 per cent and growth of 5.9 per cent become a steeper appreciation band, which lowers it, and the growth differential of roughly 300 basis points runs hard against the inflation differential of about 130. Guidance and Credibility adds +0.0550 on sequencing rather than substance — both central banks are hawkish, but only one gets a dated communication event in the window while MAS has said nothing on exchange-rate policy since 28 July. Event Risk adds +0.0260 because Hormuz escalation is doubly positive for the pair, helping a net energy exporter on terms of trade and haven demand while hitting a net crude importer whose domestic supply price index is already at +33.4 per cent. External Balance adds a low-confidence +0.0270 on the same commodity netting. The conflicts are what cap conviction at 2: Fiscal is negative on arithmetic that is overwhelming — AAA and a surplus against Aa1 and a deficit above $2 trillion — but is transmitting backwards, since the 1 September bond rout lifted US yields and the dollar together; Positioning is uninformative on the quote leg by construction and offsetting on the base leg; Funding is Neutral at a basis of +0.05 basis points where covered interest parity holds in this pair to half a basis point. The edge is not the direction, which is mostly the carry, but the recognition that two-thirds of the hike is already discounted: the tradeable residual is a hike delivered alongside hawkish projections, and the risk is a hold that strands a still-positive dollar book. The path of least resistance is a drift higher from the 1.26280-1.27400 zone that spot currently occupies toward the 1.28120-1.28840 band that contains all three daily moving averages, with resolution in the ninety minutes after the 16 September statement. The dated catalysts are US payrolls on 4 September, US CPI on 11 September, the FOMC on 16 September and Singapore's August CPI on 23 September, in that order of importance. Conviction is 2 rather than 3 because the score rests on one factor whose event is majority-priced, because the pair's 3.05% realised volatility and 39-pip ATR mean even a correct call produces a small move, because no options market allows that move to be leveraged — and because, as this report states in its own voice, the price structure the direction pass never saw is running the other way. Where we disagree with the settled tactical direction: the verdict was scored without the price payload, deliberately, and the payload is unhelpful to it. The pair has printed lower highs on 28 July, 6 August, 19 August and 28 August and lower lows on 19 August, 21 August and 3 September; it closed at 1.26714 on 3 September, the lowest close of the 130-bar window, at the 12th percentile of its 52-week closing range and beneath all three daily moving averages. None of that is admissible evidence for a fundamental factor stance and none of it has been used as such. But it is admissible for the report's own commentary, and the honest commentary is this: the tactical Bullish call is a carry-supported fade of an intact downtrend, not a trend trade, and readers should size it accordingly.",
+   "g10_relative_ranking": "Among dollar pairs USD/SGD is one of the least attractive tactical longs despite a positive score, because the quote leg is the only one in the set whose central bank is actively appreciating its currency by instrument rather than by rate. On the base dossier's own cross-currency work, USD/CAD is the cleanest long-dollar expression at 137.5bp of carry on 4.07% realised volatility, and USD/CHF the purest at 362.5bp against a zero policy rate — both rank ahead of this pair, which pays 222bp but faces a counterparty central bank with a standing appreciation mandate and a 39-pip daily range that caps the payoff. Among Singapore dollar crosses the picture inverts: USD/SGD is a poor place to be short the Singapore dollar relative to AUD/SGD, where the base currency pays 294.7bp more and benefits directly from the commodity shock that is hurting Singapore, or SGD/CHF, where the carry sign flips positive. USD/SGD ranks roughly mid-table tactically among dollar pairs and last or near-last among the pairs in which a four-week long-dollar view should actually be expressed.",
+   "scenarios": {
+    "base_case": {
+     "probability_pct": 50,
+     "pair_target": "USD/SGD 1.2780",
+     "timeframe": "by end-September (2-4 weeks)",
+     "conditions": [
+      "The FOMC delivers a 25bp hike on 16 September broadly as priced, widening the money-market gap to roughly 247bp",
+      "US August payrolls on 4 September print at or above the +58,000 consensus, or below it without a second outright contraction",
+      "Brent holds an $85-100 range and the 3-month EUR/USD cross-currency basis stays inside ±5bp, confirming the move is a rates story not a funding event",
+      "Spot holds above 1.26280, the lower boundary of the zone it currently occupies"
+     ],
+     "path": "Grinds up from 1.26714 toward the 1.2740-1.2760 area — the upper half of the zone it already sits inside — over the first fortnight as the market prices the FOMC and carry accrues at roughly 1.9 pips a day; the decision itself produces a 30-50 pip move that then fades because two-thirds of the hike is discounted."
+    },
+    "upside_case": {
+     "probability_pct": 25,
+     "pair_target": "USD/SGD 1.2865",
+     "conditions": [
+      "The hike is accompanied by projections lifting the 2027 median above 3.6%, converting a terminal move into a cycle",
+      "Payrolls beat convincingly above +100,000, removing the labour-market objection to tightening"
+     ]
+    },
+    "downside_case": {
+     "probability_pct": 25,
+     "pair_target": "USD/SGD 1.2580",
+     "conditions": [
+      "The Committee holds on 16 September against 57-68% priced, stranding an 18,682-contract dollar net long",
+      "Singapore's August core CPI on 23 September prints at or above 2.2%, moving the market's October band-steepening probability decisively toward the quote dossier's 55%"
+     ]
+    }
+   },
+   "path_expectation": "The shape is a shallow V centred on 16 September rather than a trend. Expect the pair to grind up from the current 1.26714 toward the 1.2740-1.2760 area — the upper half of the zone it already sits inside — over the first fortnight as the market prices the FOMC and the carry accrues at roughly 1.9 pips a day, with realised volatility rising further from an already-elevated 3.47% twenty-day reading. The decision itself should produce a 30 to 50 pip move in either direction and then fade, because two-thirds of the hike is discounted and the residual surprise is small; a hawkish dot plot is the only configuration that produces a clean extension toward 1.2812. The second half of the window belongs to Singapore's 23 September CPI print and the build-up of October review positioning, which should cap the rally well beneath the 1.28120-1.28840 band. Pullback levels on any advance are 1.27400 (the zone's upper boundary, which becomes support on a break) and 1.2700; on the way down, 1.26280 is the first structural level and 1.26139, the 52-week closing low, is the tell. With a 39-pip ATR the realistic four-week distribution is roughly 1.2580 to 1.2870, and any move outside that requires a genuine surprise rather than a data beat.",
+   "conviction_ladder": {
+    "current": 2,
+    "increase_conditions": [
+     "The FOMC delivers on 16 September AND spot closes above 1.27400 within three sessions of the decision; or US August payrolls exceed +100,000 with average hourly earnings re-accelerating above 3.4% year on year (→3)",
+     "The above plus a weekly close above 1.28077, the 200-day average; or the futures-implied hike probability rises above 75% before the meeting (→4)",
+     "A weekly close above 1.28840, the top of the five-touch zone containing all three daily averages, with the 2027 median dot lifted above 3.6% (→5)"
+    ],
+    "decrease_conditions": [
+     "The Committee holds on 16 September; or Singapore's August core CPI prints at or above 2.2% and spot closes below 1.26139 on a weekly basis; or the 3-month cross-currency basis moves beyond -25bp (→1)",
+     "Spot closes below 1.25883 on a weekly basis, which would say the S$NEER band's strong edge has shifted and no four-week carry argument survives it (stand down entirely)"
+    ]
+   },
+   "risk_reward": {
+    "base_case_payoff": "+107 pips / +0.84%",
+    "downside_case_loss": "-91 pips / -0.72%",
+    "risk_reward_ratio": "1.18:1 base versus downside; 2.13:1 on the upside case",
+    "expected_value": "(0.50 × +107) + (0.25 × +194) + (0.25 × -91) = +53.5 + 48.5 - 22.8 = +79.2 pips before carry; adding ~+23.5 pips of one-month carry gives gross expectancy of about +103 pips, or +0.81%",
+    "asymmetry_assessment": "Genuinely favourable in shape but small in absolute terms, the signature of a managed float where the band truncates the centre of the distribution while the dollar sets the tails. +79 pips of expectancy is two average daily ranges, so execution costs and slippage consume a meaningful fraction of it, and there is no options market in which the favourable skew can be bought more cheaply than it can be carried."
+   }
+  },
+  "strategic": {
+   "net_stance": "Bearish",
+   "conviction": 3,
+   "overall_confidence": 58,
+   "weighted_score_calculation": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative)",
+     "stance_score": -1,
+     "confidence": 52,
+     "conf_adj_score": -0.52,
+     "weight": 0.27,
+     "weighted_contribution": -0.1404
+    },
+    {
+     "factor_number": 2,
+     "factor_name": "Inflation & Growth Dynamics",
+     "stance_score": -1,
+     "confidence": 55,
+     "conf_adj_score": -0.55,
+     "weight": 0.1,
+     "weighted_contribution": -0.055
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "stance_score": 0,
+     "confidence": 48,
+     "conf_adj_score": 0,
+     "weight": 0.05,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 4,
+     "factor_name": "Flows & Positioning",
+     "stance_score": 0,
+     "confidence": 40,
+     "conf_adj_score": 0,
+     "weight": 0.02,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance & Terms of Trade",
+     "stance_score": -1,
+     "confidence": 60,
+     "conf_adj_score": -0.6,
+     "weight": 0.16,
+     "weighted_contribution": -0.096
+    },
+    {
+     "factor_number": 6,
+     "factor_name": "Guidance & Credibility",
+     "stance_score": -1,
+     "confidence": 58,
+     "conf_adj_score": -0.58,
+     "weight": 0.15,
+     "weighted_contribution": -0.087
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk & Geopolitics",
+     "stance_score": 1,
+     "confidence": 50,
+     "conf_adj_score": 0.5,
+     "weight": 0.05,
+     "weighted_contribution": 0.025
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign Risk",
+     "stance_score": -1,
+     "confidence": 62,
+     "conf_adj_score": -0.62,
+     "weight": 0.07,
+     "weighted_contribution": -0.0434
+    },
+    {
+     "factor_number": 9,
+     "factor_name": "Market Structure & Volatility",
+     "stance_score": 0,
+     "confidence": 42,
+     "conf_adj_score": 0,
+     "weight": 0.01,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "stance_score": 1,
+     "confidence": 52,
+     "conf_adj_score": 0.52,
+     "weight": 0.12,
+     "weighted_contribution": 0.0624
+    }
+   ],
+   "net_weighted_score": -0.3344,
+   "score_interpretation": "A net score of -0.3344 is a clear Bearish USD/SGD reading and, unlike the tactical score, it is broad rather than concentrated. Five factors contribute negatively for a gross -0.4218 — Policy and Rates at -0.1404, External Balance at -0.0960, Guidance at -0.0870, Inflation and Growth at -0.0550 and Fiscal at -0.0434 — against a gross positive of only +0.0874 from Event Risk and USD Liquidity. Three factors score zero at a combined weight of just 0.08. The breadth matters: the negatives are not one story restated five times but five distinct mechanisms — a terminal versus compounding policy path, a nineteen-point current-account differential, opposing guidance trajectories, a fading versus renewing inflation impulse, and a sovereign balance-sheet gap — only partly offset by a genuine year-end funding argument. A score of -0.3344 maps to conviction 3.",
+   "rationale": "At strategic weights the analysis loads onto Policy and Rates at 0.27, External Balance at 0.16, Guidance at 0.15 and USD Liquidity at 0.12, and the pair loses three of those four. Policy and Rates inverts from the tactical read because the Fed's own June projections carry a 2026 median of 3.8 per cent and a 2027 median of 3.6 per cent, which makes a September move terminal with a cut behind it, while MAS's band slope compounds mechanically at 60 to 75 basis points of trade-weighted appreciation over six months whether or not anyone believes in it — the gated 2026-12-09 decision with its Summary of Economic Projections is the dated test of whether that terminal reading survives. External Balance is the second-largest contributor and the differential is close to the widest in the set: a Singapore current-account surplus of 16.7 per cent of GDP against a US deficit of 2.9 per cent that is widening, a US net international investment position of minus 21.27 trillion dollars, and a US primary income balance that flipped from surplus to deficit in the first quarter, attacking the very mechanism that has made that position sustainable. Guidance points the same way because MAS's communication is its instrument and its revealed reaction function has front-run its own data twice, while the Fed's hawkishness is guidance toward a plateau. Fiscal adds -0.0434 on an arithmetic gap that is not close, and there is a specific interaction the market does not price: the hike that supports the dollar tactically raises the front-end rollover cost of a $40 trillion debt stock. Against all that stand two real positives — USD Liquidity at +0.0624, where reserves draining about $20 billion a week with an empty reverse repo facility reproduce the December 2025 configuration and Singapore's dollar-centre role makes the quote leg a high-beta recipient of any squeeze into the 11 December funding cliff, and Event Risk at +0.0250, reflecting a November cluster that hits Singapore's trade channel while lifting the dollar through the smile. What is priced against what we expect is uncomfortable and should be said: the six-month forward outright of 1.25114 already embeds 1.26 per cent of Singapore dollar appreciation, so we are bearish the pair and close to indifferent on the forward-adjusted trade. The path of least resistance is a stepped grind lower through the 1.26280 boundary and the 1.25883 52-week low toward 1.2480, with the 200-week average at 1.32176 confirming rather than constraining that direction — it is 4.31 per cent overhead and declining. Dated catalysts are the 28 October and 9 December FOMC meetings, the 10 November tariff-truce expiry, the 28 November Taiwan elections, the 11 December funding cliff, and — unverified, dossier-sourced, not in the gated calendar — a MAS review in mid-October. Conviction is 3 because the mechanism is mechanical rather than discretionary and because five independent channels agree; not higher, because the timing anchor on the quote leg does not appear in the gated file at all and because the price payload's own structure, while supportive, is a 12th-percentile close rather than a fresh breakdown.",
+   "g10_relative_ranking": "USD/SGD ranks in the upper half but not the top of the strategic short-dollar opportunity set. AUD/USD is the base dossier's own cleanest short-dollar expression, since Australia out-yields the United States at both the policy rate and the long end so a dollar short is paid to hold, whereas a short USD/SGD costs about 222bp a year and starts 160 points behind the six-month forward. Among Singapore dollar crosses, short NZD/SGD and short EUR/SGD both offer a larger fundamental gap per unit of carry cost than the primary pair, and long SGD/CHF is the only expression in the complex with positive carry. Against the other Asian low-yielders the Singapore dollar is the purest dollar play available — its 120-day correlation with the dollar at -0.94 is the most negative in Asia — which makes USD/SGD the right pair for stating the strategic view and one of the wrong pairs for expressing it.",
+   "scenarios": {
+    "base_case": {
+     "probability_pct": 50,
+     "pair_target": "USD/SGD 1.2480",
+     "timeframe": "by end-February 2027",
+     "conditions": [
+      "MAS steepens the S$NEER appreciation slope at its October review, or holds with explicitly hawkish language about January",
+      "The Fed hikes once in September and then holds, with the 2027 median dot retained at or near 3.6% at the 9 December meeting",
+      "MAS core inflation peaks between 2.2% and 2.6% in the fourth quarter without breaking above 2.8%",
+      "The US-China tariff truce is extended or renegotiated without a retaliatory spiral, and Brent stays in an $85-100 range"
+     ],
+     "path": "A stepped grind: through September the pair trades the Fed near the tactical base case of 1.2780; the October MAS review is the step, taking the pair 60-90 pips lower over the following fortnight; November is the most volatile stretch on the midterm/truce/Taiwan cluster with wide chop between roughly 1.2550 and 1.2850; the final leg into February 2027 reasserts the grind toward 1.2480 as the January MAS review and Q4 advance GDP reset expectations."
+    },
+    "upside_case": {
+     "probability_pct": 25,
+     "pair_target": "USD/SGD 1.2900",
+     "conditions": [
+      "MAS holds its slope in October with no hawkish forward language, unwinding the estimated 1.7% band deviation toward the midpoint",
+      "The Fed delivers a second hike into 9 December, taking the funds rate to 4.00-4.25% and the money-market gap toward 272bp; or a December-2025-style funding squeeze recurs with the basis beyond -30bp"
+     ]
+    },
+    "downside_case": {
+     "probability_pct": 25,
+     "pair_target": "USD/SGD 1.2300",
+     "conditions": [
+      "MAS steepens in October and signals further readiness in January as core inflation pushes toward the top of the 1.5-2.5% forecast band",
+      "The September hike proves a policy mistake into a labour market already shedding payrolls, with the Fed reversing by the first quarter of 2027 while the US external and fiscal themes bite simultaneously"
+     ]
+    }
+   },
+   "path_expectation": "The shape is a stepped grind rather than a trend, with one genuine discontinuity. Through September the pair trades the Fed and should end the month somewhere near the tactical base case of 1.2780 — meaning the strategic view is against the first month of the window, not with it, and any strategic short entered today will be underwater before it is right. The October MAS review is the step: a steepening should take the pair 60 to 90 pips lower over the following fortnight as the band's implied path resets, while a hold produces a faster 80 to 120 pip move higher as the deviation unwinds toward the midpoint — an asymmetry in speed rather than magnitude, because unwinds are quicker than grinds and this pair has no leveraged book to slow either. November should be the most volatile stretch of the window, containing the US midterms on the 3rd, the tariff-truce expiry on the 10th, APEC on the 18th-19th and Taiwan's elections on the 28th, and the realistic expectation there is a wide chop between roughly 1.2550 and 1.2850 rather than directional progress. The final leg into February 2027 should reassert the grind toward 1.2480 as the January MAS review and the Q4 advance GDP estimate reset expectations. The level that decides the whole path is 1.25883: a weekly close beneath the 52-week low would say the band's strong edge has moved and the range re-forms lower, while repeated failure there would confirm that the market has already extracted everything the current slope can deliver.",
+   "conviction_ladder": {
+    "current": 3,
+    "increase_conditions": [
+     "MAS steepens the slope at its October review AND Singapore core inflation holds at or above 2.2% into the fourth quarter; or a weekly close below 1.25883 with the estimated S$NEER band deviation still at or above 1.5% above midpoint (→4)",
+     "The above plus the Fed explicitly signals its tightening cycle is complete at the 9 December meeting with the 2027 median held at or below 3.6%; or a weekly close below 1.2500 with the January 2027 MAS review priced as live (→5)"
+    ],
+    "decrease_conditions": [
+     "MAS holds on the October review with no hawkish language about January; or Singapore semiconductor manufacturing output growth turns negative year on year in any month; or MTI revises its 2026 growth forecast back below 4.0%; or spot closes above 1.28077 on a weekly basis (→2)",
+     "Spot closes above 1.28840 for two consecutive weeks; or the Fed delivers a second hike taking the funds rate to 4.25-4.50%; or MAS core inflation falls back below 1.6% (→1)"
+    ]
+   },
+   "risk_reward": {
+    "base_case_payoff": "+191 pips / +1.51% (short USD/SGD, 1.26714 → 1.2480)",
+    "downside_case_loss": "-229 pips / -1.81% (adverse case, 1.26714 → 1.2900)",
+    "risk_reward_ratio": "0.83:1 base versus adverse; 1.62:1 on the extension case (1.2300)",
+    "expected_value": "Gross of carry: (0.50 × +191) + (0.25 × +371) + (0.25 × -229) = +95.5 + 92.8 - 57.3 = +131 pips. Net of carry: a short position pays away roughly 222bp a year, ~141 pips over six months, giving a net expectancy of approximately -10 pips, essentially zero.",
+    "asymmetry_assessment": "The distribution is positively skewed in the tails and negatively skewed in the centre — the extension pays 1.62 times what the adverse case costs, but the base case recovers only 0.83 of it, the arithmetic fingerprint of a currency whose central bank truncates the middle of the distribution while leaving the ends to the dollar. The decisive number is the net one: a conviction-3 directional call with a net expectancy of roughly zero in the primary pair is a call that should be expressed elsewhere; against the six-month forward outright of 1.25114 the base case earns just 31 pips, inside the bid-offer plus rolling cost for most participants."
+   }
+  },
+  "consensus_divergence": {
+   "bank_consensus_forecast": "UBS has maintained USD/SGD forecasts at 1.26 by September 2026, 1.25 by December 2026 and 1.24 by March 2027, implying further Singapore dollar gains. MUFG's 3 August 2026 table shows 1.2900 for Q3 and Q4 2026, 1.2850 for Q1 2027 and 1.2700 for Q2 — a weaker Singapore dollar than spot for three consecutive quarters. DBS projects a 1.25-1.30 range January to September 2026, and independent commentary places the pair around S$1.25-1.30.",
+   "bank_consensus_forecast_source": "UBS; MUFG (published table dated 2026-08-03, carried via the quote dossier); DBS",
+   "our_tactical_view": "Bullish to 1.2780 over four weeks",
+   "our_strategic_view": "Bearish to 1.2480 by end-February 2027 over six months",
+   "divergence_direction": "Tactically above UBS's 1.26 September path; strategically stronger Singapore dollar than MUFG's 1.2850 Q1 path and close to UBS's 1.24 March 2027 target",
+   "divergence_magnitude": "+180 pips above UBS's tactical 1.26 September number; -320 pips versus MUFG's 1.2850 Q1 2027 path; roughly -80 pips versus UBS's 1.24 March 2027 target on a like-for-like basis",
+   "why_we_differ": "Against MUFG the disagreement is about whether MAS's instrument keeps working: a forecast of a weaker Singapore dollar than spot for three consecutive quarters is hard to reconcile with an appreciating trade-weighted band at all, since it implies either that MAS abandons the slope after two consecutive tightenings or that the dollar rallies enough to overwhelm it, and neither is our base case given a June dot plot whose 2027 median of 3.6% makes the September hike terminal. Against UBS the disagreement is about the next four weeks rather than the next six months: UBS's 1.26 for September implies the pair keeps grinding through the FOMC, and we think a 222bp carry plus a projection-bearing Fed meeting with no Singapore decision to answer it produces at least a temporary bounce. We also weigh External Balance at 0.16 rather than treating a nineteen-percentage-point current-account differential as permanent background, and Guidance at 0.15 because for this pair a central bank statement is the policy setting.",
+   "payoff_if_right": "Tactically, roughly +107 pips of base-case move plus about +23.5 pips of monthly carry, against a consensus positioned for continuation lower. Strategically, USD/SGD at 1.2480 by end-February against MUFG's implied 1.2850 — a 370-pip gap — with the cleanest capture in the low-carry Singapore dollar crosses rather than in this pair, where the forward already prices 1.26% of the 1.51% we expect.",
+   "risk_if_wrong": "The tactical view fails if the Fed holds on 16 September against 57-68% priced, which would strand a still-positive dollar book and take the pair through 1.25883 to the downside case. The strategic view fails in two identifiable ways: MAS holds its slope in October, unwinding the estimated 1.7% band deviation toward the midpoint and vindicating MUFG; or the Fed delivers a second hike into 9 December, widening the money-market gap toward 297bp, enough to overwhelm the band slope in the primary pair. Both failure modes are bounded rather than open-ended, because the band truncates the distribution on both sides."
+  },
+  "cross_horizon_consistency": {
+   "aligned": false,
+   "tactical_stance": "Bullish (conviction 2, +0.2486)",
+   "strategic_stance": "Bearish (conviction 3, -0.3344)",
+   "explanation": "The horizons genuinely oppose each other and the opposition is mechanical rather than a hedge. Over four weeks the pair is driven by which central bank has a meeting and how much carry the dollar pays: the gated calendar puts an FOMC with projections on 16 September and carries no SGD decision at all, and the dollar earns about 222bp for waiting. Over one to six months it is driven by which policy path compounds and which economy has the stronger balance sheet: the Fed's own dots make September terminal with a cut behind it, while MAS's band slope delivers 60 to 75bp of trade-weighted appreciation mechanically, on top of a nineteen-percentage-point current-account differential and a sovereign gap between AAA and Aa1. Three factors change sign between horizons — Policy and Rates, Guidance, and External Balance — and each change has a specific, dated reason rather than a change of mood.",
+   "inflection_point": "The gated 16 September FOMC is the first inflection, because the Summary of Economic Projections released alongside it resolves the tactical event and sets the strategic path in the same release: if the 2027 median holds at 3.6%, the strategic Bearish reading is confirmed. The second and larger inflection is the quote leg's autumn policy review, which the quote dossier places in mid-October alongside the Macroeconomic Review and the Q3 advance GDP estimate — not in the gated calendar, carried as dossier-sourced and unverified. The general quarterly cadence (January, April, July, October reviews) is independently confirmed, but the specific date is not.",
+   "trading_implication": "Treat the tactical long as a trade with an expiry rather than the opening leg of a position, and do not size it as though the strategic view will eventually agree with it. The tactical view is carry-positive and can be held in spot or a rolled forward at +23.5 pips a month, whereas the strategic view is carry-negative and starts 160 points behind at six months. No options market exists in this pair at any tenor, so neither view can be given convexity. The strategic view is better expressed in low-carry Singapore dollar crosses than in the primary pair, where the forward has already monetised most of the expected move; the primary pair is where the view should be stated and monitored, using the 1.25883 and 1.28840 boundaries as the two decision levels."
+  },
+  "forward_vs_spot": {
+   "current_spot": 1.26714,
+   "forward_1m": "1.26442 outright (-27.2 pips)",
+   "forward_3m": "1.25933 outright (-78.1 pips)",
+   "forward_6m": "1.25114 outright (-160.0 pips)",
+   "expected_rate_3m": "1.2650",
+   "expected_rate_6m": "1.2480",
+   "edge_3m": "+57 pips of long-USD edge — forward implies 1.25933, we expect 1.2650",
+   "edge_6m": "-31 pips — the forward under-prices the fall relative to our 1.2480 expectation, giving a small short-USD edge"
+  }
+ },
+ "catalysts": [
+  {
+   "date": "2026-09-04",
+   "event": "US August non-farm payrolls, unemployment rate and average hourly earnings",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "The largest data risk before the gated FOMC. Consensus is +58,000 after July's -23,000, with average hourly earnings at a five-year low of 3.2%. A second consecutive contraction would make a hike twelve days later very hard to defend, removing the tactical carry-widening argument that supplies most of the positive score; a firm print entrenches it. The quote leg has no scheduled release to answer either outcome, so the pair's reaction is a pure base-leg function.",
+   "priced_in": "Partially",
+   "citations": []
+  },
+  {
+   "date": "2026-09-11",
+   "event": "US August CPI, University of Michigan preliminary, monthly federal budget balance",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Base",
+   "rationale": "The last US inflation print before the FOMC, against a July base of 3.4% headline and 2.5% core. The unusual configuration is that core CPI sits 80bp below core PCE at 3.3%, an inversion of the normal sign, so a soft core CPI reading is less dovish for this pair than it looks — the Fed targets PCE and the Chair quoted headline PCE at Jackson Hole. Transmission runs entirely through the base leg's rate path and therefore the carry.",
+   "priced_in": "Partially",
+   "citations": []
+  },
+  {
+   "date": "2026-09-16",
+   "event": "Federal Reserve FOMC decision with Summary of Economic Projections (gated)",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Base",
+   "rationale": "The dominant dated event in the tactical window and the only gated decision for either currency inside it. A 25bp hike to 3.75-4.00% is carried at 57-68% in futures against roughly 48-55% in prediction markets, and delivery widens the money-market gap from about 222bp to 247bp. The projections released alongside also reset the strategic path, since the 2027 median of 3.6% is what currently makes the move terminal — so this single release resolves the tactical trade and sets the strategic one.",
+   "priced_in": "Partially",
+   "citations": []
+  },
+  {
+   "date": "2026-09-17",
+   "event": "Singapore August merchandise trade and non-oil domestic exports",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Quote",
+   "rationale": "July NODX rose 24.2% year on year with electronics at +112% and non-electronics contracting 2.3%. The tell is the split rather than the headline: electronics has exceeded +90% for three months on base effects that begin fading from Q4, while pharmaceuticals fell 56.7%. A weak print undermines the growth case behind a steeper appreciation band and is therefore bullish USD/SGD; a strong one reinforces the strategic bearish read.",
+   "priced_in": "Partially",
+   "citations": [
+    13
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "event": "Singapore August CPI and MAS Consumer Price Developments",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Quote",
+   "rationale": "The most consequential quote-leg release in the tactical window and the mechanism by which the market's view of the next MAS decision converges or diverges. July core rose to 2.0% from 1.6% on an 8.7% jump in electricity and gas as the Q3 regulated tariff passed through; August has a full month of that tariff rather than a partial one. A core reading at or above 2.2% makes a further band steepening the base case rather than a coin flip.",
+   "priced_in": "Not priced",
+   "citations": [
+    11,
+    13
+   ]
+  },
+  {
+   "date": "2026-09-25",
+   "event": "Singapore August industrial production",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Quote",
+   "rationale": "This is where the AI capital-expenditure deceleration is most visible: semiconductor output growth fell from 37.0% in May to 20.8% in June to 8.0% in July. A further leg toward zero would undercut the growth forecast underpinning the band-steepening case, which is bullish USD/SGD, and MAS's Managing Director names AI-boom sustainability as one of his two principal risks.",
+   "priced_in": "Not priced",
+   "citations": [
+    11
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "event": "US September quarter-end dollar funding date",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Both",
+   "rationale": "The first quarter-end since reserve balances resumed falling, at $2.92tn and drifting toward the roughly $3tn comfortable minimum, with the reverse repo facility drained to $702 million and no buffer left to absorb balance-sheet management. Because Singapore is a major Asian dollar centre whose banks run large dollar books, funding pressure transmits to the quote leg harder than to most, so any move from a +0.05bp basis lifts this pair.",
+   "priced_in": "Not priced",
+   "citations": []
+  },
+  {
+   "date": "2026-10-14",
+   "event": "MAS October Monetary Policy Statement, Macroeconomic Review and Q3 advance GDP estimate — NOT IN THE GATED CALENDAR",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Quote",
+   "rationale": "The single most important quote-leg event and the strategic inflection point, but it must be flagged: the supplied scheduled-decisions block contains no SGD entry at all, so this date is inherited from the quote dossier and is unverified rather than gated. Each MAS review can change the slope of the policy band, its width, or the level at which it is centred. The quote dossier assigns 55% to a further slight steepening toward about 1.50% a year against a published sell-side view closer to 35-40%; a steepening resets the band and the pair 60 to 90 pips lower, a hold unwinds the estimated 1.7% band deviation and lifts it 80 to 120 pips.",
+   "priced_in": "Partially",
+   "citations": [
+    3,
+    9,
+    13
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "event": "Federal Reserve FOMC decision, no Summary of Economic Projections (gated)",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "The first gated decision after September with no dot plot attached, which makes it the meeting at which the market must judge on the Committee's silence whether the September move was terminal. Under meeting-by-meeting data dependence this is a genuine repricing event rather than a formality, and for this pair it determines whether the dollar's 222bp advantage is a plateau or a step on a path. A pause with cycle-complete language is the most likely route to a lower USD/SGD.",
+   "priced_in": "Not priced",
+   "citations": []
+  },
+  {
+   "date": "2026-11-10",
+   "event": "US-China tariff truce expiry, with China's reciprocal truce on 2026-11-19",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Quote",
+   "rationale": "Singapore sends 22.0% of its goods exports to Greater China and 9.6% to the United States, so a lapse hits both ends of its entrepôt function simultaneously, and total merchandise trade running at +38.6% year on year is the flow that gets disrupted. The pair rises on this because the quote leg's real economy is the exposed one while the base currency benefits from the resulting risk-off through the dollar smile — the quote leg's haven status works against Asian peers, not against the dollar.",
+   "priced_in": "Not priced",
+   "citations": [
+    14,
+    19
+   ]
+  },
+  {
+   "date": "2026-12-09",
+   "event": "Federal Reserve FOMC decision with Summary of Economic Projections (gated)",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "The final gated Fed event in the strategic window and the release at which the 2027 median dot — currently 3.6%, implying a cut back from a September hike — is either confirmed or removed. Confirmation validates the strategic Bearish reading by making the dollar's advantage terminal; removal converts the September move into a cycle, widens the money-market gap toward 272bp or more, and would be the trigger to reverse the strategic stance.",
+   "priced_in": "Not priced",
+   "citations": []
+  },
+  {
+   "date": "2026-12-31",
+   "event": "US year-end dollar funding turn and expiry of the tariff-exclusion process",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Both",
+   "rationale": "The direct analogue of December 2025, when SOFR-to-IORB spreads reached their widest since 2020 and standing repo usage spiked to a record $74.6bn on 31 December before collapsing to zero in January. Every precondition is in place and several are worse, with reserves draining about $20bn a week and no reverse repo buffer, and the 11 December funding cliff sits just before it. Tighter dollar funding pushes the base currency to the stress side of the smile and hits the quote leg through its dollar-clearing role.",
+   "priced_in": "Not priced",
+   "citations": []
+  }
+ ],
+ "invalidators": [
+  {
+   "condition": "USD/SGD closes above 1.28840 on a weekly basis — the top of the five-touch resistance zone that contains all three daily moving averages",
+   "new_stance": "Strategic stance moves from Bearish to Neutral",
+   "mechanism": "A weekly close there means spot has rejoined a still-bullishly-stacked moving-average configuration rather than diverging from it, converting systematic flow from absent to supportive of the base currency and putting the 52-week high at 1.30964 back in play. In pair terms it would say the S$NEER band's appreciation is being overwhelmed by the dollar leg rather than merely offset.",
+   "monitor_indicator": "USD/SGD weekly close versus 1.28840",
+   "monitor_frequency": "weekly",
+   "probability_pct": 20
+  },
+  {
+   "condition": "USD/SGD closes below 1.25883 on a weekly basis — the 52-week intraday low and the loose proxy for the inferred strong edge of the S$NEER band",
+   "new_stance": "Tactical stance moves from Bullish to Bearish",
+   "mechanism": "For this specific pair a break of that level is not a technical event but a policy inference: it would say the band's parameters have shifted rather than that the dollar is soft, and no four-week carry argument survives a re-parameterisation.",
+   "monitor_indicator": "USD/SGD weekly close versus 1.25883",
+   "monitor_frequency": "weekly",
+   "probability_pct": 30
+  },
+  {
+   "condition": "The FOMC holds the target range at 3.50-3.75% on 16 September rather than hiking",
+   "new_stance": "Tactical stance moves from Bullish to Bearish",
+   "mechanism": "Factor 1 supplies 63% of the tactical gross positive and its entire tactical case rests on a widening money-market gap that a hold would deny — while the quote leg, having no decision in the window, would face no offsetting dovish surprise of its own. A hold leaves the differential at 222bp against a band that continues to appreciate mechanically at roughly 10bp a month, so the pair falls on both legs at once.",
+   "monitor_indicator": "FOMC statement and implementation note; futures-implied probability in the preceding fortnight",
+   "monitor_frequency": "daily to 16 September",
+   "probability_pct": 35
+  },
+  {
+   "condition": "MAS leaves the S$NEER slope, width and centre unchanged at its October review with no hawkish language about January",
+   "new_stance": "Strategic stance moves from Bearish to Neutral",
+   "mechanism": "The strategic case rests on a band that compounds at 60 to 75bp of trade-weighted appreciation over the window against a US path the Fed's own dots make terminal. A hold converts the estimated 1.7% band deviation from a policy-supported position into a reversion toward the midpoint, worth roughly 1.5% on the trade-weighted index and materially less on this pair, but enough to erase the base case.",
+   "monitor_indicator": "MAS October Monetary Policy Statement text",
+   "monitor_frequency": "once, mid-October (date unverified — not in the gated calendar)",
+   "probability_pct": 45
+  },
+  {
+   "condition": "The three-month EUR/USD cross-currency basis moves beyond -25bp for three consecutive sessions",
+   "new_stance": "Both tactical and strategic stances move toward Bullish",
+   "mechanism": "This invalidates the character of the thesis rather than its direction. A genuine dollar funding premium moves the base currency from the exceptionalism side of the smile to the stress side, and Singapore's role as an Asian dollar-clearing centre makes the quote leg a high-beta recipient — the pair would rise for reasons unrelated to the 222bp differential, and the rates-based framework in Factors 1, 2 and 6 would stop being the right lens.",
+   "monitor_indicator": "CME three-month cross-currency basis index (XEURBI)",
+   "monitor_frequency": "daily",
+   "probability_pct": 10
+  },
+  {
+   "condition": "The Fed delivers a second 25bp hike into the 9 December meeting, taking the target range to 4.00-4.25% and the money-market gap toward 272bp",
+   "new_stance": "Strategic stance moves from Bearish to Bullish",
+   "mechanism": "A differential widening past roughly 297bp overwhelms a 1.25-1.50% band slope in the primary pair even while the Singapore dollar continues appreciating on a trade-weighted basis. This is the cleanest single reversal condition in the report and it is dated.",
+   "monitor_indicator": "FOMC decisions on 28 October and 9 December and the accompanying Summary of Economic Projections",
+   "monitor_frequency": "per meeting",
+   "probability_pct": 20
+  },
+  {
+   "condition": "Singapore semiconductor manufacturing output growth turns negative year on year in any month",
+   "new_stance": "Strategic stance moves from Bearish to Neutral",
+   "mechanism": "The 4.5-5.5% growth forecast that underpins the widening output gap — and therefore the band-steepening case — is almost entirely an AI capital-expenditure story. Growth has already fallen from +37.0% in May to +8.0% in July, and MAS's Managing Director has explicitly named that boom's sustainability as one of his two principal risks. A collapsing quote-leg growth engine removes the reason for the appreciation the forward curve has already priced.",
+   "monitor_indicator": "Singapore industrial production, semiconductor cluster, year on year",
+   "monitor_frequency": "monthly, around the 25th",
+   "probability_pct": 20
+  }
+ ],
+ "signposts": [
+  {
+   "indicator": "USD/SGD spot versus the 1.26280-1.27400 five-touch zone",
+   "current_level": "1.26714 — spot sits inside the band, 43 pips above its lower boundary and 69 pips below its upper",
+   "confirms_if": "Tactically, a daily close above 1.27400 opening the run to the 1.28120-1.28840 band; strategically, a daily close below 1.26280 opening the 52-week low",
+   "invalidates_if": "Tactically, a daily close below 1.26139 (52-week closing low); strategically, a weekly close above 1.28077 (200-day average)",
+   "bilateral_importance": "This is the only computed zone in contact with price and the only place where the tactical and strategic theses share a decision level. For most pairs a five-touch zone is one level among many; here, with zero support zones detected, it is the entire near-term structure.",
+   "source": "price payload zones (gated store)",
+   "frequency": "daily"
+  },
+  {
+   "indicator": "MAS Core Inflation, year on year",
+   "current_level": "2.0% (July 2026), up from 1.6% in June; trajectory 1.0, 1.4, 1.7, 1.4, 1.4, 1.6, 2.0 across January-July",
+   "confirms_if": "2.2% or higher in the August print (23 September), which makes an October band steepening the base case and reinforces the strategic bearish read",
+   "invalidates_if": "Below 1.6% in any monthly print, which would falsify the projection on which MAS tightened twice",
+   "bilateral_importance": "This matters more for this pair than for either currency alone because in Singapore inflation is not a drag on the currency, it is the appreciation path. There is no equivalent transmission on the base leg, where inflation becomes a rate and only then a currency effect — so a Singapore CPI surprise moves USD/SGD through a shorter chain than a US CPI surprise does.",
+   "source": "https://www.mti.gov.sg/newsroom/consumer-price-developments-in-july-2026/",
+   "frequency": "monthly, on the 23rd"
+  },
+  {
+   "indicator": "Estimated S$NEER deviation from band midpoint",
+   "current_level": "approximately 1.7% above midpoint (2026-08-12), versus 1.68% on 2026-07-29, inside a stated expected range of 1.40-1.90%",
+   "confirms_if": "Strategically, sustained at or above 1.5% into the October review; tactically, a fall toward 1.4% would confirm the bounce",
+   "invalidates_if": "Below 1.2%, indicating MAS smoothing under its stated commitment to curb excessive volatility, or that the market has begun unwinding within the band",
+   "bilateral_importance": "This is the closest thing to a positioning series that exists for this pair, and it exists only on the quote leg. With no CFTC SGD line and no options, it is the sole observable measure of how much room the Singapore dollar has left before the central bank becomes the counterparty.",
+   "source": "https://www.fxstreet.com/news/singapore-dollar-upside-risk-builds-against-us-dollar-uob-202608120259",
+   "frequency": "as published, typically weekly"
+  },
+  {
+   "indicator": "US federal funds futures-implied probability of a hike on 16 September",
+   "current_level": "57-68% in third-party FedWatch citations; roughly 48-55% in prediction markets",
+   "confirms_if": "Rises above 75% before the meeting, converging on the June dot plot rather than on prediction markets",
+   "invalidates_if": "Falls below 40% without a data trigger, or the venues converge downward",
+   "bilateral_importance": "This pair has no offsetting quote-leg event inside the tactical window, so unlike EUR/USD or USD/JPY — where a peer central bank meets within 72 hours — USD/SGD receives the full unhedged force of the Fed decision with nothing to fade it. The probability series is therefore a nearly complete tactical model for this pair on its own.",
+   "source": "dossier-carried third-party citations; CME FedWatch has no citable URL",
+   "frequency": "daily to 16 September"
+  },
+  {
+   "indicator": "Three-month EUR/USD cross-currency basis (XEURBI)",
+   "current_level": "+0.05bp on 2026-09-01; August range -0.81 to +0.71bp",
+   "confirms_if": "Holds inside ±10bp, confirming the pair is trading a rates story rather than a funding story",
+   "invalidates_if": "Beyond -25bp, converting the thesis to a funding story with a different mechanism and a different sign",
+   "bilateral_importance": "Singapore is a major Asian dollar-clearing centre and its banks run large dollar books, so a global dollar squeeze transmits to the quote leg faster and harder than to most G10 quotes. For this pair the basis is not background macro — it is the single channel that can move USD/SGD more than the band slope, and it is currently signalling nothing at all.",
+   "source": "https://www.cmegroup.com/reports/cme-xccy-basis-historical-data.csv",
+   "frequency": "daily"
+  },
+  {
+   "indicator": "USD/SGD 20-day realised volatility versus 60-day",
+   "current_level": "3.47% against 3.05% — the short window leading the long one",
+   "confirms_if": "The gap widens further into the FOMC, consistent with a band edge or policy review approaching and a larger-than-normal resolution",
+   "invalidates_if": "20-day falls back below 60-day and both compress toward 2.5%, saying the pair has settled back into pure band-grind mode",
+   "bilateral_importance": "In a managed float this is one of only a handful of genuine tells available, and it substitutes here for an implied-volatility term structure that does not exist. For a freely floating pair this comparison is a curiosity; for USD/SGD it is the only volatility signal there is.",
+   "source": "price payload realisedVol (gated store)",
+   "frequency": "daily"
+  },
+  {
+   "indicator": "Singapore-US 120-day correlation of the Singapore dollar to the broad dollar",
+   "current_level": "-0.94 as of early September 2026, described as the most inverse since May 2024 and the most negative in Asia",
+   "confirms_if": "Stays beyond -0.85, meaning USD/SGD remains a near-pure dollar expression and the base-leg calendar dominates as both horizons assume",
+   "invalidates_if": "Rises above -0.60, which would mean the quote leg has begun trading on idiosyncratic Singapore factors and the pair's direction can no longer be inferred from the Fed calendar alone",
+   "bilateral_importance": "This is the metric that justifies giving Factor 1 a 0.27 weight in a pair where one leg has no policy rate. A correlation of -0.94 means the quote currency has almost no independent behaviour left, so the money-market differential and the Fed calendar carry nearly the whole signal.",
+   "source": "https://www.bloomberg.com/news/articles/2026-09-03/dollar-debasement-is-favoring-singapore-s-currency-analysts-say",
+   "frequency": "as published"
+  }
+ ],
+ "assumptions": [
+  "Price series actually delivered: the payload supplied 130 data points covering 2026-03-06 to 2026-09-03, with spot 1.26714 at spotDate 2026-09-03. Moving averages, zones, the 52-week range and the 200-week figures are computed over the whole stored history (2007-12-21 to 2026-09-03, 4,880 weekday bars), not over the 130 bars shown. The payload's dataQuality array flags only 8 resistance / 0 support zones met the 2-touch threshold.",
+  "Spot date versus valuation date: the valuation date is 2026-09-01; spotDate is 2026-09-03, two trading sessions later, and the quote dossier's own reference close was 1.27117 on 2026-08-31. Every level, target, pip calculation and distance-to-average in this report is anchored to 1.26714, the payload spot; no fresher web quote has been substituted, and the 40-pip gap is disclosed rather than reconciled.",
+  "Moving-average basis: all averages are simple averages of trading-day closes, with weekend bars dropped on ingest (weekendBarsDropped: 0 for the delivered window). The 200-week average of 1.32176 with slope -0.000669/week is treated as a first-class structural level; convergence timing (~82 weeks at current slope) is outside both horizons.",
+  "Zone methodology and its shortfall: zones are computed by clustering weekly and monthly swing closes with touch counts; distances are measured from spot to zone midpoint. Detection returned eight resistance zones and zero support zones at the two-touch threshold. The support structure is therefore built from the payload's 52-week extremes, the lower boundary of the one zone in contact with price, and psychological round numbers (1.2600, 1.2500), which carry no touch counts. No web-sourced support/resistance level has been adopted into the levels list.",
+  "Volatility and options: implied volatility, the one-year IV percentile, the variance risk premium, the volatility term structure and the 25-delta risk reversal are null and permanently so, because no listed USD/SGD option exists on any exchange. No estimate has been substituted. carry_to_vol_ratio is consequently null; a realised-volatility ratio of approximately +0.73 is mentioned once and explicitly labelled as a different, non-comparable statistic.",
+  "The 222bp figure is a money-market spread, not a policy differential, because Singapore has no policy interest rate by construction — MAS targets the S$NEER band. The payload's policyDifferential and yield10yDifferential fields are both null for exactly that reason. Every reference to 222.2bp is US federal funds midpoint 3.625% minus SORA 1.4028%.",
+  "Yield vintages: the payload's US 10-year of 4.47% is a monthly observation as of 2026-06-01 and is not quoted as a live level; where a current US long yield is needed, the base dossier's 4.73% (2026-08-28) is used with the ~26bp vintage gap stated. SGS yields of 2.42% (10y) and 1.74% (2y) rest on a single source in the quote dossier and are carried as best available.",
+  "S$NEER band parameters are undisclosed: the estimated appreciation slope (~1.25%/yr), the estimated deviation (~1.7% above midpoint), and the conventional 2% half-width assumption are analyst reconstructions inherited from the quote dossier, whose publisher pages returned empty bodies on re-verification. They are best available and flagged; confidence is set below 50 wherever they are load-bearing (Factor 4, strategic path expectation).",
+  "No SGD schedule was supplied in the gated calendar: the scheduled-decisions block contains three FOMC dates and explicitly no SGD entry. The mid-October MAS review referenced throughout as the strategic inflection point is dossier-sourced and unverified, not gated, though the general quarterly cadence (January, April, July, October) is independently confirmed.",
+  "Bilateral trade: the IMF DOTS block supplied is used directly in Factor 5 and has not been re-estimated. US-reported and Singapore-reported figures disagree (a normal feature of entrepôt trade statistics) and this is disclosed rather than resolved; either way the flow is close to balanced and too small to drive the pair. Bilateral investment flows, an order of magnitude more material, were researched separately and are cited.",
+  "Direction verdict handling: this is pass 2 of 2. The ten factor stances, confidences, evidence types, weights, weighted contributions, net scores, convictions and both rationales arrived settled from a first pass deliberately denied the price payload, and are carried through unchanged. No factor has been re-scored because the chart disagrees with it; disagreement with the settled tactical direction is stated explicitly in the tactical rationale rather than smuggled into a factor score.",
+  "Weight adjustments: four factors were adjusted, each within the ±0.05 limit, each with a stated bilateral reason, and both weight sets sum to exactly 1.00. The framework's usual reduction of Factor 10 for non-USD crosses was not applied, because this is a USD pair."
+ ],
+ "complete_citations": [
+  {
+   "id": 1,
+   "title": "Singapore Dollar To Remain Asia's \"Safe Haven\": UBS USD/SGD Forecast",
+   "publisher": "Exchange Rates UK",
+   "url": "https://www.exchangerates.org.uk/news/46063/2026-05-29-singapore-dollar-to-remain-asias-safe-haven-ubs-usd-sgd-forecast.html",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 2,
+   "title": "Dollar Debasement Is Favoring Singapore's Currency, Analysts Say",
+   "publisher": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-03/dollar-debasement-is-favoring-singapore-s-currency-analysts-say",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 3,
+   "title": "Singapore Dollar: Near-term pressure against US Dollar (OCBC)",
+   "publisher": "FXStreet",
+   "url": "https://www.fxstreet.com/news/singapore-dollar-near-term-pressure-against-us-dollar-ocbc-202608311849",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 4,
+   "title": "Chart USD/SGD Update: Consolidating (2026-08-19)",
+   "publisher": "Continuum Economics",
+   "url": "https://continuumeconomics.com/a/04d2501e/chart-usdsgd-update-consolidating",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 5,
+   "title": "Chart USD/SGD Update: Higher in range (2026-08-12)",
+   "publisher": "Continuum Economics",
+   "url": "https://continuumeconomics.com/a/0525ff58/chart-usdsgd-update-higher-in-range",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 6,
+   "title": "Chart USD/SGD Update: Consolidating gains to fresh year high (2026-06-25)",
+   "publisher": "Continuum Economics",
+   "url": "https://continuumeconomics.com/a/7d6d554a/chart-usdsgd-update-consolidating-gains-to-fresh-year-high",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 7,
+   "title": "MAS Monetary Policy Statement — April 2026",
+   "publisher": "Monetary Authority of Singapore",
+   "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14apr26",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 8,
+   "title": "MAS Monetary Policy Statement — January 2026",
+   "publisher": "Monetary Authority of Singapore",
+   "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-29jan26",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 9,
+   "title": "Past Monetary Policy Decisions",
+   "publisher": "Monetary Authority of Singapore",
+   "url": "https://www.mas.gov.sg/monetary-policy/past-monetary-policy-decisions",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 10,
+   "title": "Singapore's central bank tightens policy as inflation risks rise",
+   "publisher": "ING THINK",
+   "url": "https://think.ing.com/articles/mas-tightens-policy-as-inflation-risks-rise/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 11,
+   "title": "Energy shocks drive MAS policy tightening",
+   "publisher": "J.P. Morgan Asset Management",
+   "url": "https://am.jpmorgan.com/no/en/asset-management/liq/insights/liquidity-insights/updates/energy-shocks-drive-mas-policy-tightening/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 12,
+   "title": "MAS slightly steepened SGD NEER policy band slope amid higher inflation",
+   "publisher": "DBS",
+   "url": "https://www.dbs.com.hk/treasures/aics/archive/templatedata/article/generic/data/en/GR/macro_strategy/042026/260414_fx.xml",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 13,
+   "title": "Asia FX Talking: Relatively broad-based pressure (March 2026)",
+   "publisher": "ING THINK",
+   "url": "https://think.ing.com/articles/asia-fx-talking-march-2026/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 14,
+   "title": "Asia FX Outlook 2026: Opportunities in the renminbi, won, and rupee",
+   "publisher": "ING THINK",
+   "url": "https://think.ing.com/articles/asia-2026-fx-outlook/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 15,
+   "title": "USD to SGD Forecast 2026",
+   "publisher": "Cambridge Currencies",
+   "url": "https://cambridgecurrencies.com/usd-to-sgd-forecast-2026/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 16,
+   "title": "USD to SGD Forecast 2026–2030",
+   "publisher": "XS.com",
+   "url": "https://www.xs.com/en/blog/usd-sgd-forecast/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 17,
+   "title": "SGD to USD — Currency Converter & Exchange Rate Guide 2026",
+   "publisher": "Zipmex",
+   "url": "https://zipmex.com/blog/sgd-to-usd/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 18,
+   "title": "US Dollar/Singapore Dollar Forecast 2026–2030",
+   "publisher": "Traders Union",
+   "url": "https://tradersunion.com/currencies/forecast/usd-sgd/long-term-forecast/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 19,
+   "title": "2025 Investment Climate Statements: Singapore",
+   "publisher": "US Department of State",
+   "url": "https://www.state.gov/reports/2025-investment-climate-statements/singapore",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 20,
+   "title": "Foreign Direct Investment in Singapore 2024",
+   "publisher": "Department of Statistics Singapore",
+   "url": "https://www.singstat.gov.sg/news/foreign-direct-investment-in-singapore-2024",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 21,
+   "title": "Written reply to PQ on US-Singapore economic cooperation and trade",
+   "publisher": "Ministry of Trade and Industry, Singapore",
+   "url": "https://www.mti.gov.sg/newsroom/written-reply-to-pq-on-us-singapore-economic-cooperation-and-trade-in-past-five-years-and-possible-growth-areas-under-new-trump-administration/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 22,
+   "title": "Foreign direct investment (FDI) in Singapore",
+   "publisher": "Lloyds Bank Trade / International Trade Portal",
+   "url": "https://www.lloydsbanktrade.com/en/market-potential/singapore/investment",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 23,
+   "title": "Singapore Keeps Policy Unchanged, Raises Inflation Outlook",
+   "publisher": "Trading Economics",
+   "url": "https://tradingeconomics.com/singapore/interest-rate/news/520879",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 24,
+   "title": "USD/SGD Technical Analysis: Dollar Tests Key Singapore Dollar Levels",
+   "publisher": "EBC Financial Group",
+   "url": "https://www.ebc.com/forex/usd-sgd-technical-analysis",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 25,
+   "title": "USD/SGD Technical Analysis",
+   "publisher": "Investing.com",
+   "url": "https://www.investing.com/currencies/usd-sgd-technical",
+   "date_accessed": "2026-09-04"
+  }
+ ]
+}

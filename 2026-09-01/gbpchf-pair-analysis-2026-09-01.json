@@ -1,0 +1,1462 @@
+{
+ "metadata": {
+  "pair": "GBPCHF",
+  "base_currency": "GBP",
+  "quote_currency": "CHF",
+  "valuation_date": "2026-09-01",
+  "framework_version": "2.0",
+  "base_dossier_date": "2026-09-01",
+  "quote_dossier_date": "2026-09-01"
+ },
+ "pair_convention": {
+  "spot_reference": "GBP/CHF 1.09224",
+  "spot_explanation": "GBP/CHF at 1.09224 means 1 GBP = 1.09224 CHF. Sterling is the base, the franc the quote. Rising = sterling strengthening against the franc; falling = sterling weakening against the franc.",
+  "bullish_means": "pair RISES (GBP strengthens vs CHF)",
+  "bearish_means": "pair FALLS (GBP weakens vs CHF)",
+  "base_dossier_tactical_stance": "GBP dossier: Bearish, conviction 2, net weighted score -0.1456 (dominated by Policy & Rates and USD Liquidity, both of which measure sterling against the dollar and the euro rather than against the franc)",
+  "quote_dossier_tactical_stance": "CHF dossier: Bearish CHF, conviction 3, net weighted score -0.2358 (dominated by a 0.00% policy rate, a carry-friendly risk regime and an explicitly asymmetric SNB commitment to lean against franc appreciation)"
+ },
+ "executive_summary": "GBP/CHF trades at 1.09224 (payload close, 3 September 2026), up 0.47% over one month, 2.63% over three, 4.40% over six and 1.83% over twelve — a persistent, decelerating uptrend that has carried the cross from 1.04027 on 6 March to the 87th percentile of its 52-week closing range. The dominant bilateral narrative is the widest liquid carry gap in the G10 that its low-yield leg has no capacity to close: Bank Rate at 3.75% against an SNB policy rate of 0.00%, a 375bp differential the Swiss National Bank has effectively pre-committed to preserving by conditioning its entire three-year inflation forecast on a zero policy rate. The observed futures roll of -406.8bp annualised means a rolled long earns roughly 4.07% a year — 375bp of policy plus about 32bp of basis — against a pair implied volatility estimate of 4.753%, and Bank of America has argued the uptrend has further to run on the grounds that no major G10 cross offers higher vol-adjusted carry. What diverges most sharply from the standalone dossiers is the direction of the rate factor: sterling is Bearish on its own book because the Fed and ECB are moving above it, and neither is the counterparty here, while the franc is Bearish on its own book for a reason — a zero rate — that is precisely what makes this cross work. Against that sit three fundamental negatives that the carry cannot argue with: a 12.6 percentage point current-account differential (Switzerland +9.77% of GDP against the UK -2.84%), a AAA sovereign at 37.6% debt-to-GDP facing a AA one at 95.1% with a dated Budget on 28 October, and Swiss data beating consensus by a full percentage point on Q2 GDP while UK retail sales collapse. The settled verdict is tactically Bullish at conviction 2 and strategically Neutral at conviction 2; our caveat, which the chart supports and the score deliberately did not see, is that the 200-week average sits 123 pips overhead at 1.10452 and the 2 September high of 1.10084 was the first lower high of the entire six-month sequence — so the tactical upside is structurally capped tighter than a +0.1814 score implies, and the honest content of both horizons is the carry rather than the spot move.",
+ "market_context": {
+  "spot": 1.09224,
+  "performance_1m": "+0.47%",
+  "performance_3m": "+2.63%",
+  "performance_6m": "+4.40%",
+  "performance_1y": "+1.83%",
+  "range_52w_low": 1.03555,
+  "range_52w_high": 1.10076,
+  "range_52w_percentile": 87,
+  "valuation_assessment": "There is no purchasing-power-parity source for this cross, and none is asserted. The available proxy is the relative BIS real effective exchange rate: sterling's broad REER is 111.41 for June 2026 against Switzerland's 101.69, a 9.56% gap that would imply a GBP/CHF near 1.0000 if the two real rates were equalised. That is a REER-relative proxy and not a fair-value model output — both dossiers label it as such, both underlying REER readings are for June 2026 and roughly 63 days old at the valuation date, and the Swiss percentile is computed on a 30-month window only. What the proxy does say, and it is worth saying plainly, is that the pair is expensive on the only trade-weighted measure available at the same time as its 52-week closing percentile is 87 — a currency pair does not have to mean-revert to a REER-parity level, but a 9% premium caps how much further a carry trade can extend before valuation becomes a constraint rather than a footnote. Against that, sterling's REER has declined 2.73 points over a year and the franc's 1.03 points, so the real-rate gap has been widening rather than closing, which is exactly what has driven the six-month move. One market-data provider notes GBP/CHF trading in a very stable 4.0% range over the recent quarter, which is consistent with the payload's 4.78% 60-day realised volatility and reinforces that this has been a grind rather than a repricing.",
+  "positioning": {
+   "base_cftc_net": "-44,500 contracts (GBP non-commercial net, 28 August release)",
+   "base_cftc_percentile": 30,
+   "quote_cftc_net": "-19.9k contracts (CHF all-speculator net, 28 August release)",
+   "quote_cftc_percentile": 48,
+   "net_pair_implication": "On a relative reading sterling is the more heavily short leg, which is a mild bullish tilt for the pair, but both short bases have been covering simultaneously and the fuel is being consumed rather than accumulated. The internal composition cuts in opposite directions: sterling's fast money is already long (leveraged funds 40,670 contracts, 15.9% of open interest) while the franc's leveraged funds are short 11,432, so the fast-money community is long this pair and amplifying rather than muting; real money is short both legs. The structural flow reading is a liquidation-prone leveraged long in the base against a concentrated, slow-moving real-money short in the quote — a configuration that absorbs nothing and amplifies everything around a dated sterling event.",
+   "crowding_assessment": "Balanced on headline nets (both legs net short) but internally divergent: fast money long the pair via sterling leveraged funds, real money short both legs — not crowded on a single side but structurally amplifying around the sterling event calendar."
+  },
+  "pair_technicals": {
+   "trend_regime": "transitioning — bullish daily MA stack but compressing beneath a declining 200-week average, first lower high of the 6-month sequence on 2 September",
+   "support_levels": [
+    1.0849,
+    1.07348,
+    1.0723,
+    1.05699,
+    1.04535,
+    1.03222
+   ],
+   "resistance_levels": [
+    1.0983,
+    1.10875,
+    1.10955,
+    1.11969,
+    1.1236,
+    1.1344
+   ],
+   "key_moving_averages": "50-day 1.08821 (spot +40 pips), 100-day 1.07445 (+178 pips), 200-day 1.06673 (+255 pips), clean ascending 50>100>200 configuration; the dominant reference is the 200-week average at 1.10452, declining at 0.000215/week, with 237 consecutive weeks without a close above it",
+   "chart_pattern": "Rising lows into a flattening top (compression/rising wedge): higher lows from 1.03976 (March) through 1.0896 (3 Sept) intact, but the 2 September high of 1.10084 is the first lower high of the entire six-month sequence against the 14 August high of 1.1012; capped by the declining 200-week average; Investtech reads a falling trend channel medium-long-term while Investing.com's daily composite is Neutral, weekly Strong Buy, monthly Neutral",
+   "psychological_levels": [
+    1.1,
+    1.11,
+    1.08
+   ]
+  },
+  "pair_volatility": {
+   "iv_1m": 4.564,
+   "iv_3m": 4.753,
+   "iv_percentile": null,
+   "rv_1m": 6.11,
+   "rv_vs_iv": "Negative variance risk premium at the front: 20-day realised of 6.11% exceeds even the raw 38.6-day implied estimate of 4.564% by 1.55 points, and exceeds a bias-adjusted front implied of roughly 5.0-5.4% — the options market is charging less than the pair has actually delivered, favouring spot over options for directional expression",
+   "risk_reversals": "Documented gap — no 25-delta risk reversal could be sourced for either the GBP or CHF surface from any free provider this cycle; skew is not assessed and no value is asserted",
+   "vol_term_structure": "Clean, shallow contango: 4.564% (38.6d) / 4.753% (94.7d) / 4.920% (185.7d), only 0.356 points separating front and back tenors, with no event kink despite the front bucket containing a BoE decision, SNB assessment and Swiss referendum, and the second bucket containing the UK Budget and BoE Monetary Policy Report",
+   "vol_regime": "Low-to-moderate vol / mild contango; realised volatility rising (20d 6.11% vs 60d 4.78%), which the analysis flags as the mechanism by which the carry regime breaks"
+  },
+  "recent_regime": "The regime since March has been a pure carry grind: sterling's wide interest-rate advantage over the franc has driven the move, with the pair gaining roughly 1.4% from the start of July as the higher yield encouraged investors to fund positions through the low-yielding Swiss currency, while uncertainty over further Bank of England tightening has limited the case for an unchecked advance. The regime's defining characteristic is orderliness rather than force — 60-day realised volatility of 4.78% and a 55-pip ATR on a pair that has travelled 4.40% in six months. The contradiction underneath is that Switzerland's own fundamentals have been the strongest in years and none of them buys a rate rise at 0.4% headline inflation, while Britain's have been deteriorating and the market cannot mark down sterling's carry because the BoE cannot cut into 2.9% CPI. The regime broke character twice in three weeks — the 19 August CPI session and the 2 September failed high — and both breaks were sterling-negative, the first evidence in six months that the carry is no longer doing all the work.",
+  "citations": [
+   "https://www.currencynews.co.uk/forecast/20260808-46772_pound-franc-forecast-carry-trade-keeps-gbp-chf-above-1-09.html",
+   "https://www.exchangerates.org.uk/news/46509/2026-07-14-pound-to-franc-carry-trade-still-has-room-to-run-bank-of-america-forecast.html",
+   "https://www.investtech.com/main/market.php?CompanyID=99300075",
+   "https://www.investing.com/currencies/gbp-chf-technical"
+  ]
+ },
+ "bilateral_carry_analysis": {
+  "base_policy_rate": 3.75,
+  "quote_policy_rate": 0,
+  "rate_differential_bps": 375,
+  "annualised_carry_bps": 407,
+  "pair_3m_iv": 4.753,
+  "pair_3m_iv_source": "Data-Cache/derived/fx_iv.csv (CME settlements; triangle estimate, method triangle_realised_corr). Transcribed from market_context.pair_volatility.iv_3m in this document, which states the same number; the field was left null at generation and the analysis reasons from this value throughout.",
+  "carry_to_vol_ratio": null,
+  "carry_regime": "carry working",
+  "breakeven_move": "At the observed roll, the pair can fall 0.339% a month — roughly 37 pips, to 1.08854 — before one month of carry is erased, and 2.03% over six months, roughly 222 pips to 1.07002. One month of carry is erased by roughly a 0.23-standard-deviation adverse move and six months of carry by roughly a 0.55-standard-deviation move over six months (against a bias-adjusted front implied near 5.2%).",
+  "forward_points": {
+   "1m": "-37 pips (outright 1.08854, -4.07% annualised, AUD/GBP at discount narrative n/a — CHF at discount)",
+   "3m": "-111 pips (outright 1.08113, -4.07% annualised)",
+   "6m": "-222 pips (outright 1.07002, -4.07% annualised)"
+  },
+  "carry_assessment": "The bilateral policy differential is +375bp: Bank Rate at 3.75% as of 28 August against an SNB policy rate of 0.00% as of 1 September — the third-widest gap the franc faces in its own benchmarking set and the widest sterling owns against any liquid G10 counterparty. The observed futures calendar-spread roll premium is -406.8bp annualised on the CHF-base orientation, so a rolled long GBP/CHF earns roughly +4.07% annualised, decomposing by covered interest parity into the 375bp interest differential plus roughly 32bp of cross-currency basis that currently works in favour of a long — it is cheap to fund the franc and hold sterling. The carry regime is working, and working through the classic funding-currency channel rather than through risk appetite alone: VIX is 14.51, US investment grade 79bp and high yield 263bp, and the franc is the only zero rate in the G10, with the SNB signalling a hold at 0% through 2026 and a high bar to returning to negative rates. The regime breaks on realised volatility rather than on policy — 20-day realised at 6.11% against 60-day at 4.78% is the first crack, and the carry-to-vol ratio deteriorates from roughly 0.78 (60-day realised) to roughly 0.61 (20-day realised) as that volatility rises. The cushion (breakeven move) is real and the best available on a liquid cross, but it is nowhere near large enough to absorb a Budget accident."
+ },
+ "factors": [
+  {
+   "factor_number": 1,
+   "factor_name": "Policy & Rates (Relative)",
+   "tactical_weight_default": 0.24,
+   "tactical_weight_applied": 0.27,
+   "strategic_weight_default": 0.24,
+   "strategic_weight_applied": 0.27,
+   "weight_adjustment_reason": "Raised from the 0.24 default on both horizons: the bilateral policy differential is 375bp, far beyond the 200bp threshold at which the framework contemplates boosting this factor, and it is the single largest carry gap either dossier identifies on a liquid cross where the low-yield leg has structurally zero capacity to close it.",
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 70,
+    "evidence_type": [
+     "rates",
+     "policy_comms"
+    ],
+    "bilateral_analysis": "Bank Rate is 3.75% and the SNB policy rate is 0.00%, a 375bp bilateral differential that is the third-widest the franc faces and the widest sterling owns against any liquid G10 counterparty other than the franc itself. The critical bilateral point is that this differential has no scheduled path to compression inside four weeks. The gated calendar puts the BoE on 17 September with roughly +7bp priced and a Reuters poll of 13-18 August finding 56 of 64 economists expecting no change for the rest of 2026, and the SNB on 24 September at a quarterly assessment whose June conditional inflation forecast of 0.6% for 2026, 0.6% for 2027 and 0.7% for 2028 is explicitly conditioned on the policy rate remaining at 0% across the entire three-year horizon. Sterling's dossier is Bearish on this factor because the Fed and ECB are moving above it; neither of those banks is the counterparty here, and the compression that damages GBP/USD and EUR/GBP does nothing to the 375bp franc gap. Transmission is direct and mechanical: the funding block prints a calendar-spread roll premium of -406.8bp annualised on the CHF-base orientation, meaning a rolled long GBP/CHF earns roughly 4.07% annualised, decomposing into 375bp of policy differential plus about 32bp that is cross-currency basis and cannot be separated without an OIS curve. Against a pair 3m ATM implied volatility of 4.753% that is a carry-to-vol ratio of 0.789, the best risk-adjusted carry in either dossier's cross-section.",
+    "key_bilateral_metrics": [
+     "Policy differential +375bp: Bank Rate 3.75% as of 2026-08-28 versus SNB policy rate 0.00% as of 2026-09-01",
+     "10-year differential +448.6bp: gilt 4.796% versus Confederation 0.31% — both monthly series as of 2026-06-01 and stale against both freshness windows",
+     "Futures calendar-spread roll -406.8bp annualised (13.6d to 104.7d, observed 2026-08-31) on the CHF-base orientation: rolled long earns roughly 4.07%/yr",
+     "Carry-to-vol 0.789 (375bp / 4.753% pair 3m ATM IV estimate) — the highest ratio in either dossier's carry table",
+     "Scheduled decisions in the tactical window: BoE 2026-09-17 with about +7bp priced; SNB 2026-09-24 quarterly assessment with a hold at 0.00% effectively certain"
+    ],
+    "what_is_priced": "The market prices both legs correctly for the next four weeks — a BoE hold at roughly +7bp and an SNB hold at zero — so the differential is priced to stay at 375bp. What is not priced is the consequence: a static 375bp gap on a cross with 4.75% implied volatility pays a rolled holder about 31bp a month for taking essentially no scheduled policy risk.",
+    "citations": [
+     1,
+     2
+    ]
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 55,
+    "evidence_type": [
+     "rates",
+     "policy_comms"
+    ],
+    "bilateral_analysis": "Over one to six months the level of the differential still favours the pair heavily but the trajectory turns mildly against it, and the asymmetry is entirely on the sterling leg. The plausible six-month distribution for Bank Rate is 3.50% to 4.00%: three standing hawks in Greene, Mann and Pill voted for 4.00% at the 29 July meeting, while Taylor argues the economy is drifting toward deficient demand and Ramsden's guidance is explicitly two-way, with the decisive input — 2027 pay settlements — arriving at the 5 November Monetary Policy Report and the 17 December decision. Private-sector regular pay at 2.8% and unemployment at 4.9% and rising lean the resolution dovish. The Swiss leg has no distribution worth speaking of: headline CPI is 0.4% and core 0.3%, the SNB's own forecast is conditioned on 0% through 2028, and the 24 September and 10 December assessments are near-certain holds. So the bilateral differential most likely ends the horizon between 350bp and 400bp rather than converging, and the pair still accrues roughly 190bp of carry over six months. That is a real, positive, non-price return, which is why this factor stays Bullish even though the direction of change is mildly adverse; confidence falls from 70 to 55 precisely because the only movement available is compression.",
+    "key_bilateral_metrics": [
+     "Six-month bilateral differential distribution roughly 350-400bp: Bank Rate 3.50-4.00% against an SNB rate pinned at 0.00%",
+     "MPC composition: three standing hawks against a dovish wing led by Taylor and an explicitly two-way Ramsden; UK private-sector regular pay 2.8% and unemployment 4.9%",
+     "Swiss headline CPI 0.4% and core 0.3% in July 2026 — no domestic impulse capable of moving the SNB inside the horizon",
+     "Gated decisions in the strategic window: BoE 2026-11-05 with a Monetary Policy Report and 2026-12-17; SNB 2026-09-24 and 2026-12-10",
+     "Approximate six-month carry accrual on a rolled long at the observed -406.8bp roll: roughly 2.0% of notional, against a 4.92% 186-day ATM IV estimate"
+    ],
+    "what_is_priced": "Consensus prices the franc leg as permanently pinned, which is right, and prices the sterling leg's next move in 2027, which understates how live a dovish resolution is at the 5 November Monetary Policy Report. Our disagreement with the market is small and one-directional: the risk to the 375bp gap is 25bp of compression from the sterling side, not from the franc side.",
+    "citations": [
+     1,
+     2,
+     12
+    ]
+   },
+   "horizon_split": "Both horizons are Bullish, with tactical confidence of 70 against strategic 55, and the difference is the second derivative rather than the level. Inside four weeks the differential is scheduled to be unchanged at 375bp by two priced holds, so the pair collects carry against no policy risk. Over one to six months the only movement available in the differential is compression, and all of it sits on the sterling leg because the SNB has conditioned its own forecast on zero through 2028 — so the factor stays positive on level while losing confidence on trajectory.",
+   "carry_analysis": {
+    "reference": "See Bilateral Carry Analysis section in full: 375bp policy differential, -406.8bp annualised observed roll implying a rolled long earns ~+4.07% annualised (375bp policy plus ~32bp basis), carry-to-vol ratio 0.789 (unadjusted, highest in either dossier's cross-section; 0.67-0.72 bias-adjusted), breakeven move of ~37 pips/month and ~222 pips/6 months before carry is erased."
+   },
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 2,
+   "factor_name": "Inflation & Growth Dynamics",
+   "tactical_weight_default": 0.18,
+   "tactical_weight_applied": 0.15,
+   "strategic_weight_default": 0.1,
+   "strategic_weight_applied": 0.08,
+   "weight_adjustment_reason": "Cut from the 0.18 and 0.10 defaults. On this specific pair the data-to-policy transmission is broken on both legs: the SNB has conditioned its rate on zero for three years so no Swiss print changes Swiss policy, and the BoE's next move has been pushed to 2027 with 56 of 64 economists expecting no change all year. Data still moves flows and sentiment, but its normal channel into the differential is closed, and the weight belongs with the factors that are live.",
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 55,
+    "evidence_type": [
+     "macro_data"
+    ],
+    "bilateral_analysis": "The growth differential and the surprise differential both run against the pair right now, and the surprise differential runs against it hard. Switzerland delivered Q2 GDP of +1.5% quarter-on-quarter on SECO's flash against an AWP consensus of +0.2% to +0.4%, a KOF barometer of 106.7 against a 103.0 forecast and its highest reading since November 2021, and industrial production of +5.5% year-on-year against a -4.7% forecast — a 10.2 point beat. The United Kingdom, by contrast, is producing a data set that contradicts itself: Q2 GDP +0.4% quarter-on-quarter and +1.2% year-on-year with August flash composite PMI at 52.5, set against retail sales -0.5% month-on-month with the annual rate collapsing to 1.6% from 3.8% and a CBI distributive trades print of -48 against -35 expected. On the OECD vintages Swiss GDP runs +2.33% year-on-year against the UK's +1.2%. The inflation differential points the other way and is the reason this is only a moderate Bearish rather than a strong one: UK CPI of 2.9% against Swiss CPI of 0.4% gives sterling a real policy rate of +0.85% against the franc's -0.40%, a 125bp real carry advantage. Transmission at four weeks is through equity and direct-investment flows into the outperforming economy and through the surprise index itself, not through relative policy, because neither central bank's reaction function is live to these prints. The 16 September UK CPI is the swing release, and its energy-driven upside skew is genuinely ambiguous for the pair — it raises the BoE's hawkish tail while taxing UK real income.",
+    "key_bilateral_metrics": [
+     "Swiss Q2 2026 GDP +1.5% qoq on the SECO flash against a +0.2% to +0.4% consensus; UK Q2 GDP +0.4% qoq and +1.2% yoy",
+     "KOF barometer 106.7 in August against 103.0 forecast (highest since November 2021); Swiss industrial production +5.5% yoy against -4.7% forecast",
+     "UK retail sales -0.5% mom with the annual rate at 1.6% from 3.8%; CBI distributive trades -48 against -35 expected",
+     "Inflation differential: UK CPI 2.9% and core 2.6% against Swiss CPI 0.4% and core 0.3% — a 250bp headline gap",
+     "Real policy rate differential +125bp: UK +0.85% (3.75% less 2.9%) against Switzerland -0.40% (0.00% less 0.4%)"
+    ],
+    "what_is_priced": "The market has priced the Swiss beats as a one-off catch-up, which is what SECO itself called them, and has priced UK growth as adequate rather than fragile. The unpriced element is the flow consequence of a four-and-a-half-year high in Swiss confidence arriving in the same month as a -48 CBI print in Britain.",
+    "citations": [
+     8
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 52,
+    "evidence_type": [
+     "macro_data"
+    ],
+    "bilateral_analysis": "Extend the horizon and the growth differential converges rather than widens, which is why the honest strategic stance is Neutral. The Swiss surge is very likely borrowed: US Section 232 pharmaceutical tariffs of up to 15% were announced on 2 April 2026 and took effect on 31 July, Roche and Novartis are shielded for three years and no one else is, pharmaceuticals are close to half of Swiss goods exports to the United States, and July chemical and pharmaceutical exports jumped 25.7% — front-running whose payback lands in Q4 2026 and Q1 2027, inside this window. The IMF's June Article IV puts Swiss growth at 0.8% for 2026 and the SNB at around 1%, both far below the run-rate implied by a +1.5% quarter. On the sterling side the deterioration is slower but genuine and points one way: unemployment at 4.9% and up 0.2 points on the year, payrolled employees down 210,000, vacancies at 705,000 and the lowest since early 2021, private-sector regular pay decelerating to 2.8% and real regular pay growth of only +0.5%. So both legs slow, from very different starting points, and the differential closes towards zero from the Swiss side while the level of UK activity erodes from below. Inflation adds nothing directional: Swiss inflation is too low to move policy and UK inflation is high enough to prevent cuts but not to force hikes. Neither half of the mandate generates a bilateral signal at this horizon.",
+    "key_bilateral_metrics": [
+     "IMF June 2026 Swiss growth forecast 0.8% for 2026 and 1.5% for 2027, against a Q2 run-rate of +1.5% qoq — the official sector treats almost none of the beat as durable",
+     "US Section 232 pharmaceutical tariffs of up to 15% effective 2026-07-31 with July Swiss pharma exports +25.7% — front-running whose payback falls inside the strategic window",
+     "UK labour market loosening: unemployment 4.9% (up 0.2pp yoy), payrolled employees -210,000, vacancies 705,000, private-sector regular pay 2.8%",
+     "BoE DMP year-ahead expected wage growth 3.4% and three-year CPI expectations 2.8% — close to anchored",
+     "Swiss SNB conditional inflation path 0.6%/0.6%/0.7% for 2026-2028 against a UK path that keeps CPI above target but decelerating in services (3.4% from 3.6%)"
+    ],
+    "what_is_priced": "Consensus has accepted the official 0.8-1.0% Swiss growth path and has not marked it up for the Q2 beat, and prices UK growth near 1%. The unpriced item is the shape rather than the level: a Swiss Q4 payback arriving at the same time as UK consumption weakness would leave the growth differential roughly where it is today, which is why this factor cannot carry a direction over one to six months.",
+    "citations": []
+   },
+   "horizon_split": "The stance moves from Bearish tactically to Neutral strategically because the same figures mean different things at different lags. Over four weeks the surprise flow governs, and it is overwhelmingly Swiss-positive against a self-contradicting UK data set. Over one to six months the level governs, and the Swiss level is inflated by pharmaceutical exports front-running a 15% Section 232 tariff whose payback lands in Q4, converging the differential from the Swiss side even as UK activity erodes from below.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 3,
+   "factor_name": "Risk Appetite & Sentiment",
+   "tactical_weight_default": 0.1,
+   "tactical_weight_applied": 0.12,
+   "strategic_weight_default": 0.05,
+   "strategic_weight_applied": 0.05,
+   "weight_adjustment_reason": "Raised from the 0.10 default tactically only. GBP/CHF pairs a mildly risk-positive currency against the G10's reference safe haven at a 375bp carry gap, which places it in the framework's moderate-risk-sensitivity bracket but at the carry-heavy end of it, and over four weeks the risk regime is the variable that determines whether the carry is collected or unwound. Strategic weight left at default because the pair's dominant six-month risk becomes UK-idiosyncratic rather than global.",
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 60,
+    "evidence_type": [
+     "cross_asset"
+    ],
+    "bilateral_analysis": "This is a carry cross with a haven on the quote side, so the risk regime maps onto it almost one-for-one, and the current regime is as supportive as it gets. VIX closed at 14.51 on 27 August, down 3.70 points on the month from 18.21 and near its 2026 low; US investment-grade spreads are 79bp and high-yield 263bp, the latter 21bp tighter on the month; US equities are at record highs and the FTSE 100 finished around 10,815 on 28 August, up roughly 20% on the year. In that tape the franc's structural bid is absent and its funding-currency role dominates, while sterling's mild positive risk beta works with rather than against the differential. The bilateral asymmetry is that both legs push the same way: risk-on removes the franc's haven premium at the same time as it rewards holding the higher-yielding leg. The one dissenting cross-asset signal, and it is a real one, is gold at 4,456 and up 8.60% on the month and 22.39% on the year — the franc's traditional correlate is being bought hard while the franc is sold, which is a correlation breakdown rather than confirmation and suggests franc haven demand is being under-bid rather than extinguished. Confidence is 60 rather than higher because a 14.51 VIX leaves essentially no cushion, and because the compression that has driven the pair's carry regime cannot repeat from here.",
+    "key_bilateral_metrics": [
+     "VIX 14.51 at 2026-08-27, down 3.70 points on the month from 18.21; US investment grade 79bp and high yield 263bp, 21bp tighter on the month",
+     "Every long-franc carry-to-vol ratio in the quote dossier's set is negative, with GBP/CHF the worst in the set at -0.783 — the franc is the funding leg of choice",
+     "Gold 4,456.44 at 2026-08-28, +8.60% on the month and +22.39% on the year, while the franc weakened against seven of nine cached crosses — a haven-correlate divergence",
+     "Sterling's own dossier describes it as mildly risk-positive with lower beta than the Antipodeans; the franc is the reference haven",
+     "Brent 88.24 at 2026-08-25, down $12.07 from $100.31 on 2026-07-24 — the geopolitical risk premium unwinding at the same time as credit and equity vol compress"
+    ],
+    "what_is_priced": "Risk assets price a contained war and a benign world, and the franc's cross-section already reflects it. That pricing is coherent and currently correct, so this factor is a live tailwind over four weeks, but at a 14.51 VIX and 79bp investment-grade spreads the compression trade is finished, so this contribution is a decaying one.",
+    "citations": [
+     11
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 52,
+    "evidence_type": [
+     "cross_asset"
+    ],
+    "bilateral_analysis": "Over one to six months the risk factor stops being a direction and becomes a distribution, and for this pair the distribution is genuinely two-sided in expectation even though it is strongly skewed in shape. If the current regime simply persists, the pair collects 375bp of carry and grinds — the modal outcome and a positive one. If volatility rises, the pair is hit on both legs simultaneously: the franc receives the haven bid while sterling faces an energy-driven terms-of-trade shock and a fiscal event, which is precisely the configuration in which GBP/CHF falls fastest. With VIX at 14.51 and high-yield at 263bp there is far more room for volatility to widen than to compress, the Middle East conflict that produced a 30-dollar Brent round trip between June and August is unresolved, and the SNB itself names the risk of strong franc appreciation as its principal concern. Two things stop this becoming an outright Bearish call. First, the SNB's stated increased willingness to intervene truncates the right tail of any franc rally, backed by CHF 889.6bn of official reserve assets. Second, sterling's dominant six-month risk is domestic and fiscal rather than global, so VIX simply will not forecast the 28 October Budget — the informational value of this factor for the pair falls as the horizon lengthens. A supportive modal path against a fat, policy-truncated adverse tail nets to Neutral at a 0.05 weight.",
+    "key_bilateral_metrics": [
+     "VIX 14.51 and US high yield 263bp — near the tight end of post-2022 ranges, limiting further compression and leaving asymmetric room to widen",
+     "SNB June 2026 assessment names the geopolitical situation and risk of strong franc appreciation as its principal concern, backed by CHF 889.6bn of reserves",
+     "Brent round trip $100.31 (24 Jul) to $88.24 (25 Aug) — an unresolved conflict that hits both legs the same way if it re-escalates",
+     "UK NBP gas 161-165 pence/therm against the BoE's 136-pence July conditioning assumption — an energy shock that is also a sterling terms-of-trade shock",
+     "FTSE 250 underperforming the FTSE 100 by roughly 10 percentage points — the domestically exposed UK index not corroborating the global risk-on signal"
+    ],
+    "what_is_priced": "The market prices the conflict as a contained supply event and prices this pair's risk beta as mildly positive, which is defensible. The unpriced element is the joint distribution: a shock that bids the franc is the same shock that taxes a country importing gas 18-21% above its own central bank's conditioning assumption.",
+    "citations": [
+     13
+    ]
+   },
+   "horizon_split": "Tactically Bullish at 60 and strategically Neutral at 52, because a compressed volatility regime is a reliable four-week signal and an unreliable six-month one. Inside the tactical window a 14.51 VIX and 263bp high-yield spreads mechanically reward holding the 375bp differential. Over the strategic window the same compression is the reason the factor cannot be extrapolated — there is far more room to widen than to tighten, and a widening hits both legs of this pair in the same direction.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 4,
+   "factor_name": "Flows & Positioning",
+   "tactical_weight_default": 0.1,
+   "tactical_weight_applied": 0.1,
+   "strategic_weight_default": 0.06,
+   "strategic_weight_applied": 0.06,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": [
+     "positioning"
+    ],
+    "bilateral_analysis": "Speculators are net short both legs, which is the configuration in which the pair signal is muted rather than amplified. Sterling's headline non-commercial net was -44,500 contracts on the 28 August release, improved from -54,600 the prior week and at roughly the 30th percentile of its one-year distribution; the franc's all-speculator net was -19.9k, having covered from -32.5k in three weeks, at roughly the 48th percentile of its own band. On a relative reading sterling is the more heavily short leg, which is a mild bullish tilt for the pair, but both short bases have been covering simultaneously and the covering fuel on both sides is being consumed rather than accumulated. The internal composition matters more than the headlines and cuts in opposite directions: sterling's fast money is already long at 40,670 leveraged-fund contracts, 15.9% of open interest and up from 6.4% on 7 July, while the franc's residual short is concentrated in asset managers at -38,322 against total open interest of only 109,874. So the marginal buyer of sterling has largely finished buying while the marginal buyer of francs is a slow real-money hedger who does not respond to headlines. There is no bilateral extreme in either direction, no pair-specific crowding measure available, and no dated trigger inside four weeks, so Neutral at 50 is the honest reading rather than a failure to choose.",
+    "key_bilateral_metrics": [
+     "GBP non-commercial net -44,500 contracts (28 Aug release, data to 25 Aug) from -54,600 prior week — roughly 30th percentile against a stretched threshold of -80,000",
+     "CHF all-speculator net -19.9k contracts (28 Aug release) from -32.5k on 14 Aug — roughly 48th percentile, inside the franc's ±30,000 notable band",
+     "GBP leveraged funds net LONG 40,670 contracts (15.9% of OI) versus CHF leveraged funds net SHORT 11,432 — fast money long the base, short the quote",
+     "GBP asset managers net short 119,863 against CHF asset managers net short 38,322 — both real-money legs short, muting the aggregate signal",
+     "Both disaggregated tranches cached to 2026-08-11 and 21 days stale; headline nets research-sourced to the 2026-08-28 release"
+    ],
+    "what_is_priced": "The market reads both legs as short bases that must eventually be covered, and the arithmetic is right on both. What is not priced is that the covering has already run for six weeks on sterling and three on the franc, so on sterling — where leveraged funds are now long 15.9% of open interest — the cushion has been spent rather than built.",
+    "citations": [
+     11,
+     12
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 55,
+    "evidence_type": [
+     "positioning"
+    ],
+    "bilateral_analysis": "Over one to six months the positioning question changes from whether either leg is stretched to what happens to each position if something goes wrong, and the answer is asymmetric against the pair. Sterling enters the 28 October Budget with leveraged funds net long 40,670 contracts, which means a disappointing Budget forces liquidation of existing longs on top of any fresh shorting — the 2022 analogue, when sterling fell roughly 8% against the dollar in the fortnight around the mini-Budget precisely because the market was not short going in. The franc enters the same window with a concentrated real-money short of 38,322 contracts against total open interest of only 109,874, which is squeeze fuel rather than an overhang, with dealers as the long counterparty at +62,382. The structural flow channels reinforce the same asymmetry: the LDI/pension hedge-ratio channel that transmitted the 2022 gilt crisis is live with the 30-year gilt at 5.73-5.76% and overseas investors holding 25-30% of outstanding gilts, while a 9.77%-of-GDP Swiss current account and a CHF 974bn net international investment position produce a continuous, price-insensitive franc bid. A liquidation-prone long in the base against a squeeze-prone short in the quote is a Bearish configuration for the pair, and the honest limit on confidence is that the trigger is exogenous and undated.",
+    "key_bilateral_metrics": [
+     "GBP leveraged funds net long 40,670 contracts into a dated fiscal binary — liquidation fuel, not squeeze fuel",
+     "CHF asset managers net short 38,322 contracts against total OI of 109,874, dealers long 62,382 — a concentrated, slow-moving short",
+     "Overseas investors hold roughly 25-30% of outstanding gilts; UK pension hedge-ratio channel live at a 5.73-5.76% 30-year yield",
+     "Swiss current account 9.77% of GDP and NIIP CHF 974bn — a structural, price-insensitive franc bid underneath the speculative short",
+     "SNB foreign currency reserves CHF 768bn (July) from CHF 759bn (June); total official reserve assets CHF 889.6bn (2026-08-31 entry flagged unverified)"
+    ],
+    "what_is_priced": "Consensus treats both short bases as standing support and does not distinguish between them. The distinction is the whole point: sterling's reactive short has already covered and been replaced by a leveraged long, while the franc's residual short is real-money and unresponsive, so a Budget-driven move would be amplified by positioning on both legs at once rather than absorbed.",
+    "citations": [
+     14,
+     15,
+     17
+    ]
+   },
+   "horizon_split": "Neutral tactically and Bearish strategically because the same two short bases mean different things at different speeds. Over four weeks both legs are covering, neither is at an extreme, and the aggregate signal is muted by the fact that specs are short base and quote alike. Over one to six months the composition dominates: sterling's fast money has rotated to a 40,670-contract net long that becomes liquidation fuel into the 28 October Budget, while the franc's residual short is a concentrated real-money position that squeezes rather than overhangs.",
+   "carry_analysis": null,
+   "contrarian_analysis": {
+    "tactical": {
+     "combined_positioning_signal": "Specs are net short both legs — GBP at -44,500 contracts and roughly the 30th percentile, CHF at -19.9k and roughly the 48th — so the aggregate pair signal is muted. The relative reading gives a mild bullish tilt because sterling is the more heavily short leg, but the covering flow that would deliver it has been running for six weeks and is being consumed at roughly 10,100 contracts a week.",
+     "unwind_trigger": "A hot 16 September UK CPI with NBP gas 18-21% above the BoE's July conditioning assumption and BRC shop prices at a two-year high of 1.5%, followed by an MPC vote split hardening from 6-3 to 5-4 on 17 September, would force a repricing of a 2026 BoE hike back in from 2027 and squeeze the residual sterling short — pair-bullish. The mirror trigger is the SNB softening its intervention language on 24 September, which would squeeze the franc short and be pair-bearish.",
+     "historical_analogue": "The August 2026 franc covering run itself: -32.5k to -19.9k in three weeks removed roughly 40% of the aggregate short and, per the quote dossier, spent the contrarian signal that existed in mid-August. The same pattern is now most of the way through on the sterling leg.",
+     "contrarian_case": "The contrarian case against our own reading is that a pair whose base leg is 30th-percentile short and whose quote leg has an explicit central bank cap on appreciation has more room to rise than a consensus long-carry position normally does. Both legs still carry residual shorts, and if the 17 September MPC hardens while the 24 September SNB retains its intervention sentence, the covering flows on both sides push the pair the same way."
+    },
+    "strategic": {
+     "combined_positioning_signal": "The strategically relevant fact is not the headline net on either leg but the mismatch in holder type: a 40,670-contract leveraged-fund long in the base against a 38,322-contract asset-manager short in the quote. The first liquidates on a headline; the second does not. That is a one-way risk for the pair around any dated sterling event.",
+     "unwind_trigger": "The 28 October Budget failing to satisfy the fiscal mandate credibly, with the 30-year gilt breaking above 5.85-6.00% and the gilt-Bund spread widening beyond 200bp from 184bp. Secondary triggers are a Middle East re-escalation taking Brent back above 100 dollars, which bids the franc and taxes the UK simultaneously, and a UK rating action.",
+     "historical_analogue": "September 2022: sterling fell roughly 8% against the dollar in the fortnight around the mini-Budget precisely because the market was not short going in, and GBP/CHF made its cycle lows in the same episode as the franc absorbed the European haven bid. The positioning configuration today rhymes — the base leg is owned by fast money and the quote leg is shorted by slow money.",
+     "contrarian_case": "The strategic contrarian case is real and rests on three legs: the BoE retains three standing hawks and a live 5 November Monetary Policy Report at which a hike is possible; the SNB has told the market it will sell francs against a rapid appreciation and holds CHF 889.6bn of reserves with which to do it, which truncates any squeeze; and the pair pays roughly 190bp of carry over six months to whoever is willing to sit through the Budget. That combination is why the strategic conviction is 2 rather than 3."
+    }
+   },
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 5,
+   "factor_name": "External Balance & Terms of Trade",
+   "tactical_weight_default": 0.06,
+   "tactical_weight_applied": 0.06,
+   "strategic_weight_default": 0.16,
+   "strategic_weight_applied": 0.19,
+   "weight_adjustment_reason": "Strategic weight raised from the 0.16 default. The two economies are near mirror images on the external account — Switzerland at +9.77% of GDP against the United Kingdom at -2.84%, a 12.6 percentage point differential — and the same energy shock that produces a record Swiss trade surplus is a direct income transfer out of Britain. That is the largest bilateral fundamental gap in this pair and the framework's justification for a commodity-and-external overweight applies squarely.",
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 60,
+    "evidence_type": [
+     "trade_balance",
+     "cross_asset"
+    ],
+    "bilateral_analysis": "The external differential is the widest single fundamental gap in this pair and it deteriorated further during August. The United Kingdom ran a current account deficit of GBP 22.1bn in Q1 2026, 2.8% of GDP, with the goods deficit widening GBP 4.0bn to GBP 59.5bn while the offsetting services surplus fell GBP 1.2bn to GBP 51.8bn; the headline narrowing came entirely from a volatile GBP 8.0bn primary income swing. Switzerland ran CHF 16bn in the same quarter, 9.77% of GDP, and then posted a July trade surplus of CHF 8.1bn, the largest since the series began in January 1950, on exports up 13.8% and imports down 4.5%. On the commodity channel both currencies are net energy importers, but the intensities and the direction of the shock are not symmetric: UK front-month NBP gas settled at 161.02 pence per therm on 26 August and around 165 on 28 August, 18-21% above the Bank of England's own 136-pence July conditioning assumption and about 43% higher on the year, while Brent's fall from 100.31 to 88.24 is a terms-of-trade gain that accrues to the less energy-intensive Swiss economy at least as much as to Britain. Gold, the franc's principal commodity correlate, is up 8.60% on the month and 22.39% on the year. Bilaterally, IMF DOTS puts UK exports to Switzerland at USD 9.3bn against imports of USD 12.8bn in 2024, a net UK goods deficit of USD 3.5bn — a small but structurally franc-positive flow. Transmission at four weeks is slow, which is why the weight stays at 0.06, but the direction is not in doubt.",
+    "key_bilateral_metrics": [
+     "Current account differential 12.6 percentage points of GDP: Switzerland +9.77% against the United Kingdom -2.84%",
+     "UK Q1 2026 goods deficit GBP 59.5bn (7.6% of GDP), widening GBP 4.0bn, services surplus DOWN GBP 1.2bn to GBP 51.8bn; Swiss July 2026 trade surplus CHF 8.1bn, largest since 1950",
+     "UK NBP gas 161.02 p/therm (26 Aug) and ~165 (28 Aug) — 18-21% above the BoE's 136-pence conditioning assumption, ~+43% yoy",
+     "Bilateral goods trade (IMF DOTS 2024): UK exports to Switzerland USD 9.3bn, UK imports from Switzerland USD 12.8bn, UK net goods balance -USD 3.5bn",
+     "Gold 4,456.44 on 2026-08-28, +8.60% on month — the franc's commodity correlate, against a UK import bill rising in the commodity it must buy"
+    ],
+    "what_is_priced": "The market is trading UK gas as an inflation story that supports sterling through the rate channel and is not trading it as a balance-of-payments story that weakens sterling through the income-transfer channel. On this cross that omission is compounded, because the counterparty is the G10's second-largest surplus economy and the recipient of the gold bid.",
+    "citations": [
+     19
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 72,
+    "evidence_type": [
+     "trade_balance",
+     "cross_asset"
+    ],
+    "bilateral_analysis": "At a 0.19 weight this is the second-largest strategic contributor and the highest-confidence bearish leg in the pair, because the mechanism is arithmetic rather than expectational. Switzerland's 9.77%-of-GDP current account is the product of a goods surplus in pharmaceuticals, precision engineering and watches, a services and commodity-trading surplus, and a primary income surplus thrown off by a net international investment position of CHF 974bn, roughly 120% of annual GDP. Britain's -2.84% is the product of a 7.6%-of-GDP goods deficit that energy prices drive and a shrinking financial services surplus that is supposed to offset it, with post-Brexit barriers having structurally reduced trade openness. Over one to six months the United Kingdom must sell sterling continuously to buy energy while Switzerland must absorb or recycle a continuous franc inflow, and the northern hemisphere heating season falls inside the window with European storage refill competing against Asian LNG buyers and the Strait of Hormuz effectively closed. Two genuine offsets keep confidence at 72 rather than higher. First, the 15% Section 232 pharmaceutical tariff plus Switzerland's commitment to facilitate at least USD 200bn of investment into the United States over five years, USD 67bn of it in 2026, is a real outbound offset that will shrink the Swiss surplus at the margin — the Q1 current account was already CHF 11bn below a year earlier. Second, a durable Hormuz reopening would collapse the UK energy bill and is the single most pair-bullish event available, assessed at roughly 20%.",
+    "key_bilateral_metrics": [
+     "Swiss NIIP CHF 974bn, roughly 120% of GDP, against UK public sector net debt of 95.1% of GDP — opposite balance-sheet directions",
+     "UK current account -2.8% of GDP in Q1 2026 with the goods deficit widening GBP 4.0bn and the services surplus falling GBP 1.2bn — both structural components moving the wrong way in the same quarter",
+     "Swiss Q1 2026 current account CHF 16bn but DOWN CHF 11bn yoy, with the services balance at -CHF 2.9bn — the surplus is large and shrinking at the margin",
+     "Swiss commitment to facilitate at least USD 200bn of US investment over five years, USD 67bn in 2026 — a material outbound offset to the surplus",
+     "Northern hemisphere heating season inside the strategic window with Hormuz effectively closed, roughly one-fifth of global LNG trade normally transiting it, IEA estimating a 1.8mb/d shortfall this quarter"
+    ],
+    "what_is_priced": "Cross-implied bank consensus for this pair, derived from GBP/USD medians of 1.33-1.36 and USD/CHF targets of 0.78-0.79, sits materially below spot but attributes almost all of that decline to UK fiscal risk. We can find no evidence in either dossier that the terms-of-trade and external-balance channel is priced separately, and none that the Swiss surplus is priced as a constraint on how far the franc can be sold.",
+    "citations": [
+     19,
+     14
+    ]
+   },
+   "horizon_split": "Both horizons are Bearish, with strategic confidence of 72 against tactical 60 and the weight tripling from 0.06 to 0.19, because balance-of-payments flows are cumulative. Over four weeks a record Swiss surplus and an 18-21% gas overshoot are headlines. Over one to six months they are a measured income transfer that shows up in the Q3 and Q4 balance of payments, in the UK energy price cap and in the heating season that falls inside the window — exactly the horizon at which a 12.6 percentage point current account differential binds.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": {
+    "base_commodity_profile": "Sterling: net energy importer with a 2.8%-of-GDP current account deficit and a 7.6%-of-GDP goods deficit. Direction rules give oil up as negative for GBP and NBP gas up as strongly negative for GBP, and the UK is uniquely exposed on the gas leg because NBP is the pricing point for both the household energy price cap and industrial costs. UK NBP gas is 161-165 pence per therm against the BoE's own 136-pence conditioning assumption.",
+    "quote_commodity_profile": "Franc: also a net energy importer, but far less energy-intensive per unit of GDP and running a 9.77%-of-GDP current account surplus that absorbs the shock. The franc's dominant commodity correlate is gold, where direction rules give gold up as positive for CHF and where Switzerland is the world's largest refining hub; gold is +8.60% on the month and +22.39% on the year. Swiss export composition is pharmaceuticals, precision engineering and watches, none of which is commodity-priced.",
+    "net_effect_calculation": "Take the framework rules leg by leg. Gas up: strongly negative for GBP through both the price cap and industrial costs, mildly negative for CHF given lower energy intensity and a surplus that absorbs it — net clearly BEARISH for GBP/CHF, and this is the live channel with gas 18-21% above the BoE's baseline. Oil down 12.0% on the month: mildly positive for GBP as an importer, mildly positive for CHF as an importer, with the Swiss gain larger per unit of GDP because the Swiss economy carries no offsetting energy production — net marginally BEARISH for the pair. Gold up: neutral for GBP, positive for CHF through both the haven correlation and the refining channel — net BEARISH. All three channels point the same way, which is unusual and is why this factor is the highest-confidence bearish leg in the pair.",
+    "scenario_oil_up_10pct": "Brent from 88.24 to roughly 97 dollars, most plausibly on Hormuz re-escalation, would almost certainly drag NBP gas higher with it. GBP takes a double hit through the import bill and the real-income channel while the risk-off component simultaneously bids the franc; CHF takes a smaller terms-of-trade hit offset by haven demand. Net: materially BEARISH GBP/CHF, and the single cleanest adverse scenario for the pair because it moves both legs the same way.",
+    "scenario_oil_down_10pct": "Brent from 88.24 to roughly 79 dollars, most plausibly on a durable Hormuz reopening, would collapse the UK energy import bill while leaving Bank Rate at 3.75% — the base dossier's single most sterling-positive combination, assessed at roughly 20% probability. CHF would lose part of its haven and gold bid at the same time. Net: BULLISH GBP/CHF, and the principal invalidator of this factor.",
+    "dominant_commodity_driver": "UK front-month NBP natural gas. It is the only commodity in the set that is asymmetric between the two legs at the current level — 18-21% above the Bank of England's own conditioning assumption, in a fuel Britain must import and Switzerland barely uses — and it is the channel through which the 2026 energy shock becomes a sterling-specific rather than a shared cost."
+   },
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 6,
+   "factor_name": "Guidance & Credibility",
+   "tactical_weight_default": 0.07,
+   "tactical_weight_applied": 0.07,
+   "strategic_weight_default": 0.12,
+   "strategic_weight_applied": 0.1,
+   "weight_adjustment_reason": "Strategic weight trimmed from the 0.12 default. The two banks' guidance points in opposite directions for this pair — the SNB explicitly caps its own currency, which is pair-supportive, while the BoE's symmetric reaction function most likely resolves dovish at the 5 November Monetary Policy Report, which is pair-negative — so part of the factor's normal strategic weight is self-cancelling and belongs with External Balance and Fiscal, where the bilateral gap is unambiguous.",
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 55,
+    "evidence_type": [
+     "policy_comms"
+    ],
+    "bilateral_analysis": "The guidance asymmetry on this pair is unusually clean. The SNB's 18 June assessment states that, if necessary, it has an increased willingness to intervene in the foreign exchange market to counter a rapid and excessive appreciation of the franc, and Chairman Schlegel reaffirmed that formulation on 8 July while noting medium-term inflationary pressure was virtually unchanged. That is one-sided language: there is no corresponding commitment against franc weakness, and no plausible level of depreciation at which a bank forecasting 0.6% inflation would object. For a GBP/CHF holder that is a written option on the quote leg — the central bank has said it will sell the currency you are short if it rallies hard and will do nothing if it falls. The Bank of England offers nothing comparable in either direction: the 29 July minutes are the most explicitly two-sided communication of the cycle, with Ramsden stating a hike may be warranted if risks crystallise and that he would consider resuming cuts if they subside, Taylor openly dovish, and Mann and Pill arguing Bank Rate should be above 3.75%. Sequencing favours the pair mildly: the BoE decides on 17 September, a week before the SNB on 24 September, so a priced BoE hold sets the tone and the SNB assessment is the live communication event. Confidence is held at 55 rather than higher precisely because that assessment is genuinely two-sided — after a six-month franc depreciation the pressure the intervention sentence was written to counter has abated, and dropping or softening it would be read as tolerance of a stronger franc.",
+    "key_bilateral_metrics": [
+     "SNB 2026-06-18: increased willingness to intervene to counter a rapid and excessive appreciation of the franc, reaffirmed by Schlegel on 2026-07-08 — explicitly asymmetric",
+     "BoE 29 July minutes: 6-3 hold with Greene, Mann and Pill for 4.00%, Ramsden explicitly two-way and Taylor describing an economy drifting toward deficient demand",
+     "Gated sequencing inside the tactical window: BoE MPC 2026-09-17 followed by the SNB quarterly assessment 2026-09-24",
+     "SNB total official reserve assets CHF 889.6bn — the balance sheet that makes the intervention threat credible",
+     "Guidance-versus-pricing gap on the sterling leg close to zero, with 56 of 64 economists expecting no change all year"
+    ],
+    "what_is_priced": "Both holds are priced, and the SNB's intervention language is priced as a permanent feature of the landscape rather than as a variable. That is the mispricing: the 24 September assessment carries genuine two-way risk in its wording that the pair's flat volatility surface charges nothing for, and the quote dossier assesses removal of the sentence at roughly 25% probability.",
+    "citations": [
+     11
+    ]
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 52,
+    "evidence_type": [
+     "policy_comms"
+    ],
+    "bilateral_analysis": "Over one to six months the two guidance regimes partially offset, and the residual favours the pair only narrowly. On the franc side the SNB's structural incentive to prefer a softer currency is reinforced rather than weakened by the 15% Section 232 pharmaceutical tariff, since a levy on close to half of Swiss goods exports to the United States raises the cost of any further competitiveness loss through the exchange rate; the stated tool preference is intervention rather than negative rates, with Schlegel repeatedly citing the undesirable side effects of sub-zero policy; and the assessments on 24 September and 10 December are the only scheduled communication points. On the sterling side the reaction function is symmetric and credible but its decisive input — 2027 pay settlements — arrives at the 5 November Monetary Policy Report and the 17 December decision, and the incoming evidence leans dovish with private-sector regular pay at 2.8%, DMP year-ahead wage expectations at 3.4% and three-year CPI expectations at 2.8%. A dovish resolution is worth at most 25bp against a 375bp gap, so it is a smaller factor than the SNB's explicit cap, but it is a real offset and is why confidence falls from 55 to 52. The credibility differential is genuine but two-sided: the SNB is the more operationally credible institution on FX, with the January 2015 floor removal the standing reminder that its guidance does not bind indefinitely, while the BoE's post-2022 transparency framework is intact.",
+    "key_bilateral_metrics": [
+     "SNB conditional inflation forecast 0.6%/0.6%/0.7% for 2026-2028 conditioned on a 0.00% policy rate throughout",
+     "Gated strategic communication points: SNB 2026-09-24 and 2026-12-10; BoE 2026-11-05 with a Monetary Policy Report and 2026-12-17",
+     "BoE named 2027 pay settlements as the decisive unresolved input, placing resolution at the 5 November and 17 December meetings",
+     "UK Agents' median 2026 pay settlement 3.5% against a target-consistent estimate of about 3.25%, DMP year-ahead expectations 3.4% and falling",
+     "Swiss pharmaceutical exports facing a 15% US Section 232 tariff, raising rather than lowering SNB sensitivity to franc strength"
+    ],
+    "what_is_priced": "Consensus prices the SNB as a standing seller of francs and the BoE as credibly on hold, both correct. What is under-priced is the conditionality on the franc side — the guidance is written against appreciation, so it offers no support to a long GBP/CHF position if the sterling leg deteriorates on its own — and the informational cliff on the sterling side at the November and December meetings.",
+    "citations": []
+   },
+   "horizon_split": "Both horizons are Bullish, with confidence easing from 55 to 52. Tactically the asymmetry is at its sharpest: a priced BoE hold on 17 September followed by an SNB assessment whose one-sided intervention language is the only live text in the window. Strategically the BoE's symmetric function most likely resolves dovish once 2027 pay evidence arrives at the 5 November Monetary Policy Report, which partially offsets the SNB's structural preference for a softer franc — so the same asymmetry survives but the net shrinks.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 7,
+   "factor_name": "Event Risk & Geopolitics",
+   "tactical_weight_default": 0.05,
+   "tactical_weight_applied": 0.05,
+   "strategic_weight_default": 0.05,
+   "strategic_weight_applied": 0.05,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 52,
+    "evidence_type": [
+     "geopolitics"
+    ],
+    "bilateral_analysis": "Inside four weeks neither leg carries a genuine binary and the dated events are clustered but scheduled. On the sterling side the calendar is 11 September monthly GDP and trade, 15 September the labour market report, 16 September August CPI, 17 September the MPC decision with its annual gilt-reduction vote and 18 September retail sales — dense, but every item is a scheduled release with a published consensus, and the Budget date is fixed at 28 October, outside the window. On the franc side the dated item is the 27 September federal referendum on constitutionally entrenching neutrality; Tamedia polling from late August has 62% against and 36% in favour, so rejection is the strong base case and the modal outcome is a non-event, with roughly a 20% passage tail whose franc direction is itself ambiguous. The 24 September SNB assessment is a communication event rather than a policy binary. The one undated risk that matters more for this pair than for either currency alone is the Middle East: a re-escalation bids the franc as a haven at the same moment it taxes Britain's energy import bill, so the two legs move together rather than offsetting. Over four weeks its probability-weighted contribution is small, and the honest tactical stance is Neutral.",
+    "key_bilateral_metrics": [
+     "Swiss neutrality referendum 2026-09-27 with late-August Tamedia polling at 62% against and 36% in favour; roughly a 20% passage tail",
+     "Gated decisions inside the window: BoE MPC 2026-09-17, priced at about +7bp with an annual gilt-reduction vote attached; SNB quarterly assessment 2026-09-24",
+     "UK scheduled releases 11, 15, 16 and 18 September — all with published consensus, none a binary",
+     "Autumn Budget confirmed for 2026-10-28, announced 31 July — the dominant sterling binary sits outside the tactical window",
+     "Pair volatility term structure in clean contango at 4.564%/4.753%/4.920%, with no event kink around 17, 24 or 27 September"
+    ],
+    "what_is_priced": "The pair's volatility surface prices no near-term binary, and over four weeks that is defensible — the sterling calendar is scheduled and the Swiss referendum is polling 62% against. The identifiable mispricing is one of location rather than level: nothing in the surface distinguishes the 94.7-day tenor containing the Budget from the 38.6-day tenor containing only scheduled data.",
+    "citations": [
+     8,
+     13
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 65,
+    "evidence_type": [
+     "geopolitics"
+    ],
+    "bilateral_analysis": "Extend the window and the event risk becomes both dated and one-sided. The Autumn Budget on 28 October, with an accompanying OBR economic and fiscal forecast, is delivered by a Chancellor appointed three weeks before the date was set, under a Prime Minister who took office on 20 July, against an OBR March headroom figure of GBP 9.9bn that the OBR itself warned could be erased by a modest rise in borrowing costs — and the 10-year gilt has since risen 39bp on the year at roughly GBP 2.5bn of annual debt service per 0.25 percentage point. The distribution around it is skewed against the pair because the fiscal rules cap the good outcome while a 5.73-5.76% 30-year yield amplifies the bad one. Switzerland's equivalent event set is materially benign: the neutrality referendum most likely fails, Bilaterals III was signed on 2 March 2026 with a clear majority of consultation respondents supportive, and the genuinely Swiss-negative item — the Section 232 pharmaceutical tariff regime — is already in force and already visible in the trade data. The asymmetry that matters most is that the two largest tails point the same way: a Hormuz re-escalation and a disorderly Budget both push GBP/CHF lower, and there is no symmetric scenario in which a Swiss event pushes it higher by a comparable magnitude.",
+    "key_bilateral_metrics": [
+     "UK Autumn Budget 2026-10-28 with an OBR forecast; March headroom GBP 9.9bn against roughly GBP 2.5bn extra annual debt service per 0.25pp of borrowing cost",
+     "UK 30-year gilt 5.73-5.76%, within 5bp of its May 2026 multi-decade peak; 10-year up 39bp yoy",
+     "Swiss Bilaterals III signed 2026-03-02 with 318 consultation submissions and a clear majority of stakeholders supportive",
+     "Strait of Hormuz effectively closed with Iran requiring sanctions easing and reparations before reopening; roughly one-fifth of global LNG trade normally transits it",
+     "Base dossier tail estimates: disorderly UK gilt event at the Budget 12%, durable Hormuz reopening 20%"
+    ],
+    "what_is_priced": "The market prices Budget continuity, and the stability of sterling and gilts since the 20 July political transition is the evidence. It is not priced in the pair's volatility surface at all: the 94.7-day tenor containing 28 October sits only 0.19 volatility points above the 38.6-day tenor. The single most consequential dated event for this cross is close to free to hedge.",
+    "citations": [
+     19
+    ]
+   },
+   "horizon_split": "The horizons split because the dominant event sits between them. Inside four weeks the calendar holds only scheduled UK data, two priced central bank decisions and a Swiss referendum polling 62% against, so Neutral is correct and the contango surface corroborates it. Inside one to six months the 28 October Budget enters the window as a genuine binary whose payoff is asymmetric against the pair, and it shares that direction with the other large tail — a Hormuz re-escalation that bids the franc and taxes Britain simultaneously.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 8,
+   "factor_name": "Fiscal & Sovereign Risk",
+   "tactical_weight_default": 0.04,
+   "tactical_weight_applied": 0.06,
+   "strategic_weight_default": 0.07,
+   "strategic_weight_applied": 0.1,
+   "weight_adjustment_reason": "Raised from the 0.04 and 0.07 defaults. This is the framework's designated background factor, but not on this pair: it joins the developed world's widest sovereign risk premium — a gilt-Bund spread of 184bp, the widest since the 2022 mini-Budget, with net debt at 95.1% of GDP — directly to a AAA sovereign at 37.6% debt-to-GDP with a constitutional debt brake, and a dated fiscal binary falls inside the strategic window.",
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 60,
+    "evidence_type": [
+     "rates",
+     "macro_data"
+    ],
+    "bilateral_analysis": "The sovereign differential on this pair is close to the largest available in the G10 and it is currently live rather than background. The United Kingdom carries public sector net debt of 95.1% of GDP at end-May 2026, the highest since the early 1960s, ratings of AA at S&P and AA- at Fitch with the Moody's level reported variously as Aa2 or Aa3 and no confirmable outlook, a 10-year gilt at 5.16% and a 30-year at 5.73-5.76% within 5bp of its May multi-decade peak, and a gilt-Bund spread of about 184bp that is the widest since the 2022 mini-Budget. Switzerland is rated AAA by every major agency, reconfirmed by Morningstar DBRS with a stable trend on 16 January 2026, carries general government debt of 37.6% of GDP on the rating-agency measure, runs an estimated fiscal surplus of 0.4% of GDP under a constitutional debt brake, and funds itself at 0.31% at the 10-year with negligible Confederation supply. The transmission that matters here is the regime-dependent correlation the base dossier flags: cable and other sterling crosses are normally positively correlated with the 30-year gilt yield, but the sign flips in a fiscal event, and a long yield entrenched at a multi-decade extreme is the flipped configuration. The gilt market has priced UK fiscal risk aggressively and the currency has not.",
+    "key_bilateral_metrics": [
+     "Debt differential: UK public sector net debt 95.1% of GDP against Swiss general government debt 37.6% (rating-agency measure; IMF 40.7%, Maastricht basis nearer 30%)",
+     "Rating differential: UK AA (S&P) and AA- (Fitch), Moody's Aa2/Aa3 unconfirmed outlook, against Switzerland AAA at every major agency (DBRS-reconfirmed stable 2026-01-16)",
+     "Yield differential: gilt 10-year 5.16% (28 Aug close) against a Confederation 10-year of 0.31% (monthly, 2026-06-01) — a 485bp gap",
+     "Gilt-Bund 10-year spread approximately 184bp, widest since the 2022 mini-Budget but essentially unchanged from about 183bp at 31 July — entrenched rather than expanding",
+     "Fiscal flow differential: UK borrowing 4.2% of GDP in FYE March 2026 with a July PSNCR of -GBP 29.0bn against a zero forecast, versus an estimated Swiss surplus of 0.4% of GDP"
+    ],
+    "what_is_priced": "The gilt market has priced the fiscal risk and the currency market has not; nothing about Swiss credit quality can surprise anyone. There is no dated tactical catalyst to close the gap, which is why the weight stays modest at 0.06 and confidence at 60.",
+    "citations": []
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 70,
+    "evidence_type": [
+     "rates",
+     "macro_data"
+    ],
+    "bilateral_analysis": "This is the highest-confidence bearish leg in the pair after External Balance, and the reason is that the arithmetic is closed and adverse on one leg while being closed and favourable on the other. The OBR's March 2026 forecast left GBP 9.9bn of headroom against the fiscal mandate, a margin the OBR itself warned could be wiped out by a modest rise in borrowing costs, and roughly GBP 3bn was reported lost to gilt moves by 20 March; with the 10-year up a further 39bp on the year at about GBP 2.5bn of annual debt service per 0.25 percentage point, that headroom has plausibly been consumed entirely. Gross gilt sales of GBP 246.2bn after the 23 April downward revision must be absorbed while the Bank runs down a GBP 491bn APF book. Against that, Switzerland offers a structural surplus under a constitutional debt brake, IMF-projected surpluses averaging around 0.2% of GDP to 2028, and no bond supply story whatsoever. The bilateral mechanism over one to six months is relative quality: as peer fiscal trajectories deteriorate and term premia expand, allocators and reserve managers respond to relative rather than absolute standing, and because the Swiss 10-year yields 0.31% the preference can only be expressed through the currency.",
+    "key_bilateral_metrics": [
+     "OBR March 2026 headroom GBP 9.9bn, roughly GBP 3bn already reported lost to gilt moves by 20 March, against GBP 2.5bn extra annual debt service per 0.25pp and a 39bp yoy rise in the 10-year",
+     "UK gross gilt sales GBP 246.2bn in 2026-27 after the 23 April remit revision, to be absorbed while the BoE runs down a GBP 491bn APF gilt book",
+     "Swiss fiscal balance an estimated surplus of 0.4% of GDP in 2025 with IMF-projected surpluses averaging about 0.2% to 2028",
+     "Swiss sovereign CDS not quoted on any accessible source; UK 5-year CDS recorded as a collection failure — the asymmetry in what is even worth quoting is itself the finding",
+     "Confederation 10-year 0.31% with negligible supply against a UK 30-year at 5.73-5.76% and a gilt-Bund spread of 184bp"
+    ],
+    "what_is_priced": "The gilt curve prices UK fiscal risk at 184bp over Bunds while cross-implied bank consensus for this pair embeds only a modest sterling discount, and the pair's 94.7-day implied volatility of 4.753% charges nothing for the 28 October resolution. Our edge is to treat the gilt curve as the leading indicator and the cross as the laggard.",
+    "citations": [
+     19
+    ]
+   },
+   "horizon_split": "Both horizons are Bearish and strategic confidence of 70 exceeds tactical 60 because the transmission is dated. Tactically the fiscal premium is a standing condition visible in the yield curve with no scheduled mechanism to convert it into a currency move. Strategically the 28 October Budget is that mechanism, and it lands with the OBR's March GBP 9.9bn headroom almost certainly consumed — so unusually, confidence rises with the horizon rather than decaying.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 9,
+   "factor_name": "Market Structure & Volatility",
+   "tactical_weight_default": 0.05,
+   "tactical_weight_applied": 0.05,
+   "strategic_weight_default": 0.03,
+   "strategic_weight_applied": 0.03,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 55,
+    "evidence_type": [
+     "pair_price_action"
+    ],
+    "bilateral_analysis": "This pass is not supplied with the pair's moving averages, zones, ATR or trailing returns by design, so the structural half of this factor cannot be assessed and is deliberately left to the second pass rather than reconstructed. What is supplied is the volatility landscape, and it is informative. The gated derived store puts GBP/CHF ATM implied volatility at 4.564% for 38.6 days, 4.753% for 94.7 days and 4.920% for 185.7 days — a clean, shallow contango with no event kink at any tenor, despite the 38.6-day bucket containing a BoE decision, an SNB assessment and a Swiss referendum, and the 94.7-day bucket containing the 28 October Budget and the 5 November Monetary Policy Report. The store flags these as triangle-and-realised-correlation estimates that run low by 9-18% against directly quoted crosses, so the true surface is more likely near 5.0-5.6%, but the shape stands regardless of the level. Set against the quote dossier's 60-day realised volatility of 4.79% for GBP/CHF, implied at the front tenor is at or below realised, which points to spot rather than options as the efficient directional vehicle and makes convexity unusually cheap. Risk reversals are a documented gap in both dossiers, so skew cannot be assessed and no value is asserted. With no directional content available from the supplied data, Neutral is the only honest stance. Second-pass addendum: the structural half the first pass could not see is set out fully in Pair Technicals and it is, on balance, less supportive of the tactical Bullish than the vol landscape alone — the daily stack is bullish but the two heaviest bands on the chart (ten touches each at 1.10955-1.11969 and 1.12360-1.13440) are both overhead, there is no ten-touch support anywhere, and the declining 200-week average at 1.10452 has capped this cross for 237 consecutive weeks.",
+    "key_bilateral_metrics": [
+     "Pair ATM IV term structure 4.564% (38.6d) / 4.753% (94.7d) / 4.920% (185.7d), observed 2026-08-31 — clean contango with no event premium at any tenor",
+     "3m ATM IV 4.753% at 94.7 days, an estimate from the variance identity with a realised correlation of 0.7497 standing in for an implied one, known to run 9-18% low",
+     "GBP/CHF 60-day realised volatility 4.79% per the quote dossier — at or above the 38.6-day implied estimate",
+     "Carry-to-vol 0.789 using the 375bp differential and the 4.753% estimate — the highest in either dossier's cross-section (0.67-0.72 bias-adjusted)",
+     "25-delta risk reversals: documented gap for both GBP and CHF surfaces in both dossiers; not estimated and not asserted"
+    ],
+    "what_is_priced": "The options market is pricing a quiet autumn on a cross whose calendar is not quiet: a shallow contango from 4.564% to 4.920% charges nothing extra for a fortnight containing an MPC decision, an SNB assessment and a referendum, and nothing for the 28 October Budget in the tenor that contains it.",
+    "citations": [
+     7,
+     9,
+     18
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": [
+     "pair_price_action"
+    ],
+    "bilateral_analysis": "At a 0.03 weight and with no price series supplied, this factor carries almost no strategic content and the honest stance is Neutral at low confidence. The one durable observation is that 185.7-day implied volatility of 4.920% — even adjusting upward for the estimator's known 9-18% downward bias, so call it 5.4-5.8% — implies a one-standard-deviation six-month move of roughly 3.5-4.1% on a cross whose quote leg is the currency that moved roughly 30% intraday in January 2015 and whose base leg is the currency that fell roughly 8% in a fortnight in September 2022. The surface prices this pair as a well-behaved developed-market cross when the joint distribution of its two legs is anything but: both legs jump, they jump in the same direction for this cross, and the two jump histories are the two best-documented in the G10. That is a statement about convexity, not about direction, and it should not be converted into a stance. Liquidity is adequate but second-tier — GBP/CHF is a liquid cross rather than a major, so gap risk around the SNB assessments is a genuine execution consideration for the second pass rather than a fundamental input here.",
+    "key_bilateral_metrics": [
+     "185.7-day ATM IV 4.920% (estimate), implying a one-standard-deviation six-month move near 3.5%, or 4.1% adjusting for the estimator's downward bias",
+     "Only 0.356 volatility points separate the 38.6-day and 185.7-day tenors despite the longer bucket containing a Budget, a Monetary Policy Report and two SNB assessments",
+     "Historical jump references: EUR/CHF roughly 30% intraday in January 2015; sterling roughly 8% against the dollar in the fortnight around the September 2022 mini-Budget",
+     "GBP/CHF is a liquid cross rather than a major; the gated store holds 4,880 weekday bars from 2007-12-21",
+     "Implied correlation used in the vol estimate is a realised 0.7497 — an unobservable implied correlation substituted with a measured one"
+    ],
+    "what_is_priced": "A flat surface near 4.9% for six months prices this cross as a currency pair with a normal distribution. Both of its legs have documented fat tails, and on this specific pair those tails point the same way — a haven bid on the quote leg coincides with an energy and fiscal shock on the base leg.",
+    "citations": []
+   },
+   "horizon_split": "Both horizons are Neutral, with confidence easing from 55 to 50, because this pass is deliberately not shown the pair's price series and the volatility surface it is shown carries no directional information at either horizon. The only differences across horizons are that the front tenor's proximity to realised volatility is measurable now, while the six-month tenor's underpricing of joint jump risk is an inference — hence the lower strategic confidence.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": {
+    "vol_landscape_summary": "Shallow contango from 4.564% at 38.6 days to 4.920% at 185.7 days, with no event premium anywhere despite a BoE decision, an SNB assessment and a referendum in the front bucket and the UK Autumn Budget in the second. The level is an estimate from the variance identity that the store itself documents as running 9-18% low, so treat 4.75% as a floor rather than a quote. Against a 60-day realised of 4.79% on this cross, near-dated implied is at or below delivered movement.",
+    "directional_expression": "The tactical carry-driven view is efficient in spot, because implied at the front tenor is not charging a premium over realised and because the position collects roughly 31bp a month at the observed roll premium. The strategic view is a statement about a fat, coincident tail on both legs rather than about a modal path, and belongs in longer-dated convexity rather than in spot — which is the opposite of the usual instinct and follows directly from a surface that prices the Budget bucket 0.19 volatility points above the no-event bucket.",
+    "event_timing_consideration": "Because the term structure is in contango rather than backwardation, there is no event premium to decay and therefore no timing argument for waiting until after the 17 September MPC, the 24 September SNB assessment or the 27 September referendum. The 94.7-day tenor spanning 28 October is the part of the surface that is cheap relative to what it contains.",
+    "liquidity_note": "GBP/CHF is a liquid cross but second-tier against the majors, and the quote leg's central bank has an explicit intervention mandate — so gap risk is concentrated around the SNB assessments on 24 September and 10 December, and around any statement-text change rather than any rate change. ATR(14) is 55 pips, so a stop sized to survive normal noise must sit at least 1.5-2 ATRs from entry, and the nearest structural failure point is the 1.08490 floor of the two-touch band spot is currently trading inside."
+   }
+  },
+  {
+   "factor_number": 10,
+   "factor_name": "USD Liquidity & Funding",
+   "tactical_weight_default": 0.11,
+   "tactical_weight_applied": 0.07,
+   "strategic_weight_default": 0.12,
+   "strategic_weight_applied": 0.07,
+   "weight_adjustment_reason": "Cut from the 0.11 and 0.12 defaults, at the limit of the framework's non-USD-cross guidance. Dollar conditions reach GBP/CHF only through the vehicle-currency channel, and the direct Fed-repricing effect that drives the base dossier's Bearish stance on this factor is an effect on GBP/USD, not on GBP/CHF, where a hawkish Fed hurts the zero-rate funding leg at least as much as the base.",
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 52,
+    "evidence_type": [
+     "rates",
+     "cross_asset"
+    ],
+    "bilateral_analysis": "Global dollar funding is abundant and orderly, and for a carry cross with a zero-rate quote leg that is a tailwind rather than a comfort. SOFR printed 3.65% inside the 3.50-3.75% target range with no dislocation, quantitative tightening ended after roughly USD 2.2trn of runoff with reserve balances near USD 2.99trn, and the three-month EUR/USD basis — the benchmark for dollar scarcity — was last observed at only -16 to -20bp against a -35 to -45bp regime through 2023, although that reading is mid-May 2026 and roughly 110 days old, breaching both freshness windows. The bilateral consequence is that CHF-funded carry positions stay financed, and GBP/CHF at a 375bp differential is one of the most direct expressions of that trade in the G10. The pair-specific basis is better evidence than the generic dollar plumbing: the gated funding block prints -406.8bp annualised on the CHF-base orientation against a 375bp policy differential, implying roughly 32bp of basis that currently works in favour of a long GBP/CHF rather than against it. The base dossier's Bearish read on this factor is a statement about the dollar leg of cable after Chair Warsh's 28 August Jackson Hole address moved September hike odds from 36% to 58-60%; on this cross that repricing is close to neutral, because a hawkish Fed raises the global cost of the funding currency and the franc is the funding currency. Confidence is only 52 because the broad dollar has fallen 2.1% on the month even as the Fed turned hawkish, which muddies the channel.",
+    "key_bilateral_metrics": [
+     "Pair-specific basis: -406.8bp annualised roll on the CHF-base orientation against a 375bp policy differential implies roughly +32bp of basis favouring a long GBP/CHF",
+     "SOFR 3.65% at 2026-08-28 inside the 3.50-3.75% target range; QT concluded after roughly USD 2.2trn of runoff with reserve balances near USD 2.99trn",
+     "Three-month EUR/USD cross-currency basis -16 to -20bp — mid-May 2026, roughly 110 days old, stale and flagged in both dossiers",
+     "Broad dollar index DTWEXBGS 118.0628 on 2026-08-21, down 2.511 points or 2.1% on the month even as September Fed hike odds moved from 36% to 58-60%",
+     "Dollar-smile position at the bottom of the smile — soft dollar, low volatility, ample liquidity — historically the worst quadrant for the franc and the best for carry crosses"
+    ],
+    "what_is_priced": "Funding markets price no stress at all, and for the next four weeks that is almost certainly right: QT has ended, reserves are ample and there is no quarter-end inside the window. What is not priced is that the pair's own basis currently pays a long GBP/CHF roughly 32bp on top of the policy differential.",
+    "citations": [
+     11,
+     12
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": [
+     "rates",
+     "cross_asset"
+    ],
+    "bilateral_analysis": "Over one to six months the two halves of this factor pull against each other on this specific cross and the honest answer is Neutral. On the supportive side, dollar liquidity is likely to stay easy — the Fed balance sheet is flat to marginally growing, reserve-management purchases rather than renewed runoff are expected, and the basis shows no scarcity premium — which keeps franc-funded carry positions financed and is pair-supportive. On the adverse side, 31 December is the largest recurring dollar-funding squeeze in the calendar and it falls inside the window; a classic year-end basis widening forces a reduction of exactly the CHF-funded positions this pair depends on, and with the EUR/USD basis last seen at only -16 to -20bp there is more room than usual for it to widen. The base leg carries an additional strategic exposure that has no franc equivalent: London's role in global banking makes UK institutions structurally large dollar borrowers, so a year-end funding turn stresses the sterling side of this cross more than the Swiss side. Netting an easy funding backdrop against a seasonal squeeze that hits the pair on both legs leaves no direction, and at a reduced 0.07 weight this factor correctly contributes nothing to the strategic score.",
+    "key_bilateral_metrics": [
+     "31 December year-end dollar funding turn inside the strategic window, with the three-month EUR/USD basis at only -16 to -20bp leaving unusual room to widen",
+     "Fed balance sheet USD 6.7trn and up 0.3% yoy — QT is no longer a drain on global liquidity, which keeps franc-funded carry financed",
+     "UK institutions are structurally large USD borrowers through London's banking role; there is no comparable Swiss funding exposure",
+     "Pair basis of roughly +32bp favouring a long GBP/CHF today — a level that historically compresses or reverses into a year-end squeeze",
+     "Broad dollar down 2.1% on the month with the Fed on hold — a fading-exceptionalism configuration that is franc-negative through the carry channel and sterling-neutral on this cross"
+    ],
+    "what_is_priced": "Forwards embed the differential and roughly 32bp of basis and no view on either. Nothing in the pair's forward curve or volatility surface prices a year-end funding turn that would hit the sterling leg's dollar borrowing and the franc-funded carry trade simultaneously.",
+    "citations": [
+     11,
+     17
+    ]
+   },
+   "horizon_split": "Bullish tactically at 52 and Neutral strategically at 50, because the two components run on different clocks. Over four weeks the funding component dominates: dollars are abundant, there is no quarter-end, and the pair's own basis pays roughly 32bp on top of the 375bp differential. Over one to six months the 31 December turn enters the window and cuts the other way — it squeezes the CHF-funded carry trade and stresses London's dollar borrowing at the same time — so the two halves cancel at a reduced non-USD-cross weight.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  }
+ ],
+ "synthesis": {
+  "weight_adjustments": {
+   "adjustments_made": true,
+   "adjustments": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates",
+     "default_weight": 0.24,
+     "applied_weight": 0.27,
+     "reason": "375bp differential, far beyond the 200bp carry-overweight threshold, on a cross where the low-yield leg has conditioned its own three-year inflation forecast on staying at zero"
+    },
+    {
+     "factor_number": 2,
+     "factor_name": "Inflation & Growth",
+     "default_weight": 0.18,
+     "applied_weight": 0.15,
+     "reason": "Data-to-policy channel closed on both legs — SNB pinned through 2028, BoE's next move priced in 2027 with 56 of 64 economists expecting no change all year"
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite",
+     "default_weight": 0.1,
+     "applied_weight": 0.12,
+     "reason": "Tactical only: a 375bp carry cross whose quote leg is the G10 reference haven, so the four-week risk regime determines whether the carry is collected or unwound"
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance",
+     "default_weight": 0.16,
+     "applied_weight": 0.19,
+     "reason": "Strategic only: a 12.6 percentage point current-account differential plus an energy shock that taxes one leg and a gold bid that supports the other — the largest bilateral fundamental gap in this pair"
+    },
+    {
+     "factor_number": 6,
+     "factor_name": "Guidance & Credibility",
+     "default_weight": 0.12,
+     "applied_weight": 0.1,
+     "reason": "Strategic only: the two banks' guidance points in opposite directions for this pair, so part of the factor is self-cancelling"
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign",
+     "default_weight": 0.07,
+     "applied_weight": 0.1,
+     "reason": "A 184bp gilt-Bund premium at 95.1% debt-to-GDP with a dated Budget, joined to a AAA sovereign at 37.6% funding at 0.31% under a debt brake — a foreground factor on this cross"
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity",
+     "default_weight": 0.12,
+     "applied_weight": 0.07,
+     "reason": "Non-USD cross; a hawkish Fed repricing that hurts GBP/USD is roughly neutral for GBP/CHF because it raises the cost of the zero-rate funding leg too"
+    }
+   ]
+  },
+  "tactical": {
+   "net_stance": "Bullish",
+   "conviction": 2,
+   "overall_confidence": 55,
+   "weighted_score_calculation": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative)",
+     "stance_score": 1,
+     "confidence": 70,
+     "conf_adj_score": 0.7,
+     "weight": 0.27,
+     "weighted_contribution": 0.189
+    },
+    {
+     "factor_number": 2,
+     "factor_name": "Inflation & Growth Dynamics",
+     "stance_score": -1,
+     "confidence": 55,
+     "conf_adj_score": -0.55,
+     "weight": 0.15,
+     "weighted_contribution": -0.0825
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "stance_score": 1,
+     "confidence": 60,
+     "conf_adj_score": 0.6,
+     "weight": 0.12,
+     "weighted_contribution": 0.072
+    },
+    {
+     "factor_number": 4,
+     "factor_name": "Flows & Positioning",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.1,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance & ToT",
+     "stance_score": -1,
+     "confidence": 60,
+     "conf_adj_score": -0.6,
+     "weight": 0.06,
+     "weighted_contribution": -0.036
+    },
+    {
+     "factor_number": 6,
+     "factor_name": "Guidance & Credibility",
+     "stance_score": 1,
+     "confidence": 55,
+     "conf_adj_score": 0.55,
+     "weight": 0.07,
+     "weighted_contribution": 0.0385
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk & Geopolitics",
+     "stance_score": 0,
+     "confidence": 52,
+     "conf_adj_score": 0,
+     "weight": 0.05,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign Risk",
+     "stance_score": -1,
+     "confidence": 60,
+     "conf_adj_score": -0.6,
+     "weight": 0.06,
+     "weighted_contribution": -0.036
+    },
+    {
+     "factor_number": 9,
+     "factor_name": "Market Structure & Volatility",
+     "stance_score": 0,
+     "confidence": 55,
+     "conf_adj_score": 0,
+     "weight": 0.05,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "stance_score": 1,
+     "confidence": 52,
+     "conf_adj_score": 0.52,
+     "weight": 0.07,
+     "weighted_contribution": 0.0364
+    }
+   ],
+   "net_weighted_score": 0.1814,
+   "score_interpretation": "A net score of +0.1814 on a scale running from -1.00 to +1.00 is a genuine but modest bullish tilt for GBP/CHF, and it is a concentrated one. Policy & Rates contributes +0.1890 on its own — more than the entire net score — with Risk Appetite (+0.0720), Guidance (+0.0385) and USD Liquidity (+0.0364) adding a further +0.1469 of the same underlying trade: hold the 375bp differential while volatility is compressed, dollars are abundant and the quote leg's central bank says it will lean against its own currency's strength. Against that sit three real negatives that are all about fundamentals rather than carry: Inflation & Growth at -0.0825 on Swiss data beating consensus by a wide margin, External Balance at -0.0360 and Fiscal at -0.0360. Three factors score zero and each zero is informative — Flows because specs are short both legs and the covering fuel has largely been spent, Event Risk because nothing binary falls inside four weeks, Market Structure because the first pass was deliberately not shown the chart. The reading to take away is that the tactical case is a carry call with a fundamental headwind, not a fundamental call: four positives that are facets of one regime against three negatives that are independent. Applied mechanically, +0.1814 is above the +0.10 threshold and the stance is Bullish; at conviction 2 that is a directional lean worth modest size, not a position worth defending through a squeeze.",
+   "rationale": "At tactical weights Policy & Rates carries 0.27 and Inflation & Growth 0.15, so 42% of the score sits with two factors that point in opposite directions, and the rate factor wins because it is the one with no scheduled mechanism to move. The bilateral differential is 375bp, the gated calendar puts the BoE on 17 September with roughly +7bp priced and the SNB on 24 September with a hold effectively certain, and the SNB's June conditional inflation forecast is explicitly conditioned on a 0% policy rate through 2028 — so the gap that matters here is structurally unable to close from the quote side. That is the central bilateral insight and it is what separates this cross from the base dossier's own view: sterling is Bearish standalone because the Fed and ECB are moving above it, and neither of those banks is the counterparty. The observed futures roll of -406.8bp annualised on the CHF-base orientation means a rolled long earns roughly 4.07% a year, 375bp of policy plus about 32bp of basis, against a pair 3m implied volatility estimate of 4.753% — a carry-to-vol ratio of 0.789, the best in either dossier. Three factors reinforce that same trade: a 14.51 VIX with high yield at 263bp, abundant dollar funding with SOFR at 3.65% and no quarter-end in the window, and an SNB that has told the market twice since June it will counter a rapid franc appreciation while the BoE says nothing about sterling at all. The conflict is genuine and it is Switzerland's own fundamentals: Q2 GDP of +1.5% quarter-on-quarter against a +0.2% to +0.4% consensus, a KOF barometer at a four-and-a-half-year high of 106.7, industrial production beating by 10.2 points, a record CHF 8.1bn July trade surplus and a 9.77%-of-GDP current account against Britain's -2.84%. None of it buys a Swiss rate rise at 0.4% headline inflation, which is exactly why it scores -0.0825 rather than more. What is priced is both holds; what is not priced is that a 375bp differential with no scheduled compression pays roughly 31bp a month while the pair's volatility surface charges nothing extra for the September cluster. The path of least resistance over four weeks is therefore a carry grind rather than a trend, with the 16 September UK CPI and the 24 September SNB statement text as the two-way risks. Conviction is 2 rather than 3 for three specific reasons: the score is 104% attributable to one factor; the fundamental negatives are the ones that compound over time rather than decay; and the franc's short base has already covered 40% in three weeks while sterling's leveraged funds are already long 15.9% of open interest, so the flow cushion on both legs has been spent. Second-pass note, offered as disagreement rather than revision: the price payload the first pass did not see tightens this call rather than confirming it. The 2 September high of 1.10084 was the first lower high of the six-month sequence, the declining 200-week average at 1.10452 has capped 237 consecutive weeks, both ten-touch bands on the chart are overhead and there is no ten-touch support anywhere. Nothing in that changes the 375bp differential or the factor scores, and it should not — but it means the Bullish stance should be read as collect the carry inside a range whose ceiling is 1.1088 rather than buy a breakout, which is how the price objectives below are set.",
+   "g10_relative_ranking": "Among sterling crosses GBP/CHF ranks first or second as a tactical long, because the franc is the only G10 counterparty whose central bank has pre-committed to zero for three years and therefore cannot erode sterling's advantage — the compression that damages GBP/USD and EUR/GBP inside the 10-17 September window simply does not reach this cross. Among franc shorts it ranks third behind AUD/CHF and NOK/CHF on raw carry at 435bp and 425bp, but first on carry-to-vol at 0.789 given GBP/CHF's low realised volatility, and ahead of EUR/CHF on carry while behind it on catalyst density since the ECB is the one bank actually moving. Against GBP/NOK, which the base dossier names the cleanest fundamental sterling short, GBP/CHF is the opposite trade and the ranking gap between them is the widest in the sterling complex. The sell side agrees on the ranking metric if not the horizon: Bank of America argues the pair remains one of the most attractive carry trades in the G10, with quantitative signals turning increasingly positive for sterling.",
+   "scenarios": {
+    "base_case": {
+     "probability_pct": 50,
+     "pair_target": "GBP/CHF 1.1010",
+     "timeframe": "by end-September (2-4 weeks)",
+     "conditions": [
+      "The BoE holds at 3.75% on 17 September with the vote split unchanged at 6-3 or hardening",
+      "The SNB holds at 0.00% on 24 September and retains the intervention language",
+      "VIX stays below 18 and US high yield inside 300bp so the carry regime remains intact",
+      "16 September UK CPI prints at or above 2.9%, keeping the BoE's hawkish tail alive",
+      "The pair holds the 1.08490 floor of the zone it is currently trading inside"
+     ],
+     "path": "Two or three failed pushes into the 1.09830-1.10875 three-touch band, with the 52-week close high of 1.10076 the practical objective and 1.1012 the intraday cap."
+    },
+    "upside_case": {
+     "probability_pct": 25,
+     "pair_target": "1.1150",
+     "conditions": [
+      "A hot 16 September UK CPI at 3.2% or above followed by an MPC split hardening to 5-4, forcing a 2026 BoE hike back into the pricing",
+      "The SNB hardening rather than softening its intervention sentence on 24 September",
+      "A durable Hormuz de-escalation collapsing NBP gas and removing the sterling terms-of-trade tax"
+     ]
+    },
+    "downside_case": {
+     "probability_pct": 25,
+     "pair_target": "1.0785",
+     "conditions": [
+      "16 September UK CPI at 2.7% or below with the MPC softening to 7-2 or 8-1, thinning the hawkish tail",
+      "The SNB dropping or softening the intervention language on 24 September (roughly 25% probability)",
+      "VIX above 20 on a Middle East headline, which hits both legs the same way"
+     ]
+    }
+   },
+   "path_expectation": "Expect a compression rather than a trend, with the resolution back-loaded into the 15-24 September window. The first fortnight should be a 1.0890-1.1010 chop: the pair is trading inside its nearest support band with 55-pip daily ranges, the 50-day average at 1.08821 is 40 pips below spot and acts as the pivot rather than as support, and there is no scheduled catalyst before 11 September capable of forcing a break. The first step is the 15-16 September UK labour market and CPI double-header, and it is genuinely two-sided — an energy-driven CPI upside surprise raises the BoE's hawkish tail and taxes UK real income simultaneously. The second and larger step is the 17-24 September sequence, where a priced BoE hold sets the tone and the SNB statement text is the only live document; our expectation is that the pair works into the 1.0983-1.10875 band in that window and stalls there rather than clearing it, because the 200-week average at 1.10452 sits inside the band and has capped 237 consecutive weeks. Pullback levels on the way up are the 50-day at 1.08821 and the 1.08490 zone floor, and a close below the latter for two sessions converts the compression into a downside resolution. Volatility should rise modestly from the current 6.11% 20-day realised as the event cluster lands — implied at 4.564% is already below realised and has further to travel — with the pattern best described as a rising wedge resolving in the third week of September rather than a directional trend.",
+   "conviction_ladder": {
+    "current": 2,
+    "increase_conditions": [
+     "The pair closes above 1.11969, clearing the entire first ten-touch band, while the MPC split hardens to 5-4 (raises conviction to 5)",
+     "20-day realised volatility falls back below 4.5% with VIX under 13, restoring an uncontested carry regime, and the SNB hardens its intervention language (raises conviction to 5)",
+     "Three consecutive daily closes above 1.10452, reclaiming the 200-week average for the first time in 237 weeks (raises conviction to 4)",
+     "16 September UK CPI at 3.2% or above and the 17 September vote split at 6-3 or better, with the pair holding above 1.0983 (raises conviction to 4)"
+    ],
+    "decrease_conditions": [
+     "The pair holds a 1.0890-1.1010 range through the 24 September SNB assessment with the intervention sentence retained and the differential unchanged at 375bp (decreases conviction to 3)",
+     "Two consecutive closes below 1.08490, removing the only support inside 193 pips (decreases conviction to 1)",
+     "The SNB drops the intervention sentence on 24 September and the pair closes below 1.0850 (decreases conviction to 1)",
+     "20-day realised volatility sustains above 9% or VIX closes above 25, at which point the 375bp carry no longer compensates (decreases conviction to 1)"
+    ]
+   },
+   "risk_reward": {
+    "base_case_payoff": "+78 pips (+0.71%) in spot from 1.09224 to 1.1010, plus roughly +34 pips of carry over a one-month hold — +112 pips (+1.03%) total return",
+    "downside_case_loss": "-137 pips (-1.25%) in spot to 1.0785, offset by roughly 34 pips of carry — -103 pips (-0.94%) total",
+    "risk_reward_ratio": "0.57:1 on spot alone (78/137); 1.09:1 including carry (112/103)",
+    "expected_value": "(0.50 × +78) + (0.25 × +228) + (0.25 × -137) = +66.8 pips in spot, plus 34 pips of carry = +101 pips, or +0.92% of notional over one month",
+    "asymmetry_assessment": "The spot distribution is unfavourable and the total-return distribution is marginally favourable, and that gap is the trade. The upside is capped by a three-touch band and a 237-week-unbroken 200-week average 113 to 123 pips overhead, while the nearest support floor is 73 pips below and the next real demand 193 pips below. On spot alone this is a 0.57:1 proposition and should not be taken; it is worth taking only because 375bp of differential turns a mediocre spot payoff into a positive-expectancy carry position."
+   }
+  },
+  "strategic": {
+   "net_stance": "Neutral",
+   "conviction": 2,
+   "overall_confidence": 54,
+   "weighted_score_calculation": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative)",
+     "stance_score": 1,
+     "confidence": 55,
+     "conf_adj_score": 0.55,
+     "weight": 0.27,
+     "weighted_contribution": 0.1485
+    },
+    {
+     "factor_number": 2,
+     "factor_name": "Inflation & Growth Dynamics",
+     "stance_score": 0,
+     "confidence": 52,
+     "conf_adj_score": 0,
+     "weight": 0.08,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "stance_score": 0,
+     "confidence": 52,
+     "conf_adj_score": 0,
+     "weight": 0.05,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 4,
+     "factor_name": "Flows & Positioning",
+     "stance_score": -1,
+     "confidence": 55,
+     "conf_adj_score": -0.55,
+     "weight": 0.06,
+     "weighted_contribution": -0.033
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance & ToT",
+     "stance_score": -1,
+     "confidence": 72,
+     "conf_adj_score": -0.72,
+     "weight": 0.19,
+     "weighted_contribution": -0.1368
+    },
+    {
+     "factor_number": 6,
+     "factor_name": "Guidance & Credibility",
+     "stance_score": 1,
+     "confidence": 52,
+     "conf_adj_score": 0.52,
+     "weight": 0.1,
+     "weighted_contribution": 0.052
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk & Geopolitics",
+     "stance_score": -1,
+     "confidence": 65,
+     "conf_adj_score": -0.65,
+     "weight": 0.05,
+     "weighted_contribution": -0.0325
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign Risk",
+     "stance_score": -1,
+     "confidence": 70,
+     "conf_adj_score": -0.7,
+     "weight": 0.1,
+     "weighted_contribution": -0.07
+    },
+    {
+     "factor_number": 9,
+     "factor_name": "Market Structure & Volatility",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.03,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.07,
+     "weighted_contribution": 0
+    }
+   ],
+   "net_weighted_score": -0.0718,
+   "score_interpretation": "A net score of -0.0718 sits inside the neutral band of -0.10 to +0.10, and the composition matters far more than the number. This is not ten indifferent factors: it is two large opposing blocs that nearly cancel. The carry-and-guidance bloc contributes +0.2005 — Policy & Rates at +0.1485 on a 375bp differential the quote leg cannot close, plus Guidance at +0.0520 on a central bank that has publicly committed to leaning against its own currency's strength. The structural bloc contributes -0.2723 — External Balance at -0.1368 on a 12.6 percentage point current account differential and an energy shock that taxes only the base leg, Fiscal at -0.0700 on a AA sovereign at 95.1% debt-to-GDP facing a dated Budget against a AAA sovereign at 37.6%, Event Risk at -0.0325 and Flows at -0.0330. Four factors score zero and each is a genuine two-sided assessment. The number is Neutral and it is applied mechanically, but it is Neutral with a bearish tilt of composition: the negative bloc is broader, its two largest components carry the highest confidences in the analysis at 72 and 70, and it is the side that compounds rather than decays. The tie is broken by whether the pair keeps collecting roughly 190bp of carry over six months — which is a question about realised volatility and about 28 October, not about the differential.",
+   "rationale": "At strategic weights the framework moves ten points of weight out of Inflation & Growth, Risk Appetite and USD Liquidity and into External Balance, Guidance and Fiscal, and on this pair those reallocations split rather than align. External Balance rises to 0.19 and is the second-largest contributor at -0.1368 with 72% confidence: Switzerland runs a current account of 9.77% of GDP with a CHF 974bn net international investment position worth roughly 120% of output and posted its largest trade surplus since 1950 in July, while Britain runs -2.84% with a goods deficit widening GBP 4.0bn to 7.6% of GDP and a services surplus that fell GBP 1.2bn in the same quarter — and UK front-month gas at 161-165 pence per therm against the Bank's own 136-pence conditioning assumption is a continuing income transfer out of the base leg with the heating season inside the window. Fiscal at 0.10 adds -0.0700 with 70% confidence, because the gilt market is already charging 184bp over Bunds — the widest since the 2022 mini-Budget — on a sovereign whose OBR headroom of GBP 9.9bn has plausibly been consumed by a 39bp year-on-year rise in yields, against a AAA counterparty funding at 0.31% under a constitutional debt brake. Against that, Policy & Rates holds 0.27 and stays Bullish: the plausible six-month range for the differential is 350-400bp, all of the compression risk sits on the sterling leg, and the pair still accrues roughly 190bp of carry, while Guidance adds +0.0520 because the SNB's asymmetric commitment is reinforced rather than weakened by a 15% Section 232 tariff on close to half of Swiss goods exports to the United States. The factors interact rather than merely summing: the same energy shock that widens Britain's deficit prevents the BoE from cutting, which preserves the carry that props the pair up, while worsening the fiscal arithmetic that the Budget must resolve. What is priced is a modest sterling discount — the cross-implied consensus, derived from GBP/USD medians of 1.33-1.36 and USD/CHF targets of 0.78-0.79, sits roughly 2-4% below spot — and what is not priced anywhere either dossier can find is the terms-of-trade channel as a separate additive negative, or the coincidence that the two fattest tails for this cross point the same way. The path of least resistance is a wide range in which the pair collects carry through September and October and then faces its resolution in the fortnight around 28 October and the 5 November Monetary Policy Report. Conviction is 2 rather than 3 because the score genuinely balances: the carry is real money and the structural deterioration is real too, and calling that a direction would be dishonest arithmetic.",
+   "g10_relative_ranking": "Strategically GBP/CHF falls sharply in the sterling complex. Against GBP/NOK — where Norway's 15.59%-of-GDP surplus is funded by the identical energy prices taxing Britain and the short pays 50bp of carry rather than costing 375bp — GBP/CHF is a materially worse expression of the same bearish sterling thesis, because here the fundamental view has to be paid for. Among franc crosses it ranks mid-table as a long: better than EUR/CHF on carry once the ECB completes its cycle, worse than AUD/CHF and NOK/CHF on both carry and the counterparty's external position. The cleanest statement of its ranking is that GBP/CHF is the sterling cross where the fundamental case and the carry case disagree most sharply, which places it below EUR/GBP and short GBP/NOK for expressing a bearish sterling view and above every other sterling cross for expressing a bullish one.",
+   "scenarios": {
+    "base_case": {
+     "probability_pct": 50,
+     "pair_target": "a 1.0700-1.1100 range, ending near 1.0900 at the six-month mark",
+     "timeframe": "1-6 months",
+     "conditions": [
+      "The 28 October Budget delivers rule-compliant consolidation and the gilt-Bund spread holds in a 175-190bp band rather than blowing out",
+      "The SNB holds at 0.00% at both the 24 September and 10 December assessments with the intervention language broadly intact",
+      "The BoE holds at 3.75% at the 5 November Monetary Policy Report and 17 December with the differential ending between 350bp and 400bp",
+      "NBP gas settles in a 130-150 pence range — elevated enough to sustain the drag but not escalating",
+      "20-day realised volatility stays below 8%, keeping the carry economic"
+     ],
+     "path": "Carry accrual through the autumn with the pair pinned under 1.10452, a Budget-window repricing, then stabilisation."
+    },
+    "upside_case": {
+     "probability_pct": 25,
+     "pair_target": "1.1240",
+     "conditions": [
+      "The BoE hikes to 4.00% at the 5 November Monetary Policy Report as the three standing hawks win a fourth vote, widening the differential to 400bp",
+      "A durable Hormuz reopening collapses NBP gas below 110 pence per therm while Bank Rate stays at 3.75% (assessed at roughly 20%)",
+      "The Budget is received as credibly consolidating and the gilt-Bund spread narrows below 150bp"
+     ]
+    },
+    "downside_case": {
+     "probability_pct": 25,
+     "pair_target": "1.0570",
+     "conditions": [
+      "The 28 October Budget fails to close the fiscal gap credibly and the 30-year gilt breaks 6.00%, activating the 2022-style correlation",
+      "A Hormuz re-escalation drives Brent above 100 dollars and NBP gas above 180 pence, hitting both legs the same way",
+      "Leveraged funds liquidate their 40,670-contract sterling net long, adding forced selling on top of fresh shorting"
+     ]
+    }
+   },
+   "path_expectation": "Expect a two-phase shape with the inflection dated, not a trend. Phase one runs from now to roughly mid-October and should be the pair's better window: the differential is static at 375bp, the carry accrues at roughly 34 pips a month, the September policy cluster resolves with two holds and the pair most plausibly probes but fails at the 1.09830-1.10875 band and the 200-week average at 1.10452. Phase two is the fortnight around 28 October and the 5 November Monetary Policy Report, and it is where the structural bloc gets its hearing — the Budget and its OBR forecast either validate or refute a 184bp gilt-Bund premium, and the base dossier's own path expectation for sterling is a 200-300 pip risk-premium repricing in that window. Between the two, the pair should grind with failed rallies into 1.0980-1.1010 as the market re-tests the top of the range. From November into February the picture bifurcates on a single variable: if the Budget is clean the pair reclaims 1.10452 and the 237-week cap breaks, which is a multi-year regime signal; if it is not, the pair loses 1.08490, has nothing until 1.07348, and the six-touch band at 1.05699-1.06724 becomes the objective. The pattern is best described as a coiled range resolving on a dated fiscal event rather than a V or an L, and the most important structural fact is that the declining 200-week average removes the ambiguity on its own — at the current -0.000215 weekly slope, and with spot in the base case's 1.0900-1.1010 area, the average and the price converge somewhere between 15 and 57 weeks, placing the test inside or just beyond this horizon regardless of what the fundamentals do. Volatility should rise through the window because a bias-adjusted 185.7-day implied near 5.6% is too low for a cross with two jump-prone legs whose jumps coincide.",
+   "conviction_ladder": {
+    "current": 2,
+    "increase_conditions": [
+     "The BoE hikes to 4.00% on 5 November and the pair closes above 1.11969, clearing the entire first ten-touch band with the gilt-Bund spread inside 150bp (raises conviction to 5)",
+     "A durable Hormuz reopening takes NBP gas below 110 pence while Bank Rate stays at 3.75% (raises conviction to 5)",
+     "The 28 October Budget is received as credibly consolidating and the pair records four consecutive weekly closes above the 200-week average at 1.10452 (raises conviction to 4)",
+     "The 5 November vote hardens to 5-4 for a hike, widening the differential toward 400bp (raises conviction to 4)"
+    ],
+    "decrease_conditions": [
+     "Either bloc breaks the balance decisively — the Budget produces a gilt-Bund spread outside 150-200bp, or the UK current account is confirmed better than -2.0% of GDP (decreases conviction to 3)",
+     "The pair sustains outside 1.0700-1.1100 for more than a month in either direction (decreases conviction to 3)",
+     "The pair closes below the six-touch 1.05699-1.06724 band, which would put it below the 200-day average at 1.06673 and end the 2026 uptrend outright (decreases conviction to 1)",
+     "UK private-sector regular pay falls below 2.6% while unemployment exceeds 5.0%, forcing a BoE cut and compressing the differential toward 300bp (decreases conviction to 1)"
+    ]
+   },
+   "risk_reward": {
+    "base_case_payoff": "-22 pips of spot but +222 pips of carry = +200 pips (+1.83%) total return over six months",
+    "downside_case_loss": "-352 pips of spot, +222 pips of carry = -130 pips (-1.19%) total",
+    "risk_reward_ratio": "1.54:1 on a total-return basis (200/130); on spot alone the base case is negative and the ratio is undefined",
+    "expected_value": "(0.50 × +200) + (0.25 × +540) + (0.25 × -130) = +202.5 pips (+1.85%) over six months on a total-return basis; stripping the carry out: (0.50 × -22) + (0.25 × +318) + (0.25 × -352) = -19.5 pips, essentially zero",
+    "asymmetry_assessment": "Mildly favourable, and entirely manufactured by the carry. The spot distribution is close to symmetric and slightly negative in expectation; the total-return distribution is positive because 375bp of differential accrues in every scenario including the bad one. The structural risk to that arithmetic is a coincident shock in which the franc receives a haven bid at the same moment sterling faces a fiscal and energy shock, which erases six months of carry in a fortnight."
+   }
+  },
+  "consensus_divergence": {
+   "bank_consensus_forecast": "Bank of America: carry trade thesis intact / uptrend has further to run, no explicit numeric pair target given, reported secondhand",
+   "bank_consensus_forecast_source": "Bank of America, reported secondhand via Exchange Rates UK (2026-07-14) and Currency News UK (2026-08-08); no primary BofA research note accessed and no explicit numeric target provided",
+   "our_tactical_view": "Bullish, base case 1.1010 by end-September",
+   "our_strategic_view": "Neutral, base case near 1.0900 at the six-month mark",
+   "divergence_direction": "above the bearish forecast-aggregator consensus on both horizons; below the BofA carry-continuation view on the strategic horizon",
+   "divergence_magnitude": "+130 to +290 pips above the bearish aggregator's 1.0475-1.0722 range; approximately in line to below BofA's unspecified continuation view",
+   "why_we_differ": "Two reasons, and they are different at each horizon. Tactically, the aggregator consensus reaches its bearish view by combining two single-leg calls without pricing the bilateral differential that connects them — bearish sterling on fiscal risk, which we largely share, and bullish the franc against the dollar on expected Fed easing, which is a dollar view with no bearing on this cross. What that combination drops is the 375bp gap and, critically, the fact that the counterparty central bank has conditioned its own three-year forecast on zero and stated twice since June that it will lean against franc strength. A short GBP/CHF pays away roughly 190bp over six months to hold a fundamentally correct view, and we can find no bearish forecast that charges itself for that. Strategically we differ from BofA in the opposite direction: we weigh the terms-of-trade channel at a 0.19 strategic weight where the carry framing gives it none, and no bank forecast in either dossier prices UK gas at 18-21% above the Bank's own conditioning assumption as a balance-of-payments negative rather than a rate positive.",
+   "payoff_if_right": "Tactically, avoiding a consensus short that would have paid away 34 pips a month while spot ground higher, and collecting roughly 101 pips of expected value over one month. Strategically, avoiding both errors: not shorting a positive-expectancy carry position on a fundamentally correct view, and not leveraging a long into a dated fiscal binary that the 94.7-day volatility tenor prices 0.19 points above a no-event bucket.",
+   "risk_if_wrong": "If the bearish consensus is right and the pair reaches 1.0722 by year-end, our strategic Neutral is wrong by roughly 180 pips of spot, cushioned to about 40 pips net by six months of carry. If BofA is right and the carry continuation runs into the ten-touch bands above 1.11, our strategic Neutral costs the upside — roughly 300 pips — and our tactical target of 1.1010 is 140 pips too conservative. The specific way we are wrong on the bearish side is a UK Budget misstep, which market commentary has previously identified as the trigger capable of taking sterling to a fresh all-time low against the franc."
+  },
+  "cross_horizon_consistency": {
+   "aligned": false,
+   "tactical_stance": "Bullish (+0.1814, conviction 2)",
+   "strategic_stance": "Neutral (-0.0718, conviction 2)",
+   "explanation": "The horizons are not aligned and the divergence is mechanistic rather than a hedge: four factors change stance between them and each change has an identifiable cause. The tactical Bullish is a bet on a differential that is scheduled to be unchanged and on a regime — compressed volatility, abundant dollars, an intact carry trade — that is time-limited by construction. The strategic Neutral is the recognition that a static 375bp differential stops generating new support and becomes a level, at which point the structural bloc asserts itself: a 12.6 percentage point current account differential, a AAA sovereign facing a AA one with a dated fiscal binary, a leveraged-fund long in the base against a real-money short in the quote, and an energy shock that taxes only the base leg through a heating season that falls inside the window. Inflation & Growth flips from Bearish to Neutral as the Swiss surge proves to be tariff front-running; Risk Appetite flips from Bullish to Neutral as a compressed regime becomes an unreliable six-month signal; Flows flips from Neutral to Bearish as the question changes from whether either leg is stretched to what happens if one has to liquidate; Event Risk flips from Neutral to Bearish as the Budget enters the window.",
+   "inflection_point": "The fortnight around 28 October 2026, when the Autumn Budget and its OBR forecast either validate or refute a 184bp gilt-Bund premium, followed by the 5 November Bank of England decision with its Monetary Policy Report — the first full forecast round afterwards and the point at which 2027 pay-settlement evidence begins to arrive. In price terms the inflection has a level as well as a date: the 200-week average at 1.10452 and the 1.08490 zone floor are the two boundaries, and the Budget window is the most likely occasion for one of them to break.",
+   "trading_implication": "The tactical carry view and the strategic structural view are complementary rather than contradictory, but they are not the same position held for different lengths of time. The tactical view has a natural expiry at the 5 November Monetary Policy Report rather than an indefinite roll, and it should be sized to survive a 55-pip ATR and stopped below the 1.08490 zone floor. The strategic view is a statement about a coincident tail on both legs — a haven bid on the franc arriving with an energy and fiscal shock on sterling — which the pair's shallow volatility contango from 4.564% to 4.920% charges nothing for, and it belongs in longer-dated convexity rather than in spot. Because the surface is in contango and not backwardation there is no event premium to decay and therefore no argument for waiting until after the September cluster resolves."
+  },
+  "forward_vs_spot": {
+   "current_spot": 1.09224,
+   "forward_1m": "-37 pips, outright 1.08854, -4.07% annualised",
+   "forward_3m": "-111 pips, outright 1.08113, -4.07% annualised",
+   "forward_6m": "-222 pips, outright 1.07002, -4.07% annualised",
+   "expected_rate_3m": "1.0950",
+   "expected_rate_6m": "1.0900",
+   "edge_3m": "+139 pips above the forward outright",
+   "edge_6m": "+200 pips above the forward outright"
+  }
+ },
+ "catalysts": [
+  {
+   "date": "2026-09-10",
+   "event": "ECB Governing Council decision with new staff macroeconomic projections",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Quote",
+   "rationale": "Not in this pair's gated calendar because the ECB is a third-party bank, sourced from the quote dossier rather than searched. A 25bp hike to a 2.50% deposit rate, roughly 97% priced, takes the EUR-CHF policy spread from 225bp to 250bp and drives the franc weaker broadly through the euro cross, lifting GBP/CHF via the quote leg while the sterling differential is static. Explicit confirmation that the cycle is finished would collapse the euro terminal premium and be pair-negative.",
+   "priced_in": "Partially",
+   "citations": [
+    11
+   ]
+  },
+  {
+   "date": "2026-09-15",
+   "event": "UK labour market report: unemployment, claimant count, average weekly earnings",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Base",
+   "rationale": "With unemployment at 4.9% and rising, payrolled employees down 210,000 on the year and private-sector regular pay at 2.8%, a further loosening removes the second-round-effects case that keeps three MPC members voting for 4.00%. On this cross that matters more than usual because the quote leg's rate is pinned at zero, so every basis point of sterling's dovish repricing is a basis point off the 375bp differential with no offset available from the franc side.",
+   "priced_in": "Partially",
+   "citations": []
+  },
+  {
+   "date": "2026-09-16",
+   "event": "UK August CPI, core CPI and services CPI",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "July printed 2.9% headline, 2.6% core and 3.4% services, and August carries genuine upside risk from gas at 18-21% above the Bank's July conditioning assumption and BRC shop price inflation at a two-year high of 1.5%. The bilateral ambiguity is sharp: an upside surprise revives the BoE's hawkish tail and widens the differential against a franc that cannot respond, which is pair-bullish, while simultaneously deepening the real-income and terms-of-trade tax that is the pair's strongest bearish leg. The largest single down day of the entire six-month price window — 19 August, a 157-pip range and a 1.0848 close — was the July CPI release, so this pair has demonstrated an asymmetric negative reaction function to UK inflation prints.",
+   "priced_in": "Partially",
+   "citations": []
+  },
+  {
+   "date": "2026-09-17",
+   "event": "Bank of England MPC decision and minutes with the annual gilt-reduction vote; Swiss trade balance for August the same morning",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Both",
+   "rationale": "About +7bp is priced with 56 of 64 economists expecting no change all year, so the rate outcome is discounted and the information is in the vote split and the QT decision — a move from 6-3 to 7-2 thins the hawkish tail that supports the differential, while 5-4 would widen it. The Swiss trade release lands the same morning: a second consecutive surplus near the CHF 8.1bn July record would push the balance-of-payments story into a narrative currently dominated by carry, and both legs therefore report on the same day.",
+   "priced_in": "Partially",
+   "citations": [
+    8
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "event": "Swiss National Bank quarterly monetary policy assessment with a refreshed conditional inflation forecast",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Quote",
+   "rationale": "A hold at 0.00% is effectively certain, so the entire content is in the language: the June statement's increased willingness to intervene against rapid franc appreciation was written when the franc was under upward pressure, and after six months of depreciation that pressure has abated. Dropping or softening the sentence would remove the written cap on the quote leg and is the single most pair-negative outcome available inside the tactical window, worth an estimated 100-150 pips.",
+   "priced_in": "Partially",
+   "citations": []
+  },
+  {
+   "date": "2026-09-27",
+   "event": "Swiss federal referendum on constitutionally entrenching neutrality",
+   "expected_impact": "Neutral",
+   "which_leg_affected": "Quote",
+   "rationale": "Passage would bar Switzerland from joining sanctions against belligerent states absent a UN Security Council mandate and constrain NATO cooperation, forcing a re-examination of the framework under which CHF 8.5bn of Russian-linked financial assets are frozen. Late-August Tamedia polling at 62% against and 36% in favour makes rejection the strong base case and the modal outcome a non-event; the roughly 20% passage tail is ambiguous for the franc.",
+   "priced_in": "Not priced",
+   "citations": []
+  },
+  {
+   "date": "2026-10-28",
+   "event": "UK Autumn Budget with accompanying OBR economic and fiscal forecast",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Base",
+   "rationale": "The single most consequential dated event for this cross over the horizon, and a fiscal rather than a monetary event so it does not appear in the gated calendar. The Chancellor must satisfy fiscal rules whose March headroom of GBP 9.9bn has plausibly been consumed by a 39bp year-on-year rise in the 10-year at roughly GBP 2.5bn of annual debt service per 0.25 percentage point, while the gilt market already charges 184bp over Bunds. The bilateral transmission is the regime-dependent correlation: sterling crosses normally track the 30-year gilt yield positively, but the sign flips in a fiscal event, and the counterparty here is a AAA sovereign funding at 0.31%.",
+   "priced_in": "Not priced",
+   "citations": [
+    19
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "event": "Bank of England MPC decision with Monetary Policy Report",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "It is the first full forecast round after the Budget and the meeting at which the three standing hawks vote again with 2027 pay-settlement evidence beginning to arrive; the base dossier assesses a hike here at 25%. Because the Report conditions its forecasts on market-implied rates, its published inflation path is an implicit verdict on whether the market's 2027 timing is right — and on this cross any dovish resolution compresses the 375bp differential with no possible offset from a franc leg pinned at zero.",
+   "priced_in": "Not priced",
+   "citations": []
+  },
+  {
+   "date": "2026-12-10",
+   "event": "Swiss National Bank quarterly monetary policy assessment with a refreshed conditional inflation forecast",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Quote",
+   "rationale": "A hold at 0.00% is near-certain and the variables are the intervention language and any revision to the 2027-2028 forecast path. It is also the last scheduled opportunity inside the horizon for the SNB to respond to a franc that has spent the autumn weakening — a hardened intervention sentence would be pair-supportive, its removal pair-negative, and a downward revision to the inflation path would reopen the negative-rate tail the quote dossier puts at 10-15%.",
+   "priced_in": "Partially",
+   "citations": []
+  },
+  {
+   "date": "2026-12-17",
+   "event": "Bank of England MPC decision",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "No projection round attached, and the meeting at which the Committee expects to have learned about 2027 pay settlements — the input the July minutes name as decisive. If private-sector regular pay is still near 2.8% and unemployment above 5.0%, the dovish resolution of a genuinely symmetric reaction function lands here, compressing the differential toward 350bp. It falls at the far edge of the strategic horizon and is the last scheduled sterling policy event inside it.",
+   "priced_in": "Not priced",
+   "citations": []
+  },
+  {
+   "date": "2026-12-31",
+   "event": "Year-end dollar funding turn",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Both",
+   "rationale": "The largest recurring dollar-funding squeeze in the calendar and the most reliable seasonal source of cross-currency basis widening. It is pair-negative through two channels at once: a widening basis forces reduction of the CHF-funded carry positions that support this cross, and London's role as a large dollar-borrowing centre makes UK institutions the natural stress point, so the sterling leg is the more exposed. With the three-month EUR/USD basis last observed at only -16 to -20bp in mid-May 2026 — stale and flagged — there is more room than usual for it to widen.",
+   "priced_in": "Partially",
+   "citations": [
+    11
+   ]
+  }
+ ],
+ "invalidators": [
+  {
+   "condition": "GBP/CHF records two consecutive daily closes below 1.08490, the floor of the two-touch band spot is currently trading inside",
+   "new_stance": "Tactically Neutral",
+   "mechanism": "That band is the pair's only support inside 193 pips and its loss removes the systematic-flow bid that the ascending 50/100/200-day stack currently supplies, leaving nothing until the four-touch 1.07230-1.07348 zone. This level is pair-specific rather than recycled from either single-leg dossier.",
+   "monitor_indicator": "GBP/CHF daily close versus 1.08490",
+   "monitor_frequency": "daily",
+   "probability_pct": 30
+  },
+  {
+   "condition": "The Swiss National Bank drops or materially softens the 'increased willingness to intervene' sentence at the 24 September or 10 December assessment",
+   "new_stance": "Tactically Neutral and Strategically Bearish",
+   "mechanism": "Guidance contributes +0.0385 tactically and +0.0520 strategically to this pair entirely on the strength of an asymmetric commitment to lean against franc appreciation — removing it converts a written call option against franc strength into a two-way market, worth an estimated 100-150 pips of EUR/CHF downside on the day, reading across to this cross with higher beta given the wider differential and thinner support.",
+   "monitor_indicator": "SNB assessment statement text for the phrase 'increased willingness to intervene'",
+   "monitor_frequency": "quarterly, at the 24 September and 10 December assessments",
+   "probability_pct": 25
+  },
+  {
+   "condition": "UK front-month NBP gas falls below 110 pence per therm and holds for ten consecutive sessions, from 161-165 pence",
+   "new_stance": "Strategically Bullish",
+   "mechanism": "External Balance at a 0.19 weight and 72% confidence is the largest single negative in the strategic score and it depends entirely on the energy price. A fall of that magnitude would occur only on a credible Hormuz reopening, which would simultaneously improve the UK current account, leave Bank Rate at 3.75%, and remove part of the franc's haven and gold bid.",
+   "monitor_indicator": "ICE UK NBP front-month futures",
+   "monitor_frequency": "daily",
+   "probability_pct": 20
+  },
+  {
+   "condition": "20-day realised volatility on GBP/CHF sustains above 9% while the pair holds below 1.10452",
+   "new_stance": "Tactically Neutral regardless of the differential",
+   "mechanism": "A 375bp carry against 9% realised volatility gives a carry-to-vol ratio of 0.42 rather than the current 0.61-0.79, below the level at which either dossier's cross-section rates the trade attractive — the trade is the ratio, not the differential, and the ratio is a property of this cross alone.",
+   "monitor_indicator": "20-day realised volatility from the gated store against ATR(14) of 55 pips",
+   "monitor_frequency": "daily",
+   "probability_pct": 25
+  },
+  {
+   "condition": "The gilt-Bund 10-year spread widens above 200bp from approximately 184bp into or after the 28 October Budget while the Confederation 10-year holds near 0.31%",
+   "new_stance": "Both horizons Bearish",
+   "mechanism": "On this cross the sovereign differential is not a background factor: it joins a 95.1%-of-GDP AA sovereign directly to a 37.6% AAA one, and a widening premium is the mechanism by which the currency market finally pays what the gilt market has been charging, with no offsetting doubt on the quote side to absorb it.",
+   "monitor_indicator": "10-year gilt less 10-year Bund",
+   "monitor_frequency": "daily",
+   "probability_pct": 22
+  },
+  {
+   "condition": "UK private-sector regular pay re-accelerates above 3.2% year-on-year from 2.8% for two consecutive releases with services CPI back above 3.6%",
+   "new_stance": "Strategically Bullish",
+   "mechanism": "Would convert the BoE's 6-3 split into a hiking majority and widen the bilateral differential toward 400bp against a franc leg that has no capacity to respond — the only route by which the 375bp gap grows rather than compresses.",
+   "monitor_indicator": "ONS average weekly earnings, private-sector regular pay 3m/yoy; ONS services CPI",
+   "monitor_frequency": "monthly",
+   "probability_pct": 15
+  },
+  {
+   "condition": "GBP/CHF records four consecutive weekly closes above the 200-week average at 1.10452, the first since 2022 after 237 weeks below",
+   "new_stance": "Raises strategic conviction from 2 to 4 and shifts the strategic stance toward Bullish",
+   "mechanism": "That average is the structural cap that has defined this cross for four and a half years and its reclaim would signal the market treating the UK fiscal premium as immaterial to the cross — a level that is a property of the pair and appears in neither single-leg dossier.",
+   "monitor_indicator": "weekly close versus 1.10452, adjusting for the -0.000215 weekly slope",
+   "monitor_frequency": "weekly",
+   "probability_pct": 18
+  }
+ ],
+ "signposts": [
+  {
+   "indicator": "GBP/CHF versus the 200-week moving average",
+   "current_level": "spot 1.09224 against a 200-week average of 1.10452, declining at 0.000215/week; 237 weeks since the last close above",
+   "confirms_if": "four consecutive weekly closes above 1.10452",
+   "invalidates_if": "a weekly close below 1.06673 (the 200-day average), which would end the 2026 uptrend and put the six-touch 1.05699-1.06724 band in play",
+   "bilateral_importance": "This level exists only for this cross and matters more here than for either currency alone, because it is the single structural reference that has capped every GBP/CHF advance for four and a half years while the two legs' own long-term averages tell unrelated stories — sterling has never closed below its 200-week and the franc's other crosses sit below theirs for 199 to 376 weeks. It also resolves on its own within 15 to 57 weeks even if price does nothing.",
+   "source": "gated price store, movingAverages.sma200w",
+   "frequency": "weekly"
+  },
+  {
+   "indicator": "Bilateral policy differential (Bank Rate less SNB policy rate)",
+   "current_level": "+375bp — Bank Rate 3.75% (as of 2026-08-28) against SNB policy rate 0.00% (as of 2026-09-01)",
+   "confirms_if": "unchanged at 375bp or wider through the 5 November Monetary Policy Report, keeping the carry-to-vol ratio above 0.6",
+   "invalidates_if": "compression below 350bp, which requires a BoE cut since the franc leg cannot move",
+   "bilateral_importance": "This is the only number in the analysis that pays the position rather than merely describing it, and its asymmetry is unique to this pair — the low-yield leg has conditioned its own three-year inflation forecast on staying at zero, so 100% of the compression risk sits on the base leg.",
+   "source": "Bank of England; Swiss National Bank",
+   "frequency": "at each scheduled decision — BoE 17 September, 5 November, 17 December; SNB 24 September, 10 December"
+  },
+  {
+   "indicator": "GBP/CHF 20-day realised volatility against the carry",
+   "current_level": "6.11% on a 20-day basis against 4.78% on a 60-day basis, giving a carry-to-vol ratio of 0.61 on the 20-day measure against 0.78 on the 60-day",
+   "confirms_if": "20-day realised falls back below 5.0%, restoring a ratio above 0.75",
+   "invalidates_if": "20-day realised sustains above 9.0%, taking the ratio below 0.42",
+   "bilateral_importance": "The trade on this cross is the ratio, not the differential, and the ratio is a property of the pair rather than of either leg. Both dossiers identify rising realised volatility — not a policy change — as the mechanism by which a franc-funded carry regime becomes uneconomic, and GBP/CHF is where that mechanism bites hardest.",
+   "source": "gated price store, realisedVol",
+   "frequency": "daily"
+  },
+  {
+   "indicator": "UK front-month NBP natural gas",
+   "current_level": "161.02 pence per therm on 26 August and around 165 on 28 August — 18-21% above the Bank of England's 136-pence July conditioning assumption, roughly +43% year-on-year",
+   "confirms_if": "sustained above 140 pence through October, confirming the terms-of-trade shock is structural rather than seasonal",
+   "invalidates_if": "below 110 pence for ten consecutive sessions on a Hormuz reopening",
+   "bilateral_importance": "This is the only commodity that is genuinely asymmetric between the two legs. Britain must import it and prices its household cap off it; Switzerland barely uses it and runs a 9.77%-of-GDP surplus that absorbs the cost — it is the channel through which the 2026 energy shock becomes a sterling-specific rather than a shared cost.",
+   "source": "https://tradingeconomics.com/commodity/uk-natural-gas",
+   "frequency": "daily"
+  },
+  {
+   "indicator": "10-year gilt-Bund spread as the proxy for the bilateral sovereign premium",
+   "current_level": "approximately 184bp — gilt 5.16% at the 28 August close against a Bund of 3.32% — the widest since the 2022 mini-Budget and essentially unchanged from 183bp at 31 July",
+   "confirms_if": "widening above 200bp into 28 October",
+   "invalidates_if": "narrowing below 150bp and holding for two weeks after the Budget",
+   "bilateral_importance": "On most sterling crosses this spread is one input among many; on GBP/CHF it is the cleanest available proxy for the sovereign-quality gap, because the counterparty is a AAA sovereign at 37.6% debt-to-GDP funding at 0.31% with negligible supply — there is no offsetting doubt on the quote side, so the entire premium transmits.",
+   "source": "https://www.worldgovernmentbonds.com/spread/united-kingdom-10-years-vs-germany-10-years/",
+   "frequency": "daily"
+  },
+  {
+   "indicator": "SNB assessment statement text — the intervention sentence",
+   "current_level": "retained as of 18 June 2026 and reaffirmed 8 July — increased willingness to intervene against a rapid and excessive appreciation of the franc, with no corresponding commitment against depreciation",
+   "confirms_if": "retained or hardened at the 24 September and 10 December assessments",
+   "invalidates_if": "dropped, or any reference to countering franc appreciation removed",
+   "bilateral_importance": "This is a written option on the quote leg, and it is worth more on GBP/CHF than on any other franc cross because this pair carries the widest differential and therefore the most to lose from a franc squeeze. Nothing equivalent exists on the sterling side, so the guidance asymmetry is entirely one-sided and entirely unpriced in the volatility surface.",
+   "source": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260618",
+   "frequency": "quarterly"
+  },
+  {
+   "indicator": "Combined CFTC net positioning, both legs",
+   "current_level": "GBP non-commercial net -44,500 contracts (28 August release, roughly 30th percentile) against CHF all-speculator net -19.9k (48th percentile); on the 11 August disaggregated tranche, GBP leveraged funds +40,670 long against CHF leveraged funds -11,432 short",
+   "confirms_if": "sterling shorts continue covering toward -25,000 while franc shorts rebuild beyond -25k, amplifying the pair signal in both legs at once",
+   "invalidates_if": "sterling leveraged-fund net longs exceed 55,000 contracts into the Budget, converting the base leg into pure liquidation fuel; or franc all-speculator net covers to better than -12,000, signalling the market has abandoned the franc-funded carry trade",
+   "bilateral_importance": "The single-leg reports are individually unremarkable and the combination is not. Fast money is long the base and short the quote — which amplifies — while real money is short both, which mutes. That taxonomy split determines whether a Budget move in this pair is absorbed or accelerated.",
+   "source": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+   "frequency": "weekly, Friday release covering the prior Tuesday"
+  }
+ ],
+ "assumptions": [
+  "Price payload quoted verbatim: dataPoints 130; dateRange 2026-03-06 to 2026-09-03; spot 1.09224; spotDate 2026-09-03; computationRange 2007-12-21 to 2026-09-03 (4,880 weekday bars); pipSize 0.0001; weekendBarsDropped 0.",
+  "Spot date gap: spotDate is 2026-09-03, two days after the 2026-09-01 valuation date of both dossiers. The gap is disclosed rather than reconciled, and every level, target, pip figure, percentage move and distance-to-average in this report is computed against the payload spot of 1.09224. No fresher web quote has been substituted anywhere.",
+  "Moving averages are simple averages of trading-day closes, computed by the gated store over the whole stored history (computationRange), not over the 130 bars shown. The store is append-only and weekend-stripped on ingest. Zone distances are measured to zone midpoints.",
+  "Implied volatility is an estimate, not a quote. GBP/CHF has no listed option, so the 4.564%/4.753%/4.920% figures come from the variance identity fed a realised correlation of 0.7497 standing in for an unobservable implied one, documented to understate by 8.7%-17.8% against direct Eurex quotes (14.4% median bias across seventeen pairs). IV percentile and the 25-delta risk reversal are documented gaps.",
+  "The funding premium is a composite, not a policy differential. The gated block's -406.8bp annualised roll is computed on the CHF-base orientation of the listed futures pair; by covered interest parity it decomposes into the 375bp interest differential plus roughly 32bp of cross-currency basis, and the two cannot be separated without an OIS curve. Forward points and outrights are derived, not dealer quotes.",
+  "Sovereign yields are stale and flagged. Both 10-year legs in the payload — gilt 4.796% and Confederation 0.31% — are monthly series as of 2026-06-01, roughly 92 days old and in breach of both freshness windows. Where a fresher gilt level was required, the base dossier's 5.16% close of 28 August is used and identified as such. No Swiss 2-year yield could be sourced.",
+  "Valuation is a REER-relative proxy, not PPP. The 9.56% sterling-over-franc real-effective gap derives from BIS REER of 111.41 (GBP) and 101.69 (CHF) for June 2026, roughly 63 days old; it measures relative real standing, not absolute fair value, and the franc percentile is computed on a 30-month window only.",
+  "Bilateral trade is used as supplied. The IMF DOTS mirror asymmetry (Swiss-reported exports to the UK of USD 22.6bn against UK-reported imports of USD 12.8bn) is characteristic of non-monetary gold and re-export routing rather than a data error, so the analysis leans on the UK-reported bilateral balance of -USD 3.5bn and on the aggregate current-account differential. Bilateral investment stocks were researched separately (UK DBT factsheets, end-2023/end-2024 vintages).",
+  "Positioning vintages: headline CFTC nets for both legs are from the 28 August release covering data to 25 August. Disaggregated detail on both legs is cached to 11 August and 21 days stale; the two sets come from different CFTC report taxonomies and are not directly comparable. No pair-specific positioning series exists for GBP/CHF.",
+  "Weight adjustments: seven factors were adjusted from default, each within the ±0.05 limit, summing to exactly 1.00 on both horizons. Factor 10 was cut to the limit of the non-USD-cross guidance because a Fed repricing that damages GBP/USD is close to neutral for GBP/CHF.",
+  "Scoring mechanics and pass discipline: net_stance was derived from net_weighted_score by the stated threshold rule and applied mechanically. All ten factor stances, confidences, evidence types, weights, weighted contributions, score interpretations, rationales and G10 rankings are carried through verbatim from the settled first-pass verdict, which scored them without the price payload by design; the price data's qualification of the tactical Bullish is stated as a published disagreement rather than a re-score.",
+  "Scenario and invalidator probabilities are analyst judgements calibrated to the factor analysis and to the payload's realised volatility and zone structure; they are not derived from options-implied distributions, which are unavailable for this cross.",
+  "Consensus caveat: no GBP/CHF forecast from a primary bank research venue could be sourced. The bearish consensus figures cited are from a forecast aggregator describing a six-provider survey, not from named houses; the one named bank view (Bank of America) is reported at second hand and its numeric target is not stated. The cross-implied 1.04-1.07 range is a derivation from the two dossiers' single-leg forecast sets and inherits both legs' error."
+ ],
+ "complete_citations": [
+  {
+   "id": 1,
+   "title": "Pound-Franc Forecast: Carry Trade Keeps GBP/CHF above 1.09",
+   "publisher": "Currency News UK",
+   "url": "https://www.currencynews.co.uk/forecast/20260808-46772_pound-franc-forecast-carry-trade-keeps-gbp-chf-above-1-09.html",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 2,
+   "title": "Pound-to-Franc Carry Trade Still Has Room To Run – Bank Of America Forecast",
+   "publisher": "Exchange Rates UK",
+   "url": "https://www.exchangerates.org.uk/news/46509/2026-07-14-pound-to-franc-carry-trade-still-has-room-to-run-bank-of-america-forecast.html",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 3,
+   "title": "Pound to Swiss Franc Forecast: GBP/CHF Expected to Reach 1.0673",
+   "publisher": "Exchange Rates UK",
+   "url": "https://www.exchangerates.org.uk/currency-forecasts/pound-to-swiss-franc-forecast",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 4,
+   "title": "Pound Sterling (GBP) Forecasts & Predictions 2026, 2027",
+   "publisher": "Exchange Rates UK",
+   "url": "https://www.exchangerates.org.uk/currency-forecasts/pound-sterling-forecast",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 5,
+   "title": "Swiss Franc to Pound Forecast 2026",
+   "publisher": "Exchange Rates UK",
+   "url": "https://www.exchangerates.org.uk/currency-forecasts/swiss-franc-to-pound-forecast",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 6,
+   "title": "Pound Sterling/Swiss Franc Forecast 2026-2030 (GBP/CHF)",
+   "publisher": "Traders Union",
+   "url": "https://tradersunion.com/currencies/forecast/gbp-chf/long-term-forecast/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 7,
+   "title": "GBPCHF — Technical Analysis",
+   "publisher": "Investtech",
+   "url": "https://www.investtech.com/main/market.php?CompanyID=99300075",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 8,
+   "title": "GBP/CHF Trade Ideas",
+   "publisher": "TradingView",
+   "url": "https://www.tradingview.com/symbols/GBPCHF/ideas/?video=yes",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 9,
+   "title": "GBP CHF Technical Analysis",
+   "publisher": "Investing.com",
+   "url": "https://www.investing.com/currencies/gbp-chf-technical",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 10,
+   "title": "GBP/CHF Forecast 24/04: Carry Trade Supports Upside",
+   "publisher": "DailyForex",
+   "url": "https://www.dailyforex.com/forex-technical-analysis/2026/04/gbpchf-forex-forecast-24-april-2026/244375",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 11,
+   "title": "Swiss Franc Gains Favor as Funding Currency as Yen Intervention Risk Looms, ING Says",
+   "publisher": "Stockpil",
+   "url": "https://stockpil.com/swiss-franc-funding-currency-ing",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 12,
+   "title": "The Swiss Franc (CHF) Carry Trade using Margin Lending",
+   "publisher": "Saxo",
+   "url": "https://www.home.saxo/en-sg/content/articles/margin-lending/copy-of-the-swiss-franc-chf-carry-trade-using-margin-lending-30032026",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 13,
+   "title": "GBP to CHF 2026 Forecasts & Latest Rates",
+   "publisher": "BestExchangeRates",
+   "url": "https://bestexchangerates.com/forecasts/gbp-to-chf-forecast/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 14,
+   "title": "Switzerland – Trade and Investment Factsheet, 14 May 2026",
+   "publisher": "UK Department for Business and Trade",
+   "url": "https://assets.publishing.service.gov.uk/media/6a01f6d9cd2e0e8b5b20b407/switzerland-trade-and-investment-factsheet-2026-05-14.pdf",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 15,
+   "title": "Switzerland – Trade and Investment Factsheet, 20 September 2024 (FDI stock series)",
+   "publisher": "UK Department for Business and Trade",
+   "url": "https://assets.publishing.service.gov.uk/media/66e9467f10f8726dc23aa246/switzerland-trade-and-investment-factsheet-2024-09-20.pdf",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 16,
+   "title": "Switzerland – Trade and Investment Factsheet, 31 October 2025",
+   "publisher": "UK Department for Business and Trade",
+   "url": "https://assets.publishing.service.gov.uk/media/69021ad8e6e3290939a1d113/switzerland-trade-and-investment-factsheet-2025-10-31.pdf",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 17,
+   "title": "Agreement between Switzerland and the United Kingdom on Mutual Recognition in Financial Services",
+   "publisher": "Lexology",
+   "url": "https://www.lexology.com/library/detail.aspx?g=a3b9e566-411f-433a-916c-048d9e0553af",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 18,
+   "title": "CHF/GBP exchange rate and chart (GBP/CHF channel and trade-idea commentary)",
+   "publisher": "TradingView",
+   "url": "https://www.tradingview.com/symbols/CHFGBP/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 19,
+   "title": "GBP to CHF Forecast 2025 / Early 2026",
+   "publisher": "Key Currency",
+   "url": "https://www.keycurrency.co.uk/pound-to-swiss-franc-forecast/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 20,
+   "title": "GBP/CHF Forecast Currency Price & Rate",
+   "publisher": "PandaForecast",
+   "url": "https://pandaforecast.com/forex/gbpchf/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 21,
+   "title": "GBPCHF Technical Analysis",
+   "publisher": "ActionForex",
+   "url": "https://www.actionforex.com/contributors/technical-analysis/587636-gbpchf-technical-analysis/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 22,
+   "title": "Direction of Trade Statistics (DOTS), bilateral goods flows 2024",
+   "publisher": "International Monetary Fund",
+   "url": "https://data.imf.org/en/datasets/IMF.STA:DOT",
+   "date_accessed": "2026-09-04"
+  }
+ ]
+}

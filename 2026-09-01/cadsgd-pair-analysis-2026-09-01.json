@@ -1,0 +1,1577 @@
+{
+ "metadata": {
+  "pair": "CADSGD",
+  "base_currency": "CAD",
+  "quote_currency": "SGD",
+  "valuation_date": "2026-09-01",
+  "framework_version": "2.0",
+  "base_dossier_date": "2026-08-28",
+  "quote_dossier_date": "2026-08-31"
+ },
+ "pair_convention": {
+  "spot_reference": "CAD/SGD 0.9187",
+  "spot_explanation": "CAD/SGD at 0.9187 means 1 Canadian dollar buys 0.9187 Singapore dollars. A rising pair means CAD is strengthening against SGD; a falling pair means SGD is strengthening against CAD. Every level, target and distance in this report is anchored to the payload spot of 0.9187 at spotDate 2026-09-03.",
+  "bullish_means": "pair RISES (CAD strengthens vs SGD)",
+  "bearish_means": "pair FALLS (CAD weakens vs SGD)",
+  "base_dossier_tactical_stance": "Neutral CAD tactically (weighted score +0.001, conviction 2), mildly Bearish CAD strategically (-0.103, conviction 2)",
+  "quote_dossier_tactical_stance": "Bullish SGD tactically (+0.2307, conviction 2) and strategically (+0.3904, conviction 3); Bullish SGD in that dossier's inverted convention is bearish CAD/SGD"
+ },
+ "executive_summary": "CAD/SGD trades at 0.9187 (gated store close, 2026-09-03), meaning one Canadian dollar buys 0.9187 Singapore dollars; a rising pair is Canadian dollar strength and a falling pair is Singapore dollar strength. The pair has risen 0.48% over one month but fallen 0.49% over three, 2.03% over six and 1.03% over twelve, leaving spot at the 29th percentile of its 52-week closing range of 0.90956-0.94143 and 4.58% below a 200-week average at 0.96281 that has not been closed above for 206 consecutive weeks. The dominant bilateral narrative is a divergence of policy mechanism rather than of policy rate: Canada has a rate the market thinks will rise and a central bank that says otherwise, while Singapore has no rate at all and an exchange-rate band that appreciates mechanically at an estimated 1.25% a year and may be steepened again in October. That mechanism is what neither standalone dossier captures - the base dossier scores itself Neutral tactically and mildly Bearish CAD strategically, the quote dossier scores itself Bullish SGD on both horizons, and the cross is where a 2.25% policy rate against a 1.4028% money-market proxy gives the pair roughly +84.7bp of positive carry while the band takes roughly 1.25% a year back out of it. The two other genuinely bilateral findings both cut against the pair's carry advantage: Brent near US$90-93 is a revenue transfer to a petro-exporter and an import-cost shock to a net crude importer, which is why Factor 5 is the pair's largest applied strategic weight at 0.19 and nonetheless nets to exactly zero; and positioning is crowded on both legs of the short - a 131,035-contract speculative CAD short against an S$NEER estimated 1.7% above its band midpoint - which is the strongest argument against sizing the view aggressively. The settled verdict is Bearish tactically at conviction 2 (score -0.1296) and Bearish strategically at conviction 3 (score -0.3010), and the price payload broadly supports it structurally while contradicting it over the last four weeks: the pair is in a bearish 50<100<200 moving-average stack 4.58% under a declining 200-week average, but it has just printed a higher high at 0.92395 and sits above its 50-day, so the tactical entry is poor at spot and materially better into the eight-touch 0.9209-0.9263 band. The caveat that matters most is implementational rather than analytical - CAD/SGD has no listed option and no listed future on the quote leg, so none of this event risk can be owned as convexity, and position sizing rather than instrument selection is the binding constraint.",
+ "market_context": {
+  "spot": 0.9187,
+  "performance_1m": "+0.48%",
+  "performance_3m": "-0.49%",
+  "performance_6m": "-2.03%",
+  "performance_1y": "-1.03%",
+  "range_52w_low": 0.90956,
+  "range_52w_high": 0.94143,
+  "range_52w_percentile": 29,
+  "valuation_assessment": "There is no pair-level PPP series for CAD/SGD, so valuation is constructed from the two legs' BIS real effective exchange rates on the June 2026 broad real basis, a relative-REER proxy rather than a purchasing-power calculation. Canada's REER is 95.71, the second cheapest in the G10+SGD set behind the yen, while Singapore's is 114.28, the second most expensive behind the Australian dollar. The base dossier expresses that gap as CAD being 16.25% cheap against SGD; the quote dossier expresses the same gap in cross terms as a REER-implied CAD/SGD of 1.09566 against a then-spot of 0.91762, roughly 19.4%. Neither figure is a fair-value target because a permanently appreciating policy band mechanically produces a permanently rising real effective rate for the quote currency. Canada's REER sits at an estimated 15th percentile and is down 3.41 points over twelve months, while Singapore's sits at the 33rd percentile and is down only 0.07 points. The pair is cheap in level and neutral in momentum, and the cheapness has persisted without resolving; spot at the 29th closing percentile says the market is pricing continuation of the structural gap rather than convergence.",
+  "positioning": {
+   "base_cftc_net": "Combined speculative net short 131,035 contracts (leveraged funds -72,092, asset managers -58,943) at 2026-08-25, dealers net long 124,930, open interest 329,544",
+   "base_cftc_percentile": 90,
+   "quote_cftc_net": "No CFTC series exists; proxy is estimated S$NEER deviation ~1.7% above band midpoint (2026-08-12), within a 1.40-1.90% expected range",
+   "quote_cftc_percentile": 80,
+   "net_pair_implication": "Netted for the cross, specs are short the base currency and implicitly long the quote currency, so the short CAD/SGD trade is crowded on both sides. A 131,035-contract residual short is a cushion under the pair, and a band deviation with perhaps 30bp of estimated trade-weighted headroom leaves the quote leg little room to be bought further without provoking its own central bank.",
+   "crowding_assessment": "Pair trade crowded on both sides of the short CAD/SGD expression"
+  },
+  "pair_technicals": {
+   "trend_regime": "trending_down",
+   "support_levels": [
+    0.9137,
+    0.91,
+    0.90792,
+    0.9
+   ],
+   "resistance_levels": [
+    0.9209,
+    0.9303,
+    0.94149,
+    0.9509,
+    0.96126,
+    0.97925,
+    0.99097
+   ],
+   "key_moving_averages": "50-day 0.91612, 100-day 0.92100, 200-day 0.92581 - a bearish 50<100<200 configuration; spot 0.9187 is 25.8 pips above the 50-day, 23.0 pips below the 100-day and 71.1 pips below the 200-day. The 200-week average at 0.96281 has not been closed above in 206 consecutive weeks and is declining 7.5 pips a week.",
+   "chart_pattern": "Downtrend with a stalling counter-trend bounce; TradingView's aggregated moving-average rating reads 'strong sell' with a neutral oscillator count, and Investing.com's daily read is 'Strong Sell' with twelve sell signals against zero buy signals across its moving-average set.",
+   "psychological_levels": [
+    0.92,
+    0.91,
+    0.9
+   ]
+  },
+  "pair_volatility": {
+   "iv_1m": null,
+   "iv_3m": null,
+   "iv_percentile": null,
+   "rv_1m": 2.75,
+   "rv_vs_iv": "Implied volatility is permanently unavailable because neither non-USD leg has a listed FX option producing a cross surface; realised volatility of 2.75% (20d) and 2.90% (60d) is below both dollar legs' own realised volatility (USD/CAD 4.6%/4.01%, USD/SGD 3.35%/3.00%), evidence the two dollar legs are strongly positively correlated.",
+   "risk_reversals": "Unavailable for the cross; for reference only, USD/CAD carries a 3M 25-delta risk reversal of +0.113%, and USD/SGD carries no surface at all",
+   "vol_term_structure": "Unavailable - no listed FX option on either non-USD leg produces a term structure for this cross",
+   "vol_regime": "Low-volatility managed grind, with the realised range set by the correlation of the two dollar legs rather than by either fundamental story"
+  },
+  "recent_regime": "The pair bottomed at its 52-week intraday low of 0.90792 on 2026-07-07 and has since traced a shallow, choppy recovery inside the broader downtrend: a bounce to 0.92216 on 2026-07-17, a retest down to 0.90998 on 2026-08-05, then a rally to 0.92395 on 2026-08-20 that constitutes a marginal higher high. Over the last twenty sessions the pair has ranged 0.91372 to 0.92395, roughly 102 pips or 3.6 ATRs, with a sharp two-day drop from the 08-21 close of 0.92224 to 0.91671 on 08-25 as the Canadian tariff escalation landed, followed by a grind back to 0.9187. Structurally the last two months show higher lows and a marginally higher high, a short-term uptrend nested inside a four-year structural downtrend beneath a declining 200-week average. The honest reading is that the bounce is real, small and unconfirmed by the average stack, and it has delivered the pair to the underside of an eight-touch resistance band.",
+  "citations": []
+ },
+ "bilateral_carry_analysis": {
+  "base_policy_rate": 2.25,
+  "quote_policy_rate": 1.4028,
+  "rate_differential_bps": 84.7,
+  "annualised_carry_bps": 84.7,
+  "pair_3m_iv": null,
+  "pair_3m_iv_source": null,
+  "carry_to_vol_ratio": null,
+  "carry_regime": "carry not compensating",
+  "breakeven_move": "For a short CAD/SGD expression the pair must fall 6.5 pips in a month, 19.5 pips in a quarter or 38.9 pips in six months simply to cover carry",
+  "forward_points": {
+   "1m": "-6.5 pips (outright 0.91805, -0.85% annualised)",
+   "3m": "-19.4 pips (outright 0.91676, -0.85% annualised)",
+   "6m": "-38.5 pips (outright 0.91485, -0.85% annualised)"
+  },
+  "carry_assessment": "The carry in this pair is small, positive for the base currency, and swamped by a policy mechanism rather than by a rate. The Bank of Canada's overnight target is 2.25% and Singapore has no policy rate by design, so the comparison uses SORA at 1.4028% as an explicitly labelled money-market proxy, giving an annualised carry of +84.7bp for a long CAD/SGD position, worth 77.8 pips a year, 38.9 pips over six months, 6.5 pips a month and roughly 0.31 pips a day. A short CAD/SGD position pays that away. This is a policy-versus-money-market spread and not a forward funding differential; the payload states no forward funding differential exists for this pair because SGD has no listed future. Carry-to-volatility can only be computed against realised volatility because implied volatility does not exist: 84.7bp against 2.90% sixty-day realised gives +0.29, and against 2.75% twenty-day realised gives +0.31 - weak-to-moderate ratios not comparable with implied-vol ratios. The decisive arithmetic is against the policy mechanism: the estimated S$NEER appreciation slope of about 1.25% a year is worth roughly 115 pips a year against the pair if fully transmitted, against 77.8 pips a year of carry in its favour, so the total expected return on a long CAD/SGD position is approximately -37 pips a year, or -0.40%, before any view on either economy. Only a fraction of the band drift transmits to this specific cross since CAD is one small component of a trade-weighted basket, which is why Factor 1's tactical stance is Neutral rather than Bearish."
+ },
+ "factors": [
+  {
+   "factor_number": 1,
+   "factor_name": "Policy & Rates (Relative)",
+   "tactical_weight_default": 0.24,
+   "tactical_weight_applied": 0.21,
+   "strategic_weight_default": 0.24,
+   "strategic_weight_applied": 0.21,
+   "weight_adjustment_reason": "Reduced 0.03 on both horizons because Singapore has no policy rate by design: MAS's instrument is the slope, width and centre of the S$NEER band, so a large share of what this factor normally measures is genuinely the subject of Factor 6 here. Cutting Factor 1 and lifting Factor 6 by the same amount avoids double-counting the single most important policy variable in the pair.",
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": "rates",
+    "bilateral_analysis": "The differential is unusual because only one leg has a policy rate. The Bank of Canada's overnight target is 2.25 per cent, held since October 2025 and near-certain to be held again at the gated 2026-09-02 fixed announcement date, where bond markets priced a 3 per cent hike probability and all 35 Reuters-polled economists forecast no change. Singapore has no policy rate at all; the SGD dossier carries SORA at 1.4028 per cent as a money-market proxy, giving CAD a positive money-market spread of roughly 84.7 basis points and making long CAD/SGD a mildly positive-carry position of about 0.85 per cent annualised before basis. Against that carry sits the mechanical appreciation of the S$NEER band, estimated at about 1.25 per cent a year, or roughly 10 basis points a month of trade-weighted SGD strength that no interest rate compensates for. Over four weeks those two forces are close to arithmetically equal: about 7 basis points a month of carry in favour of the pair against about 10 basis points a month of band-driven drift against it. The transmission is therefore a slow drift rather than a repricing event, and the tactical window contains only one dated decision for either leg - the 2026-09-02 Bank of Canada hold - which is fully discounted. Neutral is the honest reading rather than a refusal to choose.",
+    "key_bilateral_metrics": [
+     "Bank of Canada overnight target 2.25 per cent (as of 2026-08-31, series CBPOL_CA); MAS policy rate null by design - S$NEER band is the instrument",
+     "Money-market spread CAD over SGD approximately +84.7 basis points (2.25 per cent versus SORA 1.4028 per cent, 2026-08-31), roughly +0.85 per cent annualised carry",
+     "Estimated S$NEER appreciation slope approximately 1.25 per cent per annum after the 2026-04-14 and 2026-07-27 tightenings - an analyst reconstruction, not an MAS disclosure",
+     "Yield differential not computable: CAD 10-year at 3.42 per cent as of 2026-06-01 and SGD has no 10-year series; policyDifferential and yield10yDifferential set to null",
+     "Forward funding differential unavailable (SGD has no listed future), so the money-market spread is reported as such and not presented as a forward point"
+    ],
+    "what_is_priced": "The market prices a certain Bank of Canada hold on 2026-09-02 and continuation of the existing S$NEER slope, so neither leg carries a repricing event inside the window. The pair's positive carry of about 0.85 per cent annualised is roughly offset by an estimated 1.25 per cent annualised band drift.",
+    "citations": [
+     1,
+     9,
+     16,
+     21
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 55,
+    "evidence_type": [
+     "rates",
+     "policy_comms"
+    ],
+    "bilateral_analysis": "Over one to six months the two policy paths diverge in the direction that takes CAD/SGD lower, and both legs have dated decision points to do it. On the Canadian side the gated file carries 2026-10-28 with a Monetary Policy Report and 2026-12-09, and the base dossier's central thesis is that the roughly 65 per cent market-implied probability of a 2026 Bank of Canada hike is too high against the Bank's own Market Participants Survey median of 2.25 per cent through January 2027 and 2.50 per cent only in March 2027 - a one-to-two-quarter wedge that resolves toward the Bank more often than the market. If that pricing bleeds out at the October projection round, the Canadian front end reprices lower and the pair loses its only rate support. On the Singapore side the band slope compounds mechanically at an estimated 1.25 per cent a year, delivering 60 to 75 basis points of trade-weighted appreciation over six months even with no further policy action, and the quote dossier assigns 55 per cent to a further steepening toward roughly 1.50 per cent at the October review. The bilateral arithmetic is a shrinking Canadian carry advantage against a compounding and possibly steepening Singapore appreciation path, a widening negative for the pair. Confidence is capped at 55 because the six largest Canadian banks are split four to two on the direction of the next Bank of Canada move and because the MAS band parameters are estimates rather than disclosures.",
+    "key_bilateral_metrics": [
+     "Gated Canadian decision dates inside the horizon: 2026-10-28 with Monetary Policy Report and 2026-12-09; no scheduled decision file exists for SGD",
+     "Market-implied probability of a 2026 Bank of Canada hike approximately 65 per cent versus a Bank Market Participants Survey median of 2.25 per cent through January 2027",
+     "Quote dossier probability of a further S$NEER slope increase at the October review: 55 per cent, toward roughly 1.50 per cent per annum, against Goldman Sachs and CIMB Securities calls",
+     "Six-month compounded band appreciation of 60 to 75 basis points against a CAD money-market advantage of about 42 basis points over the same period",
+     "Canadian bank split on the next move: BMO, CIBC, RBC and TD at 2.25 per cent through December; National Bank and Scotiabank at 2.75 per cent by December"
+    ],
+    "what_is_priced": "The market prices a Bank of Canada more likely to hike than to cut over four quarters and an MAS that is probably finished, judged from the only dated published calls. We price the reverse on both legs, tempered by a positive carry that a short CAD/SGD position has to pay.",
+    "citations": [
+     1,
+     3,
+     9,
+     11,
+     17,
+     18
+    ]
+   },
+   "horizon_split": "The stance moves from Neutral to Bearish because the tactical window contains only a fully discounted Bank of Canada hold on 2026-09-02, while the strategic window contains both the 2026-10-28 Monetary Policy Report - where the Bank must publish numbers behind the market's 2026 hike pricing - and the quote leg's October band review, plus six months of compounding band drift that four weeks cannot deliver.",
+   "carry_analysis": {
+    "reference": "See bilateral_carry_analysis section for full detail",
+    "summary": "Long CAD/SGD carries approximately +84.7bp annualised (BoC 2.25% vs SORA 1.4028% money-market proxy), but this is largely offset by the S$NEER band's estimated 1.25% per annum appreciation, yielding an estimated total expected return of approximately -37 pips/year (-0.40%) before any directional view, which is why Factor 1 scores Neutral tactically."
+   },
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 2,
+   "factor_name": "Inflation & Growth Dynamics",
+   "tactical_weight_default": 0.18,
+   "tactical_weight_applied": 0.18,
+   "strategic_weight_default": 0.1,
+   "strategic_weight_applied": 0.1,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 52,
+    "evidence_type": "macro_data",
+    "bilateral_analysis": "Both economies are printing well, but the growth differential is enormous and the inflation differential transmits asymmetrically. Singapore grew 5.9 per cent year on year in Q2 2026 with the Ministry of Trade and Industry lifting its full-year forecast from 2.0-4.0 per cent to 4.5-5.5 per cent on 2026-08-11, against Canadian growth of 0.99 per cent year on year even after a 3.3 per cent annualised Q2 quarter. Unemployment is 2.0 per cent in Singapore against 6.4 per cent in Canada. The transmission asymmetry is the decisive bilateral point: in Singapore the exchange rate is the policy instrument, so accelerating core inflation - 1.6 per cent in June to 2.0 per cent in July - mechanically argues for a steeper appreciation path, whereas in Canada a headline rate of 3.0 per cent that is entirely gasoline, against CPI-trim at 1.9 per cent and CPI-median at 2.0 per cent, is something the Bank has publicly committed to looking through. Canada does own the denser tactical calendar, with the trade balance, Labour Force Survey and August CPI all landing inside the window against a lowered consensus bar, and a run of upside Canadian surprises could push the pair higher for two to three weeks. That is why confidence is only 52 rather than higher even though the level differential is one-sided.",
+    "key_bilateral_metrics": [
+     "GDP year on year: Singapore 5.9 per cent versus Canada 0.99 per cent; quarter on quarter 1.4 per cent versus 0.8 per cent",
+     "Unemployment: Singapore 2.0 per cent versus Canada 6.4 per cent - the widest labour-market gap in the G10+SGD set",
+     "Core inflation: MAS core 2.0 per cent and accelerating versus CPI-trim 1.9 per cent and CPI-median 2.0 per cent in Canada, flat and gasoline-distorted at the headline",
+     "Singapore 2026 growth forecast raised to 4.5-5.5 per cent on 2026-08-11; Bank of Canada July projection for Canada 0.7 per cent for 2026 as a whole",
+     "Canadian July advance GDP estimate 0.0 per cent, recorded before the 2026-08-22 Section 338 duties took effect"
+    ],
+    "what_is_priced": "The market has priced Canada's Q2 beat into roughly 65 per cent of a 2026 Bank of Canada hike and has priced Singapore's growth upgrade into the growth story but not fully into the October band decision.",
+    "citations": [
+     4,
+     5,
+     12,
+     13
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 62,
+    "evidence_type": "macro_data",
+    "bilateral_analysis": "Over one to six months the two data paths diverge further and both dossiers agree on the direction of their own leg. Canada's tariff arithmetic bites from here: US$20bn of goods at 50 per cent duties is 5.2 per cent of the US$382bn shipped to the United States in 2025, Canadian counter-measures land on 2026-09-08, the July advance GDP estimate already printed 0.0 per cent before any of it took effect, and the Bank's own full-year 2026 call of 0.7 per cent implies materially sub-trend second-half outcomes. Singapore's level of activity stays exceptional even as the second derivative rolls over - semiconductor output growth has fallen from 37.0 per cent in May to 20.8 per cent in June to 8.0 per cent in July - and its inflation impulse has a further mechanical leg as the quarterly regulated electricity tariff resets, which in a managed float converts directly into currency appreciation rather than into a rate hike. The inflation differential therefore works against the pair twice: Canadian headline converges down toward 2.0 per cent core as gasoline base effects roll off, removing the statistical basis for Canadian hike pricing, while Singaporean core rises toward the top of the 1.5-2.5 per cent MAS band and strengthens the case for a steeper slope. Confidence at 62 reflects that both legs' trajectories are documented and dated rather than inferred, offset by genuine concentration risk in Singapore's export base.",
+    "key_bilateral_metrics": [
+     "Bank of Canada 2026 growth projection 0.7 per cent against a Singapore official forecast of 4.5-5.5 per cent",
+     "Canadian tariff exposure: US$20bn across 554 lines, 5.2 per cent of exports to the United States, escalating to 50 per cent on autos, trucks, parts and steel from 2027-01-01",
+     "Singapore semiconductor output growth 37.0 per cent to 20.8 per cent to 8.0 per cent across May, June and July 2026 - the principal risk to the quote leg",
+     "Canadian wage growth decelerating to 2.8 per cent year on year from 3.3 per cent; Canadian core measures averaging exactly 2.0 per cent",
+     "MAS guidance that core inflation steps up from July and moderates only from around mid-2027 - the impulse peaks inside this horizon"
+    ],
+    "what_is_priced": "Consensus extrapolates Canada's Q2 beat and treats Singapore's electronics boom as durable. We think Canadian activity undershoots as post-tariff data arrive while Singaporean inflation delivers one more upward leg, and neither is fully in the pair.",
+    "citations": [
+     1,
+     4,
+     8,
+     12,
+     13,
+     15
+    ]
+   },
+   "horizon_split": "Both horizons are Bearish and the ten-point confidence gap is the whole story. Tactically Canada owns three dated releases against a lowered bar and can push back for a few weeks; strategically the tariff drag becomes visible in Canadian activity data while Singapore's regulated tariff resets deliver a second inflation step, so the same differential widens with a mechanism rather than narrowing.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 3,
+   "factor_name": "Risk Appetite & Sentiment",
+   "tactical_weight_default": 0.1,
+   "tactical_weight_applied": 0.1,
+   "strategic_weight_default": 0.05,
+   "strategic_weight_applied": 0.05,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 45,
+    "evidence_type": "cross_asset",
+    "bilateral_analysis": "CAD/SGD is a low-to-moderate risk-sensitivity cross and the current regime splits its two transmission channels rather than aligning them. The global tape is benign to the point of complacency: VIX at 14.43 to 14.51 in late August, US investment-grade spreads at 79 basis points and high-yield at 260 to 263 basis points, and the S&P 500 up roughly 16 per cent year to date. In that configuration the Canadian dollar's mild positive risk beta - the base dossier puts the USD/CAD to S&P correlation at minus 0.2 to minus 0.3, roughly half the Antipodean sensitivity - is active but weak, while the Singapore dollar's regional safe-haven property is dormant and its trade and electronics beta is active and currently very strong. The equity read points the other way from the currency read: the Straits Times Index set an all-time high above 5,770 and is up 33.65 per cent over twelve months, while the TSX fell 1.02 per cent on 2026-08-31 on tariff-specific pressure. A benign tape is therefore mildly good for the base leg and mildly good for the quote leg through different channels, and the honest bilateral read is that neither dominates.",
+    "key_bilateral_metrics": [
+     "VIX 14.43 to 14.51 in late August 2026, down from 20.66 a month earlier and more than 50 per cent below the 31.65 March peak",
+     "US investment-grade OAS 79 basis points; high-yield 260 to 263 basis points, tightened 21 to 27 basis points over the month",
+     "Straits Times Index all-time high above 5,770, plus 33.65 per cent year on year, versus TSX Composite minus 1.02 per cent on 2026-08-31",
+     "USD/CNH 6.7214 on 2026-08-31, firm and stable - the dominant regional correlation for the quote leg",
+     "Federal Reserve central bank liquidity swaps outstanding US$121m - no cross-border risk-transmission stress on either leg"
+    ],
+    "what_is_priced": "Markets price a soft landing with an inflation problem, which activates the weaker half of each currency's risk transmission. We agree with that pricing and identify no tactical edge.",
+    "citations": [
+     7,
+     19
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 45,
+    "evidence_type": "cross_asset",
+    "bilateral_analysis": "Over one to six months the risk factor is all tail and no trend for this cross, and the tails offset. A genuine global risk-off would hurt the Canadian dollar through oil demand and equity beta while pushing capital toward Singapore as Asia's AAA haven with a 16.7 per cent-of-GDP current-account surplus - bearish for the pair. But the same event would break Singapore's trade channel, which matters more for the most trade-dependent large economy in the set, with total merchandise trade running at plus 38.6 per cent year on year, and a Canadian oil complex whose recent strength is supply-driven rather than demand-driven would be less exposed to a demand shock than the historical beta implies. Both dossiers independently reached Neutral on this factor strategically, from opposite starting points. Applying both to the cross leaves no directional signal, and confidence is deliberately below the midpoint because the November event cluster could make the factor directional in either direction very quickly.",
+    "key_bilateral_metrics": [
+     "Both dossiers score risk appetite Neutral strategically - base at 50 confidence, quote at 52 - from opposite reasoning",
+     "Base leg's oil and equity channels have decoupled: EIA sees roughly 0.6mb/d of Strait of Hormuz disruption persisting to end-2027",
+     "Quote leg's trade beta: total Singapore merchandise trade plus 38.6 per cent year on year, the largest trade dependence in the set",
+     "Greater China takes 22.0 per cent of Singapore's goods exports versus a Canadian export concentration of roughly 70 per cent to the United States",
+     "VIX at the 2026 low and high-yield spreads at 260 basis points price close to none of the November dated calendar for either leg"
+    ],
+    "what_is_priced": "Credit and volatility markets price a benign path through a dense dated calendar, a variance mispricing rather than a directional one. CAD/SGD is a poor instrument for monetising it because a risk shock hits the base leg through commodities and the quote leg through trade at roughly comparable force.",
+    "citations": [
+     19,
+     20
+    ]
+   },
+   "horizon_split": "Both horizons are Neutral with identical confidence. The mechanism is the same on each: the base leg's commodity-linked risk beta and the quote leg's trade-linked risk beta are of similar magnitude and both are active in the current regime, so risk appetite moves the two legs together rather than moving the cross.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 4,
+   "factor_name": "Flows & Positioning",
+   "tactical_weight_default": 0.1,
+   "tactical_weight_applied": 0.1,
+   "strategic_weight_default": 0.06,
+   "strategic_weight_applied": 0.06,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 55,
+    "evidence_type": "positioning",
+    "bilateral_analysis": "This is the one factor where the two legs amplify rather than cancel, and it points against the rest of the analysis. Speculative positioning is short the base currency and implicitly long the quote currency, which means the short CAD/SGD trade is crowded on both sides. On the Canadian leg the combined CFTC leveraged-fund and asset-manager net short was 131,035 contracts at the 2026-08-25 reference date, still far beyond the minus 80,000 threshold the base dossier treats as extreme, after 65,515 contracts of covering in a fortnight and with dealers warehousing a net long of 124,930. On the Singapore leg no positioning series exists at all, so the only observable proxy is the estimated S$NEER deviation of roughly 1.7 per cent above the estimated band midpoint on 2026-08-12, inside a stated expected range of 1.40 to 1.90 per cent, with MAS itself confirming the index has stayed in the upper half of the appreciating band. That is a market leaning long the quote currency with perhaps 30 basis points of estimated trade-weighted headroom on a conventional 2 per cent half-width. Short base, long quote, both near their limits: the pair signal is amplified in favour of CAD/SGD upside.",
+    "key_bilateral_metrics": [
+     "Base leg: combined speculative net short 131,035 contracts at 2026-08-25 (leveraged funds minus 72,092, asset managers minus 58,943), dealers net long 124,930, open interest 329,544 down 8.4 per cent week on week",
+     "Base leg covering: minus 196,550 on 2026-08-11 to minus 131,035 on 2026-08-25, a 65,515-contract or 33 per cent reduction in a fortnight",
+     "Quote leg: no CFTC series, no listed options, no CVOL index - positioning is structurally unobservable",
+     "Quote leg proxy: estimated S$NEER deviation approximately 1.7 per cent above midpoint (2026-08-12) versus 1.68 per cent on 2026-07-29",
+     "Real-money flows on both legs: record C$80.8bn of foreign purchases of Canadian government bonds in Q2 2026 against MAS's 2026-08-19 asset-management package"
+    ],
+    "what_is_priced": "The crowd is positioned for exactly the direction the rest of this analysis argues for, which is the strongest argument against sizing it. A 131,035-contract base-currency short still covering, against a quote currency already long near its estimated band edge, is fuel for the pair rather than a headwind.",
+    "citations": [
+     7,
+     9,
+     16
+    ]
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 45,
+    "evidence_type": "positioning",
+    "bilateral_analysis": "Over one to six months positioning changes from flow to stock on the base leg and from stock to policy on the quote leg, and the amplification weakens. The residual Canadian speculative short of 131,035 contracts is a cushion rather than a catalyst: open interest has fallen roughly 9.5 per cent from 364,104 on 2026-08-11, which is market disengagement, and the leveraged-fund leg alone has dropped inside the extreme threshold for the first time since early July. On the Singapore side the roughly 1.7 per cent band deviation resolves at the October review rather than through any market mechanism: if MAS steepens, the deviation stops being stretched at the same spot level and the crowding resolves upward without anyone selling; if MAS holds, the deviation unwinds toward the midpoint, a bounded move materially less on CAD/SGD than on the trade-weighted index. Critically, the quote leg has no squeeze mechanism at all, so this factor cannot produce the violent reversal that a comparable G10 setup would. Confidence falls to 45 because half of it rests on one bank's model estimate of a parameter the central bank refuses to publish.",
+    "key_bilateral_metrics": [
+     "Base leg open interest 329,544, down from 364,104 on 2026-08-11 - a shrinking base weakens squeeze mechanics",
+     "Base leg asset managers cut from minus 108,343 on 2026-07-07 to minus 58,943 on 2026-08-25 - real money has already capitulated; leveraged funds are the more persistent short",
+     "Quote leg downside is bounded: an unwind of the estimated 1.7 per cent band deviation to midpoint is roughly 1.5 per cent on the S$NEER and less on CAD/SGD",
+     "Quote leg has no squeeze mechanism: no CFTC book, no CME open interest, no listed options on the SGX USD/SGD root",
+     "Only dated resolution for the base leg's short inside the horizon is the 2026-11-03 US midterms"
+    ],
+    "what_is_priced": "Neither leg has repriced for the possibility that the base-currency short simply keeps shrinking without a fundamental catalyst while the quote currency's band deviation is validated rather than unwound. The edge is real but small.",
+    "citations": [
+     7,
+     9,
+     16
+    ]
+   },
+   "horizon_split": "Both horizons are Bullish for the pair with confidence falling from 55 to 45. Tactically the base leg is in an active squeeze with identifiable mechanics; strategically the base leg's short is a cushion rather than a catalyst and the quote leg's crowding resolves on a policy date rather than through the market, so the amplification decays.",
+   "carry_analysis": null,
+   "contrarian_analysis": {
+    "tactical": {
+     "combined_positioning_signal": "Short base and implicitly long quote - a 131,035-contract combined speculative short in Canadian dollar futures against an estimated S$NEER deviation of roughly 1.7 per cent above midpoint. The two legs amplify rather than mute, meaning the short CAD/SGD expression is crowded on both sides and the pair signal from positioning is Bullish CAD/SGD.",
+     "unwind_trigger": "A Federal Reserve hold on 2026-09-16 against 58 to 68 per cent priced for a hike, which would force the remaining Canadian short into a dealer book already long 124,930 contracts; or a soft Singapore August CPI on 2026-09-23 with core below 1.8 per cent, pulling October steepening expectations down and the band deviation toward midpoint.",
+     "historical_analogue": "The base leg's early-2025 tariff-cycle extreme, where a comparable speculative short took roughly five months to normalise and USD/CAD traded a 700-pip range rather than trending; on the quote leg, the April 2020 MAS off-cycle re-centring, where the band level moved and spot followed in an orderly fashion over days rather than gapping.",
+     "contrarian_case": "The case against our own bearish stance is that the crowd is already there. A currency short by 131,035 contracts, with a third of the position covered in a fortnight into the imposition of 50 per cent Section 338 duties, is a capitulating short base, and buying the pair against it costs nothing in carry because the base leg pays roughly 85 basis points a year. Simultaneously the quote leg is being bought close to a band edge that its own central bank has said it stands ready to defend against excessive volatility, leaving perhaps 30 basis points of estimated trade-weighted headroom. Both sides of the crowded trade are near their limits, which is the classic configuration for a sharp counter-trend move in a pair with no options market in which to hedge it."
+    },
+    "strategic": {
+     "combined_positioning_signal": "Stock rather than flow on the base leg - a residual 131,035-contract short against a shrinking open-interest base - and policy rather than positioning on the quote leg, where the estimated 1.7 per cent band deviation resolves at the October review. Net signal remains Bullish CAD/SGD but weakly.",
+     "unwind_trigger": "For the base leg, a post-midterm restart of US-Canada negotiations (25 per cent probability) which would reprice the whole tariff premium in one move; for the quote leg, MAS holding the slope unchanged at the October review (45 per cent probability) which would unwind the band deviation toward midpoint over subsequent weeks.",
+     "historical_analogue": "Base leg: the 2025 tariff cycle, where the speculative short normalised over roughly five months without the currency trending; quote leg: the sequence of April and July 2026 tightenings, in which the band deviation was repeatedly validated rather than unwound, so crowding resolved upward at unchanged spot.",
+     "contrarian_case": "Over six months the contrarian risk is asymmetric between the legs. If we are wrong on Canada we are wrong because the tariff regime is negotiated away and the Bank of Canada hikes in October as National Bank and Scotiabank forecast, which would validate the 65 per cent hike pricing rather than unwind it and take the pair sharply higher against a still-large short base. If we are wrong on Singapore we are wrong because MAS is already mildly restrictive at an estimated 1.25 per cent slope against a neutral pace near 1.00 per cent, which is Goldman Sachs's published position, and because the AI capital-expenditure cycle that drives the growth forecast is decelerating hard in the second derivative. Both failure modes push the pair the same way, upward, and they are not independent of each other, which is the strongest single argument for keeping conviction at 3 rather than 4."
+    }
+   },
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 5,
+   "factor_name": "External Balance & Terms of Trade",
+   "tactical_weight_default": 0.06,
+   "tactical_weight_applied": 0.09,
+   "strategic_weight_default": 0.16,
+   "strategic_weight_applied": 0.19,
+   "weight_adjustment_reason": "Raised 0.03 on both horizons because this is the pair's genuine dominant fundamental channel: a petro-exporting base currency against a net-crude-importing, refined-product-exporting quote currency, with the largest current-account differential in the G10+SGD set - Singapore at 16.7 per cent of GDP against Canada at minus 0.87 per cent. Oil moves the two legs in opposite directions by construction, exactly the commodity-versus-commodity netting the framework identifies as a weight-boost case.",
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 55,
+    "evidence_type": [
+     "trade_balance",
+     "cross_asset"
+    ],
+    "bilateral_analysis": "Over four weeks the terms-of-trade channel points clearly in favour of the pair. Canada's external accounts just delivered the best print in two decades - a Q2 2026 current-account surplus of C$8.8bn, the first since 2022 and the largest since 2005, against a C$3.5bn consensus - on record energy and auto exports, with energy, potash, fish and critical minerals explicitly carved out of the Section 338 duties so that Canada's largest export category trades on global prices rather than bilateral politics. Singapore is on the opposite side of the same shock: it is a net crude importer whose largest single product deficit in 2025 was mineral fuels at minus US$24.7bn, its terms-of-trade index fell to 97.84 in July from 98.66, and its domestic supply price index is running at plus 33.4 per cent year on year. Brent at roughly US$90 to US$93, up about 37 per cent year on year on renewed Persian Gulf strikes, is a direct revenue transfer to the base currency and a direct cost to the quote currency. The bilateral trade relationship itself is small but marginally supportive of the base. The offset is that Singapore's aggregate surplus remains vastly larger, which is why confidence stops at 55.",
+    "key_bilateral_metrics": [
+     "Canada Q2 2026 current account plus C$8.8bn, first surplus since 2022 and largest since 2005, versus a C$3.5bn consensus",
+     "Singapore terms-of-trade index 97.84 in July 2026 from 98.66; domestic supply price index plus 33.4 per cent year on year",
+     "Brent roughly US$90.14 on 2026-08-31 in the base dossier and roughly US$93.03 the same session in the quote dossier, up about 37 per cent year on year",
+     "Bilateral goods trade (IMF DOTS 2024): Canadian exports to Singapore US$1.6bn, imports US$1.1bn, net Canadian surplus US$0.5bn",
+     "Energy, potash, fish and critical minerals carved out of the 50 per cent Section 338 duties - the base leg's largest export category is untouched"
+    ],
+    "what_is_priced": "The market prices Canada's tariff headline and largely ignores the energy carve-out, while pricing Singapore's spectacular headline trade numbers and largely ignoring the import-cost shock running underneath them.",
+    "citations": [
+     6,
+     14,
+     19,
+     21,
+     22
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": [
+     "trade_balance",
+     "cross_asset"
+    ],
+    "bilateral_analysis": "Over one to six months the two forces in this factor are close to exactly equal and opposite, and the symmetry is unusually literal: the base dossier's external-balance factor contributes plus 0.0928 to its own strategic score and the quote dossier's contributes plus 0.0928 to its own, in opposite pair directions. On the bullish side of the pair, the EIA projects Brent averaging US$87 for 2026 with roughly 0.6mb/d of Strait of Hormuz disruption persisting to end-2027, a multi-quarter supply-side revenue transfer to non-Gulf producers. On the bearish side, Singapore runs a current-account surplus of 16.7 per cent of GDP against Canada's minus 0.87 per cent, institutionalised into persistent real appreciation through the S$NEER band and reserve accumulation of SGD 33.8bn over twelve months. Canada also carries structural drags: roughly 70 per cent export dependence on an increasingly hostile customer, a WCS-WTI heavy differential near US$12 capping realisation of any Brent rally, and a dated escalation to 50 per cent duties on autos, trucks, parts and steel on 2027-01-01. A price shock against a stock-flow mechanism is a genuine standoff, and Neutral is the considered conclusion.",
+    "key_bilateral_metrics": [
+     "Current account as a share of GDP: Singapore plus 16.7 per cent versus Canada minus 0.87 per cent - the widest external-balance differential in the G10+SGD set",
+     "EIA Short-Term Energy Outlook: Brent averaging US$85 in Q3 2026 and US$87 for the year, with roughly 0.6mb/d of Hormuz disruption to end-2027",
+     "WCS-WTI differential approximately US$12/bbl for 2026 and US$13/bbl from 2027 - caps Canadian realisation of a Brent rally",
+     "Singapore official reserves SGD 549.3bn / roughly USD 427.9bn in July 2026, up SGD 33.8bn year on year",
+     "Base leg tariff escalation dated 2027-01-01 to 50 per cent on autos, trucks, parts and steel, against a Singapore export base concentrated in integrated circuits, disk media and personal computers"
+    ],
+    "what_is_priced": "Both markets price their own leg's headline and discount the offset: Canada's carve-out is underpriced and Singapore's import-cost shock is underpriced. Because the two mispricings are of similar size and opposite sign, we identify no strategic edge here despite the factor carrying the largest applied weight after Policy and Rates.",
+    "citations": [
+     6,
+     14,
+     20,
+     21,
+     22
+    ]
+   },
+   "horizon_split": "The stance moves from Bullish to Neutral because the fast-moving oil price shock swaps importance with the slow-moving current-account flow. Over four weeks the shock dominates and favours the petro-exporting base against the crude-importing quote. Over one to six months the cumulative balance-of-payments flow catches up with the price shock and the two cancel.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": {
+    "base_commodity_profile": "Canada is a net energy exporter: crude oil is the dominant exposure, with WTI at roughly US$85.45 and Brent at roughly US$90.14 on 2026-08-31, plus natural gas, potash, aluminium and copper. Oil up is strongly positive for CAD. Energy, potash, fish and critical minerals are carved out of the US Section 338 duties, so the commodity complex trades on world prices rather than bilateral politics.",
+    "quote_commodity_profile": "Singapore is a net crude importer and a refined-product exporter with no commodity export base of its own. Its largest single product trade deficit in 2025 was mineral fuels at minus US$24.7bn, while processed petroleum oils are its number two export at US$51.5bn. Oil up is negative for SGD, and LNG/JKM up is negative for SGD.",
+    "net_effect_calculation": "Applying the framework's direction rules to each leg and netting: oil up gives a positive effect for CAD and a negative effect for SGD, so the net effect on CAD/SGD is unambiguously positive - the pair rises when crude rises. This is a clean, non-cancelling netting of the kind the framework flags as a weight-boost case, unlike AUD/CAD where both legs benefit. The magnitude is asymmetric: Canada's benefit is a revenue transfer capped by a WCS-WTI heavy differential near US$12/bbl, whereas Singapore's cost is an import bill that passes into a quarterly regulated electricity tariff and thence into MAS core inflation, which the exchange-rate policy band then partially offsets by appreciating the currency. Roughly a fifth to a third of the raw commodity signal is clawed back through the quote leg's policy reaction function, which is why the factor is Bullish tactically but not more strongly so, and Neutral strategically once the current-account differential is netted against it.",
+    "scenario_oil_up_10pct": "Brent from roughly US$90 to roughly US$99: bullish CAD/SGD on the raw netting - Canadian export revenue and terms of trade improve while Singapore's mineral-fuels deficit and domestic supply price index worsen further. The partial offset is that a higher crude price raises the probability of a further S$NEER slope steepening at the October review from 55 per cent toward 70 per cent, clawing back part of the move. Net: pair higher, but by less than the raw commodity beta implies.",
+    "scenario_oil_down_10pct": "Brent from roughly US$90 to roughly US$81: bearish CAD/SGD on the raw netting - Canadian headline CPI converges down to the 2.0 per cent core average, removing the statistical basis for Bank of Canada hike pricing at the same time as the terms-of-trade support behind the C$8.8bn Q2 surplus fades. The offset is that Singapore's imported-inflation impulse also fades, reducing the odds of a further band steepening. Net: pair lower, and by more than in the mirror case because the Canadian effect is dual - rates plus revenue.",
+    "dominant_commodity_driver": "Brent crude, decisively. It is the only commodity that moves both legs materially and it moves them in opposite directions, which is why it is the single most important non-policy variable in this pair and why the factor's weight was raised on both horizons."
+   },
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 6,
+   "factor_name": "Guidance & Credibility",
+   "tactical_weight_default": 0.07,
+   "tactical_weight_applied": 0.1,
+   "strategic_weight_default": 0.12,
+   "strategic_weight_applied": 0.15,
+   "weight_adjustment_reason": "Mirror of the Factor 1 reduction, raised 0.03 on both horizons. For a pair in which one central bank's entire instrument is the exchange rate, guidance about the S$NEER slope is not commentary about policy - it is policy, and it transmits directly into the cross. Concentrating that content here rather than in Factor 1 keeps the two from double-counting the same decision.",
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 55,
+    "evidence_type": "policy_comms",
+    "bilateral_analysis": "The guidance differential is one-sided in a way the rate differential is not. The Bank of Canada's July 15 communication was deliberately two-sided - the current policy rate remains appropriate, uncertainty is still high, prepared to adjust as needed - and its Summary of Deliberations disclosed an explicit range of views among Governing Council members about the sustainability of the rebound. MAS by contrast carries a standing, unambiguous and validated hawkish message: it raised the appreciation slope on 2026-04-14 and again on 2026-07-27, framed the July move as building on April, guided that core inflation would step up from July and remain elevated, and its Managing Director said on 2026-07-28 that the two decisions together mean the stronger appreciation of the Singapore dollar will lean more effectively against incoming inflationary pressures. Every print since has validated it. Sequencing matters inside the window: the gated file puts the Bank of Canada first, on 2026-09-02, so the base leg sets the tone, but a hold with balanced language is not a signal. MAS has said nothing on exchange-rate policy since 2026-07-28 and will not speak again inside the tactical window. A silent hawk beats a talkative agnostic, and the pair drifts lower on the differential in credibility of message.",
+    "key_bilateral_metrics": [
+     "Gated Canadian decision 2026-09-02 with no projection round attached; all 35 Reuters-polled economists forecast a hold and market-implied hike probability is 3 per cent",
+     "Base leg deliberations disclose a range of views among Governing Council members on the sustainability of the rebound",
+     "Quote leg has tightened at two consecutive reviews, 2026-04-14 and 2026-07-27, the first back-to-back sequence since 2022, with no change to band width or centre",
+     "Quote leg's inflation forecast band raised from 1.0-2.0 per cent to 1.5-2.5 per cent in April and reaffirmed in July - no walk-back",
+     "No MAS exchange-rate-policy communication since 2026-07-28; the next is outside the tactical window"
+    ],
+    "what_is_priced": "The base leg's press-conference tone is genuinely unpriced in either direction and the quote leg's standing hawkish guidance is only partly priced, with the only dated published call expecting no further MAS action in 2026. That asymmetry favours the pair falling rather than rising.",
+    "citations": [
+     1,
+     2,
+     9,
+     10,
+     11,
+     17
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 60,
+    "evidence_type": "policy_comms",
+    "bilateral_analysis": "Over one to six months both central banks publish full projection rounds and both, on our reading, publish numbers that take CAD/SGD lower. The gated file puts the Bank of Canada's Monetary Policy Report on 2026-10-28, where the Bank must simultaneously mark down 2026 growth for the tariff shock and mark down inflation as gasoline base effects roll off - leaving the curve no basis for the roughly 65 per cent 2026 hike probability currently supporting the base currency. The quote leg's October review faces the opposite set of numbers: core at 2.0 per cent and accelerating, a growth forecast lifted to 4.5-5.5 per cent, and MAS's own concession that the positive output gap is now expected to widen rather than narrow. Credibility determines which side converges, and both institutions are exceptionally credible in their own idiom - the Bank of Canada through published deliberations and explicit neutral-rate estimates, MAS through a regime that has run since 1981 with no successful market challenge and an opacity that makes its guidance self-enforcing. Confidence at 60 reflects that the wedge is dated and falsifiable on both legs, capped by a genuinely split analyst community on each.",
+    "key_bilateral_metrics": [
+     "Gated base-leg projection round 2026-10-28 with Monetary Policy Report; second gated decision 2026-12-09 with no projection note",
+     "Quote-leg October review not in the gated file - placed no later than 2026-10-14 alongside the Macroeconomic Review and Q3 advance GDP, labelled best available",
+     "Base-leg wedge: roughly 65 per cent market-implied probability of a 2026 hike against a Bank survey median of 2.50 per cent only in March 2027",
+     "Quote-leg split: Goldman Sachs and the EIU expect no change through end-2026; CIMB Securities expects plus 25 basis points to a 1.50 per cent slope in October",
+     "Quote-leg institutional stability: regime in place since 1981, Managing Director Chia Der Jiun in post, Gan Kim Yong chairman from 2026-05-15"
+    ],
+    "what_is_priced": "The base leg's market prices a Bank more likely to hike than cut; the quote leg's market, judged from the only dated published calls, prices an MAS that is probably finished. We disagree with both, and the two disagreements compound in the same pair direction.",
+    "citations": [
+     1,
+     2,
+     3,
+     9,
+     11,
+     17,
+     18
+    ]
+   },
+   "horizon_split": "Both horizons are Bearish with confidence rising from 55 to 60. Tactically the differential is one bank with a deliberately empty signal against one bank with a hawkish standing signal it will not refresh inside the window. Strategically both banks publish full forecast rounds and on our reading each set of numbers pushes the pair the same way, so the factor acquires two dated catalysts instead of none.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 7,
+   "factor_name": "Event Risk & Geopolitics",
+   "tactical_weight_default": 0.05,
+   "tactical_weight_applied": 0.05,
+   "strategic_weight_default": 0.05,
+   "strategic_weight_applied": 0.05,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 55,
+    "evidence_type": "geopolitics",
+    "bilateral_analysis": "Event risk is markedly asymmetric between the legs inside the window and the exposed leg is the base. Canada carries an unpriced binary on 2026-09-08, when its retaliatory tariffs take effect on roughly US$20bn of US goods at 15 to 50 per cent covering steel, dairy, appliances, agricultural equipment, pulp and paper, electronics and motorcycles - and the product-level list had not been published as of the valuation date. That follows the 2026-08-22 imposition of 50 per cent US duties under Section 338 across 554 tariff lines, the first presidential use of that authority since 1949, applied regardless of USMCA preference and with no expiry, after talks collapsed and the USTR confirmed no new talks are planned. Singapore's dated event risk inside the same four weeks is comparatively thin: a 12.5 per cent US tariff already imposed on 2026-07-24 affecting roughly SGD 9.5bn of exports, and no domestic political risk of any kind. The shared exposure is the Persian Gulf, and it splits the legs rather than hitting them together. Net: the base leg carries the unpriced binary, and the pair is bearish on it.",
+    "key_bilateral_metrics": [
+     "2026-09-08: base-leg retaliatory tariffs take effect on roughly US$20bn of US goods at 15 to 50 per cent, product list unpublished at the valuation date",
+     "2026-08-22: US 50 per cent Section 338 duties on roughly US$20bn of Canadian goods across 554 lines, no expiry, overriding USMCA; USTR confirms no new talks planned",
+     "Quote-leg tariff exposure already imposed and quantified: 12.5 per cent on roughly SGD 9.5bn, about a third of shipments to the United States",
+     "Quote leg carries no domestic political risk and no scheduled national election in either horizon",
+     "Shared Persian Gulf exposure splits the legs: escalation is revenue-positive for the base and cost-negative for the quote, so it routes to Factor 5 rather than here"
+    ],
+    "what_is_priced": "The date and headline amount of the base leg's 2026-09-08 retaliation are known but the sector composition and the probability of a further US escalation are not, and neither leg's options market charges anything for it.",
+    "citations": [
+     8,
+     19
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 58,
+    "evidence_type": "geopolitics",
+    "bilateral_analysis": "Over one to six months the base leg's event risk stops being a series of dates and becomes a structural condition, while the quote leg's fragments into a dense but two-sided cluster. Section 338 permits proclamation-only tariffs with no investigation, no hearing and no time limit, so the duties persist until a future proclamation removes them; Ottawa's own assessment is that no substantive talks resume before the 2026-11-03 midterms, and the escalation to 50 per cent on autos, trucks, parts and steel is already dated to 2027-01-01. The USMCA architecture that would normally constrain this was triggered for review on 2026-07-01 with Canada absent from the parallel US-Mexico track. Singapore's cluster - the 2026-11-10 US-China tariff truce expiry with China's reciprocal expiry on 11-19, the 2026-11-28 Taiwan local elections and the 2026-12-11 US funding cliff - is genuinely dangerous for an economy sending 22.0 per cent of its goods exports to Greater China, but it is bidirectional for this cross because the same stress would drive regional capital into Singapore as Asia's AAA haven. Duration, not magnitude, makes the base leg the worse exposure.",
+    "key_bilateral_metrics": [
+     "Section 338 carries no expiry; duties persist until a presidential proclamation removes them; last prior use 1949",
+     "2027-01-01: base-leg tariffs on cars, trucks, auto parts and steel rise to 50 per cent - dated and pre-announced",
+     "Roughly 2 million Canadian jobs depend on goods exports to the United States on the Bank of Canada's estimate",
+     "Quote-leg cluster: 2026-11-10 US-China truce expiry, 2026-11-19 Chinese reciprocal expiry, 2026-11-28 Taiwan local elections, 2026-12-11 US funding cliff, 2026-12-31 tariff-exclusion expiry",
+     "Quote-leg trade concentration: Greater China 22.0 per cent of goods exports, United States 9.6 per cent - but the same shock generates an offsetting regional haven inflow"
+    ],
+    "what_is_priced": "The base currency has repriced the tariff headline but not the tariff duration, and the quote currency's calendar is priced at a VIX of 14.4 and a high-yield spread of 260 basis points, essentially no premium for four dated binaries in six weeks.",
+    "citations": [
+     8,
+     19,
+     22
+    ]
+   },
+   "horizon_split": "Both horizons are Bearish, with confidence rising from 55 to 58. Tactically the risk is a single unpriced composition binary on the base leg on 2026-09-08. Strategically it is the absence of any mechanism to end the base leg's tariff regime, plus a dated escalation on 2027-01-01, set against a quote-leg November cluster that is severe but partly self-offsetting.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 8,
+   "factor_name": "Fiscal & Sovereign Risk",
+   "tactical_weight_default": 0.04,
+   "tactical_weight_applied": 0.04,
+   "strategic_weight_default": 0.07,
+   "strategic_weight_applied": 0.07,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 45,
+    "evidence_type": "macro_data",
+    "bilateral_analysis": "Both sovereigns are top-rated, so the differential is one of degree rather than of kind, and it favours the quote leg. Canada is AAA at S&P, Aaa at Moody's and AAA at DBRS with AA+ from Fitch, one of only two AAA-rated G7 sovereigns, with an improving budget balance and a 2025-26 deficit revised down to C$66.9bn. Singapore is Aaa at Moody's and AAA at S&P - with Fitch and DBRS carried as best available because they could not be confirmed from live sources - but is also a net creditor with a projected FY2026 budget surplus of roughly 1.0 per cent of GDP and combined GIC and Temasek assets near US$1.34 trillion against a GDP of roughly US$560bn. No rating action, review or auction stress is pending on either leg inside four weeks, and the only live tactical fiscal consideration is the open-ended and unbudgeted Canadian tariff-support package. Confidence is 45 because a stance this small on a factor with no dated event is close to a rounding difference in the score.",
+    "key_bilateral_metrics": [
+     "Ratings: Canada AAA/Aaa/AAA with AA+ from Fitch; Singapore Aaa stable and AAA stable confirmed, Fitch and DBRS best available",
+     "Fiscal balance: Singapore FY2026 surplus of roughly 1.0 per cent of GDP against a Canadian 2025-26 deficit of C$66.9bn",
+     "Singapore is a net creditor despite gross debt of 171.3 per cent of GDP, issued for investment under the GSA 1992; Canada has the lowest net debt-to-GDP in the G7",
+     "Sovereign wealth: GIC plus Temasek roughly US$1.34 trillion versus Singapore GDP of roughly US$560bn; Temasek net portfolio value SGD 518bn at 2026-03-31",
+     "Neither leg has a quotable sovereign CDS level - both dossiers record it as a gap"
+    ],
+    "what_is_priced": "Nothing fiscal is priced into either leg at this horizon and nothing should be - two top-rated sovereigns with no pending action and no auction stress. The stance is Bearish only because the quote leg's balance sheet is materially the stronger of two strong ones.",
+    "citations": [
+     13,
+     21
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 45,
+    "evidence_type": "macro_data",
+    "bilateral_analysis": "Over one to six months the sovereign differential transmits, and it transmits against the pair. Singapore's net creditor position and roughly US$428bn of official reserves are precisely what makes a permanently appreciating exchange-rate band credible: a country with a weak external balance sheet cannot commit to persistent real appreciation because it cannot fund the reserve accumulation the policy requires. Canada's relative advantage is real - the lowest net debt-to-GDP in the G7, a 30-year yield of 4.15 per cent against a US 30-year at 5.19 per cent, a deficit revised down rather than up, and a record C$80.8bn of foreign purchases of government bonds in Q2 2026 - but its absolute trajectory is deteriorating, with federal debt-to-GDP projected above 43 per cent by 2027-28 and an uncapped, unbudgeted tariff-support commitment. Singapore is meanwhile deploying fiscal capacity offensively to defend its financial-centre franchise through the 2026-08-19 asset-management package, a currency-positive use of fiscal space. Confidence stays at 45 because the gap is a difference between two strong positions and because two of the quote leg's four rating opinions are unconfirmed.",
+    "key_bilateral_metrics": [
+     "Singapore reserves roughly USD 427.9bn, up SGD 33.8bn year on year - the funding that underwrites the appreciating band",
+     "Canadian federal debt-to-GDP projected above 43 per cent by 2027-28 before stabilising, against a Singapore net creditor position",
+     "Canadian long end orderly: 30-year 4.15 per cent and 20-year 4.02 per cent versus a US 30-year at 5.19 per cent",
+     "Canadian tariff-support package explicitly open-ended and unbudgeted, committed beyond the life of the current US administration",
+     "Quote-leg fiscal capacity deployed to attract inflows: proposed fund tax exemption from YA2027, Hedge Fund Investment Programme, ONE Pass Investment Management Track"
+    ],
+    "what_is_priced": "Both sovereigns are priced as non-issues and there is no instrument in which to express the differential. The strategic content is a constraint rather than a trade: the quote leg's balance sheet is why the pair's downside is bounded and gradual rather than disorderly.",
+    "citations": [
+     13,
+     21
+    ]
+   },
+   "horizon_split": "Both horizons are Bearish at identical confidence of 45. Nothing in the factor changes between horizons; only its relevance does, which is why the applied weight rises from 0.04 to 0.07 while the stance and confidence do not move.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 9,
+   "factor_name": "Market Structure & Volatility",
+   "tactical_weight_default": 0.05,
+   "tactical_weight_applied": 0.05,
+   "strategic_weight_default": 0.03,
+   "strategic_weight_applied": 0.03,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 30,
+    "evidence_type": "pair_price_action",
+    "bilateral_analysis": "This is the one factor whose genuine subject is the pair's own trading, and this pass is deliberately not given it in the first-pass scoring. What the payload discloses about structure is a data-quality shortfall: only 10 resistance zones and 0 support zones met the two-touch threshold for CAD/SGD, so the levels list needs round-number supplementation. The volatility side is not missing but permanently absent: neither leg has a listed FX option that produces a cross surface - NOK, SEK and SGD have no listed FX option on any exchange, corroborated by CME's own FX product guide showing no SGD options product in any family, no SGD entry in the CVOL family and no options on the SGX USD/SGD root. There is therefore no implied volatility, no term structure, no risk reversal, no variance risk premium and no event premium to measure for this cross. Neutral at 30 confidence is the only honest output.",
+    "key_bilateral_metrics": [
+     "Implied volatility unavailable and permanently so: no listed FX option on either leg produces a CAD/SGD surface",
+     "No forward funding differential in the gated store for this pair because SGD has no listed future",
+     "Zone-detection shortfall disclosed in the payload: 10 resistance zones and 0 support zones met the two-touch threshold",
+     "Store depth: 4,879 weekday bars from 2007-12-24 to 2026-09-03, of which 130 daily bars covering 2026-03-06 to 2026-09-03 passed downstream",
+     "Pair liquidity: a thin cross with no listed derivatives, normally traded as two dollar legs, so execution and gap risk are materially worse than for either leg against the dollar"
+    ],
+    "what_is_priced": "Nothing can be said to be priced in a pair with no options market: there is no surface to be cheap or expensive, no skew to be one-sided and no event premium to fade. The absence of a volatility market is itself the dominant structural fact.",
+    "citations": [
+     23
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 30,
+    "evidence_type": "pair_price_action",
+    "bilateral_analysis": "Over one to six months the structural read is unchanged and unavailable for the same reason: the chart is withheld from this pass by design, and the volatility surface does not exist at any tenor. Two structural facts survive and both are about the market rather than the price. First, liquidity: CAD/SGD is a thin cross with no listed future and no listed option, normally warehoused as two dollar legs, which means gap risk around dated events is transmitted through the dollar rather than absorbed in the cross and execution deteriorates precisely when the dated calendar is dense. Second, realised volatility on each leg is historically subdued - USD/CAD 20-day 4.6 per cent and 60-day 4.01 per cent; USD/SGD 20-day 3.35 per cent and 60-day 3.00 per cent - so the cross is structurally a low-volatility grind whose realised range is set largely by the dollar legs' correlation. Neither observation is directional, and neither would change the stance if the chart were supplied, because a stance may not rest on it in any case.",
+    "key_bilateral_metrics": [
+     "No implied volatility at any tenor for the cross; no CVOL entry, no exchange-listed option on either non-USD leg",
+     "Leg-level realised volatility is low: USD/CAD 20-day 4.6 per cent and 60-day 4.01 per cent; USD/SGD 20-day 3.35 per cent and 60-day 3.00 per cent",
+     "Quote-leg realised volatility has moved above its own 60-day baseline for the first time this cycle - a managed-float tell that the band edge or a review is near",
+     "No forward funding differential and no cross-currency basis obtainable for CAD/SGD",
+     "Payload confirms this pass holds no returns, moving averages, ranges, zones or ATR by design - reconstruction is prohibited"
+    ],
+    "what_is_priced": "With no cross options market and no obtainable basis, there is nothing priced to agree or disagree with. The strategic content of this factor is a constraint on implementation rather than a directional input.",
+    "citations": [
+     23
+    ]
+   },
+   "horizon_split": "Both horizons are Neutral at 30 confidence. The reason is identical on each and structural rather than analytical: the pair's own price history is withheld from this pass by design and its volatility surface does not exist, so the one factor entitled to use chart evidence has none to use.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": {
+    "vol_landscape_summary": "There is no volatility landscape to characterise. CAD/SGD has no listed option on either non-USD leg, no CVOL entry and no free over-the-counter surface, so implied volatility, term structure, skew, the variance risk premium and any event premium are all permanently absent rather than unfetched. Both legs are low-realised-volatility currencies against the dollar and the quote leg's short-window realised volatility has recently risen above its long window, which in a managed float is one of the few genuine signals that the trade-weighted index is nearing a band edge or a policy review. Pass-2 confirms the structural picture is a bearish 50<100<200 moving-average stack beneath a declining 200-week average at 0.96281 that has capped the pair for 206 consecutive weeks, against spot sitting 25.8 pips above the 50-day and having just printed a marginally higher high.",
+    "directional_expression": "Options expression is unavailable, so the standard cheap-vol versus expensive-vol framework collapses to a default of spot or forward only. The forward is the weaker instrument here for a bearish view because the base currency's positive money-market carry of roughly 84.7 basis points means the cross trades at a forward discount, so a short position starts behind and pays away carry - and the true forward funding differential is not obtainable, so the cost cannot even be quoted precisely. That argues for spot expression sized against the carry drag, and for considering whether the view is better held in a leg-versus-dollar structure where listed derivatives exist. No structures, sizes or levels are specified in this pass.",
+    "event_timing_consideration": "The dated calendar is dense and one-sided in timing: the gated base-leg decisions fall on 2026-09-02, 2026-10-28 with a Monetary Policy Report and 2026-12-09, while the quote leg's decisive review is not in the gated file at all and is placed by its own dossier no later than 2026-10-14. Because no cross options exist, none of that event risk can be owned as convexity - it has to be carried in spot or avoided, which materially raises the cost of being early.",
+    "liquidity_note": "A thin cross with no listed future and no listed option, normally intermediated as two dollar legs. That means wider spreads than either leg against the dollar, gap risk transmitted through the dollar around dated events, and execution quality that deteriorates exactly when the calendar is dense. Position sizing rather than instrument selection is the binding constraint."
+   }
+  },
+  {
+   "factor_number": 10,
+   "factor_name": "USD Liquidity & Funding",
+   "tactical_weight_default": 0.11,
+   "tactical_weight_applied": 0.08,
+   "strategic_weight_default": 0.12,
+   "strategic_weight_applied": 0.09,
+   "weight_adjustment_reason": "Reduced 0.03 on both horizons because this is a non-USD cross and, unusually, the dollar channel hits both legs in the same direction: a hawkish Federal Reserve widens the base leg's rate disadvantage from 137.5 basis points and the quote leg's money-market disadvantage from 222 basis points simultaneously. Much of the dollar signal therefore cancels in the cross.",
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 50,
+    "evidence_type": "rates",
+    "bilateral_analysis": "The plumbing is benign on both legs and the differential comes entirely from the dollar's rate channel rather than from funding stress. SOFR printed 3.65 to 3.68 per cent in late August on volumes near US$2.8 to 3.1 trillion with a 14-basis-point band, Federal Reserve central bank liquidity swaps outstanding are US$121m, and the three-month EUR/USD cross-currency basis was plus 0.05 basis points on 2026-09-01 - there is no dollar squeeze anywhere in the system. The bilateral question is which leg suffers more from the Jackson Hole repricing that took September Fed hike odds from 36 per cent to between 58 and 68 per cent. The answer favours the quote leg. The base currency transmits the dollar rate directly through its front end, the mechanism the Bank of Canada itself named as the cause of the currency's depreciation, and has a materially higher dollar beta than a managed float does. The quote currency's appreciation path is trade-weighted rather than dollar-pegged, so a Fed hike lifts USD/SGD while leaving the S$NEER slope intact - the Singapore dollar keeps appreciating against the basket, which includes the Canadian dollar. This is a rate-channel read rather than a funding read.",
+    "key_bilateral_metrics": [
+     "September Fed hike probability repriced from 36 per cent to 58 to 68 per cent after the 2026-08-28 Jackson Hole address",
+     "Base-leg rate disadvantage to the dollar: policy 137.5 basis points, 2-year 119 basis points, 10-year 102 basis points; quote-leg money-market disadvantage 222.2 basis points",
+     "Three-month EUR/USD cross-currency basis plus 0.05 basis points on 2026-09-01; Fed central bank liquidity swaps US$121m - no funding stress on either leg",
+     "SOFR 3.65 to 3.68 per cent in late August on US$2.8 to 3.1 trillion of volume with a 14-basis-point distribution",
+     "No SGD/USD or CAD/SGD cross-currency basis is publicly quoted; the base leg's implied residual of roughly minus 28.8 basis points is derived, not observed"
+    ],
+    "what_is_priced": "The market prices abundant dollar liquidity and roughly two-thirds of a September hike. The unpriced part is the differential in transmission: a delivered hike moves the base currency's front end and leaves the quote currency's trade-weighted appreciation path untouched, which is bearish for the pair rather than neutral.",
+    "citations": [
+     19,
+     21
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 45,
+    "evidence_type": "rates",
+    "bilateral_analysis": "Over one to six months this factor gives no directional signal for the cross and Neutral is a considered conclusion rather than a default. Both dossiers independently reached Neutral on their own leg for the same underlying reason: dollar scarcity is over - the Federal Reserve's balance sheet is flat to marginally higher year on year at roughly US$6.73 trillion with Treasury quantitative tightening replaced by bill purchases - while reserve balances are draining at roughly US$20bn a week toward the ample-reserves floor. Applied bilaterally, that ambiguity affects both legs similarly: the base currency is deeply integrated with the US financial system with an unused standing swap line, and the quote currency sits at the centre of the Asian dollar market with roughly US$428bn of reserves insulating its clearing function. Neither has a funding vulnerability the other lacks. Loading a directional dollar view into this factor would double-count Factor 1 and Factor 3. The one scenario that would make it directional is a genuine year-end funding dislocation around the 2026-12-11 US funding cliff, which would hit the quote leg's dollar-clearing role harder than the base leg's - a bullish tail for the pair that neither market prices.",
+    "key_bilateral_metrics": [
+     "Fed total assets roughly US$6.73 trillion, down 0.3 per cent over three months but up about 0.3 per cent year on year - flat rather than contracting",
+     "Reserve balances roughly US$2.92 trillion, draining about US$20bn a week from US$2.99 trillion on 2026-08-05",
+     "MBS runoff continues at roughly US$15.6bn a month while Treasury holdings expand almost entirely in bills",
+     "Both legs insulated: an unused Bank of Canada standing swap line and roughly US$428bn of MAS reserves behind Singapore's Asian dollar clearing role",
+     "Dated funding risk inside the horizon: 2026-12-11 US government funding cliff coinciding with year-end balance-sheet compression"
+    ],
+    "what_is_priced": "Both markets price abundant dollar funding for the full horizon and we agree, which is precisely why there is no edge. The residual dollar direction belongs to Factors 1 and 3 and is not counted twice here; the only unpriced element is a year-end dislocation, which would be bullish for the pair rather than bearish.",
+    "citations": [
+     19,
+     21
+    ]
+   },
+   "horizon_split": "The stance moves from Bearish to Neutral because the tactical bearishness is entirely the Jackson Hole repricing of September Fed odds - an event-driven dollar bid that transmits harder through the base leg's front end than through a trade-weighted band, and that resolves on 2026-09-16 and then stops being news. Strategically the plumbing is benign in both directions for both legs, and any residual dollar direction is already carried in Factors 1 and 3.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  }
+ ],
+ "synthesis": {
+  "weight_adjustments": {
+   "adjustments_made": true,
+   "adjustments": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates",
+     "default_weight": 0.24,
+     "applied_weight": 0.21,
+     "reason": "Singapore has no policy rate by design - MAS's instrument is the S$NEER band - so a large share of the content this factor normally measures is genuinely the subject of Factor 6 for this pair. Cut 0.03 on both horizons and moved it to Factor 6 to avoid double-counting the same policy decision."
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance & Terms of Trade",
+     "default_weight": 0.16,
+     "applied_weight": 0.19,
+     "reason": "A petro-exporter against a net crude importer with the widest current-account differential in the G10+SGD set (+16.7% of GDP versus -0.87%). Brent moves the two legs in opposite directions by construction, which the framework identifies as a commodity-netting weight-boost case."
+    },
+    {
+     "factor_number": 6,
+     "factor_name": "Guidance & Credibility",
+     "default_weight": 0.12,
+     "applied_weight": 0.15,
+     "reason": "Mirror of the Factor 1 reduction. For the quote leg, guidance about the appreciation slope is not commentary about policy - it is the policy, and it transmits straight into the cross. The October review and the gated 2026-10-28 Monetary Policy Report both land inside the strategic horizon."
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "default_weight": 0.12,
+     "applied_weight": 0.09,
+     "reason": "Non-USD cross, and unusually the dollar channel hits both legs in the same direction - a hawkish Fed widens the base leg's 137.5bp disadvantage and the quote leg's 222bp disadvantage simultaneously - so much of the signal cancels."
+    }
+   ]
+  },
+  "tactical": {
+   "net_stance": "Bearish",
+   "conviction": 2,
+   "overall_confidence": 52,
+   "weighted_score_calculation": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative)",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.21,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 2,
+     "factor_name": "Inflation & Growth Dynamics",
+     "stance_score": -1,
+     "confidence": 52,
+     "conf_adj_score": -0.52,
+     "weight": 0.18,
+     "weighted_contribution": -0.0936
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "stance_score": 0,
+     "confidence": 45,
+     "conf_adj_score": 0,
+     "weight": 0.1,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 4,
+     "factor_name": "Flows & Positioning",
+     "stance_score": 1,
+     "confidence": 55,
+     "conf_adj_score": 0.55,
+     "weight": 0.1,
+     "weighted_contribution": 0.055
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance & Terms of Trade",
+     "stance_score": 1,
+     "confidence": 55,
+     "conf_adj_score": 0.55,
+     "weight": 0.09,
+     "weighted_contribution": 0.0495
+    },
+    {
+     "factor_number": 6,
+     "factor_name": "Guidance & Credibility",
+     "stance_score": -1,
+     "confidence": 55,
+     "conf_adj_score": -0.55,
+     "weight": 0.1,
+     "weighted_contribution": -0.055
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk & Geopolitics",
+     "stance_score": -1,
+     "confidence": 55,
+     "conf_adj_score": -0.55,
+     "weight": 0.05,
+     "weighted_contribution": -0.0275
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign Risk",
+     "stance_score": -1,
+     "confidence": 45,
+     "conf_adj_score": -0.45,
+     "weight": 0.04,
+     "weighted_contribution": -0.018
+    },
+    {
+     "factor_number": 9,
+     "factor_name": "Market Structure & Volatility",
+     "stance_score": 0,
+     "confidence": 30,
+     "conf_adj_score": 0,
+     "weight": 0.05,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "stance_score": -1,
+     "confidence": 50,
+     "conf_adj_score": -0.5,
+     "weight": 0.08,
+     "weighted_contribution": -0.04
+    }
+   ],
+   "net_weighted_score": -0.1296,
+   "score_interpretation": "Minus 0.1296 sits just past the minus 0.10 boundary, so the derived stance is Bearish CAD/SGD but only barely - this is a mild directional tilt, not a conviction call, and it would flip to Neutral on a single ten-point confidence change in Factor 2 or Factor 6. Negative contributions total minus 0.2341 from Inflation and Growth, Guidance, Event Risk, USD Liquidity and Fiscal; positive contributions total plus 0.1045 from Flows and External Balance. Three factors carrying 36 per cent of the tactical weight score exactly zero, including the largest single factor: Policy and Rates at 0.21 contributes nothing because an 84.7 basis point carry advantage to the base currency and an estimated 1.25 per cent per annum appreciation slope in the quote currency genuinely cancel over four weeks. The breadth is doing real work here - five bearish factors against two bullish - but the depth is thin, with no single contribution exceeding 0.094 in absolute terms.",
+   "rationale": "At tactical weights the analysis is carried by Inflation and Growth at 0.18 and by the pair of Policy and Rates at 0.21 and Guidance at 0.10, and the split between the last two is the structural peculiarity of this cross. Policy and Rates scores zero because only one leg has a policy rate: the Bank of Canada's 2.25 per cent against a Singapore money-market proxy of 1.4028 per cent gives the pair roughly 84.7 basis points of positive carry, which is almost exactly offset by the estimated 1.25 per cent annual appreciation slope of the S$NEER band, so over four weeks the pair earns about 7 basis points a month and drifts down about 10. Guidance carries the content that Factor 1 cannot: one central bank that has deliberately told the market it has no signal, disclosing an explicit range of views on the sustainability of its own rebound, against one that has tightened at two consecutive reviews, guided that core inflation would step up from July, and been validated by every print since. Inflation and Growth reinforces from the same direction, because the transmission is asymmetric - Singaporean core inflation at 2.0 per cent and accelerating mechanically argues for a steeper currency, while Canadian headline at 3.0 per cent against CPI-trim of 1.9 per cent is something the Bank has publicly committed to looking through. The conflicts are genuine and concrete rather than decorative. Flows and Positioning is Bullish for the pair and unusually so, because the two legs amplify: a 131,035-contract combined speculative short in Canadian dollar futures against an estimated S$NEER deviation of roughly 1.7 per cent above midpoint means the short CAD/SGD trade is crowded on both sides. External Balance is Bullish because Brent at roughly US$90 to US$93 is a revenue transfer to a petro-exporter and a cost to a net crude importer whose terms-of-trade index has slipped to 97.84. What is priced versus what we expect is narrow at this horizon: the 2026-09-02 Bank of Canada hold is fully discounted at a 3 per cent implied hike probability, the quote leg has no scheduled communication inside the window, and the only genuinely unpriced binary is the composition of the Canadian retaliation list taking effect 2026-09-08. The path of least resistance is a slow grind lower punctuated by Canadian data - the 2026-09-03 trade balance, the 2026-09-04 Labour Force Survey and the 2026-09-14 CPI all land against a lowered bar and could push back for two to three weeks. Conviction is 2 rather than 3 because the score sits 0.03 past the Neutral boundary, because the pair pays positive carry against the view, and because there is no options market in either leg in which to own the September event risk as convexity rather than as spot.",
+   "g10_relative_ranking": "Among Canadian dollar crosses, CAD/SGD ranks in the middle of the short-CAD opportunity set for the four-week horizon: less attractive than short CAD/NOK, where a 200 basis point carry differential and Norges Bank's retained hike option do the work with no dollar beta, but more attractive than short CAD/CHF or CAD/JPY, where the base currency earns positive carry of 225 and 125 basis points respectively. Among Singapore dollar crosses, long SGD versus CAD ranks behind long SGD versus GBP and NZD on the fundamental gap and behind SGD/CHF and SGD/SEK on carry cost, because the CAD leg is the one that pays the Singapore dollar to be short of it, at roughly 85 basis points a year. Both dossiers place their own currency mid-table, consistent with a cross that is directional but shallow.",
+   "scenarios": {
+    "base_case": {
+     "probability_pct": 50,
+     "pair_target": "0.9140",
+     "timeframe": "3-4 weeks",
+     "conditions": [
+      "The 2026-09-02 Bank of Canada hold delivers balanced, data-dependent language with no hawkish tone shift",
+      "The 2026-09-14 Canadian CPI shows CPI-trim at or below 2.0%, keeping the headline-core gap gasoline-driven",
+      "The 2026-09-23 Singapore August CPI prints MAS core at or above 2.0%, keeping the October review live",
+      "Brent holds a US$85-95 range so neither leg's terms-of-trade channel dominates"
+     ],
+     "path": "Pair drifts lower to 0.9140 over three to four weeks, -47 pips or -0.51% from 0.9187, settling into the four-touch 0.91370-0.91550 congestion floor."
+    },
+    "upside_case": {
+     "probability_pct": 25,
+     "pair_target": "0.9250",
+     "conditions": [
+      "The 2026-09-04 Labour Force Survey beats a lowered +15.8k bar with unemployment holding 6.4% or falling, extending Canadian hike pricing",
+      "The 2026-09-23 Singapore core CPI slips below 1.8%, pulling October steepening odds toward 35%, or Brent pushes above US$100 on Hormuz escalation and the raw commodity netting overwhelms the policy channel"
+     ]
+    },
+    "downside_case": {
+     "probability_pct": 25,
+     "pair_target": "0.9090",
+     "conditions": [
+      "The 2026-09-08 Canadian retaliation list lands broader than trailed and provokes a US escalation response",
+      "Canadian CPI-trim slips below 1.9% on 2026-09-14, removing the statistical basis for 2026 hike pricing, or the 2026-09-16 FOMC hikes with projections implying a terminal rate above 4.25% and the base leg's front end takes the hit the quote leg's trade-weighted band does not"
+     ]
+    }
+   },
+   "path_expectation": "The shape is a lower-high rejection followed by a grind, not a slide. Phase one runs to 2026-09-08: the pair is currently 22 pips under the lower edge of the eight-touch 0.92090-0.92630 band with the 100-day at 0.92100 sitting inside it, and the most likely near-term action is a probe into 0.9200-0.9225 on any Canadian data beat before that supply reasserts - that probe is the tactical entry, not a reason to abandon the view. Phase two runs 2026-09-08 to 2026-09-14, when the retaliation composition and the Canadian CPI land two of the window's three real catalysts inside four sessions; this is the most likely stretch for the 0.91370-0.91550 floor to be tested, and a daily close below 0.9137 would open 0.9100 quickly because there is no computed zone between them. Phase three is 2026-09-16 and after, when the FOMC resolves the largest dollar asymmetry and, because both legs lose to a hawkish Fed, the cross should compress rather than trend through it. Expect realised volatility to stay near the 2.75% twenty-day reading rather than expanding, so a 28-pip ATR implies a realistic four-week envelope of roughly 0.9090 to 0.9250 and any move outside it requires a genuine surprise on one leg alone. Rallies should meet supply at 0.9209 and again at 0.9263; declines should find bids at 0.9155 and again at 0.9100.",
+   "conviction_ladder": {
+    "current": 2,
+    "increase_conditions": [
+     "A daily close below 0.91370 - the base of the hand-counted congestion floor - with the CA-US two-year spread wider than -130bp",
+     "Singapore August core CPI on 2026-09-23 at or above 2.2% while the pair holds below 0.9200",
+     "A weekly close below 0.90956, the 52-week closing low, with the 50-day having rolled below the pair's own five-week high",
+     "The 2026-09-16 FOMC holds and the pair still fails at 0.9209 - a rejection with the dollar tailwind removed"
+    ],
+    "decrease_conditions": [
+     "Two consecutive daily closes above 0.92630, the top of the eight-touch band, putting the pair back above its 100-day and 200-day",
+     "Canadian CPI-trim above 2.5% on 2026-09-14, converting the market's 65% hike pricing from a mispricing into a forecast"
+    ]
+   },
+   "risk_reward": {
+    "base_case_payoff": "+47 pips (+0.51%)",
+    "downside_case_loss": "-63 pips (-0.69%)",
+    "risk_reward_ratio": "0.75:1 base-case-to-adverse; 1.54:1 downside-case-to-adverse",
+    "expected_value": "(0.50 x +47) + (0.25 x +97) + (0.25 x -63) = 23.5 + 24.25 - 15.75 = +32.0 pips gross, less one month of carry at 6.5 pips, for a net +25.5 pips (+0.28%)",
+    "asymmetry_assessment": "The distribution is positively skewed for a short but the base case recovers only three-quarters of the adverse case, the fingerprint of a managed float truncating the middle of the distribution while the dollar sets the tails. A +25.5 pip net expected value against a 28-pip ATR is less than one average day of range - a real but non-tradeable edge at spot."
+   }
+  },
+  "strategic": {
+   "net_stance": "Bearish",
+   "conviction": 3,
+   "overall_confidence": 58,
+   "weighted_score_calculation": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative)",
+     "stance_score": -1,
+     "confidence": 55,
+     "conf_adj_score": -0.55,
+     "weight": 0.21,
+     "weighted_contribution": -0.1155
+    },
+    {
+     "factor_number": 2,
+     "factor_name": "Inflation & Growth Dynamics",
+     "stance_score": -1,
+     "confidence": 62,
+     "conf_adj_score": -0.62,
+     "weight": 0.1,
+     "weighted_contribution": -0.062
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "stance_score": 0,
+     "confidence": 45,
+     "conf_adj_score": 0,
+     "weight": 0.05,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 4,
+     "factor_name": "Flows & Positioning",
+     "stance_score": 1,
+     "confidence": 45,
+     "conf_adj_score": 0.45,
+     "weight": 0.06,
+     "weighted_contribution": 0.027
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance & Terms of Trade",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.19,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 6,
+     "factor_name": "Guidance & Credibility",
+     "stance_score": -1,
+     "confidence": 60,
+     "conf_adj_score": -0.6,
+     "weight": 0.15,
+     "weighted_contribution": -0.09
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk & Geopolitics",
+     "stance_score": -1,
+     "confidence": 58,
+     "conf_adj_score": -0.58,
+     "weight": 0.05,
+     "weighted_contribution": -0.029
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign Risk",
+     "stance_score": -1,
+     "confidence": 45,
+     "conf_adj_score": -0.45,
+     "weight": 0.07,
+     "weighted_contribution": -0.0315
+    },
+    {
+     "factor_number": 9,
+     "factor_name": "Market Structure & Volatility",
+     "stance_score": 0,
+     "confidence": 30,
+     "conf_adj_score": 0,
+     "weight": 0.03,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "stance_score": 0,
+     "confidence": 45,
+     "conf_adj_score": 0,
+     "weight": 0.09,
+     "weighted_contribution": 0
+    }
+   ],
+   "net_weighted_score": -0.301,
+   "score_interpretation": "Minus 0.3010 is a moderate directional reading on the bearish side, comfortably clear of the minus 0.10 boundary and roughly 2.3 times the tactical score. Negative contributions total minus 0.3280 from Policy and Rates, Guidance, Inflation and Growth, Fiscal and Event Risk; the only positive is Flows at plus 0.0270. Policy and Rates at minus 0.1155 and Guidance at minus 0.0900 together account for 63 per cent of the bearish case, so the thesis rests squarely on the two central banks' next projection rounds rather than on the trade war or on commodities. Notably, External Balance carries the second-largest applied weight at 0.19 and contributes exactly zero: the base dossier's external-balance factor contributes plus 0.0928 to its own score and the quote dossier's contributes plus 0.0928 to its own, in opposite pair directions, as literal a standoff as this framework produces. Four factors carrying 36 per cent of the strategic weight score zero, so the depth is concentrated rather than broad - but it is concentrated in the two heaviest factors, which is the better configuration of the two.",
+   "rationale": "At strategic weights the character of the analysis changes: Inflation and Growth falls from 0.18 to 0.10 and Flows from 0.10 to 0.06, while External Balance rises to 0.19 and Guidance to 0.15. The two factors that carried the tactical bullish case therefore lose weight, and the two that carry the bearish case gain it. The core thesis is a double mispricing in policy expectations that resolves in the same pair direction on both legs. On the base leg, Canadian OIS carries roughly a 65 per cent probability of a 2026 Bank of Canada hike against the Bank's own Market Participants Survey median of 2.25 per cent through January 2027 and 2.50 per cent only in March 2027; the gated 2026-10-28 Monetary Policy Report is where that gets marked down, because the Bank must simultaneously cut its 2026 growth path for the tariff shock and its inflation path as gasoline base effects roll off. On the quote leg, the only dated published calls expect MAS to be finished, while MAS has tightened twice pre-emptively, has told the market core inflation steps up from July and moderates only from around mid-2027, and has watched every subsequent print validate it - the quote dossier assigns 55 per cent to a further steepening. Those two views compound: a base currency losing its rate support against a quote currency whose appreciation compounds mechanically at an estimated 60 to 75 basis points of trade-weighted strength over six months. Guidance, Inflation and Growth and Policy and Rates all describe the same mechanism from different angles, which is why their combined minus 0.2675 dominates. The genuine conflicts are two. First, positioning is against us on both legs at once - short base, long quote - and a crowded pair trade with no squeeze mechanism on the quote side is an uncomfortable place to add. Second, External Balance nets to exactly nothing: the EIA's projection of Brent near US$87 with roughly 0.6mb/d of Hormuz disruption to end-2027 is a persistent revenue transfer to the base currency, and it is offset almost exactly by a Singapore current-account surplus of 16.7 per cent of GDP against Canada's minus 0.87 per cent, institutionalised into real appreciation and funded by SGD 33.8bn of annual reserve accumulation. The dated catalysts are the gated 2026-10-28 Monetary Policy Report and 2026-12-09 decision, the quote leg's October review which the gated file does not carry and which its own dossier places no later than 2026-10-14, the 2026-11-03 US midterms as the only circuit-breaker for the Canadian tariff regime, the 2026-11-10 US-China truce expiry, and the 2027-01-01 escalation to 50 per cent Canadian auto and steel duties. Conviction is 3 rather than 4 because the pair pays positive carry against the view, because the heaviest bearish factor rests on a policy parameter no central bank publishes, and because both plausible failure modes - a negotiated end to the Canadian tariffs and an MAS that is already done - would push the pair the same way and are not independent of each other.",
+   "g10_relative_ranking": "Strategically CAD/SGD is a better-than-average short among Canadian dollar crosses but not the best: short CAD/NOK remains the cleaner petro-currency expression at a 200 basis point carry differential with Norges Bank retaining an explicit hike option, and the base dossier itself flags USD/CAD as the pair to avoid for a directional short-CAD spot expression precisely because 131,035 contracts of speculative short are already concentrated there. Against Singapore dollar crosses, long SGD versus CAD ranks behind short NZD/SGD on the size of the fundamental gap relative to what is priced, and behind SGD/CHF and SGD/SEK on carry cost, since those two are the only crosses where the Singapore dollar is not paying to be long. Where CAD/SGD earns its place is in mechanism rather than magnitude: it is one of very few crosses in which both central banks' next projection rounds, on our reading, push the same way, and the base dossier ranks CAD seventh of eleven strategically while the quote dossier ranks SGD fourth - a three-place gap that the cross expresses directly.",
+   "scenarios": {
+    "base_case": {
+     "probability_pct": 50,
+     "pair_target": "0.9020",
+     "timeframe": "by end-February 2027",
+     "conditions": [
+      "The Bank of Canada holds at 2.25% at both the 2026-10-28 and 2026-12-09 decisions and the ~65% year-end hike premium bleeds out of the Canadian curve",
+      "MAS steepens the S$NEER slope modestly at the October review toward roughly 1.50% a year, or holds it while reaffirming elevated core inflation into 2027",
+      "Canadian Q3 GDP confirms the July 0.0% advance estimate as signal rather than noise, printing below 1.5% annualised",
+      "Brent eases toward the EIA's US$87 full-year average, removing the terms-of-trade offset that currently neutralises Factor 5",
+      "No restart of formal US-Canada trade negotiations before 2026-11-30"
+     ],
+     "path": "Pair reaches 0.9020 by end-February 2027, -167 pips or -1.82% from 0.9187, clearing the 52-week closing low of 0.90956 and settling between it and the 0.9000 round number."
+    },
+    "upside_case": {
+     "probability_pct": 25,
+     "pair_target": "0.9330",
+     "conditions": [
+      "The Bank of Canada hikes to 2.50% on 2026-10-28 as National Bank and Scotiabank forecast, validating rather than unwinding the 65% pricing",
+      "MAS holds its slope on 14 October and the estimated 1.7% band deviation unwinds toward midpoint, or the AI capital-expenditure cycle rolls over with Singapore semiconductor output growth turning negative and MTI marking its growth forecast back below 4.0%"
+     ]
+    },
+    "downside_case": {
+     "probability_pct": 25,
+     "pair_target": "0.8930",
+     "conditions": [
+      "The 2027-01-01 escalation to 50% duties on Canadian autos, trucks, parts and steel is confirmed and extended, and Canadian Q4 activity contracts",
+      "MAS steepens in October and signals further readiness for January as core inflation pushes toward the 2.5% top of its own forecast band, or Brent falls below US$75 and both Canadian pillars - hike pricing and terms of trade - fail simultaneously"
+     ]
+    }
+   },
+   "path_expectation": "The shape is a staircase with one genuine discontinuity, not a slide. The first leg runs to mid-October: the pair should chop in a 0.9100-0.9263 range while the market waits for post-tariff Canadian activity data and for the Singapore October review, with the declining 200-week average at 0.96281 falling roughly 45 pips over the period and tightening the structural ceiling without touching spot. The discontinuity is the fortnight of 2026-10-14 to 2026-10-28, when the quote leg's Monetary Policy Statement, Macroeconomic Review and Q3 advance GDP land together and the gated Bank of Canada projection round follows within two weeks - that pair of events settles roughly 63% of the bearish case, and a steepening plus a Canadian markdown should take the pair through the 0.90792-0.90956 double-low band in a single leg rather than by grinding, because there is no computed support between it and 0.9000. November should be the widest and least directional stretch of the window, with the US midterms, the US-China truce expiry, APEC and the Taiwan elections all landing inside four weeks and pulling the two legs in opposing directions; expect a chop between 0.9000 and 0.9200 rather than progress. The final leg into February 2027 should resume the grind toward 0.9020 as the January MAS review and the 2027-01-01 tariff escalation reset expectations, with realised volatility rising from the current 2.90% sixty-day reading toward 3.5% as the range breaks. Pullbacks should be shallow and sold at 0.9209 and 0.9263; a weekly close above 0.93030 would invalidate the sequence.",
+   "conviction_ladder": {
+    "current": 3,
+    "increase_conditions": [
+     "MAS steepens the S$NEER slope at the October review and the pair closes below 0.90792, the 52-week intraday low, on a weekly basis",
+     "The 2026-10-28 Monetary Policy Report revises 2026 Canadian growth to or below 0.7% and the market-implied probability of a 2026 Bank of Canada hike falls below 35%, with the pair below 0.9100",
+     "The pair closes below 0.9000 on a weekly basis with the CA-US two-year spread wider than -160bp and the estimated S$NEER deviation still at or above 1.5% above midpoint"
+    ],
+    "decrease_conditions": [
+     "MAS holds on 14 October with no hawkish reference to the January 2027 review, or the pair closes above 0.92581, the 200-day, for five consecutive sessions",
+     "The Bank of Canada hikes to 2.50% on 2026-10-28; or formal US-Canada trade negotiations restart before 2026-11-30, or the pair posts two consecutive weekly closes above 0.93907, the top of the nine-touch band"
+    ]
+   },
+   "risk_reward": {
+    "base_case_payoff": "+167 pips (+1.82%)",
+    "downside_case_loss": "-143 pips (-1.56%)",
+    "risk_reward_ratio": "1.17:1 base-case-to-adverse; 1.80:1 downside-case-to-adverse",
+    "expected_value": "(0.50 x +167) + (0.25 x +257) + (0.25 x -143) = 83.5 + 64.25 - 35.75 = +112.0 pips gross, less six months of carry at 38.9 pips, for a net +73.1 pips (+0.80%)",
+    "asymmetry_assessment": "The distribution is positively skewed on both measures and the carry drag consumes 35% of the gross expected value, the single largest structural cost of holding this view and the reason a leg-versus-dollar expression deserves consideration. A +73 pip net expected value against a 28-pip ATR is 2.6 average days of range over six months - thin in absolute terms, but the base case alone at 167 pips is 6.0 ATRs and 0.89 of a six-month standard deviation, so the target is demanding without being heroic."
+   }
+  },
+  "consensus_divergence": {
+   "bank_consensus_forecast": null,
+   "bank_consensus_forecast_source": null,
+   "our_tactical_view": "Bearish CAD/SGD over two to four weeks at conviction 2 and overall confidence 52, on a derived net weighted score of minus 0.1296 - a mild directional tilt whose magnitude is deliberately not quantified in this pass.",
+   "our_strategic_view": "Bearish CAD/SGD over one to six months at conviction 3 and overall confidence 58, on a derived net weighted score of minus 0.3010, driven by the base leg's 2026 hike premium bleeding out at the gated 2026-10-28 Monetary Policy Report against a 55 per cent probability of a further S$NEER slope steepening at the quote leg's October review.",
+   "divergence_direction": "Not determinable against a pair-level consensus, because none exists. Against the two legs' published forecasts the picture is mixed: our base-leg view is more bearish CAD than the Scotiabank, ING and RBC end-2026 cluster of roughly 1.3333 to 1.3405 on USD/CAD and broadly in line with a reported three-month Reuters figure near 1.40, while our quote-leg view is more bullish SGD than MUFG's published USD/SGD path of 1.2900 for Q3 and Q4 2026 and broadly in line with Trading Economics' twelve-month 1.26.",
+   "divergence_magnitude": "Not quantifiable. No bank research forecast for CAD/SGD was obtained and none is asserted; the field is null rather than filled from an extrapolation site, since LongForecast, WalletInvestor, CoinCodex and 30rates are scripts on ad-supported pages and citing one would be a category error rather than a weak source. On probabilities rather than levels, the two divergences that can be stated are roughly 40 percentage points on the base leg - our approximately 25 per cent against the market's 65 per cent for a 2026 Bank of Canada hike - and 15 to 20 percentage points on the quote leg, our 55 per cent against a market judged from published calls at 35 to 40 per cent for an October slope increase.",
+   "why_we_differ": "We differ on the reaction functions of two central banks rather than on any macro forecast. On the base leg, the market treats a 3.3 per cent annualised Q2 print as forward-looking when the July advance estimate already showed 0.0 per cent before the Section 338 duties took effect, and it prices a Bank more likely to hike than to cut against that Bank's own survey median, its own 0.7 per cent full-year growth path, core measures averaging exactly 2.0 per cent and wage growth decelerating to 2.8 per cent. On the quote leg, the market underweights how forward-looking MAS has become: it tightened in April before the shock appeared in the data and again in July while the latest core print had eased to 1.6 per cent, and a central bank that has acted on its own projection twice in succession is likely to act a third time when every print since has validated it. The bilateral factor we weigh differently from either standalone view is Guidance and Credibility, which we lifted from 0.07 to 0.10 tactically and 0.12 to 0.15 strategically precisely because for this cross the quote leg's guidance is not commentary about policy - it is the policy.",
+   "payoff_if_right": "The pair falls as the base currency's 2026 hike premium is removed at the October projection round while the quote currency's band slope compounds and possibly steepens, and the mispricing is falsifiable on two dated events six weeks apart rather than on a slow narrative. The bearish view is also cheap to hold in a relative sense, since the only cost is roughly 85 basis points a year of carry rather than a wide options premium.",
+   "risk_if_wrong": "The most likely failure mode is that both legs disappoint in the same direction: the Bank of Canada hikes on the gated 2026-10-28 date as National Bank and Scotiabank forecast, validating the 65 per cent pricing rather than unwinding it, while MAS holds its slope and the estimated 1.7 per cent S$NEER band deviation unwinds toward midpoint. Those two outcomes are not independent - both are versions of the market being right and us being early - and they would land against a 131,035-contract base-currency short and an unhedgeable pair with no options market, which is the specific reason conviction is capped at 3."
+  },
+  "cross_horizon_consistency": {
+   "aligned": true,
+   "tactical_stance": "Bearish (conviction 2, -0.1296)",
+   "strategic_stance": "Bearish (conviction 3, -0.3010)",
+   "explanation": "The horizons are aligned in direction and the thesis strengthens with time, the correct configuration for a pair in which one leg's policy instrument compounds mechanically. Three factors change stance between horizons and each change has a dated mechanical explanation. Policy and Rates moves from Neutral to Bearish because the tactical window contains only a fully discounted Bank of Canada hold, while the strategic window contains the gated Monetary Policy Report, the quote leg's October review and six months of compounding band drift. External Balance moves the other way, from Bullish to Neutral, because the fast-moving oil price shock is caught up over quarters by a current-account differential of 16.7 per cent of GDP against roughly zero. USD Liquidity moves from Bearish to Neutral because the Jackson Hole repricing resolves and then stops being news.",
+   "inflection_point": null,
+   "trading_implication": "Both horizons point the same way, so there is no divergence to navigate - the question is sizing rather than direction. The tactical score sits only 0.03 past the Neutral boundary and the pair pays roughly 85 basis points a year of carry against the view, so the four-week expression is not worth much on its own; the strategic expression is, and the tactical window is better used to accumulate than to trade. The two dated resolutions to wait for are the quote leg's October review and the gated 2026-10-28 Monetary Policy Report, which fall within a fortnight of each other and between them settle roughly 63 per cent of the strategic bearish case. Because neither leg has a listed option, that waiting has to be done in spot rather than in convexity, which is itself an argument for smaller initial size. The accumulation zone is 0.9200-0.9310, and the first tranche belongs at 0.9209 or better, not at market."
+  },
+  "forward_vs_spot": {
+   "current_spot": 0.9187,
+   "forward_1m": "-6.5 pips -> outright 0.91805",
+   "forward_3m": "-19.4 pips -> outright 0.91676",
+   "forward_6m": "-38.5 pips -> outright 0.91485",
+   "expected_rate_3m": "0.9100",
+   "expected_rate_6m": "0.9020",
+   "edge_3m": "+67.6 pips",
+   "edge_6m": "+128.5 pips"
+  }
+ },
+ "catalysts": [
+  {
+   "date": "2026-09-02",
+   "event": "Bank of Canada policy decision, statement and Governor's press conference (gated fixed announcement date)",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "The decision itself is a non-event with a 3 per cent implied hike probability and all 35 Reuters-polled economists forecasting a hold, so the tradeable content is entirely the press-conference tone. For the cross this matters because the quote leg has no scheduled communication inside the same window, so the base leg sets the tone unopposed and any hawkish surprise lifts CAD/SGD without a counterweight.",
+   "priced_in": "Fully",
+   "citations": [
+    1,
+    17
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "event": "Canada merchandise trade balance (July) and Q2 labour productivity",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Base",
+   "rationale": "Consensus of C$3.2bn against a C$3.86bn prior implies the market expects immediate tariff drag, but July data predate the 2026-08-22 Section 338 duties entirely and energy is the largest export category. A beat reinforces exactly the terms-of-trade differential that makes Factor 5 bullish for the pair, since the quote leg is on the opposite side of the same energy shock.",
+   "priced_in": "Partially",
+   "citations": [
+    6,
+    8
+   ]
+  },
+  {
+   "date": "2026-09-04",
+   "event": "Canada Labour Force Survey (August) and Ivey PMI, alongside US non-farm payrolls",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Base",
+   "rationale": "Consensus of plus 15.8k after July's plus 75.1k and a third consecutive decline in unemployment to a two-year low of 6.4 per cent is a materially lowered bar. For the cross the transmission is via Canadian front-end pricing: a beat sustains the roughly 65 per cent 2026 hike probability that is the base currency's only rate support against a quote currency appreciating mechanically, so it lifts CAD/SGD.",
+   "priced_in": "Partially",
+   "citations": [
+    4
+   ]
+  },
+  {
+   "date": "2026-09-08",
+   "event": "Canada's retaliatory tariffs take effect on roughly US$20bn of US goods at 15 to 50 per cent",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Base",
+   "rationale": "The product-level list was unpublished at the valuation date, so the market cannot have priced its composition - this is the tactical window's only genuinely unpriced binary. Retaliation is self-inflicted cost on an economy roughly a tenth the size of its counterpart, and the quote leg carries no comparable dated exposure inside the window, so the asymmetry is entirely on the base side.",
+   "priced_in": "Partially",
+   "citations": [
+    8
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "event": "Statistics Canada Consumer Price Index (August)",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "The most important base-leg data point of the tactical window. Headline at 3.0 per cent sits at the top of the 1-3 per cent band entirely because gasoline is up 25.7 per cent year on year, while CPI-trim at 1.9 per cent and CPI-median at 2.0 per cent average exactly to target. If trim rises toward 2.2 per cent the oil-broadening risk becomes live and the pair rises; if it slips below 1.9 per cent the statistical basis for a 2026 hike disappears and the pair falls.",
+   "priced_in": "Partially",
+   "citations": [
+    5,
+    17
+   ]
+  },
+  {
+   "date": "2026-09-16",
+   "event": "Federal Open Market Committee decision with Summary of Economic Projections",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Both",
+   "rationale": "A hike priced at 58 to 68 per cent widens the base leg's dollar rate disadvantage from 137.5 to 162.5 basis points and the quote leg's money-market disadvantage from 222 to about 247, so the raw dollar effect largely cancels in the cross. The residual is transmission asymmetry: the base currency imports the dollar rate through its front end while the quote currency's trade-weighted appreciation path is unaffected, which tilts the residual mildly bearish for the pair.",
+   "priced_in": "Partially",
+   "citations": [
+    19,
+    21
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "event": "Singapore August CPI and MAS Consumer Price Developments",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Quote",
+   "rationale": "The mechanism by which the quote leg's October review either becomes the base case or a coin flip. July core rose to 2.0 per cent from 1.6 per cent on an 8.7 per cent year-on-year jump in electricity and gas, and August carries a full month of that tariff rather than a partial one. A core print at or above 2.2 per cent raises the probability of a steeper appreciation slope, which is directly bearish for CAD/SGD.",
+   "priced_in": "Not priced",
+   "citations": [
+    12,
+    17
+   ]
+  },
+  {
+   "date": "2026-09-25",
+   "event": "Singapore August industrial production",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Quote",
+   "rationale": "The clearest read on whether the quote leg's growth engine is rolling over: semiconductor output growth has fallen from 37.0 per cent in May to 20.8 per cent in June to 8.0 per cent in July. A further leg down undercuts the growth forecast behind the October tightening case, which would remove the quote leg's policy support and lift CAD/SGD.",
+   "priced_in": "Not priced",
+   "citations": [
+    11,
+    15
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "event": "MAS October Monetary Policy Statement, Macroeconomic Review and Q3 advance GDP estimate (date NOT in the gated file)",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Quote",
+   "rationale": "The single most important date for the quote leg, not in the gated schedule. The quote dossier assigns 55 per cent to a further slope steepening toward roughly 1.50 per cent a year against published calls closer to 35 to 40 per cent. A steepening resets the whole appreciation path lower for CAD/SGD; a hold unwinds the estimated 1.7 per cent band deviation toward midpoint and lifts it.",
+   "priced_in": "Partially",
+   "citations": [
+    9,
+    17,
+    18
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "event": "Bank of Canada decision with Monetary Policy Report (gated fixed announcement date, projection round)",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Base",
+   "rationale": "The most important dated event of the strategic horizon and the only gated decision carrying a projection note. The Bank must publish a full forecast round marking down 2026 growth for the tariff shock while marking down inflation as gasoline base effects roll off, removing the analytical basis for the roughly 65 per cent 2026 hike pricing.",
+   "priced_in": "Partially",
+   "citations": [
+    1,
+    3,
+    17
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "event": "United States midterm elections",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Base",
+   "rationale": "The only dated circuit-breaker for the base leg's tariff regime inside the horizon; Ottawa's own assessment is that no substantive talks resume before it. A credible negotiation restart would reprice the whole Canadian risk premium in one move and is the largest single upside risk to a bearish CAD/SGD view.",
+   "priced_in": "Not priced",
+   "citations": [
+    8
+   ]
+  },
+  {
+   "date": "2026-11-10",
+   "event": "United States-China tariff truce expiry (China's reciprocal truce expires 2026-11-19)",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Quote",
+   "rationale": "Singapore sends 22.0 per cent of its goods exports to Greater China and 9.6 per cent to the United States, so a lapse hits both ends of its entrepot function - bearish for the pair through the trade channel but potentially bullish through a regional haven bid, so the sign is genuinely two-sided and is not priced at a VIX of 14.4.",
+   "priced_in": "Not priced",
+   "citations": [
+    22
+   ]
+  },
+  {
+   "date": "2026-12-09",
+   "event": "Bank of Canada policy decision (gated fixed announcement date)",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Base",
+   "rationale": "The final gated Canadian decision of 2026 and the terminal date for the market's roughly 65 per cent year-end hike probability. If the Bank has not moved by then the entire 2026 hike premium is removed from the Canadian curve, the pair's last remaining rate support against a compounding appreciation band.",
+   "priced_in": "Partially",
+   "citations": [
+    3,
+    17
+   ]
+  },
+  {
+   "date": "2027-01-01",
+   "event": "United States tariffs on Canadian cars, trucks, automotive parts and steel rise to 50 per cent",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Base",
+   "rationale": "A dated, pre-announced escalation that extends the base leg's tariff regime well beyond the current 5.2 per cent of bilateral exports and strikes the auto sector that drove the Q2 GDP beat. Section 338 carries no expiry, so the escalation persists until removed, and the quote leg has no comparable structural exposure.",
+   "priced_in": "Not priced",
+   "citations": [
+    8
+   ]
+  },
+  {
+   "date": "2026-10-01",
+   "event": "Canada-ASEAN free trade agreement conclusion and Canadian trade-diversification push (Rolling, Q4 2026)",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Both",
+   "rationale": "A genuinely bilateral catalyst that neither dossier carries. Prime Minister Carney has repeatedly called for the Canada-ASEAN Free Trade Agreement to be concluded in 2026 as part of loosening Canada's dependence on the United States. Both economies are already CPTPP members so incremental tariff content is small, but a concluded deal would deepen the Canada-Singapore investment channel; the pair impact is second-order and ambiguous in sign.",
+   "priced_in": "Not priced",
+   "citations": [
+    25,
+    26,
+    27
+   ]
+  }
+ ],
+ "invalidators": [
+  {
+   "condition": "CAD/SGD posts two consecutive daily closes above 0.92630 - the top of the eight-touch resistance band that also contains the 100-day at 0.92100",
+   "new_stance": "Neutral tactically",
+   "mechanism": "The pair would have reclaimed both its 100-day and be pressing its 200-day at 0.92581, meaning the bilateral policy-mechanism thesis is being rejected by the only market that trades both legs against each other simultaneously rather than against the dollar.",
+   "monitor_indicator": "CAD/SGD daily close versus 0.92630",
+   "monitor_frequency": "Daily",
+   "probability_pct": 22
+  },
+  {
+   "condition": "MAS leaves the S$NEER slope, width and centre unchanged at the October review with no hawkish reference to January 2027, and CAD/SGD closes above 0.92581 within ten sessions",
+   "new_stance": "Neutral strategically",
+   "mechanism": "63% of the strategic bearish case rests on the two October projection rounds; this removes the quote leg's half of it and the estimated 1.7% band deviation would then unwind toward midpoint, removing the compounding mechanism entirely.",
+   "monitor_indicator": "MAS October Monetary Policy Statement text, specifically whether it retains 'maintain the prevailing rate of appreciation' rather than 'increase the rate of appreciation'",
+   "monitor_frequency": "Once, on or before 2026-10-14",
+   "probability_pct": 45
+  },
+  {
+   "condition": "The Bank of Canada raises the overnight rate to 2.50% on 2026-10-28 while the CA-US two-year spread narrows inside -90bp",
+   "new_stance": "Bullish",
+   "mechanism": "The pair's positive carry would widen from +84.7bp to roughly +110bp against a Singapore money-market proxy that cannot move, and the base leg would simultaneously gain the rate support whose removal is the largest single contributor to the strategic score.",
+   "monitor_indicator": "Bank of Canada overnight rate target and the CA-US 2Y spread",
+   "monitor_frequency": "At each fixed announcement date, spread daily",
+   "probability_pct": 25
+  },
+  {
+   "condition": "Brent crude closes below US$75 for two consecutive weeks (strengthens conviction) OR Brent sustains above US$105 while Singapore core CPI stalls below 1.8% (turns Neutral)",
+   "new_stance": "Conviction 4 Bearish if Brent below $75; Neutral if Brent above $105 with SG core CPI below 1.8%",
+   "mechanism": "This is the only configuration in which the commodity netting works for the pair without the quote leg's policy reaction function clawing it back - a petro-exporter's terms of trade improving while the crude importer's central bank declines to appreciate in response.",
+   "monitor_indicator": "ICE Brent front-month settlement and MAS core CPI",
+   "monitor_frequency": "Brent daily, CPI monthly on the 23rd",
+   "probability_pct": 15
+  },
+  {
+   "condition": "The CFTC combined speculative Canadian dollar short shrinks inside -60,000 contracts while CAD/SGD holds above 0.9200",
+   "new_stance": "Neutral tactically",
+   "mechanism": "The positioning amplification identified in Factor 4 would have resolved upward - the base-leg short exhausted without the pair falling - leaving the bearish case resting on two projection rounds that are still weeks away and no flow support at all.",
+   "monitor_indicator": "CFTC Traders in Financial Futures, leveraged funds plus asset managers, Canadian dollar",
+   "monitor_frequency": "Weekly, Friday release with a Tuesday reference date",
+   "probability_pct": 18
+  },
+  {
+   "condition": "Formal US-Canada trade negotiations restart before 2026-11-30",
+   "new_stance": "Bullish",
+   "mechanism": "Section 338 duties are removable by presidential proclamation with no statutory process, so a credible restart reprices the base leg's entire tariff risk premium in a single move rather than gradually; the pair's positive carry means a wrong-footed short bleeds while waiting.",
+   "monitor_indicator": "USTR statements and Prime Minister's Office announcements",
+   "monitor_frequency": "Weekly",
+   "probability_pct": 25
+  },
+  {
+   "condition": "CAD/SGD closes below 0.90000 on a weekly basis (escalates conviction) while the estimated S$NEER deviation has fallen below 1.2% above midpoint (turns Neutral)",
+   "new_stance": "Escalate conviction if S$NEER deviation stays elevated; Neutral if S$NEER deviation falls below 1.2%",
+   "mechanism": "That combination means the pair has overshot on the base leg alone while the quote leg's band support is being withdrawn, which historically mean-reverts toward the 200-day rather than extending.",
+   "monitor_indicator": "CAD/SGD weekly close and the published S$NEER band-deviation estimate",
+   "monitor_frequency": "Weekly",
+   "probability_pct": 12
+  }
+ ],
+ "signposts": [
+  {
+   "indicator": "CA-US 2-year government bond yield spread",
+   "current_level": "-119bp (Canada 2Y 3.01% live 2026-08-31; US 2Y 4.20% cached 2026-08-27 - mixed basis, disclosed)",
+   "confirms_if": "Widens beyond -130bp and holds for five consecutive sessions",
+   "invalidates_if": "Narrows inside -90bp for five consecutive sessions",
+   "bilateral_importance": "This matters more for CAD/SGD than for either currency alone because it is the only rate variable in the pair that can move. Singapore has no policy rate and its money-market proxy is anchored by covered interest parity to dollar rates, so the entire rate-differential component of this cross is determined by what happens to the Canadian front end.",
+   "source": "https://tradingeconomics.com/canada/government-bond-yield",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "Estimated S$NEER deviation from band midpoint",
+   "current_level": "approximately 1.7% above midpoint (2026-08-12), versus 1.68% on 2026-07-29 and a stated expected range of 1.40-1.90%",
+   "confirms_if": "Sustained at or above 1.5% into the October review, indicating the market keeps testing the strong side and MAS is tolerating it",
+   "invalidates_if": "Falls below 1.2%, indicating MAS smoothing or a market unwind",
+   "bilateral_importance": "This is the closest thing to a positioning series that exists for the quote leg; for CAD/SGD it must be read jointly with a 131,035-contract Canadian short, and it is the joint reading - crowded on both sides - that caps conviction at 3.",
+   "source": "https://www.fxstreet.com/news/singapore-dollar-upside-risk-builds-against-us-dollar-uob-202608120259",
+   "frequency": "As published, typically weekly"
+  },
+  {
+   "indicator": "MAS Core Inflation (year-on-year)",
+   "current_level": "2.0% (July 2026), up from 1.6% in June",
+   "confirms_if": "2.2% or higher in the August print released 2026-09-23",
+   "invalidates_if": "Below 1.6% in any monthly print",
+   "bilateral_importance": "Here it matters directly through the exchange rate, because MAS's instrument is the S$NEER slope - so a Singapore core beat is mechanically bearish for CAD/SGD in a way that a Canadian CPI beat is not mechanically bullish, since the Bank of Canada has committed to looking through gasoline. That asymmetry in transmission is the single most important bilateral feature of this pair.",
+   "source": "https://www.mti.gov.sg/newsroom/consumer-price-developments-in-july-2026/",
+   "frequency": "Monthly, released on the 23rd"
+  },
+  {
+   "indicator": "Brent crude front-month price",
+   "current_level": "roughly US$90.14 on 2026-08-31 in the base dossier and roughly US$93.03 the same session in the quote dossier - both stated, neither reconciled",
+   "confirms_if": "Falls below US$80, removing both the Canadian headline-CPI support for hike pricing and the terms-of-trade support behind the C$8.8bn Q2 surplus",
+   "invalidates_if": "Sustains above US$105, at which point the raw commodity netting overwhelms the quote leg's policy claw-back",
+   "bilateral_importance": "Brent is the only variable that moves both legs materially and moves them in opposite directions, which is why Factor 5's weight was raised to 0.19 strategically. It also has a second-order property: rising crude raises the odds MAS steepens, so the commodity signal partially cannibalises itself.",
+   "source": "https://tradingeconomics.com/commodity/brent-crude-oil",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "CFTC combined speculative Canadian dollar net position",
+   "current_level": "net short 131,035 contracts (2026-08-25): leveraged funds -72,092, asset managers -58,943, dealers +124,930, open interest 329,544",
+   "confirms_if": "The short rebuilds beyond -150,000 contracts, indicating fresh conviction selling rather than exhaustion, or open interest stabilises while the short holds",
+   "invalidates_if": "The combined net shrinks inside -60,000 while CAD/SGD holds above 0.9200",
+   "bilateral_importance": "For USD/CAD this is a contrarian bullish signal for the currency. For CAD/SGD it is amplified, not merely inherited, because the quote leg has no measurable positioning at all and its only proxy points the same way - a risk that neither standalone dossier can see.",
+   "source": "https://www.cftc.gov/dea/futures/financial_lf.htm",
+   "frequency": "Weekly, Friday release with a Tuesday reference date"
+  },
+  {
+   "indicator": "CAD/SGD spot versus the eight-touch 0.92090-0.92630 band and the 0.91370-0.91550 floor",
+   "current_level": "0.9187 - 22 pips below the lower resistance edge and 32 pips above the upper support edge",
+   "confirms_if": "A daily close below 0.91370, opening 0.91000 and the 0.90792-0.90956 double-low band with no computed zone in between",
+   "invalidates_if": "Two consecutive daily closes above 0.92630, which reclaims both the 100-day (0.92100) and threatens the 200-day (0.92581)",
+   "bilateral_importance": "This is the only signpost that observes the two legs trading directly against each other rather than each against the dollar; the cross's 2.75% twenty-day realised volatility is below both legs' dollar pairs, making it the cleanest available read on whether the bilateral policy-mechanism thesis is being expressed or ignored.",
+   "source": "Gated price store (payload spot 0.9187 at spotDate 2026-09-03); computed zones from the same payload",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "Market-implied probability of a 2026 Bank of Canada hike",
+   "current_level": "approximately 65%, against the Bank's own Q2 2026 Market Participants Survey median of 2.25% through January 2027 and 2.50% only in March 2027",
+   "confirms_if": "Falls below 35%, confirming the market has converged to the Bank's reaction function",
+   "invalidates_if": "Rises above 85%, or the Bank actually hikes on 2026-10-28",
+   "bilateral_importance": "This is the base dossier's central identified mispricing and it transmits to CAD/SGD more cleanly than to USD/CAD, because the quote leg has no competing rate expectation to muddy it - MAS has no rate for the market to price.",
+   "source": "https://www.bankofcanada.ca/publications/market-participants-survey/",
+   "frequency": "Daily for market pricing; quarterly for the survey"
+  }
+ ],
+ "assumptions": [
+  "Price series delivered as quoted verbatim from the payload: dataPoints 130, dateRange 2026-03-06 to 2026-09-03, spot 0.9187 at spotDate 2026-09-03; weekday-only bars, SMAs are simple averages of trading-day closes, realised volatility annualised on 252, weekendBarsDropped 0. Moving averages, zones, 200-week figures and the 52-week range are computed over the whole stored history (2007-12-24 to 2026-09-03, 4879 weekday bars), not just the 130 visible bars.",
+  "The valuation date is 2026-09-01 and the payload spotDate is 2026-09-03, so spot postdates the valuation date by two trading sessions. Every level, target, pip figure and distance in this report is anchored to the payload spot of 0.9187 rather than to a fresher web quote or either dossier's cross-table figure (0.91694 on 2026-08-28, 0.91762 on 2026-08-31), for internal consistency.",
+  "Zone detection returned ten resistance zones and zero support zones at the two-touch threshold. The four support levels in the Pair Technicals table are hand-constructed from the visible 130-bar daily series with touch counts counted by the analyst, plus round numbers at 0.9100 and 0.9000, and should be treated as weaker evidence than the computed resistance bands.",
+  "Moving averages (50-day 0.91612, 100-day 0.92100, 200-day 0.92581, 200-week 0.96281) are simple averages of trading-day closes. The 200-week slope of -0.00075 per week and the 206-week count without a close above it are taken directly from the payload; the convergence arithmetic is the analyst's own linear extrapolation of that slope and assumes it persists, which it need not.",
+  "The payload states no forward funding differential exists for this pair because SGD has no listed future, and warns against substituting the policy-rate differential; the +84.7bp figure is labelled a policy-versus-money-market spread throughout, and the 1M/3M/6M outrights are covered-interest-parity constructions, not quoted prices. The Canadian 10-year (3.42%, monthly series as of 2026-06-01) is never quoted as live, and SGD has no 10-year series; both policyDifferential and yield10yDifferential are null.",
+  "Implied volatility is permanently absent, not missing, because neither non-USD leg has a listed FX option producing a cross surface. Carry-to-volatility ratios in this report use realised volatility as the denominator (+0.29 on 60-day, +0.31 on 20-day) and are not comparable with implied-vol ratios quoted for pairs that have a surface; no surrogate estimate was made.",
+  "Four weight adjustments of 0.03 each, all within the +/-0.05 limit, netting to zero on both horizons: Factor 1 cut and Factor 6 raised as a matched pair to avoid double-counting the quote leg's exchange-rate policy; Factor 5 raised because oil moves the two legs in opposite directions by construction; Factor 10 cut because this is a non-USD cross in which a hawkish Fed hurts both legs simultaneously.",
+  "The ten factor stances, confidences, evidence types, weights, weighted contributions, net scores, convictions and rationales are reproduced verbatim from the pass-1 direction verdict, scored without the price payload so a stance could not be reverse-engineered from a chart. Where the chart and the verdict disagree (the pair up 0.48% over one month, above its 50-day, with a marginal higher high), that disagreement is expressed as a levels problem (poor entry at spot, better entry into 0.9200-0.9310) rather than as a reason to soften the direction.",
+  "No bank research forecast for CAD/SGD exists in retrievable public sources; consensus is null by design. Pass-2 searching returned only algorithmic extrapolation pages (LongForecast, WalletInvestor, CoinCodex, 30rates and similar), which disagree with each other by more than 10% on the same horizon and quote stale spot levels; they are recorded as encountered and refused rather than cited as consensus.",
+  "Bilateral trade figures are taken directly from the supplied IMF DOTS block and not re-estimated: Canadian exports to Singapore US$1.6bn, imports US$1.1bn, net Canadian surplus US$0.5bn in 2024; the Singapore-reported mirror (exports US$1.1bn, imports US$2.8bn) does not reconcile, the standard DOTS partner-reporting asymmetry, and both are stated without adjustment.",
+  "Other flagged items: Brent is reported at two levels for the same 2026-08-31 session (US$90.14 base dossier vs US$93.03 quote dossier) because the commodity netting is directionally identical at either level; the MAS October review date of 'no later than 2026-10-14' is not in the gated scheduled-decisions file and is carried as best available from the quote dossier; the S$NEER slope (~1.25%) and band deviation (~1.7%) are analyst reconstructions of undisclosed parameters; the assumed 2% band half-width is market convention with no official basis; both dossiers were independently fact-checked before publication and carry documented corrections and lowered confidences."
+ ],
+ "complete_citations": [
+  {
+   "id": 1,
+   "title": "Bank of Canada maintains the policy rate at 2 1/4%",
+   "publisher": "Bank of Canada",
+   "url": "https://www.bankofcanada.ca/2026/07/fad-press-release-2026-07-15/",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 2,
+   "title": "Summary of Governing Council deliberations: Fixed announcement date of July 15, 2026",
+   "publisher": "Bank of Canada",
+   "url": "https://www.bankofcanada.ca/2026/07/summary-of-governing-council-deliberations-fixed-announcement-date-of-july-15-2026/",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 3,
+   "title": "Market Participants Survey - Second Quarter of 2026",
+   "publisher": "Bank of Canada",
+   "url": "https://www.bankofcanada.ca/2026/07/market-participants-survey-second-quarter-of-2026/",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 4,
+   "title": "The Daily - Gross domestic product, income and expenditure, second quarter 2026",
+   "publisher": "Statistics Canada",
+   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260828/dq260828a-eng.htm",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 5,
+   "title": "The Daily - Consumer Price Index, July 2026",
+   "publisher": "Statistics Canada",
+   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260817/dq260817a-eng.htm",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 6,
+   "title": "The Daily - Canada's balance of international payments, second quarter 2026",
+   "publisher": "Statistics Canada",
+   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260827/dq260827a-eng.htm",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 7,
+   "title": "Commitments of Traders: Traders in Financial Futures, Futures Only, 25 August 2026",
+   "publisher": "U.S. Commodity Futures Trading Commission",
+   "url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 8,
+   "title": "Canada-US Trade War Locks In Sept. 8 Retaliation: No Deal Expected Before Midterms",
+   "publisher": "Tech Times",
+   "url": "https://www.techtimes.com/articles/325352/20260824/canada-us-trade-war-locks-sept-8-retaliation-no-deal-expected-before-midterms.htm",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 9,
+   "title": "Monetary Authority of Singapore - Monetary Policy Statement, July 2026",
+   "publisher": "Mondo Visione",
+   "url": "https://mondovisione.com/media-and-resources/news/monetary-authority-of-singapore-monetary-policy-statement-july-2026-2026727",
+   "date_accessed": "2026-09-02"
+  },
+  {
+   "id": 10,
+   "title": "Monetary Authority of Singapore - Monetary Policy Statement, April 2026",
+   "publisher": "Mondo Visione",
+   "url": "https://mondovisione.com/media-and-resources/news/monetary-authority-of-singapore-monetary-policy-statement-april-2026-2026414",
+   "date_accessed": "2026-09-02"
+  },
+  {
+   "id": 11,
+   "title": "Remarks by Mr Chia Der Jiun, Managing Director, Monetary Authority of Singapore, 28 July 2026",
+   "publisher": "Mondo Visione",
+   "url": "https://mondovisione.com/media-and-resources/news/remarks-by-mr-chia-der-jiun-managing-director-monetary-authority-of-singapore-2026728",
+   "date_accessed": "2026-09-02"
+  },
+  {
+   "id": 12,
+   "title": "Consumer Price Developments in July 2026",
+   "publisher": "Ministry of Trade and Industry, Singapore",
+   "url": "https://www.mti.gov.sg/newsroom/consumer-price-developments-in-july-2026/",
+   "date_accessed": "2026-09-02"
+  },
+  {
+   "id": 13,
+   "title": "MTI Upgrades 2026 GDP Growth Forecast to 4.5 to 5.5 Per Cent",
+   "publisher": "Ministry of Trade and Industry, Singapore",
+   "url": "https://www.mti.gov.sg/newsroom/mti-upgrades-2026-gdp-growth-forecast-to--4-5-to-5-5-per-cent-/",
+   "date_accessed": "2026-09-02"
+  },
+  {
+   "id": 14,
+   "title": "Singapore Current Account, Q2 2026",
+   "publisher": "Trading Economics",
+   "url": "https://tradingeconomics.com/singapore/current-account",
+   "date_accessed": "2026-09-02"
+  },
+  {
+   "id": 15,
+   "title": "Singapore Industrial Production, July 2026",
+   "publisher": "Trading Economics",
+   "url": "https://tradingeconomics.com/singapore/industrial-production",
+   "date_accessed": "2026-09-02"
+  },
+  {
+   "id": 16,
+   "title": "Singapore Dollar: upside risk builds against the US Dollar (UOB S$NEER model estimate, 12 August 2026)",
+   "publisher": "FXStreet",
+   "url": "https://www.fxstreet.com/news/singapore-dollar-upside-risk-builds-against-us-dollar-uob-202608120259",
+   "date_accessed": "2026-09-02"
+  },
+  {
+   "id": 17,
+   "title": "Bank of Canada Holds Wednesday; Two Banks Forecast October Hike",
+   "publisher": "Tech Times",
+   "url": "https://www.techtimes.com/articles/326070/20260831/bank-canada-holds-wednesday-two-banks-forecast-october-hike-lock-wait.htm",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 18,
+   "title": "Singapore Monetary Policy - Goldman Sachs and EIU October 2026 expectations",
+   "publisher": "FocusEconomics",
+   "url": "https://www.focus-economics.com/countries/singapore/news/monetary-policy/",
+   "date_accessed": "2026-09-02"
+  },
+  {
+   "id": 19,
+   "title": "Canada 10-Year Government Bond Yield",
+   "publisher": "Trading Economics",
+   "url": "https://tradingeconomics.com/canada/government-bond-yield",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 20,
+   "title": "Short-Term Energy Outlook",
+   "publisher": "U.S. Energy Information Administration",
+   "url": "https://www.eia.gov/outlooks/steo/",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 21,
+   "title": "Singapore's Top Exports, 2025",
+   "publisher": "World's Top Exports",
+   "url": "https://www.worldstopexports.com/singapores-top-exports/",
+   "date_accessed": "2026-09-02"
+  },
+  {
+   "id": 22,
+   "title": "US-China tariff rates and truce expiry schedule",
+   "publisher": "China Briefing",
+   "url": "https://www.china-briefing.com/news/us-china-tariff-rates-2025/",
+   "date_accessed": "2026-09-02"
+  },
+  {
+   "id": 23,
+   "title": "FX Product Guide (options and futures roster, confirming no listed SGD options product)",
+   "publisher": "CME Group",
+   "url": "https://www.cmegroup.com/markets/fx/fx-product-guide.html",
+   "date_accessed": "2026-09-02"
+  },
+  {
+   "id": 24,
+   "title": "Direction of Trade Statistics (DOTS)",
+   "publisher": "International Monetary Fund",
+   "url": "https://data.imf.org/",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 25,
+   "title": "Prime Minister Carney strengthens trade and economic partnerships with Singapore",
+   "publisher": "Prime Minister of Canada",
+   "url": "https://www.pm.gc.ca/en/news/news-releases/2025/10/29/prime-minister-carney-strengthens-trade-and-economic",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 26,
+   "title": "Canada's ASEAN deal is about more than market access",
+   "publisher": "East Asia Forum",
+   "url": "https://eastasiaforum.org/2026/07/29/canadas-asean-deal-is-about-more-than-market-access/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 27,
+   "title": "CPTPP partner: Singapore",
+   "publisher": "Global Affairs Canada",
+   "url": "https://www.international.gc.ca/trade-commerce/trade-agreements-accords-commerciaux/agr-acc/cptpp-ptpgp/countries-pays/singapore-singapour.aspx?lang=eng",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 28,
+   "title": "Temasek vs GIC: What Is the Difference?",
+   "publisher": "Universal Asset Owners",
+   "url": "https://www.universalassetowners.com/temasek-vs-gic-difference/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 29,
+   "title": "Southeast Asian Sovereign Wealth Funds: GIC, Temasek, and Beyond",
+   "publisher": "Universal Asset Owners",
+   "url": "https://www.universalassetowners.com/southeast-asia-sovereign-wealth-funds/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 30,
+   "title": "Carney's summit to push Canadian resources, defence and tech to global investors",
+   "publisher": "The Globe and Mail",
+   "url": "https://www.theglobeandmail.com/business/article-invest-canada-2026-summit-mark-carney-attendance-stephen-harper/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 31,
+   "title": "Technical Analysis of CAD/SGD",
+   "publisher": "TradingView",
+   "url": "https://www.tradingview.com/symbols/CADSGD/technicals/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 32,
+   "title": "CAD SGD Technical Analysis",
+   "publisher": "Investing.com",
+   "url": "https://www.investing.com/currencies/cad-sgd-technical",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 33,
+   "title": "Speech by 2M Tan See Leng at Team Canada Trade Mission Kick-off Event",
+   "publisher": "Ministry of Trade and Industry, Singapore",
+   "url": "https://mti.gov.sg/Newsroom/Speeches/2023/02/Speech-BY-2M-Tan-See-Leng-at-Team-Canada-Trade-Mission-Kick-off-Event",
+   "date_accessed": "2026-09-04"
+  }
+ ]
+}

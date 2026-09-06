@@ -1,0 +1,1693 @@
+{
+ "metadata": {
+  "pair": "EURGBP",
+  "base_currency": "EUR",
+  "quote_currency": "GBP",
+  "valuation_date": "2026-09-01",
+  "framework_version": "2.0",
+  "base_dossier_date": "2026-09-01",
+  "quote_dossier_date": "2026-09-01"
+ },
+ "pair_convention": {
+  "spot_reference": "EUR/GBP 0.85965",
+  "spot_explanation": "EUR/GBP at 0.85965 means 1 EUR = 0.85965 GBP. Rising = EUR strengthening vs GBP; falling = EUR weakening vs GBP. The payload spot is dated 2026-09-03, two sessions after the 2026-09-01 valuation date, and every level, target, stop and percentage in the report is anchored to this payload spot rather than a fresher web quote so the whole document is internally consistent.",
+  "bullish_means": "pair RISES (EUR strengthens vs GBP)",
+  "bearish_means": "pair FALLS (EUR weakens vs GBP)",
+  "base_dossier_tactical_stance": "EUR — Bullish tactically, conviction 2 of 5, net score +0.1359, ranked 3 of 11; Neutral strategically, conviction 2, +0.0310, ranked 4 of 11",
+  "quote_dossier_tactical_stance": "GBP — Bearish tactically, conviction 2 of 5, net score -0.1456, ranked 8 of 11; Bearish strategically, conviction 3, -0.4192, ranked 10 of 11"
+ },
+ "executive_summary": "EUR/GBP trades at 0.85965 (payload spot, spotDate 2026-09-03), meaning one euro buys 0.85965 pounds; a rising pair is a stronger euro and a weaker pound. The pair has spent a year drifting the wrong way for a euro bull — down 1.10% over twelve months, 0.34% over six and 0.57% over three — and the last month is the first positive one in that sequence at +0.22%, with spot sitting at the 36th percentile of its 52-week closing range of 0.84671-0.88308. The dominant bilateral narrative is a scheduled compression of sterling's carry advantage: the differential is -150bp on identical 2.9% headline inflation in both economies, the ECB is roughly 97% priced to raise its deposit rate to 2.50% on 10 September, and the Bank of England on 17 September carries about +7bp with the market having pushed its next move into 2027. Two bilateral differentials diverge materially from the standalone dossier views — both currencies are net energy importers facing the same gas shock, but one absorbs it from a current-account surplus of 1.7% of GDP and the other from a 2.8% deficit; and the gilt-Bund spread at roughly 184bp is the widest since the 2022 mini-Budget, paid on the debt of the sovereign whose central bank is less likely to hike. Pass 1's settled verdict is Bullish at conviction 3 on both horizons, net weighted scores +0.3654 tactically and +0.4368 strategically, and the price payload arrived after that verdict was set — it neither confirms nor contradicts the direction, but it does show spot pressing a 200-week average it has closed below for nine consecutive weeks, with a 10-touch resistance band beginning only 18 pips overhead. Our one substantive caveat, which we publish rather than bury, is that a long position pays roughly 131bp a year on the payload's observed funding premium — about 9 pips a month against a 22-pip ATR — so the carry-adjusted risk/reward on a spot expression is materially worse than the score levels imply, and the conviction-3 call is far better carried in the option tenors that contain the 28 October Budget than in spot. The path of least resistance is a stepped advance through the 100-day at 0.86043 and the 200-day at 0.86533 toward the 11-touch 0.8706-0.8777 band, resolved in three dated windows: 15-17 September, 28 October, and 17 December.",
+ "market_context": {
+  "spot": 0.85965,
+  "performance_1m": "+0.22%",
+  "performance_3m": "-0.57%",
+  "performance_6m": "-0.34%",
+  "performance_1y": "-1.10%",
+  "range_52w_low": 0.84671,
+  "range_52w_high": 0.88308,
+  "range_52w_percentile": 36,
+  "valuation_assessment": "There is no PPP series for this cross in either dossier, so valuation is a REER-relative proxy and must not be read as a fair-value level. On BIS real effective exchange rates for June 2026, the euro stands at 102.69 against sterling at 111.41, making the euro 8.49% cheaper than the pound in real effective terms; equalising the two indices would imply EUR/GBP near 0.9284, which is 3,187 pips above spot and is best understood as a statement about accumulated real appreciation rather than a target. Sterling's REER is the third-highest in the G10-plus-Singapore set behind the Australian and Singapore dollars, while the euro's sits fifth of eleven and has drifted 1.20 points lower over twelve months. Two valuation measures therefore point the same way without either being tactically actionable: the pair is at the 36th percentile of its own one-year distribution, and the euro is the cheap leg on the only trade-weighted measure available. What is priced in the current level is sterling's 150bp nominal carry advantage — which, because both economies printed 2.9% headline inflation in July, is also a 150bp real advantage and therefore genuine rather than an inflation artefact. What is not priced is the scheduled compression of that advantage.",
+  "positioning": {
+   "base_cftc_net": "-36,352 contracts (legacy non-commercial, net short vs USD, 25 August report date)",
+   "base_cftc_percentile": 30,
+   "quote_cftc_net": "-44,500 contracts (legacy non-commercial, net short vs USD, 25 August report date)",
+   "quote_cftc_percentile": 30,
+   "net_pair_implication": "The legacy non-commercial nets leave the cross-implied speculative position close to flat and offer no contrarian trigger. The disaggregated 11 August tranches (21 days stale) show leveraged funds short 60,600 EUR and long 40,670 GBP (15.9% of open interest, up from 6.4% on 7 July) — fast money short EUR/GBP — while asset managers are long 225,389 EUR and short 119,863 GBP, so real money is structurally long EUR/GBP. Sterling short covering has run six consecutive weeks at roughly 10,100 contracts a week and euro shorts were cut 22,736 contracts in the week to 25 August, so both squeezes are being spent rather than built.",
+   "crowding_assessment": "Moderate rather than extreme — the vulnerability is not a squeeze but the absence of a cushion, concentrated in the fast-money sterling long with no hedge-driven buyer behind it"
+  },
+  "pair_technicals": {
+   "trend_regime": "transitioning",
+   "support_levels": [
+    0.8577,
+    0.8441,
+    0.82885
+   ],
+   "resistance_levels": [
+    0.8614,
+    0.8706,
+    0.88195,
+    0.8963
+   ],
+   "key_moving_averages": "50-day 0.85546, 100-day 0.86043, 200-day 0.86533 (bearish stack, 50<100<200); spot 42 pips above the 50-day, 8 pips below the 100-day, 57 pips below the 200-day. 200-week average 0.85947, slope -0.000038/week (essentially flat, ~12 pips lower over 6 months), spot 2 pips above it, nine weeks since the last weekly close above it.",
+   "chart_pattern": "Contested: FXStreet sees a triangle (continuation, bullish break favoured) with a measured objective near 0.8630; ActionForex frames the recent advance as a corrective rebound inside a falling channel with resistance near 0.8638, requiring a sustained break above 0.8610 to dampen the bearish structure; community chart work is split between a rising-channel/inverse-head-and-shoulders reading and a broader descending channel on the weekly. Both the triangle target and the channel resistance cluster in 0.8630-0.8640, inside the payload's 10-touch band, so visual and computed evidence agree on where the first real fight happens.",
+   "psychological_levels": [
+    0.85,
+    0.86,
+    0.87
+   ]
+  },
+  "pair_volatility": {
+   "iv_1m": 3.195,
+   "iv_3m": 3.458,
+   "iv_percentile": null,
+   "rv_1m": 2.2,
+   "rv_vs_iv": "Front tenor (38.6d) implied 3.195% vs 20d realised 2.20%: VRP ~+1.00 vol points; 3m implied 3.458% (94.7d) vs 60d realised 2.97%: VRP ~+0.23 vol points. Because the implied figure is disclosed as a floor (derived from a realised-correlation substitute, not a quote), the true premium is probably larger than either figure.",
+   "risk_reversals": "Documented gap — no dated 25-delta risk reversal quote was sourceable for this cross; no inference is drawn from skew and any option structure should be built skew-neutral.",
+   "vol_term_structure": "Clean contango, no event hump: 3.195% at 38.6 days, 3.458% at 94.7 days, 3.654% at 185.7 days (observed 2026-08-31); total slope only 0.46 volatility points despite the ECB (10 Sep) and BoE (17 Sep) inside the front tenor, the UK Budget (28 Oct) and BoE MPR (5 Nov) inside the middle tenor, and the ECB/BoE double decision (17 Dec) inside the back tenor.",
+   "vol_regime": "Low vol / compressing — lowest realised volatility of any euro cross — with early signs of expansion (33 and 31 pip sessions on 2-3 September vs a 22-pip ATR)"
+  },
+  "recent_regime": "The pair's regime since mid-July has been a recovery off a one-year low into overhead structure, with the low-volatility character intact throughout. From the 15 July closing low of 0.84671 the pair printed a sequence of higher lows through 20 July, 12 August, 25 August, 1 September and 3 September, alongside higher highs from 14 July through 7 August, 20 August to 3 September. Through most of August that structure expressed itself as a 50-pip grind between roughly 0.8531 and 0.8594 with the 50-day average acting as the floor. The break came in the first three sessions of September, when the pair took out the 200-week average, cleared 0.8600 intraday and touched the lower edge of the 10-touch resistance band, and the market narrative shifted from sterling's carry to sterling's fiscal calendar. The regime is best described as a nine-week base testing its long-term average from below, not a trend.",
+  "citations": [
+   "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+   "https://www.business-standard.com/markets/capital-market-news/large-currency-speculators-further-reduce-net-short-position-in-pound-futures-market-126082500369_1.html",
+   "https://www.worldgovernmentbonds.com/spread/united-kingdom-10-years-vs-germany-10-years/",
+   "https://www.fxstreet.com/currencies/eurgbp",
+   "https://www.actionforex.com/technical-outlook/eurgbp-outlook/652947-eur-gbp-daily-outlook-2460/",
+   "https://www.tradingview.com/symbols/EURGBP/"
+  ]
+ },
+ "bilateral_carry_analysis": {
+  "base_policy_rate": 2.25,
+  "quote_policy_rate": 3.75,
+  "rate_differential_bps": -150,
+  "annualised_carry_bps": -131.4,
+  "pair_3m_iv": 3.458,
+  "pair_3m_iv_source": "Data-Cache/derived/fx_iv.csv (CME settlements; triangle estimate, method triangle_realised_corr). Transcribed from market_context.pair_volatility.iv_3m in this document, which states the same number; the field was left null at generation and the analysis reasons from this value throughout.",
+  "carry_to_vol_ratio": null,
+  "carry_regime": "negative carry",
+  "breakeven_move": "131.4bp annualised is 9.4 pips a month, 28 pips over three months and 56 pips over six months; against a 22-pip ATR, carry consumes roughly 43% of one average day's range every month",
+  "forward_points": {
+   "1m": "+9 pips (derived, EUR at discount narrows to premium via basis)",
+   "3m": "+28 pips",
+   "6m": "+56 pips"
+  },
+  "carry_assessment": "Carry is against a long EUR/GBP position and it is the single largest argument for restraint in this report. On the policy basis the differential is -150bp (ECB deposit 2.25% vs Bank Rate 3.75%). On the observed basis, the payload's CME 6E/6B calendar-spread premium is +131.4bp annualised, which is the interest differential plus the cross-currency basis and implies a benign basis of roughly -19bp, consistent with the -18bp 3-month EUR/USD basis and the roughly -12.5bp derived GBP/USD basis. The carry-to-vol ratio on the policy basis is -0.43; for comparison, the euro's best positive-carry cross earns +0.58 against the franc, so a long EUR/GBP position gives up roughly a full unit of risk-adjusted carry relative to the alternative expression. The 6-month outright of 0.8653 lands within 2 pips of the 200-day moving average, a coincidence worth noting. Carry is working against the position but the regime is improving from the euro's side for the first time in three years: a delivered 25bp ECB hike on 10 September cuts the policy-basis cost from 150bp to 125bp (~7.8 pips/month), and a plausible February 2027 configuration of ECB 2.75% against Bank Rate 3.50% would cut it to 75bp (~4.7 pips/month). The directional call therefore faces a hurdle that is real, measurable and shrinking, which is precisely why the expression matters as much as the direction."
+ },
+ "factors": [
+  {
+   "factor_number": 1,
+   "factor_name": "Policy & Rates (Relative)",
+   "tactical_weight_default": 0.24,
+   "tactical_weight_applied": 0.27,
+   "strategic_weight_default": 0.24,
+   "strategic_weight_applied": 0.24,
+   "weight_adjustment_reason": "Tactical weight raised 0.24 to 0.27: EUR/GBP is the purest two-central-bank cross in the euro complex — no commodity leg, no haven leg, near-identical headline inflation, lowest realised vol of any euro cross — so the policy differential carries proportionately more of the pair's information, and the tactical window contains a scheduled 25bp compression of it. Strategic weight left at default because the strategic horizon adds a terms-of-trade and fiscal channel that competes with rates on a longer view.",
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 57,
+    "evidence_type": [
+     "rates",
+     "policy_comms"
+    ],
+    "bilateral_analysis": "The bilateral differential is -150bp: the ECB deposit rate is 2.25% against a Bank Rate of 3.75%, and because both economies printed 2.9% headline inflation in July the real differential is identical to the nominal one at -150bp. Sterling's carry advantage is therefore genuine rather than an artefact of inflation differentials, and that is the honest counterweight to this stance. What favours the pair is the direction of travel, not the level. OIS prices the ECB's 25bp move on 10 September at roughly 97%, taking the deficit to -125bp, while the Bank of England on 17 September has only about +7bp priced and 56 of 64 economists in the mid-August Reuters poll expect no change for the remainder of 2026; by 31 August the market had pushed the next BoE move into 2027 altogether. One leg moves and the other does not, so a sixth of sterling's carry advantage is mechanically removed inside four weeks. Both September outcomes are close to fully discounted, so the edge is not the events themselves but the asymmetry of the residual distributions: the euro's terminal is already priced at 2.75% by February 2027 with two-sided risk, whereas sterling's next move has been priced out entirely and the domestic data behind it lean one way. Transmission is unusually clean because the pair strips out the dollar leg completely, so neither the 16 September FOMC nor the dollar smile contaminates the bilateral read. The offsetting cost is carry: the payload's CME calendar-spread funding premium is +131.4bp annualised, so a long EUR/GBP position pays roughly that to hold, and three standing MPC hawks make a hawkish 17 September vote split a live squeeze risk.",
+    "key_bilateral_metrics": [
+     "EUR-GBP policy differential -150bp (ECB deposit 2.25% as of 2026-09-01 vs Bank Rate 3.75% as of 2026-08-28), narrowing to -125bp on 10 September on current pricing",
+     "ECB 10 September priced at approximately 97% for +25bp; BoE 17 September priced at approximately +7bp with the next move pushed into 2027",
+     "EUR-GBP 10-year differential -182.6bp (Bund 2.97% vs gilt 4.796%, both MONTHLY series as of 2026-06-01 — not live levels)",
+     "Funding premium +131.4bp annualised (CME 6E/6B calendar spread, 13.6 to 48.6 days, observed 2026-08-31) — the actual roll cost of a long EUR/GBP position",
+     "Real policy differential also -150bp because euro-area and UK headline CPI both printed 2.9% in July 2026"
+    ],
+    "what_is_priced": "The 10 September hike and the 17 September hold are both close to fully discounted, so the mechanical move to -125bp is in the price. What is not priced is the asymmetry that follows: sterling's next move is priced out to 2027 while its own labour data lean dovish, whereas the euro's path is already fully described.",
+    "citations": [
+     1,
+     2,
+     3,
+     6,
+     11,
+     14
+    ]
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 58,
+    "evidence_type": [
+     "rates",
+     "policy_comms"
+    ],
+    "bilateral_analysis": "Over one to six months the compression compounds. The euro's path is priced from 2.25% to 2.50% on 10 September and to 2.75% by early 2027; sterling's committee is split between three members who wanted 4.00% in July and a dovish wing whose leading voice describes an economy drifting toward deficient demand, with the base-currency dossier's own peer table carrying a 25bp BoE cut to 3.50% by February 2027 as its central case. If both paths deliver, the euro's deficit narrows from -150bp to -75bp, halving sterling's carry advantage inside the strategic horizon. The decision that would do it is dated: 5 November is the Bank of England's Monetary Policy Report round, the first full forecast after the 28 October Budget, and 17 December is the single highest-information bilateral date of the horizon because the ECB publishes new staff projections and the MPC decides on the same day. The market's own read of the July minutes is that the reaction function is genuinely symmetric, and with private-sector pay at 2.8% against a target-consistent estimate near 3.25%, the incoming evidence points to the dovish resolution. The risk running the other way is real and caps confidence in the fifties: the euro's 2.75% terminal has to be reconciled with a negotiated wage tracker at 2.1% for Q2 2026 and Eurosystem projections showing 2.0% inflation in 2028, so a downward repricing of the euro leg is at least as likely as an upward repricing of the sterling leg. Both legs carry dovish risk; the point is that sterling's is larger because sterling has more carry to lose and a fiscal event forcing the issue.",
+    "key_bilateral_metrics": [
+     "Plausible February 2027 configuration: ECB 2.75% against Bank Rate 3.50% gives a -75bp deficit, half the current -150bp",
+     "Scheduled resolution points: BoE 5 November (Monetary Policy Report), ECB and BoE both on 17 December (ECB with projections)",
+     "UK private-sector regular pay +2.8% year-on-year against a BoE target-consistent estimate of about 3.25%; ECB negotiated wage tracker 2.1% for Q2 2026 against 3.2% in 2025",
+     "July MPC vote 6-3 with Greene, Mann and Pill for 4.00% — the hawkish tail that must be removed for the deficit to narrow from the sterling side",
+     "Long EUR/GBP roll cost approximately 131bp annualised, roughly 66bp over a six-month hold, on the payload funding premium"
+    ],
+    "what_is_priced": "The strip prices the ECB reaching 2.75% and the BoE standing still into 2027 — a stable -125bp deficit. Our expectation is that the sterling leg reprices lower on the November and December pay evidence, which is the part of the differential the market has explicitly stopped forecasting.",
+    "citations": [
+     1,
+     3,
+     4,
+     6,
+     7,
+     13
+    ]
+   },
+   "horizon_split": "Both horizons are Bullish and confidence rises marginally from 57 to 58. The mechanism differs: tactically the pair is paid for a single dated, near-fully-priced 25bp compression plus a skew in the residual distributions, whereas strategically it is paid for the cumulative path, where a plausible ECB-at-2.75%-against-BoE-at-3.50% configuration removes half of sterling's 150bp advantage. Confidence does not rise further with the horizon because the euro leg's own terminal is the part of the strip we distrust most.",
+   "carry_analysis": {
+    "policy_differential_bps": -150,
+    "observed_funding_premium_bps": -131.4,
+    "carry_regime": "Negative carry against long EUR/GBP, improving as the ECB hikes and, plausibly, as the BoE eventually cuts",
+    "breakeven_move": "~9.4 pips/month; 28 pips/3M; 56 pips/6M — see bilateral_carry_analysis for full detail",
+    "note": "See bilateral_carry_analysis section: a long EUR/GBP position pays roughly 131bp/year against a 150bp policy differential, a hurdle that shrinks to ~75bp under a plausible Feb-2027 rate configuration."
+   },
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 2,
+   "factor_name": "Inflation & Growth Dynamics",
+   "tactical_weight_default": 0.18,
+   "tactical_weight_applied": 0.18,
+   "strategic_weight_default": 0.1,
+   "strategic_weight_applied": 0.1,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 52,
+    "evidence_type": [
+     "macro_data",
+     "policy_comms"
+    ],
+    "bilateral_analysis": "The inflation differential is close to zero and the growth differential marginally favours sterling, so the bullish case here rests entirely on the reaction functions rather than the levels. Euro-area July HICP was 2.9% headline with core at 2.5% and services at 3.3%; UK July CPI was also 2.9% with core at 2.6% and services at 3.4% and falling. On activity the UK is nominally ahead — GDP +1.2% year-on-year against +1.0%, August composite PMI 52.5 against 52.1 — so a naive growth-differential read would be bearish for the pair. What makes it bullish is that the same imported energy shock is hawkish for one central bank and explicitly look-through for the other. The euro area's surprise run has been on both legs simultaneously — Ifo, GfK, ESI and new orders all beating, with August country CPIs printing up — feeding a Governing Council that has already delivered a hike. In the UK the equivalent data are dividing against themselves: services CPI fell, input PPI missed hard, retail sales fell and the CBI distributive trades survey missed, while the Governor has argued the gilt curve is doing the tightening in place of a rate rise. So identical inflation prints translate into a hiking euro and a stationary pound, which is the bilateral transmission. Confidence is held at 52 because the level and growth comparisons genuinely favour sterling and the 16 September UK CPI carries a real upside skew from energy pass-through.",
+    "key_bilateral_metrics": [
+     "Headline CPI: euro area 2.9% vs UK 2.9% (July 2026); core 2.5% vs 2.6%; services 3.3% vs 3.4% and falling in the UK",
+     "Growth: euro area +1.0% year-on-year and +0.4% quarter-on-quarter vs UK +1.2% and +0.4% — the level differential favours sterling",
+     "August composite PMI: euro area 52.1 flash vs UK 52.5 flash; euro-area new orders at a 40-month high, UK retail sales -0.5% month-on-month with CBI distributive trades at -48",
+     "Surprise differential: German Ifo 88.8 vs 87.2 expected and GfK -26.6 vs -29.5 expected, against UK input PPI 4.9% vs 6.6% expected and core retail sales -0.9%",
+     "Unemployment: euro area 6.3% and stable vs UK 4.9% and up 0.2pp on the year with vacancies at 705,000, the lowest since early 2021"
+    ],
+    "what_is_priced": "The market prices euro-area August HICP at 3.3% headline and treats UK inflation as an energy overshoot the MPC will look through. What is under-priced is that identical inflation produces opposite policy consequences, which is the only channel by which this factor reaches the pair.",
+    "citations": [
+     4,
+     5,
+     9,
+     10,
+     12
+    ]
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 54,
+    "evidence_type": [
+     "macro_data"
+    ],
+    "bilateral_analysis": "Over one to six months the two inflation processes decompose differently and the labour markets diverge, and both work for the pair. The euro-area overshoot is imported: energy contributed +0.94pp of the 2.9% July headline at +10.0% year-on-year while food, alcohol and tobacco decelerated and non-energy industrial goods sit at 0.9% — a cost-push overshoot on a labour market with unemployment stable at 6.3% and negotiated wages at 2.1%. The UK overshoot is also imported, but it lands on a labour market that is visibly loosening: unemployment 4.9% and up 0.2pp on the year, payrolled employees down 210,000, vacancies at their lowest since early 2021, private-sector regular pay at 2.8% and real regular pay growth of only 0.5%, with the Decision Maker Panel showing year-ahead expected wage growth at 3.4%. The bilateral implication is that the UK is absorbing the energy shock through household real income and employment while the euro area absorbs it through margins, with euro-area selling-price expectations actually falling. A deficient-demand adjustment in the quote economy against a stabilising, fiscally-supported base economy narrows the growth gap in the euro's favour over the horizon and removes the sterling hawks' evidence base. Confidence is 54 rather than higher because the euro-area improvement is narrow, with German services and the French composite both in contraction.",
+    "key_bilateral_metrics": [
+     "Wage differential: euro-area negotiated wages 2.1% (Q2 2026) vs UK private-sector regular pay 2.8% and decelerating from 2.9%",
+     "UK labour market loosening: unemployment 4.9% (+0.2pp year-on-year), payrolled employees -210,000, vacancies 705,000; euro-area unemployment 6.3% and stable",
+     "Composition: euro-area energy contributed +0.94pp of the 2.9% headline; euro-area selling-price expectations fell to 16.4 from 17.8, indicating margin absorption",
+     "UK real regular pay growth +0.5% — the energy shock is being taken out of household income rather than passed into wages",
+     "Narrowness of the euro-area improvement: German manufacturing 54.1 against German services 48.5 and the French composite at 48.8"
+    ],
+    "what_is_priced": "Consensus prices UK inflation persistence as the reason sterling keeps its rate premium. The strategic evidence is that the persistence case is weakening precisely in the series the MPC named as decisive, while the euro area's overshoot is at least as durable through the winter energy path.",
+    "citations": [
+     4,
+     5,
+     7,
+     13,
+     15
+    ]
+   },
+   "horizon_split": "Both horizons are Bullish with confidence rising from 52 to 54. Tactically the case is thin because the inflation differential is essentially nil and the UK growth level is marginally better, so the bullish content is limited to the reaction-function asymmetry. Strategically the labour markets do the work: the UK is loosening on every measure the MPC named while the euro area is stable, which converts a reaction-function argument into a fundamentals argument.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 3,
+   "factor_name": "Risk Appetite & Sentiment",
+   "tactical_weight_default": 0.1,
+   "tactical_weight_applied": 0.07,
+   "strategic_weight_default": 0.05,
+   "strategic_weight_applied": 0.03,
+   "weight_adjustment_reason": "Reduced at both horizons (-0.03 tactical, -0.02 strategic). EUR/GBP is the framework's canonical low-risk-beta cross: neither leg is a safe haven, neither is a high-beta commodity proxy, and both dossiers independently score risk appetite the same way and in the same direction for their own currency, so the bilateral content of the global risk cycle is close to nil. The weight is moved to Factor 8, where the bilateral differential is genuine.",
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": [
+     "cross_asset"
+    ],
+    "bilateral_analysis": "The global risk regime is unambiguously benign — VIX at 14.51 on 27 August, down 3.70 points on the month and near the 2026 low, US investment-grade spreads at 79bp and high yield at 263bp and 21bp tighter, US equities at records — and it helps both legs of this pair in almost exactly the same way. The base dossier classifies the euro as a non-haven that benefits from the risk-neutral goldilocks zone; the quote dossier classifies sterling as mildly risk-positive with less beta than the Antipodeans. Both scored their own risk factor Bullish tactically at 55 and 53 respectively, which for the cross nets to nothing. The equity channel is the only place a differential appears and it points in two directions at once: the Euro Stoxx 50 set a record above 6,560 and the DAX above 26,450, while the FTSE 100 is up roughly 20% on the year but the domestically-exposed FTSE 250 has underperformed it by about 10 percentage points. So European large-cap leadership is a mild euro-positive portfolio channel while the UK's own domestic equity signal is weak — a real but small bilateral tilt that does not survive the weighting. There is no haven-versus-proxy asymmetry to exploit here, no commodity beta differential, and no cross-asset instrument whose move reliably resolves this pair. The honest output is Neutral scored on cross-asset evidence rather than a manufactured tilt.",
+    "key_bilateral_metrics": [
+     "VIX 14.51 (27 August), -3.70 points on the month; US investment grade 79bp, high yield 263bp and 21bp tighter",
+     "Both dossiers scored their own risk factor tactically Bullish (EUR 55, GBP 53), which nets to approximately zero for the cross",
+     "Euro Stoxx 50 record above 6,560 and DAX above 26,450 against a FTSE 250 underperforming the FTSE 100 by roughly 10 percentage points — the only genuine bilateral tilt, and it is mild",
+     "Framework classification: EUR/GBP sits in the low risk-sensitivity bucket alongside AUD/NZD and USD/CAD, and nothing in this cycle's evidence argues the regime has shifted"
+    ],
+    "what_is_priced": "Markets price a benign risk regime persisting through the September central-bank cluster. That pricing is common to both legs of this pair, so there is no bilateral mispricing to harvest and no directional content to extract.",
+    "citations": [
+     8,
+     12
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": [
+     "cross_asset"
+    ],
+    "bilateral_analysis": "Over one to six months the risk factor becomes a variance amplifier rather than a direction for this pair, because both currencies lose ground to the dollar, franc and yen in a genuine risk-off and neither is the other's haven. Volatility at a 2026 low with credit spreads in the tight tail means the distribution of risk regimes is one-sided toward widening, but a widening hurts both legs and the pair's own volatility is the lowest in the euro complex, so the transmission is muted by construction. The one asymmetry worth naming is regime-dependent and belongs mostly to Factor 8: the quote dossier records that cable's normally positive correlation to the 30-year gilt yield turns negative in a fiscal crisis, which means a UK-specific risk event would move this pair hard while a global one would not. That is a fiscal channel, not a risk-appetite channel, and scoring it here would be double-counting. Both standalone dossiers reached Neutral on this factor strategically for the same reason we do — the euro because mean reversion from a 2026-low VIX is not a euro-positive, sterling because its dominant risk over the horizon is domestic. Two Neutrals net to a Neutral, and the small weight reflects that this is context rather than signal.",
+    "key_bilateral_metrics": [
+     "VIX 14.51 and investment grade at 79bp leave the risk-regime distribution one-sided toward widening, which damages both legs rather than one",
+     "Both standalone dossiers scored strategic risk appetite Neutral, at 55 and 50 confidence respectively",
+     "Pair volatility is the lowest in the euro cross complex, so global risk shocks transmit to EUR/GBP with less amplitude than to any other euro pair",
+     "The regime-dependent UK correlation — cable versus the 30-year gilt yield flipping negative in a fiscal crisis — is scored in Factor 8, not here, to avoid double-counting"
+    ],
+    "what_is_priced": "The market prices continuation of the low-volatility regime, and for this pair specifically that pricing is broadly correct because neither leg is the other's refuge. No strategic risk-appetite edge is claimed.",
+    "citations": [
+     8,
+     16
+    ]
+   },
+   "horizon_split": "Neutral at both horizons with identical confidence. The reason does not change with the horizon: EUR/GBP has no haven-versus-proxy structure, so the global risk cycle moves both legs together and cancels. Only the weight changes, falling from 0.07 to 0.03 as the framework reallocates toward structural factors.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 4,
+   "factor_name": "Flows & Positioning",
+   "tactical_weight_default": 0.1,
+   "tactical_weight_applied": 0.1,
+   "strategic_weight_default": 0.06,
+   "strategic_weight_applied": 0.06,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": [
+     "positioning"
+    ],
+    "bilateral_analysis": "The two legs are positioned in a way that mutes the headline signal and complicates the disaggregated one. On the legacy non-commercial measure both currencies are net short against the dollar — the euro at -36,352 contracts and sterling at -44,500, both to the 25 August report date — so the cross-implied position is close to flat and the headline offers no contrarian trigger for EUR/GBP in either direction. The disaggregated tranches, both dated 11 August and therefore 21 days stale, tell a sharper story: leveraged funds are short 60,600 euro contracts and long 40,670 sterling contracts at 15.9% of open interest, so fast money is positioned short EUR/GBP, while asset managers are long 225,389 euro and short 119,863 sterling, so real money is structurally long EUR/GBP. That split is the position. Against the bullish read stands a live flow the quote dossier identifies explicitly: the market entered 2026 positioned for the euro to outperform sterling, those positions have been forced to close, and the closing mechanically buys sterling — that is, it sells EUR/GBP, and it has been running for six consecutive weeks at roughly 10,100 contracts a week on the sterling leg. So a contrarian bullish stock sits against a bearish flow. The honest reading of two offsetting legs at a moderate percentile is Neutral, and the field is scored on positioning because that is genuinely all that is in it.",
+    "key_bilateral_metrics": [
+     "Legacy non-commercial nets, 25 August report: EUR -36,352 contracts, GBP -44,500 contracts — both short versus USD, so the cross signal is close to flat",
+     "Disaggregated tranche, 11 August (21 days stale): leveraged funds short 60,600 EUR and long 40,670 GBP (15.9% of open interest) — fast money is short EUR/GBP",
+     "Same tranche: asset managers long 225,389 EUR and short 119,863 GBP — real money is structurally long EUR/GBP",
+     "Sterling short covering has run six consecutive weeks at roughly 10,100 contracts a week; euro shorts were cut 22,736 contracts in the single week to 25 August — both squeezes are being spent, not built",
+     "Percentiles: euro net at roughly the 30th percentile of its trailing year; sterling net at roughly the 30th percentile — neither leg is stretched"
+    ],
+    "what_is_priced": "Both legs price a market that has covered rather than committed. The squeeze fuel that would amplify a EUR/GBP rally has largely been consumed on the euro side and is being consumed on the sterling side, so positioning is neither a tactical catalyst nor an obstacle.",
+    "citations": [
+     17,
+     18
+    ]
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 52,
+    "evidence_type": [
+     "positioning"
+    ],
+    "bilateral_analysis": "Over one to six months the composition matters more than the level, and the composition is asymmetric in the pair's favour. The marginal seller of EUR/GBP over the tactical window has been a covering sterling short and a fast-money community that is short euro and long sterling; over the strategic window the sterling short that remains is an asset-manager position of 119,863 contracts, typically hedge-driven and unlikely to squeeze. That leaves the leveraged-fund sterling long of 40,670 contracts, at 15.9% of open interest and built from 6.4% in early July, as the vulnerable leg, exposed to precisely the events this analysis expects: the 28 October Budget and the November pay evidence. On the euro side a residual non-commercial short of 36,352 contracts against a central bank that is actively tightening is an asymmetric setup on the deepest FX futures market in the world. Two structural flows reinforce: the euro area runs a USD 153.6bn goods surplus with the United Kingdom, and UK pension and insurance hedge-ratio behaviour is the channel through which a gilt event becomes a sterling event. The counterweights are honest — euro asset managers have trimmed length since early July and the euro's share of allocated reserves fell — which is why confidence is 52 rather than higher.",
+    "key_bilateral_metrics": [
+     "Leveraged-fund sterling long 40,670 contracts at 15.9% of open interest, up from 6.4% on 7 July — the leg exposed to a Budget disappointment",
+     "Residual euro non-commercial short 36,352 contracts on open interest of 801,884, against an actively tightening central bank",
+     "Asset-manager sterling short 119,863 contracts is hedge-driven and will not squeeze; asset-manager euro long 225,389 is already large and being trimmed",
+     "Structural bilateral flow: euro-area goods surplus with the UK of USD 153.6bn in 2024 on IMF DOTS, a standing sterling-selling requirement",
+     "Euro share of allocated global FX reserves 20.03% in 2026-Q1, down from 20.38% — the offsetting official-demand negative"
+    ],
+    "what_is_priced": "Positioning prices a market that has stopped believing sterling will hike but has not yet positioned for it to be cut. The unpriced element is the vulnerability of a fast-money sterling long into a dated fiscal binary, with no hedge-driven real-money buyer behind it.",
+    "citations": [
+     17,
+     18
+    ]
+   },
+   "horizon_split": "The same two tranches read Neutral tactically and Bullish strategically because positioning operates on two clocks. The tactical clock is the covering clock, and covering on the sterling leg is an active bid against this pair that offsets the contrarian stock. The strategic clock is the conversion clock: a hedge-driven sterling short will not squeeze, so the exposed position becomes the fast-money sterling long, and the residual euro short becomes latent demand.",
+   "carry_analysis": null,
+   "contrarian_analysis": {
+    "tactical": {
+     "combined_positioning_signal": "Netting the two legs, the cross-implied speculative position is close to flat on the legacy measure (EUR -36,352 against GBP -44,500, both versus the dollar), but the disaggregated tranches show fast money short EUR/GBP (leveraged funds -60,600 EUR, +40,670 GBP) and real money long EUR/GBP (asset managers +225,389 EUR, -119,863 GBP). Neither leg sits near a stated extreme, so there is no classic contrarian trigger.",
+     "unwind_trigger": "A hot 16 September UK CPI on energy pass-through — NBP gas running 18-21% above the Bank of England's own 136 pence July conditioning assumption and BRC shop prices at a two-year high of 1.5% — followed by a 17 September vote split hardening from 6-3 to 5-4, which would force a 2026 BoE hike back into pricing and squeeze EUR/GBP longs against a fast-money community already positioned the other way.",
+     "historical_analogue": "The 2026 unwind of euro-outperformance positions, which the quote dossier documents as having mechanically bought sterling through the summer, is the live analogue and it argues for caution rather than confidence: the crowd trade in this pair for most of 2026 was long EUR/GBP and it was punished.",
+     "contrarian_case": "The case against this pass's own bullish tactical lean is that the entire market can see the same September sequencing, that the ECB hike is 97% priced and therefore cannot be paid for twice, and that the residual sterling short of 44,500 contracts is still covering at roughly 10,100 contracts a week — an active bid against the position. Add a long EUR/GBP roll cost of about 131bp a year and three standing MPC hawks, and the tactical bull is paying carry to fight a live flow for an outcome already in the price."
+    },
+    "strategic": {
+     "combined_positioning_signal": "Strategically the asymmetry inverts in the pair's favour: the sterling short that remains is hedge-driven asset-manager length in foreign assets and will not cover on news, while the discretionary leg — a leveraged-fund sterling long at 15.9% of open interest, built from 6.4% in eight weeks — is exposed to the 28 October Budget with no natural buyer behind it. On the euro side a residual short against a tightening central bank on 801,884 contracts of open interest is latent demand.",
+     "unwind_trigger": "A Budget that fails to restore credible headroom, or November and December pay evidence confirming private-sector regular pay near 2.8%, would liquidate the fast-money sterling long on top of any fresh shorting. The mirror trigger is a durable Strait of Hormuz reopening, which would collapse both economies' energy bills but remove the ECB's hiking impulse, which is the euro leg's entire strategic case.",
+     "historical_analogue": "September 2022, when sterling fell sharply around the mini-Budget precisely because the market was not positioned short going in. The configuration today is closer to that than to a crowded short: leveraged funds are long sterling, not short it.",
+     "contrarian_case": "The genuine contrarian objection strategically is that both of the euro's non-speculative demand channels are weakening at the same time — asset managers have trimmed 28,529 contracts of length since early July and the euro's reserve share fell to 20.03% from 20.38% in a single quarter. If official and real-money demand are both fading, the speculative short is the only buyer left, and one buyer is not a flow regime. That is why this factor is scored at 52 confidence and a 0.06 weight rather than carried as a pillar."
+    }
+   },
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 5,
+   "factor_name": "External Balance & Terms of Trade",
+   "tactical_weight_default": 0.06,
+   "tactical_weight_applied": 0.06,
+   "strategic_weight_default": 0.16,
+   "strategic_weight_applied": 0.16,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 55,
+    "evidence_type": [
+     "trade_balance",
+     "cross_asset"
+    ],
+    "bilateral_analysis": "Both economies are net energy importers buying into the same supply shock, so this factor is not about who is hurt but about who can absorb it. The euro area absorbs it from a current-account surplus of 1.7% of GDP with a goods surplus of EUR282bn; the United Kingdom absorbs it from a current-account deficit of 2.8% of GDP with a goods deficit of 7.6% of GDP and a services surplus that actually fell GBP 1.2bn to GBP 51.8bn in the same quarter. That is a 4.5 percentage point differential in external position, and it is the whole factor. The price shock itself is common: Dutch TTF topped EUR70 per megawatt hour on 31 August, the highest since January 2023, while UK NBP settled at 161.02 pence per therm on 26 August against the Bank of England's own July conditioning assumption of 136 pence, an 18-21% overshoot, with the Strait of Hormuz effectively closed. Crude cuts the other way for both equally, with Brent down 12.0% from its July peak to USD 88.24. Tactically the news flow has been mixed for the base leg — the euro area posted a EUR35.1bn June current-account surplus against a EUR26.8bn forecast — and unambiguously negative for the quote leg, whose Q1 trade deficit widened GBP 5.1bn. The bilateral trade relationship reinforces: on IMF DOTS the euro area ran a USD 153.6bn goods surplus with the UK in 2024, a standing commercial requirement to sell sterling for euros.",
+    "key_bilateral_metrics": [
+     "Current account: euro area +1.7% of GDP (EUR276bn, twelve months to June 2026) vs UK -2.8% of GDP (GBP 22.1bn, Q1 2026) — a 4.5pp differential",
+     "Goods balance: euro-area surplus EUR282bn (down EUR60bn on the year) vs UK deficit GBP 59.5bn, or 7.6% of GDP and widening GBP 4.0bn; the UK services surplus fell GBP 1.2bn to GBP 51.8bn",
+     "Gas: TTF above EUR70/MWh on 31 August, highest since January 2023, with EU storage at 62.99% on 24 August; UK NBP 161-165 pence/therm against a 136-pence BoE July conditioning assumption",
+     "Brent USD 88.24 on 25 August, -12.0% from USD 100.31 on 24 July — a common and roughly symmetric relief for two energy importers",
+     "Bilateral goods trade (IMF DOTS 2024): euro-area exports to the UK USD 312.0bn against imports of USD 158.4bn, a USD 153.6bn euro-area surplus"
+    ],
+    "what_is_priced": "The market is trading the gas move as an inflation story on both sides of the Channel and not as a balance-of-payments story on either. The bilateral point it is not pricing is that the same percentage rise in the import bill is a transfer from a surplus economy in one case and a financing requirement in a deficit economy in the other.",
+    "citations": [
+     10,
+     11,
+     15,
+     19,
+     20
+    ]
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 62,
+    "evidence_type": [
+     "trade_balance",
+     "cross_asset"
+    ],
+    "bilateral_analysis": "At a 0.16 strategic weight this is the second-largest factor and the most durable bullish leg in the analysis. Both dossiers independently reach a Bearish external-balance stance for their own currency, at 66 and 63 confidence respectively, which for the cross resolves to whichever balance sheet degrades faster — and that is unambiguously sterling's. The euro area's twelve-month surplus has fallen from 2.0% to 1.7% of GDP, driven by a EUR60bn fall in the goods surplus, but it remains a surplus that finances itself. The UK is running a 2.8% deficit whose goods component is widening while the services surplus that historically offsets it is shrinking, and the headline Q1 narrowing came entirely from a GBP 8.0bn primary-income swing rather than from trade. The forward constraint tightens for both: EU storage at 62.99% on 24 August is well below average with Goldman Sachs saying explicitly that current prices will not be enough to manage storage through winter and that December TTF may need to exceed EUR100 per megawatt hour, and UK NBP is already 18-21% above the Bank's own assumption with the northern heating season inside the horizon. Net, the winter is bad for both and worse for the one that must attract foreign financing to pay for it. The structural bilateral flow adds a floor: a USD 153.6bn euro-area goods surplus with the UK is a persistent sterling-selling requirement, and post-Brexit trade frictions have reduced UK trade openness rather than raised it. Confidence is 62 rather than higher because a Hormuz reopening would collapse both bills at once and would take the euro's rate story with it.",
+    "key_bilateral_metrics": [
+     "Euro-area twelve-month current account EUR276bn (1.7% of GDP), down from EUR305bn (2.0%); UK current account -2.8% of GDP with the goods deficit at 7.6% of GDP",
+     "UK Q1 headline narrowing driven by a GBP 8.0bn primary-income swing while trade widened GBP 5.1bn — a composition that does not repeat",
+     "Goldman Sachs: current prices insufficient for Europe to manage storage through winter, with December TTF potentially needing to exceed EUR100/MWh",
+     "UK NBP 161-165 pence/therm against the BoE's 136-pence July conditioning assumption, an 18-21% overshoot with a 12-month change of about +43%",
+     "Structural bilateral flow: USD 153.6bn euro-area goods surplus with the UK (IMF DOTS 2024), a standing commercial demand for euros against sterling"
+    ],
+    "what_is_priced": "Bank forecasts for this pair rest on rate differentials and the October Budget; no bank forecast we could source prices the terms-of-trade channel as a separate additive input. The unpriced element is a winter energy bill that degrades a 2.8%-of-GDP deficit faster than a 1.7%-of-GDP surplus.",
+    "citations": [
+     10,
+     11,
+     15,
+     19,
+     20
+    ]
+   },
+   "horizon_split": "Bullish at both horizons with confidence rising from 55 to 62, because terms-of-trade effects transmit through trade invoicing, hedging and financing with a lag of quarters. Tactically the gas price is a headline and the base leg's own flow data have been beating; strategically it is a cumulative income transfer whose burden is a function of the starting external position, and that is where the 4.5 percentage point differential does the work. The dated inflection is the autumn storage season and the November-December heating peak.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": {
+    "base_commodity_profile": "The euro area is the world's largest net energy importer and its critical commodity is European natural gas: Dutch TTF above EUR70 per megawatt hour on 31 August, the highest since January 2023, with EU storage 62.99% full on 24 August and energy contributing +0.94pp of the 2.9% July HICP at +10.0% year-on-year. It is also a net crude importer, so Brent's 12.0% decline from its July peak is a partial offset. It carries no commodity export offset of consequence.",
+    "quote_commodity_profile": "The United Kingdom is likewise a net energy importer with no commodity export offset. Its critical price is UK NBP gas, which settled at 161.02 pence per therm on 26 August and traded around 165 pence on 28 August against the Bank of England's own July conditioning assumption of 136 pence, an 18-21% overshoot with a twelve-month change of roughly +43%. Brent's decline is the same partial offset it is for the euro area.",
+    "net_effect_calculation": "The framework's direction rules give natural gas up as negative for both EUR and GBP, and oil up as negative for both, so a naive netting produces zero. Netting on price alone is the wrong operation here; the netting must be on absorptive capacity, because the shock is common and the balance sheets are not. Step one: TTF and NBP are cointegrated through interconnector flows and competition for the same marginal LNG cargo, so the two legs face effectively the same percentage shock. Step two: the euro area absorbs it from a current-account surplus of 1.7% of GDP with a EUR282bn goods surplus; the UK absorbs it from a 2.8%-of-GDP deficit with a goods deficit of 7.6% of GDP and a services surplus that fell GBP 1.2bn in the same quarter — a 4.5 percentage point differential in external position. Step three: a surplus economy pays a larger import bill out of its own net earnings, while a deficit economy must attract incremental foreign financing to pay it, and that financing requirement is what shows up in the currency. Step four: crude's 12% decline is common and roughly symmetric and therefore nets out, leaving gas as the only commodity term with bilateral content. Conclusion: European gas up is mildly BULLISH EUR/GBP, and the effect scales with the level of gas rather than with its direction alone.",
+    "scenario_oil_up_10pct": "Mildly bullish EUR/GBP, and smaller than the gas term. Brent up 10% raises both import bills; neither currency has an export offset, so the differential runs through absorptive capacity and favours the surplus economy. Second-order: it firms the ECB's hiking impulse more than the BoE's, because the Governing Council has said it will act against the energy shock while the Bank has said it will look through it.",
+    "scenario_oil_down_10pct": "Mildly bearish EUR/GBP. Both import bills improve, relieving the deficit economy proportionately more in cash terms, and — more importantly — a sustained crude decline erodes the inflation impulse that is the euro leg's entire rate story, which is exactly the mechanism by which the market pushed the next BoE move to 2027 after Brent fell 12% from its July peak. A crude collapse is the cleanest way for this pair's bull case to fail.",
+    "dominant_commodity_driver": "European natural gas — TTF for the base leg and NBP for the quote leg, which are effectively the same price expressed in two units. The pair's exposure is not to the level of gas but to the differential in balance-sheet capacity to absorb it, which is why the same shock that hurts both currencies against the dollar is mildly positive for EUR/GBP."
+   },
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 6,
+   "factor_name": "Guidance & Credibility",
+   "tactical_weight_default": 0.07,
+   "tactical_weight_applied": 0.07,
+   "strategic_weight_default": 0.12,
+   "strategic_weight_applied": 0.12,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 55,
+    "evidence_type": [
+     "policy_comms"
+    ],
+    "bilateral_analysis": "Guidance divergence is wide and the sequencing favours the base leg. The Account of the ECB's 22-23 July meeting, published 27 August, twice described the hold as a pause and stated it was important not to signal the end of the tightening cycle, judging a further increase likely unless the inflation outlook improved significantly — and the market moved to roughly 97% for 10 September within days. The Bank of England's 29 July communication is the opposite in kind rather than merely in degree: a 6-3 hold in which the majority's stated rationale was that holding, combined with the tightening of financial conditions since the conflict began, was providing sufficient insurance, with the Governor citing the upward-sloping yield curve as doing some of the work. Ramsden gave explicitly two-way guidance and Taylor argued the economy is drifting toward deficient demand. Sequencing matters mechanically here: the ECB decides on 10 September with new staff projections and the MPC follows on 17 September, so the base leg sets the tone and does so at the higher-signal meeting of the two. With euro-area energy at +10.0% year-on-year and August country CPIs surprising up, an upward revision to the 2026 and 2027 inflation paths from the June baseline of 3.0% and 2.3% is likely and would read hawkish. The tactical risk is tonal rather than structural: if the ECB President repeats the July acknowledgement that there is no clear evidence of second-round effects while delivering the hike, the pair sells the fact.",
+    "key_bilateral_metrics": [
+     "ECB July Account (published 27 August) described the hold twice as a pause and judged a further hike likely absent a significant improvement in the outlook",
+     "BoE July minutes: 6-3 hold with the majority citing tightened financial conditions as sufficient insurance; Ramsden explicitly two-way, Taylor openly dovish",
+     "Sequencing: ECB 10 September with projections precedes BoE 17 September without a report — the base leg communicates first and at the higher-signal meeting",
+     "Guidance-versus-pricing gaps: ECB approximately 97% priced (fully transmitted); BoE approximately +7bp priced against a committee that has said it is on hold (gap near zero)",
+     "The 17 September MPC also carries the annual vote on the next twelve-month gilt-reduction pace against an APF gilt stock of GBP 491bn — a supply event that is not priced"
+    ],
+    "what_is_priced": "Both banks' September decisions are aligned with their guidance to within a few basis points, so no decision-level arbitrage remains. What is unpriced is the ECB projection revision and the MPC vote split, and those are the two tonal outcomes that can move this pair inside four weeks.",
+    "citations": [
+     1,
+     2,
+     3,
+     6
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 52,
+    "evidence_type": [
+     "policy_comms"
+    ],
+    "bilateral_analysis": "Strategically both central banks are credible and both risk being repriced dovishly, which genuinely offsets. The ECB has executed a difficult sequence cleanly — identified an energy shock, said it would act, acted on 11 June, then paused without letting the market conclude the cycle was over — but the market has extrapolated that to a 2.75% terminal by early 2027 which has to be reconciled with the Bank's own negotiated wage tracker at 2.1% for Q2 2026 and its own June projections showing 2.0% inflation in 2028. The base dossier's own view is that the euro terminal is 15-25bp too high, and the vehicle for that repricing is dated: the 17 December projections round, the first vintage in which 2026 energy base effects come clearly into the 2027 and 2028 forecast window. The Bank of England's reaction function is symmetric rather than mis-specified, with three standing hawks against a dovish wing and a decisive input — 2027 pay settlements — that the Committee itself expects to learn about toward the end of this year, placing the resolution at 5 November and 17 December. So both legs face a dovish repricing risk at the same two dates, and 17 December carries both simultaneously. The differential is that the sterling repricing would be larger in basis points because sterling has more to give up, but the euro repricing would be larger in surprise terms because the euro's hawkish extrapolation is the more extended of the two. Two credible banks with opposite-signed extrapolation risks at the same dates is a Neutral, and at a 0.12 weight that costs the score nothing rather than manufacturing a tilt.",
+    "key_bilateral_metrics": [
+     "Market-priced ECB terminal 2.75% by February 2027 against an ECB negotiated wage tracker of 2.1% and ECB projections of 2.0% inflation in 2028",
+     "BoE reaction function symmetric: three hawks for 4.00% in July against a dovish wing, with 2027 pay settlements named as decisive and expected toward year-end",
+     "Shared repricing dates: BoE 5 November Monetary Policy Report, then ECB projections and BoE decision both on 17 December",
+     "Neither bank publishes a mis-specified path: the ECB abandoned explicit forward guidance for meeting-by-meeting data dependence, and the BoE publishes individual votes and conditions its forecasts on market-implied rates",
+     "Both standalone dossiers independently scored strategic guidance Neutral at 55 confidence each"
+    ],
+    "what_is_priced": "The market prices both banks' hawkish framings at close to face value. Both are extended in opposite directions and both get tested on the same two dates, so the bilateral guidance edge over one to six months is genuinely close to zero.",
+    "citations": [
+     1,
+     3,
+     6,
+     7
+    ]
+   },
+   "horizon_split": "The stance flips from Bullish to Neutral because the question changes. Tactically the factor measures who is communicating a move and in what order, and the answer is unambiguous — the ECB is delivering a hike at a projections round seven days before a Bank of England that has told the market it is on hold. Strategically it measures whose extrapolation breaks first, and there both are extended: the euro's 2.75% terminal is unsupported by its own wage tracker and sterling's hawkish tail is unsupported by its own labour data. The transition point is 17 December, when both banks report on the same day.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 7,
+   "factor_name": "Event Risk & Geopolitics",
+   "tactical_weight_default": 0.05,
+   "tactical_weight_applied": 0.05,
+   "strategic_weight_default": 0.05,
+   "strategic_weight_applied": 0.07,
+   "weight_adjustment_reason": "Strategic weight raised 0.05 to 0.07. The strategic horizon contains one genuinely one-sided dated binary for this pair — the UK Autumn Budget on 28 October with an accompanying OBR forecast — against a base-leg political risk (the French 2027 budget process) that is real but slower and already partly spread-priced. Event risk carries more bilateral content on this cross than the default assumes. Tactical weight unchanged because no UK or euro-area binary falls inside four weeks.",
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": [
+     "geopolitics"
+    ],
+    "bilateral_analysis": "Inside four weeks neither leg carries a genuine binary and the shared risk is two-sided. The UK calendar is dense but scheduled — monthly GDP and trade, the labour market, CPI, the MPC and its annual gilt-reduction vote, retail sales — and the Budget date was fixed at 28 October on 31 July, so even its timing uncertainty is gone and it sits outside the tactical window. The political transition to a new Prime Minister and Chancellor in July has been absorbed. On the base side the French budget balance prints on 2 September and the 2027 budget process runs through the autumn, but nothing inside four weeks forces the issue and the OAT-Bund spread at 83.6bp is elevated without being disorderly. The genuinely live geopolitical risk is common to both legs and cuts both ways: the Strait of Hormuz is effectively closed after further escalation on 31 August, and escalation raises both energy bills while a durable ceasefire would relieve both and simultaneously remove the ECB's hiking impulse, which is the base leg's own rate story. For this pair specifically, escalation is mildly bullish through the absorptive-capacity channel already scored in Factor 5, and scoring it again here would be double-counting. The honest tactical output is Neutral on geopolitics.",
+    "key_bilateral_metrics": [
+     "UK Autumn Budget confirmed for 28 October 2026 on 31 July — dated, consequential and outside the tactical window",
+     "UK tactical calendar is entirely scheduled releases plus the 17 September MPC; the political transition to the new Prime Minister and Chancellor on 20 July has been absorbed",
+     "Base-leg political risk: French 2027 budget process with OAT-Bund at 83.6bp on 21 August and Fitch affirming A+ stable on 28 August with an explicit deficit warning",
+     "Shared and two-sided: the Strait of Hormuz effectively closed with escalation on 31 August; a durable ceasefire would relieve both legs but remove the ECB's hiking impulse",
+     "Both dossiers place their acute event risk outside four weeks — the UK at 28 October, the euro area across the autumn French budget process"
+    ],
+    "what_is_priced": "Volatility surfaces on both legs price no near-term binary, and for this pair that is broadly correct: the September calendar is dense but scheduled and the two consequential political events are dated outside the window.",
+    "citations": [
+     3,
+     11,
+     16,
+     21
+    ]
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 58,
+    "evidence_type": [
+     "geopolitics"
+    ],
+    "bilateral_analysis": "The strategic horizon contains one one-sided binary and it belongs to the quote leg. The Autumn Budget on 28 October, with an accompanying OBR economic and fiscal forecast, is delivered by a Chancellor three months in office under a Prime Minister who took over on 20 July, against a fiscal mandate whose March headroom of GBP 9.9bn the OBR itself warned could be erased by a modest rise in borrowing costs — and borrowing costs have since risen, with roughly GBP 2.5bn of additional annual debt service per 0.25 percentage point. The distribution around it is asymmetric because the fiscal rules cap the good outcome while the gilt market punishes the bad one, and the quote dossier notes the regime-dependent correlation that makes a UK fiscal event a currency event rather than merely a rates event. The base leg's equivalent risk is the French 2027 budget, which is genuinely negative but slower, partly priced at 83.6bp of OAT-Bund spread, and diluted across a twenty-member currency union in which Italy has been re-rated from liability to asset after seven upgrades. A second dated base-leg item, the early-February 2027 expiry of the EU's retaliatory-tariff pause, falls at or beyond the edge of the horizon. Netting a concentrated, dated, single-sovereign binary against a diffuse and partly-priced union-level risk gives a bullish tilt for the pair. The two-sided Hormuz exposure is common and is scored in Factor 5.",
+    "key_bilateral_metrics": [
+     "UK Autumn Budget 28 October 2026 with OBR forecast — a concentrated, dated, one-sided binary for the quote leg",
+     "OBR March 2026 headroom GBP 9.9bn, which the OBR warned could be erased by a modest rise in borrowing costs; roughly GBP 2.5bn of extra annual debt service per 0.25pp",
+     "Base-leg comparator: OAT-Bund 83.6bp (21 August) and Fitch affirming France A+ stable on 28 August — elevated, partly priced and diffused across the union",
+     "Italy re-rated after seven upgrades to Moody's Baa2, S&P BBB+, Fitch BBB+, with BTP-Bund at roughly 81-85bp — the euro area's historic fragility trade has been retired",
+     "EU retaliatory-tariff pause expires around early February 2027, at the far edge of the horizon"
+    ],
+    "what_is_priced": "Sterling markets price Budget continuity, evidenced by the calm in the pair's own low volatility since the July political transition, and the pair's vol surface carries no hump in the tenor containing 28 October. A concentrated single-sovereign binary against a diffuse union-level risk is not being differentiated.",
+    "citations": [
+     16,
+     21,
+     22,
+     23
+    ]
+   },
+   "horizon_split": "Neutral tactically and Bullish strategically because the dominant event sits between the two horizons. Inside four weeks the UK calendar is scheduled data and a well-priced MPC, and the base leg has nothing acute; inside one to six months the 28 October Budget enters the window with an asymmetric payoff, against a base-leg political risk that is slower, partly spread-priced and diluted across a currency union.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 8,
+   "factor_name": "Fiscal & Sovereign Risk",
+   "tactical_weight_default": 0.04,
+   "tactical_weight_applied": 0.08,
+   "strategic_weight_default": 0.07,
+   "strategic_weight_applied": 0.11,
+   "weight_adjustment_reason": "Raised at both horizons (+0.04 each). For most pairs this is a background factor; for EUR/GBP in September 2026 it is the single widest genuine bilateral differential available. The gilt-Bund 10-year spread is at roughly 184bp, the widest since the 2022 mini-Budget, and it is a premium paid on the debt of the country whose central bank is LESS likely to hike than the other. That is a sovereign risk premium rather than a rate-expectations premium, it is measurable daily, and it has a dated resolution on 28 October. Weight taken from Factor 3, where the bilateral content is nil.",
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 58,
+    "evidence_type": [
+     "rates"
+    ],
+    "bilateral_analysis": "The gilt-Bund 10-year spread stands at approximately 184bp — gilt 5.16% at the 28 August close against a Bund of 3.32% on 31 August — which is the widest since the 2022 mini-Budget and, critically, is being paid on the debt of the sovereign whose central bank is less likely to raise rates than the other. Because Bank Rate is only 12.5bp above the Fed midpoint while gilts yield 49bp over Treasuries, the decomposition is unambiguous: a large part of the sterling long-end premium is term and fiscal premium rather than policy. The 30-year gilt at 5.73-5.76% sits within 5bp of its May 2026 multi-decade peak. On the base side the comparable spreads are contained and improving in character: OAT-Bund 83.6bp, BTP-Bund roughly 81-85bp, and Germany is expanding fiscally with new borrowing above EUR180bn and a EUR500bn infrastructure fund while its own 10-year sits at a fifteen-year high without any widening of peripheral spreads. Higher core yields with contained peripheral spreads is genuine term-premium repricing; higher gilt yields with a 184bp premium over the core is a credit-perception repricing. The bilateral transmission runs two ways and both favour the pair: the fiscal premium substitutes for a Bank Rate rise, as the Governor has said in as many words, and the quote dossier's regime-dependent correlation says a rising long gilt yield sells sterling once the fiscal regime binds. Tactically there is no dated catalyst, which is why confidence is 58 rather than higher, but the spread has refused to narrow ahead of a Budget, and refusal is itself information.",
+    "key_bilateral_metrics": [
+     "Gilt-Bund 10-year spread approximately 184bp (gilt 5.16% at the 28 August close against a Bund of 3.32% on 31 August) — widest since the 2022 mini-Budget, essentially unchanged from about 183bp at 31 July",
+     "UK 30-year gilt 5.73-5.76%, within 5bp of the May 2026 multi-decade peak of 5.78-5.80%",
+     "Euro-area comparators contained: OAT-Bund 83.6bp on 21 August; BTP-Bund roughly 81-85bp derived from the 28 August auction clearing at 4.10%; the ECB's TPI has never been activated",
+     "Decomposition: gilts yield 49bp over Treasuries while Bank Rate is only 12.5bp above the Fed midpoint, so roughly 36bp of the cross-market gap is term and fiscal premium",
+     "UK public sector net debt 95.1% of GDP at end-May 2026, the highest since the early 1960s; gross gilt sales of GBP 246.2bn in 2026-27 after the 23 April downward revision"
+    ],
+    "what_is_priced": "The gilt market has priced UK sovereign risk aggressively at 184bp over Bunds and the currency has not. The two markets are telling opposite stories about the same country, and the payload's own implied volatility for the pair shows no premium for the date on which that gap gets resolved.",
+    "citations": [
+     22,
+     23,
+     24
+    ]
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 66,
+    "evidence_type": [
+     "rates",
+     "geopolitics"
+    ],
+    "bilateral_analysis": "This is the highest-confidence stance in the analysis because the arithmetic is closed and adverse on one side and genuinely two-sided on the other. UK public sector net debt is 95.1% of GDP, the highest since the early 1960s, the OBR's March headroom of GBP 9.9bn has plausibly been consumed entirely by the intervening rise in gilt yields at roughly GBP 2.5bn of debt service per 0.25 percentage point, and the resolution is dated at 28 October with three options — tax rises, spending cuts or a rule change — the last of which the gilt market will not tolerate. Ratings are the weakest-sourced input on the sterling side and the quote dossier flags them accordingly: S&P AA and Fitch AA- are corroborated, the Moody's level is reported inconsistently, and no 2026 agency action was identified, so whatever the outlooks are, the action risk lies ahead. The euro area's fiscal picture is genuinely two-sided rather than merely better: a AAA Germany borrowing heavily against an A+ France unable to consolidate, with the fat left tail located in Paris rather than Rome and the base dossier's own central risk case an OAT-Bund move beyond 110-120bp during the autumn budget process. But the euro area has no single sovereign, so a French widening is diluted, whereas a gilt event is the whole currency. That structural difference — a concentrated single-sovereign exposure against a mutualised distribution of exposures — is the bilateral content, and it is why the pair benefits even in a scenario where both fiscal stories deteriorate. Pass-2 corroboration since the verdict was set: Rabobank's senior FX strategist argues sterling is vulnerable because global bond market pressure is focusing on high-debt countries facing elections or budget talks, and with a relatively high share of UK gilts held by foreign investors and the 28 October Budget approaching, expects sterling weakness and a higher EUR/GBP over coming months — and specifically that investors selling French government bonds can move into debt issued elsewhere in the eurozone without leaving the single currency, while sterling has no such option, which is the mutualisation asymmetry stated in flow terms rather than spread terms.",
+    "key_bilateral_metrics": [
+     "UK public sector net debt 95.1% of GDP; borrowing 4.2% of GDP in FYE March 2026; OBR March headroom GBP 9.9bn against roughly GBP 2.5bn of extra debt service per 0.25pp of borrowing cost",
+     "Dated resolution: 28 October Budget with OBR forecast; the 17 September MPC also votes on the next twelve-month gilt reduction pace against a GBP 491bn APF gilt stock",
+     "Euro-area fiscal dispersion: German new borrowing reported above EUR180bn plus a EUR500bn infrastructure fund with the 10-year at a fifteen-year high and NO peripheral widening; OAT-Bund 83.6bp; BTP-Bund roughly 81-85bp",
+     "Structural asymmetry: sterling carries a concentrated single-sovereign exposure while the euro mutualises a distribution of exposures, so an equal-sized fiscal shock moves sterling more",
+     "Ratings: UK at S&P AA and Fitch AA- with the Moody's level inconsistently reported and no 2026 action identified; France affirmed A+ stable by Fitch on 28 August; Italy re-rated upward seven times"
+    ],
+    "what_is_priced": "The market prices UK fiscal risk in the gilt curve and euro-area fiscal risk in the OAT and BTP spreads, but prices neither in this pair's currency or volatility. The unpriced element is that a concentrated sovereign shock transmits to a currency in a way a mutualised one does not.",
+    "citations": [
+     22,
+     23,
+     24
+    ]
+   },
+   "horizon_split": "Bullish at both horizons with confidence rising from 58 to 66 because the transmission mechanism is dated. Tactically the fiscal premium is a standing condition visible in the curve with no scheduled catalyst to convert it into a currency move; strategically the 28 October Budget is that catalyst, and it lands with the March headroom plausibly consumed and a 30-year gilt entrenched near a multi-decade extreme. Confidence therefore rises with the horizon rather than decaying, which is unusual and is the signature of an arithmetic rather than a narrative argument.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 9,
+   "factor_name": "Market Structure & Volatility",
+   "tactical_weight_default": 0.05,
+   "tactical_weight_applied": 0.05,
+   "strategic_weight_default": 0.03,
+   "strategic_weight_applied": 0.03,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 52,
+    "evidence_type": [
+     "pair_price_action"
+    ],
+    "bilateral_analysis": "This pass is not supplied with the pair's chart by design, so this factor is scored on the volatility surface, which is the part of market structure that is in the payload. EUR/GBP is the lowest-volatility cross in the euro complex — the base dossier records 20-day realised volatility of 2.11% and 60-day of 2.94% — and the payload's 3-month at-the-money implied volatility is 3.458% measured at 94.7 days, with a term structure of 3.195% at 38.6 days, 3.458% at 94.7 and 3.654% at 185.7. That is clean contango with no event hump anywhere, despite the ECB on 10 September and the Bank of England on 17 September both falling inside the front tenor and the 28 October Budget falling inside the middle one. A market pricing a binary shows the front tenor above the back; this one does not. The implied number must be handled with care: it is an estimate, not a quote, because this cross has no listed option, and the store discloses that the triangle realised-correlation substitution understated a direct Eurex quote for this very pair by 8.7% on 21 August and runs about 14% low in median. Treated as a floor, implied still exceeds 60-day realised by roughly half a volatility point, so there is a thin variance risk premium but no event premium. Structurally this says nothing directional — it says the pair is quiet and the calendar is not being charged for. Neutral is the correct output and the stance rests on no fundamental claim. With the payload chart now in hand for the pass-2 addition, the daily moving-average stack is bearish (50<100<200) while spot sits 2 pips above a 200-week average it has closed below for nine consecutive weeks, printing higher lows since 15 July — a bearish daily stack inside a base testing its long-term average from below is unresolved, which is what Neutral means.",
+    "key_bilateral_metrics": [
+     "Payload implied volatility term structure: 3.195% at 38.6 days, 3.458% at 94.7 days, 3.654% at 185.7 days (observed 2026-08-31) — clean contango, no event hump",
+     "3-month ATM implied 3.458% against 60-day realised of 2.94% and 20-day realised of 2.11% — a thin variance risk premium and no event premium",
+     "The implied figure is an ESTIMATE from the variance identity with a realised correlation of 0.8371; the store records it understating a direct Eurex EUR/GBP quote by 8.7% on 2026-08-21 and running about 14% low in median across pairs",
+     "ECB 10 September and BoE 17 September both sit inside the 38.6-day tenor; the 28 October Budget and 5 November MPR sit inside the 94.7-day tenor; the 17 December double decision sits inside the 185.7-day tenor",
+     "25-delta risk reversal: documented gap — no dated quote is sourceable for this cross, so no inference is drawn from skew"
+    ],
+    "what_is_priced": "The surface prices the September central-bank cluster and the October Budget at essentially nothing: a contango curve with no hump across three tenors that each contain a scheduled binary. Optionality is cheap relative to the calendar, and that is the only actionable structural content.",
+    "citations": [
+     25
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": [
+     "pair_price_action"
+    ],
+    "bilateral_analysis": "Over one to six months the structural content thins further and the weight of 0.03 reflects that honestly. The 185.7-day tenor at 3.654% is only 0.46 volatility points above the 38.6-day tenor, which is a very flat premium for a period containing an ECB projections round, a Bank of England Monetary Policy Report, a UK Budget with an OBR forecast, a double central-bank decision on 17 December and an unresolved conflict closing a fifth of global LNG trade. Since the estimated implied is a floor, the true surface may be steeper than the payload shows, but not by enough to change the conclusion: the market is charging a low absolute price for a dense calendar in the quietest cross in the complex. There is no directional claim available here. Liquidity is not a constraint — EUR/GBP is a deep interbank cross — but measurement is, because the absence of a listed option means the volatility input is inferred rather than observed, and the risk reversal is a documented gap so skew cannot be used to determine whether the market is hedging pair upside or downside. Scoring anything other than Neutral on this evidence would be manufacturing a stance from the one input this pass is permitted to use for levels.",
+    "key_bilateral_metrics": [
+     "Term-structure slope only 0.46 volatility points from 38.6 days to 185.7 days despite four dated binaries inside the longer tenor",
+     "EUR/GBP realised volatility of 2.94% on a 60-day basis is the lowest of any euro cross, so the pair's absolute volatility floor is genuinely low rather than merely compressed",
+     "No listed option on the cross: the implied surface is an estimate and a floor, disclosed as running roughly 9-18% low against direct quotes",
+     "Risk reversal unavailable — skew cannot be assessed, so no directional inference is drawn",
+     "Liquidity is not a constraint on execution; measurement of volatility is the constraint"
+    ],
+    "what_is_priced": "The surface prices a continuation of the quietest regime in the euro complex through a calendar containing four dated binaries. That may well be too cheap, but cheap volatility is not a direction and no fundamental stance rests on it.",
+    "citations": [
+     25
+    ]
+   },
+   "horizon_split": "Neutral at both horizons, with confidence easing from 52 to 50. Structure is context in this framework, not signal, and it says progressively less as the horizon lengthens. The one observation that survives both horizons is the same: the volatility surface carries no event premium anywhere, which affects how a view should be carried but not what the view is. The realised-volatility reading corroborates: 20-day at 2.20% against 60-day at 2.97% is a compressing market, and the two most recent sessions at 33 and 31 pips against a 22-pip ATR(14) are the first evidence of expansion.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": {
+    "vol_landscape_summary": "EUR/GBP is the quietest cross in the euro complex — 60-day realised volatility of 2.97% and 20-day of 2.20% from the payload — against an estimated 3-month at-the-money implied of 3.458% at 94.7 days, with a term structure of 3.195 / 3.458 / 3.654 across 38.6, 94.7 and 185.7 days. That is clean contango with no hump despite an ECB decision and a BoE decision inside the front tenor, a UK Budget and Monetary Policy Report inside the middle one, and a double central-bank decision on 17 December inside the back one. The implied figure is an estimate from the variance identity, not a quote, and the store discloses it runs low, so read it as a floor: implied still sits above realised by roughly a full volatility point at the front, giving a thin variance premium and no event premium at all.",
+    "directional_expression": "The bilateral carry sign is the governing consideration. A long EUR/GBP spot position pays roughly 131bp a year on the payload's observed funding premium, about 9.4 pips a month, which is material against a pair whose realised volatility is 2.20% and whose ATR is 22 pips — carry consumes some 43% of one average day's range every month. That argues for carrying the tactical view in spot only over a short, event-defined window around 15-17 September, and for carrying the strategic view in optionality, where the premium is paid once rather than accruing monthly and where the surface is charging almost nothing for the two tenors that contain the consequential dates. The absence of a risk reversal means skew cannot be assessed, so any option structure should be built skew-neutral rather than leaning on an unverified directional bias.",
+    "event_timing_consideration": "The 38.6-day tenor contains the ECB on 10 September, UK CPI on 16 September and the BoE plus its annual gilt-reduction vote on 17 September. The 94.7-day tenor adds the 28 October Budget with its OBR forecast, the 29 October ECB and the 5 November BoE Monetary Policy Report. The 185.7-day tenor adds 17 December, when the ECB publishes projections and the MPC decides on the same day. The surface's slope across those three tenors is 0.46 volatility points in total, which is the mispricing worth naming.",
+    "liquidity_note": "EUR/GBP is a deep and continuously quoted interbank cross and execution is not a constraint at institutional size. The constraint is measurement: there is no listed option on the cross, so the volatility surface used here is inferred from the two dollar legs and a realised correlation, and the risk reversal is a documented gap. Any expression should be sized on the assumption that the true implied volatility is somewhat above the estimate supplied. Option barrier and expiry data specific to EUR/GBP was not sourceable in pass-2 research and is recorded as a gap; round-number interest at 0.8600, 0.8700 and 0.8500 is assumed on convention rather than asserted."
+   }
+  },
+  {
+   "factor_number": 10,
+   "factor_name": "USD Liquidity & Funding",
+   "tactical_weight_default": 0.11,
+   "tactical_weight_applied": 0.07,
+   "strategic_weight_default": 0.12,
+   "strategic_weight_applied": 0.08,
+   "weight_adjustment_reason": "Reduced at both horizons (-0.04 each) per the framework's guidance for non-USD crosses. Dollar funding still matters through the vehicle-currency channel, but it reaches both legs of EUR/GBP through the same door and neither currency is the marginal dollar borrower relative to the other in any measurable way this cycle. The weight is redeployed to Factor 8 (tactical) and Factor 7 (strategic), where the bilateral differential is genuine and dated.",
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": [
+     "rates",
+     "cross_asset"
+    ],
+    "bilateral_analysis": "Dollar funding is abundant and it is abundant for both legs. The 3-month EUR/USD cross-currency basis was last quoted at roughly -16 to -20bp, with a specific reference of -18bp — a figure three and a half months old and flagged as stale — against a derived 3-month GBP/USD basis of roughly -12.5bp, so the implied EUR/GBP basis is a benign single-digit-to-teens number, corroborated independently by the payload's own arithmetic: a funding premium of 131.4bp against a policy differential of 150bp implies about -19bp of basis on the cross. Neither figure is anywhere near a stress reading, the 2020 crisis reference being -150bp. The Federal Reserve balance sheet at USD 6.75 trillion is flat to marginally growing year-on-year, so quantitative tightening has ceased to be a net drain, there are no reported swap-line drawings, and investment-grade spreads at 79bp show no funding pressure in any observable channel. Where a bilateral tilt might exist, the evidence points both ways: the hawkish Fed repricing after Jackson Hole moved the dollar toward the exceptionalism side of the smile, which the base dossier reads as euro-negative and the quote dossier reads as sterling-negative, while the broad trade-weighted dollar actually fell 2.1% over the month. Two currencies on the same side of the dollar smile, funded at benign and nearly identical bases, is a Neutral. London's role as a large dollar-borrowing centre is the one structural asymmetry and it is dormant at current spreads.",
+    "key_bilateral_metrics": [
+     "3-month EUR/USD basis approximately -18bp (mid-May 2026 reference, STALE) against a derived 3-month GBP/USD basis of roughly -12.5bp — both benign against a 2020 crisis reference of -150bp",
+     "Payload cross-check: a 131.4bp funding premium against a 150bp policy differential implies roughly -19bp of cross-currency basis on EUR/GBP",
+     "Fed balance sheet USD 6.75 trillion at 19 August, up roughly 1.7% year-on-year — QT is no longer a net drain; no reported swap-line drawings",
+     "Broad trade-weighted dollar 118.06 on 21 August, down 2.1% on the month, even as September FOMC hike odds moved from 36% to 58-60%",
+     "Both dossiers place their own currency on the losing side of the dollar smile this cycle, which nets out for the cross"
+    ],
+    "what_is_priced": "Funding markets price abundant dollar liquidity with no stress premium and that pricing is correct for both legs. There is no bilateral funding mispricing to harvest, and the September FOMC — the one live dollar event — is stripped out of this pair by construction.",
+    "citations": [
+     8,
+     26
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": [
+     "rates"
+    ],
+    "bilateral_analysis": "Over one to six months the interesting balance-sheet comparison is between the Eurosystem and the Bank of England rather than either against the Federal Reserve, and it does not resolve the pair. The Eurosystem will not reinvest roughly EUR330bn of asset purchase programme and EUR173bn of pandemic emergency purchase programme holdings during 2026, putting over EUR500bn of securities back to the market, and combined programme liquidity already fell EUR144bn between February and May to EUR3,608bn. The Bank of England is running down a GBP 491bn gilt book toward roughly GBP 488bn by October under a GBP 70bn annual pace, and the 17 September meeting votes on the next twelve months of that — with a 30-year gilt entrenched near a multi-decade peak giving the Committee an obvious financial-stability rationale to slow. So both central banks are shrinking, both are adding duration supply to their own curves, and a slower UK pace would be gilt-supportive and mildly sterling-supportive while more aggressive euro-area non-reinvestment is Bund-yield-supportive and mildly euro-supportive. These are real but offsetting. On the vehicle-currency channel, dollar liquidity conditions reach both legs identically and the euro's rising policy rate makes it a progressively less attractive funding leg, which is a slow positive shared with nothing on the sterling side. Netting a genuinely offsetting pair of balance-sheet trajectories against an identical dollar exposure gives a Neutral at reduced weight.",
+    "key_bilateral_metrics": [
+     "Eurosystem 2026 non-reinvestment: approximately EUR330bn APP plus EUR173bn PEPP, over EUR500bn returned to the market; combined liquidity down EUR144bn February to May to EUR3,608bn",
+     "BoE APF gilt stock GBP 491bn at 17 July, targeted near GBP 488bn by October under a GBP 70bn annual pace, with the next twelve-month pace voted on 17 September",
+     "Fed balance sheet flat to marginally growing at USD 6.75 trillion — the vehicle-currency channel is benign and identical for both legs",
+     "Cross-currency basis on the pair implied at roughly -19bp from the payload's own funding premium versus the policy differential — no signal",
+     "The euro's rising policy rate mechanically reduces euro-funded carry supply, a slow shared positive with no sterling equivalent"
+    ],
+    "what_is_priced": "Markets price ample dollar liquidity persisting and price both balance-sheet run-downs as orderly. The one unpriced item is the 17 September UK gilt-reduction vote, which would be mildly sterling-supportive if slowed and is not visible in the pair's volatility surface — but it is small and it points against this analysis, which is part of why the factor is Neutral.",
+    "citations": [
+     3,
+     26
+    ]
+   },
+   "horizon_split": "Neutral at both horizons with identical confidence. The composition changes — tactically the factor is about funding stress, of which there is none on either leg, and strategically it becomes about relative balance-sheet trajectories, where the Eurosystem's EUR500bn of non-reinvestment and the Bank of England's GBP 70bn gilt run-down are both live and offsetting — but the bilateral answer is the same. The weight falls at both horizons because this is a non-USD cross.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  }
+ ],
+ "synthesis": {
+  "weight_adjustments": {
+   "adjustments_made": true,
+   "adjustments": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative) — Tactical",
+     "default_weight": 0.24,
+     "applied_weight": 0.27,
+     "reason": "Purest two-central-bank cross in the complex — no commodity leg, no haven leg, near-identical headline inflation, lowest realised vol of any euro cross — so the policy differential carries proportionately more of the pair's information, and the tactical window contains a scheduled 25bp compression of it"
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment — Tactical",
+     "default_weight": 0.1,
+     "applied_weight": 0.07,
+     "reason": "Canonical low-risk-beta cross; both dossiers score their own risk factor identically and in the same direction, so the global risk cycle has near-zero bilateral content"
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment — Strategic",
+     "default_weight": 0.05,
+     "applied_weight": 0.03,
+     "reason": "Canonical low-risk-beta cross; both dossiers score their own risk factor identically and in the same direction, so the global risk cycle has near-zero bilateral content"
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk & Geopolitics — Strategic",
+     "default_weight": 0.05,
+     "applied_weight": 0.07,
+     "reason": "Strategic horizon contains one concentrated, dated, one-sided binary for the quote leg (28 October Budget) against a slower, partly spread-priced, mutualised base-leg risk"
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign Risk — Tactical",
+     "default_weight": 0.04,
+     "applied_weight": 0.08,
+     "reason": "Gilt-Bund at roughly 184bp is the widest since the 2022 mini-Budget and is a credit-perception premium on the sovereign whose central bank is less likely to hike — the widest genuine bilateral differential here, measurable daily, with a dated resolution"
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign Risk — Strategic",
+     "default_weight": 0.07,
+     "applied_weight": 0.11,
+     "reason": "Gilt-Bund at roughly 184bp is the widest since the 2022 mini-Budget and is a credit-perception premium on the sovereign whose central bank is less likely to hike — the widest genuine bilateral differential here, measurable daily, with a dated resolution"
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding — Tactical",
+     "default_weight": 0.11,
+     "applied_weight": 0.07,
+     "reason": "Non-USD cross; dollar funding reaches both legs through the same door, implied cross basis a benign -19bp, and the September FOMC is stripped out by construction"
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding — Strategic",
+     "default_weight": 0.12,
+     "applied_weight": 0.08,
+     "reason": "Non-USD cross; dollar funding reaches both legs through the same door, implied cross basis a benign -19bp, and the September FOMC is stripped out by construction"
+    }
+   ]
+  },
+  "tactical": {
+   "net_stance": "Bullish",
+   "conviction": 3,
+   "overall_confidence": 57,
+   "weighted_score_calculation": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative)",
+     "stance_score": 1,
+     "confidence": 57,
+     "conf_adj_score": 0.57,
+     "weight": 0.27,
+     "weighted_contribution": 0.1539
+    },
+    {
+     "factor_number": 2,
+     "factor_name": "Inflation & Growth Dynamics",
+     "stance_score": 1,
+     "confidence": 52,
+     "conf_adj_score": 0.52,
+     "weight": 0.18,
+     "weighted_contribution": 0.0936
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.07,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 4,
+     "factor_name": "Flows & Positioning",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.1,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance & ToT",
+     "stance_score": 1,
+     "confidence": 55,
+     "conf_adj_score": 0.55,
+     "weight": 0.06,
+     "weighted_contribution": 0.033
+    },
+    {
+     "factor_number": 6,
+     "factor_name": "Guidance & Credibility",
+     "stance_score": 1,
+     "confidence": 55,
+     "conf_adj_score": 0.55,
+     "weight": 0.07,
+     "weighted_contribution": 0.0385
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk & Geopolitics",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.05,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign Risk",
+     "stance_score": 1,
+     "confidence": 58,
+     "conf_adj_score": 0.58,
+     "weight": 0.08,
+     "weighted_contribution": 0.0464
+    },
+    {
+     "factor_number": 9,
+     "factor_name": "Market Structure & Volatility",
+     "stance_score": 0,
+     "confidence": 52,
+     "conf_adj_score": 0,
+     "weight": 0.05,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.07,
+     "weighted_contribution": 0
+    }
+   ],
+   "net_weighted_score": 0.3654,
+   "score_interpretation": "A net score of +0.3654 is a clear Bullish reading for the pair — the euro strengthening against sterling — and it is produced by breadth rather than by any single dominant cell. Five factors contribute positively and five contribute exactly zero; nothing contributes negatively. Policy & Rates supplies +0.1539 at an adjusted 0.27 weight, Inflation & Growth +0.0936, Fiscal & Sovereign Risk +0.0464 at a raised 0.08 weight, Guidance +0.0385 and External Balance +0.0330. The five zeros are honest rather than lazy: risk appetite has no bilateral content on the lowest-beta cross in the complex, positioning has two offsetting legs, event risk has no binary inside four weeks, market structure is deliberately non-directional in this pass, and dollar funding reaches both legs identically. The composition deserves a caveat that belongs in the conviction rather than the stance: no individual factor exceeds 58 confidence, so this is five moderate calls pointing the same way, not one strong one. The score would fall to +0.2718 if Inflation & Growth were scored Neutral — which is the closest call in the table — and would still be Bullish. Applying the framework's mechanical threshold, +0.3654 is comfortably above +0.10 and the stance is Bullish; mapped to the framework's bands it sits in the conviction-3 range.",
+   "rationale": "At the applied tactical weights, 45% of the signal sits with Policy & Rates and Inflation & Growth, and both point the same way for the same underlying reason. The bilateral differential is -150bp, and because the euro area and the United Kingdom both printed 2.9% headline inflation in July, the real differential is also -150bp — sterling's carry advantage is genuine, not an inflation artefact, and that is the honest starting point. What favours the pair is not the level but the trajectory and the reaction functions. OIS has the ECB at roughly 97% for 25bp on 10 September, taking the deficit to -125bp, while the Bank of England on 17 September has about +7bp priced, 56 of 64 economists expect no change all year, and the market has pushed the next BoE move into 2027 altogether. One leg moves and the other does not. The deeper bilateral mechanism is that the same imported energy shock is hawkish for one central bank and explicitly look-through for the other: the July ECB Account described the hold twice as a pause and judged a further hike likely, while the July MPC minutes had the majority arguing that tightened financial conditions were providing sufficient insurance and the Governor citing the upward-sloping yield curve as doing some of the work. Identical inflation, opposite policy consequences. The two standalone dossiers reinforce rather than conflict: euro Bullish at conviction 2 and ranked 3 of 11, sterling Bearish at conviction 2 and ranked 8 of 11, and the sterling dossier's own bearish case is built partly on the ECB hiking — a direct read-through to this cross. The bilateral factors that modify the standalone views are the external balance and the sovereign premium. Both economies are net energy importers facing the same shock, but one absorbs it from a 1.7%-of-GDP current-account surplus and the other from a 2.8% deficit whose goods component is widening while its services offset shrinks, and the euro area runs a USD 153.6bn goods surplus with the UK that is a standing sterling-selling requirement. Meanwhile the gilt-Bund spread at roughly 184bp is the widest since the 2022 mini-Budget and is a premium paid on the debt of the country less likely to raise rates, against contained OAT-Bund at 83.6bp and BTP-Bund near 81-85bp. What is priced is both September decisions and a stable -125bp deficit thereafter; what is not priced is the asymmetry of the residual distributions, with sterling's next move priced out entirely while its own labour data — private-sector pay at 2.8%, unemployment at 4.9% and rising, vacancies at a five-year low — lean one way. The path of least resistance is a grind higher, front-loaded into 15-17 September when UK labour data, CPI and the MPC vote split arrive in three days. Dated catalysts: ECB with projections 10 September, UK labour market 15 September, UK CPI 16 September, MPC and the annual gilt-reduction vote 17 September, euro-area current account 18 September. Conviction is 3 rather than 4 for three specific reasons: a long position pays roughly 131bp a year on the payload's observed funding premium, three standing MPC hawks make a 5-4 vote split a live squeeze risk, and no single factor here clears 58 confidence.",
+   "g10_relative_ranking": "Among expressions of a long-euro view, EUR/GBP ranks second or third: it is behind EUR/CHF, where the euro earns 225bp of positive carry widening to 250bp against a Swiss National Bank anchored at zero, and comparable to EUR/NZD, where the differential flips sign on 10 September, but ahead of EUR/AUD and EUR/NOK, where the euro pays 210bp and 200bp respectively into currencies with improving terms of trade. Among expressions of a short-sterling view it ranks second, behind GBP/NOK — where the krone earns 50bp against sterling and is the direct beneficiary of the same gas shock that taxes Britain — but ahead of GBP/CHF and GBP/JPY, where a short sterling position pays 375bp and 275bp respectively. The distinguishing feature of EUR/GBP against both lists is that it strips out the dollar leg entirely, so it is the only clean expression of the September policy sequencing; the distinguishing drawback is the 131bp annual roll cost, which is the reason it does not rank first on either list.",
+   "scenarios": {
+    "base_case": {
+     "probability_pct": 50,
+     "pair_target": "EUR/GBP 0.8665",
+     "timeframe": "By end-September (2-4 weeks)",
+     "conditions": [
+      "The ECB delivers 25bp to 2.50% on 10 September and revises its 2026 and 2027 inflation paths up",
+      "UK August CPI on 16 September prints at or below 3.0%, keeping the next BoE move in 2027",
+      "The 17 September MPC vote split holds at 6-3 or softens to 7-2",
+      "The UK labour report on 15 September shows private-sector regular pay at or below 2.8%",
+      "Spot clears the 100-day at 0.86043 and holds the 200-week at 0.85947 on a weekly close"
+     ],
+     "path": "Target sits inside the lower half of the 10-touch 0.86140-0.86902 resistance band and just above the 200-day at 0.86533"
+    },
+    "upside_case": {
+     "probability_pct": 25,
+     "pair_target": "EUR/GBP 0.8730",
+     "conditions": [
+      "The MPC vote softens to 8-1 or 9-0 for a hold with a downgraded assessment, collapsing what remains of the hawkish tail",
+      "The ECB press conference keeps a December move explicitly live and euro terminal pricing holds above 2.75%",
+      "Gilt-Bund widens beyond 200bp on pre-Budget supply concern"
+     ]
+    },
+    "downside_case": {
+     "probability_pct": 25,
+     "pair_target": "EUR/GBP 0.8530",
+     "conditions": [
+      "UK August CPI prints 3.2% or higher on energy pass-through and the 17 September vote hardens to 5-4 for a hike",
+      "The ECB delivers and frames it as the cycle's last move, collapsing euro terminal pricing below 2.50%"
+     ]
+    }
+   },
+   "path_expectation": "The shape is a stepped advance with two-thirds of the move compressed into a 72-hour window, not a smooth drift. Phase one, to 10 September: expect a 0.8580-0.8620 grind as the pair tests the lower edge of the 10-touch band at 0.86140 two or three times and fails, with realised volatility staying near the current 2.20% and the 200-week average at 0.85947 acting as the pivot that defines whether the base holds — a delivered, 97%-priced ECB hike is an accounting entry rather than a catalyst and the classic pattern is spike-and-fade within two sessions. Phase two, 15-17 September: this is where the pair resolves, because the UK labour report, August CPI and the MPC vote split arrive in three days and they are the only genuinely unpriced items in the window; expect the largest single directional session of the month on 17 or 18 September and a break of the 100-day at 0.86043 on a dovish vote split. Phase three, to end-September: a settle into 0.8640-0.8680 with the broken 0.86140 zone edge retested from above at least once, and the 200-day at 0.86533 as the level that determines whether the advance is a base-case grind or an upside-case extension. Pullbacks into 0.8580-0.8600 are buying opportunities within this view; a daily close below the 50-day at 0.85546 invalidates the tactical thesis. Volatility should rise from 2.20% realised toward and through the 3.195% front-tenor implied, which means the option market is broadly right about the size of the coming move and wrong about needing to charge for it early.",
+   "conviction_ladder": {
+    "current": 3,
+    "increase_conditions": [
+     "Increase to 4 if three consecutive daily closes above the 100-day at 0.86043 AND one weekly close above the 200-week at 0.85947, converting a nine-week structural condition and beginning to unwind the bearish daily stack",
+     "Increase to 4 if the 17 September MPC vote softens to 7-2 or better for a hold",
+     "Increase to 4 if UK private-sector regular pay prints below 2.6% on 15 September",
+     "Increase to 5 if a daily close above 0.86902 (top of the 10-touch band) coincides with euro-area terminal pricing holding above 2.75% and gilt-Bund wider than 200bp",
+     "Increase to 5 if the Bank of England signals a resumption of cutting at the 5 November Monetary Policy Report"
+    ],
+    "decrease_conditions": [
+     "Decrease to 2 if a daily close below the 50-day at 0.85546 puts spot back inside the 11-touch support band",
+     "Decrease to 2 if UK August CPI prints at or above 3.2% while the MPC vote stays 6-3, reviving 2026 hike pricing",
+     "Decrease to 2 if euro-area terminal pricing slips below 2.50%",
+     "Decrease to 1 if a weekly close below 0.84986 (lower bound of the 11-touch support band) invalidates the base entirely",
+     "Decrease to 1 if the 17 September vote hardens to 5-4 for a hike",
+     "Decrease to 1 if the Bank of England raises Bank Rate to 4.00% on 5 November"
+    ]
+   },
+   "risk_reward": {
+    "base_case_payoff": "+69 pips / +0.80%",
+    "downside_case_loss": "-67 pips / -0.78%",
+    "risk_reward_ratio": "1.03:1 gross; 0.79:1 net of ~9.4 pips carry over four weeks; 1.44:1 on a primary stop basis (0.8548, 48 pips) versus 0.67:1 on a wide alternate stop (0.8494, 103 pips)",
+    "expected_value": "(0.50 × +69) + (0.25 × +134) + (0.25 × -67) = +51 pips gross (+0.60%), falling to roughly +42 pips (+0.49%) net of carry",
+    "asymmetry_assessment": "Mildly favourable and honestly modest. The upside case at +134 pips is twice the downside case at -67, giving a genuine right tail, but the base case barely clears the downside case one-for-one and carry erodes it further; sizing should be governed by the carry drag rather than by the low ATR."
+   }
+  },
+  "strategic": {
+   "net_stance": "Bullish",
+   "conviction": 3,
+   "overall_confidence": 60,
+   "weighted_score_calculation": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative)",
+     "stance_score": 1,
+     "confidence": 58,
+     "conf_adj_score": 0.58,
+     "weight": 0.24,
+     "weighted_contribution": 0.1392
+    },
+    {
+     "factor_number": 2,
+     "factor_name": "Inflation & Growth Dynamics",
+     "stance_score": 1,
+     "confidence": 54,
+     "conf_adj_score": 0.54,
+     "weight": 0.1,
+     "weighted_contribution": 0.054
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.03,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 4,
+     "factor_name": "Flows & Positioning",
+     "stance_score": 1,
+     "confidence": 52,
+     "conf_adj_score": 0.52,
+     "weight": 0.06,
+     "weighted_contribution": 0.0312
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance & ToT",
+     "stance_score": 1,
+     "confidence": 62,
+     "conf_adj_score": 0.62,
+     "weight": 0.16,
+     "weighted_contribution": 0.0992
+    },
+    {
+     "factor_number": 6,
+     "factor_name": "Guidance & Credibility",
+     "stance_score": 0,
+     "confidence": 52,
+     "conf_adj_score": 0,
+     "weight": 0.12,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk & Geopolitics",
+     "stance_score": 1,
+     "confidence": 58,
+     "conf_adj_score": 0.58,
+     "weight": 0.07,
+     "weighted_contribution": 0.0406
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign Risk",
+     "stance_score": 1,
+     "confidence": 66,
+     "conf_adj_score": 0.66,
+     "weight": 0.11,
+     "weighted_contribution": 0.0726
+    },
+    {
+     "factor_number": 9,
+     "factor_name": "Market Structure & Volatility",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.03,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.08,
+     "weighted_contribution": 0
+    }
+   ],
+   "net_weighted_score": 0.4368,
+   "score_interpretation": "A net score of +0.4368 is a clear Bullish reading and it sits at the top of the conviction-3 band. Six factors contribute positively, four contribute zero, and none contributes negatively — a configuration the framework is designed to detect. Unlike the tactical table, the strategic one is not carried by a single cell: Policy & Rates supplies +0.1392, External Balance +0.0992 at a 0.16 weight, Fiscal & Sovereign Risk +0.0726 at a raised 0.11 weight, Inflation & Growth +0.0540, Event Risk +0.0406 and Flows +0.0312. The three structural factors that dominate the strategic weighting scheme — policy at 0.24, external balance at 0.16 and guidance at 0.12 — supply 55% of the weight, and two of the three point at the pair rising while the third is a genuine Neutral because both central banks have extrapolation risk of opposite sign resolving on the same two dates. The score does not reach conviction 4 territory in our judgement despite its level because its largest single positive, External Balance at 62 confidence, is hostage to a Strait of Hormuz reopening that would relieve the quote leg's import bill and simultaneously remove the base leg's entire rate story.",
+   "rationale": "At strategic weights the framework moves weight out of Inflation & Growth and Risk Appetite and into External Balance, Guidance and — as adjusted here — Fiscal and Event Risk, and every one of those reallocations lands where the bilateral differential is genuine. Policy & Rates remains the largest factor and stays Bullish because the compression compounds: the euro's path is priced from 2.25% to 2.75% by early 2027 while sterling's committee is split, its next move has been priced out to 2027, and the base dossier's own peer table carries a Bank Rate cut to 3.50% as its central case — a configuration that would narrow the deficit from -150bp to -75bp and halve sterling's carry advantage. The decisions that would do it are dated: 5 November is the Bank of England's Monetary Policy Report round and the first full forecast after the Budget, and 17 December carries an ECB projections round and an MPC decision on the same day, which makes it the single highest-information bilateral date of the horizon. External Balance is the second-largest weight and the most durable leg. Both dossiers independently reach a Bearish external stance for their own currency, so the cross resolves to whichever balance sheet degrades faster, and that is unambiguously sterling's: a 2.8%-of-GDP deficit with a goods deficit at 7.6% of GDP and a shrinking services offset, against a euro-area surplus of 1.7% that finances itself, with both facing the same winter gas path and Goldman Sachs warning that December TTF may need to exceed EUR100 per megawatt hour. Fiscal & Sovereign Risk is the highest-confidence stance in the analysis at 66, because the arithmetic is closed on one side: UK net debt at 95.1% of GDP, the OBR's March GBP 9.9bn of headroom plausibly consumed by the intervening rise in yields at roughly GBP 2.5bn per 0.25 percentage point, a 30-year gilt within 5bp of a multi-decade peak, and a resolution dated 28 October. The euro area's fiscal picture is genuinely two-sided — a heavily-borrowing AAA Germany against an A+ France unable to consolidate — but it is mutualised across twenty-plus sovereigns, whereas a gilt event is the whole currency. The factors compound rather than cancel: the energy shock keeps euro-area inflation high enough to justify the ECB while transferring UK national income abroad and worsening the fiscal arithmetic through inflation-linked spending, and every leg of that chain terminates at the Budget. What is priced against what we expect gives the edge: bank research on this pair — ING toward 0.870, Rabobank at 0.87 in three months, MUFG at 0.88 for Q4 — rests almost entirely on BoE hike expectations unwinding and Budget risk, and we could find no bank forecast that separately prices the terms-of-trade channel as an additive negative for a deficit economy. The path of least resistance is higher in two legs, September policy compression and an October-November fiscal and pay-data resolution, with the November-December heating peak testing both economies. Conviction is 3 rather than 4 because a Hormuz reopening at a plausible probability would remove the largest positive and the rate story together, and because a long position pays roughly 66bp of carry over six months.",
+   "g10_relative_ranking": "Strategically EUR/GBP ranks as the best available clean expression of the euro's improving relative position against a specific weak counterpart, and roughly second among sterling shorts. It is behind GBP/NOK, where the krone combines a 50bp advantage over sterling with direct benefit from the gas shock that taxes Britain and is the purest fundamental short-sterling vehicle. It ranks ahead of GBP/CHF and GBP/JPY, which cost 375bp and 275bp respectively to hold short and where the sterling dossier's own range evidence says the carry has been fully collected. Among euro longs it ranks behind EUR/CHF on carry alone but ahead of it on freshness of catalyst, since the Swiss leg has no scheduled event while the sterling leg has a Budget, a Monetary Policy Report and a pay-settlement round inside the horizon. Against EUR/USD it ranks better, because the dollar leg's 137.5bp differential and the Fed's open-ended tightening impulse are the specific risks this cross removes.",
+   "scenarios": {
+    "base_case": {
+     "probability_pct": 50,
+     "pair_target": "EUR/GBP 0.8760",
+     "timeframe": "By end-February 2027 (1-6 months)",
+     "conditions": [
+      "The ECB reaches 2.50% in September and 2.75% by the 17 December projections round, or holds at 2.50% while the Bank of England begins cutting toward 3.50%",
+      "The 28 October Budget delivers rule-compliant consolidation at the cost of a downgraded OBR growth forecast, leaving gilt-Bund in a 175-200bp range",
+      "UK NBP gas holds above 130 pence per therm through the heating season with the Strait of Hormuz unresolved",
+      "The UK twelve-month current-account deficit stays at or wider than 2.5% of GDP with the goods component still widening",
+      "A weekly close above the 200-week at 0.85947 converts the nine-week structural condition"
+     ],
+     "path": "Target is the midpoint of the 11-touch 0.87060-0.87770 band"
+    },
+    "upside_case": {
+     "probability_pct": 25,
+     "pair_target": "EUR/GBP 0.8860",
+     "conditions": [
+      "The Budget fails to restore credible headroom and the 30-year gilt breaks 6.00%, activating the fiscal-crisis correlation in which a rising long yield sells sterling",
+      "The Bank of England cuts or signals cuts at the 5 November Monetary Policy Report, or a rating agency acts on the UK, or the leveraged-fund sterling long liquidates"
+     ]
+    },
+    "downside_case": {
+     "probability_pct": 25,
+     "pair_target": "EUR/GBP 0.8450",
+     "conditions": [
+      "A durable Strait of Hormuz reopening collapses TTF below EUR40/MWh and UK NBP below 110 pence per therm, relieving the UK import bill while removing the ECB's hiking impulse",
+      "The Budget is received as credibly consolidating and gilt-Bund narrows below 150bp, or the Bank of England hikes to 4.00% on 5 November"
+     ]
+    }
+   },
+   "path_expectation": "The strategic path is a stepped advance punctuated by two event windows and one seasonal test, not a trend. Expect the autumn to trade 0.8600-0.8700 as the September policy compression is banked and the market's attention rotates from the differential — which is settled for at least six weeks once the ECB and MPC have decided — to the fiscal calendar; the 10-touch 0.86140-0.86902 band should be worked through in two or three attempts rather than cleared in one, because its members cluster around the 100-day and 200-day averages and the bearish daily stack means systematic capital is not helping. The largest single repricing window is the fortnight around 28 October, where the Budget and its OBR forecast either validate or discharge a 184bp gilt-Bund premium; we expect a 100-200 pip move, direction dependent, and this is the window in which the position is made or lost. The largest pullback risk is the 5 November Monetary Policy Report, where three standing hawks vote again — a hike there would be worth 150-200 pips of squeeze and would likely retest the 200-week average at 0.85947 from above. From there the path depends on the winter gas balance and the 17 December double decision, which resolves both banks' extrapolations on the same day; a confirmed dovish sterling resolution carries the pair into the 11-touch 0.87060-0.87770 band, and clearing that band's upper edge is what would make the upside case live. Pattern shape: a broad stepped advance with a fat left tail located at 5 November and a fat right tail located at 28 October. Realised volatility should rise from 2.97% on a 60-day basis toward and above the 3.458% currently implied at 94.7 days, which we regard as too cheap for a horizon containing a Budget, a Monetary Policy Report and a heating season.",
+   "conviction_ladder": {
+    "current": 3,
+    "increase_conditions": [
+     "Increase to 4 if UK NBP gas holds above 140 pence per therm through October while the UK twelve-month current account prints wider than 2.8% of GDP with the goods deficit still widening",
+     "Increase to 4 if gilt-Bund widens beyond 200bp into the Budget",
+     "Increase to 4 if the pair records a monthly close above 0.86902 with the 200-week average reclaimed on a weekly basis",
+     "Increase to 5 if the 28 October Budget breaks or changes the fiscal rules and the 30-year gilt breaks 6.00%",
+     "Increase to 5 if a rating agency downgrades the UK while gas stays above 150 pence per therm, or if the pair clears the 11-touch 0.87060-0.87770 band on a weekly close with CFTC sterling positioning flipping from a leveraged-fund long to a net short"
+    ],
+    "decrease_conditions": [
+     "Decrease to 2 if the Budget is received as credibly consolidating and gilt-Bund narrows below 165bp for two weeks",
+     "Decrease to 2 if a credible Hormuz reopening takes UK NBP below 115 pence per therm, or the Bank of England hikes to 4.00% on 5 November, or the pair closes back below the 50-day at 0.85546 and inside the 11-touch support band on a weekly basis",
+     "Decrease to 1 if gilt-Bund narrows below 150bp and holds",
+     "Decrease to 1 if UK private-sector regular pay re-accelerates above 3.2% for two consecutive releases while services CPI rises back above 3.6%, or the pair records a weekly close below the 52-week closing low of 0.84671"
+    ]
+   },
+   "risk_reward": {
+    "base_case_payoff": "+164 pips / +1.90%",
+    "downside_case_loss": "-147 pips / -1.71%",
+    "risk_reward_ratio": "1.12:1 gross; 0.53:1 net of ~56 pips carry over six months; 1.59:1 gross on a stop basis (0.8494, 103 pips), 1.05:1 net of carry",
+    "expected_value": "Carry-adjusted expected value against forwards: (0.50 × 107) + (0.25 × 207) + (0.25 × -203) = +54 pips, or +0.63%",
+    "asymmetry_assessment": "Positive in expectation but poorly compensated per unit of risk. The distribution is close to symmetric in magnitude, the carry drag consumes roughly a third of the base-case payoff, and the 11-touch resistance band above and the 11-touch support band below are the same class of level, so there is no structural asymmetry to lean on."
+   }
+  },
+  "consensus_divergence": {
+   "bank_consensus_forecast": "UBS targets 0.8500 by year-end; MUFG Research forecasts 0.8800 for Q4 2026; the Exchange Rates UK survey aggregate (20 August 2026) runs approximately 0.8612 late 2026, 0.8692 early 2027 and 0.8700 late 2027; Rabobank looks for EUR/GBP biased higher toward 0.87 on a three-month view; a wide cluster (Danske, Goldman Sachs, ING, MUFG, SEB, Scotiabank, CIBC, JP Morgan, Rabobank) expects EUR/GBP between 0.88 and 0.90 during 2027; Bank of America is the most sterling-bullish at around 0.83-0.84 with Credit Agricole and Pantheon also expecting a weak euro. On the mirror quote, the August GBP/EUR survey median falls to roughly 1.163 in Q3 2026 and 1.149 in Q4 and stays near 1.149 through much of 2027.",
+   "bank_consensus_forecast_source": "UBS; MUFG Research; Rabobank; survey aggregate including Danske Bank, Goldman Sachs, ING, SEB, Scotiabank, CIBC, JP Morgan, Bank of America, Credit Agricole and Pantheon Macroeconomics, compiled via Exchange Rates UK (20 August / 9 July 2026 survey updates)",
+   "our_tactical_view": "0.8665 base case by end-September (+69 pips, +0.80%)",
+   "our_strategic_view": "0.8760 base case by end-February 2027 (+164 pips, +1.90%)",
+   "divergence_direction": "Directionally aligned with the bullish bank cluster, roughly in line with the 0.87 three-month cluster at the short end, and modestly above the survey median at both horizons — while remaining well below the 0.88-0.90 2027 cluster and well above the Bank of America sterling-bull case",
+   "divergence_magnitude": "+67 pips above the Q3 survey median implied by a GBP/EUR median of 1.163 at 1M; +68 pips above the survey's early-2027 path of 0.8692 at 6M",
+   "why_we_differ": "The reasoning gap matters more than the level gap, because it determines what would falsify the call. The bullish houses get to 0.87 essentially through the rate channel — sterling's front-end support being pared back and BoE hike bets fading — which is our Factor 1, weighted heavily but not exclusively. Our additional leg, and the one we cannot find priced anywhere, is Factor 5 at a 0.16 strategic weight: the same winter energy shock hits both economies, but one absorbs it from a 1.7%-of-GDP current-account surplus and the other must attract incremental foreign financing to pay for it from a 2.8% deficit whose goods component is widening and whose services offset is shrinking, on top of a USD 153.6bn euro-area goods surplus with the UK that is a standing commercial requirement to sell sterling. We also weight Factor 8 at 0.11 strategically against a 0.07 default, and pass-2 research strengthens that choice: the substitutability asymmetry — that a French fiscal problem can be expressed within the single currency while a UK one cannot — is a bilateral flow mechanism, not a spread observation. Against the sterling bulls we differ on durability rather than on the existence of the carry: it is genuine in real terms today and it is a shrinking asset with three dated resolution points.",
+   "payoff_if_right": "Roughly +164 pips or +1.90% on the strategic base case, +107 pips against the 6-month forward, and a position that survives outcomes which would break a pure rate call — a hawkish 17 September vote split or a 5 November hike would remove the rate leg while leaving the external-balance and fiscal legs intact.",
+   "risk_if_wrong": "The most dangerous counter-argument is the contrarian positioning case: with the institutional community braced for trouble, a fiscally neutral Budget on 28 October would dissolve the remaining sterling risk premium, positioning would work in sterling's favour, and the event asymmetry would favour the pound — which maps directly onto our downside scenario. The second route to being wrong is a durable Hormuz reopening, which would relieve the UK import bill and remove the ECB's hiking impulse simultaneously, taking out the largest and second-largest positives at once. The third and nearest is a hot 16 September UK CPI plus a 5-4 MPC split, forcing a 2026 hike back into pricing against a fast-money community already positioned short this cross."
+  },
+  "cross_horizon_consistency": {
+   "aligned": true,
+   "tactical_stance": "Bullish",
+   "strategic_stance": "Bullish",
+   "explanation": "Both horizons are Bullish at conviction 3, and the thesis broadens rather than merely persists: the score deepens from +0.3654 to +0.4368 and overall confidence rises from 57% to 60%. The composition changes in an informative way. Tactically the case rests on five moderate-confidence positives of which policy and the data pulse supply two-thirds, with five honest zeros. Strategically the framework reallocates weight into External Balance and Fiscal and Event Risk, which is exactly where sterling's structural problems sit, so six factors contribute and the largest single positive is no longer policy alone. Two factors change character: Flows turns from Neutral to Bullish because the covering flow that currently bids sterling exhausts while a fast-money sterling long becomes the exposed position into a fiscal binary, and Guidance turns from Bullish to Neutral because both central banks' hawkish framings are extended in opposite directions and both get tested on the same two dates.",
+   "inflection_point": null,
+   "trading_implication": "Because the volatility term structure slopes only 0.46 points from 38.6 to 185.7 days, the calendar is cheap relative to the carry. Express the tactical view in spot, in short event-defined exposure sized to a 48-pip stop below the 50-day at 0.85546, and express the strategic view in the 94.7-day and 185.7-day option tenors rather than by holding spot for six months and paying 56 pips to do it. A position that must span both horizons should be structured so that the September gains are banked and the Budget exposure is re-established in optionality."
+  },
+  "forward_vs_spot": {
+   "current_spot": 0.85965,
+   "forward_1m": "0.8606 outright (+9 pips)",
+   "forward_3m": "0.8625 outright (+28 pips)",
+   "forward_6m": "0.8653 outright (+56 pips)",
+   "expected_rate_3m": "0.8710",
+   "expected_rate_6m": "0.8760",
+   "edge_3m": "+85 pips",
+   "edge_6m": "+107 pips"
+  }
+ },
+ "catalysts": [
+  {
+   "date": "2026-09-10",
+   "event": "ECB Governing Council decision with new Eurosystem staff macroeconomic projections",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Base",
+   "rationale": "The base leg's decisive scheduled event and the first of the two September decisions, so it sets the tone seven days before the MPC. A 25bp move to a 2.50% deposit rate is priced at roughly 97%, mechanically narrowing the bilateral deficit from -150bp to -125bp; the decision itself is therefore not the catalyst, the projections are. With euro-area energy at +10.0% year-on-year and August country CPIs surprising up, an upward revision to the June baseline of 3.0% for 2026 and 2.3% for 2027 would read hawkish and extend the differential compression into December. The tactical risk is tonal: a repeat of the July acknowledgement of no clear evidence of second-round effects, delivered alongside the hike, would produce a sell-the-fact reaction.",
+   "priced_in": "Fully",
+   "citations": [
+    1,
+    2,
+    6
+   ]
+  },
+  {
+   "date": "2026-09-15",
+   "event": "UK labour market report: unemployment, claimant count, average weekly earnings",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Quote",
+   "rationale": "The single most informative release for the quote leg inside the tactical window, because the MPC has named pay as the variable that decides whether its hawkish tail survives. The prior prints were unemployment 4.9% and up 0.2pp on the year, private-sector regular pay only 2.8%, payrolled employees down 210,000 and vacancies at 705,000, the lowest since early 2021. A further loosening removes the second-round-effects case that supports sterling's 150bp advantage, which is the direct bilateral channel; a re-acceleration above 3.2% would revive it and is the clearest near-term risk to a long position in the pair.",
+   "priced_in": "Partially",
+   "citations": [
+    13,
+    3
+   ]
+  },
+  {
+   "date": "2026-09-16",
+   "event": "UK August CPI, core CPI and services CPI",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Quote",
+   "rationale": "Genuinely two-sided for the pair and the reason the tactical inflation factor is only modestly bullish. July printed 2.9% headline with core at 2.6% and services falling to 3.4%, and August carries real upside risk from energy pass-through with NBP gas 18-21% above the Bank's own July conditioning assumption and shop-price inflation at a two-year high of 1.5%. A hot print revives a 2026 Bank Rate rise and squeezes the pair lower against a fast-money community already positioned short it; a soft print confirms the disinflation the majority relies on and pushes the next move further out, compressing the differential further.",
+   "priced_in": "Not priced",
+   "citations": [
+    5,
+    12
+   ]
+  },
+  {
+   "date": "2026-09-17",
+   "event": "Bank of England MPC decision and minutes, plus the annual vote on the next twelve-month gilt reduction pace",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Quote",
+   "rationale": "The rate outcome is close to fully discounted at roughly +7bp with 56 of 64 economists expecting no change all year, so the bilateral information is in the vote split and the quantitative tightening decision. A split softening from 6-3 toward 7-2 removes the hawkish tail that underwrites sterling's carry advantage a week after the ECB has raised its own rate, which is the cleanest possible sequencing for the pair. The gilt-reduction vote cuts the other way: a slower pace against a GBP 491bn APF stock and a 30-year yield near a multi-decade peak would be gilt-supportive and mildly sterling-supportive, and it is not priced.",
+   "priced_in": "Partially",
+   "citations": [
+    3,
+    24
+   ]
+  },
+  {
+   "date": "2026-09-18",
+   "event": "Euro-area monthly balance of payments (current account)",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "The highest-information release of the month for the base leg's side of the strategic external-balance thesis. It shows whether June's EUR35.1bn surplus was a one-off or whether the erosion of the goods surplus from EUR342bn to EUR282bn is continuing under the energy shock. A further deterioration narrows the 4.5 percentage point external-position gap that is the whole content of Factor 5, and is therefore bearish for the pair even though the quote leg's own balance is worse; a stabilisation confirms that a surplus economy can fund the winter out of its own earnings while a deficit economy cannot.",
+   "priced_in": "Not priced",
+   "citations": [
+    19
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "event": "UK Autumn Budget with accompanying OBR economic and fiscal forecast",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Quote",
+   "rationale": "The single most consequential dated event of the strategic horizon and the only one-sided binary either leg carries. A Chancellor three months in office must satisfy a fiscal mandate whose March headroom of GBP 9.9bn the OBR warned could be erased by a modest rise in borrowing costs, at roughly GBP 2.5bn of additional annual debt service per 0.25 percentage point, with the gilt-Bund spread already at 184bp and the 30-year within 5bp of a multi-decade peak. The distribution is asymmetric for the pair because the fiscal rules cap the good outcome while the gilt market punishes the bad one, and the quote leg's regime-dependent correlation turns a rising long yield into currency weakness once the fiscal regime binds.",
+   "priced_in": "Not priced",
+   "citations": [
+    21,
+    22,
+    23,
+    29,
+    30
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "event": "ECB Governing Council decision (no staff projections)",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "A non-projection meeting six weeks after the September move and the day after the UK Budget, which makes the sequencing unusually informative for the pair: the market will read the euro leg's guidance immediately after having repriced the sterling leg's fiscal risk. The base case is a hold at 2.50%, so the language carries the content. A hold framed as another pause sustains the priced 2.75% terminal and the compression thesis; a hold framed as data-dependent with softer wage commentary begins the downward euro repricing that is the principal internal risk to this analysis.",
+   "priced_in": "Partially",
+   "citations": [
+    1,
+    6
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "event": "Bank of England MPC decision with Monetary Policy Report",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Quote",
+   "rationale": "The first full forecast round after the Budget and the meeting at which three standing hawks vote again with 2027 pay-settlement evidence beginning to arrive. It is the single largest squeeze risk to a long position in the pair: a rise to 4.00% would restore the differential toward -150bp or wider and would validate the sterling bulls. Equally, a vote softening toward 8-1 with a downgraded forecast would remove the hawkish tail entirely and confirm the dovish resolution the labour data point to. Because the Monetary Policy Report conditions its forecasts on market-implied rates, its published inflation path is an implicit verdict on the market's 2027 timing.",
+   "priced_in": "Not priced",
+   "citations": [
+    3,
+    13
+   ]
+  },
+  {
+   "date": "2026-11-18",
+   "event": "Northern-hemisphere heating season peak (week-of, no fixed date): the physical test of EU storage at 62.99% and UK NBP at 18-21% above the Bank of England's conditioning assumption",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Both",
+   "rationale": "The highest-information non-scheduled event of the horizon and the mechanism through which Factor 5 pays or fails. Both economies are net energy importers facing the same price with the Strait of Hormuz effectively closed, and Goldman Sachs has said current prices will not be enough for Europe to manage storage through winter with December TTF possibly needing to exceed EUR100 per megawatt hour. The bilateral effect is not the price but the absorption: a surplus economy pays a larger bill out of net earnings while a 2.8%-of-GDP deficit economy must attract incremental financing, which is the channel that moves the pair.",
+   "priced_in": "Not priced",
+   "citations": [
+    11,
+    15,
+    19,
+    20
+   ]
+  },
+  {
+   "date": "2026-12-17",
+   "event": "ECB Governing Council with new staff projections AND Bank of England MPC decision, on the same day",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Both",
+   "rationale": "The single highest-information bilateral date of the horizon, because both legs reprice simultaneously and one of them does so at a projections round. For the base leg it is the first vintage in which 2026 energy base effects come clearly into the 2027 and 2028 forecast window, and a downward revision would undermine the priced 2.75% terminal. For the quote leg it is the meeting at which the Committee expects to have learned about 2027 pay settlements, the input the July minutes named as decisive. Both banks' hawkish extrapolations are extended in opposite directions and both are tested here, which is precisely why the strategic guidance factor is scored Neutral.",
+   "priced_in": "Not priced",
+   "citations": [
+    1,
+    3,
+    6,
+    7
+   ]
+  },
+  {
+   "date": "2026-09-04",
+   "event": "CFTC Commitments of Traders release for both legs, plus ECB Chief Economist remarks before the quiet period",
+   "expected_impact": "Neutral",
+   "which_leg_affected": "Both",
+   "rationale": "The first read on whether the two offsetting positioning flows that make Factor 4 tactically Neutral are still running: euro shorts covered 22,736 contracts in the week to 25 August and sterling shorts have covered roughly 10,100 a week for six weeks, and the disaggregated tranches used here are 21 days stale. Confirmation that leveraged funds remain short euro and long sterling would sharpen the contrarian read for the pair; further sterling covering would confirm the live bid against it. The ECB remarks are the last significant base-leg communication before the quiet period and the most likely vehicle for a late steer on 10 September.",
+   "priced_in": "Not priced",
+   "citations": [
+    17,
+    18
+   ]
+  },
+  {
+   "date": "2026-09-01",
+   "event": "US-Iran conflict and the status of the Strait of Hormuz, monitored continuously (ongoing)",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Both",
+   "rationale": "The highest-impact and least predictable input, and genuinely two-sided for this pair rather than merely uncertain. Escalation raises both economies' energy bills and is mildly bullish for the pair through the absorptive-capacity channel, since a deficit economy must finance the increment while a surplus economy pays it from earnings. A durable ceasefire and reopening would collapse both bills and is the specific way this analysis is wrong: it relieves the quote leg's import bill and inflation problem while removing the base leg's hiking impulse, taking out the largest and second-largest positives at once. Nothing in the pair's volatility surface prices either branch.",
+   "priced_in": "Not priced",
+   "citations": [
+    11,
+    20,
+    25
+   ]
+  }
+ ],
+ "invalidators": [
+  {
+   "condition": "The 17 September MPC vote hardens to 5-4 for a hike or the Bank of England raises Bank Rate to 4.00% on 5 November, and EUR/GBP closes below the 50-day moving average at 0.85546 in the same week",
+   "new_stance": "Neutral tactically; conviction cut to 2 strategically",
+   "mechanism": "The entire bilateral case rests on one central bank moving while the other stands still — a delivered or imminent BoE hike restores the differential toward -150bp or wider, re-establishes the 131bp carry hurdle at its full width, and forces the market to reprice sterling's next move back from 2027 into 2026 against a fast-money community already positioned short this cross.",
+   "monitor_indicator": "SONIA/OIS cumulative probability of a Bank Rate increase by 17 December, plus EUR/GBP daily closes versus 0.85546",
+   "monitor_frequency": "daily",
+   "probability_pct": 25
+  },
+  {
+   "condition": "UK front-month NBP gas falls below 110 pence per therm and Dutch TTF below EUR40 per megawatt hour, both held for ten consecutive sessions on a credible Hormuz reopening",
+   "new_stance": "Bearish strategically",
+   "mechanism": "This is the only single event that removes the pair's two largest positives simultaneously — it relieves the quote economy's 2.8%-of-GDP financing requirement while removing the imported inflation impulse that is the base leg's entire rate story, and it does so with Bank Rate still at 3.75%.",
+   "monitor_indicator": "ICE UK NBP front-month and ICE Dutch TTF front-month settlements, alongside EU storage fill",
+   "monitor_frequency": "daily on price, weekly on storage",
+   "probability_pct": 20
+  },
+  {
+   "condition": "The gilt-Bund 10-year spread narrows below 150bp and holds for two weeks after 28 October, with EUR/GBP failing to hold the 200-week average at 0.85947 on a weekly close",
+   "new_stance": "Neutral at both horizons",
+   "mechanism": "Factor 8 at a raised 0.11 strategic weight and 66 confidence rests entirely on the proposition that a 184bp premium is a sovereign risk premium the currency has not yet paid — a narrowing to 150bp is the gilt market withdrawing that judgement, and it removes the mechanism by which the strategic case is expressed in the exchange rate rather than in the curve.",
+   "monitor_indicator": "10-year gilt yield less 10-year Bund yield; EUR/GBP weekly closes versus 0.85947",
+   "monitor_frequency": "daily on the spread, weekly on price",
+   "probability_pct": 18
+  },
+  {
+   "condition": "Euro-area OIS terminal pricing falls below 2.50% at any point after 10 September — most plausibly on a 17 December projections round that revises the 2027 and 2028 inflation paths down as energy base effects enter the window",
+   "new_stance": "Neutral at both horizons",
+   "mechanism": "The base leg's improving differential is the largest single contribution in both tables (+0.1539 tactically, +0.1392 strategically) and it rests on 50bp of further ECB tightening being delivered rather than merely priced. Without it the euro's deficit stalls at -125bp and the pair is left paying carry for a compression that has already happened.",
+   "monitor_indicator": "Euro-area OIS terminal-rate pricing and ECB statement language on further tightening at the 10 September, 29 October and 17 December meetings",
+   "monitor_frequency": "at each Governing Council meeting, with daily OIS monitoring",
+   "probability_pct": 30
+  },
+  {
+   "condition": "EUR/GBP records a weekly close below 0.84986, the lower bound of the 11-touch support band",
+   "new_stance": "Conviction cut to 1 at both horizons regardless of factor scores",
+   "mechanism": "That band carries eleven touches spanning 2022 to July 2026 and is the densest structure on the chart — losing it on a weekly basis with the pair already below its 100-day and 200-day averages would mean the market is rejecting the differential-compression thesis outright and would open the 5-touch 0.83859-0.84410 zone 155-183 pips lower. This is a structural invalidator, not a fundamental one.",
+   "monitor_indicator": "EUR/GBP weekly closes versus 0.84986; corroborate with the CFTC leveraged-fund sterling net",
+   "monitor_frequency": "weekly",
+   "probability_pct": 15
+  },
+  {
+   "condition": "The UK twelve-month current-account deficit narrows below 2.0% of GDP with the goods deficit improving below 7.0% of GDP on the Q2 or Q3 balance-of-payments release, while the euro-area twelve-month surplus falls below 1.5% of GDP in the same window",
+   "new_stance": "Neutral strategically",
+   "mechanism": "Factor 5 at a 0.16 weight is not about either economy's absolute position but about the 4.5 percentage point gap between them — a convergence from both ends removes the absorptive-capacity argument entirely, and the composition test matters more than either headline because the UK's Q1 narrowing came from a GBP 8.0bn primary-income swing rather than from trade.",
+   "monitor_indicator": "ONS Balance of Payments quarterly bulletin and ECB monthly balance of payments, both on a twelve-month cumulated basis",
+   "monitor_frequency": "monthly for the euro area, quarterly for the UK",
+   "probability_pct": 12
+  },
+  {
+   "condition": "UK private-sector regular pay re-accelerates above 3.2% year-on-year for two consecutive releases while UK services CPI rises back above 3.6%",
+   "new_stance": "Bearish at both horizons",
+   "mechanism": "That is precisely the second-round-effects evidence the three MPC hawks are waiting for and the input the Committee itself named as decisive — it converts a symmetric reaction function into a hiking majority, restores sterling's carry premium as a growing rather than shrinking asset, and inverts the largest-weighted factor in the framework.",
+   "monitor_indicator": "ONS average weekly earnings, private-sector regular pay three-month year-on-year; ONS services CPI",
+   "monitor_frequency": "monthly",
+   "probability_pct": 15
+  }
+ ],
+ "signposts": [
+  {
+   "indicator": "Gilt-Bund 10-year spread",
+   "current_level": "approximately 184bp (gilt 5.16% at the 28 August close against a Bund of 3.32% on 31 August), essentially unchanged from about 183bp at 31 July",
+   "confirms_if": "widens beyond 200bp into 28 October",
+   "invalidates_if": "narrows below 150bp and holds for two weeks post-Budget",
+   "bilateral_importance": "This matters more for EUR/GBP than for either currency alone because it is a relative sovereign-risk measure whose two legs are exactly this pair's two legs, and because the euro area mutualises a fiscal shock across twenty-plus sovereigns while the UK cannot — sterling has no equivalent rotation option.",
+   "source": "https://www.worldgovernmentbonds.com/spread/united-kingdom-10-years-vs-germany-10-years/",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "UK front-month NBP gas versus Dutch TTF front-month",
+   "current_level": "UK NBP 161.02 pence per therm on 26 August, around 165 pence on 28 August, 18-21% above the BoE's 136-pence July conditioning assumption; Dutch TTF above EUR70/MWh on 31 August with EU storage 62.99% full on 24 August",
+   "confirms_if": "NBP holds above 140 pence per therm through October with TTF above EUR60/MWh",
+   "invalidates_if": "NBP below 110 pence and TTF below EUR40 for ten consecutive sessions",
+   "bilateral_importance": "For each currency alone this is an inflation input; for the pair it is the absorption test that constitutes Factor 5 at a 0.16 strategic weight, since the two prices are effectively the same price in two units and only the differing balance sheets distinguish the legs.",
+   "source": "https://tradingeconomics.com/commodity/uk-natural-gas",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "UK private-sector regular pay growth, three-month year-on-year",
+   "current_level": "2.8% for April-June 2026, against public-sector pay of 6.1%, overall regular pay of 3.5%, and a BoE target-consistent estimate near 3.25%",
+   "confirms_if": "falls below 2.6%, removing the second-round-effects case",
+   "invalidates_if": "re-accelerates above 3.2% for two consecutive releases",
+   "bilateral_importance": "This is the single variable that determines whether the -150bp differential compresses from the sterling side, and it has a direct euro-area counterpart in the ECB's negotiated wage tracker at 2.1%, making it one half of a genuine bilateral wage differential.",
+   "source": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/averageweeklyearningsingreatbritain/august2026",
+   "frequency": "Monthly"
+  },
+  {
+   "indicator": "Bilateral OIS differential — euro-area terminal pricing versus BoE cumulative move probability",
+   "current_level": "-150bp spot differential (ECB deposit 2.25%, Bank Rate 3.75%); ECB priced roughly 97% for 25bp on 10 September and a 2.75% terminal by early 2027; BoE priced at approximately +7bp for 17 September with the next move pushed into 2027",
+   "confirms_if": "the implied February 2027 differential narrows toward -100bp or tighter",
+   "invalidates_if": "the implied differential widens beyond -150bp, or euro-area terminal pricing falls below 2.50%",
+   "bilateral_importance": "Both dossiers monitor their own OIS curve; only the difference moves this pair, and the sterling leg has been priced out entirely while the euro leg is fully described, so a given surprise in sterling's curve moves the differential more.",
+   "source": "https://hoa.org.uk/news/interest-rate-predictions-2/",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "CFTC leveraged-fund sterling net position versus euro net position",
+   "current_level": "leveraged funds long 40,670 sterling contracts (15.9% of open interest, up from 6.4% on 7 July) against short 60,600 euro contracts (both 11 August tranche, 21 days stale); legacy non-commercial nets -44,500 sterling and -36,352 euro to 25 August",
+   "confirms_if": "the leveraged-fund sterling net falls below +20,000 contracts, or the euro non-commercial net converts to a long above +50,000",
+   "invalidates_if": "sterling non-commercial covering extends beyond -25,000 with the leveraged-fund long still growing",
+   "bilateral_importance": "Netted, the two dollar-denominated legs reveal that the exposed leg is the discretionary sterling long with no hedge-driven buyer behind it, a pair-specific vulnerability invisible in either dossier alone, reinforced by roughly 30% foreign ownership of UK gilts.",
+   "source": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+   "frequency": "Weekly, released Friday for the preceding Tuesday"
+  },
+  {
+   "indicator": "EUR/GBP 94.7-day implied volatility versus 60-day realised",
+   "current_level": "estimated implied 3.458% at 94.7 days against 60-day realised of 2.97% and 20-day realised of 2.20%; term structure 3.195/3.458/3.654 across 38.6, 94.7 and 185.7 days, total slope 0.46 volatility points",
+   "confirms_if": "the 94.7-day tenor rises above 4.25% as the market begins to price the 28 October Budget",
+   "invalidates_if": "realised volatility falls below 2.00% while implied compresses toward it",
+   "bilateral_importance": "This determines whether the view is best carried in spot or options and therefore whether the 131bp carry hurdle is paid monthly or once, mattering more here than for either leg alone because EUR/GBP is the quietest cross in the euro complex.",
+   "source": "Data-Cache/derived/fx_iv.csv (EUU+GBU), payload-supplied; corroborating vol commentary at https://www.fxstreet.com/currencies/eurgbp",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "EUR/GBP weekly close versus the 200-week moving average at 0.85947",
+   "current_level": "spot 0.85965, two pips above the 200-week average; nine weeks since the last weekly close above it; average slope -0.000038/week (essentially flat)",
+   "confirms_if": "two consecutive weekly closes above 0.85947, followed by three daily closes above the 100-day at 0.86043",
+   "invalidates_if": "a weekly close below 0.84986, the lower bound of the 11-touch support band",
+   "bilateral_importance": "This is the one signpost that is purely a pair-level construct with no counterpart in either dossier, since the 200-week average of a cross is not derivable from the two legs' dollar charts, and it is effectively stationary so convergence is being driven by price alone.",
+   "source": "Gated append-only price store, computationRange 2007-12-24 to 2026-09-03",
+   "frequency": "Weekly"
+  }
+ ],
+ "assumptions": [
+  "This is pass 2 of 2. The ten factor stances, confidences, evidence types, weight adjustments, weighted contributions, net scores, convictions, rationales, G10 rankings, contrarian analyses, net commodity exposure and expression assessment are carried verbatim from the settled pass-1 verdict, scored without the price payload; nothing re-scores a factor because the chart agrees or disagrees.",
+  "The payload supplied dataPoints: 130 weekday bars, dateRange 2026-03-06 to 2026-09-03, spot 0.85965 at spotDate 2026-09-03, weekendBarsDropped: 0. Moving averages, support/resistance zones, 52-week ranges and 200-week figures are computed over the whole stored history (2007-12-24 to 2026-09-03, 4879 weekday bars), not the 130 visible bars.",
+  "Payload spot is dated 2026-09-03 while VALUATION_DATE is 2026-09-01, a two-session gap; every level, target, stop, pip calculation and distance-to-average is computed against the payload spot of 0.85965, disclosed rather than reconciled.",
+  "EUR/GBP is pounds per euro, EUR base and GBP quote; rising = euro stronger, sterling weaker. A bearish standalone sterling view is a BULLISH input for this pair, stated explicitly rather than left implicit.",
+  "Implied volatility is an estimate and a floor: EUR/GBP has no listed option, so the payload's surface is derived from the variance identity fed a realised correlation of 0.8371, disclosed as understating a direct Eurex quote by 8.7% on 2026-08-21 and running about 14% low in median across pairs. The carry-to-vol ratio inherits that estimate status.",
+  "Carry and forwards are derived, not quoted: the policy-basis differential is -150bp; the observed basis is -131.4bp from the payload's CME 6E/6B calendar-spread premium, which is the interest differential plus the cross-currency basis; no quoted EUR/GBP forward-points source was obtainable, so the 1M/3M/6M outrights are computed linearly from that premium.",
+  "Both legs' 10-year sovereign yields in the payload are MONTHLY series as of 2026-06-01, 92 days old at valuation and outside both freshness windows; used only for the -182.6bp differential and never presented as live levels. Live gilt/Bund levels come from the dossiers with their own dates, and the resulting ~184bp spread is a cross-date approximation flagged as such (31 August was a UK bank holiday).",
+  "Bilateral trade figures are taken verbatim from the supplied IMF DOTS block (2024 goods, USD) and were not re-estimated from the web.",
+  "Valuation methodology uses BIS REER levels for June 2026 as a relative real-valuation proxy in the absence of any PPP series; the implied 0.9284 equalisation level is explicitly not a purchasing-power fair value.",
+  "Two different CFTC taxonomies appear and are not interchangeable: legacy non-commercial nets (25 August report date) versus Traders in Financial Futures disaggregated tranches (11 August, 21 days stale); both are labelled at every point of use.",
+  "Weight adjustments: five factors were adjusted, each within the ±0.05 limit, and both tactical and strategic sets sum to exactly 1.00 (Tactical: F1 +0.03, F8 +0.04, F3 -0.03, F10 -0.04; Strategic: F8 +0.04, F7 +0.02, F3 -0.02, F10 -0.04).",
+  "Net stance derivation was mechanical against the framework's stated thresholds (>=+0.10 Bullish, <=-0.10 Bearish, else Neutral); conviction and overall confidence remain judgements set below what the score levels alone might suggest.",
+  "Documented gaps, not filled: the 25-delta risk reversal, the pair's one-year implied-volatility percentile, EUR/GBP option barrier and strike-expiry data, and a quoted EUR/GBP cross-currency basis/forward-points series were all unobtainable and are recorded as gaps rather than estimated.",
+  "Chart-pattern sourcing is the one technical input the framework permits web research to supply; conflicting triangle and falling-channel readings are both reported rather than one being selected, and support/resistance levels were not web-searched but come entirely from the payload's computed clusters.",
+  "Consensus sourcing is via a survey aggregator and house-commentary summaries rather than a paid consensus feed; algorithmic/retail extrapolation sites were excluded as a category error.",
+  "Citation numbering: entries 1-28 are carried from the settled pass-1 verdict so references inside verbatim factor blocks remain valid; entries 29-41 are pass-2 bilateral research sources."
+ ],
+ "complete_citations": [
+  {
+   "id": 1,
+   "title": "Account of the monetary policy meeting of 22-23 July 2026",
+   "publisher": "European Central Bank",
+   "url": "https://www.ecb.europa.eu/press/accounts/2026/html/ecb.mg260827~f06c21fd54.en.html",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 2,
+   "title": "Monetary policy decisions, 11 June 2026",
+   "publisher": "European Central Bank",
+   "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260611~4d41bd5e83.en.html",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 3,
+   "title": "Bank Rate maintained at 3.75% — July 2026 Monetary Policy Summary and Minutes",
+   "publisher": "Bank of England",
+   "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/july-2026",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 4,
+   "title": "Annual inflation up to 2.9% in the euro area — July 2026 HICP",
+   "publisher": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-19082026-ap",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 5,
+   "title": "Consumer price inflation, UK: July 2026",
+   "publisher": "Office for National Statistics",
+   "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/july2026",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 6,
+   "title": "Eurosystem staff macroeconomic projections for the euro area, June 2026",
+   "publisher": "European Central Bank",
+   "url": "https://www.ecb.europa.eu/press/projections/html/ecb.projections202606_eurosystemstaff~a495110f8d.en.html",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 7,
+   "title": "New data release: ECB wage tracker points to stable negotiated wage pressures in 2026",
+   "publisher": "European Central Bank",
+   "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260617~79dfc49802.en.html",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 8,
+   "title": "Markets see Warsh endorsing a rate hike in September. Not everyone is convinced",
+   "publisher": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/31/markets-see-warsh-endorsing-a-rate-hike-in-september-not-everyone-is-convinced.html",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 9,
+   "title": "S&P Global Eurozone Composite PMI — August 2026",
+   "publisher": "S&P Global",
+   "url": "https://www.pmi.spglobal.com/Public/Home/PressRelease/96fc596680084e9b86502a39ca84c6b8",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 10,
+   "title": "S&P Global UK Composite PMI Output — August 2026 flash",
+   "publisher": "S&P Global",
+   "url": "https://www.pmi.spglobal.com/Public/Home/PressRelease/cd324ddf91f64bdb8c119dad8bfe7912",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 11,
+   "title": "European natural gas price tops EUR70 for the first time since January 2023",
+   "publisher": "Euronews",
+   "url": "https://www.euronews.com/business/2026/08/31/european-natural-gas-price-tops-70-for-first-time-since-january-2023",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 12,
+   "title": "Euro: Inflation test for ECB hike odds — BNY",
+   "publisher": "FXStreet",
+   "url": "https://www.fxstreet.com/news/euro-inflation-test-for-ecb-hike-odds-bny-202608310739",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 13,
+   "title": "Average weekly earnings in Great Britain: August 2026",
+   "publisher": "Office for National Statistics",
+   "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/averageweeklyearningsingreatbritain/august2026",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 14,
+   "title": "Latest UK Interest Rate Forecasts: Will The Bank Of England Cut Interest Rates On 17 September?",
+   "publisher": "HomeOwners Alliance",
+   "url": "https://hoa.org.uk/news/interest-rate-predictions-2/",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 15,
+   "title": "UK Natural Gas — Price, Chart, Historical Data, News",
+   "publisher": "Trading Economics",
+   "url": "https://tradingeconomics.com/commodity/uk-natural-gas",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 16,
+   "title": "Europe's gas prices are surging. Who will be the first to pay more?",
+   "publisher": "Euronews",
+   "url": "https://www.euronews.com/business/2026/08/26/europes-gas-prices-are-surging-who-will-be-the-first-to-pay-more",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 17,
+   "title": "Commitments of Traders",
+   "publisher": "Commodity Futures Trading Commission",
+   "url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 18,
+   "title": "Large currency speculators further reduce net short position in Pound futures market",
+   "publisher": "Business Standard",
+   "url": "https://www.business-standard.com/markets/capital-market-news/large-currency-speculators-further-reduce-net-short-position-in-pound-futures-market-126082500369_1.html",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 19,
+   "title": "Euro area monthly balance of payments: June 2026",
+   "publisher": "European Central Bank",
+   "url": "https://www.ecb.europa.eu/press/stats/bop/2026/html/ecb.bp260819~df1712eb4a.en.html",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 20,
+   "title": "Balance of payments, UK: January to March 2026",
+   "publisher": "Office for National Statistics",
+   "url": "https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/januarytomarch2026",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 21,
+   "title": "Autumn Budget 2026 — Confirmed Date, Possible Tax Rises and What a New Prime Minister Now Means",
+   "publisher": "Alexander & Co",
+   "url": "https://alexander.co.uk/news/autumn-budget-2026/",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 22,
+   "title": "United Kingdom 10 Years vs Germany 10 Years Bond Spread",
+   "publisher": "World Government Bonds",
+   "url": "https://www.worldgovernmentbonds.com/spread/united-kingdom-10-years-vs-germany-10-years/",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 23,
+   "title": "UK Fiscal Anxiety Pushes Gilt Yields to Crisis Levels",
+   "publisher": "StoneX",
+   "url": "https://www.stonex.com/en/insights/uk-fiscal-anxiety-pushes-gilt-yields-to-crisis-levels/",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 24,
+   "title": "OAT / Bund spread today: 83.6 bps as of Aug 21, 2026",
+   "publisher": "Ideal Investisseur",
+   "url": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 25,
+   "title": "Euro Forecast: Why ING Still Sees EUR/GBP Heading Higher",
+   "publisher": "Exchange Rates UK",
+   "url": "https://www.exchangerates.org.uk/news/47023/2026-08-27-euro-forecast-why-ing-still-sees-eur-gbp-heading-higher.html",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 26,
+   "title": "Euro to Pound Forecast: EUR/GBP bank survey and consensus path, August 2026 update",
+   "publisher": "Exchange Rates UK",
+   "url": "https://www.exchangerates.org.uk/currency-forecasts/euro-to-pound-forecast",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 27,
+   "title": "Euro To Pound Forecast 2026-2028: July Survey Sees EUR/GBP Recovering From One-Year Lows",
+   "publisher": "Exchange Rates UK",
+   "url": "https://www.exchangerates.org.uk/news/46455/2026-07-09-euro-to-pound-forecast-2026-2028-july-survey-sees-eur-gbp-recovering-from-one-year-lows.html",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 28,
+   "title": "EUR to GBP 2026 Forecasts & Latest Rates",
+   "publisher": "BestExchangeRates",
+   "url": "https://bestexchangerates.com/forecasts/eur-to-gbp-forecast/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 29,
+   "title": "British Pound: Budget risks weigh on Sterling – Rabobank",
+   "publisher": "FXStreet",
+   "url": "https://www.fxstreet.com/news/british-pound-budget-risks-weigh-on-sterling-rabobank-202609040906",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 30,
+   "title": "Euro To Pound Sterling Forecast: Rabobank Targets 0.87 On UK Budget Risks",
+   "publisher": "Exchange Rates UK",
+   "url": "https://www.exchangerates.org.uk/news/47096/2026-09-04-euro-to-pound-sterling-forecast-rabobank-targets-0-87-on-uk-budget-risks.html",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 31,
+   "title": "British Pound Forecast: October Could Be Sterling's Bigger Test Vs Euro",
+   "publisher": "Exchange Rates UK",
+   "url": "https://www.exchangerates.org.uk/news/47015/2026-08-26-british-pound-forecast-october-could-be-sterling-s-bigger-test-vs-euro.html",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 32,
+   "title": "British Pound-to-Euro Forecast 2026, 2027 & 2028: Latest August Sentiment Survey",
+   "publisher": "Exchange Rates UK",
+   "url": "https://www.exchangerates.org.uk/news/46781/2026-08-09-british-pound-to-euro-forecast-2026-2027-2028-latest-august-sentiment-survey.html",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 33,
+   "title": "Pound to Euro Forecast for 2026, 2027 and 2028: Predictions, News and ERUK House View",
+   "publisher": "Exchange Rates UK",
+   "url": "https://www.exchangerates.org.uk/blog/1397/pound-to-euro-forecast-predictions-news-and-eruk-house-view",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 34,
+   "title": "Pound to Euro Forecast: GBP/EUR Expected to Reach 1.1495",
+   "publisher": "Exchange Rates UK",
+   "url": "https://www.exchangerates.org.uk/currency-forecasts/pound-to-euro-forecast",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 35,
+   "title": "EUR/GBP Forecast, News and Analysis",
+   "publisher": "FXStreet",
+   "url": "https://www.fxstreet.com/currencies/eurgbp",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 36,
+   "title": "EUR/GBP Daily Outlook",
+   "publisher": "ActionForex",
+   "url": "https://www.actionforex.com/technical-outlook/eurgbp-outlook/652947-eur-gbp-daily-outlook-2460/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 37,
+   "title": "EURGBP Chart — Euro to Pound Rate (community trade ideas)",
+   "publisher": "TradingView",
+   "url": "https://www.tradingview.com/symbols/EURGBP/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 38,
+   "title": "GBP EUR Chart — Pound to Euro Rate (community trade ideas)",
+   "publisher": "TradingView",
+   "url": "https://www.tradingview.com/symbols/GBPEUR/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 39,
+   "title": "Pound Sterling Can End 2026 Higher Against Euro and Dollar: House View",
+   "publisher": "Pound Sterling Live",
+   "url": "https://www.poundsterlinglive.com/gbp-live-today/23559-pound-to-euro-and-dollar-forecast-to-end-year-higher-house-view",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 40,
+   "title": "Currency Forecast 2026: GBP, EUR & USD Rate Predictions",
+   "publisher": "Cambridge Currencies",
+   "url": "https://cambridgecurrencies.com/currency-forecasts/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 41,
+   "title": "Pound to Euro Forecast – September 2026",
+   "publisher": "KeyCurrency",
+   "url": "https://www.keycurrency.co.uk/pound-to-euro-forecast/",
+   "date_accessed": "2026-09-04"
+  }
+ ]
+}

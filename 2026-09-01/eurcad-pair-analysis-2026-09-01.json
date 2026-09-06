@@ -1,0 +1,1723 @@
+{
+ "metadata": {
+  "pair": "EURCAD",
+  "base_currency": "EUR",
+  "quote_currency": "CAD",
+  "valuation_date": "2026-09-01",
+  "framework_version": "2.0",
+  "base_dossier_date": "2026-09-01",
+  "quote_dossier_date": "2026-09-01"
+ },
+ "pair_convention": {
+  "spot_reference": "EUR/CAD 1.60356",
+  "spot_explanation": "EUR/CAD at 1.60356 means 1 EUR = 1.60356 CAD. Rising = EUR strengthening vs CAD; falling = EUR weakening vs CAD (CAD strengthening). Every level, target and distance in this report is anchored to the payload's spot date of 2026-09-03.",
+  "bullish_means": "pair RISES (EUR strengthens vs CAD)",
+  "bearish_means": "pair FALLS (EUR weakens vs CAD; CAD strengthens vs EUR)",
+  "base_dossier_tactical_stance": "Tactically Bullish, conviction 2 of 5, weighted score +0.1359, ranked 3 of 11; strategically Neutral, conviction 2 of 5, +0.0310, ranked 4 of 11.",
+  "quote_dossier_tactical_stance": "Tactically Neutral, conviction 2 of 5, +0.0012; strategically Bearish CAD, conviction 2 of 5, -0.1029, ranked 7 of 11. The CAD dossier is written USD/CAD-inverted, where a rising rate is a weaker Canadian dollar, so its Bearish-CAD strategic verdict is EUR/CAD-supportive and has been rotated throughout this analysis. Downstream work that carries the quote dossier's stance labels unrotated will invert the sign of this analysis."
+ },
+ "executive_summary": "EUR/CAD trades at 1.60356 as of the price payload's spot date of 2026-09-03, meaning one euro buys 1.60356 Canadian dollars, and the pair has gone almost nowhere for a year: down 0.95% over one month, down 0.36% over three, up 1.99% over six and down 1.62% over twelve, leaving spot at the 48th percentile of its 52-week closing range of 1.56817-1.64218. This is the zero-carry cross - the ECB deposit facility rate and the Bank of Canada overnight target both sit at 2.25%, an exact 0bp policy differential that exists nowhere else in either dossier's benchmarking set - so the pair prices euro-area versus Canadian fundamentals with no rates overlay and, at 2.99% twenty-day realised volatility and a 55-pip ATR(14), it prices them slowly. The dominant bilateral narrative is a collision between two large and opposite forces: a rate and reaction-function divergence in which the market prices roughly 65% of a 2026 Bank of Canada hike that the Bank's own Q2 Market Participants Survey does not reach until March 2027, against a terms-of-trade shock in which the euro area is the world's largest net energy importer buying into an effectively closed Strait of Hormuz while Canada sells into it with energy explicitly carved out of the US tariff regime. Two differentials diverge sharply from what either standalone dossier would suggest - first, the Canadian speculative short is roughly nine times more crowded per unit of open interest than the euro's (39.8% of 329,544 contracts against 4.5% of 801,884), which flips the naive both legs short, signal muted reading into a genuine pair headwind; second, on relative BIS real effective exchange rates the euro is 7.3% rich to the Canadian dollar (102.69 against 95.71), so the cross is expensive at exactly the moment its fundamental case is improving. The settled direction is tactically Neutral at conviction 2 (net weighted score +0.0986, fourteen ten-thousandths short of the Bullish threshold) and strategically Bullish at conviction 2 (+0.1026, twenty-six ten-thousandths beyond it). The caveat, and it is a real one: the chart now available to this pass does not corroborate the strategic call - spot sits below the 50-, 100- and 200-day averages, has made lower highs since 5 August and a marginal lower low on 3 September, and the pair sold off 67 pips with a 113-pip range on the day of the Bank of Canada decision, the widest session in a month. The direction verdict stands as issued and is not re-scored here, but the price structure argues that the strategic thesis needs the 2026-10-28 Bank of Canada Monetary Policy Report to arrive before it earns its entry, not before.",
+ "market_context": {
+  "spot": 1.60356,
+  "performance_1m": "-0.95%",
+  "performance_3m": "-0.36%",
+  "performance_6m": "+1.99%",
+  "performance_1y": "-1.62%",
+  "range_52w_low": 1.56817,
+  "range_52w_high": 1.64218,
+  "range_52w_percentile": 48,
+  "valuation_assessment": "There is no pair-level PPP series for EUR/CAD, so the valuation read is built from BIS real effective exchange rates for June 2026, both 63 days stale and breaching the 60-day strategic freshness window. The euro's broad real effective rate is 102.69 and Canada's is 95.71, putting EUR/CAD 7.3% rich on a relative real-effective basis - the euro near its BIS base period while the Canadian dollar is the second-cheapest currency in the eleven-currency set behind the yen, 4.29% below its own index base and down 3.41 points over twelve months. The euro's real rate fell 1.20 points over a year while Canada's fell 3.41, so the cross has been cheapening slowly even as the nominal rate held a range. This is the clearest valuation argument against the strategic Bullish - a structural level, not a catalyst, that caps the upside case: a move to the 1.6480 strategic upside target would push the relative gap toward 10%, where a valuation constraint starts to bind.",
+  "positioning": {
+   "base_cftc_net": "-36,352 contracts (-4.5% of 801,884 open interest)",
+   "base_cftc_percentile": 30,
+   "quote_cftc_net": "-131,035 combined contracts (-39.8% of 329,544 open interest net, 64.9% gross shorts)",
+   "quote_cftc_percentile": 12,
+   "net_pair_implication": "The Canadian short is roughly nine times more crowded per unit of open interest than the euro's, which flips the naive both-legs-short, signal-muted reading into a genuine pair headwind against a long EUR/CAD; a squeeze delivers more to the leg with more short per unit of float, which is the Canadian one, so the implied pair position is modestly short EUR/CAD rather than flat. The offsetting flow is real: euro asset managers are structurally long 225,389 contracts while Canadian asset managers are short 58,943, and a record C$80.8bn of foreign purchases of Canadian government bonds in Q2 2026 corroborates a genuine Canadian inflow.",
+   "crowding_assessment": "Pair trade unevenly crowded: both legs short, but the Canadian short sits near an extreme (12th percentile, far beyond the -80,000 threshold) while the euro short is moderate (30th percentile, inside stated extremes)."
+  },
+  "pair_technicals": {
+   "trend_regime": "transitioning / range-bound - nominal bullish MA stack but the 50-, 100- and 200-day averages have converged to within 27.8 pips of each other, and spot sits below all three",
+   "support_levels": [
+    1.59535,
+    1.57941,
+    1.56678,
+    1.56179,
+    1.51666
+   ],
+   "resistance_levels": [
+    1.6155,
+    1.61954,
+    1.63287,
+    1.64218
+   ],
+   "key_moving_averages": "50-day 1.61219, 100-day 1.60979, 200-day 1.60941 (bullish stack but only 27.8 pips separates 50-day from 200-day), 200-week 1.51972 rising at +0.001558/week; spot 1.60356 sits below all three daily averages (86, 62, 58 pips below respectively) and 838 pips (5.52%) above the rising 200-week average",
+   "chart_pattern": "Retail technical commentary is split and low-conviction: one reading identifies a double top with neckline in the 1.6163-1.6178 area broken, calling for bearish continuation, while aggregated technical ratings read sell on the daily, sell on the week and buy on the month. Price structure shows lower highs since 5 August and a marginal lower low on 3 September.",
+   "psychological_levels": [
+    1.6,
+    1.61,
+    1.62,
+    1.65
+   ]
+  },
+  "pair_volatility": {
+   "iv_1m": 3.781,
+   "iv_3m": 3.949,
+   "iv_percentile": null,
+   "rv_1m": 2.99,
+   "rv_vs_iv": "Variance risk premium +0.73 vol points at three months against 60-day realised and +0.79 at the front against 20-day realised on stated numbers; corrected upward for the triangle estimate's known 8.7-17.8% downward bias, VRP is more like 1.1-1.4 points - options are cheap relative to the calendar but not cheap relative to what the pair has actually delivered",
+   "risk_reversals": "No 25-delta risk reversal, butterfly or implied-volatility percentile exists for EUR/CAD in either dossier, the payload or web research conducted for this report; the skew is a documented gap and no directional inference is drawn from it",
+   "vol_term_structure": "Clean contango: 3.781% (38.6d), 3.949% (94.7d), 4.058% (185.7d) with no near-dated kink despite the 2026-09-10 ECB projections round sitting inside the front tenor and the 2026-10-28 Bank of Canada Monetary Policy Report inside the second - a market pricing essentially no event premium",
+   "vol_regime": "Low vol / compressing - lowest realised volatility of any euro cross or Canadian cross in either dossier's table, roughly two-thirds of a typical G10 major"
+  },
+  "recent_regime": "The last thirty sessions describe a pair that peaked in early August and has been leaking since. The window high was 1.62498 intraday on 5 August, after which the pair fell to 1.60409 on 14 August, bounced to 1.61378 on 19 August, retested 1.61879 on 27 August, and then rolled over - a clean sequence of lower highs. Lows have followed: 1.60409 on 14 August, 1.60545 on 21 August, then 1.60289 on 2 September and 1.60154 on 3 September, a marginal lower low. The single most informative session is 2 September, the Bank of Canada decision date: the pair opened at 1.61105, traded a 113-pip range from 1.61417 to 1.60289 - the widest session in a month against a 55-pip ATR - and closed 67 pips lower at 1.60438.",
+  "citations": [
+   "https://www.cmegroup.com/markets/fx/g10/canadian-dollar.html",
+   "https://tradingeconomics.com/canada/government-bond-yield",
+   "https://www.tradingview.com/symbols/EURCAD/technicals/",
+   "https://www.barchart.com/forex/quotes/%5EEURCAD/technical-analysis"
+  ]
+ },
+ "bilateral_carry_analysis": {
+  "base_policy_rate": 2.25,
+  "quote_policy_rate": 2.25,
+  "rate_differential_bps": 0,
+  "annualised_carry_bps": -34.2,
+  "pair_3m_iv": 3.949,
+  "pair_3m_iv_source": "Data-Cache/derived/fx_iv.csv (CME settlements; triangle estimate, method triangle_realised_corr). Transcribed from market_context.pair_volatility.iv_3m in this document, which states the same number; the field was left null at generation and the analysis reasons from this value throughout.",
+  "carry_to_vol_ratio": null,
+  "carry_regime": "negative carry",
+  "breakeven_move": "At -34.2bp annualised on a spot of 1.60356, a long position bleeds 54.8 pips per year, 13.7 pips per quarter and 27.4 pips over the six-month strategic horizon - against a 55-pip ATR, one month of carry (4.6 pips) costs only 8.4% of a single average day's range, making carry close to a non-issue on this cross.",
+  "forward_points": {
+   "1m": "-4.6 pips (EUR at discount) to 1.60310",
+   "3m": "-13.7 pips (EUR at discount) to 1.60219",
+   "6m": "-27.4 pips (EUR at discount) to 1.60082"
+  },
+  "carry_assessment": "The policy differential is exactly 0bp - the ECB deposit facility rate and the Bank of Canada overnight target both sit at 2.25% - making EUR/CAD the only zero-carry policy cross in either dossier's benchmarking set: a pure directional instrument on euro-area versus Canadian fundamentals with no rates overlay to help or hinder. The market-observable carry is not zero and it is negative: the listed-futures roll premium is -34.2bp annualised, observed 2026-08-31 over a 14.6-to-49.6-day window, consistent with a 45bp Canadian long-end advantage and Canadian three-month paper at 2.28% against euro-area ESTR near 2.05%. By covered interest parity that figure is the interest differential plus the cross-currency basis and cannot be separated without an OIS curve, so it must never be reported as a policy differential. Carry is working across G10 (VIX 14.51, US HY 263bp, equities at records) and EUR/CAD is the one place in either complex where it provides no support to either side, meaning this pair's direction has to be earned entirely on rate-of-change, terms of trade and event risk. A modest fundamental edge in a zero-carry, 2.99%-volatility instrument converts into a grind, not a move, which is the structural reason conviction is 2 at both horizons rather than 3."
+ },
+ "factors": [
+  {
+   "factor_number": 1,
+   "factor_name": "Policy & Rates (Relative)",
+   "tactical_weight_default": 0.24,
+   "tactical_weight_applied": 0.24,
+   "strategic_weight_default": 0.24,
+   "strategic_weight_applied": 0.24,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 58,
+    "evidence_type": "rates",
+    "bilateral_analysis": "The bilateral policy differential is exactly zero: the ECB deposit facility rate is 2.25% as of 2026-09-01 and the Bank of Canada overnight target is 2.25% as of 2026-08-31. That makes EUR/CAD the only zero-carry policy cross in either dossier's benchmarking set, and it means this factor cannot be scored on the level of the gap because there is no gap. The trajectory is euro-favourable and dated: the ECB decides on 2026-09-10 with a projections round attached, and euro-area OIS discounts a 25bp move to 2.50% at roughly 97%, which would open a +25bp euro advantage inside the tactical window. The Bank of Canada decided on 2026-09-02 with bond markets pricing a 3% hike probability and all 35 Reuters-polled economists forecasting no change. The problem for a tactical bull is that both legs are near-fully discounted, so neither meeting is a repricing event: a 97%-priced hike is an accounting entry, not a catalyst, and a 97%-priced hold is the same thing with the sign reversed. The long end runs the other way and is not priced out. Canada's 10-year yields 45bp more than the German benchmark on the payload's consistent monthly basis (3.42% versus 2.97%, both 2026-06-01), and the live levels agree almost exactly at roughly 44bp (Canada 3.74% against a Bund at 3.29-3.30% on 31 August). The market-observable cost of the position corroborates: the listed-futures roll premium is -34.2bp annualised, observed 2026-08-31 over a 14.6-to-49.6-day window, so a rolled long EUR/CAD pays roughly a third of a percent a year despite the identical policy rates. A zero policy gap, a negative funding carry and two fully discounted decisions is the definition of a Neutral rate factor over four weeks.",
+    "key_bilateral_metrics": [
+     "Policy differential exactly 0bp: ECB DFR 2.25% (2026-09-01) versus BoC overnight target 2.25% (2026-08-31)",
+     "10-year differential -45bp (Germany 2.97% versus Canada 3.42%, both monthly as of 2026-06-01); live basis corroborates at approximately -44bp",
+     "Futures-implied roll premium -34.2bp annualised (observed 2026-08-31, 14.6d to 49.6d) - interest differential plus cross-currency basis, NOT the policy gap",
+     "ECB 2026-09-10 hike to 2.50% priced at approximately 97%; BoC 2026-09-02 hike priced at 3% with 35 of 35 polled economists forecasting a hold",
+     "Front ends nearly level: German 2-year Schatz 2.898% versus Canada 2-year 3.01%, a gap of roughly -11bp against a -45bp 10-year gap"
+    ],
+    "what_is_priced": "Both legs are priced to near-certainty for their September decisions, so the differential's move from 0bp to +25bp on 10 September is already in the curve and cannot be collected twice. What is not priced out is the 45bp Canadian long-end advantage and the -34.2bp funding cost of the position, both of which run against a tactical long. No edge either way.",
+    "citations": [
+     2,
+     3,
+     11,
+     13,
+     22
+    ]
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 55,
+    "evidence_type": [
+     "rates",
+     "policy_comms"
+    ],
+    "bilateral_analysis": "Over one to six months the two curves are priced for opposite errors, and both errors point the same way for this pair. On the euro leg the path is 2.25% now, 2.50% on 2026-09-10, with a further 25bp to 2.75% apparently discounted by early 2027; the base dossier's own view is that the terminal is 15-25bp too high because negotiated wages printed 2.1% in Q2 2026 against 3.2% in 2025. On the Canadian leg the market carries roughly a 65% probability of a Bank of Canada hike by end-2026, while the Bank's own Q2 2026 Market Participants Survey has the median policy rate at 2.25% through January 2027 and reaching 2.50% only in March 2027 - a one-to-two-quarter wedge. Both legs therefore face a downward repricing, but the Canadian one is larger, earlier and better evidenced: Canada's preferred core measures are CPI-trim at 1.9% and CPI-median at 2.0%, so the entire 100bp gap between 3.0% headline and target is gasoline at +25.7% year on year, whereas euro-area core sits at 2.5% with services at 3.3%. A central bank whose core is at target holds; a central bank whose core is half a point above it hikes. The dated anchor is the 2026-10-28 Bank of Canada decision with a Monetary Policy Report, which lands one day before the 2026-10-29 ECB decision - the Canadian projection round therefore sets the tone for the cross and is the meeting at which the Canadian hike premium most plausibly bleeds out. The second anchor is the pair of December meetings, 2026-12-09 for Canada and 2026-12-17 for the ECB with projections, in that order again. Direction of travel: the differential travels from 0bp toward +25bp and possibly +50bp in the euro's favour while the market currently prices some Canadian tightening. That is a genuine Bullish, capped at 55 confidence by the -34.2bp funding drag and by the fact that two of Canada's six largest banks forecast a hike.",
+    "key_bilateral_metrics": [
+     "Differential path: 0bp now, +25bp after 2026-09-10, potentially +50bp if the ECB reaches 2.75% while the BoC holds - against a market pricing roughly 65% of a BoC hike by end-2026",
+     "BoC Q2 2026 Market Participants Survey median: 2.25% through January 2027, 2.50% only in March 2027 - a one-to-two-quarter wedge versus OIS",
+     "Core inflation differential: euro-area HICPX 2.5% with services 3.3% versus Canadian CPI-trim 1.9% and CPI-median 2.0% (operational average exactly 2.0%)",
+     "Canadian bank split: BMO, CIBC, RBC and TD at 2.25% through December; National Bank and Scotiabank at 2.50% in October and 2.75% in December",
+     "Six-month cost of a long EUR/CAD position at the observed roll: approximately 17bp, versus zero policy carry"
+    ],
+    "what_is_priced": "The euro curve prices the ECB path roughly correctly and arguably 15-25bp too hawkish at the terminal; the Canadian curve prices a 2026 hike the Bank's own surveyed counterparties do not expect until March 2027. Both are vulnerable to downward repricing, the Canadian one by more and seven weeks earlier at the 2026-10-28 Monetary Policy Report. That asymmetry is the edge and it is pair-bullish.",
+    "citations": [
+     4,
+     5,
+     11,
+     12,
+     13,
+     14,
+     22
+    ]
+   },
+   "horizon_split": "The split turns entirely on what is discounted. Tactically both central banks are priced at 97% for their September outcomes, so the mechanical widening of the differential from 0bp to +25bp on 10 September buys the pair nothing, while the 45bp Canadian long-end advantage and the -34.2bp funding cost run against it - Neutral. Strategically the relevant object is not the next meeting but the wedge between market pricing and each bank's own reaction function, and that wedge is materially larger on the Canadian side, with a dated test at the 2026-10-28 Monetary Policy Report - Bullish.",
+   "carry_analysis": {
+    "note": "Bilateral carry analysis for this factor is presented in full in the Bilateral Carry Analysis section above."
+   },
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 2,
+   "factor_name": "Inflation & Growth Dynamics",
+   "tactical_weight_default": 0.18,
+   "tactical_weight_applied": 0.18,
+   "strategic_weight_default": 0.1,
+   "strategic_weight_applied": 0.1,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 55,
+    "evidence_type": "macro_data",
+    "bilateral_analysis": "Both economies are running positive data-surprise sequences, which mutes the growth leg of this factor, but the inflation leg is genuinely divergent and it is the leg that transmits to the pair. Euro-area July HICP was 2.9% headline with HICPX core at 2.5% and services at 3.3%, the August flash consensus was 3.3% headline, and the already-released country prints ran hot - Spanish HICP 4.5% from 3.9%, French 2.7% from 2.4%, Belgian 3.97% from 3.56%. Canada's headline is comparable at 3.0% but its composition is the opposite: CPI-trim at 1.9% and CPI-median at 2.0% average exactly to target, CPI ex-gasoline has been pinned at 2.2% for three consecutive months, and gasoline at +25.7% year on year accounts for the entire overshoot. Wages complete the picture - Canadian wage growth decelerated to 2.8% from 3.3%, against euro-area services inflation still running at 3.3%. On activity the rearview favours Canada and the forward view does not: Canada printed 3.3% annualised in Q2 against a 2.5% Bank of Canada forecast with unemployment at a two-year low of 6.4%, but Statistics Canada's July advance estimate was 0.0% and that reading predates both the 22 August US duties and the 8 September Canadian counter-measures. The euro area grew 0.4% quarter on quarter with the German Ifo at 88.8 against an 87.2 forecast, the flash composite PMI at 52.1 with new orders at a 40-month high, and German manufacturing at 54.1. Net tactical read: a modest pair-bullish tilt on the inflation composition, held to 55 because Canada's activity momentum is the stronger of the two in the data already published.",
+    "key_bilateral_metrics": [
+     "Core inflation differential: euro-area HICPX 2.5% and services 3.3% versus Canadian CPI-trim 1.9% and CPI-median 2.0% - roughly +50bp of core in the euro's favour",
+     "Headline deceptively similar: euro area 2.9% July with an August flash consensus of 3.3%, Canada 3.0% July - but Canadian CPI ex-gasoline is 2.2% for a third month with gasoline at +25.7% y/y",
+     "Wage differential: Canadian wage growth 2.8% y/y (down from 3.3%) versus euro-area negotiated wages 2.1% in Q2 2026 - both soft, Canada decelerating faster from a higher base",
+     "Activity: Canada Q2 +3.3% annualised (80bp above the BoC's own call) with unemployment 6.4%, versus euro area +0.4% q/q with Ifo 88.8 against 87.2 forecast and flash composite PMI 52.1",
+     "Canada's July advance GDP estimate 0.0%, recorded before either tariff regime took effect"
+    ],
+    "what_is_priced": "The market has priced Canada's Q2 beat into roughly 65% of a 2026 Bank of Canada hike and priced the euro area's inflation run into a 97% ECB hike, so the good news is discounted on both sides. The unpriced content is composition: Canadian core is at target and euro-area core is not, which is what will separate the two reaction functions from here.",
+    "citations": [
+     1,
+     9,
+     14,
+     15,
+     17
+    ]
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 58,
+    "evidence_type": "macro_data",
+    "bilateral_analysis": "The strategic growth differential is the clearest macro divergence in the pair, and it opens rather than closes. The Bank of Canada's own July projection has Canadian GDP at just 0.7% for 2026 as a whole, which after a 3.3% annualised Q2 implies materially sub-trend second-half outcomes even before tariff drag is added; the July advance estimate of 0.0% is the first datapoint consistent with that path. Against it the euro area is stabilising at roughly 1.0% year on year with a multi-year domestic demand floor from German fiscal expansion - a EUR500bn infrastructure fund, defence at approximately 2.8% of GDP in 2026 rising toward 3.5% by 2029, total investment including special funds of EUR126.7bn up 10% on 2025 - which is already visible in German manufacturing at 54.1. Canada has no comparable offset and carries a household sector that cannot absorb tightening: debt to disposable income at 179.6%, mortgage delinquency balances up 32% year on year, and consumer insolvencies at their highest since 2009. On inflation both converge down, but from different compositions and to different policy conclusions. Canadian headline converges toward its 2.0% core as the gasoline base effect rolls off through Q4 and Q1, which removes the statistical basis for the market's Canadian hike pricing. Euro-area headline also decays as energy base effects approach, but from a core of 2.5% with services at 3.3%, so the ECB retains a reason to have tightened even as the terminal drifts. The transmission to the pair is through the reaction functions rather than through relative demand. Confidence 58 rather than higher because the euro area's own improvement is narrow - French Q2 GDP was 0.0% with a composite PMI at 48.8 and German services at 48.5.",
+    "key_bilateral_metrics": [
+     "Growth paths: BoC's own 2026 call 0.7% for Canada against euro-area GDP running 1.0% y/y - a differential that opens rather than closes over the horizon",
+     "Canada's July advance GDP 0.0%, before the 2026-08-22 US duties and the 2026-09-08 Canadian counter-measures; approximately 2 million Canadian jobs rely on goods exports to the US",
+     "Canadian household leverage: debt to disposable income 179.6%, mortgage delinquency balances +32% y/y, consumer insolvencies the highest since 2009",
+     "Euro-area fiscal floor: EUR500bn infrastructure fund, defence approximately 2.8% of GDP in 2026 to a planned 3.5% by 2029, total investment EUR126.7bn (+10% on 2025)",
+     "Narrowness caveat on the euro leg: French Q2 GDP 0.0% with composite PMI 48.8 and German services 48.5 against German manufacturing 54.1"
+    ],
+    "what_is_priced": "Consensus is extrapolating Canada's Q2 beat and treating the July 0.0% flash as noise, while marking euro-area growth as a stagnant 1.0%. We read it the other way: Canada's momentum is pre-tariff and about to be revised out, the euro area's is fiscally underwritten and broadening slowly. Neither curve has priced that reversal.",
+    "citations": [
+     1,
+     4,
+     11,
+     12,
+     15,
+     22
+    ]
+   },
+   "horizon_split": "The stance is Bullish on both horizons but the reason changes and confidence rises. Tactically the pair-bullish content is inflation composition - euro-area core at 2.5% against Canadian core at 2.0% - while Canadian activity data in hand is the stronger of the two, which caps confidence at 55. Strategically the activity comparison inverts, because Canada's published strength ends in June and the Bank of Canada's own 0.7% full-year call plus the July 0.0% flash define the second half, while the euro area has a dated fiscal floor. The mechanical inflection is the arrival of post-tariff Canadian activity data.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 3,
+   "factor_name": "Risk Appetite & Sentiment",
+   "tactical_weight_default": 0.1,
+   "tactical_weight_applied": 0.1,
+   "strategic_weight_default": 0.05,
+   "strategic_weight_applied": 0.04,
+   "weight_adjustment_reason": "EUR/CAD is the lowest-beta risk cross available in either dossier's complex - neither leg is a haven, both are mid-carry, and the two risk sensitivities very nearly cancel by construction. Holding a 0.05 weight on a factor whose bilateral netting is structurally near zero over six months overstates its information content; the released weight goes to Factor 5, where the bilateral asymmetry is genuine.",
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 55,
+    "evidence_type": "cross_asset",
+    "bilateral_analysis": "This is the pair in which the risk factor most nearly cancels, and Neutral is a conclusion rather than a default. Neither currency is a safe haven and neither is a pure risk proxy: the euro is a mid-carry non-haven that performs best in the risk-neutral zone where the dollar loses its precautionary bid, and the Canadian dollar carries a mild positive risk beta that the base dossier's own framework puts at roughly half the Antipodean sensitivity because the US economic linkage anchors it. The regime is unambiguously supportive of both: the VIX closed at 14.51 on 27 August, down 3.70 points on the month after touching a 2026 low of 14.2, US investment-grade spreads are 79bp and high yield 263bp with the latter 21bp tighter, the Euro Stoxx 50 set a record above 6,560 and the S&P 500 stands near 7,670 up roughly 16% year to date. The cross-check that matters is that both dossiers independently scored this factor Bullish tactically at the same 55 confidence for the same reasons, which is the definition of a cancelling bilateral. Two second-order asymmetries partially offset each other. The euro benefits from a falling broad dollar through the anti-dollar channel; the Canadian dollar benefits from the oil complex, with Brent back above $90 on 31 August. Pointing the other way, the TSX fell 1.02% on 31 August even as global indices held, a tariff-specific Canadian equity drag the euro area does not carry.",
+    "key_bilateral_metrics": [
+     "Both dossiers scored this factor Bullish tactically at identical 55 confidence - a structural cancellation rather than an absence of evidence",
+     "VIX 14.51 on 2026-08-27 (2026 low of 14.2 on 17 August); US IG OAS 79bp, HY OAS 263bp and 21bp tighter on the month",
+     "Equity leadership on both sides: Euro Stoxx 50 record above 6,560 (+13% YTD), S&P 500 near 7,670 (+16% YTD) - but the TSX fell 1.02% on 31 August on tariff exposure",
+     "Fed broad trade-weighted dollar 118.0628 on 2026-08-21, -2.1% on the month - anti-dollar channel open for the euro leg",
+     "EUR/CAD 60-day realised volatility approximately 3.31%, the lowest of any euro cross and of any Canadian cross - a low-beta pair by construction"
+    ],
+    "what_is_priced": "A benign risk regime is fully priced on both sides of the cross and the pricing is symmetric, which is why there is no directional signal here. The one thing that is not priced is that the tariff shock is Canadian-equity-specific rather than global, and that channel is small relative to a 3.3%-volatility cross.",
+    "citations": [
+     8,
+     21,
+     23,
+     25
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": "cross_asset",
+    "bilateral_analysis": "Over one to six months the risk factor becomes a distribution question rather than a level question, and for this specific cross the distribution is close to symmetric. A volatility shock from a 2026-low VIX would hurt the euro against the dollar, franc and yen, but the Canadian dollar is not one of those three - it is a mid-beta cyclical with a commodity leg, so a risk-off episode damages both legs of EUR/CAD rather than one. That symmetry is the whole finding. Two further considerations offset. Constructive for the euro leg: European equity leadership reflects earnings and fiscal stimulus rather than pure multiple expansion. Constructive for the Canadian leg: the AI capital-expenditure cycle shows no sign of stalling, and credit is tightening rather than widening. The one asymmetry worth naming is that the oil and risk channels have decoupled: the current oil strength is a supply constraint from a contested Strait of Hormuz, not a demand signal, so it raises Canadian revenue while suppressing the global growth Canadian exports serve - removing the Canadian dollar's usual risk beta and pushing the netting even closer to zero. Both dossiers independently reached Neutral strategically on this factor, at 55 and 50 confidence respectively.",
+    "key_bilateral_metrics": [
+     "Both dossiers reached Neutral strategically on this factor (EUR at 55 confidence, CAD at 50) - the bilateral netting is near zero on independent assessment",
+     "Neither currency is a haven: a risk-off episode rotates capital to USD, CHF and JPY, damaging both legs of EUR/CAD rather than one",
+     "Oil-risk decoupling: EIA sees approximately 0.6mb/d of Hormuz disruption persisting to end-2027, so oil strength is supply-driven and severs the Canadian dollar's usual equity beta",
+     "Credit and volatility priced for perfection on both sides: VIX at the 2026 low, IG 79bp, HY 263bp - one-sided distribution, symmetric pair impact",
+     "EUR/CAD is the lowest-drift, lowest-volatility cross in both complexes, which mechanically limits how much any risk-regime shift can move it"
+    ],
+    "what_is_priced": "Markets price continuation of the low-volatility, tight-credit regime for the full horizon and leave no premium for the two live tails. For this cross the pricing is irrelevant to direction because both legs sit on the same side of the risk trade, and the commodity content of any energy shock is scored in Factor 5 rather than here.",
+    "citations": [
+     11,
+     21,
+     24,
+     25
+    ]
+   },
+   "horizon_split": "Both horizons are Neutral and the confidence decays only slightly, from 55 to 50, because the cancellation is structural rather than circumstantial. Tactically the regime is supportive of both legs in almost identical measure, as the two dossiers' identical Bullish-55 readings confirm. Strategically the distribution of regimes is one-sided but its pair impact is not, because neither the euro nor the Canadian dollar is a haven and a risk-off damages both. Confidence falls the four points that honesty requires of any six-month regime assumption made from a 2026-low VIX.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 4,
+   "factor_name": "Flows & Positioning",
+   "tactical_weight_default": 0.1,
+   "tactical_weight_applied": 0.1,
+   "strategic_weight_default": 0.06,
+   "strategic_weight_applied": 0.06,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 55,
+    "evidence_type": "positioning",
+    "bilateral_analysis": "Speculators are short both legs, which would normally mute the pair signal - but the two shorts are not remotely comparable in crowding, and once they are normalised for market depth the netting is clearly pair-bearish. The euro non-commercial net short was -36,352 contracts at the 2026-08-25 report date against total open interest of 801,884, which is -4.5% of the market and roughly the 30th percentile of its trailing year, comfortably inside the euro's stated extremes of +200,000 and -100,000. The combined Canadian speculative short was -131,035 contracts at the same reference date against open interest of 329,544, which is -39.8% of the market on a net basis and 64.9% on gross shorts, far beyond the -80,000 threshold that currency has historically treated as extreme and at roughly the 12th percentile. Proportionally the Canadian short is close to nine times more crowded. Both are covering simultaneously and violently - the euro short shrank 22,736 contracts in the week to 25 August, a 38% cut, while the combined Canadian short shrank 65,515 contracts in the fortnight to the same date, a 33% cut - so the squeeze is bilateral, but a squeeze delivers more to the leg with more short to unwind relative to its float. Canadian dealers are net long 124,930 contracts and are the forced counterparty; they will not add. The one flow running the other way favours the euro: real money is structurally long the euro at +225,389 asset-manager contracts while Canadian asset managers are net short 58,943.",
+    "key_bilateral_metrics": [
+     "Normalised crowding: euro net specs -36,352 on 801,884 OI = -4.5% of the market; combined Canadian specs -131,035 on 329,544 OI = -39.8% net and 64.9% gross - roughly 9x more crowded on the Canadian leg",
+     "Simultaneous squeeze, unequal fuel: euro short cut 22,736 contracts (-38%) in the week to 2026-08-25; Canadian short cut 65,515 (-33%) in the fortnight to the same date",
+     "Percentiles: euro at roughly the 30th of its trailing year and inside its stated -100,000 extreme; Canada at roughly the 12th and far beyond its -80,000 extreme",
+     "Counterparty structure: Canadian dealers net long 124,930 contracts and unwilling to add; euro dealers net short 206,036 on far deeper open interest",
+     "Real-money offset favours the euro: euro asset managers long 225,389 contracts against Canadian asset managers short 58,943; and a record C$80.8bn of foreign purchases of Canadian government bonds in Q2 2026"
+    ],
+    "what_is_priced": "Both squeezes are partly spent and the market knows it, but the residual is asymmetric: 131,035 contracts of Canadian short against 329,544 of open interest is far more fuel than 36,352 against 801,884. Positioning is therefore a net headwind to a long EUR/CAD over four weeks, offset only by real money's structural euro length.",
+    "citations": [
+     19,
+     22
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 50,
+    "evidence_type": "positioning",
+    "bilateral_analysis": "Over one to six months the flow question becomes the stock question, and the stock still favours the Canadian dollar within this cross. Even after covering 65,515 contracts the combined Canadian speculative book remains short 131,035 contracts, or 39.8% of open interest - a structural overhang that resolves upward over multi-month windows far more often than it deepens, and one whose only natural counterparty is a dealer book already long 124,930 and disinclined to add. The euro's residual -36,352 is a genuine asymmetry too, and it sits in a currency whose policy rate is scheduled to rise, but at 4.5% of a market with 801,884 contracts of open interest it is a far smaller cushion in proportional terms. Two structural flow channels split the difference and roughly cancel. Against the euro: its share of allocated global reserves fell to 20.03% in 2026-Q1 from 20.38% in 2025-Q4 while the dollar's rose, so the reserve-diversification bid is running in reverse, and euro asset managers have trimmed 28,529 contracts of length since early July rather than adding. Against the Canadian dollar: Canadian open interest is down 9.5% from 364,104 on 11 August, so the market is disengaging from that currency rather than re-engaging, which weakens the very squeeze mechanics that make the position tradeable.",
+    "key_bilateral_metrics": [
+     "Residual stock: Canadian combined specs -131,035 (39.8% of 329,544 OI) versus euro specs -36,352 (4.5% of 801,884 OI) - the Canadian cushion is proportionally far larger",
+     "Canadian dealers net long 124,930 contracts, the structural counterparty, with no incremental appetite",
+     "Euro reserve share fell to 20.03% in 2026-Q1 from 20.38% in 2025-Q4 as the dollar's rose to 57.13% - the euro's slow structural bid is in reverse",
+     "Canadian open interest -9.5% from 364,104 on 2026-08-11 to 329,544 on 2026-08-25 - disengagement weakens the squeeze mechanism",
+     "Euro asset managers trimmed 28,529 contracts of length between 2026-07-07 and 2026-08-11 rather than adding"
+    ],
+    "what_is_priced": "Neither market has priced its short converting to a long. The pair-relevant point is proportional: the Canadian residual is a materially larger cushion under its currency than the euro's is under the euro, which is a persistent low-grade headwind to a long EUR/CAD independent of anything either central bank does.",
+    "citations": [
+     6,
+     19,
+     22
+    ]
+   },
+   "horizon_split": "Both horizons are Bearish with confidence falling from 55 to 50. Tactically the signal is flow - two simultaneous squeezes of which the Canadian one has roughly nine times more short per unit of open interest to unwind, which mechanically delivers more to the quote leg. Strategically the signal is stock, and the same proportional asymmetry persists but with two new offsets: the euro's reserve share is falling while Canadian open interest is shrinking, so the Canadian cushion is real but its squeeze mechanics are thinning. Confidence falls because positioning is a weeks-long driver, not a quarters-long one.",
+   "carry_analysis": null,
+   "contrarian_analysis": {
+    "tactical": {
+     "combined_positioning_signal": "Both legs are net short, so the naive pair signal is muted - but normalising for depth reverses that conclusion: the Canadian short is -39.8% of its open interest against the euro's -4.5%, so a market-wide short-covering impulse mechanically lifts the Canadian dollar more than the euro and pushes EUR/CAD lower. The implied pair position is therefore modestly short EUR/CAD, not flat.",
+     "unwind_trigger": "A hawkish Bank of Canada tone at the press conference following the 2026-09-02 decision, a Canadian labour force survey on 2026-09-04 that beats a lowered +15.8k bar, or Canadian CPI on 2026-09-14 showing CPI-trim breaking above 2.0% and validating the market's hike pricing; running the other way, a euro-area flash HICP undershoot would force euro shorts back on and lift the pair.",
+     "historical_analogue": "The Canadian speculative short reached comparable extremes during the first tariff cycle in early 2025 and took roughly five months to normalise, trading a wide range rather than trending; euro squeezes are slower and shallower by construction because 800,000 contracts of open interest absorb enormous flow before price moves, which is why euro unwinds deliver percentage-point moves over months rather than gap moves over days.",
+     "contrarian_case": "The contrarian case against being long this pair on positioning is simply that the crowd is more wrong about the Canadian dollar than about the euro, and it has been correcting that error at twice the euro's pace. The counter-contrarian case - the one that supports a long - is that a third of the Canadian fuel has already burned, that it burned in the very week 50% Section 338 duties took effect, and that a short which capitulates into bad news rather than away from it is being stopped out rather than reconsidered, so the remaining squeeze potential is diminished and may not extend."
+    },
+    "strategic": {
+     "combined_positioning_signal": "The residual stock leaves the implied pair position short EUR/CAD: 131,035 contracts of Canadian short at 39.8% of open interest against 36,352 of euro short at 4.5%. Real money splits the other way, with euro asset managers long 225,389 and Canadian asset managers short 58,943, which is the single strongest positioning argument for the pair rising over six months.",
+     "unwind_trigger": "The dated circuit-breaker for the Canadian short is the 2026-11-03 US midterms, the only scheduled event capable of restarting trade negotiations that Ottawa itself expects not to resume before then. The dated trigger for the euro short converting to a long is delivery of a second ECB hike at the 2026-12-17 projections round.",
+     "historical_analogue": "Both currencies have precedent for slow, grinding squeezes rather than violent ones - Canada's because dealers absorb the position, the euro's because open interest is the deepest in FX. Canadian squeezes historically resolve in a wide range without a trend while euro squeezes resolve as a three-to-five-percent drift, which argues that positioning is a range-widener for this cross rather than a direction.",
+     "contrarian_case": "The genuine contrarian observation is that the crowd's Canadian short is defensible on fundamentals - a currency facing 50% tariffs with no expiry, a central bank pinned at 2.25% and a January escalation date deserves to be shorted - so its persistence is conviction rather than error, and conviction shorts do not squeeze on schedule. Set against that, the euro's own demand channels are weakening simultaneously: reserve share at 20.03% and falling, asset managers trimming length. If both currencies' marginal buyers are scarce, positioning stops being a driver for this cross at all, which is why confidence is only 50."
+    }
+   },
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 5,
+   "factor_name": "External Balance & Terms of Trade",
+   "tactical_weight_default": 0.06,
+   "tactical_weight_applied": 0.09,
+   "strategic_weight_default": 0.16,
+   "strategic_weight_applied": 0.19,
+   "weight_adjustment_reason": "EUR/CAD is a net-energy-importer versus net-energy-exporter cross with a live supply shock running through it - an effectively closed Strait of Hormuz, TTF above EUR70/MWh and Brent above USD90 - and this is the one factor where the two legs' exposures are not merely different but opposite in sign. It is also the only factor on which both dossiers independently reached a high-confidence directional view pointing the same way for this pair. Weight taken from Factor 10, reduced for a non-USD cross, and from Factor 3, whose bilateral netting is structurally near zero.",
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 60,
+    "evidence_type": [
+     "trade_balance",
+     "cross_asset"
+    ],
+    "bilateral_analysis": "This factor is the pair's most sharply opposed bilateral, and over four weeks it runs against the euro. The euro area is the world's largest net energy importer and is buying into a supply shock: Dutch TTF front-month topped EUR70/MWh on 31 August, the first time since January 2023, EU storage was only 62.99% full at end of gas day 24 August, and the Strait of Hormuz - normally carrying almost a fifth of global LNG trade - is effectively closed. Canada sits on the other side of every one of those sentences. It posted a Q2 current-account surplus of C$8.8bn, its first since 2022 and largest since 2005, against a C$3.5bn consensus; June goods exports were a record C$77.5bn on a fifth consecutive monthly increase totalling +22.8%; and critically, energy, potash, fish and critical minerals were explicitly carved out of the US Section 338 duties, so Canada's largest export category trades on world prices rather than bilateral politics. Brent at $90.135 and WTI at $85.446 on 31 August are therefore a direct revenue transfer to the quote currency and a direct tax on the base. The euro area's own flow data has been beating, which is why this is a 60-confidence rather than a 70-confidence read over four weeks, and Canada's 2026-09-03 trade balance carries a lowered C$3.2bn consensus that predates the tariffs and may beat. But the price signal that determines the next quarter of flows is unambiguous and it is the signal that leads. The one structural offset favouring the euro is bilateral and small: the euro area runs a $16.9bn goods surplus with Canada on 2024 IMF DOTS.",
+    "key_bilateral_metrics": [
+     "Bilateral goods trade (IMF DOTS, 2024): EUR exports to CAD $44.7bn against imports of $27.8bn, a net euro-area surplus of $16.9bn - the only structurally euro-supportive element of this factor",
+     "Opposite energy exposure: TTF above EUR70/MWh (31 August, highest since January 2023) with EU storage 62.99% on 24 August versus Brent $90.135 and WTI $85.446 on 31 August accruing to Canada",
+     "Canada Q2 current account +C$8.8bn against a C$3.5bn consensus - first surplus since 2022, largest since 2005; June goods exports a record C$77.5bn",
+     "Energy, potash, fish and critical minerals explicitly exempt from the US Section 338 tariffs - Canada's largest export category is untouched by the trade war",
+     "Euro-area offset: June current account +EUR35.1bn against a EUR26.8bn forecast, the month's cleanest positive surprise on the base leg"
+    ],
+    "what_is_priced": "The forward gas curve prices a difficult but manageable European winter and the pair carries no visible energy discount. Canada's 2026-09-03 trade consensus of C$3.2bn, below the C$3.86bn prior, prices immediate tariff drag on data that predates the tariffs entirely. Both mispricings point the same way for EUR/CAD: bearish.",
+    "citations": [
+     6,
+     7,
+     8,
+     16,
+     18,
+     24,
+     26,
+     29
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 66,
+    "evidence_type": [
+     "trade_balance",
+     "cross_asset"
+    ],
+    "bilateral_analysis": "At a 0.19 strategic weight this is the largest single force in the pair and the highest-conviction negative in the analysis, and the two balance-of-payments trajectories are moving in opposite directions with dated tests ahead. The euro area's twelve-month current-account surplus fell from EUR305bn and 2.0% of GDP to EUR276bn and 1.7% over the year to June 2026, with the goods surplus falling from EUR342bn to EUR282bn - a EUR60bn deterioration that is the import bill, arriving in a period when energy HICP ran at +10.0% year on year. Canada's moved the other way and by more in proportional terms, from a Q1 deficit of C$8.3bn to a Q2 surplus of C$8.8bn, roughly 1.1% of quarterly GDP, reversing a decade of persistent small deficits and achieved on goods rather than one-off income. Looking forward the constraint tightens on the base and loosens on the quote. Europe must buy scarce LNG at the margin all autumn against 62.99% August storage and in competition with Asia, and Goldman Sachs has said explicitly that current prices will not be enough for Europe to manage storage through winter and that December TTF may need to exceed EUR100/MWh. The EIA projects Brent averaging $87/bbl for 2026 with approximately 0.6mb/d of Hormuz disruption persisting to end-2027 - a multi-quarter, supply-side revenue transfer to non-Gulf producers of which Canada is one and the euro area is a victim. Two genuine offsets keep this at 66 rather than higher: the euro area runs a $16.9bn bilateral goods surplus with Canada, and the WCS-WTI heavy differential at roughly $12/bbl for 2026 caps Canada's realisation of any Brent rally.",
+    "key_bilateral_metrics": [
+     "Diverging current accounts: euro area from EUR305bn (2.0% of GDP) to EUR276bn (1.7%) over twelve months with the goods surplus down EUR342bn to EUR282bn, against Canada swinging from -C$8.3bn in Q1 to +C$8.8bn in Q2 (approximately 1.1% of quarterly GDP)",
+     "Forward energy path: Goldman Sachs flags December TTF possibly needing to exceed EUR100/MWh against 62.99% EU storage; EIA sees Brent averaging $87/bbl in 2026 with ~0.6mb/d of Hormuz disruption to end-2027",
+     "Bilateral goods balance (IMF DOTS 2024): EUR net surplus of $16.9bn versus Canada - euro-supportive, but roughly one twentieth of the annual euro-area goods-surplus deterioration",
+     "Canadian export diversification: US share of Canadian exports approximately 70% in June 2026, down from materially higher 2024-2025 levels, with the EU a plausible destination - mildly pair-bearish over time",
+     "Canadian offset: WCS-WTI differential approximately $12/bbl for 2026 and $13/bbl from 2027, capping Canada's realisation of a Brent rally"
+    ],
+    "what_is_priced": "The euro trades with no discount for a winter energy squeeze and the market reads Canada's tariff headline while ignoring the energy carve-out that leaves 5.2%-of-exports exposure and the entire commodity complex untouched. Both legs are mispriced in the same direction. This is the clearest identifiable edge in the pair and it is pair-bearish.",
+    "citations": [
+     6,
+     7,
+     8,
+     16,
+     18,
+     20,
+     24,
+     26,
+     29
+    ]
+   },
+   "horizon_split": "The stance is Bearish on both horizons with confidence rising from 60 to 66, because the mechanism is cumulative and needs time to operate. Tactically the euro area's own flow prints have been beating and Canada's next trade release faces a lowered bar, so the headline noise partially offsets the price signal. Strategically the arithmetic dominates: an import bill is a TTF price multiplied by winter volumes and an export receipt is a Brent price multiplied by shipped barrels, and both run in the pair's bearish direction for two quarters. The dated inflection is the autumn injection season - whether Europe enters winter near 75% or 85% storage.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": {
+    "base_commodity_profile": "The euro area is the world's largest net energy importer and the critical commodity is Dutch TTF natural gas, not oil. TTF topped EUR70/MWh on 31 August 2026, the highest since January 2023, EU storage was 62.99% full on 24 August, and energy contributed +0.94pp of the 2.9% July HICP at +10.0% year on year. Direction rules: oil up is negative for EUR; TTF and LNG up is strongly negative for EUR. The euro area has no offsetting commodity export of comparable scale.",
+    "quote_commodity_profile": "Canada is a net energy exporter with crude as the dominant earner - Brent $90.135 and WTI $85.446 on 31 August 2026 - plus potash, aluminium, copper and fish. Direction rule: oil up is strongly positive for CAD. Energy, potash, fish and critical minerals were explicitly carved out of the US Section 338 tariff regime, so Canada's commodity complex trades on world prices rather than bilateral politics, and the Bank of Canada's own July deliberations recorded aluminium and copper benefiting from global supply shortages.",
+    "net_effect_calculation": "Apply the framework's direction rules leg by leg. Oil up: EUR gets a single negative as a large net importer, CAD gets a double positive as an exporter - net effect is the pair FALLS, bearish EUR/CAD. TTF gas up: EUR gets a double negative because gas is its critical import and the 2022 precedent established the transmission, while CAD is at worst neutral and at the margin a beneficiary as a competing hydrocarbon producer - net effect is the pair FALLS, bearish EUR/CAD, and by more than the oil channel alone. Both live commodity channels therefore push the same direction, which is unusual: most commodity crosses have at least one offsetting leg. The pair carries a compounded bearish commodity exposure with no internal hedge, and the only structural offset in the entire factor is the euro area's $16.9bn bilateral goods surplus with Canada, which is a level rather than a rate of change and is roughly one twentieth the size of the annual deterioration in the euro area's aggregate goods surplus.",
+    "scenario_oil_up_10pct": "Clearly bearish EUR/CAD. Canada's goods surplus and current account extend from an already twenty-one-year high while the euro area's import bill and headline HICP both worsen. Net: the pair falls, and this is the strongest single-commodity signal in the analysis. In level terms a 10% Brent move maps to roughly 150-200 pips of downside on this cross given the pair's 55-pip ATR and the size of the flow channel involved.",
+    "scenario_oil_down_10pct": "Bullish EUR/CAD, but less symmetrically than the up-case is bearish. Canada loses revenue directly and its headline CPI converges down toward a 2.0% core, removing the statistical basis for the market's Bank of Canada hike pricing - a double negative for the quote leg. The euro area gains on the import bill but loses the inflation impulse underpinning the ECB cycle. Because the Canadian effect hits both terms of trade and the policy path while the euro effect partially self-cancels, a 10% oil decline is net pair-bullish and is the single cleanest confirmation of the strategic thesis.",
+    "dominant_commodity_driver": "Dutch TTF natural gas, with Brent a close and correlated second. TTF is the asymmetric driver because it is the euro area's critical import while Canada is not a material LNG supplier to Europe, so TTF strength is a one-sided EUR/CAD negative that Brent only partially duplicates. The single highest-information variable for this factor is the EU gas storage fill level entering November against the 62.99% recorded on 24 August."
+   },
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 6,
+   "factor_name": "Guidance & Credibility",
+   "tactical_weight_default": 0.07,
+   "tactical_weight_applied": 0.07,
+   "strategic_weight_default": 0.12,
+   "strategic_weight_applied": 0.12,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 56,
+    "evidence_type": "policy_comms",
+    "bilateral_analysis": "The two central banks are communicating in opposite registers and that divergence is the pair-relevant fact. The ECB's Account of the 22-23 July meeting, published 27 August, twice described the hold as a pause, stated explicitly that it was important not to suggest the tightening cycle had ended, and judged that a further increase would likely be necessary unless the inflation outlook improved significantly - optionality-preserving hawkishness that the market received exactly as intended, moving September pricing to roughly 97% within days. Executive Board member Schnabel has been delivering what BNY characterises as extremely hawkish messaging. The Bank of Canada is doing the reverse on purpose: its July statement judged the current rate appropriate while adding that uncertainty is still high, and the published Summary of Deliberations records a Council that agreed to look through the direct effects of higher global oil prices because there was limited evidence of spillover, while simultaneously agreeing to reiterate that it would not let higher oil prices lead to persistent inflation - a hawkish commitment device bolted onto a dovish assessment. That Summary also discloses an explicit range of views among Governing Council members on the sustainability of the rebound, which reduces the informational value of any single meeting's tone. Sequence matters and it favours the euro inside the window: the Bank of Canada decided on 2026-09-02 with nothing to say, and the ECB follows on 2026-09-10 with a full projections round at which upward revisions to the June baseline of 3.0% for 2026 and 2.3% for 2027 are likely given energy at +10.0%.",
+    "key_bilateral_metrics": [
+     "ECB July Account described the hold as a pause TWICE and judged a further hike likely absent a significant improvement - transmitted to roughly 97% September pricing",
+     "BoC July Summary of Deliberations: agreed to look through direct oil effects on limited spillover evidence while agreeing to reiterate it would not let oil become persistent inflation - deliberately two-sided",
+     "BoC Summary discloses a range of views among Governing Council members on the sustainability of the rebound; the Bank publishes no formal vote tally",
+     "Communication asymmetry inside the window: ECB 2026-09-10 carries a projections round; the BoC's 2026-09-02 decision carried none and 35 of 35 economists forecast a hold",
+     "Both institutions have clean delivery records, so neither's guidance is being faded - the divergence is in content, not credibility"
+    ],
+    "what_is_priced": "The ECB's guidance is fully monetised at 97% for September, so there is no gap left to arbitrage at that meeting, and the Bank of Canada's ambiguity is priced as ambiguity. The unpriced content is the ECB's projection revisions and the tone of the Canadian press conference, neither of which carries an event premium anywhere in this cross's flat volatility surface.",
+    "citations": [
+     2,
+     4,
+     10,
+     11,
+     12
+    ]
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 52,
+    "evidence_type": "policy_comms",
+    "bilateral_analysis": "Strategically both central banks face a downward repricing of what the market has extrapolated from their guidance, and the pair question is which repricing is larger and which arrives first. On the euro side the market prices a 2.75% terminal by early 2027 against the ECB's own negotiated wage tracker at 2.1% for Q2 2026 - down from 3.2% in 2025 - and its own June projections showing headline inflation at 2.0% in 2028; the base dossier's judgement is a 15-25bp downward drift in the terminal, which is euro-negative. On the Canadian side the market prices roughly 65% of a hike by end-2026 against the Bank's own Q2 2026 Market Participants Survey median of 2.25% through January 2027 and 2.50% only in March 2027, with CPI-trim at 1.9%, CPI-median at 2.0% and wage growth decelerating to 2.8% from 3.3%. Both wedges exist; the Canadian one is larger in probability terms and, decisively, it is tested earlier. The Bank of Canada publishes a Monetary Policy Report on 2026-10-28 at which it must simultaneously mark down 2026 growth for tariff drag and mark down inflation as the gasoline base effect rolls off. The ECB's equivalent test is the 2026-12-17 projections round, seven weeks later. In both October and December the Canadian decision precedes the euro-area one by a single day and eight days respectively, so Canada sets the tone for the cross on each occasion.",
+    "key_bilateral_metrics": [
+     "Two wedges, unequal size: market prices roughly 65% of a 2026 BoC hike against a Bank survey median of 2.50% in March 2027, versus a euro terminal of 2.75% against an ECB wage tracker at 2.1% and its own 2.0% 2028 inflation projection",
+     "Sequencing: BoC 2026-10-28 with a Monetary Policy Report precedes the ECB's 2026-10-29 decision by one day; BoC 2026-12-09 precedes the ECB's 2026-12-17 projections round by eight days",
+     "The ECB's own downward test is 2026-12-17, seven weeks after Canada's 2026-10-28",
+     "Supporting Canadian evidence for the fade: CPI-trim 1.9%, CPI-median 2.0%, wage growth 2.8% from 3.3%, household debt to disposable income 179.6%",
+     "Counterweight: National Bank and Scotiabank forecast 2.75% by December and 47% of the Reuters panel expects at least one hike by end-Q2 2027"
+    ],
+    "what_is_priced": "Each curve prices its own central bank's hawkishness being sustained, and both are extrapolating past the respective reaction functions. The pair edge is not that one bank is more credible but that the Canadian wedge is wider and its scheduled test at the 2026-10-28 Monetary Policy Report arrives seven weeks before the euro's at the 2026-12-17 projections round.",
+    "citations": [
+     2,
+     4,
+     5,
+     11,
+     12,
+     13,
+     22
+    ]
+   },
+   "horizon_split": "Both horizons are Bullish with confidence falling from 56 to 52. Tactically the content of the guidance differs sharply - one bank explicitly signalling more tightening with a projections round on 2026-09-10, the other pre-committed to ambiguity with its September date already behind it. Strategically the content matters less than the size and timing of the two downward repricings the market has coming, and while both exist the Canadian one is wider and is tested at the 2026-10-28 Monetary Policy Report, seven weeks before the euro's test on 2026-12-17.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 7,
+   "factor_name": "Event Risk & Geopolitics",
+   "tactical_weight_default": 0.05,
+   "tactical_weight_applied": 0.06,
+   "strategic_weight_default": 0.05,
+   "strategic_weight_applied": 0.07,
+   "weight_adjustment_reason": "The quote currency carries the most severe and most one-sided bilateral trade rupture in the G10 - 50% Section 338 duties with no expiry date, no negotiating calendar and a dated escalation on 2027-01-01 - while the base currency has just retired its equivalent risk at a settled 15% framework. An event asymmetry of that size, with dated triggers inside both horizons and no premium anywhere in the pair's volatility surface, is worth more than the default weight. Weight taken from Factor 10.",
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 55,
+    "evidence_type": "geopolitics",
+    "bilateral_analysis": "The event calendar is asymmetric and the asymmetry favours the pair rising, though both legs carry live risk. On the quote side, the United States imposed 50% duties under Section 338 of the Tariff Act of 1930 on approximately US$20bn of Canadian goods across 554 tariff lines on 2026-08-22 - the first presidential use of that authority since 1949, applied regardless of USMCA preference and with no expiry date - and talks collapsed within hours of an expected breakthrough, with USTR confirming no new talks are planned. Canada retaliates on 2026-09-08 on approximately US$20bn of US goods at 15-50%, and the product-level list was unpublished at the valuation date, so the market cannot have priced its composition; Carney called the step reluctant precisely because it raises Canadian costs, and dollar-for-dollar retaliation by an economy one tenth the size is proportionally heavier on Canada. On the base side the euro area has retired its equivalent: the EU-US 15% reciprocal framework took effect 1 July 2026, autos were cut from 27.5% to 15% retroactive to 1 August, and the Commission tabled the EU-side regulations on 28 August. What keeps this at 55 rather than higher is that the euro leg has its own live theatres - an escalating Gulf conflict that reached a claimed US drone shoot-down over the Strait of Hormuz and an attack on a UAE air base on 31 August, and a French 2027 budget process with Fitch's 28 August A+ affirmation carrying an explicit downgrade warning.",
+    "key_bilateral_metrics": [
+     "Quote-leg tariff regime: 50% Section 338 duties on approximately US$20bn of Canadian goods across 554 lines from 2026-08-22, no expiry, overriding USMCA; USTR confirms no new talks planned",
+     "Dated quote-leg event inside the window: Canadian retaliation on approximately US$20bn of US goods at 15-50% effective 2026-09-08, with the product list unpublished at the valuation date",
+     "Base-leg risk retired: EU-US 15% reciprocal framework live from 1 July 2026, autos cut 27.5% to 15% retroactive to 1 August, EU-side regulations tabled 28 August",
+     "Base-leg live risks: 31 August claimed IRGC downing of a US MQ-9 over the Strait of Hormuz and an attack on a UAE air base; French 2027 budget with Fitch's A+ affirmation carrying an explicit deficit warning and OAT-Bund at 83.6bp",
+     "No premium in the cross: EUR/CAD ATM implied volatility in clean contango at 3.781% (38.6d), 3.949% (94.7d) and 4.058% (185.7d) with no near-dated kink despite dated events in both legs"
+    ],
+    "what_is_priced": "The pair's volatility surface prices essentially no event risk in either leg - contango with no near-dated kink into the 2026-09-08 Canadian retaliation and the 2026-09-10 ECB projections round. The quote leg's tariff headline has been repriced in spot; its unpublished sector composition and the euro leg's Gulf escalation have not.",
+    "citations": [
+     7,
+     20,
+     21,
+     26
+    ]
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 58,
+    "evidence_type": "geopolitics",
+    "bilateral_analysis": "Strategically the quote leg's event risk is not a series of dates but a structural condition with no termination mechanism, and that is what makes this factor pair-bullish over one to six months. Section 338 permits proclamation-only tariffs with no prior investigation and no time limit, so unlike the IEEPA duties struck down in February 2026 these remain until a future presidential proclamation removes them; there is no statutory clock forcing anyone back to the table. Ottawa's own assessment is that no substantive talks resume before the 2026-11-03 midterms, Carney told premiers that industry support would remain in place beyond the life of the current US administration, and one premier put the planning horizon at two years. The escalation is already announced and dated: US tariffs on Canadian cars, trucks, automotive parts and steel rise to 50% on 2027-01-01, striking the very sector whose 27.0% export surge drove Canada's Q2 growth. The USMCA architecture that would normally constrain this was dismantled when the mandatory six-year review was triggered on 2026-07-01, with US-Mexico bilateral talks proceeding on a separate track and Canada absent from it. The base leg's structural event risk is real but smaller and partly self-cancelling: a Gulf escalation is euro-negative through gas and terms of trade, but a durable ceasefire and Hormuz reopening would be euro-positive on terms of trade while simultaneously removing Canada's oil revenue - so the Gulf branch is genuinely two-sided for this cross in a way the tariff branch is not. What remains one-sidedly euro-negative is France.",
+    "key_bilateral_metrics": [
+     "Section 338 carries no expiry and no statutory process; duties persist until a presidential proclamation removes them, and the last prior use was 1949",
+     "Dated escalation: US tariffs on Canadian cars, trucks, auto parts and steel rise to 50% on 2027-01-01, striking the sector whose 27.0% export surge drove Canada's Q2 GDP",
+     "Only circuit-breaker inside the horizon is the 2026-11-03 US midterms; Ottawa expects no substantive talks before it and is designing support beyond the life of the current administration",
+     "USMCA six-year review triggered 2026-07-01 with US-Mexico talks on a separate track and Canada absent; approximately 2 million Canadian jobs rely on goods exports to the US",
+     "Base-leg counterweights: the Gulf branch is two-sided for this cross (escalation hurts EUR via gas, de-escalation hurts CAD via oil), while French 2027 budget risk is one-sidedly euro-negative at a benign 83.6bp OAT-Bund"
+    ],
+    "what_is_priced": "The market trades the quote leg's tariff regime as a negotiation having a bad quarter rather than as a structural condition with a two-year planning horizon and a dated January escalation, and it prices French political risk at 83.6bp. Neither is priced as asymmetric anywhere in this cross's flat, contango volatility surface.",
+    "citations": [
+     7,
+     20,
+     21,
+     26
+    ]
+   },
+   "horizon_split": "Both horizons are Bullish with confidence rising from 55 to 58, because duration rather than magnitude is what makes the quote leg's event risk decisive. Tactically the binding uncertainty is the unpublished composition of the 2026-09-08 Canadian retaliation list, a bounded question resolved within days, and it sits alongside a genuinely escalating Gulf conflict that damages the base leg. Strategically the quote leg's regime has no termination mechanism, only a dated escalation on 2027-01-01 and a single indirect circuit-breaker at the 2026-11-03 midterms, while the base leg's largest geopolitical exposure becomes two-sided for this cross because a Hormuz reopening would hurt Canada as much as it helps Europe.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 8,
+   "factor_name": "Fiscal & Sovereign Risk",
+   "tactical_weight_default": 0.04,
+   "tactical_weight_applied": 0.04,
+   "strategic_weight_default": 0.07,
+   "strategic_weight_applied": 0.07,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 55,
+    "evidence_type": [
+     "rates",
+     "cross_asset"
+    ],
+    "bilateral_analysis": "Neither sovereign is generating a tradeable signal over four weeks and the differential, while real, is not moving. Canada is rated AAA by S&P, Aaa by Moody's and AAA by DBRS with AA+ from Fitch, one of only two AAA-rated G7 sovereigns; its most recent fiscal print improved, with the budget balance at +0.99 against a -0.31 prior and the year-on-year measure at -0.37 from -1.36, and the 2025-26 deficit was revised down to C$66.9bn. No rating action is scheduled and the auction backdrop is the opposite of stressed: a record C$80.8bn of foreign purchases of Canadian government bonds in Q2 2026. The euro area has no single sovereign, so the comparison must be made member by member, and the picture there is contained rather than benign - OAT-Bund at 83.6bp on 21 August with the French 10-year at 4.08%, the 28 August 10-year BTP auction clearing at 4.10% for roughly 81-85bp over the Bund, and all auctions across the bloc clearing normally with yields rising in line with the ECB's cycle rather than with credit concern. The historical pattern has reversed: Italy is no longer the fragility trade after seven upgrades culminating in Moody's Baa2, and France is, with Fitch affirming A+ stable on 28 August while explicitly warning that widening deficits amid political uncertainty could trigger a future downgrade. Germany is expanding fiscally from a AAA base without spread consequence.",
+    "key_bilateral_metrics": [
+     "Canada AAA (S&P), Aaa (Moody's), AAA (DBRS), AA+ (Fitch) - one of two AAA-rated G7 sovereigns; no rating action scheduled",
+     "Canadian fiscal trend improving: budget balance +0.99 against a -0.31 prior, year-on-year -0.37 from -1.36, 2025-26 deficit revised down to C$66.9bn",
+     "Euro-area spreads contained but not benign: OAT-Bund 83.6bp on 2026-08-21, BTP-Bund approximately 81-85bp from the 28 August auction clearing at 4.10%",
+     "Fitch affirmed France A+ stable on 2026-08-28 with an explicit warning on widening deficits and political uncertainty; Italy re-rated to Baa2 after seven upgrades",
+     "Record C$80.8bn of foreign purchases of Canadian government bonds in Q2 2026 - no supply indigestion on the quote leg"
+    ],
+    "what_is_priced": "The market prices Canadian sovereign risk as a non-issue and French risk at 83.6bp, which is elevated but orderly and far from any Transmission Protection Instrument consideration. Neither is expected to move materially inside four weeks and there is no identifiable mispricing at this horizon.",
+    "citations": [
+     11,
+     22,
+     23,
+     27
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 50,
+    "evidence_type": [
+     "rates",
+     "cross_asset"
+    ],
+    "bilateral_analysis": "Over one to six months the sovereign comparison becomes a genuine if modest relative-value advantage for the quote leg, which makes this factor mildly pair-bearish. Canada retains the lowest net debt-to-GDP ratio in the G7 with a federal ratio projected above 43% by 2027-28 before stabilising, a deficit revised downward rather than upward, and record foreign demand for its curve that funds the capital account without requiring currency depreciation to clear it; the long end is orderly at 4.15% on the 30-year and 4.02% on the 20-year, a materially smaller term-premium penalty than the US 30-year at 5.19% or the UK 10-year at 5.14%. The euro area cannot present a single comparable balance sheet. Its core is expanding heavily - a 2026 federal budget with new borrowing reported above EUR180bn, a EUR500bn infrastructure special fund and a debt-brake exemption for defence - which is growth-positive and term-premium-positive but not sovereign-quality-positive, and its second-largest member is the bloc's acknowledged fragility trade heading into a 2027 budget that must pass a parliament unable to pass structural reform. That French tail is fat and one-sided, and an OAT-Bund move beyond 110-120bp during the autumn budget process would be worth one to two percent on the euro through the fragmentation channel. Against the pair-bearish read, Canada has an uncapped and unbudgeted tariff-support commitment explicitly designed to run beyond the life of the current US administration, and provincial fiscal dynamics diverge sharply.",
+    "key_bilateral_metrics": [
+     "Canada holds the lowest net debt-to-GDP in the G7 with the federal ratio projected above 43% by 2027-28 before stabilising; long end orderly at 4.15% (30y) and 4.02% (20y)",
+     "Euro area has no single sovereign: Germany AAA borrowing above EUR180bn on the adopted budget plus a EUR500bn infrastructure fund, against France at A+ with a Fitch downgrade warning",
+     "The euro-area left tail is located in Paris, not Rome: OAT-Bund at 83.6bp into a 2027 budget process versus BTP-Bund at roughly 81-85bp after seven Italian upgrades",
+     "Quote-leg offset: an uncapped, unbudgeted Canadian tariff-support package committed for as long as it takes and beyond the life of the current US administration",
+     "Neither dossier carries a sovereign CDS quote for either leg - documented gap, cash spreads and ratings used as substitutes"
+    ],
+    "what_is_priced": "Canada is rewarded for fiscal discipline in its bond market and not in its currency, while French political risk is priced at a benign 83.6bp for a parliament that has not passed structural reform. Both disconnects point the same, mildly pair-bearish, way - but the Canadian tariff-support commitment is unbudgeted and could erase the advantage without warning.",
+    "citations": [
+     11,
+     20,
+     22,
+     23,
+     26,
+     27
+    ]
+   },
+   "horizon_split": "The stance moves from Neutral to Bearish because sovereign variables do not move in four weeks but do differentiate over six months. Tactically there is no dated fiscal event in either leg and both curves are clearing normally, so the differential is a background condition rather than a signal. Strategically Canada's lowest-in-G7 net debt position, downward-revised deficit and record foreign sovereign demand constitute a genuine relative advantage against a euro area whose second-largest member carries a fat, one-sided budget tail - mildly pair-bearish, at only 50 confidence because Canada's own tariff-support commitment is uncapped.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 9,
+   "factor_name": "Market Structure & Volatility",
+   "tactical_weight_default": 0.05,
+   "tactical_weight_applied": 0.05,
+   "strategic_weight_default": 0.03,
+   "strategic_weight_applied": 0.03,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": "pair_price_action",
+    "bilateral_analysis": "This pass is deliberately not given the pair's chart, so the honest tactical stance on the only factor for which the chart is legitimate evidence is Neutral, and the confidence is set at 50 to reflect that the directional component of this factor is simply unavailable rather than balanced. What the gated payload does supply is the volatility surface, and it is informative. At-the-money implied volatility runs 3.781% at 38.6 days, 3.949% at 94.7 days and 4.058% at 185.7 days - clean contango with no near-dated kink whatsoever, despite the 2026-09-10 ECB projections round sitting inside the front tenor and the 2026-10-28 Bank of Canada Monetary Policy Report inside the second. A term structure that rises monotonically into the densest part of a two-central-bank calendar is the signature of a market pricing no event premium at all. Two provenance caveats are material. First, EUR/CAD has no listed option, so the figure is a triangle realised-correlation estimate at an implied correlation of 0.7331, not a quote; the payload's own back-check against direct Eurex quotes found the method understating by 8.7% to 17.8% and by a 14.4% median across seventeen pairs, so 3.949% is a floor. Second, no risk reversal or butterfly is available for this cross, so the skew is a documented gap and no directional inference is drawn from it.",
+    "key_bilateral_metrics": [
+     "EUR/CAD ATM implied volatility: 3.781% at 38.6 days, 3.949% at 94.7 days, 4.058% at 185.7 days - clean contango, no event kink (observed 2026-08-31)",
+     "The 3.949% three-month figure is an ESTIMATE from a triangle realised-correlation identity at implied correlation 0.7331, not a quote; the payload's own back-check puts the method 8.7-17.8% low, so treat it as a floor",
+     "Pair 60-day realised volatility approximately 3.31% in both dossiers' cross tables - the lowest of any euro cross and any Canadian cross",
+     "Variance risk premium positive even on the understated implied: roughly +0.64 vol points at three months against 3.31% realised, and wider if the estimate is corrected upward",
+     "25-delta risk reversal and butterfly for this cross: DOCUMENTED GAP in both dossiers and the payload - no skew inference is drawn anywhere in this analysis"
+    ],
+    "what_is_priced": "The surface prices nothing for a window containing an ECB projections round and, just beyond it, a Bank of Canada Monetary Policy Report. Contango with no near-dated hump into that calendar means near-dated gamma on this cross is cheap relative to the schedule, even before correcting the estimate upward. That is a volatility observation, not a direction.",
+    "citations": [
+     28
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 48,
+    "evidence_type": "pair_price_action",
+    "bilateral_analysis": "The strategic structural read is Neutral for the same reason and with slightly lower confidence, because over one to six months the missing directional evidence would have mattered more. What can be said from the payload is that the six-month tenor at 4.058% prices this cross to move less than 4.1% annualised across a period containing two Bank of Canada decisions, two ECB decisions of which one is a projections round, the 2026-11-03 US midterms, the northern-hemisphere gas peak against 62.99% August storage and the 2027-01-01 tariff escalation. Against a 60-day realised of roughly 3.31% that is a positive premium of about 0.75 vol points on the stated number, and the payload's own warning that the estimate runs 8.7-17.8% low means the true premium is larger still - so the surface is not cheap on a delivered basis, only cheap relative to the calendar. The pair's structural character is worth stating because it constrains everything else in this analysis: with identical policy rates, the lowest realised volatility of any cross in either complex, and a payload data-quality note recording that only 2 resistance zones met the two-touch threshold against 7 support zones, EUR/CAD is the lowest-drift pair in either dossier's set. A low-drift, low-volatility cross with zero carry converts a modest fundamental edge into a slow grind rather than a trend, which is the structural reason this analysis carries conviction 2 at both horizons rather than 3.",
+    "key_bilateral_metrics": [
+     "Six-month ATM implied 4.058% at 185.7 days - prices sub-4.1% annualised movement across two BoC decisions, two ECB decisions, the US midterms, the European gas peak and the 2027-01-01 tariff escalation",
+     "Positive variance risk premium of roughly 0.75 vol points against approximately 3.31% 60-day realised, and larger once the estimate's 8.7-17.8% documented understatement is corrected",
+     "Structural character: zero policy carry, the lowest realised volatility of any cross in either complex, and the lowest-drift cross in both dossiers' tables",
+     "Payload data-quality note: only 2 resistance zones and 7 support zones met the 2-touch threshold on this cross - a mapping shortfall disclosed rather than concealed",
+     "No quoted implied-volatility history, no risk reversal and no butterfly exist for this cross - the vol percentile cannot be computed and is not estimated"
+    ],
+    "what_is_priced": "The six-month surface prices a symmetric, low-volatility grind through a calendar that contains a dated tariff escalation and a physical European gas test. That symmetry is the observation; it is not a direction, and this pass has deliberately not been given the price series that would make it one.",
+    "citations": [
+     28
+    ]
+   },
+   "horizon_split": "Both horizons are Neutral, with confidence falling from 50 to 48. The stance is not a balance of bullish and bearish structural evidence - it is an honest declaration that the directional half of this factor's evidence base was removed from the payload by design, leaving only the volatility surface, which is informative about premium and silent about direction. Confidence falls the two points because a longer horizon makes the absent trend and range information more valuable, not less.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": {
+    "vol_landscape_summary": "EUR/CAD prices at 3.781% / 3.949% / 4.058% across 38.6, 94.7 and 185.7 days - clean contango with no event kink despite the 2026-09-10 ECB projections round inside the front tenor and the 2026-10-28 Bank of Canada Monetary Policy Report inside the second. All three figures are triangle realised-correlation estimates at implied correlation 0.7331 rather than quotes, and the payload's own back-check found the method understating direct Eurex quotes by 8.7% to 17.8% with a 14.4% median error across seventeen pairs, so every level should be read as a floor. Against a pair realised volatility of roughly 3.31% the variance risk premium is positive at every tenor, so options are cheap relative to the calendar but not cheap relative to what the pair has actually delivered.",
+    "directional_expression": "The fundamental edge in this pair is modest at both horizons - net scores of +0.0986 and +0.1026 - and it is being expressed in the lowest-drift, zero-carry cross in either complex. That combination argues for patience over leverage: a small directional edge in a low-volatility instrument needs time rather than size, and the -34.2bp annualised funding cost of a long is bearable over weeks and corrosive over quarters. Because no risk reversal exists for this cross, any optional expression must be constructed skew-neutral rather than leaning on a directional bias that cannot be verified. With a 55-pip ATR and 20-day realised volatility of 2.99%, a directional spot expression needs a stop of at least 1.5 ATR (roughly 80 pips) tactically and 2.5-3 ATR (140-165 pips) strategically to survive normal noise, and because the pair's volatility is roughly two-thirds of a typical G10 major, sizing by notional rather than by stop distance will silently double the intended risk.",
+    "event_timing_consideration": "The calendar clusters asymmetrically: the 2026-09-10 ECB projections round sits inside the front tenor and is 97% priced on the decision but unpriced on the revisions; the decisive event for the strategic thesis is the 2026-10-28 Bank of Canada Monetary Policy Report, which falls between the first and second quoted tenors and precedes the 2026-10-29 ECB decision by a single day; December repeats the pattern with the Bank of Canada on 2026-12-09 and the ECB projections round on 2026-12-17. Expression timing should respect that the Canadian decision leads the euro-area one on both occasions.",
+    "liquidity_note": "EUR/CAD is a liquid cross but not a major: it is generally executed through two dollar legs, it has no listed option - which is precisely why its volatility must be estimated rather than quoted - and thin direct liquidity plus dated, headline-driven quote-leg events, notably the 2026-09-08 retaliation with an unpublished product list and the 2027-01-01 escalation, means gap risk is larger than the volatility number implies."
+   }
+  },
+  {
+   "factor_number": 10,
+   "factor_name": "USD Liquidity & Funding",
+   "tactical_weight_default": 0.11,
+   "tactical_weight_applied": 0.07,
+   "strategic_weight_default": 0.12,
+   "strategic_weight_applied": 0.08,
+   "weight_adjustment_reason": "Cut from 0.11 tactically and 0.12 strategically, at the framework's suggested reduction for a non-USD cross. Dollar funding still reaches EUR/CAD through the vehicle-currency channel, but the direct dollar-leg exposure that justifies a double-digit weight on a USD pair is absent here, and both dossiers independently found no funding stress in any observable channel. The released weight goes to Factors 5 and 7, where the bilateral asymmetry is genuine.",
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 52,
+    "evidence_type": "rates",
+    "bilateral_analysis": "Dollar funding itself is abundant and orderly and generates no signal, but the way a hawkish Fed transmits to the two legs is genuinely asymmetric and it favours the pair rising. On the plumbing there is nothing to trade: SOFR printed 3.65% on US$2,808bn of volume with a 14-basis-point first-to-ninety-ninth percentile band, Fed central bank liquidity swaps outstanding are US$121m, the balance sheet is growing at US$6.73-6.75tn and up roughly US$127bn year on year, and US investment-grade spreads are 79bp. The 3-month EUR/USD basis at roughly minus 16 to minus 20bp is benign though 3.5 months stale, and the implied CAD-side basis residual of approximately -28.8bp is unremarkable. The asymmetry is in the curve, not the plumbing. Chair Warsh's 28 August Jackson Hole address moved September FOMC hike odds from 36% to roughly 58-60%, and the two legs' long ends respond differently to that: German Bund yields rose in sympathy to 3.29-3.30%, a fifteen-year high, narrowing the UST-Bund spread from 150bp on the consistent monthly basis to roughly 138bp live, while the Bank of Canada stated explicitly that US bond yields have risen while those in Canada are little changed and that the differential has contributed to the Canadian dollar's depreciation. A hawkish Fed therefore drags the euro's long end up with it and leaves Canada's behind. That is a real and named bilateral mechanism, and at 52 confidence it is the weakest positive in this analysis because the broad dollar has actually been falling.",
+    "key_bilateral_metrics": [
+     "No funding stress in any channel: SOFR 3.65% on US$2,808bn with a 14bp percentile band, Fed swap lines US$121m, IG OAS 79bp, Fed balance sheet up roughly US$127bn y/y",
+     "Asymmetric curve transmission: Bunds rose with Treasuries to 3.29-3.30%, a fifteen-year high, narrowing UST-Bund from 150bp to roughly 138bp, while the BoC stated Canadian yields were little changed as US yields rose",
+     "September FOMC hike probability moved from 36% to roughly 58-60% after the 28 August Jackson Hole address, with the decision on 2026-09-16",
+     "Basis benign on both legs: 3-month EUR/USD approximately -16 to -20bp (mid-May, stale) and an implied CAD-side residual of approximately -28.8bp",
+     "Offset: the Fed broad trade-weighted dollar index fell 2.511 points, or 2.1%, over the month to 118.0628 on 2026-08-21 despite the hawkish repricing"
+    ],
+    "what_is_priced": "Funding markets price abundant dollar liquidity with no stress premium and that is correct on the evidence. What is not priced is the asymmetry of curve transmission: the market treats a hawkish Fed as a uniform non-dollar negative, when the euro's long end co-moves with Treasuries and Canada's demonstrably does not.",
+    "citations": [
+     11,
+     23,
+     25
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": "rates",
+    "bilateral_analysis": "Over one to six months this factor gives no directional signal for the cross, and Neutral is a considered conclusion. The structural story is that dollar scarcity is over: the Fed's balance sheet has stopped shrinking and started growing, up roughly US$127bn year on year with the Treasury book expanding on bills while only mortgage-backed securities still run off, which removes the mechanism through which quantitative tightening drained global dollar liquidity and pressured non-dollar currencies. Both dossiers independently reached Neutral on this factor strategically. Two second-order bilateral considerations exist and roughly offset. In the euro's favour, Eurosystem non-reinvestment of approximately EUR330bn of asset purchase programme and EUR173bn of pandemic programme holdings during 2026 - over EUR500bn returned to the market - means euro-area balance-sheet tightening is materially more aggressive than the Fed's, which is mechanically supportive of Bund yields relative to Treasuries and therefore of the euro at the margin. In Canada's favour, the Canadian banking system is deeply integrated with the US financial system, holds an unused standing swap line, and the Bank of Canada's Senior Loan Officer Survey printed -1 against a +1 prior, indicating lending conditions easing rather than tightening. Crucially, the residual question of where the dollar goes is a rate-differential and risk-regime question already captured in Factors 1 and 3, and loading a directional dollar view into this factor would double-count it.",
+    "key_bilateral_metrics": [
+     "Both dossiers independently scored this factor Neutral strategically (EUR at 53 confidence, CAD at 54) - no bilateral signal on independent assessment",
+     "Fed balance sheet up roughly US$127bn year on year with Treasury holdings expanding on bills and only MBS running off - Treasury quantitative tightening has ended as a net drain",
+     "Eurosystem 2026 non-reinvestment of approximately EUR330bn APP plus EUR173bn PEPP, over EUR500bn returned to the market - euro-area balance-sheet tightening more aggressive than the Fed's",
+     "Canadian offset: an unused BoC-Fed standing swap line and a Senior Loan Officer Survey at -1 against a +1 prior, indicating easing lending conditions",
+     "Documented gaps on both legs: no quoted 3-month cross-currency basis for either currency within the strategic freshness window; the Canadian figure is a derived residual"
+    ],
+    "what_is_priced": "Markets price ample and stable dollar funding for the full horizon and both dossiers agree that is correct, which is precisely why there is no edge here. The one channel with genuine bilateral content - relative balance-sheet trajectories - favours the euro modestly and is offset by Canada's tighter integration with US funding markets.",
+    "citations": [
+     11,
+     23
+    ]
+   },
+   "horizon_split": "The stance moves from Bullish to Neutral because the tactical positive is a single named transmission asymmetry with a dated resolution and the strategic picture is a genuine standoff. Tactically the euro's long end co-moves with Treasuries while Canada's does not - the Bank of Canada said so itself - and that matters into the 2026-09-16 FOMC, which is roughly 58-60% priced. Strategically the funding plumbing is benign in both directions, the Fed has stopped draining liquidity, and the residual dollar direction belongs to Factors 1 and 3 rather than being counted a second time here.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  }
+ ],
+ "synthesis": {
+  "weight_adjustments": {
+   "adjustments_made": true,
+   "adjustments": [
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "default_weight": 0.05,
+     "applied_weight": 0.04,
+     "reason": "Lowest-beta risk cross in either complex; neither leg is a haven, both dossiers independently reached Neutral, bilateral netting is near zero by construction over six months (strategic horizon only)"
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance & Terms of Trade",
+     "default_weight": 0.06,
+     "applied_weight": 0.09,
+     "reason": "Net-energy-importer versus net-energy-exporter cross with a live supply shock; the only factor whose two legs are opposite in sign rather than merely different in degree (tactical horizon)"
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance & Terms of Trade",
+     "default_weight": 0.16,
+     "applied_weight": 0.19,
+     "reason": "Both dossiers independently reached a high-confidence directional view pointing the same way for this pair: euro-area 12m current account down from 2.0% to 1.7% of GDP against Canada's first surplus since 2022 with energy carved out of the tariffs (strategic horizon)"
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk & Geopolitics",
+     "default_weight": 0.05,
+     "applied_weight": 0.06,
+     "reason": "Quote leg carries the most one-sided trade rupture in the G10 with a dated, unpriced event inside the window (2026-09-08 retaliation, product list unpublished); base leg has retired its equivalent at a settled 15% framework (tactical horizon)"
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk & Geopolitics",
+     "default_weight": 0.05,
+     "applied_weight": 0.07,
+     "reason": "Section 338 duties carry no expiry, no negotiating calendar and a dated 2027-01-01 escalation; only circuit-breaker is indirect at the 2026-11-03 midterms (strategic horizon)"
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "default_weight": 0.11,
+     "applied_weight": 0.07,
+     "reason": "Framework's suggested reduction for a non-USD cross; both dossiers found no funding stress in any observable channel (tactical horizon)"
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "default_weight": 0.12,
+     "applied_weight": 0.08,
+     "reason": "Same non-USD-cross reason; both dossiers scored the factor Neutral strategically (strategic horizon)"
+    }
+   ]
+  },
+  "tactical": {
+   "net_stance": "Neutral",
+   "conviction": 2,
+   "overall_confidence": 54,
+   "weighted_score_calculation": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative)",
+     "stance_score": 0,
+     "confidence": 58,
+     "conf_adj_score": 0,
+     "weight": 0.24,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 2,
+     "factor_name": "Inflation & Growth Dynamics",
+     "stance_score": 1,
+     "confidence": 55,
+     "conf_adj_score": 0.55,
+     "weight": 0.18,
+     "weighted_contribution": 0.099
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "stance_score": 0,
+     "confidence": 55,
+     "conf_adj_score": 0,
+     "weight": 0.1,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 4,
+     "factor_name": "Flows & Positioning",
+     "stance_score": -1,
+     "confidence": 55,
+     "conf_adj_score": -0.55,
+     "weight": 0.1,
+     "weighted_contribution": -0.055
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance & Terms of Trade",
+     "stance_score": -1,
+     "confidence": 60,
+     "conf_adj_score": -0.6,
+     "weight": 0.09,
+     "weighted_contribution": -0.054
+    },
+    {
+     "factor_number": 6,
+     "factor_name": "Guidance & Credibility",
+     "stance_score": 1,
+     "confidence": 56,
+     "conf_adj_score": 0.56,
+     "weight": 0.07,
+     "weighted_contribution": 0.0392
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk & Geopolitics",
+     "stance_score": 1,
+     "confidence": 55,
+     "conf_adj_score": 0.55,
+     "weight": 0.06,
+     "weighted_contribution": 0.033
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign Risk",
+     "stance_score": 0,
+     "confidence": 55,
+     "conf_adj_score": 0,
+     "weight": 0.04,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 9,
+     "factor_name": "Market Structure & Volatility",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.05,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "stance_score": 1,
+     "confidence": 52,
+     "conf_adj_score": 0.52,
+     "weight": 0.07,
+     "weighted_contribution": 0.0364
+    }
+   ],
+   "net_weighted_score": 0.0986,
+   "score_interpretation": "A net score of +0.0986 falls 0.0014 short of the +0.10 Bullish threshold, so the derived stance is Neutral and it is applied mechanically. That closeness must be stated plainly rather than smoothed over: this is a Neutral by fourteen ten-thousandths, and a single confidence point on Factor 2 or Factor 10 would flip the label without changing a word of the analysis. The largest-weighted factor contributes exactly zero because EUR/CAD has a policy differential of precisely 0bp and both central banks' September outcomes were priced at 97% - there is no rate signal to collect over four weeks. Inflation and Growth carries +0.0990, Guidance adds +0.0392, Event Risk +0.0330, and USD Liquidity +0.0364; against them Flows costs -0.0550 and External Balance costs -0.0540. Three factors carrying 19% of the weight contribute nothing. This is a genuine standoff between well-evidenced forces of similar size, not an absence of signal. Mapping to conviction: a score inside +/-0.10 with two individually large offsetting forces supports conviction 2.",
+   "rationale": "At tactical weights the framework loads 0.24 on Policy and Rates and 0.18 on Inflation and Growth, so 42% of the signal sits in the interaction of the two central banks and the data driving them - and for this pair the first of those two contributes exactly nothing. EUR/CAD is the zero-differential cross: the ECB deposit rate and the Bank of Canada overnight target are both 2.25%, the ECB's 25bp move on 2026-09-10 is roughly 97% priced, and the Bank of Canada's 2026-09-02 hold was priced at 97% with 35 of 35 polled economists calling it. A differential that moves from 0bp to +25bp entirely as scheduled is not a catalyst, and the position pays -34.2bp annualised on the observed futures roll while Canada's ten-year yields 45bp more than the German benchmark on the payload's consistent monthly basis and roughly 44bp more on live levels. What does carry information tactically is inflation composition. Euro-area core sits at 2.5% with services at 3.3% and an August flash consensus of 3.3% headline, corroborated by Spanish HICP at 4.5% and French at 2.7%; Canadian headline is a comparable 3.0% but CPI-trim is 1.9%, CPI-median is 2.0%, ex-gasoline has been pinned at 2.2% for three months and gasoline alone is +25.7% year on year. One central bank has a reason to tighten and the other does not, and that is the pair-relevant divergence. Guidance reinforces it: the ECB's July Account described the hold as a pause twice and explicitly refused to signal the end of the cycle, while the Bank of Canada's Summary of Deliberations discloses a Council with a range of views that agreed to look through oil while promising not to let it persist. The conflict is with the energy channel and the positioning channel, and both are concrete rather than rhetorical. The euro area is the world's largest net energy importer buying into an effectively closed Strait of Hormuz with TTF above EUR70/MWh and storage at 62.99%, while Canada posted a C$8.8bn current-account surplus - its first since 2022 and largest since 2005 - with energy explicitly carved out of the US tariffs. And the speculative short is roughly nine times more crowded on the Canadian leg per unit of open interest, at -39.8% of 329,544 contracts against -4.5% of 801,884, with both legs squeezing simultaneously. What is priced versus what we expect: the euro leg's September decision is priced perfectly, Canada's is priced perfectly, and the volatility surface prices neither - clean contango at 3.781%, 3.949% and 4.058% with no near-dated kink and an estimate the payload itself warns runs 8.7-17.8% low. Dated catalysts inside the window are the Canadian trade balance on 2026-09-03, the Canadian labour force survey and Ivey PMI on 2026-09-04, Canadian retaliation on 2026-09-08, the ECB with projections on 2026-09-10, Canadian CPI on 2026-09-14 and the FOMC on 2026-09-16. Conviction is 2 and not 3 for two honest reasons: the score is fourteen ten-thousandths from a different label, and the pair is the lowest-drift, zero-carry cross in either complex, so even a resolved edge converts into a grind rather than a move.",
+   "g10_relative_ranking": "Within the euro complex EUR/CAD ranks in the middle of the tactical opportunity set - behind EUR/CHF, where a 225bp differential widening to 250bp on 2026-09-10 gives the euro its best risk-adjusted carry at +0.58, and behind EUR/NZD, where the differential actually flips sign on the ECB decision - but ahead of EUR/NOK and EUR/AUD, where the euro pays 200bp and 210bp respectively and the counter-currency also benefits from the energy shock that taxes the euro area. Within the Canadian complex a long EUR/CAD ranks behind a short CAD/NOK and behind a long CAD/CHF. The distinguishing feature of EUR/CAD against every one of those alternatives is that it is the only zero-carry cross in either set, making it the cleanest available vehicle for a pure euro-area-versus-Canada fundamental view with no rates overlay - and simultaneously the vehicle with the least mechanical support if that view is right.",
+   "scenarios": {
+    "base_case": {
+     "probability_pct": 50,
+     "pair_target": "EUR/CAD 1.6060",
+     "timeframe": "by end-September 2026 (~4 weeks)",
+     "conditions": [
+      "The pair holds inside the 4-touch 1.6024-1.6155 band it currently occupies, with the 50-day at 1.61219 capping rallies",
+      "The ECB delivers 25bp on 2026-09-10 with upgraded inflation projections and the pair spikes and fades, because the decision is 97% priced",
+      "Canadian CPI on 2026-09-14 shows CPI-trim at or below 2.0%, neither validating nor destroying the market's Canadian hike pricing",
+      "TTF stays in a EUR60-80/MWh range with no fresh Hormuz step-escalation",
+      "The 2026-09-08 Canadian retaliation list lands broadly as trailed"
+     ],
+     "path": "A grind higher of +24 pips within the current range with a spike-and-fade around the ECB decision"
+    },
+    "upside_case": {
+     "probability_pct": 25,
+     "pair_target": "EUR/CAD 1.6220",
+     "conditions": [
+      "Canadian CPI on 2026-09-14 shows CPI-trim slipping to 1.8% or below, collapsing the roughly 65% year-end Bank of Canada hike probability three weeks early",
+      "The FOMC hikes on 2026-09-16 with a hawkish SEP, dragging Bunds up with Treasuries while Canadian yields stay pinned - the Factor 10 transmission asymmetry firing"
+     ]
+    },
+    "downside_case": {
+     "probability_pct": 25,
+     "pair_target": "EUR/CAD 1.5900",
+     "conditions": [
+      "The 2026-09-04 Canadian labour force survey beats a lowered +15.8k bar and Canadian CPI-trim rises toward 2.2%, validating the hike pricing",
+      "Brent extends above $95 on further Gulf escalation while EU storage news deteriorates, firing both legs of the Factor 5 commodity netting at once"
+     ]
+    }
+   },
+   "path_expectation": "The shape is a heavy range with a slight downward tilt into mid-September, then a resolution. Spot enters the window inside the lower half of the 4-touch 1.6024-1.6155 band having made lower highs since 5 August and a marginal lower low on 3 September, so the first phase to roughly 2026-09-09 should be a grind between 1.5990 and 1.6100 as the Canadian trade balance, labour force survey and retaliation date arrive - the tape's own answer to the 2 September Bank of Canada decision was a 67-pip fall on a 113-pip range, and that momentum does not reverse in a session. The 2026-09-10 ECB decision is the classic spike-and-fade candidate: 97% priced on the outcome, unpriced on the projection revisions, so expect a 40-70 pip pop toward the 50-day at 1.61219 that struggles to hold. The genuine directional resolution comes at Canadian CPI on 2026-09-14, which is the only two-sided release in the window with a mechanism that touches the pair's largest strategic factor, followed six days later by an FOMC that is only 58-60% priced. Realised volatility should rise from the current 2.99% twenty-day toward the 3.78% front-tenor implied through that cluster and then subside. Pullbacks into 1.5990-1.6000 are where the tactical range finds its bid; a daily close below 1.59535 - the top of the 3-touch band - is the first signal that the range is failing rather than holding.",
+   "conviction_ladder": {
+    "current": 2,
+    "increase_conditions": [
+     "EUR/CAD closes above 1.61219, the 50-day, for three consecutive sessions, restoring the pair to the upper half of the 4-touch band and re-engaging the nominally bullish MA stack",
+     "Canadian CPI on 2026-09-14 prints CPI-trim at or below 1.8% and market-implied 2026 Bank of Canada hike probability falls below 45%",
+     "The pair closes above 1.6155 with 20-day realised volatility above 3.5%, indicating a genuine range break rather than drift"
+    ],
+    "decrease_conditions": [
+     "The pair closes below 1.57941, the base of the only relevant nearby support band, for three consecutive sessions",
+     "Canadian CPI-trim prints above 2.2% on 2026-09-14",
+     "Brent closes above $100 for two consecutive weekly settlements while EU storage news deteriorates"
+    ]
+   },
+   "risk_reward": {
+    "base_case_payoff": "+24 pips (+0.15%), net about +19 pips after carry",
+    "downside_case_loss": "-136 pips (-0.85%), net about -141 pips after carry",
+    "risk_reward_ratio": "0.18:1 (base vs downside); 1.35:1 (upside vs downside)",
+    "expected_value": "(0.50 x +24) + (0.25 x +184) + (0.25 x -136) = +12 + 46 - 34 = +24 pips gross (+0.15%), roughly +19 pips net of carry",
+    "asymmetry_assessment": "The distribution is very mildly right-skewed but the base case is worth less than one-half of a single average day's range, and a +24 pip expected value against a 55-pip ATR is not a tradeable spot edge. This is what a Neutral looks like when it is honest - the correct tactical expression is not a directional spot position but either no position or near-dated optionality."
+   }
+  },
+  "strategic": {
+   "net_stance": "Bullish",
+   "conviction": 2,
+   "overall_confidence": 55,
+   "weighted_score_calculation": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative)",
+     "stance_score": 1,
+     "confidence": 55,
+     "conf_adj_score": 0.55,
+     "weight": 0.24,
+     "weighted_contribution": 0.132
+    },
+    {
+     "factor_number": 2,
+     "factor_name": "Inflation & Growth Dynamics",
+     "stance_score": 1,
+     "confidence": 58,
+     "conf_adj_score": 0.58,
+     "weight": 0.1,
+     "weighted_contribution": 0.058
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.04,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 4,
+     "factor_name": "Flows & Positioning",
+     "stance_score": -1,
+     "confidence": 50,
+     "conf_adj_score": -0.5,
+     "weight": 0.06,
+     "weighted_contribution": -0.03
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance & Terms of Trade",
+     "stance_score": -1,
+     "confidence": 66,
+     "conf_adj_score": -0.66,
+     "weight": 0.19,
+     "weighted_contribution": -0.1254
+    },
+    {
+     "factor_number": 6,
+     "factor_name": "Guidance & Credibility",
+     "stance_score": 1,
+     "confidence": 52,
+     "conf_adj_score": 0.52,
+     "weight": 0.12,
+     "weighted_contribution": 0.0624
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk & Geopolitics",
+     "stance_score": 1,
+     "confidence": 58,
+     "conf_adj_score": 0.58,
+     "weight": 0.07,
+     "weighted_contribution": 0.0406
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign Risk",
+     "stance_score": -1,
+     "confidence": 50,
+     "conf_adj_score": -0.5,
+     "weight": 0.07,
+     "weighted_contribution": -0.035
+    },
+    {
+     "factor_number": 9,
+     "factor_name": "Market Structure & Volatility",
+     "stance_score": 0,
+     "confidence": 48,
+     "conf_adj_score": 0,
+     "weight": 0.03,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.08,
+     "weighted_contribution": 0
+    }
+   ],
+   "net_weighted_score": 0.1026,
+   "score_interpretation": "A net score of +0.1026 clears the +0.10 Bullish threshold by 0.0026, so the derived stance is Bullish and it is applied mechanically. As with the tactical score, the margin demands disclosure: the strategic label is Bullish by twenty-six ten-thousandths, and the two horizons' scores are only 0.0040 apart in magnitude - the difference in their stance labels is a threshold artefact sitting on top of a genuine compositional shift. Policy and Rates contributes +0.1320, the largest single contribution anywhere in this analysis; External Balance contributes -0.1254 at a raised 0.19 weight. Those two very nearly cancel, leaving +0.0066 from the largest two forces in the analysis. Everything else decides it: Guidance +0.0624, Inflation and Growth +0.0580, Event Risk +0.0406, against Flows at -0.0300 and Fiscal at -0.0350. Three factors carrying 15% of the weight contribute nothing. Mapping to conviction: a score barely past the threshold, produced by two very large opposing forces rather than by breadth, supports conviction 2 and not 3.",
+   "rationale": "At strategic weights the character of the pair changes completely. Policy and Rates holds 0.24 but flips to Bullish, External Balance rises from 0.06 to a raised 0.19 and becomes the largest counterweight, Guidance rises from 0.07 to 0.12 and Inflation and Growth falls from 0.18 to 0.10 - so 62% of the signal now sits in four structural factors and two of them collide head-on. The bullish case is a rates and reaction-function case, and it is arithmetic rather than narrative. The euro's policy rate is priced to travel from 2.25% to 2.50% on 2026-09-10 and possibly to 2.75% by early 2027, while the Bank of Canada's own Q2 2026 Market Participants Survey has the median policy rate at 2.25% through January 2027 and reaching 2.50% only in March 2027 against a market pricing roughly 65% of a hike by end-2026. The supporting evidence for that fade is the Canadian core itself: CPI-trim at 1.9%, CPI-median at 2.0%, the entire headline overshoot attributable to gasoline at +25.7% year on year, wage growth decelerating to 2.8% from 3.3%, and a household sector at 179.6% debt to disposable income with insolvencies the highest since 2009. Growth reinforces it - the Bank's own 2026 call is 0.7%, the July advance estimate was already 0.0% before either tariff regime took effect, and roughly 2 million Canadian jobs depend on goods exports to a customer that has just imposed 50% duties with no expiry date. Sequencing is the underrated detail: the Bank of Canada publishes its Monetary Policy Report on 2026-10-28, one day before the ECB's 2026-10-29 decision, and decides again on 2026-12-09, eight days before the ECB's 2026-12-17 projections round. On both occasions Canada goes first, and the October report is where the Canadian hike premium most plausibly comes out of the curve - seven weeks before the euro's own terminal faces its equivalent test. Against all of that stands the terms-of-trade collision, and it is serious. The euro area's twelve-month current-account surplus fell from EUR305bn and 2.0% of GDP to EUR276bn and 1.7%, with the goods surplus down from EUR342bn to EUR282bn, while Canada swung from a C$8.3bn quarterly deficit to a C$8.8bn surplus, its largest since 2005, achieved on record exports with energy, potash, fish and critical minerals explicitly exempt from the tariffs. Goldman Sachs has said current prices will not be enough for Europe to manage storage through winter and that December TTF may need to exceed EUR100/MWh, and the EIA sees roughly 0.6mb/d of Hormuz disruption persisting to end-2027 - a multi-quarter revenue transfer from the base leg to the quote leg. What is priced versus what we expect: the market prices the euro path roughly right, prices a Canadian hike it will not get, prices no discount for a European winter energy squeeze, and prices the Canadian tariff regime as a negotiation having a bad quarter rather than a two-year structural condition. Three of those four errors are pair-bullish and the largest single one is not. Conviction is 2 because a Bullish produced by two large cancelling forces is less stable than one produced by breadth: either force winning decisively would move this cross materially in its direction, and it is the lowest-drift, zero-carry pair in either complex with a -34.2bp funding headwind against the position.",
+   "g10_relative_ranking": "Strategically EUR/CAD ranks as the most direct available expression of the euro's fourth-of-eleven standing against Canada's seventh-of-eleven, and it is the only cross in either complex where that comparison is unpolluted by a rates overlay. It ranks behind a long EUR/CHF, which captures the euro's rate advantage while collecting 225bp widening to 275bp rather than paying 34bp, and behind a short CAD/NOK. It ranks well ahead of EUR/NOK and EUR/AUD, and ahead of EUR/USD, where six months of negative carry are not covered by the base dossier's own expected path. Among Canadian crosses a long EUR/CAD is the cleanest short-Canada vehicle for anyone who wants to avoid USD/CAD, where 131,035 contracts of speculative short are already concentrated - EUR/CAD does not carry that crowding risk.",
+   "scenarios": {
+    "base_case": {
+     "probability_pct": 50,
+     "pair_target": "EUR/CAD 1.6300",
+     "timeframe": "by early March 2027",
+     "conditions": [
+      "The Bank of Canada holds at 2.25% at both the 2026-10-28 and 2026-12-09 decisions and the roughly 65% year-end hike probability bleeds out of the curve, most of it at the October Monetary Policy Report",
+      "The ECB delivers 2.50% in September and reaches 2.75% by February, opening a +50bp differential",
+      "Canadian Q3 GDP prints below 1.5% annualised, confirming the July 0.0% flash as signal rather than noise",
+      "TTF averages EUR60-80/MWh through the winter so the euro-area goods-surplus deterioration stays gradual",
+      "Section 338 duties remain in force with the 2027-01-01 escalation confirmed"
+     ],
+     "path": "A staircase - September-October plateau, breakout on the 2026-10-28 Bank of Canada Monetary Policy Report, grind higher into 2027-01-01"
+    },
+    "upside_case": {
+     "probability_pct": 25,
+     "pair_target": "EUR/CAD 1.6480",
+     "conditions": [
+      "A durable Hormuz reopening collapses Brent below $75, simultaneously removing the euro area's import-bill drag and destroying Canada's terms of trade and hike pricing",
+      "The ECB reaches 2.75% while the Bank of Canada is forced toward a cut as tariff drag compounds, taking the differential to +75bp"
+     ]
+    },
+    "downside_case": {
+     "probability_pct": 25,
+     "pair_target": "EUR/CAD 1.5790",
+     "conditions": [
+      "A winter gas squeeze pushes TTF above EUR100/MWh, driving the euro area toward recession and the twelve-month current-account surplus below 1.0% of GDP",
+      "The Bank of Canada hikes to 2.50% on 2026-10-28 as National Bank and Scotiabank forecast, validating rather than unwinding the pricing this thesis fades"
+     ]
+    }
+   },
+   "path_expectation": "The strategic path is a staircase with a September-October plateau, not a trend. The first leg runs to roughly mid-October: the pair chops in the 1.5950-1.6155 band bounded below by the 3-touch 1.57941-1.59535 zone and above by the 4-touch band it currently occupies, with the compressed daily MA cluster at 1.60941-1.61219 acting as a repeatedly tested cap and no active catalyst for either thesis between the 2026-09-16 FOMC and late October. The second leg is the 2026-10-28 Bank of Canada Monetary Policy Report, which is where the thesis either earns its money or loses it - the Bank must mark down 2026 growth for tariff drag while marking down inflation as the gasoline base effect rolls off, and if it does, the Canadian hike premium leaves the curve and the pair should clear 1.61219 and then the 4-touch 1.61954-1.63287 supply band. The third leg runs from November into the 2027-01-01 tariff escalation and the 2026-12-17 ECB projections round: a slower grind toward 1.6300. Two things shape the volatility profile. First, the rising 200-week average at 1.51972 climbs roughly 4.1 cents over the horizon, so the structural floor advances under the pair even if spot does nothing. Second, the November European gas peak is the fat left tail and it has no scheduled date. Expect realised volatility to rise from 3.22% on sixty days toward 4.5% as the range breaks; pullbacks toward 1.5980 and again toward 1.5940 are the strategic entry zones, and a weekly close below 1.57941 is the sequence's invalidation.",
+   "conviction_ladder": {
+    "current": 2,
+    "increase_conditions": [
+     "The 2026-10-28 Monetary Policy Report revises Canadian 2026 GDP below 0.7% or second-half inflation below 2.5% and market-implied 2026 Bank of Canada hike probability falls below 35%",
+     "EU gas storage reaches 85% or above by 1 November with TTF below EUR55/MWh, removing the -0.1254 External Balance drag and leaving the +0.1320 Policy contribution unopposed",
+     "EUR/CAD closes above 1.61219 (50-day) and 1.6155 (top of the 4-touch band) on a weekly basis with 60-day realised volatility above 3.6%"
+    ],
+    "decrease_conditions": [
+     "EUR/CAD closes below 1.56678, the top of the 2-touch band and the 52-week low region, on a weekly basis",
+     "TTF exceeds EUR100/MWh with the euro-area composite PMI below 48.0",
+     "The Bank of Canada hikes to 2.50% on 2026-10-28"
+    ]
+   },
+   "risk_reward": {
+    "base_case_payoff": "+264 pips (+1.65%), net about +237 pips after carry",
+    "downside_case_loss": "-246 pips (-1.53%), net about -273 pips after carry",
+    "risk_reward_ratio": "1.07:1 (base vs downside); 1.80:1 (upside vs downside)",
+    "expected_value": "(0.50 x +264) + (0.25 x +444) + (0.25 x -246) = +132 + 111 - 61.5 = +181.5 pips gross (+1.13%), roughly +155 pips net of carry (+0.96%)",
+    "asymmetry_assessment": "Modestly favourable and honestly so. The right tail is genuine - a Hormuz reopening fires both of this pair's largest factors in the same bullish direction - but the base case clears the downside case by only 7% on a one-for-one basis, and the drawdown risk is concentrated in a November gas event that the volatility surface prices at nothing. A +181-pip expected value over six months in an instrument with a 55-pip daily range and 3.22% realised volatility is a real but modest edge: it justifies a position, not a large one."
+   }
+  },
+  "consensus_divergence": {
+   "bank_consensus_forecast": "Roughly 1.61 through Q1 2027, falling to 1.60 in Q2 2027 and 1.58 in Q3 2027 on a five-bank average with wide dispersion (Desjardins 1.55, TD 1.60 for Q3 2027); a separate survey path has EUR/CAD at 1.6131 late 2026, 1.6130 early 2027 and 1.6022 late 2027; Scotiabank at approximately 1.61 for Q4 2026",
+   "bank_consensus_forecast_source": "Compiled from a September 2026 aggregator (MTFX Group, citing five-bank averages including National Bank, Scotiabank, TD, Desjardins), plus a survey-based FX forecast compilation - these are aggregator/compilation sources drawing on bank research rather than a single named surveyed panel, and are treated as best-available given no primary bank research note could be sourced directly",
+   "our_tactical_view": "EUR/CAD 1.6060 at one month",
+   "our_strategic_view": "EUR/CAD 1.6300 at six months (1.6480 in the upside case)",
+   "divergence_direction": "Tactically marginally below consensus; strategically above consensus",
+   "divergence_magnitude": "-40 pips tactically (below ~1.61 September consensus); +170 pips (+1.06%) strategically above the ~1.61 Q1 2027 consensus, and versus a consensus that never exceeds 1.6131 at any tenor",
+   "why_we_differ": "The consensus is underweighting the sequencing asymmetry and overweighting the Canadian data already published. Three of the five banks in the compiled average are Canadian houses whose EUR/CAD number is derived from a constructive USD/CAD call - the five-bank average has USD/CAD at 1.37 in Q4 2026 and 1.34 by Q3 2027, a path of gradual Canadian dollar appreciation - and that appreciation rests on a Canadian economy that printed 3.3% annualised in Q2 and on roughly 65% odds of a 2026 hike. Both of those inputs are backward-looking: the Q2 quarter ended in June, the July advance GDP estimate was already 0.0% before either tariff regime took effect, and the Bank's own Market Participants Survey does not reach 2.50% until March 2027. Meanwhile the consensus is not discounting that the Bank of Canada publishes its decisive forecast round on 2026-10-28, one day before the ECB and seven weeks before the ECB's own downward test on 2026-12-17 - the Canadian repricing has the earlier venue. We assign roughly a 25% probability to a 2026 Bank of Canada hike against a market-implied 65%, a 40-percentage-point gap, and we sit 15-25bp below market pricing on the ECB terminal.",
+   "payoff_if_right": "Being long EUR/CAD from 1.60356 to a strategic 1.6300 captures 264 pips of spot against a consensus that expects 1.61, so roughly 170 pips of the move is divergence rather than drift, and the -34.2bp funding cost consumes only 27 pips of it over six months.",
+   "risk_if_wrong": "The consensus is right for the specific reason it gives - Canadian data stays firm, the Bank of Canada hikes on 2026-10-28, and the pair reverts to 1.58-1.60 - in which case the 246-pip downside case is realised and the position loses roughly 273 pips net of carry. We assign that path 25%, and it is the more probable of the two ways to be wrong because it requires nothing exotic: two of Canada's six largest banks already forecast it."
+  },
+  "cross_horizon_consistency": {
+   "aligned": false,
+   "tactical_stance": "Neutral",
+   "strategic_stance": "Bullish",
+   "explanation": "The stance labels differ but the scores are only 0.0040 apart in magnitude, so two things are true at once: the label difference is largely a threshold artefact (+0.0986 and +0.1026 straddle the +0.10 boundary by fourteen and twenty-six ten-thousandths respectively), yet underneath that coincidence the composition genuinely changes. Policy and Rates goes from contributing exactly zero to contributing +0.1320 because a 0bp differential with both September decisions at 97% priced is worthless over four weeks, while the travel from 0bp toward +25bp or +50bp is real over two quarters. External Balance goes from -0.0540 to -0.1254 as its weight rises from 0.09 to 0.19 and confidence from 60 to 66. Inflation and Growth stays Bullish but changes its evidence entirely, and Guidance stays Bullish but relocates its venue.",
+   "inflection_point": "Late October 2026, specifically the two-day cluster of the Bank of Canada decision with Monetary Policy Report on 2026-10-28 followed by the ECB decision on 2026-10-29 - the first scheduled venue at which the Canadian hike premium can be marked down against a full forecast round, with Canada going first by one day. The secondary inflection is physical rather than scheduled: the autumn European gas injection season, where storage entering November nearer 75% or 85% against the 62.99% recorded on 24 August determines whether Factor 5's -0.1254 grows or shrinks.",
+   "trading_implication": "Do not carry the strategic view at full weight through the tactical window. The tactical Neutral is the specific observation that the rates channel contributes nothing while both September decisions are 97% priced, and that the two forces which do carry information over four weeks - energy terms of trade and relative positioning crowding - both run against the strategic direction. The disciplined approach is to hold minimal directional spot exposure into 2026-09-16, treat any test of 1.5980-1.6000 as scale-in territory, and add the balance of the strategic position after the 2026-10-28 Monetary Policy Report either confirms the thesis or removes its largest positive contribution."
+  },
+  "forward_vs_spot": {
+   "current_spot": 1.60356,
+   "forward_1m": "1.60310 (-4.6 pips implied move)",
+   "forward_3m": "1.60219 (-13.7 pips implied move)",
+   "forward_6m": "1.60082 (-27.4 pips implied move)",
+   "expected_rate_3m": "1.6200",
+   "expected_rate_6m": "1.6300",
+   "edge_3m": "+178 pips",
+   "edge_6m": "+272 pips"
+  }
+ },
+ "catalysts": [
+  {
+   "date": "2026-09-02",
+   "event": "Bank of Canada policy decision, statement and press conference",
+   "expected_impact": "Neutral",
+   "which_leg_affected": "Quote",
+   "rationale": "The decision itself carried no pair information - bond markets priced a 3% hike probability and all 35 Reuters-polled economists forecast a hold, leaving the bilateral policy differential at exactly 0bp going into the ECB's own meeting eight days later. The tradeable content was the press-conference tone. This date falls between the valuation date and the payload's spot date; the price series shows EUR/CAD fell 67 pips on the session with a 113-pip range, the widest in a month, but the policy outcome itself is not asserted in this analysis's evidence set.",
+   "priced_in": "Fully",
+   "citations": [
+    11,
+    12,
+    22
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "event": "Canada merchandise trade balance (July); euro-area final composite and services PMIs and producer prices",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Both",
+   "rationale": "Both legs report on the same day and the quote leg has the greater surprise potential. Canada's trade consensus of C$3.2bn sits below the C$3.86bn prior, implying the market expects immediate tariff drag on data that predates the 2026-08-22 Section 338 duties entirely. A beat extends the record-export run that produced a twenty-one-year-high current account and is pair-bearish through Factor 5. The euro-area final PMIs test whether the flash composite at 52.1 with new orders at a 40-month high holds on revision.",
+   "priced_in": "Partially",
+   "citations": [
+    9,
+    18
+   ]
+  },
+  {
+   "date": "2026-09-04",
+   "event": "Canada Labour Force Survey (August) and Ivey PMI; euro-area retail sales and German factory orders; ECB Chief Economist Lane before the quiet period; CFTC Commitments of Traders",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Both",
+   "rationale": "The Canadian employment consensus of +15.8k follows July's +75.1k and a third consecutive decline in unemployment to a two-year low of 6.4%, so the bar is materially lowered and a beat would extend the hawkish Canadian repricing that is pair-bearish. Lane's remarks are the last significant ECB communication before the quiet period and the most likely vehicle for a late steer on the 2026-09-10 decision. The positioning print is the first read on whether either of the two simultaneous short-covering runs has continued, which matters for the proportional netting in Factor 4.",
+   "priced_in": "Not priced",
+   "citations": [
+    10,
+    17,
+    19
+   ]
+  },
+  {
+   "date": "2026-09-08",
+   "event": "Canada's retaliatory tariffs take effect on approximately US$20bn of US goods at 15-50%",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Quote",
+   "rationale": "Targets include US steel, dairy, appliances, agricultural equipment, pulp and paper, electronics and motorcycles, and the product-level list was unpublished at the valuation date, so the market cannot have priced its composition. Carney called the step reluctant precisely because it raises Canadian costs and reduces choice, and dollar-for-dollar retaliation by an economy roughly one tenth the size is proportionally heavier on Canada. The transmission is a one-sided quote-leg growth and cost shock with no base-leg equivalent, since the euro area settled its own trade dispute at a 15% framework live from 1 July. This is the largest gap-risk date in the tactical window and the pair's flat volatility surface prices none of it.",
+   "priced_in": "Partially",
+   "citations": [
+    20,
+    21
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "event": "ECB Governing Council decision with new Eurosystem staff macroeconomic projections",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Base",
+   "rationale": "The mechanical event of the tactical window: a 25bp move to a 2.50% deposit rate is roughly 97% priced and would open the pair's first positive policy differential, taking it from exactly 0bp to +25bp in the euro's favour against a Bank of Canada that has just held. Because the decision is discounted, the pair-relevant content is the projection revisions to the June baseline of 3.0% headline for 2026 and 2.3% for 2027, which energy at +10.0% year on year makes likely to be revised up. The tonal risk is that Lagarde repeats the July acknowledgement that there is no clear evidence of second-round effects, which would produce the classic spike-and-fade around the 50-day at 1.61219.",
+   "priced_in": "Fully",
+   "citations": [
+    2,
+    4,
+    10
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "event": "Statistics Canada Consumer Price Index for August",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Quote",
+   "rationale": "The highest-information quote-leg release of the tactical window and genuinely two-sided for the pair. Priors are headline 3.0%, CPI-trim 1.9%, CPI-median 2.0% and CPI-common 2.7%. If CPI-trim rises toward 2.2-2.5% the oil-broadening the Bank said it would respond to becomes live, the market's Canadian hike pricing is validated rather than faded, and the pair's largest strategic positive is undermined. If trim slips at or below 1.9% the statistical basis for a 2026 hike disappears and the Factor 1 and Factor 6 theses are confirmed seven weeks before their scheduled test.",
+   "priced_in": "Partially",
+   "citations": [
+    14,
+    22
+   ]
+  },
+  {
+   "date": "2026-09-16",
+   "event": "Federal Open Market Committee decision with Summary of Economic Projections",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Both",
+   "rationale": "Not a decision about either leg, but it reaches the cross asymmetrically, which is the entire content of Factor 10. Roughly 58-60% of a 25bp hike is priced after Chair Warsh's 28 August Jackson Hole address moved odds from 36%. A hawkish outcome lifts Bund yields in sympathy - already at a fifteen-year high of 3.29-3.30% with the UST-Bund spread narrowed to roughly 138bp - while the Bank of Canada has stated that Canadian yields were little changed as US yields rose, so the base leg's curve co-moves and the quote leg's lags. That transmission is pair-bullish; the offsetting risk is a broad-dollar bid that pressures both legs.",
+   "priced_in": "Partially",
+   "citations": [
+    11,
+    25
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "event": "Statistics Canada Consumer Price Index for September (approximate, monthly release)",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Quote",
+   "rationale": "The first Canadian print in which the gasoline base effect turns materially less favourable and the first capable of capturing tariff pass-through in both directions - US duties raising Canadian export costs and Canadian counter-duties raising import prices. Headline converging down toward the 2.0% core average removes the statistical support for the market's roughly 65% probability of a 2026 Bank of Canada hike, which is the single largest support under the quote currency and therefore the largest identified pair-bullish repricing available. It lands eight days before the Monetary Policy Report that would formalise it.",
+   "priced_in": "Not priced",
+   "citations": [
+    13,
+    14,
+    22
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "event": "Bank of Canada decision with Monetary Policy Report",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Quote",
+   "rationale": "The pivotal scheduled event of the strategic horizon and the identified cross-horizon inflection. The Bank must publish a full forecast round incorporating the first post-tariff activity data, marking down 2026 growth for the tariff shock while marking down inflation as the gasoline base effect rolls off - the combination that removes the analytical basis for a 2026 hike and reprices the front end that currently supports the quote currency. National Bank and Scotiabank forecast a hike to 2.50% here, which would invalidate rather than confirm the thesis; the other four large Canadian banks forecast a hold. It falls one day before the ECB, so Canada sets the tone for the cross.",
+   "priced_in": "Partially",
+   "citations": [
+    11,
+    13,
+    22
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "event": "ECB Governing Council decision (no staff projections)",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "A non-projection meeting arriving one day after the Bank of Canada's full forecast round, so the pair will already have repriced on the quote leg before the base leg speaks. The base case is a hold at a delivered 2.50%, which means the language matters more than the decision: a hold framed as another pause sustains the terminal that the euro's rate-of-change case depends on, while a hold framed as data-dependent with softening wage commentary begins the 15-25bp downward repricing that is the base leg's own principal risk.",
+   "priced_in": "Partially",
+   "citations": [
+    2,
+    4,
+    5
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "event": "United States midterm elections",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Quote",
+   "rationale": "The only dated circuit-breaker for the Canadian tariff regime inside the strategic horizon, and therefore the largest single risk to the pair-bullish Event Risk contribution. Ottawa's own assessment is that no substantive talks resume before this date, and the mechanism by which the midterms would help is US domestic pressure from tariff-driven cost-of-living pain - American consumers absorbed more than US$231bn in tariff costs between February 2025 and January 2026, roughly US$1,745 per family. A credible negotiation restart would reprice the entire Canadian tariff premium at once rather than gradually.",
+   "priced_in": "Not priced",
+   "citations": [
+    20,
+    21
+   ]
+  },
+  {
+   "date": "2026-11-16",
+   "event": "Northern-hemisphere heating season begins in earnest: the physical test of the 62.99% EU gas storage level recorded 24 August (week-of marker, not a scheduled release)",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Base",
+   "rationale": "The highest-information event of the strategic horizon for the base leg and the one force capable of overturning the pair verdict without any central bank acting. EU storage at 62.99% on 24 August was well below historical averages against an effectively closed Strait of Hormuz carrying almost a fifth of global LNG trade, and Goldman Sachs has said current prices will not be enough for Europe to manage storage through winter with December TTF possibly needing to exceed EUR100/MWh. Every increment on TTF is a direct debit to the euro-area goods surplus and, in this cross, a direct credit to a Canadian dollar whose energy exports are tariff-exempt.",
+   "priced_in": "Not priced",
+   "citations": [
+    6,
+    7,
+    24
+   ]
+  },
+  {
+   "date": "2026-12-09",
+   "event": "Bank of Canada decision (fixed announcement date, no projection round)",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Quote",
+   "rationale": "The terminal date for the market's roughly 65% probability of a 2026 Canadian hike. National Bank and Scotiabank forecast 2.75% by this meeting; the other four large Canadian banks forecast no change. If the Bank has not moved by this date the entire 2026 hike premium is removed from the Canadian curve, which is worth an estimated 15-20bp on the two-year and is the mechanism by which the pair's largest strategic positive is realised. It precedes the ECB's December projections round by eight days.",
+   "priced_in": "Partially",
+   "citations": [
+    13,
+    22
+   ]
+  },
+  {
+   "date": "2026-12-17",
+   "event": "ECB Governing Council decision with new Eurosystem staff macroeconomic projections",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "The base leg's own downward test, and the reason the pair's Guidance factor is Bullish at only 52 confidence. This is the projection vintage in which 2026 energy base effects first come clearly into the 2027 and 2028 forecast window; a downward revision to the 2027 path removes the justification for the market's 2.75% terminal and reprices the euro strip lower, offsetting the Canadian repricing expected seven weeks earlier.",
+   "priced_in": "Not priced",
+   "citations": [
+    2,
+    4,
+    5
+   ]
+  },
+  {
+   "date": "2027-01-01",
+   "event": "United States tariffs on Canadian cars, trucks, automotive parts and steel rise to 50%",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Quote",
+   "rationale": "A dated, pre-announced escalation that extends the Canadian tariff regime well beyond the current US$20bn and 5.2% of bilateral exports, and strikes precisely the sector whose 27.0% annualised export surge drove Canada's Q2 GDP. Section 338 carries no expiry, so the escalation persists until a presidential proclamation removes it, and the Bank of Canada estimates approximately 2 million Canadian jobs depend on goods exports to the United States.",
+   "priced_in": "Not priced",
+   "citations": [
+    11,
+    20,
+    28
+   ]
+  }
+ ],
+ "invalidators": [
+  {
+   "condition": "EUR/CAD closes below 1.57941 - the base of the 3-touch 1.57941-1.59535 band and the only structurally relevant nearby floor - for three consecutive daily sessions",
+   "new_stance": "Bearish at both horizons",
+   "mechanism": "That band is the sole nearby structure between spot and the thin 2-touch zone at 1.56179-1.56678; below it the next meaningful cluster is the 4-touch 1.50676-1.51666 band 919 pips lower, so a break converts a range into an air pocket and removes the level structure the entire strategic path expectation is built on",
+   "monitor_indicator": "EUR/CAD daily close against 1.57941",
+   "monitor_frequency": "Daily",
+   "probability_pct": 20
+  },
+  {
+   "condition": "The Bank of Canada raises the overnight rate to 2.50% on 2026-10-28",
+   "new_stance": "Neutral strategically",
+   "mechanism": "Validates rather than unwinds the roughly 65% year-end hike pricing that Factor 1 and Factor 6 both fade, flips the bilateral policy differential from a prospective +25bp euro advantage to -25bp, and destroys the +0.1320 Policy contribution and the +0.0624 Guidance contribution simultaneously - 0.1944 of the strategic score, which alone takes it to -0.0918 and a Bearish label",
+   "monitor_indicator": "Bank of Canada overnight rate target and Canadian OIS-implied hike probability",
+   "monitor_frequency": "At each fixed announcement date, with pricing daily",
+   "probability_pct": 25
+  },
+  {
+   "condition": "EU gas storage fails to reach 75% by 1 November 2026 and front-month TTF closes above EUR100/MWh on a weekly basis",
+   "new_stance": "Bearish at both horizons",
+   "mechanism": "External Balance already contributes -0.1254 at a 0.19 weight and this is the specific scenario Goldman Sachs has flagged; at that level the euro-area goods surplus, already down EUR60bn, deteriorates fast enough to push the twelve-month current account below 1.0% of GDP while Canada's tariff-exempt energy complex captures the mirror-image revenue",
+   "monitor_indicator": "Aggregated Gas Storage Inventory EU fill level and ICE Dutch TTF front-month settlement",
+   "monitor_frequency": "Weekly",
+   "probability_pct": 25
+  },
+  {
+   "condition": "Formal United States-Canada trade negotiations restart before 2026-11-30",
+   "new_stance": "Neutral strategically",
+   "mechanism": "Section 338 duties are removable by presidential proclamation with no statutory process, so a credible restart reprices the entire Canadian tariff premium in a single move rather than gradually - removing the +0.0406 Event Risk contribution, undermining the Factor 2 growth-differential case, and plausibly triggering the remaining 131,035-contract Canadian speculative short into a dealer book already long 124,930",
+   "monitor_indicator": "USTR statements and Prime Minister's Office announcements",
+   "monitor_frequency": "Weekly",
+   "probability_pct": 25
+  },
+  {
+   "condition": "Canadian CPI-trim rises above 2.5% year on year at either the 2026-09-14 or the approximately 2026-10-20 release",
+   "new_stance": "Bearish at both horizons",
+   "mechanism": "The entire pair-bullish rate case rests on the observation that Canada's core is at target while the euro area's is at 2.5% with services at 3.3%; CPI-trim above 2.5% erases that differential, confirms the oil-broadening the Bank of Canada explicitly committed to responding to, and converts the market's 65% hike probability from a mispricing into a forecast",
+   "monitor_indicator": "Statistics Canada CPI-trim in the Bank of Canada core measures table",
+   "monitor_frequency": "Monthly",
+   "probability_pct": 20
+  },
+  {
+   "condition": "Brent crude closes above US$110 per barrel for two consecutive weekly settlements",
+   "new_stance": "Bearish at both horizons",
+   "mechanism": "The net commodity calculation for this cross is one-sided - oil up is a single negative for the euro as a large net importer and a double positive for Canada as an exporter with the energy complex carved out of the tariffs - so a 20%+ Brent extension fires the pair's largest negative factor at maximum intensity while also lifting Canadian headline CPI toward the level at which the Bank of Canada's hike pricing is validated",
+   "monitor_indicator": "ICE Brent front-month settlement",
+   "monitor_frequency": "Daily, assessed weekly",
+   "probability_pct": 15
+  },
+  {
+   "condition": "The OAT-Bund 10-year spread exceeds 120bp on a weekly close during the French 2027 budget process",
+   "new_stance": "Bearish strategically",
+   "mechanism": "Fiscal and Sovereign Risk is currently only mildly negative at -0.0350 on the premise that French risk is contained at 83.6bp; a move beyond 120bp reintroduces a fragmentation premium across the euro complex, constrains ECB hawkishness, and therefore attacks the +0.1320 Policy contribution and the -0.0350 Fiscal contribution at the same time",
+   "monitor_indicator": "French 10-year OAT yield minus German 10-year Bund yield",
+   "monitor_frequency": "Daily",
+   "probability_pct": 20
+  }
+ ],
+ "signposts": [
+  {
+   "indicator": "CA-DE 10-year government bond spread",
+   "current_level": "-45bp on the payload's consistent monthly basis (Germany 2.97%, Canada 3.42%, both 2026-06-01); approximately -44bp on live 31 August levels (Bund 3.29-3.30%, Canada 3.74%)",
+   "confirms_if": "Narrows inside -25bp and holds for ten consecutive sessions, indicating the Canadian term premium is compressing as hike pricing leaves the curve",
+   "invalidates_if": "Widens beyond -65bp, indicating Canadian yields are repricing higher on a genuine domestic tightening expectation",
+   "bilateral_importance": "With the policy differential at exactly 0bp, the long-end spread is the only rate signal this cross has - it matters more here than for any other euro or Canadian pair, because there is no front-end carry to swamp it",
+   "source": "https://tradingeconomics.com/canada/government-bond-yield",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "Market-implied probability of a 2026 Bank of Canada hike",
+   "current_level": "Approximately 65%, against a Bank of Canada Q2 2026 Market Participants Survey median of 2.25% through January 2027 and 2.50% only in March 2027",
+   "confirms_if": "Falls below 35%, confirming the market has converged to the Bank's own reaction function",
+   "invalidates_if": "Rises above 85%, or the Bank hikes on 2026-10-28",
+   "bilateral_importance": "This is the single largest identified mispricing in the pair and it is quote-leg-specific; because the euro leg's own repricing risk is not tested until 2026-12-17, seven weeks later, the Canadian probability determines the sequencing of the thesis, not just its direction",
+   "source": "https://www.bankofcanada.ca/publications/market-participants-survey/",
+   "frequency": "Daily for market pricing; quarterly for the survey"
+  },
+  {
+   "indicator": "EU gas storage fill level and Dutch TTF front-month price",
+   "current_level": "EU storage 62.99% at end of gas day 2026-08-24, well below historical averages; TTF above EUR70/MWh on 31 August 2026, the highest since January 2023",
+   "confirms_if": "Storage reaches 85% or above by 1 November with TTF below EUR55/MWh, removing the -0.1254 External Balance drag and leaving the +0.1320 Policy contribution unopposed",
+   "invalidates_if": "Storage below 75% on 1 November or TTF above EUR100/MWh on a weekly close",
+   "bilateral_importance": "Matters more for EUR/CAD than for almost any other euro cross because Canada is a net energy exporter with its energy complex explicitly exempt from the US tariffs - TTF strength is a one-sided debit to the base leg with a mirror-image credit to the quote leg, not true against sterling, the franc or the yen",
+   "source": "https://www.euronews.com/business/2026/08/31/european-natural-gas-price-tops-70-for-first-time-since-january-2023",
+   "frequency": "Storage daily, TTF continuously"
+  },
+  {
+   "indicator": "Canada CPI-trim (Bank of Canada preferred core measure)",
+   "current_level": "1.9% year on year (July 2026); CPI-median 2.0%; trim-median average exactly 2.0%, against euro-area HICPX at 2.5% and services at 3.3%",
+   "confirms_if": "Holds at or below 2.0% through the 2026-09-14 and approximately 2026-10-20 releases while euro-area core holds at or above 2.4%",
+   "invalidates_if": "Rises above 2.5%, erasing the roughly 50bp core differential that is the pair-relevant content of Factor 2",
+   "bilateral_importance": "The two headline rates are almost identical at 3.0% and 2.9-3.3%, so the entire inflation signal in this pair is compositional; CPI-trim against HICPX is the single comparison that separates the two reaction functions",
+   "source": "https://www150.statcan.gc.ca/n1/daily-quotidien/260817/dq260817a-eng.htm",
+   "frequency": "Monthly"
+  },
+  {
+   "indicator": "Brent crude front-month price",
+   "current_level": "US$90.135 on 2026-08-31, up 2.31% on the session; WTI US$85.446",
+   "confirms_if": "Falls below US$80 and holds for two consecutive weekly closes - removing both the terms-of-trade support and the headline-CPI basis for Canadian hike pricing",
+   "invalidates_if": "Sustains above US$100, forcing Canadian CPI-trim higher and validating the Bank of Canada's oil-broadening concern while deepening the euro area's import bill",
+   "bilateral_importance": "EUR/CAD is one of the few crosses where the oil direction rule is unambiguous in both legs at once - a single negative for the base and a double positive for the quote - so oil moves this pair with roughly twice the efficiency it moves EUR/GBP or EUR/CHF",
+   "source": "https://www.eia.gov/outlooks/steo/",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "Combined CFTC Canadian dollar speculative net as a share of open interest",
+   "current_level": "-131,035 contracts on 329,544 open interest = -39.8% net and 64.9% on gross shorts (2026-08-25), against the euro's -36,352 on 801,884 = -4.5%",
+   "confirms_if": "The Canadian ratio narrows inside -25% of open interest while EUR/CAD holds above 1.5995, indicating the short has covered without delivering a rally in the Canadian dollar - the signature of an exhausted squeeze",
+   "invalidates_if": "The Canadian short covers below -20% of open interest while EUR/CAD falls below 1.5940, confirming a genuine squeeze with follow-through",
+   "bilateral_importance": "Crowding must be read as a ratio for this pair, not a contract count, because Canadian open interest is 41% the size of the euro's; normalising for depth reveals a nine-to-one asymmetry that is the entire content of Factor 4",
+   "source": "https://www.cftc.gov/dea/futures/financial_lf.htm",
+   "frequency": "Weekly, Friday release with a Tuesday reference date"
+  },
+  {
+   "indicator": "EUR/CAD daily close against the compressed 50/100/200-day cluster (1.60941-1.61219)",
+   "current_level": "1.60356, below all three - 58 pips below the 200-day, 62 below the 100-day, 86 below the 50-day, with only 27.8 pips separating the three averages",
+   "confirms_if": "Three consecutive daily closes above 1.61219, restoring the pair to the upper half of the 4-touch 1.6024-1.6155 band and re-engaging the nominally bullish MA stack that currently has no participation",
+   "invalidates_if": "Three consecutive daily closes below 1.59535, the top of the only relevant nearby support band",
+   "bilateral_importance": "Because this is the lowest-drift, zero-carry cross in either complex, systematic and trend-following participation is the marginal flow that turns a fundamental edge into a price move; here it is close to the only mechanical support available to the strategic Bullish",
+   "source": "derived from the gated price store (see Assumptions)",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "EU gas storage entering November against the 2026-10-28 Bank of Canada Monetary Policy Report",
+   "current_level": "Storage 62.99% (24 August); Bank of Canada 2026 GDP projection 0.7%; Canadian OIS pricing roughly 65% of a 2026 hike",
+   "confirms_if": "The October MPR revises 2026 Canadian GDP below 0.7% or second-half inflation below 2.5% and EU storage is tracking above 80% into November - the combination in which the largest positive fires while the largest negative fades",
+   "invalidates_if": "The MPR is neutral-to-hawkish or the Bank hikes and storage is tracking below 75% - the combination in which both large factors turn against the pair simultaneously",
+   "bilateral_importance": "This is the paired signpost that captures the whole thesis, because the pair's strategic score of +0.1026 is the residual of a +0.1320 Policy contribution and a -0.1254 External Balance contribution that very nearly cancel; neither variable alone determines the outcome, and they resolve within three weeks of each other",
+   "source": "https://www.bankofcanada.ca/publications/mpr/mpr-2026-07-15/",
+   "frequency": "Storage weekly; MPR at the scheduled date"
+  }
+ ],
+ "assumptions": [
+  "Direction provenance: this is pass 2 of 2. The ten factor stances, confidences, evidence types, applied weights, weighted contributions, net scores, convictions, rationales, G10 rankings and cross-horizon assessment are carried unchanged from the settled Direction Verdict, which was scored without the price payload by design. Everything price-derived (Market Context, Bilateral Carry Analysis, scenarios, targets, path expectation, conviction ladders, risk/reward, forward-versus-spot, invalidator levels and signpost thresholds) is this pass's own work.",
+  "Price payload provenance: the gated append-only store delivered 130 data points spanning 2026-03-06 to 2026-09-03, with spot 1.60356 at spotDate 2026-09-03 and 0 weekend bars dropped. Data-quality notes disclose that only 2 resistance and 7 support zones met the 2-touch threshold, and that moving averages, zones, 52-week range, performance figures and 200-week statistics are computed over the whole stored history from 2008-08-26 (4,697 weekday bars), not over the 130 bars shown.",
+  "Spot date versus valuation date: the payload's spotDate of 2026-09-03 is two trading days after the 2026-09-01 valuation date. The 2026-09-02 Bank of Canada decision falls inside that gap; its price effect (a 67-pip decline on a 113-pip range) is described as price action, but the policy outcome itself was not in pass 1's evidence set and is not asserted anywhere in this report.",
+  "Moving-average basis: all moving averages are simple averages of trading-day closes on a weekday-only series. The 200-week average at 1.51972 with a slope of +0.001558 per week is treated as a first-class structural level given spot has closed above it every recorded week.",
+  "Volatility provenance and known bias: EUR/CAD has no listed option; implied volatilities are triangle realised-correlation estimates at implied correlation 0.7331, not quotes, and the payload's own back-check found the method understating direct Eurex quotes by 8.7-17.8% (14.4% median across seventeen pairs). Every quoted implied level is treated as a floor. No IV percentile, 25-delta risk reversal or butterfly exists for this cross.",
+  "Carry and forward derivation: the policy differential is exactly 0bp. The -34.2bp annualised roll premium is the listed-futures roll (interest differential plus cross-currency basis) and is never reported as a policy differential. Forward outrights are derived by applying that premium linearly to spot; no quoted forward points for this cross were available.",
+  "Rate block basis: both 10-year yields in the payload are monthly series as of 2026-06-01 and are never quoted as live levels; the computed differential is corroborated by live 31 August levels each dossier carries independently.",
+  "Support and resistance methodology: zones are taken exactly as computed by the payload from clustered weekly and monthly swing closes, ranked by touch count rather than proximity; the payload's disclosure of a resistance shortfall (2 zones vs 7 support zones) is honoured rather than concealed. No web-sourced support or resistance level is used anywhere.",
+  "Bilateral trade: IMF DOTS goods only, 2024 annual, used exactly as supplied without re-estimation; the $16.9bn euro-area net goods surplus with Canada excludes services, investment income and portfolio flows and is weighed as a level rather than a rate of change.",
+  "Bilateral web research limits: forecast sources located are aggregator compilations rather than primary bank research and are treated as best-available; no pair-specific option barrier data, risk reversal, vol surface or cross-currency basis for EUR/CAD could be sourced and each is recorded as a documented gap. Extrapolation-script forecast sites were deliberately excluded from the citation list as a category error rather than evidence.",
+  "Bilateral investment flows: no quantified EU-Canada portfolio or FDI flow series was sourced; the qualitative CETA investment-regime development is structurally relevant but is a multi-year dynamic with no dated trigger inside either horizon and is not scored.",
+  "Probability estimates: all scenario probabilities, invalidator probabilities and tail assessments are structured judgements, not market-implied figures; each scenario set sums to 100%. The roughly 25% probability assigned to a 2026 Bank of Canada hike against a market-implied 65% is inherited from the quote dossier and is labelled at each point of use.",
+  "Citation numbering: citations 1-29 are inherited from the direction verdict's own verified reference list carrying 2026-09-01 access dates; citations 30 and above are new to this pass and were accessed on 2026-09-04."
+ ],
+ "complete_citations": [
+  {
+   "id": 1,
+   "title": "Annual inflation up to 2.9% in the euro area - July 2026 HICP",
+   "publisher": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-19082026-ap",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 2,
+   "title": "Account of the monetary policy meeting of 22-23 July 2026",
+   "publisher": "European Central Bank",
+   "url": "https://www.ecb.europa.eu/press/accounts/2026/html/ecb.mg260827~f06c21fd54.en.html",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 3,
+   "title": "Monetary policy decisions, 11 June 2026",
+   "publisher": "European Central Bank",
+   "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260611~4d41bd5e83.en.html",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 4,
+   "title": "Eurosystem staff macroeconomic projections for the euro area, June 2026",
+   "publisher": "European Central Bank",
+   "url": "https://www.ecb.europa.eu/press/projections/html/ecb.projections202606_eurosystemstaff~a495110f8d.en.html",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 5,
+   "title": "New data release: ECB wage tracker points to stable negotiated wage pressures in 2026",
+   "publisher": "European Central Bank",
+   "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260617~79dfc49802.en.html",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 6,
+   "title": "Euro area monthly balance of payments: June 2026",
+   "publisher": "European Central Bank",
+   "url": "https://www.ecb.europa.eu/press/stats/bop/2026/html/ecb.bp260819~df1712eb4a.en.html",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 7,
+   "title": "European natural gas price tops EUR70 for the first time since January 2023",
+   "publisher": "Euronews",
+   "url": "https://www.euronews.com/business/2026/08/31/european-natural-gas-price-tops-70-for-first-time-since-january-2023",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 8,
+   "title": "Europe's gas prices are surging. Who will be the first to pay more?",
+   "publisher": "Euronews",
+   "url": "https://www.euronews.com/business/2026/08/26/europes-gas-prices-are-surging-who-will-be-the-first-to-pay-more",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 9,
+   "title": "S&P Global Eurozone Composite PMI - August 2026",
+   "publisher": "S&P Global",
+   "url": "https://www.pmi.spglobal.com/Public/Home/PressRelease/96fc596680084e9b86502a39ca84c6b8",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 10,
+   "title": "Euro: Inflation test for ECB hike odds - BNY",
+   "publisher": "FXStreet",
+   "url": "https://www.fxstreet.com/news/euro-inflation-test-for-ecb-hike-odds-bny-202608310739",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 11,
+   "title": "Bank of Canada maintains the policy rate at 2 1/4%",
+   "publisher": "Bank of Canada",
+   "url": "https://www.bankofcanada.ca/2026/07/fad-press-release-2026-07-15/",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 12,
+   "title": "Summary of Governing Council deliberations: Fixed announcement date of July 15, 2026",
+   "publisher": "Bank of Canada",
+   "url": "https://www.bankofcanada.ca/2026/07/summary-of-governing-council-deliberations-fixed-announcement-date-of-july-15-2026/",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 13,
+   "title": "Market Participants Survey - Second Quarter of 2026",
+   "publisher": "Bank of Canada",
+   "url": "https://www.bankofcanada.ca/2026/07/market-participants-survey-second-quarter-of-2026/",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 14,
+   "title": "The Daily - Consumer Price Index, July 2026",
+   "publisher": "Statistics Canada",
+   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260817/dq260817a-eng.htm",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 15,
+   "title": "The Daily - Gross domestic product, income and expenditure, second quarter 2026",
+   "publisher": "Statistics Canada",
+   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260828/dq260828a-eng.htm",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 16,
+   "title": "The Daily - Canada's balance of international payments, second quarter 2026",
+   "publisher": "Statistics Canada",
+   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260827/dq260827a-eng.htm",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 17,
+   "title": "The Daily - Labour Force Survey, July 2026",
+   "publisher": "Statistics Canada",
+   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260807/dq260807a-eng.htm",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 18,
+   "title": "The Daily - Canadian international merchandise trade, June 2026",
+   "publisher": "Statistics Canada",
+   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260804/dq260804a-eng.htm",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 19,
+   "title": "Commitments of Traders: Traders in Financial Futures, Futures Only, 25 August 2026",
+   "publisher": "U.S. Commodity Futures Trading Commission",
+   "url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 20,
+   "title": "Canada-US Trade War Locks In Sept. 8 Retaliation: No Deal Expected Before Midterms",
+   "publisher": "Tech Times",
+   "url": "https://www.techtimes.com/articles/325352/20260824/canada-us-trade-war-locks-sept-8-retaliation-no-deal-expected-before-midterms.htm",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 21,
+   "title": "Trump imposes new 50 per cent levy on Canadian goods",
+   "publisher": "CBC News",
+   "url": "https://www.cbc.ca/news/canada/canada-us-tariffs-trump-imposes-new-50-per-cent-levy-on-canadian-goods-august-22-9.7311417",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 22,
+   "title": "Bank of Canada Holds Wednesday; Two Banks Forecast October Hike",
+   "publisher": "Tech Times",
+   "url": "https://www.techtimes.com/articles/326070/20260831/bank-canada-holds-wednesday-two-banks-forecast-october-hike-lock-wait.htm",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 23,
+   "title": "Canada 10-Year Government Bond Yield and cross-asset market table",
+   "publisher": "Trading Economics",
+   "url": "https://tradingeconomics.com/canada/government-bond-yield",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 24,
+   "title": "Short-Term Energy Outlook",
+   "publisher": "U.S. Energy Information Administration",
+   "url": "https://www.eia.gov/outlooks/steo/",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 25,
+   "title": "Markets see Warsh endorsing a rate hike in September. Not everyone is convinced",
+   "publisher": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/31/markets-see-warsh-endorsing-a-rate-hike-in-september-not-everyone-is-convinced.html",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 26,
+   "title": "Fitch Keeps France's A+ Credit Rating Stable Despite Fiscal, Political Risks",
+   "publisher": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-08-28/france-dodges-rating-rebuke-as-fitch-sticks-with-stable-outlook",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 27,
+   "title": "Annex 3: Debt management strategy, Spring Economic Update 2026",
+   "publisher": "Department of Finance Canada",
+   "url": "https://budget.canada.ca/update-miseajour/2026/report-rapport/anx3-en.html",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 28,
+   "title": "EUR/CAD price and derivatives payload - implied volatility surface, funding premium and rate block (gated append-only store)",
+   "publisher": "Internal pipeline: Data-Cache/derived/fx_iv.csv and fx_carry.csv",
+   "url": "https://www.cmegroup.com/markets/fx/g10/canadian-dollar.html",
+   "date_accessed": "2026-09-03"
+  },
+  {
+   "id": 29,
+   "title": "Direction of Trade Statistics - bilateral goods trade, EUR-CAD, 2024",
+   "publisher": "International Monetary Fund",
+   "url": "https://data.imf.org/en/datasets/IMF.STA:DOT",
+   "date_accessed": "2026-09-01"
+  },
+  {
+   "id": 30,
+   "title": "Canadian Dollar Forecast September 2026: FX Rates & Bank Outlook",
+   "publisher": "MTFX Group",
+   "url": "https://www.mtfxgroup.com/fx-forecast/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 31,
+   "title": "EUR to CAD 2026 Forecasts & Latest Rates",
+   "publisher": "BestExchangeRates",
+   "url": "https://bestexchangerates.com/forecasts/eur-to-cad-forecast/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 32,
+   "title": "Euro to Canadian Dollar Forecast 2026",
+   "publisher": "Exchange Rates UK",
+   "url": "https://www.exchangerates.org.uk/currency-forecasts/euro-to-canadian-dollar-forecast",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 33,
+   "title": "Canadian Dollar to Euro Forecast 2026",
+   "publisher": "Exchange Rates UK",
+   "url": "https://www.exchangerates.org.uk/currency-forecasts/canadian-dollar-to-euro-forecast",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 34,
+   "title": "EUR/CAD Trade Ideas",
+   "publisher": "TradingView",
+   "url": "https://www.tradingview.com/symbols/EURCAD/ideas/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 35,
+   "title": "Technical Analysis of Euro / Canadian Dollar",
+   "publisher": "TradingView",
+   "url": "https://www.tradingview.com/symbols/EURCAD/technicals/",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 36,
+   "title": "EURCAD Technical Analysis for Euro/Canadian Dollar Forex",
+   "publisher": "Barchart",
+   "url": "https://www.barchart.com/forex/quotes/%5EEURCAD/technical-analysis",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 37,
+   "title": "CETA's investment regime picks up steam",
+   "publisher": "Torys LLP",
+   "url": "https://www.torys.com/our-latest-thinking/publications/2026/03/ceta-investment-regime-picks-up-steam",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 38,
+   "title": "Joint statement - Driving shared prosperity: Boosting EU-Canada trade through CETA",
+   "publisher": "Global Affairs Canada",
+   "url": "https://www.international.gc.ca/trade-commerce/trade-agreements-accords-commerciaux/agr-acc/ceta-aecg/2026-03-05-statement-declaration.aspx?lang=eng",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 39,
+   "title": "EU-Canada agreement explained",
+   "publisher": "European Commission, DG Trade",
+   "url": "https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/canada/eu-canada-agreements/agreement-explained_en",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 40,
+   "title": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA)",
+   "publisher": "Global Affairs Canada",
+   "url": "https://www.international.gc.ca/trade-commerce/trade-agreements-accords-commerciaux/agr-acc/ceta-aecg/index.aspx?lang=eng",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 41,
+   "title": "CETA's investment regime picks up steam",
+   "publisher": "Lexology",
+   "url": "https://www.lexology.com/library/detail.aspx?g=dcb9924d-7149-4a5b-90a9-8eea81c2d8be",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 42,
+   "title": "Forex - Economics and Strategy, July 2026",
+   "publisher": "National Bank of Canada",
+   "url": "https://www.nbc.ca/content/dam/bnc/taux-analyses/analyse-eco/mensuel/forex.pdf",
+   "date_accessed": "2026-09-04"
+  },
+  {
+   "id": 43,
+   "title": "EUR to CAD Forecast (August 2026)",
+   "publisher": "MoneyTransfers.com",
+   "url": "https://moneytransfers.com/currency-transfer/eur-to-cad-forecast",
+   "date_accessed": "2026-09-04"
+  }
+ ]
+}

@@ -1,0 +1,581 @@
+{
+  "review_date": "2026-09-13",
+  "review_number": 1,
+  "days_since_analysis": 12,
+  "cycle": "2026-09-01",
+  "portfolio_pnl_pips": 1906,
+  "profitable_count": 8,
+  "total_tracked": 10,
+  "universe_count": 31,
+  "positions": {
+    "GBP/USD": {
+      "tracked": true,
+      "rank": 1,
+      "direction": "Short",
+      "status": "stalling",
+      "entry": 1.3549,
+      "current": 1.3526,
+      "pnl_pips": 23,
+      "tactical_target": 1.335,
+      "pct_to_target": 11.6,
+      "narrative": "The pair sold off to 1.34841 on 2 September in the gilt rout, then ground back to 1.35469 on 9 September and closed 1.35260 — a 63-pip closing range over twelve days. The US leg strengthened (payrolls +162K on 4 September, core CPI +0.3% m/m on 11 September, hike odds 60.6%), but Pill's reported backing of a September BoE hike on 7 September undercuts the '+7bp priced, no change all year' premise behind the 16-17 September sign flip.",
+      "flags": [
+        "thesis_weakening"
+      ],
+      "invalidator_status": {
+        "The FOMC holds the target range at 3.50-3.75% on 16 September": "Watch — roughly 60.6% priced for a hike as of 8 September, with above 85% for at least one hike before year-end",
+        "Three consecutive daily closes above 1.36044": "Clear — highest close 1.35469 on 9 September, 58 pips below the trigger"
+      }
+    },
+    "EUR/GBP": {
+      "tracked": true,
+      "rank": 2,
+      "direction": "Long",
+      "status": "stalling",
+      "entry": 0.85748,
+      "current": 0.85753,
+      "pnl_pips": 0,
+      "tactical_target": 0.8665,
+      "pct_to_target": 0.6,
+      "narrative": "Twelve days have produced half a pip of spot and cost roughly 4.2 pips of carry, with every close between 0.85753 and 0.85965. The ECB delivered the 10 September 25bp hike to a 2.50% deposit rate effective 16 September and futures price a third hike by December, so the euro-leg invalidator is further away — but sterling repriced hawkish at the same pace, so the cross went nowhere.",
+      "flags": [
+        "thesis_weakening",
+        "carry_drag"
+      ],
+      "invalidator_status": {
+        "Euro-area OIS terminal pricing falls below 2.50% after 10 September": "Clear — ECB raised the deposit rate to 2.50% on 10 September and futures price a third hike by December",
+        "The 17 September MPC vote hardens to 5-4 for a hike, or the BoE raises Bank Rate on 5 November": "Watch — Chief Economist Pill reported on 7 September as backing a September hike; the 17 September vote split is untested"
+      }
+    },
+    "SGD/CHF": {
+      "tracked": true,
+      "rank": 3,
+      "direction": "Long",
+      "status": "invalidated",
+      "entry": 0.63593,
+      "current": 0.64438,
+      "pnl_pips": 84,
+      "tactical_target": 0.644,
+      "pct_to_target": 104.7,
+      "narrative": "Seven up-closes in nine sessions carried the pair through the 0.6440 tactical objective in twelve calendar days, closing 0.64438 on 11 September. The named SNB invalidator has nonetheless fired on a literal reading: after Swiss August CPI at 0.8% y/y versus 0.5% consensus, swaps fully price a first 25bp hike to 0.25% by June 2027, inside the four-quarter window, even as the franc remains the worst-performing G10 currency this quarter.",
+      "flags": [
+        "invalidator_triggered"
+      ],
+      "invalidator_status": {
+        "MAS leaves the S$NEER slope unchanged on 14 October with no hawkish January reference, and the pair closes below 0.6303 within ten sessions": "Watch — 45% of MAS survey forecasters now expect a steeper October slope versus 30% in June, and spot at 0.64438 sits 141 pips above 0.6303",
+        "The market prices a first SNB hike inside four quarters": "TRIGGERED — swaps fully price a first 25bp hike to 0.25% in June 2027 as of 3 September, after August CPI at 0.8% y/y against 0.5% expected"
+      }
+    },
+    "NZD/USD": {
+      "tracked": true,
+      "rank": 4,
+      "direction": "Short",
+      "status": "on_track",
+      "entry": 0.59164,
+      "current": 0.58135,
+      "pnl_pips": 103,
+      "tactical_target": 0.5825,
+      "pct_to_target": 112.6,
+      "narrative": "The 0.5825 tactical target was taken out, with a low close of 0.57964 on 10 September and 0.58135 on 11 September. The 2 September RBNZ statement read softer than priced — the kiwi fell to US58.42c and the two-year swap dropped 8bp — while the Fed leg firmed on payrolls and core CPI; carry paid to the short narrowed from −112bp to −87bp with the RBNZ hike.",
+      "flags": [],
+      "invalidator_status": {
+        "The FOMC holds the target range at 3.50-3.75% on 16 September": "Watch — roughly 60.6% priced for a hike as of 8 September",
+        "Leveraged funds flip from a 31,994-contract short to net long while the pair fails at 0.59413": "Clear — no close above 0.58913 since 1 September and no CFTC positioning update found"
+      }
+    },
+    "GBP/AUD": {
+      "tracked": true,
+      "rank": 5,
+      "direction": "Short",
+      "status": "stalling",
+      "entry": 1.89043,
+      "current": 1.88621,
+      "pnl_pips": 42,
+      "tactical_target": 1.856,
+      "pct_to_target": 12.3,
+      "narrative": "Five consecutive down-sessions to 1.87571 on 7 September (+147 pips on the position) were two-thirds surrendered in a single 113-pip snap-back to 1.88800 on 10 September. The Australian half has over-delivered — RBA September hike pricing went from 17% pre-CPI to roughly 80% by 6 September with four houses moving to hike calls — but sterling stabilised near $1.354 after the gilt rout instead of extending lower.",
+      "flags": [],
+      "invalidator_status": {
+        "Iron ore breaks below US$93.66 for five consecutive settlements while the pair holds above 1.86403": "Clear — iron ore US$99.57 on 4 September and US$100.02 on 8 September, above the US$93.66 trigger",
+        "RBA hike probability falls below 25%, or the Board removes the conditional hiking sentence": "Clear — pricing at roughly 74-80% as of 6-9 September"
+      }
+    },
+    "USD/SGD": {
+      "tracked": true,
+      "rank": 6,
+      "direction": "Long",
+      "status": "offside",
+      "entry": 1.27117,
+      "current": 1.26706,
+      "pnl_pips": -41,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "The only outright loser in the top ten, closing 1.26706 on 11 September after a 1.26431 low on 9 September. The Singapore dollar appreciated against five of six counterparts, so the tactically-long, strategically-short contradiction the executive summary flagged has cost money exactly where it was flagged.",
+      "flags": [
+        "thesis_weakening"
+      ],
+      "invalidator_status": {
+        "MAS holds the S$NEER slope unchanged in October": "Watch — 45% of MAS survey forecasters expect a steeper slope at the 14 October review, up from 30% in June"
+      }
+    },
+    "GBP/JPY": {
+      "tracked": true,
+      "rank": 7,
+      "direction": "Short",
+      "status": "on_track",
+      "entry": 216.42682,
+      "current": 207.66521,
+      "pnl_pips": 876,
+      "tactical_target": 208.5,
+      "pct_to_target": 110.5,
+      "narrative": "The largest move in the book: −250 pips on 2 September and −331 on 3 September on Takata's back-to-back-hike comments and Bessent's intervention remark, an unbroken slide to 208.02 by 9 September and 207.66521 on 11 September, clearing the 208.50 tactical target in seven sessions. Swaps now price roughly 84% for a move to 1.25% on 18 September and Nomura has floated three consecutive hikes through December — but the position pays 275bp to wait, 19.6 pips over the twelve days held.",
+      "flags": [
+        "carry_drag"
+      ],
+      "invalidator_status": {
+        "The Bank of England raises Bank Rate to 4.00% on 5 November while the BoJ stays at 1.25%": "Watch — BoJ roughly 84% priced for 1.25% on 18 September; the 17 September BoE vote is untested",
+        "The pair fails to close below 209.42 within ten sessions of a delivered BoJ hike": "Clear — already closed 207.66521 on 11 September, 176 pips below the level and ahead of the meeting"
+      }
+    },
+    "AUD/NZD": {
+      "tracked": true,
+      "rank": 8,
+      "direction": "Long",
+      "status": "on_track",
+      "entry": 1.21137,
+      "current": 1.23354,
+      "pnl_pips": 222,
+      "tactical_target": 1.234,
+      "pct_to_target": 98,
+      "narrative": "A 128-pip gap on the 2 September RBNZ statement, then steady accumulation to 1.23641 on 9 September and 1.23354 on 11 September — five pips short of the 1.2340 tactical target and the strongest level since April 2013. The two banks diverged faster than either published path implied, and the differential moved from +185bp at entry to the +160bp the original write-up had already marked.",
+      "flags": [],
+      "invalidator_status": {
+        "NZ-AU two-year spread compresses inside −80bp and holds for five sessions": "Clear — policy differential still −160bp and the NZ two-year swap fell a further 8bp after the 2 September decision",
+        "RBNZ hikes on 28 October and the RBA does not match on 3 November": "Clear — RBNZ 28 October now carries 88% market-implied odds of no change"
+      }
+    },
+    "EUR/SGD": {
+      "tracked": true,
+      "rank": 9,
+      "direction": "Short",
+      "status": "on_track",
+      "entry": 1.47676,
+      "current": 1.46963,
+      "pnl_pips": 71,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Steady progress to a 1.46963 close on 11 September, with the Singapore dollar appreciating despite the 10 September ECB hike to a 2.50% deposit rate — the mechanical band appreciation outweighing the euro's rate catalyst.",
+      "flags": [],
+      "invalidator_status": {
+        "MAS holds the S$NEER slope unchanged in October": "Watch — 45% of MAS survey forecasters expect a steeper slope at the 14 October review, up from 30% in June"
+      }
+    },
+    "NZD/JPY": {
+      "tracked": true,
+      "rank": 10,
+      "direction": "Short",
+      "status": "on_track",
+      "entry": 94.51248,
+      "current": 89.24979,
+      "pnl_pips": 526,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Both legs delivered: the RBNZ's flat 2 September track pushed the kiwi to US58.42c while the yen rallied on Takata's 2 September comments and the 8 September wage and GDP beats, taking the pair to 89.24979 on 11 September. With GBP/JPY it accounts for 1,402 pips, 74% of the top-ten total, and it pays +175bp against the short while waiting.",
+      "flags": [
+        "carry_drag"
+      ],
+      "invalidator_status": {
+        "Fails to close below the 200-week average": "Clear — the pair has fallen 526 pips from 94.51248 to 89.24979 with no failed break observed"
+      }
+    },
+    "AUD/USD": {
+      "tracked": false,
+      "rank": 11,
+      "direction": "Short",
+      "status": "offside",
+      "entry": 0.71669,
+      "current": 0.71711,
+      "pnl_pips": -4,
+      "tactical_target": 0.708,
+      "pct_to_target": -4.8,
+      "narrative": "The pair rallied to 0.72193 on 7 September, 11.5 pips short of the 0.72308 first invalidator, before hot US core CPI on 11 September pulled it back to 0.71711 — leaving the short 4 pips offside, as the RBA repriced roughly 63 points in ten days against roughly 16 on the Fed leg.",
+      "flags": [
+        "approaching_invalidator",
+        "thesis_weakening"
+      ],
+      "invalidator_status": {
+        "Daily close above 0.72308 followed by a close above the 52-week closing high of 0.72584": "Watch — highest close 0.72193 on 7 September, 11.5 pips below the first level",
+        "Three-month 25-delta risk reversal narrows to better than −0.25% from −0.638%": "Clear — no updated reading found; last known −0.638% against a −0.25% trigger"
+      }
+    },
+    "USD/CHF": {
+      "tracked": false,
+      "rank": 12,
+      "direction": "Long",
+      "status": "on_track",
+      "entry": 0.8084,
+      "current": 0.81645,
+      "pnl_pips": 81,
+      "tactical_target": 0.818,
+      "pct_to_target": 83.9,
+      "narrative": "Closed 0.81645 on 11 September, 84% of the way to the 0.8180 tactical target, as the franc stayed the worst-performing G10 currency despite Swiss August CPI at 0.8% y/y and the dollar firmed on payrolls and core CPI.",
+      "flags": [],
+      "invalidator_status": {
+        "The FOMC holds the target range at 3.50-3.75% on 16 September": "Watch — roughly 60.6% priced for a hike as of 8 September",
+        "The SNB removes or softens its intervention language on 24 September or 10 December": "Watch — the 24 September assessment is pending; swaps price a first SNB hike only by June 2027"
+      }
+    },
+    "AUD/SGD": {
+      "tracked": false,
+      "rank": 13,
+      "direction": "Long",
+      "status": "offside",
+      "entry": 0.91119,
+      "current": 0.90858,
+      "pnl_pips": -26,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Down 26 pips to 0.90858 on 11 September: the Singapore dollar's band appreciation beat the RBA repricing, so the pair's tactical-long, strategic-short contradiction resolved against the tactical leg.",
+      "flags": [
+        "thesis_weakening"
+      ],
+      "invalidator_status": {
+        "MAS holds the S$NEER slope unchanged in October": "Watch — 45% of MAS survey forecasters expect a steeper slope at the 14 October review, up from 30% in June"
+      }
+    },
+    "CAD/SGD": {
+      "tracked": false,
+      "rank": 14,
+      "direction": "Short",
+      "status": "on_track",
+      "entry": 0.91762,
+      "current": 0.91338,
+      "pnl_pips": 42,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "The short gained 42 pips to 0.91338 as the Bank of Canada held for a seventh time on 2 September and the Singapore dollar appreciated across the complex.",
+      "flags": [],
+      "invalidator_status": {
+        "MAS holds the S$NEER slope unchanged in October": "Watch — 45% of MAS survey forecasters expect a steeper slope at the 14 October review, up from 30% in June"
+      }
+    },
+    "EUR/JPY": {
+      "tracked": false,
+      "rank": 15,
+      "direction": "Long",
+      "status": "at_risk",
+      "entry": 185.58582,
+      "current": 178.06951,
+      "pnl_pips": -752,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Down 752 pips to 178.06951 as the yen repriced on Takata's 2 September remarks and the 8 September wage and GDP beats — the horizon contradiction the cross-pair consistency check flagged has resolved against the tactical long.",
+      "flags": [
+        "thesis_weakening"
+      ],
+      "invalidator_status": {
+        "EUR-JPY differential compresses to 100bp": "Clear — the differential is still 125bp at the 11 September close, though the 18 September BoJ meeting is roughly 84% priced to narrow it"
+      }
+    },
+    "EUR/CHF": {
+      "tracked": false,
+      "rank": 16,
+      "direction": "Long",
+      "status": "on_track",
+      "entry": 0.93914,
+      "current": 0.94701,
+      "pnl_pips": 79,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Up 79 pips to 0.94701 on 11 September, with the ECB's 10 September hike widening the differential against a franc that failed to rally on an upside CPI surprise.",
+      "flags": [],
+      "invalidator_status": {
+        "ECB signals cycle complete on 10 September": "Clear — the ECB raised rates 25bp on 10 September and futures now price a third hike by December"
+      }
+    },
+    "USD/CAD": {
+      "tracked": false,
+      "rank": 17,
+      "direction": "Long",
+      "status": "stalling",
+      "entry": 1.38554,
+      "current": 1.38725,
+      "pnl_pips": 17,
+      "tactical_target": 1.393,
+      "pct_to_target": 22.9,
+      "narrative": "Only 17 pips of progress: the pair traded down to 1.37835 on 8 September, within 49 pips of the 1.37346 weekly-close invalidator, with Brent near $99.36 supporting the loonie before recovering to 1.38725 on 11 September.",
+      "flags": [
+        "approaching_invalidator"
+      ],
+      "invalidator_status": {
+        "The FOMC holds the target range at 3.50-3.75% on 16 September": "Watch — roughly 60.6% priced for a hike as of 8 September",
+        "Weekly close below the 200-week average at 1.37346": "Watch — 8 September close of 1.37835 came within 49 pips of the level; latest close 1.38725"
+      }
+    },
+    "CAD/CHF": {
+      "tracked": false,
+      "rank": 18,
+      "direction": "Long",
+      "status": "on_track",
+      "entry": 0.58345,
+      "current": 0.58857,
+      "pnl_pips": 51,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Up 51 pips to 0.58857 on franc weakness rather than Canadian strength, with the 8 September Canadian retaliatory tariffs passing with muted effect.",
+      "flags": [],
+      "invalidator_status": {
+        "SNB softens intervention language": "Watch — the 24 September quarterly assessment is pending; swaps price a first SNB hike only by June 2027"
+      }
+    },
+    "GBP/CAD": {
+      "tracked": false,
+      "rank": 19,
+      "direction": "Short",
+      "status": "stalling",
+      "entry": 1.87719,
+      "current": 1.87634,
+      "pnl_pips": 9,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Nine pips in twelve days: sterling's gilt-driven weakness faded and the loonie was supported by Brent near $99.36, leaving the pair at 1.87634 on 11 September.",
+      "flags": [],
+      "invalidator_status": {
+        "Close below 1.82836 then failure to reclaim": "Clear — lowest close 1.86543 on 3 September, 371 pips above the level"
+      }
+    },
+    "AUD/JPY": {
+      "tracked": false,
+      "rank": 20,
+      "direction": "Short",
+      "status": "on_track",
+      "entry": 114.4891,
+      "current": 110.09131,
+      "pnl_pips": 440,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Down 440 pips to 110.09131 on 11 September as the yen carry unwind overwhelmed the RBA repricing to roughly 80%, though the short pays 335bp to wait.",
+      "flags": [
+        "carry_drag"
+      ],
+      "invalidator_status": {
+        "AU-JP differential still ≥335bp after December": "Watch — the differential remains 335bp at 11 September, with the 18 September BoJ meeting roughly 84% priced to narrow it"
+      }
+    },
+    "AUD/CAD": {
+      "tracked": false,
+      "rank": 21,
+      "direction": "Long",
+      "status": "stalling",
+      "entry": 0.99304,
+      "current": 0.99479,
+      "pnl_pips": 17,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Seventeen pips of gain to 0.99479, with the RBA repricing to roughly 80% offset by Brent near $99.36 supporting the Canadian dollar.",
+      "flags": [],
+      "invalidator_status": {
+        "Iron-ore-to-Brent ratio falls below 1.00": "Watch — iron ore US$100.02 on 8 September against Brent US$99.36 on 9 September, a ratio of roughly 1.01"
+      }
+    },
+    "CAD/JPY": {
+      "tracked": false,
+      "rank": 22,
+      "direction": "Short",
+      "status": "on_track",
+      "entry": 115.29739,
+      "current": 110.67426,
+      "pnl_pips": 462,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Down 462 pips to 110.67426, the yen repricing doing all the work while the Bank of Canada sat out the fortnight after its 2 September hold.",
+      "flags": [
+        "carry_drag"
+      ],
+      "invalidator_status": {
+        "Close above 114.560 for three sessions": "Clear — only two consecutive closes above the level (115.27598 on 1 September, 114.64753 on 2 September) before the drop to 110.67426"
+      }
+    },
+    "AUD/CHF": {
+      "tracked": false,
+      "rank": 23,
+      "direction": "Long",
+      "status": "on_track",
+      "entry": 0.57936,
+      "current": 0.58549,
+      "pnl_pips": 61,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Up 61 pips to 0.58549, with hawkish RBA repricing to roughly 80% on one side and the quarter's weakest G10 currency on the other.",
+      "flags": [],
+      "invalidator_status": {
+        "RBA hike probability falls below 25%": "Clear — pricing at roughly 74-80% as of 6-9 September, up from 17% before the 26 August CPI"
+      }
+    },
+    "GBP/CHF": {
+      "tracked": false,
+      "rank": 24,
+      "direction": "Long",
+      "status": "on_track",
+      "entry": 1.09526,
+      "current": 1.10432,
+      "pnl_pips": 91,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Up 91 pips to 1.10432 — franc weakness beat sterling weakness, making this the best-performing of the five sterling pairs outside GBP/JPY.",
+      "flags": [],
+      "invalidator_status": {
+        "Two daily closes below 1.08490": "Clear — lowest close 1.09224 on 3 September, 73 pips above the level"
+      }
+    },
+    "EUR/USD": {
+      "tracked": false,
+      "rank": 25,
+      "direction": "Short",
+      "status": "stalling",
+      "entry": 1.16174,
+      "current": 1.15989,
+      "pnl_pips": 19,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Nineteen pips for the short: the pair rose to 1.16334 on 9 September on ECB hike expectations before US core CPI on 11 September pulled it back to 1.15989.",
+      "flags": [],
+      "invalidator_status": {
+        "FOMC holds range at 3.50-3.75%": "Watch — roughly 60.6% priced for a hike on 16 September as of 8 September"
+      }
+    },
+    "EUR/CAD": {
+      "tracked": false,
+      "rank": 26,
+      "direction": "Long",
+      "status": "quiet",
+      "entry": 1.6096,
+      "current": 1.60902,
+      "pnl_pips": -6,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Six pips offside at 1.60902 despite the 10 September ECB hike, as Brent near $99.36 held the loonie firm — the surprise in an otherwise directionally correct Canadian block.",
+      "flags": [],
+      "invalidator_status": {
+        "Bank of Canada hikes to 2.50% on 28 October": "Watch — the BoC held for a seventh consecutive meeting on 2 September with roughly 65% of a 2026 hike still priced"
+      }
+    },
+    "USD/JPY": {
+      "tracked": false,
+      "rank": 27,
+      "direction": "Short",
+      "status": "on_track",
+      "entry": 159.74629,
+      "current": 153.52682,
+      "pnl_pips": 622,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Down 622 pips to 153.52682 on 11 September — the yen strengthened nearly 2% on 3 September alone and hike odds for 18 September firmed to roughly 84% after the 8 September wage and GDP beats.",
+      "flags": [
+        "carry_drag"
+      ],
+      "invalidator_status": {
+        "Weekly close above the 200-day at 158.47": "Clear — latest close 153.52682, roughly 495 pips below the level"
+      }
+    },
+    "CHF/JPY": {
+      "tracked": false,
+      "rank": 28,
+      "direction": "Short",
+      "status": "on_track",
+      "entry": 197.61109,
+      "current": 188.03458,
+      "pnl_pips": 958,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "The largest raw move in the universe at 958 pips to 188.03458, combining the yen repricing with a franc that fell even on an upside August CPI surprise of 0.8% y/y.",
+      "flags": [],
+      "invalidator_status": {
+        "Franc net short extends beyond −40,000": "Watch — no CFTC update found in the period; the pair has fallen 958 pips since 31 August"
+      }
+    },
+    "EUR/AUD": {
+      "tracked": false,
+      "rank": 29,
+      "direction": "Short",
+      "status": "on_track",
+      "entry": 1.62095,
+      "current": 1.61751,
+      "pnl_pips": 34,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Up 34 pips for the short at 1.61751, but the 10 September close of 1.62237 came within 10 pips of the 1.62337 invalidator as the ECB hike briefly outweighed the RBA repricing.",
+      "flags": [
+        "approaching_invalidator"
+      ],
+      "invalidator_status": {
+        "Daily close above 1.62337": "Watch — 10 September close of 1.62237 sat 10 pips below the trigger"
+      }
+    },
+    "SGD/JPY": {
+      "tracked": false,
+      "rank": 30,
+      "direction": "Long",
+      "status": "at_risk",
+      "entry": 125.66875,
+      "current": 121.17457,
+      "pnl_pips": -449,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Down 449 pips to 121.17457 — the one SGD pair of six to move against its call, and the second of the two yen-long contradictions the executive summary named in advance.",
+      "flags": [
+        "thesis_weakening"
+      ],
+      "invalidator_status": {
+        "Confirmed fresh joint yen intervention": "Watch — Treasury Secretary Bessent said on 3 September that Tokyo may intervene, but no operation has been confirmed and ING doubted one given the absence of dislocation in FX matching systems"
+      }
+    },
+    "NZD/CAD": {
+      "tracked": false,
+      "rank": 31,
+      "direction": "Neutral",
+      "status": "stalling",
+      "entry": 0.81976,
+      "current": 0.80647,
+      "pnl_pips": null,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "The Neutral call did not hold: the pair fell 133 pips to 0.80647 as the 2 September RBNZ statement weakened the kiwi while Brent near $99.36 supported the loonie, so the two weakest currencies did not cancel.",
+      "flags": [
+        "thesis_weakening"
+      ],
+      "invalidator_status": {
+        "BoC hikes to 2.50% while RBNZ pauses": "Watch — the BoC held on 2 September and the RBNZ hiked to 2.75%, with 88% now priced for an RBNZ hold on 28 October and roughly 65% of a 2026 BoC hike in the curve"
+      }
+    }
+  },
+  "key_developments": [
+    "2 September — BoJ board member Takata left the door open to an outsized hike and back-to-back moves; the yen gained as much as 0.5% to 159.44 and a carry unwind followed, with the yen strengthening nearly 2% on 3 September.",
+    "4 September — US August non-farm payrolls printed +162K against a +53K consensus, the strongest since March, with June and July revised up.",
+    "8 September — Japanese wage and GDP data beat, pushing OIS pricing for a BoJ move to 1.25% on 18 September to roughly 84%; CME odds of a September Fed hike reached 60.6%.",
+    "10 September — The ECB raised the three key rates 25bp, taking the deposit rate to 2.50% effective 16 September, with futures pricing a third hike by December.",
+    "11 September — US August core CPI rose 0.3% m/m against a 0.2% median, all-items 3.4% y/y, lifting Fed hike odds further.",
+    "3-6 September — RBA September hike pricing moved from 17% pre-CPI to roughly 80%, with NAB, Deutsche Bank, UBS and Morgan Stanley all forecasting a move to 4.60%.",
+    "2 September — The RBNZ delivered 2.75% with a near-flat track; NZD fell to US58.42c and the two-year swap dropped 8bp.",
+    "1 September — 30-year gilts hit 5.697%, the highest since May 1998, but sterling stabilised near $1.354 by 8 September rather than extending losses."
+  ],
+  "new_risks_identified": [
+    "Chief Economist Pill reported on 7 September as backing a September BoE hike, which undermines the '+7bp priced, no change all year' premise underwriting GBP/USD, EUR/GBP and GBP/JPY simultaneously.",
+    "RBA pricing at roughly 80% is far beyond the 47-50% the analysis modelled — a tailwind for Short GBP/AUD but a direct headwind for Short AUD/USD, making the book's one internal tension live rather than theoretical.",
+    "The FOMC asymmetry has inverted: with a hike now largely discounted and above 85% priced for 2026, a hike paired with an unrevised 2027 median is a sell-the-fact risk for three dollar shorts at once on 16 September.",
+    "Concentration: GBP/JPY and NZD/JPY account for 1,402 of the 1,906 tracked pips, both driven by a single event cluster that resolves on 18 September.",
+    "Brent near $99.36 on 9 September has revived the terms-of-trade support for the Canadian dollar, pushing USD/CAD to within 49 pips of its 1.37346 weekly-close invalidator on 8 September."
+  ],
+  "consensus_shifts": [
+    "Consensus has moved toward the book on six of eight reviewed trades, is unchanged on one (EUR/GBP) and has moved against on one (AUD/USD).",
+    "Nomura floated three consecutive BoJ hikes through December, the cadence argument the analysis said was discounted nowhere — GBP/JPY has already run past the interpolated aggregator path.",
+    "ING flagged downside risks for the kiwi and called the market's 95bp by June 2027 excessively hawkish, the first sell-side move toward our NZD/USD level rather than the 0.60 cluster.",
+    "UBS moved against the AUD/USD short, citing inflation that is 'too high' and an AI/trade-driven global growth backdrop raising the risk of more central banks hiking.",
+    "The MAS survey of professional forecasters now splits 45/55 on a steeper October S$NEER slope, up from 30% expecting steepening in June.",
+    "BBH characterised the franc as the worst-performing G10 currency this quarter, corroborating the franc-funding leg despite the SNB rate-path invalidator firing."
+  ],
+  "invalidators_triggered": [
+    "SGD/CHF: The market prices a first SNB hike inside four quarters — as of 3 September swaps fully price a 25bp move to 0.25% in June 2027, inside the window, after Swiss August CPI at 0.8% y/y against 0.5% consensus and core at 0.4% against 0.3%."
+  ],
+  "next_key_catalyst": "2026-09-16 FOMC decision with the Summary of Economic Projections — with a hike roughly 60.6% priced and above 85% priced for 2026, the edge has migrated to the 2027 median dot; the BoE follows on 17 September with the vote split as the binary, and the BoJ on 18 September at roughly 84% priced, leaving six of the top trades event-exposed across three consecutive sessions."
+}

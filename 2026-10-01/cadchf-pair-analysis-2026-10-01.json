@@ -1,0 +1,1629 @@
+{
+ "metadata": {
+  "pair": "CADCHF",
+  "base_currency": "CAD",
+  "quote_currency": "CHF",
+  "valuation_date": "2026-10-01",
+  "framework_version": "2.0",
+  "base_dossier_date": "2026-10-01",
+  "quote_dossier_date": "2026-10-01"
+ },
+ "pair_convention": {
+  "spot_reference": "CAD/CHF 0.58158",
+  "spot_explanation": "CAD/CHF at 0.58158 means 1 CAD = 0.58158 CHF (Swiss francs per Canadian dollar; gated payload, spotDate 2026-10-02). Rising = CAD strengthening vs CHF; falling = CAD weakening vs CHF. Both dossiers quote against the dollar with USD as the base currency (USD/CAD, USD/CHF), so every dossier stance has been restated in CAD/CHF terms. A weak-CAD view is bearish for this pair and a weak-CHF view is bullish for it.",
+  "bullish_means": "pair RISES (CAD strengthens vs CHF)",
+  "bearish_means": "pair FALLS (CAD weakens vs CHF)",
+  "base_dossier_tactical_stance": "Bearish CAD, conviction 3, net tactical score -0.2576 (bearish CAD = bearish for this pair)",
+  "quote_dossier_tactical_stance": "Bearish CHF, conviction 3, net tactical score -0.3002 (bearish CHF = bullish for this pair)"
+ },
+ "executive_summary": "CAD/CHF closed at 0.58158 on 2026-10-02. The pair is quoted as Swiss francs per Canadian dollar, so a rising pair means a stronger Canadian dollar. Over the last month the pair is down 0.68%. It is up 2.15% over three months, 1.65% over six months and 2.52% over a year, and it sits at the 68th percentile of its 52-week closing range of 0.56308-0.59041. The cross pits two currencies that are each scored Bearish in their own dossiers. CAD's main support is a 225bp policy-rate lead, which pays 268.6bp a year on a rolled futures position. Against that, Canada is the weaker leg on almost everything else: Q2 growth was 0.82% q/q against Switzerland's 1.885%, Canada's current-account surplus is 8.17pp of GDP smaller, and Canada is absorbing US import bans that took effect on 2026-09-29. The front-end asymmetry also runs against CAD: the Canadian two-year carries about 112bp of priced rate hikes above its policy rate, against about 31bp in Switzerland, and the Bank of Canada must publish an oil assumption on 2026-10-28 while the SNB says nothing until 2026-12-10. The settled verdict is Tactical Neutral (score +0.0706, conviction 2) and Strategic Bearish (score -0.1350, conviction 2). The chart broke down just as the verdict was struck: the pair fell about 120 pips over 2026-10-01 and 2026-10-02, closed below its 50-day average at 0.58331, broke the sequence of higher lows that ran from July to September, and is now inside a thin two-touch band (0.57811-0.58232). Below that, the 200-day average sits inside a three-touch support zone at 0.5717-0.5762. We disagree with the tactical Neutral in one respect. It was scored on a calm risk backdrop, and since then the OAT-Bund spread reached around 140.6bp after Reuters recorded 132.86bp on October 1, already its widest since the 2012 eurozone debt crisis, and Swiss September CPI rose 1.0% year-on-year. We therefore see near-term risk tilted to the downside. That view shows up in a slightly negative scenario expected value, not in the score. For the strategic view, the caveat is the cost of carry: a spot short pays about 78 pips of roll over six months, which leaves the expected value close to zero if entered at spot. We prefer selling rallies into 0.5865-0.5875, or expressing the view through the legs.",
+ "market_context": {
+  "spot": 0.58158,
+  "performance_1m": "-0.68%",
+  "performance_3m": "+2.15%",
+  "performance_6m": "+1.65%",
+  "performance_1y": "+2.52%",
+  "range_52w_low": 0.56308,
+  "range_52w_high": 0.59041,
+  "range_52w_percentile": 68,
+  "valuation_assessment": "Both dossiers build a REER-relative proxy from the BIS broad real effective exchange rates for 2026-08: CAD at 96.29 (down 1.67 points year on year) and CHF at 99.87 (down 2.83% year on year). On that proxy, CAD is 3.58% cheap to CHF relative to a common base. The CHF dossier puts the implied fair value near 0.60943, computed when spot was 0.58757. The REERs are monthly and have not been updated for the move since, so measured against today's 0.58158 the gap is about 4.8%. This is a base-period deviation, not true purchasing-power parity, and it does not trigger mean reversion at either horizon. The more telling structural fact is the 200-week average at 0.62302. Spot has not closed above it for 204 weeks, and it is declining by 7.55 pips a week. The pair has been in a multi-year downtrend driven by CAD weakness against CHF since late 2022. The current level is a rebound inside that downtrend, not a break of it. The market is pricing a persistent discount on Canadian trade and growth and no premium for Switzerland's 9.198%-of-GDP surplus. Neither currency's external position is being capitalised.",
+  "positioning": {
+   "base_cftc_net": "Canadian dollar leveraged funds net short 46,861 contracts in the 2026-09-22 tranche (-15.1% of 311,085 open interest); down 47% in five weeks from 88,897 and covered while CAD fell; CAD headline non-commercial -53.2k against a -80k significance threshold",
+   "base_cftc_percentile": null,
+   "quote_cftc_net": "Swiss franc leveraged funds net short 16,457 contracts in the 2026-09-22 tranche (-12.3% of 133,495); all-speculator net improved to -13,995 in the week to 2026-09-29 on flat open interest of 133,872 (z-score -0.48, explicitly not crowded)",
+   "quote_cftc_percentile": 36.1,
+   "net_pair_implication": "CFTC data show speculators net short both legs, so netting the two legs there is no crowded CAD/CHF trade in either direction. The asymmetry that does matter is in the CAD/CHF downside: CAD shorts are already half covered, so a franc squeeze would meet less offsetting CAD short-covering than a symmetric reading of the two books would suggest. There is no pair-level positioning series, and with no listed option on the cross there is no option-hedging flow.",
+   "crowding_assessment": "Balanced — no crowded CAD/CHF trade in either direction (both legs net short; CHF at the 36.1 ten-year percentile, not crowded)"
+  },
+  "pair_technicals": {
+   "trend_regime": "transitioning",
+   "support_levels": [
+    0.58022,
+    0.57392,
+    0.56404
+   ],
+   "resistance_levels": [
+    0.58711,
+    0.59152,
+    0.61965,
+    0.63083,
+    0.63755,
+    0.65059
+   ],
+   "key_moving_averages": "All averages are simple averages of trading-day closes over the stored history (2007-12-24 to 2026-10-02, 4,900 weekday bars). 50-day 0.58331 (17 pips above spot, spot -0.30%); 100-day 0.57713 (45 pips below spot, spot +0.77%); 200-day 0.57449 (71 pips below spot, spot +1.23%). The 50/100/200 stack is still bullish (0.58331 > 0.57713 > 0.57449), but spot closed below the 50-day on 2026-10-02, so the medium-term uptrend that began in mid-July is under test rather than intact. The 200-week average is 0.62302, 414 pips (7.1%) above spot; spot has been below it for 204 consecutive weeks and it is falling about 0.000755 a week (roughly 98 pips a quarter, near 0.6034 by end-Q1 2027).",
+   "chart_pattern": "From August to mid-September the pair made higher highs (0.58648 on 08-14, 0.58783 on 09-02, 0.59022 on 09-14, 0.59152 on 09-17) and higher lows (0.57415 on 07-30, 0.57672 on 08-20, 0.58295 on 09-22). The 2026-09-29 high of 0.58873 was a lower high, and the 2026-10-02 low of 0.57893 and close of 0.58158 broke beneath the 09-22 swing low: the first lower-high, lower-low pairing since July. On our own reading of the OHLC this is a double-top-style failure around 0.5900-0.5915; measuring the 0.59152 high to the 0.58295 neckline (86 pips) and projecting it down gives an objective near 0.5744, which coincides with the 200-day at 0.57449. This is a reading from the bar data, not a visually confirmed pattern. Computed zones by touch count: support 0.56198-0.56610 (6 touches, base of the 2025-26 range), support 0.57167-0.57617 (3 touches, contains the 200-day, first real decision zone), thin two-touch support 0.57811-0.58232 (spot inside the upper half), two-touch resistance 0.58684-0.58738 (nearest overhead, preferred strategic sell area), four-touch resistance 0.61820-0.62110 combining with the 200-week as the 0.6182-0.6230 structural ceiling; above the 52-week high of 0.59152 there is an air pocket to 0.6182. ATR(14) is 0.00315 (32 pips); the 2026-10-01 and 2026-10-02 sessions each covered 61 pips, about 1.9 ATR each.",
+   "psychological_levels": [
+    0.58,
+    0.59,
+    0.57,
+    0.56
+   ]
+  },
+  "pair_volatility": {
+   "iv_1m": 5.134,
+   "iv_3m": 4.997,
+   "iv_percentile": null,
+   "rv_1m": 4.1,
+   "rv_vs_iv": "Realised volatility is 4.10% over 20 days and 5.36% over 60 days (annualised on 252 days). The 20-day figure is still compressed because only two of its 20 bars include the October break. The one-month estimate is 1.03 vol points above 20-day realised; the three-month estimate is 0.36 points below 60-day realised. The store documents that the triangle method runs low by a median 14.4% across pairs, so a true three-month figure is probably nearer 5.7-5.8%.",
+   "risk_reversals": "None — no option is listed on CAD/CHF anywhere, so no 25-delta risk reversal, no barrier levels and no 1Y IV percentile exist for this cross (a structural absence, not a sourcing gap). The franc's documented fat tail means the return distribution for a long position is negatively skewed.",
+   "vol_term_structure": "Triangle estimate from the two dollar legs (realised correlation 0.6937, observed 2026-09-30): 5.134% at 36.7 days, 4.997% at 99.7 days and 5.157% at 190.6 days. The surface is essentially flat with a shallow belly dip and prices no December event premium.",
+   "vol_regime": "Low-volatility carry grind that broke on 2026-10-01 and 2026-10-02; implied surface is an estimate and probably under-measures true volatility"
+  },
+  "recent_regime": "Until 2026-09-30 the cross was a textbook carry grind. The franc was the funding leg: OCBC argued the SNB is unlikely to validate the market's relatively hawkish pricing, expecting rates unchanged well into 2027 while OIS prices a meaningful December hike probability. The pair rose from the 0.565 area in early July to 0.5915 on 2026-09-17. That regime broke over two sessions when three franc-positive shocks coincided: France unveiled a EUR 43 billion austerity package on October 1 and the spread blew out; Swiss core CPI rose to 0.5% YoY in September from 0.4%; and weak US payrolls reportedly cut implied odds of an October Fed move from 70% to below 20%, which took away the dollar-side support for franc weakness. On the Canadian side, the US ban on various Canadian goods imports also took effect. The dominant narrative is therefore moving from 'franc as funding currency' to 'franc as eurozone refuge'. That is exactly the tail that pass 1's Factor 3 strategic Neutral was built to accommodate.",
+  "citations": [
+   "https://internal/gated-store/CADCHF.direction.json",
+   "https://forexfundamentals.com/cot/chf",
+   "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html",
+   "https://www.actionforex.com/action-insight/market-overview/656113-france-risk-premium-surges-as-oat-bund-spread-breaks-140bp-eur-chf-slides/",
+   "https://www.dailyforex.com/forex-technical-analysis/2026/01/cadchf-forecast-28-june-2026/240405",
+   "https://www.fxstreet.com/news/swiss-franc-still-a-low-yield-funding-currency-ocbc-202609250929"
+  ]
+ },
+ "bilateral_carry_analysis": {
+  "base_policy_rate": 2.25,
+  "quote_policy_rate": 0,
+  "rate_differential_bps": 225,
+  "annualised_carry_bps": 268.6,
+  "pair_3m_iv": 4.997,
+  "pair_3m_iv_source": "Data-Cache/derived/fx_iv.csv (CAU+CHU triangle estimate at 99.7 days, observed 2026-09-30, implied correlation 0.6937) — an ESTIMATE, not a quote; no listed option exists on CAD/CHF and the method runs low by a median 14.4%, so treat as a floor",
+  "carry_to_vol_ratio": 0.54,
+  "carry_regime": "carry working — being tested after the 2026-10-01/02 break",
+  "breakeven_move": "On the policy basis (225bp) the pair can fall 10.9 pips over one month, 32.7 pips over three and 65.4 pips over six before a long position's carry is erased; on the executable roll basis (268.6bp) 13.0, 39.1 and 78.1 pips. One month of roll carry is about 0.4 of a single ATR(14) day, so carry adds up over a full horizon but does not protect against a single bad session.",
+  "forward_points": {
+   "1m": "-13.0 pips (outright 0.58028; CAD at discount, derived by linear extrapolation of the -268.6bp roll)",
+   "3m": "-39.1 pips (outright 0.57767)",
+   "6m": "-78.1 pips (outright 0.57377)"
+  },
+  "carry_assessment": "Policy carry is +225bp for a long CAD/CHF position (Bank of Canada 2.25% as of 2026-09-28 against the SNB 0.00% as of 2026-09-29). The executable roll is 268.6bp annualised on the CME 6C/6S calendar-spread cross (6CZ6 to 6CH7, 75.7 to 166.6 days, observed 2026-09-30): the forward trades at a discount to spot, so a rolled long earns it, and the 43.6bp gap over the policy spread combines cross-currency basis and term effects that cannot be separated without an OIS curve. The 10-year differential is +320.5bp (CAD 3.675%, CHF 0.47%), monthly observations as of 2026-08-01. Carry-to-vol is 0.45 on 225bp against the 4.997% estimated three-month IV, 0.54 on the 268.6bp roll and 0.42 against 60-day realised volatility of 5.36%; because the IV estimate runs low, the true ratio is probably 0.38-0.45 on the policy basis. Carry was working until 2026-09-30 and is now being tested; a 16.07 VIX and 83bp investment-grade spreads supported it, and a French spread above 140bp is the kind of volatility event that breaks it."
+ },
+ "factors": [
+  {
+   "factor_number": 1,
+   "factor_name": "Policy & Rates (Relative)",
+   "tactical_weight_default": 0.24,
+   "tactical_weight_applied": 0.27,
+   "strategic_weight_default": 0.24,
+   "strategic_weight_applied": 0.27,
+   "weight_adjustment_reason": "Adjusted +0.03 on both horizons. The bilateral policy differential is 225bp, above the framework's 200bp high-carry threshold, and the gated funding premium of -268.6bp annualised means a rolled long CAD/CHF position is paid more than the policy gap. On a cross with no listed option and a low estimated vol, carry is a larger share of expected return than the default weight assumes.",
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 56,
+    "evidence_type": "rates",
+    "bilateral_analysis": "The Bank of Canada's Overnight Rate Target of 2.25% sits 225bp above the SNB Policy Rate of 0.00%, which is CAD's largest carry advantage anywhere in its G10 set and, from the franc side, one of the least punitive short-franc legs available. The gated payload puts the ten-year differential at +320.5bp in CAD's favour, though both legs are monthly observations as of 2026-08-01 and are not live levels. The executable cost is wider than the policy gap: the CME calendar-spread cross gives a funding premium of -268.6bp annualised, 43.6bp beyond the 225bp differential, so basis and term effects pay a rolled long CAD/CHF position rather than taxing it. Transmission is direct and mechanical — this is a classic funding-versus-high-yielder cross and the franc is the funding leg. What qualifies the stance tactically is event asymmetry rather than level: the Bank of Canada decides on 2026-10-28 with a Monetary Policy Report, while the SNB has nothing scheduled until 2026-12-10, so inside four weeks only one leg can reprice, and the Canadian two-year carries roughly 112bp of hike premium above its own policy rate against a CHF two-year carrying roughly 31bp. The premium at risk is therefore some three to four times larger on the CAD side, which caps confidence at 56 despite a differential that is not going to move at all in the window.",
+    "key_bilateral_metrics": [
+     "Policy differential +225bp (BoC 2.25% as of 2026-09-28 vs SNB 0.00% as of 2026-09-29, gated payload)",
+     "10y differential +320.5bp (CAD 3.675%, CHF 0.47%, both MONTHLY observations as of 2026-08-01 — not live levels)",
+     "Futures-implied funding premium -268.6bp annualised (6C/6S, 75.7d to 166.6d, observed 2026-09-30), 43.6bp wider than the policy gap",
+     "Front-end premium at risk: CAD 2y ~112bp above its 2.25% policy rate vs CHF 2y 0.31%, ~31bp above its 0.00% rate",
+     "Scheduled decisions inside the tactical window: BoC 2026-10-28 (MPR); SNB none until 2026-12-10"
+    ],
+    "what_is_priced": "The market prices roughly 120bp of BoC tightening to about 3.45% by September 2027 and roughly 75bp of SNB tightening to at least 0.75% over the same window, so the curve already prices the differential narrowing by about 45bp. Spot carries no premium for the 225bp gap itself.",
+    "citations": [
+     1,
+     5,
+     6,
+     14,
+     17
+    ]
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 60,
+    "evidence_type": "rates",
+    "bilateral_analysis": "Over one to six months the question is whether the 225bp gap widens or narrows, and the probability distribution is modestly in CAD's favour even though both dossiers judge their own curve too hawkish. The Bank of Canada sits at the bottom of a 2.25-3.25% neutral band and has two scheduled decisions inside the horizon, with the base-currency dossier putting one 25bp move at most at meaningful probability and a hike-plus-signal outcome at roughly 25%. The SNB sits at a zero floor with exactly one scheduled assessment on 2026-12-10, and the quote dossier puts a hike there at roughly 20% against market pricing near 50%. So the more likely single-step change is a BoC hike, which widens the gap to 250bp, rather than an SNB hike, which narrows it to 200bp. Meanwhile the carry accrues: 225bp of policy differential, or 268.6bp on the executable roll, is roughly 112-134bp of return over six months on a cross whose 3M at-the-money vol is estimated at 4.997%, giving a carry-to-vol ratio of about 0.45 on the policy basis and 0.54 on the roll. Against that, the Canadian two-year has far more premium to surrender than the Swiss, and the SNB cannot ease below zero, so the floor under CHF rates is hard while the Canadian front end has 112bp of air beneath it. Net: Bullish, but on accrual and on a mildly favourable step distribution rather than on any expectation that the gap widens materially.",
+    "key_bilateral_metrics": [
+     "Carry-to-vol 0.45 on the 225bp policy differential against an estimated 3M ATM IV of 4.997%; 0.54 on the -268.6bp roll",
+     "Six-month carry accrual approximately 112bp (policy basis) to 134bp (roll basis)",
+     "Single-step probabilities from the two dossiers: BoC hike-with-signal ~25%, SNB hike at 2026-12-10 ~20%",
+     "SNB has a hard 0.00% floor with negative rates discussed in neither its June nor its September 2026 documents; BoC has 50bp of room to its 2.75% neutral midpoint",
+     "Three scheduled decisions inside the horizon: BoC 2026-10-28 and 2026-12-09, SNB 2026-12-10"
+    ],
+    "what_is_priced": "Forward pricing embeds CAD depreciation of roughly 2.69% annualised against CHF as the covered-interest-parity offset, so the market prices the pair to fall by exactly the amount the carry pays. Any outcome in which spot holds flat delivers the whole differential as return.",
+    "citations": [
+     1,
+     5,
+     6,
+     14,
+     17
+    ]
+   },
+   "horizon_split": "Both horizons are Bullish and confidence rises from 56 to 60 rather than falling. Tactically the differential cannot change at all — the SNB does not meet — while the Canadian front end carries three to four times the premium at risk into a single 2026-10-28 Monetary Policy Report, so the event asymmetry is one-sided against the pair even as the carry accrues in its favour. Strategically both central banks get to act, the step distribution tilts slightly toward a BoC hike over an SNB hike, and six months of accrual at 225-269bp becomes a material share of expected return rather than a rounding error.",
+   "carry_analysis": {
+    "annualised_carry": "225bp policy carry (see bilateral_carry_analysis)",
+    "executable_roll": "-268.6bp. Negative because CAD/CHF is quoted as CHF per CAD and CAD is the high-yielder, so the forward trades at a discount to spot; a rolled LONG position therefore earns the premium. The -268.6bp figure is the CME calendar-spread cross observed 2026-09-30 over 75.7 to 166.6 days and embeds the cross-currency basis, which cannot be separated from the interest differential without an OIS curve.",
+    "pair_3m_iv": "4.997% — Data-Cache/derived/fx_iv.csv (CAU+CHU) triangle estimate at 99.7 days, observed 2026-09-30, implied correlation 0.6937 — an ESTIMATE, not a quote. No listed option exists on CAD/CHF, and the triangle substitution has been measured running low by a median 14.4% across this repo's pairs, so treat it as a floor.",
+    "carry_to_vol": "0.45. 225bp policy carry divided by the 4.997% estimated 3M ATM IV. Because the denominator is an estimate known to run low, the true ratio is probably nearer 0.38-0.45. The base dossier's own figure, computed on 60-day realised vol of 5.17%, is 0.435 and corroborates it.",
+    "carry_regime": "Carry is working. The quote dossier's own characterisation is that a 16.07 VIX, 83bp investment-grade spreads and equities near highs describe an environment in which funding-currency shorts are rewarded rather than squeezed, and RBC's August Currency Report Card describes CHF as the most efficient short leg in G10 carry on low vol and compressed rates. The regime breaks on a volatility event, not on a rate move.",
+    "breakeven_move": "At 225bp annualised the pair can fall roughly 10.9 pips over one month, 32.7 pips over three and 65.4 pips over six before a long position's carry is erased; on the -268.6bp roll basis the equivalents are approximately 13.0, 39.1 and 78.1 pips."
+   },
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 2,
+   "factor_name": "Inflation & Growth Dynamics",
+   "tactical_weight_default": 0.18,
+   "tactical_weight_applied": 0.18,
+   "strategic_weight_default": 0.1,
+   "strategic_weight_applied": 0.1,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 62,
+    "evidence_type": "macro_data",
+    "bilateral_analysis": "The growth differential is the widest single macro gap in this pair and it runs against CAD. Switzerland grew 1.885% quarter on quarter and 2.632% year on year in Q2 2026, the fastest quarterly rate in the G10+SGD set; Canada grew 0.82% quarter on quarter and 1.13% year on year, the second weakest in the same set. The momentum gap is sharper still: Switzerland's September data tally was six positive surprises and zero negative on the vendor's own direction flag, with KOF at a five-year high of 109.1 against a 105.8 consensus, while Canada's September tally was eight negative and six positive, with employment falling 41,700 against a +15,100 forecast and permanent-employee wage growth halving to 2.0%. Canadian unemployment at 6.4% is more than double Switzerland's 3.1% registered rate. The inflation side partially offsets: Canadian headline CPI at 3.0% and operational core at 1.95% sit 220bp and 155bp above Swiss headline at 0.8% and core at 0.4%, and that core gap is what keeps the 225bp policy differential defensible. But the transmission inside four weeks runs through data surprise rather than through reaction functions, and Canada has two high-leverage prints — the 2026-10-09 labour report and the 2026-10-19 CPI — against a Swiss calendar containing only a CPI print and an unemployment reading that the SECO forecast already pins at 3.1%. The asymmetry of disappointment is Canadian.",
+    "key_bilateral_metrics": [
+     "Q2 GDP: CHF +1.885% q/q and +2.632% y/y vs CAD +0.82% q/q and +1.13% y/y — a 1.07pp quarterly and 1.50pp annual gap in CHF's favour",
+     "Core inflation: CAD trim-median average 1.95% vs CHF core 0.40% — a 155bp gap in CAD's favour, which is what funds the rate differential",
+     "Unemployment: CAD 6.4% (Aug 2026) vs CHF 3.1% registered / 5.03% ILO-comparable (2026-Q2)",
+     "September data surprise tally: CHF 6 positive / 0 negative; CAD 8 negative / 6 positive",
+     "Wage growth: CAD permanent-employee +2.0% y/y (halved from 3.0%) vs CHF nominal +0.40% y/y"
+    ],
+    "what_is_priced": "The market prices Canadian resilience off a 3.3% annualised Q2 and Swiss growth as already generous at a 109.1 KOF, so the surprise distribution is skewed: Canada has more room to disappoint on activity than Switzerland has to beat.",
+    "citations": [
+     6,
+     8,
+     12,
+     18
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 60,
+    "evidence_type": "macro_data",
+    "bilateral_analysis": "Over one to six months the growth gap widens rather than closes, because the two economies face opposite policy shocks. Governor Macklem has put Canadian Q4 growth 'below 1%' if tariffs persist, and they have not merely persisted — US Section 338 measures escalated from a 50% ad valorem duty to outright import bans effective 2026-09-29, against roughly C$20bn of Canadian retaliation imposed 2026-09-08. SECO has moved the other way, raising Swiss 2026 growth to 1.7% from 0.9% and holding 2027 at 1.6%. On inflation the two converge downward but from very different starting points and for different reasons: Canadian headline decays mechanically as gasoline's +22.8% year-on-year contribution rolls off toward the 2.4% ex-gasoline rate and then the 1.95% trim-median, while Swiss headline decays from 0.8% toward the SNB's own 0.7% path and SECO's 0.6% panel forecast as the energy base effect fades. The bilateral core gap of 155bp therefore survives the horizon roughly intact, which protects the rate differential — that belongs to Factor 1. What this factor measures is the relative cyclical position, and a tariff-shocked economy with 6.4% unemployment, benchmark house prices down 3.0% year on year and building permits down 17.3% month on month is in a materially worse cyclical position than one growing at the fastest rate in the block with 3.1% unemployment. Confidence is held at 60 because SECO itself flags that roughly half of Swiss Q2 growth came from the volatile chemical-pharmaceutical sector and because the ZEW expectations index collapsed to 2.6 from 12.1.",
+    "key_bilateral_metrics": [
+     "Macklem: Canadian Q4 growth 'below 1%' if tariffs persist, roughly half the prior expectation; SECO raised Swiss 2026 GDP to 1.7% from 0.9%",
+     "Section 338 import bans effective 2026-09-29 against roughly C$20bn of Canadian retaliation from 2026-09-08 — a one-sided trade shock with no Swiss equivalent",
+     "Forecast inflation paths: SNB conditional 0.7%/0.8%/0.8% for 2026-28; Canadian headline expected toward 2.2-2.6% by the January 2027 MPR",
+     "Canada housing: benchmark price -3.0% y/y, sales -6.7% y/y, building permits -17.3% m/m, 5.3 months inventory — no Swiss analogue",
+     "Swiss qualification: roughly half of Q2 growth from chemicals and pharmaceuticals; ZEW expectations fell to 2.6 from 12.1 on 2026-09-30"
+    ],
+    "what_is_priced": "Consensus prices Canadian growth holding near trend and Swiss growth moderating from an unsustainable Q2, which is the convergence case. We expect divergence instead, with the tariff drag biting a Canadian economy already in excess supply by Governing Council's own description.",
+    "citations": [
+     6,
+     7,
+     12,
+     13,
+     16
+    ]
+   },
+   "horizon_split": "Both horizons are Bearish for the pair with confidence easing only from 62 to 60. Tactically the case rests on two dated Canadian prints with no Swiss equivalent in the window; strategically it rests on a tariff shock that is already law against a Swiss forecast that has just been revised up. The two-point confidence difference reflects that the Swiss growth level is partly a chemical-pharmaceutical artefact that may not repeat, which matters more over six months than over four weeks.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 3,
+   "factor_name": "Risk Appetite & Sentiment",
+   "tactical_weight_default": 0.1,
+   "tactical_weight_applied": 0.11,
+   "strategic_weight_default": 0.05,
+   "strategic_weight_applied": 0.05,
+   "weight_adjustment_reason": "Tactical adjusted from 0.10 default; +0.01 tactical only. CAD/CHF pairs a commodity-linked currency against the G10's primary safe haven, which places it above the framework's 'low risk sensitivity' bucket; the increment is small because CAD's own equity beta is the weakest in the commodity bloc, so the risk sensitivity sits almost entirely in the CHF leg.",
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 58,
+    "evidence_type": "cross_asset",
+    "bilateral_analysis": "This is a moderate risk-on pair: CHF is the safe haven and CAD the commodity-linked growth proxy, so the pair rises when risk appetite holds and falls when capital flees to the franc. The current tape denies the franc its mechanism. VIX closed at 16.07 on 2026-09-28, in the lower third of its distribution and up only 1.64 points over the month; the S&P 500 is up 14.33% year to date and within 1.8% of its record; US investment-grade spreads at 83bp are historically tight. Gold corroborates: XAU/USD fell 6.00% over the month, and because the franc's only commodity link runs through shared safe-haven demand rather than trade, a gold unwind is a franc unwind measured a second way. RBC's August Currency Report Card frames the same point from the other side, describing the franc as the most efficient short leg in G10 carry precisely because volatility is subdued and noting that the brief safe-haven bid during peak Iran tensions failed to gain traction. The asymmetry that keeps confidence at 58 rather than higher is that the risk channel is not symmetric for this pair: CAD's own equity correlation is the weakest in the commodity bloc at -0.2 to -0.3 on USD/CAD versus the S&P, so a benign tape gives the pair only a modest lift, while a genuine risk event gives the franc a large and non-linear bid. Two counterweights are already visible — US high-yield spreads 42bp wider over the month to 302bp, and the OAT-Bund spread at a one-year high of 111.2bp — but neither is corroborated elsewhere in the risk complex.",
+    "key_bilateral_metrics": [
+     "VIX 16.07 (2026-09-28), +1.64 over the month; US IG 83bp; S&P 500 +14.33% YTD",
+     "Gold -6.00% over one month to 4,181.99954 — the franc's shared safe-haven channel unwinding",
+     "US high-yield 302bp, 42bp wider over the month; OAT-Bund 111.2bp, top of a 59.0-111.2bp one-year range",
+     "Asymmetric betas: CHF/VIX +0.2 to +0.4 vs USD/CAD-S&P -0.2 to -0.3 — the risk sensitivity sits in the quote leg",
+     "RBC, 13 August 2026: CHF described as the most efficient short carry leg in G10 on low vol and compressed rates"
+    ],
+    "what_is_priced": "At a 16.07 VIX and 83bp investment-grade spreads the market prices no franc premium at all, which is the condition under which a 225bp carry differential is allowed to dominate. We agree with that read over four weeks.",
+    "citations": [
+     1,
+     20
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 52,
+    "evidence_type": "cross_asset",
+    "bilateral_analysis": "Over one to six months the stance flattens to Neutral because the distribution becomes two-sided in a way the modal path conceals. Two named binaries sit inside the horizon and both resolve against this pair if they resolve badly: the Iran conflict, at day 215 on 2026-09-30 with the US having rejected Iran's seven-day roadmap and the residual dispute reduced to sequencing; and France, where 111.2bp over Bunds, 119% debt to GDP and a EUR 54bn budget vote make a government collapse a live possibility and the franc rather than the euro is the regional refuge. The franc's payoff to either is large and non-linear — the January 2015 floor removal moved EUR/CHF roughly 30% intraday is the quote dossier's own reference — while the pair's upside from a continued benign tape is linear and modest. Against that, the CAD leg has its own unhelpful geometry: an Iran settlement that collapses the oil premium is risk-positive but terms-of-trade negative for Canada, so the pair does not cleanly monetise good geopolitical news either. The honest resolution is a wide, roughly symmetric distribution in expectation with an asymmetric shape — most paths deliver nothing for this factor and a minority deliver a sharp fall. Confidence is 52 because the correlation regime itself is unreliable this cycle: gold fell 6.00% while VIX rose 1.64 points, which is not the standard shared-safe-haven structure.",
+    "key_bilateral_metrics": [
+     "Iran conflict day 215 at 2026-09-30; regional crude exports 16.328mn b/d, just under 80% of the 19.513mn b/d pre-war baseline",
+     "French debt 119% of GDP with a EUR 54bn budget vote pending; OAT-Bund 111.2bp against a 74.2bp one-year average",
+     "CHF fat-tail reference: EUR/CHF moved approximately 30% intraday on the January 2015 floor removal",
+     "Correlation-regime break: gold -6.00% over one month while VIX rose 1.64 points",
+     "Both tails of the oil distribution are CAD-ambiguous — a settlement collapses Canada's terms of trade, an escalation widens a Brent-WTI spread Canada cannot capture"
+    ],
+    "what_is_priced": "Markets price both binaries resolving benignly, which is visible in Brent near USD 100 rather than at a crisis spike and in an OAT-Bund spread that is at a one-year high but not a crisis level. We broadly agree, which is why this is Neutral rather than Bearish.",
+    "citations": [
+     1,
+     20
+    ]
+   },
+   "horizon_split": "Bullish tactically and Neutral strategically, and the divergence is about the horizon's exposure to tails rather than any change in the base case. Over four weeks the probability that a volatility regime shift occurs and completes is low, so the benign tape simply lets the carry work and the pair drifts up. Over six months two dated negotiations have time to fail, and the franc's payoff to failure is large enough and non-linear enough that an expectation-weighted stance is Neutral even though the modal path is unchanged. Pass-2 note (does not alter the scored stance): This factor's tactical Bullish rests on a calm tape with OAT-Bund at 111.2bp. Since then the OAT/Bund spread reached 130.3bp on Oct 1, up 13.2bp from the previous session, and reports put it at 141bp, the widest since 2012. That is the French-stress channel this factor's strategic Neutral was built around, and it fired inside the tactical window. We record this as the single largest reason we disagree with the tactical Neutral.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 4,
+   "factor_name": "Flows & Positioning",
+   "tactical_weight_default": 0.1,
+   "tactical_weight_applied": 0.1,
+   "strategic_weight_default": 0.06,
+   "strategic_weight_applied": 0.06,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 55,
+    "evidence_type": "positioning",
+    "bilateral_analysis": "Speculators are net short BOTH legs, which is the configuration that mutes rather than amplifies a pair signal. Canadian dollar leveraged funds were net short 46,861 contracts in the 2026-09-22 tranche, 15.1% of 311,085 open interest; Swiss franc leveraged funds were net short 16,457 contracts in the same tranche, 12.3% of 133,495. A short on both sides nets to very little directional information for the cross. The composition differs in ways that pull in opposite directions and roughly cancel. On the CAD side the short has been halved from 88,897 over five weeks and was covered INTO Canadian dollar weakness, so the squeeze fuel is largely spent and the room to rebuild toward -89k exceeds the room to cover to flat. On the CHF side the short was built for five consecutive weeks into 2026-09-22 — but the subsequent week, to 2026-09-29, saw specs cover 2,462 contracts to a net -13,995 with open interest essentially flat at 133,872, and on a ten-year basis that position sits at the 36.1 flip percentile with a z-score of -0.48, which the source itself describes as not crowded. That materially weakens the franc-squeeze asymmetry the quote dossier identified from the 2026-09-22 snapshot alone. With neither leg at a genuine ten-year extreme and both covering, the pair-level signal is noise.",
+    "key_bilateral_metrics": [
+     "CAD leveraged net short 46,861 contracts (2026-09-22), -15.1% of 311,085 open interest; CHF leveraged net short 16,457, -12.3% of 133,495",
+     "CHF all-spec net improved to -13,995 in the week to 2026-09-29, a 2,462-contract cover, with open interest flat at 133,872",
+     "CHF ten-year flip percentile 36.1 with a z-score of -0.48 — explicitly not crowded",
+     "CAD short reduced 42,036 contracts, or 47%, over five weeks to 2026-09-22; CAD headline non-commercial -53.2k against a -80k significance threshold",
+     "CAD asset managers net short 24,121 (down 73%); CHF asset managers net short 35,523 and stable since mid-August"
+    ],
+    "what_is_priced": "Both legs are positioned for weakness, so there is no crowded pair trade to fade in either direction. The market has already spent the easy half of the Canadian short squeeze and the Swiss franc short has begun covering without the franc rallying.",
+    "citations": [
+     2
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 52,
+    "evidence_type": "positioning",
+    "bilateral_analysis": "Over one to six months positioning carries no directional content for this cross and the weight falls to 0.06 for that reason. Both legs are structurally short by construction rather than by conviction: the franc has been net short in every tranche of the cached 2026-04 to 2026-09 sample because it is a funding currency, and the Canadian dollar short sits inside its own brief's significance band of +40k to -80k with no extreme to revert from. Any squeeze on either leg is followed by a rebuild, because the carry that justified the short — 225bp of it between these two currencies — does not change. Pair-specific flow structure is thin: CAD/CHF has no listed option anywhere, so there is no option-hedging flow, no barrier interest and no dealer gamma to speak of, and the cross is traded through the two dollar legs rather than directly. There are no identifiable bilateral capital flows of scale: Swiss reserve managers hold no meaningful CAD allocation and CHF accounts for 0.19% of allocated global reserves, flat over five years. The one agent capable of taking the other side at scale is the SNB, and its reaction function is asymmetric — it intervenes to cap franc strength, not weakness, and dropped the 'increased' intervention qualifier in September. That removes an official bid from under the franc but equally means no official seller appears unless the franc rallies hard.",
+    "key_bilateral_metrics": [
+     "CHF net short in every tranche of the cached 2026-04-07 to 2026-09-22 sample — structurally short, with no long observation to revert toward",
+     "CAD net -53.2k headline against significance thresholds of +40k and -80k — inside both",
+     "CHF 0.19% of allocated global FX reserves (Q4 2025), unchanged over five years; no identified reserve-manager CAD/CHF flow",
+     "SNB sight deposits CHF 456.8bn (week to 2026-09-25), +CHF 2.84bn — routine liquidity management, not intervention",
+     "No listed option on CAD/CHF, so no barrier, risk-reversal or dealer-gamma flow exists for this cross"
+    ],
+    "what_is_priced": "Nothing pair-specific is priced, because there is no pair-specific positioning to price. Both legs are default carry positions that will be re-established after any unwind, and the cross has no derivative market through which hedging flow could build.",
+    "citations": [
+     2,
+     5
+    ]
+   },
+   "horizon_split": "Neutral on both horizons with confidence easing from 55 to 52. The tactical Neutral is a genuine cancellation — two short legs of similar relative size, both covering, neither at a ten-year extreme. The strategic Neutral is a statement that the question itself has no answer at six months, because both positions are structural resting states rather than deviations, and the lower confidence prices the absence of any pair-level positioning series at all.",
+   "carry_analysis": null,
+   "contrarian_analysis": {
+    "tactical": {
+     "combined_positioning_signal": "Net short both legs — CAD -15.1% and CHF -12.3% of their respective open interest — which mutes the cross signal. Netted, there is no crowded CAD/CHF trade in either direction.",
+     "unwind_trigger": "A VIX close above 24, an OAT-Bund break through 125bp on a French no-confidence vote, or a public failure of the Iran negotiation. Each forces franc covering, and because CAD shorts are already half-covered the pair would fall further than a symmetric read of the two books implies. Pass-2 note: the tactical unwind trigger named above, an OAT-Bund break through 125bp, was met on 2026-10-01. The pair's 120-pip fall over two sessions fits the described mechanism. No post-2026-09-29 CFTC print was available to confirm franc covering.",
+     "historical_analogue": "The August-to-September Canadian dollar episode is the instructive one: 42,036 contracts of CAD shorts were bought back and produced no CAD appreciation at all. Covering without appreciation is a bearish tell for the covered currency, and the franc has just begun the same pattern, covering 2,462 contracts in the week to 2026-09-29 without a franc rally.",
+     "contrarian_case": "The crowd is short both currencies and is quietly getting out of both, which means the marginal flow is two-way and the pair has lost whatever squeeze asymmetry it had a month ago. The contrarian trade here is not to fade either leg but to refuse to pay for a squeeze in a cross where the franc sits at the 36th percentile of ten years and the Canadian dollar 27,000 contracts inside its own extreme threshold."
+    },
+    "strategic": {
+     "combined_positioning_signal": "Both legs structurally short as funding and as consensus-bearish positions respectively; no net pair signal exists over six months.",
+     "unwind_trigger": "An SNB hike on 2026-12-10, which would reclassify the franc from funding currency to one with a cycle ahead of it and force a structural rather than tactical rebuild of the short book.",
+     "historical_analogue": "The franc's post-2024 funding-currency regime, in which short positions rebuilt after every risk-off squeeze because the rate differential that justified them never changed. The quote dossier's own sample shows no long observation in any tranche.",
+     "contrarian_case": "The genuine contrarian risk is not a speculative squeeze but an official one. The SNB is the only agent that could take the other side of a combined short book at scale, and its reaction function is asymmetric — it caps franc strength and tolerates weakness, which is why it dropped the 'increased' intervention language in September. That asymmetry means a weakening franc gets no official bid, but it also means a sharply strengthening franc meets intervention rather than a rate cut, which is a less credible deterrent and sustains the optionality the market keeps paying for."
+    }
+   },
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 5,
+   "factor_name": "External Balance & Terms of Trade",
+   "tactical_weight_default": 0.06,
+   "tactical_weight_applied": 0.06,
+   "strategic_weight_default": 0.16,
+   "strategic_weight_applied": 0.17,
+   "weight_adjustment_reason": "Strategic adjusted from 0.16 default; +0.01 strategic only. The bilateral current-account gap of 8.17pp of GDP (CHF +9.198% vs CAD +1.03%) is among the widest between any two G10 currencies, and the two external positions have opposite structures — one a structurally entrenched surplus on pharma, financial services and primary income, the other a price-driven surplus on energy exports that is already reversing.",
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 55,
+    "evidence_type": [
+     "trade_balance",
+     "cross_asset"
+    ],
+    "bilateral_analysis": "Both dossiers score their own external balance Neutral tactically, and for this cross the reasons genuinely cancel. Switzerland's Q2 current account surplus of 9.198% of GDP is eight times Canada's 1.03%, but the high-frequency Swiss trade balance narrowed to CHF 3.786bn in the 2026-09-17 release from CHF 5.742bn, and Canada's July merchandise balance collapsed to +C$0.77bn from +C$4.2bn against a +C$3.2bn forecast — both monthly series are deteriorating at once. The direct bilateral channel is immaterial: IMF DOTS puts Canadian goods exports to Switzerland at USD 4.6bn and imports from Switzerland at USD 5.8bn in 2024, for a Canadian net goods deficit of USD 1.2bn, against total Canadian goods exports of which 66.3% went to the United States in July 2026. Note that the mirror data disagree — Switzerland reports importing USD 8.5bn from Canada against Canada's reported USD 4.6bn of exports — which is the standard precious-metals asymmetry in Swiss trade statistics, since precious metals were 39.9% of Swiss goods exports in 2025. Either way the flow is too small to move a cross at a four-week horizon. Commodity netting is the live channel and it is mildly pair-positive: Brent at approximately USD 100.17 on 2026-10-01 is +4.75% over September, which is mildly CAD-supportive and mildly CHF-negative for a net energy importer, while gold down 6.00% over the month removes a franc support.",
+    "key_bilateral_metrics": [
+     "Current account: CHF +9.198% of GDP (2026-Q2) vs CAD +1.03% — an 8.17pp bilateral gap",
+     "IMF DOTS 2024: CAD exports to CHF USD 4.6bn, CAD imports from CHF USD 5.8bn, CAD net goods balance -USD 1.2bn; Swiss mirror data report USD 8.5bn of imports from Canada",
+     "Monthly series both deteriorating: Swiss trade CHF 3.786bn (released 2026-09-17) from CHF 5.742bn; Canadian July trade +C$0.77bn from +C$4.2bn",
+     "Brent approximately USD 100.17 (2026-10-01), +4.75% m/m; WCS settles USD 14.80 under WTI, so Canada's realised barrel is near USD 76.70",
+     "Gold -6.00% over one month — CHF's only commodity link, running through shared safe-haven demand rather than trade"
+    ],
+    "what_is_priced": "Neither external position is being capitalised: Canada's REER fell 1.67 points over the twelve months in which it posted its first current-account surplus since 2022, and the Swiss franc's REER at 99.87 is 2.83% lower year on year despite a 9.2%-of-GDP surplus.",
+    "citations": [
+     9,
+     10,
+     11,
+     15,
+     19
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 62,
+    "evidence_type": [
+     "trade_balance",
+     "cross_asset"
+    ],
+    "bilateral_analysis": "At a 0.17 strategic weight this is the second-heaviest factor and the differential is one-sided. Switzerland's surplus is structurally entrenched across three independent legs — a goods surplus from pharmaceuticals and precision manufacturing, a services surplus from financial services and commodity trading, and primary income on a CHF 5,564bn stock of foreign assets supporting a net international investment position of CHF 986bn — and it widened by CHF 13bn year on year in Q2 to CHF 24bn. RBC's August Currency Report Card names the same surplus as the structural bull case for the franc. Canada's surplus is a single-leg, price-driven artefact: the entire swing from -C$8.3bn to +C$8.8bn came from goods, on record energy exports of C$60.6bn, and the Reuters September poll puts 2026 WTI at USD 83.90, below the USD 91.51 print of 2026-09-30. Worse, Canada cannot monetise the global crude premium — Brent traded USD 11.05 above WTI on 2026-09-30 against USD 4.08 a year earlier, and WCS settles USD 14.80 under WTI, so the realised Canadian barrel is near USD 76.70 against a USD 100.17 headline. Layer on Section 338 import bans taxing exactly the goods balance that produced the surplus, and the Canadian external position shrinks over the horizon while the Swiss one persists. Commodity netting partially offsets and is the reason this is 62 rather than 70: oil higher is modestly CAD-positive and modestly CHF-negative, so a sustained energy shock works for the pair even as the balance-of-payments arithmetic works against it.",
+    "key_bilateral_metrics": [
+     "Swiss NIIP CHF 986bn (+CHF 22bn q/q) on CHF 5,564bn of foreign assets; Q2 current account surplus CHF 24bn, +CHF 13bn y/y",
+     "Canadian Q2 current account +C$8.8bn, entirely goods (+C$12.2bn) on record energy exports of C$60.6bn — a single-leg, price-driven surplus",
+     "Brent-WTI USD 11.05 on 2026-09-30 (vs USD 4.08 a year earlier) plus a USD 14.80 WCS discount — Canada's realised barrel near USD 76.70 against a USD 100.17 headline",
+     "Reuters September poll 2026 averages: Brent USD 89.05, WTI USD 83.90 — both below spot, so the Canadian surplus reverses on the consensus oil path",
+     "Section 338 import bans effective 2026-09-29 tax the Canadian goods balance directly; Switzerland faces no equivalent measure"
+    ],
+    "what_is_priced": "The forward curve prices both external positions at zero, treating the 225bp differential as the whole of expected return. We expect the Swiss surplus to persist and the Canadian one to shrink toward C$2-5bn as WTI converges on the USD 83.90 consensus and the import bans bite.",
+    "citations": [
+     1,
+     9,
+     10,
+     11,
+     13,
+     15,
+     19
+    ]
+   },
+   "horizon_split": "Neutral tactically and Bearish strategically, with the weight rising from 0.06 to 0.17 — so the stance change and the weight change compound. Balance-of-payments flows accumulate rather than arrive, and over four weeks both monthly series are deteriorating together, which cancels. Over six months the composition dominates the direction: a three-legged structural Swiss surplus does not reverse, while a single-legged Canadian surplus built on a reversing oil price and taxed by live import bans does.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": {
+    "base_commodity_profile": "CAD: crude oil (WTI/WCS-linked, not Brent), natural gas, forestry and base metals. Energy exports were a record C$60.6bn in Q2 2026 with crude and bitumen at C$44.8bn, so the Canadian dollar's commodity exposure is large, direct and concentrated in oil — but realised at WTI less a USD 14.80 WCS discount, not at the Brent headline.",
+    "quote_commodity_profile": "CHF: no direct commodity export exposure at all. Switzerland is a net energy importer with energy at roughly 3.5% of its CPI basket, and precious metals are 39.9% of its 2025 goods exports but overwhelmingly as refining and transit rather than domestic production. The only genuine commodity link is COMEX gold, and it runs through shared safe-haven demand rather than through trade.",
+    "net_effect_calculation": "Applying the framework's direction rules: Oil up gives +CAD (mild, per the rules, and milder still here because the Brent-WTI spread of USD 11.05 and the USD 14.80 WCS discount mean Canada captures only part of any waterborne move) and -CHF (mild, as a net energy importer, but damped by energy's 3.5% basket weight against roughly 7% in the eurozone). Net of the two mild effects, oil up is BULLISH CAD/CHF, but weakly — perhaps a quarter of the sensitivity a clean petro-versus-importer pair would show. Gold up gives +CHF through the safe-haven correlation and is neutral for CAD, so gold up is BEARISH CAD/CHF. Natural gas and LNG are immaterial to both legs bilaterally. The dominant netting conclusion is that CAD/CHF is a much weaker commodity pair than its constituents suggest: the base currency cannot monetise the headline oil price and the quote currency barely feels it.",
+    "scenario_oil_up_10pct": "Brent from approximately USD 100 to USD 110 with the Brent-WTI spread intact: CAD gains mildly on terms of trade but the realised Canadian barrel rises only to about USD 84, and a supply-driven rally would also lift the franc through the risk channel if it came with an Iran escalation. Net pair impact: mildly bullish CAD/CHF, materially less than the 10% commodity move implies, and ambiguous if the move is supply- rather than demand-driven.",
+    "scenario_oil_down_10pct": "Brent to approximately USD 90 on an Iran settlement: CAD loses on terms of trade and the Canadian current-account surplus shrinks faster toward the C$2-5bn path, while the franc loses its safe-haven bid and its energy-driven inflation impulse simultaneously. Both legs weaken, so the net pair impact is close to flat — which is the clearest single statement of why this factor's commodity leg does not rescue the Canadian dollar.",
+    "dominant_commodity_driver": "The Brent-WTI spread and the WCS differential, not the oil price itself. They determine whether a given crude level reaches Canadian export revenue at all, and at USD 11.05 and USD 14.80 respectively they are currently blocking most of it. Gold is the secondary driver, acting only on the CHF leg."
+   },
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 6,
+   "factor_name": "Guidance & Credibility",
+   "tactical_weight_default": 0.07,
+   "tactical_weight_applied": 0.07,
+   "strategic_weight_default": 0.12,
+   "strategic_weight_applied": 0.12,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 58,
+    "evidence_type": "policy_comms",
+    "bilateral_analysis": "Both central banks face the same structural problem — a market pricing more tightening than the bank's own published view supports — but the magnitudes and the timetables differ, and both differences run against this pair. Governor Macklem pivoted openly hawkish in Halifax on 2026-09-21, warning against being 'too slow to respond', but tied the inflation call explicitly to oil staying near USD 100 per barrel; WTI closed at USD 91.51 on 2026-09-30, 8.5% below that threshold, and the Reuters 2026 WTI consensus is USD 83.90. The precondition has failed, and the Bank must publish a forecast against it at the 2026-10-28 Monetary Policy Report, which also debuts a new inflation model. The SNB's equivalent gap is wider in probability terms — the market prices nearly a 50% chance of a December hike against a conditional forecast of 0.7%/0.8%/0.8% built explicitly on an unchanged 0% rate — but it cannot resolve inside the tactical window, because the SNB does not meet until 2026-12-10. So the only guidance event available in four weeks is a Canadian one with dovish risk attached, set against 112bp of embedded hike premium in the Canadian two-year versus roughly 31bp in the Swiss. Sequencing compounds it: the Bank of Canada speaks twice (2026-10-28 and 2026-12-09) before the SNB speaks once, and the second Canadian decision falls the day before the Swiss one, so Canada sets the tone into the Swiss assessment rather than the reverse.",
+    "key_bilateral_metrics": [
+     "Macklem, 2026-09-21: tightening bias conditioned on oil 'near $100 per barrel'; WTI closed USD 91.51 on 2026-09-30, 8.5% below",
+     "SNB conditional inflation forecast 0.7%/0.8%/0.8% for 2026-28, built on an UNCHANGED 0% rate; market prices ~50% for a 2026-12-10 hike",
+     "Front-end premium at risk: CAD 2y ~112bp above policy vs CHF 2y ~31bp above policy",
+     "Guidance events inside the tactical window: BoC 2026-10-28 with MPR and a new inflation model; SNB none",
+     "Sequencing: BoC decides 2026-10-28 and 2026-12-09, the SNB only on 2026-12-10 — the day after the second Canadian decision"
+    ],
+    "what_is_priced": "The market prices the Halifax language as a commitment and carries roughly two Bank of Canada hikes by January 2027, while pricing a coin flip on the SNB that cannot be tested until December. The Canadian half of that is testable on 2026-10-28 and the Swiss half is not.",
+    "citations": [
+     5,
+     6,
+     7,
+     16,
+     17
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 58,
+    "evidence_type": "policy_comms",
+    "bilateral_analysis": "Over one to six months both wedges resolve and both resolutions, on the dossiers' own probabilities, point the same way for this cross. The Bank of Canada must reconcile a 3.0% headline with a 1.95% trim-median core, 6.4% unemployment, wage growth halved to 2.0% and an economy Governing Council describes as still in excess supply; the base dossier expects one 25bp move at most against roughly 50bp priced over the window, and Scotiabank — the most CAD-constructive major house — already publishes 75bp against the curve's 120bp. The SNB must reconcile a 0.8% headline and a 0.4% core with market pricing of at least 0.75% by September 2027; the quote dossier expects a hold and notes 60% of a Swiss Bankers Association survey sees no change through 2027. Both banks are expected to disappoint, but the Canadian disappointment is roughly three to four times larger in embedded basis points and lands first. Credibility differs too: the SNB has the best inflation record in the developed world and publishes a three-year conditional forecast, while the Bank of Canada has just conditioned its bias on an oil price that has already failed, which is the more fragile communication. Confidence is 58 rather than higher because the 2026-12-10 assessment is a genuine coin flip on the market's own numbers, and an SNB hike there would be the single cleanest way this factor's conclusion inverts.",
+    "key_bilateral_metrics": [
+     "Market-implied paths: BoC to ~3.45% by September 2027 (~120bp) vs SNB to at least 0.75% (~75bp) — a 45bp expected narrowing of the gap already in the curve",
+     "Scotiabank publishes 75bp of BoC tightening against the curve's 120bp; 60% of a Swiss Bankers Association survey sees no SNB change through 2027",
+     "SNB communication architecture: four assessments a year, three-member Governing Board, three-year conditional forecast and no dots — the sparsest guidance in G10",
+     "BoC communication architecture: quarterly MPR, two-week Summary of Deliberations, published neutral band 2.25-3.25%",
+     "SNB dropped June's 'increased' intervention willingness in September, reverting to standard language — official comfort with a weaker franc"
+    ],
+    "what_is_priced": "Consensus prices both banks following through on language neither bank's own forecast supports. We expect both to disappoint and the Canadian disappointment to be the larger and the earlier, which is a net negative for the pair even though both disappointments are individually currency-negative.",
+    "citations": [
+     5,
+     6,
+     7,
+     16,
+     17
+    ]
+   },
+   "horizon_split": "Bearish on both horizons at the same 58 confidence, which is unusual and deliberate. The factor's tactical and strategic content are the same disagreement observed at different resolutions: tactically the asymmetry is pure timing, because only the Bank of Canada speaks; strategically it is pure magnitude, because the Canadian front end has three to four times the premium to surrender. The confidence does not decay because the 2026-12-10 SNB coin flip, which is the main source of error, is a strategic risk that the tactical window does not even contain.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 7,
+   "factor_name": "Event Risk & Geopolitics",
+   "tactical_weight_default": 0.05,
+   "tactical_weight_applied": 0.05,
+   "strategic_weight_default": 0.05,
+   "strategic_weight_applied": 0.05,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 60,
+    "evidence_type": "geopolitics",
+    "bilateral_analysis": "Event risk on this cross is asymmetric in an unusual way: the Canadian leg carries realised, already-enacted damage while the Swiss leg carries unrealised optionality, and both point the pair the same direction. On the base side, US Section 338 measures escalated from a 50% ad valorem duty to outright import bans effective 2026-09-29 at 12:01 ET, covering dairy, alcoholic beverages and motor vehicles, with USMCA providing no relief and the duties stacking on existing AD/CVD and Section 232 measures; Canada retaliated on 2026-09-08 with roughly C$20bn of tariffs. That is a live shock to an economy sending 66.3% of its goods exports to one counterparty, and it will show in the 2026-10-06 trade print and the 2026-10-09 labour report. On the quote side, Switzerland's domestic political risk is effectively nil — stable federal government, no election inside the horizon, the EU Bilaterals III package not entering force before end-2028 — while the franc holds free options on two live external binaries, the Iran negotiation at day 215 and a French budget vote with OAT-Bund at a one-year high of 111.2bp. A currency with no domestic event risk and two free call options against a currency absorbing an enacted trade shock is a bearish configuration for CAD/CHF.",
+    "key_bilateral_metrics": [
+     "Section 338 import bans effective 2026-09-29, replacing a 50% duty from 2026-08-22; Canadian retaliation of roughly C$20bn from 2026-09-08",
+     "66.3% of Canadian goods exports went to the United States in July 2026 — the concentration that converts trade policy into currency risk",
+     "Swiss domestic event risk negligible: no federal election inside the horizon; EU Bilaterals III expected to enter force only at end-2028",
+     "Two live CHF-positive binaries: Iran conflict at day 215 (2026-09-30), French EUR 54bn budget vote with OAT-Bund at 111.2bp",
+     "Affected Canadian products represent about 5% of goods exports to the US per the Bank of Canada, with Governing Council warning of broader dampening of spending, investment and hiring"
+    ],
+    "what_is_priced": "The tariff regime is priced as a known level rather than an evolving process — Canada's REER fell 1.67 points over twelve months while AUD's rose 9.97 — and the two Swiss-relevant binaries are priced as resolving benignly. Neither the 2026-10-06 trade print nor the 2026-10-09 labour report carries a tariff-damage expectation.",
+    "citations": [
+     13,
+     19,
+     20
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 54,
+    "evidence_type": "geopolitics",
+    "bilateral_analysis": "Over one to six months the Canadian trade architecture is the structural negative and it has got worse, not better: the United States declined the 16-year USMCA extension at the 2026-07-01 joint review, so the agreement now runs on annual review cycles through to a 2036 expiry, converting a settled treaty into a permanently renegotiated one for the most trade-concentrated economy in the G10. US demands include 50% of North American vehicle value originating in the United States, and 62% of Canadians support retaliation, so there is no easy concession path. Switzerland has no comparable exposure. But the strategic stance is materially less confident than the tactical one, at 54, because both of the horizon's largest binaries can resolve in the pair's favour. An Iran settlement — the modal path, with regional crude exports back to just under 80% of pre-war and the dispute reduced to sequencing — would be doubly franc-negative, removing the safe-haven bid and the energy-driven inflation impulse behind SNB hike pricing at once, and only mildly CAD-negative through a terms-of-trade channel Canada barely captures anyway. A USTR-Canada interim deal by the stated end-2026 target would lift the Canadian leg directly. Those two outcomes together carry meaningful probability and both are bullish for the cross, which is why a factor with a one-sided structural story carries only 54 confidence.",
+    "key_bilateral_metrics": [
+     "USMCA on annual review cycles through 2036 after the US declined the 16-year extension on 2026-07-01; expiry 2036-07-01 absent extension",
+     "USTR targets interim deals by end-2026, with harder issues into 2027 — the one dated CAD-positive de-escalation catalyst",
+     "Iran settlement is the modal path: regional crude exports 16.328mn b/d, just under 80% of the 19.513mn b/d pre-war baseline, dispute reduced to sequencing",
+     "An Iran settlement is doubly CHF-negative — removing the safe-haven bid and the energy-driven inflation impulse behind SNB hike pricing",
+     "Structural Swiss risks named but not live: UBS as sole dominant bank post-2023 makes UBS-specific stress systemic; Swiss adoption of EU sanctions has tested the neutrality underpinning the haven franchise"
+    ],
+    "what_is_priced": "The market prices the tariff regime as a level effect already reflected in a cheap Canadian dollar, and prices both Swiss-relevant binaries as resolving benignly. What is not priced on the Canadian side is permanence — an annually renegotiated USMCA is a standing risk premium rather than a one-off shock.",
+    "citations": [
+     13,
+     19,
+     20
+    ]
+   },
+   "horizon_split": "Bearish on both horizons with confidence falling from 60 to 54. Tactically the Canadian shock is enacted and dated — import bans two days before the valuation date, with damage due in two prints inside four weeks — while the Swiss options are free and unexpired. Strategically the same Canadian structure persists, but the two largest binaries in the horizon both have benign resolutions that would be bullish for the cross, and an Iran settlement in particular hits the franc twice while barely touching the Canadian dollar, so the expectation-weighted case softens considerably.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 8,
+   "factor_name": "Fiscal & Sovereign Risk",
+   "tactical_weight_default": 0.04,
+   "tactical_weight_applied": 0.04,
+   "strategic_weight_default": 0.07,
+   "strategic_weight_applied": 0.07,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 72,
+    "evidence_type": [
+     "macro_data",
+     "rates"
+    ],
+    "bilateral_analysis": "Neither sovereign generates an FX signal inside four weeks and the high confidence reflects how clearly the evidence supports that. Switzerland is rated AAA or Aaa by all five agencies with stable outlooks and runs a federal budget balance of 0.00% of GDP under a constitutional debt brake; Canada carries Aaa from Moody's, AAA from S&P and DBRS and AA+ from Fitch, all stable, with no agency on review. There is a rating differential — Fitch's 2024 downgrade left Canada one notch below Switzerland at one of four agencies — but a single-notch gap between two AAA-equivalent sovereigns does not move a currency pair. Neither curve shows stress: Swiss benchmarks at 0.31% (2y) and 0.58% (10y) and Canadian benchmarks at 3.37% and 3.96% both slope smoothly upward, with the Canadian 2s10s at +59bp and the Swiss at +27bp, and neither contains an identifiable credit premium. No budget, fiscal update or scheduled rating review falls inside the tactical window for either sovereign. The only live tactical datum is Canada's monthly budget balance of -C$4.77bn reported 2026-09-25 against +C$0.99bn prior, which is a real deterioration and an order of magnitude too small to matter on a cross.",
+    "key_bilateral_metrics": [
+     "Ratings: CHF AAA/Aaa from all five agencies, stable; CAD Aaa (Moody's), AAA (S&P, DBRS), AA+ (Fitch), all stable — a one-notch gap at one agency",
+     "Federal budget balance: Switzerland 0.00% of GDP (2025) under a constitutional debt brake; Canada 2025-26 deficit C$78.3bn, 2.5% of GDP",
+     "General government gross debt: Switzerland 38.5% of GDP (2026e) vs Canada 91.8% (2026e)",
+     "Sovereign curves orderly on both sides: CHF 2y 0.31% / 10y 0.58%; CAD 2y 3.37% / 10y 3.96%, with no credit premium visible in either",
+     "No scheduled fiscal event or rating review for either sovereign inside the tactical window"
+    ],
+    "what_is_priced": "Nothing fiscal is priced into either leg and nothing should be: both curves are orderly, all nine agency ratings across the two sovereigns are stable, and there is no dated event in the window.",
+    "citations": [
+     5,
+     6
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 50,
+    "evidence_type": [
+     "macro_data",
+     "rates"
+    ],
+    "bilateral_analysis": "At a 0.07 strategic weight this becomes the one place where the two sovereigns' trajectories genuinely diverge, and the divergence is one of the widest in the G10. Swiss general government gross debt is falling — 40.5% of GDP in 2024, 39.4% in 2025, 38.5% projected for 2026 and 33.5% by 2031 — under a constitutional debt brake that makes the path a rule rather than a forecast. Canadian general government debt is rising on the same measure, from 88.6% in 2024 to 91.8% in 2026 and a projected 98.5% in 2027 against an AA median of 49.6%, with the general government deficit at 3.3% of GDP against an AA median of 2.3% and a pre-2019 two-decade Canadian average of 0.4%. Fitch's assessment, though 322 days old and flagged stale by the base dossier, warns that persistent fiscal expansion has weakened the credit profile. The base dossier puts the probability of a Fitch or Moody's negative action inside six months at 15%; the equivalent Swiss probability is effectively zero. Confidence is held at 50 — the lowest in this analysis — because neither market is repricing any of this, Canadian federal debt at 42.4% of GDP remains low in absolute terms, and the Canadian fiscal space is being spent on tariff-support programmes the Bank of Canada expects to mitigate real harm. This is a direction-of-travel stance at a small weight, not a claim that sovereign risk is about to matter.",
+    "key_bilateral_metrics": [
+     "General government debt trajectories: Switzerland 39.4% (2025) to 38.5% (2026e) to 33.5% (2031e); Canada 88.6% (2024) to 91.8% (2026e) to 98.5% (2027e)",
+     "General government deficit: Switzerland balanced under the debt brake; Canada 3.3% of GDP against an AA median of 2.3%",
+     "Probability of a negative Canadian agency action inside six months estimated at 15% by the base dossier; no equivalent Swiss risk identified",
+     "Ten-year funding cost: Switzerland 0.58% on 38.5% debt vs Canada 3.96% on 91.8% — a quality differential that is not being repriced",
+     "Rating gap: Fitch AA+ Canada (downgraded June 2024) against AAA Switzerland from all five agencies"
+    ],
+    "what_is_priced": "The market prices both sovereigns as risk-free and is right to. The strategic stance claims only that the direction of travel diverges and that one tail — a Canadian agency action on a confirmed 98.5% 2027 path — exists while the other does not.",
+    "citations": [
+     5,
+     6
+    ]
+   },
+   "horizon_split": "Neutral tactically and Bearish strategically at low confidence, with the weight rising from 0.04 to 0.07. Tactically there is no dated event and no repricing, so the conclusion of immateriality is near-certain and carries 72 confidence. Strategically a genuine trajectory gap exists — one sovereign deleveraging under a constitutional rule, the other adding roughly 7pp of general government debt to GDP in a single year — and a 15% probability of a Canadian rating action against zero for Switzerland is enough to justify a direction at a small weight, though 50 confidence says plainly that this is the weakest-evidenced stance in the analysis.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 9,
+   "factor_name": "Market Structure & Volatility",
+   "tactical_weight_default": 0.05,
+   "tactical_weight_applied": 0.05,
+   "strategic_weight_default": 0.03,
+   "strategic_weight_applied": 0.03,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": "pair_price_action",
+    "bilateral_analysis": "This pass is deliberately not given the pair's chart — no trailing returns, no moving averages, no zones, no ATR — so the only market-structure evidence available is the volatility surface and the funding curve, and neither generates a direction. The gated store puts CAD/CHF 3M at-the-money implied volatility at 4.997% at a 99.7-day tenor observed 2026-09-30, with a term structure of 5.134% at 36.7 days, 4.997% at 99.7 days and 5.157% at 190.6 days — a shallow belly dip inside an essentially flat surface, which prices no concentrated event premium and no regime change. That number is explicitly an ESTIMATE built from the two dollar legs and a realised correlation of 0.6937, not a quote, because no listed option exists on this cross anywhere; the method has been measured running low by a median 14.4% across this repo's pairs, so 4.997% should be read as a floor. The base dossier's own 60-day realised figure for CAD/CHF is 5.17%, above the estimate, which is consistent with that bias. The absence of a listed option is itself the most important structural fact here: there are no risk reversals, no barrier interest, no dealer gamma and no quoted term structure to read, so the usual Factor 9 evidence simply does not exist for this cross. With no chart and no genuine options market, the honest stance is Neutral at 50 confidence.",
+    "key_bilateral_metrics": [
+     "3M ATM IV 4.997% at 99.7 days (estimate, triangle method, observed 2026-09-30, implied correlation 0.6937) — a floor, not a quote",
+     "Term structure 5.134% (36.7d) / 4.997% (99.7d) / 5.157% (190.6d) — essentially flat with a shallow belly dip, pricing no event",
+     "Base dossier 60-day realised vol for CAD/CHF 5.17%, above the estimated implied — consistent with the triangle method's documented low bias",
+     "No listed option on CAD/CHF at any venue, so risk reversals, barrier levels and vol-surface skew are structurally unavailable rather than merely unsourced",
+     "Funding premium -268.6bp annualised over a 75.7-to-166.6-day tenor, the only quoted term-structure information available for the cross"
+    ],
+    "what_is_priced": "A flat surface near 5% prices this as an ordinary low-volatility cross with no event in the window, which is consistent with the absence of any SNB decision before 2026-12-10 but inconsistent with a 2026-10-28 Monetary Policy Report that debuts a new inflation model.",
+    "citations": [
+     3
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 48,
+    "evidence_type": "pair_price_action",
+    "bilateral_analysis": "At a 0.03 weight and with no chart supplied, the strategic structural read adds nothing directional. The six-month tenor of the estimated surface sits at 5.157%, just 16bp above the three-month and 2bp above the one-month, so the market — to the extent an estimated surface represents a market at all — prices no regime change over the horizon and no premium for the December cluster in which the Bank of Canada, the FOMC and the SNB all decide within 48 hours of each other. The one genuinely structural observation available is the quote currency's documented fat tail: the January 2015 floor removal moved EUR/CHF roughly 30% intraday, and CHF's defining feature is low average volatility with extreme event volatility. For a cross in which the franc is the quote leg, that means the distribution of CAD/CHF returns is negatively skewed — the pair grinds up on carry and falls violently on a franc event. A flat 5% surface does not price that skew, and with no listed option there is no risk reversal to confirm whether anyone is paying for it. The stance remains Neutral because skew is a shape observation, not a direction, and 48 confidence prices the fact that every input to this factor is either estimated or absent.",
+    "key_bilateral_metrics": [
+     "Six-month estimated ATM IV 5.157% against three-month 4.997% — a 16bp term premium pricing no regime change across the December policy cluster",
+     "CHF fat-tail reference: EUR/CHF moved approximately 30% intraday on the January 2015 floor removal",
+     "Negatively skewed return distribution for a long CAD/CHF position: linear carry accrual against a non-linear franc-event tail",
+     "No quoted implied vol, no risk reversal and no barrier data exist for this cross — a structural absence, not a sourcing gap",
+     "130 weekday bars passed downstream (2026-04-06 to 2026-10-02) from 4,900 in the store; the price series itself was withheld from this pass by design"
+    ],
+    "what_is_priced": "A flat estimated surface across all three tenors prices no December event and no regime change. Because the estimate is known to run low and no quoted market exists to correct it, the most defensible reading is that volatility on this cross is under-measured rather than mispriced.",
+    "citations": [
+     3
+    ]
+   },
+   "horizon_split": "Neutral on both horizons with confidence easing from 50 to 48. The stance is identical because the factor has no directional content when the price series is deliberately withheld and no option is listed on the cross; the marginal confidence drop reflects that the six-month tenor requires the estimated surface to hold over a window containing three central-bank decisions within 48 hours, which is exactly where a triangle estimate built from realised correlation is least reliable. Pass-2 addendum (chart evidence for levels only; does not alter the scored stance): With the price payload now available, the chart supports levels, not a re-score. Spot at 0.58158 is 17 pips below the 50-day (0.58331) and above the 100-day (0.57713) and 200-day (0.57449). The 50/100/200 stack is still bullish, but spot has just closed through the 50-day and below the 2026-09-22 swing low of 0.58295, the first lower low since July. The 200-week at 0.62302 is 414 pips above spot, has not been closed above for 204 weeks, and is falling about 98 pips a quarter, so it does not interact with spot inside the strategic horizon. The decision zone is the three-touch 0.57167-0.57617 band, which contains the 200-day. Below it sits the six-touch 0.56198-0.56610 base, which matches the 0.56 double bottom identified in January. Overhead, the only nearby computed zone is the two-touch 0.58684-0.58738. Above the 52-week high of 0.59152 there is an air pocket to the four-touch 0.6182-0.6211 band. ATR(14) is 32 pips. Realised volatility (4.10% over 20 days, 5.36% over 60 days) brackets the estimated surface, and the last two sessions ran at about twice ATR. Our structural read from the OHLC is that the September push through 0.5900 has failed and the next objective is the 200-day / three-touch confluence near 0.5745. The chart therefore sits closer to the strategic Bearish than to the tactical Neutral. That observation belongs to this factor and is recorded, but the settled score is not changed.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": {
+    "vol_landscape_summary": "CAD/CHF 3M at-the-money implied volatility is 4.997% at a 99.7-day tenor (source: Data-Cache/derived/fx_iv.csv, CAU+CHU triangle estimate observed 2026-09-30, implied correlation 0.6937 — an ESTIMATE, not a quote, and one the store itself documents as running low by a median 14.4%). The term structure is flat at 5.134% / 4.997% / 5.157% across 36.7, 99.7 and 190.6 days. The base dossier's 60-day realised figure of 5.17% sits above the estimate, consistent with that bias. This is a low-volatility carry cross whose measured vol is probably understated and whose return distribution is negatively skewed by the quote currency's fat tail.",
+    "directional_expression": "With no listed option on the cross, the directional view can only be expressed in spot or forward. That is acceptable here because the carry works in the position's favour: a rolled long earns the -268.6bp annualised funding premium, roughly 13 pips a month, while a rolled short pays it. The honest consequence is that the strategic bearish view expressed in spot is a negative-carry position that must be right on direction within a timeframe, whereas the tactical neutral stance has no expression at all. Any attempt to buy convexity on a franc event must be done through the CHF dollar leg rather than through this cross.",
+    "event_timing_consideration": "The flat term structure prices no premium for the December cluster, in which the Bank of Canada decides 2026-12-09 and the SNB 2026-12-10 — consecutive sessions, with the Canadian decision setting the tone into the Swiss one. The 2026-10-28 Bank of Canada Monetary Policy Report, which debuts a new inflation model, is the only event inside the tactical window and is likewise unpriced on this surface. Because no vol can be bought on the cross itself, event timing argues for sizing rather than structure.",
+    "liquidity_note": "CAD/CHF is a thin G10 cross with no listed option and no direct futures contract; the store's own vol and funding figures are both constructed from the two CME dollar legs (CAU+CHU for vol, 6C/6S for the funding cross). Execution is through the dollar legs, so gap risk on the cross is the sum of two legs' gap risk plus correlation break, and correlation break is exactly what happens in a franc event. Position sizing should assume realised volatility materially above the 4.997% estimate."
+   }
+  },
+  {
+   "factor_number": 10,
+   "factor_name": "USD Liquidity & Funding",
+   "tactical_weight_default": 0.11,
+   "tactical_weight_applied": 0.07,
+   "strategic_weight_default": 0.12,
+   "strategic_weight_applied": 0.08,
+   "weight_adjustment_reason": "Adjusted from 0.11 / 0.12 default; -0.04 on both horizons. CAD/CHF is a non-USD cross, and the framework explicitly permits reducing this factor by 0.03-0.05 for crosses. Dollar conditions still transmit through the vehicle-currency channel — both legs are traded through their dollar pairs — but the direct bilateral content is small and the freed weight is better placed on the rate differential and the external balance.",
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 54,
+    "evidence_type": [
+     "rates",
+     "cross_asset"
+    ],
+    "bilateral_analysis": "Dollar funding is abundant and expensive at once, and that specific combination is worse for the funding leg of a carry cross than for the high-yielding leg. SOFR printed 3.88-3.90% on volumes near USD 3tn with a 16bp percentile dispersion, central bank liquidity swaps outstanding are USD 72mn — effectively nil — and the Fed's balance sheet is growing again after runoff ended in December 2025, so there is no dollar shortage anywhere in the plumbing. That matters bilaterally because the franc appreciates through this channel only when dollar liquidity tightens AND volatility rises; neither is happening, so the franc is paid rather than squeezed. The pair's own funding cross corroborates: the -268.6bp premium on the 6C/6S calendar spread is 43.6bp wider than the 225bp policy differential, and that wedge — the combined cross-currency basis and term effect — currently pays a long CAD/CHF position rather than taxing it. The counterweight is that the broad dollar index rose 1.884 points over the month to 120.33 and both currencies weaken against a strengthening dollar, so this is a relative not an absolute call, and the Canadian dollar's own exposure to US exceptionalism through a 66.3% export channel is the reason confidence is only 54 rather than higher.",
+    "key_bilateral_metrics": [
+     "SOFR 3.88-3.90% on ~USD 3tn of volume with a 16bp 1st-to-99th dispersion; central bank liquidity swaps USD 72mn — no funding stress anywhere",
+     "Fed balance sheet USD 6,747.7bn and growing; QT ended 2025-12-01 with Reserve Management Purchases running",
+     "CAD/CHF funding premium -268.6bp vs a 225bp policy differential — a 43.6bp basis-plus-term wedge that pays the long side",
+     "Broad dollar index DTWEXBGS 120.33 (2026-09-25), +1.884 over the month — both legs weaken against USD, so the call is relative",
+     "Reserve balances USD 2,930.2bn, down USD 83.6bn in the week to 2026-09-23 and USD 72.0bn year on year — the one tightening quantity"
+    ],
+    "what_is_priced": "The market prices dollar funding as a non-issue and prices no squeeze premium into either leg, which is the condition under which the 225bp differential is allowed to dominate the cross. No cross-currency basis quote exists for either leg, so this read rests on SOFR, reserves and the balance sheet.",
+    "citations": [
+     3,
+     14
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": [
+     "rates",
+     "cross_asset"
+    ],
+    "bilateral_analysis": "Over one to six months the funding channel becomes genuinely two-handed for this cross and the stance flattens to Neutral. The mechanism that would lift the franc — a dollar squeeze widening cross-currency basis and forcing funding-currency shorts to cover — is being removed by a Fed that has ended runoff and is buying Treasury bills with no caps, Treasury holdings up USD 356.6bn year on year. But reserve balances have still fallen USD 72.0bn over the year and SOFR is printing at rather than below interest on reserve balances, and the year-end turn falls squarely inside the horizon, which is historically when balance-sheet constraints widen basis and squeeze funding currencies higher. That seasonal risk lands within a day of the 2026-12-10 SNB assessment, so it is correlated with the single largest event risk in the analysis. On the Canadian side the picture is unhelpful but not pair-decisive: both sides of the dollar smile are CAD-negative, because US exceptionalism strengthens the dollar directly while a US downturn weakens Canada through its export channel. The honest assessment is that the modal path is mildly pair-positive and the tail is sharply pair-negative, at a reduced 0.08 weight, with no cross-currency basis quote available for either leg to sharpen the read. Neutral at 50.",
+    "key_bilateral_metrics": [
+     "QT ended; the Desk is directed to increase SOMA holdings through Treasury bill purchases with no runoff caps — the dollar-squeeze mechanism is being removed",
+     "Reserve balances down USD 72.0bn year on year with SOFR printing AT interest on reserve balances rather than below — marginal tightening inside an orderly market",
+     "Year-end balance-sheet constraints fall inside the horizon and land within a day of the 2026-12-10 SNB assessment — correlated risk",
+     "Both sides of the dollar smile are CAD-negative: exceptionalism lifts USD directly, a downturn hits Canada through a 66.3% US export channel",
+     "3M cross-currency basis unavailable from any free quoted source for EUR/USD, JPY/USD, GBP/USD, CAD/USD or CHF/USD — a documented gap on both legs"
+    ],
+    "what_is_priced": "The market prices abundant and expensive dollars with no squeeze, which we accept as the modal path. What is not priced on either leg is the interaction of a USD 72bn annual reserve drain with the year-end turn, which would lift the franc precisely as the SNB meets.",
+    "citations": [
+     3,
+     14
+    ]
+   },
+   "horizon_split": "Bullish tactically and Neutral strategically, with the weight cut from 0.11 to 0.07 and 0.12 to 0.08 for a non-USD cross. Tactically the evidence is hard and current — SOFR orderly, swap lines at USD 72mn, and a funding cross paying 43.6bp more than the policy gap — so the franc as funding leg simply pays. Strategically the Fed's growing balance sheet removes the squeeze mechanism while a USD 72bn annual reserve drain and the year-end turn partly restore it, and that turn is correlated with the SNB decision, so the two hands genuinely cancel.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  }
+ ],
+ "synthesis": {
+  "weight_adjustments": {
+   "adjustments_made": true,
+   "adjustments": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative)",
+     "default_weight": 0.24,
+     "applied_weight": 0.27,
+     "reason": "Tactical and Strategic. The 225bp bilateral policy differential exceeds the framework's 200bp high-carry threshold, and the executable funding premium of -268.6bp annualised means carry is a larger share of expected return on this cross than the default assumes."
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "default_weight": 0.1,
+     "applied_weight": 0.11,
+     "reason": "Tactical only. CAD/CHF pairs a commodity-linked currency against the G10's primary safe haven, placing it above the framework's low-risk-sensitivity bucket; the increment is only +0.01 because CAD's own equity beta is the weakest in the commodity bloc, so the sensitivity sits almost entirely in the quote leg."
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance & Terms of Trade",
+     "default_weight": 0.16,
+     "applied_weight": 0.17,
+     "reason": "Strategic only. The bilateral current-account gap of 8.17pp of GDP is among the widest between any two G10 currencies, and the two surpluses have opposite structures — one three-legged and entrenched, one single-legged and price-driven."
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "default_weight": 0.11,
+     "applied_weight": 0.07,
+     "reason": "Tactical. Non-USD cross, per the framework's explicit permission to reduce by 0.03-0.05. Dollar conditions still transmit through the vehicle-currency channel but the direct bilateral content is small. Tactical weights sum to 1.00 (+0.03 +0.01 -0.04 = 0)."
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "default_weight": 0.12,
+     "applied_weight": 0.08,
+     "reason": "Strategic. As above: non-USD cross, reduced by 0.04. Strategic weights sum to 1.00 (+0.03 +0.01 -0.04 = 0)."
+    }
+   ]
+  },
+  "tactical": {
+   "net_stance": "Neutral",
+   "conviction": 2,
+   "overall_confidence": 54,
+   "weighted_score_calculation": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative)",
+     "stance_score": 1,
+     "confidence": 56,
+     "conf_adj_score": 0.56,
+     "weight": 0.27,
+     "weighted_contribution": 0.1512
+    },
+    {
+     "factor_number": 2,
+     "factor_name": "Inflation & Growth Dynamics",
+     "stance_score": -1,
+     "confidence": 62,
+     "conf_adj_score": -0.62,
+     "weight": 0.18,
+     "weighted_contribution": -0.1116
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "stance_score": 1,
+     "confidence": 58,
+     "conf_adj_score": 0.58,
+     "weight": 0.11,
+     "weighted_contribution": 0.0638
+    },
+    {
+     "factor_number": 4,
+     "factor_name": "Flows & Positioning",
+     "stance_score": 0,
+     "confidence": 55,
+     "conf_adj_score": 0,
+     "weight": 0.1,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance & Terms of Trade",
+     "stance_score": 0,
+     "confidence": 55,
+     "conf_adj_score": 0,
+     "weight": 0.06,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 6,
+     "factor_name": "Guidance & Credibility",
+     "stance_score": -1,
+     "confidence": 58,
+     "conf_adj_score": -0.58,
+     "weight": 0.07,
+     "weighted_contribution": -0.0406
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk & Geopolitics",
+     "stance_score": -1,
+     "confidence": 60,
+     "conf_adj_score": -0.6,
+     "weight": 0.05,
+     "weighted_contribution": -0.03
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign Risk",
+     "stance_score": 0,
+     "confidence": 72,
+     "conf_adj_score": 0,
+     "weight": 0.04,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 9,
+     "factor_name": "Market Structure & Volatility",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.05,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "stance_score": 1,
+     "confidence": 54,
+     "conf_adj_score": 0.54,
+     "weight": 0.07,
+     "weighted_contribution": 0.0378
+    }
+   ],
+   "net_weighted_score": 0.0706,
+   "score_interpretation": "A net tactical score of +0.0706 falls inside the -0.10 to +0.10 band and is therefore Neutral by the derivation rule, applied mechanically. The number is the residual of +0.2528 of positive contributions against -0.1822 of negative ones, which is a genuine cancellation rather than a book with nothing in it. The positives are carry and regime — Policy & Rates at +0.1512, Risk Appetite at +0.0638 and USD Liquidity at +0.0378, all three expressing the same underlying fact that a 225bp differential is being paid in a low-volatility, no-stress tape. The negatives are Canadian-specific damage — Inflation & Growth at -0.1116, Guidance at -0.0406 and Event Risk at -0.0300 — expressing the equally real fact that the base currency is the weaker of two weak currencies on everything except its policy rate. Four factors contribute exactly zero, carrying 0.25 of the weight, and three of those four are Neutral because the two legs genuinely offset rather than because evidence is missing. The honest reading is that this is two bearish currencies cancelling, with carry giving the base a slight edge that falls short of the threshold.",
+   "rationale": "At the applied tactical weights the book is decided by Policy & Rates at 0.27, Inflation & Growth at 0.18 and Risk Appetite at 0.11, together 0.56 of the weight, and those three split two-to-one in the pair's favour — which is why a cross between two currencies both scored Bearish in their own dossiers lands at a near-zero +0.0706 rather than anywhere decisive. The dominant positive mechanism is carry and it is unusually clean: 225bp of policy differential, widened to an executable -268.6bp on the CME calendar-spread cross, earned in a tape where VIX is 16.07, investment-grade spreads are 83bp and RBC describes the franc as the most efficient short leg in G10 carry. The dominant negative mechanism is that the Canadian dollar is the weaker leg on everything that is not a policy rate: Q2 growth of 0.82% quarter on quarter against Switzerland's 1.885%, unemployment of 6.4% against 3.1%, eight negative September data surprises against Switzerland's zero, and a Section 338 import-ban regime that took effect two days before the valuation date with no Swiss analogue. Those two mechanisms are close to equal and opposite over four weeks. The two standalone dossier views reinforce in direction and conflict in degree — both currencies are scored Bearish, CAD at -0.2576 and CHF at -0.3002 — so the cross inherits a marginal franc disadvantage that the bilateral evidence then partly reverses, because the franc's own weakness is a carry effect this pair already counts on the other side of Factor 1. The bilateral modifiers that matter most are two. First, event asymmetry: the Bank of Canada decides on 2026-10-28 with a Monetary Policy Report that debuts a new inflation model and must publish an oil assumption against Macklem's failed USD 100 precondition, while the SNB does not meet until 2026-12-10 — so inside the tactical window only the Canadian leg can reprice, and it carries roughly 112bp of hike premium against the Swiss leg's 31bp. Second, positioning has stopped helping either side: the Swiss franc short covered 2,462 contracts in the week to 2026-09-29 to a net -13,995, which sits at the 36.1 flip percentile of ten years with a z-score of -0.48 and is explicitly not crowded, while the Canadian short has already been halved into Canadian dollar weakness. What is priced against what we expect leaves no clean tactical edge: the forwards price the pair to fall by exactly the carry, the market prices both central banks more hawkish than either bank's own documents support, and the Canadian disappointment is both larger and earlier. Path of least resistance over four weeks is therefore carry accrual interrupted by Canadian data, with the dated catalysts being the 2026-10-06 trade print, the 2026-10-09 labour report, the 2026-10-19 CPI and the 2026-10-28 decision. Conviction is 2 because a Neutral score built from a real cancellation is a statement that the pair has no tactical direction, not that the analysis is thin.",
+   "g10_relative_ranking": "Among CAD crosses, CAD/CHF is the best-carrying long the Canadian dollar has at +225bp with the set's best carry-to-vol, and the base dossier names CAD/CHF its cleanest bullish CAD expression — but that ranking is explicitly conditional on the CAD view being wrong, and it comes with the caveat that the Canadian dollar is scored Bearish against nine of ten peers. Among CHF crosses, CAD/CHF is a mid-tier short-franc expression, ranking behind EUR/CHF, which the quote dossier names its cleanest bearish-franc trade for isolating Swiss versus euro-area fundamentals at a 250bp differential and only 3.89% realised vol, and behind AUD/CHF and CHF/NOK on raw carry at 460bp and 450bp. On the two cycle scores the pair sits between a base currency ranked 9th of 11 tactically and a quote currency ranked 11th, which is precisely why the cross nets to Neutral: it is the second-weakest currency in the block measured against the weakest.",
+   "scenarios": {
+    "base_case": {
+     "probability_pct": 50,
+     "pair_target": "CAD/CHF 0.5810 by end-October 2026, inside a 0.5765-0.5875 range",
+     "timeframe": "To end-October 2026 (2-4 weeks)",
+     "conditions": [
+      "The Bank of Canada holds at 2.25% on 2026-10-28 with a hawkish-sounding hold and a lowered oil assumption, giving back part, not all, of the 112bp two-year premium.",
+      "The OAT-Bund spread stabilises in a 120-150bp band rather than extending, so the franc's safe-haven bid persists without accelerating.",
+      "The 2026-10-09 Canadian labour report prints between -10,000 and +25,000, neither confirming nor refuting the August collapse.",
+      "VIX holds below 20."
+     ],
+     "path": "CAD/CHF is about unchanged (-6 pips, -0.10%), and carry accrual (about 13 pips) roughly offsets the drift. The first phase to the 2026-10-09 labour report tests the thin 0.57811-0.58232 band; the second phase through the 2026-10-19 CPI trades the French spread more than Canadian data, with rallies stalling at the 50-day (0.58331) and the two-touch 0.58684-0.58738 zone; the 2026-10-28 Monetary Policy Report is the dated step toward the lower half of the range."
+    },
+    "upside_case": {
+     "probability_pct": 25,
+     "pair_target": "CAD/CHF 0.5900, a retest of the September failure (+84 pips, +1.45%)",
+     "conditions": [
+      "The OAT-Bund spread retraces inside 115bp as the French budget clears its first National Assembly reading.",
+      "The Canadian labour report rebounds above +30,000 with wage growth back above 2.5%, letting the Bank of Canada keep a December hike live."
+     ]
+    },
+    "downside_case": {
+     "probability_pct": 25,
+     "pair_target": "CAD/CHF 0.5720, the lower edge of the three-touch 0.57167-0.57617 band and below the 200-day (-96 pips, -1.65%)",
+     "conditions": [
+      "The OAT-Bund spread pushes beyond 160bp, or the French government falls, forcing further franc safe-haven buying.",
+      "A second negative Canadian employment print pushes unemployment above 6.6% and the Bank of Canada drops its tightening bias on 2026-10-28."
+     ]
+    }
+   },
+   "path_expectation": "The first phase, to the 2026-10-09 labour report, is a test of whether the thin 0.57811-0.58232 band holds after the 120-pip two-session drop. A close below 0.5781 opens the 200-day / three-touch confluence at 0.5717-0.5762 almost at once, given a 32-pip ATR that has recently been running at twice its average. In the second phase, through the 2026-10-19 Canadian CPI, we expect the pair to trade the French spread more than Canadian data. Rallies should stall at the 50-day (0.58331) and then at the two-touch 0.58684-0.58738 zone. The 2026-10-28 Monetary Policy Report is the one dated step: a lowered oil assumption against 112bp of front-end premium is the most likely trigger for the lower half of the range. Realised volatility should rise from the 4.10% 20-day reading toward the 5.36% 60-day level as the October sessions replace the quiet September bars. The shape is a choppy range with a downside skew, not a trend, and only a weekly close below 0.5717 converts it into a directional break.",
+   "conviction_ladder": {
+    "current": 2,
+    "increase_conditions": [
+     "Shift toward Bearish, conviction 3, if any two of: CAD/CHF closes below 0.5717 (lower edge of the three-touch zone) for two consecutive sessions; the OAT-Bund spread holds above 150bp for five sessions; Canadian September employment prints negative for a second month, or unemployment rises above 6.6%; the Bank of Canada drops its tightening bias on 2026-10-28.",
+     "Shift toward Bullish, conviction 3, if any two of: CAD/CHF closes above the 52-week high of 0.59152; the OAT-Bund spread falls back inside 110bp with VIX below 16; Canadian employment rebounds above +30,000 and the Bank of Canada signals a December move; the CHF leveraged net short rebuilds beyond -25,000 contracts."
+    ],
+    "decrease_conditions": [
+     "Drop to conviction 1 (no signal) if 20-day realised volatility rises above 7%, a volatility regime in which neither the carry nor the Canadian-damage thesis is being rewarded.",
+     "Drop to conviction 1 (no signal) if there is no directional close outside the 0.5717-0.5915 range while that volatility regime persists."
+    ]
+   },
+   "risk_reward": {
+    "base_case_payoff": "+7 pips for the reference long including +13 pips of 1M roll carry (spot -6 pips to 0.5810)",
+    "downside_case_loss": "-83 pips including carry (spot -96 pips / -1.65% to 0.5720); upside case +97 pips including carry (spot +84 pips to 0.5900)",
+    "risk_reward_ratio": "0.88:1 on spot (upside vs downside, before carry)",
+    "expected_value": "Before carry: 0.50 x (-5.8) + 0.25 x (+84.2) + 0.25 x (-95.8) = -5.8 pips. Including carry: +7 pips for the long, -7 pips for a short.",
+    "asymmetry_assessment": "Because the stance is Neutral there is no directional tactical position; the figures describe the reference long that collects the carry. The distribution is almost symmetric, and the carry is about the same size as our slight downside tilt, which is what a Neutral score at conviction 2 should look like. The asymmetry that does exist is in the tails: the downside case is reached through a franc safe-haven event that can arrive as a gap, while the upside case needs two independent pieces of good news."
+   }
+  },
+  "strategic": {
+   "net_stance": "Bearish",
+   "conviction": 2,
+   "overall_confidence": 56,
+   "weighted_score_calculation": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative)",
+     "stance_score": 1,
+     "confidence": 60,
+     "conf_adj_score": 0.6,
+     "weight": 0.27,
+     "weighted_contribution": 0.162
+    },
+    {
+     "factor_number": 2,
+     "factor_name": "Inflation & Growth Dynamics",
+     "stance_score": -1,
+     "confidence": 60,
+     "conf_adj_score": -0.6,
+     "weight": 0.1,
+     "weighted_contribution": -0.06
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "stance_score": 0,
+     "confidence": 52,
+     "conf_adj_score": 0,
+     "weight": 0.05,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 4,
+     "factor_name": "Flows & Positioning",
+     "stance_score": 0,
+     "confidence": 52,
+     "conf_adj_score": 0,
+     "weight": 0.06,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance & Terms of Trade",
+     "stance_score": -1,
+     "confidence": 62,
+     "conf_adj_score": -0.62,
+     "weight": 0.17,
+     "weighted_contribution": -0.1054
+    },
+    {
+     "factor_number": 6,
+     "factor_name": "Guidance & Credibility",
+     "stance_score": -1,
+     "confidence": 58,
+     "conf_adj_score": -0.58,
+     "weight": 0.12,
+     "weighted_contribution": -0.0696
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk & Geopolitics",
+     "stance_score": -1,
+     "confidence": 54,
+     "conf_adj_score": -0.54,
+     "weight": 0.05,
+     "weighted_contribution": -0.027
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign Risk",
+     "stance_score": -1,
+     "confidence": 50,
+     "conf_adj_score": -0.5,
+     "weight": 0.07,
+     "weighted_contribution": -0.035
+    },
+    {
+     "factor_number": 9,
+     "factor_name": "Market Structure & Volatility",
+     "stance_score": 0,
+     "confidence": 48,
+     "conf_adj_score": 0,
+     "weight": 0.03,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.08,
+     "weighted_contribution": 0
+    }
+   ],
+   "net_weighted_score": -0.135,
+   "score_interpretation": "A net strategic score of -0.1350 is at or beyond -0.10 and is therefore Bearish by the derivation rule, applied mechanically. Its composition is the important part: a single large positive of +0.1620 from Policy & Rates against five negatives totalling -0.2970, the largest of which are External Balance at -0.1054 and Guidance at -0.0696. That is a book in which carry is the only thing arguing for the Canadian dollar and five independent channels argue against it — a different and more reliable structure than the tactical cancellation, but one whose whole result depends on a single offset. Remove the carry contribution and the score is -0.2970, a conviction-3 Bearish; remove the external-balance contribution and the score is -0.0296, a Neutral. A reading that swings that far on one factor deserves the conviction-2 label the ladder assigns to the 0.10-0.20 band, not the conviction-3 the direction might tempt. Three factors contribute zero at 0.14 of the weight, and in each case that is a genuine two-sided assessment rather than an absence of evidence.",
+   "rationale": "At strategic weights the book changes shape: Policy & Rates holds 0.27 but External Balance rises to 0.17 and Guidance & Credibility to 0.12, so the structural factors displace the data-flow factors, and four of the five heaviest lines turn against the pair. The weighted score of -0.1350 therefore describes a Canadian dollar that is paid 225bp to hold and penalised on almost everything else. The dominant mechanism is the external-balance gap and its composition rather than its level: Switzerland's 9.198%-of-GDP surplus rests on three independent legs — pharmaceutical and precision-manufacturing goods, financial and commodity-trading services, and primary income on CHF 5,564bn of foreign assets supporting a CHF 986bn net international investment position — and RBC independently names it the structural bull case for the franc, while Canada's 1.03% surplus is one leg, built on record C$60.6bn energy exports at a price the Reuters September poll puts at USD 83.90 for 2026 against a USD 91.51 print, and realised at WTI less a USD 14.80 WCS discount rather than at the USD 100.17 Brent headline. The second mechanism is guidance, and the two reinforce: the Bank of Canada conditioned its hawkish bias on an oil price that has already failed, and the oil price that fails is the same variable that shrinks the Canadian surplus, so Factors 5 and 6 are two readings of one dependency. The third is growth, where Macklem's own 'below 1%' Q4 estimate under a persisting tariff regime sits against a SECO forecast raised to 1.7%. Where the standalone dossiers conflict most usefully is here: both score their currency Bearish, but the Canadian dossier ranks CAD last of eleven strategically at -0.3646 while the Swiss dossier improves CHF to ninth at -0.2566 precisely because its surplus and a REER 2.83% cheaper year on year start to bite at this horizon. What is priced is convergence and recovery — the Exchange Rates UK aggregate of two providers has CHF/CAD at 1.7247 for Q4 2026 and 1.7403 for Q1 2027, which inverts to CAD/CHF near 0.5798 and 0.5746, modestly below the 0.58158 payload spot and therefore already mildly bearish. We differ in degree rather than direction, expecting the Canadian surplus to shrink toward C$2-5bn while the Swiss one persists, and expecting the Bank of Canada to surrender more of its 112bp of embedded front-end premium than the SNB surrenders of its 31bp. The path of least resistance is a slow erosion in which the carry is earned and more than given back, with dated catalysts at the 2026-10-28 Monetary Policy Report, the 2026-12-09 and 2026-12-10 back-to-back Canadian and Swiss decisions, and the USTR's end-2026 USMCA target. Conviction is 2, not 3, because the whole result is a single carry contribution away from Neutral and because an SNB hike on 2026-12-10 — a coin flip on the market's own pricing — would not merely weaken the case but reverse the sign of the pair's largest positive.",
+   "g10_relative_ranking": "On the two cycle scores CAD ranks 11th of 11 strategically at -0.3646 and CHF 9th at -0.2566, so CAD/CHF is the weakest currency in the block measured against the third-weakest, which is why the cross is Bearish but only marginally. Among short-CAD expressions it ranks well behind CAD/NOK, which the base dossier names its cleanest bearish-CAD trade on a 225bp carry disadvantage compounded by a +240.7bp positive futures roll, and behind AUD/CAD at a 235bp differential — CAD/CHF is the one major CAD cross where a short pays away carry rather than earning it. Among long-CHF expressions it ranks behind CHF/JPY, the quote dossier's cleanest bullish-franc trade at only 125bp of carry cost and a positive roll. The honest placement is that CAD/CHF is a low-ranking way to express either side of this view, and the directional signal is worth less than the cleaner relative-value alternatives on both legs.",
+   "scenarios": {
+    "base_case": {
+     "probability_pct": 50,
+     "pair_target": "CAD/CHF 0.5700 by end-Q1 2027 (-116 pips, -1.99%), through the three-touch 0.57167-0.57617 band and the 200-day",
+     "timeframe": "By end-Q1 2027 (1-6 months)",
+     "conditions": [
+      "The Bank of Canada holds at 2.25% through 2026-12-09 and the Canadian two-year falls below 2.95%, giving back at least 40bp of its 112bp hike premium.",
+      "The SNB holds on 2026-12-10, but Swiss core CPI holds at 0.5% or above, so Swiss hike pricing is trimmed rather than removed and the Swiss two-year stays at or above 0.20%.",
+      "The Q3 Canadian current account (late November) shrinks below C$5bn as WTI trades USD 80-92 and the Section 338 bans persist with no interim deal.",
+      "The OAT-Bund spread stays above 110bp, keeping a residual franc safe-haven bid.",
+      "Canadian Q3 GDP prints below 1.5% annualised."
+     ],
+     "path": "A staircase lower, not a trend. October and November are a broad 0.5765-0.5875 range, with the 2026-10-28 Monetary Policy Report pulling the pair toward the lower half and the 50-day (0.58331) capping rallies. The December 9-10 back-to-back Bank of Canada and SNB decisions are the step: the Canadian disappointment lands first and the SNB does not fully remove its own hike pricing, taking the pair through 0.5717 into the 0.5700 area. In Q1 2027 the flattening 200-day turns from support into resistance on any retest."
+    },
+    "upside_case": {
+     "probability_pct": 25,
+     "pair_target": "CAD/CHF 0.5950, above the 52-week high of 0.59152 (+134 pips, +2.31%)",
+     "conditions": [
+      "A USTR-Canada interim agreement suspends the Section 338 import bans by the end-2026 target.",
+      "The SNB holds on 2026-12-10 with no tightening signal, taking the Swiss two-year below 0.15%, while the Bank of Canada hikes or clearly signals a move.",
+      "The OAT-Bund spread normalises inside 100bp."
+     ]
+    },
+    "downside_case": {
+     "probability_pct": 25,
+     "pair_target": "CAD/CHF 0.5620, inside the six-touch 0.56198-0.56610 base (-196 pips, -3.37%)",
+     "conditions": [
+      "The SNB hikes to 0.25% on 2026-12-10, or the French government collapses and the OAT-Bund spread exceeds 175bp.",
+      "WTI breaks below USD 80 and Canadian unemployment rises above 6.8%."
+     ]
+    }
+   },
+   "path_expectation": "We expect a staircase lower, not a trend. October and November should be a broad 0.5765-0.5875 range, with the 2026-10-28 Monetary Policy Report pulling the pair toward the lower half and the 50-day (0.58331) capping rallies. The December 9-10 back-to-back Bank of Canada and SNB decisions are the step. The base case needs the Canadian disappointment to land first and the SNB not to fully remove its own hike pricing, and that combination takes the pair through 0.5717 into the 0.5700 area. In Q1 2027 the 200-day (0.57449), which will be flattening by then, turns from support into resistance on any retest, while the six-touch base at 0.5620-0.5661 limits the downside unless a franc event intervenes. Expect at least one counter-trend rally of 100-150 pips back toward 0.5870, most likely on a USMCA headline or a French relief rally. Treat a weekly close above 0.59152 as the signal that the staircase has failed. Volatility should drift above the 5.0% estimated surface into the December cluster and the year-end funding turn.",
+   "conviction_ladder": {
+    "current": 2,
+    "increase_conditions": [
+     "Increase to 3 if any two of: CAD/CHF closes a week below 0.5717; the Canadian two-year falls below 3.00% while the Swiss two-year holds at or above 0.25%; the Q3 Canadian current account prints below C$5bn; the OAT-Bund spread holds above 140bp through November.",
+     "Increase to 4 if: the SNB hikes on 2026-12-10 while the Bank of Canada holds on 2026-12-09, narrowing the policy gap to 200bp; CAD/CHF closes a week below 0.5661, the top of the six-touch base; Canadian unemployment rises above 6.8%."
+    ],
+    "decrease_conditions": [
+     "Decrease to 1 if: the Bank of Canada hikes 25bp with a signal of further moves while the SNB holds without a tightening bias (the gap widens to 250bp); or CAD/CHF closes a week above 0.5875 with 20-day realised volatility below 4.5%, so the carry regime has resumed.",
+     "Flip to Neutral (score-driven, via the factor invalidators) if: a USTR-Canada interim deal suspends the Section 338 measures; or WTI holds above USD 100 for five sessions with Brent-WTI inside USD 6."
+    ]
+   },
+   "risk_reward": {
+    "base_case_payoff": "Short CAD/CHF from spot 0.58158: +116 pips (+1.99%) before carry to 0.5700; +38 pips after the six-month roll (-78 pips). From the preferred entry at 0.5870: +170 pips to the 0.5700 base target.",
+    "downside_case_loss": "From spot: -134 pips (-2.31%) before carry if the pair reaches 0.5950, -212 pips after the six-month roll. From the preferred entry 0.5870 with a daily-close stop at 0.5930: -60 pips (about 1.9 ATR). Extension case to 0.5620: +196 pips before carry (+118 after roll) from spot, +250 pips from 0.5870.",
+    "risk_reward_ratio": "0.86:1 base-to-adverse before carry from spot",
+    "expected_value": "From spot before carry: 0.50 x 115.8 + 0.25 x 195.8 - 0.25 x 134.2 = +73 pips; after the 78-pip six-month roll about -5 pips (about +8 pips on the 225bp policy basis, 65 pips). From the preferred entry 0.5870: 0.50 x 170 + 0.25 x 250 - 0.25 x 60 = +133 pips before carry; about +55 pips after a full six-month roll.",
+    "asymmetry_assessment": "At spot, the strategic view is a fair-value bet whose small edge is entirely absorbed by negative carry, which is the quantitative reason this report recommends selling rallies rather than shorting at spot. It also supports pass 1's conclusion that the cleaner expressions sit in the legs: short CAD against NOK for the Canadian half, long CHF against JPY for the franc half. Size the 60-pip stop to half the standard per-trade risk budget (conviction 2; assume 6% annualised realised volatility, not 5%); execution runs through the two dollar legs."
+   }
+  },
+  "consensus_divergence": {
+   "bank_consensus_forecast": null,
+   "bank_consensus_forecast_source": null,
+   "our_tactical_view": "Neutral. Net weighted score +0.0706, conviction 2, overall confidence 54. Carry and a benign risk regime offset Canadian data and event asymmetry almost exactly over four weeks.",
+   "our_strategic_view": "Bearish. Net weighted score -0.1350, conviction 2, overall confidence 56. The external-balance gap, the guidance asymmetry and the growth differential outweigh a 225bp carry that is the Canadian dollar's only strategic support.",
+   "divergence_direction": "No major-bank CAD/CHF pair forecast was located (thin and partly unavailable, reported as such). The only aggregate found, Exchange Rates UK's two-provider CHF/CAD path, is effectively one house and not a bank consensus; it inverts to CAD/CHF near 0.5798, 0.5746, 0.5746 and 0.5793 for Q4 2026 to Q3 2027. Strategically we are broadly in line with that thin aggregate, which also has CAD/CHF modestly below the payload spot into Q1 2027; tactically we are less directional than it, as it carries a continuous downward drift where we see a cancellation. On the carry framing we are in line with RBC (Currency Report Card, 13 August 2026) that carry remains the dominant theme in low vol and CHF the most efficient short leg, but we weight the base currency's structural deterioration more heavily than a pure carry framework would.",
+   "divergence_magnitude": "Small and poorly measurable. The two-provider aggregate implies roughly -0.6% to -0.7% from the payload spot by Q1 2027; our strategic score of -0.1350 is a direction without a magnitude in this pass, since levels belong to pass 2. The more meaningful divergence is against the rates market, where we are roughly 25-50bp below Canadian pricing over six months and roughly 50-75bp below Swiss pricing, with the Canadian gap the larger in basis points and the earlier in time.",
+   "why_we_differ": "The pure carry framing that RBC and the broader market apply treats the franc as the short leg and stops there, which produces a mechanical long bias in any cross where the franc is the quote currency. We weight two bilateral factors more heavily than that framing does. First, the external-balance composition: a 9.198%-of-GDP Swiss surplus built on three structurally entrenched legs and a 1.03% Canadian surplus built on one price-driven leg are not the same object scaled, and at a 0.17 strategic weight the difference in durability matters more than the difference in level. Second, the asymmetry of embedded front-end premium: the Canadian two-year carries roughly 112bp above its policy rate against the Swiss two-year's 31bp, so when both central banks disappoint — which both dossiers expect — the pair falls, and the Bank of Canada gets to disappoint first and twice. The carry framing also underweights that Canada is absorbing an enacted trade shock, with Section 338 import bans live since 2026-09-29 inside an annually renegotiated USMCA, while Switzerland faces no equivalent. Pass-2 research addendum: SNB pricing is less settled than the verdict assumes; with September CPI at 1.0%, the July-September average matches the SNB's 0.7% Q3 forecast and the path then requires Q4 inflation to average 1.2%, one analyst judges a December hold remains the base case but risks are skewed towards tightening, and Lombard Odier reads the September assessment as opening the door to a possible December rise (OCBC takes the opposite side, the CHF dossier's own view). These sources, the 1.0% Swiss print and the OAT-Bund move through 140bp all arrived after pass 1 struck the tactical Neutral; we think they push the tactical risk toward the downside, weakening the 'benign tape' premise of Factor 3's tactical Bullish and the dollar-funding premise of Factor 10, so we call it a Neutral with a bearish skew. The scored verdict stands as issued, and our disagreement is carried only in scenario expected value (-6 pips before carry) and in the conviction-ladder thresholds. The bank house view on the franc leg is also turning: Rabobank raised its nine- to 12-month EUR/CHF forecast to 0.95 from 0.94 in August, a franc-weakness call that the French stress is now testing, with EUR/CHF at a two-month low near 0.9300 as investors rushed into the franc. Retail model forecasts (Traders Union, 30rates, LongForecast, WalletInvestor, pandaforecast) were treated as category errors and not used as consensus.",
+   "payoff_if_right": "The strategic payoff accrues through a Canadian front end surrendering 112bp of hike premium against a Swiss front end surrendering 31bp, plus a Canadian current account shrinking toward C$2-5bn while the Swiss one persists. The cleaner relative-value payoff is not in this cross at all — the base dossier's CAD/NOK short and the quote dossier's EUR/CHF short each isolate one leg of the thesis with better carry characteristics than CAD/CHF offers either way.",
+   "risk_if_wrong": "Two specific ways this loses. An SNB hike on 2026-12-10 — priced near 50% by the market against our roughly 20% — would reclassify the franc from funding currency to one with a cycle, compress the differential to 200bp and reverse the sign of the pair's only large positive contribution. Or WTI reclaiming USD 100 with the Brent-WTI spread narrowing inside USD 6 would simultaneously restore Macklem's stated hiking precondition and Canada's revenue capture, flipping Factors 5 and 6 together and taking the strategic score positive. Being wrong on the strategic view while short the pair also means paying away 225-269bp of carry for the privilege."
+  },
+  "cross_horizon_consistency": {
+   "aligned": false,
+   "tactical_stance": "Neutral (+0.0706)",
+   "strategic_stance": "Bearish (-0.1350)",
+   "explanation": "The horizons diverge by 0.2056 of score and by one stance category, and the divergence is structural rather than noise. Four factors change between the horizons and three of them move against the pair. Inflation & Growth holds Bearish but its weight halves from 0.18 to 0.10, which actually helps the pair. External Balance moves from Neutral to Bearish while its weight rises from 0.06 to 0.17, a swing of -0.1054 that is single-handedly larger than the entire tactical score. Guidance holds Bearish while its weight rises from 0.07 to 0.12. Fiscal moves from Neutral to Bearish at a rising weight. Working the other way, Risk Appetite gives up a +0.0638 tactical positive as the two binaries gain time to resolve, and USD Liquidity gives up +0.0378. So the carry contribution is roughly constant across horizons while the structural negatives accumulate — which is exactly what should happen to a positive-carry cross whose base currency is deteriorating: carry is a rate of accrual and deterioration is a stock that builds.",
+   "inflection_point": "The 2026-12-09 and 2026-12-10 pair of decisions, with the Bank of Canada deciding one session before the SNB's quarterly assessment. That 48-hour window is where the tactical cancellation resolves into the strategic direction: the Bank of Canada either validates or surrenders the 112bp of premium in its two-year, and the SNB then either validates or removes the roughly 75bp the market has priced into its own path. The earlier 2026-10-28 Monetary Policy Report is the first test but cannot resolve the Swiss half, because the SNB has no scheduled communication before December.",
+   "trading_implication": "The two horizons should not be run as one position. The tactical Neutral is not a trade — a +0.0706 score on a cross with no listed option and 225bp of carry says the honest tactical action is to collect the carry or do nothing, not to take direction. The strategic Bearish is a trade but an awkward one in this cross specifically, because expressing it in spot means paying away 225-269bp annualised while waiting, and no option exists on CAD/CHF to convert that into a defined-premium structure. The practical consequence is that the strategic view is better expressed through the legs the dossiers each name as cleanest — short CAD against a high-yielding commodity peer, or short CHF against a higher-yielding European peer — rather than by shorting a cross where the carry runs against the thesis. Pass-2 execution note: if the strategic view is taken in the cross itself, the levels give the only entry with positive carry-adjusted expected value: sell 0.5865-0.5875, stop on a daily close above 0.5930, targets 0.5760 and 0.5700. Of the two leg alternatives named in pass 1, only the short-CAD leg expresses this pair's bearish direction; the short-CHF-against-a-European-peer alternative would be a bet against the franc, the opposite of this pair's bearish leg, so a long CHF/JPY (the quote dossier's cleanest bullish-franc expression) is the consistent franc-leg alternative."
+  },
+  "forward_vs_spot": {
+   "current_spot": 0.58158,
+   "forward_1m": "0.58028 outright (-13.0 pips, -0.22% implied CAD move; derived by linear extrapolation of the -268.6bp CME roll, not quoted forward points). Our expected 1M rate 0.5810 is +7 pips above the forward: long forward marginally favoured, consistent with tactical Neutral.",
+   "forward_3m": "0.57767 outright (-39.1 pips, -0.67% implied CAD move)",
+   "forward_6m": "0.57377 outright (-78.1 pips, -1.34% implied CAD move)",
+   "expected_rate_3m": "0.5760",
+   "expected_rate_6m": "0.5700",
+   "edge_3m": "-17 pips (our expected rate is below the forward; short forward favoured by 17 pips)",
+   "edge_6m": "-38 pips (short forward favoured by 38 pips). The forward curve already prices CAD depreciation of 2.69% a year against CHF, so the bearish strategic view has to beat a forward that is itself falling; the true edge is much smaller than the 116-pip spot move suggests. The roll embeds an unseparated cross-currency basis of up to 43.6bp, so a move in basis alone can shift these edges."
+  }
+ },
+ "catalysts": [
+  {
+   "date": "2026-10-06",
+   "event": "Canada merchandise trade balance for August, exports and imports, plus September Ivey PMI (Statistics Canada)",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Base",
+   "rationale": "The July balance collapsed to +C$0.77bn from +C$4.2bn with exports to the US down 6.6%, and this is the first print covering a full month of the 50% Section 338 duty regime before the 2026-09-29 import bans. For CAD/CHF the transmission is the terms-of-trade and external-balance channel that Factor 5 scores Bearish strategically: a further narrowing confirms the Canadian surplus is a reversing price effect against a Swiss surplus that is structural, and Switzerland has no offsetting release that day.",
+   "priced_in": "Not priced",
+   "citations": [
+    19
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "event": "Swiss September unemployment rate, seasonally adjusted and unadjusted (SECO)",
+   "expected_impact": "Neutral",
+   "which_leg_affected": "Quote",
+   "rationale": "August printed 3.1% seasonally adjusted and 3.0% unadjusted against a SECO annual forecast of 3.1%, so a matching print carries no policy impulse. It matters for this pair only as the counterpoint to Canadian labour data three days later: a stable 3.1% against a Canadian 6.4% keeps the widest labour-market differential in the cross intact, which is the Factor 2 channel.",
+   "priced_in": "Fully",
+   "citations": [
+    12
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "event": "SNB foreign currency reserves for September 2026",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Quote",
+   "rationale": "The monthly intervention check, against August reserves of CHF 770.1bn and official reserve assets of CHF 901.6bn. A large build would imply franc selling and cap the quote leg, supporting CAD/CHF; a decline would imply reserve sales and an official franc bid against it. With gold down 6.00% over the month a flat or lower print is more likely valuation than policy, so the read is genuinely two-sided for the cross.",
+   "priced_in": "Not priced",
+   "citations": [
+    5
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "event": "Canada Labour Force Survey for September, released the same day as US non-farm payrolls",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "August employment fell 41,700 against a +15,100 forecast with permanent-employee wage growth halving to 2.0%. A second negative print pushes unemployment above 6.6% and forces hike premium out of the Canadian two-year, which is directly bearish for CAD/CHF because no Swiss event can offset it inside the window. A sharp rebound restores the Canadian tightening case and is the single cleanest tactical positive available for the pair.",
+   "priced_in": "Partially",
+   "citations": [
+    6,
+    8
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "event": "French National Assembly debate and vote on the 2027 budget package (pass-2 addition; dated to the second week of October because no fixed vote date was located, date field approximate)",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Quote",
+   "rationale": "Skewed Bearish. Even if the EUR 43 billion package passes intact, the deficit only falls from 5.4% to 5.0% of GDP while debt climbs to 121.7%, so passing it brings relief, not resolution. A failed or diluted vote extends the franc safe-haven bid that has already taken CAD/CHF 120 pips lower in two sessions. Passing it would ease the bid and is the likeliest trigger for the tactical upside case.",
+   "priced_in": "Partially",
+   "citations": [
+    35,
+    37
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "event": "Canada CPI for September (Statistics Canada)",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Base",
+   "rationale": "Headline held at 3.0% in August on gasoline at +22.8% year on year with the trim-median operational core at 1.95%, below target. As the fuel base effect rolls off, headline should decay toward the 2.4% ex-gasoline rate, which undercuts the roughly 120bp of Bank of Canada tightening in the curve. For the cross this is the Factor 2 and Factor 6 channels firing together, and the Swiss core at 0.40% means the bilateral core gap narrows from the Canadian side.",
+   "priced_in": "Not priced",
+   "citations": [
+    8
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "event": "Bank of Canada decision with Monetary Policy Report, debuting a new inflation model (gated calendar; Monetary Policy Report flagged)",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Base",
+   "rationale": "The highest-leverage dated event in the tactical window and the only scheduled policy communication from either central bank before December. The Bank must publish an oil assumption against Macklem's 2026-09-21 statement that inflation would edge up if oil stayed near USD 100, while WTI closed at USD 91.51. Lowering that assumption is a dovish revision against a Canadian two-year carrying roughly 112bp of premium, and because the SNB does not meet until 2026-12-10 the repricing is entirely one-sided for the cross.",
+   "priced_in": "Partially",
+   "citations": [
+    6,
+    7,
+    16
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "event": "FOMC decision (pass-2 addition)",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Both",
+   "rationale": "The cross trades through USD/CAD and USD/CHF, and the softer US data have changed the odds: cooling PCE lowered the implied probability of an October hike from nearly 51% to about 38%. A Fed skip weakens the dollar more against the franc, the haven-and-funding leg whose shorts unwind, than against CAD, whose US export exposure caps its upside. Net effect: mildly bearish for CAD/CHF.",
+   "priced_in": "Partially",
+   "citations": [
+    27,
+    36
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "event": "Swiss October CPI (FSO) (pass-2 addition; dated to the first week of November, exact date approximate)",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Quote",
+   "rationale": "Bearish if headline reaches 1.2% or above. The SNB's own path needs Q4 inflation to average about 1.2%. An October print at or above that level, with core at or above 0.6%, validates December hike pricing and strengthens the franc against a Canadian front end already giving back premium. A print below 0.9% would partly remove Swiss hike pricing and support the pair.",
+   "priced_in": "Partially",
+   "citations": [
+    23,
+    25
+   ]
+  },
+  {
+   "date": "2026-11-30",
+   "event": "Canada Q3 2026 GDP and monthly GDP for September (Statistics Canada; date follows the end-of-month cadence and is not in the gated calendar)",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Base",
+   "rationale": "Q2 grew 3.3% annualised but monthly tracking stalled at 0.0% then +0.2%, and Q3 is the first full quarter under the Section 338 duty regime begun 2026-08-22. A print below 1.5% annualised would confirm the fragility Governing Council flagged and widen the growth differential against Switzerland's SECO-upgraded 1.7% path, which is the Factor 2 strategic channel.",
+   "priced_in": "Not priced",
+   "citations": [
+    6,
+    9
+   ]
+  },
+  {
+   "date": "2026-12-01",
+   "event": "Swiss Q3 2026 GDP (SECO; date follows the cadence that produced the Q2 release on 2026-09-03 and is not in the gated calendar)",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Quote",
+   "rationale": "Q2 grew 1.885% quarter on quarter, the fastest in the block, but SECO flags that roughly half came from the volatile chemical-pharmaceutical sector and expects second-half moderation. A reversion toward the 1.6% annual trend would narrow the growth gap that is this pair's main structural negative, so a soft Swiss Q3 is one of the few scheduled events that works for CAD/CHF.",
+   "priced_in": "Not priced",
+   "citations": [
+    12
+   ]
+  },
+  {
+   "date": "2026-12-09",
+   "event": "Bank of Canada decision (gated calendar; no Monetary Policy Report)",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Base",
+   "rationale": "The second of two Canadian decisions inside the horizon and the one that falls the session before the SNB's assessment, so Canada sets the tone into the Swiss meeting. If the Bank has still not moved by this date the market's roughly two-hikes-by-January pricing becomes untenable and the 112bp of premium in the Canadian two-year is most likely to be surrendered here, which is directly bearish for the cross through the rate-expectations channel.",
+   "priced_in": "Partially",
+   "citations": [
+    6,
+    14
+   ]
+  },
+  {
+   "date": "2026-12-10",
+   "event": "Swiss National Bank quarterly monetary policy assessment with conditional inflation forecast (gated calendar; quarterly assessment flagged)",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Quote",
+   "rationale": "The only scheduled Swiss policy communication in either horizon and the single largest source of error in this analysis. The market prices nearly a 50% chance of a 25bp hike against an SNB conditional forecast of 0.7%/0.8%/0.8% built on an unchanged 0% rate. A hold with no tightening signal removes Swiss front-end premium and is bullish CAD/CHF; a hike compresses the differential to 200bp, reclassifies the franc from funding currency to one with a cycle, and reverses the sign of this pair's largest positive factor contribution.",
+   "priced_in": "Partially",
+   "citations": [
+    5,
+    17
+   ]
+  },
+  {
+   "date": "2026-12-31",
+   "event": "USTR target date for USMCA interim agreements",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "The United States declined the 16-year USMCA extension at the 2026-07-01 joint review, placing the agreement on annual review cycles through 2036, and USTR has stated it aims to have interim deals ready by end-2026. An interim deal suspending the Section 338 import bans is the largest single CAD-positive catalyst in the horizon and the principal risk to the strategic Bearish stance; failure entrenches a standing risk premium on Canadian assets against a Swiss sovereign carrying none.",
+   "priced_in": "Not priced",
+   "citations": [
+    13
+   ]
+  }
+ ],
+ "invalidators": [
+  {
+   "condition": "If the Bank of Canada hikes 25bp to 2.50% on 2026-10-28 or 2026-12-09 and signals a further move, while the SNB holds on 2026-12-10 without a tightening bias",
+   "new_stance": "Neutral (strategic)",
+   "mechanism": "The policy gap would widen to 250bp at the same time as the guidance asymmetry in Factor 6 reverses, removing the CAD-disappointment mechanism and strengthening the pair's only large positive contribution.",
+   "monitor_indicator": "Bank of Canada Overnight Rate Target and statement; Canadian two-year above 3.40%",
+   "monitor_frequency": "At each decision; two-year daily",
+   "probability_pct": 18
+  },
+  {
+   "condition": "If a USTR-Canada interim agreement suspends or rescinds the 2026-09-29 Section 338 import bans before end-2026",
+   "new_stance": "Neutral (strategic)",
+   "mechanism": "Removing the trade shock lifts Factor 7, eases the drag on the Canadian goods balance in Factor 5, and takes away the standing risk premium that explains the pair's 204 weeks below its 200-week average.",
+   "monitor_indicator": "USTR announcements and Federal Register proclamations",
+   "monitor_frequency": "Weekly, rising to daily through December",
+   "probability_pct": 20
+  },
+  {
+   "condition": "If WTI closes above USD 100 for five consecutive sessions while the Brent-WTI spread narrows inside USD 6",
+   "new_stance": "Bullish (strategic)",
+   "mechanism": "That restores both Macklem's hiking precondition and Canada's capture of the global crude premium, flipping Factors 5 and 6 together. Because the franc barely feels oil, the move would be close to one-sided for the pair.",
+   "monitor_indicator": "WTI front-month and the Brent-WTI differential",
+   "monitor_frequency": "Daily",
+   "probability_pct": 10
+  },
+  {
+   "condition": "If the OAT-Bund spread retraces inside 105bp and CAD/CHF closes a week above the 52-week high of 0.59152",
+   "new_stance": "Neutral (strategic)",
+   "mechanism": "A fading French premium removes the franc's live safe-haven bid, and a close above the September high would show that carry, not Canadian damage, is again setting the price, with no computed resistance until 0.6182.",
+   "monitor_indicator": "OAT-Bund spread and the CAD/CHF weekly close",
+   "monitor_frequency": "Daily; weekly close decisive",
+   "probability_pct": 15
+  },
+  {
+   "condition": "If the OAT-Bund spread holds above 150bp for five sessions and CAD/CHF closes two sessions below 0.5717",
+   "new_stance": "Bearish (tactical)",
+   "mechanism": "The French channel that pass 1 treated as a strategic tail would have become the tactical driver, and a break of the three-touch band and the 200-day removes the support that underpins the tactical cancellation.",
+   "monitor_indicator": "OAT-Bund spread; CAD/CHF daily close versus 0.5717",
+   "monitor_frequency": "Daily",
+   "probability_pct": 25
+  },
+  {
+   "condition": "If Canadian unemployment falls below 6.2% with employment above +50,000 and permanent-employee wage growth back above 3.0% in one report",
+   "new_stance": "Neutral (strategic)",
+   "mechanism": "A tightening labour market removes the excess supply that underpins Factor 2's Bearish and makes the Bank of Canada's front-end premium a forecast rather than a misreading, closing the CAD/CHF disappointment asymmetry.",
+   "monitor_indicator": "Statistics Canada Labour Force Survey",
+   "monitor_frequency": "Monthly (next 2026-10-09)",
+   "probability_pct": 10
+  },
+  {
+   "condition": "If the SNB holds on 2026-12-10 with a conditional forecast at or below 0.7% for 2027 and the Swiss two-year falls below 0.10%",
+   "new_stance": "Neutral (strategic)",
+   "mechanism": "Swiss hike pricing would be fully removed and the franc restored as a pure funding currency, so the pair would earn its 225bp carry without the Swiss leg offering the relative resilience the Bearish case relies on.",
+   "monitor_indicator": "SNB assessment and Swiss two-year yield",
+   "monitor_frequency": "Quarterly; daily for the two-year",
+   "probability_pct": 20
+  }
+ ],
+ "signposts": [
+  {
+   "indicator": "Canada-Switzerland two-year yield spread",
+   "current_level": "+306bp (Canada 2Y 3.37% on 2026-09-28 vs Switzerland 2Y 0.31% on 2026-09-29)",
+   "confirms_if": "narrows below 280bp, with the Canadian front end giving back premium faster than the Swiss",
+   "invalidates_if": "widens above 330bp, meaning the Canadian hike case is being validated",
+   "bilateral_importance": "It measures the 112bp-versus-31bp premium asymmetry that sits at the centre of Factors 1 and 6. Neither leg's own curve shows the relative surrender rate.",
+   "source": "https://www.bankofcanada.ca/rates/interest-rates/canadian-bonds/ and https://tradingeconomics.com/switzerland/2-year-note-yield",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "French 10Y OAT less German 10Y Bund spread",
+   "current_level": "130.3bp as of Oct 1, 2026, with intraday reports of about 141bp on 2026-10-02",
+   "confirms_if": "holds above 140bp through November, sustaining the franc refuge bid",
+   "invalidates_if": "retraces inside 105bp",
+   "bilateral_importance": "The franc, not the euro, is the regional refuge. A eurozone sovereign event moves CHF and leaves CAD almost untouched, so it drives this cross more than either dollar pair.",
+   "source": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "Swiss headline and core CPI",
+   "current_level": "1.0% headline and 0.5% core YoY for September 2026",
+   "confirms_if": "headline reaches 1.2% or above in October with core at 0.6% or above, sustaining December SNB hike pricing",
+   "invalidates_if": "headline falls back below 0.8% with core at 0.4% or below",
+   "bilateral_importance": "It decides whether the smaller of the two front-end premiums (Swiss 31bp) survives while the larger one (Canadian 112bp) is surrendered.",
+   "source": "https://tradingeconomics.com/switzerland/inflation-cpi",
+   "frequency": "Monthly, first business days"
+  },
+  {
+   "indicator": "WTI, the Brent-WTI spread and the WCS differential",
+   "current_level": "WTI USD 91.51 (2026-09-30); Brent-WTI USD 11.05; WCS USD 14.80 under WTI; realised Canadian barrel near USD 76.70",
+   "confirms_if": "WTI below USD 88 with Brent-WTI at USD 8 or wider",
+   "invalidates_if": "WTI above USD 100 for five sessions with Brent-WTI inside USD 6",
+   "bilateral_importance": "The Swiss leg barely responds to oil, so CAD's realised barrel is almost a pure pair driver through Factors 5 and 6.",
+   "source": "https://oilprice.com/Energy/Oil-Prices/Oil-Price-Forecasts-Jump-as-Hormuz-Disruption-Drags-On.html",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "CFTC net positioning in both legs",
+   "current_level": "CHF all-speculator net -13,995 (week to 2026-09-29, 36.1 ten-year percentile); CAD leveraged net -46,861 (2026-09-22, -15.1% of open interest)",
+   "confirms_if": "the CHF net short narrows inside -8,000 while the CAD short rebuilds beyond -70,000",
+   "invalidates_if": "the CHF short rebuilds beyond -25,000 while the CAD short covers inside -25,000",
+   "bilateral_importance": "The pair signal is the difference between the two books, not either one alone, and a short-both configuration hides one-sided unwinds.",
+   "source": "https://forexfundamentals.com/cot/chf and https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+   "frequency": "Weekly, Fridays"
+  },
+  {
+   "indicator": "CAD/CHF 20-day realised volatility versus the estimated one-month implied",
+   "current_level": "4.10% realised vs 5.134% estimated (36.7 days); 60-day realised 5.36%",
+   "confirms_if": "20-day realised rises above 6% with spot below 0.5762, a franc-event regime in which carry is not protective",
+   "invalidates_if": "20-day realised falls below 3.5% with spot above 0.5875, a carry grind resuming",
+   "bilateral_importance": "No option is listed on the cross, so realised volatility is the only live gauge of whether the carry regime or the franc fat tail is in control.",
+   "source": "Gated price store (Data-Cache/derived/fx_iv.csv), cited as [3]",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "Canada unemployment rate and permanent-employee wage growth",
+   "current_level": "6.4% unemployment; wages +2.0% YoY (August 2026)",
+   "confirms_if": "unemployment above 6.6% or wages below 2.0%",
+   "invalidates_if": "unemployment below 6.2% with employment above +50,000 and wages above 3.0%",
+   "bilateral_importance": "Canadian unemployment is more than double Switzerland's 3.1% registered rate, the widest labour gap in the cross, and only the Canadian side can move inside the tactical window.",
+   "source": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm",
+   "frequency": "Monthly; next 2026-10-09"
+  }
+ ],
+ "assumptions": [
+  "Price series delivered (verbatim from the payload): dataPoints 130; dateRange 2026-04-06 to 2026-10-02; spot 0.58158; spotDate 2026-10-02; computationRange 2007-12-24 to 2026-10-02 (4900 weekday bars); weekendBarsDropped 0; dataQuality: CAD/CHF 4900 weekday bars in the store (2007-12-24 to 2026-10-02); 1007 weekly, 500 monthly; 130 daily bars passed downstream (2026-04-06 to 2026-10-02), which is the 1-6 month strategic horizon.",
+  "Spot date gap: spotDate (2026-10-02) is one session AFTER the 2026-10-01 valuation date of both dossiers, not before it. Every level, pip distance, percentage and target is anchored to 0.58158. No web-sourced spot was used.",
+  "Price-derived metrics: moving averages are simple averages of trading-day closes over the full stored history. Realised volatility is annualised on 252 days. ATR(14) is 0.00315 (32 pips). Zone distances are the payload's distances from spot to each zone's midpoint. Narrative prose quotes the close-basis 52-week percentile (68).",
+  "52-week range fields in market_context use the closing basis (0.56308-0.59041, 68th percentile); the intraday range is 0.55955-0.59152 (69th percentile; high set 2026-09-17, close high 2026-09-16). Support and resistance levels in pair_technicals are zone midpoints (zone edges are given in chart_pattern) plus the 52-week high.",
+  "Pass structure: pass 1 scored all ten factors and the synthesis without the price payload. Every stance, confidence, evidence_type, weight, contribution, net score, conviction and rationale is carried verbatim. Where pass-1 text describes the price series as withheld, that describes pass 1. Pass-2 chart evidence appears only in market context, levels, scenarios, risk/reward, the clearly labelled Factor 9 addendum, invalidators and signposts.",
+  "Post-verdict information: web research accessed 2026-10-06 surfaced events dated 2026-10-01 to 2026-10-05 (the OAT-Bund spread breaching 130-140bp; Swiss September CPI at 1.0% and core at 0.5%; softer US data cutting Fed October hike odds). These are used for narrative, scenario conditions and the published disagreement only and do not change any scored element. US payrolls timing is ambiguous across sources (the CAD dossier dates the next payrolls to 2026-10-09; one 2026-10-05 summary refers to a weak payrolls report already released), so no claim is made about the release date.",
+  "Implied volatility: pair_3m_iv is 4.997% at a 99.7-day tenor. It is a triangle ESTIMATE using a realised correlation of 0.6937, which the store documents as running low by a median 14.4%. No option is listed on CAD/CHF, so there is no risk reversal, IV percentile, barrier or vol-surface skew; these are structural absences and the iv_percentile field is therefore null. The CAD CFTC percentile is not published in the report and is recorded as null.",
+  "Carry sign convention: annualised_carry_bps is entered as +268.6 (the executable roll, which the report states as -268.6bp funding premium because the forward trades at a discount; a rolled long earns it). Policy differential is +225bp. carry_to_vol_ratio of 0.54 is 268.6/100/4.997; the report's 0.45 is on the 225bp policy basis.",
+  "Forward outrights are derived by linear extrapolation of the -268.6bp CME calendar-spread roll. They embed an unseparated cross-currency basis and are not quoted forward points.",
+  "Rates block: the 10-year yields (CAD 3.675%, CHF 0.47%) are monthly observations as of 2026-08-01 and are not quoted as live levels. The two-year spread signpost uses dossier live prints (Canada 3.37% on 2026-09-28, Switzerland 0.31% on 2026-09-29).",
+  "REER-relative valuation is a proxy from BIS broad real indices for 2026-08, not true purchasing-power parity. The 4.8% gap at the current spot is an approximation because the REERs predate the spot move.",
+  "Scenario probabilities follow the framework's 50/25/25 structure. Scenario levels and the derived expected values are pass-2 judgements consistent with, but not inputs to, the settled score.",
+  "Bilateral trade is the supplied IMF DOTS block, used as given. The mirror-data asymmetry is disclosed in Factor 5.",
+  "Retail model forecast sites returned by search were rejected as category errors and are not cited as consensus. Bank consensus is therefore null: no major-bank CAD/CHF pair forecast was located.",
+  "Pass-1 assumptions on CFTC vintages, the funding premium, catalyst dating, cross-currency basis gaps and oil-price reconciliation are retained unchanged. Catalyst dates for items dated only to a week (French budget vote, Swiss October CPI) are approximate.",
+  "The Exchange Rates UK CHF/CAD path (two providers, 0.0% range width) is treated as best-available aggregate, effectively one house, and not as a bank consensus."
+ ],
+ "complete_citations": [
+  {
+   "id": 1,
+   "title": "Currency Report Card, 13 August 2026 — Swiss Franc and G10 carry section",
+   "publisher": "RBC Capital Markets",
+   "url": "https://www.rbccm.com/assets/rbccm/docs/fx/currency-report-card.pdf",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 2,
+   "title": "Swiss Franc COT Positioning, week ending 29 September 2026",
+   "publisher": "Forex Fundamentals (CFTC data)",
+   "url": "https://forexfundamentals.com/cot/chf",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 3,
+   "title": "CAD/CHF direction payload — rates, implied volatility and funding blocks",
+   "publisher": "Gated price store (Data-Cache/derived/fx_iv.csv, fx_carry.csv)",
+   "url": "https://internal/gated-store/CADCHF.direction.json",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 4,
+   "title": "Carry trade: after the yen, is it now the franc's turn?",
+   "publisher": "SWI swissinfo.ch",
+   "url": "https://www.swissinfo.ch/eng/macroeconomics/carry-trade-after-the-yen-is-it-now-the-francs-turn/92094816",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 5,
+   "title": "Monetary policy assessment of 24 September 2026 and introductory remarks",
+   "publisher": "Swiss National Bank",
+   "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924",
+   "date_accessed": "2026-09-30"
+  },
+  {
+   "id": 6,
+   "title": "Monetary Policy Decision Press Conference Opening Statement, 2 September 2026",
+   "publisher": "Bank of Canada",
+   "url": "https://www.bankofcanada.ca/2026/09/opening-statement-2026-09-02/",
+   "date_accessed": "2026-09-30"
+  },
+  {
+   "id": 7,
+   "title": "Summary of Governing Council deliberations: fixed announcement date of 2 September 2026",
+   "publisher": "Bank of Canada",
+   "url": "https://www.bankofcanada.ca/2026/09/summary-of-governing-council-deliberations-fixed-announcement-date-of-september-2-2026/",
+   "date_accessed": "2026-09-30"
+  },
+  {
+   "id": 8,
+   "title": "The Daily — Consumer Price Index, August 2026",
+   "publisher": "Statistics Canada",
+   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm",
+   "date_accessed": "2026-09-30"
+  },
+  {
+   "id": 9,
+   "title": "The Daily — Canada's balance of international payments, second quarter 2026",
+   "publisher": "Statistics Canada",
+   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260827/dq260827a-eng.htm",
+   "date_accessed": "2026-09-30"
+  },
+  {
+   "id": 10,
+   "title": "Swiss balance of payments and international investment position, Q2 2026",
+   "publisher": "Swiss National Bank",
+   "url": "https://www.snb.ch/en/publications/communication/press-releases/2026/pre_20260922",
+   "date_accessed": "2026-09-30"
+  },
+  {
+   "id": 11,
+   "title": "Swiss trade surplus nearly doubles in Q2 2026 as exports surge",
+   "publisher": "Global Banking & Finance",
+   "url": "https://www.globalbankingandfinance.com/swiss-trade-surplus-nearly-doubles-second-quarter-exports/",
+   "date_accessed": "2026-09-30"
+  },
+  {
+   "id": 12,
+   "title": "SECO revises upwards: GDP growth at 1.7% for 2026",
+   "publisher": "Frontaliere Ticino (SECO forecast round)",
+   "url": "https://frontaliereticino.ch/en/swiss-articles/seco-growth-forecasts-2026/",
+   "date_accessed": "2026-09-30"
+  },
+  {
+   "id": 13,
+   "title": "U.S. imposes 50% Section 338 tariffs on Canadian imports: dairy, alcoholic beverages and motor vehicles",
+   "publisher": "GHY International",
+   "url": "https://www.ghy.com/trade-compliance/us-imposes-50-section-338-tariffs-on-canadian-imports-dairy-alcoholic-beverages-and-motor-vehicles/",
+   "date_accessed": "2026-09-30"
+  },
+  {
+   "id": 14,
+   "title": "Interest Rate — country list (policy rates, latest decisions and reference periods)",
+   "publisher": "Trading Economics",
+   "url": "https://tradingeconomics.com/country-list/interest-rate",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 15,
+   "title": "Direction of Trade Statistics — bilateral goods flows, Canada and Switzerland, 2024",
+   "publisher": "International Monetary Fund",
+   "url": "https://data.imf.org/dots",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 16,
+   "title": "Bank of Canada's Macklem flags risk of delaying rate hike too long (Halifax, 21 September 2026)",
+   "publisher": "Canadian Mortgage Trends",
+   "url": "https://www.canadianmortgagetrends.com/2026/09/bank-of-canadas-macklem-flags-risk-of-delaying-rate-hike-too-long/",
+   "date_accessed": "2026-09-30"
+  },
+  {
+   "id": 17,
+   "title": "Swiss National Bank holds rates at zero as markets bet on hikes to 0.75% by next September",
+   "publisher": "BigGo Finance",
+   "url": "https://finance.biggo.com/news/416a76ea-d26d-46d0-80d3-41807829cc14",
+   "date_accessed": "2026-09-30"
+  },
+  {
+   "id": 18,
+   "title": "Switzerland core inflation rate (CPI excluding fresh and seasonal products, energy and fuel)",
+   "publisher": "Trading Economics",
+   "url": "https://tradingeconomics.com/switzerland/core-inflation-rate",
+   "date_accessed": "2026-09-30"
+  },
+  {
+   "id": 19,
+   "title": "The Daily — Canadian international merchandise trade, July 2026",
+   "publisher": "Statistics Canada",
+   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260903/dq260903a-eng.htm",
+   "date_accessed": "2026-09-30"
+  },
+  {
+   "id": 20,
+   "title": "OAT / Bund spread today",
+   "publisher": "Ideal Investisseur",
+   "url": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 21,
+   "title": "Swiss Franc (CHF) forecasts and predictions 2026, 2027 — CHF/CAD aggregated provider path",
+   "publisher": "Exchange Rates UK",
+   "url": "https://www.exchangerates.org.uk/currency-forecasts/swiss-franc-forecast",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 22,
+   "title": "[PREVIEW] SNB Policy Announcement on 24th September 2026",
+   "publisher": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/preview-snb-policy-announcement-on-24th-september-2026",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 23,
+   "title": "Swiss September-26 CPI Inflation Report",
+   "publisher": "Gianluca Benigno (Substack)",
+   "url": "https://gianlucabenigno.substack.com/p/swiss-september-26-cpi-inflation",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 24,
+   "title": "After holding interest rates, is the Swiss central bank preparing to change gears?",
+   "publisher": "Lombard Odier Investment Managers",
+   "url": "https://am.lombardodier.com/insights/2026/september/after-holding-interest-rates-is-the-swiss-central-bank-preparing-to-change-gears.html",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 25,
+   "title": "Switzerland Inflation Rate",
+   "publisher": "Trading Economics",
+   "url": "https://tradingeconomics.com/switzerland/inflation-cpi",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 26,
+   "title": "Swiss National Bank holds rates at 0% as inflation stays low",
+   "publisher": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/24/swiss-national-bank-interest-rates-inflation.html",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 27,
+   "title": "Dollar Gains Against Swiss Franc as CPI Data Approaches",
+   "publisher": "Tradingpedia",
+   "url": "https://www.tradingpedia.com/2026/10/01/dollar-gains-against-swiss-franc-as-cpi-data-approaches/",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 28,
+   "title": "SNB Rate Decision September 2026: Rates Held at 0%",
+   "publisher": "Admiral Markets",
+   "url": "https://admiralmarkets.com/analytics/traders-blog/snb-rate-decision-september-2026",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 29,
+   "title": "Canadian Dollar — Quote, Chart, Historical Data, News",
+   "publisher": "Trading Economics",
+   "url": "https://tradingeconomics.com/canada/currency",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 30,
+   "title": "Swiss Franc: Still a low-yield funding currency — OCBC",
+   "publisher": "FXStreet",
+   "url": "https://www.fxstreet.com/news/swiss-franc-still-a-low-yield-funding-currency-ocbc-202609250929",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 31,
+   "title": "Swiss Franc: Funding currency weakness extends — OCBC",
+   "publisher": "FXStreet",
+   "url": "https://www.fxstreet.com/news/swiss-franc-funding-currency-weakness-extends-ocbc-202608070921",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 32,
+   "title": "Traders eye Swiss franc as yen intervention reshapes carry trade",
+   "publisher": "Hedgeweek",
+   "url": "https://www.hedgeweek.com/traders-eye-swiss-franc-as-yen-intervention-reshapes-carry-trade/",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 33,
+   "title": "Analysis — Investors set sights on Swiss franc for popular carry trades after yen intervention",
+   "publisher": "Reuters via Investing.com",
+   "url": "https://www.investing.com/news/forex-news/analysisinvestors-set-sights-on-swiss-franc-for-popular-carry-trades-after-yen-intervention-4866417",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 34,
+   "title": "Swiss Franc Gains Ground as French Debt Concerns Intensify. Forecast as of 05.10.2026",
+   "publisher": "LiteFinance",
+   "url": "https://www.litefinance.org/blog/analysts-opinions/swiss-franc-gains-ground-as-french-debt-concerns-intensify-forecast-as-of-05102026/",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 35,
+   "title": "France's OAT/Bund Spread Blows Past Italy and Greece as Debt Hits 121.7% of GDP",
+   "publisher": "TFTC",
+   "url": "https://www.tftc.io/france-oat-bund-spread-wider-italy-greece-debt-121-percent-gdp",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 36,
+   "title": "UBP says French OAT-Bund spread widening weighs on European assets",
+   "publisher": "Rallies",
+   "url": "https://rallies.ai/news/ubp-says-french-oat-bund-spread-widening-weighs-on-european-assets-aabb723b551b3a03",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 37,
+   "title": "France Risk Premium Surges as OAT-Bund Spread Breaks 140bp, EUR/CHF Slides",
+   "publisher": "ActionForex",
+   "url": "https://www.actionforex.com/action-insight/market-overview/656113-france-risk-premium-surges-as-oat-bund-spread-breaks-140bp-eur-chf-slides/",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 38,
+   "title": "French Sovereign Spreads Hit 12-Year Highs as Fiscal Urgency Collides With Election Risk",
+   "publisher": "Gokhshtein",
+   "url": "https://gokhshtein.com/news/2026-10-02-french-sovereign-spreads-hit-12-year-highs-as-fiscal",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 39,
+   "title": "CAD/CHF Forecast: Canadian Dollar Testing Significant Support Against CHF (28 January 2026)",
+   "publisher": "DailyForex",
+   "url": "https://www.dailyforex.com/forex-technical-analysis/2026/01/cadchf-forecast-28-june-2026/240405",
+   "date_accessed": "2026-10-06"
+  }
+ ]
+}

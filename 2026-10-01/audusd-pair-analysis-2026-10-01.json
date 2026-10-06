@@ -1,0 +1,1612 @@
+{
+ "metadata": {
+  "pair": "AUDUSD",
+  "base_currency": "AUD",
+  "quote_currency": "USD",
+  "valuation_date": "2026-10-01",
+  "framework_version": "2.0",
+  "base_dossier_date": "2026-10-01",
+  "quote_dossier_date": "2026-10-01"
+ },
+ "pair_convention": {
+  "spot_reference": "AUD/USD 0.69554",
+  "spot_explanation": "AUD/USD at 0.69554 means 1 AUD = 0.69554 USD (payload close, spotDate 2026-10-02). The pair is quoted in US dollars per Australian dollar. Rising = AUD strengthening vs USD; falling = AUD weakening vs USD.",
+  "bullish_means": "pair RISES (AUD strengthens vs USD)",
+  "bearish_means": "pair FALLS (AUD weakens vs USD)",
+  "base_dossier_tactical_stance": "AUD dossier: tactical Bullish, conviction 3, net +0.3040; strategic Neutral, conviction 2, net +0.0307.",
+  "quote_dossier_tactical_stance": "USD dossier: tactical Bullish USD, conviction 3, net +0.3782 (which points the pair lower); strategic Bearish USD, conviction 2, net −0.1822 (which points the pair higher)."
+ },
+ "executive_summary": "AUD/USD closed at 0.69554 on 2026-10-02, one session after the valuation date. The pair is quoted in US dollars per Australian dollar, so a rising pair means a stronger AUD. It is down 3.41% over one month, up 0.38% over three months, down 1.81% over six months and up 6.81% over a year. Spot sits at the 62nd percentile of its 52-week closing range, below the 50-day (0.70913), 100-day (0.70582) and 200-day (0.70303) averages. The pair lost both 0.7000 and the 200-day on 29 September, the day the RBA hiked. The core bilateral story is two central banks hiking at the same time. The RBA's 4.60% sits 72.5bp above the Fed's 3.875% midpoint, which makes this the only G10 pair where the base currency out-yields the dollar. But the gap is worth almost nothing to a holder: carry divided by three-month implied vol is 0.093, about four pips a month, so AUD is the higher-yielding leg but the yield does not pay for holding it. The two standalone dossiers are both tactically bullish on their own currency (AUD +0.3040, USD +0.3782), so for the pair they largely cancel. Strategically, a naive reading of 'AUD Neutral against USD Bearish' would say buy the pair. That reading falls apart once Australia's 3.67%-of-GDP current account deficit and its real effective exchange rate of 116.11 are netted against the dollar's own twin deficits. The settled verdict is Neutral at conviction 2 on both horizons: tactical score −0.0736 and strategic +0.0929, the latter only 0.0071 below the Bullish threshold. The one datable mispricing is the 3 November RBA meeting. A hike there is priced at roughly a quarter to a third, against a Board that kept the option open, and the Q3 CPI lands on 28 October, the same day as the FOMC. Until that resolves, the working range runs from the seven-touch 0.68707–0.69198 support zone to the three-touch 0.7054–0.7111 resistance zone. The main caveat: CFTC data released after the verdict show the legacy speculative short deepening to −63.2K. That deepens the squeeze-or-breakdown question at the bottom of the range rather than settling it.",
+ "market_context": {
+  "spot": 0.69554,
+  "performance_1m": "-3.41%",
+  "performance_3m": "+0.38%",
+  "performance_6m": "-1.81%",
+  "performance_1y": "+6.81%",
+  "range_52w_low": 0.64214,
+  "range_52w_high": 0.72804,
+  "range_52w_percentile": 62,
+  "valuation_assessment": "The two valuation lenses disagree, and that disagreement is part of the pair's character. Purchasing power parity says modestly cheap: the base dossier's World Bank PPP conversion puts AUD/USD fair value at 0.71483 (flagged as unverified at its own data gate), so spot is 2.7% cheap, the only major AUD cross where AUD is not expensive on PPP. Real exchange rates say rich: AUD's BIS REER is 116.11, up 9.97% over twelve months and the highest in the G10+SGD set, while the dollar's REER of 106.70 sits at the 9th percentile of its post-2024 range. The USD dossier's relative-REER proxy implies AUD/USD near 0.6369, but it divides index levels with different bases, so it is not a fair-value estimate and is reported only to show how far the methods diverge. What the current level prices is the rate differential and nothing else. The REER rose nearly 10% while iron ore, about 35% of Australian export revenue, fell 7.14%. In other words, the market has swapped the terms-of-trade anchor for the carry anchor. That is valuable while the RBA's hiking option is alive and fragile once it is not. On closes the 52-week range is 0.64551 to 0.72584, with spot at the 62nd percentile on both intraday and closing measures.",
+  "positioning": {
+   "base_cftc_net": "Legacy non-commercial net short 46,814 contracts (week to 22 September, down 7,908 on the week); the 02/10/2026 release printed -63.2K against a previous -46.8K. Disaggregated data for 22 September still show leveraged funds net long 58,726 and asset managers net short 55,353.",
+   "base_cftc_percentile": 54.4,
+   "quote_cftc_net": "Aggregate speculative USD long of $18.4bn (rebuilt after a $12.5bn weekly build, the fastest in seven years)",
+   "quote_cftc_percentile": 44,
+   "net_pair_implication": "Netting the two legs gives an amplified but contested downward bias. The new −63.2K print breaches the base dossier's own −60,000 'decrease conviction' threshold, but the price leg of that condition (a close below 0.6870) has not been met. The squeeze fuel under the range is now larger than when pass 1 was scored, but the leveraged-fund series contradicts the legacy short.",
+   "crowding_assessment": "Moderate rather than extreme: the legacy short is strong relative to open interest (Speculative Exposure Percentile 77.7) but the Net Position Percentile is 54.4, and the USD long is only at the 44th percentile. The two CFTC report families contradict each other, so no crowded pair trade is identifiable."
+  },
+  "pair_technicals": {
+   "trend_regime": "transitioning",
+   "support_levels": [
+    0.68954,
+    0.67995,
+    0.67214,
+    0.66331,
+    0.6487
+   ],
+   "resistance_levels": [
+    0.7,
+    0.70825,
+    0.72156,
+    0.72804
+   ],
+   "key_moving_averages": "Daily SMAs (trading-day closes) still stacked bullishly: 50-day 0.70913 > 100-day 0.70582 > 200-day 0.70303, with spot 0.69554 below all three (200-day 75 pips / 1.08% above spot; 100-day 103 pips / 1.48%; 50-day 136 pips / 1.95%). The 200-week average is 0.66574, 298 pips (4.48%) below spot and rising 0.000278 a week; it is projected at about 0.6730 by early April 2027 (linear arithmetic, not a forecast).",
+   "chart_pattern": "Pullback inside an intact uptrend: a staircase of lower highs from the 0.72381 September high (9 Sep) through 0.71418, 0.71404, 0.70456 and 0.70294 (29 Sep); the 1 October low of 0.69049 held 40 pips above the 30 June low of 0.68654. Six-month 0.6865–0.7280 range with September's high lower than May's. Friday's hammer and inside candle on the 2 October bar flagged near-term trend exhaustion. Support zones by touches: 0.64553–0.65187 (9), 0.68707–0.69198 (7), 0.65415–0.65840 (5); only two resistance zones met the threshold: 0.7054–0.7111 (3) and 0.72003–0.72308 (3). ATR(14) is 47 pips.",
+   "psychological_levels": [
+    0.7,
+    0.68,
+    0.75
+   ]
+  },
+  "pair_volatility": {
+   "iv_1m": 7.822,
+   "iv_3m": 7.813,
+   "iv_percentile": null,
+   "rv_1m": 6.32,
+   "rv_vs_iv": "Realised vol is 6.32% over 20 days and 6.39% over 60 days. The variance risk premium (implied minus realised) is about 1.50 vol points against 20-day realised and 1.43 against 60-day, a moderate event premium for the 28 October and 3 November cluster. A one-year implied-vol percentile cannot be computed because the cached CME history starts on 2026-08-21.",
+   "risk_reversals": "25-delta risk reversal is puts-bid across the whole curve and deepest at the front: −1.283% (36.7d), −1.142% (99.7d), −1.129% (190.6d). Butterflies 0.391 (36.7d), 0.182 (99.7d), 0.357 (190.6d). External desks describe the same trend of risk reversals continuing to trend lower as options traders increase demand for puts relative to calls.",
+   "vol_term_structure": "CME ATM implied (observed 2026-09-30): 7.822% at 36.7 days, 7.813% at 99.7 days, 8.208% at 190.6 days. Flat out to three months and in mild contango beyond, with no front-end kink. Implied 1-sd ranges: 1M ±172 pips (0.6783–0.7128), 3M ±284 pips (0.6671–0.7239), 6M ±412 pips (0.6543–0.7368).",
+   "vol_regime": "Low-volatility grind with an event premium, a structural downside skew and near-dated wings bid. Liquidity is top-tier, so gap risk is event-driven rather than structural."
+  },
+  "recent_regime": "September was a dollar-led selloff, not an Australian one. The pair fell from a 0.72193 close on 7 September to 0.69311 on 1 October, a drop of 288 pips. The heaviest sessions were the 16 September FOMC hike, 23 September (−75 pips) and the 29 September RBA hike itself. On that day the pair closed below 0.7000 and the 200-day even though the RBA delivered. Commentary at the time attributed this to the hike being fully priced and to Bullock declining to pre-commit. One account noted that at the press conference Bullock said monetary policy could be restrictive enough to bring inflation back to target, and that markets had priced a cash rate above 5% by May 2027, more than Bullock was willing to signal. The regime is now a test of whether the seven-touch 0.687–0.692 zone holds into the 28 October CPI. The 2 October rebound from 0.69132 to 0.69555 is the first sign it might.",
+  "citations": [
+   "https://www.dailyforex.com/forex-technical-analysis/2026/09/audusd-monthly-forecast-october-2026/250242",
+   "https://investinglive.com/forex/aud-usd-risks-bigger-breakdown-below-0-7000-as-rba-rate-hike-fails-to-lift-aussie/",
+   "https://www.fxstreet.com/news/australian-dollar-cracks-070-as-bullock-dulls-rba-hike-cpi-looms-202609292326",
+   "https://www.fxstreet.com/analysis/cot-report-september-25-2026-202609270208",
+   "https://www.fxstreet.com/analysis/australian-dollar-price-forecast-near-term-outlook-shifts-to-bearish-202609301827",
+   "https://uk.investing.com/economic-calendar/------------1615",
+   "https://www.forex.com/en-sg/news-and-analysis/australian-dollar-outlook-aud-usd-bears-to-face-near-term-reprieve-2026-10-05/",
+   "https://www.fxempire.com/forecasts/article/premium-aud-usd-eyes-0-7025-as-rebound-evidence-fails-before-the-rba-1632677",
+   "https://www.home.saxo/content/articles/commodities/cot-on-forex-and-commodities---week-to-22-september-2026-28092026",
+   "https://research.titanfx.com/cftc/cot-aud"
+  ]
+ },
+ "bilateral_carry_analysis": {
+  "base_policy_rate": 4.6,
+  "quote_policy_rate": 3.875,
+  "rate_differential_bps": 72.5,
+  "annualised_carry_bps": 72.5,
+  "pair_3m_iv": 7.813,
+  "pair_3m_iv_source": "Data-Cache/derived/fx_iv.csv (CME settlements; ADU/6AZ6, observed 2026-09-30, 99.7-day tenor), via gated direction payload impliedVol.atmIv3mPct",
+  "carry_to_vol_ratio": 0.093,
+  "carry_regime": "carry not compensating",
+  "breakeven_move": "On the 72.5bp policy differential a long accrues about 4.2 pips a month (0.725% × 0.69554 ÷ 12); on the realised roll about 3.3 pips. Spot can slip only from 0.69554 to roughly 0.6951 in a month before carry is erased, a tenth of one 47-pip ATR. Over six months the cushion is about 25 pips on the policy differential and 19.5 pips on the realised roll.",
+  "forward_points": {
+   "1m": "-3.3 pips (AUD at discount; outright 0.69521, -0.56% annualised)",
+   "3m": "-9.8 pips (outright 0.69456, -0.56% annualised)",
+   "6m": "-19.5 pips (outright 0.69359, -0.56% annualised)"
+  },
+  "carry_assessment": "The policy differential is +72.5bp: RBA 4.60% (as of 2026-10-01) against the Fed's 3.875% midpoint (as of 2026-09-28). This is the only G10 dollar pair where a long position earns rather than pays carry. But the CME calendar roll premium (6AV6 to 6AX6, observed 2026-09-30) is −56.2bp annualised, which is what a rolled futures position actually earns; the roughly 16bp gap to the policy differential is negative cross-currency basis, which cannot be separated from the rate component without an OIS curve. Carry-to-vol is 0.093 against the gated 3-month implied of 7.813%, or 0.113 against 60-day realised of 6.39%; both are among the weakest in the AUD complex. Forward points are derived from the CME roll premium applied to the payload spot (no live dealer points). Carry is a ranking signal and not a return engine: it identifies AUD as the highest-yielding G10 currency, but it pays too little per unit of volatility to justify holding this pair for carry. The differential matters to AUD/USD only through repricing of the two front ends (the 3 November RBA option and the 9 December Fed projections round), not through accrual."
+ },
+ "factors": [
+  {
+   "factor_number": 1,
+   "factor_name": "Policy & Rates (Relative)",
+   "tactical_weight_default": 0.24,
+   "tactical_weight_applied": 0.24,
+   "strategic_weight_default": 0.24,
+   "strategic_weight_applied": 0.24,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 52,
+    "evidence_type": [
+     "rates",
+     "policy_comms"
+    ],
+    "bilateral_analysis": "AUD is the only G10 currency that out-yields the dollar: the RBA cash rate of 4.60 per cent sits 72.5bp above the 3.875 per cent Fed midpoint in the gated payload, and the payload's long-end differential is +33.5bp on the monthly August vintage, though both dossiers' live cross-section puts the AU-US 10-year gap nearer +14bp, so the long end has compressed hard while the policy gap has not. The direction of travel over the tactical window is asymmetric in the pair's favour on pricing rather than on level: ASX-implied pricing puts a 3 November RBA hike at roughly a quarter, against a Board that has just hiked unanimously and explicitly retained the option of raising further, while the 28 October FOMC is priced near a coin flip after Williams removed the urgency and the December path matches the dots to within a handful of basis points. The sequencing matters and is datable from the gated calendar: the Fed decides on 2026-10-28 and the RBA on 2026-11-03, so the dollar leg reprices first and the Australian leg carries the later, less-priced event. Transmission into the pair is through the front-end spread rather than through carry, because carry here is close to worthless: 72.5bp against a 3-month ATM implied volatility of 7.813 per cent is a carry-to-vol ratio of 0.093, and the CME calendar premium of -56.2bp annualised says a rolled long AUD position actually realises about 56bp a year once the cross-currency basis is taken out. The stance is Bullish but only at 52 because the level of the differential is static, both central banks are tightening into the same energy shock, and the long-end spread is moving against the base leg.",
+    "key_bilateral_metrics": [
+     "Policy differential +72.5bp (RBA 4.60% at 2026-10-01 vs Fed 3.875% midpoint at 2026-09-28, gated payload)",
+     "10-year differential +33.5bp on the payload's monthly August vintage; dossier live cross-section +14bp (AU 5.38% vs US 5.24%)",
+     "3-month ATM implied vol 7.813% at 99.7 days; carry-to-vol 0.093",
+     "CME calendar premium -56.2bp annualised (18.6d to 46.7d) vs a 72.5bp policy gap - roughly 16bp of negative basis",
+     "RBA 3 November hike priced at about 24.8% rise / 71.9% hold on ASX futures (2026-10-02); Fed October below a coin flip, December near the 4.1% median dot"
+    ],
+    "what_is_priced": "The curve prices the RBA as finished and the Fed as one hike from its plateau, so the 72.5bp gap is priced to persist rather than widen; the unpriced part is the Australian hike option, roughly a quarter discounted for 3 November against a Board that kept it explicitly open.",
+    "citations": [
+     1,
+     2,
+     3,
+     4,
+     11,
+     12,
+     13
+    ]
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 52,
+    "evidence_type": [
+     "rates",
+     "policy_comms"
+    ],
+    "bilateral_analysis": "Over one to three months the question is the direction of the differential, and it tilts marginally toward the base leg. The Fed's September projections put the funds rate at 4.1 per cent at end-2026 and 4.1 per cent at end-2027, which is a committee describing itself as one step from a plateau, while the RBA has anchored its reaction function to a fuel shock it has called permanently higher and has four hikes delivered in 2026 behind it. If the Fed delivers its final step at the 2026-12-09 meeting with the SEP and then holds, while the RBA adds one more at 2026-11-03 or 2026-12-08, the differential widens from 72.5bp toward roughly 97.5bp; if neither moves, it is unchanged. The counterweight is that the pair's rate advantage is not monetisable at this volatility: a carry-to-vol of 0.093 means the differential contributes about six pips a month of cushion, so the factor works only through expectations, not accrual. The Australian front end is already priced flatter than the cash rate implies, and the US long end is carrying a term premium that keeps real yields high, which is why the long-end spread has compressed to roughly nothing even as the policy gap held. Bullish at 52 is the honest reading: the base leg has the higher rate and the live hiking option, the quote leg has the flatter forward path, and the gap between those two facts is thin.",
+    "key_bilateral_metrics": [
+     "Fed SEP medians 4.1% for end-2026 and end-2027, 3.9% for 2028, 3.2% longer run",
+     "RBA cash rate 4.60%, four increases delivered in 2026, hiking option retained in the 29 September statement",
+     "Differential path: 72.5bp now, about 97.5bp if the RBA adds one and the Fed stops, about 47.5bp in the reverse case",
+     "Carry cushion roughly 6 pips a month on 0.69554 at a 72.5bp differential",
+     "Gated calendar decisions inside the window: FOMC 2026-10-28 and 2026-12-09 (SEP); RBA 2026-11-03 and 2026-12-08"
+    ],
+    "what_is_priced": "Both curves price their own central bank at or within one step of its peak, so the market prices the differential as static at 72.5bp; neither an Australian extension into 2027 nor a Fed that stops short of its last dot is in the price.",
+    "citations": [
+     1,
+     3,
+     5,
+     11,
+     12
+    ]
+   },
+   "horizon_split": "Stance and confidence are identical on both horizons at Bullish 52. Tactically the edge is a single datable pricing gap on 3 November; strategically it is the shape of the two forward paths, with the Fed self-described as flat through 2027 and the RBA still holding an option. The reason confidence does not rise on either horizon is the same: the differential is real but unmonetisable at a 0.093 carry-to-vol, and the long-end spread has compressed to roughly +14bp on the dossiers' live cross-section.",
+   "carry_analysis": {
+    "annualised_carry": "72.5bp. Basis: RBA cash rate 4.60% minus Fed funds midpoint 3.875%, both from the gated direction payload",
+    "pair_3m_iv": "7.813. Source: gated direction payload impliedVol.atmIv3mPct (CME ADU/6AZ6, observed 2026-09-30, 99.7-day tenor) via Data-Cache/derived/fx_iv.csv",
+    "carry_to_vol_ratio": "0.093. Basis: 0.725 / 7.813 using the gated 3-month ATM implied vol, not a realised-vol proxy",
+    "realised_roll": "CME calendar premium -56.2bp annualised (Data-Cache/derived/fx_carry.csv, 6A 6AV6->6AX6, observed 2026-09-30); by covered interest parity this is the interest differential plus the cross-currency basis and cannot be decomposed without an OIS curve, so the realised carry on a rolled long AUD position is about 56bp a year rather than 72.5bp",
+    "breakeven_move": "At 72.5bp on a 0.69554 spot the monthly accrual is roughly 4 pips of the quote currency, and on the realised 56.2bp roll roughly 3 pips - an order of magnitude below a normal daily range for this pair, so carry ranks the pair but does not pay to hold it",
+    "carry_regime": "Carry is a ranking signal and not a return engine. A 0.093 carry-to-vol is among the weakest in the AUD complex and is the single clearest reason this pair is the wrong vehicle for a rate-differential view relative to AUD crosses against zero- and low-rate funders."
+   },
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 2,
+   "factor_name": "Inflation & Growth Dynamics",
+   "tactical_weight_default": 0.18,
+   "tactical_weight_applied": 0.18,
+   "strategic_weight_default": 0.1,
+   "strategic_weight_applied": 0.1,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 55,
+    "evidence_type": "macro_data",
+    "bilateral_analysis": "The inflation differential favours the base leg and the growth differential favours the quote leg, and over four weeks the growth side is the one with momentum. Australian headline monthly CPI has re-accelerated to 4.0 per cent with trimmed mean stuck at 3.6 per cent for three months, against US core PCE of 3.0 per cent and core CPI of 2.4 per cent, so the inflation gap argues for more RBA tightening than Fed tightening. But the activity gap runs the other way and is widening: US Q2 GDP was revised up to 2.2 per cent annualised with payrolls at 162,000 against a 55,000 consensus, ISM manufacturing at 54.5 and a flash composite at 58.4, while Australia's composite PMI fell to 50.8 with manufacturing at 49.3, unemployment reached a post-COVID high of 4.6 per cent against a steady US 4.1 per cent, and NAB business conditions turned negative at -2 for the first time since September 2020. Both economies print GDP near 2.1 per cent year on year, so the level of growth is not the differentiator - the second derivative is. Transmission to the pair is through relative data surprise into the two front ends, and the asymmetric sensitivity is on the base leg: Australia's quarterly CPI on 28 October compresses three months into one number six days before the RBA, while the US gets a monthly CPI on 14 October that is already well discounted. Bearish at 55 because the momentum differential is clear while the inflation differential is partially offset by the fact that Australian inflation is cost-push with wages at 3.2 per cent and real wages falling for a third quarter.",
+    "key_bilateral_metrics": [
+     "Core inflation: AU trimmed mean 3.6% vs US core PCE 3.0% and core CPI 2.4%; headline AU 4.0% vs US 3.4%",
+     "Unemployment: AU 4.6% and rising vs US 4.1% and stable",
+     "Activity surveys: AU composite PMI 50.8 and manufacturing 49.3 vs US flash composite 58.4 and ISM 54.5",
+     "NAB quarterly business conditions -2, first negative since September 2020; sales margins -20",
+     "Payrolls +162k in August against a 55k consensus with +55k of revisions; Q2 GDP revised to 2.2% annualised"
+    ],
+    "what_is_priced": "The market prices Australia as a sticky-inflation economy that can stop and the US as a resilient one that will not have to, which is roughly where the data sit; the unpriced risk is an Australian Q3 trimmed mean at or above 3.7 per cent on 28 October.",
+    "citations": [
+     14,
+     15,
+     18,
+     19
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 50,
+    "evidence_type": "macro_data",
+    "bilateral_analysis": "Over one to three months the mix turns stagflationary on the base side and soft-landing on the quote side, which is the configuration in which the pair underperforms its rate differential. Australia's cost shock is compressing margins rather than passing through, with NAB purchase costs up 1.2 per cent in the quarter against final prices of 0.5 per cent, and the labour market is loosening by composition, with the entire August employment gain part-time and full-time down 6,000. The United States is slowing from a higher base - GDPNow has fallen from 5.1 to 3.7 per cent - but core PCE has already eased from 3.3 to 3.0 per cent with unemployment flat at 4.1 per cent, which is disinflation without a demand break. The offset, and the reason confidence is only 50, is that the same US disinflation removes the Fed's need to tighten further, which is the mechanism that eventually narrows the dollar's real-yield premium and supports the pair. Mechanically the two effects race each other: Australian labour-market deterioration pulls the pair down through the rate channel, US core disinflation pushes it up through the same channel. We score the base leg's deterioration as the faster of the two over the window because the Australian unemployment trajectory is already in train and the US inflation fade is a projection.",
+    "key_bilateral_metrics": [
+     "AU real wages negative for a third quarter (WPI 3.2% vs headline CPI 4.0%); US average hourly earnings 3.1%",
+     "US core PCE 3.0% in August from 3.3% in July; Fed SEP path to 2.5% core PCE in 2027",
+     "AU underutilisation 10.8% with unemployment 4.6%; US U-6 7.7% with unemployment 4.1%",
+     "GDPNow Q3 3.7% (from 5.1% mid-September) vs Australian composite PMI 50.8",
+     "NAB purchase costs +1.2% q/q against final product prices +0.5% q/q"
+    ],
+    "what_is_priced": "Forward pricing embeds a durable US expansion and an Australian economy that holds up at a 4.60 per cent cash rate; neither the Australian margin squeeze documented in the Q3 NAB survey nor a US core PCE undershoot of the SEP path is discounted.",
+    "citations": [
+     14,
+     15,
+     18,
+     19
+    ]
+   },
+   "horizon_split": "Both horizons are Bearish for the pair; confidence falls from 55 to 50 because the tactical case rests on activity data already printed and a dated Australian CPI, while the strategic case requires the Australian slowdown to outrun US core disinflation, and those two forces push the pair in opposite directions through the same rate channel.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 3,
+   "factor_name": "Risk Appetite & Sentiment",
+   "tactical_weight_default": 0.1,
+   "tactical_weight_applied": 0.1,
+   "strategic_weight_default": 0.05,
+   "strategic_weight_applied": 0.05,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 52,
+    "evidence_type": "cross_asset",
+    "bilateral_analysis": "This is a moderate risk-proxy pair rather than a pure one: the base leg has the highest risk beta in the G10 through its China and commodity linkage, while the quote leg is mildly counter-cyclical, with the dollar's measured 60-day correlation to the S&P 500 at -0.31 and to the 10-year yield at +0.32. The current configuration is the unfavourable one for the pair - equity volatility is benign, with the VIX in the 16s at the 28th to 34th percentile of its year, but credit has already repriced, with US high yield at 324bp at the 98th percentile of its one-year range and investment grade at 86bp at the 94th. That is a rates-and-credit stress with equities intact, which is precisely the right-hand side of the dollar smile where the quote leg attracts capital on a 2.88 per cent 10-year TIPS yield and the base leg gets no help from its own carry. The China channel, which is the pair's distinctive transmission mechanism, is weak: NBS manufacturing at 50.1 is one month above the line after two below, and Q2 GDP of 4.3 per cent was the slowest since the end of 2022. Bearish at 52 rather than higher because equity resilience and tight absolute credit spreads keep the risk regime from being actively hostile, and because super-fund rebalancing provides a mechanical bid for the base currency while global equities hold their gains.",
+    "key_bilateral_metrics": [
+     "VIX 16.07-16.39, 28th-34th percentile of one year; S&P 500 near highs, +12.0% YTD",
+     "US HY OAS 324bp at the 98th percentile of one year; IG 86bp at the 94th",
+     "DXY 60-day correlations: S&P 500 -0.31, 10-year yield +0.32, gold -0.53",
+     "China NBS manufacturing PMI 50.1 in September from 49.8 and 49.2; Q2 GDP 4.3% y/y",
+     "10-year TIPS real yield 2.88%, 99th percentile of one year"
+    ],
+    "what_is_priced": "Equity vol prices continuation of a benign regime while credit prices the start of stress; the pair is priced off the first and exposed to the second, and a further widening in high yield with the VIX contained is not discounted in the base leg.",
+    "citations": [
+     20,
+     22
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": [
+     "cross_asset",
+     "geopolitics"
+    ],
+    "bilateral_analysis": "Over one to three months the risk distribution for this pair is genuinely two-sided because the Gulf binary moves the two legs through offsetting channels. A negotiated Hormuz reopening collapses the energy premium, which is risk-positive and China-growth-positive for the base leg but also removes the supply-shock foundation of the RBA's hiking bias, while simultaneously taking away the quote leg's terms-of-trade gain and part of its haven bid - the net is close to a wash with a mild upward tilt for the pair. A renewed closure reverses both signs, adding to the base leg's rate case while triggering the risk-off in which it has the highest G10 beta. Credit is the second axis and is less symmetric: high yield at 324bp is only the 72nd percentile of five years, so the September widening is a repricing rather than a crisis, and a move toward 450bp would be a left-side funding event that favours the quote leg decisively. The China policy calendar is the one clean upward input for the pair over the window, through the iron ore channel, but it sits mostly at the far end. Neutral at 50 is the honest output: the tails are fat on both sides and roughly balanced, and manufacturing a direction from them would be exactly the kind of thin-evidence stance this pass exists to avoid.",
+    "key_bilateral_metrics": [
+     "Hormuz crude flows about 9.719 mb/d, roughly 80% of pre-war; Brent near 100-103 dollars",
+     "HY OAS 324bp = 72nd percentile of five years; VIX = 37th percentile of five years",
+     "Base-leg exports to China 30-35% of the total - the pair's distinctive risk channel",
+     "Quote leg is a net energy exporter; base leg a net energy exporter in value terms via LNG and coal but an oil importer",
+     "Both dossiers independently score this factor Neutral on the strategic horizon"
+    ],
+    "what_is_priced": "The market prices a grinding Gulf stalemate with a modest energy premium and a benign equity regime; both tails are under-priced, but they move this pair in opposite directions, so there is no strategic direction to extract.",
+    "citations": [
+     20,
+     21,
+     22
+    ]
+   },
+   "horizon_split": "Tactically the live configuration - benign equity vol, widening credit, a high-real-rate dollar - is the one in which this pair underperforms, so the stance is Bearish. Strategically the dominant input becomes the Gulf binary, whose two outcomes hit the base leg's rate channel and its risk channel with opposite signs, so the stance flattens to Neutral.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 4,
+   "factor_name": "Flows & Positioning",
+   "tactical_weight_default": 0.1,
+   "tactical_weight_applied": 0.1,
+   "strategic_weight_default": 0.06,
+   "strategic_weight_applied": 0.06,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": "positioning",
+    "bilateral_analysis": "This is the rare pair where the futures contract is the pair itself, so CFTC data are a direct read rather than a triangulation - and the direct read is self-contradictory. For the same 22 September report date, the legacy non-commercial measure shows a net short of 46,814 contracts that has deepened in each of the last three weeks, while the disaggregated file shows leveraged funds net long 58,726 and asset managers net short 55,353. One says the squeeze fuel for a higher pair is in place; the other says the fast money is already long it. On the quote side, speculators rebuilt an aggregate dollar long to 18.4bn dollars in the week to 22 September, a 12.5bn build that is the fastest in seven years but still only the 44th percentile of the cached range, so the dollar is fresh rather than crowded. Netting the two legs: a moderately short base leg against a mid-range long quote leg gives an amplified but low-confidence downward bias that the leveraged-fund series directly contradicts. Engagement has also collapsed, with AUD open interest down 37.8 per cent in a week to 306,488, which lowers the amplitude of any squeeze in either direction. The one unambiguous structural flow is upward for the pair: nearly nine in ten surveyed Australian superannuation funds intend to raise FX hedge ratios, which mechanically converts offshore equity gains into base-currency demand. Neutral at 50 is the only defensible output when the level of speculative exposure in the pair's own contract cannot be established.",
+    "key_bilateral_metrics": [
+     "CFTC legacy AUD non-commercial net -46,814 contracts (report 2026-09-22), third consecutive weekly deepening",
+     "Disaggregated same date: leveraged funds +58,726, asset managers -55,353, dealers -28,008 - unreconciled with the legacy print",
+     "AUD open interest 306,488, down 37.8% from 493,141 a week earlier",
+     "Aggregate speculative USD long 18.4bn dollars after a 12.5bn weekly build, 44th percentile of the cached range",
+     "Nearly 90% of surveyed Australian super funds intend to raise FX hedge ratios within three months"
+    ],
+    "what_is_priced": "Positioning prices a market that believed the September RBA hike was the last and that the Fed has one more, with neither leg at an extreme; there is no crowded pair trade to unwind in either direction inside four weeks.",
+    "citations": [
+     24,
+     25,
+     29
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 48,
+    "evidence_type": "positioning",
+    "bilateral_analysis": "Over one to three months the speculative layer tells us nothing about the pair because it can be rebuilt several times inside the window and because its level is disputed by the two CFTC report families. What is identifiable is the structural layer, and it points in both directions. Downward for the pair: the dollar's reserve share fell to 56.70 per cent in Q2 from 57.18 per cent while the euro gained, which is a slow diversification away from the quote leg and therefore upward for the pair, but private foreigners were net sellers of US long-term securities in July with official buyers and bills carrying the inflow, which is a financing profile that argues the dollar's holders are shortening duration rather than leaving. Upward for the pair: Australian superannuation hedging is a persistent mechanical bid for the base currency, and Australian hedge ratios are rising from a base where listed equities are only about half hedged. Against that, Australia's net foreign debt of 1,486bn dollars and the structural offshore funding of its banks create a standing dollar demand that works the other way. Neutral at 48 reflects that these flows are real, slow and genuinely offsetting, and that the pair-level speculative read is unusable.",
+    "key_bilateral_metrics": [
+     "COFER dollar share 56.70% in 2026-Q2 from 57.18%; euro 20.60% from 20.04%",
+     "July TIC: official long-term purchases 44.4bn dollars, private long-term sales 3.7bn, bills +38.8bn",
+     "Australian super fund hedge ratios: property and infrastructure above 75%, fixed income about 67%, listed equities about 50%",
+     "Australian net foreign debt 1,486.0bn dollars; Australian banks are structural net offshore USD borrowers",
+     "Aggregate speculative USD long range over 25 cached weeks: -31.5bn to +24.7bn dollars"
+    ],
+    "what_is_priced": "The market treats reserve diversification and super-fund hedging as background trends; neither is in the pair's forward price, and they point in opposite directions, so positioning is an amplifier of other factors rather than a driver.",
+    "citations": [
+     23,
+     24,
+     25,
+     29
+    ]
+   },
+   "horizon_split": "Both horizons are Neutral; confidence falls from 50 to 48 because the tactical read needs only the direction of the last three reports while the strategic read needs the level, and the level is the part the two CFTC report families dispute for the pair's own contract. Pass-2 note (does not alter the scored stance): The CFTC release after the verdict extends the legacy net short to -63.2K from -46.8K. That is a fourth consecutive weekly deepening. It sharpens the squeeze-fuel half of the contradiction above, but no matching disaggregated update was available to resolve it. The scored Neutral stands.",
+   "carry_analysis": null,
+   "contrarian_analysis": {
+    "tactical": {
+     "combined_positioning_signal": "A moderately short base leg (legacy -46,814) against a fresh, mid-range long quote leg (18.4bn dollars, 44th percentile) is a mildly amplified downward bias for the pair, but the disaggregated leveraged-fund net long of 58,726 in the same contract cancels the signal rather than reinforcing it.",
+     "unwind_trigger": "An Australian Q3 trimmed mean at or above 3.7 per cent on 28 October would take 3 November hike pricing from about a quarter through a half and force base-currency shorts established on the assumption that September was the last hike to cover; symmetrically, a US core CPI at or below 0.1 per cent month on month on 14 October would unwind a week-old dollar long built at the fastest pace in seven years.",
+     "historical_analogue": "The quote leg's own summer episode is the nearest analogue: the combined cached dollar position swung from +24.7bn in late July to -4.7bn by late August, a 29.4bn reversal in four weeks, showing how quickly a freshly built dollar long reverses on soft data.",
+     "contrarian_case": "The crowd on the base leg is short into a central bank that has just hiked unanimously and kept the option open, which is textbook squeeze fuel; the crowd on the quote leg is long a dollar whose own projections describe a plateau. Both crowds can be wrong at once, which is why the honest reading of the pair is no positioning signal rather than a contrarian long."
+    },
+    "strategic": {
+     "combined_positioning_signal": "No identifiable crowded pair trade. The speculative layer is mid-range on the quote leg and unresolvable on the base leg; the structural layer is a slow reserve diversification away from the dollar against a standing Australian offshore dollar funding need.",
+     "unwind_trigger": "If the leveraged-fund net long of 58,726 in the base contract is the true exposure, the unwind trigger is an RBA pivot rather than an RBA hike - Australian unemployment through 5.0 per cent or a trimmed mean back inside the band. On the quote side, a speculative dollar long above 30bn dollars into the 9 December FOMC would make that leg crowded for the first time this cycle.",
+     "historical_analogue": "Asset managers reached record net-long base-currency exposure several times in the months to May 2026; that overhang, if still present, is the stock that a strategic reversal would have to clear, and it sits on the opposite side of the legacy short.",
+     "contrarian_case": "The consensus sell-side path has the pair recovering toward 0.71-0.73 over the next two to four quarters on the view that Australian rates stay above US rates for longer. The contrarian case is that the base leg is the highest-yielding external-deficit currency in the set with a real exchange rate at a one-year high and a terms of trade that has fallen, which is a configuration that historically resolves through the currency rather than through the differential."
+    }
+   },
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 5,
+   "factor_name": "External Balance & Terms of Trade",
+   "tactical_weight_default": 0.06,
+   "tactical_weight_applied": 0.06,
+   "strategic_weight_default": 0.16,
+   "strategic_weight_applied": 0.16,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": "trade_balance",
+    "bilateral_analysis": "Both economies run external deficits of similar size - Australia at 3.67 per cent of GDP in the June quarter and the United States at 3.0 per cent in Q2 - so the current-account differential is not a tactical driver for this pair. The bilateral goods relationship is small but one-directional: IMF DOTS for 2024 shows Australia exporting 15.7bn dollars to the United States against 35.6bn dollars of imports, a net Australian goods deficit of 19.9bn dollars, which is a standing structural flow against the pair but far too small and too slow to matter over four weeks. The commodity complex is genuinely offsetting inside the window: iron ore at 96.59 dollars a tonne is up only 0.56 per cent on the month and down 7.14 per cent on the year, while Newcastle coal is up 36.72 per cent and copper 35.84 per cent on the year, and the RBA commodity index is up 15.5 per cent - a positive aggregate export price signal with a negative core. On the quote side the United States is now a net energy exporter with WTI up 49.6 per cent on the year, so the oil shock is a mild terms-of-trade gain for the quote leg, which removes the classic commodity-currency advantage this pair used to express. Neutral at 50 with only 0.06 of weight: the signals cancel and the data releases inside the window are monthly trade prints that rarely move the pair.",
+    "key_bilateral_metrics": [
+     "Bilateral goods (IMF DOTS 2024): AU exports to US 15.7bn, AU imports from US 35.6bn, net -19.9bn for Australia",
+     "Current accounts: AU -3.67% of GDP (June quarter) vs US -3.0% of GDP (Q2)",
+     "Iron ore 96.59 dollars a tonne, -7.14% y/y; Newcastle coal +36.72% y/y; copper +35.84% y/y",
+     "WTI +49.6% y/y with the US a net energy exporter; Brent near 100-103 dollars",
+     "Australian terms of trade -1.6% in the June quarter; RBA commodity index +15.5% y/y"
+    ],
+    "what_is_priced": "The pair is priced off the rate differential rather than the terms of trade, which means a surprise in either direction - an iron ore break or a sharp energy retracement - is largely unhedged in the pair's positioning, but there is no directional edge inside four weeks.",
+    "citations": [
+     16,
+     17,
+     20,
+     21
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 58,
+    "evidence_type": [
+     "trade_balance",
+     "valuation"
+    ],
+    "bilateral_analysis": "At a 0.16 strategic weight this is the factor that decides the pair's strategic complexion, and it leans down. Australia's current-account deficit widened by 1.8bn to 27.2bn dollars, with the balance on goods and services itself in deficit at 5.1bn - a commodity exporter running a trade deficit near the top of an energy shock - while net foreign debt stands at 1,486bn dollars and the terms of trade fell 1.6 per cent. The quote leg's deficit is no better in level terms at 3.0 per cent of GDP with a net international investment position of -22.42tn dollars, but the relative valuation is decisively different: the base leg's BIS real effective exchange rate is 116.11, the highest in the G10 set and up 9.97 per cent over twelve months, while the quote leg's REER of 106.70 sits at the 9th percentile of its post-2024 range. One currency has already capitalised its rate story in real terms and the other has not. Add the commodity netting - the shock in train is oil up and iron ore down, which is the single worst combination for this pair - and the structural direction over one to three months is down. The offsets that keep confidence at 58 rather than higher are the US twin-deficit arithmetic, a falling reserve share and the possibility of a Chinese policy impulse into iron ore at the December Central Economic Work Conference.",
+    "key_bilateral_metrics": [
+     "AU current account -27.2bn dollars in the June quarter, goods and services balance itself -5.1bn; net foreign debt 1,486.0bn",
+     "US current account -246.0bn dollars in Q2, 3.0% of GDP; NIIP -22.42tn",
+     "REER differential: AU 116.11 and +9.97% y/y (highest in the set) vs US 106.70 at the 9th percentile of its post-2024 range",
+     "Bilateral goods balance -19.9bn dollars against the base leg (IMF DOTS 2024)",
+     "Iron ore -7.14% y/y against WTI +49.6% y/y - the adverse netting for this pair"
+    ],
+    "what_is_priced": "Forward pricing embeds essentially no external adjustment for either leg; a base currency that has appreciated nearly 10 per cent in real terms against a falling terms of trade and a widening external deficit is the part of the configuration the market has not yet asked to be financed.",
+    "citations": [
+     16,
+     17,
+     20
+    ]
+   },
+   "horizon_split": "The split follows both the weight and the mechanism. At 0.06 tactically the offsetting commodity moves produce no signal inside four weeks. At 0.16 strategically the mechanism has time to work: cumulative balance-of-payments flows set real exchange rates over quarters, and a base-leg REER at a one-year high against a goods and services deficit is a financing requirement that is met at a price. The single change that would move this factor to Neutral is iron ore sustained above 110 dollars a tonne on Chinese stimulus.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": {
+    "base_commodity_profile": "AUD: iron ore is roughly 35 per cent of export revenue (96.59 dollars a tonne, -7.14% y/y); thermal coal +36.72% y/y, copper +35.84% y/y, LNG exposure positive to JKM. Net energy exporter in value terms but an oil importer at the pump.",
+    "quote_commodity_profile": "USD: now a net energy exporter, with WTI +49.6% y/y and Henry Hub at 3.18 dollars. The dollar also carries the standard inverse link to gold (60-day DXY-gold correlation -0.53) and benefits from a haven bid when energy supply is threatened.",
+    "net_effect_calculation": "Applying the framework direction rules leg by leg. Oil up: mildly positive for the base leg through the coal and LNG substitution channel, but now clearly positive for the quote leg because the United States is a net energy exporter and the shock also lifts US real yields - net effect is the pair FALLS. Iron ore up: strongly positive for the base leg, neutral to mildly negative for the quote leg as an importer of steel-intensive goods - net effect is the pair RISES. Gold up: mildly negative for the quote leg - net effect is the pair rises. The configuration actually in train is oil up roughly 50 per cent on the year and iron ore down 7.14 per cent, which is the adverse combination on both counts: the single commodity that drives the base leg hardest is falling while the complex that now helps the quote leg is at a one-year high. That is the mechanical reason the pair's historical commodity support has disappeared even as the base leg's policy rate reached the top of the G10.",
+    "scenario_oil_up_10pct": "Brent from roughly 100 to 110 dollars: mild positive for the base leg via coal and LNG substitution, stronger positive for the quote leg via net energy exports, US terms of trade and the haven bid; net impact is the pair falls modestly, on the order of half to one per cent, with the effect amplified if the move comes from a Hormuz disruption rather than demand.",
+    "scenario_oil_down_10pct": "Brent from roughly 100 to 90 dollars: removes part of the quote leg's terms-of-trade gain and the global inflation impulse, which is mildly positive for the pair through the risk channel, but it also erodes the base-leg central bank's stated justification for further tightening, which is negative through the rate channel; net impact is close to flat with a mild upward tilt.",
+    "dominant_commodity_driver": "Iron ore. It is the only commodity with a large, one-sided effect on this pair - roughly 35 per cent of base-leg export revenue with no offsetting exposure on the quote leg - and at 96.59 dollars a tonne with a twelve-month forward estimate near 93.61 it is currently removing support rather than providing it."
+   },
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 6,
+   "factor_name": "Guidance & Credibility",
+   "tactical_weight_default": 0.07,
+   "tactical_weight_applied": 0.07,
+   "strategic_weight_default": 0.12,
+   "strategic_weight_applied": 0.12,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 58,
+    "evidence_type": "policy_comms",
+    "bilateral_analysis": "Guidance diverges cleanly and in the pair's favour. The RBA hiked unanimously on 29 September, judged that a further tightening in financial conditions is warranted, and retained the option explicitly, with the Governor adding that inflationary pressures will persist longer than expected and that the fuel increase is permanently higher; she also named the exchange rate as the most important channel of transmission, which means the base-leg central bank has no incentive to talk its currency down. The Fed hiked 12-0 with a commitment to deliver price stability, but its own projections describe a plateau at 4.1 per cent through 2027, and a permanent voter removed the urgency from the next meeting. One central bank is guiding toward an option it has not used; the other is guiding toward a stop. The credibility differential is small - both committees are cohesive and both have hiked against political or domestic pressure - so the factor is about direction of guidance rather than about trust. Sequencing from the gated calendar sharpens it: the Fed decides on 2026-10-28 with no projection round flagged, and the RBA follows on 2026-11-03, so the base leg has the last word inside the tactical window. Bullish at 58, which is the highest confidence on any factor here, because the gap between a stated hiking option and a quarter of it being priced is measurable rather than inferred.",
+    "key_bilateral_metrics": [
+     "RBA 29 September: unanimous, explicit retention of increasing the cash rate target further if needed",
+     "Bullock: fuel price rises permanently higher; the exchange rate the most important channel of transmission",
+     "Fed 16 September: 12-0 hike, median dot 4.1% for both end-2026 and end-2027 - a guided plateau",
+     "Williams on 29 September: no need for urgency, with a further increase possibly appropriate late this year",
+     "Pricing gap: about a quarter discounted for the 2026-11-03 RBA against a Board holding an open option; Fed December near its own dot"
+    ],
+    "what_is_priced": "The market prices the base-leg hiking option at roughly a quarter of its stated availability and prices the quote-leg plateau at essentially face value; the asymmetry in what each central bank can surprise with over the window favours the pair.",
+    "citations": [
+     1,
+     2,
+     3,
+     4,
+     11,
+     12,
+     13
+    ]
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 52,
+    "evidence_type": "policy_comms",
+    "bilateral_analysis": "Over one to three months the guidance differential persists but decays. The base-leg reaction function is anchored to a shock its Governor has declared permanent, which under any standard framework means less scope to look through an inflation overshoot and therefore a slower path to easing; the quote-leg committee has told the market it expects to hold for a year, which caps rather than extends its own support. The only projection round flagged in the gated calendar inside the window is the 2026-12-09 FOMC SEP, and that is the single highest-signal communication for the quote leg: a 2027 dot revised up would break the divergence in the dollar's favour, while an unchanged dot confirms the plateau the base leg is being measured against. The limiting factor, and the reason confidence falls to 52, is that credibility cuts both ways over a quarter: a central bank that has promised to keep hiking has more to lose from stopping, and with Australian unemployment at a post-COVID high and business conditions negative, the probability that the base-leg bank has to walk back its own guidance inside the window is not small. The two 2026-11-03 and 2026-12-08 decisions are where that is tested.",
+    "key_bilateral_metrics": [
+     "Only flagged projection round in the gated window: FOMC 2026-12-09 (SEP)",
+     "Fed SEP medians flat at 4.1% for 2026 and 2027 - guidance toward a hold",
+     "RBA has delivered four increases in 2026 with the hiking option retained after the fourth",
+     "Base-leg trimmed mean 3.6%, 60bp above the top of its target band and unchanged for three months",
+     "Base-leg unemployment 4.6% and rising - the constraint on how long the hiking guidance survives"
+    ],
+    "what_is_priced": "The market treats base-leg hawkishness as tactical noise around a peak and the quote-leg plateau as settled; what is not priced is the base-leg bank being slower to turn than its deteriorating labour market would normally imply, which is the whole of the strategic edge here.",
+    "citations": [
+     1,
+     2,
+     11,
+     12
+    ]
+   },
+   "horizon_split": "Stance holds and confidence falls from 58 to 52. Tactically the edge is a measurable gap between a stated option and its market probability that resolves on 2026-11-03. Strategically the same guidance has to survive a labour market that is loosening by composition, and each tenth of a point on Australian unemployment raises the chance the base-leg bank revises growth down rather than inflation up.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 7,
+   "factor_name": "Event Risk & Geopolitics",
+   "tactical_weight_default": 0.05,
+   "tactical_weight_applied": 0.05,
+   "strategic_weight_default": 0.05,
+   "strategic_weight_applied": 0.05,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": "geopolitics",
+    "bilateral_analysis": "Inside four weeks the event set is dense and close to symmetric for this pair. The Hormuz binary is the largest single item and it cuts across the two legs rather than between them: a settlement is risk-positive and China-growth-positive for the base leg but removes the supply-shock foundation of its central bank's hiking bias, while also stripping the quote leg of its energy terms-of-trade gain and part of its haven bid. An escalation reverses both signs. On the quote side the 2026-11-03 midterm elections sit on the same day as the base-leg central bank decision, which is genuine event clustering for the pair: the two legs reprice within hours of each other and the sequencing is unusually tight. Australia carries almost no domestic political risk, with no federal election due until May 2028, so the event asymmetry is entirely on the quote side - which is a reason for wider two-way risk rather than a direction. The residual channel specific to this pair is US-China trade policy, which transmits to the base leg through steel and iron ore demand faster than to any other G10 currency. Neutral at 50 because every identifiable near-dated event has an offsetting leg.",
+    "key_bilateral_metrics": [
+     "Hormuz crude flows about 9.719 mb/d, roughly 80% of pre-war; US naval blockade in place, indirect talks described as productive",
+     "Event clustering: US midterm elections 2026-11-03 fall on the same day as the gated RBA decision",
+     "No Australian federal election due until May 2028 - domestic political risk on the base leg is negligible",
+     "Base-leg exports to China 30-35% of the total, the fastest G10 transmission channel for US-China trade policy",
+     "Gated calendar inside the window: FOMC 2026-10-28, RBA 2026-11-03, RBA 2026-12-08, FOMC 2026-12-09 (SEP)"
+    ],
+    "what_is_priced": "The option surface prices no near-dated Gulf binary - the pair's term structure is mildly upward-sloping with no front-end kink - so the tail is unpriced rather than mispriced, and the midterm clustering with the base-leg decision is not discounted at all.",
+    "citations": [
+     21,
+     28
+    ]
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 50,
+    "evidence_type": "geopolitics",
+    "bilateral_analysis": "Over one to three months the event distribution tilts upward for the pair, because the dated risks concentrate on the quote leg and most of them are negative for it. The continuing resolution funds the US government only to 2026-12-11, so a lame-duck Congress returning from the midterms must pass another bill or shut the government during the year-end funding turn, and the rating agencies have already flagged gridlock as the governance risk that cost the sovereign its top rating. The quote leg also carries the residual political risk to central bank independence, which the Supreme Court ruling has reduced but not eliminated. On the base side the equivalent risks are absent - no election, a low-impact December fiscal update, an affirmed triple-A - and the one clean upward catalyst in the window is Chinese policy, with the Central Economic Work Conference in December setting the stimulus envelope that transmits to the base leg through iron ore. Against that, the Gulf binary remains two-sided and a renewed closure would favour the quote leg sharply. Bullish at 50 is deliberately weak: the skew is real but it is built from event probabilities rather than from anything already in train.",
+    "key_bilateral_metrics": [
+     "US continuing resolution expires 2026-12-11, inside the window, with shutdown probability assessed at about a third in the quote dossier",
+     "US midterm elections 2026-11-03 determine the path to that deadline",
+     "Base leg: no election until 2028, triple-A affirmed by all three agencies with stable outlooks",
+     "China Central Economic Work Conference in December - the one clean upward catalyst for the pair",
+     "Gulf outcomes assessed in both dossiers at roughly 25% settlement and 15-20% escalation over six months"
+    ],
+    "what_is_priced": "Markets price the December funding deadline and the midterms as routine and the Gulf as a stable background condition; the clustering of quote-leg governance risk inside the same window as the base leg's cleanest upward catalyst is not reflected in the pair's forward price.",
+    "citations": [
+     21,
+     26,
+     27,
+     28
+    ]
+   },
+   "horizon_split": "The stance moves from Neutral to Bullish because the tactical tails offset while the strategic calendar concentrates dated, one-sided risk on the quote leg - the midterms and the 2026-12-11 funding cliff - against a base leg with no domestic political calendar and one upward China catalyst. Confidence stays at 50 on both horizons because the Gulf binary is unresolved throughout and remains the largest single item in either direction.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 8,
+   "factor_name": "Fiscal & Sovereign Risk",
+   "tactical_weight_default": 0.04,
+   "tactical_weight_applied": 0.04,
+   "strategic_weight_default": 0.07,
+   "strategic_weight_applied": 0.07,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 55,
+    "evidence_type": "rates",
+    "bilateral_analysis": "The fiscal differential between these two sovereigns is the widest of any G10 pairing, and inside four weeks it does not matter. Australia holds triple-A from all three agencies with stable outlooks, net general government debt of 18.8 per cent of GDP and an underlying cash deficit of 1.6 per cent; the United States is one notch below top-tier at all three, with debt held by the public at 101 per cent of GDP, a deficit near 5.8 to 6 per cent and net interest above a trillion dollars, now larger than defence. The bond market expresses none of that: Australian ten-year paper yields only about 14bp more than Treasuries on the dossiers' live cross-section despite a debt ratio a fraction of the size, which is a relative-value observation about duration rather than a currency signal at this horizon. There is no rating review, auction event or fiscal deadline for either sovereign inside the tactical window - the US funding cliff falls on 2026-12-11, outside it. The residual tactical channel runs the wrong way for the pair: higher Treasury yields have been attracting capital rather than repelling it, with 83.7bn dollars of July TIC inflows, so fiscal deterioration on the quote leg has been dollar-positive. Neutral at 55.",
+    "key_bilateral_metrics": [
+     "Ratings: Australia Aaa/AAA/AAA stable; United States Aa1/AA+/AA+ stable",
+     "Net general government debt 18.8% of GDP (Australia) vs debt held by the public 101% of GDP (United States)",
+     "Deficits: Australia 1.6% of GDP vs United States 5.8-6% of GDP; US net interest above 1tn dollars, 3.3% of GDP",
+     "AU-US 10-year spread about +14bp on the live cross-section - essentially no credit differential priced",
+     "No rating review, auction event or fiscal deadline for either sovereign inside the four-week window"
+    ],
+    "what_is_priced": "The bond market prices no fiscal premium for the base leg relative to the quote leg despite an enormous ratio gap, and the currency expresses none of it inside four weeks; a weak long-end US auction is the only near-term route by which the risk transfers to the pair.",
+    "citations": [
+     26,
+     27
+    ]
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 55,
+    "evidence_type": [
+     "rates",
+     "geopolitics"
+    ],
+    "bilateral_analysis": "Over one to three months fiscal quality becomes a differentiator for the pair because the global regime is one in which sovereign balance sheets are being repriced through the term premium. The quote leg's ten-year yields sit near the top of their one-year range against a longer-run policy dot of 3.2 per cent, which is roughly a hundred basis points of compensation for supply rather than for policy, and its interest bill is now compounding: every hundred basis points on the average cost of debt eventually adds about a point of GDP to a deficit already near six. The base leg has the opposite problem, which is to say almost none - projected net debt of 19.9, 21.0 and 21.8 per cent across the next three years, below its own 2020 peak, and therefore the greatest counter-cyclical capacity in the set at exactly the moment its central bank is engineering a slowdown. The dated transmission point inside the window is the 2026-12-11 funding deadline, which is a governance event for the quote leg with no base-leg equivalent. Confidence is held to 55 because the channel is second-order - currencies do not trade off debt ratios monthly - and because the base leg's own fiscal metrics rest on commodity revenue that iron ore at 96.59 dollars will not keep flattering.",
+    "key_bilateral_metrics": [
+     "Australian net debt projected at 19.9%, 21.0% and 21.8% of GDP over 2026-2028, below the 28.3% 2020 peak",
+     "US debt held by the public 101% of GDP rising to 120% by 2036 (CBO); deficit 5.8% vs a 50-year average of 3.8%",
+     "US net interest 3.3% of GDP, above defence spending",
+     "US 10-year near the top of its one-year range against a 3.2% longer-run dot - a term premium of roughly 100bp",
+     "Fitch affirmed AA+ in August 2026 while flagging gridlock and shutdown risk; Australian AAA affirmed by S&P in August"
+    ],
+    "what_is_priced": "The quote leg's fiscal risk is priced in bonds and not in the currency, because higher yields have so far attracted inflows; the base leg's fiscal advantage is fully recognised in ratings and almost entirely unrecognised in a 14bp cash spread. Over a quarter we expect part of that to migrate into the currency.",
+    "citations": [
+     26,
+     27,
+     28
+    ]
+   },
+   "horizon_split": "Neutral tactically and Bullish strategically because the mechanism is slow. Inside four weeks there is no rating action, no supply event and no deadline, and higher quote-leg yields have been attracting rather than repelling capital. Over a quarter the interest burden, the 2026-12-11 funding cliff and the global discrimination on duration give the base leg's balance sheet somewhere to show up.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 9,
+   "factor_name": "Market Structure & Volatility",
+   "tactical_weight_default": 0.05,
+   "tactical_weight_applied": 0.05,
+   "strategic_weight_default": 0.03,
+   "strategic_weight_applied": 0.03,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 55,
+    "evidence_type": "pair_price_action",
+    "bilateral_analysis": "This pass is not given the pair's price series by design, so this factor rests entirely on the option surface in the gated store, which is the part of the pair's own market structure that is supplied. That surface is unambiguous about direction: the 25-delta risk reversal is -1.283 per cent at 36.7 days, -1.142 per cent at 99.7 days and -1.129 per cent at 190.6 days, so base-currency puts are bid across the whole curve and the skew is deepest at the front. That is institutional hedging demand for downside in this pair, and it has deepened materially from the roughly -0.92 at a comparable tenor recorded in the base dossier's earlier capture. ATM implied volatility is 7.822 per cent at 36.7 days against 7.813 at 99.7 and 8.208 at 190.6 - a flat front with mild contango further out, which prices the late-October and early-November event cluster without a dramatic kink. The 25-delta butterfly of 0.391 at the front against 0.182 at three months says the wings are bid near-dated, consistent with event hedging rather than a directional panic. Liquidity is excellent: this is a top-five major and the only AUD cross with genuine listed options rather than triangulated quotes, so execution and gap risk are not constraints. Bearish at 55 - the pair's own derivatives market is paying to be short it.",
+    "key_bilateral_metrics": [
+     "25-delta risk reversal -1.283% (36.7d), -1.142% (99.7d), -1.129% (190.6d) - base-currency puts bid across the curve",
+     "ATM implied vol 7.822% (36.7d), 7.813% (99.7d), 8.208% (190.6d) - flat front, mild contango",
+     "25-delta butterfly 0.391 (36.7d) vs 0.182 (99.7d) - wings bid near-dated, consistent with event hedging",
+     "Front-end skew has deepened from roughly -0.92 at a comparable tenor in the base dossier's earlier capture to -1.283",
+     "Carry-to-vol 0.093 on the gated 3-month implied - no cushion to absorb a vol expansion"
+    ],
+    "what_is_priced": "The surface prices an event in the late-October to early-November window and prices its direction as downside for the pair; the flat front-end term structure means that near-dated optionality is not bid up relative to the rest of the curve despite the cluster of decisions inside it.",
+    "citations": [
+     3,
+     4
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 50,
+    "evidence_type": "pair_price_action",
+    "bilateral_analysis": "Further out the surface says the same thing with less emphasis. The 25-delta risk reversal flattens only marginally with tenor, from -1.283 per cent at 36.7 days to -1.129 per cent at 190.6 days, so six-month hedging demand for downside in this pair is almost as deep as one-month demand - that is a structural skew rather than an event hedge, and it is the market's own standing verdict against the carry story. ATM volatility rises to 8.208 per cent at 190.6 days, a normal contango shape that signals no strategic event premium and no expectation of a regime break in either direction. The butterfly rises again at the long tenor to 0.357, which prices fatter tails over a quarter-plus horizon, consistent with the Gulf binary identified in Factor 7. With the price series withheld from this pass there is no trend, range or level evidence to add, and inventing it would be precisely the failure the two-pass split exists to prevent. Bearish at 50: the skew is persistent and directional, but a standing risk reversal is a weaker signal about the next three months than about the next four weeks, and the vol level itself is neutral.",
+    "key_bilateral_metrics": [
+     "Six-month 25-delta risk reversal -1.129% - downside skew persists at the strategic tenor",
+     "Six-month ATM implied 8.208% against 7.813% at three months - normal contango, no regime-break premium",
+     "Six-month butterfly 0.357 vs 0.182 at three months - fatter tails priced further out",
+     "Pair liquidity: deep listed and OTC market; the only AUD cross with genuine listed option quotes",
+     "Price series (returns, moving averages, zones, ATR) deliberately withheld from this pass - no trend evidence claimed"
+    ],
+    "what_is_priced": "The surface prices a normal three-to-six month distribution with a persistent downside skew and fatter tails; it does not price a directional regime change, which is consistent with a factor score that is negative but weak.",
+    "citations": [
+     3,
+     4
+    ]
+   },
+   "horizon_split": "Bearish on both horizons with confidence falling from 55 to 50. Tactically the front-end skew is the deepest point on the curve and the butterfly confirms near-dated event hedging, which is a live signal. Strategically the skew persists but flattens and the vol term structure is an ordinary contango, so the same surface carries less information about the next quarter than about the next month. Pass-2 technical overlay (levels only, does not alter the scored stance): (1) Moving averages: spot at 0.69554 is below the bullishly stacked 50-day, 100-day and 200-day simple averages (0.70913 / 0.70582 / 0.70303) and 4.48% above a rising 200-week average at 0.66574. (2) Working range: the tactical range is the seven-touch support zone at 0.68707–0.69198 (upper edge 36 pips below spot) and the three-touch resistance zone at 0.7054–0.7111 (127 pips above spot to midpoint), with 0.7000 and the 200-day in between. (3) Volatility versus price: 20-day realised of 6.32% runs 1.50 vol points under one-month implied; selling event premium is not supported before 3 November, because the skew is directional and the wings are bid. (4) Execution timing: the first entry window for any event-driven exposure is before 28 October, while one-month vol is still priced at the curve average.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": {
+    "vol_landscape_summary": "A flat front end at roughly 7.82 per cent ATM rising to 8.21 per cent at six months, with a 25-delta risk reversal pinned between -1.13 and -1.28 per cent across every tenor and butterflies bid at both the short and long ends. The level of volatility is unremarkable; the entire information content sits in the skew, which is uniformly against the pair, and in the near-dated wings, which are bid into the late-October and early-November decision cluster.",
+    "directional_expression": "Because the verdict is Neutral on both horizons, the surface argues against paying for direction in either sense. The skew makes downside protection in this pair expensive and upside correspondingly cheap at every tenor, so any upward expression is structurally better bought as optionality than held in spot, while any downward expression is better held in spot or forwards than bought as puts. The carry contributes nothing either way at a 0.093 carry-to-vol, so there is no accrual argument for holding the pair in either direction.",
+    "event_timing_consideration": "The gated calendar puts the FOMC on 2026-10-28 and the base-leg decision on 2026-11-03, six days apart, with the only flagged projection round at the 2026-12-09 FOMC SEP. The 36.7-day tenor spans both of the first two, and its term structure is flat rather than kinked, which means the cluster is not yet bid up relative to the rest of the curve - near-dated optionality is the cheapest available way to own that two-decision sequence.",
+    "liquidity_note": "AUD/USD is a top-five major with deep spot, forward and listed option liquidity, and it is the only AUD cross where the option quotes used here are genuine rather than triangulated from dollar legs. Execution and gap risk are not constraints on expression; the binding constraint is the skew, not the book."
+   }
+  },
+  {
+   "factor_number": 10,
+   "factor_name": "USD Liquidity & Funding",
+   "tactical_weight_default": 0.11,
+   "tactical_weight_applied": 0.11,
+   "strategic_weight_default": 0.12,
+   "strategic_weight_applied": 0.12,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 55,
+    "evidence_type": [
+     "rates",
+     "cross_asset"
+    ],
+    "bilateral_analysis": "Dollar funding is abundant and the dollar is strong anyway, which is the configuration that hurts this pair most. The plumbing is unstressed: SOFR fixed at 3.87 per cent against an IORB of 3.90 and a standing repo rate of 4.00, reserves are 2.948tn dollars, runoff ended in December 2025 and the Desk is adding bills at ten billion a month. But ample liquidity is not a weak dollar - the ten-year TIPS real yield of 2.88 per cent sits at the 99th percentile of its year, which places the quote leg at the US-exceptionalism end of the dollar smile, the end at which this base currency has the highest beta to underperformance of anything in the G10. The pair-specific funding read is in the gated store: a CME calendar premium of -56.2bp annualised against a 72.5bp policy differential implies roughly sixteen basis points of negative basis, a modest dollar funding premium that the base leg pays rather than receives. Australia's banks are structural net offshore borrowers in dollars, so any tightening in that basis transmits directly into the pair rather than being absorbed. Bearish at 55 with the heaviest tactical weight after the top two factors.",
+    "key_bilateral_metrics": [
+     "SOFR 3.87% against IORB 3.90% and a 4.00% standing repo rate - no dislocation",
+     "Fed reserves 2.948tn dollars; balance sheet expanding by roughly 10bn a month in bills; QT concluded 2025-12-01",
+     "10-year TIPS real yield 2.88%, 99th percentile of one year - a high-real-rate dollar, not a scarce one",
+     "Pair funding: CME calendar premium -56.2bp annualised vs a 72.5bp policy differential, implying about -16bp of basis",
+     "Australian banks are structural net offshore USD borrowers - the base leg's standing dollar demand"
+    ],
+    "what_is_priced": "The market prices the dollar off US real rates rather than US liquidity, and with the Fed's next decision inside the window that pricing has room to run; the pair's negative basis is small and already in the forward points.",
+    "citations": [
+     11,
+     12,
+     30
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": "rates",
+    "bilateral_analysis": "Over one to three months this factor is a genuine standoff for the pair, which is the unusual case where both legs' own dossiers score the same factor as a headwind for their own currency. On the quote side, the Fed's operating framework is designed to prevent the dollar shortage that would support the currency - reserves are ample at 2.948tn, the standing repo facility caps any spike, the balance sheet is growing and the Committee has committed to keeping reserves ample - and peer tightening lowers the cost for foreign holders of US assets to raise hedge ratios, which is a slow dollar-selling flow. On the base side, Australian banks fund offshore in dollars as a structural matter, so the base leg carries a standing dollar liability that the quote leg does not mirror, and the December funding turn falls inside the window with a US government funding deadline on the same date that could distort the Treasury General Account and tighten conditions abruptly. Neither effect dominates. Neutral at 50 is the honest reading, and it is worth noting that scoring this factor Bullish at even 48 would push the strategic net score across the Bullish threshold - which is exactly why the judgement has to be made on the evidence rather than on where it lands.",
+    "key_bilateral_metrics": [
+     "Fed total assets up about 155.9bn dollars year on year with reserves at 2.948tn - no scarcity channel",
+     "Standing repo facility at 4.00% caps funding spikes; SOFR 3.87% through quarter-end without stress",
+     "Peer tightening lowers the hedging cost for foreign holders of US assets - a slow structural dollar-selling flow",
+     "Base-leg banks are net offshore USD borrowers; base-leg net foreign debt 1,486.0bn dollars",
+     "Year-end funding turn coincides with the 2026-12-11 US funding deadline, inside the window"
+    ],
+    "what_is_priced": "The market prices ample reserves and a quiet basis, so a funding squeeze is a low-probability tail on both sides; the pair's forward points already carry the roughly sixteen basis points of negative basis, and neither leg's structural funding position is otherwise discounted.",
+    "citations": [
+     11,
+     30
+    ]
+   },
+   "horizon_split": "Bearish tactically and Neutral strategically. The tactical mechanism is specific and live - a high-real-rate dollar at the exceptionalism end of the smile, which is the worst regime for a high-beta commodity base leg. Strategically that mechanism decays once the quote-leg central bank's final step is delivered, and the base leg's own structural offshore dollar funding need rises to meet it, so the two cancel.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  }
+ ],
+ "synthesis": {
+  "weight_adjustments": {
+   "adjustments_made": false,
+   "adjustments": []
+  },
+  "tactical": {
+   "net_stance": "Neutral",
+   "conviction": 2,
+   "overall_confidence": 55,
+   "weighted_score_calculation": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative)",
+     "stance_score": 1,
+     "confidence": 52,
+     "conf_adj_score": 0.52,
+     "weight": 0.24,
+     "weighted_contribution": 0.1248
+    },
+    {
+     "factor_number": 2,
+     "factor_name": "Inflation & Growth Dynamics",
+     "stance_score": -1,
+     "confidence": 55,
+     "conf_adj_score": -0.55,
+     "weight": 0.18,
+     "weighted_contribution": -0.099
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "stance_score": -1,
+     "confidence": 52,
+     "conf_adj_score": -0.52,
+     "weight": 0.1,
+     "weighted_contribution": -0.052
+    },
+    {
+     "factor_number": 4,
+     "factor_name": "Flows & Positioning",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.1,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance & Terms of Trade",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.06,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 6,
+     "factor_name": "Guidance & Credibility",
+     "stance_score": 1,
+     "confidence": 58,
+     "conf_adj_score": 0.58,
+     "weight": 0.07,
+     "weighted_contribution": 0.0406
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk & Geopolitics",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.05,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign Risk",
+     "stance_score": 0,
+     "confidence": 55,
+     "conf_adj_score": 0,
+     "weight": 0.04,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 9,
+     "factor_name": "Market Structure & Volatility",
+     "stance_score": -1,
+     "confidence": 55,
+     "conf_adj_score": -0.55,
+     "weight": 0.05,
+     "weighted_contribution": -0.0275
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "stance_score": -1,
+     "confidence": 55,
+     "conf_adj_score": -0.55,
+     "weight": 0.11,
+     "weighted_contribution": -0.0605
+    }
+   ],
+   "net_weighted_score": -0.0736,
+   "score_interpretation": "A net score of -0.0736 falls inside the -0.10 to +0.10 band, so the derived tactical stance is Neutral with a mild downward tilt. The structure is a standoff rather than an absence of information: the two largest positive contributions, Policy and Rates at +0.1248 and Guidance at +0.0406, are produced by the same underlying fact - a base-leg central bank holding an open hiking option that the market discounts at roughly a quarter - while the four negatives are produced by a different and equally coherent fact, namely that the quote leg currently sits at the high-real-rate end of the dollar smile with better growth momentum, a credit tape that favours it and an option surface that pays for downside in the pair. Three factors score zero, covering 25 per cent of the tactical weight. The score would cross into Bearish territory on a single change: Factor 5 turning Bearish at the same 50 confidence, or Factor 4 turning Bearish, would each take it past -0.10.",
+   "rationale": "At tactical weights the verdict is decided by Policy and Rates at 0.24, Inflation and Growth at 0.18 and USD Liquidity at 0.11, which together carry 53 per cent of the score and split two to one against the pair. The single bilateral fact that supports a long is that this is the only G10 pair where the base currency out-yields the dollar, by 72.5bp on policy, and where the base-leg central bank has just hiked unanimously and explicitly kept the option of doing more while ASX pricing discounts roughly a quarter of a move at the 2026-11-03 decision. The facts against it are that the differential does not pay - a 0.093 carry-to-vol on a 7.813 per cent three-month implied means the gap contributes about six pips a month - that the long-end spread has compressed to roughly fourteen basis points on the live cross-section, that growth momentum is decisively on the quote side with a flash composite at 58.4 against 50.8, and that the pair's own option surface pays -1.283 per cent at the 25-delta for downside protection at the front of the curve. The two dossiers reinforce rather than conflict in an awkward way: both are tactically bullish their own currency, at +0.3040 and +0.3782, and the pair is simply the smaller of the two numbers subtracted from the larger. What is priced and what we expect diverge in exactly one measurable place - the base-leg hike probability for 3 November, which sits near a quarter against a Board that has used the word further - and the offsetting unpriced item is the quote leg's growth and real-yield momentum into its own 2026-10-28 decision. The dated sequence that resolves it is tight and asymmetric: the US September CPI on 14 October, the Australian labour force report on 15 October, the Australian Q3 CPI on 28 October, the FOMC the same day and the base-leg decision on 3 November, which also happens to be the day of the US midterms. The path of least resistance inside four weeks is sideways with a downward tilt: the pair has one dated upward catalyst on 28 October to 3 November and a continuous downward drag from relative growth and real yields in between. Conviction is 2 rather than 3 because the whole positive case is one release wide, because the pair's own positioning data contradict themselves at the contract level, and because a Neutral arrived at by subtracting two confident bullish views is less informative than a Neutral arrived at from agreement. Analyst note on the verdict (pass 2): information arriving after pass 1 points both ways and does not argue for a different score. It supports the AUD-positive factors (1 and 6): Westpac has moved to a November hike call (Westpac still expects another RBA rate hike in November), and Bullock has also been reported as saying that three RBA hikes could tame inflation toward target. It supports the AUD-negative factor (2): over the same days, consumer sentiment fell 4.7% to 80.4 in October, and dropped to 67.2 among those surveyed after the RBA hike, a level previously seen only in the early 1990s recession. Where I disagree: if anything, the scenario set gives the downside tail more width than a symmetric reading of a −0.07 score implies. That reflects the deepening CFTC short and the persistent put skew. It is a judgement about levels and tails, not about direction, and the scored verdict stands as issued.",
+   "g10_relative_ranking": "Within the AUD complex this is the weakest available expression of the base leg's rate advantage: 72.5bp on a 0.093 carry-to-vol ranks behind AUD/CHF, AUD/SEK, AUD/CAD and EUR/AUD, all of which pay two to six times the differential per unit of volatility. Within the USD complex the pair is the best-funded short-dollar expression precisely because it is the only G10 pair where the dollar pays rather than receives carry, which makes it a poor long and an expensive short; dollar bears are better served against JPY, where the valuation gap and the peer hiking cycle are both larger. Ranked across the eleven-currency opportunity set the pair sits mid-table tactically, behind outright long-dollar expressions against CHF, EUR and CAD and behind long-AUD expressions against the low-rate funders.",
+   "scenarios": {
+    "base_case": {
+     "probability_pct": 50,
+     "pair_target": "Range trade finishing near 0.6940 (−15 pips, −0.22%), between the seven-touch support zone (0.68707–0.69198) and the 0.7054–0.7111 resistance zone",
+     "timeframe": "to 3–6 November 2026",
+     "conditions": [
+      "The Q3 trimmed mean on 28 October prints 3.5–3.7%, leaving 3 November live but not priced above 50%",
+      "The RBA holds on 3 November and keeps the 'further if needed' language",
+      "The FOMC holds on 28 October with December kept live (December odds 50–70%)",
+      "US high-yield spreads hold between 300bp and 375bp"
+     ],
+     "path": "The pair holds between the seven-touch support zone (0.68707–0.69198) and the 0.7054–0.7111 resistance zone through the 28 October to 3 November event cluster, finishing near 0.6940 after a choppy, sideways oscillation with a slight downward lean."
+    },
+    "upside_case": {
+     "probability_pct": 25,
+     "pair_target": "0.7080 (+125 pips, +1.79%), back inside the 0.7054–0.7111 zone and through the 200-day and 100-day",
+     "conditions": [
+      "The Q3 trimmed mean prints at or above 3.8% and the RBA delivers a 25bp hike to 4.85% on 3 November",
+      "US core CPI on 14 October prints at or below 0.2% month on month, and the 28 October FOMC hold pushes December odds below 50%"
+     ]
+    },
+    "downside_case": {
+     "probability_pct": 25,
+     "pair_target": "0.6830 (−125 pips, −1.80%), breaking the seven-touch zone and the June 2026 low of 0.68654 and landing in the three-touch 0.6784–0.6815 zone",
+     "conditions": [
+      "The Q3 trimmed mean prints at or below 3.4%, or September unemployment prints at or above 4.8%, taking 3 November pricing below 10%",
+      "The US 10-year breaks above 5.40% with high yield above 375bp, extending the right-side dollar move"
+     ]
+    }
+   },
+   "path_expectation": "Expect two phases split by the 28 October data-and-decision day. Phase one (now to 27 October) is a choppy range trade: expect 0.6870–0.7030 with 47-pip days. The FOMC minutes (7 October), US CPI (14 October) and Australian labour force (15 October) generate tests of the edges rather than breaks. The first rallies stall at 0.7000 and the 200-day at 0.70303, where trend-following supply now sits. Dips into 0.6880–0.6920 meet the seven-touch zone and a squeeze-prone legacy short of 63.2K. Phase two (28 October to 3 November) carries the event risk: the Australian Q3 CPI, the FOMC, the RBA and the US midterms all land inside six days. Realised volatility should rise from 6.3% toward the 7.8% implied, with gap risk concentrated on the 28 October and 3 November sessions. The shape is a sideways oscillation with a slight downward lean, not a trend. A daily close outside 0.6865–0.7111 is the signal that the range regime has ended.",
+   "conviction_ladder": {
+    "current": 2,
+    "increase_conditions": [
+     "Increase to 3, Bullish route (needs the score to cross +0.10, e.g. Factor 2 tactical to Neutral plus Factor 10 tactical to Neutral): Q3 trimmed mean at or above 3.8% and ASX 3 November hike pricing above 50%; US core CPI at or below 0.2% month on month with December Fed odds below 50%; confirmation level: daily close above the 200-day at 0.70303",
+     "Increase to 3, Bearish route (needs the score to cross −0.10, e.g. Factor 5 or Factor 4 tactical turning Bearish): disaggregated leveraged-fund AUD net long falls below +35,000 while the legacy short is beyond −60,000, so the two CFTC families agree; iron ore below USD 90 a tonne for five sessions; confirmation level: daily close below 0.6865",
+     "Increase to 4 (either direction): the relevant route's conditions are met and the RBA decision on 3 November confirms them (a hike for Bullish, or removal of the 'further if needed' phrase for Bearish), and the AU-US 2-year spread moves beyond ±40bp from about +20bp"
+    ],
+    "decrease_conditions": [
+     "Decrease to 1: both CPI prints land inside consensus and the RBA holds with unchanged language, so every dated catalyst passes without new information",
+     "Decrease to 1: 1-month realised volatility falls below 5% with the pair pinned within ±50 pips of 0.6955"
+    ]
+   },
+   "risk_reward": {
+    "base_case_payoff": "-15 pips (-0.22%)",
+    "downside_case_loss": "-125 pips (-1.80%)",
+    "risk_reward_ratio": "1.0:1 on the tails (upside +125 pips / +1.79% vs downside −125 pips / −1.80%)",
+    "expected_value": "0.50 × (−15) + 0.25 × (+125) + 0.25 × (−125) = −7.5 pips. Carry adds about +3 pips over one month on the realised roll, for a net expected value of about −4.5 pips.",
+    "asymmetry_assessment": "None. Expected value is inside one-tenth of an ATR and the payoffs are symmetric, which is the definition of a Neutral that should not be traded outright. Practical expression: range tactics with defined stops, sized at no more than 0.25% of NAV at risk per idea, for conviction 2. Buy zone 0.6880–0.6920 with stop 0.6835 (below the June low; about 65 pips, 1.4 ATR from the 0.6900 midpoint), targets 0.7000 then 0.7030, reward-to-risk about 1.5–2.0. Sell zone 0.7050–0.7080 with stop 0.7130 (above the zone top and the 50-day; about 65 pips from 0.7065), targets 0.6960 then 0.6920. Notional = risk budget ÷ stop distance (e.g. a $25,000 risk budget on a 65-pip stop is about AUD 3.85m). Event exposure into 28 October–3 November is better owned through the 36.7-day options tenor than through spot, because the term structure is flat and the skew makes topside cheap."
+   }
+  },
+  "strategic": {
+   "net_stance": "Neutral",
+   "conviction": 2,
+   "overall_confidence": 54,
+   "weighted_score_calculation": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative)",
+     "stance_score": 1,
+     "confidence": 52,
+     "conf_adj_score": 0.52,
+     "weight": 0.24,
+     "weighted_contribution": 0.1248
+    },
+    {
+     "factor_number": 2,
+     "factor_name": "Inflation & Growth Dynamics",
+     "stance_score": -1,
+     "confidence": 50,
+     "conf_adj_score": -0.5,
+     "weight": 0.1,
+     "weighted_contribution": -0.05
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.05,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 4,
+     "factor_name": "Flows & Positioning",
+     "stance_score": 0,
+     "confidence": 48,
+     "conf_adj_score": 0,
+     "weight": 0.06,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance & Terms of Trade",
+     "stance_score": -1,
+     "confidence": 58,
+     "conf_adj_score": -0.58,
+     "weight": 0.16,
+     "weighted_contribution": -0.0928
+    },
+    {
+     "factor_number": 6,
+     "factor_name": "Guidance & Credibility",
+     "stance_score": 1,
+     "confidence": 52,
+     "conf_adj_score": 0.52,
+     "weight": 0.12,
+     "weighted_contribution": 0.0624
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk & Geopolitics",
+     "stance_score": 1,
+     "confidence": 50,
+     "conf_adj_score": 0.5,
+     "weight": 0.05,
+     "weighted_contribution": 0.025
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign Risk",
+     "stance_score": 1,
+     "confidence": 55,
+     "conf_adj_score": 0.55,
+     "weight": 0.07,
+     "weighted_contribution": 0.0385
+    },
+    {
+     "factor_number": 9,
+     "factor_name": "Market Structure & Volatility",
+     "stance_score": -1,
+     "confidence": 50,
+     "conf_adj_score": -0.5,
+     "weight": 0.03,
+     "weighted_contribution": -0.015
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.12,
+     "weighted_contribution": 0
+    }
+   ],
+   "net_weighted_score": 0.0929,
+   "score_interpretation": "A net score of +0.0929 is Neutral by the stated rule, but it is only 0.0071 from the Bullish threshold and the proximity should be stated plainly rather than smoothed over. Five factors are positive and three negative, so breadth is doing real work here: Policy and Rates at +0.1248 is the largest single contribution, but Guidance at +0.0624, Fiscal at +0.0385 and Event Risk at +0.0250 together exceed it, which means the upward tilt rests on a cluster of individually weak, slow-acting institutional advantages on the base leg rather than on one strong driver. Against them, External Balance at -0.0928 is the single heaviest negative and the best-evidenced factor in the set. Two single changes would tip the score Bullish: Factor 10 turning Bullish at even 48 confidence, or Factor 2 softening to Neutral. Equally, External Balance scored five points of confidence higher would hold it Neutral. A score this close to a boundary is a statement that the pair is genuinely balanced over a quarter, not that it is quietly bullish.",
+   "rationale": "At strategic weights the composition changes completely: External Balance rises from 0.06 to 0.16, Guidance from 0.07 to 0.12 and Fiscal from 0.04 to 0.07, while Inflation and Growth falls from 0.18 to 0.10 - and the result is a weighted score of +0.0929, a genuine standoff. The upward case is institutional and slow: the base leg has the higher policy rate with a live option, a central bank that has anchored its reaction function to a shock it has called permanent, triple-A ratings against a quote leg one notch down with debt at 101 per cent of GDP and a funding deadline on 2026-12-11, and an event calendar whose dated risks sit almost entirely on the quote side. The downward case is arithmetic and better evidenced: the base leg's current-account deficit widened to 3.67 per cent of GDP with the goods and services balance itself in deficit, its real effective exchange rate is 116.11 and up 9.97 per cent over twelve months - the largest real appreciation in the G10 set - and it achieved that while iron ore, roughly thirty-five per cent of its export revenue, fell 7.14 per cent. The bilateral trade relationship adds a small standing drag: Australia runs a 19.9bn dollar goods deficit with the United States on IMF DOTS for 2024. The two dossiers conflict here in a way the tactical horizon hid: the base dossier is strategically Neutral at +0.0307 while the quote dossier is strategically Bearish at -0.1822, which taken naively would make the pair a clear buy, but the bilateral netting removes most of that because the quote leg's two biggest strategic negatives - a twin deficit and a diversifying reserve share - have direct base-leg analogues that are worse per unit of GDP. What is priced is the differential staying at 72.5bp and neither external position adjusting; what we expect is that the base leg's hiking option survives slightly longer than the market credits while its real exchange rate does not. The dated resolution points inside the window are the 2026-11-03 and 2026-12-08 base-leg decisions, the 2026-12-09 FOMC SEP - the only flagged projection round in the gated calendar - and the 2026-12-11 US funding deadline. Conviction is 2 because the offsetting factors are large, well identified and slow, and because a score 0.0071 from a threshold is not a position.",
+   "g10_relative_ranking": "Strategically the pair ranks mid-table and is the wrong vehicle for either side of the view it contains. A strategic long in the base leg is better expressed against the low-rate funders, where the differential is 210 to 460 basis points rather than 72.5 and survives a seven per cent volatility environment; a strategic short in the quote leg is better expressed against JPY, where the valuation gap and the peer tightening cycle are both far larger and the option skew already pays for it. Among dollar pairs AUD/USD is the only one where the dollar pays carry, which flatters a long and penalises a short; among AUD crosses it is the one with no commodity support underneath it, because the quote leg is now a net energy exporter too.",
+   "scenarios": {
+    "base_case": {
+     "probability_pct": 50,
+     "pair_target": "0.6975 (+20 pips, +0.28%), within a widening 0.6800–0.7150 range",
+     "timeframe": "to end-March 2027",
+     "conditions": [
+      "The RBA peaks at 4.60–4.85% by February 2027 and holds, with trimmed mean drifting to 3.3–3.5%",
+      "The Fed delivers its final step by the 9 December SEP and the 2027 median dot stays at 4.1%",
+      "Iron ore trades in a USD 90–105 range with no large Chinese stimulus package",
+      "Australian unemployment rises to 4.7–4.9% without forcing an explicit RBA easing signal"
+     ],
+     "path": "A widening range rather than a trend: range-bound through the fourth quarter decided by the RBA, then China policy and Australian jobs data take over in January to March 2027, with the pair finishing near 0.6975."
+    },
+    "upside_case": {
+     "probability_pct": 25,
+     "pair_target": "0.7280 (+325 pips, +4.67%), clearing the 0.72003–0.72308 zone and retesting the 52-week-high region",
+     "conditions": [
+      "A Chinese stimulus package out of the December Central Economic Work Conference lifts iron ore above USD 110 a tonne",
+      "The RBA reaches 4.85% while the December SEP confirms the Fed plateau",
+      "The 11 December US funding deadline produces a shutdown, or a Gulf settlement moves the dollar toward the middle of the smile"
+     ]
+    },
+    "downside_case": {
+     "probability_pct": 25,
+     "pair_target": "0.6730 (−225 pips, −3.24%), reaching the three-touch 0.66935–0.6749 zone where the rising 200-week average (about 0.6730 by end-March) provides the floor",
+     "conditions": [
+      "Australian unemployment exceeds 5.0% and the 9 February Statement on Monetary Policy revises growth down and removes the tightening bias",
+      "Iron ore breaks below USD 85, or the December SEP raises the 2027 dot to 4.4% or higher"
+     ]
+    }
+   },
+   "path_expectation": "The strategic path is a widening range rather than a trend. In the fourth quarter the pair is range-bound and decided by the RBA: expect 0.6870–0.7111. The 3 November and 8 December RBA decisions determine whether the differential widens to 97.5bp, and the 9 December SEP and the 11 December funding deadline inject the quote leg's two largest strategic risks into the same week as the year-end dollar funding turn. From January to March 2027, China and Australian jobs take over: the balance shifts to China policy (the Central Economic Work Conference in December, the National People's Congress in March) and the Australian labour market. The December-quarter CPI in late January and the 9 February RBA meeting are where an easing pivot would first be priced. Volatility should rise into December and again in February, consistent with the 8.21% six-month implied and the 0.357 butterfly. On the downside, pullbacks meet 0.68707–0.69198 first, then the 0.66935–0.6749 band converging with the rising 200-week average. A weekly close below that average would end the multi-year uptrend and is the strategic line in the sand.",
+   "conviction_ladder": {
+    "current": 2,
+    "increase_conditions": [
+     "Increase to 3, Bullish route (Factor 10 strategic to Bullish at 48 or more would take the score to +0.1505; Factor 2 strategic to Neutral would take it to +0.1429): the December SEP leaves the 2027 dot at or below 4.1% while the RBA has hiked to 4.85%; iron ore holds above USD 105 for a month; Australian unemployment stabilises at or below 4.6%",
+     "Increase to 3, Bearish route: the Australian September-quarter current account (early December) widens beyond 4.0% of GDP; the December SEP raises the 2027 dot to 4.4% or higher; Australian unemployment reaches 4.9% or higher",
+     "Increase to 4: iron ore sustained above USD 110 with the RBA at 4.85% (Bullish), or unemployment above 5.0% with an explicit RBA easing bias (Bearish)"
+    ],
+    "decrease_conditions": [
+     "Decrease to 1: the Gulf situation resolves in a way that removes both the RBA's hiking rationale and the dollar's haven and terms-of-trade bid at once",
+     "Decrease to 1: that Gulf resolution collapses Factors 1, 3, 5 and 7 toward zero"
+    ]
+   },
+   "risk_reward": {
+    "base_case_payoff": "+20 pips (+0.28%)",
+    "downside_case_loss": "-225 pips (-3.24%)",
+    "risk_reward_ratio": "1.44:1 on the tails (upside +325 pips / +4.67% vs downside −225 pips / −3.24%)",
+    "expected_value": "0.50 × 20 + 0.25 × 325 + 0.25 × (−225) = +35 pips, plus about 19.5 pips of realised roll carry over six months, for about +55 pips.",
+    "asymmetry_assessment": "Mildly favourable in raw pips but immaterial against a six-month one-standard-deviation move of about 412 pips. The expected value is roughly 0.13 standard deviations, which does not justify an outright position. The asymmetry is better harvested in AUD crosses against the low-rate funders, or by buying topside optionality that the −1.13 six-month skew makes cheap."
+   }
+  },
+  "consensus_divergence": {
+   "bank_consensus_forecast": "Aggregated bank research compiled by Exchange Rates UK puts AUD/USD consensus at roughly 0.7075-0.7144 for Q4 2026 and 0.7182-0.7202 for Q1 2027, drawn from 24 contributing providers for the Q1 2027 quarter with a low of 0.6900 and a high of 0.7500. Named bank views cluster above spot: ING at roughly 0.74-0.75 by end-2026, UBS at 0.74 for December 2026 and 0.75 for March 2027 as of its August publication, Westpac at roughly 0.71-0.73, CBA at 0.70-0.73, NAB peaking near 0.72 and easing, and MUFG at the cautious end near 0.70. The common thread among the bulls is the expectation that Australian rates stay above US rates for longer. Pass-2 update: the aggregator's year-end figure is unchanged in its latest refresh (updated 4 Oct 2026 from a survey of 24 providers, forecasting USD/AUD at 1.4001 by December 2026, i.e. AUD/USD of about 0.7142), and its headline still carries ING's year-ahead forecast for AUD/USD to hit 0.74 by end 2026. Not every desk is above spot: FX Empire's pre-RBA note set a neutral target of 0.7025 for 27 October and said a 27 October fix outside 0.6878-0.7132 invalidates the call, which is close to this report's tactical range. Seasonality is mildly supportive at the margin (one desk's study found October delivers the strongest median gain at 1.6%, with a 56% win rate), recorded as context and not scored.",
+   "bank_consensus_forecast_source": "Exchange Rates UK aggregated bank and consensus forecasts (citations 7 and 8, accessed 2026-10-05; refreshed via citation 43); UBS forecast via Exchange Rates UK news (citation 9); named bank views for ING, CBA, Westpac, NAB and MUFG via a secondary aggregator (citation 10) and flagged as aggregator-reported rather than taken from the banks' own published research. No paid consensus survey was available to this pass.",
+   "our_tactical_view": "Neutral with a mild downward tilt, net score -0.0736, conviction 2. We agree with the forwards rather than with the sell side over four weeks: the base leg's unpriced hike option is real but is offset by relative growth momentum, credit, and a front-end option skew of -1.283 per cent against the pair.",
+   "our_strategic_view": "Neutral, net score +0.0929, conviction 2. Directionally we are closer to the bearish end of the bank range than to the middle of it, because we weight the base leg's external accounts and real exchange rate far more heavily than the consensus narrative does.",
+   "divergence_direction": "Below consensus on both horizons. The aggregated bank path implies appreciation of roughly two to three and a half per cent from spot over the next two quarters; we see a balanced distribution with no directional expectation.",
+   "divergence_magnitude": "Our Neutral sits roughly 150 to 250 pips below the 0.7144 to 0.7202 aggregated bank path for Q4 2026 and Q1 2027, and some 450 to 550 pips below the most bullish named forecasts near 0.74-0.75.",
+   "why_we_differ": "Consensus is built almost entirely on one factor - that Australian rates stay above US rates for longer - and that factor is both real and almost unmonetisable at current volatility: 72.5bp against a 7.813 per cent three-month implied is a carry-to-vol of 0.093, roughly six pips a month, and the realised roll in the gated store is 56.2bp rather than 72.5bp once basis is removed. We weight three things the consensus narrative underweights. First, the base leg's external position: a current account at 3.67 per cent of GDP with the goods and services balance itself in deficit, which is not what a commodity exporter should look like near the top of an energy shock. Second, relative valuation: a real effective exchange rate at 116.11 and up 9.97 per cent over twelve months against a quote leg at the 9th percentile of its own recent range, achieved while iron ore fell 7.14 per cent, which means the rate story is already capitalised and has no commodity support underneath it. Third, the commodity netting itself has changed character, because the quote leg is now a net energy exporter, so the oil shock that would historically have been neutral-to-positive for this pair is mildly negative for it.",
+   "payoff_if_right": "A Neutral verdict that proves correct avoids the two to three and a half per cent appreciation the consensus path assumes, and the information value sits in the relative-value conclusion rather than the outright: the same base-leg view expressed against the low-rate funders pays two to six times more per unit of volatility, and the same quote-leg view expressed against JPY carries a larger valuation gap and a skew that already pays for it.",
+   "risk_if_wrong": "If the consensus is right and the Australian hiking cycle extends into 2027 while the Fed's plateau proves real, the pair appreciates through the bank range and a Neutral verdict forgoes it. The specific mechanism by which we would be wrong is a Chinese stimulus package out of the December Central Economic Work Conference that resets iron ore above 110 dollars a tonne, which would restore the terms-of-trade support that Factor 5 assumes stays absent, and would do so while the base-leg central bank still holds an open hiking option."
+  },
+  "cross_horizon_consistency": {
+   "aligned": true,
+   "tactical_stance": "Neutral (net score −0.0736, conviction 2)",
+   "strategic_stance": "Neutral (net score +0.0929, conviction 2)",
+   "explanation": "The two horizons agree on the label and disagree on the sign of the tilt, which is worth stating rather than hiding behind the shared word Neutral. Tactically the score is mildly negative because the heavily weighted growth and funding factors favour the quote leg while the base leg's rate advantage is unmonetisable; strategically the score is mildly positive because External Balance rises to 0.16 and hurts the base leg, but Guidance, Fiscal and Event Risk rise together and all three favour it, and the quote leg's funding advantage decays into Neutral. Nothing about either currency changes between the horizons - what changes is which of their contradictory properties carries the weight. The composition is also different in kind: the tactical tilt rests on two well-evidenced factors, while the strategic tilt rests on four individually weak ones, which is breadth doing the work of depth.",
+   "inflection_point": "The window between the 2026-11-03 base-leg decision and the 2026-12-09 FOMC with its SEP. The first resolves whether the base leg's open hiking option is used; the second resolves whether the quote leg's plateau is confirmed or extended. Once both are known, the tactical drag and the strategic tilt stop pointing in opposite directions.",
+   "trading_implication": "A Neutral on both horizons with opposite tilts is an instruction to hold no directional position in this pair and to let the second pass express the view, if at all, through relative value rather than outright spot. The one genuinely datable asymmetry - the base-leg hike option discounted at roughly a quarter into 2026-11-03 - is a short-duration event exposure, not a trend, and the option surface says near-dated optionality in this pair is not yet bid up relative to the rest of its curve."
+  },
+  "forward_vs_spot": {
+   "current_spot": 0.69554,
+   "forward_1m": "0.69521 (−3.3 pips, −0.05% implied AUD change); our probability-weighted expected spot 0.6948, edge −4 pips (forward slightly above our expectation)",
+   "forward_3m": "0.69456 (−9.8 pips, −0.14% implied AUD change)",
+   "forward_6m": "0.69359 (−19.5 pips, −0.28% implied AUD change)",
+   "expected_rate_3m": "0.6965 (probability-weighted)",
+   "expected_rate_6m": "0.6990 (probability-weighted)",
+   "edge_3m": "+19 pips (our expected rate above the forward-implied rate)",
+   "edge_6m": "+54 pips (our expected rate above the forward-implied rate; about 0.13 of the 412-pip one-sd implied move)"
+  }
+ },
+ "catalysts": [
+  {
+   "date": "2026-10-07",
+   "event": "FOMC minutes (15–16 September meeting)",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Quote",
+   "rationale": "The minutes show how broad the hawkish majority behind the 12-0 hike was. A broad majority lifts US front-end and real yields with no offsetting Australian event that week, pushing the pair down through the differential.",
+   "priced_in": "Partially",
+   "citations": [
+    11,
+    12
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "event": "US September CPI",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Quote",
+   "rationale": "A core print at or above 0.3% month on month extends the real-yield drag that carries Factor 10 tactical. A print at or below 0.1% removes it and hands the window to the Australian event sequence.",
+   "priced_in": "Partially",
+   "citations": [
+    14
+   ]
+  },
+  {
+   "date": "2026-10-15",
+   "event": "ABS Labour Force, Australia (September)",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "Unemployment of 4.6% and rising against a steady 4.1% in the US is the cleanest macro divergence in the pair. A print at or above 4.8% compresses the 3 November hike option, the only unpriced upward driver. A fall with full-time gains removes the main obstacle to it.",
+   "priced_in": "Partially",
+   "citations": [
+    18
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "event": "ABS Consumer Price Index, September quarter",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Base",
+   "rationale": "This is the trigger for the pair's one measurable mispricing. CBA has framed the threshold explicitly: it sees the risk of a follow-up hike to 4.85% if September quarter trimmed mean inflation is 1% or higher quarter on quarter. Market pricing for 3 November is roughly a quarter to a third, against a Board holding the option open.",
+   "priced_in": "Partially",
+   "citations": [
+    1,
+    3,
+    4,
+    40
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "event": "FOMC decision (no projection round flagged)",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Quote",
+   "rationale": "The US leg reprices six days before the Australian leg and on the same day as the Australian CPI, so the two largest October surprises land within hours of each other. A hawkish hold sustains the dollar drag. A dovish hold with December odds falling lets the RBA option dominate.",
+   "priced_in": "Partially",
+   "citations": [
+    11,
+    13
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "event": "RBA Monetary Policy Board decision (the dossier says a Statement on Monetary Policy accompanies it; the gated calendar file does not flag one)",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Base",
+   "rationale": "Delivery would widen the differential from 72.5bp to 97.5bp in a single session. Market pricing is low relative to the Board's stance: market pricing shows about a 33% chance of a November hike, with a rise almost fully priced by February 2027. Westpac has since joined ANZ in calling the hike. Priced-in estimate roughly 25–33%.",
+   "priced_in": "Partially",
+   "citations": [
+    1,
+    2,
+    3,
+    4,
+    41
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "event": "US midterm congressional elections",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Quote",
+   "rationale": "The elections fall on the same day as the RBA decision, so the two legs reprice within hours. Control of Congress also sets the path to the 11 December funding deadline.",
+   "priced_in": "Not priced",
+   "citations": [
+    28
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "event": "ABS Labour Force, Australia (October)",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "This release decides whether 5.0% unemployment arrives inside the strategic window. At that level Factors 1 and 6, which carry 0.36 of strategic weight, lose their support together. That is the fastest route from Neutral to Bearish.",
+   "priced_in": "Partially",
+   "citations": [
+    18,
+    19
+   ]
+  },
+  {
+   "date": "2026-12-08",
+   "event": "RBA Monetary Policy Board decision",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "If November delivered, this is the hold that defines the peak. If November held, this becomes the live meeting with October and November data in hand.",
+   "priced_in": "Partially",
+   "citations": [
+    5
+   ]
+  },
+  {
+   "date": "2026-12-09",
+   "event": "FOMC decision with Summary of Economic Projections",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Quote",
+   "rationale": "This is the only projection round flagged in the gated window. A 2027 dot above 4.1% moves Factor 1 against the pair for the rest of the horizon. An unchanged dot confirms the plateau.",
+   "priced_in": "Partially",
+   "citations": [
+    11,
+    12
+   ]
+  },
+  {
+   "date": "2026-12-11",
+   "event": "US continuing resolution expiry",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Quote",
+   "rationale": "This is governance risk on the US leg with no Australian equivalent. Its pair-positive effect is partly offset by the seasonal year-end peak in dollar funding demand.",
+   "priced_in": "Not priced",
+   "citations": [
+    27,
+    28
+   ]
+  },
+  {
+   "date": "2026-12-10",
+   "event": "China Central Economic Work Conference (second week of December, exact date to be confirmed; date field is a placeholder)",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Base",
+   "rationale": "This is the one clean upward catalyst for the pair. Stimulus transmits through iron ore, about 35% of Australian export revenue, and iron ore above USD 110 is the single change that moves Factor 5 strategic to Neutral, which would take the strategic score to about +0.186.",
+   "priced_in": "Not priced",
+   "citations": [
+    20
+   ]
+  }
+ ],
+ "invalidators": [
+  {
+   "condition": "Q3 trimmed mean prints at or above 3.8% year on year on 28 October, the RBA hikes to 4.85% on 3 November, and the Fed holds on 28 October",
+   "new_stance": "Tactical verdict turns Bullish",
+   "mechanism": "The differential would widen to 97.5bp while US real-yield momentum stalls, flipping Factor 2 tactical from its growth-momentum Bearish and removing the dollar-smile drag in Factor 10.",
+   "monitor_indicator": "Australian trimmed mean CPI and ASX-implied pricing for 3 November",
+   "monitor_frequency": "Once (28 October), then daily",
+   "probability_pct": 20
+  },
+  {
+   "condition": "AUD/USD closes below 0.6865 (the June 2026 low, beneath the seven-touch 0.68707–0.69198 zone) while the legacy CFTC short extends beyond −80,000 and the disaggregated leveraged-fund long falls below +35,000",
+   "new_stance": "Tactical verdict turns Bearish",
+   "mechanism": "Agreement between the two CFTC families would resolve Factor 4 against the pair, and the loss of the heaviest nearby support would open the 0.6784–0.6815 zone.",
+   "monitor_indicator": "AUD/USD daily close and Friday CFTC releases (legacy and disaggregated)",
+   "monitor_frequency": "Daily and weekly",
+   "probability_pct": 20
+  },
+  {
+   "condition": "Australian unemployment reaches 4.8% or more on 15 October or 19 November and 3 November hike pricing drops below 10%",
+   "new_stance": "Both horizons turn Bearish",
+   "mechanism": "The RBA's open option would close, removing Factors 1 and 6 as positives (0.31 of tactical and 0.36 of strategic weight).",
+   "monitor_indicator": "ABS labour force release and ASX-implied 3 November hike probability",
+   "monitor_frequency": "Monthly",
+   "probability_pct": 20
+  },
+  {
+   "condition": "The 9 December SEP raises the 2027 median dot to 4.4% or higher and the AU-US 2-year spread turns negative from about +20bp",
+   "new_stance": "Strategic verdict turns Bearish",
+   "mechanism": "A Fed extending its cycle while the RBA plateaus reverses the forward-path argument on which strategic Factor 1 rests.",
+   "monitor_indicator": "Fed SEP 2027 median dot and the AU-US 2-year yield spread",
+   "monitor_frequency": "Once (9 December), then daily",
+   "probability_pct": 15
+  },
+  {
+   "condition": "Iron ore holds above USD 110 a tonne for ten sessions after the December Central Economic Work Conference",
+   "new_stance": "Strategic verdict turns Bullish",
+   "mechanism": "Factor 5 strategic would move to Neutral and the score would rise from +0.0929 to about +0.186, restoring the commodity anchor under a 116 REER.",
+   "monitor_indicator": "Iron ore 62% Fe CFR China",
+   "monitor_frequency": "Daily",
+   "probability_pct": 15
+  },
+  {
+   "condition": "US high-yield spreads exceed 450bp and the AUD/USD one-month 25-delta risk reversal falls below −2.0",
+   "new_stance": "Both horizons turn Bearish",
+   "mechanism": "A left-side squeeze overrides rates, and the AUD's G10-highest risk beta with a carry-to-vol of 0.093 leaves no cushion.",
+   "monitor_indicator": "ICE BofA high-yield OAS and the CME AUD/USD option surface",
+   "monitor_frequency": "Daily",
+   "probability_pct": 10
+  }
+ ],
+ "signposts": [
+  {
+   "indicator": "ASX-implied probability of a 3 November RBA hike",
+   "current_level": "about 24.8% (2 October, ASX); other trackers put it near 33%",
+   "confirms_if": "It stays between 20% and 50% into 28 October (a balanced range)",
+   "invalidates_if": "It rises above 60% (Bullish break) or falls below 10% (Bearish break)",
+   "bilateral_importance": "This is the only unpriced upward driver for the pair. It matters more here than in AUD crosses because the US leg is hiking too, so the RBA option is the whole of the differential's upside.",
+   "source": "https://rbaratewatch.com/",
+   "frequency": "Continuous"
+  },
+  {
+   "indicator": "AU-US 2-year yield spread",
+   "current_level": "about +20bp (AU 4.98% vs US 4.78%, dossier cross-sections)",
+   "confirms_if": "It stays within 0 to +40bp",
+   "invalidates_if": "It rises above +40bp (Bullish) or falls below 0bp (Bearish)",
+   "bilateral_importance": "The front-end spread, not carry, is how the policy differential reaches this pair. External desks noted that the AU-US 2-year yield spread fell to a year-to-date low, leaving yields unfavourable for any meaningful AUD/USD rebound.",
+   "source": "https://www.federalreserve.gov/releases/h15/ and https://www.rba.gov.au/statistics/",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "AUD/USD 1-month 25-delta risk reversal",
+   "current_level": "−1.283% (36.7 days, CME, 2026-09-30)",
+   "confirms_if": "It stays between −0.9 and −1.6",
+   "invalidates_if": "It narrows above −0.9 (upside hedging returning) or falls below −1.6 (accelerating downside demand)",
+   "bilateral_importance": "AUD/USD is the only AUD pair with genuine listed option quotes, so this is the cleanest institutional read on downside demand for the pair.",
+   "source": "CME ADU options via the gated store; public commentary at https://www.forex.com/en-sg/news-and-analysis/australian-dollar-outlook-aud-usd-bears-to-face-near-term-reprieve-2026-10-05/",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "CFTC legacy AUD non-commercial net position",
+   "current_level": "−63.2K (release of 2 October) from −46.8K",
+   "confirms_if": "It stays between −40K and −80K with spot inside 0.6865–0.7111 (squeeze fuel balanced by trend)",
+   "invalidates_if": "It extends beyond −80K with spot below 0.6865 (Bearish), or covers above −35K with spot above 0.7030 (Bullish squeeze)",
+   "bilateral_importance": "The contract is the pair itself, so this is a direct read rather than a derivation from two legs.",
+   "source": "https://uk.investing.com/economic-calendar/------------1615",
+   "frequency": "Weekly (Friday)"
+  },
+  {
+   "indicator": "Iron ore 62% Fe CFR China",
+   "current_level": "USD 96.59 a tonne",
+   "confirms_if": "It trades in USD 90–105",
+   "invalidates_if": "It holds above USD 110 (Bullish) or below USD 85 (Bearish)",
+   "bilateral_importance": "Iron ore drives the AUD leg hardest with no offsetting exposure on the US leg, which is now a net energy exporter.",
+   "source": "https://tradingeconomics.com/commodity/iron-ore",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "Australian unemployment rate",
+   "current_level": "4.6% (August)",
+   "confirms_if": "It stays at 4.5–4.7%",
+   "invalidates_if": "It falls to 4.4% or below with full-time gains (Bullish), or reaches 4.8% or above (Bearish)",
+   "bilateral_importance": "This is the constraint on how long RBA guidance survives against a US labour market at 4.1%.",
+   "source": "https://www.abs.gov.au/media-centre/media-releases/unemployment-rate-rises-46-august",
+   "frequency": "Monthly (15 October, 19 November)"
+  }
+ ],
+ "assumptions": [
+  "Price series: the price payload delivered dataPoints = 130 weekday bars with dateRange '2026-04-06 to 2026-10-02'. spot = 0.69554 at spotDate 2026-10-02. Averages and zones are computed over computationRange '2007-12-24 to 2026-10-02 (4900 weekday bars)'. The payload's dataQuality lines: 'AUD/USD: only 2 resistance / 9 support zones met the 2-touch threshold — supplement with round numbers and note the shortfall' and 'AUD/USD: 4900 weekday bars in the store (2007-12-24 to 2026-10-02); 1007 weekly, 500 monthly; 130 daily bars passed downstream (2026-04-06 to 2026-10-02), which is the 1-6 month strategic horizon'.",
+  "Spot anchoring and the date gap: spotDate is one session after the 2026-10-01 valuation date. Every level, pip distance, percentage and target is anchored to 0.69554. Later web quotes, such as AUD/USD rising 0.37% to 0.6972 on 5 October, are noted but not used. The resistance shortfall flagged in the data-quality note is filled with round-number and 52-week-high reference levels, labelled as such and carrying no touch count.",
+  "Moving averages: all are simple averages of trading-day closes. The 200-week slope of +0.000278 a week is taken from the payload. The end-March projection of about 0.6730 is linear arithmetic (26 weeks × 0.000278 added to 0.66574), not a forecast.",
+  "The scored verdict: factor stances, confidences, evidence types, weights, rationales and both synthesis blocks are carried verbatim from pass 1, which scored them without price data. Pass-2 notes appended to Factor 4, Factor 9, the tactical synthesis and the consensus section are labelled and do not alter any score. Default weights are applied on both horizons.",
+  "Forward points: derived from the gated CME calendar roll premium (−56.2bp annualised, 6AV6 to 6AX6, observed 2026-09-30). By covered interest parity that figure bundles the interest differential with the cross-currency basis. No live dealer forward points were used.",
+  "Volatility: implied volatility, risk reversals and butterflies are the payload's CME values observed 2026-09-30. The '3M' figure is measured at 99.7 days, not 90. A one-year implied-vol percentile is not computable because the cached history begins 2026-08-21 (iv_percentile is therefore null). One-standard-deviation ranges use ATM implied scaled by the square root of tenor over 365.",
+  "Yields and differentials: the payload's 10-year yields are monthly vintages as of 2026-08-01 and are not quoted as live levels. Live spread references use the dossiers' late-September cross-sections. The AU-US 2-year spread of about +20bp combines the AUD dossier's 2-year of 4.98% and the USD dossier's 4.78%, from slightly different dates.",
+  "Positioning: the CFTC legacy figure of −63.2K comes from a calendar aggregator's 2 October release and has not been reconciled against the disaggregated file. The pass-1 contradiction between the legacy and disaggregated series remains unresolved.",
+  "Scenarios and expected values: scenario probabilities are this pass's own assessments and sum to 100% on each horizon. Expected values are stated for a long from 0.69554 and exclude transaction costs. Position-sizing figures are illustrative.",
+  "Market pricing for 3 November: estimates range from about 20% (base dossier) through 24.8% (ASX tracker) to 33% (Admiral Markets). No conclusion depends on resolving that range.",
+  "Data provenance: dossier data are referenced without re-citation. Citations 1–30 are pass-1 sources carried with the verbatim factors. Citations 31–46 were accessed during this pass.",
+  "Formatting note: the China Central Economic Work Conference catalyst is dated 2026-12-10 only as a placeholder within the second week of December, because the source gives no exact date. The dossier dates (base_dossier_date, quote_dossier_date) are set to the valuation date as the report gives no separate dossier dates. Strategic conviction-ladder 'decrease' conditions are split from a single source bullet to meet the minimum item count. Market-context 52-week range uses the intraday figures (closing range 0.64551–0.72584). Positioning percentiles use the Net Position Percentile (54.4) for AUD and the 44th percentile for the USD aggregate long."
+ ],
+ "complete_citations": [
+  {
+   "id": 1,
+   "title": "Statement by the Monetary Policy Board: Monetary Policy Decision, 29 September 2026",
+   "publisher": "Reserve Bank of Australia",
+   "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 2,
+   "title": "Media Conference: Monetary Policy Decision - Governor Michele Bullock, 29 September 2026",
+   "publisher": "Reserve Bank of Australia",
+   "url": "https://www.rba.gov.au/speeches/2026/mc-gov-2026-09-29.html",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 3,
+   "title": "RBA Rate Path & Model-Estimated Probabilities (ASX-implied, 2 October 2026)",
+   "publisher": "RBA Rate Watch",
+   "url": "https://rbaratewatch.com/",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 4,
+   "title": "RBA Monetary Policy Statement: Cash Rate Rises to 4.60% in September 2026",
+   "publisher": "Admiral Markets",
+   "url": "https://admiralmarkets.com/analytics/traders-blog/rba-monetary-policy-statement",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 5,
+   "title": "How RBA Interest Rate Decisions Work (ANZ November 4.85% forecast)",
+   "publisher": "Hudson Financial Planning",
+   "url": "https://hudsonfinancialplanning.com.au/resources/education-reports/how-rba-interest-rate-decisions-work/",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 6,
+   "title": "Why Speculative Investors Are Betting on RBA Rate Hike in November",
+   "publisher": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-08-14/fast-money-bets-on-november-rba-hike-in-fight-against-inflation",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 7,
+   "title": "Australian Dollar (AUD) Forecasts & Predictions 2026, 2027",
+   "publisher": "Exchange Rates UK",
+   "url": "https://www.exchangerates.org.uk/currency-forecasts/australian-dollar-forecast",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 8,
+   "title": "Australian Dollar to Dollar Forecast: AUD/USD quarterly consensus",
+   "publisher": "Exchange Rates UK",
+   "url": "https://www.exchangerates.org.uk/currency-forecasts/australian-dollar-to-us-dollar-forecast",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 9,
+   "title": "Australian Dollar: UBS Forecasts AUD/USD At 0.73 By This September",
+   "publisher": "Exchange Rates UK",
+   "url": "https://www.exchangerates.org.uk/news/46690/2026-08-02-australian-dollar-ubs-forecasts-aud-usd-at-0-73-by-this-september.html",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 10,
+   "title": "AUD to USD forecast FY2027: what the big banks predict (secondary aggregator, flagged)",
+   "publisher": "Travel Money Oz",
+   "url": "https://www.travelmoneyoz.com/tools/blog/AUD-to-USD-Forecast-for-FY2027-A-Travellers-Guide",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 11,
+   "title": "Federal Reserve issues FOMC statement, 16 September 2026",
+   "publisher": "Federal Reserve",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 12,
+   "title": "Summary of Economic Projections, 16 September 2026",
+   "publisher": "Federal Reserve",
+   "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 13,
+   "title": "Williams says the Fed has time; October rate hike odds fell below a coin flip",
+   "publisher": "24/7 Wall St",
+   "url": "https://247wallst.com/investing/2026/09/30/williams-says-the-fed-has-time-october-rate-hike-odds-fell-below-a-coin-flip/",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 14,
+   "title": "Personal Income and Outlays, August 2026",
+   "publisher": "U.S. Bureau of Economic Analysis",
+   "url": "https://bea.gov/news/2026/personal-income-and-outlays-august-2026",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 15,
+   "title": "GDP (Third Estimate), Corporate Profits, 2nd Quarter 2026",
+   "publisher": "U.S. Bureau of Economic Analysis",
+   "url": "https://bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 16,
+   "title": "U.S. International Transactions and Investment Position, 2nd Quarter 2026",
+   "publisher": "U.S. Bureau of Economic Analysis",
+   "url": "https://bea.gov/news/2026/us-international-transactions-and-investment-position-2nd-quarter-2026",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 17,
+   "title": "Balance of Payments and International Investment Position, Australia, June 2026",
+   "publisher": "Australian Bureau of Statistics",
+   "url": "https://www.abs.gov.au/statistics/economy/international-trade/balance-payments-and-international-investment-position-australia/latest-release",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 18,
+   "title": "Unemployment rate rises to 4.6% in August",
+   "publisher": "Australian Bureau of Statistics",
+   "url": "https://www.abs.gov.au/media-centre/media-releases/unemployment-rate-rises-46-august",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 19,
+   "title": "Conditions Negative, Confidence Partially Improves - NAB Quarterly Business Survey Q3 2026",
+   "publisher": "National Australia Bank",
+   "url": "https://www.nab.com.au/news/economy-markets/conditions-negative--confidence-partially-improves---nab-quarter",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 20,
+   "title": "Iron Ore - price, chart and historical data",
+   "publisher": "Trading Economics",
+   "url": "https://tradingeconomics.com/commodity/iron-ore",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 21,
+   "title": "Economic war: Is Iran losing its leverage over the Strait of Hormuz?",
+   "publisher": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/9/30/economic-war-is-iran-losing-its-leverage-over-the-strait-of-hormuz",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 22,
+   "title": "ICE BofA US High Yield Index Option-Adjusted Spread (BAMLH0A0HYM2)",
+   "publisher": "FRED",
+   "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 23,
+   "title": "IMF data brief: COFER 2026Q2",
+   "publisher": "International Monetary Fund",
+   "url": "https://data.imf.org/en/news/imf%20data%20brief%20september%2030",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 24,
+   "title": "COT on forex and commodities - week to 22 September 2026",
+   "publisher": "Saxo",
+   "url": "https://www.home.saxo/content/articles/commodities/cot-on-forex-and-commodities---week-to-22-september-2026-28092026",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 25,
+   "title": "Australian Dollar (AUD) IMM Futures Positions and Chart",
+   "publisher": "Titan FX Research",
+   "url": "https://research.titanfx.com/cftc/cot-aud",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 26,
+   "title": "The Budget and Economic Outlook: 2026 to 2036",
+   "publisher": "Congressional Budget Office",
+   "url": "https://www.cbo.gov/publication/62105",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 27,
+   "title": "Fitch affirms US at AA+, keeps outlook stable amid growth slowdown",
+   "publisher": "investingLive",
+   "url": "https://investinglive.com/news/fitch-affirms-us-at-aa-keeps-outlook-stable-amid-growth-slowdown/",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 28,
+   "title": "Trump signs government funding bill, avoiding a shutdown ahead of midterms",
+   "publisher": "Fox News",
+   "url": "https://www.foxnews.com/politics/trump-signs-government-funding-bill-avoiding-shutdown-ahead-midterms.amp",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 29,
+   "title": "Super funds lift FX hedging as uncertainty intensifies globally",
+   "publisher": "Super Review",
+   "url": "https://www.superreview.com.au/super-funds-lift-fx-hedging-as-uncertainty-intensifies-globally/",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 30,
+   "title": "H.4.1 Factors Affecting Reserve Balances (1 October 2026)",
+   "publisher": "Federal Reserve",
+   "url": "https://www.federalreserve.gov/releases/h41/current/",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 31,
+   "title": "AUD/USD Forecast October 2026: 0.69 Support in Focus",
+   "publisher": "DailyForex",
+   "url": "https://www.dailyforex.com/forex-technical-analysis/2026/09/audusd-monthly-forecast-october-2026/250242",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 32,
+   "title": "AUD/USD risks bigger breakdown below 0.7000 as RBA rate hike fails to lift aussie",
+   "publisher": "investingLive",
+   "url": "https://investinglive.com/forex/aud-usd-risks-bigger-breakdown-below-0-7000-as-rba-rate-hike-fails-to-lift-aussie/",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 33,
+   "title": "Australian Dollar cracks 0.70 as Bullock dulls RBA hike, CPI looms",
+   "publisher": "FXStreet",
+   "url": "https://www.fxstreet.com/news/australian-dollar-cracks-070-as-bullock-dulls-rba-hike-cpi-looms-202609292326",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 34,
+   "title": "Australian Dollar holds above 0.70 as RBA hike becomes a done deal",
+   "publisher": "FXStreet",
+   "url": "https://www.fxstreet.com/news/australian-dollar-holds-above-070-as-rba-hike-becomes-a-done-deal-202609282311",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 35,
+   "title": "Australian Dollar defies rising yields as AUD/USD closes in on 0.70",
+   "publisher": "FXStreet",
+   "url": "https://www.fxstreet.com/news/australian-dollar-defies-rising-yields-as-aud-usd-closes-in-on-070-202610052318",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 36,
+   "title": "COT report – September 25, 2026",
+   "publisher": "FXStreet",
+   "url": "https://www.fxstreet.com/analysis/cot-report-september-25-2026-202609270208",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 37,
+   "title": "Australian Dollar Price Forecast: Near-term outlook shifts to bearish",
+   "publisher": "FXStreet",
+   "url": "https://www.fxstreet.com/analysis/australian-dollar-price-forecast-near-term-outlook-shifts-to-bearish-202609301827",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 38,
+   "title": "CFTC AUD speculative net positions",
+   "publisher": "Investing.com",
+   "url": "https://uk.investing.com/economic-calendar/------------1615",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 39,
+   "title": "Australian Dollar Outlook: AUD/USD Bears to Face Near-Term Reprieve?",
+   "publisher": "FOREX.com",
+   "url": "https://www.forex.com/en-sg/news-and-analysis/australian-dollar-outlook-aud-usd-bears-to-face-near-term-reprieve-2026-10-05/",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 40,
+   "title": "All four major Australian banks now forecast RBA hike to 4.60% on September 29",
+   "publisher": "investingLive",
+   "url": "https://investinglive.com/central-banks/all-four-major-australian-banks-now-forecast-rba-hike-to-4-60-on-september-29/",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 41,
+   "title": "Australian consumer sentiment slumps after RBA hike as Westpac tips another in November",
+   "publisher": "investingLive",
+   "url": "https://investinglive.com/news/australian-consumer-sentiment-slumps-after-rba-hike-as-westpac-tips-another-in-november",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 42,
+   "title": "AUD/USD Q4 Outlook: RBA and Fed Hikes Set the Tone",
+   "publisher": "FOREX.com",
+   "url": "https://www.forex.com/en-us/news-and-analysis/aud-usd-q4-outlook-rba-and-fed-hikes-set-the-tone/",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 43,
+   "title": "Dollar to Australian Dollar Forecast: USD/AUD Expected to Reach 1.4001",
+   "publisher": "Exchange Rates UK",
+   "url": "https://www.exchangerates.org.uk/currency-forecasts/us-dollar-to-australian-dollar-forecast",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 44,
+   "title": "AUD/USD 2026 Outlook: Policy Divergence and a Shifting Dollar Trend",
+   "publisher": "FOREX.com",
+   "url": "https://www.forex.com/en-us/news-and-analysis/aud-usd-2026-outlook-policy-divergence-and-a-shifting-dollar-trend/",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 45,
+   "title": "AUD/USD Eyes 0.7025 as Rebound Evidence Fails Before the RBA",
+   "publisher": "FX Empire",
+   "url": "https://www.fxempire.com/forecasts/article/premium-aud-usd-eyes-0-7025-as-rebound-evidence-fails-before-the-rba-1632677",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 46,
+   "title": "Australian Dollar Outlook: AUD/USD Retraces Ahead of Jobs, Trump–Xi Summit",
+   "publisher": "StoneX",
+   "url": "https://www.stonex.com/en-gb/news-and-analysis/australian-dollar-outlook-aud-usd-retraces-ahead-of-jobs-trump-xi-summit-2026-09-20/",
+   "date_accessed": "2026-10-06"
+  }
+ ]
+}

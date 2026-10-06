@@ -1,0 +1,1719 @@
+{
+ "$schema": "pair_analysis_v2.0",
+ "metadata": {
+  "pair": "EURUSD",
+  "base_currency": "EUR",
+  "quote_currency": "USD",
+  "valuation_date": "2026-10-01",
+  "framework_version": "2.0",
+  "base_dossier_date": "2026-10-01",
+  "quote_dossier_date": "2026-10-01"
+ },
+ "pair_convention": {
+  "spot_reference": "EUR/USD 1.12521 (gated store close, spotDate 2026-10-02)",
+  "spot_explanation": "EUR/USD at 1.12521 means 1 EUR = 1.12521 USD. Rising = EUR strengthening vs USD. Falling = USD strengthening vs EUR.",
+  "bullish_means": "pair RISES (EUR strengthens vs USD)",
+  "bearish_means": "pair FALLS (EUR weakens vs USD)",
+  "base_dossier_tactical_stance": "Bearish EUR tactically, conviction 3, net score −0.2651 (Bearish strategically at −0.2700)",
+  "quote_dossier_tactical_stance": "Bullish USD tactically, conviction 3, net score +0.3782 (Bearish USD strategically at −0.1822, conviction 2)"
+ },
+ "executive_summary": "EUR/USD closed at 1.12521 on 2026-10-02 in the gated price store. The quote is US dollars per euro, so a rising rate means a stronger euro. That close is one session after the 2026-10-01 valuation date, and it sits at the 1st percentile of the pair's 52-week closing range of 1.12428–1.19773. The pair is down 3.21% over one month, 1.40% over three months, 3.82% over six months and 3.37% over twelve months. Spot is 275 pips below the 50-day simple moving average (1.15269) and 357 pips below the 200-day (1.16091), but only 155 pips above a 200-week average (1.10973) that is still rising by 8.0 pips a week. The main bilateral story is that the two dossiers reinforce each other rather than cancel. The Fed's 12-0 hike to 3.75–4.00% met an ECB whose October hike has been priced out, which leaves a −137.5bp policy gap, a UST-Bund spread of about 166–172bp and a futures roll that pays a short position 149.2bp a year. The same energy shock taxes the euro area as the G10's largest net energy importer and pays the United States as a net exporter. The edge that only shows up bilaterally is that the dollar dossier's own strategic bearishness (twin deficits, reserve diversification) nets to Neutral in this pair, while the euro area's energy, guidance and French-fiscal problems do not. The verdict is settled: Bearish tactically (net score −0.3549, conviction 3, confidence 62) and Bearish strategically (−0.2120, conviction 2, confidence 52). Since the payload closed, reports that Spain's government was preparing an early election pushed EUR/USD to its lowest since May 2025, and hedge-fund selling in Asia set off option barriers that deepened the fall, with an intraday low of 1.1161 during today's Asian session, below 1.1200 and at a new 16-month low. That supports the event and fiscal factors. It arrived alongside softer US jobs data that cut October Fed hike odds, which is the strongest evidence against tactical Factor 1 since pass 1 was scored. The caveat is that spot sits only 29 pips above a four-touch support band and speculative euro shorts are at a three-year extreme. Selling at spot is therefore a poor entry. The preferred tactical expression is to sell a retest of 1.1300–1.1340 with a stop above 1.1430 and a target of 1.1100.",
+ "market_context": {
+  "spot": 1.12521,
+  "performance_1m": "-3.21%",
+  "performance_3m": "-1.40%",
+  "performance_6m": "-3.82%",
+  "performance_1y": "-3.37%",
+  "range_52w_low": 1.12159,
+  "range_52w_high": 1.20656,
+  "range_52w_percentile": 4,
+  "valuation_assessment": "On the BIS broad real measure both dossiers find the euro modestly cheap against the dollar. The euro's REER is 103.34 and the dollar's 106.70, a REER-relative gap of 3.15%. Closing that gap from today's spot would imply EUR/USD near 1.1618, or 3.25% above spot. CaixaBank's separate read, carried in the euro dossier, puts the real deviation at −1.85% against a ten-year average of −0.45%. This is a structural argument against chasing the pair much lower over several years. It is not tactical: a 3% real gap is a fraction of the 10–15% undervaluation that has historically forced valuation-driven reversals. The market is pricing rate and terms-of-trade differentials, not fair value. The practical implication is that a strategic target well below the 1.10243–1.10682 five-touch zone needs a fundamental break, not just momentum. (Intraday 52-week range 1.12159–1.20656, spot at the 4th percentile; closing range 1.12428–1.19773, spot at the 1st percentile; spot is 9 pips above the lowest close of the past year and 725 pips below the highest.)",
+  "positioning": {
+   "base_cftc_net": "Legacy non-commercial net short −63,256 contracts (29 September report, −10,922 on the week, COT index 5, three-year extreme); −52,334 at the 2026-09-22 report after a 25,341-contract increase; leveraged funds −26,694, asset managers +216,483",
+   "base_cftc_percentile": 6,
+   "quote_cftc_net": "No CFTC futures series for the dollar leg; IMM aggregate speculative USD long against G10 rebuilt by USD 12.5bn to USD 18.4bn in the week to 2026-09-22 (fastest weekly build in seven years); combined leveraged-plus-asset-manager dollar book at the 44th percentile of its 25-week range",
+   "quote_cftc_percentile": 44,
+   "net_pair_implication": "For the pair, this means fast money is crowded short EUR/USD on the euro leg but not crowded long dollars on the quote leg. The squeeze risk sits mainly in the euro futures book. That is why the tactical Factor 4 contrarian Bullish score carries more force now than when it was scored.",
+   "crowding_assessment": "Crowded short EUR/USD on the euro leg (speculative euro shorts at a three-year extreme, roughly the 6th–8th percentile); dollar leg not crowded long (44th percentile) — squeeze risk concentrated in the euro futures book"
+  },
+  "pair_technicals": {
+   "trend_regime": "trending_down",
+   "support_levels": [
+    1.11698,
+    1.10973,
+    1.10243,
+    1.06442
+   ],
+   "resistance_levels": [
+    1.13902,
+    1.15125,
+    1.16761
+   ],
+   "key_moving_averages": "Simple averages of trading-day closes over the full 4,716-bar store: 50-day 1.15269 (spot 275 pips / 2.38% below), 100-day 1.15132 (261 pips / 2.27% below), 200-day 1.16091 (357 pips / 3.08% below). The 50-day sits 14 pips above the 100-day but 82 pips below the 200-day (death-cross configuration, faster averages bunched). 200-week SMA 1.10973, 155 pips (1.39%) below spot, rising +0.000804 (8.0 pips) a week; latest weekly close above it.",
+   "chart_pattern": "Strict sequence of lower highs and lower lows over the last 30 sessions (highs 1.17109 on 08-20 to 1.12861 on 10-02; lows 1.15667 on 09-02 to 1.12159 on 10-01). Commentary reads a rounded top on the weekly chart, 1.1310 as the lower boundary of a long-term descending channel, and a break of the daily down-channel support trendline from April with 1.1100 as the next objective. Spot is converging on a rising 200-week average; the 10-01 session (121-pip range, 87-pip fall) was the largest of the decline, followed by an inside day on 10-02. ATR(14) 0.00569 (57 pips).",
+   "psychological_levels": [
+    1.13,
+    1.12,
+    1.11,
+    1.1,
+    1.161
+   ]
+  },
+  "pair_volatility": {
+   "iv_1m": 6.31,
+   "iv_3m": 6.099,
+   "iv_percentile": null,
+   "rv_1m": 4.17,
+   "rv_vs_iv": "Variance risk premium is +2.14 vols at one month (6.31 against 20-day realised 4.17), +1.47 vols at three months and +1.68 vols at six months (both against 60-day realised 4.63). Options are expensive relative to delivered movement at every tenor; the most expensive relative to realised is the one-month put wing. No one-year IV percentile exists in the gated store, so none is asserted (the euro dossier's estimate of about 70 and the dollar dossier's placeholder of 50 are both unpublished).",
+   "risk_reversals": "25-delta risk reversals −0.841 (1M) / −0.655 (3M) / −0.688 (6M) vols; butterflies 0.125 / 0.194 / 0.243. EUR/USD downside is bid along the whole curve and tail pricing rises with tenor. Dealer demand concentrated in lower-strike options between 1.1300–1.1200 at near expiries; a break of 1.1300 barriers could make the market short gamma.",
+   "vol_term_structure": "Gated CME ATM surface observed 2026-09-30: 6.31% at 36.7 days, 6.099% at 99.7 days, 6.309% at 190.6 days — flat with a 0.21-vol front-end hump for the 2026-10-28/29 central-bank decisions. The 3M tenor, which spans four dated events (French vote 2026-11-17, FOMC 2026-12-09, US funding deadline 2026-12-11, ECB 2026-12-17), is the cheapest point on the curve.",
+   "vol_regime": "Low-to-mid volatility trend with a front-end event premium; not a stressed market. Realised volatility 4.17% (20d) and 4.63% (60d), annualised on 252 days."
+  },
+  "recent_regime": "Since the 2026-08-20 high of 1.17109 the pair has fallen in an orderly staircase of about 460 pips, with the 2026-09-16 Fed hike (−78 pips on the day) and the 2026-10-01 session (−87 pips, 121-pip range) as the two largest legs. The narrative is a rates-and-energy squeeze on the euro. The Fed is live and credible while the ECB signals a measured pause, and Brent near USD 103 with TTF at EUR 72.90/MWh drains the euro area's terms of trade. Realised volatility has stayed near 4%, so the move is a grind rather than a capitulation. That fits a market in which systematic trend capital is short and the main near-term risk is a positioning snap-back rather than a disorderly gap.",
+  "citations": [
+   "https://www.dailyforex.com/forex-technical-analysis/2026/09/eurusd-monthly-forecast-october-2026/250245",
+   "https://www.dailyforex.com/forex-technical-analysis/2026/10/weekly-pairs-in-focus-from-5th-to-9th-october-2026/250337",
+   "https://roboforex.com/beginners/analytics/forex-forecast/currencies/eur-usd-forecast-2026-10-02/",
+   "https://www.exchangerates.org.uk/currency-forecasts/euro-to-dollar-forecast",
+   "https://www.efxdata.com/insights/633ca6b5248b567fb0f00d519fb796d2.html",
+   "https://bitcoinethereumnews.com/finance/euro-eur-usd-risk-reversal-long-setup-td-securities/",
+   "https://fxstreet.com/news/the-euro-breaks-to-a-fresh-low-then-bounces-as-spain-calls-a-snap-vote-202610052228",
+   "https://fxstreet.com/news/euro-softens-below-11250-on-frances-fiscal-risk-202610050043",
+   "https://www.dailyforex.com/forex-news/2026/10/forex-today-5-october-2026/250348",
+   "https://www.tradingview.com/news/tradingview:e110ad232094b:0-eur-usd-euro-tests-16-month-low-at-1-1310-as-descending-channel-provides-support/",
+   "https://actionforex.com/contributors/technical-analysis/656498-eurusd-wave-analysis-85",
+   "https://www.investing.com/currencies/eur-usd-technical",
+   "https://fxbankforecast.com/reports/goldman/currencies/eur",
+   "https://www.exchangerates.org.uk/news/47242/2026-09-22-euro-to-dollar-forecast-ing-and-goldman-split-over-usd-strength.html",
+   "https://www.exchangerates.org.uk/news/46433/2026-07-07-euro-forecast-2026-goldman-sachs-lowers-eur-targets-to-1-12-as-usd-weakness-fades.html",
+   "https://bestexchangerates.com/forecasts/eur-to-usd-forecast/",
+   "https://www.business-standard.com/markets/capital-market-news/euro-currency-speculators-increase-net-short-position-126092800950_1.html",
+   "https://www.fxstreet.com/analysis/cftc-report-defensive-currency-positioning-takes-hold-202609261506",
+   "https://fxtribune.com/news/cftc-cot-report-speculators-cut-canadian-dollar-net-shorts-by-25-461-contracts-in-week-to-29-september/",
+   "https://www.investing.com/economic-calendar/cftc-eur-speculative-positions-1611"
+  ]
+ },
+ "bilateral_carry_analysis": {
+  "base_policy_rate": 2.5,
+  "quote_policy_rate": 3.875,
+  "rate_differential_bps": -137.5,
+  "annualised_carry_bps": -149.2,
+  "pair_3m_iv": 6.099,
+  "pair_3m_iv_source": "Gated CME at-the-money surface observed 2026-09-30 (CME settlements; 99.7-day tenor); no triangle estimate",
+  "carry_to_vol_ratio": -0.245,
+  "carry_regime": "negative carry for a long EUR/USD position; carry works for a short but is a cushion, not a carry trade (137.5bp is below the framework's 200bp high-carry threshold)",
+  "breakeven_move": "A long needs about +0.12% a month, or +0.37% over three months, just to cover the roll (about +13.8 pips a month, roughly 24% of one normal day with ATR 57 pips); a short has that much cushion before the differential is erased. Against 6.099% three-month IV the three-month breakeven is roughly 0.12 of a standard deviation.",
+  "forward_points": {
+   "1m": "+13.8 pips (30d), outright 1.12659 — EUR at a forward premium; derived from the 149.2bp roll by linear extrapolation, not quoted",
+   "3m": "+41.9 pips (91d), outright 1.12940 — derived, not quoted",
+   "6m": "+83.7 pips (182d), outright 1.13358 — derived, not quoted"
+  },
+  "carry_assessment": "Annualised carry is −149.2bp for a long EUR/USD position and +149.2bp for a short. This is the CME 6E calendar-spread roll (18.6 to 46.7 days, observed 2026-09-30), which equals the interest differential plus the cross-currency basis. The policy differential alone is −137.5bp (ECB deposit 2.50% vs Fed midpoint 3.875%), which implies a basis near −12bp. Carry-to-vol is 0.245 for a short (149.2bp ÷ 6.099% three-month ATM IV); 0.225 on the policy differential alone; 0.36 against 20-day realised volatility of 4.17%. Carry works for a short but is a cushion, not a carry trade: at 137.5bp the pair is below the framework's 200bp high-carry threshold. Forwards trade above spot because the euro is the lower-yielding leg, so a forward short is struck at a better level than spot."
+ },
+ "factors": [
+  {
+   "factor_number": 1,
+   "factor_name": "Policy & Rates (Relative)",
+   "tactical_weight_default": 0.24,
+   "tactical_weight_applied": 0.24,
+   "strategic_weight_default": 0.24,
+   "strategic_weight_applied": 0.24,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 60,
+    "evidence_type": [
+     "rates",
+     "policy_comms"
+    ],
+    "bilateral_analysis": "The gated rate block puts the ECB deposit facility at 2.50% against a Fed midpoint of 3.875%, a policy differential of -137.5bp against the euro, and the payload's own ten-year differential of -1.50 points, though both legs of that yield pair are monthly August observations and are not quotable as live levels. On live prints the gap is wider still: the German ten-year is near 3.52-3.58% against a US ten-year of 5.24%, so the UST-Bund spread is roughly 166-172bp, having widened as the US ten-year rose about 45-51bp over the month while the Bund rose roughly 26bp. The direction of travel is the decisive bilateral fact rather than the level. The Federal Reserve hiked 25bp on 2026-09-16 by a unanimous 12-0 vote, with Barr and Williams both flagging a further move, while the market-implied probability of a back-to-back ECB hike on 2026-10-29 collapsed from roughly 50% to under 30% across the second half of September. Carry is on the same side: the futures roll premium of 149.2bp annualised means a long EUR/USD position pays away roughly 1.49% a year and a short position is paid it, against a three-month ATM implied volatility of 6.099%, for a carry-to-vol ratio of about 0.245 in favour of the short. The dated anchor for the tactical window is the scheduled sequencing in the gated calendar: the FOMC decides on 2026-10-28, one day before the Governing Council on 2026-10-29, so a hawkish hold from the Fed lands before the ECB has any opportunity to answer, and the ECB is the meeting the market now expects to pass. Pass-2 observation: Information released after the payload works partly against this factor. After the 2026-10-02 payrolls, one desk noted that the likelihood of a Federal Reserve rate hike in October fell to 26.0% from 68.6% a week earlier, and another report described traders reduce their bets of Fed rate hike in October following weaker US jobs data. The verdict's base case was already an October hold, so the sequencing argument survives, but the dollar-leg momentum behind the tactical Bearish reading has weakened. The test is whether US CPI on 2026-10-14 restores December hike odds above 60%. Bilateral carry is covered in the Bilateral Carry Analysis section above.",
+    "key_bilateral_metrics": [
+     "Policy differential -137.5bp (ECB deposit 2.50% as of 2026-09-29 versus Fed midpoint 3.875% as of 2026-09-28, gated payload)",
+     "UST-Bund ten-year spread approximately 166-172bp on live prints; payload monthly ten-year differential -1.50 points as of 2026-08-01",
+     "Futures roll premium +149.2bp annualised (CME calendar spread, 18.6 to 46.7 days, observed 2026-09-30) = interest differential plus cross-currency basis, implying a basis near -12bp",
+     "Carry-to-vol for a short EUR/USD position 0.245 (149.2bp against 6.099% three-month ATM implied volatility)",
+     "ECB 2026-10-29 hike probability under 30%; German two-year Schatz 3.20% against a 2.50% deposit rate implies roughly 70bp of further ECB tightening"
+    ],
+    "what_is_priced": "The market prices roughly one more Fed hike by the 2026-12-09 SEP meeting, consistent with the September median dot of 4.1%, and under 30% for an ECB move on 2026-10-29 despite about 70bp of ECB tightening sitting in the two-year Schatz. Our expectation is that both legs hold on 28-29 October, so the differential stays near 137.5bp through the tactical window rather than compressing, and the adverse one-day sequencing is not in the price.",
+    "citations": [
+     21,
+     23,
+     28,
+     29,
+     31,
+     32,
+     36
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 55,
+    "evidence_type": [
+     "rates",
+     "policy_comms"
+    ],
+    "bilateral_analysis": "Over one to six months the differential's direction inverts and the factor genuinely neutralises. The September Summary of Economic Projections puts the median fed funds rate at 4.1% for both end-2026 and end-2027, which is one more hike and then a flat year, with PCE inflation projected to fall from 3.7% in 2026 to 2.3% in 2027. The German curve, by contrast, carries roughly 70bp of further ECB tightening off a 3.20% two-year Schatz. If both are delivered the -137.5bp gap compresses toward about -92bp, which is mechanically EUR/USD-positive on the historical UST-Bund beta. The offsetting risk, and the reason this is not Bullish for the pair, is ECB delivery: CaixaBank expects two further hikes against roughly three priced, MUFG's base case is that the cycle is already complete, and the Governing Council has described its own response as measured and declined to pre-commit. France also caps the terminal rate in a way the Schatz does not reflect, with the ten-year OAT near 4.74% and OAT-Bund at 111.2bp. The dated anchors are the 2026-12-09 FOMC with its SEP, where a higher 2027 dot would break the stalemate against the pair, and the 2026-12-17 Governing Council with projections, which is the likeliest venue for the single ECB hike we expect against the roughly 2.8 the curve carries. A thesis of compression that does not name those two decisions has no scheduled way of being proved wrong, and on balance the expected compression is real but smaller than priced.",
+    "key_bilateral_metrics": [
+     "Fed SEP medians 4.1% for end-2026 and end-2027, 3.9% for 2028, 3.2% longer run — one hike then a plateau",
+     "Roughly 70bp of ECB tightening priced in the 3.20% two-year Schatz against a 2.50% deposit rate",
+     "Differential compresses from -137.5bp toward about -92bp if both curves deliver as priced; toward -112.5bp if only the Fed delivers",
+     "French ten-year OAT 4.74% with OAT-Bund 111.2bp as a constraint on the ECB terminal rate not embedded in the Schatz",
+     "Gated decision dates: FOMC 2026-12-09 with SEP; ECB 2026-12-17 with projections — the two events that resolve the compression"
+    ],
+    "what_is_priced": "The curve prices net differential compression of roughly 45bp over the horizon, which on the historical UST-Bund relationship would be worth around 2% to EUR/USD. We expect the compression to happen but to under-deliver against pricing, because the ECB's own rhetoric is a measured response and France limits the terminal rate, leaving the heaviest factor a wash rather than an edge.",
+    "citations": [
+     21,
+     22,
+     26,
+     30,
+     32,
+     44
+    ]
+   },
+   "horizon_split": "The stances differ because the horizons weight different segments of the same two curves. Tactically what matters is the last four weeks of repricing and the 28-29 October sequencing, both euro-negative: the Fed hiked unanimously and stays live into December while the October ECB move was priced out from roughly 50% to under 30%. Strategically what matters is the terminal-rate comparison, where a Fed median flat at 4.1% through 2027 meets a Schatz carrying 70bp more ECB tightening, so the differential compresses and the factor flattens to Neutral. Confidence falls from 60 to 55 because ECB delivery against roughly 2.8 priced hikes is the single largest open question in either dossier.",
+   "carry_analysis": {
+    "reference": "bilateral_carry_analysis",
+    "annualised_carry_bps": -149.2,
+    "carry_regime": "negative carry for a long; works for a short as a cushion, not a carry trade",
+    "pass1_verbatim": "Carry basis: Futures roll premium of 149.2bp annualised from the gated store (CME 6E calendar spread, 18.6 to 46.7 days, observed 2026-09-30). By covered interest parity this is the interest differential plus the cross-currency basis and cannot be decomposed without an OIS curve; the policy differential alone is -137.5bp, implying a basis near -12bp. It is not reported as a policy-rate differential. Carry regime: Carry is working for a short EUR/USD position and against a long one, but it is small relative to the pair's volatility budget: a ratio of roughly 0.22-0.25 is a modest cushion, not a carry trade. At 137.5bp the pair sits well below the 200bp threshold the framework treats as a high-carry pair, which is why Factor 1's weight was left at its default rather than boosted. The practical consequence is that carry does not finance a wrong directional call here: roughly 12bp a month of roll is consumed by a single session of normal range, so this is a rates-momentum factor rather than a carry factor. Breakeven: A long EUR/USD position must appreciate roughly 0.12% a month, or about 0.37% over three months, simply to cover the roll; a short position has that much cushion before the differential is erased. Expressed against the three-month implied volatility of 6.099%, the three-month breakeven is roughly 0.12 of a standard deviation, which is immaterial."
+   },
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 2,
+   "factor_name": "Inflation & Growth Dynamics",
+   "tactical_weight_default": 0.18,
+   "tactical_weight_applied": 0.18,
+   "strategic_weight_default": 0.1,
+   "strategic_weight_applied": 0.1,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": "macro_data",
+    "bilateral_analysis": "The two economies are producing symmetrical surprises in opposite components, and the bilateral differential is genuinely offsetting over four weeks. On inflation the euro area is accelerating and the United States is not: euro-area HICP was confirmed at 3.2% year on year for August from 2.9% in July, with September national prints at Italy 4.1%, Spain 5.0%, France 3.4% and Germany 3.3% taking the euro-area flash tracking estimate to roughly 3.8%, while US headline CPI held at 3.4% and core CPI was 2.4% with core PCE easing to 3.0% from 3.3%. That relative inflation impulse is EUR/USD-positive through the policy-reaction channel. On activity the ordering reverses on a year-on-year basis: US GDP is 2.1% against 1.2% for the euro area, US unemployment is 4.1% against 6.4%, payrolls rose 162,000 in August against a 55,000 consensus with 55,000 of upward revisions, and Q2 GDP was revised up to 2.2% annualised. But the quarterly comparison is closer than the annual: euro-area Q2 GDP was +0.6% quarter on quarter against a de-annualised US +0.54%, and the euro-area September flash composite PMI printed 53.1 against 51.7 expected, a 41-month high, with German services jumping to 52.9 from 49.7. The transmission that matters is which economy's data forces its central bank to move, and here the asymmetry cancels: euro-area core HICP has FALLEN to 2.4% and negotiated wages decelerated to 3.0%, so the ECB has told the market it will not respond, while US core measures are easing toward the Fed's own projection. Neither side's October data flow has a clear claim on the pair. Pass-2 observation: The September euro-area flash has since been characterised as showing core rising from 2.2% in January to 2.5% y/y in September. That is 0.1pp above August but still below the 2.6% pass-1 threshold for a pair-positive repricing, so the Neutral reading is unchanged.",
+    "key_bilateral_metrics": [
+     "Headline inflation differential: euro area 3.2% (August, final) with a September flash tracked near 3.8% against US CPI 3.4% — the gap is closing in the euro's favour",
+     "Core differential: euro-area core HICP 2.4% and falling against US core PCE 3.0% and core CPI 2.4%",
+     "Growth differential 0.9pp year on year (US 2.1% versus euro area 1.2%); quarterly 0.54% versus 0.60% in the euro area's favour",
+     "Labour market gap: US unemployment 4.1% and payrolls +162,000 in August against euro-area unemployment 6.4%",
+     "Euro-area September flash composite PMI 53.1 (41-month high) against 51.7 expected; US ISM manufacturing 54.5 and flash composite 58.4"
+    ],
+    "what_is_priced": "The front end of each curve prices the euro-area inflation overshoot as temporary and the US expansion as durable, which is roughly what we expect too. The bilateral surprise that would move the pair is a euro-area core print at or above 2.6% alongside a US core CPI at or below 0.1% month on month; nothing in the September national detail or the US core PCE path points that way, so the factor carries no tactical edge.",
+    "citations": [
+     24,
+     33,
+     34,
+     29,
+     39
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 50,
+    "evidence_type": "macro_data",
+    "bilateral_analysis": "Over one to six months the inflation differential mechanically closes while the growth differential does not, and that asymmetry is mildly EUR/USD-negative. The euro area's overshoot is almost entirely imported energy — energy contributed 1.29 of the 3.2 points in August while core fell to 2.4% and negotiated wages decelerated to 3.0% — which is a real-income tax on a net energy importer rather than a demand impulse, and it rolls off through 2027 as the base effect fades. The growth gap is structural rather than cyclical: the ECB's own September projections put euro-area GDP at 0.9% for 2026 and 1.4% for 2027, against the Fed's 2.3% and 2.4% for the United States, so the US-exceptionalism channel the framework identifies for this pair stays open at roughly a point and a half of annual growth. US household strain is real — the saving rate is 4.1%, confidence fell to 81.9 against an 89.2 forecast, GDPNow has fallen from 5.1% to 3.7% — but the euro-area consumer is in worse shape, with German GfK at -30.6 against -27.1 expected, euro-area consumer confidence at -16.5 and the ZEW missing badly at 25.8 against 39.2. The dated anchor is the 2026-12-17 ECB projection round, which must mark a EUR 51.0/MWh gas technical assumption to a market trading 43% higher, producing an upward near-term inflation revision and a downward real-income revision simultaneously. That stagflationary mix is a worse configuration for the pair than the market's single-signal read of hot inflation as hawkish.",
+    "key_bilateral_metrics": [
+     "ECB projections GDP 0.9% / 1.4% for 2026-27 against Fed projections 2.3% / 2.4% — a gap of roughly 1.4pp in 2026",
+     "Euro-area core HICP 2.4% and falling with negotiated wages 3.0% from 3.4% — the second-round mechanism is absent",
+     "Energy contributed 1.29pp of the euro area's 3.2% August HICP; TTF at EUR 72.90/MWh is 43% above the ECB's EUR 51.0/MWh assumption",
+     "US core PCE projected to fall from 3.4% in 2026 to 2.5% in 2027 on the Fed's own SEP, removing the US inflation premium too",
+     "Euro-area ZEW 25.8 versus 39.2 expected and German GfK -30.6 versus -27.1 — the demand side of the energy tax is already visible"
+    ],
+    "what_is_priced": "The market prices the euro-area overshoot as temporary and the growth upgrade as durable, the combination that supports a 1.16-1.20 consensus. We agree the overshoot is temporary and disagree that it is benign, because the gas assumption has to be marked up on 2026-12-17 while real incomes are marked down, and the growth gap is not priced as persistent.",
+    "citations": [
+     22,
+     24,
+     32,
+     45
+    ]
+   },
+   "horizon_split": "Tactically the two surprise streams cancel: the euro area is beating on inflation and matching on quarterly activity, the United States is beating on the labour market and easing on core, so the honest stance is Neutral. Strategically the inflation convergence is mechanical — the euro-area energy base effect rolls off and US core PCE is projected down to 2.5% — while the 1.4pp growth gap in the ECB's and the Fed's own 2026 projections does not converge, so the residual differential is EUR/USD-negative. The weight also falls from 0.18 to 0.10, so the strategic Bearish reading contributes less than a correct tactical call would have.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 3,
+   "factor_name": "Risk Appetite & Sentiment",
+   "tactical_weight_default": 0.1,
+   "tactical_weight_applied": 0.07,
+   "strategic_weight_default": 0.05,
+   "strategic_weight_applied": 0.03,
+   "weight_adjustment_reason": "Adjusted from defaults of 0.10 and 0.05: EUR/USD is classified by the framework as a low risk-sensitivity pair: neither leg is a pure risk proxy, the euro is the anti-dollar rather than a haven, and the measured dollar beta to equities is only -0.14. Weight reduced 0.03 tactically and 0.02 strategically and reallocated to the two factors that genuinely amplify for this pair, Event Risk and External Balance.",
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 56,
+    "evidence_type": "cross_asset",
+    "bilateral_analysis": "This is not a risk-on or risk-off pair in the AUD/JPY sense, but the specific hybrid regime in place is the single worst available configuration for the euro leg and the best for the dollar leg. Equity volatility is low and unbothered — the VIX closed near 16.1-16.4, the 34th percentile of its one-year range, with the S&P 500 up about 12% year to date — while credit has already repriced: the ICE BofA US high-yield spread widened 59bp on the month to 324bp, the 98th percentile of its one-year range, and investment grade sits at 86bp at the 94th percentile. Bond yields are surging and oil is up sharply, with Brent near USD 103 after an 18.5% monthly rise and the US thirty-year at its highest since 2002. For the pair this is doubly adverse. Rising energy prices are a direct terms-of-trade tax on the euro area as the G10's largest net energy importer, while the United States is a net energy exporter with WTI up 49.6% year on year. Rising global real yields pull capital toward the dollar rather than into the anti-dollar trade, and the measured sixty-session correlations confirm the mechanism is intact rather than broken: the dollar's correlation with the ten-year yield change is +0.32 and with gold -0.53, and gold fell roughly 4.8-6.0% on the month, so this is a real-yield story and not a classical flight to safety. Euro-cross behaviour corroborates the diagnosis without reference to this pair's own tape: the euro gained on the zero-yielding franc and lost 3.86% to the normalising yen over the month, which is a rate-driven rather than a risk-driven pattern.",
+    "key_bilateral_metrics": [
+     "ICE BofA US high-yield OAS 324bp, +59bp on the month, 98th percentile of one year; investment grade 86bp at the 94th percentile",
+     "VIX 16.1-16.4, 34th percentile of one year — equity volatility prices no event while credit prices a rate shock",
+     "Brent near USD 103 (+18.5% on the month) against the euro area as the G10's largest net energy importer and the US as a net exporter (WTI +49.6% year on year)",
+     "Dollar sixty-day correlations: +0.32 to the ten-year yield change, -0.53 to gold, -0.31 to the S&P 500 (beta -0.14)",
+     "Gold down roughly 4.8-6.0% on the month — no classical haven bid, which isolates the real-yield channel"
+    ],
+    "what_is_priced": "With the VIX in the bottom third of its range the options market prices no risk event at all, while high-yield has already widened 59bp and oil 18.5%. That divergence is the mispricing, and for this pair the implication is that the current configuration is already EUR/USD-adverse with no risk premium embedded, so a volatility event from here is incremental downside rather than something the euro is being compensated for.",
+    "citations": [
+     40,
+     41,
+     35,
+     45
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": [
+     "cross_asset",
+     "geopolitics"
+    ],
+    "bilateral_analysis": "Strategically the factor becomes a two-sided bet on the same variable and the weight is only 0.03, so it carries almost nothing. The route into a EUR/USD-positive regime is concrete: a genuine Iran settlement with the Strait of Hormuz reopened would take Brent back toward the ECB's own USD 89.5 technical assumption and TTF toward EUR 51.0/MWh, which is simultaneously disinflationary and pro-growth for the euro area, removes the US terms-of-trade gain, and slides the dollar down the right-hand side of its smile toward the goldilocks trough where the euro, at 57.6% of the dollar index, captures the largest single share of the move. Tehran has put a seven-day reopening on the table conditional on the United States lifting its naval blockade and crude flows through Hormuz have already recovered to roughly 80% of pre-war levels, so the precondition is partly met. The route the other way is equally concrete: renewed closure, or a credit episode that widens high-yield beyond 450bp, would push the dollar to the left side of the smile where it wins regardless of rates, and the euro is neither the haven nor the beneficiary in that state. Our own branch probabilities — roughly 25% settlement, 20% escalation, 55% stalemate over six months — produce a distribution whose dispersion is far wider than its mean. The honest stance is Neutral rather than a forced direction.",
+    "key_bilateral_metrics": [
+     "Six-month branch estimates: Gulf settlement 25%, renewed escalation 20%, stalemate 55% — the two tails move the pair in opposite directions",
+     "Brent near USD 103 against the ECB's USD 89.5/bbl technical assumption for 2026; TTF EUR 72.90/MWh against EUR 51.0/MWh",
+     "EUR is 57.6% of the dollar index, so the euro absorbs the largest share of any broad dollar move in either direction",
+     "High-yield OAS 324bp is only the 72nd percentile of five years — a repricing, not yet a crisis; the left-side trigger is cited at 450bp",
+     "Hormuz crude flows recovered to roughly 80% of pre-war levels with Tehran offering a seven-day reopening conditional on lifting the blockade"
+    ],
+    "what_is_priced": "The market prices a grinding stalemate in which the energy premium drains away slowly without a formal settlement — which is also our modal path, and therefore not an edge. The asymmetry worth noting is that a settlement is worth more to the pair than continued stalemate costs it, because EU storage near 70% means the adverse branch is already partly in the price while the favourable one is not.",
+    "citations": [
+     40,
+     41,
+     45,
+     22
+    ]
+   },
+   "horizon_split": "Tactically the regime is an observable set of prices — credit 59bp wider, oil up 18.5%, gold down, real yields at the top of their range — and every element of it is EUR/USD-negative right now. Strategically the same variables become a distribution containing one concrete pair-positive resolution (a Hormuz settlement, which helps the euro leg and hurts the dollar leg simultaneously) against one pair-negative (renewed closure, which does the reverse), so the stance neutralises. Confidence falls from 56 to 50 because the strategic read rests on subjective branch probabilities rather than on measured prices.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 4,
+   "factor_name": "Flows & Positioning",
+   "tactical_weight_default": 0.1,
+   "tactical_weight_applied": 0.1,
+   "strategic_weight_default": 0.06,
+   "strategic_weight_applied": 0.06,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 52,
+    "evidence_type": "positioning",
+    "bilateral_analysis": "The two legs are positioned on the same side of this pair, which amplifies rather than mutes the signal and makes the contrarian read legitimate. Speculators are short the euro and long the dollar at once: CFTC legacy non-commercial euro positioning was 52,334 contracts net short at the 2026-09-22 report date, an increase of 25,341 in a single week, while the IMM aggregate dollar long against G10 rose by USD 12.5bn to USD 18.4bn in the same week, which StoneX identifies as the fastest weekly build in seven years. The option market agrees: the gated payload's 25-delta risk reversal is -0.841 vols at one month, so euro puts and dollar calls are bid, and dealers report persistent demand for near-dated downside strikes. Three features argue this is a late position rather than a leading one. Leveraged funds have already covered 54% of their euro short, from 57,716 contracts five weeks earlier to 26,694, so the fast money that would drive continuation has largely gone. Open interest in euro futures fell 98,346 contracts, or 10.7%, on the week, marking it a liquidation rather than a fresh-conviction week. And the combined leveraged-plus-asset-manager dollar position sits at only the 44th percentile of its 25-week cached range, so the dollar is not crowded long by its own standards. Against the currency brief's thresholds of +200,000 and -100,000 net euro specs, a 52,334 short is roughly half way to the extreme — one-sided but not stretched. Pass-2 observation: The 29 September report extended the euro short to −63,256 contracts, which ranks at a three-year extreme on the source's COT index of 5. That strengthens this factor's contrarian case beyond the pass-1 description of \"one-sided but not stretched\". The TD position on the other side is concrete: spot ref 1.1322, buy 1.1610-strike call at 5.87 vol ref and sell 1.11-strike put at 6.40 vol ref, expiry Dec 30 2026. This is the main reason the tactical entry below is a rally-sell rather than a sale at spot.",
+    "key_bilateral_metrics": [
+     "CFTC legacy non-commercial euro net short 52,334 contracts at 2026-09-22, +25,341 on the week; leveraged funds only -26,694, covered from -57,716 five weeks earlier",
+     "IMM aggregate speculative dollar long USD 18.4bn, +USD 12.5bn on the week — the fastest weekly build in seven years",
+     "Gated 25-delta risk reversal -0.841 vols at one month (euro puts bid), -0.655 at three months, -0.688 at six months",
+     "Combined leveraged plus asset-manager dollar position at the 44th percentile of its 25-week cached range — not crowded",
+     "Euro futures open interest 821,689 contracts, down 98,346 (-10.7%) on the week; six-contract dollar open interest fell from 2.80m to 2.20m on the roll"
+    ],
+    "what_is_priced": "Pricing reflects continuation: euro shorts nearly doubled in a week, the dollar long was rebuilt at record speed and the one-month skew pays for euro puts. What is not priced is that the fast money has already covered more than half its euro short and that engagement fell 10.7%, so the marginal seller of this pair is thinner than the headline position implies.",
+    "citations": [
+     37,
+     38,
+     49
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": "positioning",
+    "bilateral_analysis": "At one to six months the two structural flows point in opposite directions and are closely matched in size, which is why this is Neutral. The pair-negative flow is the asset-manager book: real money holds 216,483 contracts of euro length, roughly four times the leveraged short, and it cut 35,215 contracts or 14.0% in the single week to 2026-09-22, the largest reduction in the cached series. If that unwind continues at even half that pace it dwarfs anything the fast-money community can generate, and it is the overhang that matters at this horizon. The pair-positive flow is official and slower but one-directional: the IMF's COFER release of 2026-09-30 shows the dollar's share of allocated reserves falling to 56.70% in 2026-Q2 from 57.18%, while the euro's rose to 20.60% from 20.04%, with euro holdings up roughly USD 100bn rather than dollar claims falling — reserve managers added euros. The TIC composition reinforces it: official buyers added USD 44.4bn of long-term US securities in July while private foreigners sold USD 3.7bn and the adjusted long-term total was -USD 27.9bn, which is the financing profile of a currency whose private holders are shortening duration. A second channel is hedge ratios: foreign holders of US bonds who raise hedge ratios sell dollars forward, and peer tightening lowers the cost of doing so. Two of the framework's four flow channels are missing for the euro leg — ETF flows and Target2 balances could not be sourced — which is reflected in the confidence.",
+    "key_bilateral_metrics": [
+     "Asset managers long 216,483 euro contracts, cut 35,215 (-14.0%) in the week to 2026-09-22 — the largest reduction in the cached series",
+     "COFER 2026-Q2: dollar share 56.70% (-0.48pp quarter on quarter), euro share 20.60% (+0.56pp), total reserves USD 13.22tn",
+     "TIC July: official long-term purchases +USD 44.4bn, private long-term sales -USD 3.7bn, adjusted long-term total -USD 27.9bn",
+     "Leveraged euro short of 26,694 contracts is only 3.2% of 821,689 contracts of open interest",
+     "Documented gaps on the euro leg: no current ETF flow or Target2 series, removing two of four prescribed flow channels"
+    ],
+    "what_is_priced": "Nobody is priced for an asset-manager capitulation out of 216,483 euro contracts, and that is the largest single unpriced flow risk in either direction. Nor is the market pricing reserve diversification as anything other than glacial background, when the dollar's allocated share fell 0.48pp in one quarter. The two cancel, which is why the factor carries no strategic direction.",
+    "citations": [
+     37,
+     38,
+     39,
+     49
+    ]
+   },
+   "horizon_split": "The horizons look at different books. Tactically the signal is the fast money on both legs — a 25,341-contract euro short build and a USD 12.5bn dollar long build in the same week, with leveraged funds already 54% covered and open interest falling — which is a contrarian tilt in favour of the pair over two to four weeks. Strategically the signal is real money and official money: a 216,483-contract euro long being cut against a falling dollar reserve share, which offset and leave the factor Neutral. Confidence is low on both horizons because the legacy and Traders-in-Financial-Futures measures disagree about the direction of the same week on the euro leg.",
+   "carry_analysis": null,
+   "contrarian_analysis": {
+    "tactical": {
+     "combined_positioning_signal": "Specs are short the base and long the quote simultaneously, so the pair signal is amplified rather than muted: 52,334 contracts net short euro against a USD 18.4bn aggregate dollar long. On the pair's own terms the short EUR/USD trade is the consensus expression, but at the 44th percentile of the dollar's cached range and roughly half way to the euro's -100,000 extreme it is one-sided rather than stretched. (Pass-2: the 29 September report extended the euro short to −63,256 contracts, a three-year extreme with COT index 5.)",
+     "unwind_trigger": "Three concrete triggers: an ECB hike on 2026-10-29 against under 30% priced; a US core CPI print at or below 0.1% month on month on 2026-10-14 that drops December hike odds below 40%; or a Hormuz reopening headline, which is the one event that hits both legs of the short at once by removing the euro's terms-of-trade tax and the dollar's energy and haven premium together.",
+     "historical_analogue": "The nearest analogue inside the cached window is this summer's swing on the dollar leg: the combined leveraged-plus-asset-manager position went from +USD 24.7bn on 2026-07-28 to -USD 4.7bn on 2026-08-25, a USD 29.4bn reversal over four weeks, which is the magnitude a fast-money unwind in this pair generates when data turn.",
+     "contrarian_case": "The contrarian case is that the marginal seller of EUR/USD has already sold. Leveraged funds have covered 54% of their euro short since mid-August, euro futures open interest fell 10.7% on the week, and the dollar long was rebuilt at the fastest weekly pace in seven years — a speed that is itself a fragility, because flow that arrives in one week can leave in one week. The skew of -0.841 vols means downside protection is the expensive side, so the asymmetry of a short-covering move is not being paid for. TD Securities is on the other side, buying the pair through a three-month zero-cost risk reversal (spot ref 1.1322, buy 1.1610-strike call at 5.87 vol ref, sell 1.11-strike put at 6.40 vol ref, expiry Dec 30 2026), on the argument that near-term Fed hikes are already priced."
+    },
+    "strategic": {
+     "combined_positioning_signal": "At one to six months the stretched book is the long-euro one, not the short: 216,483 asset-manager euro contracts against a leveraged euro short of 26,694 and an aggregate dollar long of USD 18.4bn that is only mid-range. The pair's implied positioning is therefore not extreme in the direction of our stance, which removes positioning as support for it.",
+     "unwind_trigger": "Continuation of the real-money reduction is the trigger that extends the move, and it is self-reinforcing rather than event-driven: the book was cut 14.0% in one week without a catalyst. In the other direction, a rebuild of the speculative dollar long beyond USD 30bn while reserve managers keep adding euros would make the short EUR/USD trade genuinely crowded into the 2026-12-09 FOMC, at which point the asymmetry inverts.",
+     "historical_analogue": "The dollar leg's own analogue is the late-July peak: a combined +USD 24.7bn position in late July unwound to -USD 4.7bn by late August, and the dollar index fell 2.5% over that stretch. The euro leg has no multi-year distribution in the cache — only 24 tranches from 2026-04-07 — so the 25th-percentile net-spec reading is an estimate, not a published rank.",
+     "contrarian_case": "The strategic contrarian case runs against our own stance and should be stated plainly: the price-insensitive, persistent buyer in this pair is the reserve manager, and the IMF's own 2026-Q2 data show that buyer adding roughly USD 100bn of euros while the dollar's allocated share fell 0.48 percentage points. Overlay the hedge-ratio channel — foreign holders of a 5.24% US ten-year raising hedge ratios sell dollars forward — and the structural flow is pair-positive even while the cyclical flow is pair-negative. That is precisely why the strategic score is carried by external balance and guidance rather than by flows."
+    }
+   },
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 5,
+   "factor_name": "External Balance & Terms of Trade",
+   "tactical_weight_default": 0.06,
+   "tactical_weight_applied": 0.06,
+   "strategic_weight_default": 0.16,
+   "strategic_weight_applied": 0.18,
+   "weight_adjustment_reason": "Strategic weight raised 0.02 from the 0.16 default because the energy terms-of-trade differential is the single cleanest bilateral asymmetry in this pair: the euro area is the G10's largest net energy importer and the United States is a net energy exporter, so one commodity moves both legs in the same direction at once. The increment is funded by the reduction in Factor 3, which is a low-beta factor for EUR/USD.",
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 55,
+    "evidence_type": "trade_balance",
+    "bilateral_analysis": "The bilateral goods relationship is large and structurally euro-positive on level: IMF DOTS for 2024 shows euro-area exports to the United States of USD 521.1bn against imports of USD 327.8bn, a net goods surplus of USD 193.3bn, with the US mirror showing imports from the euro area of USD 538.0bn against exports of USD 335.8bn. On current-account level the euro area also wins by a wide margin, running +1.92% of GDP against the US -3.0% in 2026-Q2. The trajectory, however, is moving against the pair on both legs at once. Euro-area current account receipts fell from EUR 35.1bn to EUR 27.6bn in July against EUR 30.7bn expected, EU energy imports rose 13.9% year on year to EUR 41.3bn for a monthly energy trade deficit of EUR 28.0bn, and the one export category where the euro-area surplus is falling is machinery and vehicles, its core strength. German import prices are up 8.3% year on year against export-side PPI of 4.6%, a 3.7-point adverse terms-of-trade wedge in the bloc's largest economy. On the US side the Q2 current account widened to -3.0% of GDP from -2.7% and the August goods deficit was USD 132.6bn against USD 116.3bn expected, but the United States collects a terms-of-trade gain from the same shock that taxes the euro area. Over four weeks a monthly trade release moves spot very little, which is why the weight stays at 0.06, but the direction is unambiguous.",
+    "key_bilateral_metrics": [
+     "IMF DOTS 2024 bilateral goods: euro-area exports to US USD 521.1bn, imports USD 327.8bn, euro-area net surplus USD 193.3bn",
+     "Current-account differential: euro area +1.92% of GDP (2026-Q1 vintage) against US -3.0% of GDP (2026-Q2) — a 4.9pp gap in the euro's favour on level",
+     "EU energy imports EUR 41.3bn in July, +13.9% year on year, for a EUR 28.0bn monthly energy deficit; euro-area current account fell from EUR 35.1bn to EUR 27.6bn",
+     "German import prices +8.3% year on year against export-side PPI +4.6% — a 3.7-point adverse terms-of-trade wedge",
+     "US August goods deficit USD 132.6bn against USD 116.3bn expected; WTI +49.6% year on year with the US a net energy exporter"
+    ],
+    "what_is_priced": "The market has priced the headline euro-area goods surplus of EUR 14.2bn as resilience and has not priced its composition — a EUR 28.0bn monthly energy deficit growing at 13.9% a year with TTF 43% above the ECB's own technical assumption. We expect the August and September euro-area trade releases to show the surplus narrowing as the energy bill catches up to the September price spike.",
+    "citations": [
+     25,
+     35,
+     45,
+     50
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 54,
+    "evidence_type": "trade_balance",
+    "bilateral_analysis": "This is the heaviest non-policy factor in the strategic column at 0.18, and it is where the two dossiers genuinely conflict, which is why confidence is held at 54 rather than higher. The pair-negative case is dated and measurable. EU gas storage stood at roughly 70% of capacity on 2026-09-23, about 12 percentage points below the same point a year earlier and the thinnest pre-winter buffer of the post-2022 period, with TTF at EUR 72.90/MWh against the ECB's EUR 51.0/MWh assumption; the ECB's own estimate is that wholesale gas changes reach retail inflation within one to three months, so the September spike is still ahead of the euro-area data. Trade policy compounds it: the US-EU framework sets a 15% baseline tariff on most EU goods and the EU side commits to procuring USD 750bn of US energy and USD 600bn of US investment over three years, which are themselves structural euro-negative current and capital-account flows that bite hardest when energy is expensive. The pair-positive case is the US twin deficit: a current account at -3.0% of GDP widening for a second quarter alongside a federal deficit near 6%, financed increasingly by official and short-dated money while private foreigners sold long-term paper, and a dollar reserve share that fell 0.48pp in a quarter. The resolution is a judgement about timing: the heating season is a dated, measurable stock problem over exactly this horizon, while the US financing need is a chronic condition that has so far attracted rather than repelled capital at a 5.24% ten-year. We give the energy channel the edge, narrowly.",
+    "key_bilateral_metrics": [
+     "EU gas storage approximately 70% on 2026-09-23, roughly 12pp below a year earlier; TTF EUR 72.90/MWh against the ECB's EUR 51.0/MWh assumption (43% above)",
+     "US current account -3.0% of GDP in 2026-Q2, widening from -2.7%; US NIIP -USD 22.42tn; federal deficit near 6% of GDP",
+     "Dollar reserve share 56.70% (-0.48pp quarter on quarter) against the euro's 20.60% (+0.56pp) — the structural offset to the energy channel",
+     "US-EU framework: 15% baseline tariff on most EU goods plus EU commitments of USD 750bn of US energy procurement and USD 600bn of US investment over three years",
+     "Euro-area bilateral goods surplus with the US of USD 193.3bn (IMF DOTS 2024) is the structural pair-positive level against which the energy deterioration is netted"
+    ],
+    "what_is_priced": "The market prices the energy premium draining away without a winter shock and treats the US twin deficits as long-standing background that does not move the currency. Neither is priced as the asymmetry it is: storage 12 points below a year earlier means a cold month must be met from imports at whatever price clears, while a dollar financed by official and short-dated flows raises its financing cost as peer yields rise. We expect the euro-area current account to print below 1.5% of GDP for 2026-Q3, against a market still extrapolating 1.92%.",
+    "citations": [
+     25,
+     32,
+     35,
+     38,
+     45,
+     46,
+     50
+    ]
+   },
+   "horizon_split": "Both horizons are Bearish for the pair and the difference is weight and mechanism rather than direction. Tactically the factor carries only 0.06 because a single monthly trade release barely moves spot, and the energy terms-of-trade asymmetry shows up mostly through the commodity price itself. Strategically it carries 0.18 because cumulative balance-of-payments flows are what determine a pair over one to six months, and because the heating season converts a storage statistic into a dated import bill between November and February. Confidence is 55 and 54 rather than higher because the two dossiers reach opposite conclusions on this factor from their own side of the pair, which is a genuine conflict rather than a reinforcement.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": {
+    "base_commodity_profile": "The euro area is the G10's largest net energy importer with no material commodity export offset. Its binding input is Dutch TTF natural gas at EUR 72.90/MWh, 43% above the ECB's EUR 51.0/MWh technical assumption and the highest since December 2022, with EU storage near 70% and 12 percentage points below a year earlier. Crude matters second: Brent near USD 103 after an 18.5% monthly rise. EU energy imports are EUR 41.3bn a month and growing 13.9% year on year.",
+    "quote_commodity_profile": "The United States is a net energy exporter across crude, refined product and LNG. WTI is near USD 96 and up 49.6% year on year, Henry Hub is USD 3.18 against a TTF-equivalent many multiples higher, and US LNG is the marginal cargo Europe must bid for. Higher oil and higher LNG are therefore a terms-of-trade gain for the dollar leg, the mirror image of the euro leg's loss.",
+    "net_effect_calculation": "Apply the framework's direction rules to each leg and net. Oil up: the rule gives a negative to EUR as an importer; the United States is on the export side of the same shock, and the dossier evidence (WTI +49.6% year on year, a net-exporter balance and a measured dollar real-yield response) makes it a positive for USD. Negative base plus positive quote equals a FALLING pair, so oil up is Bearish EUR/USD. Natural gas up, the TTF channel: the rule gives a strong negative to EUR; for the United States, higher European gas prices pull US LNG cargoes toward Europe at better netbacks, a clear positive. Strong negative base plus positive quote equals Bearish EUR/USD, and because TTF matters more to the euro area than crude does while Henry Hub is insulated at USD 3.18, this is the larger of the two channels. Gold up would be mildly CHF-positive and is neutral for both legs here. The netting is therefore unusually clean: there is no offsetting commodity exposure on the base leg, so the entire energy complex moves this pair in one direction, and a single resolution of the Gulf conflict reverses both legs at once rather than cancelling.",
+    "scenario_oil_up_10pct": "Brent from roughly USD 103 to USD 113 with TTF moving sympathetically: the euro area's monthly energy deficit widens from EUR 28.0bn, headline HICP rises further on a component the ECB has said it will not respond to, and real incomes fall; the United States gains on its export balance and sees its real yields supported. Net effect: pair FALLS, and this is the larger of the two tails because it also tightens the heating-season storage constraint.",
+    "scenario_oil_down_10pct": "Brent from roughly USD 103 to USD 93, toward the ECB's own USD 89.5 assumption, with TTF toward EUR 51.0/MWh: the euro area's terms-of-trade tax is removed, headline HICP falls by well over a percentage point, real incomes recover, and the dollar loses both its energy-export gain and its energy-driven inflation premium. Net effect: pair RISES, and this is the single largest unpriced pair-positive in the analysis.",
+    "dominant_commodity_driver": "Dutch TTF front-month natural gas, not crude. It is the input to which the euro area is most exposed, it transmits to euro-area retail inflation within one to three months on the ECB's own estimate, and it is the price at which Europe must outbid Asia for US LNG — which makes the same variable a cost to the base leg and a revenue to the quote leg simultaneously."
+   },
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 6,
+   "factor_name": "Guidance & Credibility",
+   "tactical_weight_default": 0.07,
+   "tactical_weight_applied": 0.07,
+   "strategic_weight_default": 0.12,
+   "strategic_weight_applied": 0.12,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 56,
+    "evidence_type": "policy_comms",
+    "bilateral_analysis": "The two central banks stand in opposite relation to their own curves, and that gap is this factor. The ECB's 10 September statement adopted a data-dependent, meeting-by-meeting approach and stated explicitly that the Governing Council is not pre-committing to a rate path; Lagarde characterised the hike as a measured response on a middle path, told the European Parliament on 30 September that the Bank does not react to energy prices as such but only to whether they become embedded, and added that wages show no material response to the energy shock. Schnabel, the Council's most prominent hawk, framed the next decision as conditional on anchored expectations, demand resilience and the drag from rising US yields rather than as a commitment. Against that the two-year Schatz at 3.20% carries roughly 70bp of further tightening. The Federal Reserve is in the opposite posture: it hiked 12-0 on 2026-09-16 with a statement describing inflation as elevated, twelve of eighteen participants project another 25bp by year-end, and the market path sits within roughly 5bp of the median dot — the Fed is being believed. Williams's no-urgency remark on 2026-09-29 cut the October probability below 50% without altering the December path. The bilateral transmission is a curve that is more hawkish than one central bank and correctly calibrated to the other, which resolves against the over-promised currency more often than for it. The sequencing on 2026-10-28 and 2026-10-29 makes the asymmetry concrete within the tactical window.",
+    "key_bilateral_metrics": [
+     "ECB 10 September statement: data-dependent, meeting-by-meeting, explicitly not pre-committing to a rate path",
+     "Roughly 70bp of further ECB tightening priced in the 3.20% two-year Schatz against a Governing Council describing its response as measured",
+     "Fed hiked 12-0 on 2026-09-16; twelve of eighteen dots show one more 25bp move by end-2026 and the market path is within about 5bp of the median",
+     "October ECB hike probability under 30%; October FOMC probability fell below 50% after Williams on 2026-09-29 without disturbing December",
+     "Gated communication anchors: FOMC 2026-10-28 then ECB 2026-10-29 — the Fed sets the tone one day before the Council can answer"
+    ],
+    "what_is_priced": "The euro curve prices 70bp of further ECB tightening while the Governing Council describes its own stance as a measured middle path and assigns October under 30%; the dollar curve prices the Fed within 5bp of its own dots. We expect an ECB hold on 2026-10-29 with an upgraded risk characterisation, which disappoints the 70bp without offering anything dovish to price out of the dollar leg.",
+    "citations": [
+     21,
+     23,
+     31,
+     32,
+     36,
+     42
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 54,
+    "evidence_type": "policy_comms",
+    "bilateral_analysis": "The weight nearly doubles to 0.12 strategically and the mechanism strengthens rather than fades. The ECB's stated reaction function is explicitly asymmetric against the euro in this shock: it does not respond to energy prices as such, only to evidence that they have become embedded, and both of the variables that would constitute that evidence are moving the wrong way for a hawk, with core HICP falling to 2.4% and negotiated wages decelerating to 3.0%. Schnabel has said that as long as expectations are firmly anchored policy can tolerate a more gradual return of inflation to target, which is the hawk's own base case for patience, and her third condition — the drag from rising global borrowing costs — is intensifying rather than easing. The bank distribution captures the disagreement: Goldman Sachs, UBS, Danske, UniCredit, Deutsche Bank, Barclays and ANZ look for at least one more hike while BofA, Berenberg, ING and MUFG expect the cycle to be complete, and with roughly 2.8 hikes in the curve even the hawkish half implies under-delivery. On the dollar leg credibility is the stabiliser rather than a direction: a Fed that hiked unanimously against explicit political pressure, protected by the Trump v. Cook ruling on removal procedure, keeps ten-year breakevens anchored near 2.36% despite headline PCE at 3.4%, and a 2.88% ten-year TIPS real yield is a premium the market pays only to a central bank it trusts. The dated anchors are 2026-12-17, the ECB projection round and the likeliest venue for the single hike we expect, and 2026-12-09, where a higher 2027 Fed dot would extend the gap further.",
+    "key_bilateral_metrics": [
+     "Core HICP 2.4% and falling with negotiated wages 3.0% and decelerating — neither ECB condition for second-round effects is met",
+     "Roughly 2.8 ECB hikes priced against our expectation of one, most likely at the 2026-12-17 projection round: about 45bp of under-delivery",
+     "Fed SEP medians 4.1% for 2026 and 2027 with a market path within roughly 5bp — no comparable over-promise on the dollar leg",
+     "US ten-year breakevens anchored near 2.36% against headline PCE of 3.4%, with a ten-year TIPS real yield of 2.88% at the 99th percentile of one year",
+     "Bank split on the ECB: seven houses see at least one more hike, four see the cycle complete — the distribution itself implies under-delivery against the curve"
+    ],
+    "what_is_priced": "The market prices an ECB that keeps going and a Fed that holds; the ECB describes an ECB that may already have finished. On the historical UST-Bund beta an under-delivery of roughly 45bp is worth about 1.5-2.0% of EUR/USD, and it is the most quantifiable single element of the bearish case. The offsetting risk is that Fed credibility itself becomes the story if political pressure resumes, which is the main route by which this factor would flip.",
+    "citations": [
+     21,
+     22,
+     23,
+     30,
+     32,
+     42,
+     43
+    ]
+   },
+   "horizon_split": "Both horizons are Bearish for the pair for the same reason — the euro curve is more hawkish than the ECB while the dollar curve matches the Fed — and the strategic case is the stronger on mechanism while carrying slightly lower confidence. Tactically the specific event is 2026-10-29, where under 30% is priced and a hold is the likely outcome, so the disappointment is small and partly anticipated. Strategically the gap is roughly 45bp of under-delivery across the horizon, a larger number that depends on the December and February decisions, so confidence falls from 56 to 54 even as the weight rises from 0.07 to 0.12.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 7,
+   "factor_name": "Event Risk & Geopolitics",
+   "tactical_weight_default": 0.05,
+   "tactical_weight_applied": 0.07,
+   "strategic_weight_default": 0.05,
+   "strategic_weight_applied": 0.05,
+   "weight_adjustment_reason": "Tactical weight raised 0.02 from the 0.05 default because the dated binaries inside the window are unusually one-sided for this specific pair and because the Gulf event amplifies rather than cancels across the two legs: the same headline is a terms-of-trade shock to the euro and a terms-of-trade windfall to the dollar. Funded by the reduction in Factor 3.",
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 52,
+    "evidence_type": "geopolitics",
+    "bilateral_analysis": "Two dated binaries and one undated one sit inside or just beyond the tactical window, and the balance is pair-negative. The euro-area binary is French: the 2027 austerity package worth EUR 54bn was presented to the Council of Ministers on 2026-10-01 and faces a parliamentary vote on 2026-11-17, against a country that has had three governments in fourteen months and whose 2026 budget already slipped from a 4.7% to a 5.0% deficit target before passage. The dollar-side binaries fall later: the midterm elections on 2026-11-03 and the continuing-resolution expiry on 2026-12-11 are both outside four weeks though inside the three-month option tenor. The Gulf is the asymmetric one. Trump rejected Tehran's latest seven-day ceasefire proposal and announced a crushing economic operation, with talks in limbo; crude flows through Hormuz have recovered to roughly 80% of pre-war levels while refined product and LNG shipments remain constrained, which is exactly the configuration Lagarde identified as the source of the euro-area shock. Because the euro area imports the shock and the United States exports into it, the Gulf headline moves both legs in the same direction simultaneously rather than cancelling, which is what justifies the small weight increase. No euro-positive dated event sits inside the window, so the tactical event distribution is skewed against the pair. Pass-2 observation: A new euro-area event has appeared since pass 1. Reporting describes Spain moving toward a snap vote, and one account says that Spain and France are adding political risk at the same time. That widens the euro-leg political distribution the tactical stance already rests on.",
+    "key_bilateral_metrics": [
+     "French 2027 budget with EUR 54bn of savings presented 2026-10-01, parliamentary vote 2026-11-17, after three governments in fourteen months",
+     "Hormuz crude flows roughly 80% of pre-war levels with product and LNG constrained; Trump rejected Tehran's seven-day roadmap",
+     "US dated risks fall later: midterms 2026-11-03 and the continuing-resolution expiry 2026-12-11, both outside four weeks",
+     "Gated calendar: no scheduled decision between 2026-10-29 and 2026-12-09, so the November event risk is political and fiscal rather than monetary",
+     "One-month implied volatility of 6.31% against a three-month 6.099% — a 0.21-vol front-end premium, with no hump priced around 2026-11-17"
+    ],
+    "what_is_priced": "The volatility surface prices the October central-bank sequence and a modest front-end premium but almost nothing for the French vote or for a Gulf binary in either direction: the term structure is flat to slightly backwardated at the front with no November hump. The French budget vote in particular is a dated, binary, locally-sourced euro risk that is not in the price.",
+    "citations": [
+     23,
+     26,
+     27,
+     41
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": "geopolitics",
+    "bilateral_analysis": "Over one to six months the event distribution becomes genuinely two-sided for this pair, and both sides are concrete. The pair-negative branch is European and political: the 2026-11-17 budget vote leads into a 2027 French presidential race whose leading contenders are drawn from both extremes with no centrist candidate, Spanish and Italian elections follow in 2027, and Italy's 2025 deficit is confirmed at 3.1% of GDP above the EU ceiling. The pair-positive branch is American and fiscal-political: the continuing resolution signed on 2026-09-01 funds the federal government only to 2026-12-11, so a lame-duck Congress seated after the 2026-11-03 midterms must act or a shutdown lands in the middle of the year-end funding turn, and Fitch explicitly flagged gridlock and shutdown risk when it affirmed AA+ on 2026-08-13. The Gulf sits across both: a settlement is doubly pair-positive and a renewed closure doubly pair-negative. Weighing roughly a 25% settlement branch and a 35% US shutdown branch against a 25% French collapse branch and a 20% escalation branch leaves a mean close to zero with very wide dispersion. Neutral is the honest answer rather than a forced direction.",
+    "key_bilateral_metrics": [
+     "US continuing resolution expires 2026-12-11; our shutdown estimate 35%, which is pair-positive via governance risk on the quote leg",
+     "French 2027 presidential field led from both extremes with no centrist candidate; Spanish and Italian elections in 2027; Italy's 2025 deficit 3.1% of GDP",
+     "Gulf branches: settlement roughly 25% (doubly pair-positive), renewed escalation roughly 20% (doubly pair-negative)",
+     "Fitch affirmed the US at AA+ stable on 2026-08-13 while citing political gridlock and shutdown risk",
+     "Midterms 2026-11-03 determine the path to the funding deadline and to 2027 fiscal policy — unpriced in the volatility surface"
+    ],
+    "what_is_priced": "Markets treat the December funding deadline and the midterms as routine on the dollar leg and treat French fiscal politics as a contained spread story on the euro leg. We think both are under-priced, and because they point in opposite directions for the pair the factor contributes dispersion rather than direction over this horizon.",
+    "citations": [
+     26,
+     27,
+     41,
+     47,
+     48
+    ]
+   },
+   "horizon_split": "The horizons diverge because the dated events inside four weeks are one-sided while the six-month calendar is not. Tactically the French budget trajectory toward 2026-11-17 and the collapse of the Iran ceasefire talks are both pair-negative with no offsetting dated pair-positive, and the US binaries fall outside the window. Strategically the US midterms, the 2026-12-11 funding cliff and a settlement branch worth a great deal to the euro's terms of trade all enter, so the distribution balances and the stance neutralises. Confidence falls from 52 to 50 because the strategic read rests on subjective branch probabilities rather than on a dated calendar.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 8,
+   "factor_name": "Fiscal & Sovereign Risk",
+   "tactical_weight_default": 0.04,
+   "tactical_weight_applied": 0.05,
+   "strategic_weight_default": 0.07,
+   "strategic_weight_applied": 0.07,
+   "weight_adjustment_reason": "Tactical weight raised 0.01 from the 0.04 default because the euro area's binding sovereign stress indicator is at its widest since 2012 and is attached to a dated parliamentary vote, which is a live rather than background condition for this pair. Funded by the reduction in Factor 3.",
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 55,
+    "evidence_type": [
+     "rates",
+     "geopolitics"
+    ],
+    "bilateral_analysis": "Normally background for EUR/USD, this factor is not background now, because the euro area's stress indicator has migrated to its second-largest economy and has no mechanical backstop. The OAT-Bund ten-year spread closed at 111.2bp on 2026-09-29, the widest since the 2012 crisis, against a one-year range of 59.0 to 111.2bp and a one-year average of 74.2bp, with the French ten-year OAT at 4.74%. French public debt is 119.3% of GDP in 2026 and projected at 121.7% in 2027 without consolidation, the 2025 deficit was 5.1% of GDP, Fitch has France at A+, and French yields now exceed Italy's and Greece's on some maturities. Critically the ECB's Transmission Protection Instrument is designed for unwarranted and disorderly dynamics, which is precisely the category a fundamentals-driven French widening does not occupy, so there is no ceiling. The dollar leg is worse on aggregate arithmetic but better on structure: debt held by the public is 101% of GDP, the FY2026 deficit is near 5.8-6% and net interest exceeds USD 1.0tn or 3.3% of GDP, now above defence spending, but all three agencies hold the United States one notch below AAA with stable outlooks, September coupon auctions cleared without failure and higher yields have so far attracted rather than repelled capital, with USD 83.7bn of July TIC inflows. Over four weeks that difference — a dated, unbackstopped French binary against a chronic but financed US position — tilts the pair lower.",
+    "key_bilateral_metrics": [
+     "OAT-Bund ten-year spread 111.2bp on 2026-09-29, widest since 2012, against a one-year average of 74.2bp and a 2011 peak of 225.1bp",
+     "French debt 119.3% of GDP in 2026 rising to a projected 121.7% in 2027; 2025 deficit 5.1% of GDP; Fitch rating A+",
+     "US debt held by the public 101% of GDP with a deficit near 5.8-6% and net interest above USD 1.0tn (3.3% of GDP)",
+     "Rating differential: US AA+ / Aa1 stable at all three agencies against France A+ at Fitch after Moody's cut to Aa3 in December 2024",
+     "TPI has never been activated and does not cover fundamentals-driven widening, so the euro area's second-largest sovereign has no mechanical backstop"
+    ],
+    "what_is_priced": "At 111.2bp the market prices French fiscal stress but not French fiscal failure, and on the dollar leg it prices fiscal risk through the term premium — a 5.24% ten-year against a 3.2% longer-run dot — rather than through the currency. What is not priced is that TPI does not cover the French case, so there is no mechanical ceiling into the 2026-11-17 vote.",
+    "citations": [
+     26,
+     27,
+     28,
+     39,
+     46,
+     48
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": "rates",
+    "bilateral_analysis": "Over one to six months the two sovereign positions are close enough to a wash that a direction would be manufactured. On the euro side France remains on a debt path from 119.3% to 121.7% of GDP with a political system producing a government every few months and no TPI cover, and the 2026-11-17 vote is the first of several tests. But Germany is a substantial offset: the 2027 draft federal budget takes spending to EUR 555.4bn, up 5.9%, with net borrowing of EUR 118.7bn of which EUR 85.4bn sits outside the debt brake, and defence rising to EUR 109.7bn — over a multi-year horizon a Germany issuing at that scale supplies the deep AAA-rated safe asset the euro has always lacked, which is structurally pair-positive even while it is Bund-negative now. On the dollar side the arithmetic deteriorates in exactly the way that eventually reaches a currency: net interest above 3.3% of GDP and projected toward 4.6% by 2036, debt held by the public heading from 101% to 120%, shrinking tariff revenue after the IEEPA ruling and the expiry of Section 122, and a 2026-12-11 funding cliff that would revive the governance debate that cost the United States its AAA ratings. Scotiabank cites exactly these deficits in its bearish dollar case. Two deteriorating sovereigns, one with no backstop and one with no fiscal space, net to Neutral.",
+    "key_bilateral_metrics": [
+     "France 119.3% to 121.7% of GDP with no TPI cover against US debt held by the public 101% heading to 120% by 2036",
+     "US net interest 3.3% of GDP in 2026 rising toward 4.6% by 2036 — already above defence spending",
+     "German 2027 draft budget: spending EUR 555.4bn (+5.9%), net borrowing EUR 118.7bn of which EUR 85.4bn outside the debt brake",
+     "US effective tariff rate around 7.2% after the IEEPA ruling and the Section 122 expiry, shrinking a deficit offset",
+     "US funding deadline 2026-12-11 with a 35% shutdown estimate; Fitch cited gridlock risk at its 2026-08-13 AA+ affirmation"
+    ],
+    "what_is_priced": "The market prices French fiscal deterioration as a contained spread story and US fiscal deterioration as a term-premium story, in both cases in bonds rather than in the currency. We expect both links to weaken over the horizon, but they weaken in opposite directions for this pair, which is why the factor carries no strategic signal despite a 0.07 weight.",
+    "citations": [
+     26,
+     27,
+     43,
+     46,
+     47,
+     48
+    ]
+   },
+   "horizon_split": "The stances differ because the offsets arrive on different schedules. Tactically the only thing that matters is OAT-Bund at 111.2bp heading into a dated vote with no backstop, while the dollar's fiscal problem is being financed at 5.24% with USD 83.7bn of July inflows — so the pair tilts lower. Strategically the German issuance programme enters as a genuine structural euro-positive and the US interest burden, shrinking tariff revenue and the 2026-12-11 cliff enter as genuine dollar-negatives, and the two dossiers reach opposite conclusions from their own side, so the honest bilateral answer is Neutral.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 9,
+   "factor_name": "Market Structure & Volatility",
+   "tactical_weight_default": 0.05,
+   "tactical_weight_applied": 0.05,
+   "strategic_weight_default": 0.03,
+   "strategic_weight_applied": 0.03,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 52,
+    "evidence_type": [
+     "pair_price_action",
+     "positioning"
+    ],
+    "bilateral_analysis": "This is the one factor whose genuine subject is how the pair itself trades, and it is scored here only on the option-market evidence the gated payload actually supplies, because trailing returns, moving averages, zones and realised volatility were deliberately removed from this pass and are not reconstructed. The payload's CME ATM surface observed 2026-09-30 reads 6.31% at 36.7 days, 6.099% at 99.7 days and 6.309% at 190.6 days, so the term structure is flat with a mild front-end hump of 0.21 vols — an event premium for the 2026-10-28 and 2026-10-29 decisions rather than a structural repricing. The directional information is in the skew, and it is consistent across the whole curve: the 25-delta risk reversal is -0.841 vols at one month, -0.655 at three months and -0.688 at six months, so the market pays persistently for EUR/USD downside at every tenor rather than only into the event. The 25-delta butterfly rises monotonically from 0.125 to 0.194 to 0.243, so tail pricing increases with tenor, which is consistent with a market that expects the distribution to widen rather than to resolve quickly. Dealer evidence in the dossiers corroborates concentrated demand for near-dated downside strikes, and TD Securities is on the other side with a three-month zero-cost risk reversal, which marks where the contrarian flow sits. Pair liquidity is not a constraint: EUR/USD is the deepest FX market and the CME euro contract the deepest FX futures market, with open interest of 821,689 contracts.",
+    "key_bilateral_metrics": [
+     "Gated ATM implied volatility: 6.31% at 36.7 days, 6.099% at 99.7 days, 6.309% at 190.6 days — flat with a 0.21-vol front-end hump",
+     "25-delta risk reversal -0.841 (1m), -0.655 (3m), -0.688 (6m) vols — EUR/USD downside bid at every tenor",
+     "25-delta butterfly 0.125 / 0.194 / 0.243 rising with tenor — tail pricing increases rather than decays",
+     "Euro futures open interest 821,689 contracts — the deepest FX futures market, so execution and gap risk are minimal",
+     "Dealer demand concentrated in near-dated downside strikes, with TD Securities on the other side via a three-month zero-cost risk reversal"
+    ],
+    "what_is_priced": "The surface prices a modest event premium for the 28-29 October sequence and a persistent preference for downside protection across all three tenors. That is directionally aligned with our stance, which means the structure confirms rather than contradicts it, but it also means the protection is already the expensive side of the market and none of the dated November risk is yet in the curve.",
+    "citations": [
+     43,
+     49
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": "pair_price_action",
+    "bilateral_analysis": "At one to six months the structural read is genuinely two-sided and the weight is the smallest in the framework at 0.03, so it moves the score very little. The flat term structure — 6.31% at one month, 6.099% at three and 6.309% at six — prices a range rather than a regime break in either direction, and the six-month ATM sitting essentially on top of the one-month means the market sees no accumulation of risk across the horizon despite a heating season, a French budget vote, two ECB decisions and two FOMC decisions falling inside it. The skew remains for pair downside at three and six months but at a smaller magnitude than at one month, -0.655 and -0.688 against -0.841, which is a market hedging a near-term event rather than expressing a structural view. The rising butterfly across tenors argues for wider tails without a directional lean. Pass 2 holds the realised-volatility series, the moving-average configuration and the computed support and resistance zones, so the variance risk premium and the level map that belong in this factor are properly its work, not this pass's. On the evidence available here the honest strategic stance is Neutral: the option market is not telling us the pair is set to trend, only that it is willing to pay a little for downside while it waits.",
+    "key_bilateral_metrics": [
+     "Six-month ATM 6.309% against a one-month 6.31% — a flat curve that prices no accumulation of risk across the strategic horizon",
+     "Skew decays from -0.841 vols at one month to -0.655 at three and -0.688 at six — event hedging rather than a structural view",
+     "Butterfly rising 0.125 to 0.243 across tenors — wider tails with no directional lean",
+     "Realised volatility, moving averages, 52-week range and computed zones are absent from this pass by design and are not estimated",
+     "No one-year implied-volatility percentile exists in the gated store, so no IV rank is asserted"
+    ],
+    "what_is_priced": "The surface prices a steady, range-bound regime with a mild preference for downside protection and no structural break at six months. We broadly agree with that characterisation, which is precisely why this factor carries no strategic edge, and it is also what makes longer-dated optionality relatively cheap for whichever side of the Gulf binary a reader wants to own.",
+    "citations": [
+     43,
+     49
+    ]
+   },
+   "horizon_split": "The horizons differ because the option market separates the event from the regime. Tactically there is a measurable front-end premium and a pronounced one-month skew of -0.841 vols for pair downside, which is a Bearish structure and is directionally aligned with the fundamental stance. Strategically the term structure is flat and the skew decays, so the same surface describes a range rather than a trend, and the weight falls from 0.05 to 0.03. Confidence falls from 52 to 50 because no implied-volatility percentile exists in the gated store and because the realised-volatility comparison that would complete this factor belongs to pass 2.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": {
+    "vol_landscape_summary": "The gated CME surface is flat across tenors at 6.31% / 6.099% / 6.309% with a 0.21-vol front-end hump for the 28-29 October central-bank sequence, and the 25-delta skew pays for EUR/USD downside at every tenor, most strongly at one month at -0.841 vols. Butterflies rise with tenor from 0.125 to 0.243, so the market prices fatter tails further out without a directional lean. The regime the surface describes is a low-to-mid volatility market with an event premium at the front, not a market braced for a break. Pass-2 completion: variance risk premium +2.14 vols at 1M (IV 6.31% vs 20-day realised 4.17%), +1.47 at 3M (6.099% vs 60-day realised 4.63%) and +1.68 at 6M (6.309%); every tenor charges more than the market has delivered, and the most expensive option relative to realised is the one-month put wing (skew −0.841). Spot is below the 50-day (1.15269), 100-day (1.15132) and 200-day (1.16091), with strict lower highs and lower lows over 30 sessions. The 200-week is 1.10973, rising 8.0 pips a week, 155 pips below spot; a flat spot meets it in about 19 weeks, and on the tactical base path the test falls in the 2026-10-28/29 week near 1.1125. Key zones by touch count: resistance 1.16761–1.17759 (6), 1.15125–1.15904 (5), 1.13902–1.14237 (4); support 1.10243–1.10682 (5), 1.06442–1.07331 (5), 1.11698–1.12235 (4). Barriers and strikes: 1.1300 (dealer barrier and breakdown level), 1.1200 (strike concentration), 1.1100 (TD put strike), 1.1610 (TD call strike, effectively at the 200-day).",
+    "directional_expression": "Because the downside is already the bid side of the skew, buying it to express a bearish directional view means paying for the catalyst twice. The structurally efficient route for anyone who must use options is to sell the wing the market is bidding rather than buy it, or to express the view in spot or forward where the roll is close to flat. Pass-2 completion: express the view in spot or forwards, not by buying puts. A 3M forward short is struck at 1.12940, 42 pips better than spot, and earns the roll. For option users, the efficient structure is to sell one-month EUR/USD calls around the 1.1390–1.1425 four-touch resistance band, which monetises the 2.14-vol premium in the direction of the view without paying the −0.841 put skew.",
+    "event_timing_consideration": "The one-month tenor spans the FOMC on 2026-10-28 and the ECB on 2026-10-29, which is where the 0.21-vol front-end premium sits. The three-month tenor spans the French budget vote on 2026-11-17, the FOMC with its SEP on 2026-12-09, the US funding deadline on 2026-12-11 and the ECB projection round on 2026-12-17 — four dated events — yet three-month implied volatility is the LOWEST point on the curve. That is the genuine inefficiency in this surface: the tenor containing the most dated risk is the cheapest. Pass-2 completion: the cheapest point on the curve, the 3M tenor at 6.099%, is the right place to buy optionality covering the 2026-11-17 French vote and the 2026-12-09/17 central-bank pair. Place tactical spot positions before 2026-10-28. Add strategic optionality after the October meetings, once the front-end premium has decayed.",
+    "liquidity_note": "EUR/USD is the deepest pair in FX and the only major with a genuinely liquid listed option market, checked on the IB platform; the CME euro future carries 821,689 contracts of open interest. Execution slippage and gap risk are negligible, and the depth is why the fundamental view can be expressed in size without the structure choice itself becoming a constraint."
+   }
+  },
+  {
+   "factor_number": 10,
+   "factor_name": "USD Liquidity & Funding",
+   "tactical_weight_default": 0.11,
+   "tactical_weight_applied": 0.11,
+   "strategic_weight_default": 0.12,
+   "strategic_weight_applied": 0.12,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 56,
+    "evidence_type": "rates",
+    "bilateral_analysis": "For a USD-quoted pair this factor acts directly on the quote leg, and the two halves of it currently point the same way for the pair. The quantity of dollars is ample: balance-sheet runoff concluded on 2025-12-01, reserve-management bill purchases run at USD 10bn a month, total Fed assets are USD 6.743tn with reserve balances of USD 2.948tn, and SOFR printed 3.87% on 2026-10-01, three basis points below IORB at 3.90% and thirteen below the standing repo rate — a quarter-end that passed without stress and no sign of reserve scarcity. The price of dollars is the live channel, and it is rising: the ten-year TIPS real yield is 2.88% at the 99th percentile of its one-year range, the thirty-year is 5.61% at its highest since 2002, and the nominal ten-year rose roughly 45-51bp on the month to 5.24%. A 2.88% real yield pulls global capital toward the dollar independently of the euro's own policy trajectory, and it is the mechanism by which this factor transmits to the pair. The bilateral funding premium itself is unremarkable: the payload's futures roll of 149.2bp against a policy differential of 137.5bp implies a cross-currency basis near -12bp, consistent with the CME proxy, so there is no euro-specific dollar shortage. No live three-month XEURBI print was available and that is recorded as a gap. The net tactical reading is that the dollar is expensive to be short on real-yield grounds without being scarce, which is pair-negative.",
+    "key_bilateral_metrics": [
+     "US ten-year TIPS real yield 2.88% at the 99th percentile of one year; thirty-year 5.61%, highest since 2002",
+     "SOFR 3.87% on 2026-10-01 against IORB 3.90% and a 4.00% standing repo rate — no reserve scarcity",
+     "Fed total assets USD 6.743tn, reserve balances USD 2.948tn, runoff concluded 2025-12-01 with USD 10bn a month of bill purchases",
+     "Implied three-month EUR/USD cross-currency basis near -12bp (149.2bp futures roll less a 137.5bp policy differential) — a modest, unremarkable dollar premium",
+     "Documented gap: no live quoted three-month XEURBI basis print resolved for either dossier"
+    ],
+    "what_is_priced": "The market prices ample reserves, a calm turn and the dollar as the high-real-yield destination, and it has been paid for that stance all month. What is not priced is any funding dimension to the 59bp of high-yield widening; our expectation is that nothing resolves inside four weeks, so the tactical reading remains pair-negative through the real-yield channel rather than the plumbing channel.",
+    "citations": [
+     31,
+     40,
+     50
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": "rates",
+    "bilateral_analysis": "At one to six months the two halves of the factor separate and offset, which is why this is Neutral on a 0.12 weight. The pair-positive case rests on the Fed's operating framework: runoff is over, the Desk is adding bills to keep reserves ample, the standing repo facility at 4.00% caps any funding spike, and the structural direction of dollar liquidity is therefore toward abundance rather than scarcity. That removes the mechanism by which reserve scarcity has supported the dollar in past tightening cycles. Peer tightening works the same way through the hedging channel: as the ECB raises rates the cost for euro-based investors of hedging dollar assets falls, which encourages higher hedge ratios and hence forward dollar selling against the euro — a direct pair-positive flow. The pair-negative case is that the dollar's pull comes from the long end rather than the policy rate: a thirty-year at its highest since 2002 and a 2.88% real yield are a term-premium and fiscal-supply story that a Fed plateau at 4.1% does not reverse, and the same forces are lifting the Bund to seventeen-year highs without closing the roughly 166-172bp gap. European banks are also large dollar borrowers for their international operations, so any renewal of dollar funding pressure is disproportionately pair-negative. The year-end turn and the 2026-12-11 funding deadline, which could distort the Treasury General Account with reserves already near the USD 3tn comfort threshold, are a timing risk rather than a trend. The forces are close to balanced.",
+    "key_bilateral_metrics": [
+     "Standing repo facility at 4.00% caps funding spikes; reserves USD 2.948tn against a roughly USD 3tn minimum comfortable benchmark",
+     "Fed total assets up USD 155.9bn year on year with runoff concluded — the structural direction of dollar supply is toward abundance",
+     "Peer tightening lowers euro-based hedging costs, encouraging forward dollar selling: a direct pair-positive flow channel",
+     "US thirty-year 5.61% and ten-year real yield 2.88% — a term-premium pull the Fed's 4.1% plateau does not reverse",
+     "2026-12-11 funding deadline inside the horizon as a year-end turn risk, with a Treasury General Account rebuild the mechanism"
+    ],
+    "what_is_priced": "The market prices a Fed that keeps reserves ample, so a dollar squeeze is treated as a low-probability tail — we agree, which means liquidity cannot rescue the dollar leg strategically. Equally the market does not price the hedge-ratio channel, which argues the other way. The quantifiable test for the pair is the UST-Bund spread: a sustained narrowing inside 125bp would validate the pair-positive case, and at roughly 166-172bp it is 40bp or more away.",
+    "citations": [
+     31,
+     50,
+     28
+    ]
+   },
+   "horizon_split": "Both horizons share the same facts and weigh them differently. Tactically the price of dollars dominates: a 2.88% real yield at the 99th percentile of its range and a thirty-year at a 2002 high pull capital into the quote leg while reserves stay ample and the basis stays unremarkable, which is pair-negative. Strategically the quantity of dollars begins to matter as much as the price — runoff finished, reserves being added, a 4.00% repo backstop, and peer tightening lowering euro hedging costs — and those offset the long-end term premium, so the factor neutralises. Confidence falls from 56 to 50 and the cross-currency basis gap removes the framework's benchmark funding measure on both horizons.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  }
+ ],
+ "synthesis": {
+  "weight_adjustments": {
+   "adjustments_made": true,
+   "adjustments": [
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment (tactical)",
+     "default_weight": 0.1,
+     "applied_weight": 0.07,
+     "reason": "EUR/USD is a low risk-sensitivity pair on the framework's own classification — neither leg is a pure risk proxy, the euro is the anti-dollar rather than a haven, and the measured dollar beta to equities is only -0.14"
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk & Geopolitics (tactical)",
+     "default_weight": 0.05,
+     "applied_weight": 0.07,
+     "reason": "Dated binaries inside the window are one-sided for this pair; the Gulf event amplifies across both legs rather than cancelling"
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign Risk (tactical)",
+     "default_weight": 0.04,
+     "applied_weight": 0.05,
+     "reason": "OAT-Bund at 111.2bp, widest since 2012, attached to a dated vote with no TPI cover — a live condition rather than background"
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment (strategic)",
+     "default_weight": 0.05,
+     "applied_weight": 0.03,
+     "reason": "Same low-beta argument; at this horizon the factor restates the Gulf binary already carried in Factor 7"
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance & Terms of Trade (strategic)",
+     "default_weight": 0.16,
+     "applied_weight": 0.18,
+     "reason": "One commodity complex taxes the base leg and pays the quote leg simultaneously, with no offsetting commodity exposure on the euro side"
+    }
+   ]
+  },
+  "tactical": {
+   "net_stance": "Bearish",
+   "conviction": 3,
+   "overall_confidence": 62,
+   "weighted_score_calculation": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative)",
+     "stance_score": -1,
+     "confidence": 60,
+     "conf_adj_score": -0.6,
+     "weight": 0.24,
+     "weighted_contribution": -0.144
+    },
+    {
+     "factor_number": 2,
+     "factor_name": "Inflation & Growth Dynamics",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.18,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "stance_score": -1,
+     "confidence": 56,
+     "conf_adj_score": -0.56,
+     "weight": 0.07,
+     "weighted_contribution": -0.0392
+    },
+    {
+     "factor_number": 4,
+     "factor_name": "Flows & Positioning",
+     "stance_score": 1,
+     "confidence": 52,
+     "conf_adj_score": 0.52,
+     "weight": 0.1,
+     "weighted_contribution": 0.052
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance & Terms of Trade",
+     "stance_score": -1,
+     "confidence": 55,
+     "conf_adj_score": -0.55,
+     "weight": 0.06,
+     "weighted_contribution": -0.033
+    },
+    {
+     "factor_number": 6,
+     "factor_name": "Guidance & Credibility",
+     "stance_score": -1,
+     "confidence": 56,
+     "conf_adj_score": -0.56,
+     "weight": 0.07,
+     "weighted_contribution": -0.0392
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk & Geopolitics",
+     "stance_score": -1,
+     "confidence": 52,
+     "conf_adj_score": -0.52,
+     "weight": 0.07,
+     "weighted_contribution": -0.0364
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign Risk",
+     "stance_score": -1,
+     "confidence": 55,
+     "conf_adj_score": -0.55,
+     "weight": 0.05,
+     "weighted_contribution": -0.0275
+    },
+    {
+     "factor_number": 9,
+     "factor_name": "Market Structure & Volatility",
+     "stance_score": -1,
+     "confidence": 52,
+     "conf_adj_score": -0.52,
+     "weight": 0.05,
+     "weighted_contribution": -0.026
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "stance_score": -1,
+     "confidence": 56,
+     "conf_adj_score": -0.56,
+     "weight": 0.11,
+     "weighted_contribution": -0.0616
+    }
+   ],
+   "net_weighted_score": -0.3549,
+   "score_interpretation": "A net score of -0.3549 on tactical weights is firmly Bearish EUR/USD under the mechanical rule, meaning the pair falls and the dollar strengthens. Eight of the ten factors are Bearish, one is Neutral and one is Bullish. The bearish contributions total -0.4069 and are led by Policy & Rates at -0.1440 and USD Liquidity & Funding at -0.0616, which together are 51% of the bearish total; the single Bullish factor, Flows & Positioning at +0.0520, offsets only 13% of it. The ten applied weights sum to exactly 1.00 and the ten contributions re-sum to -0.3549. Note that the breadth here is genuine rather than artefactual: the score is produced by two dossiers reaching reinforcing conclusions from opposite sides of the same pair, not by a single channel counted five times — though three of the eight bearish factors (1, 6 and 10) do ultimately transmit through the same rate and real-yield mechanism, which is the main reason conviction is held below 4.",
+   "rationale": "At tactical weights the verdict is decided by Policy & Rates at 0.24 and USD Liquidity & Funding at 0.11, which together carry 35% of the weight and are both Bearish for the pair, contributing -0.1440 and -0.0616 of the -0.3549 net score. The two standalone dossiers reinforce rather than conflict on this horizon — Bearish EUR at -0.2651 and Bullish USD at +0.3782 — which is the cleanest configuration a pair analysis can inherit, because each leg's weakness is the other's strength rather than a cancellation. The policy case is not about the level of a -137.5bp differential but about the direction of the last four weeks of repricing: the Fed hiked 12-0 on 2026-09-16 with Barr and Williams both signalling more, while the implied probability of an ECB move on 2026-10-29 collapsed from roughly 50% to under 30%, taking UST-Bund to roughly 166-172bp. The funding factor reinforces through a separate channel: a 2.88% ten-year TIPS real yield at the 99th percentile of its range pulls capital into the quote leg independently of the Fed's policy rate, while the implied cross-currency basis near -12bp shows no euro-specific dollar scarcity to unwind. Three further factors amplify. Guidance is pair-negative because the euro curve carries roughly 70bp of ECB tightening while Lagarde describes her own response as measured and says the Bank does not react to energy prices, against a Fed whose market path sits within 5bp of its own dots. Fiscal risk is pair-negative at OAT-Bund 111.2bp, the widest since 2012, with no TPI cover for a fundamentals-driven widening into a dated 2026-11-17 vote. External balance is pair-negative because one commodity complex taxes the base leg and pays the quote leg at once: EU energy imports are running 13.9% higher year on year at EUR 41.3bn a month while the United States is a net exporter with WTI up 49.6%. The genuine conflicts are worth stating precisely. Inflation and growth is Neutral, not Bullish, because the euro area is beating on headline inflation (3.2% heading to a tracked 3.8%) and matching on quarterly GDP while the United States wins on the labour market and the annual growth gap — a real offset, not a hedge. Flows is Bullish for the pair on a strict contrarian reading: shorts rose 25,341 euro contracts in a single week and the aggregate dollar long was rebuilt USD 12.5bn, the fastest in seven years, while leveraged funds have already covered 54% of their euro short and open interest fell 10.7%. What is priced and what we expect diverge most sharply on sequencing: the market has priced the October ECB hike out and the Fed hold in, but has not priced the adverse ordering in the gated calendar, where the FOMC on 2026-10-28 lands one day before a Governing Council the market expects to pass. The dated catalysts are the 2026-10-02 euro-area HICP flash, the 2026-10-07 FOMC minutes, the 2026-10-14 US CPI and the 28-29 October central-bank pair. Conviction rests on breadth across genuinely independent channels — rate differentials, dollar real yields, guidance under-delivery, French sovereign risk and the energy terms of trade — rather than on certainty about any one of them. It is held at 3 and not 4 because no factor exceeds 60% confidence, three of the eight bearish factors transmit through the same real-yield mechanism, and the fastest seven-year positioning build is a fragility that can reverse in a week.",
+   "g10_relative_ranking": "Among the dollar pairs EUR/USD is the highest-conviction short this cycle on the pairing of the two dossiers' own ladders: the dollar ranks 1st of 11 tactically at +0.3782 and the euro 8th of 11 at -0.2651, so no other G10 pair combines the strongest quote leg with so weak a base leg. Short EUR/USD screens ahead of short GBP/USD, because sterling is about 80% priced for a 2026-11-05 hike and has a 5.42% ten-year gilt yielding above Treasuries, and ahead of long USD/JPY, where the BoJ is at 1.25% with a JGB ten-year at a thirty-year high and US-Japan intervention coordination caps the pair. Long USD/CHF screens as the better pure carry expression at 387.5bp and a 0.54 carry-to-vol ratio, and long USD/CAD as the better tariff-and-policy-gap expression at 162.5bp — but both are more extended than EUR/USD on their own dossiers' descriptions. Within the euro complex, short EUR/USD is the deepest market but the most consensual entry; the euro dossier's own cleanest bearish expression is short EUR/CAD, which sits mid-range and survives a Hormuz settlement better.",
+   "scenarios": {
+    "base_case": {
+     "probability_pct": 50,
+     "pair_target": "EUR/USD 1.1100 (−152 pips / −1.35%)",
+     "timeframe": "by 2026-10-30 (2-4 weeks)",
+     "conditions": [
+      "US September CPI on 2026-10-14 prints core at or above 0.3% m/m, pushing December hike odds back above 60% after the soft payrolls",
+      "The FOMC holds on 2026-10-28 with December live, and the ECB holds on 2026-10-29 without pre-signalling December, with the Schatz staying at or below 3.20%",
+      "OAT-Bund stays above 105bp while French and Spanish politics remain unresolved",
+      "Brent holds USD 95–115 with no Hormuz settlement"
+     ],
+     "path": "The pair breaks the four-touch 1.11698–1.12235 band and makes a first weekly-close test of the 200-week average, which will sit near 1.1125 by then."
+    },
+    "upside_case": {
+     "probability_pct": 25,
+     "pair_target": "EUR/USD 1.1420 (+168 pips / +1.49%) — a short squeeze into the top of the four-touch 1.13902–1.14237 resistance band",
+     "conditions": [
+      "US core CPI at or below 0.1% m/m, with December odds falling below 40%",
+      "An ECB hike on 2026-10-29 or explicit December guidance, lifting the Schatz above 3.35%",
+      "Covering by a euro futures short that is already at a three-year extreme"
+     ]
+    },
+    "downside_case": {
+     "probability_pct": 25,
+     "pair_target": "EUR/USD 1.1025 (−227 pips / −2.02%) — the bottom of the five-touch 1.10243–1.10682 band",
+     "conditions": [
+      "A hawkish FOMC lifts UST-Bund above 180bp",
+      "A French confidence motion or an escalating Spanish election takes OAT-Bund above 130bp",
+      "Dealer gamma selling below the 1.1100 strike accelerates the break of the 200-week"
+     ]
+    }
+   },
+   "path_expectation": "The starting point is spot 29 pips above a four-touch support band, with euro shorts at a three-year extreme, so the most likely first move is a rebound rather than a clean break. That rebound should retest the 1.1300–1.1340 area, where the late-September breakdown and the 1.1300 barrier interest sit, and should stall below the 1.13902–1.14237 four-touch resistance. The second phase runs from US CPI on 2026-10-14 into the 2026-10-28/29 central-bank pair. A firm CPI and a hawkish-hold FOMC landing the day before a passive ECB take the pair through 1.1170 and into a test of the rising 200-week near 1.1125. Realised volatility should rise from 4.17% toward the 6.31% one-month implied, which means normal days of 60–75 pips rather than the current 57-pip ATR. Moves through barrier strikes (1.1200, 1.1100) can produce single-session extensions of 100 pips or more, as the 2026-10-05 print showed. The pattern is a stair-step with one meaningful squeeze, not a straight line. Execution and sizing: the preferred entry is to sell a retest of 1.1300–1.1340, with a stop at 1.1430 (7 pips above the 1.14237 band top, about 1.9× ATR from 1.1320) and a target of 1.1100. A partial position (one-third) at spot is acceptable, with the same stop. Risk 50bp of NAV at conviction 3. Notional = 0.50% ÷ stop distance in percent: from 1.1320 the stop is 0.97% away, so notional is about 0.52× NAV; from spot the stop is 178 pips or 1.58% away, so notional is about 0.32× NAV. If spot reaches 1.1100 without a retest, the rally entry will not fill. Accept that, and do not chase below the 200-week.",
+   "conviction_ladder": {
+    "current": 3,
+    "increase_conditions": [
+     "Increase to 4 if: a weekly close below 1.11698 (the floor of the four-touch band); the ECB holds on 2026-10-29 and the Schatz falls below 3.05%; UST-Bund holds above 175bp through the FOMC",
+     "Increase to 5 if: a weekly close below the 200-week average (about 1.110–1.113 in late October); OAT-Bund above 130bp before 2026-11-17; the 1M 25-delta risk reversal beyond −1.20 with 1M IV above 7.0%"
+    ],
+    "decrease_conditions": [
+     "Decrease to 2 if: a daily close above 1.14237; December Fed hike odds below 40% after the 2026-10-14 CPI; an ECB hike on 2026-10-29",
+     "Decrease to 1 if: a close above the 50-day at 1.15269 (inside the five-touch 1.15125–1.15904 band); a Hormuz reopening takes Brent below USD 90; UST-Bund below 140bp"
+    ]
+   },
+   "risk_reward": {
+    "base_case_payoff": "+152 pips / +1.35% for a short from spot (to 1.1100); +220 pips from the preferred 1.1320 entry",
+    "downside_case_loss": "−168 pips / −1.49% for a short from spot if the adverse branch reaches 1.1420; −110 pips at the stop from the preferred entry",
+    "risk_reward_ratio": "0.90:1 at spot; 2.0:1 from the preferred 1.1320 entry",
+    "expected_value": "At spot: 0.50 × 152 + 0.25 × (−168) + 0.25 × 227 = +91 pips, plus about 14 pips of roll over a month. At the preferred entry (1.1320): 0.50 × 220 + 0.25 × (−110) + 0.25 × 295 = +156 pips, conditional on a fill.",
+    "asymmetry_assessment": "At spot the trade is barely symmetric, because the adverse branch is larger than the base payoff. Waiting for the retest roughly doubles the ratio, at the cost of fill risk. Given the three-year positioning extreme, that is the right trade-off."
+   }
+  },
+  "strategic": {
+   "net_stance": "Bearish",
+   "conviction": 2,
+   "overall_confidence": 52,
+   "weighted_score_calculation": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative)",
+     "stance_score": 0,
+     "confidence": 55,
+     "conf_adj_score": 0,
+     "weight": 0.24,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 2,
+     "factor_name": "Inflation & Growth Dynamics",
+     "stance_score": -1,
+     "confidence": 50,
+     "conf_adj_score": -0.5,
+     "weight": 0.1,
+     "weighted_contribution": -0.05
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.03,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 4,
+     "factor_name": "Flows & Positioning",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.06,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance & Terms of Trade",
+     "stance_score": -1,
+     "confidence": 54,
+     "conf_adj_score": -0.54,
+     "weight": 0.18,
+     "weighted_contribution": -0.0972
+    },
+    {
+     "factor_number": 6,
+     "factor_name": "Guidance & Credibility",
+     "stance_score": -1,
+     "confidence": 54,
+     "conf_adj_score": -0.54,
+     "weight": 0.12,
+     "weighted_contribution": -0.0648
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk & Geopolitics",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.05,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign Risk",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.07,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 9,
+     "factor_name": "Market Structure & Volatility",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.03,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.12,
+     "weighted_contribution": 0
+    }
+   ],
+   "net_weighted_score": -0.212,
+   "score_interpretation": "A net score of -0.2120 is Bearish EUR/USD under the mechanical rule, but it is produced in a completely different and much narrower way than the tactical score. Only three of the ten factors carry any contribution at all: External Balance & Terms of Trade at -0.0972 on an adjusted weight of 0.18, Guidance & Credibility at -0.0648 on 0.12, and Inflation & Growth at -0.0500 on 0.10. The other seven — including the heaviest, Policy & Rates at 0.24, and USD Liquidity & Funding at 0.12 — are Neutral and contribute exactly zero, in most cases because the two dossiers reach opposing conclusions from their own side of the pair and the honest bilateral netting is a wash. The ten applied weights sum to exactly 1.00 and the contributions re-sum to -0.2120. This is a score with depth in three places and no breadth, which is the opposite diagnosis from the tactical column and the reason conviction is 2.",
+   "rationale": "At strategic weights the bearish case stops being a rate story and becomes an energy terms-of-trade story, and it rests on three factors rather than eight. Policy & Rates, the heaviest factor at 0.24, neutralises entirely: the September dot plot puts the median fed funds rate at 4.1% for both end-2026 and end-2027 — one more hike and then a flat year — while the German two-year Schatz carries roughly 70bp of further ECB tightening, so the -137.5bp differential should compress toward about -92bp, which is pair-positive and cancels the single largest tactical negative. USD Liquidity neutralises for the same kind of reason: runoff is over, the Desk is adding bills, a 4.00% standing repo rate caps any squeeze and peer tightening lowers euro hedging costs, all pair-positive, against a long-end term premium and a 2.88% real yield that are pair-negative. What replaces them is External Balance, whose weight was raised to 0.18 and which contributes -0.0972, the largest single line in the table. The euro area enters winter as the G10's largest net energy importer with EU gas storage at roughly 70% of capacity, about 12 percentage points below a year earlier, while TTF at EUR 72.90/MWh sits 43% above the ECB's own EUR 51.0/MWh technical assumption — an assumption revised up 11.7 in the September round — and the ECB's own estimate is that wholesale gas reaches retail inflation within one to three months, so the September spike is still ahead of the data. The United States is on the other side of that same shock as a net energy exporter, which is why this is a pair asymmetry and not a euro-area story told twice. Guidance adds -0.0648 on arithmetic: we expect one further ECB hike, most likely at the 2026-12-17 projection round, against roughly 2.8 priced, an under-delivery worth perhaps 1.5-2.0% on the historical UST-Bund beta, while the Fed's path is already believed to within 5bp of its dots. Inflation and growth adds -0.0500 because the euro-area overshoot is imported and fades mechanically while the roughly 1.4-point 2026 growth gap in the ECB's and the Fed's own projections does not. The conflicts are substantial and are the reason conviction is 2. Fiscal risk nets to zero: France at 119.3% of GDP with no TPI cover against a United States at 101% and rising with net interest above USD 1.0tn and a 2026-12-11 funding cliff. Flows nets to zero: a 216,483-contract asset-manager euro long being cut against a dollar reserve share that fell 0.48 percentage points in a single quarter while euro holdings rose roughly USD 100bn. Event risk nets to zero: the 2026-11-17 French vote and a 2027 presidential field led from both extremes against a 35% US shutdown probability and unpriced midterms. What is priced is a 1.16-1.20 consensus that requires the energy premium to drain without Hormuz reopening; what we expect is that it does not drain on schedule. The path of least resistance is lower, but it is carried by a single dominant channel, and the one event that breaks it — a Gulf settlement — reverses both legs at once rather than one.",
+   "g10_relative_ranking": "Strategically EUR/USD is a far less attractive short than tactically, and it is not the best expression of either leg's view. On the two dossiers' own strategic ladders the euro ranks 7th of 11 at -0.2700 and the dollar 8th of 11 at -0.1822, so both legs are weak and the pair is the difference between two negatives rather than a positive against a negative — the structural reason the score falls from -0.3549 to -0.2120 and conviction from 3 to 2. The dollar dossier's own strategic ranking puts short USD/JPY ahead of anything in the euro complex, with the yen at +0.2569, the dollar roughly 62% rich on a REER-relative basis and the BoJ still normalising, and ranks NOK at +0.2741 and SEK at +0.2576 above both legs of this pair. Within the euro complex the strategic bearish view is better expressed in short EUR/CAD, which the euro dossier identifies as the only mid-range euro cross and which reads the same energy shock from the other side, than in short EUR/USD where the quote leg is itself strategically bearish.",
+   "scenarios": {
+    "base_case": {
+     "probability_pct": 50,
+     "pair_target": "EUR/USD 1.1000 (−252 pips / −2.24%)",
+     "timeframe": "to about 2027-04-01 (1-6 months)",
+     "conditions": [
+      "The ECB delivers one hike at most (on 2026-12-17) against about 2.8 priced, and the Schatz falls below 3.05%",
+      "The Fed hikes once to 4.00–4.25% and the December SEP leaves the 2027 dot at 4.1%",
+      "EU storage falls below 45% by February with TTF at EUR 60–90/MWh and no Hormuz settlement",
+      "OAT-Bund stays in a 100–140bp range through and after the 2026-11-17 vote"
+     ],
+     "path": "A weekly close below the 200-week average and a move into the lower half of the five-touch 1.10243–1.10682 band during the heating season."
+    },
+    "upside_case": {
+     "probability_pct": 25,
+     "pair_target": "EUR/USD 1.1600 (+348 pips / +3.09%) — the top of the five-touch 1.15125–1.15904 band, just short of the 200-day",
+     "conditions": [
+      "A Gulf settlement takes Brent below USD 90 and TTF toward EUR 55/MWh",
+      "The ECB delivers two or more hikes by March while the Fed plateaus, compressing UST-Bund below 130bp",
+      "A US shutdown from 2026-12-11, or a Fed that skips December"
+     ]
+    },
+    "downside_case": {
+     "probability_pct": 25,
+     "pair_target": "EUR/USD 1.0700 (−552 pips / −4.91%) — the five-touch 1.06442–1.07331 band",
+     "conditions": [
+      "The French government falls and OAT-Bund trades above 150bp with no TPI",
+      "Renewed Hormuz closure takes TTF above EUR 100/MWh into a cold winter",
+      "The December SEP lifts the 2027 Fed dot to 4.4% or higher"
+     ]
+    }
+   },
+   "path_expectation": "The strategic path has three phases. October is the tactical leg toward a 200-week test near 1.1125. November is a range of about 1.10–1.13 shaped by the 2026-11-03 midterms and the 2026-11-17 French vote, where moves of 150–250 pips around the vote are plausible. December to February is the energy phase, when the 2026-12-17 ECB projections must mark the gas assumption to market and the storage drawdown becomes measurable. The rising 200-week sets the clock. If spot is still above it by mid-February 2027, the average will have risen to meet price and the bearish case will have failed on time. Pullbacks toward the 1.13902–1.14237 band should be sold while the five-touch 1.15125–1.15904 band holds above. Execution and sizing: build the position on rallies into 1.1390–1.1420. Use a hard stop at 1.1600, on a weekly-close basis above 1.15904, and target 1.1000. Risk 30bp of NAV at conviction 2. The stop is 1.75% from 1.1400, so notional is about 0.17× NAV. A 6M forward short struck near 1.13358 from spot earns about 84 pips of roll over the horizon.",
+   "conviction_ladder": {
+    "current": 2,
+    "increase_conditions": [
+     "Increase to 3 if: a weekly close below the 200-week; the 2026-12-17 ECB projections lift 2027 HICP while cutting 2027 GDP below 1.2%; EU storage below 50% by mid-January",
+     "Increase to 4 if: a weekly close below 1.10243 (the floor of the five-touch band); OAT-Bund above 140bp after 2026-11-17; the euro-area 2026-Q3 current account below 1.5% of GDP"
+    ],
+    "decrease_conditions": [
+     "Decrease to 1 if: a weekly close above 1.15904; TTF below EUR 55/MWh with storage recovering; UST-Bund below 125bp; or the ECB delivers two hikes by February"
+    ]
+   },
+   "risk_reward": {
+    "base_case_payoff": "+252 pips / +2.24% for a short from spot (to 1.1000); +400 pips from the preferred 1.1400 entry",
+    "downside_case_loss": "−348 pips / −3.09% for a short from spot if the adverse branch reaches 1.1600; −200 pips at the stop from 1.1400",
+    "risk_reward_ratio": "0.72:1 from spot; 2.0:1 from the preferred 1.1400 entry",
+    "expected_value": "From spot: 0.50 × 252 + 0.25 × (−348) + 0.25 × 552 = +177 pips, plus about 84 pips of six-month roll. From the preferred entry (1.1400): 200 − 50 + 175 = +325 pips.",
+    "asymmetry_assessment": "The expected value depends on the fat downside tail. A Gulf settlement arrives as a gap, not a drift, so size against the full 348-pip adverse branch rather than against ATR."
+   }
+  },
+  "consensus_divergence": {
+   "bank_consensus_forecast": "Bank research consensus is bullish EUR/USD and clustered at 1.16-1.20. MUFG's September Monthly Foreign Exchange Outlook has 1.18 for Q4 2026 and 1.20 for Q1 and Q2 2027, with a dollar index of 98.07 and 96.53, and characterises the September Fed hike as a policy error. Scotiabank's September Foreign Exchange Outlook has 1.20 by Q4 2026 and 1.22 by Q3 2027, citing the dollar's sizeable fiscal and current-account deficits. CaixaBank Research has 1.16 for Q4 2026 rising to 1.20 by Q4 2028. Nomura recommends buying the euro with a year-end target of 1.20; UBS Global Wealth Management is constructive on euro assets. TD Securities on 2026-09-30 recommended a long EUR/USD three-month zero-cost risk reversal. The ECB's own technical assumption for 2026 is 1.16. The lone prominent bearish dissenter located in either dossier is ANZ, which treats tactical upside as an opportunity to sell. Pass-2 quantification: one aggregator puts the 27-bank consensus year-end target at 1.1668, 416 pips above spot. ING is retaining a 1.160 year-end target while Goldman Sachs predicts further losses, and Goldman sees 1.14 in three months and 1.12 at six and twelve months. Bank of America expects EUR/USD to end 2026 at 1.15, citing a stronger dollar.",
+   "bank_consensus_forecast_source": "Named bank research as cited in the EUR and USD dossiers: MUFG Research (September Monthly FX Outlook), Scotiabank Economics (September FX Outlook), CaixaBank Research, Nomura, UBS Global Wealth Management, TD Securities (via FXStreet), ANZ, ECB staff projections; pass-2 additions: Goldman Sachs, ING and Bank of America as reported via ExchangeRates.org.uk and FX Bank Forecast, and a 27-bank aggregate year-end target. No proprietary consensus survey was purchased, and no extrapolation site such as LongForecast, WalletInvestor, CoinCodex or 30rates is used or treated as bank research.",
+   "our_tactical_view": "Bearish EUR/USD, net weighted score -0.3549, conviction 3, overall confidence 62. The pair falls over two to four weeks on the rate and real-yield differential, guidance under-delivery by the ECB against its own curve, unbackstopped French sovereign risk into the 2026-11-17 vote and an energy terms-of-trade shock that taxes the base leg while paying the quote leg.",
+   "our_strategic_view": "Bearish EUR/USD, net weighted score -0.2120, conviction 2, overall confidence 52. Direction unchanged but the mechanism rotates entirely to the external balance and guidance channels, with the heaviest factor neutral and seven of ten factors contributing nothing.",
+   "divergence_direction": "below consensus",
+   "divergence_magnitude": "Against our six-month base of 1.1000: 668 pips below the 27-bank year-end consensus (1.1668), 598 pips below the 28-provider survey (1.1598), 600 pips below ING (1.160), 500 pips below BofA (1.15) and 200 pips below Goldman's six-month 1.12 (Goldman is the closest major house and agrees on direction).",
+   "why_we_differ": "Three channels are underweighted by consensus and one is overweighted. First, consensus treats the energy shock as a price level that drains away rather than as a stock problem: EU gas storage near 70% and roughly 12 points below a year earlier means the euro area enters winter without a buffer, EU energy imports are already running 13.9% higher year on year at EUR 41.3bn a month for a EUR 28.0bn monthly deficit, and the same shock is a terms-of-trade gain to the quote leg because the United States is a net exporter — so it moves both legs of the pair the same way instead of cancelling. Second, consensus treats French fiscal risk as a contained spread story, when OAT-Bund at 111.2bp is the widest since 2012 against a debt stock of 119.3% of GDP, French yields exceed Italy's and Greece's on some maturities, and the Transmission Protection Instrument by construction does not cover a fundamentals-driven widening, so there is no mechanical ceiling into the 2026-11-17 vote. Third, consensus treats roughly 2.8 priced ECB hikes as deliverable, when the Governing Council explicitly declines to pre-commit, Lagarde says the Bank does not react to energy prices, core HICP has fallen to 2.4% and negotiated wages have decelerated to 3.0%. The overweighted channel is Fed easing: the September median dot is 4.1% for BOTH end-2026 and end-2027, so there are no cuts in the Fed's own projection, yet the bullish-euro case generally assumes dollar weakness sourced from easing rather than from a plateau. Pass-2 quantification: the published distribution is wider and more bearish than the dossiers' 1.16–1.20 cluster suggests; a survey of 28 forecast providers shows a consensus forecast of 1.1598 (+2.03% vs spot), with 72% bullish.",
+   "payoff_if_right": "If we are right, a short from 1.1400 earns about 400 pips in the base case (1.1000) while consensus positioning, which leans toward euro recovery, loses about 600.",
+   "risk_if_wrong": "The dominant error case is a single headline rather than a slow data drift: a credible Hormuz reopening would remove the euro area's terms-of-trade tax and the United States' energy windfall simultaneously, breaking the heaviest strategic factor and the amplifying Gulf channel in Factors 3, 5 and 7 at once. Secondary error cases are an ECB hike on 2026-10-29 against under 30% priced, a US core CPI print at or below 0.1% month on month on 2026-10-14 that drops December hike odds below 40%, and continuation of the asset-manager unwind being arrested by reserve-manager buying. Because the error arrives as a gap rather than a drift, the position should be sized against an event move and not against a normal session. If consensus 1.16 is reached, the short loses 200 pips from 1.1400, or 348 from spot."
+  },
+  "cross_horizon_consistency": {
+   "aligned": true,
+   "tactical_stance": "Bearish (net weighted score -0.3549, conviction 3)",
+   "strategic_stance": "Bearish (net weighted score -0.2120, conviction 2)",
+   "explanation": "The horizons agree on direction and disagree sharply on breadth, conviction and mechanism, and the second fact matters more than the first. Tactically eight of ten factors are Bearish and the score is carried by Policy & Rates and USD Liquidity, the rate and real-yield channels, with the two dossiers reinforcing each other — Bearish EUR plus Bullish USD. Strategically those two factors neutralise completely because the Fed's dots are flat at 4.1% through 2027 while the Schatz carries 70bp more ECB tightening, and because the Fed's ample-reserve framework prevents the dollar squeeze that would otherwise support the quote leg; the score is instead carried almost entirely by External Balance at -0.0972 on a raised 0.18 weight, with seven of ten factors contributing nothing at all. The standalone dossiers also stop reinforcing: strategically both legs are Bearish on their own terms, which is why the pair score falls by 40% and conviction by a full step.",
+   "inflection_point": null,
+   "trading_implication": "Because the direction agrees, the view can be held through rather than traded around, but the risk budget should follow the strategic distribution rather than the tactical one: the tactical case has breadth across five independent channels and would degrade gradually, while the strategic case has depth in one channel and would break in a single session on a Gulf settlement. The practical consequence is a smaller position held longer, with the gated calendar supplying the three decision points at which the thesis is re-tested — 2026-10-29, 2026-12-09 with its SEP, and 2026-12-17 with its projections. Pass-2 timing note: the price structure adds a fourth decision point. The 200-week average, rising by 8.0 pips a week, meets a flat spot in about 19 weeks, around mid-February 2027, when the heating-season storage outcome is also known. In practice: run the tactical position (rally entry, 1.1430 stop) into 2026-10-29. Keep only the strategic core (entry 1.1390–1.1420, 1.1600 stop) through December. Close the strategic position if spot has not achieved a weekly close below the 200-week by mid-February."
+  },
+  "forward_vs_spot": {
+   "current_spot": 1.12521,
+   "forward_1m": "1.12659 (+13.8 pips, +0.12%, euro appreciation implied; 30d, derived not quoted). Expected spot 1.1100, edge +156 pips for a short.",
+   "forward_3m": "1.12940 (+41.9 pips, +0.37%; 91d, derived not quoted)",
+   "forward_6m": "1.13358 (+83.7 pips, +0.74%; 182d, derived not quoted)",
+   "expected_rate_3m": "1.1050",
+   "expected_rate_6m": "1.1000",
+   "edge_3m": "+244 pips for a short (1.12940 forward vs 1.1050 expected). This is the cleanest edge relative to volatility: 244 pips against a three-month one-standard-deviation move of about 343 pips (6.099% × √(91/365) × 1.12521).",
+   "edge_6m": "+336 pips for a short (1.13358 forward vs 1.1000 expected); larger but rests on the narrow three-factor strategic score. Probability-weighting the strategic scenarios gives 1.1075, which still leaves a six-month edge of 283 pips against the forward. Forwards embed the 149.2bp annualised CME roll (interest differential plus a basis of about −12bp) and imply modest euro appreciation of 1.49% a year purely from carry; our base path implies the reverse."
+  }
+ },
+ "catalysts": [
+  {
+   "date": "2026-10-02",
+   "event": "Euro-area September HICP flash and US September payrolls (occurred on spotDate)",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Both",
+   "rationale": "Both releases landed on the payload's spot date. The euro flash showed core edging up to 2.5%, below the 2.6% repricing threshold. The softer US jobs data cut October Fed hike odds sharply, which works against tactical Factor 1 and makes the 2026-10-14 CPI the swing event.",
+   "priced_in": "Fully",
+   "citations": [
+    24,
+    29
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "event": "Spanish snap-election process (onward)",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Base",
+   "rationale": "This adds a second euro-area political binary alongside France. It has already triggered barrier selling and a 16-month low. Peripheral and French spreads transmit to the pair through a negative correlation.",
+   "priced_in": "Partially",
+   "citations": []
+  },
+  {
+   "date": "2026-10-07",
+   "event": "FOMC minutes of the 15-16 September meeting",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Quote",
+   "rationale": "A broad hawkish majority behind the 12-0 hike would rebuild December odds after the payroll miss. The ECB has no comparable communication before 2026-10-29, so the minutes go unanswered.",
+   "priced_in": "Partially",
+   "citations": [
+    31,
+    32
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "event": "US September CPI",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Quote",
+   "rationale": "This is the single most important tactical event after the soft payrolls. Core at 0.3% m/m or above restores the real-yield pull and the base-case path toward 1.1100. Core at 0.1% or below drops December odds below 40% and is the most likely trigger for a squeeze toward 1.1420.",
+   "priced_in": "Partially",
+   "citations": [
+    33,
+    37
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "event": "FOMC decision (no SEP)",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Quote",
+   "rationale": "The base case is a hold with December kept live. It lands one day before the ECB, so a hawkish hold reaches the pair before the Council can respond. On the tactical base path this is also the week of the first 200-week test, near 1.1125.",
+   "priced_in": "Partially",
+   "citations": [
+    31,
+    36
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "event": "ECB Governing Council decision (no projections)",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "A hold disappoints the roughly 70bp carried in the Schatz and is mildly pair-negative. A hike against under 30% priced is the clearest pair-positive event in the window. Post-payload commentary points to the ECB waiting for December.",
+   "priced_in": "Partially",
+   "citations": [
+    21,
+    29
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "event": "US midterm elections",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Quote",
+   "rationale": "A divided Congress raises the risk of a 2026-12-11 shutdown, which is pair-positive. A unified Congress raises term-premium risk, which has so far attracted capital and is pair-negative. The volatility surface prices nothing for the date.",
+   "priced_in": "Not priced",
+   "citations": [
+    47,
+    48
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "event": "French National Assembly vote on the 2027 budget",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Base",
+   "rationale": "This is the widest-distribution euro binary in the horizon. A collapse takes OAT-Bund above 130bp with no TPI cover. It falls inside the 3M tenor, which is the cheapest point on the volatility curve.",
+   "priced_in": "Not priced",
+   "citations": [
+    26,
+    27,
+    49
+   ]
+  },
+  {
+   "date": "2026-12-09",
+   "event": "FOMC decision with SEP",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Quote",
+   "rationale": "An unchanged 4.1% 2027 dot marks the dollar's plateau, which the strategic Neutral on Factor 1 depends on. A 2027 dot of 4.4% or higher widens the differential and strengthens the bearish case.",
+   "priced_in": "Partially",
+   "citations": [
+    31,
+    32
+   ]
+  },
+  {
+   "date": "2026-12-11",
+   "event": "US continuing-resolution expiry",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Quote",
+   "rationale": "A 35% shutdown probability during the year-end funding turn is pair-positive through governance risk, with reserves near the USD 3tn comfort level. The continuing resolution signed 2026-09-01 funds the government only to this date, and Fitch flagged gridlock and shutdown risk.",
+   "priced_in": "Not priced",
+   "citations": [
+    47,
+    48
+   ]
+  },
+  {
+   "date": "2026-12-17",
+   "event": "ECB decision with staff projections",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "This is the likeliest venue for the single hike we expect. The hike itself is pair-positive, but marking the EUR 51.0/MWh gas assumption and the 1.16 EUR/USD assumption to market produces a stagflationary revision that is pair-negative.",
+   "priced_in": "Partially",
+   "citations": [
+    21,
+    22,
+    45
+   ]
+  },
+  {
+   "date": "2027-02-15",
+   "event": "200-week convergence point and end of peak heating season (mid-February 2027)",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Both",
+   "rationale": "A flat spot meets the rising 200-week around here. Storage outcomes are measurable by then. Either the strategic case has delivered a break below the average or it has failed on time.",
+   "priced_in": "Not priced",
+   "citations": [
+    45
+   ]
+  }
+ ],
+ "invalidators": [
+  {
+   "condition": "EUR/USD closes above 1.14237, the top of the four-touch resistance band, on a daily basis before 2026-10-28",
+   "new_stance": "Neutral (tactical)",
+   "mechanism": "Breaking the former-support-turned-resistance band would show that the late-September breakdown has failed and that the extreme euro short is covering.",
+   "monitor_indicator": "EUR/USD daily close against 1.14237",
+   "monitor_frequency": "daily",
+   "probability_pct": 18
+  },
+  {
+   "condition": "US core CPI on 2026-10-14 prints 0.1% m/m or less and December Fed hike odds fall below 40%",
+   "new_stance": "Neutral (tactical)",
+   "mechanism": "That would remove the real-yield channel shared by Factors 1, 6 and 10, which together carry 42% of tactical weight.",
+   "monitor_indicator": "Core CPI and CME FedWatch",
+   "monitor_frequency": "monthly release, daily odds",
+   "probability_pct": 20
+  },
+  {
+   "condition": "The ECB hikes to 2.75% on 2026-10-29 and the Schatz rises above 3.35% while the FOMC holds the day before",
+   "new_stance": "Neutral to Bullish (tactical)",
+   "mechanism": "That would reverse the sequencing asymmetry and the guidance-gap thesis in a single session.",
+   "monitor_indicator": "ECB deposit rate, German 2-year yield",
+   "monitor_frequency": "at the meeting, then daily",
+   "probability_pct": 15
+  },
+  {
+   "condition": "A Hormuz settlement takes Brent below USD 90 and TTF below EUR 55/MWh",
+   "new_stance": "Bullish (strategic)",
+   "mechanism": "That would reverse the energy terms-of-trade asymmetry on both legs at once and remove the −0.0972 External Balance contribution.",
+   "monitor_indicator": "Brent, TTF front-month, EU storage",
+   "monitor_frequency": "daily",
+   "probability_pct": 15
+  },
+  {
+   "condition": "UST-Bund 10-year compresses below 130bp for five sessions while EUR/USD holds above the 200-week",
+   "new_stance": "Neutral (strategic)",
+   "mechanism": "That would confirm the policy and real-yield compression that pass 1 treats as smaller than priced.",
+   "monitor_indicator": "US 10-year less German 10-year",
+   "monitor_frequency": "daily",
+   "probability_pct": 15
+  },
+  {
+   "condition": "EUR/USD posts a weekly close above 1.15904, the top of the five-touch band that contains the 50-day and 100-day averages",
+   "new_stance": "Neutral (strategic)",
+   "mechanism": "That would be a fundamental rejection of the bearish case, since the band held the pair for a year.",
+   "monitor_indicator": "EUR/USD weekly close",
+   "monitor_frequency": "weekly",
+   "probability_pct": 12
+  },
+  {
+   "condition": "CFTC euro non-commercial positioning builds beyond −100,000 contracts while the pair fails to close below the 200-week for three consecutive weeks",
+   "new_stance": "Neutral (tactical)",
+   "mechanism": "That would mark positioning exhaustion at the structural floor, the classic setup for a sharp reversal in this pair.",
+   "monitor_indicator": "CFTC legacy euro futures net non-commercial position",
+   "monitor_frequency": "weekly",
+   "probability_pct": 12
+  }
+ ],
+ "signposts": [
+  {
+   "indicator": "US 10-year minus German 10-year spread",
+   "current_level": "about 166–172bp (US 5.24%; Bund 3.52–3.58%)",
+   "confirms_if": "above 180bp",
+   "invalidates_if": "below 130bp for five sessions",
+   "bilateral_importance": "This is the EUR/USD differential specifically. Both dossiers name it as the pair's primary yield driver, so its moves change only this pair's fundamental anchor rather than broad dollar levels.",
+   "source": "https://tradingeconomics.com/germany/government-bond-yield",
+   "frequency": "daily"
+  },
+  {
+   "indicator": "EUR/USD weekly close versus the 200-week SMA",
+   "current_level": "spot 1.12521 against a 200-week at 1.10973 (+155 pips), rising by 8.0 pips a week",
+   "confirms_if": "a weekly close below the 200-week (about 1.1125 by late October)",
+   "invalidates_if": "a weekly close back above 1.14237, or spot still above the average by mid-February 2027 as it converges",
+   "bilateral_importance": "This is the pair's own structural floor. Asset managers' 216,483-contract euro long was built above it, so a break releases real-money supply that is unique to this pair.",
+   "source": "https://www.cmegroup.com/markets/fx/g10/euro-fx.html",
+   "frequency": "weekly"
+  },
+  {
+   "indicator": "OAT-Bund 10-year spread",
+   "current_level": "111.2bp (2026-09-29)",
+   "confirms_if": "above 130bp before or at the 2026-11-17 vote",
+   "invalidates_if": "below 85bp",
+   "bilateral_importance": "The dollar leg has no comparable unbackstopped sovereign spread, so French stress is a one-sided risk premium in this pair rather than a cross-cutting one.",
+   "source": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html",
+   "frequency": "daily"
+  },
+  {
+   "indicator": "EUR/USD 1M 25-delta risk reversal and 1M ATM implied volatility",
+   "current_level": "−0.841 vols; 6.31% IV (2026-09-30)",
+   "confirms_if": "beyond −1.20 with IV above 7.0%",
+   "invalidates_if": "back inside −0.30 with IV below 5.5%",
+   "bilateral_importance": "This pair's own skew shows whether dealers are short gamma below the 1.1300/1.1200 barrier strikes, the mechanism behind the 2026-10-05 extension.",
+   "source": "https://www.cmegroup.com/markets/fx/g10/euro-fx.quotes.options.html",
+   "frequency": "daily"
+  },
+  {
+   "indicator": "CFTC legacy non-commercial euro net position",
+   "current_level": "−63,256 contracts (2026-09-29), at a three-year extreme",
+   "confirms_if": "shorts build toward −85,000 while the pair makes new lows below the 200-week",
+   "invalidates_if": "a cover back above −25,000 with the pair above 1.14237",
+   "bilateral_importance": "The euro future is the only listed futures market on this exact pair, so this is the direct read on how crowded short EUR/USD is.",
+   "source": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+   "frequency": "weekly (Friday, data as of Tuesday)"
+  },
+  {
+   "indicator": "Dutch TTF front-month and EU gas storage",
+   "current_level": "TTF EUR 72.90/MWh; storage about 70% (2026-09-23)",
+   "confirms_if": "TTF above EUR 85, or storage below 45% before 2027-02-01",
+   "invalidates_if": "TTF below EUR 55 with storage recovering",
+   "bilateral_importance": "The same price taxes the base leg and pays the quote leg through US LNG netbacks, so it moves the pair twice.",
+   "source": "https://agsi.gie.eu/",
+   "frequency": "daily price, daily/weekly storage"
+  },
+  {
+   "indicator": "CME FedWatch December hike probability",
+   "current_level": "about 70% (dossier); October odds fell to roughly a quarter after the 2026-10-02 payrolls",
+   "confirms_if": "December stays above 60% after the 2026-10-14 CPI",
+   "invalidates_if": "below 40%",
+   "bilateral_importance": "With the ECB expected to pass, Fed odds are the swing variable in the tactical differential for this pair.",
+   "source": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
+   "frequency": "daily"
+  }
+ ],
+ "assumptions": [
+  "Price series, quoted verbatim from the payload: dataPoints 130; dateRange \"2026-04-06 to 2026-10-02\"; spot 1.12521; spotDate \"2026-10-02\"; computationRange \"2008-08-26 to 2026-10-02 (4716 weekday bars)\". The dataQuality line is: \"EUR/USD: 4716 weekday bars in the store (2008-08-26 to 2026-10-02); 945 weekly, 273 monthly; 130 daily bars passed downstream (2026-04-06 to 2026-10-02), which is the 1-6 month strategic horizon\".",
+  "Spot date versus valuation date: spotDate 2026-10-02 is one session AFTER the 2026-10-01 valuation date. Every level, pip distance, percentage, forward and MA distance here is anchored to 1.12521. Web reports of later prices (the 2026-10-05 low of 1.1161 and trading back above 1.1200) are described as post-payload information only. They are not substituted for spot.",
+  "Moving averages are simple averages of trading-day (weekday-only) closes over the full stored history. The 200-week SMA (1.10973) and its slope (+0.000804 a week) come from the payload. Convergence timings (about 19 weeks for a flat spot; about 3.4 weeks on the tactical base path) are simple linear arithmetic and assume a constant slope.",
+  "Zone distances are the payload's own, measured to band midpoints. Zones are ranked by touch count, not proximity.",
+  "Realised volatility (4.17% over 20 days, 4.63% over 60 days) is annualised on 252 days from the payload. Implied volatility, risk reversals and butterflies come from the payload's CME surface (2026-09-30); the 3M tenor is 99.7 days. No IV percentile is asserted (iv_percentile is therefore null in this extraction).",
+  "Forwards are derived by linear extrapolation of the CME calendar-spread roll of 149.2bp. They are not quoted forward points. The roll includes the cross-currency basis (about −12bp); no live XEURBI print was available.",
+  "Rates: the payload's 10-year yields (EUR 3.18%, USD 4.68%) are monthly 2026-08-01 observations and are not quoted as live levels. Live UST-Bund figures come from the dossiers.",
+  "Bilateral trade is the supplied IMF DOTS 2024 block, used without re-estimation.",
+  "Factor scores and synthesis are carried unchanged from the pass-1 Direction Verdict, including weight adjustments, stances, confidences, evidence types and the derived net stances. Pass-2 observations note where post-payload information argues for or against a factor. The most material are the soft US payrolls against tactical Factor 1 and the deepened, three-year-extreme euro short in support of tactical Factor 4. None of them re-scores anything.",
+  "Scenario, invalidator and branch probabilities are subjective, calibrated to the framework's 50/25/25 convention. Position sizing uses a fixed-fractional rule (50bp of NAV at tactical conviction 3; 30bp at strategic conviction 2).",
+  "Web research covered pair-specific bank forecasts, chart patterns and barriers, options flow and CFTC positioning. Extrapolation sites (CoinCodex, WalletInvestor, LongForecast, Traders Union) appeared in results but are not used as forecasts.",
+  "Citation numbering in this extraction: ids 1–20 are the pass-2 bilateral research sources; ids 21–50 are the pass-1 dossier register entries P1-1 to P1-30 (id = 20 + n). Factor and catalyst citation arrays use these ids."
+ ],
+ "complete_citations": [
+  {
+   "id": 1,
+   "title": "EUR/USD Forecast October 2026: 1.13 Support in Focus",
+   "publisher": "DailyForex",
+   "url": "https://www.dailyforex.com/forex-technical-analysis/2026/09/eurusd-monthly-forecast-october-2026/250245",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 2,
+   "title": "Forex Weekly Forecast: USD Outlook, EUR/USD, Nasdaq & Crypto",
+   "publisher": "DailyForex",
+   "url": "https://www.dailyforex.com/forex-technical-analysis/2026/10/weekly-pairs-in-focus-from-5th-to-9th-october-2026/250337",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 3,
+   "title": "EURUSD forecast and analysis for today, 2 October 2026",
+   "publisher": "RoboForex",
+   "url": "https://roboforex.com/beginners/analytics/forex-forecast/currencies/eur-usd-forecast-2026-10-02/",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 4,
+   "title": "Euro to Dollar Forecast: EUR/USD Expected to Reach 1.1598",
+   "publisher": "ExchangeRates.org.uk",
+   "url": "https://www.exchangerates.org.uk/currency-forecasts/euro-to-dollar-forecast",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 5,
+   "title": "EUR/USD: FX Option Premiums Reach New Highs Since June",
+   "publisher": "eFXdata",
+   "url": "https://www.efxdata.com/insights/633ca6b5248b567fb0f00d519fb796d2.html",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 6,
+   "title": "Euro: EUR/USD risk reversal long setup – TD Securities",
+   "publisher": "BitcoinEthereumNews (FXStreet syndication)",
+   "url": "https://bitcoinethereumnews.com/finance/euro-eur-usd-risk-reversal-long-setup-td-securities/",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 7,
+   "title": "The Euro breaks to a fresh low, then bounces, as Spain calls a snap vote",
+   "publisher": "FXStreet",
+   "url": "https://fxstreet.com/news/the-euro-breaks-to-a-fresh-low-then-bounces-as-spain-calls-a-snap-vote-202610052228",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 8,
+   "title": "Euro softens below 1.1250 on France's fiscal risk",
+   "publisher": "FXStreet",
+   "url": "https://fxstreet.com/news/euro-softens-below-11250-on-frances-fiscal-risk-202610050043",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 9,
+   "title": "Forex Today: EUR/USD Breaks Below 1.12 to New 16-Month Low",
+   "publisher": "DailyForex",
+   "url": "https://www.dailyforex.com/forex-news/2026/10/forex-today-5-october-2026/250348",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 10,
+   "title": "EUR/USD: Euro Tests 16-Month Low at $1.1310 as Descending Channel Provides Support",
+   "publisher": "TradingView News",
+   "url": "https://www.tradingview.com/news/tradingview:e110ad232094b:0-eur-usd-euro-tests-16-month-low-at-1-1310-as-descending-channel-provides-support/",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 11,
+   "title": "EURUSD Wave Analysis",
+   "publisher": "ActionForex",
+   "url": "https://actionforex.com/contributors/technical-analysis/656498-eurusd-wave-analysis-85",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 12,
+   "title": "EUR USD Technical Analysis",
+   "publisher": "Investing.com",
+   "url": "https://www.investing.com/currencies/eur-usd-technical",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 13,
+   "title": "EUR/USD Forecast 2026 — GS's Bias vs Consensus",
+   "publisher": "FX Bank Forecast",
+   "url": "https://fxbankforecast.com/reports/goldman/currencies/eur",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 14,
+   "title": "Euro-to-Dollar Forecast: ING And Goldman Split Over USD Strength",
+   "publisher": "ExchangeRates.org.uk",
+   "url": "https://www.exchangerates.org.uk/news/47242/2026-09-22-euro-to-dollar-forecast-ing-and-goldman-split-over-usd-strength.html",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 15,
+   "title": "Euro Forecast 2026: Goldman Sachs Lowers EUR Targets To 1.12",
+   "publisher": "ExchangeRates.org.uk",
+   "url": "https://www.exchangerates.org.uk/news/46433/2026-07-07-euro-forecast-2026-goldman-sachs-lowers-eur-targets-to-1-12-as-usd-weakness-fades.html",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 16,
+   "title": "EUR to USD 2026 Forecasts & Latest Rates",
+   "publisher": "BestExchangeRates",
+   "url": "https://bestexchangerates.com/forecasts/eur-to-usd-forecast/",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 17,
+   "title": "Euro currency speculators increase net short position",
+   "publisher": "Business Standard",
+   "url": "https://www.business-standard.com/markets/capital-market-news/euro-currency-speculators-increase-net-short-position-126092800950_1.html",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 18,
+   "title": "CFTC Report: Defensive currency positioning takes hold",
+   "publisher": "FXStreet",
+   "url": "https://www.fxstreet.com/analysis/cftc-report-defensive-currency-positioning-takes-hold-202609261506",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 19,
+   "title": "CFTC COT report: speculators cut Canadian dollar net shorts … week to 29 September",
+   "publisher": "FX Tribune",
+   "url": "https://fxtribune.com/news/cftc-cot-report-speculators-cut-canadian-dollar-net-shorts-by-25-461-contracts-in-week-to-29-september/",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 20,
+   "title": "CFTC EUR speculative net positions",
+   "publisher": "Investing.com",
+   "url": "https://www.investing.com/economic-calendar/cftc-eur-speculative-positions-1611",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 21,
+   "title": "[P1-1] Monetary policy decisions, 10 September 2026",
+   "publisher": "European Central Bank",
+   "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
+   "date_accessed": "2026-10-01"
+  },
+  {
+   "id": 22,
+   "title": "[P1-2] ECB staff macroeconomic projections, September 2026",
+   "publisher": "European Central Bank",
+   "url": "https://www.ecb.europa.eu/press/projections/html/ecb.projections202609_ecbstaff~8e340fc69d.en.html",
+   "date_accessed": "2026-10-01"
+  },
+  {
+   "id": 23,
+   "title": "[P1-3] Lagarde: Hearing of the ECON Committee, 30 September 2026",
+   "publisher": "BIS",
+   "url": "https://www.bis.org/speeches/20260930-hearing-committee-economic-and-monetary-affairs-european-parliament",
+   "date_accessed": "2026-10-01"
+  },
+  {
+   "id": 24,
+   "title": "[P1-4] Annual inflation up to 3.2% in the euro area (August 2026)",
+   "publisher": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-17092026-ap",
+   "date_accessed": "2026-10-01"
+  },
+  {
+   "id": 25,
+   "title": "[P1-5] Euro area international trade in goods surplus EUR 14.2 bn (July 2026)",
+   "publisher": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/6-15092026-ap",
+   "date_accessed": "2026-10-01"
+  },
+  {
+   "id": 26,
+   "title": "[P1-6] OAT / Bund spread today: 111.2 bps",
+   "publisher": "Ideal Investisseur",
+   "url": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html",
+   "date_accessed": "2026-10-01"
+  },
+  {
+   "id": 27,
+   "title": "[P1-7] French borrowing costs cross 2012 threshold",
+   "publisher": "Tech Times",
+   "url": "https://www.techtimes.com/articles/328349/20260930/french-borrowing-costs-cross-2012-threshold-54-billion-budget-vote-nears.htm",
+   "date_accessed": "2026-10-01"
+  },
+  {
+   "id": 28,
+   "title": "[P1-8] Germany 10-Year Government Bond Yield",
+   "publisher": "Trading Economics",
+   "url": "https://tradingeconomics.com/germany/government-bond-yield",
+   "date_accessed": "2026-10-01"
+  },
+  {
+   "id": 29,
+   "title": "[P1-9] European macro, 30 September 2026",
+   "publisher": "MUFG Research",
+   "url": "https://www.mufgresearch.com/macro/european-macro-30-september-2026",
+   "date_accessed": "2026-10-01"
+  },
+  {
+   "id": 30,
+   "title": "[P1-10] Monthly Foreign Exchange Outlook, September 2026",
+   "publisher": "MUFG Research",
+   "url": "https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-september-2026/",
+   "date_accessed": "2026-10-01"
+  },
+  {
+   "id": 31,
+   "title": "[P1-11] FOMC statement, 16 September 2026",
+   "publisher": "Federal Reserve",
+   "url": "https://federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 32,
+   "title": "[P1-12] Summary of Economic Projections, 16 September 2026",
+   "publisher": "Federal Reserve",
+   "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 33,
+   "title": "[P1-13] CPI Update 9/11/26",
+   "publisher": "Stephens Inc.",
+   "url": "https://www.stephens.com/uploads/shared/documents/PCG-Docs/CPI-Updates/CPI-Update_9-11-26.pdf",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 34,
+   "title": "[P1-14] Personal Income and Outlays, August 2026",
+   "publisher": "BEA",
+   "url": "https://bea.gov/news/2026/personal-income-and-outlays-august-2026",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 35,
+   "title": "[P1-15] U.S. International Transactions, 2nd Quarter 2026",
+   "publisher": "BEA",
+   "url": "https://bea.gov/news/2026/us-international-transactions-and-investment-position-2nd-quarter-2026",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 36,
+   "title": "[P1-16] Williams says the Fed has time; October hike odds below a coin flip",
+   "publisher": "24/7 Wall St",
+   "url": "https://247wallst.com/investing/2026/09/30/williams-says-the-fed-has-time-october-rate-hike-odds-fell-below-a-coin-flip/",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 37,
+   "title": "[P1-17] COT on forex and commodities, week to 22 September 2026",
+   "publisher": "Saxo",
+   "url": "https://www.home.saxo/content/articles/commodities/cot-on-forex-and-commodities---week-to-22-september-2026-28092026",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 38,
+   "title": "[P1-18] IMF data brief: COFER 2026Q2",
+   "publisher": "IMF",
+   "url": "https://data.imf.org/en/news/imf%20data%20brief%20september%2030",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 39,
+   "title": "[P1-19] US TIC inflows reach $83.7 billion in July",
+   "publisher": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-states/capital-flows/news/584349",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 40,
+   "title": "[P1-20] ICE BofA US High Yield OAS",
+   "publisher": "FRED",
+   "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 41,
+   "title": "[P1-21] Is Iran losing its leverage over the Strait of Hormuz?",
+   "publisher": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/9/30/economic-war-is-iran-losing-its-leverage-over-the-strait-of-hormuz",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 42,
+   "title": "[P1-22] Price expectations and demand key in ECB's next move, Schnabel says",
+   "publisher": "Investing.com",
+   "url": "https://www.investing.com/news/economy-news/price-expectations-and-demand-key-in-ecbs-next-move-schnabel-says-4925573",
+   "date_accessed": "2026-10-01"
+  },
+  {
+   "id": 43,
+   "title": "[P1-23] Foreign Exchange Outlook, September 2026",
+   "publisher": "Scotiabank Economics",
+   "url": "https://www.scotiabank.com/content/dam/scotiabank/sub-brands/scotiabank-economics/english/documents/foreign-exchange-outlook/fxoutlookSeptember2026.pdf",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 44,
+   "title": "[P1-24] FX Flash: Euro/Dollar, 29 September 2026",
+   "publisher": "CaixaBank Research",
+   "url": "https://www.caixabankresearch.com/sites/default/files/content/file/2026/09/29/34454/flash-divisas-eurusd.pdf",
+   "date_accessed": "2026-10-01"
+  },
+  {
+   "id": 45,
+   "title": "[P1-25] Dutch TTF Gas Steady as Easing Hormuz Risks Cap Rally",
+   "publisher": "Tradingpedia",
+   "url": "https://www.tradingpedia.com/2026/09/23/dutch-ttf-gas-steady-as-easing-hormuz-risks-cap-rally/",
+   "date_accessed": "2026-10-01"
+  },
+  {
+   "id": 46,
+   "title": "[P1-26] The Budget and Economic Outlook: 2026 to 2036",
+   "publisher": "CBO",
+   "url": "https://www.cbo.gov/publication/62105",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 47,
+   "title": "[P1-27] Trump signs government funding bill ahead of midterms",
+   "publisher": "Fox News",
+   "url": "https://www.foxnews.com/politics/trump-signs-government-funding-bill-avoiding-shutdown-ahead-midterms.amp",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 48,
+   "title": "[P1-28] Fitch affirms US at AA+, outlook stable",
+   "publisher": "investingLive",
+   "url": "https://investinglive.com/news/fitch-affirms-us-at-aa-keeps-outlook-stable-amid-growth-slowdown/",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 49,
+   "title": "[P1-29] Euro: EUR/USD risk reversal long setup – TD Securities",
+   "publisher": "FXStreet",
+   "url": "https://www.fxstreet.com/news/euro-eur-usd-risk-reversal-long-setup-td-securities-202609300811",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 50,
+   "title": "[P1-30] H.4.1 Factors Affecting Reserve Balances (1 October 2026)",
+   "publisher": "Federal Reserve",
+   "url": "https://www.federalreserve.gov/releases/h41/current/",
+   "date_accessed": "2026-10-05"
+  }
+ ]
+}

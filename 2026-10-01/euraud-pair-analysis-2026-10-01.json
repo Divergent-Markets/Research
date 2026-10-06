@@ -163,7 +163,7 @@
     "annualised_carry": "-210bp policy differential from the long-EUR/AUD point of view: a long pays 210bp and a short earns it. The rolled futures premium of 205.2bp is what a rolled position actually pays; it bundles the differential with cross-currency basis, which cannot be separated without an OIS curve.",
     "funding_premium": "205.2bp - Data-Cache/derived/fx_carry.csv (6A/6E:6AV6->6AX6), cme_calendar_spread_cross, observed 2026-09-30",
     "pair_3m_iv": "5.847% - triangle_realised_corr ESTIMATE at 99.7 days observed 2026-09-30, implied correlation 0.6721. Not a quote: runs 8.7% to 17.8% low against direct quotes, so treat it as a floor.",
-    "carry_to_vol_ratio": "0.359 (210bp/5.847%), probably nearer 0.31 because the vol estimate runs low; 0.351 on the 205.2bp funding premium (signed -0.351 from the long side)",
+    "carry_to_vol_ratio": 0.359,
     "carry_regime": "Carry is working for the AUD leg in the sense that the cross pays the second-widest policy differential in the euro complex, but a ratio near 0.31-0.36 is only moderate: below AUD/CHF at 0.814 and AUD/SEK at 0.564, well above AUD/USD at 0.117. EUR/AUD is a mid-table funding cross for an AUD long, not a dominant one.",
     "breakeven_move": "About 2.05% a year on the rolled premium, or roughly 0.17% a month and 0.51% a quarter; 27 / 83 / 166 pips at 1M / 3M / 6M."
    }

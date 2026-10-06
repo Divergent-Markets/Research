@@ -162,7 +162,7 @@
     "forward_implied_carry_source": "Direction payload funding block, premiumBp -296.5, CME 6J calendar spread observed 2026-09-30 (nearDays 18.6, farDays 46.7). By covered interest parity this is the differential plus cross-currency basis and is NOT the policy differential.",
     "pair_3m_iv": 8.801,
     "pair_3m_iv_source": "Direction payload impliedVol.atmIv3mPct, CME ATM, measured at 99.7 days (not 90), observed 2026-09-30, Data-Cache/derived/fx_iv.csv (JPU/6JZ6), quoted verbatim from the gated store",
-    "carry_to_vol_ratio": "0.298 (262.5bp policy differential / 8.801% payload 3M ATM IV); on the futures-roll premium the ratio is 0.337",
+    "carry_to_vol_ratio": 0.298,
     "carry_regime": "Carry is paying and not working. Every JPY cross except CHF/JPY fell over the month while paying 100-335bp a year to be held, and USD/JPY fell about 1.5% on the month while the 10y spread widened about 39bp - the funding currency appreciated against the whole set. For this pair specifically the carry is the second-highest in the G10 but the realised-vol denominator is the highest among the major funding pairs, so the cushion is thinner than the headline bp suggests.",
     "breakeven_move": "At payload spot and a 262.5bp differential, carry accrues about 34 pips a month to a long position (2.625% x 157.87 / 12 = 0.345 yen). On the futures-roll premium of 296.5bp it is about 39 pips a month. Either figure is a small fraction of a normal month's range in this pair, which is why the carry cushion does not rescue a wrong direction.",
     "reference": "See bilateral_carry_analysis for the full carry analysis, forward points and breakevens against the price payload."

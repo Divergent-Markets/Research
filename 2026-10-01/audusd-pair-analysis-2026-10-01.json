@@ -162,7 +162,7 @@
    "carry_analysis": {
     "annualised_carry": "72.5bp. Basis: RBA cash rate 4.60% minus Fed funds midpoint 3.875%, both from the gated direction payload",
     "pair_3m_iv": "7.813. Source: gated direction payload impliedVol.atmIv3mPct (CME ADU/6AZ6, observed 2026-09-30, 99.7-day tenor) via Data-Cache/derived/fx_iv.csv",
-    "carry_to_vol_ratio": "0.093. Basis: 0.725 / 7.813 using the gated 3-month ATM implied vol, not a realised-vol proxy",
+    "carry_to_vol_ratio": 0.093,
     "realised_roll": "CME calendar premium -56.2bp annualised (Data-Cache/derived/fx_carry.csv, 6A 6AV6->6AX6, observed 2026-09-30); by covered interest parity this is the interest differential plus the cross-currency basis and cannot be decomposed without an OIS curve, so the realised carry on a rolled long AUD position is about 56bp a year rather than 72.5bp",
     "breakeven_move": "At 72.5bp on a 0.69554 spot the monthly accrual is roughly 4 pips of the quote currency, and on the realised 56.2bp roll roughly 3 pips - an order of magnitude below a normal daily range for this pair, so carry ranks the pair but does not pay to hold it",
     "carry_regime": "Carry is a ranking signal and not a return engine. A 0.093 carry-to-vol is among the weakest in the AUD complex and is the single clearest reason this pair is the wrong vehicle for a rate-differential view relative to AUD crosses against zero- and low-rate funders."

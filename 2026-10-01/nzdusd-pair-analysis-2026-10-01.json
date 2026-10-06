@@ -1,0 +1,1382 @@
+{
+ "metadata": {
+  "pair": "NZDUSD",
+  "base_currency": "NZD",
+  "quote_currency": "USD",
+  "valuation_date": "2026-10-01",
+  "framework_version": "2.0",
+  "base_dossier_date": "2026-10-01",
+  "quote_dossier_date": "2026-10-01"
+ },
+ "pair_convention": {
+  "spot_reference": "NZD/USD 0.56142",
+  "spot_explanation": "NZD/USD at 0.56142 means 1 NZD = 0.56142 USD (gated store, spotDate 2026-10-02). NZD is the base currency and USD the quote currency. A rising number means the kiwi is strengthening against the dollar; a falling number means the kiwi is weakening against the dollar.",
+  "bullish_means": "pair RISES (NZD strengthens vs USD)",
+  "bearish_means": "pair FALLS (NZD weakens vs USD)",
+  "base_dossier_tactical_stance": "NZD standalone: Bearish tactical (conviction 2, net -0.159); Neutral strategic (net -0.066)",
+  "quote_dossier_tactical_stance": "USD standalone: Bullish tactical (conviction 3, net +0.3782, rank 1 of 11); Bearish strategic (conviction 2, net -0.1822, rank 8 of 11)"
+ },
+ "executive_summary": "NZD/USD is 0.56142 in the gated store (spotDate 2026-10-02). Under this pair's quoting convention, a rising number means a stronger kiwi. The pair is down 4.55% over one month, 1.12% over three months, 3.57% over six months and 1.75% over a year. Its close sits at the 4th percentile of the 52-week closing range, 31 pips above the intraday 52-week low of 0.55832 and 16 pips above the top of the series' strongest support band, 0.5556-0.5598, which has six touches. The main story is a rate gap that now runs against the kiwi. The OCR is 2.75% against a Fed effective rate of 3.875%, so the kiwi pays 112.5bp to hold. A rolled long costs about 4.9 pips a month at the CME roll premium of 106.6bp. Both central banks decide on 2026-10-28, so the differential cannot move before then. Two bilateral features are missing from either standalone dossier. First, the two decisions land on the same day, so an RBNZ hike can be cancelled out by the Fed within hours. Second, oil compounds rather than offsets for this pair: $100 Brent hurts the importer leg and helps the exporter leg, so it pushes the pair down twice. The settled verdict is Bearish tactically (conviction 3, score -0.4398) and Bullish strategically (conviction 2, score +0.1164). The pass-2 level work does not argue with the direction. It argues with where to enter: shorting at spot means selling into a six-touch floor with 20-day realised vol compressed to 5.9%. So the tactical short is built by selling rallies into 0.5645-0.5690, with a 0.5745 stop and targets of 0.5560 and 0.5450. The strategic long is built in the 0.5560-0.5600 band after 2026-10-28, with a stop on a weekly close below 0.5480 and targets of 0.5760 and 0.5980. The caveat is that kiwi shorts have been squeezed hard before: from a record leveraged-fund short in July, the pair rallied 5.3% in six weeks.",
+ "market_context": {
+  "spot": 0.56142,
+  "performance_1m": "-4.55%",
+  "performance_3m": "-1.12%",
+  "performance_6m": "-3.57%",
+  "performance_1y": "-1.75%",
+  "range_52w_low": 0.55832,
+  "range_52w_high": 0.6093,
+  "range_52w_percentile": 6,
+  "valuation_assessment": "The two dossiers' valuation lenses disagree sharply. PPP (base dossier) puts fair value at 0.6789, so spot at 0.56142 is 17.3% below it, a cushion rather than a catalyst. The REER-relative proxy (quote dossier) puts fair value near 0.5815, so on that basis the kiwi is only 3.45% cheap. BIS REERs show the kiwi at 102.84 (44th percentile of cached history) and the dollar at 106.70 (9th percentile). The current level prices a lasting terms-of-trade loss from $100 oil and a dollar holding its real-yield premium. Valuation sets a floor on how much further the pair should fall; it is not a timing signal. (Percentile shown is for the intraday 52-week range 0.55832-0.6093; against the closing range 0.55947-0.60657 spot is at the 4th percentile.)",
+  "positioning": {
+   "base_cftc_net": "NZD all-spec (legacy non-commercial) net -11,380 contracts (week to 2026-09-22, released 25 September), a 21,898-contract swing from +10,518 net long; asset managers -11,485 (weekly change -21,655), leveraged funds -4,787",
+   "base_cftc_percentile": 56,
+   "quote_cftc_net": "IMM aggregate USD long vs G10 $18.4bn, up $12.5bn in one week (fastest weekly build in seven years); NZD was the fourth-largest single sale at 21.9k contracts, the largest since 2018",
+   "quote_cftc_percentile": 44,
+   "net_pair_implication": "Both legs lean the same way (short NZD, long USD), which amplifies the pair signal and supports the tactical bearish view. Neither leg is at an extreme (44th-56th percentile), so this is momentum rather than a crowded trade to fade. Today's short is a fraction of July's record leveraged-fund short (29,582 contracts), leaving room to grow, but July also showed how violent a squeeze can be when the shared driver stalls: the pair rose 5.3% in six weeks.",
+   "crowding_assessment": "Not crowded: fresh directional lean on both legs, mid-range kiwi short with capacity to extend roughly 28K contracts to the August extreme near -39.6K; squeeze fuel sits in the 21,655-contract asset-manager swing"
+  },
+  "pair_technicals": {
+   "trend_regime": "trending_down",
+   "support_levels": [
+    0.5598,
+    0.55832,
+    0.5556,
+    0.55
+   ],
+   "resistance_levels": [
+    0.56445,
+    0.57292,
+    0.58255,
+    0.58885,
+    0.5997
+   ],
+   "key_moving_averages": "50-day 0.5824 (spot 3.60% / 210 pips below), 100-day 0.5809 (3.35% / 195 pips below), 200-day 0.58465 (3.97% / 232 pips below), 200-week 0.59784 (6.09% / 364 pips below; slope about -0.4 pips a week, effectively flat; spot below it for 32 weeks). Tangled bearish stack: 100-day below 50-day below 200-day, all within 38 pips of each other, spot below all three; the 50-day is already below the 200-day. Simple averages of closes over the full store (2007-12-24 to 2026-10-02).",
+   "chart_pattern": "Range breakdown, not a reversal formation: a wide range of roughly 0.5590-0.5980 lasting more than a year, followed by a sharp one-way sell-off from the 0.5980 supply area with lower highs and lower lows into early October. Each of the last five sessions (09-28 to 10-02) printed a lower daily high (0.56879, 0.56774, 0.56645, 0.56497, 0.56335); the pair closed below the June trough (0.56387) on 2026-09-29. Strongest computed support is the six-touch 0.5556-0.5598 band; the four-touch 0.56764-0.57292 zone is the September breakdown level and main sell zone on rallies. ATR(14) is 45 pips.",
+   "psychological_levels": [
+    0.55,
+    0.56,
+    0.57,
+    0.58,
+    0.6
+   ]
+  },
+  "pair_volatility": {
+   "iv_1m": 8.857,
+   "iv_3m": 8.651,
+   "iv_percentile": 70,
+   "rv_1m": 5.9,
+   "rv_vs_iv": "Positive variance risk premium: +2.96 vols at the front (1M implied 8.857% vs 20-day realised 5.9%) and +1.20 vols at three months (vs 60-day realised 7.45%). Options are expensive relative to the moves the pair is actually making.",
+   "risk_reversals": "25-delta risk reversal -0.784 / -0.900 / -0.777 vols at 36.7 / 99.7 / 155.7 days: puts bid at every tenor, and the front skew has roughly doubled from about -0.34 vols in late August. 25-delta butterflies 0.198 / 0.064 / 0.298 are small, so the skew is a directional lean rather than wing demand.",
+   "vol_term_structure": "Flat: ATM 8.857% (36.7d), 8.651% (99.7d), 8.761% (155.7d), with a slight front hump for the 2026-10-28 RBNZ/FOMC cluster. Only a small front-end event premium is priced for a window containing two policy decisions on one day, two elections and two CPI prints. No one-year IV percentile is available because CME history starts 2026-08-21; the base dossier puts it near the 70th percentile within 26 observations.",
+   "vol_regime": "Low realised vol / orderly breakdown: 20-day realised 5.9% (60-day 7.45%) while the market pays up for downside protection"
+  },
+  "recent_regime": "September was a dollar- and real-yield-led month: the Fed hiked to 3.75-4.00% and the US 10-year rose 45-51bp. That swamped the RBNZ's own hike to 2.75%, and the pair fell through every daily average and the June trough. The kiwi's high beta showed in its 4.55% one-month fall. Positioning flipped on both legs in the same week. After the payload, bond-market turmoil kept a safe-haven bid under the dollar. Reports also have soft US PCE and payroll data trimming October Fed-hike expectations, while markets still see roughly an 85% chance of a move by year-end. That US-data softness is the first crack in the mechanism behind the tactical score. The pair has given back the whole July-August rally, falling 365 pips (-6.1%) close to close from the 0.59795 peak on 2026-08-21.",
+  "citations": [
+   "https://www.fxstreet.com/news/nzd-usd-price-forecast-kiwi-remains-under-pressure-at-ytd-lows-sub-05600-202610050802",
+   "https://www.fxstreet.com/news/the-new-zealand-dollar-holds-near-its-lows-while-business-confidence-jumps-202610052300",
+   "https://www.tradingpedia.com/2026/10/05/nzd-usd-pressured-as-safe-haven-flows-boost-greenback/",
+   "https://fxstreet.com/news/new-zealand-dollar-flirts-with-ytd-low-below-05900-amid-resurgent-usd-demand-202610050248",
+   "https://www.tradingview.com/symbols/NZDUSD/",
+   "https://www.bloomberg.com/news/articles/2026-07-20/hedge-funds-dial-up-bearish-kiwi-bets-to-record-on-oil-rebound",
+   "https://www.instaforex.com/forex-news/3188946"
+  ]
+ },
+ "bilateral_carry_analysis": {
+  "base_policy_rate": 2.75,
+  "quote_policy_rate": 3.875,
+  "rate_differential_bps": -112.5,
+  "annualised_carry_bps": -112.5,
+  "pair_3m_iv": 8.651,
+  "pair_3m_iv_source": "Data-Cache/derived/fx_iv.csv (CME 6N/6NZ6 settlements, observed 2026-09-30, 99.7-day tenor)",
+  "carry_to_vol_ratio": -0.13,
+  "carry_regime": "negative carry (a long NZD/USD pays 112.5bp a year; carry is working for the short and against the long, and compressed realised vol makes the negative ratio more punitive for longs)",
+  "breakeven_move": "At the 106.6bp CME roll premium on 0.56142, a rolled position costs (long) or earns (short) about 4.9-5.0 pips a month, roughly 0.11 of a daily ATR. A short loses only if the pair rises more than about 5 pips over 30 days; a strategic long gives up about 30 pips of carry over six months.",
+  "forward_points": {
+   "1m": "+4.9 pips (outright 0.56191; NZD at forward premium as the lower-yielding leg)",
+   "3m": "+14.9 pips (outright 0.56291)",
+   "6m": "+29.8 pips (outright 0.56440)"
+  },
+  "carry_assessment": "The bilateral policy differential is -112.5bp (OCR 2.75% as of 2026-09-25 vs Fed effective 3.875% as of 2026-09-28), so a long NZD/USD pays carry and a short is paid it. The CME 6NZ6->6NH7 calendar spread (2026-09-30) implies a 106.6bp annualised funding premium, leaving a residual of about 6bp versus the policy gap that cannot be decomposed into a basis quote without an OIS curve. Carry-to-vol is -0.130 on 3M implied (8.651%), -0.127 on 1M implied (8.857%), -0.151 on 60-day realised (7.45%) and -0.191 on 20-day realised (5.9%). Forwards derived on an actual/365 basis trade above spot (1M 0.56191, 3M 0.56291, 6M 0.56440), implying the pair rising about 1.07% a year. The carry supports the tactical short by about 5 pips a month but is a drag on the strategic long, which is one reason the strategic view is better expressed through calls struck 0.5730-0.5760 than in outright spot."
+ },
+ "factors": [
+  {
+   "factor_number": 1,
+   "factor_name": "Policy & Rates (Relative)",
+   "tactical_weight_default": 0.24,
+   "tactical_weight_applied": 0.24,
+   "strategic_weight_default": 0.24,
+   "strategic_weight_applied": 0.24,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 54,
+    "evidence_type": "rates",
+    "bilateral_analysis": "The bilateral policy differential is -112.5bp: the OCR at 2.75% against a Fed effective rate of 3.875% (target range 3.75-4.00%), per the gated rate block. A long NZD/USD therefore pays carry, and the cached futures roll premium of 106.6bp annualised confirms that a rolled long position bleeds roughly the differential less a small basis. The direction of travel over four weeks is the problem rather than the level: both central banks announce on the same day, 2026-10-28, so the differential cannot move until that date, and the two tails are asymmetric for the pair. An RBNZ hike to 3.00% alongside a Fed hold narrows the gap by 25bp and is the single most likely outcome, but it is also the outcome most nearly in the price, whereas an RBNZ hold against hawkish expectations or a Fed hike would each widen the gap. Transmission runs through carry and through the front-end spread: with the US two-year sitting roughly 90bp above the effective funds rate and the New Zealand two-year roughly 117bp above the OCR, both front ends already discount tightening, so the pair's four-week rate signal is the negative carry itself plus the asymmetry of the October surprise distribution.",
+    "key_bilateral_metrics": [
+     "Policy differential -112.5bp (NZD OCR 2.75% as of 2026-09-25 vs USD effective 3.875% as of 2026-09-28, gated rate block)",
+     "Rolled-position funding premium 106.6bp annualised (CME calendar spread 6NZ6->6NH7, observed 2026-09-30): about 4.9 pips per month against a long",
+     "Carry-to-vol -0.130 (-112.5bp / 8.651% three-month ATM implied)",
+     "Both legs decide on 2026-10-28: RBNZ Monetary Policy Review and FOMC, the only date in the window at which the differential can change",
+     "Ten-year differential +3bp on the payload's monthly vintage (both legs as of 2026-08-01) - stale and not quotable as a live spread"
+    ],
+    "what_is_priced": "The market prices one more hike from each bank over the next quarter, leaving the differential broadly unchanged; the pair therefore prices the carry but not the asymmetry of a 2026-10-28 RBNZ hold.",
+    "citations": [
+     4,
+     5,
+     6
+    ]
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 56,
+    "evidence_type": [
+     "rates",
+     "policy_comms"
+    ],
+    "bilateral_analysis": "Over one to three months the differential is more likely to narrow than to widen, and that is the strongest pair-positive force in this analysis. The RBNZ is early in a tightening cycle begun in July from 2.25%, with bank paths clustered at 3.00-3.25% by year-end and some houses higher; the Fed's September projections put the funds rate at 4.1% at both end-2026 and end-2027, which is a plateau within 25bp of the current level. If the RBNZ delivers one more hike than the Fed, the gap compresses from -112.5bp toward -87.5bp or -75bp. The decision that would do it is 2026-12-09, when the RBNZ publishes a new Monetary Policy Statement with an updated OCR track and the FOMC publishes a new SEP on the same day - the cleanest scheduled test of the convergence thesis in the window. Transmission is through the front-end spread rather than carry: the pair does not need positive carry to rise, it needs the market to mark the relative path, and a December RBNZ track lifted toward 3.50% against an unchanged Fed dot is exactly that event. The offset is that the New Zealand two-year already discounts more tightening than the RBNZ has published, so part of the convergence is in the curve; what is not in the curve is the relative stop - a Fed that has finished while the RBNZ has not.",
+    "key_bilateral_metrics": [
+     "Fed SEP median 4.1% for end-2026 and end-2027, 3.9% for 2028 - a plateau, not a path",
+     "Bank OCR paths: ANZ toward 3.0%, ASB 3.25% by year-end, BNZ 4.0% by May 2027; RBNZ published track peak 3.28%",
+     "Differential path: -112.5bp now, -87.5bp to -75bp if the RBNZ delivers one hike more than the Fed by March 2027",
+     "Anchor date: 2026-12-09 - RBNZ Monetary Policy Statement and FOMC with SEP on the same day",
+     "Carry cost of holding the convergence view long: about 4.9-5.2 pips per month at the cached roll premium"
+    ],
+    "what_is_priced": "Both curves price roughly one further hike per bank, so the level of the differential is priced; the relative stopping point - Fed flat through 2027 while the RBNZ is still moving - is only partially priced.",
+    "citations": [
+     4,
+     5,
+     6,
+     8
+    ]
+   },
+   "horizon_split": "Same differential, opposite horizons for a mechanical reason: over four weeks the gap is locked until 2026-10-28 and the pair pays -112.5bp to wait, so the stance is Bearish; over one to three months the RBNZ can out-hike a Fed that has told the market it is done, and 2026-12-09 is the scheduled date on which that is tested, so the stance turns Bullish.",
+   "carry_analysis": {
+    "reference": "See bilateral_carry_analysis section",
+    "annualised_carry_bps": -112.5,
+    "description": "Annualised carry -112.5bp: a long NZD/USD position pays 112.5bp a year; a short is paid it.",
+    "pair_3m_iv": "8.651% (Data-Cache/derived/fx_iv.csv, CME 6N/6NZ6, observed 2026-09-30, 99.7-day tenor). Carry-to-vol -0.13.",
+    "funding_premium": "106.6bp (CME calendar spread 6NZ6->6NH7, 74.7 to 165.6 days). By covered interest parity this is the interest differential plus cross-currency basis and cannot be decomposed without an OIS curve; the residual of about 6bp is not reported as a basis quote.",
+    "carry_regime": "Carry is working for the short side of the pair and against the long. The kiwi is the lower-yielding leg against the dollar for the first time in a decade-long carry context, and the roll premium confirms the market charges for holding the pair long.",
+    "breakeven": "At the cached roll premium a long position must gain roughly 4.9 pips a month before carry to break even; a short is paid the same amount to wait. No price level is implied by this figure."
+   },
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 2,
+   "factor_name": "Inflation & Growth Dynamics",
+   "tactical_weight_default": 0.18,
+   "tactical_weight_applied": 0.18,
+   "strategic_weight_default": 0.1,
+   "strategic_weight_applied": 0.1,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 58,
+    "evidence_type": "macro_data",
+    "bilateral_analysis": "The growth differential is wide and running in the dollar's favour. US Q2 GDP was revised up to 2.2% annualised with August payrolls at 162,000 against a 55,000 consensus, ISM manufacturing at 54.5 and unemployment steady at 4.1%; New Zealand grew 0.2% q/q in Q2 with unemployment at 5.6%, a nine-year high, and real gross national disposable income falling 0.4% on the terms-of-trade loss. The inflation differential points the other way in headline terms - New Zealand CPI at 4.1% against US CPI at 3.4% - but the composition reverses the signal: New Zealand's overshoot is tradables and fuel with sectoral-factor core at 2.7%, while US core PCE at 3.0% sits above the Fed's comfort and keeps the front end supported. Asymmetric data sensitivity matters here: the US releases monthly high-frequency data that move the dollar leg repeatedly inside the window, whereas New Zealand's swing print is a single quarterly CPI on 2026-10-21. Transmission is through relative real activity surprise into relative front-end pricing, and on current momentum the US side is the one more likely to add to yields.",
+    "key_bilateral_metrics": [
+     "GDP y/y: US 2.1% vs NZ 2.55% headline, but q/q US 0.54% (2.2% SAAR) vs NZ 0.25%",
+     "Unemployment: US 4.1% vs NZ 5.6% (highest since 2015)",
+     "Core: US core PCE 3.0% and core CPI 2.4% vs NZ sectoral factor core 2.7%, trimmed mean 2.6%",
+     "NZ real gross national disposable income -0.4% q/q in Q2 against US real consumer spending +0.6% m/m in August",
+     "Swing prints in the window: US CPI 2026-10-14, US retail sales 2026-10-15, NZ Q3 CPI 2026-10-21"
+    ],
+    "what_is_priced": "The market prices US exceptionalism and a New Zealand economy that is stagnating while its central bank tightens; the NZ Q3 CPI consensus near 3.9% is the only genuinely two-sided print inside the window.",
+    "citations": [
+     7
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 52,
+    "evidence_type": "macro_data",
+    "bilateral_analysis": "Over one to three months the inflation gap closes in a way that does not help the pair. New Zealand's overshoot is fuel-driven and the RBNZ expects inflation back inside the 1-3% band by mid-2027, so the annual rate falls as the 2026 fuel spike drops out, which shortens the hiking cycle that the strategic rates case depends on. On the US side core PCE has eased from 3.3% to 3.0% and the Fed's own projections take it to 2.5% in 2027, so the disinflation is symmetric; what is not symmetric is the growth and income backdrop. New Zealand is absorbing a 9.0% quarterly terms-of-trade loss with a flat housing market, unemployment at 5.6% that the RBNZ expects to improve only marginally, and wage growth of 2.0%, while the US runs a roughly 0.9pp growth advantage over its own trading partners with corporate profits rising. A central bank hiking into stagnant real incomes is a weaker currency support than a central bank plateauing in a 2%-plus economy. Confidence is only 52 because the US consumer is visibly straining - confidence at 81.9, Michigan at 48.1 - and because the latest New Zealand CPI print predates the tactical freshness window.",
+    "key_bilateral_metrics": [
+     "RBNZ projects inflation back in the 1-3% band by mid-2027; Fed SEP core PCE 3.4% (2026) to 2.5% (2027)",
+     "NZ unemployment 5.6% with RBNZ projecting 5.5%; US unemployment flat at 4.1% in the SEP",
+     "NZ REINZ house price index -0.4% y/y; NZ wage growth 2.0% y/y vs US average hourly earnings 3.1%",
+     "US GDPNow for Q3 fell from 5.1% to 3.7% - the growth gap is narrowing but still positive for the dollar",
+     "NZ GDP per capita +0.1% q/q against a 9.0% quarterly terms-of-trade fall"
+    ],
+    "what_is_priced": "Consensus expects New Zealand inflation to normalise by mid-2027 and the US to land softly; the unpriced risk is that NZ unemployment breaks above 6% and truncates the hiking cycle the pair's bull case needs.",
+    "citations": [
+     7
+    ]
+   },
+   "horizon_split": "Both horizons are Bearish for the pair; tactical confidence is higher because the US activity data in the window are dense and have been beating, while the strategic case softens as US disinflation and a straining US consumer partly offset New Zealand's weaker real-income picture.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 3,
+   "factor_name": "Risk Appetite & Sentiment",
+   "tactical_weight_default": 0.1,
+   "tactical_weight_applied": 0.13,
+   "strategic_weight_default": 0.05,
+   "strategic_weight_applied": 0.04,
+   "weight_adjustment_reason": "NZD/USD pairs the highest-beta G10 currency against the reserve currency, and the two dossiers measure that asymmetry directly (kiwi moving roughly 1.8x the Australian dollar against the dollar in September; DXY-equity correlation -0.31). Tactical weight raised 0.10 to 0.13 because a rates-led credit repricing transmits to this pair faster than to most; strategic weight trimmed 0.05 to 0.04 because the six-month risk distribution is a two-sided Gulf binary with no directional content.",
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 55,
+    "evidence_type": "cross_asset",
+    "bilateral_analysis": "This is a high-beta versus haven pairing, and the current regime is the one in which that pairing underperforms: equity volatility is calm while credit is repricing. The VIX closed near 16 at roughly the 34th percentile of its year, the S&P 500 is up double digits on the year, but the US high-yield option-adjusted spread widened 42-59bp in a month to the 300-324bp area, at or near the top of its one-year range, and investment-grade spreads are at the 94th percentile. That is a rates-led tightening of financial conditions rather than an equity drawdown, and it is precisely the configuration in which a small, deficit-running, thinly traded currency loses to the dollar without needing a risk-off shock. The dollar's measured correlation to equities is mildly negative and to the ten-year yield mildly positive, so rising yields push both legs of this pair the same way. The cross-asset tails are a Gulf settlement that compresses oil and risk premia together (pair-positive) and a credit event taking high-yield beyond 400bp (pair-negative); inside four weeks the second looks the more likely given where US long yields sit.",
+    "key_bilateral_metrics": [
+     "US high-yield OAS 302-324bp, widened 42-59bp in a month, 98th percentile of one year",
+     "US investment-grade OAS 83-86bp, 94th percentile",
+     "VIX near 16, 34th percentile of one year - no equity stress to offset the credit signal",
+     "DXY 60-day correlation: -0.31 to the S&P 500, +0.32 to the ten-year yield",
+     "Brent near $100-103, up more than 50% on the year - a risk-premium input that hurts the kiwi leg and helps the dollar leg"
+    ],
+    "what_is_priced": "Equity markets price calm while credit prices a rates shock; the pair has not priced a funding dimension to the credit widening, which is where the bearish tail sits.",
+    "citations": []
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": "cross_asset",
+    "bilateral_analysis": "Over one to three months the risk complex is genuinely two-sided for this pair and the tails roughly cancel. The bear case is a continuation of the rates-led squeeze: US long yields above 5%, credit spreads already widened from tight levels, and an energy shock that keeps headline inflation sticky - all of which punish the kiwi leg more than the dollar leg. The bull case is that the shock is energy-specific and reversible: China's manufacturing PMI has returned to expansion at 50.1 with output at a nine-month high, Middle East crude shipments are approaching pre-war levels, and a negotiated reopening would compress oil and risk premia simultaneously, which is a double positive for a commodity-importing high-beta currency against the dollar. Neither dossier carries a directional six-month risk view - both resolve to Neutral - and combining two Neutrals through a bilateral lens does not manufacture a signal. Credit at roughly the 72nd percentile of five years and the VIX at the 37th are repricing, not crisis, so the honest reading is that this factor contributes nothing strategically.",
+    "key_bilateral_metrics": [
+     "China NBS manufacturing PMI 50.1 with output 51.7 - stabilising, not accelerating",
+     "US high-yield OAS at the 72nd percentile of five years; VIX at the 37th",
+     "Gulf outcome probabilities from the two dossiers: settlement roughly 25%, escalation roughly 20%, stalemate the remainder",
+     "Gold down 4.79% in a month with a -0.53 correlation to the dollar index - the haven bid is in the dollar, not in metals"
+    ],
+    "what_is_priced": "The market prices a grinding energy stalemate; both tails are plausibly under-priced but they push the pair in opposite directions, so there is no strategic edge here.",
+    "citations": []
+   },
+   "horizon_split": "Tactically the rates-led credit widening and the pair's measured high-beta/haven asymmetry give a directional signal; strategically the Gulf binary dominates and resolves in opposite directions for the pair, so the stance flattens to Neutral.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 4,
+   "factor_name": "Flows & Positioning",
+   "tactical_weight_default": 0.1,
+   "tactical_weight_applied": 0.1,
+   "strategic_weight_default": 0.06,
+   "strategic_weight_applied": 0.06,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 50,
+    "evidence_type": "positioning",
+    "bilateral_analysis": "Both legs moved the same way in the week to 2026-09-22, which amplifies rather than mutes the pair signal. On the kiwi side speculators flipped from net long to net short: the legacy non-commercial net swung 21,898 contracts to -11,380, with asset managers alone swinging 21,655 contracts to -11,485 while leveraged funds added 3,021 shorts. On the dollar side the IMM aggregate long against G10 rose $12.5bn in one week to $18.4bn, described as the fastest weekly build in seven years, and the kiwi was the fourth-largest single sale at 21.9k contracts, reported as the largest since 2018. Specs short the base and long the quote is the configuration that amplifies a pair move. The qualifier is that neither position is extreme: the all-spec kiwi net sits mid-range against the -39.6K reached in August, and the aggregate dollar long is around the 44th percentile of its cached weeks, so this is momentum rather than a crowded trade to fade. Option flow agrees: the pair's 25-delta risk reversal is -0.784 vols at 36.7 days, puts bid. Confidence stays at 50 because the data are a week old and kiwi open interest is small enough that a few accounts move the series.",
+    "key_bilateral_metrics": [
+     "NZD all-spec net -11,380 contracts (2026-09-22), a 21,898-contract weekly swing from +10,518",
+     "NZD asset managers -11,485 contracts, weekly change -21,655; leveraged funds -4,787",
+     "IMM aggregate USD long $18.4bn, +$12.5bn on the week; NZD sold 21.9k contracts, the largest since 2018",
+     "Pair 25-delta risk reversal -0.784 vols at 36.7 days and -0.900 at 99.7 days (gated store, observed 2026-09-30)",
+     "NZD futures open interest 101,377 contracts - large enough to engage, small enough to squeeze"
+    ],
+    "what_is_priced": "Positioning prices a fresh directional lean on both legs but not an extreme on either; the squeeze fuel is in the 21,655-contract asset-manager swing that would have to reverse on a hawkish RBNZ.",
+    "citations": []
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": "positioning",
+    "bilateral_analysis": "Over one to three months the two legs stop pointing the same way. The kiwi short is mid-range and can extend roughly 28K contracts before reaching the August extreme, so it is neither a crowded short to fade nor a clean position to follow. The dollar leg carries a slow structural drain in the other direction: the COFER dollar share fell to 56.70% in Q2 from 57.18% while the euro share rose, private foreigners were net sellers of US long-term securities in July with official buyers and bills carrying the inflow, and asset managers remain structurally short the dollar through large euro longs. That is a flow pattern that mildly favours the pair rising over six months, offsetting a kiwi short that has room to grow. The pair-specific flow dynamic that would matter most - Japanese and other carry money reaching for kiwi yield - is weaker than usual because the kiwi is now the lower-yielding leg against the dollar and the BoJ is normalising. Netting a mildly pair-negative base leg against a mildly pair-positive quote leg leaves Neutral.",
+    "key_bilateral_metrics": [
+     "COFER USD share 56.70% in 2026-Q2, down 0.48pp q/q; EUR share up 0.56pp",
+     "US TIC July: official long-term purchases $44.4bn, private long-term sales $3.7bn, bills +$38.8bn",
+     "NZD short extension capacity roughly 28K contracts to the August extreme near -39.6K",
+     "Pair 25-delta risk reversal -0.777 vols at 155.7 days - downside hedging persists at the back of the curve"
+    ],
+    "what_is_priced": "Reserve diversification is treated as slow-moving background and the kiwi short as unremarkable; neither leg carries a positioning extreme that the strategic view can lean on.",
+    "citations": []
+   },
+   "horizon_split": "Tactically the two legs reinforce - specs are selling the kiwi and buying the dollar in the same week - so the pair signal is Bearish; strategically a mid-range kiwi short faces a structural dollar drain, the legs cancel, and the stance is Neutral. Pass-2 note (price context, not scored): in the price store the July-August cover took the pair from a 0.5678 close on 2026-07-07 to 0.59795 on 2026-08-21, +312 pips in 33 sessions, about seven daily ATRs, which is the size of squeeze the tactical stop has to respect.",
+   "carry_analysis": null,
+   "contrarian_analysis": {
+    "tactical": {
+     "combined_positioning_signal": "Short base plus long quote: an amplified bearish pair lean, but at the 44th-56th percentile on both legs rather than at an extreme, so the signal is momentum and not a contrarian setup.",
+     "unwind_trigger": "A hot NZ Q3 CPI on 2026-10-21 followed by an RBNZ hike on 2026-10-28 while the FOMC holds the same day - the one dated combination that would force the 21,655-contract asset-manager swing to reverse into a dollar long built at record weekly speed.",
+     "historical_analogue": "August 2026: the kiwi all-spec net covered roughly 50K contracts from near -39.6K to +10.5K inside four weeks, and the pair squeezed higher on positioning alone; the dollar side's analogue is the $29.4bn swing out of the late-July long. Price store: 0.5678 close on 2026-07-07 to 0.59795 on 2026-08-21, up 5.3%.",
+     "contrarian_case": "The crowd is short the base and long the quote at the same time, which is exactly the structure that produces violent reversals when the shared mechanism - rising US yields - stalls. Neither leg is at an extreme, so the squeeze is not yet loaded, but the speed of the dollar build is itself a warning: a position assembled in one week can be unwound in one week, and the 2026-10-28 double decision is the dated trigger that could do it."
+    },
+    "strategic": {
+     "combined_positioning_signal": "Mid-range kiwi short against a structurally short-dollar real-money community; no net positioning signal for the pair.",
+     "unwind_trigger": "A December RBNZ track lifted toward 3.50% on 2026-12-09 while the same day's FOMC SEP leaves the 2027 dot unchanged, which would convert the convergence thesis from forecast to confirmation and force kiwi shorts to cover into a dollar long that is already large.",
+     "historical_analogue": "The same August 2026 kiwi cover, which demonstrates that a 50K-contract swing is achievable in a market of roughly 100K open interest; on the dollar side, the July-to-August unwind of the aggregate long.",
+     "contrarian_case": "The strategic contrarian case runs mildly in the pair's favour: shorts in the base can extend but every extension raises squeeze risk into a central bank that is still tightening, while the quote currency's reserve share is falling and its private financing has turned short-dated. That is the opposite of a crowded consensus to fade; it is a slow bid accumulating under a position that is being added to for tactical reasons."
+    }
+   },
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 5,
+   "factor_name": "External Balance & Terms of Trade",
+   "tactical_weight_default": 0.06,
+   "tactical_weight_applied": 0.06,
+   "strategic_weight_default": 0.16,
+   "strategic_weight_applied": 0.18,
+   "weight_adjustment_reason": "Strategic weight raised 0.16 to 0.18. This is a net energy importer paired against a net energy exporter with Brent near $100 on a live conflict premium, so the terms-of-trade axis is unusually directional for this specific pair rather than a background structural note. Tactical weight left at default because two GDT auctions and no trade release make the four-week effect two-sided.",
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 52,
+    "evidence_type": [
+     "trade_balance",
+     "cross_asset"
+    ],
+    "bilateral_analysis": "The bilateral external picture nets close to zero over four weeks. New Zealand's terms of trade fell 9.0% q/q in Q2 as import prices jumped 13.8% on fuel, and the current account deficit stands at 3.2% of GDP; the United States runs a current account deficit of 3.0% of GDP that widened for a second quarter, so the headline external imbalances are nearly matched. What differentiates the legs is energy direction, and that is offset within the window by dairy: the GDT index was +0.9% then -1.1% in September, Fonterra lifted its 2026/27 milk price midpoint to $9.50/kgMS, and New Zealand's August trade deficit came in better than estimates with exports up 15.4% y/y and exports to China up 15.8%. Direct bilateral goods trade is small and roughly balanced - New Zealand exported $5.5bn to and imported $4.9bn from the United States in 2024, a net balance of about $0.5bn - so there is no meaningful bilateral flow channel; this pair trades the commodity netting, not the trade ledger between the two economies. Two GDT auctions fall inside the window and are genuinely two-sided, so the stance is Neutral.",
+    "key_bilateral_metrics": [
+     "NZ terms of trade -9.0% q/q in Q2 2026 (consensus -2.2%); import prices +13.8%",
+     "Current account: NZ -3.2% of GDP vs US -3.0% of GDP - nearly matched deficits",
+     "Bilateral goods trade 2024 (IMF DOTS): NZ exports to US $5.5bn, NZ imports from US $4.9bn, NZ net +$0.5bn",
+     "GDT index +0.9% (Event 411) then -1.1% (Event 412, average $3,868/t); Fonterra midpoint raised to $9.50/kgMS",
+     "Brent near $100.56-103.16 with WTI at $96.16, up roughly 50-57% on the year"
+    ],
+    "what_is_priced": "The market prices dairy at current levels and oil near $100; the two October GDT auctions are the scheduled two-sided risk and neither dossier claims an edge on them.",
+    "citations": []
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 52,
+    "evidence_type": [
+     "trade_balance",
+     "cross_asset"
+    ],
+    "bilateral_analysis": "Over one to three months the oil channel dominates and it runs against the pair. A sustained Brent near $100 is a direct income transfer out of a commodity-importing deficit economy and into a net energy exporter, and the New Zealand data already show it: real gross national disposable income fell 0.4% in a quarter and the current account deficit is forecast to widen back toward 4.5% of GDP. The United States gets the mirror image through terms of trade even as its own twin deficits deteriorate, which is why the dollar leg's external factor is bearish on its own account but less bearish than the kiwi leg's in an energy shock. The netting is not one-sided: the US current account is widening, the net international investment position is -$22.4tn, and tariff revenue is falling, all of which cap how much the dollar leg can gain from the energy windfall. New Zealand's offsets are real - a raised Fonterra forecast, dairy exports to China up 20% over the year, a services surplus - but they are incremental against a large and cumulative import-price shock, and valuation (the kiwi roughly 16.9% cheap on PPP against the dollar) limits the downside without reversing it. Net Bearish at low confidence, with the sign contingent on Brent rather than on dairy.",
+    "key_bilateral_metrics": [
+     "NZ real gross national disposable income -0.4% q/q; current account forecast to widen toward -4.5% of GDP",
+     "US NIIP -$22.42tn; US current account -3.0% of GDP and widening for a second quarter",
+     "NZ dairy exports to China NZ$10bn (+20% y/y); total NZ exports to China NZ$20bn",
+     "BIS REER: NZD 102.84 (44th percentile of cached history) vs USD 106.70 - the kiwi is the cheaper leg",
+     "WTI $96.16 against $57.26 at end-2025 - the scale of the energy repricing both legs are absorbing"
+    ],
+    "what_is_priced": "Consensus expects the New Zealand deficit to widen modestly while treating US twin deficits as background; the unpriced upside for the pair is a Hormuz settlement, which would reverse the terms-of-trade transfer faster than either side expects.",
+    "citations": []
+   },
+   "horizon_split": "Neutral tactically because two GDT auctions and firm dairy offset high oil inside four weeks; Bearish strategically because the energy income transfer is cumulative and the quote currency is on the receiving side of it, while the quote's own deficit deterioration is slower-moving.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": {
+    "base_commodity_profile": "NZD: net energy importer; dairy is roughly a quarter of goods exports (GDT index, Fonterra farmgate price), with meat, forestry and horticulture secondary. Dairy up is strongly NZD-positive; oil and refined fuel up is strongly NZD-negative through the import bill and the terms of trade.",
+    "quote_commodity_profile": "USD: net energy exporter (WTI, Henry Hub, LNG). Oil up is a mild-to-moderate USD positive through terms of trade and through the inflation channel that keeps the Fed hawkish; the dollar also carries a haven bid in an energy-driven risk shock.",
+    "net_effect_calculation": "Applying the framework direction rules to this pairing: oil up gives the kiwi a clear negative (an importer with a 13.8% quarterly jump in import prices and a 9.0% terms-of-trade fall) and gives the dollar a mild positive (net exporter, plus a hawkish-Fed inflation channel). Negative on the base plus positive on the quote means the pair falls, so oil up is unambiguously bearish NZD/USD - the two legs do not offset, they compound. Dairy up is positive for the base and neutral for the quote, so GDT strength is bullish NZD/USD but acts on a smaller export share than the oil shock acts on the import bill. Netting the two: with Brent above $100 and the GDT index roughly flat over its last two auctions, the oil leg is the larger of the two vectors and the net commodity exposure is bearish for the pair.",
+    "scenario_oil_up_10pct": "Brent toward $110: NZ import bill rises further, terms of trade deteriorate again, the current account widens toward 4.5-5% of GDP; the US gains on terms of trade and the Fed's inflation path stays firm. Compounding negative - the pair falls, and this is the single cleanest bearish scenario for NZD/USD.",
+    "scenario_oil_down_10pct": "Brent toward $90 and below: the New Zealand terms-of-trade loss begins to reverse, headline CPI pressure eases on both sides, and the dollar loses both its terms-of-trade gain and part of its haven premium. Compounding positive - the pair rises, and a full Hormuz settlement is the upside tail both dossiers identify.",
+    "dominant_commodity_driver": "Brent crude. Dairy matters for the kiwi leg but acts on a narrower base and is already credited by the market; oil moves both legs in opposite directions and therefore moves the pair twice."
+   },
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 6,
+   "factor_name": "Guidance & Credibility",
+   "tactical_weight_default": 0.07,
+   "tactical_weight_applied": 0.07,
+   "strategic_weight_default": 0.12,
+   "strategic_weight_applied": 0.12,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": "policy_comms",
+    "bilateral_analysis": "Both central banks have turned hawkish, which largely cancels at the pair level over four weeks. The RBNZ hiked unanimously on 2026-09-02 to 2.75% and Governor Breman subsequently warned that persistent oil prices would push near-term inflation above the September assumptions, language the market read as an invitation; the Fed hiked 12-0 on 2026-09-16 with a statement committing to deliver price stability, then had New York's Williams say there is no urgency, which cut October hike odds. The communication asymmetry is in transparency: the RBNZ publishes an OCR track that currently peaks near 3.28% and a Q4 average consistent with an October pause and a December move, so its own guidance is less hawkish than press reports of market pricing. That gap is the genuine tactical uncertainty - published guidance says pause, commentary says hike - and it is a source of two-sided risk rather than a directional signal. Meeting sequence does not help either: both banks announce on 2026-10-28, so neither sets the tone for the other and the pair takes both shocks within hours.",
+    "key_bilateral_metrics": [
+     "RBNZ September track: peak 3.28%, Q4-2026 average 2.81% - arithmetically consistent with an October pause and a December hike",
+     "Reported October hike pricing ranges from roughly 30% (track-consistent reading after the MPS) to roughly 75% (after Breman's oil remarks) - an unusually wide dispersion",
+     "FOMC 2026-09-16: 12-0 hike, statement language committing to deliver price stability; Williams on 2026-09-29 signalled no urgency",
+     "Both decisions land on 2026-10-28; the RBNZ meeting carries a Monetary Policy Review, the FOMC carries no projections",
+     "Fed dots: 12 of 18 at 4.125% for end-2026 - guidance is explicit and largely accepted by the curve"
+    ],
+    "what_is_priced": "The pair prices two hawkish central banks whose next moves are both partly discounted; the dispersion in reported RBNZ October pricing means the kiwi leg's guidance risk is two-sided rather than directional.",
+    "citations": [
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 53,
+    "evidence_type": "policy_comms",
+    "bilateral_analysis": "Over one to three months the guidance divergence turns in the pair's favour, and it has a date. On 2026-12-09 the RBNZ publishes a Monetary Policy Statement with a new OCR track and the FOMC publishes a new SEP on the same day. The most likely configuration is an RBNZ track lifted from a 3.28% peak toward 3.50% against a Fed dot plot that the September round already set flat at 4.1% for both 2026 and 2027 - one bank revising its path up, the other confirming a plateau. Credibility is high on both sides and roughly symmetric: the RBNZ is among the most transparent G10 banks and the Fed has defended its independence through a Supreme Court ruling and a unanimous hike against explicit political pressure, so neither leg carries a credibility discount the other can exploit. The risk to the view is symmetric too: if the December track lifts only to 3.25-3.30% the market reprices the kiwi leg lower, and if the Fed's 2027 dot rises the dollar leg gains. Confidence is held at 53 because the RBNZ's own language - gradual removal of stimulus, inflation back in the band by mid-2027 - describes a short cycle.",
+    "key_bilateral_metrics": [
+     "Anchor: 2026-12-09 - RBNZ Monetary Policy Statement and FOMC with SEP, same day (authoritative meetings file)",
+     "RBNZ track peak 3.28% vs bank paths of 3.00-3.25% by year-end and 3.25-4.00% through 2027",
+     "Fed SEP medians flat at 4.1% for end-2026 and end-2027 - a published plateau",
+     "Fed independence reinforced by the 2026-06-29 Trump v. Cook ruling; RBNZ hiked unanimously in September",
+     "NZ two-year yield sits roughly 117bp above the OCR - the curve already prices more than the published track"
+    ],
+    "what_is_priced": "The market prices the Fed close to its dots and the RBNZ somewhere between its own track and a faster path; a December track revision upward against an unchanged Fed dot is only partially discounted.",
+    "citations": [
+     4,
+     6,
+     8
+    ]
+   },
+   "horizon_split": "Tactically the two banks' hawkish turns cancel and the RBNZ's published track conflicts with reported market pricing, so the stance is Neutral; strategically the 2026-12-09 pairing of a new RBNZ track against a Fed SEP that already shows a plateau is a dated, asymmetric guidance event in the pair's favour.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 7,
+   "factor_name": "Event Risk & Geopolitics",
+   "tactical_weight_default": 0.05,
+   "tactical_weight_applied": 0.04,
+   "strategic_weight_default": 0.05,
+   "strategic_weight_applied": 0.05,
+   "weight_adjustment_reason": "Tactical weight trimmed 0.05 to 0.04 to fund the Factor 3 increase: inside four weeks the pair's event risk is dominated by the 2026-10-28 double decision, which is already scored in Factors 1 and 6, so leaving the full default weight here double-counts the same date.",
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": "geopolitics",
+    "bilateral_analysis": "The four-week event map is dense on both legs and the tails offset. On the kiwi side: the Q3 CPI on 2026-10-21, two GDT auctions, the RBNZ decision on 2026-10-28, and a general election on 2026-11-07 just beyond the window with the governing bloc ahead on projected seats but National polling below 30%. On the dollar side: the FOMC minutes on 2026-10-07, CPI on 2026-10-14, retail sales on 2026-10-15, the FOMC itself on 2026-10-28 and midterm elections on 2026-11-03. The clustering is the pair-specific feature: the RBNZ and the FOMC announce on the same day, so the kiwi's own policy shock is filtered through the dollar within hours and a hawkish RBNZ can be entirely neutralised by a hawkish Fed. The overarching geopolitical variable is the Gulf, which moves this pair twice - through the New Zealand import bill and through the US terms of trade and haven bid - but it can resolve in either direction, with a settlement pair-positive and an escalation pair-negative at broadly similar probabilities over four weeks. Neutral is the honest reading.",
+    "key_bilateral_metrics": [
+     "2026-10-28: RBNZ Monetary Policy Review and FOMC on the same day (authoritative meetings file) - event clustering unique to this pair in the window",
+     "NZ general election 2026-11-07; US midterm elections 2026-11-03 - two sovereign political events four days apart",
+     "NZ Q3 CPI 2026-10-21 against US CPI 2026-10-14 - both inflation prints inside the window, a week apart",
+     "Gulf tails from the dossiers: settlement roughly 10-15% inside four weeks (pair-positive), escalation roughly 10% (pair-negative)",
+     "Pair implied vol 8.857% at 36.7 days against 8.651% at 99.7 days - a modest front-end event premium, flat rather than spiked"
+    ],
+    "what_is_priced": "The vol surface carries only a small front-end premium for a window containing two policy decisions on one day, two elections and two CPI prints; the Gulf binary looks under-priced in both directions, which argues for optionality rather than a directional event stance.",
+    "citations": []
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 51,
+    "evidence_type": "geopolitics",
+    "bilateral_analysis": "Over one to three months the event distribution tilts modestly in the pair's favour because more of the dated risk sits on the dollar leg. The continuing resolution funds US agencies only to 2026-12-11, and the USD dossier puts a shutdown at roughly 35% at the year-end funding turn, with Fitch having already flagged gridlock when it affirmed AA+; the midterms on 2026-11-03 determine whether that deadline is negotiated by a divided Congress. A Gulf settlement is more likely over six months than over four weeks and is doubly pair-positive - it reverses the New Zealand terms-of-trade loss and removes the dollar's energy and haven premium together. Against that, the New Zealand election on 2026-11-07 is close and coalition formation could run into late November, which adds a modest domestic risk premium to the kiwi leg, and a natural-disaster tail is permanent for New Zealand. Three of the four main dated risks are dollar-negative, one is kiwi-negative, so the net is a weak Bullish at 51 - deliberately close to Neutral.",
+    "key_bilateral_metrics": [
+     "US continuing resolution expires 2026-12-11; shutdown probability assessed at roughly 35% in the quote dossier",
+     "US midterm elections 2026-11-03 determine the Congress that must pass the next funding bill",
+     "NZ general election 2026-11-07; September polling projected 64 of 120 seats for the governing bloc against 56",
+     "Gulf settlement probability over six months assessed at roughly 25% - pair-positive on both legs simultaneously",
+     "NZ trade exposure to China intact (exports +15.8% y/y) with no live bilateral dispute; exports to the US -6.6% y/y keeps a residual tariff tail"
+    ],
+    "what_is_priced": "Markets treat the December funding deadline and both elections as routine; the pair does not price a US shutdown at the year-end turn or a Gulf settlement, and both would push NZD/USD the same way.",
+    "citations": []
+   },
+   "horizon_split": "Tactically the event tails offset and the two decisions collide on one day, so Neutral; strategically the dated risks accumulate disproportionately on the quote leg - midterms, the 2026-12-11 funding cliff, and a settlement that helps the base leg twice - so the stance turns weakly Bullish.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 8,
+   "factor_name": "Fiscal & Sovereign Risk",
+   "tactical_weight_default": 0.04,
+   "tactical_weight_applied": 0.02,
+   "strategic_weight_default": 0.07,
+   "strategic_weight_applied": 0.07,
+   "weight_adjustment_reason": "Tactical weight cut 0.04 to 0.02 to fund the Factor 3 increase: neither sovereign has a fiscal catalyst inside four weeks (the NZ PREFU is published, the US funding cliff is in December), so the factor has no four-week transmission channel for this pair.",
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 55,
+    "evidence_type": "macro_data",
+    "bilateral_analysis": "The fiscal differential strongly favours the base currency on levels but has no four-week transmission. New Zealand's net core Crown debt is projected to peak at 46.1% of GDP with a surplus pencilled in for 2028/29 and ratings of Aaa/AA+/AA+ all stable; the United States carries debt held by the public at 101% of GDP, a deficit near 5.8-6%, net interest above $1tn and ratings one notch below AAA at all three agencies. Yet the market currently rewards the weaker sovereign: higher US yields attracted $83.7bn of July TIC inflows, and New Zealand government bonds trade without any premium over Treasuries, so the fiscal gap is expressed in the term premium rather than in the currency. Neither sovereign has a dated fiscal event inside the window - the New Zealand PREFU was published on 2026-09-29 and the US funding deadline is 2026-12-11 - so the honest tactical stance is Neutral at reasonable confidence.",
+    "key_bilateral_metrics": [
+     "Debt: NZ net core Crown debt peaking at 46.1% of GDP vs US debt held by the public at 101% of GDP",
+     "Deficits: NZ projecting an OBEGALx surplus by 2028/29 vs US at roughly 5.8-6% of GDP",
+     "Ratings: NZ Aaa/AA+/AA+ stable vs US Aa1/AA+/AA+ stable - a one-to-two notch gap in New Zealand's favour",
+     "US net interest above $1.0tn, 3.3% of GDP, now exceeding defence spending",
+     "No dated fiscal catalyst for either leg inside four weeks"
+    ],
+    "what_is_priced": "The market prices both sovereigns as high grade and expresses US fiscal risk through the term premium rather than the dollar, which is why the superior New Zealand balance sheet buys the pair nothing over four weeks.",
+    "citations": []
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 55,
+    "evidence_type": [
+     "macro_data",
+     "rates"
+    ],
+    "bilateral_analysis": "Over one to three months the fiscal differential acquires a transmission channel, and it points the pair up. The United States has a dated fiscal event on 2026-12-11 when the continuing resolution expires, a net interest bill above 3.3% of GDP that grows with every basis point of term premium, shrinking tariff revenue after the IEEPA ruling and the expiry of the Section 122 replacement, and a debt path heading toward 120% of GDP. New Zealand's exposures are far smaller: a debt peak below 50% of GDP under either election outcome, functioning bond auctions through the global selloff, and no rating action pending, with the main uncertainty being a post-election Half-Year Update that may push the surplus out again. The mechanism by which this matters for the pair is the one the quote dossier identifies: as peer yields rise and the dollar's yield advantage narrows, fiscal risk stops being absorbed by the bond market and starts showing up in the currency. That is a slow process and it will not dominate a three-month window, which is why confidence is 55 rather than higher.",
+    "key_bilateral_metrics": [
+     "US funding deadline 2026-12-11 - the only dated sovereign-risk event for either leg in the window",
+     "Debt-to-GDP trajectory: NZ below 50% under either election outcome vs US 101% rising toward 120% by 2036",
+     "US net interest 3.3% of GDP now above defence; NZ ten-year yields sit roughly in line with or below Treasuries, implying no NZ sovereign premium",
+     "US effective tariff rate roughly 7.2% after the IEEPA ruling - a shrinking offset to the deficit",
+     "Fitch affirmed US AA+ on 2026-08-13 while explicitly flagging gridlock and shutdown risk"
+    ],
+    "what_is_priced": "The market prices US fiscal risk in the curve, not the currency; the pair does not discount either a December shutdown or the point at which rising peer yields stop subsidising the US financing need.",
+    "citations": []
+   },
+   "horizon_split": "Neutral tactically because the fiscal gap has no four-week channel and higher US yields currently attract rather than repel capital; Bullish strategically because the 2026-12-11 funding cliff and a widening interest burden give the differential a dated route into the currency.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 9,
+   "factor_name": "Market Structure & Volatility",
+   "tactical_weight_default": 0.05,
+   "tactical_weight_applied": 0.05,
+   "strategic_weight_default": 0.03,
+   "strategic_weight_applied": 0.02,
+   "weight_adjustment_reason": "Strategic weight trimmed 0.03 to 0.02 to fund the Factor 5 increase. Pass 1 was deliberately not given the pair's chart, so the only market-structure evidence available was the vol surface; a flat three-tenor surface carries less strategic information than a full structural read would, and the weight is reduced to reflect what was actually in hand rather than what the factor could carry.",
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 52,
+    "evidence_type": "positioning",
+    "bilateral_analysis": "This pass was not supplied with trailing returns, moving averages, support and resistance zones or ATR, so Factor 9 is scored on the one structural input that is in the gated payload: the pair's own options surface. ATM implied volatility is 8.857% at 36.7 days, 8.651% at 99.7 days and 8.761% at 155.7 days - essentially flat, so the market is pricing a modest front-end event premium for the 2026-10-28 cluster and no term-structure dislocation. The informative part is the skew: the 25-delta risk reversal is -0.784 vols at the front, -0.900 at three months and -0.777 at five months, consistently bid for kiwi puts across the whole curve, and the base dossier records that the front skew roughly doubled from about -0.34 vols in late August. Hedgers paying up for downside in the pair across every listed tenor is a directional structural signal that does not require the chart. The 25-delta butterfly is small at 0.198/0.064/0.298, so the skew is a genuine directional lean rather than a general demand for wings. Confidence is held at 52 because the vol history in the cache is short and because scoring this factor without the price series it is nominally about is an acknowledged limitation.",
+    "key_bilateral_metrics": [
+     "ATM implied vol 8.857% / 8.651% / 8.761% at 36.7 / 99.7 / 155.7 days (CME 6N, observed 2026-09-30)",
+     "25-delta risk reversal -0.784 / -0.900 / -0.777 vols across the same tenors - puts bid at every tenor",
+     "Front skew roughly doubled from about -0.34 vols in late August to -0.78/-0.85 vols by late September",
+     "25-delta butterfly 0.198 / 0.064 / 0.298 - small, so the skew is directional rather than wing demand",
+     "Store note: only 11 resistance and 1 support zone met the 2-touch threshold, so zone evidence is thin even where it exists"
+    ],
+    "what_is_priced": "Options price a persistent downside skew in the pair plus a small front-end event premium for the 2026-10-28 cluster; a sharp break is not priced, and neither is a squeeze.",
+    "citations": []
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": "positioning",
+    "bilateral_analysis": "Over one to three months the surface carries no directional information. The term structure is flat within about 0.21 vols across 36.7 to 155.7 days, which says the market prices neither a volatility regime change nor a specific medium-term event, and the risk reversal at the back of the curve (-0.777 vols at 155.7 days) is no more negative than at the front, so the downside hedging demand is level rather than deepening with horizon. Without the price series this pass cannot assess trend regime, range position or zone structure, and reconstructing them from the web would be a direct violation of the purpose of this split; the honest consequence is a Neutral scored on what the vol surface actually shows rather than a stance manufactured from absent data. The only strategic observation worth making is that a flat surface with a stable skew means options are a reasonable vehicle for a directional view in either direction, because no tenor is carrying an obvious premium against another.",
+    "key_bilateral_metrics": [
+     "Term structure spread 36.7d to 155.7d: about 0.10 vols - flat, no regime break priced",
+     "Back-tenor skew -0.777 vols, no steeper than the front skew of -0.784",
+     "Three-month ATM implied 8.651% (gated store value, quoted verbatim)",
+     "Price-derived structural analytics deliberately absent from this payload and not reconstructed"
+    ],
+    "what_is_priced": "A sideways volatility regime with a stable downside skew; the surface agrees with a view that nothing structural resolves inside three months, which leaves no strategic edge in this factor.",
+    "citations": []
+   },
+   "horizon_split": "Bearish tactically because the skew is bid for downside across every listed tenor and has doubled in a month; Neutral strategically because the term structure is flat and the back-end skew is no deeper than the front, so the surface carries no multi-month directional content. Pass-2 technical overlay (price payload; does not alter the scored stance): spot is below a tangled 50/100/200-day stack (0.5824 / 0.5809 / 0.58465) and 364 pips below a flat 200-week average (0.59784); the close is at the 4th percentile of its 52-week closing range with the intraday 52-week low tested to within 3.4 pips on 2026-10-02; the only computed support is the six-touch 0.5556-0.5598 band with nothing computed below it until the 0.5500 round number; the first meaningful resistance is the four-touch 0.56764-0.57292 September breakdown band; realised vol has compressed to 5.9% (20-day) against 8.857% one-month implied, so the pair is falling in an orderly way. The structure favours selling rallies into the four-touch band and buying the six-touch band for the strategic view; it does not favour initiating anything at spot.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": {
+    "vol_landscape_summary": "A flat, moderate vol surface: ATM 8.857% / 8.651% / 8.761% at 36.7 / 99.7 / 155.7 days with a persistent 25-delta skew of -0.78 to -0.90 vols for kiwi puts and small butterflies. The front tenor carries a small premium for the 2026-10-28 cluster but nothing resembling event panic. Pass 2: 20-day realised vol is 5.9% against 8.857% one-month implied (+2.96 vols), so options are expensive relative to realised moves.",
+    "directional_expression": "The tactical bearish view is cheapest in spot or forwards, which are paid roughly 4.9-5.2 pips a month of carry to hold, because buying outright puts means paying the skew the market has already doubled. Put spreads recover part of that skew. The strategic bullish view is the one the surface actually subsidises: calls on the pair sit on the cheap side of a -0.78 to -0.90 vol skew at every tenor, so the convergence thesis can be expressed with defined risk at a discount to the symmetric price. Pass-2 level addendum - Tactical: use resting offers at 0.5645-0.5690 rather than market sells; the 2.96-vol premium of front implied over 20-day realised makes selling one-month upside calls struck around 0.5730 (top of the four-touch band) a reasonable overlay on a spot short. Strategic: buy 99.7-155.7-day calls struck near 0.5730-0.5760 after 2026-10-28; the upside strike sits on the cheap side of the -0.78 to -0.90 skew, and the six-touch band below spot acts as a natural floor for timing entries.",
+    "event_timing_consideration": "The 2026-10-28 RBNZ and FOMC decisions both sit inside the 36.7-day tenor, so tactical positions should be in place before the front premium decays; the 2026-12-09 RBNZ Monetary Policy Statement and FOMC SEP sit inside the 99.7-day tenor, which is where the strategic view's decisive event is priced. Adding strategic optionality after 2026-10-28, once the front premium has decayed, is the cleaner sequence.",
+    "liquidity_note": "NZD/USD is a liquid G10 pair but materially thinner than EUR/USD or USD/JPY, with futures open interest near 101,377 contracts and spreads that widen outside the Asia-Pacific and London overlap. Gap risk around the 2026-10-28 double decision, which lands in Wellington and Washington hours on the same calendar day, is the specific execution hazard for this pair."
+   }
+  },
+  {
+   "factor_number": 10,
+   "factor_name": "USD Liquidity & Funding",
+   "tactical_weight_default": 0.11,
+   "tactical_weight_applied": 0.11,
+   "strategic_weight_default": 0.12,
+   "strategic_weight_applied": 0.12,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 53,
+    "evidence_type": "rates",
+    "bilateral_analysis": "Dollar funding itself is calm, but the dollar sits on the strong side of the smile and the kiwi has no buffer against it. SOFR printed 3.87-3.88% into quarter-end, 2-3bp below IORB at 3.90% and 12-13bp below the standing repo rate at 4.00%, and reserve balances near $2.95tn passed the turn without stress, so there is no acute scarcity; the Fed has ended runoff and is buying bills. For this pair the relevant observation is not scarcity but the price of dollars: the broad trade-weighted dollar rose nearly two points in a month and US long yields rose roughly 45-51bp, which is the US-exceptionalism configuration in which a small deficit currency with no Fed swap line underperforms. The pair's own funding evidence is in the payload: a rolled long position pays 106.6bp annualised against a 112.5bp policy gap, implying a residual of roughly 6bp - no material kiwi funding premium and no distortion to exploit. Bearish at 53 because the mechanism is the dollar's price rather than its availability, and that does not reverse inside four weeks.",
+    "key_bilateral_metrics": [
+     "SOFR 3.87-3.88% vs IORB 3.90% and standing repo 4.00% - no reserve scarcity at quarter-end",
+     "Fed reserve balances near $2.948tn; runoff ended, reserve-management bill purchases $10bn a month",
+     "Pair funding premium 106.6bp annualised vs a -112.5bp policy gap: residual roughly 6bp, no kiwi funding premium",
+     "Broad trade-weighted dollar 120.33, up 1.88 points in a month; US ten-year up 45-51bp over the same period",
+     "RBNZ holds no standing USD swap line with the Fed - a structural asymmetry in any funding event"
+    ],
+    "what_is_priced": "The market prices ample reserves and a firm dollar into 2026-10-28; quarter-end pressure should ease in October but the dollar's yield advantage will not, which is what keeps this factor bearish for the pair.",
+    "citations": []
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": "rates",
+    "bilateral_analysis": "Over one to three months the two dossiers reach opposite conclusions on this factor and the honest bilateral answer is Neutral. The base dossier reads the Fed's rate advantage as persistent and therefore kiwi-negative; the quote dossier reads the same operating framework - ample reserves, a standing repo facility at 4.00% capping spikes, bill purchases rebuilding reserves - as removing the mechanism by which dollar scarcity has historically supported the currency, and therefore as mildly dollar-negative. Both readings are correct about different things: the price of dollars still favours the quote leg, while the availability of dollars no longer does. The one dated risk that could break the tie is the year-end funding turn, compounded this cycle by the 2026-12-11 deadline, which could tighten conditions briefly and push the pair lower in a way that is a timing risk rather than a trend. Netting a persistent rate advantage against a framework designed to prevent scarcity leaves no directional signal.",
+    "key_bilateral_metrics": [
+     "Standing repo facility at 4.00% caps funding spikes; ON RRP 3.75%, IORB 3.90%",
+     "Fed total assets up roughly $156bn y/y with reserves near the roughly $3tn comfortable benchmark",
+     "Peer tightening lowers the cost of hedging dollar assets, encouraging higher hedge ratios and forward dollar selling",
+     "Year-end turn plus the 2026-12-11 US funding deadline both fall inside the strategic window",
+     "Pair funding residual roughly 6bp - no structural dislocation to trade either way"
+    ],
+    "what_is_priced": "The market prices a Fed that keeps reserves ample, so a squeeze is a low-probability tail; neither leg's funding picture carries an unpriced strategic directional content for this pair.",
+    "citations": []
+   },
+   "horizon_split": "Bearish tactically because the dollar's price, not its scarcity, is the active mechanism and the kiwi has no swap-line buffer; Neutral strategically because the same framework that keeps the dollar expensive also prevents the shortage that would make it stronger, and the two dossiers' readings genuinely cancel.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  }
+ ],
+ "synthesis": {
+  "weight_adjustments": {
+   "adjustments_made": true,
+   "adjustments": [
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "default_weight": 0.1,
+     "applied_weight": 0.13,
+     "reason": "[Tactical] Highest-beta G10 currency vs reserve currency; kiwi moved ~1.8x AUD vs USD in September; rates-led credit repricing transmits faster here"
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk & Geopolitics",
+     "default_weight": 0.05,
+     "applied_weight": 0.04,
+     "reason": "[Tactical] 2026-10-28 double decision already scored in Factors 1 and 6"
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign Risk",
+     "default_weight": 0.04,
+     "applied_weight": 0.02,
+     "reason": "[Tactical] No dated fiscal catalyst for either leg inside four weeks"
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance & Terms of Trade",
+     "default_weight": 0.16,
+     "applied_weight": 0.18,
+     "reason": "[Strategic] Energy importer vs energy exporter with Brent near $100: oil moves the pair twice"
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "default_weight": 0.05,
+     "applied_weight": 0.04,
+     "reason": "[Strategic] Two-sided Gulf binary, no strategic direction"
+    },
+    {
+     "factor_number": 9,
+     "factor_name": "Market Structure & Volatility",
+     "default_weight": 0.03,
+     "applied_weight": 0.02,
+     "reason": "[Strategic] Pass 1 held only a three-tenor vol surface"
+    }
+   ]
+  },
+  "tactical": {
+   "net_stance": "Bearish",
+   "conviction": 3,
+   "overall_confidence": 57,
+   "weighted_score_calculation": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates",
+     "stance_score": -1,
+     "confidence": 54,
+     "conf_adj_score": -0.54,
+     "weight": 0.24,
+     "weighted_contribution": -0.1296
+    },
+    {
+     "factor_number": 2,
+     "factor_name": "Inflation & Growth",
+     "stance_score": -1,
+     "confidence": 58,
+     "conf_adj_score": -0.58,
+     "weight": 0.18,
+     "weighted_contribution": -0.1044
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite",
+     "stance_score": -1,
+     "confidence": 55,
+     "conf_adj_score": -0.55,
+     "weight": 0.13,
+     "weighted_contribution": -0.0715
+    },
+    {
+     "factor_number": 4,
+     "factor_name": "Flows & Positioning",
+     "stance_score": -1,
+     "confidence": 50,
+     "conf_adj_score": -0.5,
+     "weight": 0.1,
+     "weighted_contribution": -0.05
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance",
+     "stance_score": 0,
+     "confidence": 52,
+     "conf_adj_score": 0,
+     "weight": 0.06,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 6,
+     "factor_name": "Guidance & Credibility",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.07,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.04,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign",
+     "stance_score": 0,
+     "confidence": 55,
+     "conf_adj_score": 0,
+     "weight": 0.02,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 9,
+     "factor_name": "Market Structure",
+     "stance_score": -1,
+     "confidence": 52,
+     "conf_adj_score": -0.52,
+     "weight": 0.05,
+     "weighted_contribution": -0.026
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity",
+     "stance_score": -1,
+     "confidence": 53,
+     "conf_adj_score": -0.53,
+     "weight": 0.11,
+     "weighted_contribution": -0.0583
+    }
+   ],
+   "net_weighted_score": -0.4398,
+   "score_interpretation": "A net score of -0.4398 on a -1.0 to +1.0 scale is Bearish for NZD/USD by the mechanical rule (at or beyond -0.10). Six factors are Bearish, four are Neutral and none is Bullish, which is why the magnitude is large. The breadth deserves a caveat rather than applause: five of the six negatives - policy and rates, inflation and growth, risk appetite, flows, and USD liquidity - transmit through a single mechanism, the price of dollars and the level of US real yields, so this is one bet expressed five times rather than five independent bets. Strip that mechanism out and the residual case is the pair's negative carry and a doubled downside option skew. The score is taken at face value and the stance follows it, but conviction is set at 3 rather than 4 precisely because the factor correlation is high and no individual confidence exceeds 58.",
+   "rationale": "At the applied tactical weights the result is decided by Policy and Rates (0.24) and Inflation and Growth (0.18), which together carry 42% of the weight and are both Bearish for the pair, contributing -0.1296 and -0.1044 of the -0.4398 total; Risk Appetite at a raised 0.13 adds -0.0715, USD Liquidity -0.0583, Flows -0.0500 and Market Structure -0.0260, while External Balance, Guidance, Event Risk and Fiscal contribute nothing. The two standalone dossiers reinforce rather than conflict at this horizon: the base dossier is Bearish NZD at -0.159 and the quote dossier is Bullish USD at +0.3782 and ranks the dollar first of eleven, so the pair sits at the intersection of the weakest and strongest currencies in the cycle's opportunity set. The bilateral facts that modify those standalone views are the carry and the clustering: the kiwi is now the lower-yielding leg at -112.5bp, a rolled long pays roughly 4.9 pips a month, and both central banks announce on 2026-10-28, which means a hawkish RBNZ can be neutralised by a hawkish Fed within hours rather than being allowed to set the tone. What is priced is one more hike from each bank, a firm dollar, and a persistent downside skew in the pair of -0.78 to -0.90 vols; what we expect is that the differential does not move in the pair's favour before 2026-10-28 and that the October US data calendar adds to rather than subtracts from front-end yields, so the edge is in the global leg, not the domestic one. The path of least resistance over four weeks is therefore lower, with the specific risk being a squeeze: asset managers sold 21,655 kiwi contracts in a single week and speculators built $12.5bn of dollar longs in the same week, the fastest in seven years, so a hot NZ Q3 CPI on 2026-10-21 followed by an RBNZ hike against a Fed hold on 2026-10-28 is a dated combination that could reverse a crowded week of flow quickly. Key catalysts are the FOMC minutes on 2026-10-07, US CPI on 2026-10-14, the GDT auction on 2026-10-20, NZ Q3 CPI on 2026-10-21 and the RBNZ and FOMC decisions on 2026-10-28. Conviction is 3 because the factor breadth is genuine but the mechanism behind it is singular, because reported RBNZ October pricing ranges from roughly 30% to roughly 75% depending on the source, and because the pair's own options market has already doubled the price of downside protection - which is a market that has partly made this trade already. Pass-2 view on the verdict (publishable disagreement on location, not direction): the settled direction stands, but a -0.44 score overstates the edge available from 0.5614 specifically. Spot is 16 pips above the top of a six-touch band and 31 pips above the 52-week low, the close is at the 4th percentile of its range, 20-day realised vol has compressed to 5.9%, and in July a record kiwi short produced a 5.3% squeeze inside six weeks. The single mechanism behind five factors, US yields, is also showing its first post-payload wobble, with soft US data trimming October Fed-hike pricing. We therefore express the tactical view through resting offers on rallies rather than at market, and we would treat a daily close back above 0.5730 as the point where the chart has defeated the score.",
+   "g10_relative_ranking": "Among dollar pairs NZD/USD is one of the more attractive shorts this cycle: the kiwi ranks seventh of eleven tactically in its own dossier while the dollar ranks first, so the pair sits at the widest point of the cycle's cross-sectional spread. It is a cleaner dollar-long expression than AUD/USD, where the RBA at 4.60% pays the dollar 72.5bp of carry, and than USD/JPY, where intervention coordination caps the move; it is less clean than USD/CHF, where the dollar collects 387.5bp. Among kiwi crosses, short NZD/USD isolates the global rates leg, whereas short AUD/NZD or long NZD/CHF express the RBNZ convergence view without the dollar.",
+   "scenarios": {
+    "base_case": {
+     "probability_pct": 50,
+     "pair_target": "0.5560 (-54 pips / -0.97% from spot 0.56142)",
+     "timeframe": "2-4 weeks (window ends around 2026-10-30)",
+     "conditions": [
+      "The six-touch 0.5556-0.5598 band is tested and briefly breached but not broken on a sustained daily-close basis",
+      "The NZ Q3 CPI on 2026-10-21 prints 3.8-4.0%, giving a short-covering bounce that stalls in 0.5645-0.5690",
+      "The RBNZ hikes to 3.00% and the FOMC holds with December live on 2026-10-28; the dollar absorbs the RBNZ move",
+      "Brent holds $92-108 and US HY OAS stays 300-375bp"
+     ],
+     "path": "Test of the six-touch band in October with intraday probes toward 0.5530-0.5560, a 50-90 pip bounce into 0.5645-0.5690 after NZ CPI, then a fade back toward 0.5560 into month-end as the dollar's yield advantage absorbs a priced RBNZ hike on 2026-10-28."
+    },
+    "upside_case": {
+     "probability_pct": 25,
+     "pair_target": "0.5750 (+136 pips / +2.42%); pair reclaims the four-touch 0.56764-0.57292 band, which is adverse to the tactical view",
+     "conditions": [
+      "NZ CPI at or above 4.2% plus an RBNZ hike against a Fed hold forces the asset-manager swing and the one-week dollar build to unwind together",
+      "Or soft US CPI/payrolls push December Fed-hike odds below 50% and the US 2-year below 4.60%"
+     ]
+    },
+    "downside_case": {
+     "probability_pct": 25,
+     "pair_target": "0.5450 (-164 pips / -2.92%); the pair breaks the six-touch band and the 0.5500 round number",
+     "conditions": [
+      "The RBNZ holds at 2.75% on 2026-10-28, or NZ CPI prints at or below 3.6%",
+      "US HY OAS moves beyond 375bp with Brent above $105"
+     ]
+    }
+   },
+   "path_expectation": "Phase 1, 2026-10-02 to 2026-10-20: dominated by the 2026-10-07 FOMC minutes, the 2026-10-14 US CPI and two GDT auctions. Expect a test of the six-touch band, with intraday probes toward 0.5530-0.5560 failing to produce consecutive daily closes below 0.5556 because the pair is oversold and positioning has only just flipped. Phase 2, the 2026-10-21 NZ CPI: more likely to surprise firm than soft. It should deliver a 50-90 pip bounce into 0.5645-0.5690. That is the zone where the tactical short is built, not a reason to abandon it. Phase 3, 2026-10-28: the RBNZ and FOMC land within hours. We expect the dollar's yield advantage to absorb a priced RBNZ hike and the pair to fade back toward 0.5560 into month-end. Volatility: realised vol should rise from 5.9% toward the 8.5-8.9% implied level as the cluster passes. Breakdown signal: two daily closes below 0.5556 would turn the grind into a move toward 0.5500-0.5450. Trade construction (pass 2): do not sell at spot, which would be selling 16 pips above the top of the strongest support in the series. Primary entry is resting offers at 0.5645 (half) and 0.5685 (half), average 0.5665, covering the top of the two-touch band, the published 0.5640-0.5645 rebound resistance and the lower half of the four-touch zone. Stop 0.5745, above the 0.57292 top of the four-touch band and the 0.5700 trend-ending close level (80 pips, about 1.8 ATR). Targets T1 0.5560 (105 pips, 1.31R) and T2 0.5450 (215 pips, 2.69R). Breakdown alternative: sell a daily close below 0.5556 at around 0.5550, stop 0.5625, target 0.5450 (75 pips risk vs 100 reward, 1.33R). Time stop: close or cut to a quarter by 2026-10-30, after the event cluster. Sizing: conviction 3 justifies 0.50% of capital at risk; pip value is US$10 per NZ$100k, so on a US$10m book that is US$50,000 / (80 pips x US$10) = 62.5 lots, or NZ$6.25m notional. Carry adds about 5 pips a month in the short's favour.",
+   "conviction_ladder": {
+    "current": 3,
+    "increase_conditions": [
+     "Increase to 5 if: the RBNZ holds and the Fed hikes on 2026-10-28; or a daily close below 0.5500 with US HY OAS above 400bp",
+     "Increase to 4 if: two consecutive daily closes below 0.5556 with the NZ-US 2-year spread wider than -95bp; or the RBNZ holds at 2.75% against market pricing"
+    ],
+    "decrease_conditions": [
+     "Decrease to 2 if: two consecutive daily closes above 0.5650; or NZ Q3 CPI at or above 4.2%; or the front risk reversal rises above -0.40 vols",
+     "Decrease to 1 if: a daily close above 0.5730 (top of the four-touch band); or Brent below $85 for five sessions; or the US 2-year below 4.50%. (Stay at 3 if the pair holds 0.5556-0.5690 into 2026-10-28, the 25-delta front risk reversal stays between -0.60 and -1.00 vols, and Brent holds $92-108.)"
+    ]
+   },
+   "risk_reward": {
+    "base_case_payoff": "+54 pips / +0.97% for a short from spot (from the preferred 0.5665 entry: +105 pips to T1, +215 pips to T2)",
+    "downside_case_loss": "-136 pips / -2.42% for a short from spot (upside squeeze case to 0.5750, adverse to the tactical view); the 80-pip stop from the preferred entry caps single-trade loss",
+    "risk_reward_ratio": "0.40:1 from spot (tails +164 vs -136 = 1.21:1); 1.31:1 to T1 and 2.69:1 to T2 from the preferred 0.5665 entry",
+    "expected_value": "Pair move from spot: 0.50 x (-54) + 0.25 x (+136) + 0.25 x (-164) = -34 pips, i.e. +34 pips for a short, plus about 5 pips of carry, roughly +39 pips.",
+    "asymmetry_assessment": "The distribution favours the short only modestly from spot because the squeeze case is almost as large as the breakdown case. Entering on rallies roughly doubles the payoff per unit of risk, which is why location rather than direction is the trade-design priority."
+   }
+  },
+  "strategic": {
+   "net_stance": "Bullish",
+   "conviction": 2,
+   "overall_confidence": 53,
+   "weighted_score_calculation": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates",
+     "stance_score": 1,
+     "confidence": 56,
+     "conf_adj_score": 0.56,
+     "weight": 0.24,
+     "weighted_contribution": 0.1344
+    },
+    {
+     "factor_number": 2,
+     "factor_name": "Inflation & Growth",
+     "stance_score": -1,
+     "confidence": 52,
+     "conf_adj_score": -0.52,
+     "weight": 0.1,
+     "weighted_contribution": -0.052
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.04,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 4,
+     "factor_name": "Flows & Positioning",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.06,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance",
+     "stance_score": -1,
+     "confidence": 52,
+     "conf_adj_score": -0.52,
+     "weight": 0.18,
+     "weighted_contribution": -0.0936
+    },
+    {
+     "factor_number": 6,
+     "factor_name": "Guidance & Credibility",
+     "stance_score": 1,
+     "confidence": 53,
+     "conf_adj_score": 0.53,
+     "weight": 0.12,
+     "weighted_contribution": 0.0636
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk",
+     "stance_score": 1,
+     "confidence": 51,
+     "conf_adj_score": 0.51,
+     "weight": 0.05,
+     "weighted_contribution": 0.0255
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign",
+     "stance_score": 1,
+     "confidence": 55,
+     "conf_adj_score": 0.55,
+     "weight": 0.07,
+     "weighted_contribution": 0.0385
+    },
+    {
+     "factor_number": 9,
+     "factor_name": "Market Structure",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.02,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.12,
+     "weighted_contribution": 0
+    }
+   ],
+   "net_weighted_score": 0.1164,
+   "score_interpretation": "A net score of +0.1164 clears the +0.10 threshold, so the strategic stance is Bullish by the mechanical rule - but only just, and the rule is applied as written rather than relabelled. The reading is a narrow Bullish rather than a confident one: a single large positive (Policy and Rates at +0.1344, the rate-convergence thesis) plus three small positives (Guidance +0.0636, Fiscal +0.0385, Event Risk +0.0255) against two meaningful negatives (External Balance -0.0936 and Inflation and Growth -0.0520). Four factors contribute nothing. The score would fall back into Neutral on a two-point drop in Factor 1 confidence or a one-notch upgrade of the oil drag, so it should be read as a directional lean with a thin margin, not as a conviction call. The honest summary is that rate convergence is expected to beat the energy-driven income transfer by a small margin.",
+   "rationale": "At strategic weights Policy and Rates (0.24), External Balance at a raised 0.18, Guidance (0.12) and USD Liquidity (0.12) carry two-thirds of the weight, and the result turns on whether rate convergence beats the oil drag. Policy and Rates is the single largest contribution at +0.1344: the RBNZ is early in a cycle with bank paths clustered at 3.00-3.25% by year-end and higher through 2027, while the Fed's own September projections put the funds rate flat at 4.1% for both end-2026 and end-2027, so the -112.5bp differential is more likely to compress than to widen. The decision that would prove or disprove it is dated: 2026-12-09, when the RBNZ publishes a new OCR track and the FOMC publishes a new SEP on the same day, and Guidance (+0.0636) is scored on the same event from the communication side. Against that, External Balance at -0.0936 is the largest single negative because this pair sets a net energy importer against a net energy exporter with Brent near $100, which means oil moves both legs in opposite directions and therefore moves the pair twice; Inflation and Growth adds -0.0520 because New Zealand's fuel-driven overshoot fades while 5.6% unemployment and flat housing do not, which shortens the very cycle the rates case relies on. The two dossiers interact constructively here rather than conflicting: the base dossier is strategically Neutral at -0.066 and the quote dossier strategically Bearish at -0.1822, so combining a flat kiwi with a structurally pressured dollar produces the narrow positive this score shows. What is priced is a Fed plateau and a partially discounted RBNZ path; what we expect is that the RBNZ delivers at least one hike more than the Fed and that the US fiscal and funding calendar - midterms on 2026-11-03, the continuing-resolution expiry on 2026-12-11 - introduces dollar-negative noise the pair does not discount. The path of least resistance is upward but shallow, with the entire thesis hostage to Brent: a settlement would flip External Balance and Risk Appetite positive together and push the score well clear of the threshold, while an escalation above $110 would push it below it. Conviction is 2 because no strategic factor exceeds 56 confidence, because the score sits barely 1.6 points above the Bullish boundary, and because the base currency must carry negative carry of roughly 5 pips a month for the duration of the thesis.",
+   "g10_relative_ranking": "Strategically NZD/USD is a middling long rather than a preferred one. The kiwi ranks sixth of eleven in its own dossier and the dollar eighth, so the pair is a modest positive-spread trade rather than the best available short-dollar expression; the quote dossier itself argues the cleanest strategic dollar short is against the yen, where the valuation gap is widest and the BoJ is still normalising. Among kiwi expressions, short AUD/NZD captures the same RBNZ convergence without the dollar and without the oil asymmetry that dominates this pair's External Balance factor, which makes it the better-isolated version of the same thesis.",
+   "scenarios": {
+    "base_case": {
+     "probability_pct": 50,
+     "pair_target": "0.5760 (+146 pips / +2.60% from spot 0.56142)",
+     "timeframe": "1-6 months (horizon end-March 2027)",
+     "conditions": [
+      "The RBNZ reaches 3.00% by 2026-12-09 and lifts its track peak toward 3.50%, while the same-day SEP leaves the 2027 dot at 4.1%",
+      "The NZ-US 2-year spread narrows from about -86bp to inside -70bp",
+      "Brent averages $88-105",
+      "The NZ election produces a government by end-November"
+     ],
+     "path": "The pair holds near its lows through the 2026-11-07 NZ election, a lifted RBNZ track against a flat Fed dot on 2026-12-09 takes it back through the four-touch band at 0.5729, then it grinds toward 0.5760 and stalls below the 0.5809-0.5824 averages cluster."
+    },
+    "upside_case": {
+     "probability_pct": 25,
+     "pair_target": "0.5980 (+366 pips / +6.52%); a retest of the 200-week average (0.59784) inside the five-touch 0.59413-0.5997 band",
+     "conditions": [
+      "A Gulf settlement takes Brent below $85, reversing the terms-of-trade transfer on both legs",
+      "The Fed signals no further hikes, or a US shutdown begins on 2026-12-11"
+     ]
+    },
+    "downside_case": {
+     "probability_pct": 25,
+     "pair_target": "0.5420 (-194 pips / -3.46%); the six-touch band and 0.5500 fail",
+     "conditions": [
+      "Brent above $110, or NZ unemployment at or above 6.0% forcing the RBNZ to stop at 3.00% or hold",
+      "The December SEP raises the 2027 dot to 4.4% or higher"
+     ]
+    }
+   },
+   "path_expectation": "The path is a U, not a line. Leg 1, October to the 2026-11-07 NZ election: the pair holds near its lows (0.5550-0.5650) while the tactical dollar phase plays out and coalition talks add a premium. Leg 2, the 2026-12-09 inflection: the RBNZ publishes a new track and the FOMC a new SEP on the same day, followed two days later by the 2026-12-11 US funding expiry. A lifted RBNZ track against a flat Fed dot should take the pair back through the four-touch band at 0.5729. Leg 3, January to March 2027: a grind toward 0.5760, with pullbacks contained above the six-touch band. Volatility should settle near 7-8% after December. Invalidation: a weekly close below 0.5480 invalidates the strategic thesis at the level; Brent above $110 invalidates it on fundamentals. Trade construction (pass 2): accumulate after 2026-10-28, once the front event premium has decayed, in the six-touch band at 0.5560-0.5600 (average 0.5580), which overlaps the tactical T1 so the tactical short can be closed and flipped in the same zone. Stop on a weekly close below 0.5480 (100 pips from average entry). Targets T1 0.5760 (180 pips, 1.8R) and T2 0.5980 (400 pips, 4.0R). Option alternative: 99.7-155.7-day calls struck 0.5730-0.5760, bought on the cheap side of the -0.78 to -0.90 skew, which also avoids the roughly 5 pips a month of negative carry. Sizing: conviction 2 justifies 0.30% of capital at risk; on a US$10m book that is US$30,000 / (100 pips x US$10) = 30 lots, or NZ$3.0m notional, with about 30 pips of carry budgeted over six months.",
+   "conviction_ladder": {
+    "current": 2,
+    "increase_conditions": [
+     "Increase to 5 if: Brent below $80 and a weekly close above 0.5997 (200-week average and five-touch band)",
+     "Increase to 4 if: a weekly close above 0.5885 (above the 200-day 0.58465 and the five-touch 0.58837-0.58885 band) with Brent below $90",
+     "Increase to 3 if: the 2026-12-09 RBNZ track peak is at or above 3.50% with the Fed 2027 dot unchanged at 4.1%, the NZ-US 2-year spread narrows inside -70bp, and the pair posts a weekly close above 0.5730"
+    ],
+    "decrease_conditions": [
+     "Decrease to 1 if: the RBNZ holds on 2026-10-28; or a weekly close below 0.5556 with Brent above $105",
+     "Exit if: a weekly close below 0.5480; or the December SEP raises the 2027 dot to 4.4% while the RBNZ track peak is at or below 3.30%. (Stay at 2 if the RBNZ hikes once by December, Brent holds $90-105 and the pair holds 0.5556-0.5730.)"
+    ]
+   },
+   "risk_reward": {
+    "base_case_payoff": "+146 pips / +2.60% from spot (from the preferred 0.5580 entry: +180 pips to T1, +400 pips to T2)",
+    "downside_case_loss": "-194 pips / -3.46% from spot (to 0.5420); 100-pip stop from the preferred entry",
+    "risk_reward_ratio": "0.75:1 from spot (tails +366 vs -194 = 1.89:1); 1.8:1 to T1 and 4.0:1 to T2 from the preferred 0.5580 entry",
+    "expected_value": "From spot: 0.50 x 146 + 0.25 x 366 + 0.25 x (-194) = +116 pips; after about 30 pips of six-month carry, roughly +86 pips (+1.5%).",
+    "asymmetry_assessment": "Right-skewed because the upside case targets a structural ceiling 366 pips away while the downside is bounded by a six-touch floor. The thin score margin argues for the defined-risk call structure over outright spot."
+   }
+  },
+  "consensus_divergence": {
+   "bank_consensus_forecast": "Bank research on this pair is scarce and stale. ANZ forecast NZD/USD at 0.64 by end-2026 and 0.67 by end-2027 (published May 2026, made before the September dollar repricing). Westpac New Zealand's weekly commentary of 6 July 2026 carried a Dec-26 forecast of 0.60, down from 0.62 in its 7 April 2026 edition. ING forecast NZD/USD above 0.60 in the second half of 2026 on dollar weakness and RBNZ policy divergence. Rabobank expected near-term kiwi pressure followed by a moderate rise later in 2026, premised on further Fed cuts, a premise the Fed's September hike has overturned. As lower-grade context only (an aggregation, not bank research): a 21-provider survey updated 5 October forecasts 0.5908 by December 2026, 0.5986 by March 2027 and 0.6015 by June 2027, with an interpolated path of 0.5802 at 1M, 0.5936 at 3M and 0.5996 at 6M. No current, dated, primary bank forecast was retrievable; figures are indicative.",
+   "bank_consensus_forecast_source": "ANZ (May 2026), Westpac New Zealand weekly commentary (6 July 2026), ING (via BitcoinWorld report), Rabobank (April 2026, via exchangerates.org.uk); exchangerates.org.uk 21-provider aggregator survey cited only as lower-grade context",
+   "our_tactical_view": "Bearish NZD/USD over four weeks, net score -0.4398, conviction 3. The dollar's real-yield advantage and the pair's negative carry dominate a window in which the differential cannot move until 2026-10-28.",
+   "our_strategic_view": "Bullish NZD/USD over one to three months, net score +0.1164, conviction 2. The RBNZ out-hikes a plateaued Fed and the differential compresses, tested on 2026-12-09, but the margin over the Neutral threshold is thin and contingent on Brent.",
+   "divergence_direction": "Tactically well below consensus, which is uniformly constructive on the pair; strategically directionally in line with consensus but far less so in magnitude, since every surviving bank path implies a recovery well beyond anything this analysis supports.",
+   "divergence_magnitude": "Pass-2 quantification against the 21-provider survey path: 1M our 0.5560 vs 0.5802 (-242 pips); 3M our 0.5650 vs 0.5936 (-286 pips); 6M our 0.5760 vs 0.5996 (-236 pips). Our six-month upside case of 0.5980 sits roughly at consensus's six-month base case. If consensus is right at one month, the tactical short stops out at 0.5745.",
+   "why_we_differ": "Three bilateral factors are weighted differently. First, consensus treats RBNZ hikes as currency-supportive in the conventional way, whereas we note the kiwi is now the lower-yielding leg at -112.5bp and that the New Zealand two-year already discounts more tightening than the RBNZ has published, so the hikes buy less than they appear to. Second, consensus underweights the compounding terms-of-trade asymmetry: with Brent near $100 the pair sets an energy importer against an energy exporter, so oil moves both legs the same direction for the pair rather than offsetting. Third, most of the cited bank paths predate the September dollar repricing and the Fed's move to 3.75-4.00%, so they are not reacting to the current differential at all. Where we do agree with consensus is on direction over the medium term, and on the mechanism: a Fed at its plateau while the RBNZ is still moving.",
+   "payoff_if_right": "A short held into the 2026-10-28 cluster collects roughly 4.9-5.2 pips a month of carry while the tactical thesis plays out, and the strategic reversal - expressed through calls, which the -0.78 to -0.90 vol skew discounts - is entered at a better level and a cheaper vol than it would be today.",
+   "risk_if_wrong": "The specific tactical risk is the squeeze: a hot NZ Q3 CPI on 2026-10-21 followed by an RBNZ hike and a Fed hold on 2026-10-28 would force both legs of a crowded week of flow to reverse simultaneously. The strategic risk is Brent above $110, which would widen the New Zealand deficit, hand the dollar a terms-of-trade gain and push the +0.1164 score back below the Neutral boundary."
+  },
+  "cross_horizon_consistency": {
+   "aligned": false,
+   "tactical_stance": "Bearish (net score -0.4398, conviction 3)",
+   "strategic_stance": "Bullish (net score +0.1164, conviction 2)",
+   "explanation": "The horizons diverge by -0.56 of score, and the divergence is mechanical rather than a hedge. Three factors change sign. Policy and Rates is Bearish tactically because the differential is locked at -112.5bp until 2026-10-28 and the pair pays carry to wait, but Bullish strategically because the RBNZ can out-hike a Fed whose own projections show a plateau through 2027. Fiscal and Event Risk are Neutral tactically for want of a catalyst but Bullish strategically once the 2026-11-03 midterms and the 2026-12-11 funding expiry enter the window. Risk Appetite and Market Structure run the other way, Bearish tactically on the rates-led credit widening and the doubled downside skew, Neutral strategically because the Gulf binary and a flat vol surface carry no multi-month direction. The asymmetry in conviction matters: the tactical case is broad but driven by one mechanism, while the strategic case is narrow and clears its threshold by 1.6 points.",
+   "inflection_point": "The 2026-10-28 RBNZ Monetary Policy Review and FOMC, which land on the same day and are the first date on which the differential can move at all; the thesis is then confirmed or broken on 2026-12-09, when the RBNZ publishes a new OCR track and the FOMC a new SEP, again on the same day.",
+   "trading_implication": "The two horizons are sequential rather than contradictory: the tactical bearish phase runs into the 2026-10-28 cluster, and the strategic bullish phase requires the 2026-12-09 pair of projection rounds to validate rate convergence. Navigating the switch means not carrying the tactical view through the December decisions and not establishing the strategic view before the front-end event premium around 2026-10-28 has decayed. A failure of the RBNZ to hike at either October or December collapses both the inflection and the strategic case. Pass-2 level implication: the two horizons meet at one price band - the tactical short's T1 (0.5560) and the strategic long's entry zone (0.5560-0.5600) are both the six-touch support. Cover the short and start accumulating the long in that band after 2026-10-28; use a weekly close below 0.5480 as the shared line where the tactical view has won and the strategic view has lost; use a daily close above 0.5730 as the line where the tactical view has lost and the strategic long should already be on."
+  },
+  "forward_vs_spot": {
+   "current_spot": 0.56142,
+   "forward_1m": "0.56191 (+4.9 pips, about +0.09%); our expected base 0.5560, prob-weighted 0.5580 -> edge -59 / -39 pips (favours short)",
+   "forward_3m": "0.56291 (+14.9 pips, about +0.27%)",
+   "forward_6m": "0.56440 (+29.8 pips, about +0.53%)",
+   "expected_rate_3m": "0.5650 (base and probability-weighted)",
+   "expected_rate_6m": "0.5760 (base case); 0.5730 probability-weighted",
+   "edge_3m": "+21 pips (long) vs the 0.56291 forward, same on base and probability-weighted",
+   "edge_6m": "+116 pips (long) on base case vs the 0.56440 forward; +86 pips (long) probability-weighted. The edge changes sign between one and three months, the forward-curve version of the tactical-Bearish, strategic-Bullish split. Forwards are derived from the CME 106.6bp roll premium on actual/365, not quoted."
+  }
+ },
+ "catalysts": [
+  {
+   "date": "2026-10-06",
+   "event": "GDT Event 413 (dairy auction)",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "Dairy is roughly a quarter of New Zealand goods exports and the only fast-moving positive input on the base leg. A move beyond 3% in either direction shifts the terms-of-trade netting that Factor 5 scores as balanced tactically; the quote leg is unaffected, so the whole impact lands on the base currency and transmits directly into the pair.",
+   "priced_in": "Not priced",
+   "citations": []
+  },
+  {
+   "date": "2026-10-07",
+   "event": "FOMC minutes of the 15-16 September meeting",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Quote",
+   "rationale": "The minutes reveal how broad the hawkish majority was behind a 12-0 hike with 12 of 18 dots showing another move. A wide hawkish consensus lifts December pricing and US front-end yields, which is the single mechanism behind five of the six bearish tactical factors in this pair; the base leg is untouched, so the transmission is pure quote-side.",
+   "priced_in": "Partially",
+   "citations": [
+    4
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "event": "US September CPI",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Quote",
+   "rationale": "The quote leg's swing print. A firm core reading sustains the real-yield advantage that has driven the pair lower and keeps the December hike live; a soft reading undermines it a fortnight before both central banks decide. Because the pair's bearish case runs almost entirely through US yields, this release moves NZD/USD more than any New Zealand data point except the Q3 CPI.",
+   "priced_in": "Partially",
+   "citations": []
+  },
+  {
+   "date": "2026-10-20",
+   "event": "GDT Event 414 (dairy auction)",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "The last dairy auction before the New Zealand CPI and the double policy decision. A second consecutive decline would confirm that the one offset to the oil-driven terms-of-trade loss is fading, removing the support that holds Factor 5 at Neutral tactically and tilting the pair lower into the event cluster.",
+   "priced_in": "Not priced",
+   "citations": []
+  },
+  {
+   "date": "2026-10-21",
+   "event": "New Zealand CPI, September quarter",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Base",
+   "rationale": "The base leg's only quarterly inflation print in the window, with consensus near 3.9% against the RBNZ's 0.8% q/q assumption. With fuel prices having risen through September the risk is an upside surprise that locks in an October hike and forces the 21,655-contract asset-manager swing to begin reversing. A print at or below 3.6% would do the opposite and remove the base leg's only domestic support.",
+   "priced_in": "Partially",
+   "citations": [
+    7
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "event": "RBNZ Monetary Policy Review (OCR decision)",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Base",
+   "rationale": "The first date on which the -112.5bp differential can move. A hike to 3.00% narrows it by 25bp and is the pair's main scheduled upside; the complication is that it lands the same day as the FOMC, so the kiwi's own shock is filtered through the dollar within hours. Reported pricing ranges from roughly 30% (consistent with the RBNZ's own published track) to roughly 75% (after Governor Breman's oil remarks), which makes this the most genuinely two-sided date in the window. Post-payload reporting notes the RBNZ may still hike on 28 October even though its own September track had October as a pause.",
+   "priced_in": "Partially",
+   "citations": [
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "event": "FOMC decision (no projections)",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Quote",
+   "rationale": "The other half of the same day. A hold that keeps December live sustains the dollar's rate advantage and the pair's negative carry; a hike widens the differential to -137.5bp. Either outcome can neutralise an RBNZ hike delivered hours earlier, which is the specific clustering risk this pair carries and other crosses do not.",
+   "priced_in": "Partially",
+   "citations": [
+    4
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "event": "US midterm congressional elections",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Quote",
+   "rationale": "Control of Congress determines how the 2026-12-11 funding expiry is negotiated and therefore whether the quote leg's fiscal risk crystallises inside the strategic window. A divided result raises shutdown probability, which is the main route by which Factor 8 turns from a bond-market story into a currency story and supports the pair; the base leg is unaffected.",
+   "priced_in": "Not priced",
+   "citations": []
+  },
+  {
+   "date": "2026-11-07",
+   "event": "New Zealand general election",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "September polling projected 64 of 120 seats for the governing bloc against 56, close enough that coalition formation could run into late November. A clear result is neutral for the pair; a drawn-out negotiation adds a domestic risk premium to the base leg, and a change of government implies looser fiscal policy that the RBNZ would have to lean against - mildly supportive for rates, mildly negative for risk premium.",
+   "priced_in": "Partially",
+   "citations": []
+  },
+  {
+   "date": "2026-12-09",
+   "event": "RBNZ Monetary Policy Statement (new OCR track)",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Base",
+   "rationale": "The decisive event for the strategic thesis. The September track peaks at 3.28% and its Q4 average is consistent with a December hike; lifting the peak toward 3.50% would convert rate convergence from forecast to published policy. This is the dated claim on which the Factor 1 and Factor 6 strategic stances rest, and a track lifted only to 3.25-3.30% would reprice the base leg lower.",
+   "priced_in": "Partially",
+   "citations": [
+    4,
+    6
+   ]
+  },
+  {
+   "date": "2026-12-09",
+   "event": "FOMC decision with Summary of Economic Projections",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Quote",
+   "rationale": "The other half of the convergence test, on the same day. The September SEP set medians flat at 4.1% for both end-2026 and end-2027; a delivered hike with an unchanged 2027 dot confirms the plateau the strategic case needs, while a 2027 dot revised up to 4.4% would widen the differential and invalidate it. The simultaneity means the pair reprices the whole relative path in a single session.",
+   "priced_in": "Partially",
+   "citations": []
+  },
+  {
+   "date": "2026-12-11",
+   "event": "Expiry of the US continuing resolution (government funding deadline)",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Quote",
+   "rationale": "The quote leg's only dated sovereign-risk event in the window, landing two days after both projection rounds and inside the year-end funding turn. A shutdown would revive the governance debate Fitch cited when affirming AA+ and would distort the Treasury General Account at the worst moment of the funding calendar - a dollar-negative that supports the pair, with the caveat that a disorderly turn could briefly push the dollar to the left side of the smile instead.",
+   "priced_in": "Not priced",
+   "citations": []
+  }
+ ],
+ "invalidators": [
+  {
+   "condition": "Squeeze through the four-touch band: NZD/USD posts a daily close above 0.5730 before 2026-10-28",
+   "new_stance": "Neutral (tactical)",
+   "mechanism": "That close reclaims the top of the four-touch September breakdown band and the 0.5700 trend-ending level. It would mean the one-week asset-manager swing and the record-speed dollar build are unwinding together, and the July 2026 analogue shows that run extends several big figures.",
+   "monitor_indicator": "NZD/USD daily close vs 0.5730",
+   "monitor_frequency": "Daily",
+   "probability_pct": 20
+  },
+  {
+   "condition": "Hawkish double: NZ Q3 CPI prints at or above 4.2% y/y on 2026-10-21 and the RBNZ hikes to 3.00% while the FOMC holds on 2026-10-28",
+   "new_stance": "Neutral (tactical)",
+   "mechanism": "Both parts of the bearish rates logic would fail at once: the differential narrows to -87.5bp on the only date it can move, and the dollar-side offset fails to arrive the same day.",
+   "monitor_indicator": "Stats NZ CPI; the RBNZ and FOMC statements",
+   "monitor_frequency": "Event (2026-10-21, 2026-10-28)",
+   "probability_pct": 15
+  },
+  {
+   "condition": "Convergence fails: the RBNZ holds at 2.75% on 2026-10-28, or its 2026-12-09 track peaks at or below 3.30% while the same-day SEP lifts the 2027 Fed dot to 4.4% or higher",
+   "new_stance": "Bearish (strategic)",
+   "mechanism": "The differential would widen instead of compress, removing the +0.1344 Factor 1 contribution that carries the whole strategic score.",
+   "monitor_indicator": "RBNZ OCR and track; FOMC SEP 2027 median",
+   "monitor_frequency": "Event (2026-10-28, 2026-12-09)",
+   "probability_pct": 20
+  },
+  {
+   "condition": "Floor breaks: NZD/USD posts a weekly close below 0.5480",
+   "new_stance": "Bearish (strategic, at the level)",
+   "mechanism": "That close takes out the six-touch 0.5556-0.5598 band and the 0.5500 round number, below which no computed support exists. The pair would then be trading the oil-driven income transfer rather than rate convergence, and the strategic entry zone would be gone.",
+   "monitor_indicator": "NZD/USD weekly close vs 0.5480",
+   "monitor_frequency": "Weekly",
+   "probability_pct": 20
+  },
+  {
+   "condition": "Oil compounding: Brent holds above $115 for ten sessions",
+   "new_stance": "Bearish (strategic)",
+   "mechanism": "Oil moves both legs against the pair at once: the NZ import bill and current account worsen while US terms of trade and Fed inflation pressure strengthen. External Balance would outweigh rate convergence.",
+   "monitor_indicator": "Brent front-month",
+   "monitor_frequency": "Daily",
+   "probability_pct": 10
+  },
+  {
+   "condition": "Gulf settlement: Brent falls below $85 for five sessions on a US-Iran settlement",
+   "new_stance": "Neutral (tactical) and higher strategic conviction",
+   "mechanism": "A settlement reverses the compounding mechanism in the pair's favour on both legs and removes the dollar's haven and terms-of-trade premium.",
+   "monitor_indicator": "Brent; Hormuz flows",
+   "monitor_frequency": "Daily",
+   "probability_pct": 15
+  },
+  {
+   "condition": "Front-end spread compresses early: the NZ-US 2-year spread narrows inside -70bp before 2026-10-28 (currently about -86bp: NZ 3.92% vs US 4.78% on 2026-10-01)",
+   "new_stance": "Neutral (tactical)",
+   "mechanism": "It would show the real-yield channel behind five of the six bearish tactical factors reversing before the differential can formally move.",
+   "monitor_indicator": "NZGB 2-year minus UST 2-year",
+   "monitor_frequency": "Daily",
+   "probability_pct": 15
+  }
+ ],
+ "signposts": [
+  {
+   "indicator": "NZ-US 2-year government bond spread",
+   "current_level": "about -86bp (NZ 3.92%, US 4.78%, 2026-10-01; -100bp on the base dossier's 2026-09-28 US print)",
+   "confirms_if": "holds wider than -90bp into 2026-10-28 (tactical), then narrows inside -70bp by 2026-12-09 (strategic)",
+   "invalidates_if": "inside -70bp before 2026-10-28 (tactical), or wider than -110bp after 2026-12-09 (strategic)",
+   "bilateral_importance": "The only measure that prices both central banks' paths in one number; the pair's horizon split is literally the sign change in this spread.",
+   "source": "https://tradingeconomics.com/new-zealand/government-bond-yield and https://www.federalreserve.gov/releases/h15/",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "NZD/USD vs the six-touch support and the four-touch resistance",
+   "current_level": "0.56142, 16 pips above the 0.5598 top of the six-touch band and 62 pips below the 0.56764 base of the four-touch band",
+   "confirms_if": "tactical - rallies fail below 0.5730 and the pair revisits 0.5560; strategic - weekly closes stay above 0.5480 and the pair reclaims 0.5730 after 2026-12-09",
+   "invalidates_if": "tactical - daily close above 0.5730; strategic - weekly close below 0.5480",
+   "bilateral_importance": "The same band is the tactical target and the strategic entry, so it is where the two horizons hand over.",
+   "source": "gated price store (derived NZDUSD payload)",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "Pair 25-delta risk reversal (front tenor)",
+   "current_level": "-0.784 vols at 36.7 days (CME, 2026-09-30); about -0.34 in late August",
+   "confirms_if": "stays between -0.60 and -1.00 into 2026-10-28; eases toward -0.50 after December, cheapening puts as the strategic long builds",
+   "invalidates_if": "above -0.40 before 2026-10-28 (hedgers abandoning downside), or below -1.30 after December (strategic view fighting a structural bid for puts)",
+   "bilateral_importance": "The pair's own hedging demand, not either leg's; it was the only structural input pass 1 scored Factor 9 on.",
+   "source": "https://www.cmegroup.com/markets/fx/g10/new-zealand-dollar.html",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "CFTC NZD asset-manager net position",
+   "current_level": "-11,485 contracts (2026-09-22), weekly change -21,655",
+   "confirms_if": "extends beyond -20,000 into 2026-10-28 (tactical), then stabilises before December (strategic squeeze fuel)",
+   "invalidates_if": "returns to net long before 2026-10-28",
+   "bilateral_importance": "The short-base leg of the amplified positioning; the July analogue shows what an unwind does to this pair.",
+   "source": "https://www.cftc.gov/dea/futures/financial_lf.htm",
+   "frequency": "Weekly (Friday)"
+  },
+  {
+   "indicator": "Brent crude front-month",
+   "current_level": "about $100.56-103.16 (2026-09-30/10-01)",
+   "confirms_if": "tactical - $92-108; strategic - drifts below $95 by Q1 2027",
+   "invalidates_if": "above $115 (strategic Bearish) or below $85 (tactical Neutral)",
+   "bilateral_importance": "Moves the two legs in opposite directions, so it moves this pair twice; the largest single strategic negative.",
+   "source": "https://tradingeconomics.com/commodity/brent-crude-oil",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "Realised vs implied volatility (front)",
+   "current_level": "20-day realised 5.9% vs 36.7-day implied 8.857% (+2.96-vol premium)",
+   "confirms_if": "realised rises toward 8-9% through the 2026-10-28 cluster without a close above 0.5730 (orderly bearish repricing)",
+   "invalidates_if": "realised spikes above 10% on an upside move (squeeze regime)",
+   "bilateral_importance": "An orderly fall on compressed vol is the tactical thesis; a vol-led upside break is the squeeze the stop must survive.",
+   "source": "gated price store; CME implied vol",
+   "frequency": "Daily"
+  }
+ ],
+ "assumptions": [
+  "Price payload quoted verbatim: dataPoints 130; dateRange 2026-04-03 to 2026-10-02; spot 0.56142; spotDate 2026-10-02; computationRange 2007-12-24 to 2026-10-02 (4899 weekday bars).",
+  "dataQuality: 'NZD/USD: only 11 resistance / 1 support zones met the 2-touch threshold - supplement with round numbers and note the shortfall'; 4899 weekday bars in the store (1006 weekly, 460 monthly); 130 daily bars passed downstream (2026-04-03 to 2026-10-02), the 1-6 month strategic horizon.",
+  "spotDate (2026-10-02) is one session after the 2026-10-01 valuation date. Every level, pip distance, percentage, forward and scenario is computed against 0.56142. Web commentary reporting later trade near and below 0.5600 on 2026-10-05 is cited only as qualitative technical context and is not used in any calculation.",
+  "Moving averages are simple averages of trading-day closes over the full store. Realised vol is annualised on 252 days. ATR(14) is 45 pips. Zone distances are the payload's figures measured from spot to each zone's midpoint; distances used in trade construction are measured to zone boundaries and labelled as such. The support-zone shortfall is handled with the 0.5600 and 0.5500 round numbers and the 52-week intraday low.",
+  "The two-pass split: factor stances, confidences, evidence types, weights, weighted contributions, net scores, convictions, rationales, G10 rankings, the consensus block and the cross-horizon block are the pass-1 Direction Verdict carried through unchanged. Pass 1 scored without the price payload and the payload was not used to revise any of them. Pass-2 content (market context, carry and forwards, levels, scenarios, risk/reward, path, conviction ladders, invalidators, signposts, expression) is labelled; where pass 2 disagrees, as on tactical entry location, the disagreement is stated in prose and the verdict stands.",
+  "The policy differential is -112.5bp using the payload rate block and the Fed effective midpoint. annualised_carry_bps is reported as -112.5 (a long pays), consistent with the carry-to-vol ratios in the report (-0.130 on 8.651%); the CME roll premium of 106.6bp is reported separately as the funding premium. The payload's 10-year yields are monthly vintages dated 2026-08-01 and are not quoted as live levels.",
+  "The NZ-US 2-year spread uses the dossiers' live prints: NZ 3.92% (2026-10-01) and US 4.78% (2026-10-01, quote dossier). The base dossier's 4.92% US print dated 2026-09-28 gives -100bp; both are disclosed.",
+  "Forwards are derived from the CME 6NZ6->6NH7 roll premium of 106.6bp on an actual/365 basis; they are not quoted outrights. The premium includes cross-currency basis, which cannot be separated without an OIS curve.",
+  "Implied vol and risk reversals are gated CME values observed 2026-09-30 at 36.7, 99.7 and 155.7 days. pair_3m_iv is 8.651% at 99.7 days. No one-year IV percentile is available (CME history starts 2026-08-21); iv_percentile of 70 is the base dossier's figure within 26 observations.",
+  "CFTC percentiles: the report describes both legs as 'at the 44th-56th percentile' and the aggregate dollar long as around the 44th percentile of cached weeks; base_cftc_percentile is therefore entered as 56 and quote_cftc_percentile as 44. range_52w_percentile uses the intraday range (6th); the closing-range percentile is the 4th.",
+  "Scenario probabilities follow the framework's 50/25/25 convention, with expected values computed explicitly. Position sizing is illustrative: 0.50% of capital at risk for conviction 3 and 0.30% for conviction 2, pip value US$10 per NZ$100k.",
+  "Bilateral trade is taken verbatim from the IMF DOTS block for 2024, NZ-reported net +$0.5bn.",
+  "Aggregator surveys are lower-grade sources than primary bank research. Bank forecasts older than 60 days (ANZ in May, Rabobank in April, ING) are used only as context. The July 2026 record leveraged-fund short and subsequent rally are cited from web research and checked against the price store (0.5678 on 2026-07-07 to 0.59795 on 2026-08-21).",
+  "Dossier dates were not stated in the report; base_dossier_date and quote_dossier_date are set to the 2026-10-01 valuation date. Catalyst and factor citations marked 'dossier-sourced' or 'None incremental' are represented as empty arrays. Dossier-sourced catalysts and factor-level data have no numbered citation in the list."
+ ],
+ "complete_citations": [
+  {
+   "id": 1,
+   "title": "New Zealand Dollar to Dollar Forecast: NZD/USD consensus survey",
+   "publisher": "exchangerates.org.uk",
+   "url": "https://www.exchangerates.org.uk/currency-forecasts/new-zealand-dollar-to-us-dollar-forecast",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 2,
+   "title": "New Zealand Dollar Forecast 2026: ANZ Sees NZD/USD Rising To 0.64 By Year-End",
+   "publisher": "exchangerates.org.uk",
+   "url": "https://www.exchangerates.org.uk/news/45929/2026-05-17-new-zealand-dollar-forecast-2026-anz-sees-nzd-usd-rising-to-0-64-by-year-end.html",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 3,
+   "title": "Westpac New Zealand Economics Weekly Commentary, 6 July 2026",
+   "publisher": "Westpac New Zealand",
+   "url": "https://assets.dam.westpac.co.nz/is/content/wnzl/dist/all-of-bank/economic-reports/weekly-commentary/Weekly-Commentary_060726_report_06Jul26.pdf",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 4,
+   "title": "RBNZ OCR September 2026: what the 2.75% rate means",
+   "publisher": "OrbitRemit",
+   "url": "https://blog.orbitremit.com/rbnz-ocr-september-2026/",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 5,
+   "title": "RBNZ on Track for Second Straight Hike, Taking OCR to 2.75%",
+   "publisher": "Briefs.co",
+   "url": "https://www.briefs.co/news/rbnz-on-track-for-second-straight-hike-taking-ocr-to-2-75/",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 6,
+   "title": "RBNZ Hike Is Priced In - ASB and Westpac OCR path divergence",
+   "publisher": "ActionForex",
+   "url": "https://www.actionforex.com/action-insight/market-overview/652344-rbnz-hike-is-priced-in-can-the-ocr-track-push-nzd-usd-through-0-60/",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 7,
+   "title": "RBNZ Flags Near-Term Inflation Risk as Oil Strength Tests the September Forecast",
+   "publisher": "Vantage Markets",
+   "url": "https://www.vantagemarkets.com/market-news/rbnz-near-term-inflation-risk-oil-september-22-2026/",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 8,
+   "title": "RBNZ preview: Westpac see July 8 rate hold; OCR seen peaking at 4% end-2027",
+   "publisher": "TradingView / ForexLive",
+   "url": "https://www.tradingview.com/news/forexlive:819328e94094b:0-rbnz-preview-westpac-see-july-8-rate-hold-tightening-cycle-still-in-effect-pared-back/",
+   "date_accessed": "2026-10-05"
+  },
+  {
+   "id": 9,
+   "title": "NZD/USD Price Forecast: Kiwi remains under pressure at YTD lows sub-0.5600",
+   "publisher": "FXStreet",
+   "url": "https://www.fxstreet.com/news/nzd-usd-price-forecast-kiwi-remains-under-pressure-at-ytd-lows-sub-05600-202610050802",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 10,
+   "title": "The New Zealand Dollar holds near its lows while business confidence jumps",
+   "publisher": "FXStreet",
+   "url": "https://www.fxstreet.com/news/the-new-zealand-dollar-holds-near-its-lows-while-business-confidence-jumps-202610052300",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 11,
+   "title": "NZD/USD Pressured as Safe-Haven Flows Boost Greenback",
+   "publisher": "Tradingpedia",
+   "url": "https://www.tradingpedia.com/2026/10/05/nzd-usd-pressured-as-safe-haven-flows-boost-greenback/",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 12,
+   "title": "New Zealand Dollar hangs near YTD low vs broadly firmer USD",
+   "publisher": "FXStreet",
+   "url": "https://fxstreet.com/news/new-zealand-dollar-flirts-with-ytd-low-below-05900-amid-resurgent-usd-demand-202610050248",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 13,
+   "title": "NZDUSD Chart and trade ideas",
+   "publisher": "TradingView",
+   "url": "https://www.tradingview.com/symbols/NZDUSD/",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 14,
+   "title": "New Zealand Dollar Forecast: ING Sees NZD/USD Above 0.60 By Late 2026",
+   "publisher": "BitcoinWorld",
+   "url": "https://bitcoinworld.co.in/new-zealand-dollar-forecast-ing-nzd-usd-060-2026/",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 15,
+   "title": "New Zealand Dollar Outlook: NZD/USD To Rise Later In 2026, Say Rabobank",
+   "publisher": "exchangerates.org.uk",
+   "url": "https://www.exchangerates.org.uk/news/45754/2026-04-24-new-zealand-dollar-outlook-nzd-usd-to-rise-later-in-2026-say-rabobank.html",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 16,
+   "title": "Hedge Funds Amass Biggest New Zealand Dollar Net Short Since 2006",
+   "publisher": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-07-20/hedge-funds-dial-up-bearish-kiwi-bets-to-record-on-oil-rebound",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 17,
+   "title": "Hedge funds build record short positions against New Zealand dollar",
+   "publisher": "Hedgeweek",
+   "url": "https://hedgeweek.com/news/hedge-funds-build-record-short-positions-against-new-zealand-dollar",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 18,
+   "title": "New Zealand Dollar COT Positioning (Jul 21, 2026)",
+   "publisher": "ForexFundamentals",
+   "url": "https://forexfundamentals.com/cot/nzd",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 19,
+   "title": "Speculators Flip to Net Short on Kiwi as CFTC Positions Swing by Over 20K Contracts",
+   "publisher": "InstaForex",
+   "url": "https://www.instaforex.com/forex-news/3188946",
+   "date_accessed": "2026-10-06"
+  },
+  {
+   "id": 20,
+   "title": "Kiwi may defy hedge fund short bets as RBNZ and geopolitics shift outlook",
+   "publisher": "Hedgeweek",
+   "url": "https://www.hedgeweek.com/kiwi-may-defy-hedge-fund-short-bets-as-rbnz-and-geopolitics-shift-outlook/",
+   "date_accessed": "2026-10-06"
+  }
+ ]
+}

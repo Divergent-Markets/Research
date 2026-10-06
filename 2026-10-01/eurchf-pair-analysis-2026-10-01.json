@@ -175,7 +175,7 @@
     "annualised_carry": "250bp. Policy rates: ECB deposit facility 2.50% minus SNB policy rate 0.00%.",
     "funding_premium": "-295.4bp. CME 6S/6E calendar-spread cross, observed 2026-09-30 (74.7 to 165.6 days). Futures price the franc to appreciate about 2.95% a year, which is what a rolled long-EUR/CHF position earns if spot is unchanged. By covered interest parity this equals the rate differential plus the cross-currency basis, and the two cannot be separated. It is not the policy differential.",
     "pair_3m_iv": "3.342%. Data-Cache/derived/fx_iv.csv (CHU+EUU), triangle realised-correlation ESTIMATE measured at 99.7 days and observed 2026-09-30. No option is listed on EUR/CHF. Against direct Eurex quotes on 2026-08-21 this method understated EUR/CHF vol by 17.8%, so treat it as a floor.",
-    "carry_to_vol_ratio": "0.748. 250bp divided by the 3.342% estimated 3-month IV. On the 295.4bp funding premium the ratio is about 0.88. Because the IV estimate runs low, both ratios are overstated. If the 17.8% understatement holds, the policy-basis ratio is nearer 0.63.",
+    "carry_to_vol_ratio": 0.748,
     "carry_regime": "Carry is the euro's structural advantage in this pair and works while volatility stays low. The regime fails when a franc safe-haven event arrives, and the franc's documented fat tail means losses come in sudden drops rather than as a steady drain.",
     "breakeven_move": "At 250bp a year, EUR/CHF can fall about 0.21% (about 19 pips) per month, 0.63% (about 58 pips) over three months or 1.25% (about 117 pips) over six months before a long position's carry is erased. On the 295.4bp funding premium the three-month breakeven is about 0.74% (about 69 pips).",
     "reference": "See bilateral_carry_analysis section"

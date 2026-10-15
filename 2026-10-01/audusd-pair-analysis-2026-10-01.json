@@ -88,7 +88,7 @@
   "rate_differential_bps": 72.5,
   "annualised_carry_bps": 72.5,
   "pair_3m_iv": 7.813,
-  "pair_3m_iv_source": "Data-Cache/derived/fx_iv.csv (CME settlements; ADU/6AZ6, observed 2026-09-30, 99.7-day tenor), via gated direction payload impliedVol.atmIv3mPct",
+  "pair_3m_iv_source": "CME-derived 3-month at-the-money implied volatility (CME settlements; ADU/6AZ6, observed 2026-09-30, 99.7-day tenor)",
   "carry_to_vol_ratio": 0.093,
   "carry_regime": "carry not compensating",
   "breakeven_move": "On the 72.5bp policy differential a long accrues about 4.2 pips a month (0.725% × 0.69554 ÷ 12); on the realised roll about 3.3 pips. Spot can slip only from 0.69554 to roughly 0.6951 in a month before carry is erased, a tenth of one 47-pip ATR. Over six months the cushion is about 25 pips on the policy differential and 19.5 pips on the realised roll.",
@@ -161,7 +161,7 @@
    "horizon_split": "Stance and confidence are identical on both horizons at Bullish 52. Tactically the edge is a single datable pricing gap on 3 November; strategically it is the shape of the two forward paths, with the Fed self-described as flat through 2027 and the RBA still holding an option. The reason confidence does not rise on either horizon is the same: the differential is real but unmonetisable at a 0.093 carry-to-vol, and the long-end spread has compressed to roughly +14bp on the dossiers' live cross-section.",
    "carry_analysis": {
     "annualised_carry": "72.5bp. Basis: RBA cash rate 4.60% minus Fed funds midpoint 3.875%",
-    "pair_3m_iv": "7.813. Source: gated direction payload impliedVol.atmIv3mPct (CME ADU/6AZ6, observed 2026-09-30, 99.7-day tenor) via Data-Cache/derived/fx_iv.csv",
+    "pair_3m_iv": "7.813. Source: CME-derived 3-month at-the-money implied volatility (CME ADU/6AZ6, observed 2026-09-30, 99.7-day tenor)",
     "carry_to_vol_ratio": 0.093,
     "realised_roll": "CME calendar premium -56.2bp annualised (CME-derived carry estimate, 6A 6AV6->6AX6, observed 2026-09-30); by covered interest parity this is the interest differential plus the cross-currency basis and cannot be decomposed without an OIS curve, so the realised carry on a rolled long AUD position is about 56bp a year rather than 72.5bp",
     "breakeven_move": "At 72.5bp on a 0.69554 spot the monthly accrual is roughly 4 pips of the quote currency, and on the realised 56.2bp roll roughly 3 pips - an order of magnitude below a normal daily range for this pair, so carry ranks the pair but does not pay to hold it",

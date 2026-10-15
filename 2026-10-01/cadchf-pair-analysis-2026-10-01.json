@@ -71,7 +71,7 @@
   },
   "recent_regime": "Until 2026-09-30 the cross was a textbook carry grind. The franc was the funding leg: OCBC argued the SNB is unlikely to validate the market's relatively hawkish pricing, expecting rates unchanged well into 2027 while OIS prices a meaningful December hike probability. The pair rose from the 0.565 area in early July to 0.5915 on 2026-09-17. That regime broke over two sessions when three franc-positive shocks coincided: France unveiled a EUR 43 billion austerity package on October 1 and the spread blew out; Swiss core CPI rose to 0.5% YoY in September from 0.4%; and weak US payrolls reportedly cut implied odds of an October Fed move from 70% to below 20%, which took away the dollar-side support for franc weakness. On the Canadian side, the US ban on various Canadian goods imports also took effect. The dominant narrative is therefore moving from 'franc as funding currency' to 'franc as eurozone refuge'. That is exactly the tail that Factor 3's strategic Neutral was built to accommodate.",
   "citations": [
-   "https://internal/gated-store/CADCHF.direction.json",
+   "https://internal/price-history/CADCHF",
    "https://forexfundamentals.com/cot/chf",
    "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html",
    "https://www.actionforex.com/action-insight/market-overview/656113-france-risk-premium-surges-as-oat-bund-spread-breaks-140bp-eur-chf-slides/",
@@ -1338,7 +1338,7 @@
   "Spot date gap: spotDate (2026-10-02) is one session AFTER the 2026-10-01 valuation date of both dossiers, not before it. Every level, pip distance, percentage and target is anchored to 0.58158. No web-sourced spot was used.",
   "Price-derived metrics: moving averages are simple averages of trading-day closes over the full stored history. Realised volatility is annualised on 252 days. ATR(14) is 0.00315 (32 pips). Zone distances are measured from spot to each zone's midpoint. Narrative prose quotes the close-basis 52-week percentile (68).",
   "52-week range fields in market_context use the closing basis (0.56308-0.59041, 68th percentile); the intraday range is 0.55955-0.59152 (69th percentile; high set 2026-09-17, close high 2026-09-16). Support and resistance levels in pair_technicals are zone midpoints (zone edges are given in chart_pattern) plus the 52-week high.",
-  "Scoring basis: all ten factors and the synthesis were scored without the price series. Every stance, confidence, evidence_type, weight, contribution, net score, conviction and rationale is carried verbatim. Pass-2 chart evidence appears only in market context, levels, scenarios, risk/reward, the clearly labelled Factor 9 addendum, invalidators and signposts.",
+  "Scoring basis: all ten factors and the synthesis were scored without the price series. Every stance, confidence, evidence_type, weight, contribution, net score, conviction and rationale is carried verbatim. Chart evidence appears only in market context, levels, scenarios, risk/reward, the clearly labelled Factor 9 addendum, invalidators and signposts.",
   "Post-verdict information: web research accessed 2026-10-06 surfaced events dated 2026-10-01 to 2026-10-05 (the OAT-Bund spread breaching 130-140bp; Swiss September CPI at 1.0% and core at 0.5%; softer US data cutting Fed October hike odds). These are used for narrative, scenario conditions and the published disagreement only and do not change any scored element. US payrolls timing is ambiguous across sources (the CAD dossier dates the next payrolls to 2026-10-09; one 2026-10-05 summary refers to a weak payrolls report already released), so no claim is made about the release date.",
   "Implied volatility: pair_3m_iv is 4.997% at a 99.7-day tenor. It is a triangle ESTIMATE using a realised correlation of 0.6937, which is documented as running low by a median 14.4%. No option is listed on CAD/CHF, so there is no risk reversal, IV percentile, barrier or vol-surface skew; these are structural absences and the iv_percentile field is therefore null. The CAD CFTC percentile is not published in the report and is recorded as null.",
   "Carry sign convention: annualised_carry_bps is entered as +268.6 (the executable roll, which the report states as -268.6bp funding premium because the forward trades at a discount; a rolled long earns it). Policy differential is +225bp. carry_to_vol_ratio of 0.54 is 268.6/100/4.997; the report's 0.45 is on the 225bp policy basis.",
@@ -1370,7 +1370,7 @@
    "id": 3,
    "title": "CAD/CHF rates, implied volatility and funding data",
    "publisher": "CME-derived implied volatility and funding estimates",
-   "url": "https://internal/gated-store/CADCHF.direction.json",
+   "url": "https://internal/price-history/CADCHF",
    "date_accessed": "2026-10-05"
   },
   {

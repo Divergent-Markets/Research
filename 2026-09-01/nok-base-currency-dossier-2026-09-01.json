@@ -374,7 +374,7 @@
           "vs": "Sweden 10Y",
           "yield_pct": 2.781,
           "spread_bps": 166.7,
-          "interpretation": "A +166.7bp advantage on a Swedish level that is the cached monthly IRLTLT01 series as at 2026-06-01, 92 days old and outside both freshness windows. The spread is directionally right and its precision is flagged."
+          "interpretation": "A +166.7bp advantage on a Swedish level that is the OECD monthly IRLTLT01 series as at 2026-06-01, 92 days old and outside both freshness windows. The spread is directionally right and its precision is flagged."
         },
         {
           "vs": "Switzerland 10Y Confederation",
@@ -2076,7 +2076,7 @@
   },
   "assumptions": [
     "Provenance convention. Everything else carries a numbered citation. No inline provenance tags are used anywhere in the prose.",
-    "DOCUMENTED GAP - implied volatility. No free, reliably dated quote for 1-month or 3-month EUR/NOK or USD/NOK implied volatility, the 1-year implied volatility percentile, the 25-delta risk reversal or the volatility term structure could be obtained. The iv_1m, iv_3m and iv_percentile_1y fields are ZERO PLACEHOLDERS and must not be read as market levels; the vol_term_structure enumeration is a schema default rather than an observation. Every volatility statement in this dossier uses realised volatility instead. The same gap was recorded for sterling, the euro and the franc in this cycle.",
+    "DOCUMENTED GAP - implied volatility. No free, reliably dated quote for 1-month or 3-month EUR/NOK or USD/NOK implied volatility, the 1-year implied volatility percentile, the 25-delta risk reversal or the volatility term structure could be obtained. The iv_1m, iv_3m and iv_percentile_1y fields are ZERO PLACEHOLDERS and must not be read as market levels; the vol_term_structure label is a default value rather than an observation. Every volatility statement in this dossier uses realised volatility instead. The same gap was recorded for sterling, the euro and the franc in this cycle.",
     "DOCUMENTED GAP - CFTC positioning. The Norwegian krone is not a CFTC-reportable Commitments of Traders market. CME does list a Norwegian krone futures contract, but the krone does not appear in the Commitments of Traders financial futures reports and the latest tranche of 2026-08-11 carries no krone line. Every CFTC field in the positioning block is a structural placeholder. Substitutes used: the Norges Bank pre-announced transaction schedule, 52-week range and close percentiles from price data, and reported corporate oil-tax flow.",
     "DOCUMENTED GAP - cross-currency basis. No quoted Norwegian krone basis, and no benchmark 3-month EUR/USD or JPY/USD basis, was obtainable. The NOK/USD figure of approximately minus 6 basis points and the NOK/EUR figure of approximately minus 10 basis points are DERIVED from the futures-implied roll premia of 56.5 and 189.8 basis points against policy differentials of 62.5 and 200 basis points. They are derivations, not quotes.",
     "DOCUMENTED GAP - forward points. No free quoted source for USD/NOK forward points exists. All three outrights - 9.3480, 9.3569 and 9.3700 - and the corresponding points of plus 43, plus 132 and plus 263 pips are DERIVED from the 56.5 basis point futures-implied roll premium on an actual-over-365 basis at 30, 91 and 182 days, and are flagged as such.",

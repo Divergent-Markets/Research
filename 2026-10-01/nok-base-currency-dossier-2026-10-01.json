@@ -140,7 +140,7 @@
         "leveraged_funds": {
           "net_contracts": 0,
           "direction": "flat",
-          "notional_usd": "Not applicable. NOK is not a reportable market in the CFTC Commitments of Traders data cached by this pipeline (the 2026-09-22 tranche carries no krone line); zero is a structural placeholder, not a measured flat position.",
+          "notional_usd": "Not applicable. NOK is not a reportable market in the CFTC Commitments of Traders data (the 2026-09-22 tranche carries no krone line); zero is a structural placeholder, not a measured flat position.",
           "weekly_change_contracts": 0,
           "weekly_change_direction": "Not applicable, as above."
         },
@@ -175,7 +175,7 @@
           },
           {
             "level": "9.2225-9.2577",
-            "significance": "Two-touch cache support zone, 3.7% below spot - the only zone beneath spot to meet the two-touch threshold."
+            "significance": "Two-touch support zone, 3.7% below spot - the only zone beneath spot to meet the two-touch threshold."
           },
           {
             "level": "9.1304",
@@ -189,11 +189,11 @@
           },
           {
             "level": "9.7782-9.8513",
-            "significance": "Three-touch cache resistance zone, 2.3% above spot."
+            "significance": "Three-touch resistance zone, 2.3% above spot."
           },
           {
             "level": "9.8939-9.9897 / 10.00",
-            "significance": "Four-touch cache resistance zone capped by the 10.00 psychological level the currency brief identifies as a structural USD/NOK level."
+            "significance": "Four-touch resistance zone capped by the 10.00 psychological level the currency brief identifies as a structural USD/NOK level."
           },
           {
             "level": "10.2985",
@@ -225,10 +225,10 @@
         "iv_3m": 0,
         "iv_percentile_1y": 0,
         "rv_20d": 6.29,
-        "rv_vs_iv": "Not measurable. NOK has no listed options on any exchange and no free OTC quote was found, so 1M and 3M implied vol, the IV percentile and the variance risk premium cannot be computed; the zero values above are schema placeholders, not market levels. Realised vol alone: USD/NOK 20-day 6.29% vs 60-day 7.16%; EUR/NOK 3.92% vs 4.76%.",
+        "rv_vs_iv": "Not measurable. NOK has no listed options on any exchange and no free OTC quote was found, so 1M and 3M implied vol, the IV percentile and the variance risk premium cannot be computed; the zero values above are placeholders, not market levels. Realised vol alone: USD/NOK 20-day 6.29% vs 60-day 7.16%; EUR/NOK 3.92% vs 4.76%.",
         "risk_reversal_25d_1m": "Not measurable - no quoted 25-delta risk reversal for USD/NOK or EUR/NOK was obtainable (documented gap).",
         "vol_term_structure": "Flat",
-        "vol_regime": "Low realised-volatility regime with a dollar-driven spike at the end of September. 'Flat' for the term structure is a schema placeholder - the term structure is not observable - and should not be read as an observation."
+        "vol_regime": "Low realised-volatility regime with a dollar-driven spike at the end of September. 'Flat' for the term structure is a placeholder - the term structure is not observable - and should not be read as an observation."
       },
       "key_observation": "USD/NOK has broken above its 200-day average while EUR/NOK has not moved: the September weakness is a dollar story, not a krone story, which is why the fundamental view is best expressed against the euro."
     },
@@ -537,7 +537,7 @@
         "confidence": 58,
         "analysis": "Norges Bank raised the policy rate 25bp to 4.50% on 2026-09-24, the second hike of 2026 after the move to 4.25% on 2026-05-07, and said it is 'prepared to raise the policy rate further if needed'. That places NOK second of ten rate-setters in G10+SGD, 10bp below the RBA's 4.60% and above every other peer: +50bp over the Fed's 4.00% target upper bound (+62.5bp over the 3.875% effective rate), +75bp over the BoE, +175bp over the RBNZ, +200bp over the ECB deposit rate, +225bp over the BoC, +275bp over the Riksbank, +325bp over the BoJ and +450bp over the SNB. The 10-year NGB yield reached 4.63% on 2026-09-30, the highest since October 2008, putting it 108bp above Bunds but 61bp below Treasuries. The first scheduled test is 2026-11-05, an interim meeting without a forecast round, where a hold is near-certain; Nordea puts a further hike within six months at 40%, which we treat as the best available market-implied read because no free NOK OIS or 2-year NGB quote exists. Carry is high but did not work in September: USD/NOK rose 2.71% in a month in which NOK out-yielded the dollar, because the US 10-year rose 51bp against 13bp for NGBs. Against the euro the carry is cleaner - 200bp with EUR/NOK 60-day realised volatility of 4.76%, a carry-to-vol of 0.42 - and EUR/NOK was almost flat on the month while USD/NOK sold off. We are Bullish tactically at modest confidence because the level and the guidance both favour the krone over the euro bloc, but the dollar leg caps conviction.",
         "key_data_points": [
-          "Norges Bank policy rate 4.50% since 2026-09-24 (event store actual 4.5, previous 4.25); cached CBPOL_NO stale at 4.25",
+          "Norges Bank policy rate 4.50% since 2026-09-24 (actual 4.5, previous 4.25); the policy rate series is stale at 4.25",
           "NOK ranks 2nd of 10 rate-setters; -10bp to AUD 4.60%, +50bp to USD 4.00% upper (+62.5bp to 3.875% effective), +200bp to EUR 2.50% deposit",
           "NGB 10y 4.63% on 2026-09-30, +13bp m/m, +58bp y/y; NGB-Bund +108bp; NGB-UST -61bp",
           "NGB 2y and NOK OIS: no free current quote (documented gap); Nordea puts a further hike within six months at 40%",
@@ -583,7 +583,7 @@
             "vs_currency": "EUR",
             "annualised_carry_bps": 200.0,
             "carry_to_vol_ratio": 0.42,
-            "interpretation": "On the ECB deposit rate of 2.50% (185bp on the 2.65% MRO). Denominator EUR/NOK 60-day realised vol 4.76% from the cache. The cleanest NOK carry expression: high carry, the lowest-volatility major NOK pair."
+            "interpretation": "On the ECB deposit rate of 2.50% (185bp on the 2.65% MRO). Denominator EUR/NOK 60-day realised vol 4.76%. The cleanest NOK carry expression: high carry, the lowest-volatility major NOK pair."
           },
           {
             "vs_currency": "USD",
@@ -649,11 +649,11 @@
       "tactical": {
         "stance": "Neutral",
         "confidence": 55,
-        "analysis": "August CPI, released 2026-09-10, printed 3.3% y/y against 3.2% expected and 3.0% in July, but the measure Norges Bank targets, CPI-ATE (excluding energy and tax changes), rose to 3.0% y/y from 2.7% - below the bank's own 3.3% projection - and fell 0.5% m/m. Headline inflation is being driven by energy and pass-through, with producer prices up 30.1% y/y, while underlying inflation is on a gradual downtrend from 2024 levels and well short of the bank's estimate. Growth is soft: mainland GDP rose 0.3% q/q in Q2 (consensus 0.4%), the best quarter in a year but with household consumption down 0.1%, and the Regional Network survey of 2026-09-17 expects only 0.3% q/q in Q3 and Q4 with the share of firms at full capacity down to 28%. The labour market is turning: LFS unemployment rose to 4.5% in August from 4.2%, employment fell by 17,000 to 2.926m and youth unemployment jumped to 13.6%, although registered unemployment held at 2.1%. Wage growth slowed to 4.0% y/y in Q2 from 4.3%, below the bank's 4.5% estimate for 2026. Leading indicators are thin because the DNB/NIMA manufacturing PMI was discontinued in December 2025; the event store shows house prices +2.6% y/y, manufacturing output +0.7% m/m and core retail sales +0.6% m/m in August. The data are mixed in a way that cancels: hot headline and pipeline prices argue against an early cut, while undershooting core inflation and a softer labour market argue against a further hike. The next swing print is September CPI on 2026-10-09; we expect CPI-ATE near 3.0%, which would keep the November meeting a clean hold.",
+        "analysis": "August CPI, released 2026-09-10, printed 3.3% y/y against 3.2% expected and 3.0% in July, but the measure Norges Bank targets, CPI-ATE (excluding energy and tax changes), rose to 3.0% y/y from 2.7% - below the bank's own 3.3% projection - and fell 0.5% m/m. Headline inflation is being driven by energy and pass-through, with producer prices up 30.1% y/y, while underlying inflation is on a gradual downtrend from 2024 levels and well short of the bank's estimate. Growth is soft: mainland GDP rose 0.3% q/q in Q2 (consensus 0.4%), the best quarter in a year but with household consumption down 0.1%, and the Regional Network survey of 2026-09-17 expects only 0.3% q/q in Q3 and Q4 with the share of firms at full capacity down to 28%. The labour market is turning: LFS unemployment rose to 4.5% in August from 4.2%, employment fell by 17,000 to 2.926m and youth unemployment jumped to 13.6%, although registered unemployment held at 2.1%. Wage growth slowed to 4.0% y/y in Q2 from 4.3%, below the bank's 4.5% estimate for 2026. Leading indicators are thin because the DNB/NIMA manufacturing PMI was discontinued in December 2025; official releases show house prices +2.6% y/y, manufacturing output +0.7% m/m and core retail sales +0.6% m/m in August. The data are mixed in a way that cancels: hot headline and pipeline prices argue against an early cut, while undershooting core inflation and a softer labour market argue against a further hike. The next swing print is September CPI on 2026-10-09; we expect CPI-ATE near 3.0%, which would keep the November meeting a clean hold.",
         "key_data_points": [
           "Headline CPI 3.3% y/y (Aug 2026, consensus 3.2%, July 3.0%), -0.3% m/m",
           "CPI-ATE 3.0% y/y (Aug 2026) vs Norges Bank's 3.3% projection; -0.5% m/m",
-          "Producer prices +30.1% y/y (Aug 2026, event store)",
+          "Producer prices +30.1% y/y (Aug 2026)",
           "Mainland GDP +0.3% q/q, 2.6% y/y (2026-Q2, consensus 0.4%); total GDP +0.7% q/q",
           "LFS unemployment 4.5% (Aug 2026) from 4.2%; registered (NAV) 2.1%",
           "Annual wage growth 4.0% y/y (Q2 2026) vs 4.5% Norges Bank estimate; Regional Network wage expectation 4.5% for 2026",
@@ -754,7 +754,7 @@
       "tactical": {
         "stance": "Bearish",
         "confidence": 60,
-        "analysis": "The krone has no CFTC signal: it is not a reportable market in the Commitments of Traders data the pipeline caches, so leveraged-fund and asset-manager nets, open interest and a spec percentile do not exist and are recorded as structural placeholders, not measurements. The largest identifiable flow is official and pre-announced. For October 2026 Norges Bank will buy foreign currency worth NOK 300m a day on behalf of the government and sell NOK 124m a day to fund dividend and interest transfers, a net krone offer of NOK 176m a day - identical to September. The prior dossier recorded August as net foreign-currency SALES of NOK 474m a day, so the official flow swung by NOK 650m a day against the krone on 1 September and stayed there. That swing coincides with USD/NOK's 2.71% monthly rise, though the dollar explains most of the move. The second signal is crowding in the price store: NOK/SEK closed at the 96th percentile of its 52-week distribution and the 93rd of its range, up 10.91% on the year, while CHF/NOK (11th), NZD/NOK (8th) and EUR/NOK (14th) sit near the bottom of theirs - the long-krone trade against the low-yielders is mature. A third, offsetting flow is corporate: higher oil and gas prices raise petroleum tax payments that oil companies settle in krone. With no options market to gauge skew, we read positioning from these proxies as a modest tactical liability.",
+        "analysis": "The krone has no CFTC signal: it is not a reportable market in the Commitments of Traders data, so leveraged-fund and asset-manager nets, open interest and a spec percentile do not exist and are recorded as structural placeholders, not measurements. The largest identifiable flow is official and pre-announced. For October 2026 Norges Bank will buy foreign currency worth NOK 300m a day on behalf of the government and sell NOK 124m a day to fund dividend and interest transfers, a net krone offer of NOK 176m a day - identical to September. The prior dossier recorded August as net foreign-currency SALES of NOK 474m a day, so the official flow swung by NOK 650m a day against the krone on 1 September and stayed there. That swing coincides with USD/NOK's 2.71% monthly rise, though the dollar explains most of the move. The second signal is crowding in prices: NOK/SEK closed at the 96th percentile of its 52-week distribution and the 93rd of its range, up 10.91% on the year, while CHF/NOK (11th), NZD/NOK (8th) and EUR/NOK (14th) sit near the bottom of theirs - the long-krone trade against the low-yielders is mature. A third, offsetting flow is corporate: higher oil and gas prices raise petroleum tax payments that oil companies settle in krone. With no options market to gauge skew, we read positioning from these proxies as a modest tactical liability.",
         "key_data_points": [
           "CFTC: NOK is not reported in the COT data - leveraged funds, asset managers and open interest unavailable (structural gap)",
           "Norges Bank October 2026: buys FX for NOK 300m/day, sells FX for NOK 124m/day = net krone sales NOK 176m/day",
@@ -804,9 +804,9 @@
       "tactical": {
         "stance": "Bullish",
         "confidence": 62,
-        "analysis": "Norway is in the middle of an exceptional terms-of-trade windfall. Brent traded $100.17 on 2026-10-01, +4.75% on the month and +56.2% on the year, and Dutch TTF gas EUR 72.97/MWh, +132.0% on the year, with European storage at 71% against a five-year average of 87% heading into winter. The cached Brent series is corrupt (114.89 on 2026-09-22 against WTI 96.41) and is not used; cached WTI at 96.41 cross-checks the web print. The August trade surplus was NOK 100.4bn, up 69.2% y/y, with exports +32.9% and fuel exports +51.9%; the January-August surplus is NOK 608.9bn, +24.4%. The Q2 current account was NOK 279bn, 19.6% of GDP on the OECD vintage, by far the largest in the G10+SGD set ahead of Singapore's 17.5% and Switzerland's 9.2%. Norway's position as the secure European gas supplier while Hormuz flows remain impaired strengthens both price and volume. The GPFG mechanism dampens the transmission - the bulk of the windfall is invested abroad rather than converted - but four weeks of OPEC+ quota stability and storage anxiety keep the energy backdrop supportive. The 2026-10-04 OPEC+ meeting is expected to hold quotas, so the tactical risk is a US-Iran deal, not supply policy.",
+        "analysis": "Norway is in the middle of an exceptional terms-of-trade windfall. Brent traded $100.17 on 2026-10-01, +4.75% on the month and +56.2% on the year, and Dutch TTF gas EUR 72.97/MWh, +132.0% on the year, with European storage at 71% against a five-year average of 87% heading into winter. The Brent series is corrupt (114.89 on 2026-09-22 against WTI 96.41) and is not used; WTI at 96.41 cross-checks the web print. The August trade surplus was NOK 100.4bn, up 69.2% y/y, with exports +32.9% and fuel exports +51.9%; the January-August surplus is NOK 608.9bn, +24.4%. The Q2 current account was NOK 279bn, 19.6% of GDP on the OECD vintage, by far the largest in the G10+SGD set ahead of Singapore's 17.5% and Switzerland's 9.2%. Norway's position as the secure European gas supplier while Hormuz flows remain impaired strengthens both price and volume. The GPFG mechanism dampens the transmission - the bulk of the windfall is invested abroad rather than converted - but four weeks of OPEC+ quota stability and storage anxiety keep the energy backdrop supportive. The 2026-10-04 OPEC+ meeting is expected to hold quotas, so the tactical risk is a US-Iran deal, not supply policy.",
         "key_data_points": [
-          "Brent $100.17 (2026-10-01), +4.75% m/m, +56.2% y/y; cached Brent 114.89 is corrupt and not used; cached WTI 96.41 (2026-09-22)",
+          "Brent $100.17 (2026-10-01), +4.75% m/m, +56.2% y/y; the Brent series value of 114.89 is corrupt and not used; WTI 96.41 (2026-09-22)",
           "TTF EUR 72.97/MWh (2026-10-01), +132.0% y/y; EU storage 71% vs 87% five-year average",
           "Trade surplus NOK 100.4bn (Aug 2026), +69.2% y/y; exports NOK 191.0bn, +32.9%",
           "Current account NOK 279bn in 2026-Q2 = 19.6% of GDP (OECD vintage) - largest in G10+SGD",
@@ -829,7 +829,7 @@
           "GPFG NOK 22.683trn ($2.39trn) at 2026-06-30; equities 72.1%",
           "Brent +56.2% y/y and TTF +132.0% y/y as of 2026-10-01",
           "Middle East crude exports about 80% of pre-war levels (Al Jazeera, 2026-09-30)",
-          "Current account 19.6% of GDP; Q2 balance NOK 279bn (event store; the vendor carries the prior quarter as both NOK 248.2bn and 266.8bn, so the quarter-on-quarter change is best available, flagged)",
+          "Current account 19.6% of GDP; Q2 balance NOK 279bn (the vendor carries the prior quarter as both NOK 248.2bn and 266.8bn, so the quarter-on-quarter change is best available, flagged)",
           "REER 102.02 ranks 7th of 11 (AUD 116.11 highest, JPY 66.02 lowest)",
           "Largest trading-partner exposure is the EU through gas; documented gap on the exact export share this cycle"
         ],
@@ -1056,13 +1056,13 @@
       "tactical": {
         "stance": "Bearish",
         "confidence": 56,
-        "analysis": "The dollar is on the right-hand side of its smile: a hiking Fed and a 5.24% US 10-year have pulled the broad dollar index up 1.88 points to 120.33 in a month, and the krone - vulnerable on both sides of the smile - lost 2.71% against the dollar while holding flat against the euro. The Fed raised the target range to 3.75-4.00% on 2026-09-16 and set IORB at 3.90%, ON RRP at 3.75% with a $160bn per-counterparty cap and the standing repo rate at 4.00%. Quarter-end pushed SOFR from the low 3.6s in mid-September to 3.88% on 2026-09-29, 2bp below IORB, a mild funding squeeze. Reserve balances fell $83.6bn in the week to 2026-09-23 to $2,930.2bn and Reserve Bank credit is $6,800.5bn. No USD swap-line usage is reported and the Fed has stopped running down its Treasury portfolio. Quoted 3M cross-currency basis for EUR, JPY and NOK is not freely available; from the cache, the USD/NOK futures roll premium of +64.3bp against a 62.5bp effective-rate differential implies a NOK/USD basis-and-term residual of about +2bp, so there is no visible USD funding premium for Norwegian borrowers. The tactical problem is the dollar's direction, not dollar scarcity: until US yields stop rising, the krone's carry against the dollar is too thin to resist.",
+        "analysis": "The dollar is on the right-hand side of its smile: a hiking Fed and a 5.24% US 10-year have pulled the broad dollar index up 1.88 points to 120.33 in a month, and the krone - vulnerable on both sides of the smile - lost 2.71% against the dollar while holding flat against the euro. The Fed raised the target range to 3.75-4.00% on 2026-09-16 and set IORB at 3.90%, ON RRP at 3.75% with a $160bn per-counterparty cap and the standing repo rate at 4.00%. Quarter-end pushed SOFR from the low 3.6s in mid-September to 3.88% on 2026-09-29, 2bp below IORB, a mild funding squeeze. Reserve balances fell $83.6bn in the week to 2026-09-23 to $2,930.2bn and Reserve Bank credit is $6,800.5bn. No USD swap-line usage is reported and the Fed has stopped running down its Treasury portfolio. Quoted 3M cross-currency basis for EUR, JPY and NOK is not freely available; the USD/NOK futures roll premium of +64.3bp against a 62.5bp effective-rate differential implies a NOK/USD basis-and-term residual of about +2bp, so there is no visible USD funding premium for Norwegian borrowers. The tactical problem is the dollar's direction, not dollar scarcity: until US yields stop rising, the krone's carry against the dollar is too thin to resist.",
         "key_data_points": [
           "Fed target range 3.75-4.00% (hiked 2026-09-16); IORB 3.90%, ON RRP 3.75%, standing repo 4.00%",
           "SOFR 3.88% (2026-09-29); 30-day average 3.747%, 90-day 3.682%",
           "Reserve balances $2,930.2bn, -$83.6bn w/w; Reserve Bank credit $6,800.5bn (H.4.1, 2026-09-24)",
           "QT pace: zero - runoff ended 2025-12-01 (announced 2025-10-29); all maturing Treasury principal rolled over; agency principal reinvested in bills",
-          "3M EUR/USD and JPY/USD basis: no free quote (documented gap); derived NOK/USD residual about +2bp from the cached roll premium",
+          "3M EUR/USD and JPY/USD basis: no free quote (documented gap); derived NOK/USD residual about +2bp from the roll premium",
           "Broad dollar index 120.33 (2026-09-25), +1.88 m/m; US 10y 5.24%, +51bp m/m"
         ],
         "what_is_priced": "The market prices one more Fed hike at most. If the Fed holds on 2026-10-28 and US yields stabilise, the dollar's September gain against the krone is over-priced; until then, the trend is the dollar's.",
@@ -1481,7 +1481,7 @@
       "trading_implication": "Express the strategic view now in EUR/NOK forwards, where carry pays to wait and the dollar is absent, and add USD/NOK exposure only after the FOMC confirms the dollar has peaked."
     },
     "forward_vs_spot": {
-      "spot": "USD/NOK 9.5965 (2026-09-29 close, cache anchor); 9.6309 traded on 2026-10-01",
+      "spot": "USD/NOK 9.5965 (2026-09-29 close); 9.6309 traded on 2026-10-01",
       "forwards": {
         "1m": {
           "points": "+51",
@@ -1509,7 +1509,7 @@
         "3m": "+2119 pips in the krone's favour (forward implies 9.6119, we expect 9.4000)",
         "6m": "+4272 pips in the krone's favour (forward implies 9.6272, we expect 9.2000)"
       },
-      "interpretation": "Forward points are DERIVED, not quoted: no free USD/NOK forward-point source exists, so outrights are built from the cached futures-implied roll premium of +64.3bp annualised (observed 2026-09-25) at 30, 91 and 182 days on an actual/365 basis. The premium sits within 2bp of the 62.5bp effective-rate differential, so the forwards say nothing beyond carry. Every expected level is below the forward, so the edge grows with horizon - small at one month, about 4,270 pips at six - which is what a carry-plus-appreciation view looks like."
+      "interpretation": "Forward points are DERIVED, not quoted: no free USD/NOK forward-point source exists, so outrights are built from the futures-implied roll premium of +64.3bp annualised (observed 2026-09-25) at 30, 91 and 182 days on an actual/365 basis. The premium sits within 2bp of the 62.5bp effective-rate differential, so the forwards say nothing beyond carry. Every expected level is below the forward, so the edge grows with horizon - small at one month, about 4,270 pips at six - which is what a carry-plus-appreciation view looks like."
     }
   },
   "forward_looking": {
@@ -1940,27 +1940,27 @@
   "seasonality": {
     "pattern": "Year-end liquidity. The framework documents year-end portfolio rebalancing as a pattern for all currencies, and the currency brief documents that the krone is among the least liquid G10 currencies with spreads that widen sharply outside core hours. Thin December liquidity combined with year-end dollar funding demand has historically left the krone vulnerable to outsized moves in the second half of December.",
     "relevance_window": "Outside the tactical window (ends late October); inside the strategic window, which runs to end-March 2027.",
-    "historical_magnitude": "No point estimate is given: the cache carries no seasonal decomposition and we will not fabricate one.",
+    "historical_magnitude": "No point estimate is given: no seasonal decomposition is available and we will not fabricate one.",
     "current_alignment": "Opposed to the strategic view in December and neutral thereafter. We treat a December spike in USD/NOK as a risk to the path, not to the destination."
   },
   "assumptions": [
-    "Policy rates are taken from Data-Cache/calendar/events actuals for the most recent decision, not from the CBPOL_ series, per the cycle correction. NOK is 4.50% (event store, 2026-09-24, previous 4.25); the cached CBPOL_NO series ends at 4.25% (2026-08-01) and is stale. The same correction applies to AUD (4.60%, not 4.35%) and JPY (1.25%, not 1.00%). The policy blocks and policyDifferential fields in Data-Cache/derived/*.json carry the stale NOK 4.25% and are not used; all differentials here are recomputed. Price analytics in those files (spot, averages, ATR, realised vol, zones, performance) are used as the source of truth.",
+    "Policy rates are taken from the actual outcomes of the most recent decision, not from the policy rate series, per the cycle correction. NOK is 4.50% (2026-09-24, previous 4.25); the policy rate series ends at 4.25% (2026-08-01) and is stale. The same correction applies to AUD (4.60%, not 4.35%) and JPY (1.25%, not 1.00%). The earlier policy rate and policy differential figures carry the stale NOK 4.25% and are not used; all differentials here are recomputed. Price analytics in those files (spot, averages, ATR, realised vol, zones, performance) are used as the source of truth.",
     "Rate conventions: EUR is quoted at the ECB deposit facility rate of 2.50%, with the 2.65% MRO noted where relevant; USD at the federal funds target upper bound of 4.00%, with the 3.875% effective rate given wherever carry depends on it; SGD has no policy rate (MAS S$NEER band).",
-    "The cached Brent series (DCOILBRENTEU, 114.89 on 2026-09-22) is treated as corrupt and is not quoted as a live level: it sits $18.48 above cached WTI (96.41) on the same day. The live Brent print used is $100.17 on 2026-10-01 from Trading Economics; Al Jazeera's $102.59 on 2026-09-30 is consistent with it.",
-    "CPI in the macro comparison table is the most recent PUBLISHED print per country, with the period labelled. Norway's August 2026 CPI (3.3%) and CPI-ATE (3.0%) are used rather than the cached OECD vintage (3.09%, 2025-Q4). Norway's unemployment is the latest LFS print (4.5%, August 2026, event store and Trading Economics) rather than the cached July vintage (4.2%). For SEK the core measure is CPIF ex energy at 0.5% for August 2026 from Trading Economics; for NZD it is the RBNZ sectoral factor model at 2.7% for 2026-Q2; peer rows otherwise follow the corrected rows used by the other dossiers in this cycle.",
-    "Sovereign 10-year yields from the cached IRLTLT01 series are monthly and are not quoted as live. NGB 10-year (4.63%, 2026-09-30) and the German Bund (3.55%, 2026-10-01) are live web prints; the US 10-year (5.24%) is the cached daily DGS10. Peer yields for Sweden, the UK, Switzerland, Japan and Australia are monthly 2026-08-01 vintages and are labelled as such.",
+    "The Brent series (114.89 on 2026-09-22) is treated as corrupt and is not quoted as a live level: it sits $18.48 above WTI (96.41) on the same day. The live Brent print used is $100.17 on 2026-10-01 from Trading Economics; Al Jazeera's $102.59 on 2026-09-30 is consistent with it.",
+    "CPI in the macro comparison table is the most recent PUBLISHED print per country, with the period labelled. Norway's August 2026 CPI (3.3%) and CPI-ATE (3.0%) are used rather than the OECD vintage (3.09%, 2025-Q4). Norway's unemployment is the latest LFS print (4.5%, August 2026, Trading Economics) rather than the July vintage (4.2%). For SEK the core measure is CPIF ex energy at 0.5% for August 2026 from Trading Economics; for NZD it is the RBNZ sectoral factor model at 2.7% for 2026-Q2; peer rows otherwise follow the corrected rows used by the other dossiers in this cycle.",
+    "Sovereign 10-year yields from the cached IRLTLT01 series are monthly and are not quoted as live. NGB 10-year (4.63%, 2026-09-30) and the German Bund (3.55%, 2026-10-01) are live web prints; the US 10-year (5.24%) is the daily series. Peer yields for Sweden, the UK, Switzerland, Japan and Australia are monthly 2026-08-01 vintages and are labelled as such.",
     "The NGB 2-year yield, NOK OIS curve and NIBOR could not be sourced from free current data; base_2y is null and the curve shape is described on a policy-rate-to-10-year basis. The market-implied path is proxied by Nordea's 40% probability of a further hike within six months.",
-    "Realised volatility is read from realisedVol in Data-Cache/derived/{PAIR}.json (60-day for carry-to-vol), never estimated or built from two USD legs. Carry-to-vol is annualised carry in percentage points divided by 60-day realised vol in per cent.",
-    "Implied volatility, the IV percentile, risk reversals and the vol term structure are unavailable: NOK has no listed options on any exchange (stated in the cache's derived files) and no free OTC quote was found. The schema fields iv_1m, iv_3m and iv_percentile_1y are zero placeholders and vol_term_structure 'Flat' is a placeholder.",
-    "CFTC positioning does not exist for NOK in the cached COT data; the cftc block is a structural placeholder, and positioning is read from Norges Bank's FX transactions, price-store percentiles and foreign bond ownership.",
-    "Forward points are derived from the cached USD/NOK futures-implied roll premium (+64.3bp annualised, observed 2026-09-25) on an actual/365 basis, not quoted. The cross-currency basis is likewise derived, as the residual between that premium and the 62.5bp effective-rate differential (about +2bp).",
+    "Realised volatility is the pair's computed realised volatility (60-day for carry-to-vol), never estimated or built from two USD legs. Carry-to-vol is annualised carry in percentage points divided by 60-day realised vol in per cent.",
+    "Implied volatility, the IV percentile, risk reversals and the vol term structure are unavailable: NOK has no listed options on any exchange and no free OTC quote was found. The 1M implied vol, 3M implied vol and 1-year IV percentile are zero placeholders and the volatility term structure 'Flat' is a placeholder.",
+    "CFTC positioning does not exist for NOK in the COT data; the CFTC positioning is a structural placeholder, and positioning is read from Norges Bank's FX transactions, price percentiles and foreign bond ownership.",
+    "Forward points are derived from the USD/NOK futures-implied roll premium (+64.3bp annualised, observed 2026-09-25) on an actual/365 basis, not quoted. The cross-currency basis is likewise derived, as the residual between that premium and the 62.5bp effective-rate differential (about +2bp).",
     "Norges Bank's September 2026 rate-path numbers (near-term peak near 4.60%, plateau through late 2027, just under 3.50% by end-2029) come from a secondary source (StockWireX) because the MPR 3/26 document could not be retrieved; the qualitative guidance is taken from Norges Bank's own press release. Trading Economics' 4.25% (2027) and 3.75% (2028) are its own model forecasts, not the bank's path.",
     "PPP deviations are a REER-relative proxy: each is the ratio of the NOK BIS REER (August 2026) to the peer's, minus one. BIS REER indices share a base period, so the ratio measures relative real movement since that base rather than an absolute PPP level; read to a few percentage points only.",
     "The I-44 import-weighted krone index level, sovereign CDS, the exact 2027 budget date and the share of exports to the largest trading partner could not be sourced this cycle and are documented gaps.",
-    "Scheduled central-bank dates come exclusively from Data-Cache/calendar/central-bank-meetings.json. Dates not in that file use the YYYY-MM-WN format.",
+    "Scheduled central-bank dates come exclusively from the central bank calendar. Dates not in that file use the YYYY-MM-WN format.",
     "Wage growth sources differ: Danske Bank cites Q2 annual wage growth of 4.0% y/y, Trading Economics a monthly series at 4.78% for June. The quarterly figure is used; confidence on Factor 2 reflects the disagreement.",
-    "Verification outcome (self-run adversarial gate). All 97 gated-store values used were re-derived directly from Data-Cache (derived/, series/, vintages/, BIS_REER, calendar/events) rather than from the cache extract, and all matched. All 40 citation URLs were fetched in this run and resolved. Four items are flagged and their factors' confidence lowered: the September rate-path numbers rest on a secondary source (Factor 1 strategic 60 to 58, Factor 6 tactical 57 to 55); the prior-quarter current-account figure is carried by the vendor at two values; the 13%-of-mainland-GDP debt ratio is a 2025 figure; and wage growth differs between sources (4.0% quarterly vs 4.78% monthly). Peer 10-year yields for Sweden, the UK, Switzerland, Japan and Australia are monthly vintages two months old and are labelled stale; ING's EUR/NOK 10.70 target dates from May 2026 and is context only.",
-    "The monthly snapshot used for the 2026-10-01 cycle is Data-Cache/2026-10/, fetched 2026-09-30T18:00:05Z, consistent with the other currencies in the cycle."
+    "Verification outcome (self-run adversarial gate). All 97 values used were re-derived directly from their underlying sources and all matched. All 40 citation URLs were fetched and resolved. Four items are flagged and their factors' confidence lowered: the September rate-path numbers rest on a secondary source (Factor 1 strategic 60 to 58, Factor 6 tactical 57 to 55); the prior-quarter current-account figure is carried by the vendor at two values; the 13%-of-mainland-GDP debt ratio is a 2025 figure; and wage growth differs between sources (4.0% quarterly vs 4.78% monthly). Peer 10-year yields for Sweden, the UK, Switzerland, Japan and Australia are monthly vintages two months old and are labelled stale; ING's EUR/NOK 10.70 target dates from May 2026 and is context only.",
+    "The monthly data snapshot used for the 2026-10-01 cycle was fetched 2026-09-30T18:00:05Z, consistent with the other currencies in the cycle."
   ],
   "complete_citations": [
     {

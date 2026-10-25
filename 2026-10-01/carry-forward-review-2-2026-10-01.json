@@ -1,0 +1,588 @@
+{
+  "review_date": "2026-10-25",
+  "review_number": 2,
+  "days_since_analysis": 24,
+  "cycle": "2026-10-01",
+  "portfolio_pnl_pips": -159,
+  "profitable_count": 4,
+  "total_tracked": 10,
+  "universe_count": 31,
+  "positions": {
+    "CAD/SGD": {
+      "tracked": true,
+      "rank": 1,
+      "direction": "Short",
+      "status": "at_risk",
+      "entry": 0.89787,
+      "current": 0.91263,
+      "pnl_pips": -148,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Nine straight higher closes to 0.91263 on 23 Oct leave the short at −148 pips. The market priced a 70–80% chance of a 28 Oct BoC hike even though September CPI came in at 3.1%, with trim at 1.8% and median at 1.9%. Singapore core CPI easing to 2.0% on 23 Oct weakened the SGD leg, and a BoC hike with guidance would complete the invalidation.",
+      "flags": [
+        "thesis_weakening",
+        "approaching_invalidator"
+      ],
+      "invalidator_status": {
+        "USTR–Canada interim deal suspends Section 338 bans": "Clear — no interim deal as of 23 Oct; a CIT lawsuit was filed on 20 Oct and the covered goods list was adjusted, not lifted",
+        "BoC hikes to 2.50% with guidance": "Watch — October hike odds about 70–80% after the 19 Oct CPI, against 22% assigned at analysis; decision 28 Oct",
+        "MAS neutral hold": "Watch — MAS held on 14 Oct; Singapore core CPI eased to 2.0% from 2.2% on 23 Oct"
+      }
+    },
+    "EUR/SGD": {
+      "tracked": true,
+      "rank": 2,
+      "direction": "Short",
+      "status": "on_track",
+      "entry": 1.44782,
+      "current": 1.43112,
+      "pnl_pips": 167,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "The pair reversed from the 16 Oct bounce high of 1.43833 to 1.43112 as OAT-Bund widened to a cycle-high 174.6bp on 22 Oct. That leaves the short at +167 pips and 191 pips below the 1.4502 ECB-linked level. Moody's Aa3 affirmation after the 23 Oct close is not in prices and is the main relief-rally risk.",
+      "flags": [],
+      "invalidator_status": {
+        "ECB hikes 29 Oct, pair closes above 1.4502": "Clear — ECB previews from Nomura, Rabobank and ING expect a hold; pair 1.43112, 191 pips below 1.4502",
+        "MAS neutral hold": "Watch — no MAS action since the 14 Oct hold; core CPI eased to 2.0% on 23 Oct"
+      }
+    },
+    "USD/CAD": {
+      "tracked": true,
+      "rank": 3,
+      "direction": "Long",
+      "status": "invalidated",
+      "entry": 1.42327,
+      "current": 1.40082,
+      "pnl_pips": -225,
+      "tactical_target": 1.44,
+      "pct_to_target": -134.2,
+      "narrative": "The pair closed at 1.41113 on 19 Oct, through the 1.4140 stop. It extended to 1.40082 by 23 Oct, below the 1.4080 downside case, after Canada's soft 3.1% CPI failed to dislodge 70–80% October hike pricing. The data leg of the thesis held but the pricing leg failed, so the position requires review in the next full analysis cycle.",
+      "flags": [
+        "invalidator_triggered",
+        "thesis_weakening"
+      ],
+      "invalidator_status": {
+        "USTR–Canada interim agreement suspends the Section 338 import bans": "Clear — no interim deal as of 23 Oct; CIT lawsuit filed 20 Oct",
+        "BoC hikes to 2.50% on 28 October or 9 December and signals a further move": "Watch — October hike odds about 70–80% against 20% assigned at analysis",
+        "Stop: close below 1.4140": "TRIGGERED — closed 1.41113 on 19 Oct, 29 pips through; latest close 1.40082"
+      }
+    },
+    "SGD/CHF": {
+      "tracked": true,
+      "rank": 4,
+      "direction": "Long",
+      "status": "at_risk",
+      "entry": 0.65408,
+      "current": 0.64547,
+      "pnl_pips": -86,
+      "tactical_target": 0.655,
+      "pct_to_target": -935.9,
+      "narrative": "The pair made a low close of 0.64249 on 22 Oct and ended at 0.64547, a loss of −86 pips and 80 pips above the 0.6375 weekly-close invalidator. OAT-Bund closed above 160bp on 22 and 23 Oct (174.6bp, 171.8bp), so one more session triggers the spread invalidator unless Moody's affirmation pulls it back. The percentage to target is mechanically extreme because the entry close sat only 9 pips below target.",
+      "flags": [
+        "approaching_invalidator",
+        "thesis_weakening"
+      ],
+      "invalidator_status": {
+        "Weekly close below 0.6375, under the three-touch support and 50-day average": "Watch — weekly close 0.64547 on 23 Oct, 80 pips above; low daily close 0.64249 on 22 Oct",
+        "SNB hikes on 10 December or lifts its 2027 conditional forecast above 1.0%": "Clear — no new SNB signal found this week; decision not until 10 Dec",
+        "OAT-Bund above 160bp for three sessions": "Watch — 174.6bp on 22 Oct and 171.8bp on 23 Oct, two of the three required sessions"
+      }
+    },
+    "GBP/USD": {
+      "tracked": true,
+      "rank": 5,
+      "direction": "Short",
+      "status": "invalidated",
+      "entry": 1.32639,
+      "current": 1.33724,
+      "pnl_pips": -109,
+      "tactical_target": 1.31,
+      "pct_to_target": -66.2,
+      "narrative": "The pair rose 76 pips to 1.33798 on 20 Oct after UK unemployment fell to 4.7%, closing through the 1.3365 stop. It then printed a cycle-high close of 1.33996 on 22 Oct after UK CPI of 3.5%. The composite gilt invalidator is unmet with the 30-year near 5.83%, but the stop breach puts the position up for review in the next full analysis cycle.",
+      "flags": [
+        "invalidator_triggered",
+        "thesis_weakening"
+      ],
+      "invalidator_status": {
+        "Daily close above 1.3365 with the 30-year gilt below 5.60% for five sessions after the Budget": "Watch — price leg breached on four closes from 1.33798 on 20 Oct; 30-year gilt about 5.83%; Budget due 28 Oct",
+        "US core CPI on 14 October at or below 0.1% m/m with December hike odds below 40%": "Clear — core printed +0.3% m/m; December hike odds about 90%",
+        "Stop: close above 1.3365": "TRIGGERED — closed 1.33798 on 20 Oct, 15 pips through; latest close 1.33724"
+      }
+    },
+    "EUR/USD": {
+      "tracked": true,
+      "rank": 6,
+      "direction": "Short",
+      "status": "on_track",
+      "entry": 1.133,
+      "current": 1.11949,
+      "pnl_pips": 135,
+      "tactical_target": 1.11,
+      "pct_to_target": 58.7,
+      "narrative": "The pair fell 40 pips over 22–23 Oct to 1.11949, 58.7% of the way to 1.1100, as OAT-Bund hit 174.6bp while the dollar softened. Remaining reward-to-risk is 95 pips against 229 pips to the 1.14237 invalidator, a ratio of 0.42:1. Moody's affirmation of France after the close is the main open risk.",
+      "flags": [],
+      "invalidator_status": {
+        "US core CPI on 14 October at or below 0.1% m/m with December hike odds below 40%": "Clear — core printed +0.3% m/m; December hike odds about 90%",
+        "Daily close above 1.14237 before 28 October": "Clear — latest close 1.11949, 229 pips below; highest close since 15 Oct was 1.12390"
+      }
+    },
+    "GBP/AUD": {
+      "tracked": true,
+      "rank": 7,
+      "direction": "Short",
+      "status": "invalidated",
+      "entry": 1.90991,
+      "current": 1.90027,
+      "pnl_pips": 96,
+      "tactical_target": 1.882,
+      "pct_to_target": 34.5,
+      "narrative": "The pair fell 62 pips on 21 Oct after Hauser lifted November RBA odds from 22% to about 51%, and closed the week at 1.90027, +96 pips mark-to-market. The 1.9160 stop and the price leg of the CFTC invalidator fired on 15–16 Oct, and that status does not reverse. A reader who honoured the stop exited near −87 pips.",
+      "flags": [
+        "invalidator_triggered"
+      ],
+      "invalidator_status": {
+        "RBA signals the cycle is complete while the BoE prices 4.25%, narrowing the gap to −50bp or less": "Clear — RBA November hike odds about 51%; policy gap still −85bp",
+        "Sterling CFTC short covers to better than −40,000 with a close above 1.9131": "TRIGGERED (price leg only) — closes of 1.91865 on 15 Oct and 1.91897 on 16 Oct; positioning leg unverified",
+        "Stop: close above 1.9160": "TRIGGERED — closed 1.91865 on 15 Oct and 1.91897 on 16 Oct; latest close 1.90027"
+      }
+    },
+    "NZD/USD": {
+      "tracked": true,
+      "rank": 8,
+      "direction": "Short/Long",
+      "status": "at_risk",
+      "entry": 0.56333,
+      "current": 0.57001,
+      "pnl_pips": -67,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "On the tactical short, the pair rose five sessions to a 0.57020 high close on 21 Oct and ended at 0.57001. That is −67 pips and 30 pips below the 0.5730 invalidator, which runs to 28 Oct. RBNZ hike pricing climbed to about 98% even after Q3 CPI undershot at 3.7% y/y.",
+      "flags": [
+        "approaching_invalidator",
+        "thesis_weakening"
+      ],
+      "invalidator_status": {
+        "Daily close above 0.5730 before 28 Oct": "Watch — latest close 0.57001, 30 pips below; high close 0.57020 on 21 Oct"
+      }
+    },
+    "AUD/CAD": {
+      "tracked": true,
+      "rank": 9,
+      "direction": "Long",
+      "status": "offside",
+      "entry": 0.98843,
+      "current": 0.98578,
+      "pnl_pips": -27,
+      "tactical_target": 1,
+      "pct_to_target": -22.9,
+      "narrative": "The pair recovered from the 0.98153 low of 15 Oct to 0.98578, narrowing the loss from −69 to −27 pips, after Hauser's 21 Oct remarks restored RBA November pricing to about 51%. BoC October hike odds of 70–80% offset the AUD repair, leaving the cross 142 pips from 1.0000.",
+      "flags": [
+        "approaching_invalidator"
+      ],
+      "invalidator_status": {
+        "USTR–Canada interim agreement suspends the Section 338 bans before 31 December": "Clear — no interim deal as of 23 Oct; CIT lawsuit filed 20 Oct",
+        "BoC raises to 2.50% or more and signals a further move": "Watch — October hike odds about 70–80% ahead of the 28 Oct decision"
+      }
+    },
+    "AUD/JPY": {
+      "tracked": true,
+      "rank": 10,
+      "direction": "Long/Short",
+      "status": "on_track",
+      "entry": 109.32268,
+      "current": 110.37764,
+      "pnl_pips": 105,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "On the tactical long, the pair made a cycle-high close of 111.24166 on 21 Oct after Hauser, then gave back 113 pips in the 22 Oct risk-off session. It ended at 110.37764, +105 pips. No surveyed BoJ watcher expects an October hike, so the 28 Oct trimmed mean is the nearer invalidator.",
+      "flags": [],
+      "invalidator_status": {
+        "BoJ hikes to 1.50% on 30 Oct": "Clear — no surveyed economist expects an October hike; 83% expect December",
+        "HY above 350bp with VIX above 22": "Watch — levels not verified this week; the 22 Oct risk-off session cost the pair 113 pips",
+        "Q3 trimmed mean ≤3.4% on 28 Oct": "Watch — print due 28 Oct; RBA November odds about 51% after Hauser on 21 Oct"
+      }
+    },
+    "AUD/NZD": {
+      "tracked": false,
+      "rank": 11,
+      "direction": "Long/Short",
+      "status": "quiet",
+      "entry": 1.23287,
+      "current": 1.23454,
+      "pnl_pips": 17,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Not discussed in the review; the tactical long is +17 pips at 1.23454 since the 30 September close.",
+      "flags": [],
+      "invalidator_status": {
+        "Q3 trimmed mean ≤3.4% on 28 Oct": "Watch — print due 28 Oct; RBA November odds about 51% after Hauser on 21 Oct"
+      }
+    },
+    "USD/JPY": {
+      "tracked": false,
+      "rank": 12,
+      "direction": "Long/Short",
+      "status": "quiet",
+      "entry": 157.42028,
+      "current": 156.84735,
+      "pnl_pips": -57,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Not discussed in the review beyond the currency check; the tactical long is −57 pips at 156.84735 after a 134-pip fall on 22 Oct, leaving it 55 pips above its 156.30 invalidator.",
+      "flags": [
+        "approaching_invalidator"
+      ],
+      "invalidator_status": {
+        "Daily close below 156.30 before 28 Oct": "Watch — latest close 156.84735, 55 pips above; 22 Oct close 156.86895"
+      }
+    },
+    "USD/CHF": {
+      "tracked": false,
+      "rank": 13,
+      "direction": "Long",
+      "status": "offside",
+      "entry": 0.83581,
+      "current": 0.82519,
+      "pnl_pips": -106,
+      "tactical_target": 0.84,
+      "pct_to_target": -253.5,
+      "narrative": "Outside the book at −106 pips (0.82519); its 22 Oct low close of 0.82071 sat 23 pips above 0.8184, the first leg of its two-step close invalidator.",
+      "flags": [
+        "approaching_invalidator"
+      ],
+      "invalidator_status": {
+        "Close below 0.8184 and then below 0.8140": "Watch — low close 0.82071 on 22 Oct, 23 pips above 0.8184; latest close 0.82519",
+        "SNB hikes or references normalisation on 10 December, or the Swiss 2-year closes above 0.50%": "Clear — no new SNB signal found this week; decision not until 10 Dec"
+      }
+    },
+    "AUD/CHF": {
+      "tracked": false,
+      "rank": 14,
+      "direction": "Long",
+      "status": "quiet",
+      "entry": 0.58043,
+      "current": 0.58069,
+      "pnl_pips": 3,
+      "tactical_target": 0.583,
+      "pct_to_target": 10.1,
+      "narrative": "Not discussed in the review; the long is +3 pips at 0.58069, 10.1% of the way to 0.5830.",
+      "flags": [],
+      "invalidator_status": {
+        "Australian Q3 trimmed mean at or below 3.4% on 28 October": "Watch — print due 28 Oct; RBA November odds about 51% after Hauser on 21 Oct",
+        "Swiss October CPI at or above 1.2%, taking December SNB pricing above 65%": "Clear — October CPI not yet released as of the 23 Oct close; December SNB pricing not verified"
+      }
+    },
+    "USD/SGD": {
+      "tracked": false,
+      "rank": 15,
+      "direction": "Long/Short",
+      "status": "quiet",
+      "entry": 1.27788,
+      "current": 1.27842,
+      "pnl_pips": 5,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Not discussed in the review; the tactical long is +5 pips at 1.27842 since the 30 September close.",
+      "flags": [],
+      "invalidator_status": {
+        "MAS steepens to ≥1.50%, pair below 1.2740": "Clear — MAS held on 14 Oct; pair 1.27842, 44 pips above 1.2740"
+      }
+    },
+    "GBP/JPY": {
+      "tracked": false,
+      "rank": 16,
+      "direction": "Neutral/Short",
+      "status": "quiet",
+      "entry": 208.79475,
+      "current": 209.74558,
+      "pnl_pips": null,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Not discussed in the review; the call is tactically Neutral with no P&L, and the pair rose 95 pips to 209.74558, against the strategic short.",
+      "flags": [],
+      "invalidator_status": {
+        "BoJ holds 1.25% Oct and Dec, no upgrade": "Watch — 30 Oct decision pending; no surveyed BoJ watcher expects October and 83% expect December"
+      }
+    },
+    "NZD/JPY": {
+      "tracked": false,
+      "rank": 17,
+      "direction": "Neutral/Short",
+      "status": "quiet",
+      "entry": 88.67909,
+      "current": 89.40772,
+      "pnl_pips": null,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Not discussed in the review; the call is tactically Neutral with no P&L, and the pair rose 73 pips to a 23 Oct weekly close of 89.40772, 63 pips below 90.04.",
+      "flags": [],
+      "invalidator_status": {
+        "BoJ holds Oct/Dec; weekly close above 90.04": "Watch — weekly close 89.40772 on 23 Oct, 63 pips below 90.04 after a 90.21049 daily close on 21 Oct; BoJ decision 30 Oct"
+      }
+    },
+    "EUR/JPY": {
+      "tracked": false,
+      "rank": 18,
+      "direction": "Neutral/Short",
+      "status": "quiet",
+      "entry": 178.35629,
+      "current": 175.58168,
+      "pnl_pips": null,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Not discussed in the review; the call is tactically Neutral with no P&L, and the pair fell 277 pips to 175.58168, in favour of the strategic short.",
+      "flags": [],
+      "invalidator_status": {
+        "BoJ holds 1.25% Oct and Dec, no upgrade": "Watch — 30 Oct decision pending; no surveyed BoJ watcher expects October and 83% expect December"
+      }
+    },
+    "CAD/JPY": {
+      "tracked": false,
+      "rank": 19,
+      "direction": "Short",
+      "status": "quiet",
+      "entry": 110.60638,
+      "current": 111.97048,
+      "pnl_pips": -136,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Not discussed in the review; the short is −136 pips at 111.97048 since the 30 September close.",
+      "flags": [],
+      "invalidator_status": {
+        "BoJ holds 1.25% Oct and Dec, no upgrade": "Watch — 30 Oct decision pending; no surveyed BoJ watcher expects October and 83% expect December"
+      }
+    },
+    "NZD/CAD": {
+      "tracked": false,
+      "rank": 20,
+      "direction": "Long",
+      "status": "quiet",
+      "entry": 0.80173,
+      "current": 0.79852,
+      "pnl_pips": -32,
+      "tactical_target": 0.811,
+      "pct_to_target": -34.6,
+      "narrative": "Not discussed in the review; the long is −32 pips at 0.79852, −34.6% of the way to 0.8110.",
+      "flags": [],
+      "invalidator_status": {
+        "USTR–Canada interim agreement suspends the Section 338 bans before end-2026": "Clear — no interim deal as of 23 Oct; CIT lawsuit filed 20 Oct",
+        "RBNZ hikes on 28 October but signals a pause, pushing December pricing below 30%": "Watch — decision 28 Oct; hike about 98% priced with 50bp priced by end-February"
+      }
+    },
+    "GBP/CAD": {
+      "tracked": false,
+      "rank": 21,
+      "direction": "Long/Neutral",
+      "status": "quiet",
+      "entry": 1.88775,
+      "current": 1.87326,
+      "pnl_pips": -145,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Not discussed in the review; the tactical long is −145 pips at 1.87326 since the 30 September close.",
+      "flags": [],
+      "invalidator_status": {
+        "USTR–Canada interim deal suspends Section 338 bans": "Clear — no interim deal as of 23 Oct; CIT lawsuit filed 20 Oct"
+      }
+    },
+    "CHF/JPY": {
+      "tracked": false,
+      "rank": 22,
+      "direction": "Short",
+      "status": "offside",
+      "entry": 188.34815,
+      "current": 190.07227,
+      "pnl_pips": -172,
+      "tactical_target": 188.2,
+      "pct_to_target": -1163.8,
+      "narrative": "Outside the book, the short improved from −279 to −172 pips at 190.07227 after yen buying on 22–23 Oct took 184 pips off the 20 Oct close of 191.90782.",
+      "flags": [],
+      "invalidator_status": {
+        "BoJ holds at 1.25% on both 30 October and 18 December with no Outlook Report upgrade": "Watch — 30 Oct decision pending; no surveyed BoJ watcher expects October and 83% expect December",
+        "SNB hikes on 10 December or lifts its 2027 forecast above 1.0%": "Clear — no new SNB signal found this week; decision not until 10 Dec"
+      }
+    },
+    "EUR/AUD": {
+      "tracked": false,
+      "rank": 23,
+      "direction": "Short/Neutral",
+      "status": "quiet",
+      "entry": 1.63151,
+      "current": 1.59078,
+      "pnl_pips": 407,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Not discussed in the review; the tactical short is +407 pips at 1.59078 since the 30 September close.",
+      "flags": [],
+      "invalidator_status": {
+        "Q3 trimmed mean ≤3.4% on 28 Oct": "Watch — print due 28 Oct; RBA November odds about 51% after Hauser on 21 Oct"
+      }
+    },
+    "GBP/CHF": {
+      "tracked": false,
+      "rank": 24,
+      "direction": "Long/Neutral",
+      "status": "quiet",
+      "entry": 1.10859,
+      "current": 1.10348,
+      "pnl_pips": -51,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Not discussed in the review; the tactical long is −51 pips at 1.10348 since the 30 September close.",
+      "flags": [],
+      "invalidator_status": {
+        "BoE holds 5 Nov or MPR undercuts curve": "Clear — BoE November hike priced at about 85% after 3.5% UK CPI on 21 Oct; decision 5 Nov"
+      }
+    },
+    "EUR/CAD": {
+      "tracked": false,
+      "rank": 25,
+      "direction": "Long/Neutral",
+      "status": "invalidated",
+      "entry": 1.61255,
+      "current": 1.56814,
+      "pnl_pips": -444,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Not discussed in the review, but its two-closes-below-1.5954 invalidator fired on 12 Oct and the tactical long is −444 pips at 1.56814.",
+      "flags": [
+        "invalidator_triggered"
+      ],
+      "invalidator_status": {
+        "Two closes below 1.5954 before 28 Oct": "TRIGGERED — closes of 1.59439 on 8 Oct and 1.59334 on 12 Oct; every close since below, latest 1.56814, 273 pips under"
+      }
+    },
+    "SGD/JPY": {
+      "tracked": false,
+      "rank": 26,
+      "direction": "Long/Short",
+      "status": "quiet",
+      "entry": 123.19076,
+      "current": 122.68773,
+      "pnl_pips": -50,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Not discussed in the review beyond the currency check; the tactical long is −50 pips at 122.68773 after the 22 Oct yen rally.",
+      "flags": [],
+      "invalidator_status": {
+        "BoJ hikes 30 Oct or lifts FY2027 CPI": "Clear — no surveyed BoJ watcher expects a 30 Oct hike, with 83% expecting December; Outlook Report due 30 Oct"
+      }
+    },
+    "CAD/CHF": {
+      "tracked": false,
+      "rank": 27,
+      "direction": "Neutral/Short",
+      "status": "quiet",
+      "entry": 0.58726,
+      "current": 0.58908,
+      "pnl_pips": null,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Not discussed in the review; the call is tactically Neutral with no P&L, and the pair rose 18 pips to 0.58908, against the strategic short.",
+      "flags": [],
+      "invalidator_status": {
+        "OAT-Bund >150bp and pair below 0.5717": "Watch — spread leg met (174.6bp on 22 Oct, 171.8bp on 23 Oct) but pair 0.58908, 174 pips above 0.5717"
+      }
+    },
+    "AUD/USD": {
+      "tracked": false,
+      "rank": 28,
+      "direction": "Neutral",
+      "status": "quiet",
+      "entry": 0.69449,
+      "current": 0.70369,
+      "pnl_pips": null,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Not discussed in the review; the call is Neutral with no P&L, and the pair rose 92 pips to 0.70369.",
+      "flags": [],
+      "invalidator_status": {
+        "Trimmed mean ≥3.8%, RBA hikes, Fed holds": "Watch — trimmed mean due 28 Oct with RBA November odds about 51% and a 28 Oct Fed hold about 84% priced"
+      }
+    },
+    "AUD/SGD": {
+      "tracked": false,
+      "rank": 29,
+      "direction": "Long/Neutral",
+      "status": "quiet",
+      "entry": 0.88743,
+      "current": 0.89964,
+      "pnl_pips": 122,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Not discussed in the review; the tactical long is +122 pips at 0.89964 since the 30 September close.",
+      "flags": [],
+      "invalidator_status": {
+        "MAS steepens S$NEER slope to ~1.50%": "Clear — MAS held on 14 Oct; Singapore core CPI eased to 2.0% on 23 Oct"
+      }
+    },
+    "EUR/CHF": {
+      "tracked": false,
+      "rank": 30,
+      "direction": "Neutral",
+      "status": "invalidated",
+      "entry": 0.94696,
+      "current": 0.92379,
+      "pnl_pips": null,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Not discussed in the review; the call is Neutral with no P&L, the pair fell 232 pips to 0.92379, and its OAT-Bund-above-140bp-for-five-sessions invalidator fired over 19–23 Oct.",
+      "flags": [
+        "invalidator_triggered"
+      ],
+      "invalidator_status": {
+        "OAT-Bund >140bp for five sessions": "TRIGGERED — 142.3bp, 150.8bp, 157.5bp, 174.6bp and 171.8bp on 19–23 Oct"
+      }
+    },
+    "EUR/GBP": {
+      "tracked": false,
+      "rank": 31,
+      "direction": "Neutral",
+      "status": "invalidated",
+      "entry": 0.85421,
+      "current": 0.83715,
+      "pnl_pips": null,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Not discussed in the review; the call is Neutral with no P&L, the pair fell 171 pips to 0.83715, and its close-below-0.8450 invalidator fired on 12 Oct.",
+      "flags": [
+        "invalidator_triggered"
+      ],
+      "invalidator_status": {
+        "Daily close above 0.8615 or below 0.8450": "TRIGGERED — first close below at 0.84467 on 12 Oct; latest close 0.83715, 79 pips below 0.8450"
+      }
+    }
+  },
+  "key_developments": [
+    "Canada September CPI on 19 Oct printed 3.1% against 3.2% expected, with trim at 1.8% and median at 1.9%, yet BoC October hike odds held near 70–80% and USD/CAD closed through its 1.4140 stop at 1.41113.",
+    "OAT-Bund widened every session from 142.3bp on 19 Oct to a cycle-high 174.6bp on 22 Oct and ended the week at 171.8bp; Moody's affirmed France at Aa3 negative after the 23 Oct close, against expectations of a downgrade.",
+    "RBA Deputy Governor Hauser said on 21 Oct the inflation outlook was 'materially worse', lifting November hike odds from 22% to about 51%; Goldman moved to a November hike.",
+    "UK unemployment fell to 4.7% on 20 Oct and September CPI printed 3.5% against 3.4% on 21 Oct, taking BoE November hike odds to about 85%; GBP/USD closed through its 1.3365 stop at 1.33798.",
+    "NZ Q3 CPI on 21 Oct rose 3.7% y/y against 3.8% expected, but RBNZ October hike pricing stayed near 98%.",
+    "A 22 Oct risk-off session (AI earnings, Brent above $110 after Houthi attacks) took USD/JPY down 134 pips and AUD/JPY down 113 pips without any BoJ repricing."
+  ],
+  "new_risks_identified": [
+    "French stress is now driven by social unrest as well as fiscal slippage: the 17 Oct riots preceded the OAT-Bund move to 174.6bp.",
+    "Moody's affirmation of France after the 23 Oct close is not in prices and is a positive euro shock landing on the EUR/USD and EUR/SGD shorts at Monday's open.",
+    "The BoC is treating Brent above $110 as a reason to hike, reversing the oil-precondition channel the CAD-short cluster relied on.",
+    "The yen and franc bid together on safe-haven demand on 22 Oct, independent of BoJ or SNB policy, a channel that hits AUD/JPY and the franc-funded longs."
+  ],
+  "consensus_shifts": [
+    "BoC October hike odds rose to about 70–80% from the 20–22% assigned at analysis.",
+    "RBA November hike odds rose from 22% to about 51% after Hauser on 21 Oct; Goldman joined ANZ and UBS in forecasting a November hike.",
+    "Nomura, Rabobank and ING previewed an ECB hold on 29 Oct, with Nomura calling market pricing excessive.",
+    "83% of surveyed BoJ watchers now expect a December hike, up from 35%, and none expect 30 Oct.",
+    "RBNZ October hike pricing rose from about 58% to about 98%, with 50bp priced by end-February.",
+    "Markets price about 84% for a Fed hold on 28 Oct and about 90% for a December hike."
+  ],
+  "invalidators_triggered": [
+    "USD/CAD: closing stop at 1.4140 — closed 1.41113 on 19 Oct, 29 pips through; latest close 1.40082",
+    "GBP/USD: closing stop at 1.3365 — closed 1.33798 on 20 Oct, 15 pips through; four closes above, latest 1.33724",
+    "GBP/AUD: closing stop at 1.9160 — closed 1.91865 on 15 Oct and 1.91897 on 16 Oct; latest close 1.90027",
+    "GBP/AUD: CFTC sterling short better than −40,000 with a close above 1.9131 — price leg breached at 1.91865 on 15 Oct and 1.91897 on 16 Oct; positioning leg unverified",
+    "EUR/CAD: two closes below 1.5954 before 28 Oct — 1.59439 on 8 Oct and 1.59334 on 12 Oct; latest close 1.56814, 273 pips below",
+    "EUR/CHF: OAT-Bund above 140bp for five sessions — 142.3bp, 150.8bp, 157.5bp, 174.6bp and 171.8bp on 19–23 Oct",
+    "EUR/GBP: daily close below 0.8450 — first at 0.84467 on 12 Oct; latest close 0.83715, 79 pips below"
+  ],
+  "next_key_catalyst": "28 Oct — BoC decision and Monetary Policy Report (hike priced at about 70–80%), in the same session as ABS Q3 CPI, the UK Budget and OBR outlook, the RBNZ decision and the FOMC"
+}

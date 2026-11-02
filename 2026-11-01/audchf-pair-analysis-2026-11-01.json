@@ -1,0 +1,1685 @@
+{
+ "metadata": {
+  "pair": "AUDCHF",
+  "base_currency": "AUD",
+  "quote_currency": "CHF",
+  "valuation_date": "2026-11-01",
+  "framework_version": "2.0",
+  "base_dossier_date": "2026-11-01",
+  "quote_dossier_date": "2026-11-01"
+ },
+ "pair_convention": {
+  "spot_reference": "AUD/CHF 0.57979",
+  "spot_explanation": "AUD/CHF at 0.57979 means 1 AUD = 0.57979 CHF (close 2026-10-30). Rising = AUD strengthening vs CHF. The CHF dossier quotes USD/CHF and EUR/CHF, where a rising rate means a weaker franc, so its 'Bullish CHF' reads as Bearish for AUD/CHF.",
+  "bullish_means": "pair RISES (AUD strengthens vs CHF)",
+  "bearish_means": "pair FALLS (AUD weakens vs CHF; franc strengthens)",
+  "base_dossier_tactical_stance": "Neutral (weighted score +0.0919, conviction 2); strategic Neutral (-0.0292, conviction 2)",
+  "quote_dossier_tactical_stance": "Neutral (weighted score +0.0316, conviction 2); strategic Bullish CHF (+0.1334, conviction 2), which on its own points to AUD/CHF falling over one to six months"
+ },
+ "executive_summary": "AUD/CHF closed at 0.57979 on 30 October 2026, quoted as Swiss francs per Australian dollar, so a rising rate means a stronger Australian dollar. The pair is up 0.65% over one month, 1.71% over three months, 3.06% over six months and 11.06% over a year. It sits at the 91st percentile of its 52-week closing range, 14 pips below the lower edge of the seven-touch resistance band at 0.58123-0.58585 that capped the September high.\n\nThe pair rests on two things at once. It has the widest policy differential in the G10: 460bp now, and 485bp if the RBA hikes on 3 November as expected. It is also funded in a currency whose safe-haven role came back hard in October, when the French bond rout led several dealers to question the franc as a funding leg. Neither standalone view shows the bilateral feature that matters most: AUD/CHF has double beta to risk. Risk-off sells the Australian dollar and buys the franc at the same time. Options on both dollar legs price that tail in the same direction.\n\nOn that basis the tactical stance is Neutral, conviction 2, with a weighted score of +0.084. Carry, positioning and a hawkish RBA almost exactly offset deteriorating credit, a soft China and the franc's haven bid. The strategic stance is Bearish, conviction 2, at -0.1411. Five slower factors outweigh the carry advantage over one to six months: Australia's record external deficit against Switzerland's 9% of GDP surplus, a 2027 SNB hike option, Australian growth weakness, event risk and dollar funding.\n\nThe main caveat is cost. The pair's futures roll discounts about 5.1% a year, which puts the six-month forward near 0.5651, inside the six-touch support band at 0.56309-0.5672. The bearish drift we expect is therefore mostly priced already. On our probability-weighted path an outright short loses money after carry. The view is better expressed by cutting carry longs into strength at 0.5812-0.5859 than by selling the cross outright.\n\nOne more warning for timing. Twenty-day realised volatility of 8.74% is running above the estimated one-month implied volatility of 7.293%. Four of the five largest daily moves in the last six months were declines. The 3 November cluster (RBA decision, Swiss CPI and the US midterms) arrives with that left tail already showing in the chart.",
+ "market_context": {
+  "spot": 0.57979,
+  "performance_1m": "+0.65%",
+  "performance_3m": "+1.71%",
+  "performance_6m": "+3.06%",
+  "performance_1y": "+11.06%",
+  "range_52w_low": 0.51634,
+  "range_52w_high": 0.58634,
+  "range_52w_percentile": 91,
+  "valuation_assessment": "Real exchange rates and PPP point in opposite directions for this cross. BIS real effective exchange rates for September 2026: Australia 116.13, the 97th percentile of its 33-month window and 8.77 points higher over a year; Switzerland 98.37, the lowest of 33 months and 4.60 points lower over a year. On recent history the Australian dollar is real-expensive and the franc real-cheap, which supports the strategic external-balance case. World Bank 2025 PPP fair value is about 0.6653, so spot is 12.9% below PPP (PPP is 14.8% above spot); PPP gaps of this size have no record of closing on a one-to-six-month horizon and are not weighted. What the 0.5798 level prices: the full 2026 RBA cycle, a 485bp carry gap through early 2027, and a franc kept down as a funding currency. It does not price a narrowing of the gap from the Swiss side. The 52-week range on a closing basis is 0.51634-0.58634 (high 17 September); on an intraday basis 0.51292-0.58827 (high 18 September), where spot is at the 89th percentile.",
+  "positioning": {
+   "base_cftc_net": "AUD asset managers net -125,237 contracts (about USD 8.8bn), second-largest short since May; legacy non-commercial net -128,300 (beyond the -80,000 historical extreme level); leveraged funds net +48,414 (week to 2026-10-27)",
+   "base_cftc_percentile": 4,
+   "quote_cftc_net": "CHF leveraged funds net -17,502 contracts, most short in 25 weeks; asset managers net -25,067, least short in 25 weeks (week to 2026-10-27)",
+   "quote_cftc_percentile": 0,
+   "net_pair_implication": "Real money is short the Australian dollar on terms of trade, while fast money is long the cross as a carry trade (long AUD, short CHF). The AUD short is the more stretched leg and faces a dated catalyst on 3 November, but the leveraged carry long is the most vulnerable position in a risk shock; the franc's funding role is contested after the French bond rout (IFR, ABN Amro, JPMorgan commentary).",
+   "crowding_assessment": "Mixed: extreme real-money AUD short against a crowded fast-money carry long in the cross; heavy franc use in carry trades can drive rapid appreciation in stress"
+  },
+  "pair_technicals": {
+   "trend_regime": "transitioning",
+   "support_levels": [
+    0.57431,
+    0.5672,
+    0.56309,
+    0.55725
+   ],
+   "resistance_levels": [
+    0.58123,
+    0.58585,
+    0.58879,
+    0.5969
+   ],
+   "key_moving_averages": "50-day 0.58072 (spot 9 pips below), 100-day 0.57341 (64 pips above), 200-day 0.56412 (157 pips above), 200-week 0.56841 (114 pips below spot, falling 2.94 pips a week). Daily stack 50 > 100 > 200 is bullish with spot just under the 50-day. The falling 200-week average enters the 0.56309-0.5672 band in about four weeks and reaches its floor in about 18 weeks (early March 2027).",
+   "chart_pattern": "Uptrend paused into a narrowing 0.5706-0.5883 range beneath the seven-touch resistance band at 0.58123-0.58585; lower highs at 0.58518 (14 Oct) and 0.58529 (29 Oct) with a higher low at 0.57569 (30 Oct). No named chart pattern identified beyond the compression.",
+   "psychological_levels": [
+    0.57,
+    0.58,
+    0.59,
+    0.6
+   ]
+  },
+  "pair_volatility": {
+   "iv_1m": 7.293,
+   "iv_3m": 7.653,
+   "iv_percentile": null,
+   "rv_1m": 8.74,
+   "rv_vs_iv": "On the estimate, one-month implied is 1.45 vols below 20-day realised (8.74%) and 0.23 vols above 60-day realised (7.06%). The negative reading most likely reflects the estimate's downward bias (such estimates have run 9-18% below direct quotes, so true implied is probably 8-9%), not genuinely cheap options. No option is listed on the cross and no implied-vol percentile can be computed.",
+   "risk_reversals": "One-month 25-delta risk reversals are -0.885 vols on AUD/USD (AUD puts bid) and -0.80 vols on USD/CHF (franc calls bid). Both point to a lower cross, so protection against a fall is the expensive side of the surface.",
+   "vol_term_structure": "Gentle contango: 7.293% at 35.7 days, 7.653% at 98.7 days, 8.184% at 189.6 days (estimates from CME AUD and CHF options with 0.39 realised correlation, observed 29 Oct). No visible event spike.",
+   "vol_regime": "Low-to-moderate volatility carry with an expensive downside tail"
+  },
+  "recent_regime": "The cross has been a carry vehicle interrupted by haven shocks. On 1 October it fell from 0.58248 to 0.57337 intraday during the French bond rout, showing that anyone funding carry in francs carries a risk that can move five standard deviations in a day; hedge funds caught in the French bond slump were forced to unwind bets rapidly. A second drop on 15 October coincided with iron ore's two-year low. Each time the pair recovered within days on RBA repricing, reaching 0.58456 on 28 October after the hot Australian CPI. As late as 30 October the franc was still described as under pressure from carry trades exploiting wide rate gaps. The dominant narrative is a contest between the widest carry in the G10 and a funding currency that has regained haven credibility.",
+  "citations": [
+   "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+   "https://data.bis.org/topics/EER",
+   "https://www.cmegroup.com/markets/fx/g10/swiss-franc.html",
+   "https://www.cmegroup.com/markets/fx/g10/australian-dollar.html",
+   "https://www.ifre.com/topic-codes/2499336/swiss-franc-threatens-yens-carry-trade-throne",
+   "https://www.fxstreet.com/analysis/swiss-franc-vs-japanese-yen-a-shift-in-carry-trade-funding-202610252204",
+   "https://www.matterfact.com/newsletter/2026-10-05-g10-fx-france-bond-rout-euro-funding-currency",
+   "https://www.bloomberg.com/news/articles/2026-10-02/hedge-funds-exiting-crowded-trades-fueled-rout-in-french-bonds",
+   "https://www.dfat.gov.au/geo/switzerland/switzerland-country-brief"
+  ]
+ },
+ "bilateral_carry_analysis": {
+  "base_policy_rate": 4.6,
+  "quote_policy_rate": 0,
+  "rate_differential_bps": 460,
+  "annualised_carry_bps": 508.7,
+  "pair_3m_iv": 7.653,
+  "pair_3m_iv_source": "Estimate (triangle method), not a quote: derived from listed CME Australian-dollar and Swiss-franc options and a 0.39 realised correlation of the two dollar legs, observed 2026-10-29 at a 98.7-day tenor. No option is listed on the cross. Such estimates have run 9-18% below direct quotes, so treat as a floor.",
+  "carry_to_vol_ratio": 0.66,
+  "carry_regime": "carry working",
+  "breakeven_move": "A long accrues about 22 pips a month on 460bp and about 24 pips a month on the 508.7bp roll; spot can fall about 67-74 pips (about 0.4% a month, roughly 1.3% over 3M) before carry is erased over three months, and about 133-147 pips (about 2.3-2.5%) over six months. Breakeven levels for a long on the roll basis: 1M 0.57737, 3M 0.57244, 6M 0.56508 (460bp basis: 0.57760, 0.57314, 0.56649).",
+  "forward_points": {
+   "1m": "-24.2 pips (AUD at discount), outright 0.57737; 460bp basis -21.9 pips, 0.57760",
+   "3m": "-73.5 pips (AUD at discount), outright 0.57244; 460bp basis -66.5 pips, 0.57314",
+   "6m": "-147.1 pips (AUD at discount), outright 0.56508; 460bp basis -133.0 pips, 0.56649"
+  },
+  "carry_assessment": "The policy differential is 460bp (RBA 4.60%, SNB 0.00%), widening to 485bp if the RBA hikes on 3 November; the 2-year spread is about 475bp. The CME futures calendar roll (Dec 2026 to Mar 2027 contracts, observed 29 October) is 508.7bp annualised in favour of a long, which includes the expected November hike and any cross-currency basis (not separable without an OIS curve). Carry-to-volatility is 0.66 on the 508.7bp roll over the 7.653% three-month implied estimate; on the 460bp policy differential it is 0.60, on 20-day realised vol (8.74%) 0.53 and on 60-day realised (7.06%) 0.65. Because the implied estimate runs low, the true implied-basis ratio is probably 0.52-0.55, still the best in the G10 on a policy-rate basis. Carry is working: the pair rose 11.06% over the year on top of about 4.6% of carry, but the regime pays steadily and gives back abruptly: the 15 October fall of 98 pips erased more than four months of carry in one session. One month of carry is roughly half an ATR(14) of 47 pips."
+ },
+ "factors": [
+  {
+   "factor_number": 1,
+   "factor_name": "Policy & Rates (Relative)",
+   "tactical_weight_default": 0.24,
+   "tactical_weight_applied": 0.27,
+   "strategic_weight_default": 0.24,
+   "strategic_weight_applied": 0.27,
+   "weight_adjustment_reason": "Adjusted from the default 0.24 on both horizons: AUD/CHF carries the widest policy differential in the G10 at 460bp, far above the 200bp high-carry threshold, so carry is a larger share of the pair's total return than for a typical cross.",
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 58,
+    "evidence_type": [
+     "rates",
+     "policy_comms"
+    ],
+    "bilateral_analysis": "AUD/CHF has the widest policy gap in the G10. The RBA Cash Rate Target is 4.60% and the SNB policy rate is 0%, a 460bp gap. The 2-year spread is about 475bp (Australia 4.93%, Switzerland 0.18% on 30 October) and the 10-year about 467bp (5.137% against 0.47%). Inside four weeks only the Australian side can move it. The RBA decides on 3 November, all four major Australian banks now expect a 25bp hike to 4.85%, and money markets on 1 November priced about 79-81% of that move, roughly 20bp of the 25bp. The SNB does not meet until 10 December, outside the tactical window, and only about 6bp of tightening was priced for that meeting in mid-October. So delivery itself leaves only about 5bp unpriced. The larger edge is in guidance: twelve-month pricing of only about 0.9 hikes in total means the market already treats November as roughly the last move, so a Board that keeps an explicit tightening bias in its new forecasts would add to the expected gap, not just confirm it. The transmission is carry. A 460-485bp gap against an estimated three-month implied volatility of 7.653% gives a carry-to-volatility ratio near 0.60, the best in the G10, which keeps AUD/CHF the preferred long in franc-funded carry while volatility stays low. The risk to the stance is a hold on 3 November, about one chance in five on market pricing, which would take roughly 20bp off the Australian front end at once.",
+    "key_bilateral_metrics": [
+     "Policy differential 460bp (RBA 4.60%, SNB 0.00%); 485bp if the RBA hikes on 3 November",
+     "2-year spread about 475bp (AU 4.93% vs CH 0.18%, 30 October); 10-year about 467bp (5.137% vs 0.47%)",
+     "RBA 3 November hike priced at about 79-81%; about 0.9 hikes net priced over the next 12 months (1 November)",
+     "SNB 10 December: about 6bp of tightening priced (mid-October pricing)",
+     "Carry-to-volatility about 0.60 (460bp over a 7.653% estimated 3-month implied volatility, which is a floor)"
+    ],
+    "what_is_priced": "About 20bp of the 25bp November RBA hike and almost nothing beyond it over twelve months, plus an SNB hold in December. The unpriced part is a retained RBA tightening bias, worth perhaps 10-15bp on the 2027 path. A hold would remove about 20bp at once.",
+    "citations": [
+     1,
+     2,
+     3,
+     4,
+     15,
+     32
+    ]
+   },
+   "strategic": {
+    "stance": "Bullish",
+    "confidence": 52,
+    "evidence_type": [
+     "rates",
+     "policy_comms"
+    ],
+    "bilateral_analysis": "Over one to six months the level of the gap matters more than its next step. After a November hike the gap would be 485bp. The scheduled decisions in the window are the RBA on 8 December and 9 February and the SNB's quarterly assessment on 10 December, and none of them is expected to change it in the central case. The AUD dossier puts the RBA peak at 4.85%, with a 35% chance of 5.10% by March 2027. The CHF dossier gives a 30% chance of a first SNB hike in March 2027, at a meeting after the last date on the published schedule used here, so it cannot be tied to a fixed date. Those two tails roughly offset, leaving a stable 485bp central path. The 10 December SNB forecast round is the first scheduled point at which the Swiss side could narrow it. Importantly, the market already prices the Australian peak. With only about 0.9 hikes priced over twelve months there is little second hike left to unwind, which removes much of the strategic downside the AUD dossier identified in its rate path. The rolled CME futures discount between the December and March contracts is about 508.7bp annualised. That is above the policy gap because it includes the expected November hike and any cross-currency basis, and it shows a long earns roughly 5% a year to hold. Carry stays strongly positive for the pair. But a gap that has stopped widening loses its expectations-channel support, so confidence is lower than tactically.",
+    "key_bilateral_metrics": [
+     "Expected policy differential 485bp through February 2027 (RBA 4.85%, SNB 0%) in the central case",
+     "RBA: 35% probability of 5.10% by March 2027; SNB: 30% probability of a first hike in March 2027 (dossier estimates)",
+     "CME futures calendar roll for the cross (December to March contracts) about 508.7bp annualised in favour of a long, observed 29 October",
+     "Australian curve: 3-year below 2-year, 2s10s +20.7bp; Swiss 2s10s +29bp, 2-year down from 0.263% to 0.18% in October"
+    ],
+    "what_is_priced": "Markets price an RBA peak near 4.85% and an SNB on hold into mid-2027. The two-sided tails look roughly balanced, so the strategic edge is the carry itself rather than a mispriced path. The forward discount already pays about 5% a year to anyone holding the pair long.",
+    "citations": [
+     3,
+     11,
+     15,
+     22,
+     23
+    ]
+   },
+   "horizon_split": "Bullish on both horizons. Confidence falls from 58 to 52 because the tactical case rests on a near-certain widening on 3 November plus a possible hawkish-guidance surprise, while the strategic case rests only on the carry level. The Swiss side holds the more likely next surprise (a hike), and that would narrow the gap.",
+   "carry_analysis": {
+    "reference": "See bilateral_carry_analysis: 460bp policy differential (485bp after the expected RBA hike); 508.7bp annualised CME futures roll earned by a long; estimated 3-month implied vol 7.653%; carry-to-vol 0.66 on the roll (0.60 on the 460bp policy differential); carry regime: carry working.",
+    "note": "The 508.7bp futures roll is the annualised premium between the December 2026 and March 2027 CME AUD and CHF futures combined into the cross, observed 29 October 2026; by covered interest parity it is the rate differential plus any cross-currency basis, which cannot be separated without an OIS curve, so it is not the policy differential. The 7.653% three-month implied vol is an estimate from listed CME AUD and CHF options and a 0.39 realised correlation (98.7-day tenor); estimates built this way have run 9-18% below direct quotes, so treat it as a floor. Carry-to-vol is 0.60 on the 460bp policy differential and about 0.66 on the 508.7bp roll; because vol runs low, the true ratio is probably 0.52-0.55. Carry is working: highest carry-to-vol cross in the G10 on a policy-rate basis, valid while volatility stays near 7% and risk assets do not crack; franc carry fails abruptly in haven episodes. At 460bp a long accrues about 0.38% a month (about 2.3% over six months); at the roll, about 0.42% a month.",
+    "contrarian_analysis": null
+   },
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 2,
+   "factor_name": "Inflation & Growth Dynamics",
+   "tactical_weight_default": 0.18,
+   "tactical_weight_applied": 0.18,
+   "strategic_weight_default": 0.1,
+   "strategic_weight_applied": 0.1,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 52,
+    "evidence_type": "macro_data",
+    "bilateral_analysis": "The inflation gap is very wide. Australian monthly CPI was 4.3% in September and the September-quarter trimmed mean 3.7%, against Swiss headline CPI of 1.0% and core of 0.5%. That gap is the reason the RBA is hiking and the SNB is not. Growth momentum is moving the other way. Australian employment fell 39,300 in September, unemployment rose for a third month to 4.7%, and the October composite PMI dropped to 47.7. Switzerland's indicators are easing from a high level: the KOF barometer is at 107.6, the procure.ch PMI at 55.3 and unemployment at 3.1%. Inside four weeks the hot Australian inflation is absorbed by the 3 November hike, and the labour data limit what follows, so the two cancel out. The asymmetry is that Australian data move this pair more, because the RBA path is live while the SNB is anchored at zero. The October labour force in the third week of November and the 25 November monthly CPI decide which side wins. The 3 November Swiss CPI matters only at the extremes: a print of 1.2% or more would revive SNB hike pricing and weigh on the pair, and 0.8% or less would support it.",
+    "key_bilateral_metrics": [
+     "Headline inflation 4.3% (AU monthly, September) vs 1.0% (CH, September); core 3.7% trimmed mean vs 0.5%",
+     "Unemployment 4.7% and rising (AU) vs 3.1% stable (CH registered)",
+     "AU flash composite PMI 47.7 (October) vs CH procure.ch PMI 55.3 (September) and KOF 107.6 (October)",
+     "AU real wages falling (WPI 3.2% vs CPI 4.3%); CH nominal wage growth 0.4% in 2026"
+    ],
+    "what_is_priced": "The Australian inflation surprise is priced into the November hike, and the Swiss print is expected near 1.0%. Neither side's growth weakness is priced as forcing policy change within four weeks, so near-term surprises in either direction look roughly symmetric.",
+    "citations": [
+     6,
+     7,
+     14,
+     29
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 55,
+    "evidence_type": "macro_data",
+    "bilateral_analysis": "Over one to six months the two economies are in different phases, and the policy implications converge. Australia shows late-cycle stagflation. Inflation is cost-push (fuel, electricity, goods at 4.6%), services are not accelerating, real wages are falling and unemployment has risen three months running. That mix usually ends with a central bank stopping early, and Deputy Governor Hauser has already said past hikes are weighing on activity. Switzerland is moving the other way from the lowest inflation base in the G10. Headline CPI rose to 1.0%, the SNB's own forecast has inflation higher in the fourth quarter, and oil above USD 110 puts early-2027 risk at 1.2-1.5%, which opens a 2027 hike option the Swiss curve barely prices. So each economy's data push its central bank toward the other's position: Australian growth weakness argues for a peak, Swiss inflation for a lift-off. That narrows the expected differential at the margin and weighs on the pair. The 2 December Australian September-quarter GDP, expected by the AUD dossier at 0.2-0.3% q/q, is the main dated test. Confidence is capped at 55 because Swiss growth is distorted by pharmaceutical swings and Australian inflation expectations at 5.3% could still force more hikes.",
+    "key_bilateral_metrics": [
+     "AU unemployment 4.5% (July) to 4.6% (August) to 4.7% (September)",
+     "AU goods inflation 4.6% vs services 4.1%; MI inflation expectations 5.3%",
+     "SNB conditional forecast: 0.7% (2026), 0.8% (2027) at a 0% rate; CH CPI up from 0.8% to 1.0% in September",
+     "AU Q3 GDP due 2026-12-02, expected 0.2-0.3% q/q vs 0.4% in Q2"
+    ],
+    "what_is_priced": "Markets price a gradual Australian slowdown with rates held near 4.85% and Swiss inflation peaking near 1%. We expect the growth divergence to keep the RBA from going further while Swiss inflation edges up, so the relative path tilts slightly toward the franc. That is not in current pricing.",
+    "citations": [
+     5,
+     6,
+     7,
+     11,
+     14,
+     31
+    ]
+   },
+   "horizon_split": "Tactically, the hot Australian CPI and weak labour data offset each other around the 3 November hike. Strategically, the late-cycle Australian mix and the early Swiss inflation upturn both push the two banks toward each other, which turns the factor Bearish for the pair.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 3,
+   "factor_name": "Risk Appetite & Sentiment",
+   "tactical_weight_default": 0.1,
+   "tactical_weight_applied": 0.14,
+   "strategic_weight_default": 0.05,
+   "strategic_weight_applied": 0.09,
+   "weight_adjustment_reason": "Adjusted from the defaults of 0.10 and 0.05: AUD/CHF is a pure risk-proxy cross, the highest-beta G10 currency against a classic safe haven. Risk appetite moves both legs in the same pair direction, so it transmits more strongly than for a typical cross.",
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 55,
+    "evidence_type": "cross_asset",
+    "bilateral_analysis": "In this pair, risk appetite pushes both legs the same way. Risk-off weakens the Australian dollar through its equity and China beta and strengthens the franc as a haven, so the cross moves roughly twice as much as either leg does against the dollar. Risk appetite is worse than the equity index levels suggest. US high-yield spreads are 326bp and investment-grade 89bp, at the 95th and 96th percentiles of their one-year ranges. Semiconductors fell 6.7% on 22 October on doubts over AI spending. China's October manufacturing PMI slipped to 49.3. European sovereign stress has brought back the franc's haven role, with the OAT-Bund spread at 152.5bp after a high near 159bp. Against that, the VIX at 17.2 is only middling, the SMI rose 8.7% in October and gold fell 7%, which takes away one of the franc's usual supports. The US midterms on 3 November add a binary on the same day as the RBA decision. Weakening credit, a soft China and an active haven bid for the franc make the four-week skew negative for the pair, and both dossiers lean the same way: the AUD dossier is Bearish AUD on risk and the CHF dossier Bullish CHF.",
+    "key_bilateral_metrics": [
+     "US HY OAS 326bp (95th percentile of one-year range, +18bp in a month); IG OAS 89bp (96th percentile)",
+     "VIX 17.2 (2026-10-29), 52nd percentile of one-year range",
+     "China NBS manufacturing PMI 49.3 (October) from 50.1",
+     "OAT-Bund spread 152.5bp (2026-10-20), widest since 2011; gold -7.03% in October"
+    ],
+    "what_is_priced": "With the VIX at the 52nd percentile, equity volatility prices a benign backdrop, while credit at the 95th-96th percentiles does not. We expect the gap to close through higher equity volatility rather than tighter credit, a 20-30% chance within four weeks, which this pair would amplify.",
+    "citations": [
+     16,
+     20,
+     21,
+     30
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 48,
+    "evidence_type": [
+     "cross_asset",
+     "geopolitics"
+    ],
+    "bilateral_analysis": "Over six months the risk regime is genuinely two-sided for this cross. The bear case is that wide credit spreads, doubts over AI capital spending and an oil shock with Brent above USD 110 turn into a global slowdown, in which this pair usually falls hardest of the major crosses. The bull case is that the S&P 500 is still up about 11% this year, China's third-quarter GDP beat at 4.5%, and a Hormuz settlement would be a strong positive supply shock that lifts the Australian dollar and drains haven demand for the franc at the same time. Gold falling from its highs and the SNB's own note that haven demand was limited in the third quarter suggest the franc's haven premium is not structurally rising. The French spread stress mainly drives EUR/CHF and reaches AUD/CHF only weakly. Both dossiers score this factor Neutral strategically, and their scenario weights put the risk-off and risk-on tails at about 25% each. With the tails balanced there is no directional signal. A move in US high-yield spreads above 400bp would turn it Bearish, and a fall below 280bp Bullish.",
+    "key_bilateral_metrics": [
+     "Risk-off tail (VIX above 25 for two weeks) about 25% vs risk-on tail about 25% by April 2027 (AUD dossier)",
+     "China Q3 GDP +4.5% y/y",
+     "Gold USD 3,883.59 (2026-10-30), -7.46% over one year",
+     "US HY OAS neutral band 280-400bp; currently 326bp"
+    ],
+    "what_is_priced": "Markets price a soft landing with elevated credit risk premia, a combination that is internally inconsistent but has no directional bias for the cross. We see no strategic mispricing large enough to lean on.",
+    "citations": [
+     16,
+     20,
+     21
+    ]
+   },
+   "horizon_split": "Tactically, wide credit, a China miss and an active franc haven bid are immediate, and the pair's double beta makes them costly within four weeks. Over six months those risks are matched by the upside tail of an oil-shock resolution, so the factor is Neutral.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 4,
+   "factor_name": "Flows & Positioning",
+   "tactical_weight_default": 0.1,
+   "tactical_weight_applied": 0.1,
+   "strategic_weight_default": 0.06,
+   "strategic_weight_applied": 0.06,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 53,
+    "evidence_type": "positioning",
+    "bilateral_analysis": "Speculators are short both legs, but not equally. In the week to 27 October, asset managers were net short 125,237 Australian-dollar contracts, about USD 8.8bn, and the legacy non-commercial net short of 128,300 contracts is beyond the -80,000 level that has historically marked Australian-dollar extremes. In the franc, leveraged funds were net short 17,502 contracts, the most in 25 weeks, but well short of the roughly 30,000-contract scale that has preceded franc squeezes. Asset managers' franc short of 25,067 is the smallest in that window. The more extreme leg is therefore the Australian dollar short, and it faces a dated catalyst: a hawkish 3 November decision, with about 20% of the hike still unpriced and the guidance open, is the classic trigger for covering. The offset is that leveraged funds are long the Australian dollar by 48,414 contracts and short the franc, so fast money is effectively long this pair as a carry trade, and a risk-off unwind would hit it. Options agree on the direction of hedging: Australian-dollar puts and franc calls are both bid in one-month 25-delta risk reversals, so protection against the pair falling is already well owned. On balance the short base and its catalyst make the near-term response asymmetric to the upside.",
+    "key_bilateral_metrics": [
+     "AUD: asset managers net -125,237 contracts; legacy non-commercial net -128,300 vs -80,000 historical extreme (week to 2026-10-27)",
+     "AUD: leveraged funds net +48,414 (trimmed by 4,083 on the week)",
+     "CHF: leveraged funds net -17,502 (most short in 25 weeks); asset managers net -25,067 (least short in 25 weeks)",
+     "One-month 25-delta risk reversals: AUD/USD -0.885 vols (AUD puts bid); USD/CHF -0.80 vols (franc calls bid), CME observed 28 October"
+    ],
+    "what_is_priced": "Real money is positioned for a terms-of-trade-driven Australian dollar decline, and fast money for franc-funded carry. The Australian short is the more stretched and has the nearer catalyst, so we expect partial covering on a hawkish RBA. Downside hedges in the cross are already expensive.",
+    "citations": [
+     17,
+     22,
+     23
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": "positioning",
+    "bilateral_analysis": "Over six months positioning cuts both ways for the pair. The Australian dollar short is extreme, but it was built on a real terms-of-trade loss: iron ore near a two-year low and a record current-account deficit. In the AUD dossier's 2015 and 2019 analogues, shorts of this kind were held for two to three quarters before covering. So it is more a floor under the downside than a source of upside. On the franc side, asset managers have already covered 42% of their July short, and the CHF dossier warns they could rebuild hedges toward -43,000 contracts if European stress fades, which would support the pair. If stress instead deepens, the leveraged-fund franc short, built steadily alongside the widening carry gap, would cover and weigh on the pair. The pair's fast-money carry long is the most vulnerable position in an abrupt risk shock. Japanese and other real-money demand for Australian bonds and Swiss institutional hedging of foreign assets are slow-moving structural flows that roughly offset. With extremes on one leg counterbalanced by unwind risk in the carry trade itself, there is no clear six-month signal.",
+    "key_bilateral_metrics": [
+     "AUD asset-manager net swung from +47,551 (2026-05-12) to -125,237 (2026-10-27), about 39% of open interest",
+     "CHF asset-manager net short range -43,308 (2026-07-07) to -25,067 (2026-10-27)",
+     "CHF leveraged short built from -4,823 (late May) to -17,502",
+     "Six-month risk reversals: AUD/USD -1.091 vols; USD/CHF -0.68 vols (CME, 28 October)"
+    ],
+    "what_is_priced": "Positioning prices a weaker Australian dollar over six months and a franc that keeps funding carry. The two biases offset in the cross, and neither alone is extreme enough to force a strategic move without a fundamental trigger.",
+    "citations": [
+     17,
+     22,
+     23
+    ]
+   },
+   "horizon_split": "Tactically, the extreme Australian dollar short meets a dated catalyst on 3 November, which tilts the near-term response upward. Over six months that short can persist on terms-of-trade grounds, while the carry trade itself carries unwind risk, so the signal is Neutral.",
+   "carry_analysis": null,
+   "contrarian_analysis": {
+    "tactical": {
+     "combined_positioning_signal": "Mixed but tilted to the upside: real money is heavily short the Australian dollar (an extreme), while leveraged funds are long the Australian dollar and short the franc, i.e. long the cross as carry. The more stretched position is the Australian dollar short.",
+     "unwind_trigger": "A hawkish 3 November RBA decision that keeps an explicit tightening bias would trigger Australian-dollar short covering and lift the pair. The opposite unwind, leveraged funds exiting franc-funded carry, would come from a VIX close above 25 or a credit-led sell-off, and would push the pair down.",
+     "historical_analogue": "The AUD dossier cites 2019, when a legacy Australian-dollar net short of similar size was followed by a quarter-long rally once a US-China trade truce provided the trigger. On the other side, the August 2024 carry unwind showed how fast franc- and yen-funded crosses fall when fast money exits together.",
+     "contrarian_case": "The crowd is short the Australian dollar on terms of trade and right on fundamentals, but the positioning is late. With about one-fifth of the hike unpriced and twelve-month pricing already treating November as the last move, any hint from the RBA of further tightening forces covering into a market where downside hedges are already bid. The contrarian trade is that the next surprise for this pair is upward, not downward."
+    },
+    "strategic": {
+     "combined_positioning_signal": "Neutral: an extreme Australian-dollar short offset by a moderate but growing leveraged franc short and a crowded fast-money carry long in the cross.",
+     "unwind_trigger": "Upward: a Hormuz settlement or Chinese construction stimulus that lifts iron ore, forcing asset managers to cover Australian-dollar shorts. Downward: a global risk-off episode that forces leveraged funds out of franc-funded carry.",
+     "historical_analogue": "Shorts in the Australian dollar built on falling terms of trade in 2015 were held for two to three quarters before covering, while violent franc rallies (January 2015, March 2020, March 2026) needed a policy or global risk shock rather than positioning alone.",
+     "contrarian_case": "Over six months the crowd's bearish Australian-dollar view rests on fundamentals that are still deteriorating, so contrarianism is weaker. The real contrarian risk is in the consensus carry trade: with this cross the best carry-to-volatility trade in the G10, it is a natural candidate for liquidation in any volatility shock, and that unwind would overwhelm the Australian-dollar short covering."
+    }
+   },
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 5,
+   "factor_name": "External Balance & Terms of Trade",
+   "tactical_weight_default": 0.06,
+   "tactical_weight_applied": 0.06,
+   "strategic_weight_default": 0.16,
+   "strategic_weight_applied": 0.16,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 55,
+    "evidence_type": [
+     "trade_balance",
+     "cross_asset"
+    ],
+    "bilateral_analysis": "External positions differ more in this pair than in almost any other G10 cross. Australia ran a record A$27.2bn current-account deficit in the June quarter, 3.67% of GDP. Switzerland ran a CHF 23.7bn surplus, 9.2% of GDP, and holds a net international investment position of CHF 986bn. Direct bilateral trade is small. IMF data show Australian goods exports to Switzerland of USD 1.4bn and imports of USD 3.0bn in 2024, a USD 1.6bn Australian deficit. Swiss-reported flows differ (USD 4.6bn of imports from Australia), most likely because of gold routing. Either way this is not a structural flow driver for the pair. The transmission is through terms of trade. Iron ore, about 35% of Australian export revenue, was near USD 90.60 a tonne on 26 October after a two-year low near USD 89.75, and China's PMI slipped to 49.3. Gold, the franc's commodity link, fell 7% in October, a modest offset in the pair's favour. Inside four weeks the only external print is Australia's 5 November September trade release, which the AUD dossier expects to show a surplus below A$2bn. Both dossiers point the same way, Bearish AUD and Bullish CHF, so the factor is Bearish for the pair at a low tactical weight.",
+    "key_bilateral_metrics": [
+     "Current account: AU -3.67% of GDP (record A$27.2bn deficit, Q2) vs CH +9.2% of GDP (CHF 23.7bn surplus, Q2)",
+     "Bilateral goods trade 2024 (IMF DOTS): AU exports to CH USD 1.4bn, imports USD 3.0bn, net -USD 1.6bn",
+     "Iron ore about USD 90.60/t (2026-10-26); two-year low about USD 89.75 (2026-10-15)",
+     "Gold -7.03% in October; Brent futures settlement USD 113.88 (2026-10-27)"
+    ],
+    "what_is_priced": "The pair's carry advantage is priced and its terms-of-trade loss largely is not: iron ore is at a two-year low while the rate story dominates. We expect the 5 November Australian trade data to confirm the drag but not to move the pair on its own within four weeks.",
+    "citations": [
+     8,
+     9,
+     10,
+     13,
+     21
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 64,
+    "evidence_type": [
+     "trade_balance",
+     "cross_asset",
+     "valuation"
+    ],
+    "bilateral_analysis": "External balance is the largest strategic negative for the pair. Australia's deficit, the widest since 2016, was built before iron ore hit its two-year low, so the September-quarter balance of payments on 1 December should widen further. Switzerland's surplus generates roughly CHF 70-95bn a year of foreign income that has to be recycled or converted, and the IMF projects a 6.2% of GDP surplus for 2026. Iron ore has structural headwinds from Simandou supply and Chinese property weakness, and the AUD dossier expects USD 82-90 a tonne by the March quarter. With Hormuz disruption persisting, Australia also pays more for fuel imports, while energy is only about 3.5% of the Swiss CPI basket. Real-exchange-rate signals point the same way. The BIS real effective rate is 116.13 for Australia, near the top of its recent range and up 8.77 points in a year, and 98.37 for Switzerland, its lowest in 33 months. So the Australian dollar is real-expensive and the franc real-cheap on recent history. PPP points the other way, putting fair value well above spot, but PPP gaps of this size have no record of closing within six months and are not weighted here. A widening deficit financed by a carry premium that has stopped widening, against a surplus currency whose real rate is cheap, is a classic setup for the pair to fall over one to six months.",
+    "key_bilateral_metrics": [
+     "BIS REER: AU 116.13 (+8.77 points y/y) vs CH 98.37 (-4.60 points y/y, lowest of 33 months), September 2026",
+     "IMF projection: Swiss current-account surplus 6.2% of GDP in 2026; Swiss NIIP CHF 986bn",
+     "Iron ore expected USD 82-90/t by the March quarter 2027 (AUD dossier)",
+     "World Bank 2025 PPP implies AUD/CHF fair value about 0.6653, about 13-15% above spot (not weighted: no record of closing within six months)"
+    ],
+    "what_is_priced": "Markets treat both external positions as background and let the Australian real rate rise while the Swiss real rate fell. We expect the 1 December Australian balance of payments and a persistently low iron ore price to reassert the gap in external positions once rate momentum fades in 2027.",
+    "citations": [
+     8,
+     9,
+     13,
+     18,
+     26
+    ]
+   },
+   "horizon_split": "Bearish on both horizons. Confidence rises from 55 to 64 and the weight from 0.06 to 0.16 because current-account and terms-of-trade effects work through cumulative flows over quarters. Inside four weeks there is only one monthly trade release.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": {
+    "base_commodity_profile": "AUD: iron ore (about 35% of export revenue, strongly positive when prices rise), coal and LNG (positive), gold (mildly positive as an exporter); net fuel importer, so an oil supply shock lowers national income even though the framework rule gives oil a mild positive.",
+    "quote_commodity_profile": "CHF: no material commodity exports; gold correlates with the franc through the safe-haven channel (gold up is franc-positive); a net energy importer with low energy intensity (about 3.5% of the CPI basket), so oil moves the franc mainly through global risk and inflation.",
+    "net_effect_calculation": "Iron ore: up is ++AUD and roughly neutral for CHF, so the net is strongly bullish for the pair; the current two-year low near USD 90.60 is therefore strongly bearish. Gold: up is +CHF and mildly positive for AUD as a producer, so the net is mildly bearish for the pair; October's 7% fall is mildly bullish. Oil: the framework rule gives +AUD (mild) and no direct CHF effect, so the mechanical net is mildly bullish for the pair. But the current episode is a supply shock driven by Hormuz, and the AUD dossier finds the fuel import bill and Asian demand hit outweigh LNG and coal gains, while the same shock raises haven demand for the franc. Net across the three: iron ore dominates and is negative, gold is a small positive offset, and oil is close to neutral or mildly negative in this regime. The overall commodity signal is bearish for AUD/CHF. Bilateral investment context supports the trade-data reading: Swiss sources describe Switzerland's imports from Australia as mainly precious metals, alongside agricultural and pharmaceutical products, consistent with gold routing explaining the gap between the two countries' reported figures.",
+    "scenario_oil_up_10pct": "Mechanically mildly bullish for the pair under the framework rule (AUD LNG and coal gains). In the current supply-shock regime it is more likely mildly bearish, because higher fuel import costs, weaker Asian demand and a firmer franc haven bid outweigh energy export gains.",
+    "scenario_oil_down_10pct": "If driven by a Hormuz settlement, bullish for the pair: Australia's fuel bill falls, global growth expectations improve and haven demand for the franc fades. If driven by a global demand collapse, bearish, because risk-off dominates.",
+    "dominant_commodity_driver": "Iron ore, the largest single channel to Australian national income, with no offsetting franc exposure."
+   },
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 6,
+   "factor_name": "Guidance & Credibility",
+   "tactical_weight_default": 0.07,
+   "tactical_weight_applied": 0.07,
+   "strategic_weight_default": 0.12,
+   "strategic_weight_applied": 0.12,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bullish",
+    "confidence": 57,
+    "evidence_type": "policy_comms",
+    "bilateral_analysis": "The two banks' communication diverges, and the tactical window contains only one of them. The RBA has turned decisively hawkish. The 29 September statement committed the Board to raising rates further if needed. Deputy Governor Hauser called the inflation outlook materially worse than forecast and warned that businesses were treating 3-3.5% inflation as normal. Board votes have hardened from 5-4 in March to 9-0 in September. The 3 November decision comes with the RBA's quarterly forecasts, according to press reports, so it is the highest-signal event of the four weeks. The year-end trimmed-mean forecast must rise from 3.3% toward 3.7%. The SNB's last word was the 22 October summary of deliberations, which dropped the increased willingness to intervene: mildly franc-positive, but already a week old and partly absorbed. The SNB says nothing scheduled until 10 December, outside the tactical window. With the market pricing only about 0.9 hikes over twelve months, a Board that keeps a live tightening bias would surprise in the pair's favour, while a hike framed as the last would roughly match pricing. The sequencing favours the Australian side, so the factor is Bullish tactically.",
+    "key_bilateral_metrics": [
+     "RBA votes: 5-4 (March) to 8-1 (May) to 9-0 (September); statement retains 'increase the cash rate further if needed'",
+     "RBA 3 November decision accompanied by new quarterly forecasts (press reports); August trimmed-mean forecast 3.3% vs 3.7% outturn",
+     "SNB 22 October summary: increased willingness to intervene no longer necessary; next communication 2026-12-10",
+     "Market: about 0.9 RBA hikes priced over 12 months vs about 6bp for the SNB by December"
+    ],
+    "what_is_priced": "Markets take the RBA at its word for November but price little beyond it. An upgraded forecast table that keeps a tightening bias, which the AUD dossier puts at 55%, is the unpriced element and would favour the pair.",
+    "citations": [
+     1,
+     2,
+     4,
+     5,
+     12
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 52,
+    "evidence_type": "policy_comms",
+    "bilateral_analysis": "Over one to six months the direction of guidance turns against the pair, even though RBA credibility remains high. The AUD dossier expects the RBA to move to a neutral bias by its 9 February 2027 decision as unemployment rises. That shift is now largely priced, since twelve-month pricing has little beyond November, so it costs the pair less than the dossier assumed. The SNB's guidance is drifting the other way. The 10 December quarterly assessment brings a new conditional forecast. The September version already raised medium-term inflation, partly because of the weaker franc, and the CHF dossier expects December to lift 2027 inflation to 0.9-1.0%, which weakens the case for a zero rate while every peer has tightened. Dropping the increased willingness to intervene also removes a cap on franc strength, though the SNB keeps intervention available as needed. The unpriced guidance surprise over the horizon therefore sits mainly on the Swiss side and is hawkish, while the Australian side is moving from tightening to neutral. That convergence is mildly Bearish for the pair. Confidence is held at 52 because the SNB has a record of reversing its intervention language quickly when the franc strengthens sharply.",
+    "key_bilateral_metrics": [
+     "SNB 10 December quarterly assessment with new conditional forecast; September path 0.7% (2026), 0.8% (2027)",
+     "CHF dossier expects December forecast to raise 2027 inflation to 0.9-1.0%",
+     "RBA expected shift to neutral bias by 2027-02-09 (AUD dossier)",
+     "RBA path priced at about 0.9 hikes over 12 months, leaving little to unwind"
+    ],
+    "what_is_priced": "The Swiss curve treats SNB guidance as permanently dovish relative to peers, and the Australian curve already prices an RBA peak. The asymmetric surprise is a hawkish SNB forecast on 10 December, which current pricing does not reflect.",
+    "citations": [
+     3,
+     11,
+     12,
+     15
+    ]
+   },
+   "horizon_split": "Tactically, the RBA's hawkish guidance is the only scheduled communication in the window, so the factor is Bullish. Strategically, the SNB's 10 December forecast round and the expected RBA move to neutral turn guidance toward convergence, so the factor flips to Bearish at low confidence.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 7,
+   "factor_name": "Event Risk & Geopolitics",
+   "tactical_weight_default": 0.05,
+   "tactical_weight_applied": 0.05,
+   "strategic_weight_default": 0.05,
+   "strategic_weight_applied": 0.05,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 51,
+    "evidence_type": "geopolitics",
+    "bilateral_analysis": "Three events land on 3 November: the RBA decision in the Asian session, Swiss October CPI in the European morning, and the US midterm elections. That clustering will magnify whichever way the day breaks. The geopolitical risks are lopsided for this pair because the main shocks move both legs the same way. A Hormuz escalation that lifts Brent above USD 125 hurts Australian terms of trade and growth while raising haven demand for the franc. October saw the most attacks on shipping in and around the strait since 2017, and the SNB names the Middle East as its main risk. A French government collapse, which the CHF dossier puts at 15% over four weeks, would mainly lift the franc against the euro but would also spill into the pair through broader haven demand. The positive tail is a ceasefire that drops Brent below USD 95, which the AUD dossier also gives about 15%. With the Iran conflict and the European fiscal stress both feeding the franc's haven role, and only one of the tails favouring the pair, the four-week event skew is mildly negative. Australian domestic political risk is low, and Swiss votes on 29 November are not macro events.",
+    "key_bilateral_metrics": [
+     "2026-11-03: RBA decision, Swiss October CPI and US midterm elections on the same day",
+     "Hormuz: October 2026 the worst month for shipping attacks since 2017; escalation tail 15% (four weeks)",
+     "French government collapse tail 15% (four weeks, CHF dossier); OAT-Bund 152.5bp",
+     "Hormuz ceasefire with Brent below USD 95: about 15% (four weeks, AUD dossier)"
+    ],
+    "what_is_priced": "Options on both dollar legs carry only a modest event premium, with no clear event pricing in USD/CHF one-month volatility. Given that both major geopolitical tails work against the pair, short-dated protection against a fall in the cross looks fairly priced rather than rich.",
+    "citations": [
+     10,
+     11,
+     16,
+     20
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 52,
+    "evidence_type": "geopolitics",
+    "bilateral_analysis": "Over six months the AUD dossier's base case is that the oil shock persists (50%), with settlement and escalation at 25% each. Persistence itself is a slow drain on Australian national income and keeps the franc's haven option alive, so the central case tilts against the pair. US-China trade relations are a second channel specific to the Australian dollar. China's weak PMI leaves Australia's largest export market exposed to any post-midterm tariff escalation, with no equivalent exposure on the Swiss side, where the 15% US tariff arrangement on goods and pharmaceuticals has removed the tariff shock risk. On the franc side, the EU treaty package moving through the Swiss parliament and the bank capital debate are not market-moving within the horizon. The European sovereign stress could fade, which would trim the franc's haven premium, and Chinese policy events (the Central Economic Work Conference in December and the National People's Congress in March) are the main upside catalysts. Both under-delivered for iron ore in 2026. On balance the persistence base case gives a marginal Bearish tilt.",
+    "key_bilateral_metrics": [
+     "Oil shock to April 2027: settlement 25%, escalation 25%, persistence 50% (AUD dossier)",
+     "China NBS manufacturing PMI 49.3 (October)",
+     "US tariff rate on Swiss goods and patented pharmaceuticals 15%",
+     "Euro-area sovereign crisis tail 15%; Middle East ceasefire with Brent below USD 90 about 20% (six months, CHF dossier)"
+    ],
+    "what_is_priced": "Markets price the oil shock as persistent but put little specific geopolitical premium on either currency. The unpriced element is how long the terms-of-trade drain lasts, which over six months weighs on the cross.",
+    "citations": [
+     10,
+     20,
+     21
+    ]
+   },
+   "horizon_split": "Bearish on both horizons at similar low confidence. Tactically the event cluster on 3 November and the lopsided tails drive the view. Strategically it is the persistence base case for the oil shock.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 8,
+   "factor_name": "Fiscal & Sovereign Risk",
+   "tactical_weight_default": 0.04,
+   "tactical_weight_applied": 0.02,
+   "strategic_weight_default": 0.07,
+   "strategic_weight_applied": 0.05,
+   "weight_adjustment_reason": "Adjusted from the defaults of 0.04 and 0.07: both sovereigns are AAA with low debt, so there is no fiscal differential to transmit. The franc's current fiscal support comes from its contrast with France, which is a EUR/CHF channel rather than an AUD/CHF one. Weight moved to Factor 3.",
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 62,
+    "evidence_type": "macro_data",
+    "bilateral_analysis": "Fiscal risk is not material for this pair. Australia's 2025-26 deficit was A$22.3bn, 0.8% of GDP, with gross debt at 33.2% of GDP and AAA ratings from all three agencies; S&P reaffirmed in August. Switzerland's general government debt is about 38% of GDP on IMF projections, the federal budget ran a small surplus in 2025, and it is AAA or Aaa stable across agencies. Neither sovereign has a risk premium: the Australian 10-year trades close to Treasuries, and the Swiss 10-year fell 11bp in October on haven demand. The CHF dossier scores fiscal Bullish for the franc, but its argument rests on the contrast with France's widest spread since 2011. That drives allocation from euro assets into francs, not from Australian assets. There is no scheduled fiscal event in either country inside four weeks; Australia's Mid-Year Economic and Fiscal Outlook is due in December. The differential is small and stable, so the factor is Neutral at high confidence.",
+    "key_bilateral_metrics": [
+     "Ratings: AU AAA/Aaa/AAA vs CH AAA/Aaa/AAA (all stable)",
+     "Gross debt: AU 33.2% of GDP (2025-26) vs CH about 38.3% (IMF 2026 projection)",
+     "Fiscal balance: AU deficit 0.8% of GDP (2025-26) vs CH federal surplus CHF 259m (2025)",
+     "No fiscal event in either country before December"
+    ],
+    "what_is_priced": "Neither sovereign carries a risk premium, and we expect no change within four weeks. The franc's fiscal haven bid is priced against the euro, not against the Australian dollar.",
+    "citations": [
+     24,
+     25,
+     26,
+     28
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 60,
+    "evidence_type": "macro_data",
+    "bilateral_analysis": "Over six months the fiscal gap between the two sovereigns stays small. Australia's budget projects deficits widening to about A$31bn in 2026-27, and lower iron ore prices threaten mining tax receipts with a lag. The December Mid-Year Economic and Fiscal Outlook is the first official update at sub-USD 95 iron ore and may add A$5-10bn to projected deficits. That would still leave Australia with one of the lowest debt ratios in the G10. Switzerland faces structural federal deficits of CHF 2-4bn a year from 2027 before relief measures, plus defence and pension pressures, but these are below 0.5% of GDP and contained by the debt brake. Both countries have ample fiscal room to cushion a downturn. Mildly expansionary Australian fiscal policy alongside RBA tightening keeps rates higher for longer, a marginal positive through the rate channel already counted in Factor 1. Neither trajectory threatens a rating. The factor stays Neutral; a deficit forecast above 2% of GDP in Australia's December update would be the trigger for a Bearish reading.",
+    "key_bilateral_metrics": [
+     "AU projected deficits A$31.5bn (2026-27) and A$31.0bn (2027-28)",
+     "CH structural federal deficits CHF 2-4bn a year projected for 2027-2029 before relief",
+     "AU Mid-Year Economic and Fiscal Outlook due December 2026",
+     "Bearish trigger: AU deficit forecast above 2% of GDP"
+    ],
+    "what_is_priced": "Sovereign risk is priced as negligible on both sides, and we agree. A wider Australian deficit forecast in December is unlikely to move the cross materially.",
+    "citations": [
+     24,
+     26,
+     28
+    ]
+   },
+   "horizon_split": "Neutral on both horizons. Confidence edges down from 62 to 60 because the six-month window includes Australia's December fiscal update at lower commodity prices.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  },
+  {
+   "factor_number": 9,
+   "factor_name": "Market Structure & Volatility",
+   "tactical_weight_default": 0.05,
+   "tactical_weight_applied": 0.05,
+   "strategic_weight_default": 0.03,
+   "strategic_weight_applied": 0.03,
+   "weight_adjustment_reason": null,
+   "tactical": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": [
+     "pair_price_action",
+     "positioning"
+    ],
+    "bilateral_analysis": "No option is listed on AUD/CHF, so the volatility picture comes from an estimate built from listed CME Australian-dollar and Swiss-franc options and the realised correlation of the two dollar legs. That estimate puts at-the-money implied volatility at 7.293% for about one month, 7.653% for three months and 8.184% for six months, observed 29 October. This is a gentle contango with no visible event spike, and since such estimates have run 9-18% low against direct quotes, true implied volatility is probably nearer 8-9%. The AUD dossier puts the cross's 60-day realised volatility at 7.06%, so the estimated implied barely exceeds realised. The more informative signal is the skew. One-month 25-delta risk reversals are -0.885 vols on AUD/USD (Australian-dollar puts bid) and -0.80 vols on USD/CHF (franc calls bid). Both point the same way for the cross, so the implied skew for AUD/CHF is strongly toward downside protection, larger than on either leg. Protection against a fall in the pair is therefore well owned and relatively expensive, while upside optionality is cheap. That is a statement about how the pair trades, not about its direction, so the factor is Neutral. Pair-specific technicals (from this pair's own daily data, not trade-weighted indices): daily averages stacked bullishly (50-day 0.58072 > 100-day 0.57341 > 200-day 0.56412) with spot 9 pips under the 50-day; 200-week average 0.56841, falling 2.94 pips a week, spot 2.00% above it; resistance at 0.58123-0.58585 (seven touches, +14 pips to the near edge) and 0.58879-0.5915 (five touches); support at 0.57056-0.57431 (four touches), then two six-touch bands at 0.56309-0.5672 and 0.55725-0.56276; ATR(14) 47 pips; 20-day realised vol 8.74%, above the one-month implied estimate of 7.293%.",
+    "key_bilateral_metrics": [
+     "Estimated ATM implied volatility: 7.293% (35.7 days), 7.653% (98.7 days), 8.184% (189.6 days); estimate, likely a floor",
+     "60-day realised volatility of the cross about 7.06% (AUD dossier)",
+     "One-month 25-delta risk reversals: AUD/USD -0.885 vols, USD/CHF -0.80 vols, both favouring a lower cross",
+     "Implied correlation used in the estimate 0.39"
+    ],
+    "what_is_priced": "Options on the two legs price a calm market with a persistent skew toward the pair falling. Protection against a decline is relatively expensive and upside exposure cheap, which matters for expression rather than direction.",
+    "citations": [
+     22,
+     23
+    ]
+   },
+   "strategic": {
+    "stance": "Neutral",
+    "confidence": 50,
+    "evidence_type": [
+     "pair_price_action",
+     "positioning"
+    ],
+    "bilateral_analysis": "Over six months the structure is a low-volatility carry regime with fat tails. The estimated term structure rises from 7.293% to 8.184%, pricing a gradual increase in uncertainty rather than a specific event. The underlying legs show the same: AUD/USD six-month implied volatility is 7.969% and USD/CHF 7.25%. Six-month risk reversals stay negative for the cross on both legs (AUD/USD -1.091 vols, USD/CHF -0.68 vols), so hedgers pay more for pair downside at longer tenors, consistent with the external-balance concern and the Australian-dollar asset-manager short. Franc volatility is known for fat tails, with episodes like the 2015 floor exit, so low implied volatility understates extreme moves in a franc cross. The cross is also less liquid than either dollar leg, which widens gap risk in an unwind. A regime of low realised volatility rewards carry, but the skew shows the market already pays for the reversal. With no directional information in the structure itself, the factor is Neutral.",
+    "key_bilateral_metrics": [
+     "Estimated six-month ATM implied volatility 8.184% vs three-month 7.653% (contango)",
+     "Six-month 25-delta risk reversals: AUD/USD -1.091 vols, USD/CHF -0.68 vols",
+     "Leg six-month implied volatility: AUD/USD 7.969%, USD/CHF 7.25%",
+     "Estimate bias: cross volatility built from realised correlation has run 9-18% below direct quotes"
+    ],
+    "what_is_priced": "The options market prices a gentle rise in volatility and a persistent downside skew for the pair. We see the skew as fair given the external-balance and carry-unwind risks, so there is no strategic mispricing in structure.",
+    "citations": [
+     22,
+     23
+    ]
+   },
+   "horizon_split": "Neutral on both horizons at the same confidence. The same low-volatility carry regime with a downside skew governs both tenors, and the term structure shows no event pricing to separate them.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": {
+    "vol_landscape_summary": "Estimated three-month implied volatility is 7.653% (a floor, likely 8-9% in reality), in gentle contango, roughly in line with realised volatility near 7%. Both legs' risk reversals favour the cross falling, so downside protection is expensive and upside optionality cheap.",
+    "directional_expression": "A tactical upward tilt is cheapest to express through upside optionality, where the skew works in the buyer's favour, or through spot or forwards, where the roughly 5% annualised carry pays to wait. A strategic bearish view is expensive in both spot (carry costs about 2.3-2.5% over six months) and options (downside skew). It is more efficiently expressed through relative value against lower-carry Australian-dollar crosses, or by reducing carry longs, than by an outright short.",
+    "event_timing_consideration": "3 November concentrates the RBA decision with new forecasts, Swiss CPI and the US midterms. The SNB's 10 December quarterly assessment and the RBA's 9 February decision are the strategic inflection points. Implied volatility shows no event premium, so there is no reason to sell volatility into 3 November.",
+    "liquidity_note": "AUD/CHF is a mid-liquidity cross traded mainly through the two dollar legs. No listed option exists, so options are quoted over the counter. Spreads widen in Asian-session illiquidity and in risk-off episodes, when gap risk on a crowded carry position is highest."
+   }
+  },
+  {
+   "factor_number": 10,
+   "factor_name": "USD Liquidity & Funding",
+   "tactical_weight_default": 0.11,
+   "tactical_weight_applied": 0.06,
+   "strategic_weight_default": 0.12,
+   "strategic_weight_applied": 0.07,
+   "weight_adjustment_reason": "Adjusted from the defaults of 0.11 and 0.12: this is a non-USD cross, so dollar funding conditions reach the pair only through the vehicle-currency channel and the legs' differing funding profiles, not directly.",
+   "tactical": {
+    "stance": "Bearish",
+    "confidence": 50,
+    "evidence_type": [
+     "rates",
+     "cross_asset"
+    ],
+    "bilateral_analysis": "Dollar funding reaches this cross through asymmetry, not directly. Global dollar liquidity is tightening at the margin. Reserve balances fell USD 59.5bn to USD 2,962.6bn in the week to 21 October, below the USD 3tn level many treat as the edge of ample. SOFR printed 3.94%, about 6bp above effective fed funds. The broad dollar is at the 91st percentile of its one-year range, and year-end funding pressure usually builds from late November. A dollar squeeze hits the two legs unequally. Australian banks rely on offshore wholesale funding, and the Australian dollar is the high-beta currency that sells first in a funding scramble. Switzerland holds large net foreign assets (NIIP CHF 986bn), and repatriation in stress tends to support the franc after a brief initial dip. There is no sign of stress in the cross itself: the CME futures roll of about 508.7bp annualised sits about 25-30bp above the expected post-November policy gap, consistent with a small basis and no visible Australian-dollar funding strain. Calm funding keeps franc-funded carry comfortable today, but the direction of travel into year-end is tighter, and that asymmetry tilts the factor mildly against the pair.",
+    "key_bilateral_metrics": [
+     "Fed reserve balances USD 2,962.6bn (week to 2026-10-21), -USD 59.5bn on the week",
+     "SOFR 3.94% (2026-10-29) vs effective fed funds 3.88%",
+     "Broad trade-weighted dollar 121.32 (2026-10-23), 91st percentile of one-year daily readings",
+     "Cross futures roll about 508.7bp vs about 480-485bp expected policy gap: no visible funding stress"
+    ],
+    "what_is_priced": "Funding markets price no stress. We expect reserves to stay below USD 3tn into year-end. A month-end SOFR print above 4.00% would be the first sign of a squeeze that would hit the Australian leg harder than the franc.",
+    "citations": [
+     19,
+     22,
+     23
+    ]
+   },
+   "strategic": {
+    "stance": "Bearish",
+    "confidence": 51,
+    "evidence_type": [
+     "rates",
+     "cross_asset"
+    ],
+    "bilateral_analysis": "Over six months the dollar smile frames the factor. Today the dollar sits on its strong side, with US yields near 5%, an oil shock that favours the energy-independent US, and two FOMC dissents for a hike. A 9 December Fed hike, which the dossiers put at 40-55%, would extend that. In that regime the Australian dollar underperforms more than the franc, which is a low-yielder but backed by a large external surplus and net foreign assets. The other path is a dovish post-midterm repricing that takes the dollar toward the middle of the smile. The Australian dollar would gain more there, but the AUD dossier argues it gains less in a soft dollar decline than it loses in a funding squeeze. Fed balance-sheet runoff has ended, so a 2019-style liquidity squeeze is less likely, but reserves below USD 3tn make year-end and March quarter-end pressure plausible. The two banks' differing funding structures, Australian offshore borrowers against Swiss net lenders, keep the asymmetry slightly against the pair. At its reduced weight the factor is mildly Bearish.",
+    "key_bilateral_metrics": [
+     "Fed funds 3.75-4.00%; 9 December FOMC hike probability 40-55% (dossier estimates)",
+     "Fed balance-sheet runoff ended; bill holdings rising marginally",
+     "Swiss NIIP CHF 986bn vs Australian reliance on offshore wholesale funding",
+     "US 10-year 4.98%, 2s10s +38bp (2026-10-29)"
+    ],
+    "what_is_priced": "Markets price a firm dollar and no funding stress through mid-2027. We see a modestly higher chance of year-end and quarter-end funding pressure than priced, and it would weigh on the Australian leg more than the franc.",
+    "citations": [
+     19,
+     20
+    ]
+   },
+   "horizon_split": "Bearish on both horizons at low confidence and reduced weight. The tactical window holds the year-end funding approach, and the strategic window adds the dollar-smile asymmetry. A possible dovish post-midterm dollar move offsets but does not reverse it.",
+   "carry_analysis": null,
+   "contrarian_analysis": null,
+   "net_commodity_exposure": null,
+   "expression_assessment": null
+  }
+ ],
+ "synthesis": {
+  "weight_adjustments": {
+   "adjustments_made": true,
+   "adjustments": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative)",
+     "default_weight": 0.24,
+     "applied_weight": 0.27,
+     "reason": "Tactical: widest policy differential in the G10 (460bp), well above the 200bp high-carry threshold."
+    },
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative)",
+     "default_weight": 0.24,
+     "applied_weight": 0.27,
+     "reason": "Strategic: carry level dominates total return on a 460-485bp differential over six months."
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "default_weight": 0.1,
+     "applied_weight": 0.14,
+     "reason": "Tactical: pure risk-proxy cross, high-beta currency against a safe haven, so risk shocks move both legs the same way."
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "default_weight": 0.05,
+     "applied_weight": 0.09,
+     "reason": "Strategic: same double-beta transmission; carry unwinds in this cross are risk-driven."
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign Risk",
+     "default_weight": 0.04,
+     "applied_weight": 0.02,
+     "reason": "Tactical: both sovereigns AAA with low debt; no fiscal differential to transmit."
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign Risk",
+     "default_weight": 0.07,
+     "applied_weight": 0.05,
+     "reason": "Strategic: the franc's fiscal haven bid is against the euro, not the Australian dollar."
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "default_weight": 0.11,
+     "applied_weight": 0.06,
+     "reason": "Tactical: non-USD cross; dollar funding reaches it only indirectly."
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "default_weight": 0.12,
+     "applied_weight": 0.07,
+     "reason": "Strategic: non-USD cross; dollar funding reaches it only indirectly."
+    }
+   ]
+  },
+  "tactical": {
+   "net_stance": "Neutral",
+   "conviction": 2,
+   "overall_confidence": 54,
+   "weighted_score_calculation": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative)",
+     "stance_score": 1,
+     "confidence": 58,
+     "conf_adj_score": 0.58,
+     "weight": 0.27,
+     "weighted_contribution": 0.1566
+    },
+    {
+     "factor_number": 2,
+     "factor_name": "Inflation & Growth Dynamics",
+     "stance_score": 0,
+     "confidence": 52,
+     "conf_adj_score": 0,
+     "weight": 0.18,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "stance_score": -1,
+     "confidence": 55,
+     "conf_adj_score": -0.55,
+     "weight": 0.14,
+     "weighted_contribution": -0.077
+    },
+    {
+     "factor_number": 4,
+     "factor_name": "Flows & Positioning",
+     "stance_score": 1,
+     "confidence": 53,
+     "conf_adj_score": 0.53,
+     "weight": 0.1,
+     "weighted_contribution": 0.053
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance & Terms of Trade",
+     "stance_score": -1,
+     "confidence": 55,
+     "conf_adj_score": -0.55,
+     "weight": 0.06,
+     "weighted_contribution": -0.033
+    },
+    {
+     "factor_number": 6,
+     "factor_name": "Guidance & Credibility",
+     "stance_score": 1,
+     "confidence": 57,
+     "conf_adj_score": 0.57,
+     "weight": 0.07,
+     "weighted_contribution": 0.0399
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk & Geopolitics",
+     "stance_score": -1,
+     "confidence": 51,
+     "conf_adj_score": -0.51,
+     "weight": 0.05,
+     "weighted_contribution": -0.0255
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign Risk",
+     "stance_score": 0,
+     "confidence": 62,
+     "conf_adj_score": 0,
+     "weight": 0.02,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 9,
+     "factor_name": "Market Structure & Volatility",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.05,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "stance_score": -1,
+     "confidence": 50,
+     "conf_adj_score": -0.5,
+     "weight": 0.06,
+     "weighted_contribution": -0.03
+    }
+   ],
+   "net_weighted_score": 0.084,
+   "score_interpretation": "A net score of +0.084 falls inside the Neutral band, 0.016 short of a Bullish call. Policy and rates (+0.1566), positioning (+0.053) and RBA guidance (+0.0399) are almost matched by risk appetite (-0.077), external balance (-0.033), dollar funding (-0.03) and event risk (-0.0255). Three factors score zero. The bullish tilt comes from one dated event, the 3 November RBA decision, rather than breadth, so the score is fragile to that single outcome. +0.084 lies between -0.10 and +0.10, so the stance is Neutral; conviction 2 reflects measurable, dated forces on both sides rather than an absence of signal.",
+   "rationale": "At tactical weights the view is set by policy and rates (0.27), inflation and growth (0.18) and risk appetite (0.14), which together carry 59% of the weight. Policy is Bullish at 58: the 460bp differential is the widest in the G10 and should widen to 485bp on 3 November. But about 80% of that hike is priced, which caps the contribution at +0.1566. Inflation and growth scores zero because hot Australian inflation and a cracking labour market cancel out around the hike. Risk appetite is the main offset at -0.077, because this cross carries double beta: credit spreads at the 95th-96th percentiles of their one-year ranges, a China PMI of 49.3 and an active franc haven bid all push the pair down. The net score of +0.084 is Neutral, the honest reading of a market where the bullish rate news is mostly priced and the bearish risk and terms-of-trade news is not. The two dossiers interact through carry and haven. The AUD dossier's hike and extreme short base reinforce the upside on a hawkish RBA. The CHF dossier's haven bid and leveraged-fund franc short reinforce the downside in a risk-off. The cross-specific modifier is that both legs' options skews point the same way, so protection against a fall is already expensive. What is priced is a hike with little to follow. The edge is a retained tightening bias in the RBA's new forecasts, which twelve-month pricing of only about 0.9 hikes does not reflect. Into 3 November the path of least resistance is sideways with carry accruing. The decision decides the step, and the late-November Australian labour force and 25 November CPI decide whether it holds. Conviction is 2, not 1, because the forces on each side are measurable and dated. It is not 3 because the score rests on one event and the risk backdrop is deteriorating at the same time.",
+   "g10_relative_ranking": "Among Australian-dollar crosses, AUD/CHF ranks as the most attractive tactical long on a carry-adjusted basis (ratio near 0.60). It sits ahead of AUD/JPY, which faces a live 18 December BoJ hike, and far ahead of AUD/NOK and AUD/CAD, where oil favours the quote currency. Among franc-funded carry, it ranks behind NOK/CHF, which combines a 450bp gap with oil terms of trade, and roughly level with GBP/CHF. Among franc crosses it is the most exposed to a risk-off reversal, so its tactical attractiveness depends more than any other on calm risk markets.",
+   "scenarios": {
+    "base_case": {
+     "probability_pct": 50,
+     "pair_target": "AUD/CHF 0.5805",
+     "timeframe": "2-4 weeks",
+     "conditions": [
+      "The RBA hikes to 4.85% on 3 November with a conditional tightening bias but no explicit second hike.",
+      "Swiss October CPI prints 0.9-1.1%, leaving December SNB pricing near 6bp.",
+      "US high-yield spreads hold 300-360bp and the VIX stays below 22.",
+      "Australian October unemployment prints 4.7-4.8%."
+     ],
+     "path": "AUD/CHF trades in a 0.5743-0.5859 range and ends the four weeks near 0.5805, +7 pips (+0.12%) from 0.57979, with carry of 22-24 pips accruing to a long over the month."
+    },
+    "upside_case": {
+     "probability_pct": 25,
+     "pair_target": "AUD/CHF 0.5890",
+     "conditions": [
+      "The RBA's new forecasts keep an explicit tightening bias and the market prices more than half of a further hike by February 2027.",
+      "Asset managers cover 20,000-30,000 contracts of their Australian-dollar short.",
+      "The VIX holds below 18 and the OAT-Bund spread eases below 140bp."
+     ]
+    },
+    "downside_case": {
+     "probability_pct": 25,
+     "pair_target": "AUD/CHF 0.5700",
+     "conditions": [
+      "The RBA holds at 4.60% or frames the hike as the last.",
+      "A risk-off episode: the VIX closes above 25, US high-yield spreads exceed 380bp, or the OAT-Bund spread exceeds 170bp.",
+      "Swiss CPI at 1.2% or higher revives December SNB hike pricing."
+     ]
+    }
+   },
+   "path_expectation": "Into 3 November, expect a 0.5757-0.5859 range with realised volatility of 8-9%, with the pair pinned between the 50-day average at 0.58072 and the seven-touch band directly overhead. On 3 November the RBA decision, Swiss CPI and the US midterms should together produce a 40-70 pip move, one to one-and-a-half ATRs. A hawkish outcome tests 0.58123-0.58585. That band has turned back every attempt since mid-September, so a first test is more likely to stall inside it than to close above 0.58585. Pullbacks should hold the top of the four-touch support at 0.5743 in the base case. In late November the Australian labour force and the 25 November CPI decide whether the step holds, and we expect a drift back toward 0.5805. The shape is a step and a plateau with gap risk to the downside. The chart's recent history shows the pair's largest daily moves are declines, so a stop placed inside one ATR of the four-touch band is likely to be run.",
+   "conviction_ladder": {
+    "current": 2,
+    "increase_conditions": [
+     "To 3 (Bullish): the RBA hikes to 4.85% with an explicit tightening bias and AUD/CHF closes above 0.58585.",
+     "To 3 (Bullish): pricing of a further RBA hike by February 2027 rises above 50% with the AU-CH 2-year spread above 500bp.",
+     "To 4 (Bullish): both conditions for 3 are met, CFTC data show asset managers covering at least 25,000 Australian-dollar contracts, and the pair closes above 0.5915."
+    ],
+    "decrease_conditions": [
+     "To 1: the RBA hikes but explicitly signals a peak, the pair settles inside 0.5743-0.5812, and the score's single bullish driver is spent.",
+     "Turn Bearish at conviction 2-3: the RBA holds at 4.60% on 3 November.",
+     "Turn Bearish at conviction 2-3: AUD/CHF closes below 0.57056 with US high-yield spreads above 360bp or the VIX above 22."
+    ]
+   },
+   "risk_reward": {
+    "base_case_payoff": "+7 pips (+0.12%) in spot for a long, plus 22-24 pips of carry over the month",
+    "downside_case_loss": "-98 pips (-1.69%) in spot, -74 to -76 pips after carry (upside case: +92 pips, +1.59%, +114 to +116 pips with carry)",
+    "risk_reward_ratio": "0.07:1 on the base case alone and 0.94:1 on the tails in spot terms",
+    "expected_value": "(0.50 x 7) + (0.25 x 92) + (0.25 x -98) = +2.0 pips in spot. Adding one month's carry gives about +24 to +26 pips for a long.",
+    "asymmetry_assessment": "The spot distribution is close to symmetric and carry alone tips the expectation positive. The tails are not symmetric in speed, though: the cross falls faster than it rises, which favours holding exposure through upside optionality or with a stop beyond the four-touch band, not a tight stop inside it. Trade plan: no outright directional entry at spot; carry long only on a dip into the four-touch support (entry 0.5730, stop 0.5680, targets 0.5812 and 0.5850; 82-120 pips of reward against 50 pips of risk before 22-24 pips of monthly carry), sized at 0.5% of capital risk on the 50-pip stop; upside optionality is the cheaper way to hold the 3 November upside tail."
+   }
+  },
+  "strategic": {
+   "net_stance": "Bearish",
+   "conviction": 2,
+   "overall_confidence": 53,
+   "weighted_score_calculation": [
+    {
+     "factor_number": 1,
+     "factor_name": "Policy & Rates (Relative)",
+     "stance_score": 1,
+     "confidence": 52,
+     "conf_adj_score": 0.52,
+     "weight": 0.27,
+     "weighted_contribution": 0.1404
+    },
+    {
+     "factor_number": 2,
+     "factor_name": "Inflation & Growth Dynamics",
+     "stance_score": -1,
+     "confidence": 55,
+     "conf_adj_score": -0.55,
+     "weight": 0.1,
+     "weighted_contribution": -0.055
+    },
+    {
+     "factor_number": 3,
+     "factor_name": "Risk Appetite & Sentiment",
+     "stance_score": 0,
+     "confidence": 48,
+     "conf_adj_score": 0,
+     "weight": 0.09,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 4,
+     "factor_name": "Flows & Positioning",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.06,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 5,
+     "factor_name": "External Balance & Terms of Trade",
+     "stance_score": -1,
+     "confidence": 64,
+     "conf_adj_score": -0.64,
+     "weight": 0.16,
+     "weighted_contribution": -0.1024
+    },
+    {
+     "factor_number": 6,
+     "factor_name": "Guidance & Credibility",
+     "stance_score": -1,
+     "confidence": 52,
+     "conf_adj_score": -0.52,
+     "weight": 0.12,
+     "weighted_contribution": -0.0624
+    },
+    {
+     "factor_number": 7,
+     "factor_name": "Event Risk & Geopolitics",
+     "stance_score": -1,
+     "confidence": 52,
+     "conf_adj_score": -0.52,
+     "weight": 0.05,
+     "weighted_contribution": -0.026
+    },
+    {
+     "factor_number": 8,
+     "factor_name": "Fiscal & Sovereign Risk",
+     "stance_score": 0,
+     "confidence": 60,
+     "conf_adj_score": 0,
+     "weight": 0.05,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 9,
+     "factor_name": "Market Structure & Volatility",
+     "stance_score": 0,
+     "confidence": 50,
+     "conf_adj_score": 0,
+     "weight": 0.03,
+     "weighted_contribution": 0
+    },
+    {
+     "factor_number": 10,
+     "factor_name": "USD Liquidity & Funding",
+     "stance_score": -1,
+     "confidence": 51,
+     "conf_adj_score": -0.51,
+     "weight": 0.07,
+     "weighted_contribution": -0.0357
+    }
+   ],
+   "net_weighted_score": -0.1411,
+   "score_interpretation": "A net score of -0.1411 is Bearish, clearing the threshold by 0.041. The result comes from breadth, not depth: five factors with confidence of 51-64 (external balance -0.1024, guidance -0.0624, inflation and growth -0.055, dollar funding -0.0357, event risk -0.026) outweigh a single strong positive, carry (+0.1404). The score speaks to direction only. The pair's roughly 5% annualised forward discount means a short must beat the carry, so a modest bearish drift could still lose money for a short holder. -0.1411 is at or below -0.10, so the stance is Bearish; conviction is 2 because the score clears the threshold by only 0.041 and the highest-weight factor points the other way.",
+   "rationale": "At strategic weights policy and rates still carries the most weight at 0.27 and is the single largest contribution at +0.1404, because a 485bp differential after November remains the best carry in the G10. But external balance rises to 0.16 and guidance to 0.12, and both turn against the pair. External balance contributes -0.1024: a record 3.67% of GDP Australian current-account deficit and iron ore near a two-year low, against a 9.2% of GDP Swiss surplus and a Swiss real exchange rate at its lowest in 33 months. Guidance contributes -0.0624, because the next unpriced policy surprise is a hawkish SNB forecast on 10 December, while the RBA is heading toward a neutral bias the market already prices. The net -0.1411 is Bearish at conviction 2, driven by breadth across slow-moving structural factors rather than one dominant input. The dossiers conflict on the base side and reinforce on the quote side. The AUD dossier is strategically Neutral only because carry and positioning offset its bearish external and growth view. The CHF dossier is Bullish on the franc for exactly the reasons that weigh on this pair: surplus, guidance drift and rising inflation. The cross-specific modifiers are that fiscal strength barely matters here, since the franc's fiscal bid is against the euro, and that risk appetite transmits with double beta, which sharpens tails without setting direction. What is priced is an RBA peak at 4.85% and an SNB on hold into mid-2027. Our edge is that Swiss inflation and the 10 December forecast round open a 2027 hike option the curve does not price, while Australian terms of trade keep deteriorating. The path of least resistance is carry-supported stability through year-end, then erosion from the 1 December Australian balance of payments, the 2 December GDP and the 10 December SNB assessment, with the RBA's 9 February decision as the last scheduled inflection inside the window. Conviction is held at 2 because the highest-weight factor points the other way, the forward discount makes a bearish view costly to hold, and the extreme Australian-dollar short limits how fast the pair can fall.",
+   "g10_relative_ranking": "Strategically, AUD/CHF ranks among the weaker Australian-dollar longs. The AUD dossier ranks the Australian dollar seventh of eleven and the CHF dossier ranks the franc fourth, so the combination points to the pair falling. Better bearish expressions of the Australian terms-of-trade theme are AUD/NOK (10bp carry cost, oil favours NOK) and AUD/NZD, both far cheaper to hold than an AUD/CHF short, which carries a 485bp cost. Among franc crosses, the CHF dossier prefers short GBP/CHF and short CHF/JPY to short AUD/CHF, because the latter's carry makes timing essential.",
+   "scenarios": {
+    "base_case": {
+     "probability_pct": 50,
+     "pair_target": "AUD/CHF 0.5630",
+     "timeframe": "1-6 months (by late April 2027)",
+     "conditions": [
+      "The 1 December balance of payments shows a deficit of at least A$28bn and iron ore holds USD 82-95 a tonne.",
+      "The SNB's 10 December forecast raises 2027 inflation to 0.9-1.0% while holding at 0%.",
+      "The RBA holds at 4.85% and moves to a neutral bias by 9 February 2027.",
+      "Australian unemployment reaches 4.8-5.0% by February."
+     ],
+     "path": "AUD/CHF drifts to 0.5630 by late April 2027, the floor of the six-touch 0.56309-0.5672 band, -168 pips (-2.90%) from spot. An L-shaped path: the November hike and year-end carry demand hold the pair in 0.5743-0.5859 into December, then the balance of payments, GDP and SNB forecast round push it through 0.5743, with the falling 200-week average converging on the six-touch band by February-March 2027."
+    },
+    "upside_case": {
+     "probability_pct": 25,
+     "pair_target": "AUD/CHF 0.5970",
+     "conditions": [
+      "A Hormuz settlement drops Brent below USD 90 and Chinese construction stimulus lifts iron ore above USD 105.",
+      "The RBA delivers a further hike to 5.10% by March 2027 while the SNB forecast stays at 0.8%.",
+      "Calm risk markets (VIX below 16) lead to further franc-funded carry demand."
+     ]
+    },
+    "downside_case": {
+     "probability_pct": 25,
+     "pair_target": "AUD/CHF 0.5520",
+     "conditions": [
+      "A credit-led risk-off episode with US high-yield spreads above 450bp forces a franc-funded carry unwind.",
+      "Australian unemployment exceeds 5.0% and the market prices RBA cuts for 2027.",
+      "The SNB signals a March 2027 hike, or iron ore falls below USD 80."
+     ]
+    }
+   },
+   "path_expectation": "In November-December expect an L-shaped path rather than a trend. The November hike and year-end carry demand should hold the pair in 0.5743-0.5859, with rallies into the seven-touch band offering the window to reduce carry longs. Between 1 and 10 December the balance of payments, GDP and the SNB's forecast round are the first sequence likely to push the pair through 0.5743 and test the four-touch band down to 0.5706. In January a daily close below 0.5706 would open the six-touch 0.5631-0.5672 band. The falling 200-week average enters that band's upper edge in late November and reaches its floor by early March, so the band should become the main confluence of support in February-March 2027. In February-April the 9 February RBA decision is the last scheduled confirmation, and we expect the pair to settle near 0.5630. Two things should make the decline a grind rather than a break: the extreme Australian-dollar short and roughly 24 pips a month of carry paid to longs. The exception is a risk-off shock, in which this cross falls fastest of the G10.",
+   "conviction_ladder": {
+    "current": 2,
+    "increase_conditions": [
+     "To 3: the 1 December balance of payments shows a deficit of at least A$28bn and the SNB's 10 December forecast puts 2027 inflation at 1.0% or higher; and a weekly close below 0.57056.",
+     "To 4: a weekly close below 0.55725 with iron ore below USD 85 and US high-yield spreads above 400bp.",
+     "To 5: an SNB hike signalled for March 2027 together with RBA guidance toward cuts."
+    ],
+    "decrease_conditions": [
+     "To 1 or Neutral: the RBA hikes again in December or February with the AU-CH 2-year spread above 500bp.",
+     "To 1 or Neutral: iron ore above USD 100 for two weeks.",
+     "To 1 or Neutral: a weekly close above 0.5915."
+    ]
+   },
+   "risk_reward": {
+    "base_case_payoff": "Short: +168 pips (+2.90%) in spot, but only +21 to +35 pips after 133-147 pips of six-month carry",
+    "downside_case_loss": "Short, adverse case (upside scenario): -172 pips (-2.97%) in spot, -305 to -319 pips after carry (favourable tail, downside scenario: +278 pips, +4.79%, +131 to +145 pips after carry)",
+    "risk_reward_ratio": "0.98:1 in spot terms (168 vs 172) and about 0.1:1 after carry on the base case",
+    "expected_value": "(0.50 x -168) + (0.25 x +172) + (0.25 x -278) = -110.5 pips (-1.91%) for the pair. After carry, an outright short's expected outcome is -22 to -37 pips; a long earns +22 to +37 pips after carry despite the expected spot decline.",
+    "asymmetry_assessment": "The direction is bearish but the forward already prices it: the base-case target of 0.5630 is only 21 pips below the six-month forward of 0.56508, so the payoff is in reducing carry exposure and in the left tail, not in an outright short held to the base case. Trade plan: reduce or exit carry longs into 0.5812-0.5859; take an outright short only on a daily close below 0.57056 (entry about 0.5700, stop 0.5790, targets 0.5650 and 0.5600) at half normal risk (0.25% of capital on the 90-pip stop); prefer AUD/NOK or AUD/NZD shorts for the terms-of-trade theme."
+   }
+  },
+  "consensus_divergence": {
+   "bank_consensus_forecast": null,
+   "bank_consensus_forecast_source": null,
+   "our_tactical_view": "Neutral, with a slight upward tilt resting on the 3 November RBA decision and its new forecasts. Carry accrues while the hiking story holds, and deteriorating credit and a franc haven bid limit the upside.",
+   "our_strategic_view": "Bearish at conviction 2: external-balance, growth and guidance convergence outweigh the carry advantage over one to six months, with the pair expected to drift lower once Australian rate momentum fades.",
+   "divergence_direction": "Not measurable against a pair consensus. Against the leg forecasts in the dossiers, we are less constructive on the Australian dollar than Westpac and ING (AUD/USD 0.72), closer to CBA's bearish path, and more constructive on the franc than UBS (EUR/CHF 0.95 by end-2026).",
+   "divergence_magnitude": "Not measurable: no bank research forecast for AUD/CHF was located, and combining different banks' forecasts for the two dollar legs does not make a pair consensus.",
+   "why_we_differ": "We found no bank forecast for this cross. The pages that publish AUD/CHF projections are statistical extrapolation sites, not bank research, and are not used. Against the leg views, we differ in two ways. First, the bullish Australian-dollar forecasts near 0.72 against the dollar assume a terms-of-trade recovery that iron ore futures near a two-year low do not support. Second, bank franc-weakening forecasts set before October treat the franc purely as a funding currency and ignore the SNB's retreat from intervention and the 2027 hike option that rising Swiss inflation creates. Those two disagreements both point to AUD/CHF falling relative to what the leg consensus implies. Additional context: ExchangeRates.org.uk, which says its CHF/AUD projections blend aggregated bank research, market expectations and a sentiment survey, projects CHF/AUD at 1.7393 by December 2026 and 1.7549 by March 2027, i.e. about 0.5749 and 0.5698 for AUD/CHF (49 and 100 pips below spot, same direction as our strategic view). Because it blends sentiment and its baseline appears to predate October, it does not establish a bank consensus and is noted as context only. Purely statistical sites such as Traders Union (AUD/CHF near 0.5729 by end-2026) are model extrapolations and are not used.",
+   "payoff_if_right": "If the structural factors dominate, the pair drifts lower through early 2027. The cleanest benefit is to holders who cut carry longs early or express Australian-dollar weakness through lower-carry crosses, since an outright short pays about 2.3-2.5% in carry over six months.",
+   "risk_if_wrong": "If carry and a hawkish RBA dominate, an outright short loses the spot move plus carry of roughly 0.4% a month, and the extreme Australian-dollar short base makes an upside squeeze sharper than a decline."
+  },
+  "cross_horizon_consistency": {
+   "aligned": false,
+   "tactical_stance": "Neutral (+0.084)",
+   "strategic_stance": "Bearish (-0.1411)",
+   "explanation": "The horizons diverge because the weights move from event-driven to structural factors. Tactically, policy, positioning and RBA guidance around 3 November nearly offset risk appetite and external balance. Strategically, external balance rises from 0.06 to 0.16 and guidance from 0.07 to 0.12 and flips to Bearish as SNB guidance drifts hawkish, while positioning falls to Neutral. Carry stays positive throughout but cannot outweigh the breadth of slower negatives over one to six months.",
+   "inflection_point": "The 1-2 December Australian balance of payments and GDP releases, followed by the 10 December SNB quarterly assessment with its new conditional forecast. The RBA's 9 February 2027 decision is the last scheduled confirmation point inside the window.",
+   "trading_implication": "Do not fight the carry before the structural catalysts arrive. Treat any strength after a hawkish 3 November as the window to reduce carry longs, not to add, and let the December data and SNB forecast confirm the strategic bearish turn before expressing it outright. Levels: strength to sell into is the seven-touch band at 0.58123-0.58585; confirmation of the strategic turn is a daily close below the four-touch band at 0.57056; the strategic objective is the six-touch 0.56309-0.5672 band, where the falling 200-week average arrives by February-March 2027. Reservation on payoff, not direction: the six-month forward of 0.56508 already sits inside that band, so a bearish outcome that stops there pays an outright short almost nothing after carry; the call is publishable as a direction and a reason to cut carry exposure, not as a strong case for an outright short. Realised volatility (20-day 8.74%) above the one-month implied estimate (7.293%), plus the chart's run of large down-days, suggests the tactical risk-appetite drag may be understated."
+  },
+  "forward_vs_spot": {
+   "current_spot": 0.57979,
+   "forward_1m": "0.57737 (-24.2 pips, -0.42% implied AUD depreciation); 460bp-basis 0.57760 (-21.9 pips)",
+   "forward_3m": "0.57244 (-73.5 pips, -1.27%); 460bp-basis 0.57314 (-66.5 pips)",
+   "forward_6m": "0.56508 (-147.1 pips, -2.54%); 460bp-basis 0.56649 (-133.0 pips)",
+   "expected_rate_3m": "0.5730",
+   "expected_rate_6m": "0.5630",
+   "edge_3m": "+6 pips above the forward (no edge)",
+   "edge_6m": "-21 pips below the 0.56508 forward (-35 pips on the 460bp basis); short-favourable but small, so the strategic bearish view is a call on the distribution (downside scenario 0.5520 lies 131 pips through the forward), not a forward-mispricing trade. For reference, our one-month expected rate of 0.5805 is +31 pips above the one-month forward (long-favourable)."
+  }
+ },
+ "catalysts": [
+  {
+   "date": "2026-11-03",
+   "event": "RBA Monetary Policy Board decision (with new quarterly forecasts, per press reports)",
+   "expected_impact": "Bullish",
+   "which_leg_affected": "Base",
+   "rationale": "A 25bp hike to 4.85% is priced at about 79-81%. The pair's edge is in guidance: with only about 0.9 hikes priced over twelve months, a retained tightening bias and upgraded trimmed-mean forecasts would widen the expected differential and trigger covering of the extreme Australian-dollar short. A hold, about one chance in five, would take roughly 20bp off the front end.",
+   "priced_in": "Partially",
+   "citations": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "event": "Swiss CPI, October",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Quote",
+   "rationale": "September CPI was 1.0% and core 0.5%. A print of 1.2% or higher would revive SNB hike pricing for 10 December from about 6bp and weigh on the pair. A print of 0.8% or lower would cement the zero rate as a funding anchor and support carry. It lands hours after the RBA decision.",
+   "priced_in": "Partially",
+   "citations": [
+    14,
+    15
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "event": "US midterm elections",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Both",
+   "rationale": "The result moves the cross through risk appetite and the dollar smile rather than directly. A dovish Fed repricing and a softer dollar would favour the higher-beta Australian dollar, while a risk-off reaction or tariff escalation toward China would lift the franc and hurt Australian demand.",
+   "priced_in": "Partially",
+   "citations": [
+    20
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "event": "ABS international trade in goods and services, September",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Base",
+   "rationale": "The AUD dossier expects a goods surplus below A$2bn after August's A$0.495bn miss, confirming the terms-of-trade drag from iron ore near a two-year low. It reinforces the strategic external-balance case rather than moving the cross sharply within the tactical window.",
+   "priced_in": "Partially",
+   "citations": [
+    8,
+    27
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "event": "ABS Labour Force, October (report gives 'third week of November'; exact date approximated)",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Base",
+   "rationale": "After a 39,300 fall in employment and three consecutive rises to 4.7%, a print of 4.8% or higher would confirm the RBA has little room beyond November. That is the first test of whether a post-3 November rally into 0.58123-0.58585 holds.",
+   "priced_in": "Not priced",
+   "citations": [
+    7,
+    27
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "event": "ABS monthly CPI, October",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "A trimmed mean of 3.8% or more would make another RBA hike live and support the pair. A print of 3.4% or less would confirm 4.85% as the peak and start the convergence the strategic view expects. It is the key test of whether the RBA can keep a tightening bias.",
+   "priced_in": "Partially",
+   "citations": [
+    6,
+    27
+   ]
+  },
+  {
+   "date": "2026-12-01",
+   "event": "ABS balance of payments, September quarter",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Base",
+   "rationale": "With iron ore below USD 95 for most of the quarter and Brent above USD 100, the AUD dossier expects a deficit above A$28bn, another record. That would sharpen the contrast with Switzerland's 9% of GDP surplus that drives the strategic Bearish external-balance factor.",
+   "priced_in": "Not priced",
+   "citations": [
+    8,
+    27
+   ]
+  },
+  {
+   "date": "2026-12-02",
+   "event": "ABS national accounts, September-quarter GDP",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Base",
+   "rationale": "The AUD dossier expects 0.2-0.3% q/q against 0.4% in the June quarter, as fuel costs hit consumption and business investment falls. A weak print strengthens the case for an RBA peak and narrows the expected differential to the zero-rate SNB.",
+   "priced_in": "Not priced",
+   "citations": [
+    31,
+    27
+   ]
+  },
+  {
+   "date": "2026-12-08",
+   "event": "RBA Monetary Policy Board decision",
+   "expected_impact": "Neutral",
+   "which_leg_affected": "Base",
+   "rationale": "A hold at 4.85% is the base case after a November hike. A further hike would need strong October CPI and labour data and would widen the gap to 510bp. A dovish shift in the statement would bring forward the strategic convergence.",
+   "priced_in": "Partially",
+   "citations": [
+    3
+   ]
+  },
+  {
+   "date": "2026-12-09",
+   "event": "FOMC decision with Summary of Economic Projections",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Both",
+   "rationale": "A Fed hike would keep the dollar on the strong side of the smile, where the higher-beta Australian dollar usually underperforms the franc. A pause signal would ease funding pressure into year-end and support carry crosses.",
+   "priced_in": "Partially",
+   "citations": [
+    19,
+    20
+   ]
+  },
+  {
+   "date": "2026-12-10",
+   "event": "SNB quarterly monetary policy assessment with new conditional forecast",
+   "expected_impact": "Bearish",
+   "which_leg_affected": "Quote",
+   "rationale": "A hold is expected, but a forecast lifting 2027 inflation to 1.0% or more, or any hint of a 2027 hike, would be the most important franc-positive catalyst of the horizon. It narrows the expected differential for the first time and marks the strategic inflection for the pair.",
+   "priced_in": "Partially",
+   "citations": [
+    11,
+    12,
+    15
+   ]
+  },
+  {
+   "date": "2027-01-27",
+   "event": "ABS CPI, December quarter (trimmed mean)",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "This is the input for the RBA's February decision. A trimmed mean of 3.4-3.6% would support a neutral bias and the strategic bearish drift, while 3.8% or more would extend the cycle and restore the widening expectations that support the pair.",
+   "priced_in": "Not priced",
+   "citations": [
+    6
+   ]
+  },
+  {
+   "date": "2027-02-09",
+   "event": "RBA Monetary Policy Board decision",
+   "expected_impact": "Ambiguous",
+   "which_leg_affected": "Base",
+   "rationale": "The AUD dossier expects a hold at 4.85% with a shift to a neutral bias, the last scheduled confirmation point inside the strategic window. Because the peak is already largely priced, the pair's reaction depends on whether the Board signals cuts for later in 2027.",
+   "priced_in": "Partially",
+   "citations": [
+    3
+   ]
+  }
+ ],
+ "invalidators": [
+  {
+   "condition": "The RBA holds at 4.60% on 3 November and AUD/CHF closes below 0.57431 (the top of the four-touch band) the same week",
+   "new_stance": "Tactical Bearish",
+   "mechanism": "The only bullish driver of the tactical score, a widening differential plus hawkish guidance, would be removed in one step, about 20bp off the Australian front end, while fast-money carry longs exit.",
+   "monitor_indicator": "RBA decision; AU-CH 2-year spread below 455bp",
+   "monitor_frequency": "Once on 2026-11-03, then daily",
+   "probability_pct": 20
+  },
+  {
+   "condition": "The RBA's 3 November forecasts carry an explicit further-tightening bias and AUD/CHF closes above 0.58585, the top of the seven-touch band",
+   "new_stance": "Tactical Bullish",
+   "mechanism": "A break of the most-tested resistance on the chart, backed by a differential that is still widening, would force the Australian-dollar asset-manager short to cover into a pair whose downside protection is already expensive.",
+   "monitor_indicator": "AUD/CHF daily close; market pricing of a further RBA hike by February 2027 above 50%",
+   "monitor_frequency": "Daily",
+   "probability_pct": 20
+  },
+  {
+   "condition": "The SNB's 10 December forecast leaves 2027 inflation at 0.8% or lower and the Swiss 2-year yield falls below 0.10%",
+   "new_stance": "Strategic Neutral",
+   "mechanism": "The guidance factor's bearish case rests on a hawkish Swiss drift; without it the 485bp carry faces no narrowing from the Swiss side inside the window.",
+   "monitor_indicator": "SNB conditional forecast; Swiss 2-year yield (0.18% now)",
+   "monitor_frequency": "Once on 2026-12-10, then daily",
+   "probability_pct": 30
+  },
+  {
+   "condition": "Iron ore holds above USD 105 a tonne for two weeks while Brent falls below USD 90, and AUD/CHF posts a weekly close above 0.5915",
+   "new_stance": "Strategic Neutral to Bullish",
+   "mechanism": "The pair's largest strategic negative, the terms-of-trade gap, would reverse, while a falling oil price drains the franc's haven bid at the same time: double beta working in the pair's favour.",
+   "monitor_indicator": "Singapore iron ore futures; ICE Brent; AUD/CHF weekly close",
+   "monitor_frequency": "Daily and weekly",
+   "probability_pct": 15
+  },
+  {
+   "condition": "The RBA hikes again to 5.10% by February 2027 and the AU-CH 2-year spread widens above 510bp",
+   "new_stance": "Strategic Neutral",
+   "mechanism": "The differential would resume widening, restoring the expectations channel that the strategic policy score assumes has faded and overwhelming the slower structural negatives at a 0.27 weight.",
+   "monitor_indicator": "RBA decisions on 2026-12-08 and 2027-02-09; AU and CH 2-year yields",
+   "monitor_frequency": "Per meeting and daily",
+   "probability_pct": 20
+  },
+  {
+   "condition": "The Australian September-quarter current-account deficit on 1 December narrows below A$22bn",
+   "new_stance": "Strategic weakening toward Neutral",
+   "mechanism": "The external-balance factor, the largest strategic negative at -0.1024, rests on a deficit widening further after the record A$27.2bn; a narrowing would remove its trajectory argument.",
+   "monitor_indicator": "ABS balance of payments",
+   "monitor_frequency": "Quarterly",
+   "probability_pct": 15
+  },
+  {
+   "condition": "The VIX closes above 25 with US high-yield spreads above 400bp and AUD/CHF closes below 0.56309",
+   "new_stance": "Strategic Bearish at conviction 4",
+   "mechanism": "A break of the six-touch band during a credit-led carry unwind would show the double-beta risk dominating carry, with the next support only at 0.5573-0.5628 and then 0.5343-0.5356.",
+   "monitor_indicator": "CBOE VIX; ICE BofA US HY OAS; AUD/CHF daily close",
+   "monitor_frequency": "Daily",
+   "probability_pct": 15
+  }
+ ],
+ "signposts": [
+  {
+   "indicator": "AU-CH 2-year government bond spread",
+   "current_level": "about 475bp (4.93% vs 0.18%, 30 October)",
+   "confirms_if": "Narrows below 455bp by February 2027 as the RBA peaks and Swiss pricing builds (strategic Bearish)",
+   "invalidates_if": "Widens above 510bp on renewed RBA tightening",
+   "bilateral_importance": "The cross carries the widest front-end gap in the G10, and carry is 0.27 of its weight. Each 25bp on this spread matters more here than on either leg against the dollar, because the SNB anchors one side at zero and every move comes from just two central banks.",
+   "source": "https://tradingeconomics.com/australia/2-year-note-yield and https://tradingeconomics.com/switzerland/2-year-note-yield",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "Iron ore Singapore benchmark futures",
+   "current_level": "about USD 90.60 a tonne (26 October); two-year low about USD 89.75 (15 October)",
+   "confirms_if": "Holds below USD 88 into December",
+   "invalidates_if": "Above USD 100 for two weeks",
+   "bilateral_importance": "Iron ore is about 35% of Australian export revenue, and the franc has no offsetting commodity exposure. A move passes through to the cross almost one-for-one, and the 15 October two-year low coincided with the pair's largest daily fall of the past six months.",
+   "source": "https://thearabianpost.com/iron-ore-hovers-near-two-year-trough-amid-oversupply/",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "US high-yield option-adjusted spread",
+   "current_level": "326bp (29 October), 95th percentile of its one-year range",
+   "confirms_if": "Rises above 380bp, a carry-unwind trigger for the tactical downside and the strategic left tail",
+   "invalidates_if": "Falls below 280bp, re-anchoring franc-funded carry demand",
+   "bilateral_importance": "Credit stress sells the Australian dollar and buys the franc at the same time, so this cross transmits it with roughly double the sensitivity of either dollar leg.",
+   "source": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "CFTC positioning on both legs",
+   "current_level": "AUD asset managers -125,237 contracts; CHF leveraged funds -17,502 (week to 27 October)",
+   "confirms_if": "CHF leveraged shorts are cut below -10,000 while the AUD asset-manager short holds below -100,000, meaning carry is being dismantled while the Australian-dollar short persists",
+   "invalidates_if": "The AUD asset-manager short covers above -60,000 with AUD/CHF above 0.5860",
+   "bilateral_importance": "The pair's fast-money carry long is built from both legs at once. Tracking whether covering happens in the Australian-dollar short (bullish for the pair) or the franc short (bearish) tells which unwind is under way.",
+   "source": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+   "frequency": "Weekly (Friday)"
+  },
+  {
+   "indicator": "AUD/CHF 20-day realised volatility vs one-month implied estimate",
+   "current_level": "8.74% realised vs 7.293% estimated implied (29 October)",
+   "confirms_if": "Realised stays above 8.5% with the pair below 0.5812, meaning the carry is being paid for with volatility",
+   "invalidates_if": "Realised falls below 6% with the pair above 0.5859, a calm-carry regime that supports longs",
+   "bilateral_importance": "Carry-to-volatility near 0.55-0.60 is the pair's main attraction. A sustained rise in realised volatility erodes it faster here than on any franc cross, because one average day (47 pips) already equals about two months of carry.",
+   "source": "https://www.cmegroup.com/markets/fx/g10/australian-dollar.html",
+   "frequency": "Daily"
+  },
+  {
+   "indicator": "Swiss CPI y/y",
+   "current_level": "1.0% headline, 0.5% core (September)",
+   "confirms_if": "Headline at 1.2% or higher in October or November, building the 2027 SNB hike option",
+   "invalidates_if": "Headline at 0.7% or lower, cementing the zero rate as a funding anchor",
+   "bilateral_importance": "The SNB is the only side of this pair whose next move would narrow the differential. Swiss inflation therefore drives the strategic guidance factor more directly here than in franc crosses against hiking peers.",
+   "source": "https://tradingeconomics.com/switzerland/inflation-cpi/news/588599",
+   "frequency": "Monthly"
+  },
+  {
+   "indicator": "AUD/CHF futures calendar roll",
+   "current_level": "508.7bp annualised in favour of a long (29 October)",
+   "confirms_if": "Narrows below 470bp after the RBA peaks, cutting the carry cost of a strategic short",
+   "invalidates_if": "Widens beyond 540bp, signalling either further RBA tightening or a widening Australian-dollar funding basis",
+   "bilateral_importance": "The roll is what a rolled position in the cross actually pays, and it sets the six-month forward (0.56508) that the strategic target must beat.",
+   "source": "https://www.cmegroup.com/markets/fx/g10/swiss-franc.html",
+   "frequency": "Daily"
+  }
+ ],
+ "assumptions": [
+  "Price series: daily closing prices for AUD/CHF, 130 weekday sessions from 2026-05-04 to 2026-10-30; spot is 0.57979 at the 30 October 2026 close. The 1 November valuation date is a Sunday, so no trading session lies between the last close and the valuation date. Moving averages and support/resistance zones are computed over the full weekday history: 4,920 daily sessions from 2007-12-24 to 2026-10-30, with 1,011 weekly and 502 monthly bars.",
+  "Moving averages are simple averages of trading-day closes; realised volatility is annualised on 252 trading days; ATR(14) is 47 pips. Zones are clusters of weekly and monthly swing closes, ranked by touch count, with distances to the zone centre. The 52-week percentile is quoted on a closing basis (91st); intraday basis is 89th.",
+  "The time spent above the 200-week average and the dates on which it meets the support bands are back-projected at its current slope of -2.94 pips a week and are approximations.",
+  "Rates: the 10-year yields of 5.283% (Australia) and 0.59% (Switzerland) are monthly readings as of 1 September and are not quoted as live levels. Live spreads use 30 October daily closes (Australia 4.93% 2-year and 5.137% 10-year; Switzerland 0.18% and 0.47%). Policy rates are the RBA's 4.60% (29 September) and the SNB's 0% (24 September).",
+  "RBA pricing uses the latest readings: about 79-81% for a 3 November hike and about 0.9 hikes net over twelve months, as of 1 November, superseding the 85-88% in the AUD dossier measured straight after the 28 October CPI. The RBA's 3 November quarterly forecasts are taken from press reports. A possible SNB move in March 2027 falls beyond the schedule covered and is not tied to a date.",
+  "No option is listed on the cross. Implied volatility of 7.293% (35.7 days), 7.653% (98.7 days) and 8.184% (189.6 days) is an estimate from listed options on the two dollar legs and a 0.39 realised correlation, observed 29 October. Such estimates have run 9-18% low, so it is treated as a floor. No implied-volatility percentile is available for the cross.",
+  "The 508.7bp futures calendar roll (Dec 2026 to Mar 2027 contracts, observed 29 October) combines the rate differential and any cross-currency basis, which cannot be separated without an OIS curve. In the structured fields it is entered as annualised carry earned by a long (+508.7bp, the AUD at a forward discount), with carry-to-vol 0.66 on that basis; the 0.60 ratio on the 460bp policy differential is the alternative. Forward points use an actual/365 basis for 30, 91 and 182 days.",
+  "Weights: Factor 1 +0.03 (high carry), Factor 3 +0.04 (risk-proxy cross), Factor 8 -0.02 (no fiscal differential between two AAA sovereigns), Factor 10 -0.05 (non-USD cross). Both horizons sum to 1.00.",
+  "The framework's oil rule gives the Australian dollar a mild positive. Because the current oil shock is a supply disruption that the AUD dossier finds harmful to Australian terms of trade, oil is treated as near neutral to mildly negative for the pair in this regime.",
+  "Bilateral trade uses IMF Direction of Trade 2024 goods data. The mismatch between Australian-reported exports to Switzerland and Swiss-reported imports from Australia is attributed to gold routing and not reconciled.",
+  "PPP fair value (about 0.6653) and BIS real effective rates point in opposite directions. Neither is weighted directly; the REER evidence supports the Factor 5 strategic stance only as secondary evidence.",
+  "No bank research forecast for AUD/CHF was located. Statistical extrapolation sites and blended compilations are noted as context only, and the consensus is reported as absent.",
+  "CFTC positioning is for the week to 27 October 2026. Percentile statements in the report cover the 25 weekly reports since May 2026, not a long-run history. The structured percentile fields are derived from the stated ranks within that window: AUD asset managers (second-largest short in 25 weeks) about 4; CHF leveraged funds (most short in 25 weeks) 0.",
+  "The ABS October Labour Force release is described in the report only as the third week of November; the catalyst date of 2026-11-19 is an approximation to fit the date format.",
+  "Expected values use fixed scenario probabilities of 50/25/25. Carry adjustments use 22-24 pips a month.",
+  "Factor scores were set on non-price evidence only; the pair's own trading history informs only Factor 9 and the price levels, entries, targets, stops and sizing in the trade plans."
+ ],
+ "complete_citations": [
+  {
+   "id": 1,
+   "title": "What experts predict for the RBA's November 2026 interest rate decision",
+   "publisher": "Aussie",
+   "url": "https://www.aussie.com.au/insights/news/expert-predictions-rba-rates/",
+   "date_accessed": "2026-11-02"
+  },
+  {
+   "id": 2,
+   "title": "PREVIEW: RBA Rate Decision Scheduled for Tuesday 3rd November 2026",
+   "publisher": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/preview-rba-rate-decision-scheduled-for-tuesday-3rd-november-2026-at-0330gmt-2230est-on-monday",
+   "date_accessed": "2026-11-02"
+  },
+  {
+   "id": 3,
+   "title": "RBA Rate Odds: Meeting-by-Meeting Probabilities",
+   "publisher": "RateProbability",
+   "url": "https://rateprobability.com/rba",
+   "date_accessed": "2026-11-02"
+  },
+  {
+   "id": 4,
+   "title": "RBA deputy warns inflation outlook 'materially worse' ahead of November meeting",
+   "publisher": "ABC News",
+   "url": "https://www.abc.net.au/news/2026-10-21/reserve-bank-hauser-warns-inflation-outlook-materially-worse/107288574",
+   "date_accessed": "2026-11-02"
+  },
+  {
+   "id": 5,
+   "title": "RBA turns increasingly hawkish as markets reprice November rate hike expectations",
+   "publisher": "XTB",
+   "url": "https://www.xtb.com/int/market-analysis/news-and-research/rba-turns-increasingly-hawkish-as-markets-reprice-november-rate-hike-expectations",
+   "date_accessed": "2026-11-02"
+  },
+  {
+   "id": 6,
+   "title": "CPI rose 4.3% in the year to September 2026",
+   "publisher": "Australian Bureau of Statistics",
+   "url": "https://www.abs.gov.au/media-centre/media-releases/cpi-rose-43-year-september-2026",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 7,
+   "title": "Australia employment September 2026: job losses",
+   "publisher": "OrbitRemit",
+   "url": "https://blog.orbitremit.com/australia-employment-september-2026-job-losses/",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 8,
+   "title": "Australia Q2 Current Account Gap Hits Record High",
+   "publisher": "Trading Economics",
+   "url": "https://tradingeconomics.com/australia/current-account/news/579744",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 9,
+   "title": "Iron ore hovers near two-year trough amid oversupply",
+   "publisher": "The Arabian Post",
+   "url": "https://thearabianpost.com/iron-ore-hovers-near-two-year-trough-amid-oversupply/",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 10,
+   "title": "Brent drops US$1.93 a barrel on October 27 amid Iran talks",
+   "publisher": "The Nation (Thailand)",
+   "url": "https://www.nationthailand.com/news/world/40072812",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 11,
+   "title": "Monetary policy assessment of 24 September 2026",
+   "publisher": "Swiss National Bank",
+   "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 12,
+   "title": "Summary of discussion on the monetary policy assessment of September 2026",
+   "publisher": "Swiss National Bank",
+   "url": "https://www.snb.ch/en/publications/communication/summaries/zus_20261022",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 13,
+   "title": "Switzerland Current Account Surplus Hits 1-Year High",
+   "publisher": "Trading Economics",
+   "url": "https://tradingeconomics.com/switzerland/current-account/news/585546",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 14,
+   "title": "Swiss Inflation Hits 2-Year High (September 2026 CPI)",
+   "publisher": "Trading Economics",
+   "url": "https://tradingeconomics.com/switzerland/inflation-cpi/news/588599",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 15,
+   "title": "A Higher-Rate World Is in Store as Central Banks Approach 2027",
+   "publisher": "SWI swissinfo.ch (Bloomberg)",
+   "url": "https://www.swissinfo.ch/eng/a-higher-rate-world-is-in-store-as-central-banks-approach-2027/92200921",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 16,
+   "title": "Swiss Franc Surges Over 2% Against Euro as French Bond Yields Approach Highest Level Since 2002",
+   "publisher": "Coinpaper",
+   "url": "https://coinpaper.com/37625/swiss-franc-surges-over-2-against-euro-as-french-bond-yields-approach-highest-level-since-2002",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 17,
+   "title": "Commitments of Traders reports",
+   "publisher": "Commodity Futures Trading Commission",
+   "url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 18,
+   "title": "Effective exchange rates",
+   "publisher": "Bank for International Settlements",
+   "url": "https://data.bis.org/topics/EER",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 19,
+   "title": "Factors Affecting Reserve Balances (H.4.1), 22 October 2026",
+   "publisher": "Federal Reserve Board",
+   "url": "https://www.federalreserve.gov/releases/h41/20261022/h41.pdf",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 20,
+   "title": "How might the 2026 US midterms influence financial markets?",
+   "publisher": "Brown Brothers Harriman",
+   "url": "https://www.bbh.com/us/en/insights/investor-services-insights/how-might-the-2026-us-midterms-influence-financial-markets.html",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 21,
+   "title": "China Business Confidence: NBS Manufacturing PMI",
+   "publisher": "Trading Economics",
+   "url": "https://tradingeconomics.com/china/business-confidence",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 22,
+   "title": "Swiss Franc futures and options (CHF/USD)",
+   "publisher": "CME Group",
+   "url": "https://www.cmegroup.com/markets/fx/g10/swiss-franc.html",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 23,
+   "title": "Australian Dollar futures and options",
+   "publisher": "CME Group",
+   "url": "https://www.cmegroup.com/markets/fx/g10/australian-dollar.html",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 24,
+   "title": "S&P Global reaffirms AAA credit rating",
+   "publisher": "Australian Treasury",
+   "url": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/sp-global-reaffirms-aaa-credit-rating",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 25,
+   "title": "Switzerland Credit Rating",
+   "publisher": "Trading Economics",
+   "url": "https://tradingeconomics.com/switzerland/rating",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 26,
+   "title": "Switzerland - IMF World Economic Outlook forecasts",
+   "publisher": "Statistics of the World",
+   "url": "https://statisticsoftheworld.com/country/switzerland/forecast",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 27,
+   "title": "Release calendar: Economy, November 2026",
+   "publisher": "Australian Bureau of Statistics",
+   "url": "https://www.abs.gov.au/release-calendar/future-releases-calendar/202611/rcc_economy",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 28,
+   "title": "Final Budget Outcome 2025-26",
+   "publisher": "National Tribune",
+   "url": "https://www.nationaltribune.com.au/final-budget-outcome-2025-26/",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 29,
+   "title": "Switzerland KOF Economic Barometer",
+   "publisher": "Trading Economics",
+   "url": "https://tradingeconomics.com/switzerland/business-confidence",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 30,
+   "title": "Week in markets: 19-23 October 2026",
+   "publisher": "IfYouSpent",
+   "url": "https://news.ifyouspent.com/en/news/week-in-markets-oct-19-2026",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 31,
+   "title": "Australian economy grew 0.4% in the June quarter",
+   "publisher": "Australian Bureau of Statistics",
+   "url": "https://www.abs.gov.au/media-centre/media-releases/australian-economy-grew-04-june-quarter",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 32,
+   "title": "Government Bond Yields: 10-year benchmarks",
+   "publisher": "Trading Economics",
+   "url": "https://tradingeconomics.com/bonds",
+   "date_accessed": "2026-10-31"
+  },
+  {
+   "id": 33,
+   "title": "Swiss Franc vs. Japanese Yen: A shift in carry trade funding?",
+   "publisher": "FXStreet",
+   "url": "https://www.fxstreet.com/analysis/swiss-franc-vs-japanese-yen-a-shift-in-carry-trade-funding-202610252204",
+   "date_accessed": "2026-11-02"
+  },
+  {
+   "id": 34,
+   "title": "Swiss franc threatens yen's carry trade throne",
+   "publisher": "IFR",
+   "url": "https://www.ifre.com/topic-codes/2499336/swiss-franc-threatens-yens-carry-trade-throne",
+   "date_accessed": "2026-11-02"
+  },
+  {
+   "id": 35,
+   "title": "France's Bond Rout Turns the Euro Into a Funding Currency (G10 FX & The Carry Trade, week of 5 October 2026)",
+   "publisher": "Matterfact",
+   "url": "https://www.matterfact.com/newsletter/2026-10-05-g10-fx-france-bond-rout-euro-funding-currency",
+   "date_accessed": "2026-11-02"
+  },
+  {
+   "id": 36,
+   "title": "How Safe Havens Stack up as Tech, Energy and France Fears Grip Markets",
+   "publisher": "U.S. News (Reuters)",
+   "url": "https://money.usnews.com/investing/news/articles/2026-10-20/how-safe-havens-stack-up-as-tech-energy-and-france-fears-grip-markets",
+   "date_accessed": "2026-11-02"
+  },
+  {
+   "id": 37,
+   "title": "Swiss Franc: French Bond Worries Are Changing The Appeal Of The CHF",
+   "publisher": "ExchangeRates.org.uk",
+   "url": "https://www.exchangerates.org.uk/news/47559/2026-10-23-swiss-franc-french-bond-worries-are-changing-the-appeal-of-the-chf.html",
+   "date_accessed": "2026-11-02"
+  },
+  {
+   "id": 38,
+   "title": "Franc Gains as Safe-Haven Demand Pressures USD/CHF",
+   "publisher": "Tradingpedia",
+   "url": "https://www.tradingpedia.com/2026/10/30/franc-gains-as-safe-haven-demand-pressures-usd-chf/",
+   "date_accessed": "2026-11-02"
+  },
+  {
+   "id": 39,
+   "title": "French Bonds Hit by Hedge Fund Exits as Carry Trades Unravel",
+   "publisher": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-02/hedge-funds-exiting-crowded-trades-fueled-rout-in-french-bonds",
+   "date_accessed": "2026-11-02"
+  },
+  {
+   "id": 40,
+   "title": "Switzerland country brief",
+   "publisher": "Department of Foreign Affairs and Trade (Australia)",
+   "url": "https://www.dfat.gov.au/geo/switzerland/switzerland-country-brief",
+   "date_accessed": "2026-11-02"
+  },
+  {
+   "id": 41,
+   "title": "Bilateral relations Switzerland–Australia",
+   "publisher": "Swiss Federal Department of Foreign Affairs",
+   "url": "https://www.eda.admin.ch/eda/en/fdfa/representations-and-travel-advice/australia/switzerland-australia.html",
+   "date_accessed": "2026-11-02"
+  },
+  {
+   "id": 42,
+   "title": "Swiss Franc to Australian Dollar Forecast",
+   "publisher": "ExchangeRates.org.uk",
+   "url": "https://www.exchangerates.org.uk/currency-forecasts/swiss-franc-to-australian-dollar-forecast",
+   "date_accessed": "2026-11-02"
+  },
+  {
+   "id": 43,
+   "title": "Australian Dollar/Swiss Franc Forecast 2026-2030 (AUD/CHF)",
+   "publisher": "Traders Union",
+   "url": "https://tradersunion.com/currencies/forecast/aud-chf/long-term-forecast/",
+   "date_accessed": "2026-11-02"
+  },
+  {
+   "id": 44,
+   "title": "Australian Dollar / Swiss Franc",
+   "publisher": "TradingView",
+   "url": "https://in.tradingview.com/symbols/AUDCHF",
+   "date_accessed": "2026-11-02"
+  }
+ ]
+}

@@ -1,0 +1,2291 @@
+{
+  "base": "USD",
+  "valuation_date": "2026-11-01",
+  "framework_version": "2.0",
+  "freshness_days_tactical": 30,
+  "freshness_days_strategic": 60,
+  "executive_summary": "The US Dollar Index stood at 101.91 on the 2026-10-30 close (ICE weights applied to that day's closes), up 0.43% over one month, 2.12% over three months, 3.75% over six months and 2.37% over a year, 0.7 points below its 12 October 52-week high of 102.59 [22]. That gain is a euro story: EUR/USD fell 0.67% in October to 1.11674, while the dollar lost 4.49% to the krone, 2.29% to the krona, 1.79% to the Canadian dollar and 1.50% to sterling, so on an equal-weighted G10+SGD basis it weakened about 1.3% in the month. The narrative is a hiking Fed in an energy shock: the FOMC held 3.75-4.00% on 28 October by 10-2 with Cook and Hammack voting to hike, and futures price a December hike at 77-85% [1][3][4]. Growth is running hot, with third-quarter GDP at 3.4% annualised and the S&P Global composite PMI at 57.6 against 51.9 in the euro area, but inflation is not cooling: September core PCE was 3.1% y/y and headline CPI 3.7% [6][7][8][11]. Valuation is full but not extreme: the BIS real broad index is 107.11, the 21st percentile of its range since January 2024, while GDP-based PPP puts the dollar 26% rich against the euro and 62% rich against the yen [39][40]. The tension is that the dollar's carry is the third highest in G10+SGD at 3.875% and the US front end still yields 153-271bp over Germany, Japan, Canada and Sweden, yet every one of those gaps narrowed in October as peers turned hawkish, and the market prices the Fed path near 4.7% by September 2027 against a median dot of 4.1% [3][13]. Tactically we are Bullish (score +0.326, conviction 3, rank 1 of 11), looking for 102.80 by late November as a December hike stays priced, year-end funding tightens and reserves fall below $2.9tn [15]. Strategically we are Neutral (score -0.096, conviction 2, rank 6 of 11): peer tightening, a 3.0%-of-GDP current account deficit and a 6.2%-of-GDP budget deficit offset the carry, and our six-month DXY base case of 101.60 is close to spot but above the 101.12 forward [33][36].",
+  "market_context": {
+    "spot": {
+      "rate": "DXY 101.91",
+      "date": "2026-10-30",
+      "convention": "The US Dollar Index is the ICE basket (euro 57.6%, yen 13.6%, sterling 11.9%, Canadian dollar 9.1%, krona 4.2%, franc 3.6%); a RISING index means a STRONGER dollar. Bilateral quotes follow market convention: EUR/USD, GBP/USD, AUD/USD and NZD/USD are dollars per unit of the other currency (a falling quote is dollar strength); USD/JPY, USD/CAD, USD/CHF, USD/NOK, USD/SEK and USD/SGD are units of the other currency per dollar (a rising quote is dollar strength).",
+      "primary_index": "DXY 101.91 on the 2026-10-30 close, computed with the ICE formula from that day's closes; Trading Economics shows 101.66 on 2 November after a four-week low of 101.44 [22]. The Federal Reserve's nominal broad dollar index was 121.32 on 23 October, at the 91st percentile of its one-year range and 1.2 points higher over a month [23]."
+    },
+    "key_crosses": [
+      {
+        "pair": "EUR/USD",
+        "rate": "1.11674",
+        "convention": "USD per EUR; -0.67% in 1M, -3.17% in 3M, -3.62% in 1Y (dollar stronger); 4th percentile of the 52-week closing range"
+      },
+      {
+        "pair": "USD/JPY",
+        "rate": "157.558",
+        "convention": "JPY per USD; -0.34% in 1M, -0.11% in 3M, +1.84% in 1Y; 43rd percentile; joint Japan-US intervention above 160 in late July caps the top [26]"
+      },
+      {
+        "pair": "GBP/USD",
+        "rate": "1.33950",
+        "convention": "USD per GBP; +1.52% in 1M (dollar weaker), -0.44% in 3M, +2.03% in 1Y; 49th percentile"
+      },
+      {
+        "pair": "USD/CAD",
+        "rate": "1.39680",
+        "convention": "CAD per USD; -1.79% in 1M (dollar weaker), -0.66% in 3M, -0.21% in 1Y; 60th percentile"
+      },
+      {
+        "pair": "AUD/USD",
+        "rate": "0.70331",
+        "convention": "USD per AUD; +1.47% in 1M, -0.19% in 3M, +7.48% in 1Y (dollar weaker over a year); 72nd percentile"
+      },
+      {
+        "pair": "NZD/USD",
+        "rate": "0.56319",
+        "convention": "USD per NZD; +0.48% in 1M, -4.47% in 3M, -0.47% in 1Y; 10th percentile"
+      },
+      {
+        "pair": "USD/CHF",
+        "rate": "0.82432",
+        "convention": "CHF per USD; -0.81% in 1M, +1.91% in 3M, +3.33% in 1Y; 84th percentile"
+      },
+      {
+        "pair": "USD/NOK",
+        "rate": "9.20076",
+        "convention": "NOK per USD; -4.49% in 1M, -3.56% in 3M, -8.74% in 1Y (dollar weaker); 3rd percentile"
+      },
+      {
+        "pair": "USD/SEK",
+        "rate": "9.82069",
+        "convention": "SEK per USD; -2.29% in 1M, +3.19% in 3M, +3.94% in 1Y; 81st percentile"
+      },
+      {
+        "pair": "USD/SGD",
+        "rate": "1.27819",
+        "convention": "SGD per USD; -0.18% in 1M, -0.31% in 3M, -1.81% in 1Y; 36th percentile"
+      }
+    ],
+    "performance": {
+      "1m": {
+        "pct_change": "+0.43%",
+        "direction": "Dollar marginally stronger on the index, entirely through the euro; against an equal-weighted G10+SGD basket it fell about 1.3%, led by a 4.49% loss to the krone as Brent rose about 15% [29]."
+      },
+      "3m": {
+        "pct_change": "+2.12%",
+        "direction": "Dollar stronger: the 16 September hike and the move to price a December hike lifted the index from 99.79 at end-July, with EUR/USD down 3.17% and NZD/USD down 4.47%."
+      },
+      "6m": {
+        "pct_change": "+3.75%",
+        "direction": "Dollar stronger from 98.22 on 1 May as the Fed turned from easing to tightening and the Iran war lifted oil above US$100."
+      },
+      "1y": {
+        "pct_change": "+2.37%",
+        "direction": "Dollar moderately stronger, but it lost 6.96% to the Australian dollar and 8.74% to the krone over the year, so the gain is narrow and concentrated in the euro and the yen."
+      }
+    },
+    "valuation": {
+      "overall_assessment": "Moderately rich on GDP-based PPP against the euro, yen and Asian currencies; close to its recent average in real effective terms",
+      "bis_reer": {
+        "level": 107.11,
+        "historical_percentile": 21,
+        "interpretation": "The BIS real broad index at 107.11 (September 2026) sits at the 21st percentile of its 33 monthly readings since January 2024 (range 104.94-114.50, mean 108.77) and is 0.38 points lower than a year earlier (best available, flagged: from the BIS release of 29 October; the cited topic page does not display values) [39]. In real terms the dollar is therefore cheaper than in most of 2024-25, because US inflation has outrun its partners' while the nominal index barely moved."
+      },
+      "trade_weighted_assessment": "The nominal DXY at 101.91 sits 2.3% above its 200-day average of 99.66 and 5.9% above the 27 January low of 96.22, but the broad index rose only 0.3% over a year, so the dollar's trade-weighted strength is concentrated in the euro and yen legs that dominate the DXY [23].",
+      "what_is_priced_in": "The real effective level at the 21st percentile prices a narrowing of US exceptionalism: it does not embed the 3.4% third-quarter growth rate or the 77-85% chance of a December hike as a lasting premium [4][6]. Against the euro and yen the PPP overvaluation of 26% and 62% prices the rate gaps of 137.5bp and 262.5bp continuing [40].",
+      "actionability": "Structural rather than actionable inside six months. PPP gaps of this size have persisted for years against the yen and the euro and do not mean-revert without a catalyst, and the real effective rate near the bottom of its two-year range removes the 'expensive dollar' argument in trade-weighted terms. The PPP conversion factors are best available, flagged: the World Bank page did not display values on 2026-11-02, so the factors used across this cycle are applied [40].",
+      "ppp_table": [
+        {
+          "vs_currency": "EUR",
+          "deviation_pct": 26.1,
+          "implied_fair_value": "EUR/USD 1.4085 (spot 1.11674)"
+        },
+        {
+          "vs_currency": "JPY",
+          "deviation_pct": 62.3,
+          "implied_fair_value": "USD/JPY 97.08 (spot 157.558)"
+        },
+        {
+          "vs_currency": "GBP",
+          "deviation_pct": 10.3,
+          "implied_fair_value": "GBP/USD 1.4769 (spot 1.33950)"
+        },
+        {
+          "vs_currency": "CHF",
+          "deviation_pct": -11.4,
+          "implied_fair_value": "USD/CHF 0.9307 (spot 0.82432)"
+        },
+        {
+          "vs_currency": "CAD",
+          "deviation_pct": 19.7,
+          "implied_fair_value": "USD/CAD 1.1667 (spot 1.39680)"
+        },
+        {
+          "vs_currency": "AUD",
+          "deviation_pct": 1.6,
+          "implied_fair_value": "AUD/USD 0.7148 (spot 0.70331)"
+        },
+        {
+          "vs_currency": "NZD",
+          "deviation_pct": 20.5,
+          "implied_fair_value": "NZD/USD 0.6789 (spot 0.56319)"
+        },
+        {
+          "vs_currency": "NOK",
+          "deviation_pct": -2.7,
+          "implied_fair_value": "USD/NOK 9.4517 (spot 9.20076)"
+        },
+        {
+          "vs_currency": "SEK",
+          "deviation_pct": 14.9,
+          "implied_fair_value": "USD/SEK 8.5481 (spot 9.82069)"
+        },
+        {
+          "vs_currency": "SGD",
+          "deviation_pct": 61.6,
+          "implied_fair_value": "USD/SGD 0.7909 (spot 1.27819)"
+        }
+      ]
+    },
+    "positioning_summary": {
+      "cftc": {
+        "leveraged_funds": {
+          "net_contracts": 3158,
+          "direction": "Long",
+          "notional_usd": "ICE US Dollar Index futures, week to 27 October: leveraged funds net long 3,158 contracts (6.5% of open interest). Across the six CME currency futures (euro, yen, sterling, franc, Canadian and Australian dollar) leveraged funds were net short the foreign currencies by about USD 15.9bn at 30 October spot, that is long dollars, from USD 14.3bn a week earlier [28].",
+          "weekly_change_contracts": -25,
+          "weekly_change_direction": "Flat after five weeks of building from -4,495 on 22 September"
+        },
+        "asset_managers": {
+          "net_contracts": 16713,
+          "direction": "Long",
+          "notional_usd": "ICE DXY asset managers net long 16,713 contracts (prior week 17,020); in the six CME currency futures asset managers are net long foreign currencies by about USD 7.9bn, i.e. short dollars, mainly through 173,249 contracts of euro longs [28]."
+        },
+        "total_open_interest": 2317589,
+        "net_all_specs_percentile": 83,
+        "percentile_context": "Non-commercial DXY net long of 14,121 contracts is at the 83rd percentile of 52 weeks, 77th of three years and 57th of five; leveraged funds are at the 87th, 73rd and 71st, and asset managers at the 75th, 81st and 63rd [28]. Total open interest of 2,317,589 is the sum of the six CME currency futures. The five-year range for leveraged funds is -24,785 to +26,733 contracts, so current length is moderate in absolute terms."
+      },
+      "other_positioning_signals": "CME options price dollar calls over puts against the euro: the one-month 25-delta risk reversal on euro futures options is -0.30 vols and the six-month -0.78 vols (observed 2026-10-29), and the yen one-month reversal is -1.93 vols [27]. Foreign investors bought a net USD 300.7bn of long-term US securities in August, a strong month, while foreign holdings of Treasury bills fell USD 47.8bn [34]. The dollar's share of allocated reserves fell to 56.70% in Q2 2026 from 57.18% [35].",
+      "interpretation": "Speculative positioning has turned from short to moderately long the dollar since late September, fast money is long the dollar against the euro and the Canadian dollar, and real money still holds euro longs; the build is consistent with the hike repricing rather than a crowded trade.",
+      "contrarian_assessment": "Length at the 83rd-87th percentile of one year is approaching the 90th-percentile zone where the dollar has historically been vulnerable, but at the 57th-71st percentile of five years it is not stretched. The contrarian risk is a weak payroll print on 6 November or a Democratic sweep that revives trade-policy risk, which would force the five-week leveraged build to unwind [5][24]."
+    },
+    "market_structure_vol_summary": {
+      "trend_regime": "Trending higher with consolidation: the DXY has held above its 50-day average since mid-September and set a 52-week high of 102.59 on 12 October, then consolidated in a 101.6-102.3 range through late October [22].",
+      "key_levels": {
+        "support": [
+          {
+            "level": "101.44-101.64",
+            "significance": "Four-week low of 101.44 on 2 November and the 22 October close of 101.64; the floor of the late-October consolidation [22]"
+          },
+          {
+            "level": "100.81",
+            "significance": "50-day average; trend-following models switch from long to flat on a sustained break"
+          },
+          {
+            "level": "100.00 / 99.66",
+            "significance": "Round number and the 200-day average; a close below would end the six-month up-trend"
+          },
+          {
+            "level": "98.20",
+            "significance": "1 May base and the start of the hike-repricing leg"
+          }
+        ],
+        "resistance": [
+          {
+            "level": "102.30",
+            "significance": "27 October close high of the consolidation"
+          },
+          {
+            "level": "102.50-102.59",
+            "significance": "12 October 52-week high and the level NAGA identifies as the trigger for a broader dollar uptrend [25]"
+          },
+          {
+            "level": "103.00",
+            "significance": "Round number; EUR/USD 1.1050-1.1070 equivalent with the other legs flat"
+          },
+          {
+            "level": "104.00",
+            "significance": "Upside scenario target; EUR/USD near 1.09 and USD/JPY near 160, where Japan-US intervention risk rises [26]"
+          }
+        ]
+      },
+      "moving_averages": {
+        "50d": {
+          "level": "100.81",
+          "spot_vs": "Above by 1.09%"
+        },
+        "100d": {
+          "level": "100.67",
+          "spot_vs": "Above by 1.23%"
+        },
+        "200d": {
+          "level": "99.66",
+          "spot_vs": "Above by 2.26%"
+        },
+        "alignment": "Bullish stack: 50-day (100.81) above 100-day (100.67) above 200-day (99.66), with spot above all three; the stack has been in place since September, so systematic trend flows reinforce dollar length."
+      },
+      "volatility": {
+        "iv_1m": 5.877,
+        "iv_3m": 6.18,
+        "iv_percentile_1y": 56,
+        "rv_20d": 4.74,
+        "rv_vs_iv": "EUR/USD, 57.6% of the index, carries one-month CME at-the-money implied volatility of 5.88% against 20-day realised of 4.74%, an implied premium of 1.1 vols that prices the midterms, payrolls and the December FOMC (best available, flagged: CME quotes observed 2026-10-29, not displayed on the cited product page) [27]. The DXY's own 20-day realised volatility is 4.21% and 60-day 4.48%.",
+        "risk_reversal_25d_1m": "-0.30 vols on euro futures options (euro puts over calls, i.e. dollar calls bid); -1.93 vols on yen futures options [27].",
+        "vol_term_structure": "Contango: EUR/USD implied volatility 5.88% at one month, 6.18% at three months, 6.65% at six months [27].",
+        "vol_regime": "Low-volatility trend: realised volatility near 4.5% with a steady upward drift favours spot over options."
+      },
+      "key_observation": "The DXY is in a bullish moving-average stack 0.7 points below its 52-week high, but its gain is narrow: dollar strength against the euro and yen coexists with dollar weakness against commodity and Scandinavian currencies, so the index overstates the breadth of the move."
+    },
+    "recent_regime": "The regime is a hawkish Fed in an energy shock: the 16 September hike, two hawkish dissents on 28 October and 77-85% pricing for December have kept the US front end above 4.6%, while the Iran war has lifted Brent to US$117.64 [1][4][29]. US growth exceptionalism is back on the data, with third-quarter GDP at 3.4% and a 5.7-point PMI lead over the euro area, but peers are now tightening too, so the dollar's gains have been against the euro and yen rather than broad [6][11]. Volatility is low, with realised volatility near 4.5%, and the late-October AI-led equity sell-off did not produce a dollar safe-haven bid [30].",
+    "citations": [
+      1,
+      3,
+      4,
+      6,
+      11,
+      22,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      34,
+      35,
+      39,
+      40
+    ]
+  },
+  "rate_differentials_table": {
+    "base_currency": {
+      "central_bank": "Federal Reserve (FOMC)",
+      "policy_rate_name": "Federal funds target range 3.75-4.00% (mid-point 3.875%); IORB 3.90%, ON RRP 3.75%",
+      "rate_pct": 3.875,
+      "next_meeting": "2026-12-09",
+      "expected_action": "25bp hike to 4.00-4.25% with new projections; priced at 77.3% on 30 October and about 85% after the press conference; our estimate 70% [2][3][4]."
+    },
+    "peers": [
+      {
+        "currency": "EUR",
+        "central_bank": "European Central Bank",
+        "policy_rate_pct": 2.5,
+        "spread_to_base_bps": -137.5,
+        "direction_vs_base": "Peer below USD",
+        "next_meeting": "2026-12-17",
+        "expected_action": "25bp hike to 2.75% with projections (our estimate 65%) after a hold on 29 October.",
+        "rate_path_next_6m": "2.75% in December, 3.00% possible by March 2027; the gap to the Fed mid-point narrows from 137.5bp to 112.5-137.5bp."
+      },
+      {
+        "currency": "JPY",
+        "central_bank": "Bank of Japan",
+        "policy_rate_pct": 1.25,
+        "spread_to_base_bps": -262.5,
+        "direction_vs_base": "Peer below USD",
+        "next_meeting": "2026-12-18",
+        "expected_action": "25bp hike to 1.50% (our estimate 55%) after the 30 October hold.",
+        "rate_path_next_6m": "1.50% by December, 1.75% possible by April 2027; the gap narrows to 237.5-262.5bp."
+      },
+      {
+        "currency": "GBP",
+        "central_bank": "Bank of England",
+        "policy_rate_pct": 3.75,
+        "spread_to_base_bps": -12.5,
+        "direction_vs_base": "Peer below USD",
+        "next_meeting": "2026-11-05",
+        "expected_action": "25bp hike to 4.00% with the Monetary Policy Report (expected) [5].",
+        "rate_path_next_6m": "4.00% in November, 4.25% possible by February 2027; Bank Rate moves 12.5-37.5bp above the Fed mid-point."
+      },
+      {
+        "currency": "CHF",
+        "central_bank": "Swiss National Bank",
+        "policy_rate_pct": 0.0,
+        "spread_to_base_bps": -387.5,
+        "direction_vs_base": "Peer below USD",
+        "next_meeting": "2026-12-10",
+        "expected_action": "Hold at 0% (our estimate 85%).",
+        "rate_path_next_6m": "0% through March 2027; the widest gap in G10+SGD, 387.5-412.5bp."
+      },
+      {
+        "currency": "CAD",
+        "central_bank": "Bank of Canada",
+        "policy_rate_pct": 2.5,
+        "spread_to_base_bps": -137.5,
+        "direction_vs_base": "Peer below USD",
+        "next_meeting": "2026-12-09",
+        "expected_action": "Hold at 2.50% after the 28 October hike from 2.25% [18].",
+        "rate_path_next_6m": "2.50-2.75% by Q1 2027; the gap is 137.5-162.5bp."
+      },
+      {
+        "currency": "AUD",
+        "central_bank": "Reserve Bank of Australia",
+        "policy_rate_pct": 4.6,
+        "spread_to_base_bps": 72.5,
+        "direction_vs_base": "Peer above USD",
+        "next_meeting": "2026-11-03",
+        "expected_action": "25bp hike to 4.85% (about 79% priced) [5].",
+        "rate_path_next_6m": "4.85%, risk of 5.10% in February 2027; the RBA's premium widens to 72.5-122.5bp."
+      },
+      {
+        "currency": "NZD",
+        "central_bank": "Reserve Bank of New Zealand",
+        "policy_rate_pct": 2.75,
+        "spread_to_base_bps": -112.5,
+        "direction_vs_base": "Peer below USD",
+        "next_meeting": "2026-12-09",
+        "expected_action": "25bp hike to 3.00% (our estimate 55%) after the 28 October hold.",
+        "rate_path_next_6m": "3.00% in December, 3.25% possible by March 2027; the gap narrows to 87.5-112.5bp."
+      },
+      {
+        "currency": "NOK",
+        "central_bank": "Norges Bank",
+        "policy_rate_pct": 4.5,
+        "spread_to_base_bps": 62.5,
+        "direction_vs_base": "Peer above USD",
+        "next_meeting": "2026-11-05",
+        "expected_action": "Hold at 4.50% with no Monetary Policy Report (expected) [5].",
+        "rate_path_next_6m": "4.50% through March 2027; the premium over the Fed narrows to 25-50bp if the Fed hikes."
+      },
+      {
+        "currency": "SEK",
+        "central_bank": "Sveriges Riksbank",
+        "policy_rate_pct": 1.75,
+        "spread_to_base_bps": -212.5,
+        "direction_vs_base": "Peer below USD",
+        "next_meeting": "2026-11-04",
+        "expected_action": "25bp hike to 2.00% with the Monetary Policy Update (consensus).",
+        "rate_path_next_6m": "2.00-2.25% by March 2027; the gap narrows to 187.5-212.5bp."
+      },
+      {
+        "currency": "SGD",
+        "central_bank": "Monetary Authority of Singapore",
+        "policy_rate_pct": 1.297,
+        "spread_to_base_bps": -257.8,
+        "direction_vs_base": "Peer below USD",
+        "next_meeting": "2027-01-W4",
+        "expected_action": "No policy rate: MAS manages the S$NEER band and held its slope on 14 October; three-month compounded SORA of 1.2970% is the short rate shown.",
+        "rate_path_next_6m": "SORA drifts with dollar rates; the gap stays near 255-280bp."
+      }
+    ],
+    "sovereign_yields": {
+      "base_2y": 4.61,
+      "base_10y": 4.98,
+      "key_spreads": [
+        {
+          "vs": "Germany 10Y",
+          "yield_pct": 3.42,
+          "spread_bps": 156.0,
+          "interpretation": "Treasuries yield 156bp over Bunds on 29 October, from 158bp a month earlier; the main driver of EUR/USD and still supportive of the dollar, but no longer widening [12]."
+        },
+        {
+          "vs": "Japan 10Y",
+          "yield_pct": 2.876,
+          "spread_bps": 210.4,
+          "interpretation": "The UST-JGB gap of 210bp is 7bp narrower than at end-September; it keeps USD/JPY carry attractive, but the cap from intervention above 160 limits the payoff [26]."
+        },
+        {
+          "vs": "UK 10Y",
+          "yield_pct": 5.309,
+          "spread_bps": -25.9,
+          "interpretation": "Gilts yield 26bp more than Treasuries (28 October), from 14bp a month earlier, a fiscal premium that has not helped sterling because the Treasury rally drove the change."
+        },
+        {
+          "vs": "Canada 10Y",
+          "yield_pct": 3.84,
+          "spread_bps": 114.0,
+          "interpretation": "The US premium over Canada narrowed from 128bp to 114bp in October after the Bank of Canada's hike, consistent with the 1.79% fall in USD/CAD [18]."
+        },
+        {
+          "vs": "Australia 10Y",
+          "yield_pct": 5.208,
+          "spread_bps": -15.8,
+          "interpretation": "Australian bonds yield 16bp over Treasuries (28 October); with the RBA likely to hike to 4.85%, AUD carries a yield advantage at both ends of the curve."
+        },
+        {
+          "vs": "Switzerland 10Y",
+          "yield_pct": 0.51,
+          "spread_bps": 447.0,
+          "interpretation": "The widest gap: 447bp of term yield over Swiss bonds makes the franc the cheapest funding currency against the dollar."
+        },
+        {
+          "vs": "Sweden 10Y",
+          "yield_pct": 3.14,
+          "spread_bps": 184.0,
+          "interpretation": "The US premium narrowed from 201bp to 184bp in October as the Riksbank moved towards a November hike, part of the krona's 2.29% gain."
+        },
+        {
+          "vs": "US 2Y vs Germany 2Y",
+          "yield_pct": 3.08,
+          "spread_bps": 153.0,
+          "interpretation": "The front-end gap that drives EUR/USD narrowed 7bp in October to 153bp; it would widen again only if the Fed out-hikes the ECB in December."
+        }
+      ],
+      "curve_shape": "Positive but flat: the 2-year at 4.61% and the 10-year at 4.98% on 29 October give a 2s10s slope of +38bp on 30 October, at the 21st percentile of a year, with 10-year minus 3-month at +78bp and the 30-year at 5.32% [12][13]. The 10-year real yield is 2.63% and the 10-year breakeven 2.34%, so the long end is pricing real-rate and term-premium risk rather than inflation. The 10-year fell 28bp in October, from 5.26% to 4.98%, and Trading Economics showed 4.925% on 2 November as the AI-led equity sell-off drew money into bonds [21]. A flat curve with the front end anchored by hike pricing is consistent with a late-cycle tightening rather than an imminent recession."
+    }
+  },
+  "macro_comparison_table": [
+    {
+      "currency": "USD",
+      "gdp_yoy_pct": 2.07,
+      "gdp_qoq_latest_pct": 0.83,
+      "headline_cpi_yoy_pct": 3.7,
+      "core_cpi_yoy_pct": 3.1,
+      "core_cpi_measure": "Core PCE price index, September 2026 (core CPI 2.6%)",
+      "unemployment_pct": 4.2,
+      "current_account_gdp_pct": -3.0,
+      "policy_rate_pct": 3.875
+    },
+    {
+      "currency": "EUR",
+      "gdp_yoy_pct": 1.3,
+      "gdp_qoq_latest_pct": 0.4,
+      "headline_cpi_yoy_pct": 3.8,
+      "core_cpi_yoy_pct": 2.5,
+      "core_cpi_measure": "HICP excl. energy, food, alcohol and tobacco, September 2026",
+      "unemployment_pct": 6.5,
+      "current_account_gdp_pct": 1.92,
+      "policy_rate_pct": 2.5
+    },
+    {
+      "currency": "JPY",
+      "gdp_yoy_pct": 0.73,
+      "gdp_qoq_latest_pct": 0.36,
+      "headline_cpi_yoy_pct": 2.1,
+      "core_cpi_yoy_pct": 2.1,
+      "core_cpi_measure": "CPI excl. fresh food, September 2026",
+      "unemployment_pct": 2.5,
+      "current_account_gdp_pct": 5.03,
+      "policy_rate_pct": 1.25
+    },
+    {
+      "currency": "GBP",
+      "gdp_yoy_pct": 1.37,
+      "gdp_qoq_latest_pct": 0.53,
+      "headline_cpi_yoy_pct": 3.3,
+      "core_cpi_yoy_pct": 2.8,
+      "core_cpi_measure": "CPI excl. energy, food, alcohol and tobacco, September 2026",
+      "unemployment_pct": 4.7,
+      "current_account_gdp_pct": -2.84,
+      "policy_rate_pct": 3.75
+    },
+    {
+      "currency": "CHF",
+      "gdp_yoy_pct": 2.63,
+      "gdp_qoq_latest_pct": 1.88,
+      "headline_cpi_yoy_pct": 1.0,
+      "core_cpi_yoy_pct": 0.5,
+      "core_cpi_measure": "FSO core CPI, September 2026",
+      "unemployment_pct": 5.03,
+      "current_account_gdp_pct": 9.2,
+      "policy_rate_pct": 0.0
+    },
+    {
+      "currency": "CAD",
+      "gdp_yoy_pct": 0.95,
+      "gdp_qoq_latest_pct": 0.3,
+      "headline_cpi_yoy_pct": 3.05,
+      "core_cpi_yoy_pct": 1.85,
+      "core_cpi_measure": "Average of CPI-trim and CPI-median, September 2026",
+      "unemployment_pct": 6.5,
+      "current_account_gdp_pct": 1.03,
+      "policy_rate_pct": 2.5
+    },
+    {
+      "currency": "AUD",
+      "gdp_yoy_pct": 2.14,
+      "gdp_qoq_latest_pct": 0.42,
+      "headline_cpi_yoy_pct": 3.92,
+      "core_cpi_yoy_pct": 3.7,
+      "core_cpi_measure": "RBA trimmed mean, September quarter 2026",
+      "unemployment_pct": 4.72,
+      "current_account_gdp_pct": -3.67,
+      "policy_rate_pct": 4.6
+    },
+    {
+      "currency": "NZD",
+      "gdp_yoy_pct": 2.55,
+      "gdp_qoq_latest_pct": 0.25,
+      "headline_cpi_yoy_pct": 3.7,
+      "core_cpi_yoy_pct": 2.9,
+      "core_cpi_measure": "CPI excl. food, household energy and vehicle fuels, September quarter 2026",
+      "unemployment_pct": 5.6,
+      "current_account_gdp_pct": -3.26,
+      "policy_rate_pct": 2.75
+    },
+    {
+      "currency": "NOK",
+      "gdp_yoy_pct": 1.6,
+      "gdp_qoq_latest_pct": 0.67,
+      "headline_cpi_yoy_pct": 3.4,
+      "core_cpi_yoy_pct": 3.0,
+      "core_cpi_measure": "CPI-ATE, September 2026",
+      "unemployment_pct": 4.5,
+      "current_account_gdp_pct": 19.61,
+      "policy_rate_pct": 4.5
+    },
+    {
+      "currency": "SEK",
+      "gdp_yoy_pct": 2.82,
+      "gdp_qoq_latest_pct": 0.44,
+      "headline_cpi_yoy_pct": 1.1,
+      "core_cpi_yoy_pct": 0.5,
+      "core_cpi_measure": "CPIF excluding energy, September 2026",
+      "unemployment_pct": 8.9,
+      "current_account_gdp_pct": 6.45,
+      "policy_rate_pct": 1.75
+    },
+    {
+      "currency": "SGD",
+      "gdp_yoy_pct": 5.4,
+      "gdp_qoq_latest_pct": 1.1,
+      "headline_cpi_yoy_pct": 2.2,
+      "core_cpi_yoy_pct": 2.0,
+      "core_cpi_measure": "MAS core inflation, September 2026",
+      "unemployment_pct": 2.0,
+      "current_account_gdp_pct": 16.7,
+      "policy_rate_pct": null
+    }
+  ],
+  "factors": [
+    {
+      "factor_number": 1,
+      "factor_name": "Policy & Rates (Relative)",
+      "tactical_weight": 0.24,
+      "strategic_weight": 0.24,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 58,
+        "analysis": "The FOMC held the target range at 3.75-4.00% on 28 October by 10-2, with Lisa Cook and Beth Hammack dissenting in favour of an immediate 25bp hike, one meeting after the 16 September hike [1][3]. At a 3.875% mid-point the Fed ranks 3rd of 11 in G10+SGD, 72.5bp below the RBA and 62.5bp below Norges Bank, but 137.5bp above the ECB and the Bank of Canada, 262.5bp above the BoJ and 387.5bp above the SNB. The market prices the next move as a hike: fed funds futures put the probability of 4.00-4.25% on 9 December at 77.3% on the 30 October close and about 85% after Chair Warsh's press conference, with an implied post-meeting rate near 4.06-4.09% [3][4]. The 2-year Treasury at 4.61% on 29 October is 74bp above the policy mid-point, so the front end already discounts roughly one more hike and part of a second, and the 10-year at 4.98% gives a 2s10s slope of +38bp [12][13]. Front-end spreads remain wide, with the US 2-year 153bp over Germany, 271bp over Japan, 125bp over Canada and 187bp over Sweden, which keeps the carry channel open for the next four weeks. The data calendar is skewed towards confirming the hike: September core PCE of 3.1% y/y and third-quarter GDP of 3.4% annualised give the Committee little reason to retreat, and only a very weak payroll print on 6 November would challenge 77% pricing [6][7]. Our own probability for December is 70%, slightly below the market, because the September payroll gain of 29,000 and the 60,000 of downward revisions show a labour market that is cooling [9]. On balance the rate channel is dollar-positive tactically because the hike is likely and the front-end premium over the euro, yen, franc and krona is large, even though most of the move is priced.",
+        "key_data_points": [
+          "Fed funds target 3.75-4.00% (mid-point 3.875%), held 28 October by 10-2; Cook and Hammack voted for +25bp [1]",
+          "9 December hike probability 77.3% (30 October close), about 85% after the press conference; implied rate about 4.06-4.09% [3][4]",
+          "US 2-year 4.61% and 10-year 4.98% on 29 October; 2s10s +38bp on 30 October [12][13]",
+          "US-Germany 2-year spread +153bp; US-Japan +271bp; US-Canada +125bp (29 October)",
+          "Policy spreads: +137.5bp vs ECB, +262.5bp vs BoJ, +387.5bp vs SNB, -72.5bp vs RBA",
+          "Carry over 60-day realised volatility: 0.30 against the euro, 0.34 against the yen, 0.58 against the franc"
+        ],
+        "what_is_priced": "The front end prices a December hike with about 80% probability and the 2-year sits 74bp above the policy mid-point, so a hike adds little; the edge is that a hold is less likely than the 15-23% the market allows only if November data stay firm. We estimate 70% and see about 8bp of downside to December pricing on our numbers, which is too small to outweigh the carry advantage over four weeks.",
+        "citations": [
+          1,
+          3,
+          4,
+          12,
+          13
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 54,
+        "analysis": "Over six months the question is not whether the Fed hikes once more but how the dollar's rate advantage evolves while every peer except the SNB and Norges Bank is tightening. The September projections put the median funds rate at 4.1% for end-2026 and 4.1% for end-2027, one more hike and then a hold, while futures reported after the press conference price close to 4.7% by September 2027, roughly two further hikes beyond December [3]. That 50-60bp gap between the dots and the market is the main strategic mispricing: we side with the dots because core PCE is projected to fall to 2.5% in 2027 and Pantheon expects easing from mid-2027 [3][5]. Peers are closing the gap: the BoE is expected to hike on 5 November, the ECB and the BoJ are likely to hike in December, the RBNZ is weighing a hike to 3.00%, and the Riksbank is expected to move to 2.00% on 4 November [5]. October already showed that convergence, as the US 2-year premium narrowed 7bp against Germany, 21bp against Japan, 30bp against Canada and 24bp against Sweden. If the Fed stops at 4.00-4.25% while the ECB reaches 2.75-3.00% and the BoJ 1.50-1.75%, the dollar's spread to the euro and the yen narrows by 25-50bp by April 2027. The carry still pays: at 137.5bp against the euro and 262.5bp against the yen it remains among the highest in the group, and the long end at 4.98% keeps Treasuries attractive to foreign buyers. We therefore hold Neutral: a wide but narrowing differential and a market path that already exceeds the Fed's own projections offset the carry income.",
+        "key_data_points": [
+          "September SEP median funds rate 4.1% (2026), 4.1% (2027), 3.9% (2028); longer run 3.2% [3]",
+          "Market path close to 4.7% by September 2027 (reported after the 28 October press conference) [3]",
+          "US 2-year premium narrowed in October: -7bp vs Germany, -21bp vs Japan, -30bp vs Canada, -24bp vs Sweden",
+          "BoE expected +25bp to 4.00% on 5 November and RBA about 79% priced for 4.85% [5]; Riksbank consensus a hike to 2.00% on 4 November",
+          "Bank of Canada hiked to 2.50% on 28 October [18]",
+          "US 10-year 4.98% (29 October), 4.925% on 2 November [12][21]"
+        ],
+        "what_is_priced": "Futures price a Fed path about 50-60bp above the median dot for late 2027, so the strategic risk is a repricing lower if inflation follows the Fed's projection. Our base case is one hike in December and a hold to at least April 2027, which removes 25-50bp from the priced path and narrows the dollar's carry lead as peers hike.",
+        "citations": [
+          3,
+          5,
+          12,
+          18,
+          21
+        ]
+      },
+      "horizon_split_explanation": "Tactically the December hike is likely and the front-end spreads are wide, so carry dominates; strategically the market already prices more hikes than the Fed projects while peers tighten, so the advantage narrows. The stance moves from Bullish to Neutral because the same spreads that support the dollar for four weeks are compressing over six months.",
+      "carry_analysis": {
+        "carry_vs_peers": [
+          {
+            "vs_currency": "EUR",
+            "annualised_carry_bps": 137.5,
+            "carry_to_vol_ratio": 0.3,
+            "interpretation": "EUR/USD 60-day realised volatility 4.59%; long USD against the euro earns 137.5bp a year, about 13 pips a month at 1.11674."
+          },
+          {
+            "vs_currency": "JPY",
+            "annualised_carry_bps": 262.5,
+            "carry_to_vol_ratio": 0.34,
+            "interpretation": "USD/JPY 60-day realised volatility 7.72%; carry of 262.5bp a year is about 34 pips a month, but intervention above 160 caps the spot payoff [26]."
+          },
+          {
+            "vs_currency": "GBP",
+            "annualised_carry_bps": 12.5,
+            "carry_to_vol_ratio": 0.03,
+            "interpretation": "GBP/USD 60-day realised volatility 4.67%; carry is negligible and turns negative if the BoE hikes on 5 November."
+          },
+          {
+            "vs_currency": "CHF",
+            "annualised_carry_bps": 387.5,
+            "carry_to_vol_ratio": 0.58,
+            "interpretation": "USD/CHF 60-day realised volatility 6.65%; the franc is the best funding currency in G10, about 27 pips a month at 0.82432."
+          },
+          {
+            "vs_currency": "CAD",
+            "annualised_carry_bps": 137.5,
+            "carry_to_vol_ratio": 0.32,
+            "interpretation": "USD/CAD 60-day realised volatility 4.24%; the gap narrowed by 25bp after the Bank of Canada's hike [18]."
+          },
+          {
+            "vs_currency": "AUD",
+            "annualised_carry_bps": -72.5,
+            "carry_to_vol_ratio": -0.12,
+            "interpretation": "AUD/USD 60-day realised volatility 5.89%; long USD pays 72.5bp a year, rising to 97.5bp if the RBA hikes on 3 November."
+          },
+          {
+            "vs_currency": "NZD",
+            "annualised_carry_bps": 112.5,
+            "carry_to_vol_ratio": 0.16,
+            "interpretation": "NZD/USD 60-day realised volatility 6.86%; positive carry for the dollar, narrowing if the RBNZ hikes in December."
+          },
+          {
+            "vs_currency": "NOK",
+            "annualised_carry_bps": -62.5,
+            "carry_to_vol_ratio": -0.1,
+            "interpretation": "USD/NOK 60-day realised volatility 6.03%; the dollar pays 62.5bp against the krone, which also has the oil tailwind."
+          },
+          {
+            "vs_currency": "SEK",
+            "annualised_carry_bps": 212.5,
+            "carry_to_vol_ratio": 0.3,
+            "interpretation": "USD/SEK 60-day realised volatility 7.01%; carry of 212.5bp falls to 187.5bp if the Riksbank hikes on 4 November."
+          },
+          {
+            "vs_currency": "SGD",
+            "annualised_carry_bps": 257.8,
+            "carry_to_vol_ratio": 0.89,
+            "interpretation": "USD/SGD 60-day realised volatility 2.89%; the highest carry-to-volatility ratio for the dollar, against three-month SORA of 1.2970%."
+          }
+        ],
+        "carry_regime": "Carry is working for the dollar against low-yielders: the dollar gained 3.27% against the euro and 4.68% against the New Zealand dollar over three months while earning 112.5-137.5bp. It is not working against higher- or similar-yielders with commodity support, where the dollar lost 4.49% to the krone and 1.45% to the Australian dollar in October. All ratios are carry over 60-day realised volatility; implied-volatility ratios using CME one-month at-the-money volatility are 0.23 against the euro (5.88%) and 0.37 against the yen (7.16%) [27].",
+        "breakeven_move": "Long USD against the euro earns about 154 pips a year at 1.11674: EUR/USD can rise 13 pips in a month, 38 pips in three months or 77 pips in six before the carry is erased. Against the yen the cushion is about 0.35 yen a month and 2.07 yen over six months; against the franc about 27 pips a month."
+      },
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null,
+      "block": "Rates"
+    },
+    {
+      "factor_number": 2,
+      "factor_name": "Inflation & Growth Dynamics",
+      "tactical_weight": 0.18,
+      "strategic_weight": 0.1,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 57,
+        "analysis": "US growth is running well above trend: the advance estimate put third-quarter real GDP at 3.4% annualised, up from 2.2%, with real final sales to private domestic purchasers at 4.9%, and the Atlanta Fed tracks the fourth quarter at 3.2-3.3% [5][6]. Inflation is elevated and the composition argues for persistence: September PCE prices rose 0.5% m/m and 3.6% y/y, core PCE 0.3% m/m and 3.1% y/y, and the Fed's 2% target is 110bp away on its preferred measure [7]. CPI tells the same story with an energy shock on top: headline CPI rose 0.6% m/m to 3.7% y/y on a 5.2% jump in energy, while core CPI was 2.6% y/y with a three-month annualised pace of 3.4% [8]. The drivers are mainly cost-push from energy, with Brent up about 15% in October, but services ex energy at 3.1% y/y and ISM prices paid at 77.9 show second-round pressure building [8][10][29]. The labour market is the soft spot: September payrolls rose only 29,000, July and August were revised down by 60,000, unemployment rose to 4.2% and average hourly earnings grew 3.0% y/y, below inflation [9]. Leading indicators remain strong, with ISM manufacturing at 54.5, new orders at 55.3 and the S&P Global flash composite PMI at 57.6 against 51.9 in the euro area, a 5.7-point growth lead that is the core of the exceptionalism case [10][11]. Consensus for 6 November is +55,000 payrolls and 4.2% unemployment; we expect 40,000-70,000, so the risk of a downside surprise large enough to unwind December pricing is limited [5]. For the next four weeks strong activity plus sticky inflation keeps the Fed hawkish and the growth differential with Europe wide, which is dollar-positive.",
+        "key_data_points": [
+          "Q3 real GDP +3.4% annualised (0.8% q/q), Q2 2.2%; real final sales to private domestic purchasers 4.9% [6]",
+          "September PCE 3.6% y/y; core PCE 3.1% y/y, +0.3% m/m [7]",
+          "September CPI 3.7% y/y (+0.6% m/m); core CPI 2.6% y/y, 3.4% three-month annualised [8]",
+          "Payrolls +29,000 in September; -60,000 two-month revision; unemployment 4.2%; average hourly earnings +3.0% y/y [9]",
+          "ISM manufacturing 54.5, prices paid 77.9, new orders 55.3 (September) [10]",
+          "S&P Global flash PMIs (October): services 57.9, manufacturing 56.0, composite 57.6; euro-area composite 51.9 [5][11]",
+          "Consensus October payrolls +55,000, unemployment 4.2%, earnings +0.3% m/m [5]"
+        ],
+        "what_is_priced": "The market prices growth near 3% and core PCE stuck above 3%, which is why December is 77-85% priced. The surprise risk is asymmetric to the downside only in payrolls; activity and price surveys point to firm prints, and the October CPI on 10 November is more likely to confirm than to undermine the hike.",
+        "citations": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "strategic": {
+        "stance": "Bullish",
+        "confidence": 54,
+        "analysis": "Over six months the US retains a growth lead over the large economies that dominate the dollar index: GDP growth of 2.07% y/y compares with 1.3% in the euro area, 0.73% in Japan, 1.37% in the UK and 0.95% in Canada, and its 0.83% quarterly pace is the third highest in G10+SGD after Switzerland and Singapore, although Sweden, Switzerland and New Zealand grow faster on a yearly basis. Productivity is carrying the expansion, which the FOMC statement called strong, and capital investment linked to AI remains robust, so potential growth looks higher than in previous cycles [1]. Inflation is likely to stay above target through mid-2027: the Fed projects core PCE at 3.4% for 2026 and 2.5% for 2027, and with Brent above US$110 the energy pass-through has further to run [3][29]. Third-quarter core PCE rose only 2.5% annualised, down from 3.3%, which suggests the underlying trend is improving even as the monthly pace has picked up again [6]. The weak spot is employment: three-month average payroll growth is about 51,000 and real average hourly earnings fell 0.7% y/y, so consumer spending relies on a 3.8% saving rate that has little room to fall further [7][8][9]. Consumer sentiment is depressed, with the Michigan index at 48.0 and one-year inflation expectations at 4.7%, a combination that points to slower real consumption in the first half of 2027. Even so, a slowdown from 3.4% to 2% would leave the US growing faster than Europe and Japan, so the relative growth signal remains dollar-positive. We are Bullish with lower confidence than tactically because the labour market could crack, and a rise in unemployment to 4.5% would shift the Fed's reaction function quickly.",
+        "key_data_points": [
+          "GDP 2.07% y/y (Q3) vs euro area 1.3%, Japan 0.73%, UK 1.37%, Canada 0.95%",
+          "Q3 core PCE 2.5% annualised (Q2 3.3%); September core PCE 3.1% y/y [6][7]",
+          "Fed projects core PCE 3.4% (2026), 2.5% (2027) [3]",
+          "Three-month average payrolls about 51,000; real average hourly earnings -0.7% y/y [8][9]",
+          "Personal saving rate 3.8% (September) [7]",
+          "Michigan sentiment 48.0, one-year inflation expectations 4.7% (October)"
+        ],
+        "what_is_priced": "Markets price US growth outperformance and above-target inflation into 2027, consistent with a funds rate near 4.7% by September 2027. We expect growth to slow towards 2% and core PCE to trend down to about 2.7% by April 2027, so the growth lead stays but the inflation argument for further hikes weakens.",
+        "citations": [
+          1,
+          3,
+          6,
+          7,
+          8,
+          9,
+          29
+        ]
+      },
+      "horizon_split_explanation": "Both horizons are Bullish. Confidence is lower strategically because the labour market is already soft and a rise in unemployment would undercut the inflation argument; tactically the data calendar is dominated by firm activity and price prints.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null,
+      "block": "Macro"
+    },
+    {
+      "factor_number": 3,
+      "factor_name": "Risk Appetite & Sentiment",
+      "tactical_weight": 0.1,
+      "strategic_weight": 0.05,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 54,
+        "analysis": "Risk appetite turned more cautious at the end of October: the VIX closed at 17.2 on 29 October, the 52nd percentile of a year, and traded at 20.05 midday on 30 October as the S&P 500 fell 1.8% and the Nasdaq 3.5% on disappointing technology earnings [4][30]. The S&P 500 finished 30 October in a 7,580-7,623 range (best available, flagged: sources differ on the close), about 2.8% below its October record of 7,844.67 and roughly 11% higher over a year [30]. Credit has widened quietly: the US investment-grade option-adjusted spread is 89bp, the 96th percentile of a year, and high yield 326bp, the 95th percentile, up 5bp and 18bp in a month [31]. The regime is transitioning from risk-on to cautious, driven by doubts over AI capital spending, an oil shock and the prospect of US strikes on Iran after the midterms [29]. On the dollar smile the US sits on the right side, with exceptional growth, while the energy war and widening credit spreads pull towards the left side, which should be dollar-positive in theory. In practice the dollar did not rally on the 30 October sell-off: the DXY fell from 102.04 to 101.91 that day as the yen and franc absorbed haven demand and gold fell 3.6%, so the dollar's safe-haven beta is currently weak [29]. US equities still outperform: the S&P 500 is up about 11% over a year against a euro area economy whose PMI is 5.7 points weaker, which keeps foreign equity inflows supportive [11]. With the haven channel muted and the growth channel positive, we hold the factor Neutral tactically, awaiting evidence that a risk-off shock lifts the dollar rather than the yen.",
+        "key_data_points": [
+          "VIX 17.2 (29 October close, 52nd percentile of a year); 20.05 midday 30 October [4]",
+          "S&P 500 -1.8% on 30 October; 7,580-7,623 (best available, flagged); record 7,844.67 in October [30]",
+          "US IG OAS 89bp (96th percentile of a year), +5bp in a month [31]",
+          "US HY OAS 326bp (95th percentile of a year), +18bp in a month",
+          "DXY -0.13% on 30 October while the S&P 500 fell 1.8%: no haven bid",
+          "Gold US$3,875.53 on 30 October, a one-year low [29]"
+        ],
+        "what_is_priced": "Credit spreads at the 95th-96th percentile of a year already price some deterioration, while the VIX near 17-20 prices little. The dollar's weak response to the 30 October sell-off suggests markets are not paying for its haven role, so a genuine shock could produce a larger dollar rally than expected, but we need to see it before leaning on it.",
+        "citations": [
+          4,
+          11,
+          29,
+          30,
+          31
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 52,
+        "analysis": "Over six months the risk factor is two-sided for the dollar. A deeper AI-led equity correction would hit US assets first, because the US accounts for most of the AI capital spending that has driven the S&P 500 to records, and that would weaken the US-exceptionalism side of the smile [30]. At the same time, an escalation in the Gulf after the midterms or a disorderly widening in credit would push the dollar to the left side of the smile, where funding demand and Treasury buying typically dominate [29]. The two shocks are partly correlated, which makes the net effect hard to sign: an oil spike above US$130 would damage European and Japanese terms of trade more than US ones, while an equity bust would reduce foreign demand for US stocks. Corporate credit spreads at 89bp investment-grade and 326bp high yield are wider than a year ago but still low relative to stress episodes, so the system has room to absorb shocks [31]. Real money is long US equities and underhedged on the currency, according to ING, so a risk-off move led by US assets could trigger dollar selling through higher hedge ratios [24]. That hedging channel is the main reason the dollar did not rally on the 30 October sell-off, and it would matter more in a prolonged correction than in a short shock. We therefore keep the strategic factor Neutral at lower confidence than tactically.",
+        "key_data_points": [
+          "US IG OAS 89bp, HY OAS 326bp (29 October) [31]",
+          "S&P 500 about 2.8% below its October record of 7,844.67 [30]",
+          "Brent US$117.64 on 30 October, fourth monthly gain [29]",
+          "ING: global investors run low hedge ratios on US assets, the main dollar risk [24]",
+          "VIX one-year range 13.47-31.05; latest close 17.2",
+          "DXY fell 0.13% on the 30 October equity sell-off"
+        ],
+        "what_is_priced": "Markets price a soft landing for risk assets with mildly wider credit spreads. We see a 25-30% chance of a correction of more than 10% in US equities within six months, which would weigh on the dollar through hedging rather than lift it, offset by the haven bid from an oil shock.",
+        "citations": [
+          24,
+          29,
+          30,
+          31
+        ]
+      },
+      "horizon_split_explanation": "Both horizons are Neutral; tactical confidence is higher because the next four weeks contain specific shock dates (the midterms and possible US strikes on Iran) whose direction for the dollar is easier to judge than the six-month interaction between an equity correction and hedging flows.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null,
+      "block": "Risk"
+    },
+    {
+      "factor_number": 4,
+      "factor_name": "Flows & Positioning",
+      "tactical_weight": 0.1,
+      "strategic_weight": 0.06,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 52,
+        "analysis": "CFTC data for the week to 27 October show leveraged funds net long 3,158 ICE US Dollar Index contracts, flat on the week (-25) after building from a net short of 4,495 on 22 September (best available, flagged: the ICE dollar-index positions were not displayed on the CFTC financial-futures page consulted on 2026-11-02, where the euro figures below were confirmed) [28]. Asset managers are net long 16,713 DXY contracts, down 307 on the week, and non-commercial traders net long 14,121, down 923, so the dollar index futures show moderate, slightly fading length. The broader picture from the six CME currency futures is larger: leveraged funds are net short the foreign currencies by about USD 15.9bn at 30 October spot, up from USD 14.3bn, led by a 71,574-contract euro short and a 96,747-contract Canadian dollar short. Asset managers diverge, holding about USD 7.9bn net long foreign currencies, including 173,249 euro contracts and 91,191 yen contracts, so real money has not joined the dollar rally. Percentiles put leveraged-fund DXY length at the 87th of one year, 73rd of three years and 71st of five; non-commercial length is at the 83rd, 77th and 57th, which is elevated but below the 90th-percentile threshold that has marked dollar tops. Total open interest across the six currency futures is 2,317,589 contracts, near the middle of its range since May, so engagement is normal rather than euphoric. Options confirm the bias without excess: one-month 25-delta risk reversals on euro futures options are -0.30 vols and on yen futures options -1.93 vols, so options on both futures price the foreign currency's puts over its calls, that is dollar calls bid, more strongly against the yen than the euro [27]. Over four weeks positioning is neither a strong tailwind nor a crowded trade, so we hold the factor Neutral.",
+        "key_data_points": [
+          "ICE DXY leveraged funds net +3,158 contracts (week to 27 October), -25 on the week [28]",
+          "ICE DXY asset managers net +16,713 contracts; non-commercial net +14,121 (-923)",
+          "Six CME currency futures: leveraged funds long USD about USD 15.9bn (prior USD 14.3bn); asset managers short USD about USD 7.9bn",
+          "DXY non-commercial percentile: 83rd (1 year), 77th (3 years), 57th (5 years)",
+          "Open interest, six CME currency futures: 2,317,589 contracts",
+          "EUR futures options 1M 25-delta risk reversal -0.30 vols; yen -1.93 vols (29 October) [27]"
+        ],
+        "what_is_priced": "Fast money has priced the December hike into a moderate dollar long, while real money remains long euros and yen. The asymmetry is small: a good payroll print could add a further USD 3-5bn of leveraged length, a bad one could unwind the five-week build of about 7,600 DXY contracts.",
+        "citations": [
+          27,
+          28
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 51,
+        "analysis": "Over six months the flow picture leans against the dollar even though speculative positioning is only moderately long. The dollar's share of allocated reserves fell to 56.70% in Q2 2026 from 57.18% while the euro's share rose to 20.60%, and the IMF says valuation effects were limited, so the decline reflects allocation rather than price moves [35]. Foreign private investors remain heavy buyers of US securities, with net long-term purchases of USD 300.7bn in August, but foreign holdings of Treasury bills fell USD 47.8bn and official inflows were only USD 21.3bn [34]. ING identifies low hedge ratios on US assets as the main risk for the dollar, and with US equities 2.8% off their highs and the Fed near the end of its cycle, the incentive to raise hedge ratios grows as the rate differential narrows [24][30]. Raising hedge ratios means selling dollars forward without selling the underlying assets, which can weaken the dollar even when portfolio inflows continue. Speculative DXY length at the 57th-71st percentile of five years leaves room for further buying if the Fed surprises hawkishly, but the five-week build from -4,495 to +3,158 leveraged contracts has used up the clean short-covering fuel. Asset managers' USD 7.9bn net long in foreign currency futures is the stickier position, and it has held through the September-October dollar rally. We are Bearish strategically at modest confidence: reserve diversification and hedging flows are slow-moving negatives, offset only partly by strong private portfolio inflows.",
+        "key_data_points": [
+          "IMF COFER: USD share 56.70% in Q2 2026, from 57.18% in Q1; euro 20.60% [35]",
+          "TIC August: net long-term purchases USD 300.7bn; official USD 42.9bn; bill holdings -USD 47.8bn [34]",
+          "ICE DXY leveraged funds +3,158 contracts, from -4,495 on 22 September [28]",
+          "DXY leveraged-fund percentile 71st of five years; five-year range -24,785 to +26,733",
+          "Asset managers long foreign currency futures by about USD 7.9bn",
+          "ING: low hedge ratios on US assets are the main dollar risk [24]"
+        ],
+        "what_is_priced": "The market treats reserve diversification as glacial and foreign portfolio demand as reliable. We think hedge-ratio increases as the Fed approaches its peak are an underpriced source of dollar supply over six months, worth 1-2% on the index if they materialise.",
+        "citations": [
+          24,
+          28,
+          30,
+          34,
+          35
+        ]
+      },
+      "horizon_split_explanation": "Tactically positioning is moderate and balanced between a fast-money dollar long and real-money euro and yen longs, so it gives no signal; strategically reserve diversification and hedging flows add a slow but persistent dollar supply, so the stance moves to Bearish at low confidence.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": "Stretched for the dollar index begins near the 90th percentile of one year for leveraged funds, roughly +12,000 to +15,000 contracts; at +3,158 and the 87th percentile on a one-year basis, positioning is close to but not inside that zone, and on five years it is only the 71st percentile. An unwind would most plausibly come from a payroll print below zero on 6 November, a soft October CPI on 10 November or a Democratic sweep on 3 November that revives tariff risk, each of which would cut December pricing [5][24]. The squeeze would be modest: the five-week build of about 7,600 contracts is small next to the five-year range of 51,500 contracts, so we would expect a 0.8-1.2% DXY setback rather than a disorderly move. The contrarian case is that the consensus long dollar is a rate trade with a short shelf life, and the real-money euro and yen longs show the other side is still positioned for the dollar to weaken. As a signal, current positioning is neutral: it neither offers short-covering fuel nor is crowded enough to fade.",
+      "contrarian_analysis_strategic": "On a six-month view the relevant crowding is not in futures but in unhedged foreign holdings of US assets, which ING flags as the main dollar risk [24]. If the Fed's last hike comes in December and the market's 4.7% path for 2027 is repriced towards the 4.1% median dot, the hedging cost falls by 25-50bp and the incentive to hedge rises. A historical analogue is the period after the end of a Fed tightening cycle, when the dollar typically weakened as hedge ratios rose rather than as assets were sold. The contrarian case for the dollar is that a hawkish surprise to 4.50% by March would widen the carry and force asset managers to cut their USD 7.9bn foreign-currency long. On balance positioning and flows are a mild bearish signal over six months.",
+      "block": "Flows",
+      "expression_assessment": null
+    },
+    {
+      "factor_number": 5,
+      "factor_name": "External Balance & Terms of Trade",
+      "tactical_weight": 0.06,
+      "strategic_weight": 0.16,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 54,
+        "analysis": "The US current account deficit widened to USD 246.0bn, 3.0% of GDP, in Q2 2026 from USD 212.6bn and 2.7% in Q1, with a larger goods deficit only partly offset by narrower primary and secondary income deficits [33]. Monthly trade data point to further widening: the August trade deficit was USD 105.6bn against USD 92.8bn in July, and the advance September goods deficit was USD 134.9bn. The terms of trade are moving in the US favour because the country is a net energy exporter: WTI settled at US$104.12 and Brent at US$117.64 on 30 October, up about 12% and 15% in the month, while Henry Hub spot gas is only US$2.76 [29]. That oil shock damages the euro area, Japan and Singapore far more than the US, but it helps the krone and the Canadian dollar more than the dollar, which is why the dollar lost 4.49% to the krone in October. Capital flows are strong: foreigners bought a net USD 300.7bn of long-term US securities in August and the total TIC inflow was USD 199.8bn, enough to finance the current account several times over [34]. Trade policy is the swing factor: refunds of about USD 130bn of the USD 166bn in eligible tariffs were paid from May to September, and a change of House control could shift trade policy again [24][36]. Over four weeks these forces largely net out against the G10 average: positive terms of trade and inflows against the euro and yen, negative against the petro-currencies. We hold the factor Neutral tactically.",
+        "key_data_points": [
+          "Current account deficit USD 246.0bn, 3.0% of GDP (Q2 2026); Q1 2.7% [33]",
+          "Trade deficit USD 105.6bn (August); goods deficit USD 134.9bn (September advance)",
+          "WTI US$104.12, Brent US$117.64 (30 October); Henry Hub US$2.76 [29]",
+          "TIC August: net long-term inflows USD 300.7bn; total USD 199.8bn [34]",
+          "NIIP -USD 22.42tn at end-Q2 (end-Q1 -USD 21.27tn) [33]",
+          "Tariff refunds about USD 130bn of USD 166bn eligible paid May-September [36]"
+        ],
+        "what_is_priced": "Markets price the oil shock as a terms-of-trade win for the US relative to Europe and Japan, visible in EUR/USD near its 52-week low. They do not price a further widening of the current account deficit towards 3.5% of GDP, which we expect from the September goods data, but that is a strategic rather than a four-week issue.",
+        "citations": [
+          24,
+          29,
+          33,
+          34,
+          36
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 52,
+        "analysis": "Over six months the external balance is a structural drag on the dollar. The current account deficit of 3.0% of GDP is the largest in absolute terms in the world and the third largest relative to GDP in G10+SGD after Australia (3.67%) and New Zealand (3.26%), and the September goods deficit of USD 134.9bn suggests Q3 will be wider [33]. The net international investment position deteriorated by USD 1.15tn in a single quarter to -USD 22.42tn, so the US must attract ever larger capital inflows to sustain the dollar [33]. Twin deficits are widening together, with the federal deficit at 6.2% of GDP in FY2026, which historically accelerates dollar weakness once the rate advantage stops widening [36]. Reserve managers are already diversifying, with the dollar's COFER share down 48bp in a quarter to 56.70% [35]. Against this, the energy shock improves US terms of trade relative to every major importer, and an oil price above US$100 recycles petrodollars into US assets. Private inflows of USD 257.8bn in August show that the deficit is financed comfortably for now, which is why the deficit has not weighed on the dollar this year [34]. We are Bearish at modest confidence: the deficit is financed while US yields are 4.6-5.0%, but as peers raise rates the required compensation rises and the balance shifts against the dollar.",
+        "key_data_points": [
+          "Current account -3.0% of GDP; Australia -3.67%, New Zealand -3.26%, euro area +1.92%, Japan +5.03% [33]",
+          "NIIP -USD 22.42tn, -USD 1.15tn in Q2 [33]",
+          "Federal deficit 6.2% of GDP, FY2026 [36]",
+          "COFER dollar share 56.70%, -48bp in Q2 [35]",
+          "Private long-term inflows USD 257.8bn (August) [34]",
+          "Brent US$117.64, fourth straight monthly gain [29]"
+        ],
+        "what_is_priced": "The market prices the deficit as fully financed by high US yields. We expect the current account to widen to about 3.3-3.5% of GDP and capital inflows to become more rate-sensitive as the Fed's lead narrows, which is not in the price.",
+        "citations": [
+          29,
+          33,
+          34,
+          35,
+          36
+        ]
+      },
+      "horizon_split_explanation": "Tactically the terms-of-trade gain and strong inflows offset the deficit against the G10 average, so the factor is Neutral; strategically the current account and investment-position deterioration accumulate while the rate advantage that finances them narrows, so the stance turns Bearish. The higher strategic weight (0.16) makes this the largest strategic drag.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null,
+      "block": "External"
+    },
+    {
+      "factor_number": 6,
+      "factor_name": "Guidance & Credibility",
+      "tactical_weight": 0.07,
+      "strategic_weight": 0.12,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "analysis": "The 28 October statement was hawkish in tone: it said inflation 'remains elevated', described activity as 'expanding at a strong pace', upgraded from 'solid', and ended with 'The Committee will deliver price stability' [1][5]. Two governors, Cook and Hammack, dissented for an immediate hike, so the hawkish wing of the Committee is visible and voting [1]. Chair Warsh, at his press conference, declined to pre-judge December and said he does not believe in forward guidance outside a crisis, which removes the explicit signalling the market relied on under his predecessor [3]. He also said he was not uncomfortable with tighter financial conditions and that it is the Fed's responsibility to get inflation down after close to six years above goal [3][5]. The market has accepted the hawkish message: December pricing rose to about 85% after the press conference before settling at 77.3% on 30 October, above the 12-of-18 majority that projected one more hike in September [3][4]. The gap between the Fed's projected path and market pricing is therefore positive for December but already wide beyond it, with futures near 4.7% by September 2027 against a median dot of 4.1% [3]. The next communication events are the minutes on 18 November and a speech by Vice Chair for Supervision Bowman on 6 November, and the minutes will show how close the October decision was [20]. With hawkish language balanced by the absence of guidance and pricing already ahead of the dots, we hold the factor Neutral tactically.",
+        "key_data_points": [
+          "Statement 28 October: 'Inflation remains elevated'; 'The Committee will deliver price stability' [1]",
+          "Vote 10-2; Cook and Hammack preferred +25bp [1]",
+          "Warsh: no forward guidance outside a crisis; will not pre-judge December [3]",
+          "Market path about 4.7% by September 2027 vs median dot 4.1%: about 60bp gap [3]",
+          "December hike 77.3% priced (30 October) [4]",
+          "Next events: Bowman speech 6 November; minutes 18 November [20]"
+        ],
+        "what_is_priced": "The market believes the hawkish message and prices more than the Fed projects. The minutes could show a broader hawkish majority than the two dissents, but with no forward guidance from the Chair the market will rely on data, so the factor adds little directional edge over four weeks.",
+        "citations": [
+          1,
+          3,
+          4,
+          5,
+          20
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 53,
+        "analysis": "Over six months credibility is the Fed's strongest asset and its main question mark. The Committee has delivered on its words: it hiked on 16 September, held with hawkish dissents in October and kept the 'deliver price stability' commitment, which supports the dollar against central banks that are only now turning hawkish [1]. Inflation has been above target for close to six years, however, and the September projections show core PCE at 3.4% this year, so the Fed's credibility rests on actually reaching 2.5% in 2027 [3]. Chair Warsh's rejection of forward guidance increases meeting-by-meeting volatility and makes the 9 December projections, the first under the new approach, the key strategic signal [3]. The political context is supportive for now: Treasury Secretary Bessent said further hikes would not necessarily be mistakes, which reduces the risk that the administration openly pressures the Fed before the 2027 decisions [5]. After the midterms, a Democratic House would increase oversight of the Fed but would not change its leadership, so we see little direct change to independence risk. The longer-run dot at 3.2% shows the Committee expects to cut eventually, and the market's 4.7% path for late 2027 is closer to the hawkish dissenters than to the median, so a dovish repricing is the more likely surprise over six months [3]. We hold Neutral: the Fed is credible and hawkish, but the market already prices more than its median member and the absence of guidance makes the path uncertain.",
+        "key_data_points": [
+          "Hike on 16 September; hold with two hawkish dissents on 28 October [1]",
+          "Median dots: 4.1% end-2026 and end-2027; 3.2% longer run [3]",
+          "Core PCE projections: 3.4% (2026), 2.5% (2027), 2.2% (2028) [3]",
+          "Bessent: further hikes 'not necessarily' mistakes [5]",
+          "Next projections: 9 December FOMC",
+          "Market path about 60bp above the median dot by late 2027 [3]"
+        ],
+        "what_is_priced": "Markets price a Fed more hawkish than its median member through 2027. If the December projections confirm a single further hike and a hold, the priced path falls 25-50bp and the dollar loses part of its rate premium; if the dots move up to the market, the dollar gains.",
+        "citations": [
+          1,
+          3,
+          5
+        ]
+      },
+      "horizon_split_explanation": "Both horizons are Neutral. Tactical confidence is slightly higher because the October statement and dissents are known and the minutes are the only near-term event; strategically the December projections, the first under the Chair's no-guidance approach, can move the priced path either way.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null,
+      "block": "Rates"
+    },
+    {
+      "factor_number": 7,
+      "factor_name": "Event Risk & Geopolitics",
+      "tactical_weight": 0.05,
+      "strategic_weight": 0.05,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "analysis": "The first binary event is the 3 November midterm election, in which all 435 House seats and 35 Senate seats are contested; Polymarket put the Democrats at 94% to win the House and 69% the Senate, with a Democratic sweep at 70% [5]. OFX's framework is that divided government is broadly neutral to modestly negative for the dollar, while a change of control in both chambers raises volatility and the risk of dollar weakness [32]. ING flags that a Republican loss of the House could push the administration back towards trade policy, which it sees as dollar-negative [24]. The second event is the Iran war, now in its ninth month: two tankers were struck in the Strait of Hormuz within 24 hours on 29-30 October, and the President said the US would not strike Iran before the midterms, leaving the period after 3 November open [29]. Qatari mediators returned to Tehran on 30 October, so the outcomes range from a deal that takes Brent below US$100 to strikes that take it above US$130 [29]. A strike would most likely lift the dollar against the euro, yen and Asian importers but weaken it against the krone and the Canadian dollar, so the G10-average effect is smaller than the headline. The third is US intervention policy: the joint Japan-US intervention when USD/JPY passed 160 in late July means the dollar's upside against the yen is managed by both governments, an unusual cap [26]. We assign about 20% to a US strike within four weeks and 15% to a ceasefire, and with the midterm result largely priced the factor is Neutral tactically.",
+        "key_data_points": [
+          "3 November midterms: Polymarket Democratic House 94%, Senate 69%, sweep 70% [5]",
+          "Divided Congress: dollar stable to modestly weaker; change of both chambers: volatility and weakness (OFX) [32]",
+          "Two tankers struck in Hormuz on 29-30 October; war in ninth month [29]",
+          "US strike on Iran within four weeks: our estimate 20%; ceasefire 15%",
+          "Joint Japan-US intervention above USD/JPY 160 in late July [26]",
+          "EUR/USD one-month implied volatility 5.88% vs 20-day realised 4.74%: 1.1-vol event premium [27]"
+        ],
+        "what_is_priced": "A Democratic House is close to fully priced and options carry a modest 1.1-vol event premium. The underpriced tail is a US strike on Iran after 3 November, which we think would add 0.5-1.0% to the DXY through the euro and yen legs even as it weakens the dollar against oil exporters.",
+        "citations": [
+          5,
+          24,
+          26,
+          27,
+          29,
+          32
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 50,
+        "analysis": "Over six months the event map has three branches. Trade policy could return: ING expects a Republican loss of the House to push the administration towards trade actions, and tariffs have already been unwound in part, with about USD 130bn of refunds paid from May to September [24][36]. Renewed tariffs were dollar-positive in 2018 through terms of trade but dollar-negative in 2025 through confidence in US assets, so the sign is uncertain. The Gulf conflict could escalate or settle: a deal would remove the energy premium that has helped the dollar against the euro and yen, while a prolonged closure of Hormuz would deepen Europe's and Japan's terms-of-trade shock [29]. Fiscal deadlines could reappear with a divided Congress, which raises the chance of a government shutdown in 2027 and of brinkmanship over spending. Intervention coordination with Japan above 160 limits the dollar's upside in its second-largest index component [26]. Tail risks with more than 2% FX impact include a US-Iran deal (we estimate 25% within six months, DXY -1.5% to -2.5%), a sustained Hormuz closure (15%, DXY +2% against importers), and a broad tariff escalation (15%, sign uncertain). These offset each other, so we hold the factor Neutral.",
+        "key_data_points": [
+          "US-Iran deal within six months: our estimate 25%; DXY impact -1.5% to -2.5%",
+          "Sustained Hormuz closure: 15%; DXY +2% against energy importers [29]",
+          "Broad tariff escalation after the midterms: 15%; sign uncertain [24]",
+          "Tariff refunds about USD 130bn paid May-September 2026 [36]",
+          "USD/JPY intervention line near 160 [26]",
+          "Polymarket Democratic sweep probability 70% [5]"
+        ],
+        "what_is_priced": "Options price low event volatility beyond the next month, with six-month EUR/USD implied volatility at 6.65%. We think the distribution of geopolitical outcomes is wider than that, but not skewed clearly for or against the dollar.",
+        "citations": [
+          5,
+          24,
+          26,
+          29,
+          36
+        ]
+      },
+      "horizon_split_explanation": "Both horizons are Neutral at the same confidence: the midterm outcome is priced, and the dominant tail, the Iran war, cuts both ways for the dollar because it hurts energy importers in the index while helping oil exporters outside it.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null,
+      "block": "Event"
+    },
+    {
+      "factor_number": 8,
+      "factor_name": "Fiscal & Sovereign Risk",
+      "tactical_weight": 0.04,
+      "strategic_weight": 0.07,
+      "tactical": {
+        "stance": "Neutral",
+        "confidence": 55,
+        "analysis": "The federal deficit was USD 2.0tn in FY2026, 6.2% of GDP, up from 5.8% in FY2025, as outlays grew 6% and revenue 3%, according to CBO's September budget review [36]. Debt held by the public is about USD 32.3tn, 100% of GDP, and interest costs reached about USD 1.1tn, 3.4% of GDP, roughly a fifth of federal revenue of USD 5.4tn [36][37]. Interest payments rose USD 115bn, or 11%, in a year, and customs receipts fell USD 22bn as about USD 130bn of tariffs were refunded from May to September [36]. The ratings are stable one notch below AAA: S&P affirmed AA+ in June, citing solid growth and credible monetary policy, and all three agencies carry stable outlooks [38]. The quarterly refunding on 4 November is the near-term supply event: Treasury borrowed USD 739bn in the third quarter and plans USD 628bn in the fourth, assuming an USD 850bn end-December cash balance, and the market will watch whether the promise to hold coupon sizes 'for at least the next several quarters' survives [5]. The 10-year at 4.98% and the 30-year at 5.32% sit at the 98th percentile of five years, so the bond market is charging a premium, but auctions are clearing and foreigners bought USD 300.7bn of long-term securities in August [12][34]. No free source publishes a US sovereign CDS spread, so the market's credit view is read from term yields instead. The next fiscal deadline is the 11 December expiry of the continuing resolution signed on 2 September, just beyond the four-week window, and with the refunding expected to be unchanged the fiscal factor is Neutral tactically [16].",
+        "key_data_points": [
+          "FY2026 deficit USD 2.0tn, 6.2% of GDP (FY2025 5.8%) [36]",
+          "Government funding expires 11 December under the continuing resolution signed 2 September [16]",
+          "Debt held by the public about USD 32.3tn, 100% of GDP [37]",
+          "Interest costs about USD 1.1tn, 3.4% of GDP; +11% in FY2026 [36][37]",
+          "Ratings: AA+ (S&P), Aa1 (Moody's), AA+ (Fitch), all stable [38]",
+          "Q4 borrowing estimate USD 628bn; refunding announcement 4 November [5]",
+          "10-year 4.98%, 30-year 5.32% (29 October), 98th percentile of five years [12]"
+        ],
+        "what_is_priced": "The refunding is expected to leave coupon sizes unchanged, and the long end already carries a high term premium. A surprise increase in coupon guidance would lift long yields and steepen the curve, which in this regime is more likely to weaken the dollar through fiscal concern than strengthen it through yield.",
+        "citations": [
+          5,
+          12,
+          16,
+          34,
+          36,
+          37,
+          38
+        ]
+      },
+      "strategic": {
+        "stance": "Bearish",
+        "confidence": 52,
+        "analysis": "Over six months the fiscal trajectory is a slow but real dollar negative. A deficit of 6.2% of GDP outside recession, interest costs at 3.4% of GDP and debt at 100% of GDP leave little room for fiscal support if growth slows, and the interest bill rises as low-coupon debt rolls over at 4.6-5.0% [36][37]. S&P noted that the rating could slip within two years if deficits rise because lawmakers cannot contain spending or manage the revenue effects of the tax code [38]. A Democratic House from January 2027 increases the odds of budget confrontations in 2027, and before that the lame-duck Congress must extend government funding that expires on 11 December [16]. The bond market has started to price this: the 30-year at 5.32% and the 10-year real yield at 2.63% are near the top of their five-year ranges, while 10-year breakevens are only 2.34%, so the premium is for term and fiscal risk rather than inflation [12]. Higher term premia have supported the dollar so far by raising yields, but a sharper fiscal premium would reverse that relationship, as it did for sterling in 2022. The tariff-refund episode, about USD 130bn of the USD 166bn eligible paid back from May to September, also shows that revenue measures can be reversed, which weakens the credibility of deficit projections [36]. We are Bearish at modest confidence because the deterioration is gradual and Treasury demand remains deep.",
+        "key_data_points": [
+          "Deficit 6.2% of GDP outside recession [36]",
+          "Interest costs 3.4% of GDP, about a fifth of revenue [37]",
+          "S&P: downgrade possible within two years if deficits rise [38]",
+          "30-year 5.32%, 10-year real 2.63%, 10-year breakeven 2.34% (29-30 October) [12]",
+          "Democratic House from January 2027: 94% priced [5]",
+          "Customs receipts -USD 22bn after tariff refunds [36]"
+        ],
+        "what_is_priced": "The long end prices fiscal risk through a term premium that has helped the dollar by raising yields. We think the next leg, if the deficit stays above 6% and budget fights return in early 2027, would push the term premium up without a matching rise in policy expectations, which is dollar-negative.",
+        "citations": [
+          5,
+          12,
+          16,
+          36,
+          37,
+          38
+        ]
+      },
+      "horizon_split_explanation": "Tactically there is no fiscal deadline and the refunding is expected to be routine, so the factor is Neutral; strategically the deficit, interest burden and political calendar accumulate into a term-premium risk that weighs on the dollar once the Fed stops hiking, so it turns Bearish.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null,
+      "block": "Fiscal"
+    },
+    {
+      "factor_number": 9,
+      "factor_name": "Market Structure & Volatility",
+      "tactical_weight": 0.05,
+      "strategic_weight": 0.03,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 52,
+        "analysis": "The DXY is in a trend regime: at 101.91 it sits 1.09% above its 50-day average of 100.81, 1.23% above the 100-day at 100.67 and 2.26% above the 200-day at 99.66, a bullish stack that has held since September. The 52-week high of 102.59 on 12 October and the 102.50 area that NAGA flags as the trigger for a broader dollar uptrend are the first resistance, with 103.00 above [25]. Support is at 101.44-101.64, the 2 November four-week low and the 22 October close, then the 50-day at 100.81 and the 100.00 round number [22]. Because the euro is 57.6% of the index, the DXY view is largely a EUR/USD view: EUR/USD at 1.11674 is at the 4th percentile of its 52-week range, below all its moving averages, with its 52-week low at 1.11068 just 61 pips away. CME one-month at-the-money implied volatility on EUR/USD is 5.88%, three-month 6.18% and six-month 6.65%, a contango curve, and the one-month level is at the 56th percentile of 41 observations since 23 August (best available, flagged: the 29 October CME quotes are not displayed on the cited product page) [27]. Twenty-day realised volatility on EUR/USD is 4.74% and 60-day 4.59%, so implied exceeds realised by about 1.1 vols, a premium for the midterms, payrolls and the December FOMC. The one-month 25-delta risk reversal is -0.30 vols on euro futures options, a mild bid for dollar calls, and -1.93 vols on yen options, where intervention near 160 makes the dollar's upside lumpy [26][27]. A trending, low-volatility regime with stacked averages favours continuation, so the factor is Bullish tactically.",
+        "key_data_points": [
+          "DXY 101.91 vs 50-day 100.81, 100-day 100.67, 200-day 99.66 (bullish stack)",
+          "Resistance 102.30, 102.50-102.59, 103.00; support 101.44-101.64, 100.81, 100.00 [22][25]",
+          "EUR/USD CME ATM implied volatility 5.88% (1M), 6.18% (3M), 6.65% (6M); 1M at the 56th percentile since 23 August [27]",
+          "EUR/USD realised volatility 4.74% (20-day), 4.59% (60-day): implied premium about 1.1 vols",
+          "EUR/USD 1M 25-delta risk reversal -0.30 vols; yen -1.93 vols [27]",
+          "DXY realised volatility 4.21% (20-day), 4.48% (60-day)"
+        ],
+        "what_is_priced": "Options price a quiet month with a small event premium and a mild dollar-call skew. A break above 102.59 would trigger trend-following buying that the 1.1-vol premium does not fully price; a break below 100.81 would do the opposite.",
+        "citations": [
+          22,
+          25,
+          26,
+          27
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 51,
+        "analysis": "Over six months the structure is supportive but mature. The DXY has risen 3.75% in six months and 5.9% from the 27 January low of 96.22, and the 200-day average at 99.66 is still rising, so the long-term trend is up. But the index's gain is narrow: against an equal-weighted G10+SGD basket the dollar fell about 1.3% in October and only gained about 0.9% over three months, while the DXY rose 2.1%, so the trend is a euro and yen story rather than a broad dollar trend. The yen leg is capped by intervention near 160, where USD/JPY's 52-week high near 163.9 on 29 July was followed by joint Japan-US action [26]. The euro leg is near its 52-week low of 1.11068, and the Reuters poll median of 1.15 at six months implies consensus expects a reversal [25]. Six-month EUR/USD implied volatility of 6.65% and a risk reversal of -0.78 vols show the options market leaning towards further dollar strength over the longer horizon, but not strongly [27]. A low-volatility trend can persist, yet a mature trend with narrow breadth and a policy cap on one leg has less room to run than its moving averages suggest. We are Neutral strategically.",
+        "key_data_points": [
+          "DXY +3.75% in six months; 52-week range 96.22-102.59",
+          "Equal-weighted G10+SGD dollar about -1.3% (1M) and +0.9% (3M) vs DXY +0.43% and +2.12%",
+          "EUR/USD 52-week low 1.11068, 61 pips below spot",
+          "Reuters poll median EUR/USD 1.15 at three and six months [25]",
+          "EUR/USD 6M implied volatility 6.65%, 6M risk reversal -0.78 vols [27]",
+          "USD/JPY 52-week high 163.98; intervention above 160 in late July [26]"
+        ],
+        "what_is_priced": "Six-month options price a continued, quiet dollar trend with a mild call skew. We think the narrow breadth and the intervention cap make the trend less durable than the moving averages imply, so the strategic edge is small.",
+        "citations": [
+          25,
+          26,
+          27
+        ]
+      },
+      "horizon_split_explanation": "Tactically the stacked averages and a nearby 52-week high favour continuation, so the factor is Bullish; strategically the trend is narrow, mature and capped in the yen leg, so the stance is Neutral.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": "EUR/USD implied volatility at the 56th percentile of its observed range since late August, with a 1.1-vol premium over realised, is neither cheap nor expensive, so options offer no clear advantage over spot for a directional dollar view. Realised volatility below implied favours spot or forward expression over buying options, and the dollar's carry of 137.5bp against the euro and 262.5bp against the yen rewards holding forwards. The term structure is in contango (5.88% at one month, 6.65% at six), so there is no near-term backwardation to fade; the event premium is spread across November and December. For the yen leg, the -1.93 vol risk reversal and intervention near 160 make capped structures more efficient than outright upside exposure. The cleanest tactical expression of dollar strength is short EUR/USD or long USD/CHF in spot or forwards, where the carry cushion is 13 and 27 pips a month.",
+      "block": "Structure"
+    },
+    {
+      "factor_number": 10,
+      "factor_name": "USD Liquidity & Funding",
+      "tactical_weight": 0.11,
+      "strategic_weight": 0.12,
+      "tactical": {
+        "stance": "Bullish",
+        "confidence": 53,
+        "analysis": "From the supply side the Fed is draining rather than adding dollars at the margin: reserve balances fell USD 68.8bn in the week to 28 October to a weekly average of USD 2,893.8bn, and are USD 45.7bn higher than a year earlier [15]. The drain is the Treasury General Account, which rose USD 47.7bn to USD 999.7bn on average and USD 1,015.6bn on 28 October, ahead of Treasury's USD 850bn end-December target [5][15]. The balance sheet itself is flat at USD 6,745.6bn: runoff has ended, Treasury principal is rolled at auction, agency principal is reinvested in bills, and reserve management purchases have been zero since mid-August [2][15][17]. Money markets show mild tightness: SOFR was 3.94% on 29 October, 4bp above interest on reserve balances of 3.90% and 19bp above the ON RRP rate of 3.75%, and it reached 3.95% on 27 October [2][14]. The standing repo facility is barely used, at USD 6m on 28 October, and central bank liquidity swaps are USD 156m, so there is no sign of global dollar stress [15]. The ON RRP balance of USD 330.4bn, mostly foreign official accounts, leaves little domestic cushion to offset further reserve drains. No free source publishes 3-month EUR/USD or JPY/USD cross-currency basis; the CME euro futures roll of +145.9bp a year against a 137.5bp policy gap and the yen roll of -287.9bp against 262.5bp imply a small dollar funding premium of about 8bp against the euro and up to 25bp against the yen, which also embeds expected policy moves (best available, flagged: futures settlements observed 29 October, not displayed on the cited page) [27]. With reserves falling, the TGA rising into year-end and SOFR above IORB, dollar liquidity is tightening into December, which supports the dollar tactically.",
+        "key_data_points": [
+          "Reserve balances USD 2,893.8bn (weekly average to 28 October), -USD 68.8bn [15]",
+          "Fed total assets USD 6,745.6bn; runoff ended; reserve management purchases zero since mid-August [15][17]",
+          "SOFR 3.94% (29 October) vs IORB 3.90% and ON RRP 3.75% [2][14]",
+          "TGA USD 1,015.6bn (28 October); Treasury targets USD 850bn at end-December [5][15]",
+          "Standing repo USD 6m; central bank liquidity swaps USD 156m (28 October) [15]",
+          "Implied basis from CME rolls: about 8bp (euro), up to 25bp (yen); 3M EUR/USD and JPY/USD basis not published by a free source [27]"
+        ],
+        "what_is_priced": "Funding markets price a calm year-end with SOFR close to IORB. We expect SOFR to trade 5-10bp above IORB around the month-end and year-end dates as reserves approach USD 2.8tn, which raises the cost of dollar funding for foreign borrowers and supports the dollar into late December.",
+        "citations": [
+          2,
+          5,
+          14,
+          15,
+          17,
+          27
+        ]
+      },
+      "strategic": {
+        "stance": "Neutral",
+        "confidence": 52,
+        "analysis": "Over six months the Fed is likely to respond to any reserve scarcity rather than let funding tighten. The implementation note authorises the Desk to buy bills, and coupons with up to three years to maturity, when appropriate to maintain ample reserves, and the New York Fed has said it expects reserves to stay ample near term even without purchases [2][17]. Reserve management purchases ran at USD 40bn a month and then USD 10bn before stopping in mid-August, so the Fed has a tested tool to add reserves if SOFR rises persistently above IORB [17]. Treasury's planned decline in the TGA to USD 850bn by end-December would return about USD 165bn of reserves from the 28 October level, easing conditions in early 2027 [5][15]. Bank lending conditions are not restrictive: the July survey showed C&I standards basically unchanged and CRE standards eased, though credit card and non-bank lending standards are tight [19]. On the dollar smile, liquidity is neither scarce enough to push the dollar to the left side nor abundant enough to push it to the bottom. Global dollar demand from energy importers paying more for oil is a mild support, while swap-line usage of USD 156m shows no strain [15]. We hold the strategic factor Neutral: tightness into year-end is likely to be met by renewed bill purchases, and the TGA decline adds liquidity after December.",
+        "key_data_points": [
+          "Desk authorised to buy bills and coupons up to three years to keep reserves ample [2]",
+          "Reserve management purchases: USD 40bn, then USD 10bn, then zero since mid-August [17]",
+          "TGA to fall to USD 850bn by end-December from USD 1,015.6bn: about USD 165bn back to reserves [5][15]",
+          "July SLOOS: C&I standards basically unchanged; CRE eased; card standards tightened [19]",
+          "Bills held USD 571.5bn, +USD 375.5bn in a year [15]",
+          "Swap lines USD 156m (28 October) [15]"
+        ],
+        "what_is_priced": "Markets do not price a restart of reserve management purchases. We expect the Fed to resume bill purchases of USD 10-20bn a month in the first quarter if reserves fall below USD 2.8tn, which would ease funding and remove a source of dollar support.",
+        "citations": [
+          2,
+          5,
+          15,
+          17,
+          19
+        ]
+      },
+      "horizon_split_explanation": "Tactically reserves are falling and the TGA is rising into year-end, so funding tightens and the dollar benefits; strategically the TGA's planned decline and the Fed's readiness to buy bills should restore ample reserves, so the factor is Neutral.",
+      "carry_analysis": null,
+      "contrarian_analysis_tactical": null,
+      "contrarian_analysis_strategic": null,
+      "expression_assessment": null,
+      "block": "Liquidity"
+    }
+  ],
+  "synthesis": {
+    "tactical": {
+      "net_stance": "Bullish",
+      "conviction": 3,
+      "overall_confidence": 56,
+      "weighted_score": {
+        "calculation": [
+          {
+            "factor": "F1 Policy & Rates (Relative)",
+            "stance_score": 1,
+            "confidence_pct": 58,
+            "confidence_adjusted_score": 0.58,
+            "weight": 0.24,
+            "weighted_contribution": 0.1392
+          },
+          {
+            "factor": "F2 Inflation & Growth Dynamics",
+            "stance_score": 1,
+            "confidence_pct": 57,
+            "confidence_adjusted_score": 0.57,
+            "weight": 0.18,
+            "weighted_contribution": 0.1026
+          },
+          {
+            "factor": "F3 Risk Appetite & Sentiment",
+            "stance_score": 0,
+            "confidence_pct": 54,
+            "confidence_adjusted_score": 0.0,
+            "weight": 0.1,
+            "weighted_contribution": 0.0
+          },
+          {
+            "factor": "F4 Flows & Positioning",
+            "stance_score": 0,
+            "confidence_pct": 52,
+            "confidence_adjusted_score": 0.0,
+            "weight": 0.1,
+            "weighted_contribution": 0.0
+          },
+          {
+            "factor": "F5 External Balance & Terms of Trade",
+            "stance_score": 0,
+            "confidence_pct": 54,
+            "confidence_adjusted_score": 0.0,
+            "weight": 0.06,
+            "weighted_contribution": 0.0
+          },
+          {
+            "factor": "F6 Guidance & Credibility",
+            "stance_score": 0,
+            "confidence_pct": 55,
+            "confidence_adjusted_score": 0.0,
+            "weight": 0.07,
+            "weighted_contribution": 0.0
+          },
+          {
+            "factor": "F7 Event Risk & Geopolitics",
+            "stance_score": 0,
+            "confidence_pct": 50,
+            "confidence_adjusted_score": 0.0,
+            "weight": 0.05,
+            "weighted_contribution": 0.0
+          },
+          {
+            "factor": "F8 Fiscal & Sovereign Risk",
+            "stance_score": 0,
+            "confidence_pct": 55,
+            "confidence_adjusted_score": 0.0,
+            "weight": 0.04,
+            "weighted_contribution": 0.0
+          },
+          {
+            "factor": "F9 Market Structure & Volatility",
+            "stance_score": 1,
+            "confidence_pct": 52,
+            "confidence_adjusted_score": 0.52,
+            "weight": 0.05,
+            "weighted_contribution": 0.026
+          },
+          {
+            "factor": "F10 USD Liquidity & Funding",
+            "stance_score": 1,
+            "confidence_pct": 53,
+            "confidence_adjusted_score": 0.53,
+            "weight": 0.11,
+            "weighted_contribution": 0.0583
+          }
+        ],
+        "net_score": 0.3261,
+        "interpretation": "A net score of +0.326 is a clear dollar-positive reading driven by four Bullish factors - Policy & Rates (+0.139), Inflation & Growth (+0.103), USD Liquidity (+0.058) and Market Structure (+0.026) - with no Bearish factor; the other six are Neutral, so the signal rests on rates, data and funding rather than on risk or flows.",
+        "mapping_to_conviction": "Scores within +/-0.10 map to Neutral at conviction 1-2; 0.10-0.20 to a directional stance at conviction 2; 0.20-0.35 to conviction 3; above 0.35 to conviction 4-5. At +0.326 the stance is Bullish at conviction 3, near the top of the band; we do not raise it to 4 because the gain is concentrated in the euro and yen legs and the dollar's haven response is currently weak."
+      },
+      "rationale": "At tactical weights Policy & Rates (0.24), Inflation & Growth (0.18) and USD Liquidity (0.11) carry more than half the score, and all three point the same way. The Fed held 3.75-4.00% on 28 October with two dissents for a hike, futures price a December hike at 77.3-85%, and the US 2-year at 4.61% sits 153bp over Germany and 271bp over Japan, so the rate channel adds +0.139 [1][3][4]. The data reinforce it: third-quarter GDP grew 3.4% annualised, core PCE is 3.1% y/y and the S&P Global composite PMI leads the euro area by 5.7 points, adding +0.103 [6][7][11]. Funding tightens into year-end as reserves fell USD 68.8bn in a week to USD 2,893.8bn while the TGA rose above USD 1tn, adding +0.058, and the bullish moving-average stack adds +0.026 [15]. The net score is +0.326, Bullish at conviction 3. The main conflict is between the rate and growth signals and the weak haven response: the dollar fell 0.13% on the 30 October equity sell-off, so a risk-off shock is not reliably dollar-positive in this regime [30]. What is priced is a December hike; what we expect in addition is firm November data and a year-end funding squeeze that pushes SOFR 5-10bp above IORB, which the forward curve does not price. The path of least resistance is a retest of the 102.59 high, with EUR/USD towards 1.1060 as the euro carries the move. The catalysts are the 3 November midterms, payrolls on 6 November, October CPI on 10 November, the minutes on 18 November and the second estimate of GDP on 25 November [5][6][20]. Conviction comes from the alignment of the three heaviest factors and from carry that pays 137.5bp against the euro and 387.5bp against the franc while waiting. It is capped by narrow breadth: the dollar lost 4.49% to the krone and 1.79% to the Canadian dollar in October, so a DXY view is not a broad dollar view. The view is actionable through short EUR/USD or long USD/CHF in spot or forwards, with a stop on a DXY close below the 50-day average at 100.81.",
+      "g10_ranking": {
+        "rank": 1,
+        "out_of": 11,
+        "beats": [
+          "SEK",
+          "AUD",
+          "GBP",
+          "CHF",
+          "SGD",
+          "CAD",
+          "JPY",
+          "NOK",
+          "NZD",
+          "EUR"
+        ],
+        "loses_to": [],
+        "commentary": "The dollar ranks 1st of 11 tactically on +0.326, well ahead of the krona (about +0.11) and the Australian dollar (about +0.09), with the euro and the New Zealand dollar at the bottom on about -0.30 and -0.27. The opportunity set favours the dollar most against the euro, the yen and the franc, where policy gaps are widest and terms of trade weakest; against the krone and the Australian dollar the dollar's edge is thin because they carry higher rates and commodity support."
+      },
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "outcome": "DXY 102.80 by 27 November 2026 (+0.89 points, +0.87%); EUR/USD 1.1060, USD/JPY 158.50.",
+          "conditions": [
+            "October payrolls between +30,000 and +100,000 with unemployment at 4.2-4.3%",
+            "October core CPI at 0.3% m/m or higher, keeping December hike pricing at 70-90%",
+            "No US-Iran settlement; Brent stays between US$100 and US$125",
+            "Reserves fall towards USD 2.8tn and SOFR trades at or above IORB into month-end"
+          ],
+          "path": "Range trade between 101.4 and 102.3 around the midterms and payrolls, a break above 102.3 after CPI on 10 November, then a grind towards 102.8 into month-end funding."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "outcome": "DXY 104.00 (+2.09 points, +2.05%); EUR/USD 1.0920, USD/JPY 160.",
+          "conditions": [
+            "A US strike on Iran after 3 November lifts Brent above US$125 and widens Europe's terms-of-trade shock",
+            "Core CPI at 0.4% m/m or higher, adding a 2027 hike to pricing",
+            "EUR/USD breaks its 52-week low of 1.11068"
+          ]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "outcome": "DXY 100.60 (-1.31 points, -1.28%); EUR/USD 1.1300.",
+          "conditions": [
+            "Payrolls negative with unemployment at 4.4% or higher, cutting December pricing below 40%",
+            "A Democratic sweep followed by tariff threats or a US-Iran deal that takes Brent below US$95"
+          ]
+        }
+      },
+      "path_expectation": "We expect a staircase rather than a spike. The first week carries the event risk - the midterms, a possible decision on Iran and payrolls - and is likely to keep the index between 101.4 and 102.3. October CPI on 10 November is the likely trigger for a break above 102.3, and the 18 November minutes should show a hawkish majority beyond the two dissents. The last week of November brings month-end funding pressure and the second estimate of GDP, which should carry the index towards 102.8, with pullbacks to 102.0-102.2 bought. A daily close below 100.81 would end the pattern.",
+      "conviction_ladder": {
+        "current": 3,
+        "increase_to_5_if": [
+          "A US strike on Iran with Brent above US$125 for a week while October core CPI prints 0.4% m/m or higher",
+          "DXY closes above 103.00 for three sessions with leveraged-fund DXY length below +10,000 contracts"
+        ],
+        "increase_to_4_if": [
+          "DXY closes above 102.59 (the 12 October high) for two sessions",
+          "December hike pricing holds above 85% after October CPI with SOFR at least 5bp above IORB"
+        ],
+        "decrease_to_3_if": [
+          "(Current level) holds while the DXY stays between 101.4 and 102.6 and December pricing stays at 70-90%",
+          "Payrolls between +30,000 and +100,000 on 6 November"
+        ],
+        "decrease_to_2_if": [
+          "December hike pricing falls below 60% after payrolls or CPI",
+          "DXY closes below 101.40, the four-week low"
+        ],
+        "decrease_to_1_if": [
+          "DXY closes below the 50-day average at 100.81 for three sessions",
+          "December hike pricing below 40% or a US-Iran settlement that takes Brent below US$95"
+        ]
+      },
+      "risk_reward": {
+        "base_case_payoff": "+0.89 DXY points (+0.87%) to 102.80, plus about 0.13 points of carry over four weeks (EUR/USD equivalent: about 107 pips to 1.1060 plus 13 pips of carry).",
+        "downside_case_loss": "-1.31 DXY points (-1.28%) to 100.60.",
+        "risk_reward_ratio": "Probability-weighted payoff 0.50 x 0.89 + 0.25 x 2.09 - 0.25 x 1.31 = +0.64 points; base case to downside 0.68, and including the upside case the ratio of expected gain to expected loss is 2.95.",
+        "asymmetry_assessment": "Favourable: the upside tail (an oil spike or a hot CPI) is larger than the downside tail, carry adds about 0.13 points a month, and a stop below 100.81 limits the loss to about 1.1 points."
+      }
+    },
+    "strategic": {
+      "net_stance": "Neutral",
+      "conviction": 2,
+      "overall_confidence": 52,
+      "weighted_score": {
+        "calculation": [
+          {
+            "factor": "F1 Policy & Rates (Relative)",
+            "stance_score": 0,
+            "confidence_pct": 54,
+            "confidence_adjusted_score": 0.0,
+            "weight": 0.24,
+            "weighted_contribution": 0.0
+          },
+          {
+            "factor": "F2 Inflation & Growth Dynamics",
+            "stance_score": 1,
+            "confidence_pct": 54,
+            "confidence_adjusted_score": 0.54,
+            "weight": 0.1,
+            "weighted_contribution": 0.054
+          },
+          {
+            "factor": "F3 Risk Appetite & Sentiment",
+            "stance_score": 0,
+            "confidence_pct": 52,
+            "confidence_adjusted_score": 0.0,
+            "weight": 0.05,
+            "weighted_contribution": 0.0
+          },
+          {
+            "factor": "F4 Flows & Positioning",
+            "stance_score": -1,
+            "confidence_pct": 51,
+            "confidence_adjusted_score": -0.51,
+            "weight": 0.06,
+            "weighted_contribution": -0.0306
+          },
+          {
+            "factor": "F5 External Balance & Terms of Trade",
+            "stance_score": -1,
+            "confidence_pct": 52,
+            "confidence_adjusted_score": -0.52,
+            "weight": 0.16,
+            "weighted_contribution": -0.0832
+          },
+          {
+            "factor": "F6 Guidance & Credibility",
+            "stance_score": 0,
+            "confidence_pct": 53,
+            "confidence_adjusted_score": 0.0,
+            "weight": 0.12,
+            "weighted_contribution": 0.0
+          },
+          {
+            "factor": "F7 Event Risk & Geopolitics",
+            "stance_score": 0,
+            "confidence_pct": 50,
+            "confidence_adjusted_score": 0.0,
+            "weight": 0.05,
+            "weighted_contribution": 0.0
+          },
+          {
+            "factor": "F8 Fiscal & Sovereign Risk",
+            "stance_score": -1,
+            "confidence_pct": 52,
+            "confidence_adjusted_score": -0.52,
+            "weight": 0.07,
+            "weighted_contribution": -0.0364
+          },
+          {
+            "factor": "F9 Market Structure & Volatility",
+            "stance_score": 0,
+            "confidence_pct": 51,
+            "confidence_adjusted_score": 0.0,
+            "weight": 0.03,
+            "weighted_contribution": 0.0
+          },
+          {
+            "factor": "F10 USD Liquidity & Funding",
+            "stance_score": 0,
+            "confidence_pct": 52,
+            "confidence_adjusted_score": 0.0,
+            "weight": 0.12,
+            "weighted_contribution": 0.0
+          }
+        ],
+        "net_score": -0.0962,
+        "interpretation": "A net score of -0.096 is a Neutral reading with a bearish tilt: Inflation & Growth adds +0.054, while External Balance (-0.083), Fiscal (-0.036) and Flows & Positioning (-0.031) subtract; the dominant rate factor is Neutral because a wide but narrowing differential and a priced Fed path offset each other.",
+        "mapping_to_conviction": "Scores within +/-0.10 map to Neutral at conviction 1-2; 0.10-0.20 to a directional stance at conviction 2; 0.20-0.35 to conviction 3; above 0.35 to conviction 4-5. At -0.096 the score sits just inside the Neutral band, so we hold Neutral at conviction 2 and treat a move below -0.10 as the trigger for a Bearish call."
+      },
+      "rationale": "At strategic weights Policy & Rates (0.24), External Balance (0.16), Guidance (0.12) and USD Liquidity (0.12) dominate, and only the external factor gives a clear signal. Rates are Neutral: the dollar still earns 137.5bp over the euro and 262.5bp over the yen, but the market prices a path near 4.7% by September 2027 against a median dot of 4.1%, and peers from the BoE to the BoJ are hiking, so the advantage narrows [3][5]. External Balance subtracts 0.083 as the current account deficit widened to 3.0% of GDP and the investment position fell USD 1.15tn in a quarter to -USD 22.42tn [33]. Fiscal subtracts 0.036 on a 6.2%-of-GDP deficit and interest costs of 3.4% of GDP, and Flows subtract 0.031 as the dollar's reserve share fell to 56.70% and hedge ratios on US assets look set to rise [35][36][37]. Inflation & Growth adds 0.054 because US growth still outpaces the euro area, Japan, the UK and Canada [6]. The net is -0.096, Neutral with a bearish tilt, conviction 2. The factors interact: wide rate spreads currently finance the external deficit, so the deficit becomes a problem only when those spreads narrow, which is our base case for the first half of 2027. What is priced is a Fed path above the dots; what we expect is one more hike and a hold, which removes 25-50bp from the priced path. The path of least resistance is a modest give-back after a firm December, with the DXY around 101.6 by end-April 2027 as the yen, krona and franc strengthen while the euro and sterling stay weak. Key dates are the 9 December FOMC projections, the 11 December funding deadline, the BoJ on 18 December and the first FOMC meetings of 2027 [16]. Conviction is low because the forward already discounts 0.78 points of dollar decline over six months, so the spot view and the forward view diverge. Actionability lies in relative value rather than in the index: long yen, krona and franc against the dollar, and short euro and sterling against the dollar.",
+      "g10_ranking": {
+        "rank": 6,
+        "out_of": 11,
+        "beats": [
+          "AUD",
+          "CAD",
+          "NZD",
+          "GBP",
+          "EUR"
+        ],
+        "loses_to": [
+          "JPY",
+          "SEK",
+          "SGD",
+          "CHF",
+          "NOK"
+        ],
+        "commentary": "The dollar ranks 6th of 11 strategically, behind the yen, krona, Singapore dollar, franc and krone, whose central banks are tightening from lower rates or whose external surpluses are large. It sits just above the Australian dollar, whose score is within 0.07 of the dollar's, because the dollar's carry and liquidity hold up better if commodity prices fall, and well above the euro and sterling. The opportunity set favours selling the dollar against surplus currencies and buying it against the euro and sterling."
+      },
+      "scenarios": {
+        "base_case": {
+          "probability_pct": 50,
+          "outcome": "DXY 101.60 by 30 April 2027 (-0.31 points, -0.30%); EUR/USD 1.1080, USD/JPY 151.",
+          "conditions": [
+            "The Fed hikes to 4.00-4.25% on 9 December and the projections show a hold through 2027",
+            "The ECB and the BoJ hike in December and again by spring 2027",
+            "Core PCE falls towards 2.7% by March 2027",
+            "Brent eases to US$90-105 without a settlement of the war"
+          ],
+          "path": "Firmness into December, a peak near 102.8-103.0 around the FOMC, then a gradual decline from January as peers hike and the TGA returns reserves."
+        },
+        "upside_case": {
+          "probability_pct": 25,
+          "outcome": "DXY 104.50 (+2.59 points, +2.54%).",
+          "conditions": [
+            "Core PCE stays above 3% and the Fed signals two more hikes in its December projections",
+            "A prolonged closure of Hormuz keeps Brent above US$125, deepening Europe's and Japan's energy shock"
+          ]
+        },
+        "downside_case": {
+          "probability_pct": 25,
+          "outcome": "DXY 98.50 (-3.41 points, -3.34%).",
+          "conditions": [
+            "Unemployment rises to 4.5% and the market prices cuts from mid-2027",
+            "A US-Iran deal and a rise in hedge ratios on US assets as the Fed signals its peak"
+          ]
+        }
+      },
+      "path_expectation": "The six-month path is a hump. The dollar should hold firm through the 9 December FOMC and year-end funding, with a possible high of 102.8-103.0. From January, the decline in the TGA, peer hikes and a Fed on hold should weigh on the index, with EUR/USD holding near 1.10-1.11 while USD/JPY falls towards 151. The decline should be gradual, a grind of 0.3-0.5% a month, with volatility rising around the BoJ and ECB meetings. A break below 100.0 would signal the downside scenario; a hold above 102.6 into February would signal the upside.",
+      "conviction_ladder": {
+        "current": 2,
+        "increase_to_5_if": [
+          "(Bearish) Unemployment at 4.5% or higher with core PCE below 2.7% and the DXY below 99.66, the 200-day average",
+          "(Bearish) Fed projections show cuts in 2027 while the ECB and the BoJ keep hiking"
+        ],
+        "increase_to_4_if": [
+          "(Bearish) The December projections show no hike in 2027 and the DXY closes below 100.0",
+          "(Bullish) The December projections show two more hikes and the DXY holds above 103.0 into February"
+        ],
+        "decrease_to_3_if": [
+          "(Bearish) The net score falls below -0.15 on a wider Q3 current account deficit (above 3.3% of GDP, due in December) and weaker flows",
+          "(Bullish) Core PCE re-accelerates to 3.3% with the Fed signalling more hikes"
+        ],
+        "decrease_to_2_if": [
+          "(Current level) holds while the Fed hikes once in December and peers follow",
+          "No change while the DXY stays between 100.0 and 103.0"
+        ],
+        "decrease_to_1_if": [
+          "Conflicting signals: a hawkish Fed path and a sharply wider external deficit at the same time",
+          "The DXY trades in a 100.5-102.5 range through January with no trend"
+        ]
+      },
+      "risk_reward": {
+        "base_case_payoff": "-0.31 DXY points (-0.30%) on spot to 101.60, but +0.48 points against the six-month forward of 101.12, because the dollar's carry exceeds the expected spot decline.",
+        "downside_case_loss": "-3.41 DXY points (-3.34%) to 98.50 (-2.62 points against the forward).",
+        "risk_reward_ratio": "Probability-weighted spot outcome 0.50 x (-0.31) + 0.25 x 2.59 - 0.25 x 3.41 = -0.36 points; against the forward it is about +0.43 points, so a long-dollar forward position has a small positive expected value, while a short-dollar position gains 0.36 points on spot but pays about 0.78 points of carry, a net loss.",
+        "asymmetry_assessment": "Roughly symmetric: the downside tail (-3.4 points) is larger than the upside tail (+2.6 points), but carry offsets most of the difference, so we see no strategic directional edge in the index and prefer relative-value expressions."
+      }
+    },
+    "consensus_divergence": {
+      "consensus_view": "The Reuters poll of about 70 forecasters (30 September-2 October) had a EUR/USD median of 1.15 at three and six months and 1.16 at twelve, which implies a weaker dollar; banks range from 1.10 (Nordea end-2026, RBC through 2027) to 1.20 (Scotiabank), with Goldman Sachs at 1.12 on six to twelve months, MUFG 1.12 for Q4, ING 1.13 and Deutsche Bank 1.17 [25]. ING sees EUR/USD at 1.13 for six months and USD/JPY at 158 [24]. Trading Economics' model has the DXY at 101.59 at end-quarter and 100.18 in twelve months [22].",
+      "our_view": "DXY 102.80 in four weeks and 101.60 in six months; EUR/USD 1.1060 and 1.1080; USD/JPY 158.50 and 151.",
+      "divergence_magnitude": "At six months our EUR/USD of 1.1080 is 420 pips (3.7%) below the poll median of 1.15 and 220 pips below ING's 1.13; our DXY of 101.60 is close to Trading Economics' path, so we agree with consensus on the index but not on its composition. At four weeks our DXY of 102.80 is 1.2 points above Trading Economics' end-quarter 101.59.",
+      "why_we_differ": "The poll was taken before the two hawkish dissents of 28 October, the 3.4% GDP print and Brent's rise to US$117.64, so it is anchored on a softer Fed and lower oil [1][6][29]. Consensus expects the euro to recover on ECB hikes; we think the energy shock and the 5.7-point PMI gap keep the euro weak even as the ECB tightens, while the yen and the Scandinavian currencies do the work of pulling the dollar index lower [11]. We agree with the market that the Fed hikes in December but disagree that it hikes twice more in 2027, which is why our six-month index is flat rather than higher.",
+      "payoff_if_right": "A short EUR/USD forward at 1.1253 reaching 1.1080 pays 173 pips over six months; tactically, a DXY move to 102.80 pays 0.89 points plus about 0.13 points of carry.",
+      "risk_if_wrong": "If the poll's 1.15 is right, a six-month short EUR/USD forward loses 247 pips (1.1253 to 1.15); if the market's Fed path is right and the dollar trends to 104.5, a short-dollar relative-value book against the yen and krona loses 2-3%."
+    },
+    "cross_currency_relative_value": {
+      "cleanest_bullish_expression": {
+        "pair": "USD/CHF (long)",
+        "rationale": "Long USD/CHF earns the widest carry in G10+SGD at 387.5bp, a carry-to-volatility ratio of 0.58 on 60-day realised volatility of 6.65%, and the spot rate at 0.82432 is above its 50-, 100- and 200-day averages at the 84th percentile of its 52-week range. The SNB is expected to hold at 0% on 10 December while the Fed hikes, so the spread widens to 412.5bp. The risk is a haven bid for the franc on a US strike on Iran, which argues for a stop below the 0.8150-0.8162 zone."
+      },
+      "cleanest_bearish_expression": {
+        "pair": "USD/JPY (short, strategic)",
+        "rationale": "Short USD/JPY is the cleanest expression of a weaker dollar over six months: the BoJ is likely to hike to 1.50% on 18 December, the US-Japan 2-year spread narrowed 21bp in October to 271bp, intervention caps the pair near 160, and USD/JPY trades at 157.56 with ING's forwards at 156.00 at six months [24][26]. The cost is 262.5bp of carry, about 2.07 yen over six months, so the trade needs a fall below 155.5 to pay."
+      },
+      "relative_value_pairs": [
+        {
+          "pair": "EUR/USD (short)",
+          "thesis": "The euro is the weakest currency in the index on terms of trade and growth, and short EUR/USD earns 137.5bp; EUR/USD at the 4th percentile of its 52-week range still has 61 pips to the 1.11068 low."
+        },
+        {
+          "pair": "USD/SEK (short)",
+          "thesis": "The Riksbank is expected to hike to 2.00% on 4 November and the US-Sweden 2-year spread narrowed 24bp in October; the dollar lost 2.29% to the krona in October and carry is 212.5bp in the dollar's favour, so the trade relies on further Riksbank tightening."
+        },
+        {
+          "pair": "USD/NOK (neutral)",
+          "thesis": "The dollar pays 62.5bp against the krone and the krone has the oil tailwind, but USD/NOK at 9.20 is at the 3rd percentile of its range after a 4.49% fall in October, so we would not chase it."
+        }
+      ]
+    },
+    "cross_horizon_consistency": {
+      "aligned": false,
+      "summary": "Not aligned: Bullish tactically (+0.326, conviction 3, confidence 56%) and Neutral strategically (-0.096, conviction 2, confidence 52%).",
+      "divergence_explanation": "Tactically the heaviest factors - rates, growth and funding - all favour the dollar into a likely December hike and a tight year-end. Strategically the weights shift towards External Balance (0.16), Guidance (0.12) and Fiscal (0.07), where the current account and budget deficits and a market path above the Fed's dots weigh on the dollar, while peers' hikes narrow the rate advantage.",
+      "inflection_point": "Mid-December 2026, between the 9 December FOMC projections and the 18 December BoJ decision, with year-end funding pressure fading in early January.",
+      "catalyst_for_transition": "December projections confirming a single further hike and a hold through 2027, combined with ECB and BoJ hikes on 17-18 December, would turn the tactical view Neutral and leave the strategic view Neutral to Bearish.",
+      "trading_implication": "Hold tactical dollar longs against the euro and franc into the December FOMC and take profit into strength near 102.8-103.0; then rotate into strategic short-dollar relative value against the yen and krona after the BoJ meeting."
+    },
+    "forward_vs_spot": {
+      "spot": "DXY 101.91 and EUR/USD 1.11674 (closes 2026-10-30)",
+      "forwards": {
+        "1m": {
+          "points": "DXY -0.13 points; EUR/USD +14 pips",
+          "outright": "DXY 101.78; EUR/USD 1.1181",
+          "annualised_pct": "-1.52% (DXY at a forward discount: the index's policy-rate carry; EUR/USD +1.52%)"
+        },
+        "3m": {
+          "points": "DXY -0.39 points; EUR/USD +43 pips",
+          "outright": "DXY 101.51; EUR/USD 1.1210",
+          "annualised_pct": "-1.52%"
+        },
+        "6m": {
+          "points": "DXY -0.78 points; EUR/USD +86 pips",
+          "outright": "DXY 101.12; EUR/USD 1.1253",
+          "annualised_pct": "-1.52%"
+        }
+      },
+      "expected_spot": {
+        "1m": "DXY 102.80; EUR/USD 1.1060",
+        "3m": "DXY 102.40; EUR/USD 1.1020",
+        "6m": "DXY 101.60; EUR/USD 1.1080"
+      },
+      "edge": {
+        "1m": "+1.02 DXY points dollar-positive (forward 101.78, we expect 102.80); EUR/USD -121 pips",
+        "3m": "+0.89 points dollar-positive (forward 101.51, we expect 102.40); EUR/USD -190 pips",
+        "6m": "+0.48 points dollar-positive (forward 101.12, we expect 101.60); EUR/USD -173 pips"
+      },
+      "interpretation": "There is no listed DXY forward in free sources, so the index forward is the 30 October close carried at the index-weighted policy-rate differential of 1.52% a year (the Fed mid-point of 3.875% against a weighted 2.357% for the ECB, BoJ, BoE, BoC, Riksbank and SNB). EUR/USD forward points come from the CME euro futures roll of +145.9bp a year observed 29 October, consistent with the 137.5bp policy gap plus a small basis [27]. Forwards imply the dollar weakening 1.5% a year; our path has it firmer at every horizon, so the edge is positive for the dollar at one, three and six months, largest at one month (+1.02 points) and smallest at six (+0.48 points). Strategically that means a Neutral spot view still favours holding dollars forward, because the carry exceeds the expected spot decline."
+    }
+  },
+  "forward_looking": {
+    "key_catalysts": [
+      {
+        "date": "2026-11-02",
+        "event": "Federal Reserve Senior Loan Officer Opinion Survey (third quarter)",
+        "expected_impact": "Neutral",
+        "rationale": "The July survey showed C&I standards basically unchanged and CRE standards easing; a shift to tightening would signal slower credit growth and a lower peak for the Fed. We expect broadly unchanged standards.",
+        "priced_in": "Not priced; low market impact unless standards tighten sharply",
+        "bilateral_relevance": "EUR/USD, USD/JPY",
+        "citations": [
+          19,
+          20
+        ]
+      },
+      {
+        "date": "2026-11-03",
+        "event": "US midterm elections",
+        "expected_impact": "Ambiguous",
+        "rationale": "Polymarket puts a Democratic House at 94% and a sweep at 70%; divided government is broadly neutral for the dollar, but ING warns a Republican loss of the House could revive trade policy. The result also opens the window for US strikes on Iran.",
+        "priced_in": "Largely priced for the House; the Senate (69%) is less certain",
+        "bilateral_relevance": "USD/CAD, USD/JPY, EUR/USD",
+        "citations": [
+          5,
+          24,
+          32
+        ]
+      },
+      {
+        "date": "2026-11-03",
+        "event": "Reserve Bank of Australia decision",
+        "expected_impact": "Bearish",
+        "rationale": "A 25bp hike to 4.85% is about 79% priced; it widens the Australian dollar's carry advantage to 97.5bp.",
+        "priced_in": "Mostly priced",
+        "bilateral_relevance": "AUD/USD",
+        "citations": [
+          5
+        ]
+      },
+      {
+        "date": "2026-11-04",
+        "event": "Treasury quarterly refunding announcement; Riksbank decision",
+        "expected_impact": "Ambiguous",
+        "rationale": "Treasury plans USD 628bn of fourth-quarter borrowing; any change to the promise to hold coupon sizes would lift term premia. The Riksbank is expected to hike to 2.00%, narrowing the dollar's krona carry to 187.5bp.",
+        "priced_in": "Coupon sizes unchanged priced; Riksbank hike consensus",
+        "bilateral_relevance": "USD/SEK, EUR/USD",
+        "citations": [
+          5
+        ]
+      },
+      {
+        "date": "2026-11-05",
+        "event": "Bank of England decision with Monetary Policy Report; Norges Bank decision",
+        "expected_impact": "Bearish",
+        "rationale": "A BoE hike to 4.00% would put Bank Rate 12.5bp above the Fed mid-point for the first time in this cycle; Norges Bank is expected to hold at 4.50%.",
+        "priced_in": "BoE hike expected; the vote split is the risk",
+        "bilateral_relevance": "GBP/USD, USD/NOK",
+        "citations": [
+          5
+        ]
+      },
+      {
+        "date": "2026-11-06",
+        "event": "US October employment report",
+        "expected_impact": "Ambiguous",
+        "rationale": "Consensus is +55,000 payrolls, 4.2% unemployment and +0.3% m/m earnings; a print below zero would cut December pricing below 50%, while one above 100,000 would push it above 90%.",
+        "priced_in": "Consensus priced; the revision trend is not",
+        "bilateral_relevance": "EUR/USD, USD/JPY, USD/CHF",
+        "citations": [
+          5,
+          9
+        ]
+      },
+      {
+        "date": "2026-11-10",
+        "event": "US October CPI",
+        "expected_impact": "Bullish",
+        "rationale": "September core CPI rose 0.3% m/m with a 3.4% three-month annualised pace; a repeat cements the December hike and supports the dollar's front-end premium.",
+        "priced_in": "Partly priced through 77-85% December odds",
+        "bilateral_relevance": "EUR/USD, USD/JPY",
+        "citations": [
+          8
+        ]
+      },
+      {
+        "date": "2026-11-18",
+        "event": "FOMC minutes (27-28 October meeting)",
+        "expected_impact": "Bullish",
+        "rationale": "The minutes will show how many participants beyond Cook and Hammack favoured a hike; 'many' or 'most' would raise December odds towards 90%.",
+        "priced_in": "Partly priced",
+        "bilateral_relevance": "EUR/USD, USD/JPY, USD/CHF",
+        "citations": [
+          1,
+          20
+        ]
+      },
+      {
+        "date": "2026-11-25",
+        "event": "Q3 GDP second estimate; Beige Book",
+        "expected_impact": "Neutral",
+        "rationale": "The advance estimate was 3.4% annualised with core PCE prices at 2.5%; revisions are usually small, but a downward revision to consumption would temper the growth lead.",
+        "priced_in": "Priced at about 3.4%",
+        "bilateral_relevance": "EUR/USD",
+        "citations": [
+          6,
+          20
+        ]
+      },
+      {
+        "date": "2026-12-W1",
+        "event": "US November employment report",
+        "expected_impact": "Ambiguous",
+        "rationale": "The last labour report before the FOMC; with three-month average payroll growth near 51,000, two weak prints in a row would put the hike in doubt.",
+        "priced_in": "Not yet priced",
+        "bilateral_relevance": "EUR/USD, USD/JPY",
+        "citations": [
+          9
+        ]
+      },
+      {
+        "date": "2026-12-09",
+        "event": "FOMC decision with Summary of Economic Projections; Bank of Canada; RBNZ",
+        "expected_impact": "Ambiguous",
+        "rationale": "A 25bp hike to 4.00-4.25% is 77-85% priced; the projections decide whether the market's 4.7% path for 2027 survives. A hike with a hold signal is dollar-negative strategically; a hike with higher dots is dollar-positive.",
+        "priced_in": "Hike mostly priced; the 2027 path is not settled",
+        "bilateral_relevance": "EUR/USD, USD/JPY, USD/CAD, NZD/USD",
+        "citations": [
+          3,
+          4
+        ]
+      },
+      {
+        "date": "2026-12-11",
+        "event": "Expiry of the continuing resolution funding the US government",
+        "expected_impact": "Bearish",
+        "rationale": "The stopgap signed on 2 September expires on 11 December; a lapse would delay data and raise fiscal-risk premia, which in this regime weighs on the dollar.",
+        "priced_in": "Not priced",
+        "bilateral_relevance": "EUR/USD, USD/JPY",
+        "citations": [
+          16
+        ]
+      },
+      {
+        "date": "2026-12-17",
+        "event": "ECB decision with projections; BoE; Norges Bank Monetary Policy Report",
+        "expected_impact": "Bearish",
+        "rationale": "ING expects the ECB to match the Fed with a hike to 2.75%, narrowing the dollar's euro carry to 112.5bp; the BoE may hike again.",
+        "priced_in": "ECB hike partly priced",
+        "bilateral_relevance": "EUR/USD, GBP/USD",
+        "citations": [
+          24
+        ]
+      },
+      {
+        "date": "2026-12-18",
+        "event": "Bank of Japan decision",
+        "expected_impact": "Bearish",
+        "rationale": "A hike to 1.50% would narrow the US-Japan policy gap to 250-275bp after the Fed's move and test USD/JPY below 155; intervention near 160 caps the other side.",
+        "priced_in": "Partly priced",
+        "bilateral_relevance": "USD/JPY",
+        "citations": [
+          26
+        ]
+      },
+      {
+        "date": "2026-12-W5",
+        "event": "Year-end dollar funding and balance-sheet turn",
+        "expected_impact": "Bullish",
+        "rationale": "With reserves near USD 2.9tn and the TGA above USD 1tn, year-end demand for dollars should push SOFR above IORB and lift the cost of dollar funding for foreign borrowers until the TGA falls towards USD 850bn.",
+        "priced_in": "Not priced",
+        "bilateral_relevance": "EUR/USD, USD/JPY, USD/CHF",
+        "citations": [
+          15,
+          17
+        ]
+      },
+      {
+        "date": "2027-01-W4",
+        "event": "First FOMC meeting of 2027",
+        "expected_impact": "Ambiguous",
+        "rationale": "The first meeting after the projections tests whether the Fed holds at 4.00-4.25%; the market's 2027 path implies further hikes that we do not expect.",
+        "priced_in": "Market prices further tightening in 2027",
+        "bilateral_relevance": "EUR/USD, USD/JPY",
+        "citations": [
+          3
+        ]
+      },
+      {
+        "date": "2027-03-W3",
+        "event": "FOMC decision with projections",
+        "expected_impact": "Bearish",
+        "rationale": "If core PCE has fallen towards 2.7%, the March projections are likely to confirm a hold and pull the 2027 path down towards the median dot of 4.1%.",
+        "priced_in": "Not priced",
+        "bilateral_relevance": "EUR/USD, USD/JPY, USD/SEK",
+        "citations": [
+          3
+        ]
+      }
+    ],
+    "invalidators": [
+      {
+        "condition": "If October or November payrolls are negative with unemployment at 4.4% or higher, would turn Neutral tactically because December hike pricing would fall below 40% and the front-end premium would compress.",
+        "new_stance": "Neutral",
+        "mechanism": "A weaker labour market lowers the probability of the December hike and pulls the 2-year yield towards the policy mid-point, removing the rate support that carries most of the tactical score.",
+        "monitor_indicator": "Nonfarm payrolls and unemployment rate; December hike probability",
+        "monitor_frequency": "Monthly (6 November, early December)",
+        "quantitative_threshold": "Payrolls below 0 and unemployment 4.4% or higher; hike probability below 40%",
+        "probability_pct": 15
+      },
+      {
+        "condition": "If October core CPI rises 0.1% m/m or less and core PCE slows to 2.9% y/y, would turn Neutral tactically because the inflation case for December weakens.",
+        "new_stance": "Neutral",
+        "mechanism": "Softer core inflation cuts hike pricing and the dollar's carry premium; Inflation & Growth would fall to Neutral.",
+        "monitor_indicator": "Core CPI m/m; core PCE y/y",
+        "monitor_frequency": "Monthly",
+        "quantitative_threshold": "Core CPI 0.1% m/m or less; core PCE 2.9% y/y or lower",
+        "probability_pct": 20
+      },
+      {
+        "condition": "If a US-Iran settlement takes Brent below US$95 for a week, would turn Neutral tactically and Bearish strategically because the energy shock that weakens Europe and Japan relative to the US would reverse.",
+        "new_stance": "Neutral",
+        "mechanism": "Lower oil improves euro and yen terms of trade and lowers US inflation risk, narrowing both the growth and the rate case for the dollar.",
+        "monitor_indicator": "Brent front-month",
+        "monitor_frequency": "Daily",
+        "quantitative_threshold": "Below US$95 for five sessions",
+        "probability_pct": 15
+      },
+      {
+        "condition": "If the DXY closes below its 50-day average of 100.81 for three sessions, would turn Neutral tactically because trend-following flows would reverse.",
+        "new_stance": "Neutral",
+        "mechanism": "Systematic funds cut dollar length on a break of the 50-day average, adding supply and invalidating the market-structure signal.",
+        "monitor_indicator": "DXY close vs 50-day average",
+        "monitor_frequency": "Daily",
+        "quantitative_threshold": "Three closes below 100.81",
+        "probability_pct": 20
+      },
+      {
+        "condition": "If the December projections show a median of 4.6% or more for end-2027 and core PCE stays above 3.2%, would turn Bullish strategically because the market path would be validated and the dollar's carry would widen against peers.",
+        "new_stance": "Bullish",
+        "mechanism": "Higher dots lift the expected rate differential over six months and reduce the incentive to hedge US assets.",
+        "monitor_indicator": "FOMC Summary of Economic Projections; core PCE",
+        "monitor_frequency": "Quarterly (9 December); monthly",
+        "quantitative_threshold": "2027 median dot 4.6% or higher; core PCE above 3.2%",
+        "probability_pct": 15
+      },
+      {
+        "condition": "If reserves fall below USD 2.75tn and the Fed restarts bill purchases of USD 40bn a month or more, would turn Bearish strategically because liquidity would be added to the system at scale.",
+        "new_stance": "Bearish",
+        "mechanism": "Large reserve management purchases expand the supply of dollars and signal that the Fed prioritises funding stability, pushing the dollar towards the bottom of the smile.",
+        "monitor_indicator": "H.4.1 reserve balances; New York Fed operation schedule",
+        "monitor_frequency": "Weekly",
+        "quantitative_threshold": "Reserves below USD 2.75tn; purchases of USD 40bn a month or more",
+        "probability_pct": 15
+      },
+      {
+        "condition": "If a Democratic sweep on 3 November is followed by tariff escalation or a lapse in government funding on 11 December, would turn Bearish strategically because fiscal and policy risk premia would rise on US assets.",
+        "new_stance": "Bearish",
+        "mechanism": "Policy uncertainty raises hedge ratios on US assets and term premia without raising policy-rate expectations, the combination that weakens the dollar.",
+        "monitor_indicator": "Election result; tariff announcements; funding deadline",
+        "monitor_frequency": "Event-driven",
+        "quantitative_threshold": "New tariffs of 10% or more on a major partner, or a funding lapse of more than three days",
+        "probability_pct": 15
+      }
+    ],
+    "signposts": [
+      {
+        "indicator": "December FOMC hike probability (fed funds futures)",
+        "current_level": "77.3% (30 October close); about 85% after the 28 October press conference",
+        "threshold_confirms": "Stays at 70-95% through the November data",
+        "threshold_invalidates": "Falls below 40%",
+        "bilateral_importance": "EUR/USD, USD/JPY, USD/CHF",
+        "source_url": "https://fattail.ai/ecb-december-hike-signal/",
+        "frequency": "Daily"
+      },
+      {
+        "indicator": "US 2-year Treasury yield",
+        "current_level": "4.61% (29 October)",
+        "threshold_confirms": "4.55-4.85%",
+        "threshold_invalidates": "Below 4.40%",
+        "bilateral_importance": "EUR/USD, USD/JPY, USD/SEK",
+        "source_url": "https://fred.stlouisfed.org/series/DGS2",
+        "frequency": "Daily"
+      },
+      {
+        "indicator": "Core PCE price index (y/y)",
+        "current_level": "3.1% (September 2026)",
+        "threshold_confirms": "3.0-3.3% tactically; easing to 2.7-2.9% by the March release (strategic Neutral)",
+        "threshold_invalidates": "2.8% or lower in the October or November release (tactical), or 3.4% or higher (strategic, Bullish)",
+        "bilateral_importance": "All dollar pairs",
+        "source_url": "https://bea.gov/news/2026/personal-income-and-outlays-september-2026",
+        "frequency": "Monthly"
+      },
+      {
+        "indicator": "Nonfarm payrolls, three-month average, and the unemployment rate",
+        "current_level": "About 51,000 (July-September); unemployment 4.2%",
+        "threshold_confirms": "Average of 30,000-100,000 with unemployment at 4.1-4.3%",
+        "threshold_invalidates": "A negative monthly print with unemployment at 4.4% or higher",
+        "bilateral_importance": "EUR/USD, USD/JPY",
+        "source_url": "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
+        "frequency": "Monthly"
+      },
+      {
+        "indicator": "Reserve balances (H.4.1) and SOFR minus IORB",
+        "current_level": "USD 2,893.8bn weekly average (28 October); SOFR 3.94% vs IORB 3.90% (+4bp)",
+        "threshold_confirms": "Reserves USD 2.75-2.95tn with SOFR 0-10bp above IORB into year-end (tactical)",
+        "threshold_invalidates": "SOFR more than 15bp above IORB for a week, or bill purchases of USD 40bn a month or more",
+        "bilateral_importance": "EUR/USD, USD/JPY (funding)",
+        "source_url": "https://www.federalreserve.gov/releases/h41/20261029/h41.pdf",
+        "frequency": "Weekly"
+      },
+      {
+        "indicator": "ICE US Dollar Index futures, leveraged funds net (CFTC)",
+        "current_level": "+3,158 contracts (week to 27 October); 87th percentile of one year",
+        "threshold_confirms": "Between -5,000 and +12,000 contracts",
+        "threshold_invalidates": "Above +15,000 (crowded) or a fall below -5,000 (unwind)",
+        "bilateral_importance": "DXY, EUR/USD",
+        "source_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
+        "frequency": "Weekly (Friday)"
+      },
+      {
+        "indicator": "Brent front-month",
+        "current_level": "US$117.64 (30 October)",
+        "threshold_confirms": "US$100-125",
+        "threshold_invalidates": "Below US$95 for a week (settlement) or above US$135 (demand destruction)",
+        "bilateral_importance": "EUR/USD, USD/JPY, USD/NOK, USD/CAD",
+        "source_url": "https://www.thenationalnews.com/business/markets/2026/10/30/oil-prices-set-for-sharp-monthly-rise-on-hormuz-strikes-and-us-threat-to-hit-iran/",
+        "frequency": "Daily"
+      }
+    ]
+  },
+  "change_since_last_report": {
+    "previous_report_date": "2026-10-01",
+    "summary": "Compared with the 2026-10-01 dossier, the tactical stance stays Bullish at conviction 3 and rank 1, with the score easing from +0.378 to +0.326; the strategic stance moves from Bearish (-0.182, conviction 2, rank 8) to Neutral (-0.096, conviction 2, rank 6) as US growth and the Fed's hawkish tone held up and peers' scores weakened.",
+    "factors_changed": [
+      {
+        "factor": "F2 Inflation & Growth (strategic)",
+        "previous_stance": "Neutral",
+        "new_stance": "Bullish",
+        "reason": "Third-quarter GDP of 3.4% and a 5.7-point PMI lead over the euro area confirm a durable growth gap even as the labour market softens."
+      },
+      {
+        "factor": "F3 Risk Appetite (tactical)",
+        "previous_stance": "Bullish",
+        "new_stance": "Neutral",
+        "reason": "The dollar fell on the 30 October equity sell-off, so its haven response is no longer reliable."
+      },
+      {
+        "factor": "F6 Guidance & Credibility (tactical)",
+        "previous_stance": "Bullish",
+        "new_stance": "Neutral",
+        "reason": "The hawkish October statement is offset by Chair Warsh's refusal to give forward guidance and by market pricing already above the dots."
+      },
+      {
+        "factor": "F6 Guidance & Credibility (strategic)",
+        "previous_stance": "Bullish",
+        "new_stance": "Neutral",
+        "reason": "With the market path near 4.7% for September 2027 against a 4.1% median dot, the next surprise from Fed communication is more likely dovish than hawkish."
+      },
+      {
+        "factor": "F7 Event Risk (strategic)",
+        "previous_stance": "Bearish",
+        "new_stance": "Neutral",
+        "reason": "The midterm outcome is largely priced and the Iran war now cuts both ways for the dollar, helping it against the euro and yen while hurting it against oil exporters."
+      },
+      {
+        "factor": "F10 USD Liquidity (tactical)",
+        "previous_stance": "Neutral",
+        "new_stance": "Bullish",
+        "reason": "Reserves fell USD 68.8bn in a week to USD 2,893.8bn and the TGA rose above USD 1tn, tightening funding into year-end."
+      },
+      {
+        "factor": "F10 USD Liquidity (strategic)",
+        "previous_stance": "Bearish",
+        "new_stance": "Neutral",
+        "reason": "Reserve management purchases stopped in mid-August and the TGA is set to fall in December, so the liquidity drag and support roughly offset."
+      }
+    ],
+    "signposts_triggered": [
+      {
+        "signpost": "US 2-year minus effective fed funds (confirm above +75bp into the October FOMC; invalidate below +50bp)",
+        "outcome": "Confirmed into the meeting (+82bp on 27 October), slipping to +73bp on 29 October.",
+        "implication": "The front end still prices the December hike; the narrowing is part of the strategic convergence story."
+      },
+      {
+        "signpost": "Core PCE y/y (strategic confirm 2.8% or below; invalidate 3.3% or above)",
+        "outcome": "Neither: 3.1% in September after 3.0% in August.",
+        "implication": "Inflation is sticky but not accelerating, consistent with one more hike rather than a series."
+      },
+      {
+        "signpost": "Fed reserve balances (confirm above USD 2.85tn through year-end)",
+        "outcome": "Holding so far: USD 2,893.8bn weekly average on 28 October, down USD 68.8bn in a week.",
+        "implication": "The margin is thin, which is why funding is now a tactical dollar positive."
+      },
+      {
+        "signpost": "EUR/USD (confirm a weekly close below 1.1170)",
+        "outcome": "Confirmed: weekly close of 1.11674 on 30 October.",
+        "implication": "The euro leg is carrying the index higher, in line with the tactical view."
+      },
+      {
+        "signpost": "US high-yield OAS (confirm 300-400bp)",
+        "outcome": "Confirmed: 326bp on 29 October.",
+        "implication": "Risk is cautious rather than stressed, so the dollar sits on the right side of the smile."
+      },
+      {
+        "signpost": "Brent (confirm US$95-110; invalidate above US$120 on a Hormuz closure)",
+        "outcome": "Neither: front-month Brent reached US$117.64 on 30 October after briefly touching US$118.",
+        "implication": "The energy shock is larger than expected but not a full closure; it widens the euro's and yen's terms-of-trade gap with the US."
+      }
+    ],
+    "conviction_change": {
+      "previous_tactical": 3,
+      "current_tactical": 3,
+      "previous_strategic": 2,
+      "current_strategic": 2,
+      "explanation": "Tactical conviction is unchanged at 3 with a slightly lower score; strategic conviction is unchanged at 2, but the stance moves from Bearish to Neutral as the score rises from -0.182 to -0.096."
+    },
+    "new_catalysts": [
+      "2026-11-04: Treasury quarterly refunding",
+      "2026-11-18: FOMC minutes with two hawkish dissents to explain",
+      "2026-12-W5: year-end funding with reserves below USD 2.9tn"
+    ],
+    "thesis_trajectory": "Unchanged"
+  },
+  "seasonality": {
+    "pattern": "Year-end brings seasonal demand for dollar funding and thinner liquidity, which typically firms the dollar and offshore funding costs in the second half of December before the pressure fades in early January; Japan's fiscal year-end in March brings repatriation flows that tend to support the yen against the dollar.",
+    "relevance_window": "2026-12-01 to 2027-01-15 (year-end funding); 2027-02-15 to 2027-03-31 (Japanese fiscal year-end)",
+    "historical_magnitude": "We do not attach a reliable average return to either pattern; both are flow effects that shape the path within the scenarios rather than independent directional drivers.",
+    "current_alignment": "Year-end funding supports the tactical Bullish view and is captured in the Bullish USD Liquidity factor; March repatriation supports the strategic short USD/JPY relative-value view."
+  },
+  "assumptions": [
+    "The US Dollar Index is computed with the ICE formula from the 2026-10-30 closes of its six component pairs; spot levels, moving averages, 52-week ranges, percentiles and realised volatility are from weekday closing bars to 2026-10-30, with realised volatility annualised on 252 days.",
+    "The Fed policy rate is the 3.875% mid-point of the 3.75-4.00% target range; peer policy rates are the latest official decisions, including the Bank of Canada's 2.50% after its 28 October hike, and Singapore's short rate is three-month compounded SORA of 1.2970% because MAS has no policy rate.",
+    "Carry is the policy-rate differential; carry-to-volatility ratios use 60-day realised volatility of each pair; implied volatilities and 25-delta risk reversals are CME at-the-money quotes on euro and yen futures options observed 2026-10-29, and the implied-volatility percentile uses 41 observations since 23 August 2026 because a full year of quotes is not available.",
+    "December hike probabilities differ by source and time of day (77.3% at the 30 October close on a CME-method calculation, about 85% after the 28 October press conference, about 75% on 2 November); we use the 77-85% range and our own 70% estimate.",
+    "CFTC positioning is the ICE US Dollar Index futures report and the six CME currency futures for the week to 27 October; dollar-equivalent values convert contracts at 30 October spot, and percentiles use one-, three- and five-year windows of weekly reports.",
+    "There is no free source for 3-month EUR/USD or JPY/USD cross-currency basis, a US sovereign CDS spread or a current term-premium estimate; the dollar funding premium is inferred from CME futures rolls against policy gaps, which also embed expected policy changes.",
+    "PPP deviations use World Bank GDP PPP conversion factors as applied across G10+SGD this month (best available, flagged: the World Bank page did not display values on 2026-11-02); positive values mean the dollar is above parity.",
+    "The S&P 500 close for 30 October is shown as a 7,580-7,623 range because sources disagree (best available, flagged); FOMC dates in 2027 are given as weeks because the official dates were not confirmed for this report."
+  ],
+  "complete_citations": [
+    {
+      "id": 1,
+      "title": "Federal Reserve issues FOMC statement, 28 October 2026",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "url": "https://federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 2,
+      "title": "Implementation Note issued 28 October 2026",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "url": "https://federalreserve.gov/newsevents/pressreleases/monetary20261028a1.htm",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 3,
+      "title": "Warsh Press Conference: Fed Holds Rates at 3.75% to 4% as Cook and Hammack Vote for a Hike",
+      "publisher": "Admiral Markets",
+      "url": "https://admiralmarkets.com/analytics/traders-blog/warsh-press-conference-october-2026",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 4,
+      "title": "ECB signals December hike; Fed December hike odds",
+      "publisher": "Fattail",
+      "url": "https://fattail.ai/ecb-december-hike-signal/",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 5,
+      "title": "US Midterm Election: Newsquawk Week Ahead, 2nd-6th November 2026",
+      "publisher": "Global-View",
+      "url": "https://global-view.com/us-midterm-election-newsquawk-week-ahead-in-focus-2nd-6th-november-2026/",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 6,
+      "title": "Gross Domestic Product, 3rd Quarter 2026 (Advance Estimate)",
+      "publisher": "U.S. Bureau of Economic Analysis",
+      "url": "https://bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 7,
+      "title": "Personal Income and Outlays, September 2026",
+      "publisher": "U.S. Bureau of Economic Analysis",
+      "url": "https://bea.gov/news/2026/personal-income-and-outlays-september-2026",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 8,
+      "title": "The Consumer Price Index (CPI) Rose 0.6% in September",
+      "publisher": "First Trust Portfolios",
+      "url": "https://www.ftportfolios.com/Commentary/EconomicResearch/2026/10/14/the-consumer-price-index-cpi-rose-0.6percent-in-september",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 9,
+      "title": "The Employment Situation, September 2026",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 10,
+      "title": "ISM Manufacturing, September 2026",
+      "publisher": "Verified Investing",
+      "url": "https://verifiedinvesting.com/blogs/us-economic-metrics/ism-manufacturing-september-2026",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 11,
+      "title": "Euro area flash PMI, October 2026",
+      "publisher": "Mitrade",
+      "url": "https://www.mitrade.com/insights/news/live-news/article-6-2189091-20261023",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 12,
+      "title": "Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity (DGS10)",
+      "publisher": "Federal Reserve Bank of St. Louis (FRED)",
+      "url": "https://fred.stlouisfed.org/series/DGS10",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 13,
+      "title": "Market Yield on U.S. Treasury Securities at 2-Year Constant Maturity (DGS2)",
+      "publisher": "Federal Reserve Bank of St. Louis (FRED)",
+      "url": "https://fred.stlouisfed.org/series/DGS2",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 14,
+      "title": "Secured Overnight Financing Rate (SOFR)",
+      "publisher": "Federal Reserve Bank of St. Louis (FRED)",
+      "url": "https://fred.stlouisfed.org/series/SOFR",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 15,
+      "title": "H.4.1 Factors Affecting Reserve Balances, 29 October 2026",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "url": "https://www.federalreserve.gov/releases/h41/20261029/h41.pdf",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 16,
+      "title": "President Trump Signs Continuing Resolution to Fund Government Through December 11",
+      "publisher": "American Association of Colleges of Osteopathic Medicine",
+      "url": "https://www.aacom.org/news-reports/news/2026/09/08/president-trump-signs-continuing-resolution-to-fund-government-through-december-11",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 17,
+      "title": "Supplying Ample Reserves (Roberto Perli, 22 September 2026)",
+      "publisher": "Federal Reserve Bank of New York",
+      "url": "https://www.newyorkfed.org/medialibrary/media/newsevents/speeches/2026/Roberto-Perli-Sep-22-2026-slides.pdf",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 18,
+      "title": "Bank of Canada raises the policy rate by 25 basis points to 2.5%",
+      "publisher": "Bank of Canada",
+      "url": "https://www.bankofcanada.ca/?p=256515",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 19,
+      "title": "Senior Loan Officer Opinion Survey on Bank Lending Practices, July 2026",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "url": "https://www.federalreserve.gov/data/sloos/sloos-202607.htm",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 20,
+      "title": "Federal Reserve calendar, November 2026",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 21,
+      "title": "United States 10-Year Bond Yield",
+      "publisher": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 22,
+      "title": "US Dollar Index (DXY)",
+      "publisher": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/currency",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 23,
+      "title": "Nominal Broad U.S. Dollar Index (DTWEXBGS)",
+      "publisher": "Federal Reserve Bank of St. Louis (FRED)",
+      "url": "https://fred.stlouisfed.org/series/DTWEXBGS",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 24,
+      "title": "FX Talking, October 2026: Au revoir, euro bulls",
+      "publisher": "ING Think",
+      "url": "https://think.ing.com/uploads/reports/FXT_Final_October_121026.pdf",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 25,
+      "title": "EUR/USD price prediction: bank forecasts and the Reuters poll",
+      "publisher": "NAGA",
+      "url": "https://naga.com/en/news-and-analysis/articles/eurusd-price-prediction",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 26,
+      "title": "USD/JPY near 158 as yield-gap support collides with Japan's intervention risk",
+      "publisher": "Investing.com",
+      "url": "https://ca.investing.com/analysis/usdjpy-near-158-as-yield-gap-support-collides-with-japans-intervention-risk-200628629",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 27,
+      "title": "Euro FX futures and options",
+      "publisher": "CME Group",
+      "url": "https://www.cmegroup.com/markets/fx/g10/euro-fx.html",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 28,
+      "title": "Traders in Financial Futures, futures only, positions as of 27 October 2026",
+      "publisher": "Commodity Futures Trading Commission",
+      "url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 29,
+      "title": "Oil prices set for sharp monthly rise on Hormuz strikes and US threat to hit Iran",
+      "publisher": "The National",
+      "url": "https://www.thenationalnews.com/business/markets/2026/10/30/oil-prices-set-for-sharp-monthly-rise-on-hormuz-strikes-and-us-threat-to-hit-iran/",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 30,
+      "title": "United States Stock Market Index (US500)",
+      "publisher": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 31,
+      "title": "ICE BofA US Corporate Index Option-Adjusted Spread (BAMLC0A0CM)",
+      "publisher": "Federal Reserve Bank of St. Louis (FRED)",
+      "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 32,
+      "title": "What the 2026 US midterm elections could mean for the US dollar",
+      "publisher": "OFX",
+      "url": "https://www.ofx.com/en-hk/blog/what-the-2026-us-midterm-elections-could-mean-for-the-us-dollar/",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 33,
+      "title": "U.S. International Transactions and Investment Position, 2nd Quarter 2026",
+      "publisher": "U.S. Bureau of Economic Analysis",
+      "url": "https://bea.gov/news/2026/us-international-transactions-and-investment-position-2nd-quarter-2026",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 34,
+      "title": "US Records Net TIC Inflow in August",
+      "publisher": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/capital-flows/news/592879",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 35,
+      "title": "IMF Data Brief: Currency Composition of Official Foreign Exchange Reserves, 2026Q2",
+      "publisher": "International Monetary Fund",
+      "url": "https://data.imf.org/en/news/imf%20data%20brief%20september%2030",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 36,
+      "title": "CBO: FY 2026 Budget Deficit Totaled $2 Trillion",
+      "publisher": "American Action Forum",
+      "url": "https://www.americanactionforum.org/insight/cbo-fy-2026-budget-deficit-totaled-2-trillion/",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 37,
+      "title": "U.S. Ran a $2 Trillion Deficit Last Year, We Estimate",
+      "publisher": "Committee for a Responsible Federal Budget",
+      "url": "https://www.crfb.org/blogs/us-ran-2-trillion-deficit-last-year-we-estimate",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 38,
+      "title": "S&P Global affirms US sovereign credit rating at AA+ with stable outlook",
+      "publisher": "Fortune",
+      "url": "https://fortune.com/2026/06/27/sp-global-us-sovereign-credit-rating-aa-stable-outlook-debt-deficits/?rand=8593",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 39,
+      "title": "Effective exchange rates",
+      "publisher": "Bank for International Settlements",
+      "url": "https://data.bis.org/topics/EER",
+      "date_accessed": "2026-11-02"
+    },
+    {
+      "id": 40,
+      "title": "PPP conversion factor, GDP (LCU per international $)",
+      "publisher": "World Bank",
+      "url": "https://data.worldbank.org/indicator/PA.NUS.PPP?t=0",
+      "date_accessed": "2026-11-02"
+    }
+  ]
+}

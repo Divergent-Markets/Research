@@ -1,0 +1,572 @@
+{
+  "review_date": "2026-11-08",
+  "review_number": 1,
+  "days_since_analysis": 7,
+  "cycle": "2026-11-01",
+  "portfolio_pnl_pips": -122,
+  "profitable_count": 4,
+  "total_tracked": 10,
+  "universe_count": 31,
+  "positions": {
+    "EUR/USD": {
+      "tracked": true,
+      "rank": 1,
+      "direction": "Short",
+      "status": "on_track",
+      "entry": 1.11674,
+      "current": 1.11396,
+      "pnl_pips": 28,
+      "tactical_target": 1.105,
+      "pct_to_target": 23.7,
+      "narrative": "The pair closed at 1.12235 on 4 Nov and 1.12239 on 5 Nov, within 1.5 pips of the 1.1225 first-leg trigger. On 6 Nov it fell 84 pips to 1.11396 after payrolls of +165,000 against 65,000 expected lifted December Fed hike odds to 76.8%. US CPI on 10 Nov decides whether 1.1225 comes back into play.",
+      "flags": [],
+      "invalidator_status": {
+        "Pair still closing above the rising 200-week average when it reaches spot, around early January": "Clear — not testable before early January; pair at 1.11396",
+        "Two daily closes above 1.1225 followed by a daily close above 1.1290": "Watch — closes of 1.12235 (4 Nov) and 1.12239 (5 Nov) held just below 1.1225; now 85 pips below at 1.11396"
+      }
+    },
+    "EUR/SGD": {
+      "tracked": true,
+      "rank": 2,
+      "direction": "Short",
+      "status": "stalling",
+      "entry": 1.42738,
+      "current": 1.42939,
+      "pnl_pips": -20,
+      "tactical_target": 1.416,
+      "pct_to_target": -17.7,
+      "narrative": "The pair traded a 1.4274–1.4357 closing range with no trend. It peaked at 1.43568 on 4 Nov, 9 pips short of the 1.4366 sell-rally zone, then fell back with EUR/USD after payrolls. Negative carry costs about 3 pips a week while the trade waits for Singapore CPI on 23 Nov.",
+      "flags": [
+        "carry_drag"
+      ],
+      "invalidator_status": {
+        "Weekly close above 1.4502, the top of the 1.43658-1.45024 band": "Clear — Friday close 1.42939, 208 pips below",
+        "French budget passes by 17 November without censure and the OAT-Bund spread settles below 120bp for ten sessions": "Clear — revenue budget rejected 4 Nov; OAT-Bund 148.2bp on 5 Nov"
+      }
+    },
+    "EUR/JPY": {
+      "tracked": true,
+      "rank": 3,
+      "direction": "Short",
+      "status": "offside",
+      "entry": 175.95505,
+      "current": 176.55693,
+      "pnl_pips": -60,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "The pair rose to 177.86401 on 4 Nov, inside the 177.70–178.40 sell-rally zone. It then fell 131 pips over 5–6 Nov as the BoJ minutes and the tech rout lifted the yen. The strategic anchor, a December BoJ hike, looks near-locked, but carry cost about 4 pips this week.",
+      "flags": [
+        "carry_drag"
+      ],
+      "invalidator_status": {
+        "BoJ holds 18 Dec; January pricing below 40%": "Clear — December hike near-locked; over 80% of economists expect it"
+      }
+    },
+    "USD/SGD": {
+      "tracked": true,
+      "rank": 4,
+      "direction": "Long/Short",
+      "status": "on_track",
+      "entry": 1.27819,
+      "current": 1.28319,
+      "pnl_pips": 50,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "The tactical long rose 51 pips on 6 Nov payrolls to 1.28319 after four flat sessions between 1.27811 and 1.28163. It is now 8 pips from the 1.2840–1.2870 handover zone to the strategic short, so most of the tactical reward has been collected.",
+      "flags": [],
+      "invalidator_status": {
+        "Negative payrolls cut December Fed pricing below 50%": "Clear — payrolls +165,000; FedWatch December hike probability 76.8%"
+      }
+    },
+    "GBP/CHF": {
+      "tracked": true,
+      "rank": 5,
+      "direction": "Long/Short",
+      "status": "offside",
+      "entry": 1.10417,
+      "current": 1.09562,
+      "pnl_pips": -86,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "The tactical long fell for three straight sessions to the week's low of 1.09562, despite the BoE's 5 Nov hike to 4.00%. Risk-off with VIX at 28.18 and Swiss CPI at 1.5% (1.3% expected) revived franc demand, undercutting the 0%-SNB carry premise. The pair is now 144 pips below the 1.1100 handover level.",
+      "flags": [
+        "thesis_weakening"
+      ],
+      "invalidator_status": {
+        "US strike on Iran or OAT-Bund above 170bp": "Clear — Brent $98.32 with no strike; OAT-Bund 148.2bp"
+      }
+    },
+    "CAD/CHF": {
+      "tracked": true,
+      "rank": 6,
+      "direction": "Short",
+      "status": "on_track",
+      "entry": 0.59021,
+      "current": 0.58067,
+      "pnl_pips": 95,
+      "tactical_target": 0.585,
+      "pct_to_target": 183.1,
+      "narrative": "The pair closed through the 0.5850 target on 4 Nov (0.58492) and ended the week at 0.58067, 43 pips beyond it. Drivers were Canadian employment at −4,700 with unemployment at 6.7%, the oil slump and Swiss CPI at 1.5%. Restarted US–Canada trade talks are the tail that could reverse it.",
+      "flags": [],
+      "invalidator_status": {
+        "Targeted US–Canada agreement cuts steel or car tariffs and withdraws the 1 January 2027 threat": "Watch — talks restarted 4 Nov on a narrow agenda; no deal announced (0 agreements)",
+        "Canada–Switzerland 2-year spread widens above 340bp from 313bp for five sessions": "Watch — no reading located since the 313bp at analysis"
+      }
+    },
+    "EUR/CHF": {
+      "tracked": true,
+      "rank": 7,
+      "direction": "Short",
+      "status": "on_track",
+      "entry": 0.92064,
+      "current": 0.91418,
+      "pnl_pips": 65,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "The pair fell to the week's low of 0.91418 on 6 Nov. Swiss CPI at 1.5%, the 4 Nov French budget rejection and the 5 Nov haven bid all supported the short. The summary's French-stress level of 0.9107 is 31 pips away.",
+      "flags": [
+        "carry_drag"
+      ],
+      "invalidator_status": {
+        "ECB projections lift 2027 core HICP to 2.9%+": "Clear — projections due 17 Dec; not yet published against the 2.9% threshold"
+      }
+    },
+    "AUD/NZD": {
+      "tracked": true,
+      "rank": 8,
+      "direction": "Long",
+      "status": "at_risk",
+      "entry": 1.24897,
+      "current": 1.23886,
+      "pnl_pips": -101,
+      "tactical_target": 1.262,
+      "pct_to_target": -77.6,
+      "narrative": "The RBA hiked to 4.85% on 3 Nov on a 6–3 vote and dropped its tightening bias, the 'hike framed as the peak' risk the summary named. The pair closed at the week's low of 1.23886, 59 pips above the implied 1.2330 stop, even though the policy differential widened to +210bp. The NZ coalition holds 67 of 131 seats on preliminary counts, with special votes outstanding.",
+      "flags": [
+        "thesis_weakening",
+        "approaching_invalidator"
+      ],
+      "invalidator_status": {
+        "AU–NZ 2-year spread below +90bp for five sessions, from about +113bp": "Watch — no 2-year reading located; policy differential widened from +185bp to +210bp while spot fell 101 pips",
+        "Australian October unemployment at 4.9% or higher with a 25 November trimmed mean of 3.4% or lower": "Watch — data due 19 and 25 Nov; RBA statement says unemployment has risen"
+      }
+    },
+    "USD/CHF": {
+      "tracked": true,
+      "rank": 9,
+      "direction": "Long/Short",
+      "status": "offside",
+      "entry": 0.82432,
+      "current": 0.82069,
+      "pnl_pips": -36,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "The tactical long fell to a low close of 0.81662 on 5 Nov, then recovered 41 pips on payrolls. The risk-off invalidator is half met, with VIX closing at 28.18 and 25.64. Franc short-covering below 10,000 contracts would complete it.",
+      "flags": [
+        "approaching_invalidator"
+      ],
+      "invalidator_status": {
+        "December dots ≥4.4% with SNB forecast unchanged": "Clear — FOMC and SNB decisions due 9–10 Dec; no 2027 dot published yet against 4.4%",
+        "VIX above 25 for two sessions with the leveraged franc short covered below 10,000 contracts": "Watch — VIX closed 28.18 (5 Nov) and 25.64 (6 Nov); franc positioning against the 10,000-contract threshold not located"
+      }
+    },
+    "GBP/JPY": {
+      "tracked": true,
+      "rank": 10,
+      "direction": "Short",
+      "status": "invalidated",
+      "entry": 211.02715,
+      "current": 211.59812,
+      "pnl_pips": -57,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "On 5 Nov all nine MPC members voted to hike to 4.00% (one for 50bp), and Bailey gave conditional guidance for more. With SONIA pricing 4.76% by October 2027, this meets the dashboard's BoE invalidator. The pair closed 57 pips above entry after a 240-pip run to 213.42798 on 4 Nov, and carry costs about 10 pips a week.",
+      "flags": [
+        "invalidator_triggered",
+        "thesis_weakening",
+        "carry_drag"
+      ],
+      "invalidator_status": {
+        "BoJ holds 18 Dec; January odds below 40%": "Clear — December hike near-locked; over 80% of economists expect it",
+        "BoE 9-0 hike with guidance for more; 2027 strip ≥4.75%": "TRIGGERED — all nine voted to hike (8×25bp, 1×50bp) with conditional guidance for more; SONIA priced Bank Rate at 4.76% by Oct 2027 (read 3 Nov, before the decision)"
+      }
+    },
+    "NZD/USD": {
+      "tracked": false,
+      "rank": 11,
+      "direction": "Short",
+      "status": "quiet",
+      "entry": 0.56319,
+      "current": 0.55418,
+      "pnl_pips": 90,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Fell 90 pips to 0.55418 in the short's favour, far below the 0.5730 daily-close invalidator.",
+      "flags": [],
+      "invalidator_status": {
+        "Daily close above 0.5730, then weekly above 0.5764": "Clear — highest close 0.56221 (2 Nov); now 0.55418"
+      }
+    },
+    "AUD/JPY": {
+      "tracked": false,
+      "rank": 12,
+      "direction": "Long/Short",
+      "status": "quiet",
+      "entry": 110.81356,
+      "current": 108.81299,
+      "pnl_pips": -200,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Fell 200 pips to 108.81299 against the tactical long in the 5–6 Nov carry unwind, which met two of the three risk-off invalidator conditions.",
+      "flags": [
+        "approaching_invalidator"
+      ],
+      "invalidator_status": {
+        "BoJ holds 18 Dec; January pricing below 40%": "Clear — December hike near-locked; over 80% of economists expect it",
+        "VIX above 25 for two sessions, US high-yield above 375bp and a close below 109.50": "Watch — VIX closed 28.18 and 25.64; close 108.81299 below 109.50 on 6 Nov; high-yield spread against 375bp not located"
+      }
+    },
+    "GBP/CAD": {
+      "tracked": false,
+      "rank": 13,
+      "direction": "Short",
+      "status": "quiet",
+      "entry": 1.87078,
+      "current": 1.88674,
+      "pnl_pips": -160,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Rose 160 pips to 1.88674 against the short, closing higher every session as the oil fall and weak Canadian jobs data weighed on CAD.",
+      "flags": [
+        "approaching_invalidator"
+      ],
+      "invalidator_status": {
+        "BoE 9-0; strip ≥4.75% after February MPR": "Watch — all nine voted to hike on 5 Nov and SONIA priced 4.76% for Oct 2027 on 3 Nov, but the condition is tied to the February MPR"
+      }
+    },
+    "EUR/AUD": {
+      "tracked": false,
+      "rank": 14,
+      "direction": "Short",
+      "status": "invalidated",
+      "entry": 1.58767,
+      "current": 1.62259,
+      "pnl_pips": -349,
+      "tactical_target": 1.57,
+      "pct_to_target": -197.6,
+      "narrative": "Closed at 1.61609 on 5 Nov, above the 1.6065 daily-close stop, and at 1.62259 on 6 Nov, above the 1.6150 weekly threshold, so the first invalidator has fired at −349 pips unstopped.",
+      "flags": [
+        "invalidator_triggered"
+      ],
+      "invalidator_status": {
+        "Daily close above 1.6065, then weekly close above 1.6150": "TRIGGERED — daily close 1.61609 on 5 Nov; weekly close 1.62259 on 6 Nov",
+        "ACGB 2-year–Schatz spread narrows below 160bp from 191bp": "Watch — no reading located since the 191bp at analysis"
+      }
+    },
+    "CAD/SGD": {
+      "tracked": false,
+      "rank": 15,
+      "direction": "Short",
+      "status": "quiet",
+      "entry": 0.91511,
+      "current": 0.90792,
+      "pnl_pips": 72,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Fell 72 pips to 0.90792 in the short's favour, most of it after the 6 Nov Canadian jobs miss.",
+      "flags": [],
+      "invalidator_status": {
+        "Targeted US–Canada steel and auto deal": "Watch — talks restarted 4 Nov on a narrow agenda; no deal announced (0 agreements)"
+      }
+    },
+    "EUR/CAD": {
+      "tracked": false,
+      "rank": 16,
+      "direction": "Short",
+      "status": "quiet",
+      "entry": 1.55988,
+      "current": 1.57439,
+      "pnl_pips": -145,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Rose 145 pips to 1.57439 against the short, closing higher every session as the oil fall hit CAD.",
+      "flags": [],
+      "invalidator_status": {
+        "Canadian jobs −60k; BoC 2027 pricing below 25%": "Clear — October employment −4,700, far short of −60,000"
+      }
+    },
+    "GBP/USD": {
+      "tracked": false,
+      "rank": 17,
+      "direction": "Short",
+      "status": "quiet",
+      "entry": 1.3395,
+      "current": 1.33488,
+      "pnl_pips": 46,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Fell 46 pips to 1.33488 in the short's favour, giving back 119 pips from its 4 Nov high of 1.34677 after the BoE decision and payrolls.",
+      "flags": [],
+      "invalidator_status": {
+        "Weekly close above 1.3640": "Clear — weekly close 1.33488, 291 pips below"
+      }
+    },
+    "GBP/AUD": {
+      "tracked": false,
+      "rank": 18,
+      "direction": "Short",
+      "status": "invalidated",
+      "entry": 1.90442,
+      "current": 1.94462,
+      "pnl_pips": -402,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Rose 402 pips to 1.94462 against the short, and the BoE condition the review found triggered for GBP/JPY is this pair's published invalidator.",
+      "flags": [
+        "invalidator_triggered"
+      ],
+      "invalidator_status": {
+        "BoE 9-0 hike; 2027 strip holds ≥4.75%": "TRIGGERED — all nine voted to hike on 5 Nov (8×25bp, 1×50bp); SONIA priced 4.76% by Oct 2027 (read 3 Nov)"
+      }
+    },
+    "AUD/CHF": {
+      "tracked": false,
+      "rank": 19,
+      "direction": "Short",
+      "status": "quiet",
+      "entry": 0.57979,
+      "current": 0.5634,
+      "pnl_pips": 164,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Fell 164 pips to 0.5634 in the short's favour as AUD sold off after the RBA and the franc drew haven demand.",
+      "flags": [],
+      "invalidator_status": {
+        "SNB keeps 2027 inflation forecast at 0.8% or lower": "Clear — SNB assessment due 10 Dec; October CPI rose to 1.5% against 1.3% expected"
+      }
+    },
+    "EUR/GBP": {
+      "tracked": false,
+      "rank": 20,
+      "direction": "Long",
+      "status": "quiet",
+      "entry": 0.83377,
+      "current": 0.83444,
+      "pnl_pips": 7,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Flat at 0.83444, up 7 pips, with every close inside 0.83342–0.83477.",
+      "flags": [],
+      "invalidator_status": {
+        "BoE 9-0; Schatz–gilt gap beyond −200bp": "Watch — all nine voted to hike on 5 Nov; Schatz–gilt gap against the −200bp threshold not located"
+      }
+    },
+    "USD/JPY": {
+      "tracked": false,
+      "rank": 21,
+      "direction": "Short",
+      "status": "quiet",
+      "entry": 157.55809,
+      "current": 158.50027,
+      "pnl_pips": -94,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Rose 94 pips to 158.50027 against the short.",
+      "flags": [],
+      "invalidator_status": {
+        "December dots ≥4.5%; 2y spread above 300bp": "Clear — dots due 9 Dec; policy differential unchanged at 263bp"
+      }
+    },
+    "NZD/JPY": {
+      "tracked": false,
+      "rank": 22,
+      "direction": "Short",
+      "status": "quiet",
+      "entry": 88.71507,
+      "current": 87.83449,
+      "pnl_pips": 88,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Fell 88 pips to 87.83449 in the short's favour during the 5–6 Nov risk-off.",
+      "flags": [],
+      "invalidator_status": {
+        "BoJ holds 18 Dec; January odds below 40%": "Clear — December hike near-locked; over 80% of economists expect it"
+      }
+    },
+    "AUD/CAD": {
+      "tracked": false,
+      "rank": 23,
+      "direction": "Long",
+      "status": "quiet",
+      "entry": 0.98238,
+      "current": 0.97029,
+      "pnl_pips": -121,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Fell 121 pips to 0.97029 against the long, and the 6 Nov close sits below the 0.9715 stop cited in the executive summary's cross-pair check.",
+      "flags": [],
+      "invalidator_status": {
+        "Targeted US–Canada steel and auto deal": "Watch — talks restarted 4 Nov on a narrow agenda; no deal announced (0 agreements)"
+      }
+    },
+    "CAD/JPY": {
+      "tracked": false,
+      "rank": 24,
+      "direction": "Short",
+      "status": "quiet",
+      "entry": 112.80397,
+      "current": 112.14456,
+      "pnl_pips": 66,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Fell 66 pips to 112.14456 in the short's favour, after peaking at 113.42903 on 4 Nov.",
+      "flags": [],
+      "invalidator_status": {
+        "Targeted US–Canada tariff deal": "Watch — talks restarted 4 Nov on a narrow agenda; no deal announced (0 agreements)"
+      }
+    },
+    "AUD/SGD": {
+      "tracked": false,
+      "rank": 25,
+      "direction": "Short",
+      "status": "quiet",
+      "entry": 0.89894,
+      "current": 0.88092,
+      "pnl_pips": 180,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Fell 180 pips to 0.88092 in the short's favour as the RBA dropped its tightening bias.",
+      "flags": [],
+      "invalidator_status": {
+        "RBA guides to more hikes; February pricing above 75%": "Clear — RBA hiked on a 6–3 vote and removed its further-tightening language"
+      }
+    },
+    "CHF/JPY": {
+      "tracked": false,
+      "rank": 26,
+      "direction": "Short",
+      "status": "quiet",
+      "entry": 191.11681,
+      "current": 193.13364,
+      "pnl_pips": -202,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Rose 202 pips to 193.13364 against the short, 185 pips of it on 2 Nov.",
+      "flags": [],
+      "invalidator_status": {
+        "BoJ holds 18 Dec; January odds below 40%": "Clear — December hike near-locked; over 80% of economists expect it"
+      }
+    },
+    "NZD/CAD": {
+      "tracked": false,
+      "rank": 27,
+      "direction": "Neutral",
+      "status": "quiet",
+      "entry": 0.78648,
+      "current": 0.78324,
+      "pnl_pips": null,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Slipped 32 pips to 0.78324 with no direction held.",
+      "flags": [],
+      "invalidator_status": {
+        "Targeted US–Canada steel tariff deal": "Watch — talks restarted 4 Nov on a narrow agenda; no deal announced (0 agreements)"
+      }
+    },
+    "SGD/JPY": {
+      "tracked": false,
+      "rank": 28,
+      "direction": "Long",
+      "status": "quiet",
+      "entry": 123.26702,
+      "current": 123.52172,
+      "pnl_pips": 25,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Edged up 25 pips to 123.52172, with every close well above the 122.20 invalidator.",
+      "flags": [],
+      "invalidator_status": {
+        "Two closes below 122.20": "Clear — lowest close 123.44757 (2 Nov)"
+      }
+    },
+    "SGD/CHF": {
+      "tracked": false,
+      "rank": 29,
+      "direction": "Neutral",
+      "status": "quiet",
+      "entry": 0.64492,
+      "current": 0.63959,
+      "pnl_pips": null,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Fell 53 pips to 0.63959 with no direction held.",
+      "flags": [],
+      "invalidator_status": {
+        "OAT-Bund above 170bp with EUR/CHF below 0.9100": "Clear — OAT-Bund 148.2bp (5 Nov); EUR/CHF 0.91418"
+      }
+    },
+    "USD/CAD": {
+      "tracked": false,
+      "rank": 30,
+      "direction": "Neutral",
+      "status": "quiet",
+      "entry": 1.3968,
+      "current": 1.41337,
+      "pnl_pips": null,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Rose 166 pips to 1.41337, 135 of them on 6 Nov after Canadian employment fell 4,700 against a 13,600 gain expected; no direction held.",
+      "flags": [],
+      "invalidator_status": {
+        "Section 232 deal withdraws January threat": "Watch — talks restarted 4 Nov on a narrow agenda; no deal announced (0 agreements)"
+      }
+    },
+    "AUD/USD": {
+      "tracked": false,
+      "rank": 31,
+      "direction": "Neutral",
+      "status": "quiet",
+      "entry": 0.70331,
+      "current": 0.68652,
+      "pnl_pips": null,
+      "tactical_target": null,
+      "pct_to_target": null,
+      "narrative": "Fell 168 pips to 0.68652 with no direction held, as Brent dipped below the $95 invalidator level for one settle ($94.62 on 4 Nov).",
+      "flags": [
+        "approaching_invalidator"
+      ],
+      "invalidator_status": {
+        "US–Iran settlement holds Brent below US$95": "Watch — no settlement; Brent settled $94.62 on 4 Nov, then $98.32 on 6 Nov"
+      }
+    }
+  },
+  "key_developments": [
+    "3 Nov: RBA hiked 25bp to 4.85% on a 6–3 vote and dropped its further-tightening language; AUD/NZD fell 40 pips that day, and AUD fell against every G10 currency except NOK on the week.",
+    "3 Nov: US midterms delivered a Democratic sweep; on 5 Nov the Nasdaq 100 fell 6.36% and the S&P 500 4.36%, and VIX closed at 28.18 (25.64 on 6 Nov).",
+    "3 Nov: Swiss October CPI rose to 1.5% yoy against 1.3% expected, above the SNB's 1.2% Q4 forecast.",
+    "4 Nov: French National Assembly unanimously rejected the 2027 revenue budget; OAT-Bund then tightened to 148.2bp on 5 Nov.",
+    "5 Nov: BoE hiked to 4.00% with eight votes for 25bp and one for 50bp.",
+    "6 Nov: US payrolls +165,000 against 65,000 expected and unemployment 4.1%; CME FedWatch December hike probability 76.8% from 66.9%.",
+    "6 Nov: Canadian employment −4,700 against +13,600 expected and unemployment 6.7%; USD/CAD rose 135 pips on the day.",
+    "Brent fell to a $98.32 settle on 6 Nov, its steepest weekly fall since 2020, on US–Iran deal bets ($94.62 on 4 Nov).",
+    "7 Nov: NZ preliminary count gives the coalition 67 of 131 seats, one above a majority, with about 700,000 special votes outstanding."
+  ],
+  "new_risks_identified": [
+    "Equity-led risk-off driven by AI and politics rather than credit: the 5 Nov crash pushed VIX to 28.18 and drove the franc and yen bid behind losses in GBP/CHF, USD/CHF and the yen-cross shorts.",
+    "Oil fell about 16% on peace bets before any settlement, eroding the energy channel behind the structural EUR and GBP shorts.",
+    "The RBA's hike landed as a peak signal, so AUD weakness is now hitting long AUD/NZD and short EUR/AUD at the same time.",
+    "The BoE delivered a unanimous hike with conditional guidance for more, challenging the over-priced-BoE thesis across all sterling shorts.",
+    "NZ special-vote count could still produce a hung parliament, with the official result around 27 Nov."
+  ],
+  "consensus_shifts": [
+    "EUR/USD: Rabobank now forecasts 1.10 in three months, below our 1.1050 tactical target. UBS keeps 1.16 for end-2026, and the 27-provider aggregate updated 5 Nov sits at 1.1530.",
+    "AUD/NZD: spot fell 101 pips toward TD's 1.22 consensus; no bank revisions found.",
+    "EUR/AUD: spot rose 349 pips to 1.62259, above the 1.6159 end-Q4 aggregate; no bank revisions found."
+  ],
+  "invalidators_triggered": [
+    "GBP/JPY: BoE 9-0 hike with guidance for more; 2027 strip ≥4.75% — all nine voted to hike on 5 Nov (8×25bp, 1×50bp) with conditional guidance for more, and SONIA priced 4.76% by Oct 2027 (read 3 Nov)",
+    "GBP/AUD: BoE 9-0 hike; 2027 strip holds ≥4.75% — same 5 Nov unanimous hike with SONIA at 4.76% by Oct 2027 (read 3 Nov)",
+    "EUR/AUD: Daily close above 1.6065, then weekly close above 1.6150 — daily close 1.61609 on 5 Nov and weekly close 1.62259 on 6 Nov, −349 pips from the 1.58767 entry"
+  ],
+  "next_key_catalyst": "10 Nov — US CPI, October: EUR/USD sits 85 pips below its 1.1225 first-leg trigger, and the print also moves USD/SGD (8 pips from the 1.2840 handover) and USD/CHF."
+}
